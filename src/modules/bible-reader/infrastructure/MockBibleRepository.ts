@@ -14,7 +14,7 @@ export class MockBibleRepository implements IBibleRepository {
     const item = this.findPassageData(ref);
 
     const translationInfo = AVAILABLE_TRANSLATIONS[translationId] || AVAILABLE_TRANSLATIONS.RVC;
-    const text = item.translations[translationId] || item.translations.RVC;
+    const text = item.translations[translationId] || item.translations.RVC || `Lectura de ${ref.fullFormatted} en ${translationInfo.name}.`;
 
     return {
       translationId,
@@ -50,7 +50,7 @@ export class MockBibleRepository implements IBibleRepository {
       .map((p) => p.reference);
 
     if (suggestions.length > 0) return suggestions;
-    return ['Juan 3:16', 'Salmos 23', 'Proverbios 3:5', 'Romanos 8:28', 'Filipenses 4:13'];
+    return ['Génesis 1:1', 'Rut 1:6-8', 'Juan 3:16', 'Salmos 23', 'Proverbios 3:5', 'Romanos 8:28', 'Filipenses 4:13'];
   }
 
   private findPassageData(ref: PassageReference): StaticPassageData {
@@ -67,18 +67,17 @@ export class MockBibleRepository implements IBibleRepository {
     if (found) return found;
 
     // Fallback template for any other queried book/chapter
+    const fallbackTranslations: Record<string, string> = {};
+    for (const [key, info] of Object.entries(AVAILABLE_TRANSLATIONS)) {
+      fallbackTranslations[key] = `Lectura de ${ref.fullFormatted} en ${info.name}.`;
+    }
+
     return {
       reference: ref.fullFormatted,
       book: ref.book,
       chapter: ref.chapter,
       title: `${ref.book} - Capítulo ${ref.chapter}`,
-      translations: {
-        RVC: `Lectura de ${ref.fullFormatted} en Reina-Valera Contemporánea.`,
-        NBLA: `Lectura de ${ref.fullFormatted} en Nueva Biblia de las Américas.`,
-        NVI: `Lectura de ${ref.fullFormatted} en Nueva Versión Internacional.`,
-        NTV: `Lectura de ${ref.fullFormatted} en Nueva Traducción Viviente.`,
-        TLA: `Lectura de ${ref.fullFormatted} en Traducción en Lenguaje Actual.`,
-      },
+      translations: fallbackTranslations,
     };
   }
 }

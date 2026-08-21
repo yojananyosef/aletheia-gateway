@@ -5,12 +5,16 @@
   import FeatureCards from './FeatureCards.svelte';
   import ReaderView from './ReaderView.svelte';
 
-  import type { TranslationId } from '../domain/entities/Translation';
+  import {
+    AVAILABLE_TRANSLATIONS,
+    type TranslationId,
+  } from '../domain/entities/Translation';
   import type { PassageVersionResult } from '../domain/entities/Chapter';
   import { PassageReference } from '../domain/value-objects/PassageReference';
   import { MockBibleRepository } from '../infrastructure/MockBibleRepository';
   import { CompareTranslationsUseCase } from '../application/CompareTranslationsUseCase';
   import { LocalStorageBookmarkRepository } from '../../bookmarks/infrastructure/LocalStorageBookmarkRepository';
+  import type { FontSizeOption } from './FontSizeSelector.svelte';
 
   // Dependency Inversion / IoC instances
   const bibleRepository = new MockBibleRepository();
@@ -24,6 +28,7 @@
   let selectedTranslations = $state<TranslationId[]>(['RVC']);
   let isBookmarked = $state(false);
   let passages = $state<PassageVersionResult[]>([]);
+  let fontSize = $state<FontSizeOption>('medium');
 
   // Load comparison data whenever activeQuery or selectedTranslations change
   async function loadPassageData() {
@@ -49,8 +54,25 @@
   });
 
   onMount(() => {
+    try {
+      const savedFontSize = localStorage.getItem('alethia_font_size') as FontSizeOption;
+      if (savedFontSize) {
+        fontSize = savedFontSize;
+      }
+    } catch {
+      // Ignore localStorage restrictions
+    }
     loadPassageData();
   });
+
+  function handleFontSizeChange(newSize: FontSizeOption) {
+    fontSize = newSize;
+    try {
+      localStorage.setItem('alethia_font_size', newSize);
+    } catch {
+      // Ignore
+    }
+  }
 
   function handleSearch(event: SubmitEvent) {
     event.preventDefault();
@@ -76,16 +98,26 @@
     }
   }
 
-  function handleToggleTranslation(version: TranslationId) {
-    if (selectedTranslations.includes(version)) {
-      if (selectedTranslations.length > 1) {
-        selectedTranslations = selectedTranslations.filter((item) => item !== version);
-      }
-    } else {
-      if (selectedTranslations.length < 5) {
-        selectedTranslations = [...selectedTranslations, version];
-      }
-    }
+  // Add next available translation to parallel columns (up to 5)
+  function handleAddParallelColumn() {
+    if (selectedTranslations.length >= 5) return;
+    const allKeys = Object.keys(AVAILABLE_TRANSLATIONS) as TranslationId[];
+    const unused = allKeys.find((id) => !selectedTranslations.includes(id));
+    const nextToAdd = unused || 'NBLA';
+    selectedTranslations = [...selectedTranslations, nextToAdd];
+  }
+
+  // Change translation of a specific parallel column
+  function handleChangeColumnTranslation(index: number, newTranslationId: TranslationId) {
+    const nextList = [...selectedTranslations];
+    nextList[index] = newTranslationId;
+    selectedTranslations = nextList;
+  }
+
+  // Remove a specific parallel column
+  function handleRemoveColumn(index: number) {
+    if (selectedTranslations.length <= 1) return;
+    selectedTranslations = selectedTranslations.filter((_, i) => i !== index);
   }
 
   function handlePrevChapter() {
@@ -138,9 +170,14 @@
       {passages}
       {selectedTranslations}
       {isBookmarked}
+      {fontSize}
       onSearch={handleSearch}
       onQueryChange={(val) => (query = val)}
-      onToggleTranslation={handleToggleTranslation}
+      onAddParallelColumn={handleAddParallelColumn}
+      onChangeColumnTranslation={handleChangeColumnTranslation}
+      onRemoveColumn={handleRemoveColumn}
+      onFontSizeChange={handleFontSizeChange}
+      onSelectPassage={handleGoToReader}
       onPrevChapter={handlePrevChapter}
       onNextChapter={handleNextChapter}
       onToggleBookmark={handleToggleBookmark}

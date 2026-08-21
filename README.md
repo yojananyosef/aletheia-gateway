@@ -148,6 +148,16 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.3.0] - 2026-08-21
+#### Añadido
+- 🗂️ **Botón «+ Agregar paralelo»**: Adición dinámica de hasta 5 versiones en paralelo, eliminando botones fijos y optimizando espacio.
+- 🔄 **Selector de Versión por Columna**: Menú desplegable neobrutalista individual por columna con botón de cierre (`✕`) dedicado.
+- 📖 **Modal «Lista de libros bíblicos»**: Selector estructurado en 3 columnas (Antiguo Testamento, Nuevo Testamento y Capítulos) con filtro de búsqueda instantáneo.
+- 🔤 **Selector de Tamaño de Fuente**: Menú de ajuste tipográfico (X-Grande, Grande, Medio, Pequeño, X-Pequeño) con persistencia en `localStorage`.
+- ◀ ▶ **Navegación de Capítulos Optimizada**: Botones laterales táctiles esbeltos e indicadores integrados en la barra de herramientas.
+- 📱 **Sidebar Móvil Refinado**: Cajón amplio y limpio que se cierra haciendo clic fuera sin elementos invasivos.
+- 🎯 **Foco Limpio en Buscador**: Borde negro enfocado exclusivamente en el campo de texto.
+
 ### [0.2.0] - 2026-08-21
 #### Añadido
 - 🧠 **Design System Maestro**: Integración de pautas neurocognitivas WCAG 2.2 AAA / Criterio 1.4.12, control sacádico de lectura (`65ch`), tipografías (`Syne`, `Archivo Black`, `Inter`, `JetBrains Mono`, `Lexend`) y cinemática mecánica 1:1.

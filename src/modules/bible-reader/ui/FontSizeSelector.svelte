@@ -1,0 +1,68 @@
+<script lang="ts">
+  import { Type, ChevronDown } from 'lucide-svelte';
+
+  export type FontSizeOption = 'x-small' | 'small' | 'medium' | 'large' | 'x-large';
+
+  interface Props {
+    currentSize: FontSizeOption;
+    onSizeChange: (size: FontSizeOption) => void;
+  }
+
+  let { currentSize = 'medium', onSizeChange }: Props = $props();
+
+  let isOpen = $state(false);
+
+  const options: { id: FontSizeOption; label: string; sample: string }[] = [
+    { id: 'x-large', label: 'X-Grande', sample: '22px' },
+    { id: 'large', label: 'Grande', sample: '20px' },
+    { id: 'medium', label: 'Medio', sample: '18px (Normal)' },
+    { id: 'small', label: 'Pequeño', sample: '16px' },
+    { id: 'x-small', label: 'X-Pequeño', sample: '14px' },
+  ];
+
+  let currentLabel = $derived(
+    options.find((o) => o.id === currentSize)?.label || 'Medio'
+  );
+
+  function handleSelect(size: FontSizeOption) {
+    onSizeChange(size);
+    isOpen = false;
+  }
+</script>
+
+<div class="font-size-dropdown-container">
+  <button
+    type="button"
+    class="font-size-trigger-btn {isOpen ? 'is-active' : ''}"
+    aria-expanded={isOpen}
+    aria-haspopup="listbox"
+    title="Ajustar tamaño de fuente del lector"
+    onclick={() => (isOpen = !isOpen)}
+  >
+    <Type size={16} />
+    <span class="truncate">Tamaño: <strong>{currentLabel}</strong></span>
+    <ChevronDown size={14} class="shrink-0 transition-transform {isOpen ? 'rotate-180' : ''}" />
+  </button>
+
+  {#if isOpen}
+    <div
+      class="font-size-menu"
+      role="listbox"
+      tabindex="-1"
+    >
+      <div class="menu-label">Tamaño de Fuente</div>
+      {#each options as opt}
+        <button
+          type="button"
+          role="option"
+          aria-selected={currentSize === opt.id}
+          class="font-size-option-btn {currentSize === opt.id ? 'is-selected' : ''}"
+          onclick={() => handleSelect(opt.id)}
+        >
+          <span class="font-bold">{opt.label}</span>
+          <span class="text-xs opacity-75">{opt.sample}</span>
+        </button>
+      {/each}
+    </div>
+  {/if}
+</div>
