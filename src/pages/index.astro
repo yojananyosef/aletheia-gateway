@@ -1,0 +1,11 @@
+---
+import RootLayout from '../layouts/RootLayout.astro';
+import BibleReaderApp from '../modules/bible-reader/ui/BibleReaderApp.svelte';
+---
+
+<RootLayout
+  title="AlethiaGateway | Lee y compara la Biblia en línea"
+  description="Plataforma de lectura bíblica en español con comparador multi-versión en tiempo real, devocionales y biblioteca de estudio."
+>
+  <BibleReaderApp client:load />
+</RootLayout>
