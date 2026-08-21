@@ -49,13 +49,16 @@
 
     <div class="reader-top-right">
       <form class="search-form reader-search" onsubmit={onSearch}>
-        <Search size={16} class="text-black shrink-0" />
-        <input
-          aria-label="Buscar otro pasaje"
-          value={query}
-          oninput={(e) => onQueryChange((e.target as HTMLInputElement).value)}
-          placeholder="Buscar pasaje..."
-        />
+        <div class="search-input-wrapper">
+          <Search size={16} class="search-icon" />
+          <input
+            type="text"
+            aria-label="Buscar otro pasaje"
+            value={query}
+            oninput={(e) => onQueryChange((e.target as HTMLInputElement).value)}
+            placeholder="Buscar pasaje (ej. Juan 3:16)..."
+          />
+        </div>
         <button type="submit">Buscar</button>
       </form>
     </div>

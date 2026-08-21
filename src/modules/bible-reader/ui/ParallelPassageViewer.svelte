@@ -10,32 +10,32 @@
 </script>
 
 <div
-  class="passage-list horizontal"
+  class="passage-list-parallel"
   style="--version-count: {passages.length || 1};"
 >
   {#each passages as passage, index}
     <article class="translation-block">
-      <div class="translation-label">
-        <span>{passage.translationId}</span>
-        <span>{passage.translationName}</span>
+      <div class="translation-header">
+        <span class="version-tag">{passage.translationId}</span>
+        <span class="version-full-name truncate">{passage.translationName}</span>
       </div>
 
-      {#each passage.verses as verse}
-        <p class="passage-text">
-          <sup>{verse.number}</sup> {verse.text}
-        </p>
-      {/each}
+      <div class="verses-content">
+        {#each passage.verses as verse}
+          <p class="passage-text">
+            <sup class="verse-num">{verse.number}</sup> {verse.text}
+          </p>
+        {/each}
+      </div>
 
-      {#if index === 0}
-        <div class="passage-actions">
-          <button type="button">
-            <Headphones size={15} /> Escuchar
-          </button>
-          <button type="button">
-            <Highlighter size={15} /> Resaltar
-          </button>
-        </div>
-      {/if}
+      <div class="passage-actions">
+        <button type="button" title="Escuchar audio de {passage.translationId}">
+          <Headphones size={14} /> Escuchar
+        </button>
+        <button type="button" title="Resaltar versículo">
+          <Highlighter size={14} /> Resaltar
+        </button>
+      </div>
     </article>
   {/each}
 </div>

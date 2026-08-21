@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import type { Snippet } from 'svelte';
   import Sidebar from './Sidebar.svelte';
   import Topbar from './Topbar.svelte';
@@ -13,6 +14,31 @@
 
   let isCollapsed = $state(false);
   let mobileOpen = $state(false);
+  let isCalmMode = $state(false);
+
+  onMount(() => {
+    try {
+      const savedCalm = localStorage.getItem('alethia_calm_mode');
+      if (savedCalm === 'true') {
+        isCalmMode = true;
+        document.body.classList.add('mode-calm');
+      }
+    } catch {
+      // Ignore localStorage restrictions if any
+    }
+  });
+
+  function handleToggleCalmMode() {
+    isCalmMode = !isCalmMode;
+    if (typeof document !== 'undefined') {
+      document.body.classList.toggle('mode-calm', isCalmMode);
+    }
+    try {
+      localStorage.setItem('alethia_calm_mode', String(isCalmMode));
+    } catch {
+      // Ignore
+    }
+  }
 
   function handleToggleSidebar() {
     if (typeof window !== 'undefined' && window.innerWidth <= 768) {
@@ -50,13 +76,15 @@
     onToggleCollapse={handleToggleSidebar}
   />
 
-  <!-- Main Inset Container with Topbar and Main view -->
-  <div class="neo-main-inset">
+  <!-- Main Inset Container with Topbar and Scrollable Main View -->
+  <div class="neo-main-inset {isCollapsed ? 'is-sidebar-collapsed' : ''}">
     <Topbar
       view={activeView}
       {isCollapsed}
       menuOpen={mobileOpen}
+      {isCalmMode}
       onToggleSidebar={handleToggleSidebar}
+      onToggleCalmMode={handleToggleCalmMode}
     />
 
     <main class="modern-main">

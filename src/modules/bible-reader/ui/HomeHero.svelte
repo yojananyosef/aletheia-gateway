@@ -27,14 +27,17 @@
     </div>
   </div>
 
-  <form class="search-form home-form" onsubmit={onSearch}>
-    <Search size={18} class="text-black shrink-0" />
-    <input
-      aria-label="Buscar un pasaje"
-      value={query}
-      oninput={(e) => onQueryChange((e.target as HTMLInputElement).value)}
-      placeholder="Buscar un pasaje, palabra o tema (ej. Juan 3:16)"
-    />
+  <form class="search-form" onsubmit={onSearch}>
+    <div class="search-input-wrapper">
+      <Search size={18} class="search-icon" />
+      <input
+        type="text"
+        aria-label="Buscar un pasaje"
+        value={query}
+        oninput={(e) => onQueryChange((e.target as HTMLInputElement).value)}
+        placeholder="Buscar un pasaje, palabra o tema (ej. Juan 3:16)"
+      />
+    </div>
     <button type="submit">Buscar</button>
   </form>
 

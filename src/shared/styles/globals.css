@@ -1,60 +1,127 @@
 @import 'tailwindcss';
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-card: var(--card);
-  --color-card-foreground: var(--card-foreground);
-  --color-primary: var(--primary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-border: var(--border);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --color-canvas: #f5f5f0;
+  --color-surface: #ffffff;
+  --color-ink: #1a1a18;
+  --color-ink-muted: #575752;
+  --color-neo-yellow: #FFD23F;
+  --color-neo-coral: #FF6B6B;
+  --color-neo-blue: #74B9FF;
+  --color-neo-green: #2ECC71;
+  --color-neo-red: #DC2626;
+
+  --font-display: 'Syne', 'Archivo Black', -apple-system, sans-serif;
+  --font-sans: 'Inter', 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
   --font-serif: 'Georgia', serif;
 }
 
-/* Neobrutalist reading system: bold structure, flat surfaces, tactile controls */
+/* ==========================================================================
+   DESIGN SYSTEM MAESTRO: NEOBRUTALISMO ACCESIBLE Y COMERCIAL (AIDA)
+   WCAG 2.2 AAA / Criterio 1.4.12 / Síndrome de Irlen / Ergonomía Neurocognitiva
+   ========================================================================== */
+
 :root {
   color-scheme: light;
-  --background: #fff4e0;
-  --foreground: #000000;
-  --card: #ffffff;
-  --card-foreground: #000000;
-  --primary: #118ab2;
-  --primary-foreground: #ffffff;
-  --border: #000000;
-  --muted: #ffeb3b;
-  --muted-foreground: #000000;
-  --neo-blue: #118ab2;
-  --neo-yellow: #ffeb3b;
-  --neo-red: #ff5757;
-  --neo-green: #06d6a0;
-  --neo-cream: #fff4e0;
-  --neo-shadow: 5px 5px 0 #000000;
-  --neo-shadow-sm: 3px 3px 0 #000000;
-  --neo-shadow-lg: 8px 8px 0 #000000;
+
+  /* --- PALETA CROMÁTICA ESTÁNDAR ANTI-ESTRÉS VISUAL (16.5:1 AAA) --- */
+  --bg-canvas: #f5f5f0;
+  --bg-surface: #ffffff;
+  --text-main: #1a1a18;
+  --text-muted: #575752;
+
+  /* Acentos Funcionales AIDA */
+  --accent-attention: #FFD23F; /* Amarillo A */
+  --accent-desire: #FF6B6B;    /* Rosa Coral D */
+  --accent-interest: #74B9FF;  /* Azul Interés I */
+  --accent-success: #2ECC71;   /* Verde Conversión */
+  --accent-error: #DC2626;     /* Rojo Alerta */
+
+  /* Aliases */
+  --neo-cream: var(--bg-canvas);
+  --neo-yellow: var(--accent-attention);
+  --neo-coral: var(--accent-desire);
+  --neo-blue: var(--accent-interest);
+  --neo-green: var(--accent-success);
+  --neo-red: var(--accent-desire);
+
+  /* --- GEOMETRÍA Y ESTRUCTURA --- */
+  --border-width-desktop: 3px;
+  --border-width-mobile: 2px;
+  --border-color: #1a1a18;
+  --border-main: var(--border-width-desktop) solid var(--border-color);
+  --radius-strict: 0px;
+
+  /* --- SISTEMA DE SOMBRAS DURAS (BLUR ESTRICTO = 0px) --- */
+  --shadow-sm: 3px 3px 0px 0px var(--border-color);
+  --shadow-md: 5px 5px 0px 0px var(--border-color);
+  --shadow-lg: 8px 8px 0px 0px var(--border-color);
+  --shadow-active: 0px 0px 0px 0px var(--border-color);
+
+  /* --- TIPOGRAFÍA Y NEUROCOGNICIÓN --- */
+  --font-display: 'Syne', 'Archivo Black', -apple-system, sans-serif;
+  --font-body: 'Inter', 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --font-serif: 'Georgia', serif;
+
+  --line-height-body: 1.6;
+  --letter-spacing-body: 0.02em;
+  --word-spacing-body: 0.16em;
+  --max-width-text: 65ch;
+
+  /* Foco de Accesibilidad */
+  --focus-outline: 3px solid var(--border-color);
+  --focus-offset: 4px;
 }
 
+/* --- MODO CALMA & DISLEXIA (TEMA ALTERNATIVO NEUROCOGNITIVO) --- */
+body.mode-calm {
+  --bg-canvas: #f7f4ed;        /* Marfil suave relajante */
+  --bg-surface: #ffffff;
+  --text-main: #222831;        /* Tinta suave */
+  --text-muted: #606770;
+  --border-color: #222831;
+
+  --accent-attention: #ffeaa7; /* Amarillo pastel */
+  --accent-desire: #fab1a0;    /* Coral pastel */
+  --accent-interest: #81ecec;  /* Turquesa suave */
+  --accent-success: #55efc4;   /* Menta suave */
+  --accent-error: #ff7675;
+
+  --font-body: 'Lexend', 'Verdana', sans-serif;
+  --line-height-body: 1.85;
+  --letter-spacing-body: 0.04em;
+  --word-spacing-body: 0.22em;
+  --max-width-text: 58ch;
+}
+
+/* Reset y Base */
 *, *::before, *::after {
   box-sizing: border-box;
+  border-color: var(--border-color);
 }
 
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 100vh;
-  background: var(--neo-cream);
-  color: var(--foreground);
-  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
-  line-height: 1.5;
-  overflow-x: clip;
+  height: 100vh;
+  background-color: var(--bg-canvas);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: var(--line-height-body);
+  letter-spacing: var(--letter-spacing-body);
+  word-spacing: var(--word-spacing-body);
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
 }
 
 button, input, select {
   font: inherit;
-  border-radius: 0;
+  border-radius: var(--radius-strict);
 }
 
 button, a {
@@ -63,38 +130,49 @@ button, a {
 
 button {
   cursor: pointer;
+  user-select: none;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: var(--text-main);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.25em;
+}
+
+a:hover {
+  background-color: var(--accent-attention);
 }
 
 :focus-visible {
-  outline: 3px solid var(--neo-blue);
-  outline-offset: 3px;
+  outline: var(--focus-outline) !important;
+  outline-offset: var(--focus-offset) !important;
 }
 
-/* Unified Layout Shell */
+/* ==========================================================================
+   LAYOUT SHELL UNIFICADO
+   ========================================================================== */
+
 .app-layout-shell {
   display: flex;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   position: relative;
+  background-color: var(--bg-canvas);
+  overflow: hidden;
 }
 
-/* Sidebar styling */
+/* --- SIDEBAR LATERAL --- */
 .neo-sidebar {
   width: 260px;
   flex-shrink: 0;
   height: 100vh;
-  position: sticky;
-  top: 0;
-  border-right: 4px solid #000;
-  background: var(--neo-yellow);
+  border-right: var(--border-main);
+  background-color: var(--accent-attention);
   display: flex;
   flex-direction: column;
-  transition: width 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s ease;
+  transition: width 0.15s cubic-bezier(0.4, 0, 0.2, 1), transform 0.15s ease;
   z-index: 40;
   overflow-y: auto;
   overflow-x: hidden;
@@ -104,6 +182,132 @@ a {
   width: 72px !important;
 }
 
+.neo-sidebar-header {
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 0 12px;
+  border-bottom: var(--border-main);
+  background-color: var(--accent-attention);
+  flex-shrink: 0;
+}
+
+.neo-brand-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 44px;
+  padding: 6px 10px;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out;
+}
+
+.neo-brand-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-md);
+}
+
+.neo-brand-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: var(--shadow-active);
+}
+
+.neo-brand-badge {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--accent-interest);
+  color: var(--text-main);
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.mobile-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.neo-sidebar-content {
+  flex: 1;
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.neo-sidebar-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.neo-sidebar-label {
+  color: var(--text-main);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0 8px 4px;
+}
+
+.neo-nav-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 10px;
+  border: 2px solid transparent;
+  border-radius: var(--radius-strict);
+  background: transparent;
+  color: var(--text-main);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  text-align: left;
+  transition: all 0.08s ease-in-out;
+}
+
+.neo-nav-button:hover,
+.neo-nav-button.is-active {
+  border-color: var(--border-color);
+  background-color: var(--accent-interest);
+  color: var(--text-main);
+  box-shadow: var(--shadow-sm);
+}
+
+.neo-nav-button:active {
+  transform: translate(3px, 3px);
+  box-shadow: var(--shadow-active);
+}
+
+.neo-sidebar-footer {
+  border-top: var(--border-main);
+  background-color: var(--accent-attention);
+  padding: 12px 10px;
+  flex-shrink: 0;
+}
+
+/* Sidebar Colapsado */
 .neo-sidebar.is-collapsed .neo-sidebar-header {
   padding: 0 8px;
   justify-content: center;
@@ -111,7 +315,7 @@ a {
 
 .neo-sidebar.is-collapsed .neo-brand-btn {
   justify-content: center;
-  padding: 6px;
+  padding: 4px;
   width: 44px;
   height: 44px;
   gap: 0;
@@ -151,158 +355,62 @@ a {
   gap: 0;
 }
 
-.neo-sidebar-header {
-  height: 68px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  padding: 0 12px;
-  border-bottom: 4px solid #000;
-  background: var(--neo-yellow);
-  flex-shrink: 0;
-}
-
-.neo-brand-btn {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  padding: 8px 10px;
-  border: 3px solid #000;
-  background: #fff;
-  box-shadow: 3px 3px 0 #000;
-  transition: transform 0.1s ease, box-shadow 0.1s ease;
-}
-
-.neo-brand-btn:active {
-  transform: translate(2px, 2px);
-  box-shadow: 1px 1px 0 #000;
-}
-
-.neo-brand-badge {
-  display: flex;
-  width: 32px;
-  height: 32px;
-  flex-shrink: 0;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid #000;
-  background: var(--neo-blue);
-  color: #fff;
-  font-family: Georgia, serif;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.mobile-close-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  border: 2px solid #000;
-  background: #fff;
-  box-shadow: 2px 2px 0 #000;
-}
-
-.neo-sidebar-content {
-  flex: 1;
-  padding: 16px 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-}
-
-.neo-sidebar-section {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.neo-sidebar-label {
-  color: #000;
-  font-size: 11px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  padding: 0 8px 4px;
-}
-
-.neo-nav-button {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  width: 100%;
-  min-height: 42px;
-  padding: 8px 10px;
-  border: 2px solid transparent;
-  background: transparent;
-  color: #000;
-  font-weight: 700;
-  font-size: 14px;
-  text-align: left;
-  transition: all 0.12s ease;
-}
-
-.neo-nav-button:hover,
-.neo-nav-button.is-active {
-  border-color: #000;
-  background: var(--neo-blue);
-  color: #fff;
-  box-shadow: 3px 3px 0 #000;
-}
-
-.neo-sidebar-footer {
-  border-top: 4px solid #000;
-  background: var(--neo-yellow);
-  padding: 12px 10px;
-  flex-shrink: 0;
-}
-
-/* Inset Main Container */
+/* --- INSET MAIN Y TOPBAR --- */
 .neo-main-inset {
   flex: 1;
   min-width: 0;
   display: flex;
   flex-direction: column;
-  background: var(--neo-cream);
+  height: 100vh;
+  background-color: var(--bg-canvas);
+  overflow: hidden;
 }
 
-/* Topbar */
 .app-topbar {
-  position: sticky;
-  top: 0;
-  z-index: 30;
+  flex-shrink: 0;
   height: 68px;
   width: 100%;
   display: flex;
   align-items: center;
   gap: 14px;
   padding: 0 24px;
-  border-bottom: 4px solid #000;
-  background: #fff;
-  color: #000;
+  border-bottom: var(--border-main);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  z-index: 30;
 }
 
 .topbar-btn {
   display: grid;
   place-items: center;
-  width: 40px;
-  height: 40px;
-  border: 3px solid #000;
-  border-radius: 0;
-  background: var(--neo-blue);
-  color: #fff;
-  box-shadow: 3px 3px 0 #000;
-  transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+  min-width: 44px;
+  min-height: 44px;
+  width: 44px;
+  height: 44px;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--accent-interest);
+  color: var(--text-main);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out, background 0.08s ease-in-out;
 }
 
 .topbar-btn:hover {
-  transform: translate(2px, 2px);
-  box-shadow: 1px 1px 0 #000;
-  background: var(--neo-yellow);
-  color: #000;
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-md);
+  background-color: var(--accent-attention);
+}
+
+.topbar-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: var(--shadow-active);
+}
+
+.topbar-btn.calm-active-btn {
+  background-color: var(--accent-success);
+  color: var(--text-main);
+  border-color: var(--border-color);
+  box-shadow: var(--shadow-sm);
 }
 
 .trigger-icon-desktop {
@@ -318,15 +426,16 @@ a {
 }
 
 .topbar-rule {
-  width: 4px;
+  width: 3px;
   height: 24px;
-  background: #000;
+  background-color: var(--border-color);
 }
 
 .topbar-title {
-  color: #000;
-  font-size: 14px;
-  font-weight: 900;
+  color: var(--text-main);
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -338,23 +447,65 @@ a {
   margin-left: auto;
 }
 
-/* Main Views Container */
+/* ==========================================================================
+   SCROLLBAR TEMÁTICO PERSONALIZADO (BAJO EL TOPBAR)
+   ========================================================================== */
+
 .modern-main {
   flex: 1;
   min-width: 0;
-  background: var(--neo-cream);
+  height: calc(100vh - 68px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: var(--bg-canvas);
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-attention) var(--bg-canvas);
 }
 
+.modern-main::-webkit-scrollbar {
+  width: 12px;
+}
+
+.modern-main::-webkit-scrollbar-track {
+  background: var(--bg-canvas);
+  border-left: 2px solid var(--border-color);
+}
+
+.modern-main::-webkit-scrollbar-thumb {
+  background-color: var(--accent-attention);
+  border: 2px solid var(--border-color);
+}
+
+.modern-main::-webkit-scrollbar-thumb:hover {
+  background-color: var(--accent-desire);
+}
+
+body.mode-calm .modern-main {
+  scrollbar-color: var(--accent-interest) var(--bg-canvas);
+}
+
+body.mode-calm .modern-main::-webkit-scrollbar-thumb {
+  background-color: var(--accent-interest);
+}
+
+/* --- VISTAS Y CONTENEDORES DINÁMICOS --- */
 .home-view, .reader-view {
-  width: min(100% - 48px, 1140px);
+  width: min(100% - 48px, 1180px);
   min-width: 0;
   margin-inline: auto;
   padding: 40px 0 80px;
+  transition: width 0.15s ease, max-width 0.15s ease;
 }
 
-/* Home View & Hero */
+/* Expansión dinámica del contenedor cuando el sidebar está colapsado */
+.neo-main-inset.is-sidebar-collapsed .home-view,
+.neo-main-inset.is-sidebar-collapsed .reader-view {
+  width: min(100% - 48px, 1420px);
+}
+
+/* --- ATENCIÓN (A): HERO PRINCIPAL --- */
 .home-hero {
-  max-width: 860px;
+  max-width: 880px;
   padding: 10px 0 40px;
   width: 100%;
 }
@@ -378,13 +529,18 @@ a {
   place-items: center;
   width: 76px;
   height: 76px;
-  border: 4px solid #000;
-  border-radius: 0;
-  background: var(--neo-red);
-  color: #000;
-  box-shadow: var(--neo-shadow);
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--accent-desire);
+  color: var(--text-main);
+  box-shadow: var(--shadow-md);
   transform: rotate(8deg);
   margin-top: 8px;
+  transition: transform 0.1s ease;
+}
+
+.hero-orbit:hover {
+  transform: rotate(12deg) scale(1.04);
 }
 
 .hero-orbit svg {
@@ -394,82 +550,140 @@ a {
 }
 
 .eyebrow {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: #000 !important;
-  font-size: 12px;
-  font-weight: 900;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  color: var(--text-main);
+  background-color: var(--accent-attention);
+  border: 2px solid var(--border-color);
+  padding: 2px 8px;
+  margin-bottom: 0.75rem;
 }
 
 .home-hero h1, .reader-top h1 {
-  margin: 12px 0 6px;
-  color: #000;
-  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-display);
   font-weight: 900;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
+  color: var(--text-main);
+  line-height: 1;
+  margin: 8px 0 10px;
 }
 
 .home-hero h1 {
-  font-size: clamp(38px, 6vw, 70px);
-  line-height: 0.95;
+  font-size: clamp(2.25rem, 5.5vw, 4.25rem);
 }
 
 .home-hero p {
-  max-width: 600px;
+  max-width: var(--max-width-text);
   margin: 0 0 28px;
-  color: #000;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.6;
+  color: var(--text-muted);
+  font-size: 1.125rem;
+  line-height: var(--line-height-body);
 }
 
-/* Search Form */
+/* --- FORMULARIOS DE BÚSQUEDA NEOBRUTALISTAS CON MARCO DE SELECCIÓN --- */
 .search-form {
   display: flex;
   align-items: center;
   max-width: 850px;
   width: 100%;
   min-height: 54px;
-  border: 4px solid #000;
-  border-radius: 0;
-  background: #fff;
-  color: #000;
-  box-shadow: var(--neo-shadow);
-  padding-left: 14px;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  box-shadow: var(--shadow-md);
+  padding: 4px;
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out;
 }
 
-.search-form input {
+.search-form:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: var(--shadow-lg);
+}
+
+.search-input-wrapper {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px;
+  height: 44px;
+  border: 2px solid transparent;
+  border-radius: var(--radius-strict);
+  background-color: transparent;
+  transition: border-color 0.08s ease-in-out;
+}
+
+/* Efecto de marco negro interior al seleccionar/enfocar */
+.search-form:focus-within .search-input-wrapper {
+  border: 2px solid var(--border-color);
+  background-color: var(--bg-surface);
+}
+
+.search-input-wrapper .search-icon {
+  flex-shrink: 0;
+  color: var(--text-main);
+}
+
+.search-input-wrapper input {
   min-width: 0;
   flex: 1;
-  border: 0;
-  outline: 0;
-  color: #000;
-  background: #fff;
-  padding: 0 12px;
-  font-size: 15px;
+  height: 100%;
+  border: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  color: var(--text-main) !important;
+  padding: 0;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .search-form button {
   align-self: stretch;
+  min-height: 44px;
+  min-width: 44px;
   border: 0;
-  border-left: 3px solid #000;
-  background: var(--neo-blue);
-  color: #fff;
+  border-left: var(--border-main);
+  background-color: var(--accent-attention);
+  color: var(--text-main);
   padding: 0 24px;
-  font-weight: 900;
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  transition: background 0.15s ease, color 0.15s ease;
+  transition: background 0.08s ease-in-out;
+  flex-shrink: 0;
+  margin: -4px -4px -4px 0;
 }
 
 .search-form button:hover {
-  background: var(--neo-yellow);
-  color: #000;
+  background-color: var(--accent-desire);
+}
+
+.reader-search {
+  max-width: 100%;
+  min-height: 48px;
+}
+
+.reader-search .search-input-wrapper {
+  height: 38px;
+  gap: 8px;
+  padding: 0 10px;
+}
+
+.reader-search button {
+  min-height: 38px;
+  padding: 0 20px;
 }
 
 .quick-links {
@@ -478,25 +692,25 @@ a {
   align-items: center;
   gap: 14px;
   margin-top: 16px;
-  color: #000;
-  font-size: 13px;
+  color: var(--text-main);
+  font-size: 0.875rem;
 }
 
 .quick-links button {
   padding: 0;
   border: 0;
   background: transparent;
-  color: #000;
+  color: var(--text-main);
   font-weight: 800;
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 0.25em;
 }
 
 .quick-links button:hover {
-  color: var(--neo-blue);
+  background-color: var(--accent-attention);
 }
 
-/* Home Cards */
+/* --- BENTO FEATURE CARDS --- */
 .home-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -510,50 +724,50 @@ a {
   gap: 14px;
   min-height: 190px;
   padding: 22px;
-  border: 4px solid #000;
-  border-radius: 0;
-  box-shadow: var(--neo-shadow);
-  background: #fff;
-  color: #000;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  box-shadow: var(--shadow-md);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
   text-align: left;
-  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out;
 }
 
 .feature-card:hover {
-  transform: translate(-3px, -3px);
-  box-shadow: var(--neo-shadow-lg);
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-lg);
 }
 
 .feature-card:active {
-  transform: translate(3px, 3px);
-  box-shadow: 2px 2px 0 #000;
+  transform: translate(5px, 5px);
+  box-shadow: var(--shadow-active);
 }
 
 .feature-blue {
-  background: var(--neo-blue);
-  color: #fff;
+  background-color: var(--accent-interest);
+  color: var(--text-main);
 }
 
 .feature-cream {
-  background: var(--neo-yellow);
-  color: #000;
+  background-color: var(--accent-attention);
+  color: var(--text-main);
 }
 
 .feature-soft {
-  background: var(--neo-green);
-  color: #000;
+  background-color: var(--accent-success);
+  color: var(--text-main);
 }
 
 .feature-card .card-icon {
   display: grid;
   place-items: center;
   flex: none;
-  width: 42px;
-  height: 42px;
-  border: 3px solid #000;
-  border-radius: 0;
-  background: #fff;
-  color: #000;
+  width: 44px;
+  height: 44px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
 }
 
 .feature-card span:nth-child(2) {
@@ -564,26 +778,28 @@ a {
 }
 
 .feature-card small {
-  font-size: 11px;
-  font-weight: 900;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 .feature-card strong {
   color: inherit;
-  font-family: Georgia, serif;
-  font-size: 20px;
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
   text-transform: uppercase;
 }
 
 .feature-card em {
-  color: inherit;
-  font-size: 13px;
+  color: var(--text-main);
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 600;
   line-height: 1.4;
+  max-width: 45ch;
 }
 
 .feature-card > svg {
@@ -593,7 +809,10 @@ a {
   flex-shrink: 0;
 }
 
-/* Reader View Header */
+/* ==========================================================================
+   VISTA DE LECTURA (READER VIEW)
+   ========================================================================== */
+
 .reader-top {
   display: flex;
   align-items: flex-end;
@@ -610,15 +829,15 @@ a {
 }
 
 .reader-top-left h1 {
-  font-size: clamp(36px, 5.5vw, 60px);
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
   line-height: 1;
 }
 
 .reader-subtitle {
   margin: 4px 0 0;
-  color: #000;
+  color: var(--text-muted);
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .reader-subtitle span {
@@ -626,26 +845,17 @@ a {
 }
 
 .reader-top-right {
-  width: min(360px, 100%);
+  width: min(380px, 100%);
   flex-shrink: 0;
 }
 
-.reader-search {
-  max-width: 100%;
-  min-height: 48px;
-}
-
-.reader-search button {
-  padding: 0 20px;
-}
-
-/* Reader Card */
+/* --- TARJETA DEL LECTOR BÍBLICO --- */
 .reader-card {
   overflow: hidden;
-  border: 4px solid #000;
-  border-radius: 0;
-  background: #fff;
-  box-shadow: var(--neo-shadow);
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  box-shadow: var(--shadow-md);
   width: 100%;
   margin-bottom: 20px;
 }
@@ -655,8 +865,8 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 16px 22px;
-  border-bottom: 4px solid #000;
-  background: var(--neo-yellow);
+  border-bottom: var(--border-main);
+  background-color: var(--accent-attention);
   width: 100%;
   gap: 12px;
   flex-wrap: wrap;
@@ -665,9 +875,10 @@ a {
 .toolbar-label {
   display: block;
   margin-bottom: 8px;
-  color: #000 !important;
-  font-size: 11px;
-  font-weight: 900;
+  color: var(--text-main) !important;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.12em;
 }
@@ -679,34 +890,35 @@ a {
 }
 
 .pill {
-  border: 3px solid #000;
-  border-radius: 0;
-  background: #fff;
-  color: #000;
-  box-shadow: 3px 3px 0 #000;
-  padding: 5px 12px;
-  font-size: 12px;
-  font-weight: 900;
-  transition: all 0.1s ease;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  box-shadow: var(--shadow-sm);
+  min-height: 38px;
+  padding: 6px 14px;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 800;
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out;
 }
 
 .pill:hover,
 .pill.selected {
-  border-color: #000;
-  background: var(--neo-blue);
-  color: #fff;
+  background-color: var(--accent-interest);
+  color: var(--text-main);
 }
 
 .pill:active {
-  transform: translate(2px, 2px);
-  box-shadow: 1px 1px 0 #000;
+  transform: translate(3px, 3px);
+  box-shadow: var(--shadow-active);
 }
 
 .version-hint {
   display: block;
   margin-top: 8px;
-  color: #000;
-  font-size: 11px;
+  color: var(--text-main);
+  font-size: 0.75rem;
   font-weight: 600;
 }
 
@@ -716,88 +928,113 @@ a {
   gap: 6px;
   border: 0;
   background: transparent;
-  color: #000;
-  font-size: 13px;
-  font-weight: 900;
+  color: var(--text-main);
+  font-size: 0.875rem;
+  font-weight: 800;
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 0.25em;
 }
 
-/* Horizontal Multi-version Passage List */
-.passage-list.horizontal {
+/* ==========================================================================
+   COMPARADOR EN PARALELO (TODAS LAS VERSIONES EN LÍNEA HORIZONTAL)
+   ========================================================================== */
+
+.passage-list-parallel {
   display: grid;
   grid-template-columns: repeat(var(--version-count, 1), minmax(0, 1fr));
   align-items: stretch;
-  padding: 0;
   width: 100%;
+  background-color: var(--bg-surface);
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
 
-.passage-list.horizontal .translation-block {
-  min-width: 260px;
+.passage-list-parallel .translation-block {
+  min-width: 180px;
   margin: 0;
-  padding: 26px 22px;
+  padding: 22px 18px;
   border-bottom: 0;
-  border-right: 4px solid #000;
-  overflow-wrap: break-word;
+  border-right: var(--border-main);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--bg-surface);
 }
 
-.passage-list.horizontal .translation-block:last-child {
+.passage-list-parallel .translation-block:last-child {
   border-right: 0;
 }
 
-.translation-label {
+.passage-list-parallel .translation-header {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 4px;
+  margin-bottom: 12px;
 }
 
-.translation-label span:first-child {
-  color: #000;
-  font-size: 15px;
-  font-weight: 900;
+.passage-list-parallel .version-tag {
+  align-self: flex-start;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 800;
+  color: var(--text-main);
+  background-color: var(--accent-interest);
+  border: 2px solid var(--border-color);
+  padding: 2px 6px;
 }
 
-.translation-label span:last-child {
-  color: #000;
-  font-size: 12px;
+.passage-list-parallel .version-full-name {
+  color: var(--text-muted);
+  font-size: 0.75rem;
   font-weight: 600;
-  line-height: 1.35;
+  line-height: 1.25;
 }
 
-.passage-text {
-  margin: 14px 0 16px;
-  color: #000;
-  font-family: Georgia, serif;
-  font-size: 20px;
-  line-height: 1.7;
-  font-weight: 600;
+.passage-list-parallel .verses-content {
+  flex: 1;
 }
 
-.passage-text sup {
-  color: var(--neo-blue);
-  font-family: 'Inter', sans-serif;
-  font-size: 12px;
-  font-weight: 900;
+.passage-list-parallel .passage-text {
+  margin: 6px 0 14px;
+  color: var(--text-main);
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+  word-spacing: 0.08em;
+  font-weight: 500;
+}
+
+.passage-list-parallel .passage-text .verse-num {
+  color: var(--accent-interest);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 800;
   margin-right: 4px;
+  background-color: var(--text-main);
+  padding: 1px 4px;
+  vertical-align: baseline;
+  display: inline-block;
 }
 
-.passage-actions {
+.passage-list-parallel .passage-actions {
   display: flex;
-  gap: 16px;
+  gap: 12px;
   margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border-color);
 }
 
-.passage-actions button {
+.passage-list-parallel .passage-actions button {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
+  min-height: 34px;
   border: 0;
   background: transparent;
-  color: #000;
-  font-size: 12px;
-  font-weight: 900;
+  color: var(--text-main);
+  font-size: 0.75rem;
+  font-weight: 800;
   text-decoration: underline;
 }
 
@@ -806,74 +1043,88 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 16px 22px;
-  border-top: 4px solid #000;
-  color: #000;
-  font-size: 13px;
+  border-top: var(--border-main);
+  color: var(--text-main);
+  font-size: 0.875rem;
   font-weight: 800;
   width: 100%;
+  background-color: var(--bg-surface);
 }
 
 .reader-footer button {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  min-height: 44px;
   border: 0;
   background: transparent;
-  color: #000;
-  font-weight: 900;
+  color: var(--text-main);
+  font-weight: 800;
   text-decoration: underline;
 }
 
-/* Reader Note / Bookmark Box */
+/* --- ACCIÓN (A): NOTA Y BOTÓN DE GUARDADO --- */
 .reader-note {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
   padding: 16px 20px;
-  border: 4px solid #000;
-  border-radius: 0;
-  background: var(--neo-blue);
-  color: #fff;
-  box-shadow: var(--neo-shadow);
-  font-size: 14px;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--accent-interest);
+  color: var(--text-main);
+  box-shadow: var(--shadow-md);
+  font-size: 0.9375rem;
   font-weight: 600;
   width: 100%;
 }
 
 .reader-note svg {
   flex: none;
-  width: 22px;
-  height: 22px;
-  color: #fff;
+  width: 24px;
+  height: 24px;
+  color: var(--text-main);
 }
 
 .reader-note span {
   flex: 1;
+  max-width: var(--max-width-text);
 }
 
 .reader-note strong {
-  color: #fff;
+  color: var(--text-main);
   font-weight: 900;
 }
 
 .reader-note button {
-  border: 2px solid #000;
-  background: #fff;
-  color: #000;
-  padding: 6px 14px;
-  font-weight: 900;
-  box-shadow: 2px 2px 0 #000;
-  transition: transform 0.1s ease;
+  min-height: 44px;
+  padding: 8px 18px;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--accent-attention);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-weight: 800;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out;
   white-space: nowrap;
 }
 
-.reader-note button:active {
-  transform: translate(2px, 2px);
-  box-shadow: 0 0 0 #000;
+.reader-note button:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-md);
 }
 
-/* Responsive Media Queries */
+.reader-note button:active {
+  transform: translate(3px, 3px);
+  box-shadow: var(--shadow-active);
+}
+
+/* ==========================================================================
+   RESPONSIVIDAD Y MEDIA QUERIES
+   ========================================================================== */
+
 @media (max-width: 960px) {
   .home-cards {
     grid-template-columns: 1fr;
@@ -898,6 +1149,10 @@ a {
 }
 
 @media (max-width: 768px) {
+  :root {
+    --border-main: var(--border-width-mobile) solid var(--border-color);
+  }
+
   .trigger-icon-desktop {
     display: none;
   }
@@ -913,7 +1168,7 @@ a {
     left: 0;
     width: 270px !important;
     transform: translateX(-100%);
-    box-shadow: 8px 0 0 #000;
+    box-shadow: 6px 0 0 var(--border-color);
     z-index: 50;
   }
 
@@ -925,7 +1180,7 @@ a {
     display: block;
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(26, 26, 24, 0.6);
     backdrop-filter: blur(2px);
     z-index: 45;
   }
@@ -936,7 +1191,7 @@ a {
   }
 
   .home-hero h1 {
-    font-size: 38px;
+    font-size: 2.25rem;
   }
 
   .hero-orbit {
@@ -948,11 +1203,11 @@ a {
   }
 
   .feature-card {
-    box-shadow: 4px 4px 0 #000;
+    box-shadow: var(--shadow-sm);
   }
 
   .reader-card, .reader-note {
-    box-shadow: 4px 4px 0 #000;
+    box-shadow: var(--shadow-sm);
   }
 
   .reader-toolbar {
@@ -969,10 +1224,28 @@ a {
   }
 }
 
+/* ==========================================================================
+   SEGURIDAD VESTIBULAR (PREFERS-REDUCED-MOTION)
+   ========================================================================== */
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     scroll-behavior: auto !important;
-    transition-duration: 0.01ms !important;
-    animation-duration: 0.01ms !important;
+    transition: none !important;
+    animation: none !important;
+  }
+
+  .feature-card:hover,
+  .feature-card:active,
+  .topbar-btn:hover,
+  .topbar-btn:active,
+  .neo-brand-btn:hover,
+  .neo-brand-btn:active,
+  .neo-nav-button:active,
+  .pill:active,
+  .reader-note button:hover,
+  .reader-note button:active {
+    transform: none !important;
+    box-shadow: var(--shadow-sm) !important;
   }
 }

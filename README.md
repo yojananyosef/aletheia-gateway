@@ -148,6 +148,15 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.2.0] - 2026-08-21
+#### Añadido
+- 🧠 **Design System Maestro**: Integración de pautas neurocognitivas WCAG 2.2 AAA / Criterio 1.4.12, control sacádico de lectura (`65ch`), tipografías (`Syne`, `Archivo Black`, `Inter`, `JetBrains Mono`, `Lexend`) y cinemática mecánica 1:1.
+- ✨ **Modo Calma & Dislexia**: Alternador de tema suave anti-estrés visual (`body.mode-calm`) con persistencia en `localStorage`.
+- 📖 **Comparador de 5 Versiones Continuo**: Lectura en paralelo en una sola fila horizontal fluida con crecimiento vertical dinámico.
+- 📐 **Expansión Dinámica de Espacio**: Adaptación automática a `1420px` al colapsar el sidebar.
+- 🎚️ **Scrollbar Temático Neobrutalista**: Barra de desplazamiento aislada debajo del Topbar respetando el tema activo.
+- 🔍 **Buscador con Marco Interior de Selección**: Efecto de marco negro definido al enfocar/seleccionar sin cortar el icono.
+
 ### [0.1.0] - 2026-08-21 (Propuesta Inicial)
 #### Añadido
 - ✨ Migración completa de la arquitectura base desde Next.js a **Astro 5 + Svelte 5**.
