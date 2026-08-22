@@ -148,6 +148,15 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.5.0] - 2026-08-22
+#### Añadido: Biblia Platense (Straubinger) & Conversor de Módulos Sword
+- ✝️ **Integración de la Biblia Platense (Straubinger)** (`SpaPlatense`):
+  - Ingesta y conversión integral de los 73 libros canónicos y deuterocanónicos (1,334 capítulos, 35,792 versículos) desde formato Sword zText comprimido (`modules/texts/ztext/spaplatense/`) a JSON estructurado y optimizado en `public/data/bibles/SpaPlatense/`.
+  - Extracción completa de los comentarios exegéticos y notas al pie de Mons. Juan Straubinger y títulos de sección OSIS.
+  - Soporte canónico para libros deuterocanónicos: Tobías (`TOB`), Judit (`JDT`), Sabiduría (`WIS`), Eclesiástico (`SIR`), Baruc (`BAR`), 1 Macabeos (`1MA`), 2 Macabeos (`2MA`) con sus respectivos alias de búsqueda en `BibleBooks.ts`.
+- 🛠️ **Script Automatizado de Conversión Sword**:
+  - `scripts/convert-spaplatense.py`: pipeline de descompresión zlib, parseo OSIS XML/BeautifulSoup y generación de JSON estructurado.
+
 ### [0.4.3] - 2026-08-21
 #### Añadido & Perfeccionamiento Responsive
 - 🌅 **Motor Determinista del Versículo del Día (366 Días)**:

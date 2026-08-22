@@ -5,7 +5,8 @@ export type TranslationId =
   | 'PDDPT'
   | 'ONBV'
   | 'BLL'
-  | 'BLM';
+  | 'BLM'
+  | 'SpaPlatense';
 
 export interface TranslationInfo {
   id: TranslationId;
@@ -71,6 +72,14 @@ export const AVAILABLE_TRANSLATIONS: Record<TranslationId, TranslationInfo> = {
     shortName: 'BLM',
     language: 'es',
     description: 'Edición en español europeo y global de eBible.org.',
+    copyright: 'Dominio Público',
+  },
+  SpaPlatense: {
+    id: 'SpaPlatense',
+    name: 'Biblia Platense (Straubinger)',
+    shortName: 'PLATENSE',
+    language: 'es',
+    description: 'Traducción comentada de Mons. Juan Straubinger con abundantes notas exegéticas.',
     copyright: 'Dominio Público',
   },
 };

@@ -45,8 +45,15 @@ export const BIBLE_BOOKS_OT: BibleBookInfo[] = [
   { code: 'HAB', name: 'Habacuc', testament: 'AT', chaptersCount: 3, category: 'Profetas Menores', aliases: ['hab', 'habacuc', 'hb'] },
   { code: 'ZEP', name: 'Sofonías', testament: 'AT', chaptersCount: 3, category: 'Profetas Menores', aliases: ['zep', 'sofonias', 'sof'] },
   { code: 'HAG', name: 'Hageo', testament: 'AT', chaptersCount: 2, category: 'Profetas Menores', aliases: ['hag', 'hageo', 'hag'] },
-  { code: 'ZEC', name: 'Zacarías', testament: 'AT', chaptersCount: 14, category: 'Profetas Menores', aliases: ['zec', 'zacarias', 'zac'] },
   { code: 'MAL', name: 'Malaquías', testament: 'AT', chaptersCount: 4, category: 'Profetas Menores', aliases: ['mal', 'malaquias', 'mal'] },
+  // Deuterocanónicos (presentes en traducciones como SpaPlatense)
+  { code: 'TOB', name: 'Tobías', testament: 'AT', chaptersCount: 14, category: 'Deuterocanónicos', aliases: ['tob', 'tobias', 'tobit', 'tb'] },
+  { code: 'JDT', name: 'Judit', testament: 'AT', chaptersCount: 16, category: 'Deuterocanónicos', aliases: ['jdt', 'judit', 'judith'] },
+  { code: 'WIS', name: 'Sabiduría', testament: 'AT', chaptersCount: 19, category: 'Deuterocanónicos', aliases: ['wis', 'sabiduria', 'sab', 'sb'] },
+  { code: 'SIR', name: 'Eclesiástico', testament: 'AT', chaptersCount: 51, category: 'Deuterocanónicos', aliases: ['sir', 'eclesiastico', 'siracides', 'eclo', 'si'] },
+  { code: 'BAR', name: 'Baruc', testament: 'AT', chaptersCount: 6, category: 'Deuterocanónicos', aliases: ['bar', 'baruc', 'ba'] },
+  { code: '1MA', name: '1 Macabeos', testament: 'AT', chaptersCount: 16, category: 'Deuterocanónicos', aliases: ['1ma', '1 macabeos', '1macabeos', '1macc', '1m'] },
+  { code: '2MA', name: '2 Macabeos', testament: 'AT', chaptersCount: 15, category: 'Deuterocanónicos', aliases: ['2ma', '2 macabeos', '2macabeos', '2macc', '2m'] },
 ];
 
 export const BIBLE_BOOKS_NT: BibleBookInfo[] = [

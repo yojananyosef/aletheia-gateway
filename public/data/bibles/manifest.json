@@ -68,5 +68,15 @@
     "copyright": "Dominio Público",
     "booksCount": 66,
     "chaptersCount": 1189
+  },
+  {
+    "id": "SpaPlatense",
+    "name": "Biblia Platense (Straubinger)",
+    "shortName": "PLATENSE",
+    "description": "Traducción comentada de Mons. Juan Straubinger con abundantes notas exegéticas.",
+    "language": "es",
+    "copyright": "Dominio Público",
+    "booksCount": 73,
+    "chaptersCount": 1334
   }
 ]
