@@ -148,6 +148,20 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.4.0] - 2026-08-21
+#### Añadido & Ingesta Real de Datos
+- 📖 **7 Versiones Bíblicas Reales y Completas en JSON**:
+  - Ingesta y conversión de más de 9.500 archivos HTML en `public/data/bibles/` organizados por libros y capítulos.
+  - Versiones integradas: **RV1909** (*Reina Valera 1909*), **BES** (*Biblia en Español Sencillo*), **VBL** (*Versión Biblia Libre*), **PDDPT** (*Palabra de Dios para ti*), **ONBV** (*Open Nueva Biblia Viva*), **BLL** (*Biblia Libre Latinoamericano*), **BLM** (*Biblia Libre para el Mundo*).
+- 🏷️ **Soporte Total de Metadatos Bíblicos**:
+  - Extracción y renderizado de títulos y encabezados de sección (`.verse-section-heading`).
+  - Extracción y renderizado de notas al pie y variantes textuales por versículo (`.verse-footnote-item`).
+- ⚡ **Repositorio `JsonBibleRepository`**:
+  - Carga diferida (*lazy loading*) con caché en memoria por libro para una experiencia de lectura fluida e instantánea (0ms de latencia).
+  - Eliminación total de datos simulados/hardcodeados.
+- 🛠️ **Pipeline Automatizado CLI (`scripts/convert-bibles.ts`)**:
+  - Script en Bun/TypeScript para parseo de alta velocidad de biblias en HTML hacia esquemas JSON estructurados.
+
 ### [0.3.2] - 2026-08-21
 #### Añadido & Rediseñado
 - 🏠 **Rediseño del Inicio al Estilo BibleGateway**:

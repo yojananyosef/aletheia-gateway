@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { X } from 'lucide-svelte';
+  import { X, Info } from 'lucide-svelte';
   import type { PassageVersionResult } from '../domain/entities/Chapter';
   import type { TranslationId } from '../domain/entities/Translation';
   import type { FontSizeOption } from './FontSizeSelector.svelte';
@@ -60,13 +60,30 @@
         />
       </div>
 
-      <!-- Verses Content -->
+      <!-- Verses Content with Headings & Footnotes support -->
       <div class="verses-content">
         {#each passage.verses as verse}
+          {#if verse.headings && verse.headings.length > 0}
+            {#each verse.headings as heading}
+              <h3 class="verse-section-heading">{heading}</h3>
+            {/each}
+          {/if}
+
           <p class="passage-text">
             <span class="verse-num">{verse.number}</span>
             {verse.text}
           </p>
+
+          {#if verse.footnotes && verse.footnotes.length > 0}
+            <div class="verse-footnotes-group">
+              {#each verse.footnotes as fn}
+                <div class="verse-footnote-item" title="Nota textual {fn.id}">
+                  <span class="footnote-caller">{fn.caller}</span>
+                  <span class="footnote-text">{fn.text}</span>
+                </div>
+              {/each}
+            </div>
+          {/if}
         {/each}
       </div>
     </article>

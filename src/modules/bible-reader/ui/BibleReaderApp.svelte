@@ -12,13 +12,13 @@
   } from '../domain/entities/Translation';
   import type { PassageVersionResult } from '../domain/entities/Chapter';
   import { PassageReference } from '../domain/value-objects/PassageReference';
-  import { MockBibleRepository } from '../infrastructure/MockBibleRepository';
+  import { JsonBibleRepository } from '../infrastructure/JsonBibleRepository';
   import { CompareTranslationsUseCase } from '../application/CompareTranslationsUseCase';
   import { LocalStorageBookmarkRepository } from '../../bookmarks/infrastructure/LocalStorageBookmarkRepository';
   import type { FontSizeOption } from './FontSizeSelector.svelte';
 
   // Dependency Inversion / IoC instances
-  const bibleRepository = new MockBibleRepository();
+  const bibleRepository = new JsonBibleRepository();
   const bookmarkRepository = new LocalStorageBookmarkRepository();
   const compareTranslationsUseCase = new CompareTranslationsUseCase(bibleRepository);
 
@@ -26,7 +26,7 @@
   let view = $state<'home' | 'reader'>('home');
   let query = $state('');
   let activeQuery = $state('Génesis 1:1');
-  let selectedTranslations = $state<TranslationId[]>(['RVC']);
+  let selectedTranslations = $state<TranslationId[]>(['RV1909']);
   let isBookmarked = $state(false);
   let passages = $state<PassageVersionResult[]>([]);
   let fontSize = $state<FontSizeOption>('medium');
@@ -107,7 +107,7 @@
     if (selectedTranslations.length >= 5) return;
     const allKeys = Object.keys(AVAILABLE_TRANSLATIONS) as TranslationId[];
     const unused = allKeys.find((id) => !selectedTranslations.includes(id));
-    const nextToAdd = unused || 'NBLA';
+    const nextToAdd = unused || 'BES';
     selectedTranslations = [...selectedTranslations, nextToAdd];
   }
 
@@ -127,14 +127,14 @@
   function handlePrevChapter() {
     const parsed = PassageReference.parse(activeQuery);
     const prevChapter = Math.max(1, parsed.chapter - 1);
-    const newRef = `${parsed.book} ${prevChapter}:1`;
+    const newRef = `${parsed.book} ${prevChapter}`;
     handleGoToReader(newRef);
   }
 
   function handleNextChapter() {
     const parsed = PassageReference.parse(activeQuery);
     const nextChapter = parsed.chapter + 1;
-    const newRef = `${parsed.book} ${nextChapter}:1`;
+    const newRef = `${parsed.book} ${nextChapter}`;
     handleGoToReader(newRef);
   }
 
@@ -148,7 +148,7 @@
         reference: activeQuery,
         book: first?.book || 'Génesis',
         chapter: first?.chapter || 1,
-        translationId: selectedTranslations[0] || 'RVC',
+        translationId: selectedTranslations[0] || 'RV1909',
         previewText: first?.verses[0]?.text || '',
       });
       isBookmarked = true;

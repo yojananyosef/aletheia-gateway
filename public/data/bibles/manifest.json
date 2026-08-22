@@ -1,0 +1,72 @@
+[
+  {
+    "id": "RV1909",
+    "name": "Reina Valera 1909",
+    "shortName": "RV1909",
+    "description": "Traducción clásica histórica en español, fiel al Texto Recibido.",
+    "language": "es",
+    "copyright": "Dominio Público",
+    "booksCount": 66,
+    "chaptersCount": 1189
+  },
+  {
+    "id": "BES",
+    "name": "Biblia en Español Sencillo",
+    "shortName": "BES",
+    "description": "Lenguaje contemporáneo accesible y directo de AudioBiblia.org.",
+    "language": "es",
+    "copyright": "Creative Commons Reconocimiento 4.0 Internacional (CC BY 4.0)",
+    "booksCount": 66,
+    "chaptersCount": 1189
+  },
+  {
+    "id": "VBL",
+    "name": "Versión Biblia Libre",
+    "shortName": "VBL",
+    "description": "Traducción moderna y transparente con abundantes notas de estudio.",
+    "language": "es",
+    "copyright": "Creative Commons Atribución-CompartirIgual 4.0 (CC BY-SA 4.0)",
+    "booksCount": 66,
+    "chaptersCount": 1189
+  },
+  {
+    "id": "PDDPT",
+    "name": "Palabra de Dios para ti",
+    "shortName": "PDDPT",
+    "description": "Traducción fiel y contextual de la Asociación Bíblica Latinoamericana.",
+    "language": "es",
+    "copyright": "Creative Commons Atribución 4.0 (CC BY 4.0)",
+    "booksCount": 66,
+    "chaptersCount": 1189
+  },
+  {
+    "id": "ONBV",
+    "name": "Biblica® Open Nueva Biblia Viva",
+    "shortName": "ONBV",
+    "description": "Paráfrasis moderna de fácil comprensión de Biblica, Inc.",
+    "language": "es",
+    "copyright": "Biblica, Inc. / Creative Commons",
+    "booksCount": 66,
+    "chaptersCount": 1189
+  },
+  {
+    "id": "BLL",
+    "name": "Biblia Libre Latinoamericano",
+    "shortName": "BLL",
+    "description": "Edición en dialecto latinoamericano de eBible.org.",
+    "language": "es",
+    "copyright": "Dominio Público",
+    "booksCount": 66,
+    "chaptersCount": 1189
+  },
+  {
+    "id": "BLM",
+    "name": "Biblia Libre para el Mundo",
+    "shortName": "BLM",
+    "description": "Edición en español europeo y global de eBible.org.",
+    "language": "es",
+    "copyright": "Dominio Público",
+    "booksCount": 66,
+    "chaptersCount": 1189
+  }
+]

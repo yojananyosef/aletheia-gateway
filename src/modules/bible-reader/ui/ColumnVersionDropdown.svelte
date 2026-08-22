@@ -18,7 +18,7 @@
   const allTranslations = Object.values(AVAILABLE_TRANSLATIONS);
 
   let currentTranslation = $derived(
-    AVAILABLE_TRANSLATIONS[currentId] || AVAILABLE_TRANSLATIONS.RVC
+    AVAILABLE_TRANSLATIONS[currentId] || AVAILABLE_TRANSLATIONS.RV1909
   );
 
   function handlePick(id: TranslationId) {

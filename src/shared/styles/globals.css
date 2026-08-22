@@ -1309,6 +1309,50 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   vertical-align: baseline;
 }
 
+/* Encabezados de sección dentro del texto bíblico */
+.verse-section-heading {
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  font-weight: 800;
+  color: var(--text-main);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 18px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid rgba(26, 26, 24, 0.15);
+}
+
+/* Grupo de notas al pie por versículo */
+.verse-footnotes-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 4px 0 10px;
+}
+
+.verse-footnote-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+  background-color: var(--bg-canvas);
+  border-left: 3px solid var(--accent-interest);
+  padding: 4px 8px;
+}
+
+.verse-footnote-item .footnote-caller {
+  font-weight: 900;
+  color: var(--text-main);
+  flex-shrink: 0;
+}
+
+.verse-footnote-item .footnote-text {
+  flex: 1;
+}
+
 /* ==========================================================================
    RESALTADO DE TEXTO BÍBLICO Y FLOATING TOOLBAR
    ========================================================================== */

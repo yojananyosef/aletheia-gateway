@@ -17,11 +17,11 @@
     'x-large': 'text-size-x-large',
   };
 
-  // Daily Verse dataset
+  // Daily Verse dataset (real RV1909 text)
   const dailyVerse = {
     reference: 'Salmos 42:8',
-    translationName: 'Reina Valera Contemporánea (RVC)',
-    text: 'Pero tú, Señor, durante el día enviarás tu gran misericordia, y por la noche tu cántico estará conmigo, con mi oración a ti, Dios de mi vida.',
+    translationName: 'Reina Valera 1909 (RV1909)',
+    text: 'De día mandará Jehová su misericordia, y de noche su canción será conmigo, y oración al Dios de mi vida.',
     chapterRef: 'Salmos 42:8',
   };
 </script>
