@@ -1,43 +1,62 @@
 <script lang="ts">
   import { X, Search, BookOpen, ChevronRight } from 'lucide-svelte';
   import {
-    BIBLE_BOOKS_OT,
     BIBLE_BOOKS_NT,
-    ALL_BIBLE_BOOKS,
+    DEUTEROCANONICAL_BOOK_CODES,
+    getBooksOT,
     findBookInfo,
     type BibleBookInfo,
   } from '../domain/entities/BibleBooks';
+  import {
+    supportsDeuterocanonical,
+    type TranslationId,
+  } from '../domain/entities/Translation';
 
   interface Props {
     isOpen: boolean;
     currentBook?: string;
+    activeTranslations?: TranslationId[] | TranslationId;
     onClose: () => void;
     onSelectPassage: (ref: string) => void;
   }
 
-  let { isOpen = false, currentBook = 'Génesis', onClose, onSelectPassage }: Props = $props();
+  let {
+    isOpen = false,
+    currentBook = 'Génesis',
+    activeTranslations = ['RV1909'],
+    onClose,
+    onSelectPassage,
+  }: Props = $props();
+
+  let includeDeut = $derived(supportsDeuterocanonical(activeTranslations));
+  let otBooks = $derived(getBooksOT(includeDeut));
 
   let selectedBook = $state<string>(currentBook || 'Génesis');
   let filterText = $state<string>('');
 
-  // Update selected book when modal opens or currentBook changes
+  // Update selected book when modal opens, currentBook changes, or canon changes
   $effect(() => {
     if (currentBook) {
-      selectedBook = currentBook;
+      const isDeut = DEUTEROCANONICAL_BOOK_CODES.includes(findBookInfo(currentBook)?.code || '');
+      if (isDeut && !includeDeut) {
+        selectedBook = 'Génesis';
+      } else {
+        selectedBook = currentBook;
+      }
     }
   });
 
-  let bookInfo = $derived(findBookInfo(selectedBook) || BIBLE_BOOKS_OT[0]);
+  let bookInfo = $derived(findBookInfo(selectedBook) || otBooks[0]);
   let chaptersList = $derived(
     Array.from({ length: bookInfo.chaptersCount }, (_, i) => i + 1)
   );
 
   let filteredOT = $derived(
     filterText.trim()
-      ? BIBLE_BOOKS_OT.filter((b) =>
+      ? otBooks.filter((b) =>
           b.name.toLowerCase().includes(filterText.toLowerCase().trim())
         )
-      : BIBLE_BOOKS_OT
+      : otBooks
   );
 
   let filteredNT = $derived(

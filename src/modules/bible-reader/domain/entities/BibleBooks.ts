@@ -86,7 +86,29 @@ export const BIBLE_BOOKS_NT: BibleBookInfo[] = [
   { code: 'REV', name: 'Apocalipsis', testament: 'NT', chaptersCount: 22, category: 'Profético', aliases: ['rev', 'apocalipsis', 'apoc', 'ap'] },
 ];
 
+export const DEUTEROCANONICAL_BOOK_CODES: readonly string[] = [
+  'TOB',
+  'JDT',
+  'WIS',
+  'SIR',
+  'BAR',
+  '1MA',
+  '2MA',
+];
+
+export const BIBLE_BOOKS_OT_PROTESTANT: BibleBookInfo[] = BIBLE_BOOKS_OT.filter(
+  (b) => !DEUTEROCANONICAL_BOOK_CODES.includes(b.code)
+);
+
 export const ALL_BIBLE_BOOKS: BibleBookInfo[] = [...BIBLE_BOOKS_OT, ...BIBLE_BOOKS_NT];
+
+export function getBooksOT(includeDeuterocanonical = false): BibleBookInfo[] {
+  return includeDeuterocanonical ? BIBLE_BOOKS_OT : BIBLE_BOOKS_OT_PROTESTANT;
+}
+
+export function getAllBooks(includeDeuterocanonical = false): BibleBookInfo[] {
+  return [...getBooksOT(includeDeuterocanonical), ...BIBLE_BOOKS_NT];
+}
 
 const normalize = (str: string) =>
   str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, '');

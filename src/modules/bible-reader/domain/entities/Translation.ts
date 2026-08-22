@@ -15,6 +15,7 @@ export interface TranslationInfo {
   language: string;
   description?: string;
   copyright?: string;
+  hasDeuterocanonical?: boolean;
 }
 
 export const AVAILABLE_TRANSLATIONS: Record<TranslationId, TranslationInfo> = {
@@ -25,6 +26,7 @@ export const AVAILABLE_TRANSLATIONS: Record<TranslationId, TranslationInfo> = {
     language: 'es',
     description: 'Traducción clásica histórica en español, fiel al Texto Recibido.',
     copyright: 'Dominio Público',
+    hasDeuterocanonical: false,
   },
   BES: {
     id: 'BES',
@@ -33,6 +35,7 @@ export const AVAILABLE_TRANSLATIONS: Record<TranslationId, TranslationInfo> = {
     language: 'es',
     description: 'Lenguaje contemporáneo accesible y directo de AudioBiblia.org.',
     copyright: 'Creative Commons Atribución 4.0 Internacional (CC BY 4.0)',
+    hasDeuterocanonical: false,
   },
   VBL: {
     id: 'VBL',
@@ -41,6 +44,7 @@ export const AVAILABLE_TRANSLATIONS: Record<TranslationId, TranslationInfo> = {
     language: 'es',
     description: 'Traducción moderna y transparente con abundantes notas de estudio.',
     copyright: 'Creative Commons Atribución-CompartirIgual 4.0 (CC BY-SA 4.0)',
+    hasDeuterocanonical: false,
   },
   PDDPT: {
     id: 'PDDPT',
@@ -49,6 +53,7 @@ export const AVAILABLE_TRANSLATIONS: Record<TranslationId, TranslationInfo> = {
     language: 'es',
     description: 'Traducción fiel y contextual de la Asociación Bíblica Latinoamericana.',
     copyright: 'Creative Commons Atribución 4.0 (CC BY 4.0)',
+    hasDeuterocanonical: false,
   },
   ONBV: {
     id: 'ONBV',
@@ -57,6 +62,7 @@ export const AVAILABLE_TRANSLATIONS: Record<TranslationId, TranslationInfo> = {
     language: 'es',
     description: 'Paráfrasis moderna de fácil comprensión de Biblica, Inc.',
     copyright: 'Biblica, Inc. / Creative Commons',
+    hasDeuterocanonical: false,
   },
   BLL: {
     id: 'BLL',
@@ -65,6 +71,7 @@ export const AVAILABLE_TRANSLATIONS: Record<TranslationId, TranslationInfo> = {
     language: 'es',
     description: 'Edición en dialecto latinoamericano de eBible.org.',
     copyright: 'Dominio Público',
+    hasDeuterocanonical: false,
   },
   BLM: {
     id: 'BLM',
@@ -73,6 +80,7 @@ export const AVAILABLE_TRANSLATIONS: Record<TranslationId, TranslationInfo> = {
     language: 'es',
     description: 'Edición en español europeo y global de eBible.org.',
     copyright: 'Dominio Público',
+    hasDeuterocanonical: false,
   },
   SpaPlatense: {
     id: 'SpaPlatense',
@@ -81,7 +89,14 @@ export const AVAILABLE_TRANSLATIONS: Record<TranslationId, TranslationInfo> = {
     language: 'es',
     description: 'Traducción comentada de Mons. Juan Straubinger con abundantes notas exegéticas.',
     copyright: 'Dominio Público',
+    hasDeuterocanonical: true,
   },
 };
 
 export const DEFAULT_TRANSLATION_IDS: TranslationId[] = ['RV1909', 'BES', 'VBL', 'PDDPT', 'ONBV'];
+
+export function supportsDeuterocanonical(translations?: TranslationId | TranslationId[]): boolean {
+  if (!translations) return false;
+  const list = Array.isArray(translations) ? translations : [translations];
+  return list.some((id) => AVAILABLE_TRANSLATIONS[id]?.hasDeuterocanonical === true);
+}

@@ -186,6 +186,7 @@
   <BookChapterSelectorModal
     isOpen={isBookModalOpen}
     {currentBook}
+    activeTranslations={selectedTranslations}
     onClose={() => (isBookModalOpen = false)}
     {onSelectPassage}
   />

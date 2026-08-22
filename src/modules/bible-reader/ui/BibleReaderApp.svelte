@@ -8,11 +8,12 @@
 
   import {
     AVAILABLE_TRANSLATIONS,
+    supportsDeuterocanonical,
     type TranslationId,
   } from '../domain/entities/Translation';
   import type { PassageVersionResult } from '../domain/entities/Chapter';
   import { PassageReference } from '../domain/value-objects/PassageReference';
-  import { findBookInfo, ALL_BIBLE_BOOKS } from '../domain/entities/BibleBooks';
+  import { findBookInfo, getAllBooks, ALL_BIBLE_BOOKS } from '../domain/entities/BibleBooks';
   import { JsonBibleRepository } from '../infrastructure/JsonBibleRepository';
   import { CompareTranslationsUseCase } from '../application/CompareTranslationsUseCase';
   import { LocalStorageBookmarkRepository } from '../../bookmarks/infrastructure/LocalStorageBookmarkRepository';
@@ -175,14 +176,15 @@
   function handlePrevChapter() {
     const ref = new PassageReference(activeQuery);
     const primary = ref.primarySegment;
-    const bookInfo = findBookInfo(primary.bookCode) || findBookInfo(primary.book) || ALL_BIBLE_BOOKS[0];
+    const books = getAllBooks(supportsDeuterocanonical(selectedTranslations));
+    const bookInfo = findBookInfo(primary.bookCode) || findBookInfo(primary.book) || books[0];
 
     if (primary.chapter > 1) {
       handleGoToReader(`${bookInfo.name} ${primary.chapter - 1}`);
     } else {
-      const idx = ALL_BIBLE_BOOKS.findIndex((b) => b.code === bookInfo.code);
+      const idx = books.findIndex((b) => b.code === bookInfo.code);
       if (idx > 0) {
-        const prevBook = ALL_BIBLE_BOOKS[idx - 1];
+        const prevBook = books[idx - 1];
         handleGoToReader(`${prevBook.name} ${prevBook.chaptersCount}`);
       }
     }
@@ -191,14 +193,15 @@
   function handleNextChapter() {
     const ref = new PassageReference(activeQuery);
     const primary = ref.primarySegment;
-    const bookInfo = findBookInfo(primary.bookCode) || findBookInfo(primary.book) || ALL_BIBLE_BOOKS[0];
+    const books = getAllBooks(supportsDeuterocanonical(selectedTranslations));
+    const bookInfo = findBookInfo(primary.bookCode) || findBookInfo(primary.book) || books[0];
 
     if (primary.chapter < bookInfo.chaptersCount) {
       handleGoToReader(`${bookInfo.name} ${primary.chapter + 1}`);
     } else {
-      const idx = ALL_BIBLE_BOOKS.findIndex((b) => b.code === bookInfo.code);
-      if (idx < ALL_BIBLE_BOOKS.length - 1) {
-        const nextBook = ALL_BIBLE_BOOKS[idx + 1];
+      const idx = books.findIndex((b) => b.code === bookInfo.code);
+      if (idx < books.length - 1) {
+        const nextBook = books[idx + 1];
         handleGoToReader(`${nextBook.name} 1`);
       }
     }
@@ -244,6 +247,7 @@
       <BookChapterSelectorModal
         isOpen={isBookModalOpen}
         currentBook="Génesis"
+        activeTranslations={selectedTranslations}
         onClose={() => (isBookModalOpen = false)}
         onSelectPassage={handleGoToReader}
       />

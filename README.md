@@ -148,6 +148,14 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.5.3] - 2026-08-22
+#### Corregido & Canon Dinámico
+- 📚 **Filtro Canónico Inteligente en la Lista de Libros**:
+  - El modal de selección de libros y capítulos (`BookChapterSelectorModal`) ahora reconoce automáticamente si la traducción activa contiene libros deuterocanónicos (`SpaPlatense`).
+  - Si `SpaPlatense` no está activa, muestra de forma predeterminada los 66 libros del canon estándar (39 en el Antiguo Testamento y 27 en el Nuevo Testamento), ocultando los 7 libros deuterocanónicos.
+  - Al activar `SpaPlatense`, se habilitan dinámicamente los 73 libros canónicos y deuterocanónicos (46 en el AT y 27 en el NT).
+  - La navegación secuencial entre capítulos anterior/siguiente ahora respeta el canon de la traducción en uso.
+
 ### [0.5.2] - 2026-08-22
 #### Añadido & Sincronización
 - 🌅 **Sincronización Dinámica del Versículo del Día con la Versión Seleccionada**:
