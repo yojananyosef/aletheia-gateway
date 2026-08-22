@@ -148,6 +148,15 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.4.2] - 2026-08-21
+#### Mejorado & Ajustes de Experiencia de Usuario
+- 📖 **Carga de Capítulo Completo desde el Modal de Libros**:
+  - Al seleccionar un capítulo en el modal (*Lista de libros bíblicos*), ahora carga de forma predeterminada el capítulo entero (todos sus versículos) en lugar de un único versículo parcial.
+- ◀ ▶ **Botones Flotantes de Navegación Fijos en Pantalla**:
+  - Los botones de capítulo anterior `<` y siguiente `>` ahora permanecen **fijos en el viewport** (`position: fixed; top: 50vh`), accesibles en cualquier punto del scroll sin importar la longitud del capítulo.
+- 🧹 **Depuración del Menú Lateral**:
+  - Eliminación del enlace redundante «Buscar pasajes» del sidebar para mantener una navegación limpia y focalizada.
+
 ### [0.4.1] - 2026-08-21
 #### Añadido & Búsqueda Avanzada Estilo BibleGateway
 - 🔍 **Buscador Multi-Pasajes y Nomenclaturas Flexibles**:

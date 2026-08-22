@@ -90,9 +90,9 @@
     </form>
   </div>
 
-  <!-- Reader Card with Centered Side Navigation Buttons & Toolbar -->
-  <section class="reader-card relative">
-    <!-- Floating Side Navigation Buttons Centered Exactly on the Reading Card -->
+  <!-- Reader Card with Sticky Floating Nav Controls -->
+  <div class="reader-card-wrapper">
+    <!-- Floating Side Navigation Buttons Sticky in Viewport and Anchored to Card Outer Edges -->
     <button
       type="button"
       class="floating-nav-btn floating-prev-btn"
@@ -113,50 +113,52 @@
       <ChevronRight size={20} />
     </button>
 
-    <!-- Toolbar: Book Selector, Add Parallel, Font Size -->
-    <div class="reader-toolbar">
-      <div class="toolbar-left-group">
-        <button
-          type="button"
-          class="toolbar-action-btn"
-          title="Abrir lista de libros y capítulos de la Biblia"
-          onclick={() => (isBookModalOpen = true)}
-        >
-          <BookOpen size={16} />
-          <span>Lista de libros bíblicos</span>
-          <ChevronDown size={14} />
-        </button>
+    <section class="reader-card">
+      <!-- Toolbar: Book Selector, Add Parallel, Font Size -->
+      <div class="reader-toolbar">
+        <div class="toolbar-left-group">
+          <button
+            type="button"
+            class="toolbar-action-btn"
+            title="Abrir lista de libros y capítulos de la Biblia"
+            onclick={() => (isBookModalOpen = true)}
+          >
+            <BookOpen size={16} />
+            <span>Lista de libros bíblicos</span>
+            <ChevronDown size={14} />
+          </button>
 
-        <button
-          type="button"
-          class="toolbar-action-btn add-parallel-btn {canAddMore ? '' : 'is-disabled'}"
-          disabled={!canAddMore}
-          title={canAddMore ? 'Agregar una nueva versión paralela (máx. 5)' : 'Límite alcanzado (máximo 5 versiones)'}
-          onclick={onAddParallelColumn}
-        >
-          <CopyPlus size={16} />
-          <span>Agregar paralelo</span>
-          <span class="parallel-count-badge">({selectedTranslations.length}/5)</span>
-        </button>
+          <button
+            type="button"
+            class="toolbar-action-btn add-parallel-btn {canAddMore ? '' : 'is-disabled'}"
+            disabled={!canAddMore}
+            title={canAddMore ? 'Agregar una nueva versión paralela (máx. 5)' : 'Límite alcanzado (máximo 5 versiones)'}
+            onclick={onAddParallelColumn}
+          >
+            <CopyPlus size={16} />
+            <span>Agregar paralelo</span>
+            <span class="parallel-count-badge">({selectedTranslations.length}/5)</span>
+          </button>
+        </div>
+
+        <div class="toolbar-right-group">
+          <FontSizeSelector
+            currentSize={fontSize}
+            onSizeChange={onFontSizeChange}
+          />
+        </div>
       </div>
 
-      <div class="toolbar-right-group">
-        <FontSizeSelector
-          currentSize={fontSize}
-          onSizeChange={onFontSizeChange}
-        />
-      </div>
-    </div>
-
-    <!-- Parallel Passage Viewer (Dynamic Columns) -->
-    <ParallelPassageViewer
-      {passages}
-      {fontSize}
-      {onChangeColumnTranslation}
-      {onRemoveColumn}
-      {onSelectPassage}
-    />
-  </section>
+      <!-- Parallel Passage Viewer (Dynamic Columns) -->
+      <ParallelPassageViewer
+        {passages}
+        {fontSize}
+        {onChangeColumnTranslation}
+        {onRemoveColumn}
+        {onSelectPassage}
+      />
+    </section>
+  </div>
 
   <!-- Book & Chapter Selector Modal -->
   <BookChapterSelectorModal

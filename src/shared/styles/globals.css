@@ -839,41 +839,50 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
    VISTA DE LECTURA (READER VIEW)
    ========================================================================== */
 
-/* --- BOTONES FLOTANTES LATERALES ESBELTOS (CENTRADOS EXACTAMENTE Y UBICADOS EN EL EXTERIOR) --- */
-.reader-card .floating-nav-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 32px;
-  height: 60px;
+/* --- ENVOLTORIO DE TARJETA CON NAVEGACIÓN FLOTANTE LATERAL --- */
+.reader-card-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+}
+
+/* --- BOTONES FLOTANTES LATERALES FIJADOS AL VIEWPORT MEDIANTE POSITION STICKY --- */
+.reader-card-wrapper .floating-nav-btn {
+  position: sticky;
+  top: calc(50vh - 32px);
+  width: 36px;
+  height: 64px;
   border: 2px solid var(--border-color);
   border-radius: var(--radius-strict);
   background-color: var(--bg-surface);
   color: var(--text-main);
   box-shadow: 3px 3px 0 var(--border-color);
-  z-index: 35;
+  z-index: 60;
   display: grid;
   place-items: center;
   cursor: pointer;
+  margin-bottom: -64px;
   transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out, background 0.08s ease-in-out;
 }
 
-.reader-card .floating-prev-btn {
-  left: -44px;
+.reader-card-wrapper .floating-prev-btn {
+  float: left;
+  margin-left: -44px;
 }
 
-.reader-card .floating-next-btn {
-  right: -44px;
+.reader-card-wrapper .floating-next-btn {
+  float: right;
+  margin-right: -44px;
 }
 
-.reader-card .floating-nav-btn:hover {
+.reader-card-wrapper .floating-nav-btn:hover {
   background-color: var(--accent-attention);
-  transform: translateY(-50%) translate(-2px, -2px);
+  transform: translate(-2px, -2px);
   box-shadow: 5px 5px 0 var(--border-color);
 }
 
-.reader-card .floating-nav-btn:active {
-  transform: translateY(-50%) translate(2px, 2px);
+.reader-card-wrapper .floating-nav-btn:active {
+  transform: translate(2px, 2px);
   box-shadow: 0 0 0 #000;
 }
 

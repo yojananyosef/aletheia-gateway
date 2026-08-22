@@ -53,7 +53,7 @@
   }
 
   function handleSelectChapter(chapterNum: number) {
-    onSelectPassage(`${selectedBook} ${chapterNum}:1`);
+    onSelectPassage(`${selectedBook} ${chapterNum}`);
     onClose();
   }
 </script>

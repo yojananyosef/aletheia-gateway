@@ -30,7 +30,6 @@
   const mainItems = [
     { title: 'Inicio', icon: Home, view: 'home' as const },
     { title: 'Leer la Biblia', icon: BookOpen, view: 'reader' as const },
-    { title: 'Buscar pasajes', icon: Search, view: 'reader' as const },
   ];
 
   const exploreItems = [
