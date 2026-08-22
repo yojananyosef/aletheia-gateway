@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount, onDestroy } from 'svelte';
   import { Type, ChevronDown } from 'lucide-svelte';
 
   export type FontSizeOption = 'x-small' | 'small' | 'medium' | 'large' | 'x-large';
@@ -11,6 +12,7 @@
   let { currentSize = 'medium', onSizeChange }: Props = $props();
 
   let isOpen = $state(false);
+  let containerEl = $state<HTMLDivElement | null>(null);
 
   const options: { id: FontSizeOption; label: string; sample: string }[] = [
     { id: 'x-large', label: 'X-Grande', sample: '22px' },
@@ -28,9 +30,25 @@
     onSizeChange(size);
     isOpen = false;
   }
+
+  function handleDocumentClick(event: MouseEvent) {
+    if (isOpen && containerEl && !containerEl.contains(event.target as Node)) {
+      isOpen = false;
+    }
+  }
+
+  onMount(() => {
+    document.addEventListener('mousedown', handleDocumentClick);
+  });
+
+  onDestroy(() => {
+    if (typeof document !== 'undefined') {
+      document.removeEventListener('mousedown', handleDocumentClick);
+    }
+  });
 </script>
 
-<div class="font-size-dropdown-container">
+<div class="font-size-dropdown-container" bind:this={containerEl}>
   <button
     type="button"
     class="font-size-trigger-btn {isOpen ? 'is-active' : ''}"

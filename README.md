@@ -148,6 +148,21 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.5.1] - 2026-08-22
+#### Corregido & Mejoras de Usabilidad
+- 🔽 **Dropdown de Versiones sin Recortes**:
+  - Eliminación de la restricción de recorte vertical en `.passage-list-parallel`, permitiendo que el selector de traducciones sobresalga con `z-index: 110` sobre la tarjeta de lectura sin generar barras de desplazamiento internas.
+  - Añadido scroll interno (`max-height: 320px`) y anclaje inteligente a la derecha en la última columna para pantallas estrechas.
+- 📏 **Estandarización de Altura en Buscador**:
+  - Unificación visual entre la barra de búsqueda de la pantalla de Inicio y la del Lector bíblico (`54px` de alto, `44px` de wrapper y `38px` de input).
+- 💾 **Persistencia del Estado de Lectura**:
+  - Almacenamiento en `localStorage` (`alethia_last_passage`) del último pasaje o versículo visitado al navegar o buscar, permitiendo reanudar la lectura directamente al reingresar a «Leer la Biblia» o recargar la página.
+  - Persistencia de las traducciones seleccionadas en paralelo (`alethia_selected_translations`).
+- 🧼 **Buscador de Inicio Independiente y Limpio**:
+  - Desacoplamiento del estado de búsqueda de Inicio respecto al pasaje activo del lector, manteniendo el buscador de Inicio limpio para nuevas búsquedas.
+- 🔤 **Cierre Inteligente en Selector de Tipografía**:
+  - Detección de clics externos para cerrar automáticamente el dropdown de tamaño de fuente.
+
 ### [0.5.0] - 2026-08-22
 #### Añadido: Biblia Platense (Straubinger) & Conversor de Módulos Sword
 - ✝️ **Integración de la Biblia Platense (Straubinger)** (`SpaPlatense`):

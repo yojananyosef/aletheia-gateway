@@ -18,6 +18,10 @@
   import { LocalStorageBookmarkRepository } from '../../bookmarks/infrastructure/LocalStorageBookmarkRepository';
   import type { FontSizeOption } from './FontSizeSelector.svelte';
 
+  const STORAGE_KEY_PASSAGE = 'alethia_last_passage';
+  const STORAGE_KEY_FONT_SIZE = 'alethia_font_size';
+  const STORAGE_KEY_TRANSLATIONS = 'alethia_selected_translations';
+
   // Dependency Inversion / IoC instances
   const bibleRepository = new JsonBibleRepository();
   const bookmarkRepository = new LocalStorageBookmarkRepository();
@@ -25,7 +29,8 @@
 
   // Svelte 5 Runes state
   let view = $state<'home' | 'reader'>('home');
-  let query = $state('');
+  let homeQuery = $state('');
+  let readerQuery = $state('Génesis 1:1');
   let activeQuery = $state('Génesis 1:1');
   let selectedTranslations = $state<TranslationId[]>(['RV1909']);
   let isBookmarked = $state(false);
@@ -58,9 +63,21 @@
 
   onMount(() => {
     try {
-      const savedFontSize = localStorage.getItem('alethia_font_size') as FontSizeOption;
+      const savedPassage = localStorage.getItem(STORAGE_KEY_PASSAGE);
+      if (savedPassage && savedPassage.trim()) {
+        activeQuery = savedPassage.trim();
+        readerQuery = savedPassage.trim();
+      }
+      const savedFontSize = localStorage.getItem(STORAGE_KEY_FONT_SIZE) as FontSizeOption;
       if (savedFontSize) {
         fontSize = savedFontSize;
+      }
+      const savedTranslations = localStorage.getItem(STORAGE_KEY_TRANSLATIONS);
+      if (savedTranslations) {
+        const parsed = JSON.parse(savedTranslations);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          selectedTranslations = parsed;
+        }
       }
     } catch {
       // Ignore localStorage restrictions
@@ -68,26 +85,53 @@
     loadPassageData();
   });
 
-  function handleFontSizeChange(newSize: FontSizeOption) {
-    fontSize = newSize;
+  function saveActivePassage(ref: string) {
     try {
-      localStorage.setItem('alethia_font_size', newSize);
+      localStorage.setItem(STORAGE_KEY_PASSAGE, ref);
     } catch {
       // Ignore
     }
   }
 
-  function handleSearch(event?: Event) {
+  function saveTranslations(list: TranslationId[]) {
+    try {
+      localStorage.setItem(STORAGE_KEY_TRANSLATIONS, JSON.stringify(list));
+    } catch {
+      // Ignore
+    }
+  }
+
+  function handleFontSizeChange(newSize: FontSizeOption) {
+    fontSize = newSize;
+    try {
+      localStorage.setItem(STORAGE_KEY_FONT_SIZE, newSize);
+    } catch {
+      // Ignore
+    }
+  }
+
+  function handleHomeSearch(event?: Event) {
     if (event) event.preventDefault();
-    const targetQuery = query.trim() || activeQuery || 'Génesis 1:1';
+    const targetQuery = homeQuery.trim() || activeQuery || 'Génesis 1:1';
     activeQuery = targetQuery;
-    query = targetQuery;
+    readerQuery = targetQuery;
+    homeQuery = ''; // Keep home search bar clean for subsequent searches
+    saveActivePassage(targetQuery);
     view = 'reader';
   }
 
+  function handleReaderSearch(event?: Event) {
+    if (event) event.preventDefault();
+    const targetQuery = readerQuery.trim() || activeQuery || 'Génesis 1:1';
+    activeQuery = targetQuery;
+    readerQuery = targetQuery;
+    saveActivePassage(targetQuery);
+  }
+
   function handleGoToReader(nextQuery = 'Génesis 1:1') {
-    query = nextQuery;
     activeQuery = nextQuery;
+    readerQuery = nextQuery;
+    saveActivePassage(nextQuery);
     view = 'reader';
     isBookModalOpen = false;
   }
@@ -95,9 +139,9 @@
   function handleNavigate(nextView: 'home' | 'reader') {
     view = nextView;
     if (nextView === 'reader') {
-      if (!query) query = activeQuery;
+      readerQuery = activeQuery;
       setTimeout(() => {
-        const input = document.querySelector<HTMLInputElement>('.reader-search input, .reader-search-wide input');
+        const input = document.querySelector<HTMLInputElement>('.reader-search-wide input');
         input?.focus();
       }, 50);
     }
@@ -110,6 +154,7 @@
     const unused = allKeys.find((id) => !selectedTranslations.includes(id));
     const nextToAdd = unused || 'BES';
     selectedTranslations = [...selectedTranslations, nextToAdd];
+    saveTranslations(selectedTranslations);
   }
 
   // Change translation of a specific parallel column
@@ -117,12 +162,14 @@
     const nextList = [...selectedTranslations];
     nextList[index] = newTranslationId;
     selectedTranslations = nextList;
+    saveTranslations(selectedTranslations);
   }
 
   // Remove a specific parallel column
   function handleRemoveColumn(index: number) {
     if (selectedTranslations.length <= 1) return;
     selectedTranslations = selectedTranslations.filter((_, i) => i !== index);
+    saveTranslations(selectedTranslations);
   }
 
   function handlePrevChapter() {
@@ -179,10 +226,10 @@
   {#if view === 'home'}
     <div class="home-view">
       <HomeHero
-        {query}
+        query={homeQuery}
         {fontSize}
-        onQueryChange={(val) => (query = val)}
-        onSearch={handleSearch}
+        onQueryChange={(val) => (homeQuery = val)}
+        onSearch={handleHomeSearch}
         onOpenBookModal={() => (isBookModalOpen = true)}
         onFontSizeChange={handleFontSizeChange}
       />
@@ -199,14 +246,14 @@
     </div>
   {:else}
     <ReaderView
-      {query}
+      query={readerQuery}
       {activeQuery}
       {passages}
       {selectedTranslations}
       {isBookmarked}
       {fontSize}
-      onSearch={handleSearch}
-      onQueryChange={(val) => (query = val)}
+      onSearch={handleReaderSearch}
+      onQueryChange={(val) => (readerQuery = val)}
       onAddParallelColumn={handleAddParallelColumn}
       onChangeColumnTranslation={handleChangeColumnTranslation}
       onRemoveColumn={handleRemoveColumn}

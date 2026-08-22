@@ -805,16 +805,6 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
 .reader-search-wide {
   max-width: 100% !important;
   width: 100% !important;
-  min-height: 52px;
-}
-
-.reader-search-wide .search-input-wrapper {
-  height: 42px;
-}
-
-.reader-search-wide .search-input-wrapper input {
-  height: 36px;
-  font-size: 1rem;
 }
 
 .feature-cream {
@@ -1202,7 +1192,9 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   position: absolute;
   top: calc(100% + 4px);
   left: 0;
+  min-width: 100%;
   width: max(100%, 280px);
+  max-width: min(90vw, 340px);
   border: var(--border-main);
   border-radius: var(--radius-strict);
   background-color: var(--bg-surface);
@@ -1210,6 +1202,11 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   z-index: 110;
   display: flex;
   flex-direction: column;
+}
+
+.passage-list-parallel .translation-block:last-child .custom-version-menu {
+  left: auto;
+  right: 0;
 }
 
 .version-menu-header {
@@ -1236,6 +1233,24 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
 .version-options-list {
   display: flex;
   flex-direction: column;
+  max-height: 320px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-attention) var(--bg-surface);
+}
+
+.version-options-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.version-options-list::-webkit-scrollbar-track {
+  background: var(--bg-surface);
+  border-left: 1px solid var(--border-color);
+}
+
+.version-options-list::-webkit-scrollbar-thumb {
+  background-color: var(--accent-attention);
+  border: 1px solid var(--border-color);
 }
 
 .version-option-btn {
@@ -1287,7 +1302,7 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   width: 100%;
   flex: 1;
   background-color: var(--bg-surface);
-  overflow-x: hidden;
+  overflow: visible;
 }
 
 .passage-list-parallel .translation-block {
