@@ -1,11 +1,9 @@
 <script lang="ts">
-  import { X, ChevronDown } from 'lucide-svelte';
+  import { X } from 'lucide-svelte';
   import type { PassageVersionResult } from '../domain/entities/Chapter';
-  import {
-    AVAILABLE_TRANSLATIONS,
-    type TranslationId,
-  } from '../domain/entities/Translation';
+  import type { TranslationId } from '../domain/entities/Translation';
   import type { FontSizeOption } from './FontSizeSelector.svelte';
+  import ColumnVersionDropdown from './ColumnVersionDropdown.svelte';
 
   interface Props {
     passages: PassageVersionResult[];
@@ -20,8 +18,6 @@
     onChangeColumnTranslation,
     onRemoveColumn,
   }: Props = $props();
-
-  const allTranslations = Object.values(AVAILABLE_TRANSLATIONS);
 
   const fontSizeClasses: Record<FontSizeOption, string> = {
     'x-small': 'text-size-x-small',
@@ -38,42 +34,30 @@
 >
   {#each passages as passage, index}
     <article class="translation-block">
-      <!-- Column Header with Reference, Version Selector & Close X -->
+      <!-- Column Header: Passage Reference + Close X on top, Full-Width Version Selector below -->
       <div class="column-top-header">
-        <div class="column-title-group">
+        <div class="column-title-row">
           <span class="column-ref-label">{passage.reference}</span>
 
-          <!-- Interactive Version Selector Dropdown for this column -->
-          <div class="version-select-wrapper">
-            <select
-              aria-label="Seleccionar versión para esta columna"
-              value={passage.translationId}
-              onchange={(e) =>
-                onChangeColumnTranslation(
-                  index,
-                  (e.target as HTMLSelectElement).value as TranslationId
-                )}
+          <!-- Close Column Button (X) perfectly aligned with the reference title -->
+          {#if passages.length > 1}
+            <button
+              type="button"
+              class="column-close-btn"
+              title="Cerrar esta columna paralela"
+              aria-label="Cerrar columna {passage.translationId}"
+              onclick={() => onRemoveColumn(index)}
             >
-              {#each allTranslations as t}
-                <option value={t.id}>{t.shortName} - {t.name}</option>
-              {/each}
-            </select>
-            <ChevronDown size={14} class="select-chevron" />
-          </div>
+              <X size={14} />
+            </button>
+          {/if}
         </div>
 
-        <!-- Close Column Button (X) when more than 1 column is open -->
-        {#if passages.length > 1}
-          <button
-            type="button"
-            class="column-close-btn"
-            title="Cerrar esta columna paralela"
-            aria-label="Cerrar columna {passage.translationId}"
-            onclick={() => onRemoveColumn(index)}
-          >
-            <X size={16} />
-          </button>
-        {/if}
+        <!-- Custom Neobrutalist Version Selector Dropdown (Full Column Width) -->
+        <ColumnVersionDropdown
+          currentId={passage.translationId}
+          onSelect={(newId) => onChangeColumnTranslation(index, newId)}
+        />
       </div>
 
       <!-- Verses Content -->

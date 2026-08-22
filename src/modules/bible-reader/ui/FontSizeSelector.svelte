@@ -51,18 +51,20 @@
       tabindex="-1"
     >
       <div class="menu-label">Tamaño de Fuente</div>
-      {#each options as opt}
-        <button
-          type="button"
-          role="option"
-          aria-selected={currentSize === opt.id}
-          class="font-size-option-btn {currentSize === opt.id ? 'is-selected' : ''}"
-          onclick={() => handleSelect(opt.id)}
-        >
-          <span class="font-bold">{opt.label}</span>
-          <span class="text-xs opacity-75">{opt.sample}</span>
-        </button>
-      {/each}
+      <div class="font-size-options-list">
+        {#each options as opt}
+          <button
+            type="button"
+            role="option"
+            aria-selected={currentSize === opt.id}
+            class="font-size-option-btn {currentSize === opt.id ? 'is-selected' : ''}"
+            onclick={() => handleSelect(opt.id)}
+          >
+            <span class="font-bold text-xs">{opt.label}</span>
+            <span class="sample-tag font-mono text-[11px]">{opt.sample}</span>
+          </button>
+        {/each}
+      </div>
     </div>
   {/if}
 </div>

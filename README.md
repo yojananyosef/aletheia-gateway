@@ -148,6 +148,17 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.3.1] - 2026-08-21
+#### Añadido & Mejorado
+- 🖍️ **Motor de Resaltado Bíblico (Estilo BibleGateway)**: Barra de herramientas flotante al seleccionar texto con 4 colores (amarillo, coral, azul, verde), borrador de resaltado, copiado rápido con cita formateada y notas.
+- 🎨 **Selector de Versión por Columna Neobrutalista Flotante**: Menú desplegable sin scrollbars artificiales que desborda limpiamente por encima del contenedor con sombra dura y cierre al hacer clic fuera (*click-outside*).
+- 🔍 **Buscador Alargado Superior**: Barra de búsqueda a ancho completo (`100%`) en la cabecera del lector, eliminando encabezados gigantes redundantes y maximizando el espacio de lectura.
+- ◀ ▶ **Botones Flotantes Exteriores y Centrados**: Navegación de capítulos situada en el eje vertical medio exacto de la tarjeta y fuera del área de versículos para evitar solapamientos.
+- 📐 **Altura Adaptativa al Contenido**: El contenedor del lector ajusta dinámicamente su altura según la cantidad de versículos en pantalla.
+- 🎨 **Sombreado Temático de Selección (`::selection`)**: El texto seleccionado adopta el color principal del tema activo (`#FFD23F` en modo estándar y `#ffeaa7` en Modo Calma).
+- 📐 **Selector de Tamaño de Fuente Ampliado**: Menú espacioso con etiquetas legibles sin truncamiento (`X-Grande` a `X-Pequeño`).
+- 🧹 **Limpieza de Elementos Redundantes**: Eliminación del anuncio inferior («Guarda tu lectura»), del botón de compartir no funcional y de las flechas redundantes en la barra de herramientas.
+
 ### [0.3.0] - 2026-08-21
 #### Añadido
 - 🗂️ **Botón «+ Agregar paralelo»**: Adición dinámica de hasta 5 versiones en paralelo, eliminando botones fijos y optimizando espacio.

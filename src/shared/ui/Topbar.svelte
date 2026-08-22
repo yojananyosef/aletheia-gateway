@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PanelLeft, PanelLeftClose, Menu, X, Share2, Sparkles } from 'lucide-svelte';
+  import { PanelLeft, PanelLeftClose, Menu, X, Sparkles } from 'lucide-svelte';
 
   interface Props {
     view: 'home' | 'reader';
@@ -56,10 +56,6 @@
       onclick={onToggleCalmMode}
     >
       <Sparkles size={18} />
-    </button>
-
-    <button type="button" class="topbar-btn" title="Compartir pasaje" aria-label="Compartir">
-      <Share2 size={16} />
     </button>
   </div>
 </header>
