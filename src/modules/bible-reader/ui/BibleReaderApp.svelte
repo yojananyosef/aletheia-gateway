@@ -12,6 +12,7 @@
   } from '../domain/entities/Translation';
   import type { PassageVersionResult } from '../domain/entities/Chapter';
   import { PassageReference } from '../domain/value-objects/PassageReference';
+  import { findBookInfo, ALL_BIBLE_BOOKS } from '../domain/entities/BibleBooks';
   import { JsonBibleRepository } from '../infrastructure/JsonBibleRepository';
   import { CompareTranslationsUseCase } from '../application/CompareTranslationsUseCase';
   import { LocalStorageBookmarkRepository } from '../../bookmarks/infrastructure/LocalStorageBookmarkRepository';
@@ -76,8 +77,8 @@
     }
   }
 
-  function handleSearch(event: SubmitEvent) {
-    event.preventDefault();
+  function handleSearch(event?: Event) {
+    if (event) event.preventDefault();
     const targetQuery = query.trim() || activeQuery || 'Génesis 1:1';
     activeQuery = targetQuery;
     query = targetQuery;
@@ -125,17 +126,35 @@
   }
 
   function handlePrevChapter() {
-    const parsed = PassageReference.parse(activeQuery);
-    const prevChapter = Math.max(1, parsed.chapter - 1);
-    const newRef = `${parsed.book} ${prevChapter}`;
-    handleGoToReader(newRef);
+    const ref = new PassageReference(activeQuery);
+    const primary = ref.primarySegment;
+    const bookInfo = findBookInfo(primary.bookCode) || findBookInfo(primary.book) || ALL_BIBLE_BOOKS[0];
+
+    if (primary.chapter > 1) {
+      handleGoToReader(`${bookInfo.name} ${primary.chapter - 1}`);
+    } else {
+      const idx = ALL_BIBLE_BOOKS.findIndex((b) => b.code === bookInfo.code);
+      if (idx > 0) {
+        const prevBook = ALL_BIBLE_BOOKS[idx - 1];
+        handleGoToReader(`${prevBook.name} ${prevBook.chaptersCount}`);
+      }
+    }
   }
 
   function handleNextChapter() {
-    const parsed = PassageReference.parse(activeQuery);
-    const nextChapter = parsed.chapter + 1;
-    const newRef = `${parsed.book} ${nextChapter}`;
-    handleGoToReader(newRef);
+    const ref = new PassageReference(activeQuery);
+    const primary = ref.primarySegment;
+    const bookInfo = findBookInfo(primary.bookCode) || findBookInfo(primary.book) || ALL_BIBLE_BOOKS[0];
+
+    if (primary.chapter < bookInfo.chaptersCount) {
+      handleGoToReader(`${bookInfo.name} ${primary.chapter + 1}`);
+    } else {
+      const idx = ALL_BIBLE_BOOKS.findIndex((b) => b.code === bookInfo.code);
+      if (idx < ALL_BIBLE_BOOKS.length - 1) {
+        const nextBook = ALL_BIBLE_BOOKS[idx + 1];
+        handleGoToReader(`${nextBook.name} 1`);
+      }
+    }
   }
 
   async function handleToggleBookmark() {

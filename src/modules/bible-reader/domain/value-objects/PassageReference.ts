@@ -55,6 +55,17 @@ export class PassageReference {
     return this.segments.map((s) => s.fullFormatted).join('; ');
   }
 
+  public static parse(input: string): { book: string; chapter: number; startVerse?: number; endVerse?: number } {
+    const ref = new PassageReference(input);
+    const p = ref.primarySegment;
+    return {
+      book: p.book,
+      chapter: p.chapter,
+      startVerse: p.startVerse,
+      endVerse: p.endVerse,
+    };
+  }
+
   public static parseMulti(input: string): ParsedPassageSegment[] {
     const raw = input.trim();
     if (!raw) {

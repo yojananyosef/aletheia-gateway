@@ -5,7 +5,7 @@
   interface Props {
     query: string;
     fontSize?: FontSizeOption;
-    onSearch: (event: SubmitEvent) => void;
+    onSearch: (event?: Event) => void;
     onQueryChange: (val: string) => void;
     onOpenBookModal: () => void;
     onFontSizeChange: (size: FontSizeOption) => void;
@@ -19,11 +19,23 @@
     onOpenBookModal,
     onFontSizeChange,
   }: Props = $props();
+
+  function handleSubmit(event: Event) {
+    event.preventDefault();
+    onSearch(event);
+  }
+
+  function handleKeyDown(event: KeyboardEvent) {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      onSearch(event);
+    }
+  }
 </script>
 
 <section class="home-top-search-section">
-  <!-- Wide Search Bar -->
-  <form class="search-form home-search-bar" onsubmit={onSearch}>
+  <!-- Wide Search Bar with Enter key support -->
+  <form class="search-form home-search-bar" onsubmit={handleSubmit}>
     <div class="search-input-wrapper">
       <Search size={18} class="search-icon" />
       <input
@@ -31,10 +43,11 @@
         aria-label="Buscar un pasaje o tema"
         value={query}
         oninput={(e) => onQueryChange((e.target as HTMLInputElement).value)}
+        onkeydown={handleKeyDown}
         placeholder="Ingrese pasaje, palabra clave o tema (ej. Salmos 42, Juan 3:16)..."
       />
     </div>
-    <button type="submit">Buscar</button>
+    <button type="submit" onclick={handleSubmit}>Buscar</button>
   </form>
 
   <!-- Quick Sub-Toolbar (BibleGateway style: Book Selector & Font Size) -->

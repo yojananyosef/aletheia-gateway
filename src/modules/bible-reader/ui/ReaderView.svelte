@@ -21,7 +21,7 @@
     selectedTranslations: TranslationId[];
     isBookmarked: boolean;
     fontSize?: FontSizeOption;
-    onSearch: (event: SubmitEvent) => void;
+    onSearch: (event?: Event) => void;
     onQueryChange: (val: string) => void;
     onAddParallelColumn: () => void;
     onChangeColumnTranslation: (index: number, newTranslationId: TranslationId) => void;
@@ -37,7 +37,7 @@
     query = '',
     activeQuery = 'Génesis 1:1',
     passages = [],
-    selectedTranslations = ['RVC'],
+    selectedTranslations = ['RV1909'],
     fontSize = 'medium',
     onSearch,
     onQueryChange,
@@ -57,12 +57,24 @@
   let currentBook = $derived(firstPassage ? firstPassage.book : 'Génesis');
   let currentChapter = $derived(firstPassage ? firstPassage.chapter : 1);
   let canAddMore = $derived(selectedTranslations.length < 5);
+
+  function handleSubmit(event: Event) {
+    event.preventDefault();
+    onSearch(event);
+  }
+
+  function handleKeyDown(event: KeyboardEvent) {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      onSearch(event);
+    }
+  }
 </script>
 
 <div class="reader-view">
-  <!-- Elongated Full-Width Search Bar (BibleGateway layout) -->
+  <!-- Elongated Full-Width Search Bar with Enter key support -->
   <div class="reader-search-bar-row">
-    <form class="search-form reader-search-wide" onsubmit={onSearch}>
+    <form class="search-form reader-search-wide" onsubmit={handleSubmit}>
       <div class="search-input-wrapper">
         <Search size={18} class="search-icon" />
         <input
@@ -70,10 +82,11 @@
           aria-label="Buscar pasaje bíblico"
           value={query}
           oninput={(e) => onQueryChange((e.target as HTMLInputElement).value)}
-          placeholder="Buscar pasaje (ej. Rut 1:6-8, Juan 3:16, Salmos 23)..."
+          onkeydown={handleKeyDown}
+          placeholder="Buscar pasaje (ej. Rut 1:6-8, Juan 3:16, Salmos 23, Gen 1:1; 2:1-2)..."
         />
       </div>
-      <button type="submit">Buscar</button>
+      <button type="submit" onclick={handleSubmit}>Buscar</button>
     </form>
   </div>
 
