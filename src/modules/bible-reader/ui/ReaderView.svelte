@@ -141,6 +141,7 @@
       {fontSize}
       {onChangeColumnTranslation}
       {onRemoveColumn}
+      {onSelectPassage}
     />
   </section>
 

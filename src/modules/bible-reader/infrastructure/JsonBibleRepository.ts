@@ -1,6 +1,6 @@
 import type { IBibleRepository } from '../domain/repositories/IBibleRepository';
 import { AVAILABLE_TRANSLATIONS, type TranslationId, type TranslationInfo } from '../domain/entities/Translation';
-import type { PassageVersionResult } from '../domain/entities/Chapter';
+import type { PassageVersionResult, PassageSection, SectionFootnote } from '../domain/entities/Chapter';
 import type { Verse } from '../domain/entities/Verse';
 import { PassageReference } from '../domain/value-objects/PassageReference';
 import { findBookInfo, ALL_BIBLE_BOOKS } from '../domain/entities/BibleBooks';
@@ -22,77 +22,122 @@ export class JsonBibleRepository implements IBibleRepository {
 
   public async getPassage(referenceStr: string, translationId: TranslationId): Promise<PassageVersionResult | null> {
     const ref = new PassageReference(referenceStr);
-    const bookInfo = findBookInfo(ref.book) || ALL_BIBLE_BOOKS[0];
-    const bookCode = bookInfo.code;
     const translation = AVAILABLE_TRANSLATIONS[translationId] || AVAILABLE_TRANSLATIONS.RV1909;
 
-    const bookData = await this.loadBookData(translationId, bookCode);
-    if (!bookData) {
-      return {
-        translationId,
-        translationName: translation.name,
-        reference: ref.fullFormatted,
-        book: bookInfo.name,
-        chapter: ref.chapter,
-        title: `${bookInfo.name} ${ref.chapter}`,
-        verses: [
-          {
-            number: ref.startVerse || 1,
-            text: `No se encontró el texto de ${ref.fullFormatted} en ${translation.name}.`,
-          },
-        ],
-      };
-    }
+    const sections: PassageSection[] = [];
 
-    const chapterData = bookData.chapters[ref.chapter] || bookData.chapters[1];
-    if (!chapterData || !chapterData.verses || chapterData.verses.length === 0) {
-      return {
-        translationId,
-        translationName: translation.name,
-        reference: ref.fullFormatted,
-        book: bookInfo.name,
-        chapter: ref.chapter,
-        title: `${bookInfo.name} ${ref.chapter}`,
-        verses: [
-          {
-            number: ref.startVerse || 1,
-            text: `El capítulo ${ref.chapter} no está disponible en ${translation.name}.`,
-          },
-        ],
-      };
-    }
+    for (const segment of ref.segments) {
+      const bookInfo = findBookInfo(segment.bookCode) || findBookInfo(segment.book) || ALL_BIBLE_BOOKS[0];
+      const bookCode = bookInfo.code;
+      const bookData = await this.loadBookData(translationId, bookCode);
 
-    let filteredVerses: Verse[] = chapterData.verses;
-
-    // If query specified a single verse or verse range
-    if (ref.startVerse !== undefined) {
-      if (ref.endVerse !== undefined) {
-        filteredVerses = chapterData.verses.filter(
-          (v) => v.number >= ref.startVerse! && v.number <= ref.endVerse!
-        );
-      } else {
-        filteredVerses = chapterData.verses.filter((v) => v.number === ref.startVerse);
+      if (!bookData) {
+        sections.push({
+          reference: segment.fullFormatted,
+          book: bookInfo.name,
+          chapter: segment.chapter,
+          fullChapterRef: segment.fullChapterRef,
+          isPartial: segment.isPartial,
+          title: `${bookInfo.name} ${segment.chapter}`,
+          verses: [
+            {
+              number: segment.startVerse || 1,
+              text: `No se encontró el texto de ${segment.fullFormatted} en ${translation.name}.`,
+            },
+          ],
+          footnotes: [],
+        });
+        continue;
       }
 
-      // If specific verse was not found, fallback to all verses
-      if (filteredVerses.length === 0) {
-        filteredVerses = chapterData.verses;
+      const chapterData = bookData.chapters[segment.chapter] || bookData.chapters[1];
+      if (!chapterData || !chapterData.verses || chapterData.verses.length === 0) {
+        sections.push({
+          reference: segment.fullFormatted,
+          book: bookInfo.name,
+          chapter: segment.chapter,
+          fullChapterRef: segment.fullChapterRef,
+          isPartial: segment.isPartial,
+          title: `${bookInfo.name} ${segment.chapter}`,
+          verses: [
+            {
+              number: segment.startVerse || 1,
+              text: `El capítulo ${segment.chapter} no está disponible en ${translation.name}.`,
+            },
+          ],
+          footnotes: [],
+        });
+        continue;
       }
+
+      let filteredVerses: Verse[] = chapterData.verses;
+
+      // Filter exact verse numbers if specified
+      if (segment.verseNumbers && segment.verseNumbers.length > 0) {
+        const verseSet = new Set(segment.verseNumbers);
+        filteredVerses = chapterData.verses.filter((v) => verseSet.has(v.number));
+        if (filteredVerses.length === 0) {
+          filteredVerses = chapterData.verses;
+        }
+      }
+
+      // Collect section footnotes with unique anchor IDs
+      const sectionFootnotes: SectionFootnote[] = [];
+      for (const v of filteredVerses) {
+        if (v.footnotes && v.footnotes.length > 0) {
+          for (const fn of v.footnotes) {
+            sectionFootnotes.push({
+              id: fn.id,
+              caller: fn.caller,
+              text: fn.text,
+              verseNum: v.number,
+              book: bookInfo.name,
+              chapter: segment.chapter,
+              anchorId: `fn-${translationId}-${bookCode}-${segment.chapter}-${v.number}-${fn.id}`,
+            });
+          }
+        }
+      }
+
+      const firstVerseHeadings = filteredVerses[0]?.headings;
+      const title = firstVerseHeadings && firstVerseHeadings.length > 0
+        ? firstVerseHeadings[0]
+        : `${bookInfo.name} ${segment.chapter}`;
+
+      sections.push({
+        reference: segment.fullFormatted,
+        book: bookInfo.name,
+        chapter: segment.chapter,
+        fullChapterRef: segment.fullChapterRef,
+        isPartial: segment.isPartial,
+        title,
+        verses: filteredVerses,
+        footnotes: sectionFootnotes,
+      });
     }
 
-    const firstVerseHeadings = filteredVerses[0]?.headings;
-    const title = firstVerseHeadings && firstVerseHeadings.length > 0
-      ? firstVerseHeadings[0]
-      : `${bookInfo.name} ${ref.chapter}`;
+    const firstSection = sections[0] || {
+      reference: 'Génesis 1:1',
+      book: 'Génesis',
+      chapter: 1,
+      fullChapterRef: 'Génesis 1',
+      isPartial: true,
+      title: 'Génesis 1',
+      verses: [],
+      footnotes: [],
+    };
 
     return {
       translationId,
       translationName: translation.name,
+      shortName: translation.shortName,
       reference: ref.fullFormatted,
-      book: bookInfo.name,
-      chapter: ref.chapter,
-      title,
-      verses: filteredVerses,
+      copyright: translation.copyright || 'Dominio Público',
+      sections,
+      book: firstSection.book,
+      chapter: firstSection.chapter,
+      title: firstSection.title,
+      verses: firstSection.verses,
     };
   }
 
@@ -108,7 +153,14 @@ export class JsonBibleRepository implements IBibleRepository {
     const search = norm(query);
 
     if (!search) {
-      return ['Génesis 1:1', 'Salmos 42:8', 'Juan 3:16', 'Salmos 23', 'Proverbios 3:5', 'Romanos 8:28', 'Filipenses 4:13'];
+      return [
+        'Génesis 1:1',
+        'Genesis 1:1; Génesis 2:1-2; Gen 3:1,6; 5',
+        'Salmos 42:8',
+        'Juan 3:16; 14:6',
+        'Salmos 23',
+        'Romanos 8:28',
+      ];
     }
 
     const matches: string[] = [];

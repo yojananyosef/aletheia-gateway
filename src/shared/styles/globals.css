@@ -1322,35 +1322,143 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   border-bottom: 2px solid rgba(26, 26, 24, 0.15);
 }
 
-/* Grupo de notas al pie por versículo */
-.verse-footnotes-group {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  margin: 4px 0 10px;
+/* Badge de sub-referencia para búsquedas multi-pasaje */
+.section-ref-badge {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 800;
+  color: var(--text-main);
+  background-color: var(--bg-canvas);
+  border: 1.5px solid var(--border-color);
+  padding: 3px 8px;
+  margin-bottom: 8px;
+  box-shadow: 2px 2px 0 var(--border-color);
 }
 
-.verse-footnote-item {
+/* Enlace a nota al pie dentro del texto del versículo */
+.verse-footnote-link {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--accent-interest);
+  text-decoration: none;
+  vertical-align: super;
+  margin-left: 2px;
+  padding: 0 2px;
+  transition: all 0.08s ease;
+}
+
+.verse-footnote-link:hover {
+  color: #fff;
+  background-color: var(--accent-interest);
+}
+
+/* Botón "Leer el capítulo completo" estilo BibleGateway */
+.read-full-chapter-box {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.read-full-chapter-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--text-main);
+  background: transparent;
+  border: none;
+  padding: 4px 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: all 0.08s ease;
+}
+
+.read-full-chapter-link:hover {
+  color: var(--accent-interest);
+  transform: translateX(2px);
+}
+
+/* Sección de Notas al Pie al final de la columna */
+.column-footnotes-section {
+  margin-top: 24px;
+  padding-top: 14px;
+  border-top: 2px dashed rgba(26, 26, 24, 0.2);
+}
+
+.column-footnotes-title {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.column-footnotes-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.column-footnote-row {
+  display: flex;
+  align-items: baseline;
   gap: 6px;
   font-family: var(--font-body);
   font-size: 0.75rem;
-  line-height: 1.4;
+  line-height: 1.45;
   color: var(--text-muted);
   background-color: var(--bg-canvas);
   border-left: 3px solid var(--accent-interest);
   padding: 4px 8px;
+  scroll-margin-top: 80px;
 }
 
-.verse-footnote-item .footnote-caller {
+.column-footnote-row .fn-marker {
   font-weight: 900;
   color: var(--text-main);
   flex-shrink: 0;
 }
 
-.verse-footnote-item .footnote-text {
+.column-footnote-row .fn-ref {
+  font-weight: 700;
+  color: var(--text-main);
+  flex-shrink: 0;
+}
+
+.column-footnote-row .fn-text {
   flex: 1;
+}
+
+/* Pie de columna con Copyright y Licencia */
+.column-copyright-footer {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(26, 26, 24, 0.12);
+  font-family: var(--font-body);
+}
+
+.copyright-version-name {
+  font-size: 0.8125rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 2px;
+}
+
+.copyright-legal-text {
+  font-size: 0.71875rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+  margin: 0;
 }
 
 /* ==========================================================================

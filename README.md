@@ -148,6 +148,19 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.4.1] - 2026-08-21
+#### Añadido & Búsqueda Avanzada Estilo BibleGateway
+- 🔍 **Buscador Multi-Pasajes y Nomenclaturas Flexibles**:
+  - Soporte de múltiples pasajes en una sola búsqueda separados por punto y coma (ej. `Genesis 1:1; Génesis 2:1-2; Gen 3:1,6; 5`).
+  - Reconocimiento de variaciones fonéticas, abreviaturas (`Gen`, `1Cor`, `Sal`, `Lv`), omisión de tildes y versículos discontinuos con comas (`3:1,6`).
+  - Herencia automática de contexto del libro en listas compuestas (ej. `5` tras `Gen 3:1,6` se interpreta como `Génesis 5`).
+- 📜 **Apilamiento Vertical de Bloques de Pasajes**:
+  - Cada pasaje consultado se lista verticalmente hacia abajo con su propio identificador y botón interactivo `[ 📖 Leer el capítulo completo ➔ ]`.
+- 📌 **Notas al Pie al Final con Enlaces Interactivos**:
+  - Llamadas de nota en superíndice `[*]` junto al versículo con desplazamiento suave al pulsar hacia la sección de notas al pie al final de la columna.
+- ⚖️ **Aviso Legal y Derechos de Autor por Columna**:
+  - Bloque tipográfico al pie de cada versión mostrando nombre oficial, titularidad y licencia de uso (ej. *Biblica® Nueva Biblia Viva, © Biblica, Inc.*).
+
 ### [0.4.0] - 2026-08-21
 #### Añadido & Ingesta Real de Datos
 - 📖 **7 Versiones Bíblicas Reales y Completas en JSON**:
