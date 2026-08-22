@@ -487,7 +487,7 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   background-color: var(--accent-interest);
 }
 
-/* --- VISTAS Y CONTENEDORES DINÁMICOS --- */
+/* --- VISTAS Y CONTENEDORES DINÁMICOS UNIFICADOS --- */
 .home-view, .reader-view {
   width: min(100% - 100px, 1200px);
   min-width: 0;
@@ -502,85 +502,173 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   width: min(100% - 100px, 1440px);
 }
 
-/* --- ATENCIÓN (A): HERO PRINCIPAL --- */
-.home-hero {
-  max-width: 880px;
-  padding: 10px 0 40px;
-  width: 100%;
-}
-
-.hero-header-row {
+/* --- INICIO ESTILO BIBLEGATEWAY: BUSCADOR & SUB-TOOLBAR --- */
+.home-top-search-section {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 28px;
+  flex-direction: column;
+  gap: 12px;
   width: 100%;
 }
 
-.hero-text-col {
-  flex: 1;
-  min-width: 0;
+.home-search-bar {
+  max-width: 100% !important;
+  width: 100% !important;
+  min-height: 54px;
 }
 
-.hero-orbit {
-  flex-shrink: 0;
-  display: grid;
-  place-items: center;
-  width: 76px;
-  height: 76px;
-  border: var(--border-main);
-  border-radius: var(--radius-strict);
-  background-color: var(--accent-desire);
-  color: var(--text-main);
-  box-shadow: var(--shadow-md);
-  transform: rotate(8deg);
-  margin-top: 8px;
-  transition: transform 0.1s ease;
+.home-sub-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-.hero-orbit:hover {
-  transform: rotate(12deg) scale(1.04);
-}
-
-.hero-orbit svg {
-  width: 34px;
-  height: 34px;
-  transform: rotate(-8deg);
-}
-
-.eyebrow {
+.home-sub-btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-main);
-  background-color: var(--accent-attention);
+  min-height: 38px;
+  padding: 5px 14px;
   border: 2px solid var(--border-color);
-  padding: 2px 8px;
-  margin-bottom: 0.75rem;
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 800;
+  box-shadow: 2px 2px 0 var(--border-color);
+  cursor: pointer;
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out, background 0.08s ease-in-out;
 }
 
-.home-hero h1 {
-  font-family: var(--font-display);
+.home-sub-btn:hover {
+  background-color: var(--accent-interest);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--border-color);
+}
+
+.home-sub-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 #000;
+}
+
+/* --- VERSÍCULO DEL DÍA (TARJETA ÚNICA NEOBRUTALISTA) --- */
+.daily-verse-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.daily-verse-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 8px;
+}
+
+.daily-verse-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
   font-weight: 900;
-  letter-spacing: -0.04em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--text-main);
-  line-height: 1;
-  margin: 8px 0 10px;
-  font-size: clamp(2.25rem, 5.5vw, 4.25rem);
 }
 
-.home-hero p {
-  max-width: var(--max-width-text);
-  margin: 0 0 28px;
-  color: var(--text-muted);
+.daily-verse-card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 28px 30px;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  box-shadow: var(--shadow-md);
+  text-align: left;
+  transition: all 0.08s ease;
+}
+
+.daily-verse-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.daily-verse-ref {
+  font-family: var(--font-body);
   font-size: 1.125rem;
-  line-height: var(--line-height-body);
+  font-weight: 900;
+  color: var(--text-main);
+}
+
+.daily-verse-version {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.daily-verse-quote {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  line-height: 1.65;
+  color: var(--text-main);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border-left: 4px solid var(--accent-attention);
+  padding-left: 18px;
+}
+
+/* Escalado tipográfico reactivo para el versículo del día */
+.daily-verse-card.text-size-x-small .daily-verse-quote { font-size: 0.95rem !important; line-height: 1.5; }
+.daily-verse-card.text-size-small .daily-verse-quote   { font-size: 1.0625rem !important; line-height: 1.55; }
+.daily-verse-card.text-size-medium .daily-verse-quote  { font-size: 1.25rem !important; line-height: 1.65; }
+.daily-verse-card.text-size-large .daily-verse-quote   { font-size: 1.45rem !important; line-height: 1.75; }
+.daily-verse-card.text-size-x-large .daily-verse-quote { font-size: 1.75rem !important; line-height: 1.85; }
+
+.daily-verse-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.daily-verse-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 6px 18px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--accent-attention);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 800;
+  box-shadow: 2px 2px 0 var(--border-color);
+  cursor: pointer;
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out, background 0.08s ease-in-out;
+}
+
+.daily-verse-action-btn:hover {
+  background-color: var(--accent-interest);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--border-color);
+}
+
+.daily-verse-action-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 #000;
 }
 
 /* --- FORMULARIOS DE BÚSQUEDA NEOBRUTALISTAS --- */
@@ -684,68 +772,6 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
 .reader-search-wide .search-input-wrapper input {
   height: 36px;
   font-size: 1rem;
-}
-
-.quick-links {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 14px;
-  margin-top: 16px;
-  color: var(--text-main);
-  font-size: 0.875rem;
-}
-
-.quick-links button {
-  padding: 0;
-  border: 0;
-  background: transparent;
-  color: var(--text-main);
-  font-weight: 800;
-  text-decoration: underline;
-  text-underline-offset: 0.25em;
-}
-
-.quick-links button:hover {
-  background-color: var(--accent-attention);
-}
-
-/* --- BENTO FEATURE CARDS --- */
-.home-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  width: 100%;
-}
-
-.feature-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 14px;
-  min-height: 190px;
-  padding: 22px;
-  border: var(--border-main);
-  border-radius: var(--radius-strict);
-  box-shadow: var(--shadow-md);
-  background-color: var(--bg-surface);
-  color: var(--text-main);
-  text-align: left;
-  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out;
-}
-
-.feature-card:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: var(--shadow-lg);
-}
-
-.feature-card:active {
-  transform: translate(5px, 5px);
-  box-shadow: var(--shadow-active);
-}
-
-.feature-blue {
-  background-color: var(--accent-interest);
-  color: var(--text-main);
 }
 
 .feature-cream {

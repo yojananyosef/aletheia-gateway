@@ -148,6 +148,16 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.3.2] - 2026-08-21
+#### Añadido & Rediseñado
+- 🏠 **Rediseño del Inicio al Estilo BibleGateway**:
+  - Buscador principal superior con placeholder limpio y sin textos hardcodeados.
+  - Sub-barra de herramientas con acceso directo al modal de libros bíblicos y selector de tamaño de fuente.
+  - Tarjeta destacada única de **Versículo del Día** con enlace directo para leer el capítulo completo en el lector.
+  - Ajuste de altura compacto al viewport sin scroll vertical innecesario.
+  - Ancho unificado y coherente con la vista de lectura bíblica (`1200px` / `1440px`).
+  - Escalado tipográfico reactivo del Versículo del Día al cambiar el tamaño de fuente.
+
 ### [0.3.1] - 2026-08-21
 #### Añadido & Mejorado
 - 🖍️ **Motor de Resaltado Bíblico (Estilo BibleGateway)**: Barra de herramientas flotante al seleccionar texto con 4 colores (amarillo, coral, azul, verde), borrador de resaltado, copiado rápido con cita formateada y notas.

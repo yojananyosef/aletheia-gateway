@@ -2,8 +2,9 @@
   import { onMount } from 'svelte';
   import AppShell from '../../../shared/ui/AppShell.svelte';
   import HomeHero from './HomeHero.svelte';
-  import FeatureCards from './FeatureCards.svelte';
+  import DailyVerseCard from './DailyVerseCard.svelte';
   import ReaderView from './ReaderView.svelte';
+  import BookChapterSelectorModal from './BookChapterSelectorModal.svelte';
 
   import {
     AVAILABLE_TRANSLATIONS,
@@ -23,12 +24,13 @@
 
   // Svelte 5 Runes state
   let view = $state<'home' | 'reader'>('home');
-  let query = $state('Génesis 1:1');
+  let query = $state('');
   let activeQuery = $state('Génesis 1:1');
   let selectedTranslations = $state<TranslationId[]>(['RVC']);
   let isBookmarked = $state(false);
   let passages = $state<PassageVersionResult[]>([]);
   let fontSize = $state<FontSizeOption>('medium');
+  let isBookModalOpen = $state(false);
 
   // Load comparison data whenever activeQuery or selectedTranslations change
   async function loadPassageData() {
@@ -76,23 +78,25 @@
 
   function handleSearch(event: SubmitEvent) {
     event.preventDefault();
-    if (query.trim()) {
-      activeQuery = query.trim();
-      view = 'reader';
-    }
+    const targetQuery = query.trim() || activeQuery || 'Génesis 1:1';
+    activeQuery = targetQuery;
+    query = targetQuery;
+    view = 'reader';
   }
 
-  function handleGoToReader(nextQuery = query) {
+  function handleGoToReader(nextQuery = 'Génesis 1:1') {
     query = nextQuery;
     activeQuery = nextQuery;
     view = 'reader';
+    isBookModalOpen = false;
   }
 
   function handleNavigate(nextView: 'home' | 'reader') {
     view = nextView;
     if (nextView === 'reader') {
+      if (!query) query = activeQuery;
       setTimeout(() => {
-        const input = document.querySelector<HTMLInputElement>('.reader-search input');
+        const input = document.querySelector<HTMLInputElement>('.reader-search input, .reader-search-wide input');
         input?.focus();
       }, 50);
     }
@@ -157,11 +161,22 @@
     <div class="home-view">
       <HomeHero
         {query}
+        {fontSize}
         onQueryChange={(val) => (query = val)}
         onSearch={handleSearch}
-        onQuickSelect={handleGoToReader}
+        onOpenBookModal={() => (isBookModalOpen = true)}
+        onFontSizeChange={handleFontSizeChange}
       />
-      <FeatureCards onSelectPassage={handleGoToReader} />
+
+      <DailyVerseCard {fontSize} onSelectPassage={handleGoToReader} />
+
+      <!-- Book & Chapter Selector Modal accessible from Home -->
+      <BookChapterSelectorModal
+        isOpen={isBookModalOpen}
+        currentBook="Génesis"
+        onClose={() => (isBookModalOpen = false)}
+        onSelectPassage={handleGoToReader}
+      />
     </div>
   {:else}
     <ReaderView
