@@ -234,7 +234,11 @@
         onFontSizeChange={handleFontSizeChange}
       />
 
-      <DailyVerseCard {fontSize} onSelectPassage={handleGoToReader} />
+      <DailyVerseCard
+        {fontSize}
+        selectedTranslation={selectedTranslations[0] || 'RV1909'}
+        onSelectPassage={handleGoToReader}
+      />
 
       <!-- Book & Chapter Selector Modal accessible from Home -->
       <BookChapterSelectorModal

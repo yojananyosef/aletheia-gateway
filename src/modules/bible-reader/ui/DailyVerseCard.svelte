@@ -1,17 +1,22 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
   import { Sparkles, ArrowRight, BookOpen, Calendar } from 'lucide-svelte';
   import type { FontSizeOption } from './FontSizeSelector.svelte';
+  import type { TranslationId } from '../domain/entities/Translation';
   import { getTodayVerseReference } from '../domain/entities/DailyVerseCatalog';
   import { JsonBibleRepository } from '../infrastructure/JsonBibleRepository';
   import { PassageReference } from '../domain/value-objects/PassageReference';
 
   interface Props {
     fontSize?: FontSizeOption;
+    selectedTranslation?: TranslationId;
     onSelectPassage: (ref: string) => void;
   }
 
-  let { fontSize = 'medium', onSelectPassage }: Props = $props();
+  let {
+    fontSize = 'medium',
+    selectedTranslation = 'RV1909',
+    onSelectPassage,
+  }: Props = $props();
 
   const fontSizeClasses: Record<FontSizeOption, string> = {
     'x-small': 'text-size-x-small',
@@ -24,24 +29,31 @@
   const todayMeta = getTodayVerseReference();
   const repo = new JsonBibleRepository();
 
-  let verseText = $state<string>('De día mandará Jehová su misericordia, y de noche su canción será conmigo...');
+  let verseText = $state<string>('');
   let verseRef = $state<string>(todayMeta.reference);
   let chapterRef = $state<string>(todayMeta.reference);
-  let translationName = $state<string>('Reina Valera 1909 (RV1909)');
+  let translationName = $state<string>('');
   let isLoading = $state<boolean>(true);
 
-  async function loadTodayVerse() {
+  async function loadTodayVerse(targetTranslation: TranslationId) {
     try {
       isLoading = true;
       const refObj = new PassageReference(todayMeta.reference);
       chapterRef = refObj.primarySegment.fullChapterRef;
       verseRef = refObj.fullFormatted;
 
-      const result = await repo.getPassage(todayMeta.reference, 'RV1909');
+      const result = await repo.getPassage(todayMeta.reference, targetTranslation);
       if (result && result.sections && result.sections[0]?.verses?.length > 0) {
         const textParts = result.sections[0].verses.map((v) => v.text).join(' ');
         verseText = textParts;
         translationName = `${result.translationName} (${result.shortName || result.translationId})`;
+      } else {
+        // Fallback to RV1909 if not found in target translation
+        const fallback = await repo.getPassage(todayMeta.reference, 'RV1909');
+        if (fallback && fallback.sections && fallback.sections[0]?.verses?.length > 0) {
+          verseText = fallback.sections[0].verses.map((v) => v.text).join(' ');
+          translationName = `${fallback.translationName} (${fallback.shortName || fallback.translationId})`;
+        }
       }
     } catch (err) {
       console.error('Error loading daily verse:', err);
@@ -50,8 +62,9 @@
     }
   }
 
-  onMount(() => {
-    loadTodayVerse();
+  $effect(() => {
+    const currentTranslation = selectedTranslation;
+    loadTodayVerse(currentTranslation);
   });
 </script>
 

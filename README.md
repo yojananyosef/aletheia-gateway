@@ -148,6 +148,11 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.5.2] - 2026-08-22
+#### Añadido & Sincronización
+- 🌅 **Sincronización Dinámica del Versículo del Día con la Versión Seleccionada**:
+  - La tarjeta del «Versículo del Día» ahora resuelve reactivamente el texto y metadatos en la traducción preferida/activa del usuario (`selectedTranslations[0]`), actualizándose en tiempo real al cambiar de versión en el lector y persistiendo entre sesiones.
+
 ### [0.5.1] - 2026-08-22
 #### Corregido & Mejoras de Usabilidad
 - 🔽 **Dropdown de Versiones sin Recortes**:
