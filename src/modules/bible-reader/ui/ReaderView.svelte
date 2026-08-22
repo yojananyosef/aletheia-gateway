@@ -142,6 +142,28 @@
         </div>
 
         <div class="toolbar-right-group">
+          <!-- Compact Mobile/Tablet Chapter Navigation Controls -->
+          <div class="toolbar-chapter-nav">
+            <button
+              type="button"
+              class="toolbar-nav-btn"
+              title="Capítulo anterior ({currentBook} {Math.max(1, currentChapter - 1)})"
+              aria-label="Capítulo anterior"
+              onclick={onPrevChapter}
+            >
+              <ChevronLeft size={16} />
+            </button>
+            <button
+              type="button"
+              class="toolbar-nav-btn"
+              title="Siguiente capítulo ({currentBook} {currentChapter + 1})"
+              aria-label="Siguiente capítulo"
+              onclick={onNextChapter}
+            >
+              <ChevronRight size={16} />
+            </button>
+          </div>
+
           <FontSizeSelector
             currentSize={fontSize}
             onSizeChange={onFontSizeChange}

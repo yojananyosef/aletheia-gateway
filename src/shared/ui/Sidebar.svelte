@@ -2,7 +2,6 @@
   import {
     Home,
     BookOpen,
-    Search,
     ListChecks,
     Heart,
     Headphones,
@@ -72,7 +71,7 @@
         {@const Icon = item.icon}
         <button
           type="button"
-          class="neo-nav-button {activeView === item.view && item.title !== 'Buscar pasajes' ? 'is-active' : ''} {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
+          class="neo-nav-button {activeView === item.view ? 'is-active' : ''} {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
           title={item.title}
           onclick={() => handleSelect(item.view)}
         >
@@ -92,12 +91,14 @@
         {@const Icon = item.icon}
         <button
           type="button"
-          class="neo-nav-button {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
-          title={item.title}
+          class="neo-nav-button is-disabled {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
+          title="{item.title} (Próximamente)"
+          disabled
         >
           <Icon size={20} class="shrink-0" />
           {#if !isCollapsed || isOpen}
-            <span class="truncate">{item.title}</span>
+            <span class="truncate flex-1 text-left">{item.title}</span>
+            <span class="sidebar-pending-badge">Pronto</span>
           {/if}
         </button>
       {/each}
@@ -107,12 +108,14 @@
   <div class="neo-sidebar-footer">
     <button
       type="button"
-      class="neo-nav-button {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
-      title="Configuración"
+      class="neo-nav-button is-disabled {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
+      title="Configuración (Próximamente)"
+      disabled
     >
       <Settings2 size={20} class="shrink-0" />
       {#if !isCollapsed || isOpen}
-        <span class="truncate">Configuración</span>
+        <span class="truncate flex-1 text-left">Configuración</span>
+        <span class="sidebar-pending-badge">Pronto</span>
       {/if}
     </button>
   </div>

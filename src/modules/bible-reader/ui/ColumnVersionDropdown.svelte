@@ -53,7 +53,7 @@
     onclick={() => (isOpen = !isOpen)}
   >
     <span class="version-tag">{currentTranslation.shortName}</span>
-    <span class="version-name truncate">{currentTranslation.name}</span>
+    <span class="version-name">{currentTranslation.name}</span>
     <ChevronDown size={14} class="version-chevron shrink-0 transition-transform {isOpen ? 'rotate-180' : ''}" />
   </button>
 

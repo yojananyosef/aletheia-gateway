@@ -148,6 +148,18 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.4.3] - 2026-08-21
+#### Añadido & Perfeccionamiento Responsive
+- 🌅 **Motor Determinista del Versículo del Día (366 Días)**:
+  - Implementación del catálogo curado de 366 versículos bíblicos (`DailyVerseCatalog.ts`), asignando un pasaje único e inspirador para cada día del año sin repeticiones.
+  - Cálculo determinista automático por fecha y día del año (`Day of Year`).
+  - Resolución dinámica del texto real del versículo desde `JsonBibleRepository`.
+  - Distintivo de fecha actual formateada en español en la cabecera de la tarjeta (*ej. «21 de agosto de 2026»*).
+- 📱 **Diseño Adaptativo Vertical para Comparador en Tablet y Móvil**:
+  - En pantallas medianas y pequeñas (`<= 960px`), las columnas paralelas (hasta 5 versiones) se transforman automáticamente en un **apilamiento vertical continuo**, garantizando un ancho completo del 100%, lectura tipográfica holgada y selectores sin deformación.
+- 🏷️ **Opciones del Menú Lateral con Estado «Pronto»**:
+  - Los módulos en desarrollo (*Planes de lectura*, *Devocionales*, *Audio Biblia*, *Recursos*, *Configuración*) se presentan claramente deshabilitados con el badge neobrutalista `[Pronto]`.
+
 ### [0.4.2] - 2026-08-21
 #### Mejorado & Ajustes de Experiencia de Usuario
 - 📖 **Carga de Capítulo Completo desde el Modal de Libros**:
