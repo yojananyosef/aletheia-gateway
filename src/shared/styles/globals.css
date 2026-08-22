@@ -1439,6 +1439,43 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   flex: 1;
 }
 
+.column-footnote-row .fn-backlink-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: transparent;
+  border: 1px solid rgba(26, 26, 24, 0.2);
+  color: var(--text-muted);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all 0.08s ease;
+}
+
+.column-footnote-row .fn-backlink-btn:hover {
+  background-color: var(--accent-attention);
+  color: var(--text-main);
+  border-color: var(--border-color);
+}
+
+/* Animación de destello al trasladarse a la nota o versículo */
+@keyframes targetFlash {
+  0% { background-color: var(--accent-attention); transform: scale(1.01); }
+  50% { background-color: rgba(255, 210, 63, 0.4); }
+  100% { background-color: transparent; transform: scale(1); }
+}
+
+.footnote-target-highlight {
+  animation: targetFlash 2.5s ease-out;
+  border-left-color: var(--text-main) !important;
+}
+
+.verse-target-highlight {
+  animation: targetFlash 2.5s ease-out;
+}
+
 /* Pie de columna con Copyright y Licencia */
 .column-copyright-footer {
   margin-top: 24px;

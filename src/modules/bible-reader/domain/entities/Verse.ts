@@ -2,6 +2,7 @@ export interface Footnote {
   id: string;
   caller: string;
   text: string;
+  anchorId?: string;
 }
 
 export interface Verse {

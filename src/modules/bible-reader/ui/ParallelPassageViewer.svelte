@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { X, ArrowRight } from 'lucide-svelte';
+  import { X, ArrowRight, ArrowUp } from 'lucide-svelte';
   import type { PassageVersionResult, SectionFootnote } from '../domain/entities/Chapter';
   import type { TranslationId } from '../domain/entities/Translation';
   import type { FontSizeOption } from './FontSizeSelector.svelte';
@@ -40,6 +40,34 @@
       }
     }
     return list;
+  }
+
+  // Smooth scroll to footnote item and briefly highlight it
+  function handleScrollToFootnote(event: MouseEvent, targetId?: string) {
+    event.preventDefault();
+    if (!targetId) return;
+    const el = document.getElementById(targetId);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      el.classList.add('footnote-target-highlight');
+      setTimeout(() => {
+        el.classList.remove('footnote-target-highlight');
+      }, 2500);
+    }
+  }
+
+  // Smooth scroll back to verse and briefly highlight it
+  function handleScrollToVerse(event: MouseEvent, targetId?: string) {
+    event.preventDefault();
+    if (!targetId) return;
+    const el = document.getElementById(targetId);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      el.classList.add('verse-target-highlight');
+      setTimeout(() => {
+        el.classList.remove('verse-target-highlight');
+      }, 2500);
+    }
   }
 </script>
 
@@ -107,24 +135,25 @@
             <!-- Verses Content -->
             <div class="section-verses-list">
               {#each section.verses as verse}
+                {@const verseDomId = `verse-${passage.translationId}-${section.book}-${section.chapter}-${verse.number}`}
                 {#if verse.headings && verse.headings.length > 0 && verse.headings[0] !== section.title}
                   {#each verse.headings as heading}
                     <h3 class="verse-section-heading">{heading}</h3>
                   {/each}
                 {/if}
 
-                <p class="passage-text">
+                <p id={verseDomId} class="passage-text">
                   <span class="verse-num">{verse.number}</span>
                   {verse.text}
 
-                  <!-- Footnote Link Superscript Anchor -->
+                  <!-- Footnote Link Superscript Anchor with smooth scroll -->
                   {#if verse.footnotes && verse.footnotes.length > 0}
                     {#each verse.footnotes as fn}
-                      {@const fnAnchorId = `fn-${passage.translationId}-${section.book}-${section.chapter}-${verse.number}-${fn.id}`}
                       <a
-                        href="#{fnAnchorId}"
+                        href="#{fn.anchorId}"
                         class="verse-footnote-link"
                         title="Ver nota al pie ({fn.caller}) para {section.book} {section.chapter}:{verse.number}"
+                        onclick={(e) => handleScrollToFootnote(e, fn.anchorId)}
                       >
                         [{fn.caller}]
                       </a>
@@ -158,10 +187,20 @@
           <h4 class="column-footnotes-title">Notas al pie</h4>
           <ul class="column-footnotes-list">
             {#each columnFootnotes as fn}
+              {@const verseTargetId = `verse-${passage.translationId}-${fn.book}-${fn.chapter}-${fn.verseNum}`}
               <li id={fn.anchorId} class="column-footnote-row">
                 <span class="fn-marker">{fn.caller}</span>
                 <span class="fn-ref">{fn.book} {fn.chapter}:{fn.verseNum}</span>
                 <span class="fn-text">{fn.text}</span>
+                <button
+                  type="button"
+                  class="fn-backlink-btn"
+                  title="Volver al versículo {fn.verseNum}"
+                  onclick={(e) => handleScrollToVerse(e, verseTargetId)}
+                >
+                  <ArrowUp size={11} />
+                  <span>Volver</span>
+                </button>
               </li>
             {/each}
           </ul>

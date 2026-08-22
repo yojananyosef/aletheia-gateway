@@ -81,9 +81,21 @@ export class JsonBibleRepository implements IBibleRepository {
         }
       }
 
-      // Collect section footnotes with unique anchor IDs
+      // Map verses and attach exact anchorIds to footnotes
+      const mappedVerses: Verse[] = filteredVerses.map((v) => {
+        if (!v.footnotes || v.footnotes.length === 0) return v;
+        return {
+          ...v,
+          footnotes: v.footnotes.map((fn) => ({
+            ...fn,
+            anchorId: `fn-${translationId}-${bookCode}-${segment.chapter}-${v.number}-${fn.id}`,
+          })),
+        };
+      });
+
+      // Collect section footnotes with matching anchor IDs
       const sectionFootnotes: SectionFootnote[] = [];
-      for (const v of filteredVerses) {
+      for (const v of mappedVerses) {
         if (v.footnotes && v.footnotes.length > 0) {
           for (const fn of v.footnotes) {
             sectionFootnotes.push({
@@ -93,13 +105,13 @@ export class JsonBibleRepository implements IBibleRepository {
               verseNum: v.number,
               book: bookInfo.name,
               chapter: segment.chapter,
-              anchorId: `fn-${translationId}-${bookCode}-${segment.chapter}-${v.number}-${fn.id}`,
+              anchorId: fn.anchorId || `fn-${translationId}-${bookCode}-${segment.chapter}-${v.number}-${fn.id}`,
             });
           }
         }
       }
 
-      const firstVerseHeadings = filteredVerses[0]?.headings;
+      const firstVerseHeadings = mappedVerses[0]?.headings;
       const title = firstVerseHeadings && firstVerseHeadings.length > 0
         ? firstVerseHeadings[0]
         : `${bookInfo.name} ${segment.chapter}`;
@@ -111,7 +123,7 @@ export class JsonBibleRepository implements IBibleRepository {
         fullChapterRef: segment.fullChapterRef,
         isPartial: segment.isPartial,
         title,
-        verses: filteredVerses,
+        verses: mappedVerses,
         footnotes: sectionFootnotes,
       });
     }
