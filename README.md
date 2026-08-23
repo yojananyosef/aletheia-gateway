@@ -148,6 +148,17 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.6.1] - 2026-08-23
+#### Corregido & Mejorado: Soporte Completo de Versículos Agrupados y Rangos Bíblicos
+- 📖 **Corrección en Parser y Generación de Versiones JSON**:
+  - Implementación de `parseVerseSpan()` en `scripts/convert-bibles.ts` para extraer con precisión etiquetas y rangos de versículos (`2-4`, `3-14`, `26-47`, `1-11`, etc.).
+  - Regeneración de todas las versiones bíblicas, preservando `verseDisplay` y `endNumber` en más de 1,150 bloques agrupados en traducciones como **ONBV** y **PDDPT**.
+- 🔍 **Búsqueda y Filtrado Inteligente en Repositorio**:
+  - `JsonBibleRepository` ahora localiza versículos individuales o en rango dentro de bloques agrupados (ej. buscar `1 Crónicas 1:3` resuelve el bloque `2-4` en ONBV).
+- 🏷️ **Renderizado en el Lector y Herramientas Flotantes**:
+  - `ParallelPassageViewer` renderiza `{verse.verseDisplay || verse.number}`, mostrando claramente las etiquetas de rango.
+  - `HighlightFloatingToolbar` y el sistema de notas/resaltados ahora respetan los rangos y etiquetas de versículos al citar, resaltar o crear notas.
+
 ### [0.6.0] - 2026-08-22
 #### Añadido: Resaltados Persistentes, Notas Personales y Tooltips Neobrutalistas
 - 🖍️ **Persistencia de Resaltados Bíblicos**:

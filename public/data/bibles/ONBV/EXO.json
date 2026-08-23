@@ -13,7 +13,9 @@
         },
         {
           "number": 2,
-          "text": "Rubén, Simeón, Leví, Judá, Isacar, Zabulón, Benjamín, Dan, Neftalí, Gad y Aser."
+          "text": "Rubén, Simeón, Leví, Judá, Isacar, Zabulón, Benjamín, Dan, Neftalí, Gad y Aser.",
+          "verseDisplay": "2-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -49,11 +51,15 @@
         },
         {
           "number": 13,
-          "text": "e hicieron aún más amarga la esclavitud de los hebreos. Los obligaron a trabajar duramente largas jornadas en los campos y a acarrear pesadas cargas de ladrillo y mezcla."
+          "text": "e hicieron aún más amarga la esclavitud de los hebreos. Los obligaron a trabajar duramente largas jornadas en los campos y a acarrear pesadas cargas de ladrillo y mezcla.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
-          "text": "El faraón, rey de Egipto, ordenó a las parteras que atendían a las mujeres hebreas (dos de las cuales se llamaban Sifrá y Fuvá) que se fijaran en el sexo del bebé a la hora de nacer, y que mataran a todos los niños hebreos en cuanto nacieran, y que dejaran con vida sólo a las niñas."
+          "text": "El faraón, rey de Egipto, ordenó a las parteras que atendían a las mujeres hebreas (dos de las cuales se llamaban Sifrá y Fuvá) que se fijaran en el sexo del bebé a la hora de nacer, y que mataran a todos los niños hebreos en cuanto nacieran, y que dejaran con vida sólo a las niñas.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -202,7 +208,9 @@
         },
         {
           "number": 3,
-          "text": "se acercó para ver bien lo que pasaba. Pero el Señor lo llamó: ―¡Moisés, Moisés! ―¿Quién me llama? —preguntó Moisés."
+          "text": "se acercó para ver bien lo que pasaba. Pero el Señor lo llamó: ―¡Moisés, Moisés! ―¿Quién me llama? —preguntó Moisés.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -382,7 +390,9 @@
         },
         {
           "number": 25,
-          "text": "Pero Séfora, la esposa de Moisés, tomó un cuchillo de pedernal y cortó el prepucio del pene de su hijo. Luego, con el prepucio tocó los genitales de Moisés, y le dijo: ―Me has resultado un marido de sangre. Entonces Dios lo dejó ir."
+          "text": "Pero Séfora, la esposa de Moisés, tomó un cuchillo de pedernal y cortó el prepucio del pene de su hijo. Luego, con el prepucio tocó los genitales de Moisés, y le dijo: ―Me has resultado un marido de sangre. Entonces Dios lo dejó ir.",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         },
         {
           "number": 27,
@@ -423,7 +433,9 @@
         },
         {
           "number": 4,
-          "text": "―¿Quiénes se creen ustedes? —gritó el faraón—. ¿Por qué distraen al pueblo de su trabajo? ¡Vuelvan a sus tareas!"
+          "text": "―¿Quiénes se creen ustedes? —gritó el faraón—. ¿Por qué distraen al pueblo de su trabajo? ¡Vuelvan a sus tareas!",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -431,7 +443,9 @@
         },
         {
           "number": 7,
-          "text": "«No se entregará más paja a los hebreos para la elaboración de los ladrillos. Sin embargo, no se les disminuirá en un solo ladrillo su cuota de producción, porque parecen no tener suficiente trabajo. De otro modo no hablarían de ir al desierto a ofrecerle sacrificio a su Dios."
+          "text": "«No se entregará más paja a los hebreos para la elaboración de los ladrillos. Sin embargo, no se les disminuirá en un solo ladrillo su cuota de producción, porque parecen no tener suficiente trabajo. De otro modo no hablarían de ir al desierto a ofrecerle sacrificio a su Dios.",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -439,7 +453,9 @@
         },
         {
           "number": 10,
-          "text": "Los cuadrilleros y los capataces le informaron al pueblo: ―El faraón ha dado órdenes de que no les proporcionemos la paja para los ladrillos. Deben ir ustedes mismos a buscarla a donde puedan. Y deberán producir tantos ladrillos como antes."
+          "text": "Los cuadrilleros y los capataces le informaron al pueblo: ―El faraón ha dado órdenes de que no les proporcionemos la paja para los ladrillos. Deben ir ustedes mismos a buscarla a donde puedan. Y deberán producir tantos ladrillos como antes.",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -503,7 +519,9 @@
         },
         {
           "number": 2,
-          "text": "Yo soy el Señor , el Dios Todopoderoso que les apareció a Abraham, a Isaac y a Jacob, aunque a ellos no me revelé con mi nombre, que es “ YO SOY ”."
+          "text": "Yo soy el Señor , el Dios Todopoderoso que les apareció a Abraham, a Isaac y a Jacob, aunque a ellos no me revelé con mi nombre, que es “ YO SOY ”.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -523,7 +541,9 @@
         },
         {
           "number": 8,
-          "text": "Yo los introduciré en la tierra que prometí darles a Abraham, a Isaac y a Jacob. Sí, yo les daré a ustedes esa tierra. Moisés le contó al pueblo lo que Dios había dicho; pero ellos estaban muy contrariados por las trágicas consecuencias de lo que les había dicho anteriormente, y no quisieron oírlo."
+          "text": "Yo los introduciré en la tierra que prometí darles a Abraham, a Isaac y a Jacob. Sí, yo les daré a ustedes esa tierra. Moisés le contó al pueblo lo que Dios había dicho; pero ellos estaban muy contrariados por las trágicas consecuencias de lo que les había dicho anteriormente, y no quisieron oírlo.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -605,7 +625,9 @@
         },
         {
           "number": 28,
-          "text": "Este Moisés es el mismo a quien el Señor le había dicho: «Yo soy el Señor , anda y dale al faraón el mensaje que te he dado»."
+          "text": "Este Moisés es el mismo a quien el Señor le había dicho: «Yo soy el Señor , anda y dale al faraón el mensaje que te he dado».",
+          "verseDisplay": "28-29",
+          "endNumber": 29
         },
         {
           "number": 30,
@@ -740,7 +762,9 @@
         },
         {
           "number": 3,
-          "text": "El río Nilo se llenará de ranas que entrarán aun a sus cuartos y estarán sobre sus camas. Cada casa de Egipto se llenará de ranas, de modo que hasta se meterán en los hornos y en donde amasan la harina para el pan. ¡Tantas serán las ranas que hasta se treparán sobre sus hombros, y sobre sus funcionarios y sobre toda la gente!»."
+          "text": "El río Nilo se llenará de ranas que entrarán aun a sus cuartos y estarán sobre sus camas. Cada casa de Egipto se llenará de ranas, de modo que hasta se meterán en los hornos y en donde amasan la harina para el pan. ¡Tantas serán las ranas que hasta se treparán sobre sus hombros, y sobre sus funcionarios y sobre toda la gente!».",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -854,7 +878,9 @@
         },
         {
           "number": 31,
-          "text": "El Señor hizo lo que Moisés le pidió, de modo que los tábanos desaparecieron por completo de la casa del faraón, y de las casas de sus funcionarios y del pueblo en general. Pero el faraón endureció su corazón nuevamente y no permitió que el pueblo fuera a adorar al Señor ."
+          "text": "El Señor hizo lo que Moisés le pidió, de modo que los tábanos desaparecieron por completo de la casa del faraón, y de las casas de sus funcionarios y del pueblo en general. Pero el faraón endureció su corazón nuevamente y no permitió que el pueblo fuera a adorar al Señor .",
+          "verseDisplay": "31-32",
+          "endNumber": 32
         }
       ]
     },
@@ -1026,7 +1052,9 @@
         },
         {
           "number": 4,
-          "text": "Si te niegas, mañana cubriré la nación con una plaga de langostas, tan grande, que no podrás ver el suelo, y ellas acabarán de destruir todo lo que escapó del granizo."
+          "text": "Si te niegas, mañana cubriré la nación con una plaga de langostas, tan grande, que no podrás ver el suelo, y ellas acabarán de destruir todo lo que escapó del granizo.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -1187,7 +1215,9 @@
         },
         {
           "number": 3,
-          "text": "Díganles a los israelitas que cada año, en el décimo día de este mes, cada familia tomará un cordero. Si la familia es pequeña, compartirá el cordero con otra familia pequeña del vecindario; el hacer o no esto dependerá del tamaño de la familia."
+          "text": "Díganles a los israelitas que cada año, en el décimo día de este mes, cada familia tomará un cordero. Si la familia es pequeña, compartirá el cordero con otra familia pequeña del vecindario; el hacer o no esto dependerá del tamaño de la familia.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -1337,7 +1367,9 @@
         },
         {
           "number": 40,
-          "text": "Los hijos de Jacob y sus descendientes habían vivido en Egipto cuatrocientos treinta años, y el último día del año cuatrocientos treinta todo el pueblo del Señor salió de Egipto."
+          "text": "Los hijos de Jacob y sus descendientes habían vivido en Egipto cuatrocientos treinta años, y el último día del año cuatrocientos treinta todo el pueblo del Señor salió de Egipto.",
+          "verseDisplay": "40-41",
+          "endNumber": 41
         },
         {
           "number": 42,
@@ -1401,11 +1433,15 @@
         },
         {
           "number": 4,
-          "text": "Ustedes deberán celebrar esta fiesta en el mes de aviv, pues es en este mes que salieron de Egipto. Cuando el Señor los haya llevado a la tierra del cananeo, del hitita, del amorreo, del heveo y del jebuseo, que es la tierra que prometió dar a nuestros padres, tierra de la que fluye leche y miel, deberán seguir celebrando esta fiesta."
+          "text": "Ustedes deberán celebrar esta fiesta en el mes de aviv, pues es en este mes que salieron de Egipto. Cuando el Señor los haya llevado a la tierra del cananeo, del hitita, del amorreo, del heveo y del jebuseo, que es la tierra que prometió dar a nuestros padres, tierra de la que fluye leche y miel, deberán seguir celebrando esta fiesta.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
-          "text": "Durante siete días comerán solamente pan sin levadura. Y el séptimo día se celebrará una gran fiesta en honor al Señor . Durante esos días, no se podrá tener levadura o pan con levadura en ninguna casa israelita."
+          "text": "Durante siete días comerán solamente pan sin levadura. Y el séptimo día se celebrará una gran fiesta en honor al Señor . Durante esos días, no se podrá tener levadura o pan con levadura en ninguna casa israelita.",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -1448,7 +1484,9 @@
         },
         {
           "number": 17,
-          "text": "Cuando por fin el faraón dejó salir a los israelitas, Dios no los condujo a través de la tierra de los filisteos, aunque era la ruta más directa desde Egipto a la Tierra prometida. Dios no quería que el pueblo se desalentara al tener que pelear durante todo el camino, y deseara volverse a Egipto. Por eso los condujo por la ruta que está junto al Mar Rojo."
+          "text": "Cuando por fin el faraón dejó salir a los israelitas, Dios no los condujo a través de la tierra de los filisteos, aunque era la ruta más directa desde Egipto a la Tierra prometida. Dios no quería que el pueblo se desalentara al tener que pelear durante todo el camino, y deseara volverse a Egipto. Por eso los condujo por la ruta que está junto al Mar Rojo.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -1745,7 +1783,9 @@
         },
         {
           "number": 7,
-          "text": "En la mañana verán la gloria del Señor , quien ha oído sus quejas contra él. Sí, contra él es que ustedes se están quejando, pues nosotros sólo somos sus representantes. El Señor les dará a comer carne en la tarde y pan abundante por la mañana. Él ya escuchó sus quejas, pues no es contra nosotros que ustedes se han quejado, sino contra él. ¡Nosotros no somos nadie!"
+          "text": "En la mañana verán la gloria del Señor , quien ha oído sus quejas contra él. Sí, contra él es que ustedes se están quejando, pues nosotros sólo somos sus representantes. El Señor les dará a comer carne en la tarde y pan abundante por la mañana. Él ya escuchó sus quejas, pues no es contra nosotros que ustedes se han quejado, sino contra él. ¡Nosotros no somos nadie!",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -1757,7 +1797,9 @@
         },
         {
           "number": 11,
-          "text": "Y el Señor le dijo a Moisés: «He oído sus quejas. Diles que en la tarde tendrán carne y en la mañana podrán saciarse con pan. Y sabrán que yo soy el Señor su Dios»."
+          "text": "Y el Señor le dijo a Moisés: «He oído sus quejas. Diles que en la tarde tendrán carne y en la mañana podrán saciarse con pan. Y sabrán que yo soy el Señor su Dios».",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -1821,7 +1863,9 @@
         },
         {
           "number": 28,
-          "text": "Y el Señor le dijo a Moisés: ―¿Hasta cuándo se niega este pueblo a obedecerme? ¿No comprenden que les doy el doble en el sexto día para que tengan suficiente para dos días? Les he dado el séptimo día como día de reposo; deben permanecer en sus casas, y no salir a buscar alimento en ese día."
+          "text": "Y el Señor le dijo a Moisés: ―¿Hasta cuándo se niega este pueblo a obedecerme? ¿No comprenden que les doy el doble en el sexto día para que tengan suficiente para dos días? Les he dado el séptimo día como día de reposo; deben permanecer en sus casas, y no salir a buscar alimento en ese día.",
+          "verseDisplay": "28-29",
+          "endNumber": 29
         },
         {
           "number": 30,
@@ -1874,7 +1918,9 @@
         },
         {
           "number": 5,
-          "text": "El Señor le contestó: ―Toma contigo a algunos de los ancianos de Israel, y lleva al pueblo hasta el monte Horeb. Allí te esperaré junto a la roca. No se te olvide llevar la vara con que golpeaste el río Nilo. Cuando llegues al monte Horeb, golpea la roca, y verás cómo de ella brotará agua suficiente para todos. En presencia de los ancianos de Israel, Moisés hizo lo que Dios le había dicho, y el agua brotó de la roca."
+          "text": "El Señor le contestó: ―Toma contigo a algunos de los ancianos de Israel, y lleva al pueblo hasta el monte Horeb. Allí te esperaré junto a la roca. No se te olvide llevar la vara con que golpeaste el río Nilo. Cuando llegues al monte Horeb, golpea la roca, y verás cómo de ella brotará agua suficiente para todos. En presencia de los ancianos de Israel, Moisés hizo lo que Dios le había dicho, y el agua brotó de la roca.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -1913,7 +1959,9 @@
         },
         {
           "number": 15,
-          "text": "Moisés edificó allí un altar, y lo llamó «El Señor -Nisí», que significa «El Señor es mi bandera», y exclamó: «¡Tomen la bandera del Señor en la mano! ¡El Señor estará en guerra con Amalec de generación en generación!»."
+          "text": "Moisés edificó allí un altar, y lo llamó «El Señor -Nisí», que significa «El Señor es mi bandera», y exclamó: «¡Tomen la bandera del Señor en la mano! ¡El Señor estará en guerra con Amalec de generación en generación!».",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         }
       ]
     },
@@ -1938,7 +1986,9 @@
         },
         {
           "number": 5,
-          "text": "Jetro tomó, pues, a Séfora y a sus dos nietos, y se fue al desierto a visitar a Moisés. Cuando supo que los israelitas estaban acampando junto a la montaña de Dios, le envió este mensaje a Moisés: «Yo, Jetro, tu suegro, voy a visitarte. Conmigo vienen tu esposa y tus dos hijos»."
+          "text": "Jetro tomó, pues, a Séfora y a sus dos nietos, y se fue al desierto a visitar a Moisés. Cuando supo que los israelitas estaban acampando junto a la montaña de Dios, le envió este mensaje a Moisés: «Yo, Jetro, tu suegro, voy a visitarte. Conmigo vienen tu esposa y tus dos hijos».",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -1974,7 +2024,9 @@
         },
         {
           "number": 15,
-          "text": "―Porque el pueblo viene a mí con sus problemas para consultar a Dios —respondió Moisés—. Yo soy el juez y debo decidir quién tiene la razón y quién está equivocado. Además, debo enseñarles los mandamientos y enseñanzas de Dios."
+          "text": "―Porque el pueblo viene a mí con sus problemas para consultar a Dios —respondió Moisés—. Yo soy el juez y debo decidir quién tiene la razón y quién está equivocado. Además, debo enseñarles los mandamientos y enseñanzas de Dios.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -1986,7 +2038,9 @@
         },
         {
           "number": 19,
-          "text": "Escúchame y permíteme darte un consejo, para que Dios te bendiga. Sé el abogado de este pueblo, su representante delante de Dios, para que Dios resuelva sus problemas. Tú les comunicarás las decisiones de Dios, les enseñarás sus leyes, y les darás a conocer los principios que deben seguir para tener una conducta correcta."
+          "text": "Escúchame y permíteme darte un consejo, para que Dios te bendiga. Sé el abogado de este pueblo, su representante delante de Dios, para que Dios resuelva sus problemas. Tú les comunicarás las decisiones de Dios, les enseñarás sus leyes, y les darás a conocer los principios que deben seguir para tener una conducta correcta.",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         },
         {
           "number": 21,
@@ -2027,7 +2081,9 @@
         },
         {
           "number": 2,
-          "text": "Levantaron el campamento en Refidín, y continuaron su viaje. Cuando llegaron al pie del monte Sinaí, establecieron allí su campamento. Moisés subió al monte para encontrarse con Dios, y desde la cima el Señor lo llamó y le dijo: «Esto es lo que les dirás a los israelitas, los descendientes de Jacob:"
+          "text": "Levantaron el campamento en Refidín, y continuaron su viaje. Cuando llegaron al pie del monte Sinaí, establecieron allí su campamento. Moisés subió al monte para encontrarse con Dios, y desde la cima el Señor lo llamó y le dijo: «Esto es lo que les dirás a los israelitas, los descendientes de Jacob:",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -2527,7 +2583,9 @@
         },
         {
           "number": 2,
-          "text": "»No sigan a las mayorías que intenten hacer mal. Cuando estén en el estrado de los testigos, no inclinen sus testimonios a favor de la mayoría presente ni hacia el pobre, por el simple hecho de ser pobre."
+          "text": "»No sigan a las mayorías que intenten hacer mal. Cuando estén en el estrado de los testigos, no inclinen sus testimonios a favor de la mayoría presente ni hacia el pobre, por el simple hecho de ser pobre.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -2793,7 +2851,9 @@
         },
         {
           "number": 13,
-          "text": "También harás unas varas de madera de acacia cubiertas de oro, y las pasarás por las argollas de los costados, para transportarlo."
+          "text": "También harás unas varas de madera de acacia cubiertas de oro, y las pasarás por las argollas de los costados, para transportarlo.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -2844,7 +2904,9 @@
         },
         {
           "number": 26,
-          "text": "Harás cuatro argollas de oro y las pondrás en los costados, junto a las cuatro patas, cerca de la parte superior. Por ellas pasarán las varas que servirán para transportar la mesa."
+          "text": "Harás cuatro argollas de oro y las pondrás en los costados, junto a las cuatro patas, cerca de la parte superior. Por ellas pasarán las varas que servirán para transportar la mesa.",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -2875,7 +2937,9 @@
         },
         {
           "number": 34,
-          "text": "El candelabro central también estará decorado con cuatro cálices en forma de flor de almendro, con sus capullos y flores. Cada uno será colocado debajo de cada juego de brazos."
+          "text": "El candelabro central también estará decorado con cuatro cálices en forma de flor de almendro, con sus capullos y flores. Cada uno será colocado debajo de cada juego de brazos.",
+          "verseDisplay": "34-35",
+          "endNumber": 35
         },
         {
           "number": 36,
@@ -2916,7 +2980,9 @@
         },
         {
           "number": 4,
-          "text": "Estarán unidas por medio de ojales de color morado, cincuenta a cada lado."
+          "text": "Estarán unidas por medio de ojales de color morado, cincuenta a cada lado.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -2924,7 +2990,9 @@
         },
         {
           "number": 7,
-          "text": "»El techo del santuario estará hecho de lonas de pelo de cabra. Harás once de estas lonas, cada una de trece metros y medio de largo y un metro ochenta de ancho."
+          "text": "»El techo del santuario estará hecho de lonas de pelo de cabra. Harás once de estas lonas, cada una de trece metros y medio de largo y un metro ochenta de ancho.",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -2932,7 +3000,9 @@
         },
         {
           "number": 10,
-          "text": "Usarás cincuenta ojales en los bordes de cada una de estas piezas, para unirlas con cincuenta corchetes de bronce. De esta manera las dos piezas formarán una sola."
+          "text": "Usarás cincuenta ojales en los bordes de cada una de estas piezas, para unirlas con cincuenta corchetes de bronce. De esta manera las dos piezas formarán una sola.",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -2948,7 +3018,9 @@
         },
         {
           "number": 15,
-          "text": "»El armazón del santuario estará hecho de madera de acacia. Cada pieza será de cuatro metros y medio de largo por setenta centímetros de ancho. Irán en posición vertical"
+          "text": "»El armazón del santuario estará hecho de madera de acacia. Cada pieza será de cuatro metros y medio de largo por setenta centímetros de ancho. Irán en posición vertical",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -2956,7 +3028,9 @@
         },
         {
           "number": 18,
-          "text": "Con veinte de estas tablas formarás el costado sur del santuario, sobre cuarenta bases de plata, dos bases para cada tabla."
+          "text": "Con veinte de estas tablas formarás el costado sur del santuario, sobre cuarenta bases de plata, dos bases para cada tabla.",
+          "verseDisplay": "18-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -2984,7 +3058,9 @@
         },
         {
           "number": 26,
-          "text": "»Harás cinco travesaños de madera de acacia para cada costado del santuario, y cinco para las tablas de la parte occidental."
+          "text": "»Harás cinco travesaños de madera de acacia para cada costado del santuario, y cinco para las tablas de la parte occidental.",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -3068,7 +3144,9 @@
         },
         {
           "number": 9,
-          "text": "»Luego harás un atrio para el santuario, el cual estará encerrado con cortinas hechas de lino fino torcido. En el costado sur, las cortinas se extenderán a lo largo de cuarenta y cinco metros y estarán suspendidas de veinte postes, asentados sobre veinte bases de bronce. Las cortinas estarán sujetas por medio de ganchos y varillas de plata, unidos a los postes."
+          "text": "»Luego harás un atrio para el santuario, el cual estará encerrado con cortinas hechas de lino fino torcido. En el costado sur, las cortinas se extenderán a lo largo de cuarenta y cinco metros y estarán suspendidas de veinte postes, asentados sobre veinte bases de bronce. Las cortinas estarán sujetas por medio de ganchos y varillas de plata, unidos a los postes.",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -3084,7 +3162,9 @@
         },
         {
           "number": 14,
-          "text": "A cada costado de la entrada habrá siete metros de cortinas, con tres postes y tres bases en cada lado."
+          "text": "A cada costado de la entrada habrá siete metros de cortinas, con tres postes y tres bases en cada lado.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -3139,7 +3219,9 @@
         },
         {
           "number": 5,
-          "text": "»El efod será una gran obra de arte, en la que usarán hilos de oro e hilos de lino fino de color azul, morado y escarlata."
+          "text": "»El efod será una gran obra de arte, en la que usarán hilos de oro e hilos de lino fino de color azul, morado y escarlata.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -3168,6 +3250,8 @@
         {
           "number": 13,
           "text": "Harán dos cadenas de oro puro, trenzadas en forma de cordón, la cuales se unirán con enlaces de oro, sobre las hombreras del efod.",
+          "verseDisplay": "13-14",
+          "endNumber": 14,
           "headings": [
             "El pectoral"
           ]
@@ -3202,7 +3286,9 @@
         },
         {
           "number": 22,
-          "text": "»Unirás la parte superior del pectoral al efod por medio de dos cordones trenzados de oro puro. Un cabo de cada cordón estará atado a un anillo de oro colocado en la parte superior del pectoral."
+          "text": "»Unirás la parte superior del pectoral al efod por medio de dos cordones trenzados de oro puro. Un cabo de cada cordón estará atado a un anillo de oro colocado en la parte superior del pectoral.",
+          "verseDisplay": "22-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -3248,7 +3334,9 @@
         },
         {
           "number": 33,
-          "text": "El borde inferior del efod estará bordado con granadas de color azul, morado y escarlata, que se alternarán con campanillas de oro."
+          "text": "El borde inferior del efod estará bordado con granadas de color azul, morado y escarlata, que se alternarán con campanillas de oro.",
+          "verseDisplay": "33-34",
+          "endNumber": 34
         },
         {
           "number": 35,
@@ -3260,7 +3348,9 @@
         },
         {
           "number": 37,
-          "text": "Esta lámina estará atada con una cinta morada a la parte delantera de la mitra. Aarón la llevará siempre sobre la frente, para que el Señor acepte las ofrendas de los israelitas, pues él cargará con los pecados que el pueblo cometa al presentar sus ofrendas. Así el Señor les perdonará y aceptará sus ofrendas."
+          "text": "Esta lámina estará atada con una cinta morada a la parte delantera de la mitra. Aarón la llevará siempre sobre la frente, para que el Señor acepte las ofrendas de los israelitas, pues él cargará con los pecados que el pueblo cometa al presentar sus ofrendas. Así el Señor les perdonará y aceptará sus ofrendas.",
+          "verseDisplay": "37-38",
+          "endNumber": 38
         },
         {
           "number": 39,
@@ -3297,7 +3387,9 @@
         },
         {
           "number": 3,
-          "text": "Colocarás el pan en un canasto y lo llevarás a la entrada del santuario, junto con el becerro y los dos carneros. »Bañarás a Aarón y a sus hijos allí a la entrada."
+          "text": "Colocarás el pan en un canasto y lo llevarás a la entrada del santuario, junto con el becerro y los dos carneros. »Bañarás a Aarón y a sus hijos allí a la entrada.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -3341,7 +3433,9 @@
         },
         {
           "number": 15,
-          "text": "»Luego Aarón y sus hijos pondrán sus manos sobre la cabeza de uno de los carneros que va a ser sacrificado. Su sangre será recogida para ser rociada sobre el altar."
+          "text": "»Luego Aarón y sus hijos pondrán sus manos sobre la cabeza de uno de los carneros que va a ser sacrificado. Su sangre será recogida para ser rociada sobre el altar.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -3353,7 +3447,9 @@
         },
         {
           "number": 19,
-          "text": "»Luego tomarás el otro carnero, y Aarón y sus hijos le pondrán las manos sobre la cabeza mientras lo sacrifican. Tomarás un poco de la sangre y la untarás en el lóbulo de la oreja derecha y en los pulgares de la mano derecha y del pie derecho de Aarón y de sus hijos; con el resto rociarás el altar."
+          "text": "»Luego tomarás el otro carnero, y Aarón y sus hijos le pondrán las manos sobre la cabeza mientras lo sacrifican. Tomarás un poco de la sangre y la untarás en el lóbulo de la oreja derecha y en los pulgares de la mano derecha y del pie derecho de Aarón y de sus hijos; con el resto rociarás el altar.",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         },
         {
           "number": 21,
@@ -3509,7 +3605,9 @@
         },
         {
           "number": 11,
-          "text": "El Señor le dijo a Moisés: «Siempre que hagas un censo del pueblo de Israel, cada hombre que sea contado dará un rescate al Señor por su persona, para que no haya plaga en el pueblo cuando tú lo cuentes."
+          "text": "El Señor le dijo a Moisés: «Siempre que hagas un censo del pueblo de Israel, cada hombre que sea contado dará un rescate al Señor por su persona, para que no haya plaga en el pueblo cuando tú lo cuentes.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -3532,7 +3630,9 @@
         },
         {
           "number": 17,
-          "text": "El Señor le dijo a Moisés: «Harás un lavamanos de bronce, con una base de bronce. Lo pondrás entre el Santuario y el altar, y lo llenarás de agua."
+          "text": "El Señor le dijo a Moisés: «Harás un lavamanos de bronce, con una base de bronce. Lo pondrás entre el Santuario y el altar, y lo llenarás de agua.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -3551,7 +3651,9 @@
         },
         {
           "number": 22,
-          "text": "Entonces el Señor le dijo a Moisés: «Toma las siguientes especias: seis kilos de mirra pura, tres kilos de canela, tres kilos de cálamo aromático,"
+          "text": "Entonces el Señor le dijo a Moisés: «Toma las siguientes especias: seis kilos de mirra pura, tres kilos de canela, tres kilos de cálamo aromático,",
+          "verseDisplay": "22-23",
+          "endNumber": 23
         },
         {
           "number": 24,
@@ -3563,7 +3665,9 @@
         },
         {
           "number": 26,
-          "text": "»Usarás este aceite para ungir el santuario, la mesa y todos sus instrumentos, el candelabro y todos sus utensilios, el altar del incienso,"
+          "text": "»Usarás este aceite para ungir el santuario, la mesa y todos sus instrumentos, el candelabro y todos sus utensilios, el altar del incienso,",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -3666,11 +3770,15 @@
         },
         {
           "number": 12,
-          "text": "El Señor le dio estas instrucciones a Moisés: «Dile al pueblo de Israel que observe mi día de descanso, porque el descanso es un recordatorio del pacto que hice con ustedes para siempre. Es para que recuerden que yo soy el Señor que los santifico."
+          "text": "El Señor le dio estas instrucciones a Moisés: «Dile al pueblo de Israel que observe mi día de descanso, porque el descanso es un recordatorio del pacto que hice con ustedes para siempre. Es para que recuerden que yo soy el Señor que los santifico.",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,
-          "text": "Descansarán en ese día, porque es santo. Cualquiera que no obedezca este mandamiento, morirá. Cualquiera que haga alguna clase de trabajo en ese día, será ejecutado."
+          "text": "Descansarán en ese día, porque es santo. Cualquiera que no obedezca este mandamiento, morirá. Cualquiera que haga alguna clase de trabajo en ese día, será ejecutado.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -3695,7 +3803,9 @@
         },
         {
           "number": 2,
-          "text": "―Tráiganme los aretes de oro que tengan sus esposas, hijos e hijas —respondió Aarón. Así que todos los que tenían aretes se los quitaron y se los entregaron a Aarón."
+          "text": "―Tráiganme los aretes de oro que tengan sus esposas, hijos e hijas —respondió Aarón. Así que todos los que tenían aretes se los quitaron y se los entregaron a Aarón.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -3951,7 +4061,9 @@
         },
         {
           "number": 5,
-          "text": "El Señor descendió en la forma de una columna de nube y estuvo allí con él, y pasó delante de él y anunció el significado de su nombre: ―Yo soy el Señor , Dios de misericordia y de gracia —dijo—. Soy lento para la ira y grande en misericordia y verdad."
+          "text": "El Señor descendió en la forma de una columna de nube y estuvo allí con él, y pasó delante de él y anunció el significado de su nombre: ―Yo soy el Señor , Dios de misericordia y de gracia —dijo—. Soy lento para la ira y grande en misericordia y verdad.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -4098,11 +4210,15 @@
         },
         {
           "number": 5,
-          "text": "Todo el que tenga corazón generoso, puede traer las siguientes ofrendas al Señor : Oro, plata, y bronce; tela azul, morada y escarlata, hecha de lino fino torcido o de pelo de cabra; pieles de carnero, y pieles de cabra especialmente tratadas; madera de acacia; aceite de oliva para las lámparas; especias para el aceite de la unción y para el incienso; piedras de ónice y piedras para usar en el efod y en el pectoral."
+          "text": "Todo el que tenga corazón generoso, puede traer las siguientes ofrendas al Señor : Oro, plata, y bronce; tela azul, morada y escarlata, hecha de lino fino torcido o de pelo de cabra; pieles de carnero, y pieles de cabra especialmente tratadas; madera de acacia; aceite de oliva para las lámparas; especias para el aceite de la unción y para el incienso; piedras de ónice y piedras para usar en el efod y en el pectoral.",
+          "verseDisplay": "5-9",
+          "endNumber": 9
         },
         {
           "number": 10,
-          "text": "»Vengan todos los que son artesanos con talentos especiales y construyan lo que el Señor les ha ordenado: La Tienda del santuario con sus cubiertas, ganchos, tablas, barras, columnas y bases; el cofre y sus varas; el propiciatorio; la cortina que está delante del Lugar Santo; la mesa con sus varas y todos sus utensilios; el pan de la ofrenda; el candelabro con sus lámparas y aceite; el altar del incienso y sus varas para transportarlo; el aceite de la unción y el incienso aromático; la cortina para la puerta del santuario; el altar para los holocaustos; el enrejado de bronce del altar, sus varas para transportarlo, y sus demás utensilios; el lavamanos con su base; las cortinas que servirán de cerco para el atrio; las columnas y sus bases; la cortina para la entrada del atrio; las estacas del atrio del santuario, y sus cuerdas; las vestiduras sagradas que los sacerdotes deben usar cuando sirvan en el Lugar Santo; las vestiduras sagradas del sacerdote Aarón y de sus hijos»."
+          "text": "»Vengan todos los que son artesanos con talentos especiales y construyan lo que el Señor les ha ordenado: La Tienda del santuario con sus cubiertas, ganchos, tablas, barras, columnas y bases; el cofre y sus varas; el propiciatorio; la cortina que está delante del Lugar Santo; la mesa con sus varas y todos sus utensilios; el pan de la ofrenda; el candelabro con sus lámparas y aceite; el altar del incienso y sus varas para transportarlo; el aceite de la unción y el incienso aromático; la cortina para la puerta del santuario; el altar para los holocaustos; el enrejado de bronce del altar, sus varas para transportarlo, y sus demás utensilios; el lavamanos con su base; las cortinas que servirán de cerco para el atrio; las columnas y sus bases; la cortina para la entrada del atrio; las estacas del atrio del santuario, y sus cuerdas; las vestiduras sagradas que los sacerdotes deben usar cuando sirvan en el Lugar Santo; las vestiduras sagradas del sacerdote Aarón y de sus hijos».",
+          "verseDisplay": "10-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -4149,7 +4265,9 @@
         },
         {
           "number": 30,
-          "text": "Y Moisés les dijo: «El Señor ha señalado específicamente a Bezalel, hijo de Uri y nieto de Jur, de la tribu de Judá, como supervisor general de la construcción."
+          "text": "Y Moisés les dijo: «El Señor ha señalado específicamente a Bezalel, hijo de Uri y nieto de Jur, de la tribu de Judá, como supervisor general de la construcción.",
+          "verseDisplay": "30-31",
+          "endNumber": 31
         },
         {
           "number": 32,
@@ -4187,6 +4305,8 @@
         {
           "number": 4,
           "text": "los obreros dejaron sus trabajos y fueron a reunirse con Moisés, y le dijeron: «La gente ha ofrendado mucho más de lo que necesitamos para realizar la obra que el Señor nos ha encomendado». Entonces Moisés envió mensajeros que fueran por el campamento avisando que ya no se necesitaban más donaciones. Por fin la gente dejó de llevar ofrendas.",
+          "verseDisplay": "4-7",
+          "endNumber": 7,
           "headings": [
             "El santuario"
           ]
@@ -4205,7 +4325,9 @@
         },
         {
           "number": 11,
-          "text": "Con cincuenta cintas azules se hicieron lazos en el borde de las dos cortinas, cada lazo frente a su compañero de la otra cortina."
+          "text": "Con cincuenta cintas azules se hicieron lazos en el borde de las dos cortinas, cada lazo frente a su compañero de la otra cortina.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -4213,7 +4335,9 @@
         },
         {
           "number": 14,
-          "text": "Sobre el cielo raso fue colocada una segunda capa formada por once cortinas hechas de pelo de cabra. Tenían todas trece metros y medio de largo por un metro con ochenta centímetros de ancho."
+          "text": "Sobre el cielo raso fue colocada una segunda capa formada por once cortinas hechas de pelo de cabra. Tenían todas trece metros y medio de largo por un metro con ochenta centímetros de ancho.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -4253,7 +4377,9 @@
         },
         {
           "number": 25,
-          "text": "Había veinte tablas en el costado norte del santuario, con cuarenta bases de plata, dos para cada tabla."
+          "text": "Había veinte tablas en el costado norte del santuario, con cuarenta bases de plata, dos para cada tabla.",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         },
         {
           "number": 27,
@@ -4273,7 +4399,9 @@
         },
         {
           "number": 31,
-          "text": "Luego hicieron cinco series de travesaños de madera de acacia, para unir las tablas por los lados, cinco por cada costado del santuario."
+          "text": "Luego hicieron cinco series de travesaños de madera de acacia, para unir las tablas por los lados, cinco por cada costado del santuario.",
+          "verseDisplay": "31-32",
+          "endNumber": 32
         },
         {
           "number": 33,
@@ -4366,6 +4494,8 @@
         {
           "number": 15,
           "text": "A continuación, usando oro puro, hizo los platos, las cucharas, los cubiertos y los tazones de la mesa.",
+          "verseDisplay": "15-16",
+          "endNumber": 16,
           "headings": [
             "El candelabro"
           ]
@@ -4384,7 +4514,9 @@
         },
         {
           "number": 20,
-          "text": "El tallo principal del candelabro estaba decorado también con flores de almendras, una flor en el punto donde arrancaba cada par de brazos, y una flor también bajo el par inferior y sobre el par superior, cuatro en total."
+          "text": "El tallo principal del candelabro estaba decorado también con flores de almendras, una flor en el punto donde arrancaba cada par de brazos, y una flor también bajo el par inferior y sobre el par superior, cuatro en total.",
+          "verseDisplay": "20-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -4393,6 +4525,8 @@
         {
           "number": 23,
           "text": "Luego hizo siete lámparas y las puso en el extremo superior de cada brazo, con sus despabiladeras y sus platillos, todo de oro puro. El peso total del candelabro era de treinta y tres kilos.",
+          "verseDisplay": "23-24",
+          "endNumber": 24,
           "headings": [
             "El altar del incienso"
           ]
@@ -4479,7 +4613,9 @@
         },
         {
           "number": 14,
-          "text": "Las cortinas de cada lado de la entrada tenían siete metros de ancho, cada una con tres postes y tres bases."
+          "text": "Las cortinas de cada lado de la entrada tenían siete metros de ancho, cada una con tres postes y tres bases.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -4522,7 +4658,9 @@
         },
         {
           "number": 25,
-          "text": "La cantidad de plata usada fue de tres toneladas y media, y fue tomada del impuesto que se le cobraba a todos los que, según el censo, tenían más de veinte años; un total de seiscientos tres mil quinientos cincuenta hombres."
+          "text": "La cantidad de plata usada fue de tres toneladas y media, y fue tomada del impuesto que se le cobraba a todos los que, según el censo, tenían más de veinte años; un total de seiscientos tres mil quinientos cincuenta hombres.",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         },
         {
           "number": 27,
@@ -4534,7 +4672,9 @@
         },
         {
           "number": 29,
-          "text": "El pueblo ofrendó dos mil trescientos cuarenta kilos de bronce, que fue usado para fundir las bases de los postes de la entrada del santuario, el altar de bronce, la parrilla de bronce, los utensilios del altar, las bases de los postes que sostenían las cortinas del atrio, y para todos los clavos usados en la construcción del santuario y del atrio."
+          "text": "El pueblo ofrendó dos mil trescientos cuarenta kilos de bronce, que fue usado para fundir las bases de los postes de la entrada del santuario, el altar de bronce, la parrilla de bronce, los utensilios del altar, las bases de los postes que sostenían las cortinas del atrio, y para todos los clavos usados en la construcción del santuario y del atrio.",
+          "verseDisplay": "29-31",
+          "endNumber": 31
         }
       ]
     },
@@ -4558,11 +4698,15 @@
         },
         {
           "number": 4,
-          "text": "El efod lo sostenían unas hombreras, las cuales se unían por los extremos con un cinto hecho de una sola pieza de hilo de lino torcido azul, morado y escarlata, y bordado con oro, de la manera ordenada por Dios a Moisés."
+          "text": "El efod lo sostenían unas hombreras, las cuales se unían por los extremos con un cinto hecho de una sola pieza de hilo de lino torcido azul, morado y escarlata, y bordado con oro, de la manera ordenada por Dios a Moisés.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
           "text": "Las dos piedras de ónice, unidas a las dos hombreras del efod, fueron engastadas en oro, y las piedras fueron grabadas con los nombres de las tribus de Israel, de la manera que se graban las iniciales en un anillo. Estas piedras servían para recordar a los israelitas. Todo esto fue hecho de acuerdo con las instrucciones que el Señor le había dado a Moisés.",
+          "verseDisplay": "6-7",
+          "endNumber": 7,
           "headings": [
             "El pectoral"
           ]
@@ -4597,7 +4741,9 @@
         },
         {
           "number": 15,
-          "text": "Para unir el pectoral al efod se colocó un anillo de oro en la parte superior de cada hombrera del efod, y de estos anillos de oro salían dos cordones de oro trenzado, unidos a dos anillos que había en las esquinas superiores del pectoral."
+          "text": "Para unir el pectoral al efod se colocó un anillo de oro en la parte superior de cada hombrera del efod, y de estos anillos de oro salían dos cordones de oro trenzado, unidos a dos anillos que había en las esquinas superiores del pectoral.",
+          "verseDisplay": "15-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -4628,7 +4774,9 @@
         },
         {
           "number": 25,
-          "text": "En todo el contorno del borde inferior del manto pusieron campanillas de oro puro, alternadas con las granadas. Este manto lo usaría Aarón cuando sirviera al Señor , tal como él le había ordenado a Moisés."
+          "text": "En todo el contorno del borde inferior del manto pusieron campanillas de oro puro, alternadas con las granadas. Este manto lo usaría Aarón cuando sirviera al Señor , tal como él le había ordenado a Moisés.",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         },
         {
           "number": 27,
@@ -4636,7 +4784,9 @@
         },
         {
           "number": 28,
-          "text": "El pectoral, la hermosa mitra, los adornos del turbante, y la ropa interior fueron hechos con lino; y el cinto de lino estaba primorosamente bordado con hilos de color azul, morado y escarlata, tal como el Señor había ordenado a Moisés."
+          "text": "El pectoral, la hermosa mitra, los adornos del turbante, y la ropa interior fueron hechos con lino; y el cinto de lino estaba primorosamente bordado con hilos de color azul, morado y escarlata, tal como el Señor había ordenado a Moisés.",
+          "verseDisplay": "28-29",
+          "endNumber": 29
         },
         {
           "number": 30,
@@ -4655,7 +4805,9 @@
         },
         {
           "number": 33,
-          "text": "Entonces trajeron el santuario completo a Moisés: Utensilios, ganchos, tablas, barras, postes, bases, cubiertas para el techo y los costados, pieles de carnero teñidas de rojo, pieles de cabra especialmente tratadas, y la cortina de la entrada; el cofre con los Diez Mandamientos en su interior, junto con las varas para transportarlo, el propiciatorio, la mesa y todos sus utensilios, el pan de la Presencia; el candelabro de oro puro, con sus lámparas, utensilios y aceite; el altar de oro; el aceite de la unción, el incienso aromático, las cortinas de la entrada del santuario, el altar de bronce, la parrilla de bronce, las varas y los utensilios, el lavamanos y su base, las cortinas para las paredes del atrio, junto con los postes que las sostenían; las bases y las cortinas de la puerta del atrio; las cuerdas y los clavos, y todos los demás utensilios usados en el santuario, es decir en la Tienda de reunión."
+          "text": "Entonces trajeron el santuario completo a Moisés: Utensilios, ganchos, tablas, barras, postes, bases, cubiertas para el techo y los costados, pieles de carnero teñidas de rojo, pieles de cabra especialmente tratadas, y la cortina de la entrada; el cofre con los Diez Mandamientos en su interior, junto con las varas para transportarlo, el propiciatorio, la mesa y todos sus utensilios, el pan de la Presencia; el candelabro de oro puro, con sus lámparas, utensilios y aceite; el altar de oro; el aceite de la unción, el incienso aromático, las cortinas de la entrada del santuario, el altar de bronce, la parrilla de bronce, las varas y los utensilios, el lavamanos y su base, las cortinas para las paredes del atrio, junto con los postes que las sostenían; las bases y las cortinas de la puerta del atrio; las cuerdas y los clavos, y todos los demás utensilios usados en el santuario, es decir en la Tienda de reunión.",
+          "verseDisplay": "33-40",
+          "endNumber": 40
         },
         {
           "number": 41,

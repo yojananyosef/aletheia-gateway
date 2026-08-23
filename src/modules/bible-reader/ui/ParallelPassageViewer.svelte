@@ -5,6 +5,7 @@
   import type { FontSizeOption } from './FontSizeSelector.svelte';
   import type { BibleHighlight } from '../domain/entities/BibleHighlight';
   import type { PersonalNote } from '../../notes/domain/Note';
+  import type { Verse } from '../domain/entities/Verse';
   import ColumnVersionDropdown from './ColumnVersionDropdown.svelte';
 
   interface Props {
@@ -55,23 +56,27 @@
       .replace(/'/g, '&#039;');
   }
 
-  function getMatchingHighlights(book: string, chapter: number, verseNum: number, translationId: string): BibleHighlight[] {
+  function getMatchingHighlights(book: string, chapter: number, verse: Verse, translationId: string): BibleHighlight[] {
     const normBook = book.toLowerCase().trim();
+    const startNum = verse.number;
+    const endNum = verse.endNumber || verse.number;
     return highlights.filter((h) => {
       const matchBook = h.book.toLowerCase().trim() === normBook;
       const matchChapter = h.chapter === chapter;
-      const matchVerse = !h.verseNumber || h.verseNumber === verseNum;
+      const matchVerse = !h.verseNumber || (h.verseNumber >= startNum && h.verseNumber <= endNum);
       const matchTranslation = !h.translationId || h.translationId === '*' || h.translationId === translationId;
       return matchBook && matchChapter && matchVerse && matchTranslation;
     });
   }
 
-  function getVerseNote(book: string, chapter: number, verseNum: number): PersonalNote | undefined {
+  function getVerseNote(book: string, chapter: number, verse: Verse): PersonalNote | undefined {
     const normBook = book.toLowerCase().trim();
+    const startNum = verse.number;
+    const endNum = verse.endNumber || verse.number;
     return notes.find((n) => {
       const matchBook = n.book.toLowerCase().trim() === normBook;
       const matchChapter = n.chapter === chapter;
-      const matchVerse = n.verseNumber === verseNum;
+      const matchVerse = n.verseNumber !== undefined && n.verseNumber >= startNum && n.verseNumber <= endNum;
       return matchBook && matchChapter && matchVerse;
     });
   }
@@ -246,9 +251,10 @@
             <!-- Verses Content -->
             <div class="section-verses-list">
               {#each section.verses as verse}
+                {@const verseDisplayLabel = verse.verseDisplay || verse.number}
                 {@const verseDomId = `verse-${passage.translationId}-${section.book}-${section.chapter}-${verse.number}`}
-                {@const verseHighlights = getMatchingHighlights(section.book, section.chapter, verse.number, passage.translationId)}
-                {@const verseNote = getVerseNote(section.book, section.chapter, verse.number)}
+                {@const verseHighlights = getMatchingHighlights(section.book, section.chapter, verse, passage.translationId)}
+                {@const verseNote = getVerseNote(section.book, section.chapter, verse)}
 
                 {#if verse.headings && verse.headings.length > 0 && verse.headings[0] !== section.title}
                   {#each verse.headings as heading}
@@ -262,9 +268,10 @@
                   data-book={section.book}
                   data-chapter={section.chapter}
                   data-verse={verse.number}
+                  data-verse-display={verseDisplayLabel}
                   data-translation={passage.translationId}
                 >
-                  <span class="verse-num">{verse.number}</span>
+                  <span class="verse-num">{verseDisplayLabel}</span>
                   
                   <span class="verse-text-content">{@html renderVerseText(verse.text, verseHighlights)}</span>
 
@@ -274,7 +281,7 @@
                       <a
                         href="#{fn.anchorId}"
                         class="verse-footnote-link"
-                        data-tooltip="Ver nota al pie ({fn.caller}) para {section.book} {section.chapter}:{verse.number}"
+                        data-tooltip="Ver nota al pie ({fn.caller}) para {section.book} {section.chapter}:{verseDisplayLabel}"
                         onclick={(e) => handleScrollToFootnote(e, fn.anchorId)}
                       >
                         [{fn.caller}]
@@ -290,7 +297,7 @@
                       data-tooltip="Ver nota personal ({verseNote.content.slice(0, 35)}...)"
                       aria-label="Ver nota personal"
                       onclick={() => onOpenNoteModal?.({
-                        reference: `${section.book} ${section.chapter}:${verse.number}`,
+                        reference: `${section.book} ${section.chapter}:${verseDisplayLabel}`,
                         book: section.book,
                         chapter: section.chapter,
                         verseNumber: verse.number,

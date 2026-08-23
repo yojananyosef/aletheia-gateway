@@ -13,7 +13,9 @@
         },
         {
           "number": 2,
-          "text": "Las palabras fueron pronunciadas el primer día del mes undécimo; habían pasado cuarenta años desde el momento en que el pueblo de Israel dejó el monte Horeb (aunque el viaje a pie desde el monte Horeb hasta Cades Barnea normalmente solo dura once días, siguiendo la vía del monte Seír)."
+          "text": "Las palabras fueron pronunciadas el primer día del mes undécimo; habían pasado cuarenta años desde el momento en que el pueblo de Israel dejó el monte Horeb (aunque el viaje a pie desde el monte Horeb hasta Cades Barnea normalmente solo dura once días, siguiendo la vía del monte Seír).",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -83,7 +85,9 @@
         },
         {
           "number": 19,
-          "text": "»Luego nos alejamos del monte Horeb y viajamos a través del desierto grande y terrible, y llegamos finalmente a las montañas de los amorreos a las cuales el Señor nuestro Dios nos había dirigido. Estábamos entonces en Cades Barnea (en el límite con la Tierra prometida) y le dije al pueblo: “El Señor , el Dios de nuestros antepasados, nos ha dado esta tierra. Vayan y poséanla como él nos ha dicho. No teman, ni duden”."
+          "text": "»Luego nos alejamos del monte Horeb y viajamos a través del desierto grande y terrible, y llegamos finalmente a las montañas de los amorreos a las cuales el Señor nuestro Dios nos había dirigido. Estábamos entonces en Cades Barnea (en el límite con la Tierra prometida) y le dije al pueblo: “El Señor , el Dios de nuestros antepasados, nos ha dado esta tierra. Vayan y poséanla como él nos ha dicho. No teman, ni duden”.",
+          "verseDisplay": "19-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -96,6 +100,8 @@
         {
           "number": 24,
           "text": "Los espías cruzaron las colinas y llegaron al valle de Escol, y volvieron con muestras de las frutas que allí se producían. Una sola mirada bastó para convencernos de que la tierra que el Señor nos había dado era una tierra buena.",
+          "verseDisplay": "24-25",
+          "endNumber": 25,
           "headings": [
             "Rebelión contra el Señor"
           ]
@@ -247,7 +253,9 @@
         },
         {
           "number": 15,
-          "text": "Sí, la mano del Señor estuvo contra ellos hasta que todos murieron."
+          "text": "Sí, la mano del Señor estuvo contra ellos hasta que todos murieron.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -318,7 +326,9 @@
         },
         {
           "number": 33,
-          "text": "Pero el Señor , nuestro Dios, lo entregó en nuestras manos y conquistamos todas sus ciudades y destruimos completamente todo, incluyendo mujeres y niños."
+          "text": "Pero el Señor , nuestro Dios, lo entregó en nuestras manos y conquistamos todas sus ciudades y destruimos completamente todo, incluyendo mujeres y niños.",
+          "verseDisplay": "33-34",
+          "endNumber": 34
         },
         {
           "number": 35,
@@ -440,7 +450,9 @@
         },
         {
           "number": 24,
-          "text": "“ Señor , mi Dios, permíteme entrar en la Tierra prometida; la buena tierra que está al otro lado del Jordán con sus montes, y el Líbano. ¡Soy testigo de tu grandeza y de tu poder! Y tengo la certeza de que no hay ningún dios en los cielos o la tierra que puede hacer todo lo que tú has hecho por nosotros”."
+          "text": "“ Señor , mi Dios, permíteme entrar en la Tierra prometida; la buena tierra que está al otro lado del Jordán con sus montes, y el Líbano. ¡Soy testigo de tu grandeza y de tu poder! Y tengo la certeza de que no hay ningún dios en los cielos o la tierra que puede hacer todo lo que tú has hecho por nosotros”.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
@@ -528,7 +540,9 @@
         },
         {
           "number": 16,
-          "text": "de modo que no se corrompan tratando de hacer una imagen de Dios, sea en forma de hombre, de mujer, de animal, de ave,"
+          "text": "de modo que no se corrompan tratando de hacer una imagen de Dios, sea en forma de hombre, de mujer, de animal, de ave,",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         },
         {
           "number": 18,
@@ -645,7 +659,9 @@
         },
         {
           "number": 44,
-          "text": "Estas son las leyes que Moisés entregó al pueblo de Israel cuando salieron de Egipto y estuvieron acampados al oriente del río Jordán cerca de la ciudad de Bet Peor. (Este había sido parte del territorio de Sijón, rey de los amorreos. Su capital era Hesbón; él y su pueblo fueron destruidos por Moisés y los israelitas."
+          "text": "Estas son las leyes que Moisés entregó al pueblo de Israel cuando salieron de Egipto y estuvieron acampados al oriente del río Jordán cerca de la ciudad de Bet Peor. (Este había sido parte del territorio de Sijón, rey de los amorreos. Su capital era Hesbón; él y su pueblo fueron destruidos por Moisés y los israelitas.",
+          "verseDisplay": "44-46",
+          "endNumber": 46
         },
         {
           "number": 47,
@@ -670,7 +686,9 @@
         },
         {
           "number": 2,
-          "text": "»El Señor nuestro Dios hizo un pacto con ustedes en el monte Horeb, no con sus antepasados, sino con ustedes que están aquí vivos hoy día."
+          "text": "»El Señor nuestro Dios hizo un pacto con ustedes en el monte Horeb, no con sus antepasados, sino con ustedes que están aquí vivos hoy día.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -694,7 +712,9 @@
         },
         {
           "number": 9,
-          "text": "No te inclinarás delante de imagen alguna para adorarla de ninguna forma, porque yo, el Señor tu Dios; soy un Dios celoso. Yo castigo la maldad que haga un jefe de clan, incluyendo la tercera y cuarta generación de los que me odian; pero muestro misericordia a muchas generaciones de los que me aman y obedecen mis mandamientos."
+          "text": "No te inclinarás delante de imagen alguna para adorarla de ninguna forma, porque yo, el Señor tu Dios; soy un Dios celoso. Yo castigo la maldad que haga un jefe de clan, incluyendo la tercera y cuarta generación de los que me odian; pero muestro misericordia a muchas generaciones de los que me aman y obedecen mis mandamientos.",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -831,7 +851,9 @@
         },
         {
           "number": 10,
-          "text": "»Cuando el Señor tu Dios te haya introducido en la tierra que les prometió a tus antepasados Abraham, Isaac y Jacob; y cuando te haya dado ciudades grandes y hermosas que no edificaste, repletas de todo tipo de bienes con pozos que no cavaste, viñedos y olivares que no plantaste; y cuando hayas comido hasta saciarte;"
+          "text": "»Cuando el Señor tu Dios te haya introducido en la tierra que les prometió a tus antepasados Abraham, Isaac y Jacob; y cuando te haya dado ciudades grandes y hermosas que no edificaste, repletas de todo tipo de bienes con pozos que no cavaste, viñedos y olivares que no plantaste; y cuando hayas comido hasta saciarte;",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -1129,7 +1151,9 @@
         },
         {
           "number": 10,
-          "text": "Al finalizar esos cuarenta días y cuarenta noches, el Señor me dio las tablas de la alianza en las que Dios mismo había escrito las palabras que promulgó desde la cumbre de la montaña cubierta de fuego mientras el pueblo miraba desde abajo,"
+          "text": "Al finalizar esos cuarenta días y cuarenta noches, el Señor me dio las tablas de la alianza en las que Dios mismo había escrito las palabras que promulgó desde la cumbre de la montaña cubierta de fuego mientras el pueblo miraba desde abajo,",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -1137,7 +1161,9 @@
         },
         {
           "number": 13,
-          "text": "»El Señor me dijo entonces: “Déjame que destruya a este pueblo terco. Borraré su nombre de debajo del cielo y de ti haré una nación más numerosa y más poderosa de lo que ellos son ahora”."
+          "text": "»El Señor me dijo entonces: “Déjame que destruya a este pueblo terco. Borraré su nombre de debajo del cielo y de ti haré una nación más numerosa y más poderosa de lo que ellos son ahora”.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -1256,7 +1282,9 @@
         },
         {
           "number": 12,
-          "text": "»Ahora pues, Israel, ¿qué es lo que el Señor tu Dios quiere de ti sino que escuches cuidadosamente todo lo que te dice y obedezcas por tu bien los mandamientos que te doy en este día, y que lo ames y le sirvas con toda tu mente y todo tu ser?"
+          "text": "»Ahora pues, Israel, ¿qué es lo que el Señor tu Dios quiere de ti sino que escuches cuidadosamente todo lo que te dice y obedezcas por tu bien los mandamientos que te doy en este día, y que lo ames y le sirvas con toda tu mente y todo tu ser?",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -1446,7 +1474,9 @@
         },
         {
           "number": 4,
-          "text": "»No harás sacrificios a tu Dios en cualquier lugar como los paganos lo hacen con sus dioses. Por el contrario, deberás construir un santuario para Dios en un lugar que él mismo te señalará como su morada."
+          "text": "»No harás sacrificios a tu Dios en cualquier lugar como los paganos lo hacen con sus dioses. Por el contrario, deberás construir un santuario para Dios en un lugar que él mismo te señalará como su morada.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -1506,7 +1536,9 @@
         },
         {
           "number": 20,
-          "text": "»Cuando el Señor ensanche tu territorio, si el altar está demasiado lejos de ti, podrás matar tus ovejas y vacas en tu propia tierra, como lo haces actualmente con las gacelas y los ciervos. Aun las personas que estén ceremonialmente impuras podrán comer de ellos."
+          "text": "»Cuando el Señor ensanche tu territorio, si el altar está demasiado lejos de ti, podrás matar tus ovejas y vacas en tu propia tierra, como lo haces actualmente con las gacelas y los ciervos. Aun las personas que estén ceremonialmente impuras podrán comer de ellos.",
+          "verseDisplay": "20-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -1514,11 +1546,15 @@
         },
         {
           "number": 24,
-          "text": "Derramarás la sangre sobre la tierra, de este modo, a tus hijos y a ti les irá bien."
+          "text": "Derramarás la sangre sobre la tierra, de este modo, a tus hijos y a ti les irá bien.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
-          "text": "Pero lo que hayas consagrado al Señor , las ofrendas que hayas prometido en tus votos y los holocaustos deben ser llevados al altar. Esto sólo puede ser ofrecido sobre el altar del Señor , tu Dios. La sangre será derramada sobre el altar, y comerás la carne."
+          "text": "Pero lo que hayas consagrado al Señor , las ofrendas que hayas prometido en tus votos y los holocaustos deben ser llevados al altar. Esto sólo puede ser ofrecido sobre el altar del Señor , tu Dios. La sangre será derramada sobre el altar, y comerás la carne.",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -1567,7 +1603,9 @@
         },
         {
           "number": 6,
-          "text": "Si un pariente cercano, o un amigo muy íntimo, o aun un hermano, hermana, hija o hijo, te sugiere que vayas y adores a dioses extraños,"
+          "text": "Si un pariente cercano, o un amigo muy íntimo, o aun un hermano, hermana, hija o hijo, te sugiere que vayas y adores a dioses extraños,",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -1587,7 +1625,9 @@
         },
         {
           "number": 12,
-          "text": "»Si oyes decir que en alguna ciudad de Israel gente impía ha hecho que tus hermanos se aparten de Dios con la sugerencia de adorar a dioses extraños, primero investiga si el rumor es verdadero. Si lo confirmas y es cierto que algo tan abominable ha ocurrido en una de las ciudades que el Señor te ha dado,"
+          "text": "»Si oyes decir que en alguna ciudad de Israel gente impía ha hecho que tus hermanos se aparten de Dios con la sugerencia de adorar a dioses extraños, primero investiga si el rumor es verdadero. Si lo confirmas y es cierto que algo tan abominable ha ocurrido en una de las ciudades que el Señor te ha dado,",
+          "verseDisplay": "12-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -1624,7 +1664,9 @@
         },
         {
           "number": 4,
-          "text": "Estos son los animales que puedes comer: El buey, la oveja, la cabra, el ciervo, la gacela, el corzo, la cabra montés, el íbice, el antílope y el carnero montés."
+          "text": "Estos son los animales que puedes comer: El buey, la oveja, la cabra, el ciervo, la gacela, el corzo, la cabra montés, el íbice, el antílope y el carnero montés.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -1648,7 +1690,9 @@
         },
         {
           "number": 11,
-          "text": "»Podrás comer cualquier ave, salvo las siguientes: El águila, el quebrantahuesos, el azor, el gallinazo, el milano de cualquier variedad, el cuervo de cualquier especie, el avestruz, la lechuza, la gaviota, y el gavilán de cualquiera de sus especies, el búho, el ibis, el calamón, el pelícano, el buitre, el somormujo, la cigüeña, la garza en cualquiera de sus especies, la abubilla y el murciélago."
+          "text": "»Podrás comer cualquier ave, salvo las siguientes: El águila, el quebrantahuesos, el azor, el gallinazo, el milano de cualquier variedad, el cuervo de cualquier especie, el avestruz, la lechuza, la gaviota, y el gavilán de cualquiera de sus especies, el búho, el ibis, el calamón, el pelícano, el buitre, el somormujo, la cigüeña, la garza en cualquiera de sus especies, la abubilla y el murciélago.",
+          "verseDisplay": "11-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -1716,7 +1760,9 @@
         },
         {
           "number": 4,
-          "text": "Nadie empobrecerá a causa de esto, porque si obedeces este mandamiento el Señor te bendecirá grandemente en la tierra que te da. El único requisito para esta bendición es que atiendas cuidadosamente todos los mandamientos del Señor tu Dios que hoy te estoy dando."
+          "text": "Nadie empobrecerá a causa de esto, porque si obedeces este mandamiento el Señor te bendecirá grandemente en la tierra que te da. El único requisito para esta bendición es que atiendas cuidadosamente todos los mandamientos del Señor tu Dios que hoy te estoy dando.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -1857,7 +1903,9 @@
         },
         {
           "number": 13,
-          "text": "»Al final del tiempo de la cosecha, cuando el grano haya sido trillado, y las uvas hayan sido pisadas en el lagar, celebrarás otra fiesta, la fiesta de las Enramadas. Su celebración durará siete días. Serán días de alegría de los que participarán tu familia y tus siervos. Y no te olvides de invitar a los levitas, a los exiliados, a los huérfanos y a las viudas de tu pueblo. »La fiesta se celebrará en el santuario, que estará en el lugar que el Señor haya designado. Será tiempo de acción de gracias al Señor por la bendición que te ha dado de una buena cosecha y porque ha bendecido tu trabajo. Será un tiempo de gran gozo."
+          "text": "»Al final del tiempo de la cosecha, cuando el grano haya sido trillado, y las uvas hayan sido pisadas en el lagar, celebrarás otra fiesta, la fiesta de las Enramadas. Su celebración durará siete días. Serán días de alegría de los que participarán tu familia y tus siervos. Y no te olvides de invitar a los levitas, a los exiliados, a los huérfanos y a las viudas de tu pueblo. »La fiesta se celebrará en el santuario, que estará en el lugar que el Señor haya designado. Será tiempo de acción de gracias al Señor por la bendición que te ha dado de una buena cosecha y porque ha bendecido tu trabajo. Será un tiempo de gran gozo.",
+          "verseDisplay": "13-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -1904,7 +1952,9 @@
         },
         {
           "number": 2,
-          "text": "»Si alguien, hombre o mujer, en cualquier ciudad de la tierra que el Señor tu Dios te da, viola el pacto con Dios y adora a otros dioses, al sol, a la luna o a las estrellas, lo cual he prohibido estrictamente,"
+          "text": "»Si alguien, hombre o mujer, en cualquier ciudad de la tierra que el Señor tu Dios te da, viola el pacto con Dios y adora a otros dioses, al sol, a la luna o a las estrellas, lo cual he prohibido estrictamente,",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -2090,7 +2140,9 @@
         },
         {
           "number": 2,
-          "text": "designarás tres ciudades en donde pueda refugiarse cualquiera que haya dado muerte accidentalmente a otra persona. Dividirás el país en tres distritos, y cada distrito contará con una de estas ciudades de refugio. Los caminos de acceso a estas ciudades se conservarán en buen estado."
+          "text": "designarás tres ciudades en donde pueda refugiarse cualquiera que haya dado muerte accidentalmente a otra persona. Dividirás el país en tres distritos, y cada distrito contará con una de estas ciudades de refugio. Los caminos de acceso a estas ciudades se conservarán en buen estado.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -2102,7 +2154,9 @@
         },
         {
           "number": 6,
-          "text": "Cualquiera que trate de vengarse de él, no podrá hacerlo. Estas ciudades deberán estar situadas de tal manera que estén razonablemente cerca de todo lugar. De otro modo, el vengador de sangre podría dar alcance al homicida casual, que no debe morir por cuanto no mató deliberadamente."
+          "text": "Cualquiera que trate de vengarse de él, no podrá hacerlo. Estas ciudades deberán estar situadas de tal manera que estén razonablemente cerca de todo lugar. De otro modo, el vengador de sangre podría dar alcance al homicida casual, que no debe morir por cuanto no mató deliberadamente.",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -2475,7 +2529,9 @@
         },
         {
           "number": 28,
-          "text": "debe pagar una multa de cincuenta monedas de plata y casarse con ella. No podrá divorciarse de ella."
+          "text": "debe pagar una multa de cincuenta monedas de plata y casarse con ella. No podrá divorciarse de ella.",
+          "verseDisplay": "28-29",
+          "endNumber": 29
         },
         {
           "number": 30,
@@ -2740,7 +2796,9 @@
         },
         {
           "number": 13,
-          "text": "»En todos tus negocios debes usar balanza y medida exactas para que tengas una vida larga y buena en la tierra que el Señor tu Dios te da."
+          "text": "»En todos tus negocios debes usar balanza y medida exactas para que tengas una vida larga y buena en la tierra que el Señor tu Dios te da.",
+          "verseDisplay": "13-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -2785,7 +2843,9 @@
         },
         {
           "number": 6,
-          "text": "Los egipcios nos maltrataron y nosotros clamamos al Señor Dios de nuestros antepasados. Él nos oyó y vio nuestros trabajos, sufrimientos y opresiones,"
+          "text": "Los egipcios nos maltrataron y nosotros clamamos al Señor Dios de nuestros antepasados. Él nos oyó y vio nuestros trabajos, sufrimientos y opresiones,",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -2849,11 +2909,15 @@
         },
         {
           "number": 2,
-          "text": "«Cuando cruces el Jordán y llegues a la tierra que el Señor tu Dios te da, tierra de la que fluye leche y miel, sacarás piedras del fondo del río e inmediatamente harás con ellas un monumento en la otra orilla, junto al monte Ebal. Blanquearás las piedras con cal y luego escribirás en ellas las leyes del Señor ."
+          "text": "«Cuando cruces el Jordán y llegues a la tierra que el Señor tu Dios te da, tierra de la que fluye leche y miel, sacarás piedras del fondo del río e inmediatamente harás con ellas un monumento en la otra orilla, junto al monte Ebal. Blanquearás las piedras con cal y luego escribirás en ellas las leyes del Señor .",
+          "verseDisplay": "2-4",
+          "endNumber": 4
         },
         {
           "number": 5,
-          "text": "Y levantarás allí un altar al Señor tu Dios. Usa piedras que no hayan sido cortadas, y presenta sobre el altar las ofrendas al Señor tu Dios."
+          "text": "Y levantarás allí un altar al Señor tu Dios. Usa piedras que no hayan sido cortadas, y presenta sobre el altar las ofrendas al Señor tu Dios.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -2949,7 +3013,9 @@
         },
         {
           "number": 2,
-          "text": "Estas son las bendiciones que vendrán sobre ti: »Bendito serás en la ciudad; bendito serás en el campo. »Tendrás muchos niños; abundantes cosechas; grandes rebaños de ovejas y vacas. »Bendiciones de fruta y pan. »Bendiciones cuando entres; bendiciones cuando salgas."
+          "text": "Estas son las bendiciones que vendrán sobre ti: »Bendito serás en la ciudad; bendito serás en el campo. »Tendrás muchos niños; abundantes cosechas; grandes rebaños de ovejas y vacas. »Bendiciones de fruta y pan. »Bendiciones cuando entres; bendiciones cuando salgas.",
+          "verseDisplay": "2-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -2988,7 +3054,9 @@
         },
         {
           "number": 15,
-          "text": "»Si no escuchas al Señor tu Dios y no obedeces estas leyes que te doy en este día, todas estas maldiciones vendrán sobre ti: »Maldito sea en la ciudad; maldito sea en el campo. »Maldiciones en las frutas y en el pan. »Maldición de matrices estériles. »Maldición sobre tus cosechas. »Maldiciones sobre la fertilidad de tus ovejas y vacas. »Maldiciones cuando entres; maldiciones cuando salgas."
+          "text": "»Si no escuchas al Señor tu Dios y no obedeces estas leyes que te doy en este día, todas estas maldiciones vendrán sobre ti: »Maldito sea en la ciudad; maldito sea en el campo. »Maldiciones en las frutas y en el pan. »Maldición de matrices estériles. »Maldición sobre tus cosechas. »Maldiciones sobre la fertilidad de tus ovejas y vacas. »Maldiciones cuando entres; maldiciones cuando salgas.",
+          "verseDisplay": "15-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -3136,7 +3204,9 @@
         },
         {
           "number": 56,
-          "text": "La mujer más tierna y delicada de tu pueblo, que no se habría atrevido a posar su pie desnudo en tierra, no querrá compartir su comida con el esposo que ama, ni con su hijo, ni con su hija. Esconderá de ellos la placenta y el bebé que acaba de nacer a fin de comérselo ella sola. Tan terrible será el hambre que habrá en el sitio y la terrible angustia causada por tus enemigos en tus puertas."
+          "text": "La mujer más tierna y delicada de tu pueblo, que no se habría atrevido a posar su pie desnudo en tierra, no querrá compartir su comida con el esposo que ama, ni con su hijo, ni con su hija. Esconderá de ellos la placenta y el bebé que acaba de nacer a fin de comérselo ella sola. Tan terrible será el hambre que habrá en el sitio y la terrible angustia causada por tus enemigos en tus puertas.",
+          "verseDisplay": "56-57",
+          "endNumber": 57
         },
         {
           "number": 58,
@@ -3193,7 +3263,9 @@
         },
         {
           "number": 2,
-          "text": "Convocó a todo Israel ante su presencia y les dijo: «Ustedes vieron con sus propios ojos las grandes plagas y los milagros portentosos que el Señor hizo caer sobre el faraón y su pueblo en Egipto."
+          "text": "Convocó a todo Israel ante su presencia y les dijo: «Ustedes vieron con sus propios ojos las grandes plagas y los milagros portentosos que el Señor hizo caer sobre el faraón y su pueblo en Egipto.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -3330,7 +3402,9 @@
         },
         {
           "number": 7,
-          "text": "»Si te vuelves al Señor y obedeces todos los mandamientos que te he dado hoy, el Señor tu Dios retirará sus maldiciones y las lanzará contra tus enemigos, y contra los que te odian y persiguen."
+          "text": "»Si te vuelves al Señor y obedeces todos los mandamientos que te he dado hoy, el Señor tu Dios retirará sus maldiciones y las lanzará contra tus enemigos, y contra los que te odian y persiguen.",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -3429,7 +3503,9 @@
         },
         {
           "number": 10,
-          "text": "El Señor ordenó que estas leyes fueran leídas al pueblo cada siete años, en el año de la remisión, en la fiesta de las Enramadas; cuando todo Israel se reúna delante del Señor en el santuario."
+          "text": "El Señor ordenó que estas leyes fueran leídas al pueblo cada siete años, en el año de la remisión, en la fiesta de las Enramadas; cuando todo Israel se reúna delante del Señor en el santuario.",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -3689,7 +3765,9 @@
         },
         {
           "number": 44,
-          "text": "Cuando Moisés y Josué terminaron de recitar este cántico delante del pueblo,"
+          "text": "Cuando Moisés y Josué terminaron de recitar este cántico delante del pueblo,",
+          "verseDisplay": "44-45",
+          "endNumber": 45
         },
         {
           "number": 46,
@@ -3890,7 +3968,9 @@
         },
         {
           "number": 11,
-          "text": "Y, bajo el mandato de Dios, realizó milagros y prodigios que no han podido ser igualados. Hizo grandes y terribles prodigios delante del faraón y de toda su corte en Egipto, y delante del pueblo de Israel."
+          "text": "Y, bajo el mandato de Dios, realizó milagros y prodigios que no han podido ser igualados. Hizo grandes y terribles prodigios delante del faraón y de toda su corte en Egipto, y delante del pueblo de Israel.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         }
       ]
     }

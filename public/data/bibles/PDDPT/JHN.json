@@ -1513,6 +1513,8 @@
         {
           "number": 1,
           "text": "]]",
+          "verseDisplay": "1-11",
+          "endNumber": 11,
           "footnotes": [
             {
               "id": "FN1",

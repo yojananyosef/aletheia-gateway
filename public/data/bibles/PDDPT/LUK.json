@@ -4654,7 +4654,9 @@
         },
         {
           "number": 43,
-          "text": "]]"
+          "text": "]]",
+          "verseDisplay": "43-44",
+          "endNumber": 44
         },
         {
           "number": 45,

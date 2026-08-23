@@ -59,7 +59,9 @@
         },
         {
           "number": 9,
-          "text": "Yo, Juan, hermano de ustedes y compañero en el sufrimiento, en el reino y en la fortaleza que nos da Jesucristo, un día del Señor estaba en la isla de Patmos, a donde me habían desterrado por predicar la palabra de Dios y contar lo que sé de Jesucristo. Entonces quedé bajo el poder del Espíritu y escuché detrás de mí una voz que, estridente como toque de trompeta,"
+          "text": "Yo, Juan, hermano de ustedes y compañero en el sufrimiento, en el reino y en la fortaleza que nos da Jesucristo, un día del Señor estaba en la isla de Patmos, a donde me habían desterrado por predicar la palabra de Dios y contar lo que sé de Jesucristo. Entonces quedé bajo el poder del Espíritu y escuché detrás de mí una voz que, estridente como toque de trompeta,",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -547,6 +549,8 @@
         {
           "number": 4,
           "text": "Escuché el número de los que fueron sellados: ciento cuarenta y cuatro mil de todas las tribus de Israel: de Judá 12.000 de Rubén 12.000 de Gad 12.000 de Aser 12.000 de Neftalí 12.000 de Manasés 12.000 de Simeón 12.000 de Leví 12.000 de Isacar 12.000 de Zabulón 12.000 de José 12.000 de Benjamín 12.000",
+          "verseDisplay": "4-8",
+          "endNumber": 8,
           "headings": [
             "La gran multitud con túnicas blancas"
           ]
@@ -625,7 +629,9 @@
         },
         {
           "number": 8,
-          "text": "El segundo ángel tocó la trompeta e inmediatamente algo semejante a una inmensa montaña encendida se precipitó en el mar y destruyó una tercera parte de los barcos; una tercera parte del mar adquirió el color rojo de la sangre y murió una tercera parte de las criaturas que viven en el mar."
+          "text": "El segundo ángel tocó la trompeta e inmediatamente algo semejante a una inmensa montaña encendida se precipitó en el mar y destruyó una tercera parte de los barcos; una tercera parte del mar adquirió el color rojo de la sangre y murió una tercera parte de las criaturas que viven en el mar.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -816,7 +822,9 @@
         },
         {
           "number": 8,
-          "text": "Durante tres días y medio se exhibirá sus cadáveres en las calles de la ciudad llamada «Sodoma» o «Egipto» en sentido figurado, donde crucificaron a su Señor. No se le permitirá a nadie enterrarlos, y gente de todo pueblo, tribu, lengua y nación desfilará junto a ellos para verlos."
+          "text": "Durante tres días y medio se exhibirá sus cadáveres en las calles de la ciudad llamada «Sodoma» o «Egipto» en sentido figurado, donde crucificaron a su Señor. No se le permitirá a nadie enterrarlos, y gente de todo pueblo, tribu, lengua y nación desfilará junto a ellos para verlos.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,

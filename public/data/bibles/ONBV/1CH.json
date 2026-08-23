@@ -14,13 +14,17 @@
         {
           "number": 2,
           "text": "Adán, Set, Enós, Cainán, Malalel, Jared, Enoc, Matusalén, Lamec, Noé. Los descendientes de Noé son: Sem, Cam, y Jafet.",
+          "verseDisplay": "2-4",
+          "endNumber": 4,
           "headings": [
             "Descendientes de Noé"
           ]
         },
         {
           "number": 5,
-          "text": "Los hijos de Jafet fueron: Gómer, Magog, Maday, Javán, Tubal, Mésec y Tirás. Los hijos de Gómer fueron: Asquenaz, Rifat, y Togarma. Los hijos de Javán fueron: Elisá, Tarsis, Chipre y Rodanín. Los hijos de Cam fueron: Cus, Misrayin, Fut y Canaán. Los hijos de Cus fueron: Seba, Javilá, Sabtá, Ragama y Sabteca. Los hijos de Ragama fueron: Sabá y Dedán."
+          "text": "Los hijos de Jafet fueron: Gómer, Magog, Maday, Javán, Tubal, Mésec y Tirás. Los hijos de Gómer fueron: Asquenaz, Rifat, y Togarma. Los hijos de Javán fueron: Elisá, Tarsis, Chipre y Rodanín. Los hijos de Cam fueron: Cus, Misrayin, Fut y Canaán. Los hijos de Cus fueron: Seba, Javilá, Sabtá, Ragama y Sabteca. Los hijos de Ragama fueron: Sabá y Dedán.",
+          "verseDisplay": "5-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -28,11 +32,15 @@
         },
         {
           "number": 11,
-          "text": "Los pueblos que descienden de Misrayin: Los ludeos, los anameos, los leabitas, los naftuitas, los patruseos, los caslujitas y los caftoritas (quienes fueron los antepasados de los filisteos)."
+          "text": "Los pueblos que descienden de Misrayin: Los ludeos, los anameos, los leabitas, los naftuitas, los patruseos, los caslujitas y los caftoritas (quienes fueron los antepasados de los filisteos).",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
-          "text": "Entre los hijos de Canaán estaban Sidón, su primer hijo, y Het. Canaán fue también el progenitor de los jebuseos, los amorreos, los gergeseos, los heveos, los araceos, los sineos, los arvadeos, los zemareos y los jamatitas."
+          "text": "Entre los hijos de Canaán estaban Sidón, su primer hijo, y Het. Canaán fue también el progenitor de los jebuseos, los amorreos, los gergeseos, los heveos, los araceos, los sineos, los arvadeos, los zemareos y los jamatitas.",
+          "verseDisplay": "13-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -49,6 +57,8 @@
         {
           "number": 20,
           "text": "Los hijos de Joctán fueron: Almodad, Sélef, Jazar Mávet, Yeraj, Hadorán, Uzal, Diclá, Obal, Abimael, Sabá, Ofir, Javilá y Jobab.",
+          "verseDisplay": "20-23",
+          "endNumber": 23,
           "headings": [
             "Descendientes de Sem"
           ]
@@ -56,13 +66,17 @@
         {
           "number": 24,
           "text": "Sem, Arfaxad, Selá, Éber, Péleg, Reú, Serug, Najor, Téraj y Abram, a quien Dios le cambió el nombre por el de Abraham.",
+          "verseDisplay": "24-27",
+          "endNumber": 27,
           "headings": [
             "Descendientes de Abraham"
           ]
         },
         {
           "number": 28,
-          "text": "Los hijos de Abraham fueron Isaac e Ismael. Los hijos de Ismael fueron: Nebayot, hijo mayor de Ismael, Cedar, Abdel, Mibsán, Mismá, Dumá, Masá, Hadad, Temá, Jetur, Nafis y Cedema."
+          "text": "Los hijos de Abraham fueron Isaac e Ismael. Los hijos de Ismael fueron: Nebayot, hijo mayor de Ismael, Cedar, Abdel, Mibsán, Mismá, Dumá, Masá, Hadad, Temá, Jetur, Nafis y Cedema.",
+          "verseDisplay": "28-31",
+          "endNumber": 31
         },
         {
           "number": 32,
@@ -93,7 +107,9 @@
         },
         {
           "number": 38,
-          "text": "También son hijos de Seír, que es el mismo Esaú: Lotán, Sobal, Zibeón, Aná, Disón, Ezer y Disán. Los hijos de Lotán fueron Horí y Homán. Lotán tuvo una hermana llamada Timná."
+          "text": "También son hijos de Seír, que es el mismo Esaú: Lotán, Sobal, Zibeón, Aná, Disón, Ezer y Disán. Los hijos de Lotán fueron Horí y Homán. Lotán tuvo una hermana llamada Timná.",
+          "verseDisplay": "38-39",
+          "endNumber": 39
         },
         {
           "number": 40,
@@ -144,7 +160,9 @@
         },
         {
           "number": 51,
-          "text": "Después de la muerte de Hadad, los edomitas tuvieron los siguientes jefes: Timná, Alvá, Jetet, Aholibama, Elá, Pinón, Quenaz, Temán, Mibzar, Magdiel e Iram."
+          "text": "Después de la muerte de Hadad, los edomitas tuvieron los siguientes jefes: Timná, Alvá, Jetet, Aholibama, Elá, Pinón, Quenaz, Temán, Mibzar, Magdiel e Iram.",
+          "verseDisplay": "51-54",
+          "endNumber": 54
         }
       ]
     },
@@ -289,6 +307,8 @@
         {
           "number": 34,
           "text": "Sesán no tuvo hijos sino hijas. Una de ellas fue concedida como esposa a Yarjá, esclavo suyo, procedente de Egipto. La esposa de Yarjá fue la madre de Atay.",
+          "verseDisplay": "34-35",
+          "endNumber": 35,
           "footnotes": [
             {
               "id": "FN1",
@@ -350,7 +370,9 @@
         },
         {
           "number": 48,
-          "text": "Macá, otra de las concubinas de Caleb, fue la madre de Séber, Tirjaná y Sagaf, quien fue el padre de Madmana, y a Seva, que fue el padre de Macbena y de Guibeá. Caleb tuvo también una hija llamada Acsa."
+          "text": "Macá, otra de las concubinas de Caleb, fue la madre de Séber, Tirjaná y Sagaf, quien fue el padre de Madmana, y a Seva, que fue el padre de Macbena y de Guibeá. Caleb tuvo también una hija llamada Acsa.",
+          "verseDisplay": "48-49",
+          "endNumber": 49
         },
         {
           "number": 50,
@@ -410,7 +432,9 @@
         },
         {
           "number": 6,
-          "text": "David tuvo también otros nueve hijos: Ibjar, Elisama, Elifelet, Noga, Néfeg, Jafía, Elisama, Eliadá y Elifelet."
+          "text": "David tuvo también otros nueve hijos: Ibjar, Elisama, Elifelet, Noga, Néfeg, Jafía, Elisama, Eliadá y Elifelet.",
+          "verseDisplay": "6-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -422,6 +446,8 @@
         {
           "number": 10,
           "text": "Los siguientes son los descendientes del rey Salomón, que fueron reyes de Judá: Roboán, Abías, Asá, Josafat, Jorán, Ocozías, Joás, Amasías, Azarías, Jotán, Acaz, Ezequías, Manasés, Amón y Josías.",
+          "verseDisplay": "10-14",
+          "endNumber": 14,
           "footnotes": [
             {
               "id": "FN2",
@@ -459,15 +485,21 @@
         },
         {
           "number": 17,
-          "text": "Los siguientes son los hijos del rey Jeconías, el que fue llevado a Babilonia: Salatiel, Malquirán, Pedaías, Senazar, Jecamías, Hosamá y Nedabías."
+          "text": "Los siguientes son los hijos del rey Jeconías, el que fue llevado a Babilonia: Salatiel, Malquirán, Pedaías, Senazar, Jecamías, Hosamá y Nedabías.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
-          "text": "Pedaías fue el padre de Zorobabel y Simí. Los hijos de Zorobabel fueron: Mesulán, Jananías, Jasubá, Ohel, Berequías, Jasadías y Yusab Jésed. También tuvo una hija llamada Selomit."
+          "text": "Pedaías fue el padre de Zorobabel y Simí. Los hijos de Zorobabel fueron: Mesulán, Jananías, Jasubá, Ohel, Berequías, Jasadías y Yusab Jésed. También tuvo una hija llamada Selomit.",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         },
         {
           "number": 21,
-          "text": "Los hijos de Jananías fueron Pelatías e Isaías. Los descendientes de Isaías fueron: Refaías, Arnán, Abdías y Secanías. Los descendientes de Secanías fueron: Semaías y sus hijos, Jatús, Igal, Barías, Nearías y Safat."
+          "text": "Los hijos de Jananías fueron Pelatías e Isaías. Los descendientes de Isaías fueron: Refaías, Arnán, Abdías y Secanías. Los descendientes de Secanías fueron: Semaías y sus hijos, Jatús, Igal, Barías, Nearías y Safat.",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -492,7 +524,9 @@
         },
         {
           "number": 3,
-          "text": "Los descendientes de Etam fueron: Jezrel, Ismá e Ibdás, una hija llamada Jazelelponi, Penuel, padre de Guedor, y Ezer, padre de Jusá. Estos fueron hijos de Jur, hijo mayor de Efrata, y padre de Belén."
+          "text": "Los descendientes de Etam fueron: Jezrel, Ismá e Ibdás, una hija llamada Jazelelponi, Penuel, padre de Guedor, y Ezer, padre de Jusá. Estos fueron hijos de Jur, hijo mayor de Efrata, y padre de Belén.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -520,7 +554,9 @@
         },
         {
           "number": 11,
-          "text": "Los descendientes de Reca fueron: Quelub, hermano de Sujá y padre de Mejir, quien fue el padre de Estón; Estón fue el padre de Bet Rafá, de Paseaj y de Tejiná; Tejiná fue padre de Ir Najás."
+          "text": "Los descendientes de Reca fueron: Quelub, hermano de Sujá y padre de Mejir, quien fue el padre de Estón; Estón fue el padre de Bet Rafá, de Paseaj y de Tejiná; Tejiná fue padre de Ir Najás.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -603,15 +639,21 @@
         },
         {
           "number": 32,
-          "text": "Sus descendientes también vivían en pueblos tales como Etam, Ayin, Rimón, Toquén y Asán, o cerca de ellos. Algunos de estos pueblos se encontraban tan lejos como el de Baal. (Estos hechos están registrados en sus genealogías)."
+          "text": "Sus descendientes también vivían en pueblos tales como Etam, Ayin, Rimón, Toquén y Asán, o cerca de ellos. Algunos de estos pueblos se encontraban tan lejos como el de Baal. (Estos hechos están registrados en sus genealogías).",
+          "verseDisplay": "32-33",
+          "endNumber": 33
         },
         {
           "number": 34,
-          "text": "Estos son los nombres, de algunos príncipes de los clanes que poseían mayor riqueza, y que viajaron hacia el lado oriental del valle de Guedor buscando pasto para su ganado: Mesobab, Jamlec, Josías hijo de Amasías, Joel, Jehú hijo de Josibías, hijo de Seraías, hijo de Asiel; Elihoenay, Jacoba, Yesojaías, Asaías, Adiel, Jesimiel, Benaías, Ziza hijo de Sifi, hijo de Alón, hijo de Jedaías, hijo de Simri, hijo de Semaías."
+          "text": "Estos son los nombres, de algunos príncipes de los clanes que poseían mayor riqueza, y que viajaron hacia el lado oriental del valle de Guedor buscando pasto para su ganado: Mesobab, Jamlec, Josías hijo de Amasías, Joel, Jehú hijo de Josibías, hijo de Seraías, hijo de Asiel; Elihoenay, Jacoba, Yesojaías, Asaías, Adiel, Jesimiel, Benaías, Ziza hijo de Sifi, hijo de Alón, hijo de Jedaías, hijo de Simri, hijo de Semaías.",
+          "verseDisplay": "34-39",
+          "endNumber": 39
         },
         {
           "number": 40,
-          "text": "Allí en Guedor encontraron buenos pastizales, y vivieron muy tranquilos y a sus anchas. Allí habían vivido antes los descendientes de Cam. Todos estos príncipes llegaron a la región durante el gobierno del rey Ezequías, de Judá; invadieron la tierra, derribaron las carpas y las casas de los descendientes de Cam, mataron a los habitantes de esta tierra, tomaron posesión de ella y la ocuparon."
+          "text": "Allí en Guedor encontraron buenos pastizales, y vivieron muy tranquilos y a sus anchas. Allí habían vivido antes los descendientes de Cam. Todos estos príncipes llegaron a la región durante el gobierno del rey Ezequías, de Judá; invadieron la tierra, derribaron las carpas y las casas de los descendientes de Cam, mataron a los habitantes de esta tierra, tomaron posesión de ella y la ocuparon.",
+          "verseDisplay": "40-41",
+          "endNumber": 41
         },
         {
           "number": 42,
@@ -652,7 +694,9 @@
         },
         {
           "number": 7,
-          "text": "Familiares suyos llegaron a ser jefes de clanes y fueron incluidos en la genealogía oficial, como sigue: Jeyel, Zacarías, Bela hijo de Azaz, nieto de Semá y bisnieto de Joel. Estos rubenitas vivían en Aroer, y en lugares tan remotos como el monte Nebo y Baal Megón."
+          "text": "Familiares suyos llegaron a ser jefes de clanes y fueron incluidos en la genealogía oficial, como sigue: Jeyel, Zacarías, Bela hijo de Azaz, nieto de Semá y bisnieto de Joel. Estos rubenitas vivían en Aroer, y en lugares tan remotos como el monte Nebo y Baal Megón.",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -811,15 +855,21 @@
         },
         {
           "number": 19,
-          "text": "Los hijos de Merari fueron Majlí y Musí. Los descendientes de Guersón fueron: Libní, Yajat, Zimá, Joa, Idó, Zera Yatray."
+          "text": "Los hijos de Merari fueron Majlí y Musí. Los descendientes de Guersón fueron: Libní, Yajat, Zimá, Joa, Idó, Zera Yatray.",
+          "verseDisplay": "19-21",
+          "endNumber": 21
         },
         {
           "number": 22,
-          "text": "Los descendientes de Coat fueron: Aminadab, Coré, Asir, Elcaná, Ebiasaf, Asir, Tajat, Uriel, Uzías y Saúl."
+          "text": "Los descendientes de Coat fueron: Aminadab, Coré, Asir, Elcaná, Ebiasaf, Asir, Tajat, Uriel, Uzías y Saúl.",
+          "verseDisplay": "22-24",
+          "endNumber": 24
         },
         {
           "number": 25,
-          "text": "Los descendientes de Elcaná fueron: Amazay, Ajimot, Elcaná, Zofay, Najat, Eliab, Jeroán, y Elcaná."
+          "text": "Los descendientes de Elcaná fueron: Amazay, Ajimot, Elcaná, Zofay, Najat, Eliab, Jeroán, y Elcaná.",
+          "verseDisplay": "25-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -828,6 +878,8 @@
         {
           "number": 29,
           "text": "Los descendientes de Merari fueron: Majlí, Libní, Simí, Uza, Simá, Jaguías y Asaías.",
+          "verseDisplay": "29-30",
+          "endNumber": 30,
           "headings": [
             "Cantores del templo"
           ]
@@ -842,15 +894,21 @@
         },
         {
           "number": 33,
-          "text": "Estos son los nombres y las genealogías de los cantores: Hemán, el cantor, era del clan de Coat, y sus antepasados fueron: Joel, Samuel, Elcaná, Jeroán, Eliel, Toa, Zuf, Elcaná, Mahat, Amasay, Elcaná, Joel, Azarías, Sofonías, Tajat, Asir, Ebiasaf, Coré, Izar, Coat, Leví, e Israel."
+          "text": "Estos son los nombres y las genealogías de los cantores: Hemán, el cantor, era del clan de Coat, y sus antepasados fueron: Joel, Samuel, Elcaná, Jeroán, Eliel, Toa, Zuf, Elcaná, Mahat, Amasay, Elcaná, Joel, Azarías, Sofonías, Tajat, Asir, Ebiasaf, Coré, Izar, Coat, Leví, e Israel.",
+          "verseDisplay": "33-38",
+          "endNumber": 38
         },
         {
           "number": 39,
-          "text": "Su ayudante era su pariente Asaf, cuyos antepasados fueron: Berequías, Simá, Micael, Baseías, Malquías, Etní, Zera, Adaías, Etán, Zimá, Simí, Yajat, Guersón y Leví."
+          "text": "Su ayudante era su pariente Asaf, cuyos antepasados fueron: Berequías, Simá, Micael, Baseías, Malquías, Etní, Zera, Adaías, Etán, Zimá, Simí, Yajat, Guersón y Leví.",
+          "verseDisplay": "39-43",
+          "endNumber": 43
         },
         {
           "number": 44,
-          "text": "El segundo ayudante de Hemán fue Etán. Sus antepasados fueron: Quisi, Abdí, Maluc, Jasabías, Amasías, Jilquías, Amsí, Baní, Sémer, Majlí, Musí, Merari, Leví."
+          "text": "El segundo ayudante de Hemán fue Etán. Sus antepasados fueron: Quisi, Abdí, Maluc, Jasabías, Amasías, Jilquías, Amsí, Baní, Sémer, Majlí, Musí, Merari, Leví.",
+          "verseDisplay": "44-47",
+          "endNumber": 47
         },
         {
           "number": 48,
@@ -863,6 +921,8 @@
         {
           "number": 50,
           "text": "Los siguientes son los descendientes de Aarón: Eleazar, Finés, Abisúa, Buquí, Uzi, Zeraías, Merayot, Amarías, Ajitob, Sadoc, y Ajimaz.",
+          "verseDisplay": "50-53",
+          "endNumber": 53,
           "headings": [
             "Ciudades de los levitas"
           ]
@@ -873,7 +933,9 @@
         },
         {
           "number": 55,
-          "text": "Hebrón en Judá, junto con sus terrenos de pastizales, Libná, Jatir, Estemoa, Hilén, Debir, Asán y Bet Semes. A Caleb hijo de Jefone le asignaron los terrenos alrededor de la ciudad y sus aldeas."
+          "text": "Hebrón en Judá, junto con sus terrenos de pastizales, Libná, Jatir, Estemoa, Hilén, Debir, Asán y Bet Semes. A Caleb hijo de Jefone le asignaron los terrenos alrededor de la ciudad y sus aldeas.",
+          "verseDisplay": "55-59",
+          "endNumber": 59
         },
         {
           "number": 60,
@@ -893,11 +955,15 @@
         },
         {
           "number": 64,
-          "text": "También se adjudicaron, por sorteo, las tierras de pastoreo a los levitas, como asimismo ciudades (a las que les cambiaron el nombre) que pertenecían a las tribus de Judá, Simeón y Benjamín."
+          "text": "También se adjudicaron, por sorteo, las tierras de pastoreo a los levitas, como asimismo ciudades (a las que les cambiaron el nombre) que pertenecían a las tribus de Judá, Simeón y Benjamín.",
+          "verseDisplay": "64-65",
+          "endNumber": 65
         },
         {
           "number": 66,
-          "text": "La tribu de Efraín entregó las siguientes ciudades de refugio con los terrenos de pastizales circundantes a los descendientes de Coat: Siquén, en los montes de Efraín; Guézer, Jocmeán, Bet Jorón, Ayalón y Gat Rimón."
+          "text": "La tribu de Efraín entregó las siguientes ciudades de refugio con los terrenos de pastizales circundantes a los descendientes de Coat: Siquén, en los montes de Efraín; Guézer, Jocmeán, Bet Jorón, Ayalón y Gat Rimón.",
+          "verseDisplay": "66-69",
+          "endNumber": 69
         },
         {
           "number": 70,
@@ -933,7 +999,9 @@
         },
         {
           "number": 78,
-          "text": "De la tribu de Rubén, que está al otro lado del río Jordán, frente a Jericó, recibieron las ciudades de Béser, que está en el desierto, Jaza, Cademot y Mefat, y sus respectivas tierras de pastoreo."
+          "text": "De la tribu de Rubén, que está al otro lado del río Jordán, frente a Jericó, recibieron las ciudades de Béser, que está en el desierto, Jaza, Cademot y Mefat, y sus respectivas tierras de pastoreo.",
+          "verseDisplay": "78-79",
+          "endNumber": 79
         },
         {
           "number": 80,
@@ -1038,7 +1106,9 @@
         },
         {
           "number": 20,
-          "text": "Los descendientes de Efraín fueron: Sutela, Béred, Tajat, Eladá, Tajat, Zabad, Sutela, Ezer y Elad. Elad y Ezer fueron a robar ganado en Gat, pero los agricultores de la zona les dieron muerte."
+          "text": "Los descendientes de Efraín fueron: Sutela, Béred, Tajat, Eladá, Tajat, Zabad, Sutela, Ezer y Elad. Elad y Ezer fueron a robar ganado en Gat, pero los agricultores de la zona les dieron muerte.",
+          "verseDisplay": "20-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -1054,7 +1124,9 @@
         },
         {
           "number": 25,
-          "text": "La descendencia de Beriá fue Refa, quien fue padre de Résef, quien fue padre de Télaj, quien fue padre de Taján, quien fue padre de Ladán, quien fue padre de Amiud, quien fue padre de Elisama, quien fue padre de Nun, quien fue padre de Josué."
+          "text": "La descendencia de Beriá fue Refa, quien fue padre de Résef, quien fue padre de Télaj, quien fue padre de Taján, quien fue padre de Ladán, quien fue padre de Amiud, quien fue padre de Elisama, quien fue padre de Nun, quien fue padre de Josué.",
+          "verseDisplay": "25-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -1093,7 +1165,9 @@
         },
         {
           "number": 36,
-          "text": "Los hijos de Zofa fueron: Súaj, Harnéfer, Súal, Berí, Imrá, Béser, Hod, Sama, Silsa, Itrán y Beerá."
+          "text": "Los hijos de Zofa fueron: Súaj, Harnéfer, Súal, Berí, Imrá, Béser, Hod, Sama, Silsa, Itrán y Beerá.",
+          "verseDisplay": "36-37",
+          "endNumber": 37
         },
         {
           "number": 38,
@@ -1118,15 +1192,21 @@
         },
         {
           "number": 2,
-          "text": "Bela, el primero; Asbel, el segundo; Ajará, el tercero; Noja, el cuarto, y Rafá, el quinto. Los hijos de Bela fueron: Adar, Guerá, Abiud, Abisúa, Naamán, Ajoaj, Guerá, Sefufán e Hiram."
+          "text": "Bela, el primero; Asbel, el segundo; Ajará, el tercero; Noja, el cuarto, y Rafá, el quinto. Los hijos de Bela fueron: Adar, Guerá, Abiud, Abisúa, Naamán, Ajoaj, Guerá, Sefufán e Hiram.",
+          "verseDisplay": "2-5",
+          "endNumber": 5
         },
         {
           "number": 6,
-          "text": "Los hijos de Aod, jefes de los clanes que vivían en Gueba, fueron capturados en guerra y desterrados a Manajat. Ellos fueron: Naamán, Ahías y Guerá, padre de Uza y Ajiud. Guerá fue el que los llevó a Manajat."
+          "text": "Los hijos de Aod, jefes de los clanes que vivían en Gueba, fueron capturados en guerra y desterrados a Manajat. Ellos fueron: Naamán, Ahías y Guerá, padre de Uza y Ajiud. Guerá fue el que los llevó a Manajat.",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
-          "text": "Sajarayin se divorció de sus mujeres Jusín y Bará, pero en la tierra de Moab tuvo hijos con Hodes, su nueva esposa, que fueron: Jobab, Sibia, Mesá, Malcán, Jeús, Saquías y Mirma. Todos estos hijos llegaron a ser jefes de clanes."
+          "text": "Sajarayin se divorció de sus mujeres Jusín y Bará, pero en la tierra de Moab tuvo hijos con Hodes, su nueva esposa, que fueron: Jobab, Sibia, Mesá, Malcán, Jeús, Saquías y Mirma. Todos estos hijos llegaron a ser jefes de clanes.",
+          "verseDisplay": "8-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -1146,23 +1226,33 @@
         },
         {
           "number": 15,
-          "text": "Los hijos de Beriá fueron: Zebadías, Arad, Ader, Micael, Ispá y Yojá."
+          "text": "Los hijos de Beriá fueron: Zebadías, Arad, Ader, Micael, Ispá y Yojá.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
-          "text": "Entre los hijos de Elpal también están: Zebadías, Mesulán, Hizqui, Éber, Ismeray, Jezlías y Jobab."
+          "text": "Entre los hijos de Elpal también están: Zebadías, Mesulán, Hizqui, Éber, Ismeray, Jezlías y Jobab.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
-          "text": "Los hijos de Simí fueron: Yaquín, Zicrí, Zabdí, Elienay, Ziletay, Eliel, Adaías, Beraías, y Simrat."
+          "text": "Los hijos de Simí fueron: Yaquín, Zicrí, Zabdí, Elienay, Ziletay, Eliel, Adaías, Beraías, y Simrat.",
+          "verseDisplay": "19-21",
+          "endNumber": 21
         },
         {
           "number": 22,
-          "text": "Los hijos de Sasac fueron: Ispán, Éber, Eliel, Abdón, Zicrí, Janán, Jananías, Elam, Anatotías, Ifdaías, y Peniel."
+          "text": "Los hijos de Sasac fueron: Ispán, Éber, Eliel, Abdón, Zicrí, Janán, Jananías, Elam, Anatotías, Ifdaías, y Peniel.",
+          "verseDisplay": "22-25",
+          "endNumber": 25
         },
         {
           "number": 26,
-          "text": "Los hijos de Jeroán fueron: Samseray, Seharías, Atalías, Jaresías, Elías y Zicrí."
+          "text": "Los hijos de Jeroán fueron: Samseray, Seharías, Atalías, Jaresías, Elías y Zicrí.",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -1174,7 +1264,9 @@
         },
         {
           "number": 30,
-          "text": "Su hijo mayor fue Abdón, y los otros fueron: Zur, Quis, Baal, Nadab, Guedor, Ajío, Zéquer y Miclot, el cual era padre de Simá. Todas estas familias vivían juntas, cerca de Jerusalén."
+          "text": "Su hijo mayor fue Abdón, y los otros fueron: Zur, Quis, Baal, Nadab, Guedor, Ajío, Zéquer y Miclot, el cual era padre de Simá. Todas estas familias vivían juntas, cerca de Jerusalén.",
+          "verseDisplay": "30-32",
+          "endNumber": 32
         },
         {
           "number": 33,
@@ -1242,7 +1334,9 @@
         },
         {
           "number": 7,
-          "text": "Entre los integrantes de la tribu de Benjamín que regresaron, estaban los siguientes: Salú hijo de Mesulán, hijo de Hodavías, hijo de Senuá; Ibneías hijo de Jeroán; Elá hijo de Uzi, hijo de Micri; y Mesulán hijo de Sefatías, hijo de Reuel, hijo de Ibnías."
+          "text": "Entre los integrantes de la tribu de Benjamín que regresaron, estaban los siguientes: Salú hijo de Mesulán, hijo de Hodavías, hijo de Senuá; Ibneías hijo de Jeroán; Elá hijo de Uzi, hijo de Micri; y Mesulán hijo de Sefatías, hijo de Reuel, hijo de Ibnías.",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -1250,7 +1344,9 @@
         },
         {
           "number": 10,
-          "text": "Los sacerdotes que regresaron fueron: Jedaías, Joyarib, Jaquín, Azarías hijo de Jilquías, hijo de Mesulán, hijo de Sadoc, hijo de Merayot, hijo de Ajitob. Este último fue el jefe de la guardia del templo de Dios."
+          "text": "Los sacerdotes que regresaron fueron: Jedaías, Joyarib, Jaquín, Azarías hijo de Jilquías, hijo de Mesulán, hijo de Sadoc, hijo de Merayot, hijo de Ajitob. Este último fue el jefe de la guardia del templo de Dios.",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -1262,11 +1358,15 @@
         },
         {
           "number": 14,
-          "text": "Entre los levitas que regresaron estaban: Semaías hijo de Jasub, hijo de Azricán, hijo de Jasabías, el cual era descendiente de Merari; Bacbacar, Heres, Galal, Matanías hijo de Micaías, hijo de Zicrí, hijo de Asaf; Abdías hijo de Semaías, hijo de Galal, hijo de Jedutún; y Berequías hijo de Asá, hijo de Elcaná, que vivía en la región de los netofatitas."
+          "text": "Entre los levitas que regresaron estaban: Semaías hijo de Jasub, hijo de Azricán, hijo de Jasabías, el cual era descendiente de Merari; Bacbacar, Heres, Galal, Matanías hijo de Micaías, hijo de Zicrí, hijo de Asaf; Abdías hijo de Semaías, hijo de Galal, hijo de Jedutún; y Berequías hijo de Asá, hijo de Elcaná, que vivía en la región de los netofatitas.",
+          "verseDisplay": "14-16",
+          "endNumber": 16
         },
         {
           "number": 17,
-          "text": "Los porteros fueron: Salún (jefe de los porteros), Acub, Talmón, Ajimán y sus parientes. Todavía tienen la responsabilidad de la puerta del este, correspondiente al palacio real."
+          "text": "Los porteros fueron: Salún (jefe de los porteros), Acub, Talmón, Ajimán y sus parientes. Todavía tienen la responsabilidad de la puerta del este, correspondiente al palacio real.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -1327,13 +1427,17 @@
         {
           "number": 33,
           "text": "Los cantores eran todos levitas prominentes. Vivían en Jerusalén y estaban en el desempeño de su labor a toda hora. Estaban exentos de otras responsabilidades, y la selección de ellos se practicaba tomando en consideración sus genealogías.",
+          "verseDisplay": "33-34",
+          "endNumber": 34,
           "headings": [
             "Genealogía de Saúl"
           ]
         },
         {
           "number": 35,
-          "text": "Jehiel, padre de Gabaón, vivía en Gabaón. Su esposa fue Macá; tuvo muchos hijos, entre los cuales se contaban los siguientes: Abdón (el primogénito), Zur, Quis, Baal, Ner, Nadab, Guedor, Ajío, Zacarías y Miclot."
+          "text": "Jehiel, padre de Gabaón, vivía en Gabaón. Su esposa fue Macá; tuvo muchos hijos, entre los cuales se contaban los siguientes: Abdón (el primogénito), Zur, Quis, Baal, Ner, Nadab, Guedor, Ajío, Zacarías y Miclot.",
+          "verseDisplay": "35-37",
+          "endNumber": 37
         },
         {
           "number": 38,
@@ -1505,7 +1609,9 @@
         },
         {
           "number": 18,
-          "text": "estos tres valientes se abrieron paso a través del campamento filisteo, sacaron agua del pozo y se la trajeron a David. Pero este rehusó beberla, y la derramó como una ofrenda al Señor y exclamó: «¡Que Dios me libre de beber esta agua! ¡Si la bebo, sería como beberme la sangre de estos hombres que arriesgaron su vida por complacerme!»."
+          "text": "estos tres valientes se abrieron paso a través del campamento filisteo, sacaron agua del pozo y se la trajeron a David. Pero este rehusó beberla, y la derramó como una ofrenda al Señor y exclamó: «¡Que Dios me libre de beber esta agua! ¡Si la bebo, sería como beberme la sangre de estos hombres que arriesgaron su vida por complacerme!».",
+          "verseDisplay": "18-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -1525,11 +1631,15 @@
         },
         {
           "number": 24,
-          "text": "Su grandeza se compara a la de los tres, aunque no fue uno de ellos, pero gozaba de mucha fama entre los treinta. David lo designó capitán de su guardia personal."
+          "text": "Su grandeza se compara a la de los tres, aunque no fue uno de ellos, pero gozaba de mucha fama entre los treinta. David lo designó capitán de su guardia personal.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
-          "text": "Otros guerreros famosos fueron: Asael, hermano de Joab; Eljanán, hijo de Dodó, de Belén; Samot, el harorita; Heles, el pelonita; Irá hijo de Iqués, de Tecoa; Abiezer, de Anatot; Sibecay el jusatita; Ilay el ajojita; Maray el netofatita; Jéled hijo de Baná el netofatita; Itay hijo de Ribay, de Guibeá de los benjaminitas; Benaías el piratonita; Juray, procedente de las inmediaciones del arroyo de Gaas; Abiel, procedente de Arbat; Azmávet el bajurinita; Elijaba el salbonita; los hijos de Jasén el guizonita; Jonatán hijo de Sague el ararita; Ahían hijo de Sacar, también ararita; Elifal hijo de Ur; Héfer el mequeratita; Ahías el pelonita; Jezró, de Carmel; Naray hijo de Ezbay; Joel, hermano de Natán; Mibar hijo de Hagrí; Sélec, procedente de Amón; Najaray el berotita, el cual era escudero del general Joab hijo de Sarvia; Irá el itrita; Gareb, también itrita; Urías el hitita; Zabad hijo de Ajlay; Adiná hijo de Sizá, de la tribu de Rubén; ocupaba un lugar entre los treinta y era jefe de esta tribu; Janán hijo de Macá; Josafat el mitnita; Uzías el astarotita; Sama y Jehiel, hijos de Jotán el aroerita; Jediael hijo de Simri; Yojá, su hermano, el tizita; Eliel el majavita; Jerebay y Josavía, hijos de Elnán; Itmá el moabita; Eliel, Obed y Jasiel, de Sobá."
+          "text": "Otros guerreros famosos fueron: Asael, hermano de Joab; Eljanán, hijo de Dodó, de Belén; Samot, el harorita; Heles, el pelonita; Irá hijo de Iqués, de Tecoa; Abiezer, de Anatot; Sibecay el jusatita; Ilay el ajojita; Maray el netofatita; Jéled hijo de Baná el netofatita; Itay hijo de Ribay, de Guibeá de los benjaminitas; Benaías el piratonita; Juray, procedente de las inmediaciones del arroyo de Gaas; Abiel, procedente de Arbat; Azmávet el bajurinita; Elijaba el salbonita; los hijos de Jasén el guizonita; Jonatán hijo de Sague el ararita; Ahían hijo de Sacar, también ararita; Elifal hijo de Ur; Héfer el mequeratita; Ahías el pelonita; Jezró, de Carmel; Naray hijo de Ezbay; Joel, hermano de Natán; Mibar hijo de Hagrí; Sélec, procedente de Amón; Najaray el berotita, el cual era escudero del general Joab hijo de Sarvia; Irá el itrita; Gareb, también itrita; Urías el hitita; Zabad hijo de Ajlay; Adiná hijo de Sizá, de la tribu de Rubén; ocupaba un lugar entre los treinta y era jefe de esta tribu; Janán hijo de Macá; Josafat el mitnita; Uzías el astarotita; Sama y Jehiel, hijos de Jotán el aroerita; Jediael hijo de Simri; Yojá, su hermano, el tizita; Eliel el majavita; Jerebay y Josavía, hijos de Elnán; Itmá el moabita; Eliel, Obed y Jasiel, de Sobá.",
+          "verseDisplay": "26-47",
+          "endNumber": 47
         }
       ]
     },
@@ -1546,15 +1656,21 @@
         },
         {
           "number": 3,
-          "text": "El jefe era Ajiezer y Joás hijos de Semá, de Guibeá. Los otros eran: Jeziel y Pélet, hijos de Azmávet; Beracá y Jehú, de Anatot; Ismaías, de Gabaón, que era uno de los treinta guerreros y jefe de ellos; Jeremías, Jahaziel, Johanán, Jozabad, de Guederá; Eluzay, Jerimot, Bealías, Semarías, Sefatías el harufita; Elcaná, Isías, Azareel, Joezer y Yasobeán (todos coreítas); Joelá y Zebadías, hijos de Jeroán, procedentes de Guedor."
+          "text": "El jefe era Ajiezer y Joás hijos de Semá, de Guibeá. Los otros eran: Jeziel y Pélet, hijos de Azmávet; Beracá y Jehú, de Anatot; Ismaías, de Gabaón, que era uno de los treinta guerreros y jefe de ellos; Jeremías, Jahaziel, Johanán, Jozabad, de Guederá; Eluzay, Jerimot, Bealías, Semarías, Sefatías el harufita; Elcaná, Isías, Azareel, Joezer y Yasobeán (todos coreítas); Joelá y Zebadías, hijos de Jeroán, procedentes de Guedor.",
+          "verseDisplay": "3-7",
+          "endNumber": 7
         },
         {
           "number": 8,
-          "text": "Grandes y bravos guerreros de la tribu de Gad se unieron también a David en el desierto. Eran expertos en el uso del escudo y de la lanza. Eran hombres tan feroces como los leones, y tan veloces como los venados. Esta es la lista de ellos: Ezer, el jefe; Abdías, el segundo en mando; Eliab, tercero en mando; Mismaná, el cuarto; Jeremías, el quinto; Atay, el sexto; Eliel, el séptimo; Johanán, el octavo; Elzabad, el noveno; Jeremías, el décimo, y Macbanay, el undécimo. Estos hombres eran oficiales del ejército; el más débil valía por una tropa normal de cien soldados, y el más fuerte valía por mil."
+          "text": "Grandes y bravos guerreros de la tribu de Gad se unieron también a David en el desierto. Eran expertos en el uso del escudo y de la lanza. Eran hombres tan feroces como los leones, y tan veloces como los venados. Esta es la lista de ellos: Ezer, el jefe; Abdías, el segundo en mando; Eliab, tercero en mando; Mismaná, el cuarto; Jeremías, el quinto; Atay, el sexto; Eliel, el séptimo; Johanán, el octavo; Elzabad, el noveno; Jeremías, el décimo, y Macbanay, el undécimo. Estos hombres eran oficiales del ejército; el más débil valía por una tropa normal de cien soldados, y el más fuerte valía por mil.",
+          "verseDisplay": "8-14",
+          "endNumber": 14
         },
         {
           "number": 15,
-          "text": "Atravesaron el río Jordán, en el mes primero, que es cuando el río se desborda, e hicieron huir a todos los habitantes de los valles hacia el este y al oeste. También otros guerreros de las tribus de Benjamín y de Judá fueron a ver a David, cuando se hallaba en la fortaleza, y se le unieron."
+          "text": "Atravesaron el río Jordán, en el mes primero, que es cuando el río se desborda, e hicieron huir a todos los habitantes de los valles hacia el este y al oeste. También otros guerreros de las tribus de Benjamín y de Judá fueron a ver a David, cuando se hallaba en la fortaleza, y se le unieron.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -1567,6 +1683,8 @@
         {
           "number": 19,
           "text": "También algunos guerreros de la tribu de Manasés desertaron y se unieron a David, justamente cuando él, con los filisteos, se dirigía a pelear contra el rey Saúl. Entretanto, los príncipes filisteos se opusieron a que David y sus hombres fueran con ellos. Después de mucha deliberación los enviaron de regreso, por cuanto tenían desconfianza de que David y sus hombres desertaran y fueran a unirse a las filas del rey Saúl. Los siguientes son los guerreros de la tribu de Manasés que desertaron y se unieron a David cuando este se dirigía a Siclag: Adnás, Jozabad, Jediael, Micael, Jozabad, Eliú y Ziletay. Cada uno de ellos era oficial de alto rango de las tropas de Manasés, pues estaban a cargo de mil soldados. Eran guerreros bravos y capacitados, y ayudaban a David a combatir a sus enemigos. Más y más hombres se unían diariamente a David, hasta que llegó a tener un ejército muy poderoso, como un ejército de Dios.",
+          "verseDisplay": "19-22",
+          "endNumber": 22,
           "headings": [
             "Los que se unieron a David en Hebrón"
           ]
@@ -1577,7 +1695,9 @@
         },
         {
           "number": 24,
-          "text": "De Judá, seis mil ochocientos soldados, armados con escudos y lanzas. De la tribu de Simeón, siete mil cien guerreros prominentes. De la tribu de Leví, cuatro mil seiscientos. De los sacerdotes, descendientes de Aarón, había tres mil setecientos, bajo el mando de Joyadá, y otros veintidós mil jefes de familia, bajo la dirección de Sadoc, hombre joven de valor excepcional. De la tribu de Benjamín, la misma de la que provenía Saúl, había un total de tres mil. (La mayor parte de esa tribu conservaba su lealtad a Saúl). De la tribu de Efraín, veinte mil ochocientos guerreros poderosos, cada uno de ellos famoso en su respectivo clan. De la media tribu de Manasés se envió a dieciocho mil con la finalidad expresa de colaborar para que David llegara a ser rey. De Isacar había doscientos dirigentes de la tribu con sus parientes; todos ellos eran hombres que entendían el desarrollo de la historia y podían discernir respecto al mejor rumbo que Israel debía tomar. De la tribu de Zabulón había cincuenta mil guerreros adiestrados; estaban completamente armados, y en su totalidad eran leales a David. De Neftalí, mil oficiales y treinta y siete mil equipados con escudos y lanzas. De la tribu de Dan, veintiocho mil seiscientos, todos preparados para la guerra. De la tribu de Aser, había cuarenta mil listos y adiestrados. Desde el otro lado del río Jordán, donde vivían las tribus de Rubén y Gad y la media tribu de Manasés, ciento veinte mil equipados con toda clase de armas."
+          "text": "De Judá, seis mil ochocientos soldados, armados con escudos y lanzas. De la tribu de Simeón, siete mil cien guerreros prominentes. De la tribu de Leví, cuatro mil seiscientos. De los sacerdotes, descendientes de Aarón, había tres mil setecientos, bajo el mando de Joyadá, y otros veintidós mil jefes de familia, bajo la dirección de Sadoc, hombre joven de valor excepcional. De la tribu de Benjamín, la misma de la que provenía Saúl, había un total de tres mil. (La mayor parte de esa tribu conservaba su lealtad a Saúl). De la tribu de Efraín, veinte mil ochocientos guerreros poderosos, cada uno de ellos famoso en su respectivo clan. De la media tribu de Manasés se envió a dieciocho mil con la finalidad expresa de colaborar para que David llegara a ser rey. De Isacar había doscientos dirigentes de la tribu con sus parientes; todos ellos eran hombres que entendían el desarrollo de la historia y podían discernir respecto al mejor rumbo que Israel debía tomar. De la tribu de Zabulón había cincuenta mil guerreros adiestrados; estaban completamente armados, y en su totalidad eran leales a David. De Neftalí, mil oficiales y treinta y siete mil equipados con escudos y lanzas. De la tribu de Dan, veintiocho mil seiscientos, todos preparados para la guerra. De la tribu de Aser, había cuarenta mil listos y adiestrados. Desde el otro lado del río Jordán, donde vivían las tribus de Rubén y Gad y la media tribu de Manasés, ciento veinte mil equipados con toda clase de armas.",
+          "verseDisplay": "24-37",
+          "endNumber": 37
         },
         {
           "number": 38,
@@ -1672,6 +1792,8 @@
         {
           "number": 4,
           "text": "Los siguientes son los nombres de los hijos que le nacieron en Jerusalén: Samúa, Sobab, Natán, Salomón, Ibjar, Elisúa, Elpélet, Noga, Néfeg, Jafía, Elisama, Belyadá y Elifelet.",
+          "verseDisplay": "4-7",
+          "endNumber": 7,
           "headings": [
             "David derrota a los filisteos"
           ]
@@ -1735,7 +1857,9 @@
         },
         {
           "number": 4,
-          "text": "A continuación se anotan los sacerdotes y levitas que asistieron: 120 del clan de Coat, con Uriel como su jefe. 220 del clan de Merari, con Asías como su jefe. 130 de los descendientes de Guersón, con Joel como su jefe. 200 de la familia de Elizafán, con Semaías como su jefe. 80 de la familia de Hebrón, con Eliel como su jefe. 112 de la familia de Uziel, con Aminadab como su jefe."
+          "text": "A continuación se anotan los sacerdotes y levitas que asistieron: 120 del clan de Coat, con Uriel como su jefe. 220 del clan de Merari, con Asías como su jefe. 130 de los descendientes de Guersón, con Joel como su jefe. 200 de la familia de Elizafán, con Semaías como su jefe. 80 de la familia de Hebrón, con Eliel como su jefe. 112 de la familia de Uziel, con Aminadab como su jefe.",
+          "verseDisplay": "4-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -1867,7 +1991,9 @@
         },
         {
           "number": 12,
-          "text": "»Descendientes de su siervo Israel, hijos escogidos de Jacob, recuerden sus poderosos milagros, recuerden sus obras maravillosas y sus sabias decisiones."
+          "text": "»Descendientes de su siervo Israel, hijos escogidos de Jacob, recuerden sus poderosos milagros, recuerden sus obras maravillosas y sus sabias decisiones.",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -2192,7 +2318,9 @@
         },
         {
           "number": 2,
-          "text": "David, entonces, dijo: «Voy a brindarle mi amistad a Janún en reconocimiento de todas las bondades que su padre Najás tuvo conmigo». Así que envió un mensaje de condolencia a Janún por la muerte de su padre. Pero cuando llegaron los embajadores de David, los consejeros amonitas le dijeron al rey Janún: «Su Majestad, no se deje engañar, pues David no ha enviado a estos hombres para darle el pésame por la muerte de su padre. ¡En realidad, los ha enviado para que exploren el país, para después venir y destruirlo!»."
+          "text": "David, entonces, dijo: «Voy a brindarle mi amistad a Janún en reconocimiento de todas las bondades que su padre Najás tuvo conmigo». Así que envió un mensaje de condolencia a Janún por la muerte de su padre. Pero cuando llegaron los embajadores de David, los consejeros amonitas le dijeron al rey Janún: «Su Majestad, no se deje engañar, pues David no ha enviado a estos hombres para darle el pésame por la muerte de su padre. ¡En realidad, los ha enviado para que exploren el país, para después venir y destruirlo!».",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -2248,7 +2376,9 @@
         },
         {
           "number": 17,
-          "text": "Al llegar estas noticias a conocimiento de David, movilizó a todo Israel, cruzó el río Jordán y combatió contra los sirios. Pero ellos nuevamente huyeron de David, el cual dio muerte a siete mil hombres de los que estaban a cargo de los carros y a cuarenta mil soldados de infantería. Asimismo dio muerte a Sofac, jefe del ejército sirio."
+          "text": "Al llegar estas noticias a conocimiento de David, movilizó a todo Israel, cruzó el río Jordán y combatió contra los sirios. Pero ellos nuevamente huyeron de David, el cual dio muerte a siete mil hombres de los que estaban a cargo de los carros y a cuarenta mil soldados de infantería. Asimismo dio muerte a Sofac, jefe del ejército sirio.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -2284,7 +2414,9 @@
         },
         {
           "number": 6,
-          "text": "En otra guerra ocurrida en Gat, un gigante que tenía seis dedos en cada mano y seis dedos en cada pie, cuyo padre también fue gigante, desafió e insultó a Israel; pero lo mató Jonatán hijo de Simá y sobrino de David."
+          "text": "En otra guerra ocurrida en Gat, un gigante que tenía seis dedos en cada mano y seis dedos en cada pie, cuyo padre también fue gigante, desafió e insultó a Israel; pero lo mató Jonatán hijo de Simá y sobrino de David.",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -2521,7 +2653,9 @@
         },
         {
           "number": 4,
-          "text": "David, entonces, los distribuyó de la siguiente manera: Veinticuatro mil dirigirían el trabajo de construcción del templo del Señor , seis mil serían oficiales y jueces, cuatro mil servirían de porteros, y los cuatro mil restantes serían los encargados de alabar al Señor con los instrumentos musicales que David había hecho fabricar para tal fin."
+          "text": "David, entonces, los distribuyó de la siguiente manera: Veinticuatro mil dirigirían el trabajo de construcción del templo del Señor , seis mil serían oficiales y jueces, cuatro mil servirían de porteros, y los cuatro mil restantes serían los encargados de alabar al Señor con los instrumentos musicales que David había hecho fabricar para tal fin.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -2536,11 +2670,15 @@
         },
         {
           "number": 8,
-          "text": "Los hijos de Ladán fueron: Jehiel en su calidad de jefe, Zetán y Joel. Los hijos de Simí, fueron Selomit, Jaziel y Jarán. Estos fueron los jefes de las familias paternas de Ladán."
+          "text": "Los hijos de Ladán fueron: Jehiel en su calidad de jefe, Zetán y Joel. Los hijos de Simí, fueron Selomit, Jaziel y Jarán. Estos fueron los jefes de las familias paternas de Ladán.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
           "text": "Los hijos de Simí fueron: Yajat, el mayor, Ziza, el segundo; y luego Jeús y Beriá que se cuentan como una sola familia porque ambos tuvieron pocos hijos.",
+          "verseDisplay": "10-11",
+          "endNumber": 11,
           "headings": [
             "Los coatitas"
           ],
@@ -2562,7 +2700,9 @@
         },
         {
           "number": 14,
-          "text": "En cuanto a Moisés, varón de Dios, sus hijos Guersón y Eliezer fueron contados con la tribu de Leví."
+          "text": "En cuanto a Moisés, varón de Dios, sus hijos Guersón y Eliezer fueron contados con la tribu de Leví.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -2666,7 +2806,9 @@
         },
         {
           "number": 7,
-          "text": "El trabajo se asignó por sorteo, y la suerte recayó como sigue: Primero, el grupo a cargo de Joyarib; segundo, el grupo a cargo de Jedaías; tercero, el grupo a cargo de Jarín; cuarto, el grupo a cargo de Seorín; quinto, el grupo a cargo de Malquías; sexto, el grupo a cargo de Mijamín; séptimo, el grupo a cargo de Cos; octavo, el grupo a cargo de Abías; noveno, el grupo a cargo de Jesúa; décimo, el grupo a cargo de Secanías; undécimo, el grupo a cargo de Eliasib; duodécimo, el grupo a cargo de Yaquín; decimotercero, el grupo a cargo de Hupá; decimocuarto, el grupo a cargo de Jesebab; decimoquinto, el grupo a cargo de Bilgá; decimosexto, el grupo a cargo de Imer; decimoséptimo, el grupo a cargo de Hezir; decimoctavo, el grupo a cargo de Afsés; decimonoveno, el grupo a cargo de Petaías; vigésimo, el grupo a cargo de Ezequiel; vigesimoprimero, el grupo a cargo de Jaquín; vigesimosegundo, el grupo a cargo de Gamul; vigesimotercero, el grupo a cargo de Delaías; y el vigesimocuarto, el grupo a cargo de Maazías."
+          "text": "El trabajo se asignó por sorteo, y la suerte recayó como sigue: Primero, el grupo a cargo de Joyarib; segundo, el grupo a cargo de Jedaías; tercero, el grupo a cargo de Jarín; cuarto, el grupo a cargo de Seorín; quinto, el grupo a cargo de Malquías; sexto, el grupo a cargo de Mijamín; séptimo, el grupo a cargo de Cos; octavo, el grupo a cargo de Abías; noveno, el grupo a cargo de Jesúa; décimo, el grupo a cargo de Secanías; undécimo, el grupo a cargo de Eliasib; duodécimo, el grupo a cargo de Yaquín; decimotercero, el grupo a cargo de Hupá; decimocuarto, el grupo a cargo de Jesebab; decimoquinto, el grupo a cargo de Bilgá; decimosexto, el grupo a cargo de Imer; decimoséptimo, el grupo a cargo de Hezir; decimoctavo, el grupo a cargo de Afsés; decimonoveno, el grupo a cargo de Petaías; vigésimo, el grupo a cargo de Ezequiel; vigesimoprimero, el grupo a cargo de Jaquín; vigesimosegundo, el grupo a cargo de Gamul; vigesimotercero, el grupo a cargo de Delaías; y el vigesimocuarto, el grupo a cargo de Maazías.",
+          "verseDisplay": "7-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -2693,11 +2835,15 @@
         },
         {
           "number": 24,
-          "text": "El grupo de Uziel estaba dirigido por su hijo Micaías y sus nietos Samir e Isías, y por Zacarías hijo de Isías."
+          "text": "El grupo de Uziel estaba dirigido por su hijo Micaías y sus nietos Samir e Isías, y por Zacarías hijo de Isías.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
-          "text": "El grupo de Merari estaba dirigido por sus hijos Majlí y Musí. (El grupo de Jazías, guiado por su hijo Benó, comprende también a sus hermanos Soján, Zacur e Ibrí)."
+          "text": "El grupo de Merari estaba dirigido por sus hijos Majlí y Musí. (El grupo de Jazías, guiado por su hijo Benó, comprende también a sus hermanos Soján, Zacur e Ibrí).",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -2734,11 +2880,15 @@
         },
         {
           "number": 4,
-          "text": "Bajo la dirección de Hemán, profeta al servicio del rey, estaban sus hijos: Buquías, Matanías, Uziel, Sebuel, Jeremot, Jananías, Jananí, Eliatá, Guidalti, Romanti Ezer, Josbecasa, Malotí, Hotir y Mahaziot (Porque Dios lo había bendecido con catorce hijos y tres hijas, cumpliendo así su promesa de que haría de él un hombre muy poderoso)."
+          "text": "Bajo la dirección de Hemán, profeta al servicio del rey, estaban sus hijos: Buquías, Matanías, Uziel, Sebuel, Jeremot, Jananías, Jananí, Eliatá, Guidalti, Romanti Ezer, Josbecasa, Malotí, Hotir y Mahaziot (Porque Dios lo había bendecido con catorce hijos y tres hijas, cumpliendo así su promesa de que haría de él un hombre muy poderoso).",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
-          "text": "El ministerio de la música a cargo de ellos incluía el tocar los címbalos, arpas y liras, todo bajo la dirección de su padre, mientras desempeñaban su ministerio en el santuario. Asaf, Jedutún y Hemán rendían informe directamente al rey. Ellos y sus familiares estaban adiestrados para cantar alabanzas al Señor . Eran doscientos ochenta y ocho en total, siendo cada uno de ellos maestro de música."
+          "text": "El ministerio de la música a cargo de ellos incluía el tocar los címbalos, arpas y liras, todo bajo la dirección de su padre, mientras desempeñaban su ministerio en el santuario. Asaf, Jedutún y Hemán rendían informe directamente al rey. Ellos y sus familiares estaban adiestrados para cantar alabanzas al Señor . Eran doscientos ochenta y ocho en total, siendo cada uno de ellos maestro de música.",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -2746,7 +2896,9 @@
         },
         {
           "number": 9,
-          "text": "El primer sorteo indicó a José, del clan de Asaf; el segundo, a Guedalías junto con doce de sus hijos y hermanos; el tercero, a Zacur, y doce de sus hijos y hermanos; el cuarto, a Izri, y doce de sus hijos y hermanos; el quinto, a Netanías, y doce de sus hijos y hermanos; el sexto, a Buquías, y doce de sus hijos y hermanos; el séptimo, a Jesarela, y doce de sus hijos y hermanos; el octavo, a Isaías, y doce de sus hijos y hermanos; el noveno, a Matanías, y doce de sus hijos y hermanos; el décimo, a Simí, y doce de sus hijos y hermanos; el undécimo, a Azarel, y doce de sus hijos y hermanos; el duodécimo, a Jasabías, y doce de sus hijos y hermanos; el decimotercero, a Subael, y doce de sus hijos y hermanos; el decimocuarto, a Matatías, y doce de sus hijos y hermanos; el decimoquinto, a Jeremot, y doce de sus hijos y hermanos; el decimosexto, a Jananías, y doce de sus hijos y hermanos; el decimoseptimo, a Josbecasa, y doce de sus hijos y hermanos; el decimoctavo, a Jananí, y doce de sus hijos y hermanos; el decimonoveno, a Malotí, y doce de sus hijos y hermanos: el vigésimo, a Eliatá, y doce de sus hijos y hermanos; el vigesimoprimero, a Hotir, y doce de sus hijos y hermanos; el vigesimosegundo, a Guidalti, y doce de sus hijos y hermanos; el vigesimotercero, a Mahaziot, y doce de sus hijos y hermanos; el vigesimocuarto, a Romanti Ezer, y doce de sus hijos y hermanos."
+          "text": "El primer sorteo indicó a José, del clan de Asaf; el segundo, a Guedalías junto con doce de sus hijos y hermanos; el tercero, a Zacur, y doce de sus hijos y hermanos; el cuarto, a Izri, y doce de sus hijos y hermanos; el quinto, a Netanías, y doce de sus hijos y hermanos; el sexto, a Buquías, y doce de sus hijos y hermanos; el séptimo, a Jesarela, y doce de sus hijos y hermanos; el octavo, a Isaías, y doce de sus hijos y hermanos; el noveno, a Matanías, y doce de sus hijos y hermanos; el décimo, a Simí, y doce de sus hijos y hermanos; el undécimo, a Azarel, y doce de sus hijos y hermanos; el duodécimo, a Jasabías, y doce de sus hijos y hermanos; el decimotercero, a Subael, y doce de sus hijos y hermanos; el decimocuarto, a Matatías, y doce de sus hijos y hermanos; el decimoquinto, a Jeremot, y doce de sus hijos y hermanos; el decimosexto, a Jananías, y doce de sus hijos y hermanos; el decimoseptimo, a Josbecasa, y doce de sus hijos y hermanos; el decimoctavo, a Jananí, y doce de sus hijos y hermanos; el decimonoveno, a Malotí, y doce de sus hijos y hermanos: el vigésimo, a Eliatá, y doce de sus hijos y hermanos; el vigesimoprimero, a Hotir, y doce de sus hijos y hermanos; el vigesimosegundo, a Guidalti, y doce de sus hijos y hermanos; el vigesimotercero, a Mahaziot, y doce de sus hijos y hermanos; el vigesimocuarto, a Romanti Ezer, y doce de sus hijos y hermanos.",
+          "verseDisplay": "9-31",
+          "endNumber": 31
         }
       ]
     },
@@ -2759,15 +2911,21 @@
         },
         {
           "number": 2,
-          "text": "Los hijos de Meselemías eran: Zacarías, el primogénito; Jediael, el segundo; Zebadías, el tercero; Jatniel, el cuarto; Elam, el quinto; Johanán, el sexto y Elihoenay, el séptimo."
+          "text": "Los hijos de Meselemías eran: Zacarías, el primogénito; Jediael, el segundo; Zebadías, el tercero; Jatniel, el cuarto; Elam, el quinto; Johanán, el sexto y Elihoenay, el séptimo.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
-          "text": "Los hijos de Obed Edom: Semaías, el primogénito; Jozabad, el segundo; Joa, el tercero; Sacar, el cuarto; Natanael, el quinto; Amiel, el sexto; Isacar, el séptimo y Peultay, el octavo. ¡Cuán grande bendición le dio Dios con todos esos hijos!"
+          "text": "Los hijos de Obed Edom: Semaías, el primogénito; Jozabad, el segundo; Joa, el tercero; Sacar, el cuarto; Natanael, el quinto; Amiel, el sexto; Isacar, el séptimo y Peultay, el octavo. ¡Cuán grande bendición le dio Dios con todos esos hijos!",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
-          "text": "Los hijos de Semaías hijo de Obed Edom eran todos varones sobresalientes y ocupaban cargos de considerable autoridad en el clan. Sus nombres eran: Otni, Rafael, Obed y Elzabad, y sus hermanos, Eliú y Samaquías, eran también hombres muy valientes."
+          "text": "Los hijos de Semaías hijo de Obed Edom eran todos varones sobresalientes y ocupaban cargos de considerable autoridad en el clan. Sus nombres eran: Otni, Rafael, Obed y Elzabad, y sus hermanos, Eliú y Samaquías, eran también hombres muy valientes.",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -2795,7 +2953,9 @@
         },
         {
           "number": 14,
-          "text": "La responsabilidad de la puerta del este recayó en Selemías y su grupo; la de la puerta del norte, en su hijo Zacarías, varón de extraordinaria sabiduría; la de la puerta del sur, en Obed Edom y su grupo (sus hijos quedaron a cargo de los almacenes de mercancías);"
+          "text": "La responsabilidad de la puerta del este recayó en Selemías y su grupo; la de la puerta del norte, en su hijo Zacarías, varón de extraordinaria sabiduría; la de la puerta del sur, en Obed Edom y su grupo (sus hijos quedaron a cargo de los almacenes de mercancías);",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -2818,11 +2978,15 @@
         },
         {
           "number": 20,
-          "text": "Otros levitas, que tenían por jefe a Ahías, eran los encargados de recibir las donaciones traídas a Dios, que se guardaban en la tesorería del templo del Señor . Estos varones del subclan de Ladán, provenientes del clan de Guersón, comprendían también a Zetán y Joel, hijos de Jehiel."
+          "text": "Otros levitas, que tenían por jefe a Ahías, eran los encargados de recibir las donaciones traídas a Dios, que se guardaban en la tesorería del templo del Señor . Estos varones del subclan de Ladán, provenientes del clan de Guersón, comprendían también a Zetán y Joel, hijos de Jehiel.",
+          "verseDisplay": "20-22",
+          "endNumber": 22
         },
         {
           "number": 23,
-          "text": "Sebuel hijo de Guersón y nieto de Moisés, era jefe oficial de la tesorería. Además era supervisor de las divisiones que estaban a cargo de Amirán, Izar, Hebrón y Uziel."
+          "text": "Sebuel hijo de Guersón y nieto de Moisés, era jefe oficial de la tesorería. Además era supervisor de las divisiones que estaban a cargo de Amirán, Izar, Hebrón y Uziel.",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -2842,11 +3006,15 @@
         },
         {
           "number": 29,
-          "text": "Quenanías y sus hijos (del subclan de Izar) recibieron nombramiento de administradores públicos y jueces. Jasabías y mil setecientos hombres de su clan de Hebrón, todos varones prominentes, fueron puestos a cargo del territorio de Israel que está al oeste del río Jordán, y tenían la responsabilidad sobre los asuntos religiosos y de la administración pública de esa región."
+          "text": "Quenanías y sus hijos (del subclan de Izar) recibieron nombramiento de administradores públicos y jueces. Jasabías y mil setecientos hombres de su clan de Hebrón, todos varones prominentes, fueron puestos a cargo del territorio de Israel que está al oeste del río Jordán, y tenían la responsabilidad sobre los asuntos religiosos y de la administración pública de esa región.",
+          "verseDisplay": "29-30",
+          "endNumber": 30
         },
         {
           "number": 31,
-          "text": "En el año cuarenta de su reinado, David hizo que se investigaran los registros genealógicos de los descendientes de Hebrón. Al hacerlo, se descubrió que en Jazer de Galaad había hombres muy valientes. El número de ellos era de dos mil setecientos, y tenían como jefe a Jerías. Entonces el rey David les asignó la administración de los asuntos públicos y religiosos de las tribus de Rubén, Gad y la media tribu de Manasés."
+          "text": "En el año cuarenta de su reinado, David hizo que se investigaran los registros genealógicos de los descendientes de Hebrón. Al hacerlo, se descubrió que en Jazer de Galaad había hombres muy valientes. El número de ellos era de dos mil setecientos, y tenían como jefe a Jerías. Entonces el rey David les asignó la administración de los asuntos públicos y religiosos de las tribus de Rubén, Gad y la media tribu de Manasés.",
+          "verseDisplay": "31-32",
+          "endNumber": 32
         }
       ]
     },
@@ -2859,7 +3027,9 @@
         },
         {
           "number": 2,
-          "text": "A cargo de la primera división estaba Yasobeán hijo de Zabdiel, de la familia de Fares. Tenía veinticuatro mil hombres que prestaban su servicio el primer mes de cada año."
+          "text": "A cargo de la primera división estaba Yasobeán hijo de Zabdiel, de la familia de Fares. Tenía veinticuatro mil hombres que prestaban su servicio el primer mes de cada año.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -2867,7 +3037,9 @@
         },
         {
           "number": 5,
-          "text": "El jefe de la tercera división era Benaías, hijo del sumo sacerdote Joyadá. Sus veinticuatro mil hombres que prestaban su servicio el tercer mes de cada año. Benaías fue uno de los treinta valientes y jefe de ellos. Su hijo Amisabad formaba parte de esta división."
+          "text": "El jefe de la tercera división era Benaías, hijo del sumo sacerdote Joyadá. Sus veinticuatro mil hombres que prestaban su servicio el tercer mes de cada año. Benaías fue uno de los treinta valientes y jefe de ellos. Su hijo Amisabad formaba parte de esta división.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -2910,7 +3082,9 @@
         },
         {
           "number": 16,
-          "text": "A cargo de las tribus de Israel estaban los siguientes: Jefe de la tribu de Rubén, Eliezer hijo de Zicrí; de Simeón, Sefatías hijo de Macá; de Leví, Jasabías hijo de Quemuel; de los descendientes de Aarón, Sadoc; de Judá, Eliú, hermano del rey David; de Isacar, Omrí hijo de Micael; de Zabulón, Ismaías hijo de Abdías; de Neftalí, Jerimot hijo de Azriel; de Efraín, Oseas hijo de Azazías; de la media tribu de Manasés, Joel hijo de Pedaías; de la otra mitad de Manasés, en Galaad, Idó hijo de Zacarías; de Benjamín, Jasiel hijo de Abner; y de Dan, Azarel hijo de Jeroán."
+          "text": "A cargo de las tribus de Israel estaban los siguientes: Jefe de la tribu de Rubén, Eliezer hijo de Zicrí; de Simeón, Sefatías hijo de Macá; de Leví, Jasabías hijo de Quemuel; de los descendientes de Aarón, Sadoc; de Judá, Eliú, hermano del rey David; de Isacar, Omrí hijo de Micael; de Zabulón, Ismaías hijo de Abdías; de Neftalí, Jerimot hijo de Azriel; de Efraín, Oseas hijo de Azazías; de la media tribu de Manasés, Joel hijo de Pedaías; de la otra mitad de Manasés, en Galaad, Idó hijo de Zacarías; de Benjamín, Jasiel hijo de Abner; y de Dan, Azarel hijo de Jeroán.",
+          "verseDisplay": "16-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -3071,11 +3245,15 @@
         },
         {
           "number": 4,
-          "text": "Estas contribuciones personales consisten en cien mil kilos de oro de Ofir, y doscientos treinta mil kilos de plata pura destinada a recubrir las paredes de las edificaciones, y para los artículos de oro y plata, y para cualquier otro trabajo que se requiera. Ahora, pues, ¿quién seguirá mi ejemplo? ¿Quién, por amor al Señor , dará una ofrenda voluntaria para el templo?»."
+          "text": "Estas contribuciones personales consisten en cien mil kilos de oro de Ofir, y doscientos treinta mil kilos de plata pura destinada a recubrir las paredes de las edificaciones, y para los artículos de oro y plata, y para cualquier otro trabajo que se requiera. Ahora, pues, ¿quién seguirá mi ejemplo? ¿Quién, por amor al Señor , dará una ofrenda voluntaria para el templo?».",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
-          "text": "Entonces los dirigentes de clanes, los jefes de tribus, los oficiales del ejército y los funcionarios administrativos del rey hicieron entrega de ciento sesenta y cinco mil kilos y diez mil monedas de oro, trescientos treinta mil kilos de plata, seiscientos mil kilos de bronce y tres millones trescientos mil kilos de hierro."
+          "text": "Entonces los dirigentes de clanes, los jefes de tribus, los oficiales del ejército y los funcionarios administrativos del rey hicieron entrega de ciento sesenta y cinco mil kilos y diez mil monedas de oro, trescientos treinta mil kilos de plata, seiscientos mil kilos de bronce y tres millones trescientos mil kilos de hierro.",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -3160,7 +3338,9 @@
         },
         {
           "number": 26,
-          "text": "Así David fue rey de la tierra de Israel por cuarenta años, siete de los cuales reinó en Hebrón y treinta y tres en Jerusalén."
+          "text": "Así David fue rey de la tierra de Israel por cuarenta años, siete de los cuales reinó en Hebrón y treinta y tres en Jerusalén.",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,

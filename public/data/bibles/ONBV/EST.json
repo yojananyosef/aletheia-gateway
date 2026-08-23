@@ -13,7 +13,9 @@
         },
         {
           "number": 2,
-          "text": "Este era el año de la gran celebración en el palacio de Susa, capital del reino, a la que el emperador había invitado a todos los gobernadores, cortesanos, y jefes del ejército de todas partes de Media y Persia."
+          "text": "Este era el año de la gran celebración en el palacio de Susa, capital del reino, a la que el emperador había invitado a todos los gobernadores, cortesanos, y jefes del ejército de todas partes de Media y Persia.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -53,7 +55,9 @@
         },
         {
           "number": 13,
-          "text": "Entonces consultó a hombres expertos en las leyes y la justicia del imperio en cuanto a lo que debía hacer, pues siempre acostumbraba tratar con ellos todos los asuntos que tenían que ver con su reino. Estos hombres eran Carcena, Setar, Admata, Tarsis, Meres, Marsená y Memucán. Estos siete hombres eran jefes de Persia y Media, y tenían puestos muy importantes en el reino, pues formaban parte del consejo real. ―¿Qué debo hacer? —les preguntó—. ¿Qué castigo contempla la ley para una reina que se niega a obedecer la orden del rey, enviada por medio de sus servidores?"
+          "text": "Entonces consultó a hombres expertos en las leyes y la justicia del imperio en cuanto a lo que debía hacer, pues siempre acostumbraba tratar con ellos todos los asuntos que tenían que ver con su reino. Estos hombres eran Carcena, Setar, Admata, Tarsis, Meres, Marsená y Memucán. Estos siete hombres eran jefes de Persia y Media, y tenían puestos muy importantes en el reino, pues formaban parte del consejo real. ―¿Qué debo hacer? —les preguntó—. ¿Qué castigo contempla la ley para una reina que se niega a obedecer la orden del rey, enviada por medio de sus servidores?",
+          "verseDisplay": "13-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -94,7 +98,9 @@
         },
         {
           "number": 2,
-          "text": "Entonces sus consejeros le recomendaron: «Su Majestad, nombre en cada provincia del reino a ciertos hombres para que se encarguen de seleccionar a las más hermosas jóvenes solteras de todo el imperio. Luego, esas jóvenes deberán ser traídas aquí a Susa, a la casa donde están todas las mujeres que le pertenecen a Su Majestad, para que sean sometidas a un tratamiento de belleza, bajo la responsabilidad de Jegay, que es el encargado de cuidar a las mujeres de Su Majestad."
+          "text": "Entonces sus consejeros le recomendaron: «Su Majestad, nombre en cada provincia del reino a ciertos hombres para que se encarguen de seleccionar a las más hermosas jóvenes solteras de todo el imperio. Luego, esas jóvenes deberán ser traídas aquí a Susa, a la casa donde están todas las mujeres que le pertenecen a Su Majestad, para que sean sometidas a un tratamiento de belleza, bajo la responsabilidad de Jegay, que es el encargado de cuidar a las mujeres de Su Majestad.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -130,7 +136,9 @@
         },
         {
           "number": 12,
-          "text": "Antes de ser llevadas a la presencia del rey, cada muchacha debía recibir seis meses de tratamiento de belleza con aceite de mirra, seguido por otros seis meses de tratamiento con perfumes y cosméticos femeninos. Cuando a una muchacha le tocaba ir a pasar la noche con el rey Asuero, se le daban a elegir los vestidos y joyas que deseara, para realzar su belleza. La llevaban entonces a los aposentos del rey en la tarde y a la mañana siguiente regresaba a una segunda casa, donde vivían las concubinas del rey. Allí quedaba por el resto de su vida al cuidado de Sasgaz, que era otro de los hombres de confianza del rey. Tan sólo podía regresar al palacio si el rey la deseaba y la mandaba a llamar."
+          "text": "Antes de ser llevadas a la presencia del rey, cada muchacha debía recibir seis meses de tratamiento de belleza con aceite de mirra, seguido por otros seis meses de tratamiento con perfumes y cosméticos femeninos. Cuando a una muchacha le tocaba ir a pasar la noche con el rey Asuero, se le daban a elegir los vestidos y joyas que deseara, para realzar su belleza. La llevaban entonces a los aposentos del rey en la tarde y a la mañana siguiente regresaba a una segunda casa, donde vivían las concubinas del rey. Allí quedaba por el resto de su vida al cuidado de Sasgaz, que era otro de los hombres de confianza del rey. Tan sólo podía regresar al palacio si el rey la deseaba y la mandaba a llamar.",
+          "verseDisplay": "12-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -186,7 +194,9 @@
         },
         {
           "number": 3,
-          "text": "Por eso, sus compañeros de trabajo, le preguntaron, una y otra vez, «¿Por qué desobedeces la orden del rey?». Como Mardoqueo no les hacía caso, lo denunciaron ante Amán, para ver si Mardoqueo se atrevía a decirle que era judío, tal como se los había dicho a ellos."
+          "text": "Por eso, sus compañeros de trabajo, le preguntaron, una y otra vez, «¿Por qué desobedeces la orden del rey?». Como Mardoqueo no les hacía caso, lo denunciaron ante Amán, para ver si Mardoqueo se atrevía a decirle que era judío, tal como se los había dicho a ellos.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -337,6 +347,8 @@
         {
           "number": 7,
           "text": "Ester entonces le contestó: ―Mi petición, mi más profundo deseo, es que si Su Majestad me ama, y quiere concederme mis deseos, venga mañana con Amán a otro banquete que he preparado para ustedes, y allí le explicaré de qué se trata.",
+          "verseDisplay": "7-8",
+          "endNumber": 8,
           "headings": [
             "Odio de Amán contra Mardoqueo"
           ]
@@ -396,7 +408,9 @@
         },
         {
           "number": 7,
-          "text": "Y respondió: ―Haría traer ropas reales que el rey haya usado, el caballo del rey, la corona real,"
+          "text": "Y respondió: ―Haría traer ropas reales que el rey haya usado, el caballo del rey, la corona real,",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -506,7 +520,9 @@
         },
         {
           "number": 9,
-          "text": "Inmediatamente fueron convocados los secretarios del rey. Era el día veintitrés del mes tercero, es decir, del mes de Siván. Los secretarios escribieron el edicto que Mardoqueo les dictó, para ser enviado a los judíos, a los oficiales, a los gobernadores y príncipes de las ciento veintisiete provincias, desde la India hasta Etiopía. El edicto fue traducido a los idiomas y dialectos de todos los pueblos del reino. Mardoqueo lo escribió en nombre del rey Asuero, lo selló con el anillo del rey y envió las cartas por medio de mensajeros del rey, que montaban los caballos más veloces que el rey tenía."
+          "text": "Inmediatamente fueron convocados los secretarios del rey. Era el día veintitrés del mes tercero, es decir, del mes de Siván. Los secretarios escribieron el edicto que Mardoqueo les dictó, para ser enviado a los judíos, a los oficiales, a los gobernadores y príncipes de las ciento veintisiete provincias, desde la India hasta Etiopía. El edicto fue traducido a los idiomas y dialectos de todos los pueblos del reino. Mardoqueo lo escribió en nombre del rey Asuero, lo selló con el anillo del rey y envió las cartas por medio de mensajeros del rey, que montaban los caballos más veloces que el rey tenía.",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -567,7 +583,9 @@
         },
         {
           "number": 7,
-          "text": "También dieron muerte a diez hijos de Amán hijo de Hamedata, enemigo de los judíos. Estos son sus nombres: Parsandata, Dalfón, Aspata, Porata, Adalías, Aridata, Parmasta, Arisay, Ariday y Vaizata, pero no se apoderaron de sus bienes."
+          "text": "También dieron muerte a diez hijos de Amán hijo de Hamedata, enemigo de los judíos. Estos son sus nombres: Parsandata, Dalfón, Aspata, Porata, Adalías, Aridata, Parmasta, Arisay, Ariday y Vaizata, pero no se apoderaron de sus bienes.",
+          "verseDisplay": "7-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -626,7 +644,9 @@
         },
         {
           "number": 24,
-          "text": "como recordatorio de la ocasión en que Amán hijo de Hamedata, el agagueo, enemigo de todos los judíos, había tramado destruirlos en una fecha que determinaron tras haber echado suertes, y para recordar que cuando Ester se lo contó al rey, este emitió un edicto a fin de que el plan de Amán se volviera en su contra, y él y sus hijos fueron colgados en la horca."
+          "text": "como recordatorio de la ocasión en que Amán hijo de Hamedata, el agagueo, enemigo de todos los judíos, había tramado destruirlos en una fecha que determinaron tras haber echado suertes, y para recordar que cuando Ester se lo contó al rey, este emitió un edicto a fin de que el plan de Amán se volviera en su contra, y él y sus hijos fueron colgados en la horca.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
@@ -642,7 +662,9 @@
         },
         {
           "number": 29,
-          "text": "La reina Ester, hija de Abijaíl, y Mardoqueo escribieron esta segunda carta, para confirmar plenamente los días en que debía celebrarse la fiesta anual de Purim. Las cartas fueron enviadas a todos los judíos que vivían en las ciento veintisiete provincias del reino de Asuero, con mensajes de buena voluntad y de aliento para confirmar la celebración anual de estos dos días de Purim, decretada por Mardoqueo el judío y por la reina Ester. Además, les daban instrucciones en cuanto a la obligación de ayunar y de guardar luto."
+          "text": "La reina Ester, hija de Abijaíl, y Mardoqueo escribieron esta segunda carta, para confirmar plenamente los días en que debía celebrarse la fiesta anual de Purim. Las cartas fueron enviadas a todos los judíos que vivían en las ciento veintisiete provincias del reino de Asuero, con mensajes de buena voluntad y de aliento para confirmar la celebración anual de estos dos días de Purim, decretada por Mardoqueo el judío y por la reina Ester. Además, les daban instrucciones en cuanto a la obligación de ayunar y de guardar luto.",
+          "verseDisplay": "29-31",
+          "endNumber": 31
         },
         {
           "number": 32,

@@ -75,7 +75,14 @@ export class JsonBibleRepository implements IBibleRepository {
       // Filter exact verse numbers if specified
       if (segment.verseNumbers && segment.verseNumbers.length > 0) {
         const verseSet = new Set(segment.verseNumbers);
-        filteredVerses = chapterData.verses.filter((v) => verseSet.has(v.number));
+        filteredVerses = chapterData.verses.filter((v) => {
+          if (verseSet.has(v.number)) return true;
+          const end = v.endNumber || v.number;
+          for (const num of segment.verseNumbers!) {
+            if (num >= v.number && num <= end) return true;
+          }
+          return false;
+        });
         if (filteredVerses.length === 0) {
           filteredVerses = chapterData.verses;
         }

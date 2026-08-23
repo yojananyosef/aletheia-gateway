@@ -28,7 +28,9 @@
         },
         {
           "number": 5,
-          "text": "Oh pueblo mío, ¿no han recibido suficiente castigo? ¿Por qué obligarme a azotarlos una y otra vez? ¿Es su intención ser rebeldes toda la vida? De la cabeza a los pies están enfermos, débiles y desfallecidos, cubiertos de magulladuras, verdugones y heridas infectadas, sin ungir ni vendar."
+          "text": "Oh pueblo mío, ¿no han recibido suficiente castigo? ¿Por qué obligarme a azotarlos una y otra vez? ¿Es su intención ser rebeldes toda la vida? De la cabeza a los pies están enfermos, débiles y desfallecidos, cubiertos de magulladuras, verdugones y heridas infectadas, sin ungir ni vendar.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -52,7 +54,9 @@
         },
         {
           "number": 12,
-          "text": "¿Cómo he de querer los sacrificios de ustedes si ni siquiera son capaces de sentir dolor por sus pecados? El incienso que me traen hiede en mis narices. Sus santas celebraciones de la luna nueva y el sábado, y sus días de ayuno especial —aun sus más santas reuniones—, ¡todo es fraude! No quiero nada más con ellos."
+          "text": "¿Cómo he de querer los sacrificios de ustedes si ni siquiera son capaces de sentir dolor por sus pecados? El incienso que me traen hiede en mis narices. Sus santas celebraciones de la luna nueva y el sábado, y sus días de ayuno especial —aun sus más santas reuniones—, ¡todo es fraude! No quiero nada más con ellos.",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -325,7 +329,9 @@
         },
         {
           "number": 25,
-          "text": "Sus maridos morirán en batalla y ellas, desoladas, se sentarán en tierra llorando."
+          "text": "Sus maridos morirán en batalla y ellas, desoladas, se sentarán en tierra llorando.",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         }
       ]
     },
@@ -338,7 +344,9 @@
         },
         {
           "number": 2,
-          "text": "Aquellos de quienes está escrito que escaparán a la destrucción de Jerusalén serán lavados y purificados de toda su inmundicia moral por medio de los horrores que pasarán y por el fuego. Constituirán el santo pueblo de Dios y la tierra les producirá la mayor abundancia y sus más ricos frutos."
+          "text": "Aquellos de quienes está escrito que escaparán a la destrucción de Jerusalén serán lavados y purificados de toda su inmundicia moral por medio de los horrores que pasarán y por el fuego. Constituirán el santo pueblo de Dios y la tierra les producirá la mayor abundancia y sus más ricos frutos.",
+          "verseDisplay": "2-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -596,7 +604,9 @@
         },
         {
           "number": 15,
-          "text": "Para cuando este niño sea destetado y pueda distinguir entre el bien y el mal, los dos reyes a quienes tanto temes —los reyes de Israel y Siria— habrán muerto."
+          "text": "Para cuando este niño sea destetado y pueda distinguir entre el bien y el mal, los dos reyes a quienes tanto temes —los reyes de Israel y Siria— habrán muerto.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -616,7 +626,9 @@
         },
         {
           "number": 21,
-          "text": "Cuando finalmente dejen de saquear, toda la nación será sólo un pastizal. Y afortunado será el granjero a quien al menos le quede una vaca y dos ovejas. Pero los abundantes pastos producirán mucha leche y todos los que queden se alimentarán de leche cuajada y miel silvestre."
+          "text": "Cuando finalmente dejen de saquear, toda la nación será sólo un pastizal. Y afortunado será el granjero a quien al menos le quede una vaca y dos ovejas. Pero los abundantes pastos producirán mucha leche y todos los que queden se alimentarán de leche cuajada y miel silvestre.",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -661,11 +673,15 @@
         },
         {
           "number": 7,
-          "text": "yo abrumaré a mi pueblo con la impetuosa corriente del Éufrates; el rey de Asiria con todos sus poderosos ejércitos se abalanzará contra ellos. ¡Esta inundación llenará todos sus canales y barrerá toda la tierra de Judá, oh Emanuel, llenándola de cabo a cabo»."
+          "text": "yo abrumaré a mi pueblo con la impetuosa corriente del Éufrates; el rey de Asiria con todos sus poderosos ejércitos se abalanzará contra ellos. ¡Esta inundación llenará todos sus canales y barrerá toda la tierra de Judá, oh Emanuel, llenándola de cabo a cabo».",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
           "text": "Por mucho que hagan Siria e Israel, enemigos nuestros, no triunfarán; serán despedazados. Escúchenme ustedes, todos nuestros enemigos: Alístense para hacernos la guerra, y perecerán. ¡Sí, perecerán! Reúnan sus consejos de guerra, desarrollen su estrategia, preparen planes de ataque contra nosotros, ¡y perezcan! porque Dios está con nosotros.",
+          "verseDisplay": "9-10",
+          "endNumber": 10,
           "headings": [
             "Hay que temer a Dios"
           ]
@@ -684,7 +700,9 @@
         },
         {
           "number": 14,
-          "text": "Él será su seguridad. Pero Israel y Judá han rechazado su protección y por tanto tropezaron contra la Roca de su salvación y yacen aplastados por ella. ¡La presencia de Dios entre ellos los ha puesto en peligro!"
+          "text": "Él será su seguridad. Pero Israel y Judá han rechazado su protección y por tanto tropezaron contra la Roca de su salvación y yacen aplastados por ella. ¡La presencia de Dios entre ellos los ha puesto en peligro!",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -752,11 +770,15 @@
         },
         {
           "number": 8,
-          "text": "El Señor ha hablado contra el jactancioso Israel que dice que si bien nuestra tierra yace ahora en ruinas, la reconstruiremos mejor que antes. ¡Han talado los sicómoros, pero los repondremos con cedros!, dicen."
+          "text": "El Señor ha hablado contra el jactancioso Israel que dice que si bien nuestra tierra yace ahora en ruinas, la reconstruiremos mejor que antes. ¡Han talado los sicómoros, pero los repondremos con cedros!, dicen.",
+          "verseDisplay": "8-10",
+          "endNumber": 10
         },
         {
           "number": 11,
-          "text": "La respuesta del Señor a su jactancia es traer a sus enemigos contra él: los sirios al este y los filisteos al oeste. Con sus fauces devorarán a Israel y aun así la ira del Señor contra ustedes no estará satisfecha; todavía tiene cerrado el puño para aplastarlos."
+          "text": "La respuesta del Señor a su jactancia es traer a sus enemigos contra él: los sirios al este y los filisteos al oeste. Con sus fauces devorarán a Israel y aun así la ira del Señor contra ustedes no estará satisfecha; todavía tiene cerrado el puño para aplastarlos.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -764,7 +786,9 @@
         },
         {
           "number": 14,
-          "text": "Por lo tanto el Señor , en un solo día, destruirá a los jefes de Israel y a los profetas mentirosos."
+          "text": "Por lo tanto el Señor , en un solo día, destruirá a los jefes de Israel y a los profetas mentirosos.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -780,7 +804,9 @@
         },
         {
           "number": 19,
-          "text": "La tierra está ensombrecida por las nubes negras provocadas por tal incendio, por la ira del Señor Todopoderoso. Pasto de las llamas es el pueblo. Cada cual lucha contra su hermano para robarle el alimento, pero nunca tendrá suficiente. ¡Finalmente, llegarán hasta comerse a sus propios hijos!"
+          "text": "La tierra está ensombrecida por las nubes negras provocadas por tal incendio, por la ira del Señor Todopoderoso. Pasto de las llamas es el pueblo. Cada cual lucha contra su hermano para robarle el alimento, pero nunca tendrá suficiente. ¡Finalmente, llegarán hasta comerse a sus propios hijos!",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         },
         {
           "number": 21,
@@ -812,7 +838,9 @@
         },
         {
           "number": 5,
-          "text": "Asiria es el látigo de mi ira, su fuerza militar es el arma que empleo contra esta nación impía, sentenciada y condenada. Ella los esclavizará, los saqueará y pisoteará como tierra bajo sus pies."
+          "text": "Asiria es el látigo de mi ira, su fuerza militar es el arma que empleo contra esta nación impía, sentenciada y condenada. Ella los esclavizará, los saqueará y pisoteará como tierra bajo sus pies.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -903,7 +931,9 @@
         },
         {
           "number": 28,
-          "text": "¡Miren! ¡Ya vienen los poderosos ejércitos de Asiria! Ya están en Ayat, ahora llegan a Migrón, ya acumulan parte de sus tropas en Micmás y franquean el paso, van a pasar la noche en Gueba. El miedo se apodera de Ramá: todo el pueblo de Guibeá, la ciudad de Saúl, huye para salvarse."
+          "text": "¡Miren! ¡Ya vienen los poderosos ejércitos de Asiria! Ya están en Ayat, ahora llegan a Migrón, ya acumulan parte de sus tropas en Micmás y franquean el paso, van a pasar la noche en Gueba. El miedo se apodera de Ramá: todo el pueblo de Guibeá, la ciudad de Saúl, huye para salvarse.",
+          "verseDisplay": "28-29",
+          "endNumber": 29
         },
         {
           "number": 30,
@@ -1315,7 +1345,9 @@
         },
         {
           "number": 4,
-          "text": "Dejen que nuestros desterrados moren entre ustedes, ocúltenlos de nuestros enemigos. Dios los recompensará por su bondad para con nosotros. Si dejan que los fugitivos de Moab se establezcan entre ustedes, una vez pasado el terror, Dios establecerá el trono de David para siempre, y en ese trono pondrá a un rey justo e íntegro."
+          "text": "Dejen que nuestros desterrados moren entre ustedes, ocúltenlos de nuestros enemigos. Dios los recompensará por su bondad para con nosotros. Si dejan que los fugitivos de Moab se establezcan entre ustedes, una vez pasado el terror, Dios establecerá el trono de David para siempre, y en ese trono pondrá a un rey justo e íntegro.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -1347,7 +1379,9 @@
         },
         {
           "number": 13,
-          "text": "Todo esto respecto a Moab ha sido dicho antes, pero ahora el Señor dice que dentro de tres años, sin falta, la gloria de Moab terminará y que pocos de entre su pueblo quedarán vivos."
+          "text": "Todo esto respecto a Moab ha sido dicho antes, pero ahora el Señor dice que dentro de tres años, sin falta, la gloria de Moab terminará y que pocos de entre su pueblo quedarán vivos.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         }
       ]
     },
@@ -1571,7 +1605,9 @@
         },
         {
           "number": 5,
-          "text": "¡Y qué turbación la de los filisteos que confiaban en el «poder de Etiopía», y en su «glorioso aliado» Egipto! Y dirán: «Si esto le ocurre a Egipto, ¿qué será de nosotros?»."
+          "text": "¡Y qué turbación la de los filisteos que confiaban en el «poder de Etiopía», y en su «glorioso aliado» Egipto! Y dirán: «Si esto le ocurre a Egipto, ¿qué será de nosotros?».",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         }
       ]
     },
@@ -1600,11 +1636,15 @@
         },
         {
           "number": 6,
-          "text": "Mientras tanto en mi visión el Señor me había dicho: Coloca un vigía sobre la muralla de la ciudad para que grite lo que vea: Cuando vea pares de jinetes cabalgando en burros y camellos, dile: «¡Ya está!»."
+          "text": "Mientras tanto en mi visión el Señor me había dicho: Coloca un vigía sobre la muralla de la ciudad para que grite lo que vea: Cuando vea pares de jinetes cabalgando en burros y camellos, dile: «¡Ya está!».",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
-          "text": "Coloqué, pues, al vigía sobre la muralla y al fin él gritó: ― Señor , día y noche he estado aquí en mi puesto; ahora por fin, ¡mire! ¡Allá vienen jinetes apareados! Entonces oí una voz que clamaba: ―¡Cayó, cayó Babilonia, y todos los ídolos de Babilonia yacen despedazados por tierra!"
+          "text": "Coloqué, pues, al vigía sobre la muralla y al fin él gritó: ― Señor , día y noche he estado aquí en mi puesto; ahora por fin, ¡mire! ¡Allá vienen jinetes apareados! Entonces oí una voz que clamaba: ―¡Cayó, cayó Babilonia, y todos los ídolos de Babilonia yacen despedazados por tierra!",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -1671,7 +1711,9 @@
         },
         {
           "number": 6,
-          "text": "Elamitas son los arqueros, sirios conducen los carros, los hombres de Quir sostienen los escudos. Estos enemigos llenan los más hermosos valles de Jerusalén y se apiñan contra sus puertas."
+          "text": "Elamitas son los arqueros, sirios conducen los carros, los hombres de Quir sostienen los escudos. Estos enemigos llenan los más hermosos valles de Jerusalén y se apiñan contra sus puertas.",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -1679,7 +1721,9 @@
         },
         {
           "number": 9,
-          "text": "Inspeccionan los muros de Jerusalén para ver qué hay que reparar. Ven las casas y tiran algunas para conseguir piedras para reparar los muros. En el interior de la ciudad construyen un depósito de reserva con agua del estanque de abajo. Pero de nada valdrán sus presurosos planes pues no han pedido la ayuda de Dios, el cual hizo que les sobreviniera este desastre. Fue él quien lo planeó desde hace mucho."
+          "text": "Inspeccionan los muros de Jerusalén para ver qué hay que reparar. Ven las casas y tiran algunas para conseguir piedras para reparar los muros. En el interior de la ciudad construyen un depósito de reserva con agua del estanque de abajo. Pero de nada valdrán sus presurosos planes pues no han pedido la ayuda de Dios, el cual hizo que les sobreviniera este desastre. Fue él quien lo planeó desde hace mucho.",
+          "verseDisplay": "9-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -1695,7 +1739,9 @@
         },
         {
           "number": 15,
-          "text": "Además, el mismo Señor Dios Todopoderoso me ha dicho esto: Ve y dile a Sebna, el administrador del palacio: «¿Quién te imaginas que eres, tú que edificas para ti este hermoso sepulcro en la roca?"
+          "text": "Además, el mismo Señor Dios Todopoderoso me ha dicho esto: Ve y dile a Sebna, el administrador del palacio: «¿Quién te imaginas que eres, tú que edificas para ti este hermoso sepulcro en la roca?",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -1723,7 +1769,9 @@
         },
         {
           "number": 23,
-          "text": "Lo convertiré en fuerte y firme percha que sostenga a mi pueblo. Sobre él echarán carga. Él llevará con toda honra su nombre»."
+          "text": "Lo convertiré en fuerte y firme percha que sostenga a mi pueblo. Sobre él echarán carga. Él llevará con toda honra su nombre».",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -1740,7 +1788,9 @@
         },
         {
           "number": 2,
-          "text": "Sólo el silencio de muerte reina por todas partes. Hay silencio en donde antes existía su agitado puerto, cuando estaba lleno de naves de Sidón que traían mercancías del otro lado del océano, desde Egipto y de las orillas del Nilo. Tú eras el emporio del mundo."
+          "text": "Sólo el silencio de muerte reina por todas partes. Hay silencio en donde antes existía su agitado puerto, cuando estaba lleno de naves de Sidón que traían mercancías del otro lado del océano, desde Egipto y de las orillas del Nilo. Tú eras el emporio del mundo.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -1788,7 +1838,9 @@
         },
         {
           "number": 15,
-          "text": "Setenta años yacerá Tiro en el olvido. Luego en los días de otro rey, la ciudad resucitará. Entonará dulces cantos como la ramera que después de largo tiempo ausente de sus amantes, vuelve a recorrer las calles en su busca y ellos la recuerdan."
+          "text": "Setenta años yacerá Tiro en el olvido. Luego en los días de otro rey, la ciudad resucitará. Entonará dulces cantos como la ramera que después de largo tiempo ausente de sus amantes, vuelve a recorrer las calles en su busca y ellos la recuerdan.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -1817,7 +1869,9 @@
         },
         {
           "number": 4,
-          "text": "La tierra sufre por los pecados de su pueblo. La tierra languidece, los cultivos se marchitan, los cielos niegan la lluvia. El país está corrompido por el crimen; el pueblo ha torcido las leyes de Dios y ha quebrantado sus mandamientos eternos."
+          "text": "La tierra sufre por los pecados de su pueblo. La tierra languidece, los cultivos se marchitan, los cielos niegan la lluvia. El país está corrompido por el crimen; el pueblo ha torcido las leyes de Dios y ha quebrantado sus mandamientos eternos.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -1857,7 +1911,9 @@
         },
         {
           "number": 15,
-          "text": "y los del oriente les responderán con alabanzas. Escúchenlos cantarle al Señor desde los puntos más alejados de la tierra, cantando la gloria del Justo. Pero yo tengo el corazón abrumado de dolor, porque aún prevalecen por todas partes la maldad y la traición."
+          "text": "y los del oriente les responderán con alabanzas. Escúchenlos cantarle al Señor desde los puntos más alejados de la tierra, cantando la gloria del Justo. Pero yo tengo el corazón abrumado de dolor, porque aún prevalecen por todas partes la maldad y la traición.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -2048,7 +2104,9 @@
         },
         {
           "number": 4,
-          "text": "Mi ira contra Israel ya terminó. Si hallo que la acosan zarzas y espinas, las quemaré, a menos que estos enemigos tuyos se rindan y supliquen mi paz y mi protección."
+          "text": "Mi ira contra Israel ya terminó. Si hallo que la acosan zarzas y espinas, las quemaré, a menos que estos enemigos tuyos se rindan y supliquen mi paz y mi protección.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -2056,7 +2114,9 @@
         },
         {
           "number": 7,
-          "text": "¿Ha castigado Dios a Israel tanto como a los enemigos de este? No, pues ha devastado a sus enemigos en tanto que a Israel lo ha castigado sólo levemente, exiliándolo a tierras lejanas como arrastrado por tormenta del oriente."
+          "text": "¿Ha castigado Dios a Israel tanto como a los enemigos de este? No, pues ha devastado a sus enemigos en tanto que a Israel lo ha castigado sólo levemente, exiliándolo a tierras lejanas como arrastrado por tormenta del oriente.",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -2173,7 +2233,9 @@
         },
         {
           "number": 23,
-          "text": "Escúchenme, escuchen mi súplica: ¿Siembra continuamente el labrador sin cosechar jamás? ¿Abre el surco eternamente sin sembrar nunca?"
+          "text": "Escúchenme, escuchen mi súplica: ¿Siembra continuamente el labrador sin cosechar jamás? ¿Abre el surco eternamente sin sembrar nunca?",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -2339,7 +2401,9 @@
         },
         {
           "number": 10,
-          "text": "A mis profetas les dicen: «¡A callar! ¡Basta de mensajes suyos!». O dicen: «No nos digan la verdad, dígannos algo agradable, dígannos mentiras alegres. Olvídense ya de esas cosas tristes que anuncian, ya hemos oído más que suficiente de su Santo de Israel»."
+          "text": "A mis profetas les dicen: «¡A callar! ¡Basta de mensajes suyos!». O dicen: «No nos digan la verdad, dígannos algo agradable, dígannos mentiras alegres. Olvídense ya de esas cosas tristes que anuncian, ya hemos oído más que suficiente de su Santo de Israel».",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -2448,7 +2512,9 @@
         },
         {
           "number": 4,
-          "text": "Pero el Señor me ha dicho esto: Cuando un león, aunque sea cachorro, mata una oveja, no se cuida de los gritos y ruidos del pastor, devora sin detenerse. De igual manera vendrá el Señor y combatirá sobre el monte Sion. ¡No habrá quien lo amedrente! El Señor Todopoderoso se cernirá sobre Jerusalén como ave que revolotea en torno a su nido. Descenderá a la ciudad y la librará."
+          "text": "Pero el Señor me ha dicho esto: Cuando un león, aunque sea cachorro, mata una oveja, no se cuida de los gritos y ruidos del pastor, devora sin detenerse. De igual manera vendrá el Señor y combatirá sobre el monte Sion. ¡No habrá quien lo amedrente! El Señor Todopoderoso se cernirá sobre Jerusalén como ave que revolotea en torno a su nido. Descenderá a la ciudad y la librará.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -2808,7 +2874,9 @@
         },
         {
           "number": 8,
-          "text": "»Mi señor, el rey de Asiria, quiere hacer contigo una pequeña apuesta: ¿A que en tu ejército no te quedan dos mil hombres? Si te quedan, él te dará dos mil caballos para que ellos los monten. Con tan insignificante ejército, ¿cómo crees poder enfrentarte siquiera al más pequeño escuadrón de mi señor? Porque de Egipto no obtendrás socorro."
+          "text": "»Mi señor, el rey de Asiria, quiere hacer contigo una pequeña apuesta: ¿A que en tu ejército no te quedan dos mil hombres? Si te quedan, él te dará dos mil caballos para que ellos los monten. Con tan insignificante ejército, ¿cómo crees poder enfrentarte siquiera al más pequeño escuadrón de mi señor? Porque de Egipto no obtendrás socorro.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -2897,7 +2965,9 @@
         },
         {
           "number": 8,
-          "text": "Entonces el enviado asirio partió de Jerusalén y fue a consultar con su rey, el cual había dejado Laquis y estaba poniéndole sitio a Libná. En esto el rey asirio recibió noticias de que Tiracá, príncipe heredero de Etiopía, venía contra él desde el sur. Al oírlo, volvió a enviar mensajeros a Ezequías a Jerusalén con este mensaje:"
+          "text": "Entonces el enviado asirio partió de Jerusalén y fue a consultar con su rey, el cual había dejado Laquis y estaba poniéndole sitio a Libná. En esto el rey asirio recibió noticias de que Tiracá, príncipe heredero de Etiopía, venía contra él desde el sur. Al oírlo, volvió a enviar mensajeros a Ezequías a Jerusalén con este mensaje:",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -2928,7 +2998,9 @@
         },
         {
           "number": 16,
-          "text": "«¡Oh Señor Todopoderoso, Dios de Israel, entronizado por encima de los querubines, sólo tú eres Dios de todos los reinos de la tierra! Tú solo hiciste el cielo y la tierra. Escucha mi súplica, mírame orar. Mira esta carta del rey Senaquerib, pues él se ha burlado del Dios viviente."
+          "text": "«¡Oh Señor Todopoderoso, Dios de Israel, entronizado por encima de los querubines, sólo tú eres Dios de todos los reinos de la tierra! Tú solo hiciste el cielo y la tierra. Escucha mi súplica, mírame orar. Mira esta carta del rey Senaquerib, pues él se ha burlado del Dios viviente.",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         },
         {
           "number": 18,
@@ -4115,7 +4187,9 @@
         },
         {
           "number": 8,
-          "text": "El Señor dice: En momento oportuno llegó tu petición. Te libraré de perjuicio prematuro, y te daré a Israel como prenda y señal, como prueba de que restableceré la tierra de Israel y la volveré a dar a su propio pueblo. Por medio de ti llamo a los cautivos de las tinieblas: «¡Salgan! ¡Salgan! ¡Yo les doy libertad!». Ellos serán ovejas mías que pastarán en verdes prados y en hermosas colinas."
+          "text": "El Señor dice: En momento oportuno llegó tu petición. Te libraré de perjuicio prematuro, y te daré a Israel como prenda y señal, como prueba de que restableceré la tierra de Israel y la volveré a dar a su propio pueblo. Por medio de ti llamo a los cautivos de las tinieblas: «¡Salgan! ¡Salgan! ¡Yo les doy libertad!». Ellos serán ovejas mías que pastarán en verdes prados y en hermosas colinas.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -4396,7 +4470,9 @@
         },
         {
           "number": 14,
-          "text": "Pero al verlo, muchos se asombrarán. Sí, las naciones lejanas y sus gobernantes quedarán estupefactos y mudos ante su presencia. Porque verán y entenderán lo que jamás se les había dicho. Verán a mi siervo tan desfigurado que sería difícil tomarlo por ser humano."
+          "text": "Pero al verlo, muchos se asombrarán. Sí, las naciones lejanas y sus gobernantes quedarán estupefactos y mudos ante su presencia. Porque verán y entenderán lo que jamás se les había dicho. Verán a mi siervo tan desfigurado que sería difícil tomarlo por ser humano.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         }
       ]
     },
@@ -4445,7 +4521,9 @@
         },
         {
           "number": 11,
-          "text": "Y después de tanto sufrimiento comprenderá por qué fue necesaria su obediencia y su intercesión. Porque fue mediante su sufrimiento y por haber llevado sobre sí el pecado de muchos que mi siervo hará que ellos sean declarados inocentes y aceptados por Dios. Por lo tanto, yo le daré como premio toda la honra y todo poder."
+          "text": "Y después de tanto sufrimiento comprenderá por qué fue necesaria su obediencia y su intercesión. Porque fue mediante su sufrimiento y por haber llevado sobre sí el pecado de muchos que mi siervo hará que ellos sean declarados inocentes y aceptados por Dios. Por lo tanto, yo le daré como premio toda la honra y todo poder.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         }
       ]
     },
@@ -5297,7 +5375,9 @@
         },
         {
           "number": 21,
-          "text": "En aquellos días, cuando un hombre edifique una casa, podrá vivir tranquilo en ella, no será destruida por ejércitos invasores como en el pasado. Mi pueblo plantará viñas y comerá de su fruto, sus enemigos no las confiscarán. Porque mi pueblo vivirá tanto como los árboles y disfrutará por mucho tiempo de lo obtenido con su afanoso esfuerzo."
+          "text": "En aquellos días, cuando un hombre edifique una casa, podrá vivir tranquilo en ella, no será destruida por ejércitos invasores como en el pasado. Mi pueblo plantará viñas y comerá de su fruto, sus enemigos no las confiscarán. Porque mi pueblo vivirá tanto como los árboles y disfrutará por mucho tiempo de lo obtenido con su afanoso esfuerzo.",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -5342,7 +5422,9 @@
         },
         {
           "number": 7,
-          "text": "¿Quién vio jamás algo tan extraño? Pues en un solo día, súbitamente nacerá una nación, Israel, aun antes que se produzcan los dolores del parto. En un momento, apenas comience la angustia de Israel, nace el niño, comienza la nación."
+          "text": "¿Quién vio jamás algo tan extraño? Pues en un solo día, súbitamente nacerá una nación, Israel, aun antes que se produzcan los dolores del parto. En un momento, apenas comience la angustia de Israel, nace el niño, comienza la nación.",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,

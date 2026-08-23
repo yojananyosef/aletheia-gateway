@@ -105,7 +105,9 @@
         },
         {
           "number": 4,
-          "text": "Oh habitantes de Israel, dice el Señor , aclárenme lo siguiente: ¿Por qué me abandonaron sus padres? ¿Qué hallaron torcido en mí que los apartó de la forma de vida que les mostré y los convirtió en necios adoradores de ídolos?"
+          "text": "Oh habitantes de Israel, dice el Señor , aclárenme lo siguiente: ¿Por qué me abandonaron sus padres? ¿Qué hallaron torcido en mí que los apartó de la forma de vida que les mostré y los convirtió en necios adoradores de ídolos?",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -125,7 +127,9 @@
         },
         {
           "number": 10,
-          "text": "Miren en torno y vean si pueden encontrar otra nación en cualquier parte del mundo que haya cambiado sus antiguos dioses por otros nuevos, aunque sus dioses nada sean. Envíen a occidente, a la isla de Chipre; envíen al oriente, a los desiertos de Cedar; vean si hay allí alguien que jamás haya oído algo tan extraño. ¡Sólo mi pueblo ha renunciado a su glorioso Dios a cambio de ídolos ridículos!"
+          "text": "Miren en torno y vean si pueden encontrar otra nación en cualquier parte del mundo que haya cambiado sus antiguos dioses por otros nuevos, aunque sus dioses nada sean. Envíen a occidente, a la isla de Chipre; envíen al oriente, a los desiertos de Cedar; vean si hay allí alguien que jamás haya oído algo tan extraño. ¡Sólo mi pueblo ha renunciado a su glorioso Dios a cambio de ídolos ridículos!",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -185,7 +189,9 @@
         },
         {
           "number": 26,
-          "text": "Como el ladrón, la única vergüenza que Israel conoce es que lo atrapen. Reyes, príncipes, sacerdotes y profetas, en esto son iguales. A un poste labrado lo llaman padre suyo, y tienen por madre un ídolo labrado en piedra. ¡Pero cuando le llegan los tiempos de angustia es a mí a quien recurren pidiendo salvación!"
+          "text": "Como el ladrón, la única vergüenza que Israel conoce es que lo atrapen. Reyes, príncipes, sacerdotes y profetas, en esto son iguales. A un poste labrado lo llaman padre suyo, y tienen por madre un ídolo labrado en piedra. ¡Pero cuando le llegan los tiempos de angustia es a mí a quien recurren pidiendo salvación!",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -247,6 +253,8 @@
         {
           "number": 4,
           "text": "Y sin embargo me dices: «¡Oh Padre, tú siempre has sido amigo mío, de seguro no estarás enojado por una pequeñez así, de seguro la olvidarás!». Eso dices y prosigues haciendo todo el mal que puedes. Se han acumulado sin fin los delitos que has cometido.",
+          "verseDisplay": "4-5",
+          "endNumber": 5,
           "headings": [
             "La infidelidad de Israel"
           ]
@@ -381,7 +389,9 @@
         },
         {
           "number": 11,
-          "text": "En aquel tiempo el Señor enviará sobre ellos un viento ardiente del desierto, no en pequeñas ráfagas sino en rugientes vendavales, no para limpiar los terrenos ni generar un clima agradable, sino que será el anuncio de la sentencia de destrucción de parte del Señor ."
+          "text": "En aquel tiempo el Señor enviará sobre ellos un viento ardiente del desierto, no en pequeñas ráfagas sino en rugientes vendavales, no para limpiar los terrenos ni generar un clima agradable, sino que será el anuncio de la sentencia de destrucción de parte del Señor .",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -554,7 +564,9 @@
         },
         {
           "number": 23,
-          "text": "Pero mi pueblo tiene una voluntad rebelde, se ha apartado de mí y se ha desviado a la idolatría. Aunque yo soy quien les da lluvia cada año en primavera y otoño y les envía el tiempo de las cosechas, no me tienen temor ni respeto."
+          "text": "Pero mi pueblo tiene una voluntad rebelde, se ha apartado de mí y se ha desviado a la idolatría. Aunque yo soy quien les da lluvia cada año en primavera y otoño y les envía el tiempo de las cosechas, no me tienen temor ni respeto.",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -659,7 +671,9 @@
         },
         {
           "number": 18,
-          "text": "Por lo tanto, este es el decreto contra mi pueblo. ¡Escúchenlo, pueblos que viven lejos, escúchalo, pueblo mío de Jerusalén, escúchelo la tierra entera! Traeré desgracia sobre este pueblo; será el fruto de su pecado, pues no quieren seguir mis instrucciones, rechazan mi ley."
+          "text": "Por lo tanto, este es el decreto contra mi pueblo. ¡Escúchenlo, pueblos que viven lejos, escúchalo, pueblo mío de Jerusalén, escúchelo la tierra entera! Traeré desgracia sobre este pueblo; será el fruto de su pecado, pues no quieren seguir mis instrucciones, rechazan mi ley.",
+          "verseDisplay": "18-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -760,7 +774,9 @@
         },
         {
           "number": 13,
-          "text": "Y ahora, dice el Señor , lo mismo haré aquí por todo este mal que ustedes han hecho. Una y otra vez les hablé de ello; con mucha insistencia les llamaba, pero no quisieron oír ni responder a mis advertencias. Por ello destruiré este templo como hice con Siló; este templo que lleva mi nombre, del que creen recibir garantía de seguridad, y este sitio que di a ustedes y a sus antepasados."
+          "text": "Y ahora, dice el Señor , lo mismo haré aquí por todo este mal que ustedes han hecho. Una y otra vez les hablé de ello; con mucha insistencia les llamaba, pero no quisieron oír ni responder a mis advertencias. Por ello destruiré este templo como hice con Siló; este templo que lleva mi nombre, del que creen recibir garantía de seguridad, y este sitio que di a ustedes y a sus antepasados.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -874,7 +890,9 @@
         },
         {
           "number": 4,
-          "text": "Y dales también este mensaje del Señor : Cuando alguien cae se levanta inmediatamente. Cuando va por senda equivocada y descubre su error, retrocede al punto donde se equivocó. Pero este pueblo sigue actuando equivocadamente, por más que yo lo prevenga. No quieren cambiar, aferrándose a su conducta idolátrica."
+          "text": "Y dales también este mensaje del Señor : Cuando alguien cae se levanta inmediatamente. Cuando va por senda equivocada y descubre su error, retrocede al punto donde se equivocó. Pero este pueblo sigue actuando equivocadamente, por más que yo lo prevenga. No quieren cambiar, aferrándose a su conducta idolátrica.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -1015,7 +1033,9 @@
         },
         {
           "number": 17,
-          "text": "El Señor de los ejércitos dice: ¡Envíen a llamar a las lloronas de oficio! ¡Pronto! ¡Comiencen a llorar! ¡Derramen lágrimas sin parar!"
+          "text": "El Señor de los ejércitos dice: ¡Envíen a llamar a las lloronas de oficio! ¡Pronto! ¡Comiencen a llorar! ¡Derramen lágrimas sin parar!",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -1043,7 +1063,9 @@
         },
         {
           "number": 25,
-          "text": "Dentro de algún tiempo, dice el Señor , castigaré a cuantos han realizado la circuncisión en su cuerpo pero no en su espíritu: egipcios, edomitas, amonitas, moabitas, árabes y también tú, pueblo de Judá. Porque todas esas naciones paganas también se circuncidan. Pero a menos que la circuncisión que realizan en su cuerpo se corresponda con su dedicación de toda su vida a mí, su circuncisión no pasa de ser un rito pagano como el de esas naciones."
+          "text": "Dentro de algún tiempo, dice el Señor , castigaré a cuantos han realizado la circuncisión en su cuerpo pero no en su espíritu: egipcios, edomitas, amonitas, moabitas, árabes y también tú, pueblo de Judá. Porque todas esas naciones paganas también se circuncidan. Pero a menos que la circuncisión que realizan en su cuerpo se corresponda con su dedicación de toda su vida a mí, su circuncisión no pasa de ser un rito pagano como el de esas naciones.",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         }
       ]
     },
@@ -1056,7 +1078,9 @@
         },
         {
           "number": 2,
-          "text": "No hagan como la gente que traza horóscopos y procura leer su destino y futuro en las estrellas. No los asusten predicciones como las de ellos, pues no son más que un cúmulo de mentiras. Necios y sin sentido son sus procedimientos. Derriban un árbol, un artesano labra un ídolo,"
+          "text": "No hagan como la gente que traza horóscopos y procura leer su destino y futuro en las estrellas. No los asusten predicciones como las de ellos, pues no son más que un cúmulo de mentiras. Necios y sin sentido son sus procedimientos. Derriban un árbol, un artesano labra un ídolo,",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -1163,7 +1187,9 @@
         },
         {
           "number": 2,
-          "text": "Recuérdales a los habitantes de Judá y a todo el pueblo de Jerusalén que yo firmé un contrato con sus antepasados, ¡y maldito sea quien no lo respete!"
+          "text": "Recuérdales a los habitantes de Judá y a todo el pueblo de Jerusalén que yo firmé un contrato con sus antepasados, ¡y maldito sea quien no lo respete!",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -1235,7 +1261,9 @@
         },
         {
           "number": 21,
-          "text": "Y el Señor respondió: Los hombres de la ciudad de Anatot serán castigados por planear tu muerte. Bajo amenaza de muerte te ordenarán que no profetices en el nombre de Dios. Por ello, sus muchachos morirán en batalla, sus niños y niñas morirán de hambre."
+          "text": "Y el Señor respondió: Los hombres de la ciudad de Anatot serán castigados por planear tu muerte. Bajo amenaza de muerte te ordenarán que no profetices en el nombre de Dios. Por ello, sus muchachos morirán en batalla, sus niños y niñas morirán de hambre.",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -1352,7 +1380,9 @@
         },
         {
           "number": 8,
-          "text": "Entonces el Señor dijo: Esto muestra la forma en que pudriré el orgullo de Judá y de Jerusalén."
+          "text": "Entonces el Señor dijo: Esto muestra la forma en que pudriré el orgullo de Judá y de Jerusalén.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -1418,7 +1448,9 @@
         },
         {
           "number": 24,
-          "text": "Por haberme sacado de sus pensamientos y por haber puesto su confianza en dioses falsos, yo los esparciré como si fueran paja arrebatada por uno de esos furiosos vientos que soplan en el desierto. Esto es pues lo que les toca, la suerte que les espera."
+          "text": "Por haberme sacado de sus pensamientos y por haber puesto su confianza en dioses falsos, yo los esparciré como si fueran paja arrebatada por uno de esos furiosos vientos que soplan en el desierto. Esto es pues lo que les toca, la suerte que les espera.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
@@ -1572,7 +1604,9 @@
         },
         {
           "number": 12,
-          "text": "¿Podrá alguien ser capaz de romper barras de hierro o de bronce del norte? ¡Claro que no! Así pues, por todas sus malas acciones en mi contra, entregaré a su enemigo como botín su riqueza y tesoros."
+          "text": "¿Podrá alguien ser capaz de romper barras de hierro o de bronce del norte? ¡Claro que no! Así pues, por todas sus malas acciones en mi contra, entregaré a su enemigo como botín su riqueza y tesoros.",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -1588,7 +1622,9 @@
         },
         {
           "number": 17,
-          "text": "No he participado de los alegres festines del pueblo, más bien me he apartado de ellos enojado por sus malas conductas, lleno de indignación. ¿No dejarán jamás de perseguirme? ¡Es que a veces siento que no hay remedio para mis males y en ocasiones te siento indiferente a mi dolor!»."
+          "text": "No he participado de los alegres festines del pueblo, más bien me he apartado de ellos enojado por sus malas conductas, lleno de indignación. ¿No dejarán jamás de perseguirme? ¡Es que a veces siento que no hay remedio para mis males y en ocasiones te siento indiferente a mi dolor!».",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -1661,7 +1697,9 @@
         },
         {
           "number": 14,
-          "text": "Pero vendrá un día maravilloso, dice el Señor , cuando el tema de toda conversación será que desde los países norteños a donde como castigo los había enviado como esclavos, los traeré de nuevo a su propio país. Ya no será su más importante recuerdo el de cuando liberé a sus antepasados de Egipto, sino que la liberación de su cautiverio del norte será el acontecimiento más celebrado. Aquel portentoso milagro casi no volverá a mencionarse. Sí, los traeré de regreso, dice el Señor , a esta misma tierra que di a sus antepasados."
+          "text": "Pero vendrá un día maravilloso, dice el Señor , cuando el tema de toda conversación será que desde los países norteños a donde como castigo los había enviado como esclavos, los traeré de nuevo a su propio país. Ya no será su más importante recuerdo el de cuando liberé a sus antepasados de Egipto, sino que la liberación de su cautiverio del norte será el acontecimiento más celebrado. Aquel portentoso milagro casi no volverá a mencionarse. Sí, los traeré de regreso, dice el Señor , a esta misma tierra que di a sus antepasados.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -1698,7 +1736,9 @@
         },
         {
           "number": 2,
-          "text": "Sus jóvenes son especialistas en cometer maldades, rinden homenaje a ídolos debajo de cada árbol, en lo alto de los montes o en las llanuras de abajo. Por eso entregaré yo todas sus propiedades valiosas a sus enemigos como precio que deben pagar por sus actos malvados."
+          "text": "Sus jóvenes son especialistas en cometer maldades, rinden homenaje a ídolos debajo de cada árbol, en lo alto de los montes o en las llanuras de abajo. Por eso entregaré yo todas sus propiedades valiosas a sus enemigos como precio que deben pagar por sus actos malvados.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -1773,7 +1813,9 @@
         },
         {
           "number": 21,
-          "text": "El Señor dice: Sigan la instrucción del Señor para que vivan; no hagan trabajo innecesario el sábado, sino respétenlo como día apartado. Este mandamiento di a sus antepasados,"
+          "text": "El Señor dice: Sigan la instrucción del Señor para que vivan; no hagan trabajo innecesario el sábado, sino respétenlo como día apartado. Este mandamiento di a sus antepasados,",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -2052,7 +2094,9 @@
         },
         {
           "number": 3,
-          "text": "Jeremías replicó: ―Vuelvan al rey Sedequías y díganle que el Señor Dios de Israel dice: Yo haré que sus armas sean inútiles contra el rey de Babilonia y los soldados caldeos que los asedian. En efecto, traeré a sus enemigos hasta el corazón mismo de esta ciudad,"
+          "text": "Jeremías replicó: ―Vuelvan al rey Sedequías y díganle que el Señor Dios de Israel dice: Yo haré que sus armas sean inútiles contra el rey de Babilonia y los soldados caldeos que los asedian. En efecto, traeré a sus enemigos hasta el corazón mismo de esta ciudad,",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -2193,7 +2237,9 @@
         },
         {
           "number": 24,
-          "text": "Y respecto a ti, Jeconías, hijo de Joacim rey de Judá, aunque tú fueras el anillo del sello en mi mano derecha, yo te sacaría y te entregaría en manos de quienes buscan tu muerte, de quienes tienes tanto miedo: Nabucodonosor rey de Babilonia y su poderoso ejército."
+          "text": "Y respecto a ti, Jeconías, hijo de Joacim rey de Judá, aunque tú fueras el anillo del sello en mi mano derecha, yo te sacaría y te entregaría en manos de quienes buscan tu muerte, de quienes tienes tanto miedo: Nabucodonosor rey de Babilonia y su poderoso ejército.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
@@ -2376,7 +2422,9 @@
         },
         {
           "number": 38,
-          "text": "Pero si le preguntan por «las tristes noticias de Dios» habiendo advertido yo contra tales burlas, entonces yo, el Señor Dios, me libraré de la carga que me son ustedes. Los arrojaré de mi presencia, junto con esta ciudad que di a ustedes y a sus antepasados,"
+          "text": "Pero si le preguntan por «las tristes noticias de Dios» habiendo advertido yo contra tales burlas, entonces yo, el Señor Dios, me libraré de la carga que me son ustedes. Los arrojaré de mi presencia, junto con esta ciudad que di a ustedes y a sus antepasados,",
+          "verseDisplay": "38-39",
+          "endNumber": 39
         },
         {
           "number": 40,
@@ -2401,7 +2449,9 @@
         },
         {
           "number": 4,
-          "text": "Entonces el Señor , el Dios de Israel, dijo: Los higos buenos representan a los que van como prisioneros a Babilonia. De ellos tendré mucho cuidado."
+          "text": "Entonces el Señor , el Dios de Israel, dijo: Los higos buenos representan a los que van como prisioneros a Babilonia. De ellos tendré mucho cuidado.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -2434,7 +2484,9 @@
         },
         {
           "number": 2,
-          "text": "Desde hace veintitrés años, dijo Jeremías, desde el año decimotercero del reinado de Josías, hijo de Amón, rey de Judá, hasta el presente, el Señor ha estado enviándoles sus mensajes. Fielmente se los he transmitido, pero ustedes no han querido escucharlos."
+          "text": "Desde hace veintitrés años, dijo Jeremías, desde el año decimotercero del reinado de Josías, hijo de Amón, rey de Judá, hasta el presente, el Señor ha estado enviándoles sus mensajes. Fielmente se los he transmitido, pero ustedes no han querido escucharlos.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -2454,7 +2506,9 @@
         },
         {
           "number": 8,
-          "text": "Y ahora el Señor de los ejércitos dice: Como no me han escuchado, reuniré todos los ejércitos del norte al mando de Nabucodonosor, rey de Babilonia, a quien he nombrado mi representante, y los traeré a todos contra este país y su pueblo y contra las demás naciones cercanas a ustedes. Los destruiré totalmente y los convertiré en refrán burlesco para siempre."
+          "text": "Y ahora el Señor de los ejércitos dice: Como no me han escuchado, reuniré todos los ejércitos del norte al mando de Nabucodonosor, rey de Babilonia, a quien he nombrado mi representante, y los traeré a todos contra este país y su pueblo y contra las demás naciones cercanas a ustedes. Los destruiré totalmente y los convertiré en refrán burlesco para siempre.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -2494,7 +2548,9 @@
         },
         {
           "number": 19,
-          "text": "Fui a Egipto, y el faraón y sus siervos, los príncipes y el pueblo, bebieron también de la terrible copa, junto con los extranjeros que habitaban su país. Igual hicieron los reyes de la tierra de Uz y los reyes de las ciudades filisteas Ascalón, Gaza, Ecrón y lo que de Asdod quedaba."
+          "text": "Fui a Egipto, y el faraón y sus siervos, los príncipes y el pueblo, bebieron también de la terrible copa, junto con los extranjeros que habitaban su país. Igual hicieron los reyes de la tierra de Uz y los reyes de las ciudades filisteas Ascalón, Gaza, Ecrón y lo que de Asdod quedaba.",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         },
         {
           "number": 21,
@@ -2599,7 +2655,9 @@
         },
         {
           "number": 7,
-          "text": "Cuando Jeremías terminó su mensaje, luego que dijo todo cuanto el Señor le había ordenado, los sacerdotes, los falsos profetas y todo el pueblo reunido en el templo se le echaron encima gritando: ―¡Muera! ¡Muera!"
+          "text": "Cuando Jeremías terminó su mensaje, luego que dijo todo cuanto el Señor le había ordenado, los sacerdotes, los falsos profetas y todo el pueblo reunido en el templo se le echaron encima gritando: ―¡Muera! ¡Muera!",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -2751,7 +2809,9 @@
         },
         {
           "number": 19,
-          "text": "Porque el Señor de los ejércitos dice: Las columnas de bronce que están en el frente del templo, y la gran fuente de bronce que está en el atrio del templo, y los soportes de metal y todos los demás objetos ceremoniales dejados aquí por Nabucodonosor, el rey de Babilonia, cuando desterró a todas las personas importantes de Judá y Jerusalén llevándolos a Babilonia, junto con Jeconías, hijo de Joacim, rey de Judá,"
+          "text": "Porque el Señor de los ejércitos dice: Las columnas de bronce que están en el frente del templo, y la gran fuente de bronce que está en el atrio del templo, y los soportes de metal y todos los demás objetos ceremoniales dejados aquí por Nabucodonosor, el rey de Babilonia, cuando desterró a todas las personas importantes de Judá y Jerusalén llevándolos a Babilonia, junto con Jeconías, hijo de Joacim, rey de Judá,",
+          "verseDisplay": "19-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -2897,7 +2957,9 @@
         },
         {
           "number": 16,
-          "text": "enviaré guerra, hambre y peste sobre el pueblo que ha quedado aquí en Jerusalén —sobre sus parientes que no fueron llevados prisioneros a Babilonia y sobre el rey que ahora ocupa el trono de David— y los haré como higos podridos, que no se pueden comer."
+          "text": "enviaré guerra, hambre y peste sobre el pueblo que ha quedado aquí en Jerusalén —sobre sus parientes que no fueron llevados prisioneros a Babilonia y sobre el rey que ahora ocupa el trono de David— y los haré como higos podridos, que no se pueden comer.",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         },
         {
           "number": 18,
@@ -3239,7 +3301,9 @@
         },
         {
           "number": 2,
-          "text": "cuando estaba Jeremías preso en el calabozo subterráneo del palacio, mientras el ejército de Babilonia sitiaba a Jerusalén. El rey Sedequías lo había puesto allí porque seguía profetizando que la ciudad sería conquistada por el rey de Babilonia,"
+          "text": "cuando estaba Jeremías preso en el calabozo subterráneo del palacio, mientras el ejército de Babilonia sitiaba a Jerusalén. El rey Sedequías lo había puesto allí porque seguía profetizando que la ciudad sería conquistada por el rey de Babilonia,",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -3251,7 +3315,9 @@
         },
         {
           "number": 6,
-          "text": "Luego vino a Jeremías este mensaje del Señor : Tu primo Janamel, hijo de Salún, llegará pronto a pedirte que le compres la finca que tiene en Anatot, pues por ley te corresponde la oportunidad de comprarla antes de ofrecérsela a cualquier otro."
+          "text": "Luego vino a Jeremías este mensaje del Señor : Tu primo Janamel, hijo de Salún, llegará pronto a pedirte que le compres la finca que tiene en Anatot, pues por ley te corresponde la oportunidad de comprarla antes de ofrecérsela a cualquier otro.",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -3444,7 +3510,9 @@
         },
         {
           "number": 10,
-          "text": "El Señor declara que las alegres voces de los novios y las desposadas, y los jubilosos cánticos de los que traen ofrendas de gratitud al Señor se escucharán otra vez en esta tierra sentenciada. El pueblo cantará: «¡Rindan homenaje al Señor ! ¡Porque es bueno y su capacidad de perdonar no tiene límites!». Y es que daré a esta tierra mayor felicidad y prosperidad de la que nunca tuvo."
+          "text": "El Señor declara que las alegres voces de los novios y las desposadas, y los jubilosos cánticos de los que traen ofrendas de gratitud al Señor se escucharán otra vez en esta tierra sentenciada. El pueblo cantará: «¡Rindan homenaje al Señor ! ¡Porque es bueno y su capacidad de perdonar no tiene límites!». Y es que daré a esta tierra mayor felicidad y prosperidad de la que nunca tuvo.",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -3480,7 +3548,9 @@
         },
         {
           "number": 20,
-          "text": "Cuando puedan quebrantar mi pacto con el día y la noche, de modo que el día no venga cuando le corresponda, sólo entonces será quebrantado mi convenio con mi siervo David, de modo que no haya hijo suyo que reine en su trono. Y mi convenio con los sacerdotes y levitas ministros míos, no se deroga."
+          "text": "Cuando puedan quebrantar mi pacto con el día y la noche, de modo que el día no venga cuando le corresponda, sólo entonces será quebrantado mi convenio con mi siervo David, de modo que no haya hijo suyo que reine en su trono. Y mi convenio con los sacerdotes y levitas ministros míos, no se deroga.",
+          "verseDisplay": "20-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -3496,7 +3566,9 @@
         },
         {
           "number": 25,
-          "text": "Pero esta es la respuesta del Señor : ¡Yo no rechazaría a mi pueblo así como no modificaría mis leyes del día y la noche, de la tierra y el cielo! ¡Jamás abandonaré a los israelitas, ni a mi servidor David; no modificaré el plan de que un descendiente suyo gobierne un día sobre estos descendientes de Abraham, Isaac y Jacob! Por el contrario, les restauraré su prosperidad y tendré piedad de ellos, voy a liberarlos del cautiverio y traerlos de regreso a su tierra."
+          "text": "Pero esta es la respuesta del Señor : ¡Yo no rechazaría a mi pueblo así como no modificaría mis leyes del día y la noche, de la tierra y el cielo! ¡Jamás abandonaré a los israelitas, ni a mi servidor David; no modificaré el plan de que un descendiente suyo gobierne un día sobre estos descendientes de Abraham, Isaac y Jacob! Por el contrario, les restauraré su prosperidad y tendré piedad de ellos, voy a liberarlos del cautiverio y traerlos de regreso a su tierra.",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         }
       ]
     },
@@ -3576,7 +3648,9 @@
         },
         {
           "number": 18,
-          "text": "Como han rechazado los términos de nuestro convenio, yo los descuartizaré como descuartizaron el becerro para pasar por en medio de las dos mitades como acto solemne para simbolizar sus votos. ¡Sí, los entregaré a la matanza, ya sean príncipes, dignatarios de la corte, sacerdotes o del común del pueblo, porque han quebrantado su juramento!"
+          "text": "Como han rechazado los términos de nuestro convenio, yo los descuartizaré como descuartizaron el becerro para pasar por en medio de las dos mitades como acto solemne para simbolizar sus votos. ¡Sí, los entregaré a la matanza, ya sean príncipes, dignatarios de la corte, sacerdotes o del común del pueblo, porque han quebrantado su juramento!",
+          "verseDisplay": "18-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -3665,7 +3739,9 @@
         },
         {
           "number": 18,
-          "text": "Entonces Jeremías se volvió a los recabitas y dijo: El Señor de los ejércitos, el Dios de Israel, dice que puesto que han obedecido a su padre en todos los sentidos, este tendrá siempre descendientes que le rindan homenaje."
+          "text": "Entonces Jeremías se volvió a los recabitas y dijo: El Señor de los ejércitos, el Dios de Israel, dice que puesto que han obedecido a su padre en todos los sentidos, este tendrá siempre descendientes que le rindan homenaje.",
+          "verseDisplay": "18-19",
+          "endNumber": 19
         }
       ]
     },
@@ -3726,7 +3802,9 @@
         },
         {
           "number": 14,
-          "text": "los dignatarios enviaron a Yehudi, hijo de Netanías, hijo de Selemías, hijo de Cusí, a pedirle a Baruc que viniera a leerles a ellos también los mensajes, y Baruc lo hizo."
+          "text": "los dignatarios enviaron a Yehudi, hijo de Netanías, hijo de Selemías, hijo de Cusí, a pedirle a Baruc que viniera a leerles a ellos también los mensajes, y Baruc lo hizo.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -3762,7 +3840,9 @@
         },
         {
           "number": 24,
-          "text": "Y nadie protestó, sino Elnatán, Delaías y Guemarías. Suplicaron al rey que no quemara el rollo, pero no les hizo caso. Ninguno de los otros dignatarios del rey dio señales de temor o ira por lo que había hecho."
+          "text": "Y nadie protestó, sino Elnatán, Delaías y Guemarías. Suplicaron al rey que no quemara el rollo, pero no les hizo caso. Ninguno de los otros dignatarios del rey dio señales de temor o ira por lo que había hecho.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
@@ -3855,7 +3935,9 @@
         },
         {
           "number": 15,
-          "text": "Estos, enfurecidos contra Jeremías, lo hicieron azotar y echar en un calabozo subterráneo de la casa del escriba Jonatán, la cual había sido convertida en prisión. Allí tuvieron varios días a Jeremías,"
+          "text": "Estos, enfurecidos contra Jeremías, lo hicieron azotar y echar en un calabozo subterráneo de la casa del escriba Jonatán, la cual había sido convertida en prisión. Allí tuvieron varios días a Jeremías,",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -3967,7 +4049,9 @@
         },
         {
           "number": 21,
-          "text": "Pero si rehúsas rendirte, el Señor ha dicho que todas las mujeres que queden en tu palacio serán sacadas y entregadas a los oficiales del ejército babilónico; y estas mujeres se burlarán de ti amargamente. “¡Qué amigos tienes!” dirán, “¡qué egipcios esos! ¡Te traicionaron y te entregaron a tu destino!”."
+          "text": "Pero si rehúsas rendirte, el Señor ha dicho que todas las mujeres que queden en tu palacio serán sacadas y entregadas a los oficiales del ejército babilónico; y estas mujeres se burlarán de ti amargamente. “¡Qué amigos tienes!” dirán, “¡qué egipcios esos! ¡Te traicionaron y te entregaron a tu destino!”.",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -4040,7 +4124,9 @@
         },
         {
           "number": 11,
-          "text": "Mientras tanto el rey Nabucodonosor le había ordenado a Nabuzaradán que buscara a Jeremías. ―Encárgate de que no sufra ningún daño, le dijo. Cuídalo bien y dale cuanto quiera."
+          "text": "Mientras tanto el rey Nabucodonosor le había ordenado a Nabuzaradán que buscara a Jeremías. ―Encárgate de que no sufra ningún daño, le dijo. Cuídalo bien y dale cuanto quiera.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -4077,7 +4163,9 @@
         },
         {
           "number": 2,
-          "text": "El capitán llamó aparte a Jeremías y le dijo: ―El Señor tu Dios ha traído este desastre sobre esta tierra tal como dijo que lo haría, porque este pueblo ha ofendido mucho al Señor cometiendo tantas maldades, por eso ocurrió todo este mal."
+          "text": "El capitán llamó aparte a Jeremías y le dijo: ―El Señor tu Dios ha traído este desastre sobre esta tierra tal como dijo que lo haría, porque este pueblo ha ofendido mucho al Señor cometiendo tantas maldades, por eso ocurrió todo este mal.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -4120,7 +4208,9 @@
         },
         {
           "number": 13,
-          "text": "Pero poco después Johanán, hijo de Carea, y los demás jefes guerrilleros fueron a Mizpa para advertirle a Guedalías que Balís, el rey de los amonitas, había enviado a Ismael, hijo de Netanías, para asesinarlo. Pero Guedalías no quiso creerles."
+          "text": "Pero poco después Johanán, hijo de Carea, y los demás jefes guerrilleros fueron a Mizpa para advertirle a Guedalías que Balís, el rey de los amonitas, había enviado a Ismael, hijo de Netanías, para asesinarlo. Pero Guedalías no quiso creerles.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -4185,7 +4275,9 @@
         },
         {
           "number": 13,
-          "text": "El pueblo que acompañaba a Ismael gritó de alegría al ver a Johanán y sus hombres, y corrieron a su encuentro."
+          "text": "El pueblo que acompañaba a Ismael gritó de alegría al ver a Johanán y sus hombres, y corrieron a su encuentro.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -4196,7 +4288,9 @@
         },
         {
           "number": 16,
-          "text": "Entonces Johanán y sus hombres fueron al pueblo de Guerut Quimán, cerca de Belén, llevando consigo a los que habían rescatado: soldados, mujeres, niños y eunucos, para prepararse para salir huyendo a Egipto,"
+          "text": "Entonces Johanán y sus hombres fueron al pueblo de Guerut Quimán, cerca de Belén, llevando consigo a los que habían rescatado: soldados, mujeres, niños y eunucos, para prepararse para salir huyendo a Egipto,",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         },
         {
           "number": 18,
@@ -4257,7 +4351,9 @@
         },
         {
           "number": 13,
-          "text": "»Pero si rehúsan obedecer al Señor y dicen: “Aquí no nos quedaremos”, e insisten en ir a Egipto en donde piensan estar libres de la guerra, el hambre y las alarmas,"
+          "text": "»Pero si rehúsan obedecer al Señor y dicen: “Aquí no nos quedaremos”, e insisten en ir a Egipto en donde piensan estar libres de la guerra, el hambre y las alarmas,",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -4302,7 +4398,9 @@
         },
         {
           "number": 2,
-          "text": "Azarías, hijo de Osaías, y Johanán, hijo de Carea, y todos los otros hombres orgullosos le dijeron a Jeremías: ―¡Mientes! ¡El Señor nuestro Dios no te ha mandado que nos digas que no vayamos a Egipto! Baruc, hijo de Nerías, te ha puesto contra nosotros y te ha dicho que nos digas esto para que nos quedemos acá y seamos muertos por los babilonios o llevados cautivos a Babilonia."
+          "text": "Azarías, hijo de Osaías, y Johanán, hijo de Carea, y todos los otros hombres orgullosos le dijeron a Jeremías: ―¡Mientes! ¡El Señor nuestro Dios no te ha mandado que nos digas que no vayamos a Egipto! Baruc, hijo de Nerías, te ha puesto contra nosotros y te ha dicho que nos digas esto para que nos quedemos acá y seamos muertos por los babilonios o llevados cautivos a Babilonia.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -4355,7 +4453,9 @@
         },
         {
           "number": 2,
-          "text": "El Señor de los ejércitos, el Dios de Israel, dice: Ustedes vieron lo que les hice a Jerusalén y a todas las ciudades de Judá. Como consecuencia de sus actos de maldad yacen ahora en ruinas y cenizas, sin persona viva. Pues mi cólera se descargó contra ellas porque adoraron a otros dioses, «dioses» que ni ellos ni ustedes ni ninguno de sus antepasados conoció jamás."
+          "text": "El Señor de los ejércitos, el Dios de Israel, dice: Ustedes vieron lo que les hice a Jerusalén y a todas las ciudades de Judá. Como consecuencia de sus actos de maldad yacen ahora en ruinas y cenizas, sin persona viva. Pues mi cólera se descargó contra ellas porque adoraron a otros dioses, «dioses» que ni ellos ni ustedes ni ninguno de sus antepasados conoció jamás.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -4573,11 +4673,15 @@
         },
         {
           "number": 20,
-          "text": "Egipto es hermoso como becerra pero un tábano la hace correr, ¡un tábano que viene del norte! Hasta sus famosos mercenarios se han vuelto como asustados terneros. Corren y corren porque es día de gran calamidad para Egipto, es un tiempo de tremendo castigo."
+          "text": "Egipto es hermoso como becerra pero un tábano la hace correr, ¡un tábano que viene del norte! Hasta sus famosos mercenarios se han vuelto como asustados terneros. Corren y corren porque es día de gran calamidad para Egipto, es un tiempo de tremendo castigo.",
+          "verseDisplay": "20-21",
+          "endNumber": 21
         },
         {
           "number": 22,
-          "text": "Silencioso como serpiente que se desliza, huye Egipto. Entra el ejército invasor. Los innumerables soldados tronchan a su pueblo como si fueran leñadores que abren un claro en el bosque."
+          "text": "Silencioso como serpiente que se desliza, huye Egipto. Entra el ejército invasor. Los innumerables soldados tronchan a su pueblo como si fueran leñadores que abren un claro en el bosque.",
+          "verseDisplay": "22-23",
+          "endNumber": 23
         },
         {
           "number": 24,
@@ -4643,7 +4747,9 @@
         },
         {
           "number": 2,
-          "text": "Jamás volverá nadie a jactarse respecto a Moab, pues hay un complot contra la vida de ella. En Hesbón se han trazado planes para destruirla. «Vengan», dicen, «la haremos desaparecer como nación». En Madmén reina el silencio. Luego surgirá contra Joronayin un rumor de batalla, pues todo Moab está siendo aniquilado. Su clamor llegará hasta Zoar."
+          "text": "Jamás volverá nadie a jactarse respecto a Moab, pues hay un complot contra la vida de ella. En Hesbón se han trazado planes para destruirla. «Vengan», dicen, «la haremos desaparecer como nación». En Madmén reina el silencio. Luego surgirá contra Joronayin un rumor de batalla, pues todo Moab está siendo aniquilado. Su clamor llegará hasta Zoar.",
+          "verseDisplay": "2-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -4859,7 +4965,9 @@
         },
         {
           "number": 9,
-          "text": "Los vendimiadores dejan unas cuantas uvas para los pobres; ni siquiera los ladrones se lo llevan todo, ¡pero yo dejaré desnuda la tierra de Esaú, y no habrá donde esconderse! Sus hijos e hijas, hermanos, vecinos —todos serán destruidos— y ella también perecerá."
+          "text": "Los vendimiadores dejan unas cuantas uvas para los pobres; ni siquiera los ladrones se lo llevan todo, ¡pero yo dejaré desnuda la tierra de Esaú, y no habrá donde esconderse! Sus hijos e hijas, hermanos, vecinos —todos serán destruidos— y ella también perecerá.",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -5314,7 +5422,9 @@
         },
         {
           "number": 34,
-          "text": "Los judíos de Babilonia dicen: «Nabucodonosor, rey de Babilonia, nos ha explotado exprimiendo y devorando nuestra fuerza, nos ha absorbido como si fuera un enorme monstruo, se ha llenado el estómago con nuestras riquezas y nos ha echado de nuestra patria. ¡Que Babilonia reciba su merecido por todo lo que nos hizo! ¡Que reciba la justa paga por toda nuestra sangre que derramó!»."
+          "text": "Los judíos de Babilonia dicen: «Nabucodonosor, rey de Babilonia, nos ha explotado exprimiendo y devorando nuestra fuerza, nos ha absorbido como si fuera un enorme monstruo, se ha llenado el estómago con nuestras riquezas y nos ha echado de nuestra patria. ¡Que Babilonia reciba su merecido por todo lo que nos hizo! ¡Que reciba la justa paga por toda nuestra sangre que derramó!».",
+          "verseDisplay": "34-35",
+          "endNumber": 35
         },
         {
           "number": 36,
@@ -5418,7 +5528,9 @@
         },
         {
           "number": 61,
-          "text": "y entregó el rollo a Seraías, diciéndole: ―Cuando llegues a Babilonia, lee lo que tengo escrito, y di: “ Señor , tú has dicho que destruirás a Babilonia hasta no dejar en ella ser viviente, y que será abandonada para siempre”."
+          "text": "y entregó el rollo a Seraías, diciéndole: ―Cuando llegues a Babilonia, lee lo que tengo escrito, y di: “ Señor , tú has dicho que destruirás a Babilonia hasta no dejar en ella ser viviente, y que será abandonada para siempre”.",
+          "verseDisplay": "61-62",
+          "endNumber": 62
         },
         {
           "number": 63,
@@ -5527,7 +5639,9 @@
         },
         {
           "number": 24,
-          "text": "El capitán de la guardia se llevó a Seraías, el sacerdote principal, a Sofonías su ayudante, a los tres principales guardas del templo, a uno de los más altos oficiales del ejército, a siete de los principales consejeros del rey que halló ocultos en la ciudad, al secretario del general del ejército israelita a cuyo cargo estaba el reclutamiento, y a otros sesenta personajes importantes que estaban escondidos."
+          "text": "El capitán de la guardia se llevó a Seraías, el sacerdote principal, a Sofonías su ayudante, a los tres principales guardas del templo, a uno de los más altos oficiales del ejército, a siete de los principales consejeros del rey que halló ocultos en la ciudad, al secretario del general del ejército israelita a cuyo cargo estaba el reclutamiento, y a otros sesenta personajes importantes que estaban escondidos.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,

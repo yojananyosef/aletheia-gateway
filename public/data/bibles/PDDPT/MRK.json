@@ -3046,6 +3046,8 @@
         {
           "number": 9,
           "text": "]]",
+          "verseDisplay": "9-20",
+          "endNumber": 20,
           "footnotes": [
             {
               "id": "FN1",

@@ -698,7 +698,9 @@
         },
         {
           "number": 3,
-          "text": "Vivía entre los sepulcros y tenía tanta fuerza que, cada vez que lo encadenaban de pies y manos, rompía las cadenas y se iba. Nadie tenía fuerza suficiente para dominarlo."
+          "text": "Vivía entre los sepulcros y tenía tanta fuerza que, cada vez que lo encadenaban de pies y manos, rompía las cadenas y se iba. Nadie tenía fuerza suficiente para dominarlo.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -714,7 +716,9 @@
         },
         {
           "number": 8,
-          "text": "―¡Sal de este hombre, espíritu inmundo! —le ordenó Jesús; y luego le preguntó: ―¿Cómo te llamas? El demonio le respondió: ―Legión, porque somos muchos."
+          "text": "―¡Sal de este hombre, espíritu inmundo! —le ordenó Jesús; y luego le preguntó: ―¿Cómo te llamas? El demonio le respondió: ―Legión, porque somos muchos.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -777,7 +781,9 @@
         },
         {
           "number": 24,
-          "text": "Jesús lo acompañó. En medio de aquella multitud que se apretujaba a su alrededor, estaba una mujer que durante los últimos doce años había estado enferma con cierto tipo de derrame de sangre."
+          "text": "Jesús lo acompañó. En medio de aquella multitud que se apretujaba a su alrededor, estaba una mujer que durante los últimos doce años había estado enferma con cierto tipo de derrame de sangre.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
@@ -845,7 +851,9 @@
         },
         {
           "number": 42,
-          "text": "En el mismo instante, la niña, de doce años de edad, se levantó y caminó. Jesús ordenó que le dieran de comer. La gente quedó muy admirada, pero Jesús les suplicó encarecidamente que no lo dijeran a nadie."
+          "text": "En el mismo instante, la niña, de doce años de edad, se levantó y caminó. Jesús ordenó que le dieran de comer. La gente quedó muy admirada, pero Jesús les suplicó encarecidamente que no lo dijeran a nadie.",
+          "verseDisplay": "42-43",
+          "endNumber": 43
         }
       ]
     },
@@ -924,7 +932,9 @@
         },
         {
           "number": 17,
-          "text": "Herodes había mandado arrestar a Juan porque este le decía que era ilegal que se casara con Herodías, la esposa de su hermano Felipe."
+          "text": "Herodes había mandado arrestar a Juan porque este le decía que era ilegal que se casara con Herodías, la esposa de su hermano Felipe.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -1028,6 +1038,8 @@
         {
           "number": 43,
           "text": "Y aunque eran cinco mil hombres, sobraron doce cestas llenas de panes y pescados.",
+          "verseDisplay": "43-44",
+          "endNumber": 44,
           "headings": [
             "Jesús camina sobre el agua"
           ]
@@ -1463,6 +1475,8 @@
         {
           "number": 12,
           "text": "―Es cierto —les respondió Jesús—. Elías vendrá primero a restaurar todas las cosas; pero lo cierto es que ya vino y la gente lo maltrató, tal como está escrito de él. Y lo mismo está escrito acerca del Hijo del hombre, que sufrirá mucho y que será rechazado.",
+          "verseDisplay": "12-13",
+          "endNumber": 13,
           "headings": [
             "Jesús sana a un muchacho endemoniado"
           ]
@@ -1594,11 +1608,15 @@
         },
         {
           "number": 43,
-          "text": "»Si tu mano te hace pecar, córtatela. Mejor te es ser manco y entrar en la vida que tener las dos manos e ir a parar al inextinguible fuego del infierno."
+          "text": "»Si tu mano te hace pecar, córtatela. Mejor te es ser manco y entrar en la vida que tener las dos manos e ir a parar al inextinguible fuego del infierno.",
+          "verseDisplay": "43-44",
+          "endNumber": 44
         },
         {
           "number": 45,
-          "text": "Y si tu pie te hace pecar, córtatelo. Mejor es ser cojo y entrar en la vida que tener los dos pies e ir al infierno."
+          "text": "Y si tu pie te hace pecar, córtatelo. Mejor es ser cojo y entrar en la vida que tener los dos pies e ir al infierno.",
+          "verseDisplay": "45-46",
+          "endNumber": 46
         },
         {
           "number": 47,

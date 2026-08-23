@@ -30,6 +30,8 @@
         {
           "number": 6,
           "text": "Ustedes, romanos, están incluidos entre esas naciones, y Dios los ha llamado a pertenecer a Jesucristo. ¡Que la gracia y la paz de Dios nuestro Padre y de nuestro Señor Jesucristo se derramen sobre ustedes!",
+          "verseDisplay": "6-7",
+          "endNumber": 7,
           "headings": [
             "Pablo anhela visitar Roma"
           ]
@@ -370,7 +372,9 @@
         },
         {
           "number": 25,
-          "text": "Dios ofreció a Jesucristo como sacrificio por nuestros pecados. Cuando creemos esto, Dios nos perdona todos nuestros pecados pasados, pues nos tiene paciencia. De esa manera da a conocer su justicia y muestra que él es justo y que nos hace justos por tener fe en Cristo Jesús."
+          "text": "Dios ofreció a Jesucristo como sacrificio por nuestros pecados. Cuando creemos esto, Dios nos perdona todos nuestros pecados pasados, pues nos tiene paciencia. De esa manera da a conocer su justicia y muestra que él es justo y que nos hace justos por tener fe en Cristo Jesús.",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         },
         {
           "number": 27,
@@ -1011,7 +1015,9 @@
         },
         {
           "number": 11,
-          "text": "Cuando ella estaba a punto de dar a luz mellizos, y antes de que estos hicieran algo bueno o malo, Dios le dijo: «Esaú, el mayor, servirá a Jacob, el menor». Como dicen las Escrituras: «Amé a Jacob y aborrecí a Esaú». Así confirmó Dios su propósito de elegir a quien él quiere llamar, sin tomar en cuenta lo que la persona haya hecho."
+          "text": "Cuando ella estaba a punto de dar a luz mellizos, y antes de que estos hicieran algo bueno o malo, Dios le dijo: «Esaú, el mayor, servirá a Jacob, el menor». Como dicen las Escrituras: «Amé a Jacob y aborrecí a Esaú». Así confirmó Dios su propósito de elegir a quien él quiere llamar, sin tomar en cuenta lo que la persona haya hecho.",
+          "verseDisplay": "11-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -1051,7 +1057,9 @@
         },
         {
           "number": 23,
-          "text": "Él también tiene derecho de llamar a personas como nosotros, judíos o gentiles, y demostrar así su gran amor y poder para salvarnos. Desde un principio tuvo compasión de nosotros y nos preparó para su gloria."
+          "text": "Él también tiene derecho de llamar a personas como nosotros, judíos o gentiles, y demostrar así su gran amor y poder para salvarnos. Desde un principio tuvo compasión de nosotros y nos preparó para su gloria.",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -1838,7 +1846,9 @@
         },
         {
           "number": 25,
-          "text": "El Dios eterno mantuvo en secreto su plan por muchos siglos, pero ahora lo ha dado a conocer por medio de las Escrituras proféticas. Esto, de acuerdo con su propio mandato, para que todas las naciones obedezcan a la fe. ¡Al que puede fortalecerlos a ustedes conforme a mi evangelio y a la predicación acerca de Jesucristo,"
+          "text": "El Dios eterno mantuvo en secreto su plan por muchos siglos, pero ahora lo ha dado a conocer por medio de las Escrituras proféticas. Esto, de acuerdo con su propio mandato, para que todas las naciones obedezcan a la fe. ¡Al que puede fortalecerlos a ustedes conforme a mi evangelio y a la predicación acerca de Jesucristo,",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         },
         {
           "number": 27,

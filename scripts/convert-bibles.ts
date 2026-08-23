@@ -82,6 +82,8 @@ export interface FootnoteItem {
 
 export interface VerseItem {
   number: number;
+  verseDisplay?: string;
+  endNumber?: number;
   text: string;
   headings?: string[];
   footnotes?: FootnoteItem[];
@@ -177,6 +179,64 @@ const VERSIONS_CONFIG: Array<{
   },
 ];
 
+function parseVerseSpan(innerText: string): { number: number; verseDisplay?: string; endNumber?: number } {
+  const cleanInner = innerText
+    .replace(/<[^>]+>/g, '')
+    .replace(/&#160;/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  // Pattern: single number e.g. "1", "42"
+  const singleMatch = cleanInner.match(/^(\d+)$/);
+  if (singleMatch) {
+    return {
+      number: parseInt(singleMatch[1], 10),
+    };
+  }
+
+  // Pattern: range e.g. "2-4", "26-47", "1–11", "3—14"
+  const rangeMatch = cleanInner.match(/^(\d+)\s*[-–—]\s*(\d+)$/);
+  if (rangeMatch) {
+    const start = parseInt(rangeMatch[1], 10);
+    const end = parseInt(rangeMatch[2], 10);
+    return {
+      number: start,
+      verseDisplay: `${start}-${end}`,
+      endNumber: end,
+    };
+  }
+
+  // Pattern: comma e.g. "1,2"
+  const commaMatch = cleanInner.match(/^(\d+)\s*,\s*(\d+)$/);
+  if (commaMatch) {
+    const start = parseInt(commaMatch[1], 10);
+    const end = parseInt(commaMatch[2], 10);
+    return {
+      number: start,
+      verseDisplay: `${start}, ${end}`,
+      endNumber: end,
+    };
+  }
+
+  // Fallback: extract first and last numbers
+  const allNums = cleanInner.match(/\d+/g);
+  if (allNums && allNums.length > 0) {
+    const start = parseInt(allNums[0], 10);
+    const end = parseInt(allNums[allNums.length - 1], 10);
+    return {
+      number: start,
+      verseDisplay: cleanInner,
+      endNumber: end > start ? end : undefined,
+    };
+  }
+
+  return {
+    number: 1,
+    verseDisplay: cleanInner || undefined,
+  };
+}
+
 function parseChapterHtml(html: string, fallbackChapterNum: number) {
   // Extract footnotes map from <div class="footnote">...</div>
   const footnotesMap = new Map<string, { caller: string; text: string }>();
@@ -218,13 +278,22 @@ function parseChapterHtml(html: string, fallbackChapterNum: number) {
   }
 
   // Verses parsing
-  const verseRegex = /<span class=["']verse["']\s+id=["']V(\d+)["']>(\d+)[^<]*<\/span>/gi;
-  const matches: { index: number; verseNum: number; fullMatch: string }[] = [];
+  const verseRegex = /<span class=["']verse["'][^>]*>([\s\S]*?)<\/span>/gi;
+  const matches: {
+    index: number;
+    verseNum: number;
+    verseDisplay?: string;
+    endNumber?: number;
+    fullMatch: string;
+  }[] = [];
   let vMatch;
   while ((vMatch = verseRegex.exec(mainContent)) !== null) {
+    const parsed = parseVerseSpan(vMatch[1]);
     matches.push({
       index: vMatch.index,
-      verseNum: parseInt(vMatch[2], 10),
+      verseNum: parsed.number,
+      verseDisplay: parsed.verseDisplay,
+      endNumber: parsed.endNumber,
       fullMatch: vMatch[0],
     });
   }
@@ -288,6 +357,13 @@ function parseChapterHtml(html: string, fallbackChapterNum: number) {
       number: cur.verseNum,
       text: cleanText,
     };
+
+    if (cur.verseDisplay) {
+      verseObj.verseDisplay = cur.verseDisplay;
+    }
+    if (cur.endNumber) {
+      verseObj.endNumber = cur.endNumber;
+    }
 
     if (headings.length > 0) verseObj.headings = headings;
     if (verseFootnotes.length > 0) verseObj.footnotes = verseFootnotes;

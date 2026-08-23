@@ -49,7 +49,9 @@
         },
         {
           "number": 11,
-          "text": "Así que dijo: «Que de la tierra brote toda clase de vegetación, es decir, plantas que se reproduzcan por medio de semillas, y árboles frutales en cuyos frutos estén sus semillas». Y, tal como Dios lo dijo, de la tierra brotaron las plantas y árboles frutales con sus respectivas semillas para su reproducción. Y Dios vio que todo esto era hermoso."
+          "text": "Así que dijo: «Que de la tierra brote toda clase de vegetación, es decir, plantas que se reproduzcan por medio de semillas, y árboles frutales en cuyos frutos estén sus semillas». Y, tal como Dios lo dijo, de la tierra brotaron las plantas y árboles frutales con sus respectivas semillas para su reproducción. Y Dios vio que todo esto era hermoso.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -57,7 +59,9 @@
         },
         {
           "number": 14,
-          "text": "Después Dios dijo: «Que haya luces en el cielo, para que alumbren la tierra y separen el día de la noche, y para que marquen también las estaciones, los días y los años». Y así ocurrió."
+          "text": "Después Dios dijo: «Que haya luces en el cielo, para que alumbren la tierra y separen el día de la noche, y para que marquen también las estaciones, los días y los años». Y así ocurrió.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -65,7 +69,9 @@
         },
         {
           "number": 17,
-          "text": "Dios puso estas luces en el cielo para que alumbraran la tierra de día y de noche, y para que separaran la luz de la oscuridad. Y Dios vio que esto era hermoso."
+          "text": "Dios puso estas luces en el cielo para que alumbraran la tierra de día y de noche, y para que separaran la luz de la oscuridad. Y Dios vio que esto era hermoso.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -169,7 +175,9 @@
         },
         {
           "number": 11,
-          "text": "El primero se llamaba Pisón, el cual recorría toda la región de Javilá, donde había oro de muy buena calidad. También allí había plantas con las que se hacen perfumes muy finos, y piedras de ónice."
+          "text": "El primero se llamaba Pisón, el cual recorría toda la región de Javilá, donde había oro de muy buena calidad. También allí había plantas con las que se hacen perfumes muy finos, y piedras de ónice.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -197,7 +205,9 @@
         },
         {
           "number": 19,
-          "text": "Dios el Señor formó, del polvo de la tierra, todos los animales del campo y todas las aves del cielo. Luego se los llevó al hombre para que este les pusiera nombre. Así que el hombre les puso a todos los animales el nombre con que se conocen en la actualidad. Pero entre todos esos animales no se encontró ninguno que le sirviera al hombre de pareja adecuada."
+          "text": "Dios el Señor formó, del polvo de la tierra, todos los animales del campo y todas las aves del cielo. Luego se los llevó al hombre para que este les pusiera nombre. Así que el hombre les puso a todos los animales el nombre con que se conocen en la actualidad. Pero entre todos esos animales no se encontró ninguno que le sirviera al hombre de pareja adecuada.",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         },
         {
           "number": 21,
@@ -451,39 +461,57 @@
         },
         {
           "number": 3,
-          "text": "Adán tenía ciento treinta años cuando le nació un hijo, a su imagen y semejanza, y le puso el nombre de Set. Adán vivió ochocientos años más, tuvo hijos e hijas, y murió a los novecientos treinta años de edad."
+          "text": "Adán tenía ciento treinta años cuando le nació un hijo, a su imagen y semejanza, y le puso el nombre de Set. Adán vivió ochocientos años más, tuvo hijos e hijas, y murió a los novecientos treinta años de edad.",
+          "verseDisplay": "3-5",
+          "endNumber": 5
         },
         {
           "number": 6,
-          "text": "Set tenía ciento cinco años cuando nació Enós. Después de esto, vivió otros ochocientos siete años, tuvo hijos e hijas, y murió a la edad de novecientos doce años."
+          "text": "Set tenía ciento cinco años cuando nació Enós. Después de esto, vivió otros ochocientos siete años, tuvo hijos e hijas, y murió a la edad de novecientos doce años.",
+          "verseDisplay": "6-8",
+          "endNumber": 8
         },
         {
           "number": 9,
-          "text": "Enós tenía noventa años cuando nació su hijo Cainán. Después de esto, vivió ochocientos quince años, tuvo hijos e hijas, y murió a la edad de novecientos cinco años."
+          "text": "Enós tenía noventa años cuando nació su hijo Cainán. Después de esto, vivió ochocientos quince años, tuvo hijos e hijas, y murió a la edad de novecientos cinco años.",
+          "verseDisplay": "9-11",
+          "endNumber": 11
         },
         {
           "number": 12,
-          "text": "Cainán tenía setenta años cuando nació su hijo Malalel. Después de esto, vivió ochocientos cuarenta años, tuvo hijos e hijas, y murió a la edad de novecientos diez años."
+          "text": "Cainán tenía setenta años cuando nació su hijo Malalel. Después de esto, vivió ochocientos cuarenta años, tuvo hijos e hijas, y murió a la edad de novecientos diez años.",
+          "verseDisplay": "12-14",
+          "endNumber": 14
         },
         {
           "number": 15,
-          "text": "Malalel tenía sesenta y cinco años cuando nació su hijo Jared. Después de esto, vivió ochocientos treinta años, tuvo hijos e hijas, y murió a la edad de ochocientos noventa y cinco años."
+          "text": "Malalel tenía sesenta y cinco años cuando nació su hijo Jared. Después de esto, vivió ochocientos treinta años, tuvo hijos e hijas, y murió a la edad de ochocientos noventa y cinco años.",
+          "verseDisplay": "15-17",
+          "endNumber": 17
         },
         {
           "number": 18,
-          "text": "Jared tenía ciento sesenta y dos años cuando nació su hijo Enoc. Después de esto, vivió ochocientos años, tuvo hijos e hijas, y murió a la edad de novecientos sesenta y dos años."
+          "text": "Jared tenía ciento sesenta y dos años cuando nació su hijo Enoc. Después de esto, vivió ochocientos años, tuvo hijos e hijas, y murió a la edad de novecientos sesenta y dos años.",
+          "verseDisplay": "18-20",
+          "endNumber": 20
         },
         {
           "number": 21,
-          "text": "Enoc tenía sesenta y cinco años cuando nació su hijo Matusalén. Después de Matusalén, tuvo otros hijos e hijas, y vivió trescientos años más. Durante toda su vida, Enoc vivió de acuerdo con la voluntad de Dios, y cuando tenía trescientos sesenta y cinco años desapareció, porque Dios se lo llevó sin que muriera."
+          "text": "Enoc tenía sesenta y cinco años cuando nació su hijo Matusalén. Después de Matusalén, tuvo otros hijos e hijas, y vivió trescientos años más. Durante toda su vida, Enoc vivió de acuerdo con la voluntad de Dios, y cuando tenía trescientos sesenta y cinco años desapareció, porque Dios se lo llevó sin que muriera.",
+          "verseDisplay": "21-24",
+          "endNumber": 24
         },
         {
           "number": 25,
-          "text": "Matusalén tenía ciento ochenta y siete años cuando nació su hijo Lamec. Después de esto, vivió setecientos ochenta y dos años, tuvo hijos e hijas, y murió a los novecientos sesenta y nueve años de edad."
+          "text": "Matusalén tenía ciento ochenta y siete años cuando nació su hijo Lamec. Después de esto, vivió setecientos ochenta y dos años, tuvo hijos e hijas, y murió a los novecientos sesenta y nueve años de edad.",
+          "verseDisplay": "25-27",
+          "endNumber": 27
         },
         {
           "number": 28,
-          "text": "Lamec tenía ciento ochenta y dos años cuando nació su hijo Noé. Lamec lo llamó Noé, porque dijo: «Él nos aliviará del duro trabajo que significa labrar la tierra que Dios maldijo». Después de esto, Lamec vivió quinientos noventa y cinco años, tuvo hijos e hijas, y murió a la edad de setecientos setenta y siete años."
+          "text": "Lamec tenía ciento ochenta y dos años cuando nació su hijo Noé. Lamec lo llamó Noé, porque dijo: «Él nos aliviará del duro trabajo que significa labrar la tierra que Dios maldijo». Después de esto, Lamec vivió quinientos noventa y cinco años, tuvo hijos e hijas, y murió a la edad de setecientos setenta y siete años.",
+          "verseDisplay": "28-31",
+          "endNumber": 31
         },
         {
           "number": 32,
@@ -519,7 +547,9 @@
         },
         {
           "number": 5,
-          "text": "Cuando el Señor Dios vio el alcance de la maldad humana, y que la gente sólo pensaba en hacer lo malo, le dolió haberla creado y se llenó de mucho pesar."
+          "text": "Cuando el Señor Dios vio el alcance de la maldad humana, y que la gente sólo pensaba en hacer lo malo, le dolió haberla creado y se llenó de mucho pesar.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -542,7 +572,9 @@
         },
         {
           "number": 11,
-          "text": "Dios vio que la humanidad se había degenerado, y practicaba la violencia. La depravación llegó a tal extremo que un día Dios le dijo a Noé: «He decidido destruir a la humanidad, porque por su culpa hay mucha violencia y corrupción en la tierra. Sí, voy a destruir a toda la gente junto con lo que hay en el mundo."
+          "text": "Dios vio que la humanidad se había degenerado, y practicaba la violencia. La depravación llegó a tal extremo que un día Dios le dijo a Noé: «He decidido destruir a la humanidad, porque por su culpa hay mucha violencia y corrupción en la tierra. Sí, voy a destruir a toda la gente junto con lo que hay en el mundo.",
+          "verseDisplay": "11-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -566,7 +598,9 @@
         },
         {
           "number": 19,
-          "text": "»De cada animal trae un macho y una hembra, y hazlos entrar en el barco contigo, para que sobrevivan al diluvio. Haz entrar una pareja de cada especie de animal, ave y reptil."
+          "text": "»De cada animal trae un macho y una hembra, y hazlos entrar en el barco contigo, para que sobrevivan al diluvio. Haz entrar una pareja de cada especie de animal, ave y reptil.",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         },
         {
           "number": 21,
@@ -603,11 +637,15 @@
         },
         {
           "number": 6,
-          "text": "Cuando comenzó el diluvio, Noé tenía seiscientos años de edad. Entonces entró en el barco con sus hijos, su esposa, y sus nueras, para librarse del diluvio."
+          "text": "Cuando comenzó el diluvio, Noé tenía seiscientos años de edad. Entonces entró en el barco con sus hijos, su esposa, y sus nueras, para librarse del diluvio.",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
-          "text": "También entraron con Noé los animales puros e impuros, las aves y los reptiles, macho y hembra, tal como Dios se lo había ordenado."
+          "text": "También entraron con Noé los animales puros e impuros, las aves y los reptiles, macho y hembra, tal como Dios se lo había ordenado.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -627,7 +665,9 @@
         },
         {
           "number": 14,
-          "text": "Con ellos había en el barco parejas de toda clase de animales, domésticos y silvestres, reptiles y aves."
+          "text": "Con ellos había en el barco parejas de toda clase de animales, domésticos y silvestres, reptiles y aves.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -651,7 +691,9 @@
         },
         {
           "number": 21,
-          "text": "Por eso, murieron todos los seres vivos que había en la tierra: las aves, los animales salvajes y los domésticos, todos los reptiles, y todos los seres humanos."
+          "text": "Por eso, murieron todos los seres vivos que había en la tierra: las aves, los animales salvajes y los domésticos, todos los reptiles, y todos los seres humanos.",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -728,7 +770,9 @@
         },
         {
           "number": 16,
-          "text": "«Ya pueden salir todos. Deja salir a todos los animales, aves y reptiles para que se reproduzcan abundantemente y llenen la tierra»."
+          "text": "«Ya pueden salir todos. Deja salir a todos los animales, aves y reptiles para que se reproduzcan abundantemente y llenen la tierra».",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         },
         {
           "number": 18,
@@ -785,15 +829,21 @@
         },
         {
           "number": 8,
-          "text": "Entonces Dios les dijo a Noé y a sus hijos: «Hoy mismo hago un pacto con ustedes, con todo hombre y mujer que nazca después de ustedes, y con todos los animales que están con ustedes y que salieron del barco, es decir, con los animales domésticos y salvajes, con las aves y con todos los demás animales que hay en la tierra. Por medio de este pacto les prometo que nunca más enviaré otro diluvio para destruir la tierra. ¡Nunca más mataré a ningún ser viviente por medio de un diluvio!»."
+          "text": "Entonces Dios les dijo a Noé y a sus hijos: «Hoy mismo hago un pacto con ustedes, con todo hombre y mujer que nazca después de ustedes, y con todos los animales que están con ustedes y que salieron del barco, es decir, con los animales domésticos y salvajes, con las aves y con todos los demás animales que hay en la tierra. Por medio de este pacto les prometo que nunca más enviaré otro diluvio para destruir la tierra. ¡Nunca más mataré a ningún ser viviente por medio de un diluvio!».",
+          "verseDisplay": "8-11",
+          "endNumber": 11
         },
         {
           "number": 12,
-          "text": "Además, Dios dijo: «El arco iris servirá de señal para recordar este pacto que acabo de hacer con ustedes y con todos los animales. Sí, cada vez que aparezca el arco iris sobre las nubes les recordará la promesa que he hecho a toda la tierra."
+          "text": "Además, Dios dijo: «El arco iris servirá de señal para recordar este pacto que acabo de hacer con ustedes y con todos los animales. Sí, cada vez que aparezca el arco iris sobre las nubes les recordará la promesa que he hecho a toda la tierra.",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,
-          "text": "Cuando yo cubra de nubes la tierra, también haré que aparezca el arco iris. De ese modo me acordaré de la promesa que les he hecho a ustedes y a todos los demás seres vivos de la tierra. Así que nunca más los destruiré por medio de un diluvio."
+          "text": "Cuando yo cubra de nubes la tierra, también haré que aparezca el arco iris. De ese modo me acordaré de la promesa que les he hecho a ustedes y a todos los demás seres vivos de la tierra. Así que nunca más los destruiré por medio de un diluvio.",
+          "verseDisplay": "14-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -812,7 +862,9 @@
         },
         {
           "number": 20,
-          "text": "Noé, que era agricultor, plantó una viña e hizo vino. Un día bebió tanto vino que se emborrachó y se quedó desnudo, tendido en el piso de su carpa."
+          "text": "Noé, que era agricultor, plantó una viña e hizo vino. Un día bebió tanto vino que se emborrachó y se quedó desnudo, tendido en el piso de su carpa.",
+          "verseDisplay": "20-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -824,7 +876,9 @@
         },
         {
           "number": 24,
-          "text": "Cuando Noé despertó de su borrachera y supo lo que le había hecho su hijo menor, dijo: «¡Maldito sea Canaán y sus descendientes! ¡Serán esclavos de los descendientes de Sem y Jafet! ¡Serán los esclavos de más bajo rango!»."
+          "text": "Cuando Noé despertó de su borrachera y supo lo que le había hecho su hijo menor, dijo: «¡Maldito sea Canaán y sus descendientes! ¡Serán esclavos de los descendientes de Sem y Jafet! ¡Serán los esclavos de más bajo rango!».",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
@@ -889,11 +943,15 @@
         },
         {
           "number": 11,
-          "text": "De allí salió para Asur, donde edificó las ciudades de Nínive, Rejobot Ir, Cala y la importante ciudad de Resén, que estaba situada entre Nínive y Cala."
+          "text": "De allí salió para Asur, donde edificó las ciudades de Nínive, Rejobot Ir, Cala y la importante ciudad de Resén, que estaba situada entre Nínive y Cala.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
-          "text": "Misrayin fue el antepasado de los ludeos, los anameos, los leabitas, los naftuitas, los patruseos, los caslujitas y los caftoritas, que son los antepasados de los filisteos."
+          "text": "Misrayin fue el antepasado de los ludeos, los anameos, los leabitas, los naftuitas, los patruseos, los caslujitas y los caftoritas, que son los antepasados de los filisteos.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -901,7 +959,9 @@
         },
         {
           "number": 16,
-          "text": "Además, de Canaán descienden los jebuseos, los amorreos, los gergeseos, los heveos, los araceos, los sineos, los arvadeos, los zemareos y los jamatitas. Después de algún tiempo todas estas familias de los cananeos se separaron y se dispersaron por la tierra."
+          "text": "Además, de Canaán descienden los jebuseos, los amorreos, los gergeseos, los heveos, los araceos, los sineos, los arvadeos, los zemareos y los jamatitas. Después de algún tiempo todas estas familias de los cananeos se separaron y se dispersaron por la tierra.",
+          "verseDisplay": "16-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -933,7 +993,9 @@
         },
         {
           "number": 26,
-          "text": "Joctán fue el padre de Almodad, Sélef, Jazar Mávet, Yeraj, Hadorán, Uzal, Diclá, Obal, Abimael, Sabá, Ofir, Javilá y Jobab. Todos estos fueron los descendientes de Joctán, quienes ocuparon la región que va desde Mesá hasta Sefar, es decir, la región montañosa que queda al oriente."
+          "text": "Joctán fue el padre de Almodad, Sélef, Jazar Mávet, Yeraj, Hadorán, Uzal, Diclá, Obal, Abimael, Sabá, Ofir, Javilá y Jobab. Todos estos fueron los descendientes de Joctán, quienes ocuparon la región que va desde Mesá hasta Sefar, es decir, la región montañosa que queda al oriente.",
+          "verseDisplay": "26-30",
+          "endNumber": 30
         },
         {
           "number": 31,
@@ -1236,7 +1298,9 @@
         },
         {
           "number": 14,
-          "text": "Después de que Lot se fue, el Señor le dijo a Abram: «Mira toda la tierra que tienes a tu alrededor por el norte, el sur, el oriente y el occidente. Toda esa tierra será para ti y para todos tus descendientes."
+          "text": "Después de que Lot se fue, el Señor le dijo a Abram: «Mira toda la tierra que tienes a tu alrededor por el norte, el sur, el oriente y el occidente. Toda esa tierra será para ti y para todos tus descendientes.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -1285,7 +1349,9 @@
         },
         {
           "number": 8,
-          "text": "Entonces los reyes de Sodoma, Gomorra, Admá Zeboyín y Bela, que es Zoar, fueron al valle de Sidín para pelear contra Quedorlaómer, rey de Elam, y sus aliados, es decir: Tidal, rey de Goyim, Amrafel, rey de Sinar, y Arioc, rey de Elasar. De modo que eran cinco reyes contra cuatro."
+          "text": "Entonces los reyes de Sodoma, Gomorra, Admá Zeboyín y Bela, que es Zoar, fueron al valle de Sidín para pelear contra Quedorlaómer, rey de Elam, y sus aliados, es decir: Tidal, rey de Goyim, Amrafel, rey de Sinar, y Arioc, rey de Elasar. De modo que eran cinco reyes contra cuatro.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -1337,7 +1403,9 @@
         },
         {
           "number": 22,
-          "text": "Pero Abram le contestó: ―Le prometí al Señor , el Dios Altísimo, creador del cielo y de la tierra, que no me quedaría con nada de lo que es tuyo, ni siquiera con un cordón o una correa de una sandalia. Así no podrás decir jamás: “Abram se hizo rico, porque se quedó con mis bienes”."
+          "text": "Pero Abram le contestó: ―Le prometí al Señor , el Dios Altísimo, creador del cielo y de la tierra, que no me quedaría con nada de lo que es tuyo, ni siquiera con un cordón o una correa de una sandalia. Así no podrás decir jamás: “Abram se hizo rico, porque se quedó con mis bienes”.",
+          "verseDisplay": "22-23",
+          "endNumber": 23
         },
         {
           "number": 24,
@@ -1354,7 +1422,9 @@
         },
         {
           "number": 2,
-          "text": "Pero Abram contestó: ―Mi Señor y Dios, ¿para qué me servirá todo lo que me vas a dar, si no tengo hijos? En ese caso, como no me has dado un hijo, todo lo que me regales le quedará a Eliezer de Damasco, que es uno de mis criados."
+          "text": "Pero Abram contestó: ―Mi Señor y Dios, ¿para qué me servirá todo lo que me vas a dar, si no tengo hijos? En ese caso, como no me has dado un hijo, todo lo que me regales le quedará a Eliezer de Damasco, que es uno de mis criados.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -1418,7 +1488,9 @@
         },
         {
           "number": 19,
-          "text": "Esta tierra es la que habitan actualmente los quenitas, los quenizitas, los cadmoneos, los hititas, los ferezeos, los refaítas, los amorreos, los cananeos, los gergeseos y los jebuseos."
+          "text": "Esta tierra es la que habitan actualmente los quenitas, los quenizitas, los cadmoneos, los hititas, los ferezeos, los refaítas, los amorreos, los cananeos, los gergeseos y los jebuseos.",
+          "verseDisplay": "19-21",
+          "endNumber": 21
         }
       ]
     },
@@ -1431,7 +1503,9 @@
         },
         {
           "number": 2,
-          "text": "Saray la tomó y se la llevó a Abram para que durmiera con ella. Saray le dijo a Abram: ―Como el Señor no me ha permitido tener hijos, te ruego que te acuestes con mi esclava, para que yo pueda tener hijos por medio de ella. Abram estuvo de acuerdo con lo que le propuso Saray. Esto ocurrió cuando ya llevaban diez años viviendo en Canaán."
+          "text": "Saray la tomó y se la llevó a Abram para que durmiera con ella. Saray le dijo a Abram: ―Como el Señor no me ha permitido tener hijos, te ruego que te acuestes con mi esclava, para que yo pueda tener hijos por medio de ella. Abram estuvo de acuerdo con lo que le propuso Saray. Esto ocurrió cuando ya llevaban diez años viviendo en Canaán.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -1524,7 +1598,9 @@
         },
         {
           "number": 9,
-          "text": "Además Dios dijo a Abraham: ―A través de todos los tiempos, tú y tus descendientes deberán obedecer este pacto: todos los varones que haya en tu pueblo deberán ser circuncidados."
+          "text": "Además Dios dijo a Abraham: ―A través de todos los tiempos, tú y tus descendientes deberán obedecer este pacto: todos los varones que haya en tu pueblo deberán ser circuncidados.",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -1580,7 +1656,9 @@
         },
         {
           "number": 24,
-          "text": "Abraham tenía noventa y nueve años cuando fue circuncidado, y su hijo Ismael tenía trece."
+          "text": "Abraham tenía noventa y nueve años cuando fue circuncidado, y su hijo Ismael tenía trece.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
@@ -1684,7 +1762,9 @@
         },
         {
           "number": 22,
-          "text": "Dos de los varones siguieron su camino hacia Sodoma, pero el Señor se quedó con Abraham por un momento. Entonces Abraham se le acercó y le dijo: ―¿Vas a exterminar juntamente al justo con el malvado?"
+          "text": "Dos de los varones siguieron su camino hacia Sodoma, pero el Señor se quedó con Abraham por un momento. Entonces Abraham se le acercó y le dijo: ―¿Vas a exterminar juntamente al justo con el malvado?",
+          "verseDisplay": "22-23",
+          "endNumber": 23
         },
         {
           "number": 24,
@@ -1801,7 +1881,9 @@
         },
         {
           "number": 18,
-          "text": "Pero Lot les dijo: ―Por favor, señores míos, ya que han sido tan buenos y misericordiosos conmigo al salvarme la vida, yo les ruego que no me envíen a las montañas, ya que me da miedo que la destrucción me alcance en el camino, y muera."
+          "text": "Pero Lot les dijo: ―Por favor, señores míos, ya que han sido tan buenos y misericordiosos conmigo al salvarme la vida, yo les ruego que no me envíen a las montañas, ya que me da miedo que la destrucción me alcance en el camino, y muera.",
+          "verseDisplay": "18-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -1809,7 +1891,9 @@
         },
         {
           "number": 21,
-          "text": "―Muy bien —dijo uno de los ángeles—. Acepto tu súplica y no destruiré esa pequeña ciudad. Pero ¡date prisa! porque nada podemos hacer hasta que te hayas refugiado en ella. Desde aquel tiempo esa ciudad fue llamada Zoar (ciudad pequeña)."
+          "text": "―Muy bien —dijo uno de los ángeles—. Acepto tu súplica y no destruiré esa pequeña ciudad. Pero ¡date prisa! porque nada podemos hacer hasta que te hayas refugiado en ella. Desde aquel tiempo esa ciudad fue llamada Zoar (ciudad pequeña).",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -1917,7 +2001,9 @@
         },
         {
           "number": 9,
-          "text": "Luego el rey llamó a Abraham, y le reclamó: ―¿Qué es lo que nos has hecho? ¿Qué te he hecho para que hayas hecho caer sobre mí y sobre mi gente este pecado tan grande? ¡Esto que has hecho no se le hace a nadie! ¿Qué pensabas que ibas a lograr con esa mentira?"
+          "text": "Luego el rey llamó a Abraham, y le reclamó: ―¿Qué es lo que nos has hecho? ¿Qué te he hecho para que hayas hecho caer sobre mí y sobre mi gente este pecado tan grande? ¡Esto que has hecho no se le hace a nadie! ¿Qué pensabas que ibas a lograr con esa mentira?",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -2038,6 +2124,8 @@
         {
           "number": 20,
           "text": "Dios bendijo a Ismael, el cual vivió en el desierto de Parán y se convirtió en un excelente arquero. Su madre lo casó con una egipcia.",
+          "verseDisplay": "20-21",
+          "endNumber": 21,
           "headings": [
             "Pacto entre Abraham y Abimélec"
           ]
@@ -2180,7 +2268,9 @@
         },
         {
           "number": 20,
-          "text": "Después de algún tiempo, Abraham recibió un mensaje en que se le contaba que Milca, la esposa de Najor, el hermano de Abraham, había tenido ocho hijos. El primero de ellos fue Uz. Luego nacieron: Buz y Quemuel, que fue el padre de Aram. A estos les siguieron: Quésed, Jazó, Pildás, Yidlaf y Betuel. Este último fue el padre de Rebeca. Así que estos fueron los ocho hijos que Milca le dio a Najor, el hermano de Abraham."
+          "text": "Después de algún tiempo, Abraham recibió un mensaje en que se le contaba que Milca, la esposa de Najor, el hermano de Abraham, había tenido ocho hijos. El primero de ellos fue Uz. Luego nacieron: Buz y Quemuel, que fue el padre de Aram. A estos les siguieron: Quésed, Jazó, Pildás, Yidlaf y Betuel. Este último fue el padre de Rebeca. Así que estos fueron los ocho hijos que Milca le dio a Najor, el hermano de Abraham.",
+          "verseDisplay": "20-23",
+          "endNumber": 23
         },
         {
           "number": 24,
@@ -2390,7 +2480,9 @@
         },
         {
           "number": 29,
-          "text": "Rebeca tenía un hermano llamado Labán. Cuando este escuchó todo lo que la muchacha les contó, y además vio el pendiente y los brazaletes que llevaba puestos, salió corriendo hacia el pozo, donde todavía estaba el hombre de pie junto a los camellos."
+          "text": "Rebeca tenía un hermano llamado Labán. Cuando este escuchó todo lo que la muchacha les contó, y además vio el pendiente y los brazaletes que llevaba puestos, salió corriendo hacia el pozo, donde todavía estaba el hombre de pie junto a los camellos.",
+          "verseDisplay": "29-30",
+          "endNumber": 30
         },
         {
           "number": 31,
@@ -2418,7 +2510,9 @@
         },
         {
           "number": 37,
-          "text": "Y mi amo hizo que yo le prometiera que no dejaría que Isaac se casara con una de las mujeres de Canaán, que es la tierra donde él vive. Por eso, me pidió que viniera a esta lejana tierra, para buscar entre sus familiares una esposa para su hijo."
+          "text": "Y mi amo hizo que yo le prometiera que no dejaría que Isaac se casara con una de las mujeres de Canaán, que es la tierra donde él vive. Por eso, me pidió que viniera a esta lejana tierra, para buscar entre sus familiares una esposa para su hijo.",
+          "verseDisplay": "37-38",
+          "endNumber": 38
         },
         {
           "number": 39,
@@ -2567,11 +2661,15 @@
         },
         {
           "number": 7,
-          "text": "Abraham murió a la avanzada edad de ciento setenta y cinco años"
+          "text": "Abraham murió a la avanzada edad de ciento setenta y cinco años",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
-          "text": "y fue sepultado por sus hijos Isaac e Ismael en la cueva de Macpela, cerca de Mamré, en el campo que Abraham le había comprado a Efrón, el hijo de Zojar el hitita. Fue sepultado junto a su esposa Sara."
+          "text": "y fue sepultado por sus hijos Isaac e Ismael en la cueva de Macpela, cerca de Mamré, en el campo que Abraham le había comprado a Efrón, el hijo de Zojar el hitita. Fue sepultado junto a su esposa Sara.",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -2582,7 +2680,9 @@
         },
         {
           "number": 12,
-          "text": "Esta es una lista, por orden de nacimiento, de los hijos de Ismael, hijo de Abraham y de Agar, la esclava egipcia de Sara: Nebayot, Cedar, Abdel, Mibsán, Mismá, Dumá, Masá, Hadar, Temá, Jetur, Nafis y Cedema."
+          "text": "Esta es una lista, por orden de nacimiento, de los hijos de Ismael, hijo de Abraham y de Agar, la esclava egipcia de Sara: Nebayot, Cedar, Abdel, Mibsán, Mismá, Dumá, Masá, Hadar, Temá, Jetur, Nafis y Cedema.",
+          "verseDisplay": "12-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -2993,7 +3093,9 @@
         },
         {
           "number": 44,
-          "text": "Quédate allá hasta que el tiempo haya aplacado la furia de tu hermano y se haya olvidado de lo que hiciste. Entonces yo te mandaré a buscar. ¿Por qué he de perder a los dos el mismo día?"
+          "text": "Quédate allá hasta que el tiempo haya aplacado la furia de tu hermano y se haya olvidado de lo que hiciste. Entonces yo te mandaré a buscar. ¿Por qué he de perder a los dos el mismo día?",
+          "verseDisplay": "44-45",
+          "endNumber": 45
         },
         {
           "number": 46,
@@ -3069,7 +3171,9 @@
         },
         {
           "number": 16,
-          "text": "Cuando Jacob despertó de su sueño tuvo mucho miedo, y pensó: «¡Sin duda alguna el Señor está en este lugar, y yo no lo sabía! ¡Este lugar es asombroso! ¡Es nada menos que la casa de Dios y la puerta del cielo!»."
+          "text": "Cuando Jacob despertó de su sueño tuvo mucho miedo, y pensó: «¡Sin duda alguna el Señor está en este lugar, y yo no lo sabía! ¡Este lugar es asombroso! ¡Es nada menos que la casa de Dios y la puerta del cielo!».",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         },
         {
           "number": 18,
@@ -3081,7 +3185,9 @@
         },
         {
           "number": 20,
-          "text": "Jacob, entonces, hizo este voto: «Si Dios me ayuda y me protege en este viaje, me da ropa y comida, y me permite regresar sano y salvo a la casa de mi padre, el Señor será mi Dios. Y esta piedra que he levantado para señal, será lugar de adoración. Además, de todo lo que me dé, le entregaré el diezmo»."
+          "text": "Jacob, entonces, hizo este voto: «Si Dios me ayuda y me protege en este viaje, me da ropa y comida, y me permite regresar sano y salvo a la casa de mi padre, el Señor será mi Dios. Y esta piedra que he levantado para señal, será lugar de adoración. Además, de todo lo que me dé, le entregaré el diezmo».",
+          "verseDisplay": "20-22",
+          "endNumber": 22
         }
       ]
     },
@@ -3330,6 +3436,8 @@
         {
           "number": 23,
           "text": "Así que ella quedó embarazada, y dio a luz un hijo. A este hijo, Raquel le puso por nombre José (que añada otro), porque dijo: «Dios ha quitado la humillación que había sobre mí». Luego añadió: «¡Qué bueno sería que el Señor me diera otro hijo».",
+          "verseDisplay": "23-24",
+          "endNumber": 24,
           "headings": [
             "Jacob se enriquece"
           ]
@@ -3360,7 +3468,9 @@
         },
         {
           "number": 31,
-          "text": "―¿Qué salario quieres que te pague? —volvió a preguntarle Labán. Jacob respondió: ―Si aceptas lo que te voy a decir, volveré a trabajar para ti. Déjame revisar tu ganado y apartar todos los corderos manchados, rayados y negros, lo mismo que todas las cabras manchadas y rayadas. Dame eso como salario."
+          "text": "―¿Qué salario quieres que te pague? —volvió a preguntarle Labán. Jacob respondió: ―Si aceptas lo que te voy a decir, volveré a trabajar para ti. Déjame revisar tu ganado y apartar todos los corderos manchados, rayados y negros, lo mismo que todas las cabras manchadas y rayadas. Dame eso como salario.",
+          "verseDisplay": "31-32",
+          "endNumber": 32
         },
         {
           "number": 33,
@@ -3372,7 +3482,9 @@
         },
         {
           "number": 35,
-          "text": "Ese mismo día Labán salió al campo y puso aparte todos los chivos que tenían pintas o manchas y las cabras que tenían algo de color o que tenían manchas o listas blancas, y todos los corderos negros. Labán entregó este ganado a sus hijos para que lo cuidaran. Después Labán se llevó el rebaño a unos sesenta kilómetros de distancia para alejarlos de Jacob, mientras este seguía cuidando el resto de los rebaños de Labán."
+          "text": "Ese mismo día Labán salió al campo y puso aparte todos los chivos que tenían pintas o manchas y las cabras que tenían algo de color o que tenían manchas o listas blancas, y todos los corderos negros. Labán entregó este ganado a sus hijos para que lo cuidaran. Después Labán se llevó el rebaño a unos sesenta kilómetros de distancia para alejarlos de Jacob, mientras este seguía cuidando el resto de los rebaños de Labán.",
+          "verseDisplay": "35-36",
+          "endNumber": 36
         },
         {
           "number": 37,
@@ -3384,7 +3496,9 @@
         },
         {
           "number": 39,
-          "text": "De modo que se apareaban delante de las varas y así las hembras parían ejemplares manchados, negros o rayados. Jacob apartaba estas crías y las colocaba frente a los animales rayados y negros del ganado de Labán."
+          "text": "De modo que se apareaban delante de las varas y así las hembras parían ejemplares manchados, negros o rayados. Jacob apartaba estas crías y las colocaba frente a los animales rayados y negros del ganado de Labán.",
+          "verseDisplay": "39-40",
+          "endNumber": 40
         },
         {
           "number": 41,
@@ -3449,7 +3563,9 @@
         },
         {
           "number": 12,
-          "text": "Entonces él me dijo: «Levanta la vista y observa que los machos que se unen a las hembras son manchados, rayados o moteados, porque estoy al tanto de lo que Labán te ha hecho. Yo soy el Dios que conociste en Betel, el lugar donde ungiste la piedra e hiciste voto de servirme. Deja ahora este país y vete a la tierra de tu nacimiento»."
+          "text": "Entonces él me dijo: «Levanta la vista y observa que los machos que se unen a las hembras son manchados, rayados o moteados, porque estoy al tanto de lo que Labán te ha hecho. Yo soy el Dios que conociste en Betel, el lugar donde ungiste la piedra e hiciste voto de servirme. Deja ahora este país y vete a la tierra de tu nacimiento».",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -3465,7 +3581,9 @@
         },
         {
           "number": 17,
-          "text": "Así fue que un día, mientras Labán se encontraba ausente trasquilando las ovejas, Jacob hizo que sus esposas e hijos montaran en los camellos. Además, tomó todos los ganados, junto con todas las riquezas que había conseguido en Padán Aram, y emprendió el viaje hacia Canaán, donde vivía su padre Isaac. Esto lo hizo sin que Labán se diera cuenta. Por su parte, Raquel le robó a Labán los ídolos de la familia. Esto lo hizo mientras Labán se encontraba en otro lugar esquilando las ovejas."
+          "text": "Así fue que un día, mientras Labán se encontraba ausente trasquilando las ovejas, Jacob hizo que sus esposas e hijos montaran en los camellos. Además, tomó todos los ganados, junto con todas las riquezas que había conseguido en Padán Aram, y emprendió el viaje hacia Canaán, donde vivía su padre Isaac. Esto lo hizo sin que Labán se diera cuenta. Por su parte, Raquel le robó a Labán los ídolos de la familia. Esto lo hizo mientras Labán se encontraba en otro lugar esquilando las ovejas.",
+          "verseDisplay": "17-20",
+          "endNumber": 20
         },
         {
           "number": 21,
@@ -3592,7 +3710,9 @@
         },
         {
           "number": 51,
-          "text": "Labán continuó diciéndole a Jacob: ―Mira bien, este montón de piedras y este pilar que he levantado entre tú y yo quedan como testigos de nuestros votos. Yo no cruzaré esta línea para atacarte, ni tú la cruzarás para atacarme."
+          "text": "Labán continuó diciéndole a Jacob: ―Mira bien, este montón de piedras y este pilar que he levantado entre tú y yo quedan como testigos de nuestros votos. Yo no cruzaré esta línea para atacarte, ni tú la cruzarás para atacarme.",
+          "verseDisplay": "51-52",
+          "endNumber": 52
         },
         {
           "number": 53,
@@ -3661,7 +3781,9 @@
         },
         {
           "number": 13,
-          "text": "Jacob pasó allí la noche y preparó un obsequio para su hermano Esaú: 200 cabras, 20 chivos, 200 ovejas, 20 carneros, 30 camellas paridas con sus crías, 40 vacas, 10 toros, 20 burras, 10 burros."
+          "text": "Jacob pasó allí la noche y preparó un obsequio para su hermano Esaú: 200 cabras, 20 chivos, 200 ovejas, 20 carneros, 30 camellas paridas con sus crías, 40 vacas, 10 toros, 20 burras, 10 burros.",
+          "verseDisplay": "13-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -3692,7 +3814,9 @@
         },
         {
           "number": 22,
-          "text": "Pero durante la noche, Jacob se levantó y despertó a sus dos esposas, a las concubinas y a los once hijos y los hizo cruzar el Jordán por el vado de Jaboc. Enseguida regresó al campamento y se quedó solo allí. Y un varón luchó con él hasta el alba."
+          "text": "Pero durante la noche, Jacob se levantó y despertó a sus dos esposas, a las concubinas y a los once hijos y los hizo cruzar el Jordán por el vado de Jaboc. Enseguida regresó al campamento y se quedó solo allí. Y un varón luchó con él hasta el alba.",
+          "verseDisplay": "22-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -3838,7 +3962,9 @@
         },
         {
           "number": 6,
-          "text": "Mientras tanto, Jamor, padre de Siquén, fue a hablar con Jacob. Llegó en el mismo momento en que los hijos de Jacob regresaban del campo. Al enterarse de lo sucedido se llenaron de ira, pues lo que Siquén hizo fue una ofensa muy grande para Israel. ¡Eso nunca debió haberlo hecho!"
+          "text": "Mientras tanto, Jamor, padre de Siquén, fue a hablar con Jacob. Llegó en el mismo momento en que los hijos de Jacob regresaban del campo. Al enterarse de lo sucedido se llenaron de ira, pues lo que Siquén hizo fue una ofensa muy grande para Israel. ¡Eso nunca debió haberlo hecho!",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -3846,7 +3972,9 @@
         },
         {
           "number": 9,
-          "text": "Aun más, los invitamos a que vivan entre nosotros y que las hijas de ustedes se casen con nuestros hijos, y nosotros daremos nuestras hijas a los jóvenes de ustedes. Podrán vivir en donde quieran en nuestra tierra, negociar en ella y enriquecerse."
+          "text": "Aun más, los invitamos a que vivan entre nosotros y que las hijas de ustedes se casen con nuestros hijos, y nosotros daremos nuestras hijas a los jóvenes de ustedes. Podrán vivir en donde quieran en nuestra tierra, negociar en ella y enriquecerse.",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -3866,7 +3994,9 @@
         },
         {
           "number": 15,
-          "text": "Ahora bien, si ustedes aceptan que todo varón entre ustedes se circuncide, entonces podremos darles nuestras hijas para que se casen con ellas. Además, nuestros hijos podrían casarse con las hijas de ustedes. Esa es la condición que les ponemos. Entonces nos quedaremos a vivir con ustedes y formaremos un solo pueblo."
+          "text": "Ahora bien, si ustedes aceptan que todo varón entre ustedes se circuncide, entonces podremos darles nuestras hijas para que se casen con ellas. Además, nuestros hijos podrían casarse con las hijas de ustedes. Esa es la condición que les ponemos. Entonces nos quedaremos a vivir con ustedes y formaremos un solo pueblo.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -3874,7 +4004,9 @@
         },
         {
           "number": 18,
-          "text": "Jamor y Siquén aceptaron gustosamente la propuesta. Y como Siquén estaba tan enamorado de Dina, no vaciló en circuncidarse inmediatamente. Siquén estaba seguro de que podría convencer a todos los hombres de la ciudad, pues gozaba del respeto de todos ellos."
+          "text": "Jamor y Siquén aceptaron gustosamente la propuesta. Y como Siquén estaba tan enamorado de Dina, no vaciló en circuncidarse inmediatamente. Siquén estaba seguro de que podría convencer a todos los hombres de la ciudad, pues gozaba del respeto de todos ellos.",
+          "verseDisplay": "18-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -3886,7 +4018,9 @@
         },
         {
           "number": 22,
-          "text": "Sin embargo, no aceptarán si no cumplimos una condición: que todo hombre entre nosotros sea circuncidado, al igual que ellos. Si hacemos esto, todo lo que ellos tienen será también nuestro, y la tierra se habrá enriquecido. Vamos, aprueben esto para que ellos se queden a vivir entre nosotros."
+          "text": "Sin embargo, no aceptarán si no cumplimos una condición: que todo hombre entre nosotros sea circuncidado, al igual que ellos. Si hacemos esto, todo lo que ellos tienen será también nuestro, y la tierra se habrá enriquecido. Vamos, aprueben esto para que ellos se queden a vivir entre nosotros.",
+          "verseDisplay": "22-23",
+          "endNumber": 23
         },
         {
           "number": 24,
@@ -3894,7 +4028,9 @@
         },
         {
           "number": 25,
-          "text": "Pero a los tres días de haberse circuncidado, es decir, cuando más dolor sentían, fueron sorprendidos por Simeón y Leví, hijos de Jacob y hermanos de Dina. En efecto, aprovechando esa circunstancia, Simeón y Leví agarraron sus espadas, entraron en la ciudad y mataron a todos los hombres, incluyendo a Siquén y a Jamor. Luego sacaron a Dina de la casa de Siquén, y regresaron al campamento."
+          "text": "Pero a los tres días de haberse circuncidado, es decir, cuando más dolor sentían, fueron sorprendidos por Simeón y Leví, hijos de Jacob y hermanos de Dina. En efecto, aprovechando esa circunstancia, Simeón y Leví agarraron sus espadas, entraron en la ciudad y mataron a todos los hombres, incluyendo a Siquén y a Jamor. Luego sacaron a Dina de la casa de Siquén, y regresaron al campamento.",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         },
         {
           "number": 27,
@@ -4034,7 +4170,9 @@
         },
         {
           "number": 28,
-          "text": "Isaac murió poco después a la avanzada edad de ciento ochenta años, y sus hijos Esaú y Jacob lo sepultaron."
+          "text": "Isaac murió poco después a la avanzada edad de ciento ochenta años, y sus hijos Esaú y Jacob lo sepultaron.",
+          "verseDisplay": "28-29",
+          "endNumber": 29
         }
       ]
     },
@@ -4047,7 +4185,9 @@
         },
         {
           "number": 2,
-          "text": "Esaú se casó con Ada (hija de Elón el hitita), con Aholibama (hija de Aná y nieta de Zibeón el heveo), y con Basemat (hija de Ismael y hermana de Nebayot). Estas tres mujeres eran de Canaán."
+          "text": "Esaú se casó con Ada (hija de Elón el hitita), con Aholibama (hija de Aná y nieta de Zibeón el heveo), y con Basemat (hija de Ismael y hermana de Nebayot). Estas tres mujeres eran de Canaán.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -4059,7 +4199,9 @@
         },
         {
           "number": 6,
-          "text": "La tierra no daba abasto para alimentar el ganado de Esaú y de Jacob. Por eso, Esaú tomó a sus esposas, sus niños, sus esclavos, todo su ganado y toda la riqueza que había obtenido en la tierra de Canaán, y se fue a vivir en la región montañosa de Seír, lejos de su hermano."
+          "text": "La tierra no daba abasto para alimentar el ganado de Esaú y de Jacob. Por eso, Esaú tomó a sus esposas, sus niños, sus esclavos, todo su ganado y toda la riqueza que había obtenido en la tierra de Canaán, y se fue a vivir en la región montañosa de Seír, lejos de su hermano.",
+          "verseDisplay": "6-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -4067,7 +4209,9 @@
         },
         {
           "number": 10,
-          "text": "Descendientes a través de Elifaz, hijo de su esposa Ada: Temán, Omar, Zefo, Gatán y Quenaz. Además, Elifaz tuvo otro hijo con su concubina Timná, al que llamó Amalec. Así que estos son los nietos de Esaú y Ada."
+          "text": "Descendientes a través de Elifaz, hijo de su esposa Ada: Temán, Omar, Zefo, Gatán y Quenaz. Además, Elifaz tuvo otro hijo con su concubina Timná, al que llamó Amalec. Así que estos son los nietos de Esaú y Ada.",
+          "verseDisplay": "10-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -4079,7 +4223,9 @@
         },
         {
           "number": 15,
-          "text": "Los nietos de Esaú fueron jefes de los siguientes clanes: El clan de Temán, el clan de Omar, el clan de Zefo, el clan de Quenaz, el clan de Coré, el clan de Gatán, el clan de Amalec. Estos clanes estaban formados por los descendientes de Elifaz, el hijo mayor de Esaú y Ada, y vivían en la tierra de Edom."
+          "text": "Los nietos de Esaú fueron jefes de los siguientes clanes: El clan de Temán, el clan de Omar, el clan de Zefo, el clan de Quenaz, el clan de Coré, el clan de Gatán, el clan de Amalec. Estos clanes estaban formados por los descendientes de Elifaz, el hijo mayor de Esaú y Ada, y vivían en la tierra de Edom.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -4095,7 +4241,9 @@
         },
         {
           "number": 20,
-          "text": "Las siguientes son las tribus que descendieron de Seír el horeo, una de las familias nativas de la tierra de Seír: La tribu de Lotán, la tribu de Sobal, la tribu de Zibeón, la tribu de Aná, la tribu de Disón, la tribu de Ezer y la tribu de Disán. Todos estos fueron jefes de los horeos, los cuales vivían en Edom."
+          "text": "Las siguientes son las tribus que descendieron de Seír el horeo, una de las familias nativas de la tierra de Seír: La tribu de Lotán, la tribu de Sobal, la tribu de Zibeón, la tribu de Aná, la tribu de Disón, la tribu de Ezer y la tribu de Disán. Todos estos fueron jefes de los horeos, los cuales vivían en Edom.",
+          "verseDisplay": "20-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -4128,17 +4276,23 @@
         {
           "number": 29,
           "text": "Los jefes de las tribus de los horeos fueron Lotán, Sobal, Zibeón, Aná, Disón, Ezer y Disán.",
+          "verseDisplay": "29-30",
+          "endNumber": 30,
           "headings": [
             "Los reyes de Edom"
           ]
         },
         {
           "number": 31,
-          "text": "Estos son los nombres de los reyes de Edom (antes que Israel tuviera su primer rey): El rey Bela (hijo de Beor), reinó en la ciudad de Dinaba, en Edom. Fue sucedido por el rey Jobab (hijo de Zera), del pueblo de Bosra. Este fue sucedido por el rey Jusán, de la tierra de Temán. A su muerte fue sucedido por el rey Hadad (el hijo de Bedad), caudillo de las fuerzas que derrotaron al ejército de Madián, en el campo de Moab. Su capital fue Avit. Este fue sucedido por el rey Samla, del pueblo de Masreca. Su sucesor fue el rey Saúl de Rejobot, junto al Éufrates. Fue sucedido por Baal Janán hijo de Acbor. Su sucesor fue el rey Hadad, de la ciudad de Pau. La esposa del rey Hadad fue Mehitabel hija de Matred y nieta de Mezab."
+          "text": "Estos son los nombres de los reyes de Edom (antes que Israel tuviera su primer rey): El rey Bela (hijo de Beor), reinó en la ciudad de Dinaba, en Edom. Fue sucedido por el rey Jobab (hijo de Zera), del pueblo de Bosra. Este fue sucedido por el rey Jusán, de la tierra de Temán. A su muerte fue sucedido por el rey Hadad (el hijo de Bedad), caudillo de las fuerzas que derrotaron al ejército de Madián, en el campo de Moab. Su capital fue Avit. Este fue sucedido por el rey Samla, del pueblo de Masreca. Su sucesor fue el rey Saúl de Rejobot, junto al Éufrates. Fue sucedido por Baal Janán hijo de Acbor. Su sucesor fue el rey Hadad, de la ciudad de Pau. La esposa del rey Hadad fue Mehitabel hija de Matred y nieta de Mezab.",
+          "verseDisplay": "31-39",
+          "endNumber": 39
         },
         {
           "number": 40,
-          "text": "Estos son los nombres de los clanes de Esaú, que vivieron en las localidades que llevan su nombre: El clan de Timná, el clan de Alvá, el clan de Jetet, el clan de Aholibama, el clan de Elá, el clan de Pinón, el clan de Quenaz, el clan de Temán, el clan de Mibzar, el clan de Magdiel y el clan de Iram. Estos son, pues, los nombres de los jefes de Edom, cada uno de los cuales dio su nombre a la región en que vivían (todos eran edomitas, descendientes de Edom, que es el mismo Esaú)."
+          "text": "Estos son los nombres de los clanes de Esaú, que vivieron en las localidades que llevan su nombre: El clan de Timná, el clan de Alvá, el clan de Jetet, el clan de Aholibama, el clan de Elá, el clan de Pinón, el clan de Quenaz, el clan de Temán, el clan de Mibzar, el clan de Magdiel y el clan de Iram. Estos son, pues, los nombres de los jefes de Edom, cada uno de los cuales dio su nombre a la región en que vivían (todos eran edomitas, descendientes de Edom, que es el mismo Esaú).",
+          "verseDisplay": "40-43",
+          "endNumber": 43
         }
       ]
     },
@@ -4198,7 +4352,9 @@
         },
         {
           "number": 13,
-          "text": "Pocos días después Israel llamó a José y le dijo: ―Tus hermanos están en Siquén apacentando el ganado. Anda a ver cómo están ellos y el ganado, y vuelve a avisarme. ―Muy bien —respondió José. Entonces José salió del valle de Hebrón y se dirigió a Siquén."
+          "text": "Pocos días después Israel llamó a José y le dijo: ―Tus hermanos están en Siquén apacentando el ganado. Anda a ver cómo están ellos y el ganado, y vuelve a avisarme. ―Muy bien —respondió José. Entonces José salió del valle de Hebrón y se dirigió a Siquén.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -4218,11 +4374,15 @@
         },
         {
           "number": 19,
-          "text": "―¡Ahí viene el soñador! —exclamaron—. Vamos, matémoslo y echémoslo en una cisterna. Luego le diremos a nuestro padre que algún animal salvaje se lo comió. ¡Veremos en qué paran sus sueños!"
+          "text": "―¡Ahí viene el soñador! —exclamaron—. Vamos, matémoslo y echémoslo en una cisterna. Luego le diremos a nuestro padre que algún animal salvaje se lo comió. ¡Veremos en qué paran sus sueños!",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         },
         {
           "number": 21,
-          "text": "Cuando Rubén escuchó esto, intentó salvarle la vida a José. ―No lo matemos —dijo—; no debemos derramar sangre. Echémoslo vivo dentro de la cisterna. Así morirá sin que lo toquemos. El plan de Rubén era sacarlo más tarde y enviarlo a casa de su padre."
+          "text": "Cuando Rubén escuchó esto, intentó salvarle la vida a José. ―No lo matemos —dijo—; no debemos derramar sangre. Echémoslo vivo dentro de la cisterna. Así morirá sin que lo toquemos. El plan de Rubén era sacarlo más tarde y enviarlo a casa de su padre.",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -4238,7 +4398,9 @@
         },
         {
           "number": 26,
-          "text": "―¡Miren! —dijo Judá a los demás—. Allá vienen unos ismaelitas. ¡Vendámosles a José! ¿Para qué hemos de matarlo y cargar con esta culpa en la conciencia? No seamos responsables de su muerte porque, después de todo, es nuestro hermano. Todos los hermanos estuvieron de acuerdo."
+          "text": "―¡Miren! —dijo Judá a los demás—. Allá vienen unos ismaelitas. ¡Vendámosles a José! ¿Para qué hemos de matarlo y cargar con esta culpa en la conciencia? No seamos responsables de su muerte porque, después de todo, es nuestro hermano. Todos los hermanos estuvieron de acuerdo.",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -4460,7 +4622,9 @@
         },
         {
           "number": 14,
-          "text": "comenzó a gritar. Cuando los otros hombres que estaban cerca llegaron corriendo para ver lo que ocurría, ella comenzó a gritar histéricamente. ―¡Mi marido tenía que traer a ese esclavo hebreo para que nos insultara! —dijo llorando—. Trató de violarme, pero cuando grité, huyó y olvidó llevarse el manto."
+          "text": "comenzó a gritar. Cuando los otros hombres que estaban cerca llegaron corriendo para ver lo que ocurría, ella comenzó a gritar histéricamente. ―¡Mi marido tenía que traer a ese esclavo hebreo para que nos insultara! —dijo llorando—. Trató de violarme, pero cuando grité, huyó y olvidó llevarse el manto.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -4505,7 +4669,9 @@
         },
         {
           "number": 2,
-          "text": "Por eso, el faraón se enojó con ellos y los mandó a la misma cárcel en donde estaba José, es decir, en la casa del capitán de la guardia."
+          "text": "Por eso, el faraón se enojó con ellos y los mandó a la misma cárcel en donde estaba José, es decir, en la casa del capitán de la guardia.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -4529,7 +4695,9 @@
         },
         {
           "number": 9,
-          "text": "El primero en contar su sueño fue el jefe de los coperos: ―En mi sueño vi una vid con tres ramas que brotaron, florecieron y luego dieron racimos de uva madura."
+          "text": "El primero en contar su sueño fue el jefe de los coperos: ―En mi sueño vi una vid con tres ramas que brotaron, florecieron y luego dieron racimos de uva madura.",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -4722,7 +4890,9 @@
         },
         {
           "number": 34,
-          "text": "Su Majestad, divida a Egipto en cinco distritos administrativos, y haga que los oficiales de estos distritos reúnan en los graneros reales todo el excedente de los próximos siete años,"
+          "text": "Su Majestad, divida a Egipto en cinco distritos administrativos, y haga que los oficiales de estos distritos reúnan en los graneros reales todo el excedente de los próximos siete años,",
+          "verseDisplay": "34-35",
+          "endNumber": 35
         },
         {
           "number": 36,
@@ -4749,7 +4919,9 @@
         },
         {
           "number": 41,
-          "text": "Entonces el faraón colocó en el dedo de José el anillo con el sello real, como señal de su autoridad, lo vistió con ropas muy finas y le puso la cadena real de oro en el cuello, y proclamó: ―¡Mira que hoy te pongo a cargo de toda la tierra de Egipto!"
+          "text": "Entonces el faraón colocó en el dedo de José el anillo con el sello real, como señal de su autoridad, lo vistió con ropas muy finas y le puso la cadena real de oro en el cuello, y proclamó: ―¡Mira que hoy te pongo a cargo de toda la tierra de Egipto!",
+          "verseDisplay": "41-42",
+          "endNumber": 42
         },
         {
           "number": 43,
@@ -4846,7 +5018,9 @@
         },
         {
           "number": 8,
-          "text": "José recordó los sueños que había tenido cuando todavía vivía con ellos, y les dijo: ―¡Ustedes son espías! ¡Han venido a ver si nuestra tierra se ha debilitado con la escasez!"
+          "text": "José recordó los sueños que había tenido cuando todavía vivía con ellos, y les dijo: ―¡Ustedes son espías! ¡Han venido a ver si nuestra tierra se ha debilitado con la escasez!",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -4979,7 +5153,9 @@
         },
         {
           "number": 3,
-          "text": "Pero Judá le dijo: ―Aquel hombre no estaba bromeando cuando dijo: “No regresen, a menos que su hermano venga con ustedes”. Así que no podemos ir, a menos que dejes que Benjamín vaya con nosotros."
+          "text": "Pero Judá le dijo: ―Aquel hombre no estaba bromeando cuando dijo: “No regresen, a menos que su hermano venga con ustedes”. Así que no podemos ir, a menos que dejes que Benjamín vaya con nosotros.",
+          "verseDisplay": "3-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -5043,7 +5219,9 @@
         },
         {
           "number": 21,
-          "text": "al volver a nuestra tierra, nos detuvimos en un lugar a pasar la noche, abrimos nuestros costales y encontramos el dinero que habíamos pagado por el trigo. Aquí está; lo trajimos para devolverlo, además del dinero necesario para comprar más alimento. ¡No tenemos idea de cómo llegó el dinero a nuestros costales!"
+          "text": "al volver a nuestra tierra, nos detuvimos en un lugar a pasar la noche, abrimos nuestros costales y encontramos el dinero que habíamos pagado por el trigo. Aquí está; lo trajimos para devolverlo, además del dinero necesario para comprar más alimento. ¡No tenemos idea de cómo llegó el dinero a nuestros costales!",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -5216,7 +5394,9 @@
         },
         {
           "number": 30,
-          "text": "»Ahora, señor, si regresamos a nuestro padre sin nuestro hermano menor, de seguro se morirá de tristeza, pues está muy apegado a este muchacho. En ese caso, nosotros seremos los culpables de la muerte de nuestro padre."
+          "text": "»Ahora, señor, si regresamos a nuestro padre sin nuestro hermano menor, de seguro se morirá de tristeza, pues está muy apegado a este muchacho. En ese caso, nosotros seremos los culpables de la muerte de nuestro padre.",
+          "verseDisplay": "30-31",
+          "endNumber": 31
         },
         {
           "number": 32,
@@ -5277,7 +5457,9 @@
         },
         {
           "number": 11,
-          "text": "Yo te cuidaré’ ”. Ustedes son testigos de mi promesa, y mi hermano Benjamín me ha oído decirlo. Díganle a mi padre que todavía quedan cinco años de escasez. Si no hacen lo que les digo, quedarán en la completa pobreza ustedes y sus familias. Cuéntenle a mi padre todo el poder que tengo en Egipto y cómo todos me obedecen. Hagan que él venga pronto a verme."
+          "text": "Yo te cuidaré’ ”. Ustedes son testigos de mi promesa, y mi hermano Benjamín me ha oído decirlo. Díganle a mi padre que todavía quedan cinco años de escasez. Si no hacen lo que les digo, quedarán en la completa pobreza ustedes y sus familias. Cuéntenle a mi padre todo el poder que tengo en Egipto y cómo todos me obedecen. Hagan que él venga pronto a verme.",
+          "verseDisplay": "11-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -5374,7 +5556,9 @@
         },
         {
           "number": 8,
-          "text": "Estos son los nombres de los hijos y nietos de Jacob que fueron con él a Egipto: Rubén, su primogénito. Los hijos de Rubén: Janoc, Falú, Jezrón y Carmí. Simeón y sus hijos: Jemuel, Jamín, Oad, Jaquín, Zojar y Saúl (cuya madre era una cananea). Leví y sus hijos: Guersón, Coat y Merari. Judá y sus hijos: Er, Onán, Selá, Fares y Zera (pero Er y Onán murieron cuando todavía estaban en Canaán, antes de que Israel fuera a Egipto). Los hijos de Fares fueron Jezrón y Jamul. Isacar y sus hijos: Tola, Fuvá, Job y Simrón. Zabulón y sus hijos: Séred, Elón y Yalel."
+          "text": "Estos son los nombres de los hijos y nietos de Jacob que fueron con él a Egipto: Rubén, su primogénito. Los hijos de Rubén: Janoc, Falú, Jezrón y Carmí. Simeón y sus hijos: Jemuel, Jamín, Oad, Jaquín, Zojar y Saúl (cuya madre era una cananea). Leví y sus hijos: Guersón, Coat y Merari. Judá y sus hijos: Er, Onán, Selá, Fares y Zera (pero Er y Onán murieron cuando todavía estaban en Canaán, antes de que Israel fuera a Egipto). Los hijos de Fares fueron Jezrón y Jamul. Isacar y sus hijos: Tola, Fuvá, Job y Simrón. Zabulón y sus hijos: Séred, Elón y Yalel.",
+          "verseDisplay": "8-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -5382,7 +5566,9 @@
         },
         {
           "number": 16,
-          "text": "También fueron con él: Gad y sus hijos: Zefón, Jaguí, Esbón, Suni, Erí, Arodí y Arelí. Aser y sus hijos: Imná, Isvá, Isví, Beriá, y Sera, hermana de ellos. Los hijos de Beriá fueron Héber y Malquiel."
+          "text": "También fueron con él: Gad y sus hijos: Zefón, Jaguí, Esbón, Suni, Erí, Arodí y Arelí. Aser y sus hijos: Imná, Isvá, Isví, Beriá, y Sera, hermana de ellos. Los hijos de Beriá fueron Héber y Malquiel.",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         },
         {
           "number": 18,
@@ -5390,11 +5576,15 @@
         },
         {
           "number": 19,
-          "text": "Los siguientes son los descendientes de Jacob y Raquel: José y Benjamín. Los hijos de José, que nacieron en Egipto, fueron Manasés y Efraín (la madre de ellos fue Asenat, hija de Potifera, sacerdote de Heliópolis). Los hijos de Benjamín: Bela, Béquer, Asbel, Guerá, Naamán, Ehí, Ros, Mupín, Jupín y Ard. En total, los descendientes de Jacob y Raquel fueron catorce personas."
+          "text": "Los siguientes son los descendientes de Jacob y Raquel: José y Benjamín. Los hijos de José, que nacieron en Egipto, fueron Manasés y Efraín (la madre de ellos fue Asenat, hija de Potifera, sacerdote de Heliópolis). Los hijos de Benjamín: Bela, Béquer, Asbel, Guerá, Naamán, Ehí, Ros, Mupín, Jupín y Ard. En total, los descendientes de Jacob y Raquel fueron catorce personas.",
+          "verseDisplay": "19-22",
+          "endNumber": 22
         },
         {
           "number": 23,
-          "text": "Además, en el grupo estaban estos siete descendientes de Jacob y Bilhá, la esclava que Raquel recibió de su padre Labán: Dan y su hijo Jusín; Neftalí y sus hijos: Yazel, Guní, Jéser y Silén."
+          "text": "Además, en el grupo estaban estos siete descendientes de Jacob y Bilhá, la esclava que Raquel recibió de su padre Labán: Dan y su hijo Jusín; Neftalí y sus hijos: Yazel, Guní, Jéser y Silén.",
+          "verseDisplay": "23-25",
+          "endNumber": 25
         },
         {
           "number": 26,
@@ -5455,7 +5645,9 @@
         },
         {
           "number": 5,
-          "text": "El faraón le dijo a José: ―Escoge el lugar que tú quieras para que vivan ellos. Dales la mejor tierra de Egipto. La tierra de Gosén es buena. Y si alguno de ellos quiere, ponlo a cargo de mis rebaños también."
+          "text": "El faraón le dijo a José: ―Escoge el lugar que tú quieras para que vivan ellos. Dales la mejor tierra de Egipto. La tierra de Gosén es buena. Y si alguno de ellos quiere, ponlo a cargo de mis rebaños también.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -5611,7 +5803,9 @@
         },
         {
           "number": 12,
-          "text": "José tomó a sus hijos de la mano, se inclinó delante de su padre, e hizo que los muchachos se postraran delante de su abuelo: Efraín a la izquierda de Israel y Manasés a su derecha."
+          "text": "José tomó a sus hijos de la mano, se inclinó delante de su padre, e hizo que los muchachos se postraran delante de su abuelo: Efraín a la izquierda de Israel y Manasés a su derecha.",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -5771,7 +5965,9 @@
         },
         {
           "number": 29,
-          "text": "Además les dijo: ―Ya voy a morir. Deben sepultarme con mis padres en la tierra de Canaán, en la cueva del campo de Macpela, frente a Mamré, el campo que Abraham le compró a Efrón el hitita, como propiedad para sepulturas."
+          "text": "Además les dijo: ―Ya voy a morir. Deben sepultarme con mis padres en la tierra de Canaán, en la cueva del campo de Macpela, frente a Mamré, el campo que Abraham le compró a Efrón el hitita, como propiedad para sepulturas.",
+          "verseDisplay": "29-30",
+          "endNumber": 30
         },
         {
           "number": 31,
@@ -5816,7 +6012,9 @@
         },
         {
           "number": 7,
-          "text": "Entonces José fue a enterrar a su padre. Con él fueron su familia, sus hermanos y el resto de la familia de Jacob. En Gosén sólo dejaron a los niños, las ovejas y las vacas. Además, los acompañaron un gran número de funcionarios y consejeros del faraón, y los hombres importantes de Egipto."
+          "text": "Entonces José fue a enterrar a su padre. Con él fueron su familia, sus hermanos y el resto de la familia de Jacob. En Gosén sólo dejaron a los niños, las ovejas y las vacas. Además, los acompañaron un gran número de funcionarios y consejeros del faraón, y los hombres importantes de Egipto.",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -5832,7 +6030,9 @@
         },
         {
           "number": 12,
-          "text": "De modo que, de acuerdo con las órdenes de Israel, sus hijos llevaron su cuerpo a la tierra de Canaán y lo sepultaron en la cueva de Macpela, la cueva que Abraham había comprado en el campo de Efrón el hitita, cerca de Mamré."
+          "text": "De modo que, de acuerdo con las órdenes de Israel, sus hijos llevaron su cuerpo a la tierra de Canaán y lo sepultaron en la cueva de Macpela, la cueva que Abraham había comprado en el campo de Efrón el hitita, cerca de Mamré.",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,

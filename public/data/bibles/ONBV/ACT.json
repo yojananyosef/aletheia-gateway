@@ -67,7 +67,9 @@
         },
         {
           "number": 13,
-          "text": "Allí, en el aposento alto de la casa, se reunieron para orar. Estuvieron presentes: Pedro, Juan, Santiago, Andrés, Felipe, Tomás, Bartolomé, Mateo, Santiago el hijo de Alfeo, Simón el Zelote, Judas el hijo de Santiago y los hermanos de Jesús, además de varias mujeres, entre las que se encontraba la madre de Jesús."
+          "text": "Allí, en el aposento alto de la casa, se reunieron para orar. Estuvieron presentes: Pedro, Juan, Santiago, Andrés, Felipe, Tomás, Bartolomé, Mateo, Santiago el hijo de Alfeo, Simón el Zelote, Judas el hijo de Santiago y los hermanos de Jesús, además de varias mujeres, entre las que se encontraba la madre de Jesús.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -148,7 +150,9 @@
         },
         {
           "number": 7,
-          "text": "―¿Cómo es posible? —exclamaban—. ¡Estos hombres son galileos y, sin embargo, los escuchamos hablar en el idioma que se habla en los países en que hemos nacido!"
+          "text": "―¿Cómo es posible? —exclamaban—. ¡Estos hombres son galileos y, sin embargo, los escuchamos hablar en el idioma que se habla en los países en que hemos nacido!",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -546,7 +550,9 @@
         },
         {
           "number": 29,
-          "text": "»Ahora, oh Señor, mira sus amenazas y concede a tus siervos que con confianza prediquen tu palabra; y envía tu poder sanador para que muchos milagros y maravillas se realicen en el nombre de tu santo hijo, Jesús»."
+          "text": "»Ahora, oh Señor, mira sus amenazas y concede a tus siervos que con confianza prediquen tu palabra; y envía tu poder sanador para que muchos milagros y maravillas se realicen en el nombre de tu santo hijo, Jesús».",
+          "verseDisplay": "29-30",
+          "endNumber": 30
         },
         {
           "number": 31,
@@ -565,7 +571,9 @@
         },
         {
           "number": 34,
-          "text": "No existía entre ellos ningún necesitado, porque los dueños de haciendas o casas las vendían y entregaban el dinero a los apóstoles para repartirlo entre los pobres."
+          "text": "No existía entre ellos ningún necesitado, porque los dueños de haciendas o casas las vendían y entregaban el dinero a los apóstoles para repartirlo entre los pobres.",
+          "verseDisplay": "34-35",
+          "endNumber": 35
         },
         {
           "number": 36,
@@ -1453,7 +1461,9 @@
         },
         {
           "number": 5,
-          "text": "Envía varios hombres a Jope en busca de un hombre llamado Simón Pedro, que está alojado en casa de Simón el curtidor, junto al mar, y pídele que te venga a visitar."
+          "text": "Envía varios hombres a Jope en busca de un hombre llamado Simón Pedro, que está alojado en casa de Simón el curtidor, junto al mar, y pídele que te venga a visitar.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -1579,7 +1589,9 @@
         },
         {
           "number": 36,
-          "text": "Estoy seguro de que ya ustedes habrán oído hablar de las buenas noticias que recibió el pueblo de Israel sobre la paz con Dios, que se puede obtener mediante Jesús el Mesías, Señor de todos. Este mensaje empezó en Galilea y ha estado resonando en Judea desde que Juan el Bautista comenzó a predicar el bautismo."
+          "text": "Estoy seguro de que ya ustedes habrán oído hablar de las buenas noticias que recibió el pueblo de Israel sobre la paz con Dios, que se puede obtener mediante Jesús el Mesías, Señor de todos. Este mensaje empezó en Galilea y ha estado resonando en Judea desde que Juan el Bautista comenzó a predicar el bautismo.",
+          "verseDisplay": "36-37",
+          "endNumber": 37
         },
         {
           "number": 38,
@@ -1938,7 +1950,9 @@
         },
         {
           "number": 17,
-          "text": "El Dios de la nación israelita escogió a nuestros antepasados y, después de enaltecerlos en Egipto, rescatándolos milagrosamente de la esclavitud, los estuvo alimentando durante cuarenta años en el desierto."
+          "text": "El Dios de la nación israelita escogió a nuestros antepasados y, después de enaltecerlos en Egipto, rescatándolos milagrosamente de la esclavitud, los estuvo alimentando durante cuarenta años en el desierto.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -1994,7 +2008,9 @@
         },
         {
           "number": 32,
-          "text": "»Nosotros hemos venido aquí para darles a conocer la buena noticia de que Dios, al resucitar a Jesús, ha cumplido la promesa que les había hecho a nuestros antepasados, y la ha hecho realidad para nosotros. El salmo segundo expresa lo siguiente: »“Tú eres mi hijo; hoy mismo te he engendrado”."
+          "text": "»Nosotros hemos venido aquí para darles a conocer la buena noticia de que Dios, al resucitar a Jesús, ha cumplido la promesa que les había hecho a nuestros antepasados, y la ha hecho realidad para nosotros. El salmo segundo expresa lo siguiente: »“Tú eres mi hijo; hoy mismo te he engendrado”.",
+          "verseDisplay": "32-33",
+          "endNumber": 33
         },
         {
           "number": 34,
@@ -2014,7 +2030,9 @@
         },
         {
           "number": 38,
-          "text": "¡Hermanos! ¡Escúchenme! ¡Por medio de Jesús se les anuncia el perdón de los pecados! A cualquiera que crea en él se le declara justo, lo cual la ley de Moisés nunca pudo hacer."
+          "text": "¡Hermanos! ¡Escúchenme! ¡Por medio de Jesús se les anuncia el perdón de los pecados! A cualquiera que crea en él se le declara justo, lo cual la ley de Moisés nunca pudo hacer.",
+          "verseDisplay": "38-39",
+          "endNumber": 39
         },
         {
           "number": 40,
@@ -2360,7 +2378,9 @@
         },
         {
           "number": 40,
-          "text": "mientras que Pablo escogió a Silas. Luego, los hermanos los encomendaron a la gracia del Señor, y Pablo partió hacia Siria y Cilicia para alentar a las iglesias."
+          "text": "mientras que Pablo escogió a Silas. Luego, los hermanos los encomendaron a la gracia del Señor, y Pablo partió hacia Siria y Cilicia para alentar a las iglesias.",
+          "verseDisplay": "40-41",
+          "endNumber": 41
         }
       ]
     },
@@ -2454,7 +2474,9 @@
         },
         {
           "number": 20,
-          "text": "―Estos judíos están corrompiendo nuestra ciudad —dijeron—. Están enseñándole al pueblo costumbres contrarias a las romanas."
+          "text": "―Estos judíos están corrompiendo nuestra ciudad —dijeron—. Están enseñándole al pueblo costumbres contrarias a las romanas.",
+          "verseDisplay": "20-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -2617,7 +2639,9 @@
         },
         {
           "number": 19,
-          "text": "Y lo invitaron a ir al Areópago. ―Ven y cuéntanos acerca de esa nueva religión —le dijeron—, porque has estado diciendo algunas cosas raras y quisiéramos entenderlas."
+          "text": "Y lo invitaron a ir al Areópago. ―Ven y cuéntanos acerca de esa nueva religión —le dijeron—, porque has estado diciendo algunas cosas raras y quisiéramos entenderlas.",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         },
         {
           "number": 21,
@@ -2904,7 +2928,9 @@
         },
         {
           "number": 24,
-          "text": "Demetrio, platero que tenía empleado un grupo de artífices que hacían templecillos de Artemisa, la diosa griega, reunió a sus empleados y a varias otras personas que se dedicaban al mismo oficio, y les dijo: ―Señores, nosotros nos ganamos la vida en este negocio."
+          "text": "Demetrio, platero que tenía empleado un grupo de artífices que hacían templecillos de Artemisa, la diosa griega, reunió a sus empleados y a varias otras personas que se dedicaban al mismo oficio, y les dijo: ―Señores, nosotros nos ganamos la vida en este negocio.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
@@ -2916,7 +2942,9 @@
         },
         {
           "number": 28,
-          "text": "Al decir esto, sus oyentes montaron en cólera y comenzaron a gritar: ―¡Grande es Artemisa de los efesios! La ciudad entera estuvo llena de confusión. Entonces una turba se apoderó de Gayo y Aristarco, macedonios compañeros de Pablo, y los llevaron al anfiteatro."
+          "text": "Al decir esto, sus oyentes montaron en cólera y comenzaron a gritar: ―¡Grande es Artemisa de los efesios! La ciudad entera estuvo llena de confusión. Entonces una turba se apoderó de Gayo y Aristarco, macedonios compañeros de Pablo, y los llevaron al anfiteatro.",
+          "verseDisplay": "28-29",
+          "endNumber": 29
         },
         {
           "number": 30,
@@ -3612,7 +3640,9 @@
         },
         {
           "number": 6,
-          "text": "También trató de profanar el templo, y por eso lo arrestamos."
+          "text": "También trató de profanar el templo, y por eso lo arrestamos.",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -3824,7 +3854,9 @@
         },
         {
           "number": 2,
-          "text": "―Rey Agripa, me alegra el estar hoy ante usted, para defenderme de las acusaciones que han hecho contra mí los judíos. Por eso le ruego que me escuche con paciencia."
+          "text": "―Rey Agripa, me alegra el estar hoy ante usted, para defenderme de las acusaciones que han hecho contra mí los judíos. Por eso le ruego que me escuche con paciencia.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -4250,7 +4282,9 @@
         },
         {
           "number": 28,
-          "text": "»Quiero que sepan que esta salvación de Dios se ha enviado a los que no son judíos, y ellos sí escucharán»."
+          "text": "»Quiero que sepan que esta salvación de Dios se ha enviado a los que no son judíos, y ellos sí escucharán».",
+          "verseDisplay": "28-29",
+          "endNumber": 29
         },
         {
           "number": 30,

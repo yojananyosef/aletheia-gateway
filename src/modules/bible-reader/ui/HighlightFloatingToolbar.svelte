@@ -36,6 +36,7 @@
   let selectedBook = $state('Génesis');
   let selectedChapter = $state(1);
   let selectedVerse = $state<number | undefined>(undefined);
+  let selectedVerseDisplay = $state<string | undefined>(undefined);
   let selectedTranslation = $state<string | undefined>(undefined);
   let activeHighlightId = $state<string | null>(null);
 
@@ -57,6 +58,7 @@
       selectedChapter = parseInt(el.getAttribute('data-chapter') || '1', 10);
       const v = el.getAttribute('data-verse');
       selectedVerse = v ? parseInt(v, 10) : undefined;
+      selectedVerseDisplay = el.getAttribute('data-verse-display') || (v ? v : undefined);
       selectedTranslation = el.getAttribute('data-translation') || undefined;
     }
   }
@@ -117,8 +119,9 @@
     if (!selectedText) return;
 
     try {
-      const ref = selectedVerse
-        ? `${selectedBook} ${selectedChapter}:${selectedVerse}`
+      const verseLabel = selectedVerseDisplay || selectedVerse;
+      const ref = verseLabel
+        ? `${selectedBook} ${selectedChapter}:${verseLabel}`
         : `${selectedBook} ${selectedChapter}`;
 
       await highlightRepo.save({
@@ -159,8 +162,9 @@
 
   async function handleCopy() {
     if (selectedText) {
-      const ref = selectedVerse
-        ? `${selectedBook} ${selectedChapter}:${selectedVerse}`
+      const verseLabel = selectedVerseDisplay || selectedVerse;
+      const ref = verseLabel
+        ? `${selectedBook} ${selectedChapter}:${verseLabel}`
         : activeReference;
       const fullCitation = `"${selectedText}" — ${ref}`;
       await navigator.clipboard.writeText(fullCitation);
@@ -174,8 +178,9 @@
 
   async function handleSaveBookmark() {
     try {
-      const ref = selectedVerse
-        ? `${selectedBook} ${selectedChapter}:${selectedVerse}`
+      const verseLabel = selectedVerseDisplay || selectedVerse;
+      const ref = verseLabel
+        ? `${selectedBook} ${selectedChapter}:${verseLabel}`
         : activeReference;
 
       await bookmarkRepo.save({
@@ -198,8 +203,9 @@
   }
 
   function handleOpenNote() {
-    const ref = selectedVerse
-      ? `${selectedBook} ${selectedChapter}:${selectedVerse}`
+    const verseLabel = selectedVerseDisplay || selectedVerse;
+    const ref = verseLabel
+      ? `${selectedBook} ${selectedChapter}:${verseLabel}`
       : activeReference;
 
     onOpenNoteModal?.({

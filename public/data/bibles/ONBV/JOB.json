@@ -13,7 +13,9 @@
         },
         {
           "number": 2,
-          "text": "Tenía una familia grande formada por siete hijos y tres hijas, y era inmensamente rico, pues poseía siete mil ovejas, tres mil camellos, quinientas yuntas de bueyes, quinientas burras, y muchísimos siervos. Era en efecto el más rico hacendado de toda aquella región."
+          "text": "Tenía una familia grande formada por siete hijos y tres hijas, y era inmensamente rico, pues poseía siete mil ovejas, tres mil camellos, quinientas yuntas de bueyes, quinientas burras, y muchísimos siervos. Era en efecto el más rico hacendado de toda aquella región.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -52,11 +54,15 @@
         },
         {
           "number": 12,
-          "text": "El Señor replicó al ángel acusador: ―Tienes permiso para hacer con su riqueza lo que quieras; pero no lo perjudiques en su cuerpo. Entonces el ángel acusador se fue; y como era de esperarse, no mucho después, en un banquete que los hijos e hijas de Job tuvieron en casa del hermano mayor, ocurrió la tragedia."
+          "text": "El Señor replicó al ángel acusador: ―Tienes permiso para hacer con su riqueza lo que quieras; pero no lo perjudiques en su cuerpo. Entonces el ángel acusador se fue; y como era de esperarse, no mucho después, en un banquete que los hijos e hijas de Job tuvieron en casa del hermano mayor, ocurrió la tragedia.",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,
-          "text": "Llegó corriendo a casa de Job un mensajero con esta noticia: ―Estaban sus bueyes arando, y las burras pastaban junto a ellos, cuando nos asaltaron los sabeanos, se llevaron los animales y mataron a los demás siervos. ¡Sólo yo escapé!"
+          "text": "Llegó corriendo a casa de Job un mensajero con esta noticia: ―Estaban sus bueyes arando, y las burras pastaban junto a ellos, cuando nos asaltaron los sabeanos, se llevaron los animales y mataron a los demás siervos. ¡Sólo yo escapé!",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -105,7 +111,9 @@
         },
         {
           "number": 4,
-          "text": "―¿Y qué si lo perjudico en carne propia? —respondió el acusador—. El hombre dará cualquier cosa por salvar su vida. ¡Dáñalo con una enfermedad, y te maldecirá en tu propia cara!"
+          "text": "―¿Y qué si lo perjudico en carne propia? —respondió el acusador—. El hombre dará cualquier cosa por salvar su vida. ¡Dáñalo con una enfermedad, y te maldecirá en tu propia cara!",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -153,7 +161,9 @@
         },
         {
           "number": 2,
-          "text": "«Maldito sea el día en que nací —dijo— y la noche en que fui concebido."
+          "text": "«Maldito sea el día en que nací —dijo— y la noche en que fui concebido.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -197,7 +207,9 @@
         },
         {
           "number": 14,
-          "text": "junto con dignatarios y reyes con toda su pompa; con opulentos príncipes cuyos castillos están llenos de ricos tesoros."
+          "text": "junto con dignatarios y reyes con toda su pompa; con opulentos príncipes cuyos castillos están llenos de ricos tesoros.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -217,7 +229,9 @@
         },
         {
           "number": 20,
-          "text": "»¡Ay! ¿Por qué dar luz y vida a quienes yacen en aflicción y amargura, que suspiran por la muerte, y no llega; que buscan la muerte como otros buscan alimento o dinero?"
+          "text": "»¡Ay! ¿Por qué dar luz y vida a quienes yacen en aflicción y amargura, que suspiran por la muerte, y no llega; que buscan la muerte como otros buscan alimento o dinero?",
+          "verseDisplay": "20-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -254,7 +268,9 @@
         },
         {
           "number": 3,
-          "text": "En tiempos pasados aconsejaste a más de un alma acongojada que confiara en Dios y has alentado a los débiles o vacilantes, y a quienes yacían decaídos o tentados a desesperar."
+          "text": "En tiempos pasados aconsejaste a más de un alma acongojada que confiara en Dios y has alentado a los débiles o vacilantes, y a quienes yacían decaídos o tentados a desesperar.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -266,7 +282,9 @@
         },
         {
           "number": 7,
-          "text": "»¡Ponte a pensar! ¿Viste alguna vez a una persona genuinamente buena e inocente que haya sido castigada? La experiencia enseña que los que siembran pecado y problemas son quienes los cosechan."
+          "text": "»¡Ponte a pensar! ¿Viste alguna vez a una persona genuinamente buena e inocente que haya sido castigada? La experiencia enseña que los que siembran pecado y problemas son quienes los cosechan.",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -306,7 +324,9 @@
         },
         {
           "number": 18,
-          "text": "Si Dios no puede confiar en sus propios siervos y aun a sus ángeles acusa de cometer errores, ¡cuánto más a los que habitan en casas de barro, cimentadas sobre el polvo y aplastadas como polillas!"
+          "text": "Si Dios no puede confiar en sus propios siervos y aun a sus ángeles acusa de cometer errores, ¡cuánto más a los que habitan en casas de barro, cimentadas sobre el polvo y aplastadas como polillas!",
+          "verseDisplay": "18-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -452,11 +472,15 @@
         },
         {
           "number": 5,
-          "text": "Si el burro montés rebuzna, es que el pasto se le ha agotado; no mugen los bueyes cuando tienen alimento; el hombre se queja cuando su comida está sin sal. Y ¡qué insípida es la clara del huevo cruda! Pierdo el apetito con sólo mirarla; siento náuseas con sólo pensar en comerla."
+          "text": "Si el burro montés rebuzna, es que el pasto se le ha agotado; no mugen los bueyes cuando tienen alimento; el hombre se queja cuando su comida está sin sal. Y ¡qué insípida es la clara del huevo cruda! Pierdo el apetito con sólo mirarla; siento náuseas con sólo pensar en comerla.",
+          "verseDisplay": "5-7",
+          "endNumber": 7
         },
         {
           "number": 8,
-          "text": "»¡Ay, que Dios me diera lo que más deseo: morir bajo su mano, y no sentir más su puño que me aprieta!"
+          "text": "»¡Ay, que Dios me diera lo que más deseo: morir bajo su mano, y no sentir más su puño que me aprieta!",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -480,11 +504,15 @@
         },
         {
           "number": 15,
-          "text": "Hermano mío, resultaste tan vano como un arroyuelo, que hincha su corriente cuando hay nieve o hielo, pero en tiempo de calor se desvanece. Se desvían las caravanas buscando en él refrigerio, pero no hallan qué beber, y perecen."
+          "text": "Hermano mío, resultaste tan vano como un arroyuelo, que hincha su corriente cuando hay nieve o hielo, pero en tiempo de calor se desvanece. Se desvían las caravanas buscando en él refrigerio, pero no hallan qué beber, y perecen.",
+          "verseDisplay": "15-18",
+          "endNumber": 18
         },
         {
           "number": 19,
-          "text": "Cuando las caravanas de Tema y de Sabá se detienen allí en busca de agua, ven fallidas sus esperanzas. Así han fallado mis esperanzas en ti; tú te apartas de mí aterrado y me niegas tu ayuda."
+          "text": "Cuando las caravanas de Tema y de Sabá se detienen allí en busca de agua, ven fallidas sus esperanzas. Así han fallado mis esperanzas en ti; tú te apartas de mí aterrado y me niegas tu ayuda.",
+          "verseDisplay": "19-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -500,7 +528,9 @@
         },
         {
           "number": 25,
-          "text": "Cosa admirable es decir la verdad, pero tus críticas no se fundan en los hechos. ¿Vas a condenarme tan sólo porque impulsivamente clamé desesperado?"
+          "text": "Cosa admirable es decir la verdad, pero tus críticas no se fundan en los hechos. ¿Vas a condenarme tan sólo porque impulsivamente clamé desesperado?",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         },
         {
           "number": 27,
@@ -573,7 +603,9 @@
         },
         {
           "number": 13,
-          "text": "Aun en la noche, cuando en el sueño procuro olvidar mi congoja, me aterrorizas con pesadillas."
+          "text": "Aun en la noche, cuando en el sueño procuro olvidar mi congoja, me aterrorizas con pesadillas.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -650,7 +682,9 @@
         },
         {
           "number": 11,
-          "text": "quienes se olvidan de Dios carecen de esperanza. Son como papiros sin pantano donde crecer, o como hierba sin agua que la mantenga viva: de pronto comienza a marchitarse, aun antes que la corten."
+          "text": "quienes se olvidan de Dios carecen de esperanza. Son como papiros sin pantano donde crecer, o como hierba sin agua que la mantenga viva: de pronto comienza a marchitarse, aun antes que la corten.",
+          "verseDisplay": "11-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -711,7 +745,9 @@
         },
         {
           "number": 5,
-          "text": "Súbitamente mueve las montañas y las derriba en su furor. Sacude la tierra hasta sus cimientos."
+          "text": "Súbitamente mueve las montañas y las derriba en su furor. Sacude la tierra hasta sus cimientos.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -815,7 +851,9 @@
         },
         {
           "number": 32,
-          "text": "»Y no puedo defenderme, pues Dios no es simple hombre como yo. Si lo fuera, podríamos discutir esto imparcialmente; pero no hay árbitro entre nosotros, no hay componedor, no hay mediador que nos concilie."
+          "text": "»Y no puedo defenderme, pues Dios no es simple hombre como yo. Si lo fuera, podríamos discutir esto imparcialmente; pero no hay árbitro entre nosotros, no hay componedor, no hay mediador que nos concilie.",
+          "verseDisplay": "32-33",
+          "endNumber": 33
         },
         {
           "number": 34,
@@ -844,7 +882,9 @@
         },
         {
           "number": 4,
-          "text": "¿Eres injusto como los hombres? ¿Es tan breve tu vida como la de los humanos, que hayas de perseguirme por pecados que bien sabes no he cometido? ¿Será ello porque sabes que nadie puede librarme de tu mano?"
+          "text": "¿Eres injusto como los hombres? ¿Es tan breve tu vida como la de los humanos, que hayas de perseguirme por pecados que bien sabes no he cometido? ¿Será ello porque sabes que nadie puede librarme de tu mano?",
+          "verseDisplay": "4-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -868,7 +908,9 @@
         },
         {
           "number": 13,
-          "text": "»Y sin embargo, sé que tu verdadera intención siempre fue vigilarme a ver si yo pecaba y negarte a perdonar mi iniquidad."
+          "text": "»Y sin embargo, sé que tu verdadera intención siempre fue vigilarme a ver si yo pecaba y negarte a perdonar mi iniquidad.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -892,7 +934,9 @@
         },
         {
           "number": 20,
-          "text": "¿No ves cuán poco tiempo me queda? ¡Ay! Apártate de mí para que pueda tener un poco de consuelo antes de partir hacia la tierra de oscuridad y sombra de muerte, para ya nunca volver; tierra tenebrosa como la medianoche, tierra de sombra de muerte donde sólo reina la confusión, y donde la misma claridad es negra como la noche»."
+          "text": "¿No ves cuán poco tiempo me queda? ¡Ay! Apártate de mí para que pueda tener un poco de consuelo antes de partir hacia la tierra de oscuridad y sombra de muerte, para ya nunca volver; tierra tenebrosa como la medianoche, tierra de sombra de muerte donde sólo reina la confusión, y donde la misma claridad es negra como la noche».",
+          "verseDisplay": "20-22",
+          "endNumber": 22
         }
       ]
     },
@@ -949,7 +993,9 @@
         },
         {
           "number": 13,
-          "text": "»Antes de enfrentarte a Dios y extender hacia él tus manos, deja tus pecados y despójate de toda iniquidad."
+          "text": "»Antes de enfrentarte a Dios y extender hacia él tus manos, deja tus pecados y despójate de toda iniquidad.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -1006,7 +1052,9 @@
         },
         {
           "number": 7,
-          "text": "»Pregunta a la bestia más estúpida: ella sabe que así es; pregunta a las aves: ellas te lo dirán; o que te enseñe la tierra, o los peces del mar."
+          "text": "»Pregunta a la bestia más estúpida: ella sabe que así es; pregunta a las aves: ellas te lo dirán; o que te enseñe la tierra, o los peces del mar.",
+          "verseDisplay": "7-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -1066,7 +1114,9 @@
         },
         {
           "number": 24,
-          "text": "Quita el entendimiento a reyes y presidentes, y los deja errantes, perdidos y a tientas, sin luz que los guíe."
+          "text": "Quita el entendimiento a reyes y presidentes, y los deja errantes, perdidos y a tientas, sin luz que los guíe.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         }
       ]
     },
@@ -1179,7 +1229,9 @@
         },
         {
           "number": 27,
-          "text": "Me has aprisionado; me tienes cercado por todas partes. Soy como un árbol podrido que se cae, como un manto apolillado."
+          "text": "Me has aprisionado; me tienes cercado por todas partes. Soy como un árbol podrido que se cae, como un manto apolillado.",
+          "verseDisplay": "27-28",
+          "endNumber": 28
         }
       ]
     },
@@ -1216,7 +1268,9 @@
         },
         {
           "number": 8,
-          "text": "Aunque sus raíces envejezcan en la tierra y su tronco degenere, puede revivir y echar renuevos al contacto del agua, como planta de vivero."
+          "text": "Aunque sus raíces envejezcan en la tierra y su tronco degenere, puede revivir y echar renuevos al contacto del agua, como planta de vivero.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -1224,7 +1278,9 @@
         },
         {
           "number": 11,
-          "text": "Como agua que se evapora de un lago; como río que desaparece en la sequía, así el hombre yace por última vez y no vuelve a levantarse hasta que los cielos ya no existan; no se levantará ni se despertará de su sueño."
+          "text": "Como agua que se evapora de un lago; como río que desaparece en la sequía, así el hombre yace por última vez y no vuelve a levantarse hasta que los cielos ya no existan; no se levantará ni se despertará de su sueño.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -1248,11 +1304,15 @@
         },
         {
           "number": 18,
-          "text": "»Los montes se desgastan y desaparecen. Las rocas se desprenden de su sitio. El agua convierte en arena las rocas. Los torrentes erosionan el suelo. De igual modo desvaneces tú la esperanza humana."
+          "text": "»Los montes se desgastan y desaparecen. Las rocas se desprenden de su sitio. El agua convierte en arena las rocas. Los torrentes erosionan el suelo. De igual modo desvaneces tú la esperanza humana.",
+          "verseDisplay": "18-19",
+          "endNumber": 19
         },
         {
           "number": 20,
-          "text": "Siempre prevaleces sobre el hombre, y él desaparece del escenario. Lo vuelves viejo y arrugado, y luego lo despides. Jamás se entera si sus hijos alcanzan honra; si fracasan y se enfrentan al desastre, él no lo sabe."
+          "text": "Siempre prevaleces sobre el hombre, y él desaparece del escenario. Lo vuelves viejo y arrugado, y luego lo despides. Jamás se entera si sus hijos alcanzan honra; si fracasan y se enfrentan al desastre, él no lo sabe.",
+          "verseDisplay": "20-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -1277,7 +1337,9 @@
         },
         {
           "number": 4,
-          "text": "¿No tienes temor de Dios? ¿No le tienes reverencia? Tus pecados inspiran las palabras de tu boca. Lo que dices se funda en astuto engaño."
+          "text": "¿No tienes temor de Dios? ¿No le tienes reverencia? Tus pecados inspiran las palabras de tu boca. Lo que dices se funda en astuto engaño.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -1285,7 +1347,9 @@
         },
         {
           "number": 7,
-          "text": "»¿Eres acaso el hombre más sabio que ha existido? ¿Naciste antes que fueran hechas las colinas? ¿Tienes parte en el consejo de Dios? ¿Acaso eres tú el único sabio?"
+          "text": "»¿Eres acaso el hombre más sabio que ha existido? ¿Naciste antes que fueran hechas las colinas? ¿Tienes parte en el consejo de Dios? ¿Acaso eres tú el único sabio?",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -1321,7 +1385,9 @@
         },
         {
           "number": 17,
-          "text": "»Escúchame, y te responderé por experiencia propia, confirmada con la experiencia de los sabios varones que recibieron esto de sus padres, nuestros antepasados, los únicos a quienes se les dio la tierra."
+          "text": "»Escúchame, y te responderé por experiencia propia, confirmada con la experiencia de los sabios varones que recibieron esto de sus padres, nuestros antepasados, los únicos a quienes se les dio la tierra.",
+          "verseDisplay": "17-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -1337,15 +1403,21 @@
         },
         {
           "number": 23,
-          "text": "Anda errante mendigando alimento. Vive en el temor, la zozobra y la angustia. Sus enemigos lo vencen como un rey que derrota a sus enemigos."
+          "text": "Anda errante mendigando alimento. Vive en el temor, la zozobra y la angustia. Sus enemigos lo vencen como un rey que derrota a sus enemigos.",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
-          "text": "Protegiéndose con escudo de latón, alza el puño contra Dios, desafiando al Todopoderoso, atacándolo neciamente."
+          "text": "Protegiéndose con escudo de latón, alza el puño contra Dios, desafiando al Todopoderoso, atacándolo neciamente.",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         },
         {
           "number": 27,
-          "text": "»Este perverso hombre está gordo y rico, y ha vivido en ciudades conquistadas luego de matar a sus habitantes."
+          "text": "»Este perverso hombre está gordo y rico, y ha vivido en ciudades conquistadas luego de matar a sus habitantes.",
+          "verseDisplay": "27-28",
+          "endNumber": 28
         },
         {
           "number": 29,
@@ -1483,7 +1555,9 @@
         },
         {
           "number": 3,
-          "text": "¿No habrá en ninguna parte quien confirme mi inocencia? Pero tú, oh Dios, les has impedido comprender esto. ¡Ay! No los dejes triunfar."
+          "text": "¿No habrá en ninguna parte quien confirme mi inocencia? Pero tú, oh Dios, les has impedido comprender esto. ¡Ay! No los dejes triunfar.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -1519,7 +1593,9 @@
         },
         {
           "number": 13,
-          "text": "»Si muero, saldré a las tinieblas y llamaré padre mío a la tumba y madre y hermana mía al gusano."
+          "text": "»Si muero, saldré a las tinieblas y llamaré padre mío a la tumba y madre y hermana mía al gusano.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -1564,7 +1640,9 @@
         },
         {
           "number": 8,
-          "text": "Cae en trampas, y los ladrones le tienden emboscadas."
+          "text": "Cae en trampas, y los ladrones le tienden emboscadas.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -1709,7 +1787,9 @@
         },
         {
           "number": 23,
-          "text": "»¡Ay, que con pluma de hierro se pudiera dejar grabado mi alegato en una roca para siempre!"
+          "text": "»¡Ay, que con pluma de hierro se pudiera dejar grabado mi alegato en una roca para siempre!",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -1863,7 +1943,9 @@
         },
         {
           "number": 2,
-          "text": "«Escúchenme; déjenme hablar, y luego sigan con sus burlas."
+          "text": "«Escúchenme; déjenme hablar, y luego sigan con sus burlas.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -1899,7 +1981,9 @@
         },
         {
           "number": 12,
-          "text": "y pasan el tiempo entre cantos y danzas. Nadan en riquezas y de nada tienen que privarse; son afortunados hasta el final."
+          "text": "y pasan el tiempo entre cantos y danzas. Nadan en riquezas y de nada tienen que privarse; son afortunados hasta el final.",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -1939,7 +2023,9 @@
         },
         {
           "number": 23,
-          "text": "Él destruye a los sanos, ricos, y prósperos."
+          "text": "Él destruye a los sanos, ricos, y prósperos.",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -1963,7 +2049,9 @@
         },
         {
           "number": 30,
-          "text": "que al malvado suele eximírsele en el día de la calamidad, y permitírsele que huya. Nadie lo reprende en público. Nadie le da su merecido. Y una guardia de honor le rinde homenaje en su tumba."
+          "text": "que al malvado suele eximírsele en el día de la calamidad, y permitírsele que huya. Nadie lo reprende en público. Nadie le da su merecido. Y una guardia de honor le rinde homenaje en su tumba.",
+          "verseDisplay": "30-32",
+          "endNumber": 32
         },
         {
           "number": 33,
@@ -2016,7 +2104,9 @@
         },
         {
           "number": 10,
-          "text": "Por eso es que ahora estás rodeado de trampas, de repentinos temores, de tinieblas y oleadas de terror."
+          "text": "Por eso es que ahora estás rodeado de trampas, de repentinos temores, de tinieblas y oleadas de terror.",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -2032,7 +2122,9 @@
         },
         {
           "number": 15,
-          "text": "»¿No te das cuenta de que los que marchan por antiguos caminos de pecado son arrebatados en su juventud; y la base de su vida es arrasada para siempre?"
+          "text": "»¿No te das cuenta de que los que marchan por antiguos caminos de pecado son arrebatados en su juventud; y la base de su vida es arrasada para siempre?",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -2109,7 +2201,9 @@
         },
         {
           "number": 4,
-          "text": "Le expondría mi causa, y escucharía su respuesta y comprendería lo que desea."
+          "text": "Le expondría mi causa, y escucharía su respuesta y comprendería lo que desea.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -2153,7 +2247,9 @@
         },
         {
           "number": 16,
-          "text": "Dios me ha dado un corazón desfalleciente. El Todopoderoso me ha aterrado con las tinieblas y la espesa e impenetrable oscuridad que me rodean."
+          "text": "Dios me ha dado un corazón desfalleciente. El Todopoderoso me ha aterrado con las tinieblas y la espesa e impenetrable oscuridad que me rodean.",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         }
       ]
     },
@@ -2214,7 +2310,9 @@
         },
         {
           "number": 14,
-          "text": "Son asesinos que madrugan para matar al pobre y al menesteroso. Por la noche son ladrones y adúlteros, en espera de las sombras, pues entonces, piensan: “Nadie me ve”, van enmascarados para que nadie los conozca."
+          "text": "Son asesinos que madrugan para matar al pobre y al menesteroso. Por la noche son ladrones y adúlteros, en espera de las sombras, pues entonces, piensan: “Nadie me ve”, van enmascarados para que nadie los conozca.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -2245,7 +2343,9 @@
         },
         {
           "number": 22,
-          "text": "Pero a veces parece que con su poder Dios ayuda a los ricos y les da vida cuando todos los demás perecen. Dios les da confianza y vigor, y en muchas formas los auxilia."
+          "text": "Pero a veces parece que con su poder Dios ayuda a los ricos y les da vida cuando todos los demás perecen. Dios les da confianza y vigor, y en muchas formas los auxilia.",
+          "verseDisplay": "22-23",
+          "endNumber": 23
         },
         {
           "number": 24,
@@ -2310,7 +2410,9 @@
         },
         {
           "number": 5,
-          "text": "«Desnudos y temblorosos se presentan los muertos ante Dios en el sitio adonde van."
+          "text": "«Desnudos y temblorosos se presentan los muertos ante Dios en el sitio adonde van.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -2459,7 +2561,9 @@
         },
         {
           "number": 3,
-          "text": "Ya no hay obstáculos para que los mineros entren en las minas. Con sus linternas vencen a la más oscura cueva. En ella investigan hasta los más recónditos secretos de la tierra, balanceándose y suspendidos en sogas."
+          "text": "Ya no hay obstáculos para que los mineros entren en las minas. Con sus linternas vencen a la más oscura cueva. En ella investigan hasta los más recónditos secretos de la tierra, balanceándose y suspendidos en sogas.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -2535,7 +2639,9 @@
         },
         {
           "number": 23,
-          "text": "Y Dios ciertamente sabe dónde se halla, porque él traspasa con la mirada toda la tierra y penetra todos los cielos."
+          "text": "Y Dios ciertamente sabe dónde se halla, porque él traspasa con la mirada toda la tierra y penetra todos los cielos.",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -2773,7 +2879,9 @@
         },
         {
           "number": 28,
-          "text": "Estoy ennegrecido, pero no por el sol. Me pongo de pie y grito pidiendo ayuda a la asamblea. Pero más valdría no desperdiciar el aliento, pues se me tiene por hermano de los chacales y compañero de las avestruces."
+          "text": "Estoy ennegrecido, pero no por el sol. Me pongo de pie y grito pidiendo ayuda a la asamblea. Pero más valdría no desperdiciar el aliento, pues se me tiene por hermano de los chacales y compañero de las avestruces.",
+          "verseDisplay": "28-29",
+          "endNumber": 29
         },
         {
           "number": 30,
@@ -2794,7 +2902,9 @@
         },
         {
           "number": 2,
-          "text": "Bien sé que el todopoderoso Dios que está en lo alto envía calamidades a quienes hacen eso."
+          "text": "Bien sé que el todopoderoso Dios que está en lo alto envía calamidades a quienes hacen eso.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -2810,7 +2920,9 @@
         },
         {
           "number": 7,
-          "text": "Si me he desviado de la senda de Dios, o si mi corazón ha sentido concupiscencia por lo que mis ojos hayan visto, o si soy culpable de cualquier otro pecado, entonces, ¡que otro coseche lo que yo he sembrado y cuanto yo he plantado sea arrancado!"
+          "text": "Si me he desviado de la senda de Dios, o si mi corazón ha sentido concupiscencia por lo que mis ojos hayan visto, o si soy culpable de cualquier otro pecado, entonces, ¡que otro coseche lo que yo he sembrado y cuanto yo he plantado sea arrancado!",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -2854,7 +2966,9 @@
         },
         {
           "number": 19,
-          "text": "Si vi al que se moría de frío y no le di abrigo o lana de mis ovejas para que se calentara,"
+          "text": "Si vi al que se moría de frío y no le di abrigo o lana de mis ovejas para que se calentara,",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         },
         {
           "number": 21,
@@ -2926,7 +3040,9 @@
         },
         {
           "number": 38,
-          "text": "»Si mis tierras me acusan de haber robado el fruto que ellas producen; o si asesiné a sus dueños para apropiarme de sus posesiones,"
+          "text": "»Si mis tierras me acusan de haber robado el fruto que ellas producen; o si asesiné a sus dueños para apropiarme de sus posesiones,",
+          "verseDisplay": "38-39",
+          "endNumber": 39
         },
         {
           "number": 40,
@@ -2970,7 +3086,9 @@
         },
         {
           "number": 8,
-          "text": "Pero no son solamente los años los que dan sabiduría a los hombres; más bien es el espíritu que habita en el hombre, el hálito del Todopoderoso, el que lo hace inteligente."
+          "text": "Pero no son solamente los años los que dan sabiduría a los hombres; más bien es el espíritu que habita en el hombre, el hálito del Todopoderoso, el que lo hace inteligente.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -2978,7 +3096,9 @@
         },
         {
           "number": 11,
-          "text": "He esperado todo este tiempo y he escuchado atentamente los argumentos de ustedes, pero ninguno de ellos ha convencido a Job de que es pecador, ni ha demostrado que lo sea."
+          "text": "He esperado todo este tiempo y he escuchado atentamente los argumentos de ustedes, pero ninguno de ellos ha convencido a Job de que es pecador, ni ha demostrado que lo sea.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -3014,7 +3134,9 @@
         },
         {
           "number": 21,
-          "text": "No insistan en que sea prudente para no herir a nadie, ni me pidan que adule a alguien. Déjenme ser franco, no vaya a ser que Dios me haga caer muerto."
+          "text": "No insistan en que sea prudente para no herir a nadie, ni me pidan que adule a alguien. Déjenme ser franco, no vaya a ser que Dios me haga caer muerto.",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         }
       ]
     },
@@ -3087,7 +3209,9 @@
         },
         {
           "number": 17,
-          "text": "haciéndoles cambiar de opinión, guardándolos del orgullo, y previniéndolos sobre los castigos del pecado, y evitando que caigan en algún lazo."
+          "text": "haciéndoles cambiar de opinión, guardándolos del orgullo, y previniéndolos sobre los castigos del pecado, y evitando que caigan en algún lazo.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -3107,7 +3231,9 @@
         },
         {
           "number": 23,
-          "text": "»Pero si hay un mensajero del cielo que interceda por él como amigo, para mostrarle lo que es recto, entonces Dios se compadece de él y dice: “Pónganlo en libertad; no lo hagan morir, pues he hallado un sustituto”."
+          "text": "»Pero si hay un mensajero del cielo que interceda por él como amigo, para mostrarle lo que es recto, entonces Dios se compadece de él y dice: “Pónganlo en libertad; no lo hagan morir, pues he hallado un sustituto”.",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -3176,7 +3302,9 @@
         },
         {
           "number": 7,
-          "text": "»¿Quién hay tan arrogante como Job? Debe de haber pasado mucho tiempo en compañía de hombres malos,"
+          "text": "»¿Quién hay tan arrogante como Job? Debe de haber pasado mucho tiempo en compañía de hombres malos,",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -3260,7 +3388,9 @@
         },
         {
           "number": 29,
-          "text": "Pero si él prefiere no hablar, ¿quién podrá censurarlo? También él puede impedir que un hombre indigno llegue a gobernar, evitándole ruina a una nación; y puede con igual facilidad echar por tierra a una nación entera."
+          "text": "Pero si él prefiere no hablar, ¿quién podrá censurarlo? También él puede impedir que un hombre indigno llegue a gobernar, evitándole ruina a una nación; y puede con igual facilidad echar por tierra a una nación entera.",
+          "verseDisplay": "29-30",
+          "endNumber": 30
         },
         {
           "number": 31,
@@ -3276,7 +3406,9 @@
         },
         {
           "number": 34,
-          "text": "Aun sin ser muy listo, cualquiera estará de acuerdo conmigo en que tú, Job, hablas como un necio."
+          "text": "Aun sin ser muy listo, cualquiera estará de acuerdo conmigo en que tú, Job, hablas como un necio.",
+          "verseDisplay": "34-35",
+          "endNumber": 35
         },
         {
           "number": 36,
@@ -3297,7 +3429,9 @@
         },
         {
           "number": 2,
-          "text": "«¿Crees que está bien que tú declares: “No he pecado, pero no por ello me va mejor delante de Dios?”."
+          "text": "«¿Crees que está bien que tú declares: “No he pecado, pero no por ello me va mejor delante de Dios?”.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -3321,7 +3455,9 @@
         },
         {
           "number": 9,
-          "text": "»Los oprimidos pueden gritar bajo sus males y gemir bajo el poder de los ricos; pero ninguno clama a Dios preguntando: “¿Dónde está Dios mi hacedor; que da cánticos en la noche,"
+          "text": "»Los oprimidos pueden gritar bajo sus males y gemir bajo el poder de los ricos; pero ninguno clama a Dios preguntando: “¿Dónde está Dios mi hacedor; que da cánticos en la noche,",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -3337,7 +3473,9 @@
         },
         {
           "number": 14,
-          "text": "Y más falso aún decir que no ve lo que sucede. Dios sí hace justicia finalmente, si esperamos. Pero, ¿protestas contra él porque no responde airadamente al instante?"
+          "text": "Y más falso aún decir que no ve lo que sucede. Dios sí hace justicia finalmente, si esperamos. Pero, ¿protestas contra él porque no responde airadamente al instante?",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -3547,7 +3685,9 @@
         },
         {
           "number": 16,
-          "text": "¿Comprendes el equilibrio de las nubes, su perfección y sabia disposición? ¿Sabes por qué sientes calor cuando sopla el viento del sur y todo está en calma?"
+          "text": "¿Comprendes el equilibrio de las nubes, su perfección y sabia disposición? ¿Sabes por qué sientes calor cuando sopla el viento del sur y todo está en calma?",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         },
         {
           "number": 18,
@@ -3555,7 +3695,9 @@
         },
         {
           "number": 19,
-          "text": "»Tú que presumes de saber tanto, enséñanos a los demás cómo debemos acercarnos a Dios. ¡Porque somos demasiado torpes! Con tu sabiduría, ¿nos atreveríamos a acercárnosle? ¿Desearía el hombre que se lo tragaran vivo?"
+          "text": "»Tú que presumes de saber tanto, enséñanos a los demás cómo debemos acercarnos a Dios. ¡Porque somos demasiado torpes! Con tu sabiduría, ¿nos atreveríamos a acercárnosle? ¿Desearía el hombre que se lo tragaran vivo?",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         },
         {
           "number": 21,
@@ -3600,11 +3742,15 @@
         },
         {
           "number": 6,
-          "text": "¿En qué se apoyan sus bases, y quién puso la piedra angular mientras las estrellas de la mañana cantaban unidas y todos los ángeles clamaban de júbilo?"
+          "text": "¿En qué se apoyan sus bases, y quién puso la piedra angular mientras las estrellas de la mañana cantaban unidas y todos los ángeles clamaban de júbilo?",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
-          "text": "»¿Quién decretó las fronteras de los mares cuando ellos surgieron potentes desde lo profundo? ¿Quién los vistió de nubes y densas tinieblas,"
+          "text": "»¿Quién decretó las fronteras de los mares cuando ellos surgieron potentes desde lo profundo? ¿Quién los vistió de nubes y densas tinieblas,",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -3636,7 +3782,9 @@
         },
         {
           "number": 17,
-          "text": "¿Se te ha revelado el sitio en donde están las puertas de la muerte? ¿Sabes cuál es la extensión de la tierra? ¡Dímelo; si lo sabes!"
+          "text": "¿Se te ha revelado el sitio en donde están las puertas de la muerte? ¿Sabes cuál es la extensión de la tierra? ¡Dímelo; si lo sabes!",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -3652,7 +3800,9 @@
         },
         {
           "number": 22,
-          "text": "»¿Has ido a los tesoros de la nieve, o visto en dónde se fabrica y almacena el granizo? Porque reservado lo tengo para cuando lo necesite en la guerra."
+          "text": "»¿Has ido a los tesoros de la nieve, o visto en dónde se fabrica y almacena el granizo? Porque reservado lo tengo para cuando lo necesite en la guerra.",
+          "verseDisplay": "22-23",
+          "endNumber": 23
         },
         {
           "number": 24,
@@ -3660,7 +3810,9 @@
         },
         {
           "number": 25,
-          "text": "¿Quién abrió los valles para que corran los torrentes de lluvia? ¿Quién trazó la senda al relámpago, para que la lluvia caiga en los desiertos estériles, de modo que la tierra reseca y yerma se sacie de agua, y nazca la tierna hierba?"
+          "text": "¿Quién abrió los valles para que corran los torrentes de lluvia? ¿Quién trazó la senda al relámpago, para que la lluvia caiga en los desiertos estériles, de modo que la tierra reseca y yerma se sacie de agua, y nazca la tierna hierba?",
+          "verseDisplay": "25-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -3700,11 +3852,15 @@
         },
         {
           "number": 37,
-          "text": "¿Quién es tan sabio que pueda enumerar todas las nubes? ¿Quién puede derramar los cántaros del cielo cuando todo se ha vuelto polvo y terrones?"
+          "text": "¿Quién es tan sabio que pueda enumerar todas las nubes? ¿Quién puede derramar los cántaros del cielo cuando todo se ha vuelto polvo y terrones?",
+          "verseDisplay": "37-38",
+          "endNumber": 38
         },
         {
           "number": 39,
-          "text": "»¿Puedes tú, como la leona, cazar la presa para satisfacer el hambre de sus cachorros que esperan en su guarida, o mantenerte al acecho en la selva?"
+          "text": "»¿Puedes tú, como la leona, cazar la presa para satisfacer el hambre de sus cachorros que esperan en su guarida, o mantenerte al acecho en la selva?",
+          "verseDisplay": "39-40",
+          "endNumber": 40
         },
         {
           "number": 41,
@@ -3721,7 +3877,9 @@
         },
         {
           "number": 2,
-          "text": "¿Sabes cuántos son sus meses de preñez antes de que se encorven para parir y librarse de su carga?"
+          "text": "¿Sabes cuántos son sus meses de preñez antes de que se encorven para parir y librarse de su carga?",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -3793,7 +3951,9 @@
         },
         {
           "number": 21,
-          "text": "Golpea la tierra con su casco y se regocija en su vigor, y cuando va a la guerra no se arredra aunque las flechas y las fulgurantes espadas y jabalinas le golpeen el costado."
+          "text": "Golpea la tierra con su casco y se regocija en su vigor, y cuando va a la guerra no se arredra aunque las flechas y las fulgurantes espadas y jabalinas le golpeen el costado.",
+          "verseDisplay": "21-23",
+          "endNumber": 23
         },
         {
           "number": 24,
@@ -3987,7 +4147,9 @@
         },
         {
           "number": 15,
-          "text": "Se enorgullece de sus escamas traslapadas perfectamente selladas, que no dejan pasar aire, y que nada puede penetrarlas."
+          "text": "Se enorgullece de sus escamas traslapadas perfectamente selladas, que no dejan pasar aire, y que nada puede penetrarlas.",
+          "verseDisplay": "15-17",
+          "endNumber": 17
         },
         {
           "number": 18,
@@ -4027,7 +4189,9 @@
         },
         {
           "number": 27,
-          "text": "Para él el hierro es como paja, y el bronce como palo podrido. Las flechas no lo ahuyentan. Las piedras de honda son tan inútiles como paja."
+          "text": "Para él el hierro es como paja, y el bronce como palo podrido. Las flechas no lo ahuyentan. Las piedras de honda son tan inútiles como paja.",
+          "verseDisplay": "27-28",
+          "endNumber": 28
         },
         {
           "number": 29,
@@ -4039,7 +4203,9 @@
         },
         {
           "number": 31,
-          "text": "»Hace rebullir al agua cuando se pone en movimiento. Agita lo profundo. Deja tras sí una brillante estela de espuma. ¡Al verlo, parece que el mar fuera de escarcha!"
+          "text": "»Hace rebullir al agua cuando se pone en movimiento. Agita lo profundo. Deja tras sí una brillante estela de espuma. ¡Al verlo, parece que el mar fuera de escarcha!",
+          "verseDisplay": "31-32",
+          "endNumber": 32
         },
         {
           "number": 33,
@@ -4107,7 +4273,9 @@
         },
         {
           "number": 13,
-          "text": "Dios también le dio otros siete hijos y tres hijas. Estos son los nombres de sus hijas: Paloma, Canela y Linda."
+          "text": "Dios también le dio otros siete hijos y tres hijas. Estos son los nombres de sus hijas: Paloma, Canela y Linda.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,

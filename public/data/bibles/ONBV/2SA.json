@@ -83,7 +83,9 @@
         },
         {
           "number": 17,
-          "text": "David compuso un canto fúnebre por Saúl y Jonatán. Después ordenó que ese canto fuera enseñado a la gente de Judá. Este canto está escrito en el libro de Jaser."
+          "text": "David compuso un canto fúnebre por Saúl y Jonatán. Después ordenó que ese canto fuera enseñado a la gente de Judá. Este canto está escrito en el libro de Jaser.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -167,7 +169,9 @@
         },
         {
           "number": 10,
-          "text": "Isboset tenía cuarenta años de edad. Reinó en Majanayin durante dos años. Únicamente la tribu de Judá reconocía a David como rey. David reinó en Hebrón durante siete años y medio."
+          "text": "Isboset tenía cuarenta años de edad. Reinó en Majanayin durante dos años. Únicamente la tribu de Judá reconocía a David como rey. David reinó en Hebrón durante siete años y medio.",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -298,7 +302,9 @@
         },
         {
           "number": 9,
-          "text": "¡Que Dios me mande el peor de los castigos si, de aquí en adelante, no hago todo lo posible por quitarte todo el reino, desde Dan hasta Berseba, para dárselo a David! ¡Así se cumplirá lo que el Señor le juró a David!"
+          "text": "¡Que Dios me mande el peor de los castigos si, de aquí en adelante, no hago todo lo posible por quitarte todo el reino, desde Dan hasta Berseba, para dárselo a David! ¡Así se cumplirá lo que el Señor le juró a David!",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -357,7 +363,9 @@
         },
         {
           "number": 24,
-          "text": "se presentó rápidamente ante el rey y le dijo: «¿Qué ha hecho? ¿Por qué ha permitido que Abner regrese en paz a su casa? Usted bien sabe que todo lo que él le ha dicho es mentira. Todo lo que quiere es enterarse de sus planes y movimientos»."
+          "text": "se presentó rápidamente ante el rey y le dijo: «¿Qué ha hecho? ¿Por qué ha permitido que Abner regrese en paz a su casa? Usted bien sabe que todo lo que él le ha dicho es mentira. Todo lo que quiere es enterarse de sus planes y movimientos».",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
@@ -389,11 +397,15 @@
         },
         {
           "number": 33,
-          "text": "«¿Debía morir Abner como un villano? Tus manos no estaban atadas, ni tus pies estaban encadenados. ¡Moriste como quien es asesinado por los malvados!». Y todo el pueblo lloró nuevamente por él."
+          "text": "«¿Debía morir Abner como un villano? Tus manos no estaban atadas, ni tus pies estaban encadenados. ¡Moriste como quien es asesinado por los malvados!». Y todo el pueblo lloró nuevamente por él.",
+          "verseDisplay": "33-34",
+          "endNumber": 34
         },
         {
           "number": 35,
-          "text": "David se había negado a comer en el día del funeral, y todos le rogaban que se sirviera algo de comida. Pero David había jurado que no comería nada hasta la puesta del sol. Esto agradó a su pueblo; en verdad, todo lo que el rey hacia agradaba al pueblo."
+          "text": "David se había negado a comer en el día del funeral, y todos le rogaban que se sirviera algo de comida. Pero David había jurado que no comería nada hasta la puesta del sol. Esto agradó a su pueblo; en verdad, todo lo que el rey hacia agradaba al pueblo.",
+          "verseDisplay": "35-36",
+          "endNumber": 36
         },
         {
           "number": 37,
@@ -418,7 +430,9 @@
         },
         {
           "number": 2,
-          "text": "Isboset tenía a su servicio a Baná y a Recab, que habían comandado bandas de ladrones. Baná y a Recab eran hijos de Rimón el berotita; por lo tanto eran benjaminitas, pues el pueblo de Berot era considerado como parte de la tribu de Benjamín, aunque sus habitantes habían huido a Guitayin, y se habían quedado viviendo allí."
+          "text": "Isboset tenía a su servicio a Baná y a Recab, que habían comandado bandas de ladrones. Baná y a Recab eran hijos de Rimón el berotita; por lo tanto eran benjaminitas, pues el pueblo de Berot era considerado como parte de la tribu de Benjamín, aunque sus habitantes habían huido a Guitayin, y se habían quedado viviendo allí.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -430,7 +444,9 @@
         },
         {
           "number": 6,
-          "text": "Entonces, con el pretexto de ir a sacar una bolsa de trigo, se metieron al cuarto donde dormía Isboset, lo mataron a puñaladas y le cortaron la cabeza. Luego anduvieron toda aquella noche por el Arabá, llevando consigo la cabeza de Isboset."
+          "text": "Entonces, con el pretexto de ir a sacar una bolsa de trigo, se metieron al cuarto donde dormía Isboset, lo mataron a puñaladas y le cortaron la cabeza. Luego anduvieron toda aquella noche por el Arabá, llevando consigo la cabeza de Isboset.",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -472,6 +488,8 @@
         {
           "number": 4,
           "text": "Cuando David comenzó a reinar sobre Judá, en Hebrón, tenía treinta años. Ya llevaba siete años y medio como rey de Judá, cuando los de Israel lo coronaron también como rey de ellos. Así que, después de esto, reinó treinta y tres años más sobre todo Israel y Judá, y lo hizo desde Jerusalén. De modo que en total reinó unos cuarenta años.",
+          "verseDisplay": "4-5",
+          "endNumber": 5,
           "headings": [
             "David conquista Jerusalén"
           ]
@@ -511,6 +529,8 @@
         {
           "number": 14,
           "text": "Estos son los hijos que le nacieron en Jerusalén: Samúa, Sobab, Natán, Salomón, Ibjar, Elisúa, Néfeg, Jafía, Elisama, Eliadá y Elifelet.",
+          "verseDisplay": "14-16",
+          "endNumber": 16,
           "headings": [
             "David derrota a los filisteos"
           ]
@@ -691,7 +711,9 @@
         },
         {
           "number": 10,
-          "text": "A mi pueblo Israel le he dado un lugar donde pueda vivir tranquilo, sin que nadie les cause daño ni los oprima, como sucedía en la época en que los jueces los gobernaban. Te libraré de todos tus enemigos, y seré yo quien te construya una casa."
+          "text": "A mi pueblo Israel le he dado un lugar donde pueda vivir tranquilo, sin que nadie les cause daño ni los oprima, como sucedía en la época en que los jueces los gobernaban. Te libraré de todos tus enemigos, y seré yo quien te construya una casa.",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -815,7 +837,9 @@
         },
         {
           "number": 11,
-          "text": "David dedicó todas estas cosas al Señor , juntamente con la plata y el oro que había sacado de Siria, Moab, Amón, Filistea y Amalec. Lo mismo hizo con todo el botín que le había quitado al rey Hadad Ezer, hijo de Rejob, rey de Sobá."
+          "text": "David dedicó todas estas cosas al Señor , juntamente con la plata y el oro que había sacado de Siria, Moab, Amón, Filistea y Amalec. Lo mismo hizo con todo el botín que le había quitado al rey Hadad Ezer, hijo de Rejob, rey de Sobá.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -867,7 +891,9 @@
         },
         {
           "number": 5,
-          "text": "De inmediato, el rey David envió por Mefiboset hijo de Jonatán y nieto de Saúl. Mefiboset llegó y se inclinó delante del rey David, quien le preguntó: ―¿Eres tú Mefiboset? ―Sí, aquí está su siervo —le respondió."
+          "text": "De inmediato, el rey David envió por Mefiboset hijo de Jonatán y nieto de Saúl. Mefiboset llegó y se inclinó delante del rey David, quien le preguntó: ―¿Eres tú Mefiboset? ―Sí, aquí está su siervo —le respondió.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -883,7 +909,9 @@
         },
         {
           "number": 10,
-          "text": "Tú y tus hijos y tus sirvientes le trabajarán la tierra a fin de proporcionar alimento a su familia. Pero él vivirá aquí conmigo y se sentará a mi mesa. Siba, que tenía quince hijos y veinte siervos, contestó: ―Mi rey, haré todo lo que usted me ha ordenado. Desde aquel momento, Mefiboset comió regularmente con el rey David, como si fuera uno de sus hijos."
+          "text": "Tú y tus hijos y tus sirvientes le trabajarán la tierra a fin de proporcionar alimento a su familia. Pero él vivirá aquí conmigo y se sentará a mi mesa. Siba, que tenía quince hijos y veinte siervos, contestó: ―Mi rey, haré todo lo que usted me ha ordenado. Desde aquel momento, Mefiboset comió regularmente con el rey David, como si fuera uno de sus hijos.",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -924,7 +952,9 @@
         },
         {
           "number": 7,
-          "text": "Cuando David se enteró de esto, envió a Joab y a todo el ejército de Israel para que los atacaran. Los amonitas se dispusieron a defender las puertas de su ciudad, mientras que los sirios de Sobá y Rejob, y los hombres de Tob y Macá peleaban en los campos."
+          "text": "Cuando David se enteró de esto, envió a Joab y a todo el ejército de Israel para que los atacaran. Los amonitas se dispusieron a defender las puertas de su ciudad, mientras que los sirios de Sobá y Rejob, y los hombres de Tob y Macá peleaban en los campos.",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -952,7 +982,9 @@
         },
         {
           "number": 15,
-          "text": "Mientras tanto, los sirios, viendo que no podían hacerle frente a Israel, se reagruparon. Hadad Ezer mandó a buscar refuerzos al otro lado del río Éufrates. Estos llegaron a Jelán bajo el mando de Sobac, jefe del ejército de Hadad Ezer."
+          "text": "Mientras tanto, los sirios, viendo que no podían hacerle frente a Israel, se reagruparon. Hadad Ezer mandó a buscar refuerzos al otro lado del río Éufrates. Estos llegaron a Jelán bajo el mando de Sobac, jefe del ejército de Hadad Ezer.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -1045,7 +1077,9 @@
         },
         {
           "number": 19,
-          "text": "le dijo al mensajero: ―Si el rey se enoja y pregunta: “Por qué los soldados se acercan tanto a la ciudad? ¿No sabían que ellos estarían disparando desde las murallas? ¿No recuerdan cómo murió Abimélec hijo de Yerubéset? ¡Recuerden que fue una mujer de Tebes quien, desde la muralla, le arrojó una piedra de molino y lo mató!” entonces le dirás: “Urías también murió en el combate”."
+          "text": "le dijo al mensajero: ―Si el rey se enoja y pregunta: “Por qué los soldados se acercan tanto a la ciudad? ¿No sabían que ellos estarían disparando desde las murallas? ¿No recuerdan cómo murió Abimélec hijo de Yerubéset? ¡Recuerden que fue una mujer de Tebes quien, desde la muralla, le arrojó una piedra de molino y lo mató!” entonces le dirás: “Urías también murió en el combate”.",
+          "verseDisplay": "19-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -1178,7 +1212,9 @@
         },
         {
           "number": 26,
-          "text": "Mientras tanto, Joab terminaba con éxito el sitio de Rabá, la capital de Amón. Joab envió mensajeros a decirle a David: «Tengo sitiada a Rabá y he tomado ya la ciudadela que protege el abastecimiento de agua."
+          "text": "Mientras tanto, Joab terminaba con éxito el sitio de Rabá, la capital de Amón. Joab envió mensajeros a decirle a David: «Tengo sitiada a Rabá y he tomado ya la ciudadela que protege el abastecimiento de agua.",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -1186,7 +1222,9 @@
         },
         {
           "number": 29,
-          "text": "David condujo a todo el ejército a Rabá, y la capturó. Cuando regresaron, trajeron a Jerusalén un enorme botín. David traía la corona del rey de Rabá, de treinta y tres kilos de oro y adornada con una piedra preciosa, y se la puso en la cabeza."
+          "text": "David condujo a todo el ejército a Rabá, y la capturó. Cuando regresaron, trajeron a Jerusalén un enorme botín. David traía la corona del rey de Rabá, de treinta y tres kilos de oro y adornada con una piedra preciosa, y se la puso en la cabeza.",
+          "verseDisplay": "29-30",
+          "endNumber": 30
         },
         {
           "number": 31,
@@ -1263,7 +1301,9 @@
         },
         {
           "number": 17,
-          "text": "y llamó a su criado y le ordenó: ―¡Echa de aquí a esta mujer y cierra la puerta con cerrojo cuando haya salido! El criado la hizo salir. Tamar usaba una túnica larga con mangas, como era la costumbre en aquellos días entre las hijas vírgenes del rey."
+          "text": "y llamó a su criado y le ordenó: ―¡Echa de aquí a esta mujer y cierra la puerta con cerrojo cuando haya salido! El criado la hizo salir. Tamar usaba una túnica larga con mangas, como era la costumbre en aquellos días entre las hijas vírgenes del rey.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -1286,7 +1326,9 @@
         },
         {
           "number": 23,
-          "text": "Dos años más tarde, cuando estaban esquilando las ovejas de Absalón en Baal Jazor, cerca del pueblo de Efraín, Absalón invitó a su padre y a todos sus hermanos a la fiesta para celebrar la ocasión."
+          "text": "Dos años más tarde, cuando estaban esquilando las ovejas de Absalón en Baal Jazor, cerca del pueblo de Efraín, Absalón invitó a su padre y a todos sus hermanos a la fiesta para celebrar la ocasión.",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -1306,7 +1348,9 @@
         },
         {
           "number": 29,
-          "text": "Así es que ellos mataron a Amnón. Enseguida, los demás hijos del rey se subieron a sus mulas y huyeron. Mientras iban en su camino de regreso a Jerusalén, llegó a David la noticia: «¡Absalón ha dado muerte a todos tus hijos! ¡Ninguno ha quedado con vida!»."
+          "text": "Así es que ellos mataron a Amnón. Enseguida, los demás hijos del rey se subieron a sus mulas y huyeron. Mientras iban en su camino de regreso a Jerusalén, llegó a David la noticia: «¡Absalón ha dado muerte a todos tus hijos! ¡Ninguno ha quedado con vida!».",
+          "verseDisplay": "29-30",
+          "endNumber": 30
         },
         {
           "number": 31,
@@ -1314,7 +1358,9 @@
         },
         {
           "number": 32,
-          "text": "Entonces Jonadab hijo de Simá y sobrino de David llegó y dijo: ―Eso no es verdad. El único asesinado fue Amnón, los demás hijos de mi señor están vivos. Absalón había estado preparando esto desde que Amnón violó a Tamar. No, tus hijos no han muerto. Fue solamente Amnón."
+          "text": "Entonces Jonadab hijo de Simá y sobrino de David llegó y dijo: ―Eso no es verdad. El único asesinado fue Amnón, los demás hijos de mi señor están vivos. Absalón había estado preparando esto desde que Amnón violó a Tamar. No, tus hijos no han muerto. Fue solamente Amnón.",
+          "verseDisplay": "32-33",
+          "endNumber": 33
         },
         {
           "number": 34,
@@ -1331,6 +1377,8 @@
         {
           "number": 37,
           "text": "Absalón huyó a refugiarse donde Talmay hijo de Amiud, rey de Guesur, y se quedó allí tres años. Mientras tanto, David lloraba todos los días por su hijo Amnón. Pero una vez que se consoló de su muerte, comenzó a sentir deseos de ver a su hijo Absalón.",
+          "verseDisplay": "37-39",
+          "endNumber": 39,
           "footnotes": [
             {
               "id": "FN1",
@@ -1350,7 +1398,9 @@
         },
         {
           "number": 2,
-          "text": "envió por una mujer de Tecoa, que tenía reputación de gran sabiduría, y le dijo que pidiera una entrevista con el rey. Pero antes de que la mujer se presentara delante del rey, Joab le dijo: ―Vístete de luto, no te eches perfume, como si estuvieras de duelo por un hijo muerto. Luego irás donde el rey y le dirás todo lo que yo te diga."
+          "text": "envió por una mujer de Tecoa, que tenía reputación de gran sabiduría, y le dijo que pidiera una entrevista con el rey. Pero antes de que la mujer se presentara delante del rey, Joab le dijo: ―Vístete de luto, no te eches perfume, como si estuvieras de duelo por un hijo muerto. Luego irás donde el rey y le dirás todo lo que yo te diga.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -1358,7 +1408,9 @@
         },
         {
           "number": 5,
-          "text": "―¿Qué te pasa? —le preguntó el rey. ―Soy viuda —contestó ella—, y mis dos hijos tuvieron una pelea en el campo. Puesto que no hubo nadie que los separara, uno de ellos mató al otro."
+          "text": "―¿Qué te pasa? —le preguntó el rey. ―Soy viuda —contestó ella—, y mis dos hijos tuvieron una pelea en el campo. Puesto que no hubo nadie que los separara, uno de ellos mató al otro.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -1394,7 +1446,9 @@
         },
         {
           "number": 15,
-          "text": "Pero, yo he venido a rogarle por mi hijo, porque mi vida y la vida de mi hijo han sido amenazadas y yo me dije: “Quizás el rey me oirá y nos librará de los que quieren acabar con nuestra existencia en Israel."
+          "text": "Pero, yo he venido a rogarle por mi hijo, porque mi vida y la vida de mi hijo han sido amenazadas y yo me dije: “Quizás el rey me oirá y nos librará de los que quieren acabar con nuestra existencia en Israel.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -1495,7 +1549,9 @@
         },
         {
           "number": 7,
-          "text": "Después de cuatro años, Absalón le dijo al rey: ―Déjame ir a Hebrón a ofrecer sacrificios al Señor . De esta manera podré cumplir el voto que le hice mientras estaba en Guesur de Aram, de que si me permitía volver a Jerusalén, yo le ofrecería un sacrificio."
+          "text": "Después de cuatro años, Absalón le dijo al rey: ―Déjame ir a Hebrón a ofrecer sacrificios al Señor . De esta manera podré cumplir el voto que le hice mientras estaba en Guesur de Aram, de que si me permitía volver a Jerusalén, yo le ofrecería un sacrificio.",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -1531,11 +1587,15 @@
         },
         {
           "number": 17,
-          "text": "Al llegar a la última casa de la ciudad, David se detuvo, y todos sus oficiales se colocaron junto a él, mientras que el resto de la gente seguía adelante. Así que delante del rey pasaron los quereteos, los peleteos, y los seiscientos guititas que habían acompañado a David desde Gat."
+          "text": "Al llegar a la última casa de la ciudad, David se detuvo, y todos sus oficiales se colocaron junto a él, mientras que el resto de la gente seguía adelante. Así que delante del rey pasaron los quereteos, los peleteos, y los seiscientos guititas que habían acompañado a David desde Gat.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
-          "text": "El rey se dirigió a Itay, el jefe de los seiscientos guititas, y le dijo: ―¿Qué estás haciendo aquí? Vuelve y quédate con el nuevo rey, porque tú eres extranjero en Israel, y estás desterrado de tu patria. Casi acabas de llegar y no encuentro justo que te obligue a ir con nosotros quién sabe por qué lugares. Vuelve y lleva tus tropas contigo, y que el Señor sea misericordioso contigo."
+          "text": "El rey se dirigió a Itay, el jefe de los seiscientos guititas, y le dijo: ―¿Qué estás haciendo aquí? Vuelve y quédate con el nuevo rey, porque tú eres extranjero en Israel, y estás desterrado de tu patria. Casi acabas de llegar y no encuentro justo que te obligue a ir con nosotros quién sabe por qué lugares. Vuelve y lleva tus tropas contigo, y que el Señor sea misericordioso contigo.",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         },
         {
           "number": 21,
@@ -1555,7 +1615,9 @@
         },
         {
           "number": 25,
-          "text": "Entonces, siguiendo las instrucciones de David, Sadoc llevó el cofre de regreso a la ciudad. ―Si es la voluntad del Señor —dijo David—, él me permitirá regresar para ver el cofre y el santuario nuevamente. Pero si no, que haga conmigo lo que mejor le parezca."
+          "text": "Entonces, siguiendo las instrucciones de David, Sadoc llevó el cofre de regreso a la ciudad. ―Si es la voluntad del Señor —dijo David—, él me permitirá regresar para ver el cofre y el santuario nuevamente. Pero si no, que haga conmigo lo que mejor le parezca.",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         },
         {
           "number": 27,
@@ -1583,11 +1645,15 @@
         },
         {
           "number": 33,
-          "text": "Pero David le dijo: ―Si vas conmigo serás una carga. Vuelve a Jerusalén y dile a Absalón: “Rey, yo le serviré de consejero como lo hice con su padre”. Entonces podrás arruinar los planes de Ajitofel."
+          "text": "Pero David le dijo: ―Si vas conmigo serás una carga. Vuelve a Jerusalén y dile a Absalón: “Rey, yo le serviré de consejero como lo hice con su padre”. Entonces podrás arruinar los planes de Ajitofel.",
+          "verseDisplay": "33-34",
+          "endNumber": 34
         },
         {
           "number": 35,
-          "text": "Los sacerdotes Sadoc y Abiatar están allí. Cuéntales todo cuanto sepas sobre esta situación. Por medio de Ajimaz hijo de Sadoc y de Jonatán hijo de Abiatar me podrán mandar cualquier noticia."
+          "text": "Los sacerdotes Sadoc y Abiatar están allí. Cuéntales todo cuanto sepas sobre esta situación. Por medio de Ajimaz hijo de Sadoc y de Jonatán hijo de Abiatar me podrán mandar cualquier noticia.",
+          "verseDisplay": "35-36",
+          "endNumber": 36
         },
         {
           "number": 37,
@@ -1627,7 +1693,9 @@
         },
         {
           "number": 7,
-          "text": "―¡Largo de aquí, asesino sanguinario! ¡El Señor te está castigando por haber asesinado a Saúl y a toda su familia! ¡Tú le quitaste el trono, y ahora el Señor se lo ha dado a tu hijo Absalón! ¡Por fin probarás tu propia medicina, asesino!"
+          "text": "―¡Largo de aquí, asesino sanguinario! ¡El Señor te está castigando por haber asesinado a Saúl y a toda su familia! ¡Tú le quitaste el trono, y ahora el Señor se lo ha dado a tu hijo Absalón! ¡Por fin probarás tu propia medicina, asesino!",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -1703,7 +1771,9 @@
         },
         {
           "number": 2,
-          "text": "Caeré sobre él mientras está cansado y desanimado. Él y todos los que están con él serán presa del pánico, y saldrán huyendo. Yo mataré solamente al rey y dejaré con vida a todos los demás, de modo que no les quedará más remedio que unirse a usted y servirle."
+          "text": "Caeré sobre él mientras está cansado y desanimado. Él y todos los que están con él serán presa del pánico, y saldrán huyendo. Yo mataré solamente al rey y dejaré con vida a todos los demás, de modo que no les quedará más remedio que unirse a usted y servirle.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -1803,7 +1873,9 @@
         },
         {
           "number": 28,
-          "text": "Le trajeron a David y a los que estaban con él camas para que durmieran, tazas y vasijas de barro. También les llevaron trigo, cebada, harina, trigo tostado, habas, lentejas, miel, mantequilla y queso. Hicieron esto porque pensaron que David y sus hombres estarían muy cansados, hambrientos y sedientos después de haber atravesado el desierto."
+          "text": "Le trajeron a David y a los que estaban con él camas para que durmieran, tazas y vasijas de barro. También les llevaron trigo, cebada, harina, trigo tostado, habas, lentejas, miel, mantequilla y queso. Hicieron esto porque pensaron que David y sus hombres estarían muy cansados, hambrientos y sedientos después de haber atravesado el desierto.",
+          "verseDisplay": "28-29",
+          "endNumber": 29
         }
       ]
     },
@@ -1995,7 +2067,9 @@
         },
         {
           "number": 11,
-          "text": "Ante aquellos comentarios, David envió un mensaje a los sacerdotes Sadoc y Abiatar pidiéndoles que hablaran con los ancianos de Judá y les dijeran: «¿Por qué son ustedes los últimos en hacer volver al rey? Porque todo Israel está dispuesto a hacerlo, y solamente ustedes no se han pronunciado. Ustedes son mi tribu, sangre de mi sangre y carne de mi carne»."
+          "text": "Ante aquellos comentarios, David envió un mensaje a los sacerdotes Sadoc y Abiatar pidiéndoles que hablaran con los ancianos de Judá y les dijeran: «¿Por qué son ustedes los últimos en hacer volver al rey? Porque todo Israel está dispuesto a hacerlo, y solamente ustedes no se han pronunciado. Ustedes son mi tribu, sangre de mi sangre y carne de mi carne».",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -2043,7 +2117,9 @@
         },
         {
           "number": 24,
-          "text": "También llegó de Jerusalén Mefiboset, nieto de Saúl. No se había lavado los pies ni la ropa, ni se había cortado la barba desde el día en que el rey salió de Jerusalén. El rey le preguntó: ―¿Por qué no viniste conmigo, Mefiboset?"
+          "text": "También llegó de Jerusalén Mefiboset, nieto de Saúl. No se había lavado los pies ni la ropa, ni se había cortado la barba desde el día en que el rey salió de Jerusalén. El rey le preguntó: ―¿Por qué no viniste conmigo, Mefiboset?",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
@@ -2067,7 +2143,9 @@
         },
         {
           "number": 31,
-          "text": "Barzilay el galaadita, que había provisto de alimentos al rey y a su ejército durante su exilio en Majanayin, también llegó de Roguelín para ayudar al rey a pasar el río. Ya estaba muy viejo, pues tenía unos ochenta años, pero era muy rico."
+          "text": "Barzilay el galaadita, que había provisto de alimentos al rey y a su ejército durante su exilio en Majanayin, también llegó de Roguelín para ayudar al rey a pasar el río. Ya estaba muy viejo, pues tenía unos ochenta años, pero era muy rico.",
+          "verseDisplay": "31-32",
+          "endNumber": 32
         },
         {
           "number": 33,
@@ -2148,7 +2226,9 @@
         },
         {
           "number": 8,
-          "text": "Cuando llegaron a la gran roca que está en Gabaón, se encontraron cara a cara con Amasá. Joab usaba su uniforme ajustado con un cinturón y cargaba una daga envainada junto al muslo, la cual se le cayó mientras caminaba. Joab la recogió y se acercó a saludar a Amasá: «Estoy contento de verte, hermano mío» —dijo Joab—, y lo tomó de la barba con la mano derecha como para besarlo. Amasá no notó la daga que Joab tenía en la mano izquierda. Así que Joab se la clavó en el estómago, de tal manera que se le salieron las entrañas. No necesitó dar un segundo golpe, porque Amasá murió instantáneamente. Joab y su hermano Abisay lo dejaron muerto allí mismo, y continuaron la persecución de Sabá."
+          "text": "Cuando llegaron a la gran roca que está en Gabaón, se encontraron cara a cara con Amasá. Joab usaba su uniforme ajustado con un cinturón y cargaba una daga envainada junto al muslo, la cual se le cayó mientras caminaba. Joab la recogió y se acercó a saludar a Amasá: «Estoy contento de verte, hermano mío» —dijo Joab—, y lo tomó de la barba con la mano derecha como para besarlo. Amasá no notó la daga que Joab tenía en la mano izquierda. Así que Joab se la clavó en el estómago, de tal manera que se le salieron las entrañas. No necesitó dar un segundo golpe, porque Amasá murió instantáneamente. Joab y su hermano Abisay lo dejaron muerto allí mismo, y continuaron la persecución de Sabá.",
+          "verseDisplay": "8-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -2237,7 +2317,9 @@
         },
         {
           "number": 5,
-          "text": "―Muy bien —respondieron—, entréguenos a siete de los hijos de Saúl, el hombre que se empeñó en destruirnos. Los colgaremos delante del Señor , en Guibeá, la ciudad del rey Saúl. ―Muy bien —dijo el rey—, se los entregaré."
+          "text": "―Muy bien —respondieron—, entréguenos a siete de los hijos de Saúl, el hombre que se empeñó en destruirnos. Los colgaremos delante del Señor , en Guibeá, la ciudad del rey Saúl. ―Muy bien —dijo el rey—, se los entregaré.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -2262,6 +2344,8 @@
         {
           "number": 12,
           "text": "ordenó que los restos de los hombres fueran llevados a Jerusalén. Al mismo tiempo pidió a los de Jabés de Galaad que devolvieran los restos de Saúl y Jonatán. Ellos los habían rescatado de la plaza pública en Betsán, donde los filisteos los habían colgado, después de la batalla del monte Guilboa. Cuando los de Jabés devolvieron los restos de Saúl y Jonatán, David los hizo sepultar en la tumba de Quis, el padre de Saúl, en la región de Zela de Benjamín. Después de esto, Dios tuvo compasión del pueblo y lo bendijo.",
+          "verseDisplay": "12-14",
+          "endNumber": 14,
           "headings": [
             "Hazañas de los oficiales de David"
           ]
@@ -2288,7 +2372,9 @@
         },
         {
           "number": 20,
-          "text": "Y en una ocasión en que los filisteos y los israelitas trabaron combate en Gat, un gigante que tenía seis dedos en cada mano y seis en cada pie desafió a Israel. Entonces Jonatán, sobrino de David e hijo de Simá, que era hermano de David, lo mató."
+          "text": "Y en una ocasión en que los filisteos y los israelitas trabaron combate en Gat, un gigante que tenía seis dedos en cada mano y seis en cada pie desafió a Israel. Entonces Jonatán, sobrino de David e hijo de Simá, que era hermano de David, lo mató.",
+          "verseDisplay": "20-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -2553,7 +2639,9 @@
         },
         {
           "number": 11,
-          "text": "El tercero era Sama hijo de Agué el ararita. Un día en Lehí, durante un ataque filisteo, y mientras sus compañeros lo abandonaban y huían, él se paró solo en el centro de un campo de lentejas y derrotó a los filisteos. Así el Señor les dio una gran victoria."
+          "text": "El tercero era Sama hijo de Agué el ararita. Un día en Lehí, durante un ataque filisteo, y mientras sus compañeros lo abandonaban y huían, él se paró solo en el centro de un campo de lentejas y derrotó a los filisteos. Así el Señor les dio una gran victoria.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -2577,7 +2665,9 @@
         },
         {
           "number": 18,
-          "text": "De los treinta, Abisay, el hermano de Joab hijo de Sarvia, era el más valiente. Una vez con su lanza se enfrentó a trescientos enemigos y los mató. Por hazañas como esta adquirió reputación de ser tan valiente que llegó a ser el jefe de los tres más valientes, aunque nunca fue contado entre ellos."
+          "text": "De los treinta, Abisay, el hermano de Joab hijo de Sarvia, era el más valiente. Una vez con su lanza se enfrentó a trescientos enemigos y los mató. Por hazañas como esta adquirió reputación de ser tan valiente que llegó a ser el jefe de los tres más valientes, aunque nunca fue contado entre ellos.",
+          "verseDisplay": "18-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -2598,6 +2688,8 @@
         {
           "number": 24,
           "text": "Los treinta valientes eran: Asael, hermano de Joab; Eljanán hijo de Dodó, de Belén; Sama el jarodita; Elicá el jarodita; Heles el paltita; Ira hijo de Iqués, el tecoíta; Abiezer el anatotita; Mebunay el jusatita; Zalmón el ajojita; Maray el netofatita; Jéled hijo de Baná el netofatita; Itay hijo de Ribay, el de Guibeá de la tribu de Benjamín; Benaías el piratonita; Hiday, del arroyo de Gaas; Abí Albón el arbatita; Azmávet el bajurinita; Elijaba el salbonita; Jonatán, de los hijos de Jasén; Sama el ararita; Ahían hijo de Sarar el ararita; Elifelet hijo de Ajasbay el macateo; Elián hijo de Ajitofel el guilonita; Jezró el de Carmel; Paray el arbita; Igal hijo de Natán, el de Sobá; Baní el gadita; Sélec el amonita; Najaray el berotita, escudero de Joab, hijo de Sarvia; Ira el itrita; Gareb el itrita, y Urías el hitita. En total eran treinta y siete.",
+          "verseDisplay": "24-39",
+          "endNumber": 39,
           "footnotes": [
             {
               "id": "FN1",

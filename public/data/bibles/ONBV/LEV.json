@@ -29,7 +29,9 @@
         },
         {
           "number": 6,
-          "text": "Entonces los sacerdotes desollarán el animal, lo descuartizarán, prenderán leña sobre el altar,"
+          "text": "Entonces los sacerdotes desollarán el animal, lo descuartizarán, prenderán leña sobre el altar,",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -61,7 +63,9 @@
         },
         {
           "number": 15,
-          "text": "El sacerdote llevará el ave al altar, le cortará la cabeza y derramará la sangre sobre la pared del altar. Enseguida el sacerdote tomará el buche y las plumas y los arrojará al costado oriental del altar, sobre las cenizas. Luego, tomándola por las alas, partirá el ave en dos, pero sin separar completamente las dos partes. Por último, el sacerdote la quemará sobre el altar como un holocausto, una ofrenda de olor grato al Señor ."
+          "text": "El sacerdote llevará el ave al altar, le cortará la cabeza y derramará la sangre sobre la pared del altar. Enseguida el sacerdote tomará el buche y las plumas y los arrojará al costado oriental del altar, sobre las cenizas. Luego, tomándola por las alas, partirá el ave en dos, pero sin separar completamente las dos partes. Por último, el sacerdote la quemará sobre el altar como un holocausto, una ofrenda de olor grato al Señor .",
+          "verseDisplay": "15-17",
+          "endNumber": 17
         }
       ]
     },
@@ -147,7 +151,9 @@
         },
         {
           "number": 3,
-          "text": "y quemarán, delante del Señor , la grasa que cubre los intestinos, los dos riñones y la grasa que los recubre, la grasa que está sobre los lomos y un pedazo del hígado. Será una ofrenda quemada de grato olor al Señor ."
+          "text": "y quemarán, delante del Señor , la grasa que cubre los intestinos, los dos riñones y la grasa que los recubre, la grasa que está sobre los lomos y un pedazo del hígado. Será una ofrenda quemada de grato olor al Señor .",
+          "verseDisplay": "3-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -155,11 +161,15 @@
         },
         {
           "number": 7,
-          "text": "Si es un cordero, el hombre que lo ofrezca deberá poner la mano sobre la cabeza del animal y lo matará a la entrada del santuario. Los sacerdotes rociarán la sangre a los lados del altar"
+          "text": "Si es un cordero, el hombre que lo ofrezca deberá poner la mano sobre la cabeza del animal y lo matará a la entrada del santuario. Los sacerdotes rociarán la sangre a los lados del altar",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
-          "text": "y ofrecerán sobre el altar la grasa, la cola entera (cortada a raíz del espinazo), la grasa que cubre los intestinos, los dos riñones con la grasa de ellos, la grasa que cubre los lomos, y un pedazo del hígado. Lo harán arder todo en el altar. Será una comida, una ofrenda presentada por fuego al Señor ."
+          "text": "y ofrecerán sobre el altar la grasa, la cola entera (cortada a raíz del espinazo), la grasa que cubre los intestinos, los dos riñones con la grasa de ellos, la grasa que cubre los lomos, y un pedazo del hígado. Lo harán arder todo en el altar. Será una comida, una ofrenda presentada por fuego al Señor .",
+          "verseDisplay": "9-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -175,7 +185,9 @@
         },
         {
           "number": 15,
-          "text": "los dos riñones y la grasa de ellos, la grasa que recubre los lomos, y un pedazo del hígado, como una ofrenda quemada ante el Señor . Es una comida, una ofrenda de olor grato presentada por fuego al Señor ."
+          "text": "los dos riñones y la grasa de ellos, la grasa que recubre los lomos, y un pedazo del hígado, como una ofrenda quemada ante el Señor . Es una comida, una ofrenda de olor grato presentada por fuego al Señor .",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -232,6 +244,8 @@
         {
           "number": 11,
           "text": "Pero el resto del becerro, la piel, la carne, la cabeza, las patas, los órganos internos y los intestinos, serán llevados a un lugar ceremonialmente limpio, fuera del campamento, al lugar donde se llevan las cenizas del altar, y lo quemarán sobre la leña encendida.",
+          "verseDisplay": "11-12",
+          "endNumber": 12,
           "headings": [
             "El sacrificio expiatorio por el pecado de la comunidad"
           ]
@@ -411,7 +425,9 @@
         },
         {
           "number": 17,
-          "text": "»Cualquiera que desobedezca alguna ley de Dios, aun sin darse cuenta, de todos modos es culpable. Entonces deberá llevar al sacerdote un carnero sin defecto, o su equivalente en dinero. El precio será fijado de la misma manera que se hace con el sacrificio por la culpa. El sacerdote, entonces, presentará el sacrificio a favor del que pecó sin darse cuenta, y este será perdonado."
+          "text": "»Cualquiera que desobedezca alguna ley de Dios, aun sin darse cuenta, de todos modos es culpable. Entonces deberá llevar al sacerdote un carnero sin defecto, o su equivalente en dinero. El precio será fijado de la misma manera que se hace con el sacrificio por la culpa. El sacerdote, entonces, presentará el sacrificio a favor del que pecó sin darse cuenta, y este será perdonado.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -436,7 +452,9 @@
         },
         {
           "number": 4,
-          "text": "es culpable de pecado. Tendrá que devolver todo lo que haya robado, más un veinte por ciento como multa. Además, el mismo día llevará una ofrenda por su pecado al santuario."
+          "text": "es culpable de pecado. Tendrá que devolver todo lo que haya robado, más un veinte por ciento como multa. Además, el mismo día llevará una ofrenda por su pecado al santuario.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -501,7 +519,9 @@
         },
         {
           "number": 19,
-          "text": "El Señor le dijo a Moisés: «El día que Aarón y sus hijos sean ungidos, presentarán al Señor una ofrenda de dos kilos de harina: ofrecerán la mitad en la mañana, y la otra mitad en la tarde."
+          "text": "El Señor le dijo a Moisés: «El día que Aarón y sus hijos sean ungidos, presentarán al Señor una ofrenda de dos kilos de harina: ofrecerán la mitad en la mañana, y la otra mitad en la tarde.",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         },
         {
           "number": 21,
@@ -510,6 +530,8 @@
         {
           "number": 22,
           "text": "Cuando los hijos de los sacerdotes tengan que tomar el lugar de sus padres, serán incorporados al oficio por medio de la presentación de este mismo sacrificio en el día de su unción. Esta es una ley perpetua. Estas ofrendas serán completamente quemadas delante del Señor . Nadie comerá parte alguna de ellas».",
+          "verseDisplay": "22-23",
+          "endNumber": 23,
           "headings": [
             "El sacrificio expiatorio"
           ]
@@ -619,7 +641,9 @@
         },
         {
           "number": 17,
-          "text": "Si queda algo para el tercer día, será quemado, porque lo que se coma el tercer día no tendrá valor de sacrificio. No se le tomará en cuenta al que lo ofreció. El sacerdote que coma será culpable, porque esa carne será considerada impura delante del Señor . El que la coma tendrá que pagar por su pecado."
+          "text": "Si queda algo para el tercer día, será quemado, porque lo que se coma el tercer día no tendrá valor de sacrificio. No se le tomará en cuenta al que lo ofreció. El sacerdote que coma será culpable, porque esa carne será considerada impura delante del Señor . El que la coma tendrá que pagar por su pecado.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -655,6 +679,8 @@
         {
           "number": 26,
           "text": "Sin importar dónde ustedes vivan, no podrán comer sangre ni grasa de aves ni de ningún animal. Cualquiera que lo haga será expulsado de su pueblo».",
+          "verseDisplay": "26-27",
+          "endNumber": 27,
           "headings": [
             "La porción de los sacerdotes"
           ]
@@ -677,7 +703,9 @@
         },
         {
           "number": 32,
-          "text": "El muslo derecho se dará como contribución para el sacerdote que oficia,"
+          "text": "El muslo derecho se dará como contribución para el sacerdote que oficia,",
+          "verseDisplay": "32-33",
+          "endNumber": 33
         },
         {
           "number": 34,
@@ -769,7 +797,9 @@
         },
         {
           "number": 15,
-          "text": "mientras Moisés lo degollaba. Con el dedo tomó sangre y la untó sobre los cuernos del altar y sobre el altar mismo para santificarlo, y derramó el resto de la sangre al pie del altar. De esta manera santificó el altar, haciendo el rito del perdón por los pecados. Tomó toda la grasa que cubría los intestinos, la grasa que cubría el hígado, los dos riñones y la grasa que los cubría, y los quemó sobre el altar."
+          "text": "mientras Moisés lo degollaba. Con el dedo tomó sangre y la untó sobre los cuernos del altar y sobre el altar mismo para santificarlo, y derramó el resto de la sangre al pie del altar. De esta manera santificó el altar, haciendo el rito del perdón por los pecados. Tomó toda la grasa que cubría los intestinos, la grasa que cubría el hígado, los dos riñones y la grasa que los cubría, y los quemó sobre el altar.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -993,7 +1023,9 @@
         },
         {
           "number": 8,
-          "text": "El Señor le habló a Aarón y le dijo: «No bebas vino ni otras bebidas alcohólicas cuando tengas que entrar al santuario, o morirás. Esta norma se aplicará a tus hijos y a todos tus descendientes, de generación en generación."
+          "text": "El Señor le habló a Aarón y le dijo: «No bebas vino ni otras bebidas alcohólicas cuando tengas que entrar al santuario, o morirás. Esta norma se aplicará a tus hijos y a todos tus descendientes, de generación en generación.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -1056,11 +1088,15 @@
         },
         {
           "number": 2,
-          "text": "«Díganle al pueblo de Israel que los animales que pueden comer son los que tienen pezuña hendida y que rumian."
+          "text": "«Díganle al pueblo de Israel que los animales que pueden comer son los que tienen pezuña hendida y que rumian.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
-          "text": "Así que no se pueden comer los siguientes animales: El camello, porque aunque rumia no tiene la pezuña partida; el conejo, porque aunque rumia no tiene la pezuña partida; la liebre, porque aunque rumia no tiene la pezuña partida; el cerdo, porque aunque tiene la pezuña partida, no es rumiante."
+          "text": "Así que no se pueden comer los siguientes animales: El camello, porque aunque rumia no tiene la pezuña partida; el conejo, porque aunque rumia no tiene la pezuña partida; la liebre, porque aunque rumia no tiene la pezuña partida; el cerdo, porque aunque tiene la pezuña partida, no es rumiante.",
+          "verseDisplay": "4-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -1084,7 +1120,9 @@
         },
         {
           "number": 13,
-          "text": "»Entre las aves, estas son las que no pueden comer: El águila, el quebrantahuesos, el azor, el gallinazo, el milano de todas las especies, el cuervo de todas las especies, el avestruz, la lechuza, la gaviota, el gavilán de todas las especies, el búho, el somormujo, el ibis, el calamón, el pelícano, el buitre, la cigüeña, la garza de todas las especies, la abubilla y el murciélago."
+          "text": "»Entre las aves, estas son las que no pueden comer: El águila, el quebrantahuesos, el azor, el gallinazo, el milano de todas las especies, el cuervo de todas las especies, el avestruz, la lechuza, la gaviota, el gavilán de todas las especies, el búho, el somormujo, el ibis, el calamón, el pelícano, el buitre, la cigüeña, la garza de todas las especies, la abubilla y el murciélago.",
+          "verseDisplay": "13-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -1092,7 +1130,9 @@
         },
         {
           "number": 21,
-          "text": "excepto los que saltan. Podrán comer langostas de todas las especies, saltamontes de todas las especies y grillos."
+          "text": "excepto los que saltan. Podrán comer langostas de todas las especies, saltamontes de todas las especies y grillos.",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -1123,7 +1163,9 @@
         },
         {
           "number": 29,
-          "text": "»Estos son los animales impuros que se arrastran por el suelo: El topo, el ratón, el lagarto, la lagartija, el erizo, el cocodrilo, la rana y el camaleón."
+          "text": "»Estos son los animales impuros que se arrastran por el suelo: El topo, el ratón, el lagarto, la lagartija, el erizo, el cocodrilo, la rana y el camaleón.",
+          "verseDisplay": "29-30",
+          "endNumber": 30
         },
         {
           "number": 31,
@@ -1173,7 +1215,9 @@
         },
         {
           "number": 41,
-          "text": "»No comerán animales que se arrastran sobre la tierra. Esto incluye a reptiles que se deslizan sobre el vientre y los que tienen patas. Ningún animal que se arrastra y tiene muchas patas se podrá comer, porque es impuro."
+          "text": "»No comerán animales que se arrastran sobre la tierra. Esto incluye a reptiles que se deslizan sobre el vientre y los que tienen patas. Ningún animal que se arrastra y tiene muchas patas se podrá comer, porque es impuro.",
+          "verseDisplay": "41-42",
+          "endNumber": 42
         },
         {
           "number": 43,
@@ -1277,7 +1321,9 @@
         },
         {
           "number": 9,
-          "text": "»Cuando una persona presente una llaga en la piel, tendrá que ser llevada ante el sacerdote. Si al examinar a la persona, el sacerdote nota que la llaga y el vello se han puesto blancos, y se ve la carne viva,"
+          "text": "»Cuando una persona presente una llaga en la piel, tendrá que ser llevada ante el sacerdote. Si al examinar a la persona, el sacerdote nota que la llaga y el vello se han puesto blancos, y se ve la carne viva,",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -1293,11 +1339,15 @@
         },
         {
           "number": 14,
-          "text": "Pero si aparece carne viva en algún lugar, la persona será declarada leprosa. Lo comprueba la carne viva."
+          "text": "Pero si aparece carne viva en algún lugar, la persona será declarada leprosa. Lo comprueba la carne viva.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
           "text": "Pero si la carne viva se vuelve blanca, la persona enferma acudirá al sacerdote para ser examinada nuevamente. Si el lugar en realidad se ha vuelto completamente blanco, el sacerdote la declarará sin lepra.",
+          "verseDisplay": "16-17",
+          "endNumber": 17,
           "headings": [
             "Leyes sobre los abscesos"
           ]
@@ -1354,7 +1404,9 @@
         },
         {
           "number": 29,
-          "text": "»Si una persona, hombre o mujer, tiene una llaga en la cabeza o en el mentón, acudirá al sacerdote para que examine la llaga. Si la llaga parece estar más hundida que el resto de la piel y se encuentra vello amarillento en ella, el sacerdote declarará leprosa a esa persona."
+          "text": "»Si una persona, hombre o mujer, tiene una llaga en la cabeza o en el mentón, acudirá al sacerdote para que examine la llaga. Si la llaga parece estar más hundida que el resto de la piel y se encuentra vello amarillento en ella, el sacerdote declarará leprosa a esa persona.",
+          "verseDisplay": "29-30",
+          "endNumber": 30
         },
         {
           "number": 31,
@@ -1434,7 +1486,9 @@
         },
         {
           "number": 47,
-          "text": "»Cuando aparezca una mancha en un vestido de lana o de lino, o en un objeto de piel o en un utensilio de cuero,"
+          "text": "»Cuando aparezca una mancha en un vestido de lana o de lino, o en un objeto de piel o en un utensilio de cuero,",
+          "verseDisplay": "47-48",
+          "endNumber": 48
         },
         {
           "number": 49,
@@ -1618,7 +1672,9 @@
         },
         {
           "number": 33,
-          "text": "Entonces el Señor les dijo a Moisés y Aarón: «Cuando lleguen a la tierra de Canaán, que yo les he dado, si ven que aparecen hongos o moho en las paredes de una casa,"
+          "text": "Entonces el Señor les dijo a Moisés y Aarón: «Cuando lleguen a la tierra de Canaán, que yo les he dado, si ven que aparecen hongos o moho en las paredes de una casa,",
+          "verseDisplay": "33-34",
+          "endNumber": 34
         },
         {
           "number": 35,
@@ -1686,7 +1742,9 @@
         },
         {
           "number": 51,
-          "text": "y mojará la madera de cedro, el hisopo, la cinta roja y la otra avecilla en la sangre del ave que fue sacrificada, y rociará la casa siete veces. De esta manera se realizará la ceremonia de purificación de la casa."
+          "text": "y mojará la madera de cedro, el hisopo, la cinta roja y la otra avecilla en la sangre del ave que fue sacrificada, y rociará la casa siete veces. De esta manera se realizará la ceremonia de purificación de la casa.",
+          "verseDisplay": "51-52",
+          "endNumber": 52
         },
         {
           "number": 53,
@@ -1694,7 +1752,9 @@
         },
         {
           "number": 54,
-          "text": "»Estas, pues, son las leyes acerca de la infección de la piel, de los hongos o manchas en la ropa o en la casa,"
+          "text": "»Estas, pues, son las leyes acerca de la infección de la piel, de los hongos o manchas en la ropa o en la casa,",
+          "verseDisplay": "54-55",
+          "endNumber": 55
         },
         {
           "number": 56,
@@ -1794,7 +1854,9 @@
         },
         {
           "number": 21,
-          "text": "Cualquiera que toque su cama o su asiento deberá lavarse la ropa, y bañarse, y quedará impuro hasta la noche."
+          "text": "Cualquiera que toque su cama o su asiento deberá lavarse la ropa, y bañarse, y quedará impuro hasta la noche.",
+          "verseDisplay": "21-23",
+          "endNumber": 23
         },
         {
           "number": 24,
@@ -1955,7 +2017,9 @@
         },
         {
           "number": 29,
-          "text": "»Esta es una ley permanente: No trabajarán el décimo día del séptimo mes. Pasarán el día examinándose y humillándose. Esto se aplica a los nacidos en la tierra de Israel y a los extranjeros que vivan entre el pueblo. Es el día en que se celebrará la expiación para que sean limpios de todos sus pecados delante del Señor ."
+          "text": "»Esta es una ley permanente: No trabajarán el décimo día del séptimo mes. Pasarán el día examinándose y humillándose. Esto se aplica a los nacidos en la tierra de Israel y a los extranjeros que vivan entre el pueblo. Es el día en que se celebrará la expiación para que sean limpios de todos sus pecados delante del Señor .",
+          "verseDisplay": "29-30",
+          "endNumber": 30
         },
         {
           "number": 31,
@@ -1988,7 +2052,9 @@
         },
         {
           "number": 3,
-          "text": "«Cualquier israelita que degüelle un buey, un cordero o un chivo en otro lugar que no sea el santuario será culpable de derramamiento de sangre, y será expulsado de su nación."
+          "text": "«Cualquier israelita que degüelle un buey, un cordero o un chivo en otro lugar que no sea el santuario será culpable de derramamiento de sangre, y será expulsado de su nación.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -2004,7 +2070,9 @@
         },
         {
           "number": 8,
-          "text": "Repito: Cualquiera, israelita o extranjero que viva entre ustedes, que ofrezca un sacrificio o un holocausto en un lugar distinto de la entrada del santuario, que es el único lugar donde debe ser ofrecido al Señor , será expulsado del pueblo."
+          "text": "Repito: Cualquiera, israelita o extranjero que viva entre ustedes, que ofrezca un sacrificio o un holocausto en un lugar distinto de la entrada del santuario, que es el único lugar donde debe ser ofrecido al Señor , será expulsado del pueblo.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -2054,6 +2122,8 @@
         {
           "number": 4,
           "text": "Solamente obedecerán mis leyes y las cumplirán al pie de la letra, porque yo soy el Señor su Dios. Si las obedecen tendrán vida. Yo soy el Señor .",
+          "verseDisplay": "4-5",
+          "endNumber": 5,
           "headings": [
             "Relaciones no permitidas"
           ]
@@ -2155,7 +2225,9 @@
         },
         {
           "number": 29,
-          "text": "»Cualquiera que practique alguna de estas inmundicias será expulsado del pueblo. Obedezcan, pues, mis leyes y no practiquen las costumbres detestables de la gente de esos pueblos. No se contaminen con las prácticas inmundas de los que viven en la tierra a la que entrarán ustedes. Yo soy el Señor su Dios»."
+          "text": "»Cualquiera que practique alguna de estas inmundicias será expulsado del pueblo. Obedezcan, pues, mis leyes y no practiquen las costumbres detestables de la gente de esos pueblos. No se contaminen con las prácticas inmundas de los que viven en la tierra a la que entrarán ustedes. Yo soy el Señor su Dios».",
+          "verseDisplay": "29-30",
+          "endNumber": 30
         }
       ]
     },
@@ -2172,7 +2244,9 @@
         },
         {
           "number": 3,
-          "text": "»No hagan ídolos ni los adoren, porque yo soy el Señor su Dios."
+          "text": "»No hagan ídolos ni los adoren, porque yo soy el Señor su Dios.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -2305,7 +2379,9 @@
         },
         {
           "number": 35,
-          "text": "»Sean imparciales en los juicios. Usen medidas exactas de longitud, de peso y de volumen, y den la medida completa, porque yo soy el Señor su Dios, que los saqué de Egipto."
+          "text": "»Sean imparciales en los juicios. Usen medidas exactas de longitud, de peso y de volumen, y den la medida completa, porque yo soy el Señor su Dios, que los saqué de Egipto.",
+          "verseDisplay": "35-36",
+          "endNumber": 36
         },
         {
           "number": 37,
@@ -2435,7 +2511,9 @@
         },
         {
           "number": 2,
-          "text": "Tan solo se les permite hacerlo en caso de que el muerto sea un pariente cercano, como su madre, su padre, su hijo, su hija, su hermano, o su hermana soltera por la que tenga especial responsabilidad, por cuanto ella no tiene marido."
+          "text": "Tan solo se les permite hacerlo en caso de que el muerto sea un pariente cercano, como su madre, su padre, su hijo, su hija, su hermano, o su hermana soltera por la que tenga especial responsabilidad, por cuanto ella no tiene marido.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -2483,13 +2561,17 @@
         {
           "number": 14,
           "text": "No puede casarse con una viuda, ni con una divorciada, ni con una prostituta. Debe casarse con una virgen de su propia tribu, porque él no puede ser padre de hijos de sangre mixta, mitad sacerdotal y mitad de persona común. Yo soy el Señor que lo santifica».",
+          "verseDisplay": "14-15",
+          "endNumber": 15,
           "headings": [
             "Impedimentos para ejercer el sacerdocio"
           ]
         },
         {
           "number": 16,
-          "text": "El Señor le ordenó a Moisés que le dijera a Aarón: «A través de todas las generaciones, cualquier descendiente tuyo que tenga algún defecto físico no podrá ofrecer sacrificio delante de Dios."
+          "text": "El Señor le ordenó a Moisés que le dijera a Aarón: «A través de todas las generaciones, cualquier descendiente tuyo que tenga algún defecto físico no podrá ofrecer sacrificio delante de Dios.",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         },
         {
           "number": 18,
@@ -2593,7 +2675,9 @@
         },
         {
           "number": 17,
-          "text": "El Señor le ordenó a Moisés que les dijera a Aarón y a sus hijos, y a todos los israelitas en general: «Si un israelita o un extranjero que viva en medio de ustedes ofrece un holocausto al Señor , sea para cumplir una promesa o sea una ofrenda voluntaria espontánea,"
+          "text": "El Señor le ordenó a Moisés que les dijera a Aarón y a sus hijos, y a todos los israelitas en general: «Si un israelita o un extranjero que viva en medio de ustedes ofrece un holocausto al Señor , sea para cumplir una promesa o sea una ofrenda voluntaria espontánea,",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -2625,7 +2709,9 @@
         },
         {
           "number": 26,
-          "text": "Y el Señor le dijo a Moisés: «Cuando nazca un becerro, un cordero o un cabrito, será dejado con su madre siete días, pero al octavo día es aceptable como holocausto al Señor ."
+          "text": "Y el Señor le dijo a Moisés: «Cuando nazca un becerro, un cordero o un cabrito, será dejado con su madre siete días, pero al octavo día es aceptable como holocausto al Señor .",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -2633,7 +2719,9 @@
         },
         {
           "number": 29,
-          "text": "»Cuando ofrezcan al Señor un sacrificio de acción de gracias, deberán hacerlo en la forma correcta, comiéndose el animal sacrificado el mismo día que fue degollado. No dejarán parte de él para el día siguiente. Yo soy el Señor ."
+          "text": "»Cuando ofrezcan al Señor un sacrificio de acción de gracias, deberán hacerlo en la forma correcta, comiéndose el animal sacrificado el mismo día que fue degollado. No dejarán parte de él para el día siguiente. Yo soy el Señor .",
+          "verseDisplay": "29-30",
+          "endNumber": 30
         },
         {
           "number": 31,
@@ -2641,7 +2729,9 @@
         },
         {
           "number": 32,
-          "text": "»No me tratarán como si fuera algo común y ordinario. Al contrario, reconozcan que yo soy el Dios santo que habito entre ustedes. Yo soy el Señor que los santifico a ustedes. Fui yo quien los rescaté de Egipto para que fueran mi pueblo especial. Yo soy el Señor »."
+          "text": "»No me tratarán como si fuera algo común y ordinario. Al contrario, reconozcan que yo soy el Dios santo que habito entre ustedes. Yo soy el Señor que los santifico a ustedes. Fui yo quien los rescaté de Egipto para que fueran mi pueblo especial. Yo soy el Señor ».",
+          "verseDisplay": "32-33",
+          "endNumber": 33
         }
       ]
     },
@@ -2691,7 +2781,9 @@
         },
         {
           "number": 9,
-          "text": "»La fiesta de las Primicias: Cuando lleguen a la tierra que yo les daré, y hagan su primera cosecha, lleven las primeras gavillas de la cosecha al sacerdote, al día siguiente del día de descanso. Él la mecerá para ofrecérsela al Señor , quien la aceptará como ofrenda de ustedes."
+          "text": "»La fiesta de las Primicias: Cuando lleguen a la tierra que yo les daré, y hagan su primera cosecha, lleven las primeras gavillas de la cosecha al sacerdote, al día siguiente del día de descanso. Él la mecerá para ofrecérsela al Señor , quien la aceptará como ofrenda de ustedes.",
+          "verseDisplay": "9-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -2710,7 +2802,9 @@
         },
         {
           "number": 15,
-          "text": "»La fiesta de las Semanas: Cincuenta días después traerán al Señor una ofrenda de grano nuevo de su última cosecha."
+          "text": "»La fiesta de las Semanas: Cincuenta días después traerán al Señor una ofrenda de grano nuevo de su última cosecha.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -2741,7 +2835,9 @@
         },
         {
           "number": 23,
-          "text": "»La fiesta de las Trompetas: Esta fiesta se celebrará el primer día del séptimo mes. Es una fiesta en honor al Señor , y todo el pueblo se reunirá para adorar solemnemente al Señor . Es una fecha memorable, y debe ser anunciada por medio del sonido de trompetas."
+          "text": "»La fiesta de las Trompetas: Esta fiesta se celebrará el primer día del séptimo mes. Es una fiesta en honor al Señor , y todo el pueblo se reunirá para adorar solemnemente al Señor . Es una fecha memorable, y debe ser anunciada por medio del sonido de trompetas.",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -2752,7 +2848,9 @@
         },
         {
           "number": 26,
-          "text": "»El día del Perdón: Se celebrará nueve días después, es decir, el día diez del mes séptimo. Todo el pueblo debe presentarse delante del Señor , para ayunar y presentar sacrificios por fuego en honor al Señor ."
+          "text": "»El día del Perdón: Se celebrará nueve días después, es decir, el día diez del mes séptimo. Todo el pueblo debe presentarse delante del Señor , para ayunar y presentar sacrificios por fuego en honor al Señor .",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -2764,7 +2862,9 @@
         },
         {
           "number": 30,
-          "text": "Al que realice algún trabajo en ese día yo lo destruiré. Esta es una ley que regirá en Israel de generación en generación."
+          "text": "Al que realice algún trabajo en ese día yo lo destruiré. Esta es una ley que regirá en Israel de generación en generación.",
+          "verseDisplay": "30-31",
+          "endNumber": 31
         },
         {
           "number": 32,
@@ -2775,7 +2875,9 @@
         },
         {
           "number": 33,
-          "text": "»La fiesta de las Enramadas: Cinco días después, esto es, el día quince del mes séptimo, se celebrará la fiesta de las Enramadas durante siete días, delante del Señor ."
+          "text": "»La fiesta de las Enramadas: Cinco días después, esto es, el día quince del mes séptimo, se celebrará la fiesta de las Enramadas durante siete días, delante del Señor .",
+          "verseDisplay": "33-34",
+          "endNumber": 34
         },
         {
           "number": 35,
@@ -2833,13 +2935,17 @@
         {
           "number": 3,
           "text": "Aarón preparará las lámparas que están en el santuario, fuera de la cortina del testimonio. Cada mañana y cada tarde Aarón pondrá aceite nuevo en las lámparas que habrá limpiado. La llama arderá continuamente delante del Señor .",
+          "verseDisplay": "3-4",
+          "endNumber": 4,
           "headings": [
             "Los panes ofrecidos al Señor"
           ]
         },
         {
           "number": 5,
-          "text": "»Cada día de descanso, el sumo sacerdote colocará doce panes, en dos hileras, sobre la mesa de oro que está delante del Señor . Cada uno de estos panes será preparado con harina de la mejor calidad, y deberá pesar unos cuatro kilos. Sobre cada hilera pondrá incienso puro. Esto será una ofrenda recordatoria, ofrecida por fuego al Señor . Con ella se recordará el pacto eterno que el Señor hizo con el pueblo de Israel."
+          "text": "»Cada día de descanso, el sumo sacerdote colocará doce panes, en dos hileras, sobre la mesa de oro que está delante del Señor . Cada uno de estos panes será preparado con harina de la mejor calidad, y deberá pesar unos cuatro kilos. Sobre cada hilera pondrá incienso puro. Esto será una ofrenda recordatoria, ofrecida por fuego al Señor . Con ella se recordará el pacto eterno que el Señor hizo con el pueblo de Israel.",
+          "verseDisplay": "5-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -2862,11 +2968,15 @@
         },
         {
           "number": 13,
-          "text": "Entonces el Señor le dijo a Moisés: «Saca fuera del campamento al que me ofendió, y diles a todos los que lo oyeron que pongan las manos sobre su cabeza; luego toda la comunidad de Israel lo apedreará hasta darle muerte."
+          "text": "Entonces el Señor le dijo a Moisés: «Saca fuera del campamento al que me ofendió, y diles a todos los que lo oyeron que pongan las manos sobre su cabeza; luego toda la comunidad de Israel lo apedreará hasta darle muerte.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
           "text": "Y dile al pueblo de Israel que cualquiera que maldiga a Dios sufrirá el mismo castigo. Sí, todo el que pronuncie el nombre del Señor al maldecir a su prójimo debe ser condenado a muerte. Esta ley se aplicará tanto a israelitas como a extranjeros. El que pronuncie el nombre del Señor al maldecir, será muerto a pedradas.",
+          "verseDisplay": "15-16",
+          "endNumber": 16,
           "headings": [
             "La ley del talión"
           ]
@@ -2927,6 +3037,8 @@
         {
           "number": 6,
           "text": "Todo lo que se produzca naturalmente ese año servirá de alimento para ustedes, para sus siervos, para sus esclavos y para los extranjeros que vivan entre ustedes. Allí también pastarán el ganado y los animales salvajes.",
+          "verseDisplay": "6-7",
+          "endNumber": 7,
           "headings": [
             "El año del jubileo"
           ]
@@ -2958,13 +3070,17 @@
         {
           "number": 14,
           "text": "Por esta razón, si se vende la tierra durante los cuarenta y nueve años precedentes, se establecerá un precio justo, teniendo en cuenta los años que faltan para el jubileo. Si el jubileo está a muchos años de distancia, el precio será alto. Si faltan pocos años, el precio será bajo. Lo que realmente están haciendo es vender el número de cosechas que habrá hasta el próximo jubileo, cuando la tierra les sea devuelta por el que la compró.",
+          "verseDisplay": "14-16",
+          "endNumber": 16,
           "headings": [
             "Consecuencias de la obediencia"
           ]
         },
         {
           "number": 17,
-          "text": "»Teman a Dios y no le hagan daño a su prójimo, porque yo soy el Señor . Si quieren vivir seguros en la tierra, obedezcan mis leyes."
+          "text": "»Teman a Dios y no le hagan daño a su prójimo, porque yo soy el Señor . Si quieren vivir seguros en la tierra, obedezcan mis leyes.",
+          "verseDisplay": "17-18",
+          "endNumber": 18
         },
         {
           "number": 19,
@@ -2977,6 +3093,8 @@
         {
           "number": 21,
           "text": "La respuesta es: Los bendeciré con cosechas extraordinarias el sexto año, lo que les permitirá vivir hasta que obtengan la cosecha del octavo año.",
+          "verseDisplay": "21-22",
+          "endNumber": 22,
           "headings": [
             "Leyes sobre el rescate de propiedades"
           ]
@@ -3132,7 +3250,9 @@
         },
         {
           "number": 4,
-          "text": "yo les daré las lluvias con regularidad, la tierra producirá cosechas abundantes, y los árboles darán frutos por más tiempo que el normal. Aún estarán madurando las uvas cuando llegue el tiempo de la siembra. Comerán hasta saciarse, y vivirán seguros en la tierra,"
+          "text": "yo les daré las lluvias con regularidad, la tierra producirá cosechas abundantes, y los árboles darán frutos por más tiempo que el normal. Aún estarán madurando las uvas cuando llegue el tiempo de la siembra. Comerán hasta saciarse, y vivirán seguros en la tierra,",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -3251,7 +3371,9 @@
         },
         {
           "number": 34,
-          "text": "Entonces la tierra tendrá el descanso que ustedes le negaron. Porque descansará mientras ustedes estén cautivos en tierras enemigas. Sí, la tierra descansará y gozará de sus descansos. Recibirá el descanso que ustedes no le dieron cada siete años, mientras vivían en ella."
+          "text": "Entonces la tierra tendrá el descanso que ustedes le negaron. Porque descansará mientras ustedes estén cautivos en tierras enemigas. Sí, la tierra descansará y gozará de sus descansos. Recibirá el descanso que ustedes no le dieron cada siete años, mientras vivían en ella.",
+          "verseDisplay": "34-35",
+          "endNumber": 35
         },
         {
           "number": 36,
@@ -3271,7 +3393,9 @@
         },
         {
           "number": 40,
-          "text": "»Pero si se arrepienten y confiesan sus pecados y los pecados con los que sus padres me traicionaron, y que fueron la causa para que yo los sacara de su tierra y los hiciera ir a un país extraño,"
+          "text": "»Pero si se arrepienten y confiesan sus pecados y los pecados con los que sus padres me traicionaron, y que fueron la causa para que yo los sacara de su tierra y los hiciera ir a un país extraño,",
+          "verseDisplay": "40-41",
+          "endNumber": 41
         },
         {
           "number": 42,
@@ -3340,7 +3464,9 @@
         },
         {
           "number": 11,
-          "text": "»Pero si el animal ofrecido al Señor es un animal impuro, el dueño lo presentará al sacerdote para que determine su precio que se deberá pagar a cambio."
+          "text": "»Pero si el animal ofrecido al Señor es un animal impuro, el dueño lo presentará al sacerdote para que determine su precio que se deberá pagar a cambio.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -3348,7 +3474,9 @@
         },
         {
           "number": 14,
-          "text": "»Si alguno ofrece su casa al Señor , y luego desea recuperarla, el sacerdote establecerá su valor, y el hombre pagará esa suma más el veinte por ciento, y la casa será suya nuevamente."
+          "text": "»Si alguno ofrece su casa al Señor , y luego desea recuperarla, el sacerdote establecerá su valor, y el hombre pagará esa suma más el veinte por ciento, y la casa será suya nuevamente.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,

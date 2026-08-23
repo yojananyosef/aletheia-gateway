@@ -1816,7 +1816,9 @@
         },
         {
           "number": 3,
-          "text": "En su sermón, empleó muchos simbolismos que ilustraban sus puntos de vista. Por ejemplo, usó el siguiente: «Un agricultor salió a sembrar sus semillas en el campo. Mientras lo hacía, algunas semillas cayeron en el camino, y las aves vinieron y se las comieron."
+          "text": "En su sermón, empleó muchos simbolismos que ilustraban sus puntos de vista. Por ejemplo, usó el siguiente: «Un agricultor salió a sembrar sus semillas en el campo. Mientras lo hacía, algunas semillas cayeron en el camino, y las aves vinieron y se las comieron.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -2160,7 +2162,9 @@
         },
         {
           "number": 23,
-          "text": "Al quedarse solo, Jesús subió al monte a orar. La noche sorprendió a los discípulos en medio de las aguas agitadas y luchando contra vientos contrarios."
+          "text": "Al quedarse solo, Jesús subió al monte a orar. La noche sorprendió a los discípulos en medio de las aguas agitadas y luchando contra vientos contrarios.",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -2367,7 +2371,9 @@
         },
         {
           "number": 37,
-          "text": "Nadie se quedó sin comer, a pesar de que había cuatro mil personas, sin contar las mujeres y los niños ¡Y sobraron siete cestas repletas de alimentos!"
+          "text": "Nadie se quedó sin comer, a pesar de que había cuatro mil personas, sin contar las mujeres y los niños ¡Y sobraron siete cestas repletas de alimentos!",
+          "verseDisplay": "37-38",
+          "endNumber": 38
         },
         {
           "number": 39,
@@ -2969,7 +2975,9 @@
         },
         {
           "number": 14,
-          "text": "Pues tómalo y vete. Y porque quiero pagarle a todos los trabajadores lo mismo, ¡no me vengas ahora con que es injusto que yo haga con mi dinero lo que me plazca! Por tanto, no tienes razón para enojarte”."
+          "text": "Pues tómalo y vete. Y porque quiero pagarle a todos los trabajadores lo mismo, ¡no me vengas ahora con que es injusto que yo haga con mi dinero lo que me plazca! Por tanto, no tienes razón para enojarte”.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -3345,7 +3353,9 @@
         },
         {
           "number": 18,
-          "text": "Jesús, que sabía lo que se traían entre manos, les dijo: ―¡Hipócritas! ¿A quién se creen que están tratando de engañar con preguntas como esas? Enséñenme una moneda. Y ellos le mostraron una moneda romana de plata."
+          "text": "Jesús, que sabía lo que se traían entre manos, les dijo: ―¡Hipócritas! ¿A quién se creen que están tratando de engañar con preguntas como esas? Enséñenme una moneda. Y ellos le mostraron una moneda romana de plata.",
+          "verseDisplay": "18-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -3372,11 +3382,15 @@
         },
         {
           "number": 25,
-          "text": "Pues bien, hubo una vez una familia de siete hermanos. El primero de estos se casó y murió sin tener hijos, por lo cual la viuda se casó con el segundo hermano. Aquel hermano también murió sin tener hijos, y la esposa se casó con el siguiente hermano. El caso se fue repitiendo de manera tal que aquella señora fue esposa de los siete hermanos."
+          "text": "Pues bien, hubo una vez una familia de siete hermanos. El primero de estos se casó y murió sin tener hijos, por lo cual la viuda se casó con el segundo hermano. Aquel hermano también murió sin tener hijos, y la esposa se casó con el siguiente hermano. El caso se fue repitiendo de manera tal que aquella señora fue esposa de los siete hermanos.",
+          "verseDisplay": "25-26",
+          "endNumber": 26
         },
         {
           "number": 27,
-          "text": "Pero a la mujer le llegó también la hora de morir. Dinos, ¿de cuál de los hermanos será esposa cuando resuciten? ¡En vida lo fue de los siete!"
+          "text": "Pero a la mujer le llegó también la hora de morir. Dinos, ¿de cuál de los hermanos será esposa cuando resuciten? ¡En vida lo fue de los siete!",
+          "verseDisplay": "27-28",
+          "endNumber": 28
         },
         {
           "number": 29,
@@ -3530,7 +3544,9 @@
         },
         {
           "number": 16,
-          "text": "¡Guías ciegos, ay de ustedes!, porque dicen que no importa que se jure en vano por el templo de Dios, pero si alguien jura en vano por el oro del templo, lo condenan. ¡Ciegos insensatos! ¿Qué es más importante, el oro o el templo que santifica el oro?"
+          "text": "¡Guías ciegos, ay de ustedes!, porque dicen que no importa que se jure en vano por el templo de Dios, pero si alguien jura en vano por el oro del templo, lo condenan. ¡Ciegos insensatos! ¿Qué es más importante, el oro o el templo que santifica el oro?",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         },
         {
           "number": 18,
@@ -3781,7 +3797,9 @@
         },
         {
           "number": 37,
-          "text": "Este mundo incrédulo continuará entregado a sus banquetes y fiestas de bodas hasta el día de mi venida, y le va a pasar lo mismo que a la gente que no quiso creer a Noé hasta que fue demasiado tarde y el diluvio la arrastró."
+          "text": "Este mundo incrédulo continuará entregado a sus banquetes y fiestas de bodas hasta el día de mi venida, y le va a pasar lo mismo que a la gente que no quiso creer a Noé hasta que fue demasiado tarde y el diluvio la arrastró.",
+          "verseDisplay": "37-39",
+          "endNumber": 39
         },
         {
           "number": 40,
@@ -3842,7 +3860,9 @@
         },
         {
           "number": 2,
-          "text": "Cinco de ellas fueron sabias y llenaron bien las lámparas de aceite, mientras que las otras cinco, insensatas, no lo hicieron."
+          "text": "Cinco de ellas fueron sabias y llenaron bien las lámparas de aceite, mientras que las otras cinco, insensatas, no lo hicieron.",
+          "verseDisplay": "2-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -3925,7 +3945,9 @@
         },
         {
           "number": 24,
-          "text": "»Cuando el que había recibido los diez mil pesos se presentó ante el jefe, le dijo: “Señor, como sabía que eres tan duro que te quedarías con cualquier utilidad que yo obtuviera, escondí el dinero. Aquí tienes hasta el último centavo que me diste”."
+          "text": "»Cuando el que había recibido los diez mil pesos se presentó ante el jefe, le dijo: “Señor, como sabía que eres tan duro que te quedarías con cualquier utilidad que yo obtuviera, escondí el dinero. Aquí tienes hasta el último centavo que me diste”.",
+          "verseDisplay": "24-25",
+          "endNumber": 25
         },
         {
           "number": 26,
@@ -4029,7 +4051,9 @@
         },
         {
           "number": 3,
-          "text": "En aquel mismo instante, los principales sacerdotes y los funcionarios judíos se reunían en la residencia de Caifás, el sumo sacerdote, y discutían sobre la manera de capturar a Jesús a espaldas del pueblo y matarlo."
+          "text": "En aquel mismo instante, los principales sacerdotes y los funcionarios judíos se reunían en la residencia de Caifás, el sumo sacerdote, y discutían sobre la manera de capturar a Jesús a espaldas del pueblo y matarlo.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -4102,7 +4126,9 @@
         },
         {
           "number": 20,
-          "text": "Aquella noche, mientras comía con los doce, dijo: ―Uno de ustedes me va a traicionar."
+          "text": "Aquella noche, mientras comía con los doce, dijo: ―Uno de ustedes me va a traicionar.",
+          "verseDisplay": "20-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -4290,7 +4316,9 @@
         },
         {
           "number": 65,
-          "text": "―¡Blasfemia! —gritó el sumo sacerdote, rasgándose la ropa—. ¿Qué más testigos necesitamos? ¡Él mismo lo ha confesado! ¿Cuál es el veredicto de ustedes? ―¡Que muera!, ¡que muera! —le respondieron."
+          "text": "―¡Blasfemia! —gritó el sumo sacerdote, rasgándose la ropa—. ¿Qué más testigos necesitamos? ¡Él mismo lo ha confesado! ¿Cuál es el veredicto de ustedes? ―¡Que muera!, ¡que muera! —le respondieron.",
+          "verseDisplay": "65-66",
+          "endNumber": 66
         },
         {
           "number": 67,
@@ -4651,7 +4679,9 @@
         },
         {
           "number": 4,
-          "text": "Los guardias, temblando de miedo, se quedaron como muertos. Pero el ángel dijo a las mujeres: ―No teman. Sé que buscan a Jesús, el crucificado."
+          "text": "Los guardias, temblando de miedo, se quedaron como muertos. Pero el ángel dijo a las mujeres: ―No teman. Sé que buscan a Jesús, el crucificado.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,

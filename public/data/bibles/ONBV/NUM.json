@@ -13,7 +13,9 @@
         },
         {
           "number": 2,
-          "text": "«Haz un censo de todos los hombres, mayores de veinte años, capaces de ir a la guerra. En la lista anota la tribu y familia a la que pertenezcan. Aarón y tú deberán organizar este trabajo, con la ayuda de los siguientes jefes de cada tribu. Tribu Jefe Rubén Elisur (hijo de Sedeúr); Simeón Selumiel (hijo de Zurisaday); Judá Naasón (hijo de Aminadab); Isacar Natanael (hijo de Zuar); Zabulón Eliab (hijo de Helón); hijos de José: Efraín Elisama (hijo de Amiud); Manasés Gamaliel (hijo de Pedasur); Benjamín Abidán (hijo de Gedeoni); Dan Ajiezer (hijo de Amisaday); Aser Paguiel (hijo de Ocrán); Gad Eliasaf (hijo de Deuel); Neftalí Ajira (hijo de Enán)»."
+          "text": "«Haz un censo de todos los hombres, mayores de veinte años, capaces de ir a la guerra. En la lista anota la tribu y familia a la que pertenezcan. Aarón y tú deberán organizar este trabajo, con la ayuda de los siguientes jefes de cada tribu. Tribu Jefe Rubén Elisur (hijo de Sedeúr); Simeón Selumiel (hijo de Zurisaday); Judá Naasón (hijo de Aminadab); Isacar Natanael (hijo de Zuar); Zabulón Eliab (hijo de Helón); hijos de José: Efraín Elisama (hijo de Amiud); Manasés Gamaliel (hijo de Pedasur); Benjamín Abidán (hijo de Gedeoni); Dan Ajiezer (hijo de Amisaday); Aser Paguiel (hijo de Ocrán); Gad Eliasaf (hijo de Deuel); Neftalí Ajira (hijo de Enán)».",
+          "verseDisplay": "2-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -21,18 +23,24 @@
         },
         {
           "number": 17,
-          "text": "El mismo día, Moisés, Aarón y los jefes de tribu que se acaban de mencionar convocaron a todos los hombres de Israel de más de veinte años, para que se inscribieran, indicando su tribu y familia, como el Señor le había dicho a Moisés."
+          "text": "El mismo día, Moisés, Aarón y los jefes de tribu que se acaban de mencionar convocaron a todos los hombres de Israel de más de veinte años, para que se inscribieran, indicando su tribu y familia, como el Señor le había dicho a Moisés.",
+          "verseDisplay": "17-19",
+          "endNumber": 19
         },
         {
           "number": 20,
           "text": "La tabla resultante: Tribu Total Rubén (el hijo mayor de Jacob) 46.500 Simeón 59.300 Gad 45.650 Judá 74.600 Isacar 54.400 Zabulón 57.400 José: Efraín (hijo de José) 40.500 José: Manasés (hijo de José) 32.200 Benjamín 35.400 Dan 62.700 Aser 41.500 Neftalí 53.400 TOTAL 603.550",
+          "verseDisplay": "20-46",
+          "endNumber": 46,
           "headings": [
             "Los levitas"
           ]
         },
         {
           "number": 47,
-          "text": "Esa cifra no incluía a los levitas, pues el Señor le había dicho a Moisés: «Excluye a toda la tribu de Leví,"
+          "text": "Esa cifra no incluía a los levitas, pues el Señor le había dicho a Moisés: «Excluye a toda la tribu de Leví,",
+          "verseDisplay": "47-49",
+          "endNumber": 49
         },
         {
           "number": 50,
@@ -70,6 +78,8 @@
         {
           "number": 3,
           "text": "La ubicación de las tribus: Tribu Jefe Situación Censo Judá Naasón (hijo de Aminadab) Al este del santuario 74.600 Isacar Natanael (hijo de Zuar) Junto a Judá 54.400 Zabulón Eliab (hijo de Helón) Junto a Isacar 57.400 El total de los que estaban en el campamento junto a Judá era de ciento ochenta y seis mil cuatrocientos. Estas tribus abrían la marcha siempre que los israelitas tenían que trasladar el campamento. Tribu Jefe Situación Censo Rubén Elisur (hijo de Sedeúr) Al sur del santuario 46.500 Simeón Selumiel (hijo de Zurisaday) Junto a Rubén 59.300 Gad Eliasaf (hijo de Reuel [o Deuel]) Junto a Simeón 45.650 Así que el total de los que estaban en el campamento junto a Rubén era de ciento cincuenta y un mil cuatrocientos cincuenta. Estas tres tribus eran las segundas en marchar cuando los israelitas viajaban. Luego seguía el santuario con los levitas. Durante los viajes, cada tribu se mantenía en torno a su bandera, conservando el lugar, el orden y la distancia que había entre cada una cuando acampaban. Tribu Jefe Situación Censo Efraín Elisama (hijo de Amiud) Al oeste del santuario 40.500 Manasés Gamaliel (hijo de Pedasur) Junto a Efraín 32.200 Benjamín Abidán (hijo de Gedeoni) Junto a Manasés 35.400 El total de los que estaban en el campamento junto a Efraín era de ciento ocho mil cien, y eran los terceros en marchar. Tribu Jefe Situación Censo Dan Ajiezer (hijo de Amisaday) Al norte del santuario 62.700 Aser Paguiel (hijo de Ocrán) Junto a Dan 41.500 Neftalí Ajira (hijo de Enán) Junto a Aser 53.400 El total de los que estaban en el campamento junto a Dan era de ciento cincuenta y siete mil seiscientos. Estos cerraban la marcha cuando Israel se trasladaba.",
+          "verseDisplay": "3-31",
+          "endNumber": 31,
           "headings": [
             "Campamento del este",
             "Campamento del sur",
@@ -79,7 +89,9 @@
         },
         {
           "number": 32,
-          "text": "En resumen, los ejércitos de Israel sumaban seiscientos tres mil quinientos cincuenta (sin incluir a los levitas, que quedaban exentos por el mandamiento que el Señor le había dado a Moisés)."
+          "text": "En resumen, los ejércitos de Israel sumaban seiscientos tres mil quinientos cincuenta (sin incluir a los levitas, que quedaban exentos por el mandamiento que el Señor le había dado a Moisés).",
+          "verseDisplay": "32-33",
+          "endNumber": 33
         },
         {
           "number": 34,
@@ -119,7 +131,9 @@
         },
         {
           "number": 7,
-          "text": "Seguirán sus instrucciones y realizarán los deberes sagrados del santuario en lugar de todo el pueblo de Israel, al cual representan. Se encargarán de todos los suministros del santuario y de su mantenimiento."
+          "text": "Seguirán sus instrucciones y realizarán los deberes sagrados del santuario en lugar de todo el pueblo de Israel, al cual representan. Se encargarán de todos los suministros del santuario y de su mantenimiento.",
+          "verseDisplay": "7-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -154,6 +168,8 @@
         {
           "number": 16,
           "text": "Y Moisés lo hizo. Estos fueron los resultados: Hijo de Leví Nietos de Leví (Nombres del clan) Censo Jefe Situación Guersón Libn, Simí 7.500 Eliasaf (hijo de Lael) Al oeste del santuario La responsabilidad de estos dos clanes de levitas consistía en cuidar el santuario: sus cubiertas, sus cortinajes de entrada, la cortina que cubría la valla que rodeaba el patio, la cortina de la entrada al patio del santuario, el altar y todas las cuerdas que se usaban para armar el santuario. Coat Amirá, Iza, Hebró, Uziel 8.600 Elizafán (hijo de Uziel) Al sur del santuario",
+          "verseDisplay": "16-24",
+          "endNumber": 24,
           "headings": [
             "Responsabilidades",
             "Responsabilidades"
@@ -162,6 +178,8 @@
         {
           "number": 25,
           "text": "Las responsabilidades de estos cuatro clanes de levitas consistían en cuidar el cofre, la mesa, el candelabro, los altares, los diversos utensilios empleados en el santuario, el velo, y todo lo que fuera necesario para sus usos. (Nota: Eleazar, hijo de Aarón, fue el administrador general de los jefes de los levitas, y tuvo la responsabilidad de supervisar el santuario). Merari Majl, Musí 6.200 Zuriel Al norte del santuario La responsabilidad de estos dos clanes consistía en cuidar la estructura de la tienda del santuario, los postes, las bases de los postes, y todo lo que fuera necesario para sus usos, los postes que hay en torno al patio, con sus bases, estacas, y cuerdas.",
+          "verseDisplay": "25-37",
+          "endNumber": 37,
           "headings": [
             "Responsabilidades",
             "La tribu de Leví"
@@ -208,7 +226,9 @@
         },
         {
           "number": 47,
-          "text": "paga sesenta gramos de plata por cada uno a Aarón y sus hijos»."
+          "text": "paga sesenta gramos de plata por cada uno a Aarón y sus hijos».",
+          "verseDisplay": "47-48",
+          "endNumber": 48
         },
         {
           "number": 49,
@@ -389,18 +409,24 @@
         },
         {
           "number": 38,
-          "text": "El censo similar del clan de Guersón dio una cifra de dos mil seiscientos treinta."
+          "text": "El censo similar del clan de Guersón dio una cifra de dos mil seiscientos treinta.",
+          "verseDisplay": "38-41",
+          "endNumber": 41
         },
         {
           "number": 42,
           "text": "Y el del clan de Merari, tres mil doscientos.",
+          "verseDisplay": "42-45",
+          "endNumber": 45,
           "headings": [
             "Conclusión"
           ]
         },
         {
           "number": 46,
-          "text": "Así que Moisés, Aarón y los demás dirigentes de Israel vieron que el total de los levitas entre treinta y cincuenta años, aptos para el servicio en el santuario, y para su transporte, era de ocho mil quinientos ochenta."
+          "text": "Así que Moisés, Aarón y los demás dirigentes de Israel vieron que el total de los levitas entre treinta y cincuenta años, aptos para el servicio en el santuario, y para su transporte, era de ocho mil quinientos ochenta.",
+          "verseDisplay": "46-48",
+          "endNumber": 48
         },
         {
           "number": 49,
@@ -449,6 +475,8 @@
         {
           "number": 9,
           "text": "Cuando el pueblo de Israel lleve una ofrenda al Señor , la ofrenda quedará como posesión de los sacerdotes».",
+          "verseDisplay": "9-10",
+          "endNumber": 10,
           "headings": [
             "Ley sobre los celos"
           ]
@@ -495,7 +523,9 @@
         },
         {
           "number": 21,
-          "text": "que el Señor te maldiga en medio de tu pueblo, y no puedas tener hijos y tu vientre se hinche”. Entonces le pedirá a la mujer que diga: “Sí, así sea”."
+          "text": "que el Señor te maldiga en medio de tu pueblo, y no puedas tener hijos y tu vientre se hinche”. Entonces le pedirá a la mujer que diga: “Sí, así sea”.",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -548,7 +578,9 @@
         },
         {
           "number": 3,
-          "text": "durante todo el período de su consagración al Señor no debe probar bebidas fuertes, ni vino añejo, ni vino recién hecho, ni mosto, ni uvas, ni uvas pasas. No puede comer nada de lo que proviene de la uva, ni siquiera los granillos o el hollejo."
+          "text": "durante todo el período de su consagración al Señor no debe probar bebidas fuertes, ni vino añejo, ni vino recién hecho, ni mosto, ni uvas, ni uvas pasas. No puede comer nada de lo que proviene de la uva, ni siquiera los granillos o el hollejo.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -631,7 +663,9 @@
         },
         {
           "number": 24,
-          "text": "“El Señor te bendiga y te guarde; que el rostro del Señor resplandezca sobre ti, que él te sea propicio, te muestre su favor y te dé su paz”."
+          "text": "“El Señor te bendiga y te guarde; que el rostro del Señor resplandezca sobre ti, que él te sea propicio, te muestre su favor y te dé su paz”.",
+          "verseDisplay": "24-26",
+          "endNumber": 26
         },
         {
           "number": 27,
@@ -656,7 +690,9 @@
         },
         {
           "number": 4,
-          "text": "«Acepta sus ofrendas» —le dijo el Señor a Moisés—, «y utiliza esos carros para el trabajo del santuario. Entrégaselos a los levitas para lo que los necesiten»."
+          "text": "«Acepta sus ofrendas» —le dijo el Señor a Moisés—, «y utiliza esos carros para el trabajo del santuario. Entrégaselos a los levitas para lo que los necesiten».",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -718,6 +754,8 @@
         {
           "number": 18,
           "text": "Al día siguiente Natanael, hijo de Zuar, jefe de la tribu de Isacar, presentó sus dones y ofrendas. Eran estos exactamente iguales que los que había presentado Naasón el día anterior.",
+          "verseDisplay": "18-23",
+          "endNumber": 23,
           "headings": [
             "La ofrenda de Zabulón"
           ],
@@ -732,6 +770,8 @@
         {
           "number": 24,
           "text": "Al tercer día, Eliab, hijo de Helón, jefe de la tribu de Zabulón, vino con ofrendas iguales a las que se habían presentado los días anteriores.",
+          "verseDisplay": "24-29",
+          "endNumber": 29,
           "headings": [
             "La ofrenda de Rubén"
           ]
@@ -739,6 +779,8 @@
         {
           "number": 30,
           "text": "Al cuarto día Elisur, hijo de Sedeúr, jefe de la tribu de Rubén, fue a entregar sus ofrendas, que eran iguales que las que se habían presentado con anterioridad.",
+          "verseDisplay": "30-35",
+          "endNumber": 35,
           "headings": [
             "La ofrenda de Simeón"
           ]
@@ -746,6 +788,8 @@
         {
           "number": 36,
           "text": "Al quinto día fue Selumiel, hijo de Zurisaday, jefe de la tribu de Simeón, con las mismas ofrendas.",
+          "verseDisplay": "36-41",
+          "endNumber": 41,
           "headings": [
             "La ofrenda de Gad"
           ]
@@ -753,6 +797,8 @@
         {
           "number": 42,
           "text": "Al día siguiente le correspondió a Eliasaf, hijo de Deuel, jefe de la tribu de Gad. También él presentó las mismas ofrendas y sacrificios.",
+          "verseDisplay": "42-47",
+          "endNumber": 47,
           "headings": [
             "La ofrenda de Efraín"
           ]
@@ -760,6 +806,8 @@
         {
           "number": 48,
           "text": "Al séptimo día, Elisama, hijo de Amiud, jefe de la tribu de Efraín, llevó sus ofrendas, igual que las que se habían presentado anteriormente.",
+          "verseDisplay": "48-53",
+          "endNumber": 53,
           "headings": [
             "La ofrenda de Manasés"
           ]
@@ -767,6 +815,8 @@
         {
           "number": 54,
           "text": "Gamaliel, hijo de Pedasur, jefe de la tribu de Manasés, fue al octavo día con las mismas ofrendas.",
+          "verseDisplay": "54-59",
+          "endNumber": 59,
           "headings": [
             "La ofrenda de Bejamín"
           ]
@@ -774,6 +824,8 @@
         {
           "number": 60,
           "text": "Al noveno día fue Abidán, hijo de Gedeoni, jefe de la tribu de Benjamín, con ofrendas iguales a las que presentaron los otros.",
+          "verseDisplay": "60-65",
+          "endNumber": 65,
           "headings": [
             "La ofrenda de Dan"
           ]
@@ -781,6 +833,8 @@
         {
           "number": 66,
           "text": "Ajiezer, hijo de Amisaday, llevó sus ofrendas al décimo día. Este era jefe de la tribu de Dan, y sus ofrendas fueron iguales que las de los demás.",
+          "verseDisplay": "66-71",
+          "endNumber": 71,
           "headings": [
             "La ofrenda de Aser"
           ]
@@ -788,6 +842,8 @@
         {
           "number": 72,
           "text": "Paguiel, hijo de Ocrán, jefe de la tribu de Aser, llevó sus ofrendas al undécimo día y eran idénticas a las anteriores.",
+          "verseDisplay": "72-77",
+          "endNumber": 77,
           "headings": [
             "La ofrenda de Neftalí"
           ]
@@ -795,13 +851,17 @@
         {
           "number": 78,
           "text": "Al duodécimo día se presentó Ajira, hijo de Enán, jefe de la tribu de Neftalí, con sus ofrendas, que eran idénticas a las entregadas por los otros.",
+          "verseDisplay": "78-83",
+          "endNumber": 83,
           "headings": [
             "Conclusión"
           ]
         },
         {
           "number": 84,
-          "text": "Así pues, a partir del día en que se ungió el altar, este fue dedicado con las ofrendas de los jefes de las tribus de Israel. Las ofrendas sumadas fueron: 12 bandejas de plata (de más de un kilo y medio cada una); 12 tazones de plata (de más de ochocientos gramos cada uno, de modo que el peso total de la plata era casi veintinueve kilos); 12 cajitas de oro (cada una de ellas de ciento veinte gramos; de modo que el peso total del oro casi llegaba al kilo y medio)."
+          "text": "Así pues, a partir del día en que se ungió el altar, este fue dedicado con las ofrendas de los jefes de las tribus de Israel. Las ofrendas sumadas fueron: 12 bandejas de plata (de más de un kilo y medio cada una); 12 tazones de plata (de más de ochocientos gramos cada uno, de modo que el peso total de la plata era casi veintinueve kilos); 12 cajitas de oro (cada una de ellas de ciento veinte gramos; de modo que el peso total del oro casi llegaba al kilo y medio).",
+          "verseDisplay": "84-86",
+          "endNumber": 86
         },
         {
           "number": 87,
@@ -941,7 +1001,9 @@
         },
         {
           "number": 2,
-          "text": "«El pueblo de Israel debe celebrar la Pascua cada año el día catorce del primer mes empezando al atardecer. Asegúrate de que sigan todas mis instrucciones al celebrarla»."
+          "text": "«El pueblo de Israel debe celebrar la Pascua cada año el día catorce del primer mes empezando al atardecer. Asegúrate de que sigan todas mis instrucciones al celebrarla».",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -1012,7 +1074,9 @@
         },
         {
           "number": 20,
-          "text": "A veces la nube de fuego se detenía tan sólo una noche, y a la mañana siguiente continuaba su marcha. Pero fuera de día o de noche cuando la nube se movía, el pueblo desmontaba el campamento y la seguía."
+          "text": "A veces la nube de fuego se detenía tan sólo una noche, y a la mañana siguiente continuaba su marcha. Pero fuera de día o de noche cuando la nube se movía, el pueblo desmontaba el campamento y la seguía.",
+          "verseDisplay": "20-21",
+          "endNumber": 21
         },
         {
           "number": 22,
@@ -1045,7 +1109,9 @@
         },
         {
           "number": 5,
-          "text": "»Usarás distintos toques de trompeta para diferenciar la convocatoria a una asamblea y la orden de desmontar el campamento y emprender la marcha. Cuando suene la señal de partida, las tribus acampadas al este del santuario serán las primeras en salir. Y cuando suene la segunda señal marcharán las que están al sur."
+          "text": "»Usarás distintos toques de trompeta para diferenciar la convocatoria a una asamblea y la orden de desmontar el campamento y emprender la marcha. Cuando suene la señal de partida, las tribus acampadas al este del santuario serán las primeras en salir. Y cuando suene la segunda señal marcharán las que están al sur.",
+          "verseDisplay": "5-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -1194,7 +1260,9 @@
         },
         {
           "number": 4,
-          "text": "El populacho que iban con ellos empezó a añorar las cosas buenas de Egipto. A esto se sumó el resto de los israelitas que, descontentos, empezaron a llorar diciendo: «¡Quién nos diera carne! ¡Ah, si tuviéramos un poco del delicioso pescado que comíamos gratis en Egipto, y pepinos, melones, puerros, cebollas y ajos!"
+          "text": "El populacho que iban con ellos empezó a añorar las cosas buenas de Egipto. A esto se sumó el resto de los israelitas que, descontentos, empezaron a llorar diciendo: «¡Quién nos diera carne! ¡Ah, si tuviéramos un poco del delicioso pescado que comíamos gratis en Egipto, y pepinos, melones, puerros, cebollas y ajos!",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -1337,7 +1405,9 @@
         },
         {
           "number": 3,
-          "text": "y no le gustó el comentario de ambos, porque Moisés era el hombre más humilde del mundo, e inmediatamente convocó a Moisés, a Aarón y a Miriam al santuario: ―Vengan aquí los tres —ordenó. Entonces se presentaron ante el Señor ."
+          "text": "y no le gustó el comentario de ambos, porque Moisés era el hombre más humilde del mundo, e inmediatamente convocó a Moisés, a Aarón y a Miriam al santuario: ―Vengan aquí los tres —ordenó. Entonces se presentaron ante el Señor .",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
@@ -1402,7 +1472,9 @@
         },
         {
           "number": 3,
-          "text": "Moisés hizo lo que el Señor le había ordenado y envió desde el desierto de Parán a las siguientes personas, una por cada tribu: Samúa, hijo de Zacur, de la tribu de Rubén; Safat, hijo de Horí, de la tribu de Simeón; Caleb, hijo de Jefone, de la tribu de Judá; Igal, hijo de José, de la tribu de Isacar; Oseas, hijo de Nun, de la tribu de Efraín; Palti, hijo de Rafú, de la tribu de Benjamín; Gadiel, hijo de Sodi de la tribu de Zabulón; Gadí, hijo de Susi, de la tribu de José (realmente era parte de la tribu de Manasés); Amiel, hijo de Gemalí, de la tribu de Dan; Setur, hijo de Micael, de la tribu de Aser Najbi, hijo de Vapsi, de la tribu de Neftalí; Geuel, hijo de Maquí, de la tribu de Gad."
+          "text": "Moisés hizo lo que el Señor le había ordenado y envió desde el desierto de Parán a las siguientes personas, una por cada tribu: Samúa, hijo de Zacur, de la tribu de Rubén; Safat, hijo de Horí, de la tribu de Simeón; Caleb, hijo de Jefone, de la tribu de Judá; Igal, hijo de José, de la tribu de Isacar; Oseas, hijo de Nun, de la tribu de Efraín; Palti, hijo de Rafú, de la tribu de Benjamín; Gadiel, hijo de Sodi de la tribu de Zabulón; Gadí, hijo de Susi, de la tribu de José (realmente era parte de la tribu de Manasés); Amiel, hijo de Gemalí, de la tribu de Dan; Setur, hijo de Micael, de la tribu de Aser Najbi, hijo de Vapsi, de la tribu de Neftalí; Geuel, hijo de Maquí, de la tribu de Gad.",
+          "verseDisplay": "3-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -1627,6 +1699,8 @@
         {
           "number": 36,
           "text": "Los diez espías que habían incitado la rebelión contra el Señor y habían llenado de temor los corazones del pueblo fueron los primeros en morir delante del Señor . Josué y Caleb fueron los únicos que quedaron con vida.",
+          "verseDisplay": "36-38",
+          "endNumber": 38,
           "headings": [
             "El pueblo intenta conquistar la tierra"
           ]
@@ -1694,7 +1768,9 @@
         },
         {
           "number": 8,
-          "text": "»Si el sacrificio es un becerro, la ofrenda de grano que lo acompaña será de siete kilos de harina fina mezclada con dos litros de aceite,"
+          "text": "»Si el sacrificio es un becerro, la ofrenda de grano que lo acompaña será de siete kilos de harina fina mezclada con dos litros de aceite,",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -1702,15 +1778,21 @@
         },
         {
           "number": 11,
-          "text": "»Estas son las instrucciones sobre lo que debe ir junto a cada sacrificio sea de becerro, cordero o cabrito."
+          "text": "»Estas son las instrucciones sobre lo que debe ir junto a cada sacrificio sea de becerro, cordero o cabrito.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
-          "text": "Estas instrucciones deben seguirlas los israelitas nativos y los extranjeros que vivan entre ellos y deseen agradar al Señor con sacrificio u ofrendas encendidas."
+          "text": "Estas instrucciones deben seguirlas los israelitas nativos y los extranjeros que vivan entre ellos y deseen agradar al Señor con sacrificio u ofrendas encendidas.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
           "text": "Esta misma ley rige para todos, israelitas o extranjeros, y tendrá vigencia de generación en generación para siempre. Todos son iguales delante del Señor . La misma ley regirá para todos».",
+          "verseDisplay": "15-16",
+          "endNumber": 16,
           "headings": [
             "Ofrenda de las primicias"
           ]
@@ -1726,13 +1808,17 @@
         {
           "number": 19,
           "text": "deben ofrecer al Señor las primicias de la nueva cosecha presentándole un pan de harina gruesa cada año. Este pan será ofrecido al Señor , anualmente, de generación en generación.",
+          "verseDisplay": "19-21",
+          "endNumber": 21,
           "headings": [
             "Ofrendas por pecados inadvertidos"
           ]
         },
         {
           "number": 22,
-          "text": "»Si por error tú o las generaciones futuras no cumplen con todas las reglas que el Señor les ha dado a través de los años por medio de Moisés,"
+          "text": "»Si por error tú o las generaciones futuras no cumplen con todas las reglas que el Señor les ha dado a través de los años por medio de Moisés,",
+          "verseDisplay": "22-23",
+          "endNumber": 23
         },
         {
           "number": 24,
@@ -2074,7 +2160,9 @@
         },
         {
           "number": 12,
-          "text": "Pero el pueblo de Israel volvió a quejarse una vez más: «¡Estamos perdidos! —se lamentaron—. Cada persona que se acerca al santuario muere. ¿Es que vamos a morir todos?»."
+          "text": "Pero el pueblo de Israel volvió a quejarse una vez más: «¡Estamos perdidos! —se lamentaron—. Cada persona que se acerca al santuario muere. ¿Es que vamos a morir todos?».",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         }
       ]
     },
@@ -2087,7 +2175,9 @@
         },
         {
           "number": 2,
-          "text": "Tus hermanos, los de la tribu de Leví, son tus ayudantes. Pero solamente tú y tus hijos pueden desarrollar los ritos sagrados en el santuario mismo. Los levitas tendrán mucho cuidado de no tocar los objetos sagrados del altar, pues podría destruirlos a ellos y a ti."
+          "text": "Tus hermanos, los de la tribu de Leví, son tus ayudantes. Pero solamente tú y tus hijos pueden desarrollar los ritos sagrados en el santuario mismo. Los levitas tendrán mucho cuidado de no tocar los objetos sagrados del altar, pues podría destruirlos a ellos y a ti.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -2134,7 +2224,9 @@
         },
         {
           "number": 14,
-          "text": "»Todo lo que haya sido dedicado al Señor será de ustedes, incluyendo a los primogénitos del pueblo de Israel, y el primogénito de sus animales."
+          "text": "»Todo lo que haya sido dedicado al Señor será de ustedes, incluyendo a los primogénitos del pueblo de Israel, y el primogénito de sus animales.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -2192,7 +2284,9 @@
         },
         {
           "number": 28,
-          "text": "Este diezmo de los diezmos será seleccionado de la mejor parte de los diezmos recibidos. Y será la porción del Señor , que entregarán a Aarón el sacerdote."
+          "text": "Este diezmo de los diezmos será seleccionado de la mejor parte de los diezmos recibidos. Y será la porción del Señor , que entregarán a Aarón el sacerdote.",
+          "verseDisplay": "28-29",
+          "endNumber": 29
         },
         {
           "number": 30,
@@ -2395,7 +2489,9 @@
         },
         {
           "number": 21,
-          "text": "Debido a que Edom le negó el paso a través de su territorio, Israel tuvo que regresar y viajar desde Cades hasta el monte de Hor."
+          "text": "Debido a que Edom le negó el paso a través de su territorio, Israel tuvo que regresar y viajar desde Cades hasta el monte de Hor.",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         },
         {
           "number": 23,
@@ -2593,7 +2689,9 @@
         },
         {
           "number": 2,
-          "text": "Cuando el rey Balac de Moab (hijo de Zipor) se enteró del número de los israelitas, y se enteró de lo que le habían hecho a los amorreos, él y su pueblo tuvieron gran temor."
+          "text": "Cuando el rey Balac de Moab (hijo de Zipor) se enteró del número de los israelitas, y se enteró de lo que le habían hecho a los amorreos, él y su pueblo tuvieron gran temor.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -2601,7 +2699,9 @@
         },
         {
           "number": 5,
-          "text": "envió mensajeros a Balán (hijo de Beor) quien vivía en su tierra natal de Petor, cerca del río Éufrates. En su mensaje el rey rogaba a Balán que fuera y les ayudara. ―Una multitud ha llegado de Egipto, cubren toda la superficie de nuestro país; y han acampado justo delante de mí —le decía—. Ven y maldícelos en mi nombre para que pueda echarlos de mi tierra. Sé que cuando tú bendices grandes bendiciones caen sobre ellos, y también sé que a quienes tú maldices les va mal en todo."
+          "text": "envió mensajeros a Balán (hijo de Beor) quien vivía en su tierra natal de Petor, cerca del río Éufrates. En su mensaje el rey rogaba a Balán que fuera y les ayudara. ―Una multitud ha llegado de Egipto, cubren toda la superficie de nuestro país; y han acampado justo delante de mí —le decía—. Ven y maldícelos en mi nombre para que pueda echarlos de mi tierra. Sé que cuando tú bendices grandes bendiciones caen sobre ellos, y también sé que a quienes tú maldices les va mal en todo.",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -2641,7 +2741,9 @@
         },
         {
           "number": 16,
-          "text": "Estos se presentaron ante Balán y le dieron el siguiente mensaje: ―El rey Balac te ruega que vayas. Promete darte grandes honores y cualquier cantidad de dinero que pidas. Ven de inmediato, y maldice a ese pueblo."
+          "text": "Estos se presentaron ante Balán y le dieron el siguiente mensaje: ―El rey Balac te ruega que vayas. Promete darte grandes honores y cualquier cantidad de dinero que pidas. Ven de inmediato, y maldice a ese pueblo.",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         },
         {
           "number": 18,
@@ -3029,7 +3131,9 @@
         },
         {
           "number": 12,
-          "text": "En virtud de lo que ha hecho, en virtud de su celo por su Dios, y por cuanto ha hecho expiación por el pueblo de Israel, prometo que él y sus descendientes tendrán el sacerdocio para siempre»."
+          "text": "En virtud de lo que ha hecho, en virtud de su celo por su Dios, y por cuanto ha hecho expiación por el pueblo de Israel, prometo que él y sus descendientes tendrán el sacerdocio para siempre».",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -3066,51 +3170,75 @@
         },
         {
           "number": 3,
-          "text": "Moisés y Eleazar hicieron el censo en la llanura de Moab, juntó al Jordán, frente a Jericó, donde el pueblo se había establecido. Estos son los resultados del censo:"
+          "text": "Moisés y Eleazar hicieron el censo en la llanura de Moab, juntó al Jordán, frente a Jericó, donde el pueblo se había establecido. Estos son los resultados del censo:",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
-          "text": "Tribu de Rubén: 43.730. (Rubén era el hijo mayor de Israel). En esta tribu había los siguientes clanes, nombrados de acuerdo con los nombres de los hijos de Rubén: Los enoquitas, descendientes de Enoc. Los faluitas, descendientes de Falú. (En el clan de Eliab, que era uno de los hijos de Falú, estaban las familias de Nemuel, Datán y Abirán. Datán y Abirán son los dos líderes que conspiraron junto a Coré en contra de Moisés y Aarón, y que se rebelaron contra Dios mismo y su autoridad. Pero la tierra abrió su boca y se los tragó; doscientos cincuenta hombres fueron destruidos por fuego del Señor aquel día, a modo de advertencia para toda la nación. Pero los hijos de Coré no murieron). Los jezronitas, descendientes de Jezrón. Los carmitas, descendientes de Carmí."
+          "text": "Tribu de Rubén: 43.730. (Rubén era el hijo mayor de Israel). En esta tribu había los siguientes clanes, nombrados de acuerdo con los nombres de los hijos de Rubén: Los enoquitas, descendientes de Enoc. Los faluitas, descendientes de Falú. (En el clan de Eliab, que era uno de los hijos de Falú, estaban las familias de Nemuel, Datán y Abirán. Datán y Abirán son los dos líderes que conspiraron junto a Coré en contra de Moisés y Aarón, y que se rebelaron contra Dios mismo y su autoridad. Pero la tierra abrió su boca y se los tragó; doscientos cincuenta hombres fueron destruidos por fuego del Señor aquel día, a modo de advertencia para toda la nación. Pero los hijos de Coré no murieron). Los jezronitas, descendientes de Jezrón. Los carmitas, descendientes de Carmí.",
+          "verseDisplay": "5-11",
+          "endNumber": 11
         },
         {
           "number": 12,
-          "text": "Tribu de Simeón: 22.200. Esta tribu estaba formada por los siguientes clanes fundados por los hijos de Simeón: Los nemuelitas, descendientes de Nemuel. Los jaminitas, descendientes de Jamín. Los jaquinitas, descendientes de Jaquín. Los zeraítas, descendientes de Zera. Los saulitas, descendientes de Saúl."
+          "text": "Tribu de Simeón: 22.200. Esta tribu estaba formada por los siguientes clanes fundados por los hijos de Simeón: Los nemuelitas, descendientes de Nemuel. Los jaminitas, descendientes de Jamín. Los jaquinitas, descendientes de Jaquín. Los zeraítas, descendientes de Zera. Los saulitas, descendientes de Saúl.",
+          "verseDisplay": "12-14",
+          "endNumber": 14
         },
         {
           "number": 15,
-          "text": "Tribu de Gad: 40.500. Esta tribu estaba formada por los siguientes clanes fundados por los hijos de Gad: Los zefonitas, descendientes de Zefón. Los jaguitas, descendientes de Jaguí. Los sunitas, descendientes de Suni. Los oznitas, descendientes de Ozni. Los eritas, descendientes de Erí. Los aroditas, descendientes de Arodí. Los arelitas, descendientes de Arelí."
+          "text": "Tribu de Gad: 40.500. Esta tribu estaba formada por los siguientes clanes fundados por los hijos de Gad: Los zefonitas, descendientes de Zefón. Los jaguitas, descendientes de Jaguí. Los sunitas, descendientes de Suni. Los oznitas, descendientes de Ozni. Los eritas, descendientes de Erí. Los aroditas, descendientes de Arodí. Los arelitas, descendientes de Arelí.",
+          "verseDisplay": "15-18",
+          "endNumber": 18
         },
         {
           "number": 19,
-          "text": "Tribu de Judá: 76.500. Esta tribu estaba formada por los siguientes clanes, cuyos nombres corresponden a los hijos de Judá. Entre ellos no se incluyen Er ni Onán, que murieron en la tierra de Canaán: Los selaítas, descendientes de Selá. Los faresitas, descendientes de Fares. Los zeraítas, descendientes de Zera. Este censo además incluyó los subclanes de Fares: Los jezronitas, descendientes de Jezrón. Los jamulitas descendientes de Jamul."
+          "text": "Tribu de Judá: 76.500. Esta tribu estaba formada por los siguientes clanes, cuyos nombres corresponden a los hijos de Judá. Entre ellos no se incluyen Er ni Onán, que murieron en la tierra de Canaán: Los selaítas, descendientes de Selá. Los faresitas, descendientes de Fares. Los zeraítas, descendientes de Zera. Este censo además incluyó los subclanes de Fares: Los jezronitas, descendientes de Jezrón. Los jamulitas descendientes de Jamul.",
+          "verseDisplay": "19-22",
+          "endNumber": 22
         },
         {
           "number": 23,
-          "text": "Tribu de Isacar: 64.300. Esta tribu estaba formada por los siguientes clanes, cuyos nombres corresponden a los hijos de Isacar: Los tolaítas, descendientes de Tola. Los fuvitas, descendientes de Fuvá. Los yasubitas, descendientes de Yasub. Los simronitas, descendientes de Simrón."
+          "text": "Tribu de Isacar: 64.300. Esta tribu estaba formada por los siguientes clanes, cuyos nombres corresponden a los hijos de Isacar: Los tolaítas, descendientes de Tola. Los fuvitas, descendientes de Fuvá. Los yasubitas, descendientes de Yasub. Los simronitas, descendientes de Simrón.",
+          "verseDisplay": "23-25",
+          "endNumber": 25
         },
         {
           "number": 26,
-          "text": "Tribu de Zabulón: 60.500. En esta tribu había los siguientes clanes, cuyos nombres corresponden a los hijos de Zabulón: Los sereditas, descendientes de Séred. Los elonitas, descendientes de Elón. Los yalelitas, descendientes de Yalel."
+          "text": "Tribu de Zabulón: 60.500. En esta tribu había los siguientes clanes, cuyos nombres corresponden a los hijos de Zabulón: Los sereditas, descendientes de Séred. Los elonitas, descendientes de Elón. Los yalelitas, descendientes de Yalel.",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,
-          "text": "Tribu de José: 32.500 en la media tribu de Efraín, y 52.700 en la media tribu de Manasés. La media tribu de Manasés estaba formada por el clan de los maquiritas descendientes de Maquir. El subclan de los maquiritas estaba formado por los galaaditas descendientes de Galaad. Las familias de los galaaditas eran las siguientes: Los jezeritas, descendientes de Jezer. Los jelequitas, descendientes de Jélec. Los asrielitas, descendientes de Asriel. Los siquemitas, descendientes de Siquén. Los semidaítas, descendientes de Semidá. Los jeferitas, descendientes de Jéfer. Zelofejad el hijo de Jéfer no tuvo hijos. Estos son los nombres de sus hijas: Majlá, Noa, Joglá, Milca y Tirsá. Los 32.500 contados en la media tribu de Efraín eran de los siguientes clanes, cuyos nombres corresponden a los hijos de Efraín: Los sutelaítas, descendientes de Sutela (Un subclan de los sutelaítas, los eranitas, eran descendientes de Erán, hijo de Sutela). Los bequeritas, descendientes de Béquer. Los tajanitas, descendientes de Taján."
+          "text": "Tribu de José: 32.500 en la media tribu de Efraín, y 52.700 en la media tribu de Manasés. La media tribu de Manasés estaba formada por el clan de los maquiritas descendientes de Maquir. El subclan de los maquiritas estaba formado por los galaaditas descendientes de Galaad. Las familias de los galaaditas eran las siguientes: Los jezeritas, descendientes de Jezer. Los jelequitas, descendientes de Jélec. Los asrielitas, descendientes de Asriel. Los siquemitas, descendientes de Siquén. Los semidaítas, descendientes de Semidá. Los jeferitas, descendientes de Jéfer. Zelofejad el hijo de Jéfer no tuvo hijos. Estos son los nombres de sus hijas: Majlá, Noa, Joglá, Milca y Tirsá. Los 32.500 contados en la media tribu de Efraín eran de los siguientes clanes, cuyos nombres corresponden a los hijos de Efraín: Los sutelaítas, descendientes de Sutela (Un subclan de los sutelaítas, los eranitas, eran descendientes de Erán, hijo de Sutela). Los bequeritas, descendientes de Béquer. Los tajanitas, descendientes de Taján.",
+          "verseDisplay": "28-37",
+          "endNumber": 37
         },
         {
           "number": 38,
-          "text": "Tribu de Benjamín: 45.600. Esta tribu estaba formada por los siguientes clanes, cuyos nombres corresponden a los hijos de Benjamín: Los belaítas, descendientes de Bela. Los subclanes de Bela eran dos: Los arditas, descendientes de Ard, y los naamitas, descendientes de Naamán. Los asbelitas, descendientes de Asbel. Los ajiranitas, descendientes de Ajirán. Los sufanitas, descendientes de Sufán. Los jufanitas, descendientes de Jufán."
+          "text": "Tribu de Benjamín: 45.600. Esta tribu estaba formada por los siguientes clanes, cuyos nombres corresponden a los hijos de Benjamín: Los belaítas, descendientes de Bela. Los subclanes de Bela eran dos: Los arditas, descendientes de Ard, y los naamitas, descendientes de Naamán. Los asbelitas, descendientes de Asbel. Los ajiranitas, descendientes de Ajirán. Los sufanitas, descendientes de Sufán. Los jufanitas, descendientes de Jufán.",
+          "verseDisplay": "38-41",
+          "endNumber": 41
         },
         {
           "number": 42,
-          "text": "La tribu de Dan: 64.400. En esta tribu estaba el clan de los sujanitas, descendientes de Suján, hijo de Dan."
+          "text": "La tribu de Dan: 64.400. En esta tribu estaba el clan de los sujanitas, descendientes de Suján, hijo de Dan.",
+          "verseDisplay": "42-43",
+          "endNumber": 43
         },
         {
           "number": 44,
-          "text": "Tribu de Aser: 53.400. Esta tribu estaba formada por los siguientes clanes, cuyos nombres corresponden a los hijos de Aser: Los imnaítas, descendientes de Imná. Los isvitas, descendientes de Isví. Los beriaítas, descendientes de Beriá. Bería dio origen a los siguientes clanes: Los jeberitas, descendientes de Jéber. Los malquielitas, descendientes de Malquiel. Aser también tuvo una hija llamada Sera."
+          "text": "Tribu de Aser: 53.400. Esta tribu estaba formada por los siguientes clanes, cuyos nombres corresponden a los hijos de Aser: Los imnaítas, descendientes de Imná. Los isvitas, descendientes de Isví. Los beriaítas, descendientes de Beriá. Bería dio origen a los siguientes clanes: Los jeberitas, descendientes de Jéber. Los malquielitas, descendientes de Malquiel. Aser también tuvo una hija llamada Sera.",
+          "verseDisplay": "44-47",
+          "endNumber": 47
         },
         {
           "number": 48,
-          "text": "Tribu de Neftalí: 45.400. La tribu estaba formada por los siguientes clanes, cuyos nombres corresponden a los hijos de Neftalí: Los yazelitas, descendientes de Yazel. Los gunitas, descendientes de Guní. Los jeseritas, descendientes de Jéser. Los silenitas, descendientes de Silén."
+          "text": "Tribu de Neftalí: 45.400. La tribu estaba formada por los siguientes clanes, cuyos nombres corresponden a los hijos de Neftalí: Los yazelitas, descendientes de Yazel. Los gunitas, descendientes de Guní. Los jeseritas, descendientes de Jéser. Los silenitas, descendientes de Silén.",
+          "verseDisplay": "48-50",
+          "endNumber": 50
         },
         {
           "number": 51,
@@ -3130,7 +3258,9 @@
         },
         {
           "number": 55,
-          "text": "La tierra seria distribuida por sorteo haciendo distinción entre las tribus grandes y las pequeñas."
+          "text": "La tierra seria distribuida por sorteo haciendo distinción entre las tribus grandes y las pequeñas.",
+          "verseDisplay": "55-56",
+          "endNumber": 56
         },
         {
           "number": 57,
@@ -3138,7 +3268,9 @@
         },
         {
           "number": 58,
-          "text": "Las familias de la tribu de Leví son las siguientes: Los libnitas, los hebronitas, los majlitas, los musitas, y los coreítas. Cuando Leví estaba en Egipto tuvo una hija a la que llamó Jocabed. Se casó con Amirán hijo de Coat. Ellos fueron padres de Aarón, Moisés y Miriam."
+          "text": "Las familias de la tribu de Leví son las siguientes: Los libnitas, los hebronitas, los majlitas, los musitas, y los coreítas. Cuando Leví estaba en Egipto tuvo una hija a la que llamó Jocabed. Se casó con Amirán hijo de Coat. Ellos fueron padres de Aarón, Moisés y Miriam.",
+          "verseDisplay": "58-59",
+          "endNumber": 59
         },
         {
           "number": 60,
@@ -3191,7 +3323,9 @@
         },
         {
           "number": 6,
-          "text": "y el Señor le respondió: ―Las hijas de Zelofejad tienen razón: Dales una heredad junto a sus tíos. Dales la propiedad que hubiera correspondido al padre de ellas si hubiera vivido."
+          "text": "y el Señor le respondió: ―Las hijas de Zelofejad tienen razón: Dales una heredad junto a sus tíos. Dales la propiedad que hubiera correspondido al padre de ellas si hubiera vivido.",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -3309,6 +3443,8 @@
         {
           "number": 9,
           "text": "»En el día de reposo, sacrificarán dos corderos de un año, sin defectos, además de las ofrendas regulares. Serán acompañados por una ofrenda de cinco kilos de harina mezclada con aceite y la libación acostumbrada.",
+          "verseDisplay": "9-10",
+          "endNumber": 10,
           "headings": [
             "Ofrenda mensual"
           ]
@@ -3516,7 +3652,9 @@
         },
         {
           "number": 26,
-          "text": "»En el quinto día de la fiesta, sacrificarán nueve becerros, dos carneros y catorce corderos de un año, cada uno sin defecto, acompañados por las acostumbradas ofrendas vegetales y libaciones."
+          "text": "»En el quinto día de la fiesta, sacrificarán nueve becerros, dos carneros y catorce corderos de un año, cada uno sin defecto, acompañados por las acostumbradas ofrendas vegetales y libaciones.",
+          "verseDisplay": "26-27",
+          "endNumber": 27
         },
         {
           "number": 28,
@@ -3678,7 +3816,9 @@
         },
         {
           "number": 9,
-          "text": "El ejército israelita tomó cautivos a las mujeres y a los niños, y se apoderó de las vacas, las ovejas y de un cuantioso botín. Y quemaron todas las ciudades, pueblos y aldeas de Madián."
+          "text": "El ejército israelita tomó cautivos a las mujeres y a los niños, y se apoderó de las vacas, las ovejas y de un cuantioso botín. Y quemaron todas las ciudades, pueblos y aldeas de Madián.",
+          "verseDisplay": "9-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -3768,11 +3908,15 @@
         },
         {
           "number": 32,
-          "text": "El total del botín (además de las joyas, vestidos etc., que los soldados guardaron para sí) fue de 675.000 ovejas; 72.000 vacas, 61.000 burros, y 32.000 muchachas vírgenes."
+          "text": "El total del botín (además de las joyas, vestidos etc., que los soldados guardaron para sí) fue de 675.000 ovejas; 72.000 vacas, 61.000 burros, y 32.000 muchachas vírgenes.",
+          "verseDisplay": "32-35",
+          "endNumber": 35
         },
         {
           "number": 36,
-          "text": "La parte entregada al ejército sumó: 337.500 ovejas, (675 fueron entregadas a el Señor ), 36.000 bueyes (72 fueron entregados a el Señor ); 30.500 burros (61 fueron entregados a el Señor ); 16.000 muchachas (32 fueron entregadas al Señor )."
+          "text": "La parte entregada al ejército sumó: 337.500 ovejas, (675 fueron entregadas a el Señor ), 36.000 bueyes (72 fueron entregados a el Señor ); 30.500 burros (61 fueron entregados a el Señor ); 16.000 muchachas (32 fueron entregadas al Señor ).",
+          "verseDisplay": "36-40",
+          "endNumber": 40
         },
         {
           "number": 41,
@@ -3780,7 +3924,9 @@
         },
         {
           "number": 42,
-          "text": "La mitad del botín que le correspondía al resto del pueblo fue de: 337.500 ovejas, 36.000 bueyes, 30.500 burros, y 16.000 muchachas."
+          "text": "La mitad del botín que le correspondía al resto del pueblo fue de: 337.500 ovejas, 36.000 bueyes, 30.500 burros, y 16.000 muchachas.",
+          "verseDisplay": "42-46",
+          "endNumber": 46
         },
         {
           "number": 47,
@@ -3803,7 +3949,9 @@
         },
         {
           "number": 51,
-          "text": "Moisés y Eleazar el sacerdote recibieron esta ofrenda especial de los capitanes y comandantes de batallones y encontraron que el valor era de unos doscientos kilos de oro."
+          "text": "Moisés y Eleazar el sacerdote recibieron esta ofrenda especial de los capitanes y comandantes de batallones y encontraron que el valor era de unos doscientos kilos de oro.",
+          "verseDisplay": "51-52",
+          "endNumber": 52
         },
         {
           "number": 53,
@@ -3952,7 +4100,9 @@
         },
         {
           "number": 34,
-          "text": "El pueblo de Gad construyó las siguientes ciudades: Dibón, Atarot, Aroer, Atarot Sofán, Jazer, Yogbea, Bet Nimrá y Bet Arán. Todas estas eran ciudades fortificadas y tenían rediles para las ovejas."
+          "text": "El pueblo de Gad construyó las siguientes ciudades: Dibón, Atarot, Aroer, Atarot Sofán, Jazer, Yogbea, Bet Nimrá y Bet Arán. Todas estas eran ciudades fortificadas y tenían rediles para las ovejas.",
+          "verseDisplay": "34-36",
+          "endNumber": 36
         },
         {
           "number": 37,
@@ -3993,11 +4143,15 @@
         },
         {
           "number": 3,
-          "text": "Salieron de la ciudad de Ramsés en Egipto el primero de abril, el día siguiente de la noche de la Pascua. Salieron con orgullo, a instancias de los egipcios que estaban sepultando a los primogénitos que el Señor había matado la noche anterior. El Señor ciertamente había derrotado a todos los dioses de Egipto aquella noche."
+          "text": "Salieron de la ciudad de Ramsés en Egipto el primero de abril, el día siguiente de la noche de la Pascua. Salieron con orgullo, a instancias de los egipcios que estaban sepultando a los primogénitos que el Señor había matado la noche anterior. El Señor ciertamente había derrotado a todos los dioses de Egipto aquella noche.",
+          "verseDisplay": "3-4",
+          "endNumber": 4
         },
         {
           "number": 5,
-          "text": "Después de salir de Ramsés, acamparon en Sucot, en Etam (el límite del desierto), y"
+          "text": "Después de salir de Ramsés, acamparon en Sucot, en Etam (el límite del desierto), y",
+          "verseDisplay": "5-6",
+          "endNumber": 6
         },
         {
           "number": 7,
@@ -4033,11 +4187,15 @@
         },
         {
           "number": 15,
-          "text": "Desde Refidín siguieron hasta el desierto de Sinaí; desde el desierto de Sinaí a Quibrot Jatavá; de Quibrot Jatavá a Jazerot; de Jazerot a Ritma; de Ritma a Rimón Peres; de Rimón Peres a Libná; de Libná a Risá; de Risá a Celata; de Celata al monte de Sefér; del monte de Sefér a Jaradá; de Jaradá a Maquelot: de Maquelot a Tajat; de Tajat a Téraj; de Téraj a Mitca; de Mitca a Jasmoná; de Jasmoná a Moserot; de Moserot a Bené Yacán; de Bené Yacán al monte de Gidgad; del monte de Gidgad a Jotbata; de Jotbata a Abroná; de Abroná a Ezión Guéber; de Ezión Guéber a Cades (en el desierto de Zin); de Cades al monte Hor (junto a la tierra de Edom)."
+          "text": "Desde Refidín siguieron hasta el desierto de Sinaí; desde el desierto de Sinaí a Quibrot Jatavá; de Quibrot Jatavá a Jazerot; de Jazerot a Ritma; de Ritma a Rimón Peres; de Rimón Peres a Libná; de Libná a Risá; de Risá a Celata; de Celata al monte de Sefér; del monte de Sefér a Jaradá; de Jaradá a Maquelot: de Maquelot a Tajat; de Tajat a Téraj; de Téraj a Mitca; de Mitca a Jasmoná; de Jasmoná a Moserot; de Moserot a Bené Yacán; de Bené Yacán al monte de Gidgad; del monte de Gidgad a Jotbata; de Jotbata a Abroná; de Abroná a Ezión Guéber; de Ezión Guéber a Cades (en el desierto de Zin); de Cades al monte Hor (junto a la tierra de Edom).",
+          "verseDisplay": "15-37",
+          "endNumber": 37
         },
         {
           "number": 38,
-          "text": "Mientras estaban al pie del monte Hor, Dios le ordenó a Aarón el sacerdote que subiera a la montaña, y allí murió. Esto ocurrió en el año cuarenta después de la salida del pueblo de Israel de Egipto. La fecha de su muerte fue el quince de julio, cuando tenía ciento veintitrés años."
+          "text": "Mientras estaban al pie del monte Hor, Dios le ordenó a Aarón el sacerdote que subiera a la montaña, y allí murió. Esto ocurrió en el año cuarenta después de la salida del pueblo de Israel de Egipto. La fecha de su muerte fue el quince de julio, cuando tenía ciento veintitrés años.",
+          "verseDisplay": "38-39",
+          "endNumber": 39
         },
         {
           "number": 40,
@@ -4141,11 +4299,15 @@
         },
         {
           "number": 7,
-          "text": "»La frontera norte comenzará en el mar Mediterráneo y seguirá hacia el oriente hasta el monte de Hor, desde donde seguirá hasta la entrada de Jamat, y de allí a través de Zedad y Zifón hasta Jazar Enán."
+          "text": "»La frontera norte comenzará en el mar Mediterráneo y seguirá hacia el oriente hasta el monte de Hor, desde donde seguirá hasta la entrada de Jamat, y de allí a través de Zedad y Zifón hasta Jazar Enán.",
+          "verseDisplay": "7-9",
+          "endNumber": 9
         },
         {
           "number": 10,
-          "text": "»El límite oriental irá desde Jazar Enán hacia el sur hasta Sefam, y de allí hasta Riblá al lado oriental de Ayín. Desde allí hará un gran semicírculo primero hacia el sur, luego hacia el occidente, hasta tocar el extremo sur del mar de Galilea,"
+          "text": "»El límite oriental irá desde Jazar Enán hacia el sur hasta Sefam, y de allí hasta Riblá al lado oriental de Ayín. Desde allí hará un gran semicírculo primero hacia el sur, luego hacia el occidente, hasta tocar el extremo sur del mar de Galilea,",
+          "verseDisplay": "10-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -4157,11 +4319,15 @@
         },
         {
           "number": 14,
-          "text": "porque las tribus de Rubén y Gad y la media tribu de Manasés ya tienen tierra asignada en el lado oriental del río Jordán, frente a Jericó»."
+          "text": "porque las tribus de Rubén y Gad y la media tribu de Manasés ya tienen tierra asignada en el lado oriental del río Jordán, frente a Jericó».",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
-          "text": "Y el Señor le dijo a Moisés: ―Estos son los nombres de los hombres que he elegido para que dirijan la repartición de tierra: el sacerdote Eleazar, Josué (hijo de Nun) y un jefe de cada tribu que serán los siguientes: Tribu Jefe Judá Caleb (hijo de Jefone) Simeón Samuel (hijo de Amiud) Benjamín Elidad (hijo de Quislón) Dan Buquí (hijo de Joglí) Manasés Janiel (hijo de Efod) Efraín Quemuel (hijo de Siftán) Zabulón Elizafán (hijo de Parnac) Isacar Paltiel (hijo de Azán) Aser Ajiud (hijo de Selomí) Neftalí Pedael (hijo de Amiud)"
+          "text": "Y el Señor le dijo a Moisés: ―Estos son los nombres de los hombres que he elegido para que dirijan la repartición de tierra: el sacerdote Eleazar, Josué (hijo de Nun) y un jefe de cada tribu que serán los siguientes: Tribu Jefe Judá Caleb (hijo de Jefone) Simeón Samuel (hijo de Amiud) Benjamín Elidad (hijo de Quislón) Dan Buquí (hijo de Joglí) Manasés Janiel (hijo de Efod) Efraín Quemuel (hijo de Siftán) Zabulón Elizafán (hijo de Parnac) Isacar Paltiel (hijo de Azán) Aser Ajiud (hijo de Selomí) Neftalí Pedael (hijo de Amiud)",
+          "verseDisplay": "16-28",
+          "endNumber": 28
         },
         {
           "number": 29,
@@ -4225,7 +4391,9 @@
         },
         {
           "number": 13,
-          "text": "Tres de estas ciudades de refugio estarán en la tierra de Canaán, y tres en el lado oriental del río Jordán."
+          "text": "Tres de estas ciudades de refugio estarán en la tierra de Canaán, y tres en el lado oriental del río Jordán.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -4257,7 +4425,9 @@
         },
         {
           "number": 22,
-          "text": "»Pero si se trata de un accidente, de un caso en que alguien arroja una piedra y sin querer golpea y mata a quien no era su enemigo,"
+          "text": "»Pero si se trata de un accidente, de un caso en que alguien arroja una piedra y sin querer golpea y mata a quien no era su enemigo,",
+          "verseDisplay": "22-23",
+          "endNumber": 23
         },
         {
           "number": 24,

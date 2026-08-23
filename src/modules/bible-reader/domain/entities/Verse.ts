@@ -7,6 +7,8 @@ export interface Footnote {
 
 export interface Verse {
   number: number;
+  verseDisplay?: string;
+  endNumber?: number;
   text: string;
   headings?: string[];
   footnotes?: Footnote[];

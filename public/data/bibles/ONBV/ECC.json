@@ -17,22 +17,30 @@
         },
         {
           "number": 3,
-          "text": "Pues, ¿qué obtiene la gente de todo su trabajo? Generaciones vienen y generaciones van y todo sigue igual. Sale el sol y se pone, y en rápido giro vuelve a surgir. Sopla el viento del sur y del norte, aquí y allá, yendo y volviendo, sin ir a ninguna parte. Los ríos desembocan en el mar y este nunca se llena, y el agua vuelve a los ríos y nuevamente fluye hacia el mar."
+          "text": "Pues, ¿qué obtiene la gente de todo su trabajo? Generaciones vienen y generaciones van y todo sigue igual. Sale el sol y se pone, y en rápido giro vuelve a surgir. Sopla el viento del sur y del norte, aquí y allá, yendo y volviendo, sin ir a ninguna parte. Los ríos desembocan en el mar y este nunca se llena, y el agua vuelve a los ríos y nuevamente fluye hacia el mar.",
+          "verseDisplay": "3-7",
+          "endNumber": 7
         },
         {
           "number": 8,
           "text": "Todo es indecible fastidio y fatiga. Por más que vemos, jamás nos satisfacemos; por más que oímos, no estamos contentos. La historia es simple repetición. Nada hay realmente nuevo; todo ha sido hecho o dicho antes. ¿Puedes tú indicar algo que sea nuevo? ¿Cómo sabes que no existió ya en remotas edades? No recordamos lo ocurrido en aquellos tiempos antiguos, y en las futuras generaciones nadie recordará lo que hayamos hecho ahora.",
+          "verseDisplay": "8-11",
+          "endNumber": 11,
           "headings": [
             "Primeras conclusiones"
           ]
         },
         {
           "number": 12,
-          "text": "Yo, el Predicador, fui rey de Israel y viví en Jerusalén. Y en busca de conocimientos me dediqué a investigarlo todo en el universo. Descubrí que la suerte del ser humano, que Dios le ha señalado, no es un camino feliz. Todo es insensatez; todo es perseguir el viento. Lo torcido no puede enderezarse: es agua pasada; y de nada vale soñar con lo que pudiera haber sido."
+          "text": "Yo, el Predicador, fui rey de Israel y viví en Jerusalén. Y en busca de conocimientos me dediqué a investigarlo todo en el universo. Descubrí que la suerte del ser humano, que Dios le ha señalado, no es un camino feliz. Todo es insensatez; todo es perseguir el viento. Lo torcido no puede enderezarse: es agua pasada; y de nada vale soñar con lo que pudiera haber sido.",
+          "verseDisplay": "12-15",
+          "endNumber": 15
         },
         {
           "number": 16,
-          "text": "Yo me dije: «Fíjate, soy más instruido que cualquiera de los reyes que me precedieron en Jerusalén. Tengo más sabiduría y conocimientos». Así es que me esforcé por ser sabio en vez de necio, pero hoy reconozco que aun eso fue perseguir el viento. Pues cuanto mayor era mi sabiduría, tanto más grande era mi pena; aumentar el conocimiento es sólo aumentar el dolor."
+          "text": "Yo me dije: «Fíjate, soy más instruido que cualquiera de los reyes que me precedieron en Jerusalén. Tengo más sabiduría y conocimientos». Así es que me esforcé por ser sabio en vez de necio, pero hoy reconozco que aun eso fue perseguir el viento. Pues cuanto mayor era mi sabiduría, tanto más grande era mi pena; aumentar el conocimiento es sólo aumentar el dolor.",
+          "verseDisplay": "16-18",
+          "endNumber": 18
         }
       ]
     },
@@ -53,11 +61,15 @@
         },
         {
           "number": 4,
-          "text": "Después traté de hallar satisfacción inaugurando un amplio programa de obras públicas: casas, viñedos, jardines, parques y huertos para mí, y estanques para el regadío de mis plantaciones."
+          "text": "Después traté de hallar satisfacción inaugurando un amplio programa de obras públicas: casas, viñedos, jardines, parques y huertos para mí, y estanques para el regadío de mis plantaciones.",
+          "verseDisplay": "4-6",
+          "endNumber": 6
         },
         {
           "number": 7,
-          "text": "Luego compré esclavos y esclavas, y otros nacieron en mis propiedades. Crie grandes manadas y rebaños, más que cualquiera de los reyes que me precedieron. Recaudé plata y oro como tributo de muchos reyes y provincias. En el aspecto cultural, organicé coros y orquestas de hombres y mujeres. Y además tuve muchas y hermosas concubinas."
+          "text": "Luego compré esclavos y esclavas, y otros nacieron en mis propiedades. Crie grandes manadas y rebaños, más que cualquiera de los reyes que me precedieron. Recaudé plata y oro como tributo de muchos reyes y provincias. En el aspecto cultural, organicé coros y orquestas de hombres y mujeres. Y además tuve muchas y hermosas concubinas.",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -80,7 +92,9 @@
         },
         {
           "number": 13,
-          "text": "Que la sabiduría es más valiosa que la insensatez, así como la luz es mejor que las tinieblas; pues mientras el sabio ve, el necio está ciego. Y sin embargo observé que al sabio y al necio les espera el mismo final."
+          "text": "Que la sabiduría es más valiosa que la insensatez, así como la luz es mejor que las tinieblas; pues mientras el sabio ve, el necio está ciego. Y sin embargo observé que al sabio y al necio les espera el mismo final.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -104,11 +118,15 @@
         },
         {
           "number": 20,
-          "text": "Desesperado, abandoné entonces el trabajo arduo, como respuesta a mi búsqueda de satisfacción. Pues hay quienes pasan la vida en busca de sabiduría, conocimientos y habilidad, para luego dejárselo todo a quien no se ha esforzado ni un día de su vida. Esto no sólo es necio sino injusto. Así pues, ¿qué obtiene el ser humano de toda su ardua labor? Días llenos de tristeza y dolor, y noches inquietas y amargas. Todo es absolutamente ridículo."
+          "text": "Desesperado, abandoné entonces el trabajo arduo, como respuesta a mi búsqueda de satisfacción. Pues hay quienes pasan la vida en busca de sabiduría, conocimientos y habilidad, para luego dejárselo todo a quien no se ha esforzado ni un día de su vida. Esto no sólo es necio sino injusto. Así pues, ¿qué obtiene el ser humano de toda su ardua labor? Días llenos de tristeza y dolor, y noches inquietas y amargas. Todo es absolutamente ridículo.",
+          "verseDisplay": "20-23",
+          "endNumber": 23
         },
         {
           "number": 24,
-          "text": "No hay nada mejor para el hombre y la mujer que disfrutar de su comida, su bebida y su trabajo. Entonces reconocí que aun este placer, procede de Dios. Porque, sin él, ¿quién puede comer o tener gozo? Porque Dios da sabiduría, conocimientos y gozo a quien es de su agrado; pero si un pecador se enriquece, Dios le quita la riqueza y se la entrega a quienes le agradan. Y también esto es absurdo, ¡es correr tras el viento!"
+          "text": "No hay nada mejor para el hombre y la mujer que disfrutar de su comida, su bebida y su trabajo. Entonces reconocí que aun este placer, procede de Dios. Porque, sin él, ¿quién puede comer o tener gozo? Porque Dios da sabiduría, conocimientos y gozo a quien es de su agrado; pero si un pecador se enriquece, Dios le quita la riqueza y se la entrega a quienes le agradan. Y también esto es absurdo, ¡es correr tras el viento!",
+          "verseDisplay": "24-26",
+          "endNumber": 26
         }
       ]
     },
@@ -233,6 +251,8 @@
         {
           "number": 5,
           "text": "El necio rehúsa trabajar y casi muere de hambre, pero cree que mejor es ser perezoso y vivir a medias que trabajar mucho, si al fin de cuentas todo es tan vano.",
+          "verseDisplay": "5-6",
+          "endNumber": 6,
           "headings": [
             "La unión hace la fuerza"
           ]
@@ -308,6 +328,8 @@
         {
           "number": 6,
           "text": "En este caso, la boca te hace pecar. No procures excusarte diciéndole al mensajero de Dios que fue por error (el hacer la promesa). Eso enojaría mucho a Dios; y él podría truncar tu prosperidad. Soñar y no realizar es necedad, y el torrente de palabras vacías es ruidoso; en vez de eso, teme a Dios.",
+          "verseDisplay": "6-7",
+          "endNumber": 7,
           "headings": [
             "Futilidad de las riquezas"
           ]
@@ -334,7 +356,9 @@
         },
         {
           "number": 13,
-          "text": "Otro grave problema he observado por doquier: se invierten los ahorros en negocios arriesgados que fracasan, y pronto no queda nada para dejar a los hijos."
+          "text": "Otro grave problema he observado por doquier: se invierten los ahorros en negocios arriesgados que fracasan, y pronto no queda nada para dejar a los hijos.",
+          "verseDisplay": "13-14",
+          "endNumber": 14
         },
         {
           "number": 15,
@@ -354,7 +378,9 @@
         },
         {
           "number": 19,
-          "text": "Y, naturalmente, está muy bien. Si Dios le ha dado al ser humano riqueza y salud es para que lo disfrute. Gustar de nuestro trabajo y aceptar la suerte que la vida nos deparó, es en verdad un don de Dios. Quien tal haga no tendrá que mirar triste hacia el pasado, pues Dios llenará de gozo su corazón."
+          "text": "Y, naturalmente, está muy bien. Si Dios le ha dado al ser humano riqueza y salud es para que lo disfrute. Gustar de nuestro trabajo y aceptar la suerte que la vida nos deparó, es en verdad un don de Dios. Quien tal haga no tendrá que mirar triste hacia el pasado, pues Dios llenará de gozo su corazón.",
+          "verseDisplay": "19-20",
+          "endNumber": 20
         }
       ]
     },
@@ -387,7 +413,9 @@
         },
         {
           "number": 7,
-          "text": "Sabios y necios pasan la vida por igual, afanándose por el alimento, y jamás parecen tener suficiente. Ambos padecen el mismo problema; pero el pobre que sea sabio vive mucho mejor."
+          "text": "Sabios y necios pasan la vida por igual, afanándose por el alimento, y jamás parecen tener suficiente. Ambos padecen el mismo problema; pero el pobre que sea sabio vive mucho mejor.",
+          "verseDisplay": "7-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -468,7 +496,9 @@
         },
         {
           "number": 15,
-          "text": "He visto de todo en esta loca vida, inclusive que a los justos los destruye su justicia y los malvados disfrutan de larga vida. No seas, pues, ni demasiado bueno ni demasiado sabio. ¿Para qué vas a matarte? Por otra parte, no seas tampoco demasiado malo: ¡no seas necio! ¿Para qué morir antes de tiempo?"
+          "text": "He visto de todo en esta loca vida, inclusive que a los justos los destruye su justicia y los malvados disfrutan de larga vida. No seas, pues, ni demasiado bueno ni demasiado sabio. ¿Para qué vas a matarte? Por otra parte, no seas tampoco demasiado malo: ¡no seas necio! ¿Para qué morir antes de tiempo?",
+          "verseDisplay": "15-17",
+          "endNumber": 17
         },
         {
           "number": 18,
@@ -485,6 +515,8 @@
         {
           "number": 21,
           "text": "No escuches a hurtadillas. Podrías oír a tu siervo murmurando de ti. Bien sabes cuán a menudo hablas tú mal del prójimo.",
+          "verseDisplay": "21-22",
+          "endNumber": 22,
           "headings": [
             "Tras la razón de las cosas"
           ]
@@ -507,7 +539,9 @@
         },
         {
           "number": 27,
-          "text": "A esta conclusión llego, dice el Predicador. Paso tras paso llegué a este resultado tras investigar en todas direcciones: de mil hombres, uno podía tenerse por sabio; y de las mujeres, ninguna."
+          "text": "A esta conclusión llego, dice el Predicador. Paso tras paso llegué a este resultado tras investigar en todas direcciones: de mil hombres, uno podía tenerse por sabio; y de las mujeres, ninguna.",
+          "verseDisplay": "27-28",
+          "endNumber": 28
         },
         {
           "number": 29,
@@ -527,7 +561,9 @@
         },
         {
           "number": 2,
-          "text": "Obedece al rey conforme a tu juramento. No andes tratando de rehuir responsabilidades, aunque sean desagradables. Porque el rey castiga a los desobedientes."
+          "text": "Obedece al rey conforme a tu juramento. No andes tratando de rehuir responsabilidades, aunque sean desagradables. Porque el rey castiga a los desobedientes.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -539,7 +575,9 @@
         },
         {
           "number": 6,
-          "text": "Para todo hay tiempo y manera, aunque el ser humano esté abrumado de dificultades; pues, ¿cómo evitar que acontezca lo que guarda el futuro desconocido?"
+          "text": "Para todo hay tiempo y manera, aunque el ser humano esté abrumado de dificultades; pues, ¿cómo evitar que acontezca lo que guarda el futuro desconocido?",
+          "verseDisplay": "6-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -550,7 +588,9 @@
         },
         {
           "number": 9,
-          "text": "He meditado profundamente en todo lo que ocurre en este mundo, en que los individuos tienen el poder de perjudicarse los unos a los otros. He visto los funerales de los malvados, y cuando sus amigos regresaban del cementerio, olvidadas todas las maldades del difunto, se le alababa en la misma ciudad en donde había cometido sus múltiples fechorías. ¡Qué absurdo!"
+          "text": "He meditado profundamente en todo lo que ocurre en este mundo, en que los individuos tienen el poder de perjudicarse los unos a los otros. He visto los funerales de los malvados, y cuando sus amigos regresaban del cementerio, olvidadas todas las maldades del difunto, se le alababa en la misma ciudad en donde había cometido sus múltiples fechorías. ¡Qué absurdo!",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -574,7 +614,9 @@
         },
         {
           "number": 16,
-          "text": "En mi búsqueda de sabiduría observé lo que acontecía en toda la tierra: incesante actividad día y noche. Pude ver todo lo que Dios había hecho. El ser humano no puede comprender todo lo hecho por Dios en esta vida. Por más que se esfuerce por encontrarle sentido, no lo hallará; aun cuando el sabio diga conocerlo, en realidad no lo puede comprender."
+          "text": "En mi búsqueda de sabiduría observé lo que acontecía en toda la tierra: incesante actividad día y noche. Pude ver todo lo que Dios había hecho. El ser humano no puede comprender todo lo hecho por Dios en esta vida. Por más que se esfuerce por encontrarle sentido, no lo hallará; aun cuando el sabio diga conocerlo, en realidad no lo puede comprender.",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         }
       ]
     },
@@ -587,7 +629,9 @@
         },
         {
           "number": 2,
-          "text": "Buenos y malos, religiosos y descreídos, blasfemos y justos, tienen el mismo final. Parece muy injusto que sea igual el destino de todos. Por eso es que los humanos no se preocupan más del bien, sino que eligen su camino de locura, pues no tienen esperanza; al fin y al cabo lo único que les espera es la muerte."
+          "text": "Buenos y malos, religiosos y descreídos, blasfemos y justos, tienen el mismo final. Parece muy injusto que sea igual el destino de todos. Por eso es que los humanos no se preocupan más del bien, sino que eligen su camino de locura, pues no tienen esperanza; al fin y al cabo lo único que les espera es la muerte.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -687,7 +731,9 @@
         },
         {
           "number": 8,
-          "text": "Cavas un pozo, y caes en él; derribas un muro viejo, y una serpiente te muerde. Trabajas en la cantera, y cae una piedra y te aplasta. Hay peligro en cada golpe de hacha que das."
+          "text": "Cavas un pozo, y caes en él; derribas un muro viejo, y una serpiente te muerde. Trabajas en la cantera, y cae una piedra y te aplasta. Hay peligro en cada golpe de hacha que das.",
+          "verseDisplay": "8-9",
+          "endNumber": 9
         },
         {
           "number": 10,
@@ -699,7 +745,9 @@
         },
         {
           "number": 12,
-          "text": "Es agradable oír las palabras sabias; pero los labios del necio lo llevan a la ruina. Puesto que su premisa es necia; su conclusión es locura."
+          "text": "Es agradable oír las palabras sabias; pero los labios del necio lo llevan a la ruina. Puesto que su premisa es necia; su conclusión es locura.",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -711,7 +759,9 @@
         },
         {
           "number": 16,
-          "text": "¡Ay de la nación que tiene por rey a un niño y cuyos dirigentes están embriagados desde la mañana! Dichosa la nación cuyo rey es un noble, y cuyos dirigentes trabajan empeñosamente antes de andar en fiestas y en bebidas, a no ser para fortalecerse para sus tareas."
+          "text": "¡Ay de la nación que tiene por rey a un niño y cuyos dirigentes están embriagados desde la mañana! Dichosa la nación cuyo rey es un noble, y cuyos dirigentes trabajan empeñosamente antes de andar en fiestas y en bebidas, a no ser para fortalecerse para sus tareas.",
+          "verseDisplay": "16-17",
+          "endNumber": 17
         },
         {
           "number": 18,

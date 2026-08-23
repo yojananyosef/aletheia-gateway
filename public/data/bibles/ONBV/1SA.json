@@ -60,7 +60,9 @@
         },
         {
           "number": 12,
-          "text": "Como Elí vio que Ana prolongaba mucho su oración y que movía los labios sin emitir sonido, pensó que estaba ebria."
+          "text": "Como Elí vio que Ana prolongaba mucho su oración y que movía los labios sin emitir sonido, pensó que estaba ebria.",
+          "verseDisplay": "12-13",
+          "endNumber": 13
         },
         {
           "number": 14,
@@ -68,7 +70,9 @@
         },
         {
           "number": 15,
-          "text": "―No, señor —contestó ella—, no estoy ebria; es que estoy muy triste y estaba derramando las penas de mi corazón delante del Señor . No pienses que soy una borracha."
+          "text": "―No, señor —contestó ella—, no estoy ebria; es que estoy muy triste y estaba derramando las penas de mi corazón delante del Señor . No pienses que soy una borracha.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -219,7 +223,9 @@
         },
         {
           "number": 23,
-          "text": "«He estado oyendo quejas terribles contra ustedes —dijo Elí a sus hijos—. Es algo horroroso hacer que el pueblo de Dios peque. No, hijos míos,"
+          "text": "«He estado oyendo quejas terribles contra ustedes —dijo Elí a sus hijos—. Es algo horroroso hacer que el pueblo de Dios peque. No, hijos míos,",
+          "verseDisplay": "23-24",
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -430,7 +436,9 @@
         },
         {
           "number": 14,
-          "text": "―¿A qué se debe todo ese bullicio?, preguntó Elí, que para entonces ya tenía noventa años y estaba ciego. Y el mensajero corrió a darle las noticias."
+          "text": "―¿A qué se debe todo ese bullicio?, preguntó Elí, que para entonces ya tenía noventa años y estaba ciego. Y el mensajero corrió a darle las noticias.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -454,7 +462,9 @@
         },
         {
           "number": 21,
-          "text": "Luego murmuró: «Pónganle Icabod (No hay gloria), porque la gloria se ha apartado de Israel». Ella le puso este nombre porque el cofre de Dios había sido capturado y porque su marido y su suegro estaban muertos."
+          "text": "Luego murmuró: «Pónganle Icabod (No hay gloria), porque la gloria se ha apartado de Israel». Ella le puso este nombre porque el cofre de Dios había sido capturado y porque su marido y su suegro estaban muertos.",
+          "verseDisplay": "21-22",
+          "endNumber": 22
         }
       ]
     },
@@ -528,7 +538,9 @@
         },
         {
           "number": 4,
-          "text": "―¿Y qué expiación enviaremos? —preguntaron. Y les respondieron: ―Envíen figuras de oro de los tumores y de las ratas que están asolando la tierra. Cinco figuras de los tumores y cinco de las ratas por cada uno de ustedes y por los príncipes. Si envían este presente y luego honran al Dios de Israel, quizás él deje de asolarlos a ustedes, a su dios y a su tierra."
+          "text": "―¿Y qué expiación enviaremos? —preguntaron. Y les respondieron: ―Envíen figuras de oro de los tumores y de las ratas que están asolando la tierra. Cinco figuras de los tumores y cinco de las ratas por cada uno de ustedes y por los príncipes. Si envían este presente y luego honran al Dios de Israel, quizás él deje de asolarlos a ustedes, a su dios y a su tierra.",
+          "verseDisplay": "4-5",
+          "endNumber": 5
         },
         {
           "number": 6,
@@ -802,7 +814,9 @@
         },
         {
           "number": 9,
-          "text": "―Bien —aprobó Saúl—, vayamos y probemos. Fueron entonces a la ciudad donde vivía el profeta. Mientras subían la colina hacia la ciudad, vieron a algunas jóvenes que salían a sacar agua y les preguntaron si sabían donde vivía el vidente: En aquellos días los profetas eran llamados videntes. «Vamos y preguntemos al vidente», decía la gente en vez de decir «vamos y preguntémosle al profeta»."
+          "text": "―Bien —aprobó Saúl—, vayamos y probemos. Fueron entonces a la ciudad donde vivía el profeta. Mientras subían la colina hacia la ciudad, vieron a algunas jóvenes que salían a sacar agua y les preguntaron si sabían donde vivía el vidente: En aquellos días los profetas eran llamados videntes. «Vamos y preguntemos al vidente», decía la gente en vez de decir «vamos y preguntémosle al profeta».",
+          "verseDisplay": "9-11",
+          "endNumber": 11
         },
         {
           "number": 12,
@@ -1469,7 +1483,9 @@
         },
         {
           "number": 50,
-          "text": "La esposa de Saúl se llamaba Ajinoán, hija de Ajimaz. El jefe de su ejército era su primo Abner, hijo de Ner, tío de Saúl. Ner y Quis, el padre de Saúl, eran hermanos. Ambos eran hijos de Abiel."
+          "text": "La esposa de Saúl se llamaba Ajinoán, hija de Ajimaz. El jefe de su ejército era su primo Abner, hijo de Ner, tío de Saúl. Ner y Quis, el padre de Saúl, eran hermanos. Ambos eran hijos de Abiel.",
+          "verseDisplay": "50-51",
+          "endNumber": 51
         },
         {
           "number": 52,
@@ -1686,7 +1702,9 @@
         },
         {
           "number": 15,
-          "text": "Algunos de los servidores de Saúl le sugirieron un remedio. ―¿Por qué no nos autorizas a buscar un buen músico que toque el arpa delante de ti cuando viene el espíritu que te atormenta? La música del arpa te dará tranquilidad y te hará bien."
+          "text": "Algunos de los servidores de Saúl le sugirieron un remedio. ―¿Por qué no nos autorizas a buscar un buen músico que toque el arpa delante de ti cuando viene el espíritu que te atormenta? La música del arpa te dará tranquilidad y te hará bien.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -1735,7 +1753,9 @@
         },
         {
           "number": 4,
-          "text": "Entonces Goliat, campeón filisteo de Gat, salió de las filas filisteas y desafió a las fuerzas de Israel. Era un gigante de casi tres metros de alto. Usaba un yelmo de bronce, una cota de malla de unos sesenta kilos, grebas de bronce para las piernas, y una jabalina de bronce de varios centímetros de espesor, en cuyo extremo había una punta de lanza de hierro de más de siete kilos. Y su escudero llevaba un gran escudo delante de él. Goliat se paró y gritó para que lo oyeran los israelitas: «¿Necesitan todo un ejército para solucionar esto? Yo represento a los filisteos. Escojan a alguien que los represente y decidiremos la batalla en un combate singular."
+          "text": "Entonces Goliat, campeón filisteo de Gat, salió de las filas filisteas y desafió a las fuerzas de Israel. Era un gigante de casi tres metros de alto. Usaba un yelmo de bronce, una cota de malla de unos sesenta kilos, grebas de bronce para las piernas, y una jabalina de bronce de varios centímetros de espesor, en cuyo extremo había una punta de lanza de hierro de más de siete kilos. Y su escudero llevaba un gran escudo delante de él. Goliat se paró y gritó para que lo oyeran los israelitas: «¿Necesitan todo un ejército para solucionar esto? Yo represento a los filisteos. Escojan a alguien que los represente y decidiremos la batalla en un combate singular.",
+          "verseDisplay": "4-8",
+          "endNumber": 8
         },
         {
           "number": 9,
@@ -1903,7 +1923,9 @@
         },
         {
           "number": 50,
-          "text": "De esa manera David venció al gigante filisteo. Como no tenía espada, corrió y sacó la del gigante de la vaina y lo mató con ella, y luego le cortó la cabeza. Cuando los filisteos vieron que su campeón había muerto, huyeron."
+          "text": "De esa manera David venció al gigante filisteo. Como no tenía espada, corrió y sacó la del gigante de la vaina y lo mató con ella, y luego le cortó la cabeza. Cuando los filisteos vieron que su campeón había muerto, huyeron.",
+          "verseDisplay": "50-51",
+          "endNumber": 51
         },
         {
           "number": 52,
@@ -1944,7 +1966,9 @@
         },
         {
           "number": 2,
-          "text": "desde ese día ya no lo dejó volver a su casa. David conoció a Jonatán, hijo del rey, e inmediatamente se estableció entre ellos un fuerte lazo de amistad. Jonatán lo amó como a un hermano, e hizo un pacto con él,"
+          "text": "desde ese día ya no lo dejó volver a su casa. David conoció a Jonatán, hijo del rey, e inmediatamente se estableció entre ellos un fuerte lazo de amistad. Jonatán lo amó como a un hermano, e hizo un pacto con él,",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -2270,7 +2294,9 @@
         },
         {
           "number": 28,
-          "text": "―Me pidió que le permitiera ir a Belén, a participar en una fiesta familiar. Su hermano le pidió que estuviera presente. Yo le dije que fuera."
+          "text": "―Me pidió que le permitiera ir a Belén, a participar en una fiesta familiar. Su hermano le pidió que estuviera presente. Yo le dije que fuera.",
+          "verseDisplay": "28-29",
+          "endNumber": 29
         },
         {
           "number": 30,
@@ -2554,7 +2580,9 @@
         },
         {
           "number": 14,
-          "text": "David se fue a vivir en las cuevas del desierto en la región montañosa de Zif. Un día, cerca de Hores, supo que Saúl iba hacia Zif en su busca. Saúl lo perseguía día tras día para matarlo, pero el Señor no permitió que lo encontrara."
+          "text": "David se fue a vivir en las cuevas del desierto en la región montañosa de Zif. Un día, cerca de Hores, supo que Saúl iba hacia Zif en su busca. Saúl lo perseguía día tras día para matarlo, pero el Señor no permitió que lo encontrara.",
+          "verseDisplay": "14-15",
+          "endNumber": 15
         },
         {
           "number": 16,
@@ -2651,7 +2679,9 @@
         },
         {
           "number": 9,
-          "text": "gritó: ―¿Por qué prestas atención a los que dicen que trato de hacerte daño? Este mismo día comprenderás que no es cierto. El Señor te puso a mi merced aquí en la cueva, y algunos de mis hombres me dijeron que te diera muerte, pero yo no quise, porque me dije: “Jamás le haré daño alguno a mi señor porque es el ungido del Señor ”."
+          "text": "gritó: ―¿Por qué prestas atención a los que dicen que trato de hacerte daño? Este mismo día comprenderás que no es cierto. El Señor te puso a mi merced aquí en la cueva, y algunos de mis hombres me dijeron que te diera muerte, pero yo no quise, porque me dije: “Jamás le haré daño alguno a mi señor porque es el ungido del Señor ”.",
+          "verseDisplay": "9-10",
+          "endNumber": 10
         },
         {
           "number": 11,
@@ -2764,7 +2794,9 @@
         },
         {
           "number": 15,
-          "text": "Sin embargo, los hombres de David han sido muy bondadosos con nosotros y nunca sufrimos nada de parte de ellos. Es más, día y noche fueron como un muro protector para nosotros y para nuestras ovejas y nada nos fue robado en todo el tiempo en que ellos estuvieron con nosotros."
+          "text": "Sin embargo, los hombres de David han sido muy bondadosos con nosotros y nunca sufrimos nada de parte de ellos. Es más, día y noche fueron como un muro protector para nosotros y para nuestras ovejas y nada nos fue robado en todo el tiempo en que ellos estuvieron con nosotros.",
+          "verseDisplay": "15-16",
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -2901,7 +2933,9 @@
         },
         {
           "number": 5,
-          "text": "Una noche, David fue silenciosamente hasta el campamento de Saúl. El rey Saúl y el general Abner dormían rodeados por los soldados. ―¿Algún voluntario quiere ir conmigo? —preguntó David a Ajimélec, el hitita, y a Abisay, hermano de Joab e hijo de Sarvia. ―Yo iré contigo —respondió Abisay. David y Abisay, pues, fueron al campamento de Saúl y lo encontraron dormido, con la lanza clavada en el suelo, junto a su cabeza."
+          "text": "Una noche, David fue silenciosamente hasta el campamento de Saúl. El rey Saúl y el general Abner dormían rodeados por los soldados. ―¿Algún voluntario quiere ir conmigo? —preguntó David a Ajimélec, el hitita, y a Abisay, hermano de Joab e hijo de Sarvia. ―Yo iré contigo —respondió Abisay. David y Abisay, pues, fueron al campamento de Saúl y lo encontraron dormido, con la lanza clavada en el suelo, junto a su cabeza.",
+          "verseDisplay": "5-7",
+          "endNumber": 7
         },
         {
           "number": 8,
@@ -2986,7 +3020,9 @@
         },
         {
           "number": 2,
-          "text": "Tomó sus seiscientos hombres con sus familias y se fueron a vivir a Gat, bajo la protección del rey Aquis. Llevó consigo a sus dos esposas, a Ajinoán de Jezrel y a Abigail del Carmelo, la viuda de Nabal."
+          "text": "Tomó sus seiscientos hombres con sus familias y se fueron a vivir a Gat, bajo la protección del rey Aquis. Llevó consigo a sus dos esposas, a Ajinoán de Jezrel y a Abigail del Carmelo, la viuda de Nabal.",
+          "verseDisplay": "2-3",
+          "endNumber": 3
         },
         {
           "number": 4,
@@ -3232,7 +3268,9 @@
         },
         {
           "number": 11,
-          "text": "En el camino encontraron a un joven egipcio y lo llevaron a la presencia de David. No había comido ni bebido durante tres días, así que le dieron una porción de higos secos, dos racimos de pasas y agua, y pronto recobró sus fuerzas."
+          "text": "En el camino encontraron a un joven egipcio y lo llevaron a la presencia de David. No había comido ni bebido durante tres días, así que le dieron una porción de higos secos, dos racimos de pasas y agua, y pronto recobró sus fuerzas.",
+          "verseDisplay": "11-12",
+          "endNumber": 12
         },
         {
           "number": 13,
@@ -3256,7 +3294,9 @@
         },
         {
           "number": 18,
-          "text": "David recuperó todo lo que ellos le habían tomado. Los hombres recobraron sus familias y todas sus pertenencias, y David rescató también a sus dos esposas."
+          "text": "David recuperó todo lo que ellos le habían tomado. Los hombres recobraron sus familias y todas sus pertenencias, y David rescató también a sus dos esposas.",
+          "verseDisplay": "18-19",
+          "endNumber": 19
         },
         {
           "number": 20,
@@ -3288,7 +3328,9 @@
         },
         {
           "number": 27,
-          "text": "Los enviaron a los ancianos de las siguientes poblaciones donde David y sus hombres habían acampado: Betel, Ramot del sur, Jatir, Aroer, Sifmot, Estemoa, Racal, las ciudades de los jeramelitas, las ciudades quenitas, Jormá, Corasán, Atac y Hebrón."
+          "text": "Los enviaron a los ancianos de las siguientes poblaciones donde David y sus hombres habían acampado: Betel, Ramot del sur, Jatir, Aroer, Sifmot, Estemoa, Racal, las ciudades de los jeramelitas, las ciudades quenitas, Jormá, Corasán, Atac y Hebrón.",
+          "verseDisplay": "27-31",
+          "endNumber": 31
         }
       ]
     },
