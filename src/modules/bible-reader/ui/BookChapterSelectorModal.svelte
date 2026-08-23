@@ -113,6 +113,7 @@
               <button
                 type="button"
                 class="clear-filter-btn"
+                data-tooltip="Limpiar filtro"
                 onclick={() => (filterText = '')}
                 aria-label="Limpiar filtro"
               >
@@ -124,6 +125,7 @@
           <button
             type="button"
             class="modal-close-btn"
+            data-tooltip="Cerrar modal (Esc)"
             aria-label="Cerrar modal"
             onclick={onClose}
           >

@@ -49,7 +49,7 @@
     class="custom-version-trigger {isOpen ? 'is-active' : ''}"
     aria-haspopup="listbox"
     aria-expanded={isOpen}
-    title="Cambiar versión para esta columna ({currentTranslation.name})"
+    data-tooltip="Cambiar versión para esta columna ({currentTranslation.name})"
     onclick={() => (isOpen = !isOpen)}
   >
     <span class="version-tag">{currentTranslation.shortName}</span>

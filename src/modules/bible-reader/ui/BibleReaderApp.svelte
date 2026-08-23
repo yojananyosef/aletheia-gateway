@@ -5,6 +5,7 @@
   import DailyVerseCard from './DailyVerseCard.svelte';
   import ReaderView from './ReaderView.svelte';
   import BookChapterSelectorModal from './BookChapterSelectorModal.svelte';
+  import SavedVersesModal from '../../bookmarks/ui/SavedVersesModal.svelte';
 
   import {
     AVAILABLE_TRANSLATIONS,
@@ -13,7 +14,7 @@
   } from '../domain/entities/Translation';
   import type { PassageVersionResult } from '../domain/entities/Chapter';
   import { PassageReference } from '../domain/value-objects/PassageReference';
-  import { findBookInfo, getAllBooks, ALL_BIBLE_BOOKS } from '../domain/entities/BibleBooks';
+  import { findBookInfo, getAllBooks } from '../domain/entities/BibleBooks';
   import { JsonBibleRepository } from '../infrastructure/JsonBibleRepository';
   import { CompareTranslationsUseCase } from '../application/CompareTranslationsUseCase';
   import { LocalStorageBookmarkRepository } from '../../bookmarks/infrastructure/LocalStorageBookmarkRepository';
@@ -35,9 +36,21 @@
   let activeQuery = $state('Génesis 1:1');
   let selectedTranslations = $state<TranslationId[]>(['RV1909']);
   let isBookmarked = $state(false);
+  let bookmarkCount = $state(0);
   let passages = $state<PassageVersionResult[]>([]);
   let fontSize = $state<FontSizeOption>('medium');
   let isBookModalOpen = $state(false);
+  let isSavedVersesModalOpen = $state(false);
+
+  async function updateBookmarkCount() {
+    try {
+      const all = await bookmarkRepository.getAll();
+      bookmarkCount = all.length;
+      isBookmarked = await bookmarkRepository.isBookmarked(activeQuery);
+    } catch {
+      // Ignore
+    }
+  }
 
   // Load comparison data whenever activeQuery or selectedTranslations change
   async function loadPassageData() {
@@ -47,7 +60,7 @@
         translations: selectedTranslations,
       });
       passages = results;
-      isBookmarked = await bookmarkRepository.isBookmarked(activeQuery);
+      await updateBookmarkCount();
     } catch (err) {
       console.error('Error loading passage data:', err);
     }
@@ -84,6 +97,7 @@
       // Ignore localStorage restrictions
     }
     loadPassageData();
+    updateBookmarkCount();
   });
 
   function saveActivePassage(ref: string) {
@@ -135,6 +149,7 @@
     saveActivePassage(nextQuery);
     view = 'reader';
     isBookModalOpen = false;
+    isSavedVersesModalOpen = false;
   }
 
   function handleNavigate(nextView: 'home' | 'reader') {
@@ -222,10 +237,16 @@
       });
       isBookmarked = true;
     }
+    await updateBookmarkCount();
   }
 </script>
 
-<AppShell activeView={view} onNavigate={handleNavigate}>
+<AppShell
+  activeView={view}
+  {bookmarkCount}
+  onNavigate={handleNavigate}
+  onOpenBookmarks={() => (isSavedVersesModalOpen = true)}
+>
   {#if view === 'home'}
     <div class="home-view">
       <HomeHero
@@ -270,6 +291,15 @@
       onPrevChapter={handlePrevChapter}
       onNextChapter={handleNextChapter}
       onToggleBookmark={handleToggleBookmark}
+      onBookmarkChange={updateBookmarkCount}
     />
   {/if}
+
+  <!-- Saved Verses Modal accessible globally -->
+  <SavedVersesModal
+    isOpen={isSavedVersesModalOpen}
+    onClose={() => (isSavedVersesModalOpen = false)}
+    onSelectPassage={handleGoToReader}
+    onBookmarksChange={updateBookmarkCount}
+  />
 </AppShell>

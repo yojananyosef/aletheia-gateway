@@ -148,6 +148,22 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.6.0] - 2026-08-22
+#### Añadido: Resaltados Persistentes, Notas Personales y Tooltips Neobrutalistas
+- 🖍️ **Persistencia de Resaltados Bíblicos**:
+  - Implementación de `LocalStorageHighlightRepository` (`alethia_bible_highlights_v1`) y entidad `BibleHighlight` con soporte para 4 colores accesibles (`Amarillo`, `Coral`, `Azul`, `Verde`).
+  - Renderizado reactivo y sanitizado de marcas `<mark class="bible-highlight">` en el lector paralelo persistente entre recargas y navegación.
+  - Interacción táctil para modificar color o borrar resaltados directamente al hacer clic en ellos o con la herramienta de borrado.
+- 💾 **Guardado Directo desde el Toolbar Flotante**:
+  - Función de guardado inmediato de citas y fragmentos seleccionados en `LocalStorageBookmarkRepository` con feedback visual inmediato.
+- 📝 **Notas Personales y Reflexiones**:
+  - Modal accesible `PersonalNoteModal` con estética Neobrutalista, atajo de teclado (`Ctrl + Enter`), citas bíblicas automáticas y persistencia en `LocalStorageNoteRepository`.
+  - Insignia interactiva de notas en cada versículo del lector para consultar y editar apuntes.
+- 💬 **Sistema Global de Tooltips Neobrutalistas**:
+  - Creación de `NeoTooltip` con diseño de alto contraste (`#1a1a18`, texto blanco y sombra dura de 3px).
+  - Posicionamiento inteligente con cálculo dimensional real y *clamping* en bordes para evitar desbordes o estiramientos verticales.
+  - Reemplazo universal de los atributos nativos `title` por `data-tooltip`.
+
 ### [0.5.3] - 2026-08-22
 #### Corregido & Canon Dinámico
 - 📚 **Filtro Canónico Inteligente en la Lista de Libros**:

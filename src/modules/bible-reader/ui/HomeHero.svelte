@@ -55,7 +55,7 @@
     <button
       type="button"
       class="home-sub-btn"
-      title="Abrir lista de libros bíblicos"
+      data-tooltip="Abrir lista de libros bíblicos"
       onclick={onOpenBookModal}
     >
       <BookOpen size={16} />

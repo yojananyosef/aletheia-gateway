@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import {
     Search,
     ChevronLeft,
@@ -9,10 +10,15 @@
   } from 'lucide-svelte';
   import type { TranslationId } from '../domain/entities/Translation';
   import type { PassageVersionResult } from '../domain/entities/Chapter';
+  import type { BibleHighlight } from '../domain/entities/BibleHighlight';
+  import type { PersonalNote } from '../../notes/domain/Note';
+  import { LocalStorageHighlightRepository } from '../infrastructure/LocalStorageHighlightRepository';
+  import { LocalStorageNoteRepository } from '../../notes/infrastructure/LocalStorageNoteRepository';
   import ParallelPassageViewer from './ParallelPassageViewer.svelte';
   import BookChapterSelectorModal from './BookChapterSelectorModal.svelte';
   import FontSizeSelector, { type FontSizeOption } from './FontSizeSelector.svelte';
   import HighlightFloatingToolbar from './HighlightFloatingToolbar.svelte';
+  import PersonalNoteModal from '../../notes/ui/PersonalNoteModal.svelte';
 
   interface Props {
     query: string;
@@ -31,6 +37,7 @@
     onPrevChapter: () => void;
     onNextChapter: () => void;
     onToggleBookmark: () => void;
+    onBookmarkChange?: () => void;
   }
 
   let {
@@ -49,14 +56,59 @@
     onPrevChapter,
     onNextChapter,
     onToggleBookmark,
+    onBookmarkChange,
   }: Props = $props();
 
+  const highlightRepo = new LocalStorageHighlightRepository();
+  const noteRepo = new LocalStorageNoteRepository();
+
   let isBookModalOpen = $state(false);
+  let highlights = $state<BibleHighlight[]>([]);
+  let notes = $state<PersonalNote[]>([]);
+
+  // Note Modal state
+  let isNoteModalOpen = $state(false);
+  let noteModalReference = $state('Génesis 1:1');
+  let noteModalBook = $state('Génesis');
+  let noteModalChapter = $state(1);
+  let noteModalVerse = $state<number | undefined>(undefined);
+  let noteModalTranslation = $state<string | undefined>(undefined);
+  let noteModalSelectedText = $state('');
+  let noteModalExistingId = $state<string | undefined>(undefined);
+  let noteModalExistingContent = $state('');
 
   let firstPassage = $derived(passages[0]);
   let currentBook = $derived(firstPassage ? firstPassage.book : 'Génesis');
   let currentChapter = $derived(firstPassage ? firstPassage.chapter : 1);
   let canAddMore = $derived(selectedTranslations.length < 5);
+
+  async function loadHighlightsAndNotes() {
+    try {
+      const book = currentBook;
+      const ch = currentChapter;
+      const [hList, nList] = await Promise.all([
+        highlightRepo.getByChapter(book, ch),
+        noteRepo.getByChapter(book, ch),
+      ]);
+      highlights = hList;
+      notes = nList;
+    } catch (err) {
+      console.error('Error loading highlights or notes:', err);
+    }
+  }
+
+  $effect(() => {
+    // Reload highlights and notes whenever book or chapter changes
+    const b = currentBook;
+    const c = currentChapter;
+    if (b && c) {
+      loadHighlightsAndNotes();
+    }
+  });
+
+  onMount(() => {
+    loadHighlightsAndNotes();
+  });
 
   function handleSubmit(event: Event) {
     event.preventDefault();
@@ -68,6 +120,38 @@
       event.preventDefault();
       onSearch(event);
     }
+  }
+
+  function handleOpenNoteModal(context: {
+    reference: string;
+    book: string;
+    chapter: number;
+    verseNumber?: number;
+    translationId?: string;
+    selectedText: string;
+    existingNoteId?: string;
+    existingContent?: string;
+  }) {
+    noteModalReference = context.reference;
+    noteModalBook = context.book;
+    noteModalChapter = context.chapter;
+    noteModalVerse = context.verseNumber;
+    noteModalTranslation = context.translationId;
+    noteModalSelectedText = context.selectedText;
+
+    // Check if an existing note matches this verse
+    const existing = context.existingNoteId
+      ? { id: context.existingNoteId, content: context.existingContent || '' }
+      : notes.find(
+          (n) =>
+            n.book.toLowerCase().trim() === context.book.toLowerCase().trim() &&
+            n.chapter === context.chapter &&
+            n.verseNumber === context.verseNumber
+        );
+
+    noteModalExistingId = existing?.id;
+    noteModalExistingContent = existing?.content || '';
+    isNoteModalOpen = true;
   }
 </script>
 
@@ -96,7 +180,7 @@
     <button
       type="button"
       class="floating-nav-btn floating-prev-btn"
-      title="Capítulo anterior ({currentBook} {Math.max(1, currentChapter - 1)})"
+      data-tooltip="Capítulo anterior ({currentBook} {Math.max(1, currentChapter - 1)})"
       aria-label="Capítulo anterior"
       onclick={onPrevChapter}
     >
@@ -106,7 +190,7 @@
     <button
       type="button"
       class="floating-nav-btn floating-next-btn"
-      title="Siguiente capítulo ({currentBook} {currentChapter + 1})"
+      data-tooltip="Siguiente capítulo ({currentBook} {currentChapter + 1})"
       aria-label="Siguiente capítulo"
       onclick={onNextChapter}
     >
@@ -120,7 +204,7 @@
           <button
             type="button"
             class="toolbar-action-btn"
-            title="Abrir lista de libros y capítulos de la Biblia"
+            data-tooltip="Abrir lista de libros y capítulos de la Biblia"
             onclick={() => (isBookModalOpen = true)}
           >
             <BookOpen size={16} />
@@ -132,7 +216,7 @@
             type="button"
             class="toolbar-action-btn add-parallel-btn {canAddMore ? '' : 'is-disabled'}"
             disabled={!canAddMore}
-            title={canAddMore ? 'Agregar una nueva versión paralela (máx. 5)' : 'Límite alcanzado (máximo 5 versiones)'}
+            data-tooltip={canAddMore ? 'Agregar una nueva versión paralela (máx. 5)' : 'Límite alcanzado (máximo 5 versiones)'}
             onclick={onAddParallelColumn}
           >
             <CopyPlus size={16} />
@@ -147,7 +231,7 @@
             <button
               type="button"
               class="toolbar-nav-btn"
-              title="Capítulo anterior ({currentBook} {Math.max(1, currentChapter - 1)})"
+              data-tooltip="Capítulo anterior ({currentBook} {Math.max(1, currentChapter - 1)})"
               aria-label="Capítulo anterior"
               onclick={onPrevChapter}
             >
@@ -156,7 +240,7 @@
             <button
               type="button"
               class="toolbar-nav-btn"
-              title="Siguiente capítulo ({currentBook} {currentChapter + 1})"
+              data-tooltip="Siguiente capítulo ({currentBook} {currentChapter + 1})"
               aria-label="Siguiente capítulo"
               onclick={onNextChapter}
             >
@@ -175,9 +259,12 @@
       <ParallelPassageViewer
         {passages}
         {fontSize}
+        {highlights}
+        {notes}
         {onChangeColumnTranslation}
         {onRemoveColumn}
         {onSelectPassage}
+        onOpenNoteModal={handleOpenNoteModal}
       />
     </section>
   </div>
@@ -194,6 +281,28 @@
   <!-- Floating Text Selection & Highlighting Toolbar -->
   <HighlightFloatingToolbar
     activeReference={activeQuery}
-    {onToggleBookmark}
+    onHighlightChange={loadHighlightsAndNotes}
+    onBookmarkChange={onBookmarkChange}
+    onOpenNoteModal={handleOpenNoteModal}
+  />
+
+  <!-- Personal Note Modal -->
+  <PersonalNoteModal
+    isOpen={isNoteModalOpen}
+    reference={noteModalReference}
+    book={noteModalBook}
+    chapter={noteModalChapter}
+    verseNumber={noteModalVerse}
+    translationId={noteModalTranslation}
+    selectedText={noteModalSelectedText}
+    existingNoteId={noteModalExistingId}
+    existingContent={noteModalExistingContent}
+    onClose={() => (isNoteModalOpen = false)}
+    onSaved={() => {
+      loadHighlightsAndNotes();
+    }}
+    onDeleted={() => {
+      loadHighlightsAndNotes();
+    }}
   />
 </div>

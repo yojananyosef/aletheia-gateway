@@ -54,7 +54,7 @@
     class="font-size-trigger-btn {isOpen ? 'is-active' : ''}"
     aria-expanded={isOpen}
     aria-haspopup="listbox"
-    title="Ajustar tamaño de fuente del lector"
+    data-tooltip="Ajustar tamaño de fuente del lector"
     onclick={() => (isOpen = !isOpen)}
   >
     <Type size={16} />

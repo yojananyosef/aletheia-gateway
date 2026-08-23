@@ -1,22 +1,46 @@
 <script lang="ts">
   import { onMount, onDestroy } from 'svelte';
   import { Copy, Bookmark, FileText, Eraser, Check } from 'lucide-svelte';
-
-  export type HighlightColor = 'yellow' | 'coral' | 'blue' | 'green';
+  import type { HighlightColor, BibleHighlight } from '../domain/entities/BibleHighlight';
+  import { LocalStorageHighlightRepository } from '../infrastructure/LocalStorageHighlightRepository';
+  import { LocalStorageBookmarkRepository } from '../../bookmarks/infrastructure/LocalStorageBookmarkRepository';
 
   interface Props {
     activeReference: string;
-    onToggleBookmark?: () => void;
+    onHighlightChange?: () => void;
+    onBookmarkChange?: () => void;
+    onOpenNoteModal?: (context: {
+      reference: string;
+      book: string;
+      chapter: number;
+      verseNumber?: number;
+      translationId?: string;
+      selectedText: string;
+    }) => void;
   }
 
-  let { activeReference = 'Génesis 1:1', onToggleBookmark }: Props = $props();
+  let {
+    activeReference = 'Génesis 1:1',
+    onHighlightChange,
+    onBookmarkChange,
+    onOpenNoteModal,
+  }: Props = $props();
+
+  const highlightRepo = new LocalStorageHighlightRepository();
+  const bookmarkRepo = new LocalStorageBookmarkRepository();
 
   let isVisible = $state(false);
   let toolbarX = $state(0);
   let toolbarY = $state(0);
   let selectedText = $state('');
+  let selectedBook = $state('Génesis');
+  let selectedChapter = $state(1);
+  let selectedVerse = $state<number | undefined>(undefined);
+  let selectedTranslation = $state<string | undefined>(undefined);
+  let activeHighlightId = $state<string | null>(null);
+
   let copiedToast = $state(false);
-  let noteToast = $state(false);
+  let savedToast = $state(false);
 
   const colors: { id: HighlightColor; name: string; bg: string }[] = [
     { id: 'yellow', name: 'Amarillo', bg: '#FFD23F' },
@@ -25,88 +49,120 @@
     { id: 'green', name: 'Verde', bg: '#2ECC71' },
   ];
 
+  function extractContextFromNode(node: Node | null) {
+    if (!node) return;
+    const el = (node instanceof HTMLElement ? node : node.parentElement)?.closest('[data-book]') as HTMLElement | null;
+    if (el) {
+      selectedBook = el.getAttribute('data-book') || selectedBook;
+      selectedChapter = parseInt(el.getAttribute('data-chapter') || '1', 10);
+      const v = el.getAttribute('data-verse');
+      selectedVerse = v ? parseInt(v, 10) : undefined;
+      selectedTranslation = el.getAttribute('data-translation') || undefined;
+    }
+  }
+
   function handleSelection() {
     const selection = window.getSelection();
     if (!selection || selection.isCollapsed || !selection.toString().trim()) {
-      isVisible = false;
+      if (!activeHighlightId) {
+        isVisible = false;
+      }
       return;
     }
 
     const text = selection.toString().trim();
     if (text.length < 2) {
-      isVisible = false;
+      if (!activeHighlightId) isVisible = false;
       return;
     }
 
     selectedText = text;
+    activeHighlightId = null;
+    extractContextFromNode(selection.anchorNode);
+
     const range = selection.getRangeAt(0);
     const rect = range.getBoundingClientRect();
 
-    // Position toolbar centered above selection
-    toolbarX = Math.max(10, rect.left + rect.width / 2);
+    toolbarX = Math.max(10, Math.min(window.innerWidth - 200, rect.left + rect.width / 2));
     toolbarY = Math.max(10, rect.top - 12 + window.scrollY);
     isVisible = true;
   }
 
   function handleDocumentClick(event: MouseEvent) {
     const target = event.target as HTMLElement;
+    
+    // If user clicks on an existing highlight mark
+    const mark = target.closest('mark.bible-highlight') as HTMLElement | null;
+    if (mark) {
+      const hlId = mark.getAttribute('data-highlight-id');
+      const text = mark.textContent || '';
+      selectedText = text;
+      activeHighlightId = hlId;
+      extractContextFromNode(mark);
+
+      const rect = mark.getBoundingClientRect();
+      toolbarX = Math.max(10, Math.min(window.innerWidth - 200, rect.left + rect.width / 2));
+      toolbarY = Math.max(10, rect.top - 12 + window.scrollY);
+      isVisible = true;
+      return;
+    }
+
     if (!target.closest('.highlight-floating-toolbar') && !window.getSelection()?.toString().trim()) {
       isVisible = false;
+      activeHighlightId = null;
     }
   }
 
-  function applyHighlight(color: HighlightColor) {
-    const selection = window.getSelection();
-    if (!selection || selection.rangeCount === 0) return;
+  async function applyHighlight(color: HighlightColor) {
+    if (!selectedText) return;
 
-    const range = selection.getRangeAt(0);
-    const mark = document.createElement('mark');
-    mark.className = `bible-highlight bible-highlight-${color}`;
-    
     try {
-      range.surroundContents(mark);
-    } catch {
-      // If selection spans multiple nodes, extract and wrap
-      const content = range.extractContents();
-      mark.appendChild(content);
-      range.insertNode(mark);
-    }
+      const ref = selectedVerse
+        ? `${selectedBook} ${selectedChapter}:${selectedVerse}`
+        : `${selectedBook} ${selectedChapter}`;
 
-    selection.removeAllRanges();
-    isVisible = false;
+      await highlightRepo.save({
+        reference: ref,
+        book: selectedBook,
+        chapter: selectedChapter,
+        verseNumber: selectedVerse || 1,
+        translationId: selectedTranslation,
+        text: selectedText,
+        color,
+      });
+
+      onHighlightChange?.();
+      window.getSelection()?.removeAllRanges();
+      isVisible = false;
+      activeHighlightId = null;
+    } catch (err) {
+      console.error('Error applying highlight:', err);
+    }
   }
 
-  function removeHighlight() {
-    const selection = window.getSelection();
-    if (!selection || selection.rangeCount === 0) return;
-
-    const anchorNode = selection.anchorNode?.parentElement;
-    if (anchorNode && anchorNode.classList.contains('bible-highlight')) {
-      const parent = anchorNode.parentNode;
-      while (anchorNode.firstChild) {
-        parent?.insertBefore(anchorNode.firstChild, anchorNode);
+  async function removeHighlight() {
+    try {
+      if (activeHighlightId) {
+        await highlightRepo.remove(activeHighlightId);
+      } else if (selectedText) {
+        await highlightRepo.removeByText(selectedText, selectedBook, selectedChapter);
       }
-      parent?.removeChild(anchorNode);
-    } else {
-      document.querySelectorAll('.bible-highlight').forEach((mark) => {
-        const text = mark.textContent;
-        if (text && selectedText.includes(text)) {
-          const parent = mark.parentNode;
-          while (mark.firstChild) {
-            parent?.insertBefore(mark.firstChild, mark);
-          }
-          parent?.removeChild(mark);
-        }
-      });
-    }
 
-    selection.removeAllRanges();
-    isVisible = false;
+      onHighlightChange?.();
+      window.getSelection()?.removeAllRanges();
+      isVisible = false;
+      activeHighlightId = null;
+    } catch (err) {
+      console.error('Error removing highlight:', err);
+    }
   }
 
   async function handleCopy() {
     if (selectedText) {
-      const fullCitation = `"${selectedText}" — ${activeReference}`;
+      const ref = selectedVerse
+        ? `${selectedBook} ${selectedChapter}:${selectedVerse}`
+        : activeReference;
+      const fullCitation = `"${selectedText}" — ${ref}`;
       await navigator.clipboard.writeText(fullCitation);
       copiedToast = true;
       setTimeout(() => {
@@ -116,23 +172,57 @@
     }
   }
 
-  function handleAddNote() {
-    noteToast = true;
-    setTimeout(() => {
-      noteToast = false;
-      isVisible = false;
-    }, 1200);
+  async function handleSaveBookmark() {
+    try {
+      const ref = selectedVerse
+        ? `${selectedBook} ${selectedChapter}:${selectedVerse}`
+        : activeReference;
+
+      await bookmarkRepo.save({
+        reference: ref,
+        book: selectedBook,
+        chapter: selectedChapter,
+        translationId: selectedTranslation || 'RV1909',
+        previewText: selectedText,
+      });
+
+      savedToast = true;
+      onBookmarkChange?.();
+      setTimeout(() => {
+        savedToast = false;
+        isVisible = false;
+      }, 1200);
+    } catch (err) {
+      console.error('Error saving bookmark:', err);
+    }
+  }
+
+  function handleOpenNote() {
+    const ref = selectedVerse
+      ? `${selectedBook} ${selectedChapter}:${selectedVerse}`
+      : activeReference;
+
+    onOpenNoteModal?.({
+      reference: ref,
+      book: selectedBook,
+      chapter: selectedChapter,
+      verseNumber: selectedVerse,
+      translationId: selectedTranslation,
+      selectedText,
+    });
+
+    isVisible = false;
   }
 
   onMount(() => {
     document.addEventListener('selectionchange', handleSelection);
-    document.addEventListener('mousedown', handleDocumentClick);
+    document.addEventListener('click', handleDocumentClick);
   });
 
   onDestroy(() => {
     if (typeof document !== 'undefined') {
       document.removeEventListener('selectionchange', handleSelection);
-      document.removeEventListener('mousedown', handleDocumentClick);
+      document.removeEventListener('click', handleDocumentClick);
     }
   });
 </script>
@@ -152,7 +242,7 @@
           type="button"
           class="highlight-dot-btn"
           style="background-color: {c.bg};"
-          title="Resaltar con {c.name}"
+          data-tooltip="Resaltar con {c.name}"
           aria-label="Resaltar con {c.name}"
           onclick={() => applyHighlight(c.id)}
         ></button>
@@ -162,7 +252,7 @@
       <button
         type="button"
         class="highlight-action-btn eraser-btn"
-        title="Quitar resaltado"
+        data-tooltip="Quitar resaltado"
         aria-label="Quitar resaltado"
         onclick={removeHighlight}
       >
@@ -177,7 +267,7 @@
       <button
         type="button"
         class="highlight-action-btn"
-        title="Copiar texto con cita"
+        data-tooltip="Copiar texto con cita"
         aria-label="Copiar texto"
         onclick={handleCopy}
       >
@@ -188,38 +278,36 @@
         {/if}
       </button>
 
-      {#if onToggleBookmark}
-        <button
-          type="button"
-          class="highlight-action-btn"
-          title="Guardar en biblioteca"
-          aria-label="Guardar versículo"
-          onclick={onToggleBookmark}
-        >
+      <button
+        type="button"
+        class="highlight-action-btn"
+        data-tooltip="Guardar en biblioteca"
+        aria-label="Guardar en biblioteca"
+        onclick={handleSaveBookmark}
+      >
+        {#if savedToast}
+          <Check size={15} class="text-green-600" />
+        {:else}
           <Bookmark size={15} />
-        </button>
-      {/if}
+        {/if}
+      </button>
 
       <button
         type="button"
         class="highlight-action-btn"
-        title="Añadir nota personal"
-        aria-label="Añadir nota"
-        onclick={handleAddNote}
+        data-tooltip="Añadir nota personal"
+        aria-label="Añadir nota personal"
+        onclick={handleOpenNote}
       >
-        {#if noteToast}
-          <Check size={15} class="text-blue-600" />
-        {:else}
-          <FileText size={15} />
-        {/if}
+        <FileText size={15} />
       </button>
     </div>
 
     <!-- Toast feedback bubble -->
     {#if copiedToast}
       <div class="toolbar-toast">¡Cita copiada!</div>
-    {:else if noteToast}
-      <div class="toolbar-toast">¡Nota guardada!</div>
+    {:else if savedToast}
+      <div class="toolbar-toast">¡Guardado en biblioteca!</div>
     {/if}
   </div>
 {/if}

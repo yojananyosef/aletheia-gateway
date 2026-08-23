@@ -1,24 +1,41 @@
 <script lang="ts">
-  import { X, ArrowRight, ArrowUp } from 'lucide-svelte';
+  import { X, ArrowRight, ArrowUp, FileText } from 'lucide-svelte';
   import type { PassageVersionResult, SectionFootnote } from '../domain/entities/Chapter';
   import type { TranslationId } from '../domain/entities/Translation';
   import type { FontSizeOption } from './FontSizeSelector.svelte';
+  import type { BibleHighlight } from '../domain/entities/BibleHighlight';
+  import type { PersonalNote } from '../../notes/domain/Note';
   import ColumnVersionDropdown from './ColumnVersionDropdown.svelte';
 
   interface Props {
     passages: PassageVersionResult[];
     fontSize?: FontSizeOption;
+    highlights?: BibleHighlight[];
+    notes?: PersonalNote[];
     onChangeColumnTranslation: (index: number, newTranslationId: TranslationId) => void;
     onRemoveColumn: (index: number) => void;
     onSelectPassage: (ref: string) => void;
+    onOpenNoteModal?: (context: {
+      reference: string;
+      book: string;
+      chapter: number;
+      verseNumber?: number;
+      translationId?: string;
+      selectedText: string;
+      existingNoteId?: string;
+      existingContent?: string;
+    }) => void;
   }
 
   let {
     passages = [],
     fontSize = 'medium',
+    highlights = [],
+    notes = [],
     onChangeColumnTranslation,
     onRemoveColumn,
     onSelectPassage,
+    onOpenNoteModal,
   }: Props = $props();
 
   const fontSizeClasses: Record<FontSizeOption, string> = {
@@ -28,6 +45,100 @@
     large: 'text-size-large',
     'x-large': 'text-size-x-large',
   };
+
+  function escapeHtml(str: string): string {
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  function getMatchingHighlights(book: string, chapter: number, verseNum: number, translationId: string): BibleHighlight[] {
+    const normBook = book.toLowerCase().trim();
+    return highlights.filter((h) => {
+      const matchBook = h.book.toLowerCase().trim() === normBook;
+      const matchChapter = h.chapter === chapter;
+      const matchVerse = !h.verseNumber || h.verseNumber === verseNum;
+      const matchTranslation = !h.translationId || h.translationId === '*' || h.translationId === translationId;
+      return matchBook && matchChapter && matchVerse && matchTranslation;
+    });
+  }
+
+  function getVerseNote(book: string, chapter: number, verseNum: number): PersonalNote | undefined {
+    const normBook = book.toLowerCase().trim();
+    return notes.find((n) => {
+      const matchBook = n.book.toLowerCase().trim() === normBook;
+      const matchChapter = n.chapter === chapter;
+      const matchVerse = n.verseNumber === verseNum;
+      return matchBook && matchChapter && matchVerse;
+    });
+  }
+
+  function renderVerseText(
+    verseText: string,
+    verseHighlights: BibleHighlight[]
+  ): string {
+    if (!verseHighlights || verseHighlights.length === 0) {
+      return escapeHtml(verseText);
+    }
+
+    type MatchSpan = { start: number; end: number; color: string; id: string; text: string };
+    const matches: MatchSpan[] = [];
+
+    for (const h of verseHighlights) {
+      if (!h.text) continue;
+      const target = h.text.trim();
+      if (!target) continue;
+
+      let searchIndex = 0;
+      while (searchIndex < verseText.length) {
+        const idx = verseText.toLowerCase().indexOf(target.toLowerCase(), searchIndex);
+        if (idx === -1) break;
+        matches.push({
+          start: idx,
+          end: idx + target.length,
+          color: h.color,
+          id: h.id,
+          text: verseText.slice(idx, idx + target.length),
+        });
+        searchIndex = idx + target.length;
+      }
+    }
+
+    if (matches.length === 0) {
+      return escapeHtml(verseText);
+    }
+
+    // Sort matches by start position
+    matches.sort((a, b) => a.start - b.start);
+
+    // Merge overlapping spans
+    const nonOverlapping: MatchSpan[] = [];
+    let lastEnd = 0;
+    for (const m of matches) {
+      if (m.start >= lastEnd) {
+        nonOverlapping.push(m);
+        lastEnd = m.end;
+      }
+    }
+
+    let html = '';
+    let cursor = 0;
+    for (const m of nonOverlapping) {
+      if (m.start > cursor) {
+        html += escapeHtml(verseText.slice(cursor, m.start));
+      }
+      html += `<mark class="bible-highlight bible-highlight-${m.color}" data-highlight-id="${escapeHtml(m.id)}">${escapeHtml(m.text)}</mark>`;
+      cursor = m.end;
+    }
+    if (cursor < verseText.length) {
+      html += escapeHtml(verseText.slice(cursor));
+    }
+
+    return html;
+  }
 
   // Helper to collect all footnotes from all sections of a translation
   function getColumnFootnotes(passage: PassageVersionResult): SectionFootnote[] {
@@ -99,7 +210,7 @@
             <button
               type="button"
               class="column-close-btn"
-              title="Cerrar esta columna paralela"
+              data-tooltip="Cerrar esta columna paralela"
               aria-label="Cerrar columna {passage.translationId}"
               onclick={() => onRemoveColumn(index)}
             >
@@ -115,7 +226,7 @@
         />
       </div>
 
-      <!-- Vertically Stacked Passage Sections (BibleGateway Multi-Passage style) -->
+      <!-- Vertically Stacked Passage Sections -->
       <div class="verses-content">
         {#each sections as section, secIndex}
           <div class="passage-section-card {secIndex > 0 ? 'mt-6 pt-5 border-t-2 border-dashed border-[#1a1a18]/20' : ''}">
@@ -136,15 +247,26 @@
             <div class="section-verses-list">
               {#each section.verses as verse}
                 {@const verseDomId = `verse-${passage.translationId}-${section.book}-${section.chapter}-${verse.number}`}
+                {@const verseHighlights = getMatchingHighlights(section.book, section.chapter, verse.number, passage.translationId)}
+                {@const verseNote = getVerseNote(section.book, section.chapter, verse.number)}
+
                 {#if verse.headings && verse.headings.length > 0 && verse.headings[0] !== section.title}
                   {#each verse.headings as heading}
                     <h3 class="verse-section-heading">{heading}</h3>
                   {/each}
                 {/if}
 
-                <p id={verseDomId} class="passage-text">
+                <p
+                  id={verseDomId}
+                  class="passage-text"
+                  data-book={section.book}
+                  data-chapter={section.chapter}
+                  data-verse={verse.number}
+                  data-translation={passage.translationId}
+                >
                   <span class="verse-num">{verse.number}</span>
-                  {verse.text}
+                  
+                  <span class="verse-text-content">{@html renderVerseText(verse.text, verseHighlights)}</span>
 
                   <!-- Footnote Link Superscript Anchor with smooth scroll -->
                   {#if verse.footnotes && verse.footnotes.length > 0}
@@ -152,24 +274,46 @@
                       <a
                         href="#{fn.anchorId}"
                         class="verse-footnote-link"
-                        title="Ver nota al pie ({fn.caller}) para {section.book} {section.chapter}:{verse.number}"
+                        data-tooltip="Ver nota al pie ({fn.caller}) para {section.book} {section.chapter}:{verse.number}"
                         onclick={(e) => handleScrollToFootnote(e, fn.anchorId)}
                       >
                         [{fn.caller}]
                       </a>
                     {/each}
                   {/if}
+
+                  <!-- Personal Note Badge/Button on Verse if note exists -->
+                  {#if verseNote}
+                    <button
+                      type="button"
+                      class="verse-note-indicator-btn"
+                      data-tooltip="Ver nota personal ({verseNote.content.slice(0, 35)}...)"
+                      aria-label="Ver nota personal"
+                      onclick={() => onOpenNoteModal?.({
+                        reference: `${section.book} ${section.chapter}:${verse.number}`,
+                        book: section.book,
+                        chapter: section.chapter,
+                        verseNumber: verse.number,
+                        translationId: passage.translationId,
+                        selectedText: verse.text,
+                        existingNoteId: verseNote.id,
+                        existingContent: verseNote.content,
+                      })}
+                    >
+                      <FileText size={12} />
+                    </button>
+                  {/if}
                 </p>
               {/each}
             </div>
 
-            <!-- "Read Full Chapter" link (BibleGateway style for partial search) -->
+            <!-- "Read Full Chapter" link -->
             {#if section.isPartial}
               <div class="read-full-chapter-box">
                 <button
                   type="button"
                   class="read-full-chapter-link"
-                  title="Leer el capítulo completo ({section.fullChapterRef})"
+                  data-tooltip="Leer el capítulo completo ({section.fullChapterRef})"
                   onclick={() => onSelectPassage(section.fullChapterRef)}
                 >
                   <span>Leer el capítulo completo</span>
@@ -195,7 +339,7 @@
                 <button
                   type="button"
                   class="fn-backlink-btn"
-                  title="Volver al versículo {fn.verseNum}"
+                  data-tooltip="Volver al versículo {fn.verseNum}"
                   onclick={(e) => handleScrollToVerse(e, verseTargetId)}
                 >
                   <ArrowUp size={11} />
@@ -207,7 +351,7 @@
         </section>
       {/if}
 
-      <!-- Column Legal & Copyright Footer (BibleGateway style) -->
+      <!-- Column Legal & Copyright Footer -->
       <footer class="column-copyright-footer">
         <div class="copyright-version-name">{passage.translationName} ({passage.shortName || passage.translationId})</div>
         <p class="copyright-legal-text">{passage.copyright}</p>
@@ -215,3 +359,29 @@
     </article>
   {/each}
 </div>
+
+<style>
+  .verse-note-indicator-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+    vertical-align: middle;
+    background-color: var(--accent-attention);
+    color: var(--text-main);
+    border: 1.5px solid var(--border-color);
+    border-radius: 0;
+    box-shadow: 1.5px 1.5px 0 var(--border-color);
+    cursor: pointer;
+    transition: transform 0.08s ease, box-shadow 0.08s ease;
+  }
+
+  .verse-note-indicator-btn:hover {
+    transform: scale(1.15);
+    background-color: var(--accent-desire);
+    color: #fff;
+    box-shadow: 2px 2px 0 var(--border-color);
+  }
+</style>

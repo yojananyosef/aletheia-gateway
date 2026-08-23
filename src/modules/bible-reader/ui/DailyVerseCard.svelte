@@ -99,7 +99,7 @@
       <button
         type="button"
         class="daily-verse-action-btn"
-        title="Leer el capítulo completo en el lector bíblico ({chapterRef})"
+        data-tooltip="Leer el capítulo completo en el lector bíblico ({chapterRef})"
         onclick={() => onSelectPassage(chapterRef)}
       >
         <BookOpen size={16} />

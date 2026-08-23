@@ -13,20 +13,35 @@ export class MockBibleRepository implements IBibleRepository {
     const ref = new PassageReference(referenceStr);
     const item = this.findPassageData(ref);
 
-    const translationInfo = AVAILABLE_TRANSLATIONS[translationId] || AVAILABLE_TRANSLATIONS.RVC;
-    const text = item.translations[translationId] || item.translations.RVC || `Lectura de ${ref.fullFormatted} en ${translationInfo.name}.`;
+    const translationInfo = AVAILABLE_TRANSLATIONS[translationId] || AVAILABLE_TRANSLATIONS.RV1909;
+    const text = item.translations[translationId] || item.translations.RV1909 || `Lectura de ${ref.fullFormatted} en ${translationInfo.name}.`;
+
+    const verseObj = {
+      number: ref.startVerse || 1,
+      text: text,
+      footnotes: [],
+    };
 
     return {
       translationId,
       translationName: translationInfo.name,
+      shortName: translationInfo.shortName,
+      copyright: translationInfo.copyright || 'Dominio Público',
       reference: ref.fullFormatted,
       book: ref.book,
       chapter: ref.chapter,
-      title: item.title,
-      verses: [
+      title: item.title || '',
+      verses: [verseObj],
+      sections: [
         {
-          number: ref.startVerse || 1,
-          text: text,
+          reference: ref.fullFormatted,
+          book: ref.book,
+          chapter: ref.chapter,
+          fullChapterRef: `${ref.book} ${ref.chapter}`,
+          isPartial: false,
+          title: item.title,
+          verses: [verseObj],
+          footnotes: [],
         },
       ],
     };

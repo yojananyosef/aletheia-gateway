@@ -3,14 +3,23 @@
   import type { Snippet } from 'svelte';
   import Sidebar from './Sidebar.svelte';
   import Topbar from './Topbar.svelte';
+  import NeoTooltip from './NeoTooltip.svelte';
 
   interface Props {
     activeView: 'home' | 'reader';
+    bookmarkCount?: number;
     onNavigate: (view: 'home' | 'reader') => void;
+    onOpenBookmarks?: () => void;
     children?: Snippet;
   }
 
-  let { activeView = 'home', onNavigate, children }: Props = $props();
+  let {
+    activeView = 'home',
+    bookmarkCount = 0,
+    onNavigate,
+    onOpenBookmarks,
+    children,
+  }: Props = $props();
 
   let isCollapsed = $state(false);
   let mobileOpen = $state(false);
@@ -54,6 +63,9 @@
 </script>
 
 <div class="app-layout-shell">
+  <!-- Global Neobrutalist Tooltip Component -->
+  <NeoTooltip />
+
   <!-- Mobile backdrop overlay -->
   {#if mobileOpen}
     <div
@@ -72,8 +84,10 @@
     {onNavigate}
     isOpen={mobileOpen}
     {isCollapsed}
+    {bookmarkCount}
     onClose={handleCloseMobile}
     onToggleCollapse={handleToggleSidebar}
+    {onOpenBookmarks}
   />
 
   <!-- Main Inset Container with Topbar and Scrollable Main View -->

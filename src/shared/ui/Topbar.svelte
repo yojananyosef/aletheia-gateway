@@ -25,7 +25,8 @@
     type="button"
     class="topbar-btn sidebar-trigger-btn"
     aria-label={isCollapsed ? 'Expandir barra lateral' : 'Contraer barra lateral'}
-    title={isCollapsed ? 'Expandir barra lateral' : 'Contraer barra lateral'}
+    data-tooltip={isCollapsed ? 'Expandir barra lateral' : 'Contraer barra lateral'}
+    data-tooltip-pos="bottom"
     onclick={onToggleSidebar}
   >
     <span class="trigger-icon-desktop">
@@ -51,7 +52,8 @@
     <button
       type="button"
       class="topbar-btn {isCalmMode ? 'calm-active-btn' : ''}"
-      title={isCalmMode ? 'Modo Calma & Dislexia: Activado (Haz clic para desactivar)' : 'Activar Modo Calma & Dislexia (Tipografía suave y paleta anti-estrés)'}
+      data-tooltip={isCalmMode ? 'Modo Calma & Dislexia: Activado' : 'Activar Modo Calma & Dislexia (Tipografía y paleta anti-estrés)'}
+      data-tooltip-pos="bottom"
       aria-label="Alternar Modo Calma y Dislexia"
       onclick={onToggleCalmMode}
     >

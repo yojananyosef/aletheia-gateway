@@ -1623,6 +1623,12 @@ mark.bible-highlight {
   color: #1a1a18;
   font-weight: 600;
   border-bottom: 2px solid rgba(26, 26, 24, 0.4);
+  cursor: pointer;
+  transition: opacity 0.08s ease;
+}
+
+mark.bible-highlight:hover {
+  filter: brightness(0.95);
 }
 
 mark.bible-highlight-yellow {

@@ -2,6 +2,7 @@
   import {
     Home,
     BookOpen,
+    Bookmark,
     ListChecks,
     Heart,
     Headphones,
@@ -14,8 +15,10 @@
     onNavigate: (view: 'home' | 'reader') => void;
     isOpen: boolean;
     isCollapsed: boolean;
+    bookmarkCount?: number;
     onClose: () => void;
     onToggleCollapse?: () => void;
+    onOpenBookmarks?: () => void;
   }
 
   let {
@@ -23,7 +26,9 @@
     onNavigate,
     isOpen = false,
     isCollapsed = false,
+    bookmarkCount = 0,
     onClose,
+    onOpenBookmarks,
   }: Props = $props();
 
   const mainItems = [
@@ -42,6 +47,11 @@
     onNavigate(view);
     onClose();
   }
+
+  function handleOpenSaved() {
+    onOpenBookmarks?.();
+    onClose();
+  }
 </script>
 
 <aside class="neo-sidebar {isCollapsed && !isOpen ? 'is-collapsed' : ''} {isOpen ? 'is-open' : ''}">
@@ -49,7 +59,8 @@
     <button
       type="button"
       class="neo-brand-btn {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
-      title="AlethiaGateway - Inicio"
+      data-tooltip="AlethiaGateway - Inicio"
+      data-tooltip-pos={isCollapsed && !isOpen ? 'bottom' : 'top'}
       onclick={() => handleSelect('home')}
     >
       <span class="neo-brand-badge">A</span>
@@ -72,7 +83,7 @@
         <button
           type="button"
           class="neo-nav-button {activeView === item.view ? 'is-active' : ''} {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
-          title={item.title}
+          data-tooltip={item.title}
           onclick={() => handleSelect(item.view)}
         >
           <Icon size={20} class="shrink-0" />
@@ -87,12 +98,29 @@
       {#if !isCollapsed || isOpen}
         <span class="neo-sidebar-label">Tu biblioteca</span>
       {/if}
+
+      <!-- Versículos Guardados (Functional) -->
+      <button
+        type="button"
+        class="neo-nav-button {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
+        data-tooltip="Versículos guardados ({bookmarkCount})"
+        onclick={handleOpenSaved}
+      >
+        <Bookmark size={20} class="shrink-0" />
+        {#if !isCollapsed || isOpen}
+          <span class="truncate flex-1 text-left">Versículos guardados</span>
+          {#if bookmarkCount > 0}
+            <span class="sidebar-count-badge">{bookmarkCount}</span>
+          {/if}
+        {/if}
+      </button>
+
       {#each exploreItems as item}
         {@const Icon = item.icon}
         <button
           type="button"
           class="neo-nav-button is-disabled {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
-          title="{item.title} (Próximamente)"
+          data-tooltip="{item.title} (Próximamente)"
           disabled
         >
           <Icon size={20} class="shrink-0" />
@@ -109,7 +137,7 @@
     <button
       type="button"
       class="neo-nav-button is-disabled {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
-      title="Configuración (Próximamente)"
+      data-tooltip="Configuración (Próximamente)"
       disabled
     >
       <Settings2 size={20} class="shrink-0" />
@@ -120,3 +148,17 @@
     </button>
   </div>
 </aside>
+
+<style>
+  .sidebar-count-badge {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-weight: 800;
+    color: var(--text-main);
+    background-color: var(--accent-attention);
+    border: 1px solid var(--border-color);
+    padding: 1px 6px;
+    box-shadow: 1px 1px 0 var(--border-color);
+    flex-shrink: 0;
+  }
+</style>

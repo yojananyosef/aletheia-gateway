@@ -40,9 +40,9 @@ export class LocalStorageBookmarkRepository implements IBookmarkRepository {
     return newBookmark;
   }
 
-  public async remove(id: string): Promise<void> {
+  public async remove(idOrRef: string): Promise<void> {
     const all = await this.getAll();
-    const filtered = all.filter((b) => b.id !== id);
+    const filtered = all.filter((b) => b.id !== idOrRef && b.reference !== idOrRef);
     if (typeof window !== 'undefined') {
       localStorage.setItem(this.storageKey, JSON.stringify(filtered));
     }
