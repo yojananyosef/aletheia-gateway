@@ -9,18 +9,21 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo, un apóstol de Cristo Jesús por voluntad de Dios, según la promesa de la vida en Cristo Jesús,"
-        },
-        {
-          "number": 2,
-          "text": "a Timoteo, amado hijo. Gracia, misericordia, paz de Dios Padre y de Cristo Jesús nuestro Señor.",
+          "text": "Pablo, un apóstol de Cristo Jesús por voluntad de Dios, según la promesa de la vida en Cristo Jesús,",
           "headings": [
-            "Oposición a las falsas doctrinas"
+            "Saludo"
           ]
         },
         {
+          "number": 2,
+          "text": "a Timoteo, amado hijo. Gracia, misericordia, paz de Dios Padre y de Cristo Jesús nuestro Señor."
+        },
+        {
           "number": 3,
-          "text": "Doy gracias a Dios a Quien sirvo con limpia conciencia, como lo hicieron mis antepasados, cuando sin cesar me recuerdo de ti en mis conversaciones con Dios de noche y de día,"
+          "text": "Doy gracias a Dios a Quien sirvo con limpia conciencia, como lo hicieron mis antepasados, cuando sin cesar me recuerdo de ti en mis conversaciones con Dios de noche y de día,",
+          "headings": [
+            "Oposición a las falsas doctrinas"
+          ]
         },
         {
           "number": 4,
@@ -60,14 +63,14 @@
         },
         {
           "number": 13,
-          "text": "Retén copia calcada de las palabras sanas que escuchaste de mí, la fe y el amor en Cristo Jesús.",
-          "headings": [
-            "Un depósito importante"
-          ]
+          "text": "Retén copia calcada de las palabras sanas que escuchaste de mí, la fe y el amor en Cristo Jesús."
         },
         {
           "number": 14,
-          "text": "Guarda el buen depósito por medio del Espíritu Santo que vive en nosotros."
+          "text": "Guarda el buen depósito por medio del Espíritu Santo que vive en nosotros.",
+          "headings": [
+            "Un depósito importante"
+          ]
         },
         {
           "number": 15,
@@ -92,7 +95,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Tú, pues, hijo mío, sé fortalecido con la gracia de Cristo Jesús."
+          "text": "Tú, pues, hijo mío, sé fortalecido con la gracia de Cristo Jesús.",
+          "headings": [
+            "El buen soldado de Jesucristo"
+          ]
         },
         {
           "number": 2,
@@ -140,14 +146,14 @@
         },
         {
           "number": 13,
-          "text": "Si somos infieles, Él permanece fiel, porque no puede negarse a Él mismo.",
-          "headings": [
-            "El obrero aprobado"
-          ]
+          "text": "Si somos infieles, Él permanece fiel, porque no puede negarse a Él mismo."
         },
         {
           "number": 14,
-          "text": "Recuérdales estas cosas. Encárgales solemnemente delante de Dios que no contiendan con respecto a palabras, lo cual para nada es provechoso. Sirve para destrucción de los oyentes."
+          "text": "Recuérdales estas cosas. Encárgales solemnemente delante de Dios que no contiendan con respecto a palabras, lo cual para nada es provechoso. Sirve para destrucción de los oyentes.",
+          "headings": [
+            "El obrero aprobado"
+          ]
         },
         {
           "number": 15,
@@ -204,7 +210,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Sepan que en los últimos días habrá tiempos difíciles,"
+          "text": "Sepan que en los últimos días habrá tiempos difíciles,",
+          "headings": [
+            "Los últimos tiempos"
+          ]
         },
         {
           "number": 2,
@@ -236,14 +245,14 @@
         },
         {
           "number": 9,
-          "text": "No avanzarán mucho, porque su insensatez será evidente a todos, como también fue la de aquéllos.",
-          "headings": [
-            "Encargo de Pablo a Timoteo"
-          ]
+          "text": "No avanzarán mucho, porque su insensatez será evidente a todos, como también fue la de aquéllos."
         },
         {
           "number": 10,
-          "text": "Pero tú seguiste mi enseñanza, conducta, propósito, fe, longanimidad, amor, perseverancia,"
+          "text": "Pero tú seguiste mi enseñanza, conducta, propósito, fe, longanimidad, amor, perseverancia,",
+          "headings": [
+            "Encargo de Pablo a Timoteo"
+          ]
         },
         {
           "number": 11,
@@ -280,7 +289,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Declaro solemnemente delante de Dios y de Cristo Jesús, Quien está destinado a juzgar a los vivos y a los muertos en su aparición y en su reino:"
+          "text": "Declaro solemnemente delante de Dios y de Cristo Jesús, Quien está destinado a juzgar a los vivos y a los muertos en su aparición y en su reino:",
+          "headings": [
+            "La sagrada encomienda"
+          ]
         },
         {
           "number": 2,
@@ -308,14 +320,14 @@
         },
         {
           "number": 8,
-          "text": "Por lo demás, la corona de justicia me está reservada, la cual el Señor, Juez justo, me dará en aquel día, y no solo a mí, sino también a todos los que tienen en alta estima su aparecimiento.",
-          "headings": [
-            "Recomendaciones personales"
-          ]
+          "text": "Por lo demás, la corona de justicia me está reservada, la cual el Señor, Juez justo, me dará en aquel día, y no solo a mí, sino también a todos los que tienen en alta estima su aparecimiento."
         },
         {
           "number": 9,
-          "text": "Haz todo esfuerzo para venir pronto a mí,"
+          "text": "Haz todo esfuerzo para venir pronto a mí,",
+          "headings": [
+            "Recomendaciones personales"
+          ]
         },
         {
           "number": 10,
@@ -351,14 +363,14 @@
         },
         {
           "number": 18,
-          "text": "El Señor me librará de toda obra mala y me preservará para su reino celestial. A Él sea la gloria por los siglos de los siglos. Amén.",
-          "headings": [
-            "Despedida"
-          ]
+          "text": "El Señor me librará de toda obra mala y me preservará para su reino celestial. A Él sea la gloria por los siglos de los siglos. Amén."
         },
         {
           "number": 19,
-          "text": "Saluda a Prisca y a Aquila, y a la familia de Onesíforo."
+          "text": "Saluda a Prisca y a Aquila, y a la familia de Onesíforo.",
+          "headings": [
+            "Despedida"
+          ]
         },
         {
           "number": 20,

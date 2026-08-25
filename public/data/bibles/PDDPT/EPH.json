@@ -9,43 +9,46 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo, un apóstol de Cristo Jesús por voluntad de Dios, a los santos y fieles en Cristo Jesús que están en Éfeso."
+          "text": "Pablo, un apóstol de Cristo Jesús por voluntad de Dios, a los santos y fieles en Cristo Jesús que están en Éfeso.",
+          "headings": [
+            "Saludo"
+          ]
         },
         {
           "number": 2,
-          "text": "Gracia y paz a ustedes de nuestro Padre y del Señor Jesucristo.",
-          "headings": [
-            "El múltiple seguro de vida eterna"
-          ]
+          "text": "Gracia y paz a ustedes de nuestro Padre y del Señor Jesucristo."
         },
         {
           "number": 3,
           "text": "Bendito el Dios y Padre de nuestro Señor Jesucristo, Quien nos bendijo con toda bendición espiritual en los planes celestiales con Cristo,",
           "headings": [
-            "Primera garantía: nos escogió"
+            "El múltiple seguro de vida eterna"
           ]
         },
         {
           "number": 4,
           "text": "según se complació en escogernos en Él antes de la fundación del mundo, para que fuéramos santos y sin mancha en amor delante de Él,",
           "headings": [
-            "Segunda garantía: nos predestinó"
+            "Primera garantía: nos escogió"
           ]
         },
         {
           "number": 5,
-          "text": "al predestinarnos para Él mismo en adopción por medio de Jesucristo, según la complacencia de su voluntad,"
-        },
-        {
-          "number": 6,
-          "text": "para la alabanza de la gloria de su gracia que nos favoreció altamente en el Amado.",
+          "text": "al predestinarnos para Él mismo en adopción por medio de Jesucristo, según la complacencia de su voluntad,",
           "headings": [
-            "Tercera garantía: nos redimió"
+            "Segunda garantía: nos predestinó"
           ]
         },
         {
+          "number": 6,
+          "text": "para la alabanza de la gloria de su gracia que nos favoreció altamente en el Amado."
+        },
+        {
           "number": 7,
-          "text": "En Él tenemos la redención por medio de su sangre, la cancelación de las transgresiones según la riqueza de su gracia"
+          "text": "En Él tenemos la redención por medio de su sangre, la cancelación de las transgresiones según la riqueza de su gracia",
+          "headings": [
+            "Tercera garantía: nos redimió"
+          ]
         },
         {
           "number": 8,
@@ -65,28 +68,28 @@
         },
         {
           "number": 12,
-          "text": "a fin de que nosotros, los que primero esperamos en Cristo, seamos para alabanza de su gloria.",
-          "headings": [
-            "Cuarta garantía: nos selló"
-          ]
+          "text": "a fin de que nosotros, los que primero esperamos en Cristo, seamos para alabanza de su gloria."
         },
         {
           "number": 13,
           "text": "En Él también ustedes, después de escuchar la Palabra de la verdad, las Buenas Noticias de su salvación, y creer, fueron sellados con el Espíritu Santo de la promesa,",
           "headings": [
-            "Quinta garantía: nos declaró herederos"
+            "Cuarta garantía: nos selló"
           ]
         },
         {
           "number": 14,
           "text": "que es arras de nuestra herencia hasta la redención de la posesión para alabanza de su gloria.",
           "headings": [
-            "Oración de Pablo"
+            "Quinta garantía: nos declaró herederos"
           ]
         },
         {
           "number": 15,
-          "text": "Por esto yo también, después de escuchar de su fe en el Señor Jesús y el amor para todos los santos,"
+          "text": "Por esto yo también, después de escuchar de su fe en el Señor Jesús y el amor para todos los santos,",
+          "headings": [
+            "Oración de Pablo"
+          ]
         },
         {
           "number": 16,
@@ -127,7 +130,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ustedes estaban muertos en sus transgresiones y pecados,"
+          "text": "Ustedes estaban muertos en sus transgresiones y pecados,",
+          "headings": [
+            "Salvación gratuita"
+          ]
         },
         {
           "number": 2,
@@ -163,14 +169,14 @@
         },
         {
           "number": 10,
-          "text": "Porque somos hechura de Él, creados en Cristo Jesús para buenas obras, las cuales Dios preparó con anticipación para que vivamos en ellas.",
-          "headings": [
-            "Cristo, la paz de Dios"
-          ]
+          "text": "Porque somos hechura de Él, creados en Cristo Jesús para buenas obras, las cuales Dios preparó con anticipación para que vivamos en ellas."
         },
         {
           "number": 11,
-          "text": "Por tanto recuerden que en otro tiempo, ustedes, los gentiles en el cuerpo, los que son llamados la incircuncisión por los circuncidados por manos en el cuerpo,"
+          "text": "Por tanto recuerden que en otro tiempo, ustedes, los gentiles en el cuerpo, los que son llamados la incircuncisión por los circuncidados por manos en el cuerpo,",
+          "headings": [
+            "Cristo, la paz de Dios"
+          ]
         },
         {
           "number": 12,
@@ -223,7 +229,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por esta razón yo, Pablo, soy prisionero de Cristo por ustedes los gentiles,"
+          "text": "Por esta razón yo, Pablo, soy prisionero de Cristo por ustedes los gentiles,",
+          "headings": [
+            "El enviado a los gentiles"
+          ]
         },
         {
           "number": 2,
@@ -278,14 +287,14 @@
         },
         {
           "number": 13,
-          "text": "Por tanto les pido que no desmayen a causa de mis aflicciones por ustedes, las cuales son el resplandor de ustedes.",
-          "headings": [
-            "Dimensiones del amor de Cristo"
-          ]
+          "text": "Por tanto les pido que no desmayen a causa de mis aflicciones por ustedes, las cuales son el resplandor de ustedes."
         },
         {
           "number": 14,
-          "text": "Por esta causa doblo mis rodillas ante el Padre,"
+          "text": "Por esta causa doblo mis rodillas ante el Padre,",
+          "headings": [
+            "Dimensiones del amor de Cristo"
+          ]
         },
         {
           "number": 15,
@@ -322,7 +331,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por tanto yo, un prisionero por causa del Señor, los exhorto a vivir de una manera digna del llamamiento que recibieron"
+          "text": "Por tanto yo, un prisionero por causa del Señor, los exhorto a vivir de una manera digna del llamamiento que recibieron",
+          "headings": [
+            "Un solo cuerpo"
+          ]
         },
         {
           "number": 2,
@@ -382,14 +394,14 @@
         },
         {
           "number": 16,
-          "text": "de Quien todo el cuerpo, ajustado y entrelazado por la cohesión que aportan todas las coyunturas, se desarrolla para el crecimiento del cuerpo según la actividad propia de cada miembro para edificarse en amor.",
-          "headings": [
-            "Vida nueva"
-          ]
+          "text": "de Quien todo el cuerpo, ajustado y entrelazado por la cohesión que aportan todas las coyunturas, se desarrolla para el crecimiento del cuerpo según la actividad propia de cada miembro para edificarse en amor."
         },
         {
           "number": 17,
-          "text": "Digo esto y afirmo en el Señor: que ustedes ya no vivan como viven los gentiles, en la vanidad de su mente,"
+          "text": "Digo esto y afirmo en el Señor: que ustedes ya no vivan como viven los gentiles, en la vanidad de su mente,",
+          "headings": [
+            "Vida nueva"
+          ]
         },
         {
           "number": 18,
@@ -458,7 +470,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por tanto sean imitadores de Dios como hijos amados."
+          "text": "Por tanto sean imitadores de Dios como hijos amados.",
+          "headings": [
+            "Vida maravillosa"
+          ]
         },
         {
           "number": 2,
@@ -534,14 +549,14 @@
         },
         {
           "number": 20,
-          "text": "y den gracias siempre por todas las cosas al Dios y Padre en el Nombre de nuestro Señor Jesucristo.",
-          "headings": [
-            "Sometimiento matrimonial"
-          ]
+          "text": "y den gracias siempre por todas las cosas al Dios y Padre en el Nombre de nuestro Señor Jesucristo."
         },
         {
           "number": 21,
-          "text": "Sométanse unos a otros por temor a Cristo,"
+          "text": "Sométanse unos a otros por temor a Cristo,",
+          "headings": [
+            "Sometimiento matrimonial"
+          ]
         },
         {
           "number": 22,
@@ -598,7 +613,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los hijos obedezcan a sus progenitores, porque esto es justo."
+          "text": "Los hijos obedezcan a sus progenitores, porque esto es justo.",
+          "headings": [
+            "Sometimiento entre progenitores e hijos"
+          ]
         },
         {
           "number": 2,
@@ -610,14 +628,14 @@
         },
         {
           "number": 4,
-          "text": "Los padres no provoquen a ira a sus hijos, sino críenlos con disciplina y amonestación del Señor.",
-          "headings": [
-            "Sometimiento entre amos y esclavos"
-          ]
+          "text": "Los padres no provoquen a ira a sus hijos, sino críenlos con disciplina y amonestación del Señor."
         },
         {
           "number": 5,
-          "text": "Los esclavos obedezcan a los señores humanos con temor y temblor, con sinceridad de su corazón, como a Cristo."
+          "text": "Los esclavos obedezcan a los señores humanos con temor y temblor, con sinceridad de su corazón, como a Cristo.",
+          "headings": [
+            "Sometimiento entre amos y esclavos"
+          ]
         },
         {
           "number": 6,
@@ -633,14 +651,14 @@
         },
         {
           "number": 9,
-          "text": "Los amos hagan las mismas cosas con ellos y abandonen la amenaza, pues saben que el Señor, tanto de ellos como de ustedes, está en el cielo. Para Él no hay parcialidad.",
-          "headings": [
-            "Necesidad de tomar la armadura"
-          ]
+          "text": "Los amos hagan las mismas cosas con ellos y abandonen la amenaza, pues saben que el Señor, tanto de ellos como de ustedes, está en el cielo. Para Él no hay parcialidad."
         },
         {
           "number": 10,
-          "text": "Finalmente, mis hermanos, sean fuertes en el Señor y su fuerza poderosa."
+          "text": "Finalmente, mis hermanos, sean fuertes en el Señor y su fuerza poderosa.",
+          "headings": [
+            "Necesidad de tomar la armadura"
+          ]
         },
         {
           "number": 11,
@@ -680,14 +698,14 @@
         },
         {
           "number": 20,
-          "text": "del cual soy embajador con cadena, para que hable de él con osadía, como debo hablar.",
-          "headings": [
-            "Despedida"
-          ]
+          "text": "del cual soy embajador con cadena, para que hable de él con osadía, como debo hablar."
         },
         {
           "number": 21,
-          "text": "Para que ustedes también sepan mi situación y lo que hago, todo les informará Tíquico, el hermano amado, y fiel ministro en el Señor,"
+          "text": "Para que ustedes también sepan mi situación y lo que hago, todo les informará Tíquico, el hermano amado, y fiel ministro en el Señor,",
+          "headings": [
+            "Despedida"
+          ]
         },
         {
           "number": 22,

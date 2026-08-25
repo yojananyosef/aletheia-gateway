@@ -13,14 +13,14 @@
         },
         {
           "number": 2,
-          "text": "A los santos y fieles hermanos en Cristo que están en la ciudad de Colosas: Que Dios nuestro Padre les conceda su amor y su paz.",
-          "headings": [
-            "Acción de gracias e intercesión"
-          ]
+          "text": "A los santos y fieles hermanos en Cristo que están en la ciudad de Colosas: Que Dios nuestro Padre les conceda su amor y su paz."
         },
         {
           "number": 3,
-          "text": "Cada vez que oramos por ustedes damos gracias a Dios, el Padre de nuestro Señor Jesucristo,"
+          "text": "Cada vez que oramos por ustedes damos gracias a Dios, el Padre de nuestro Señor Jesucristo,",
+          "headings": [
+            "Acción de gracias e intercesión"
+          ]
         },
         {
           "number": 4,
@@ -64,14 +64,14 @@
         },
         {
           "number": 14,
-          "text": "quien compró nuestra libertad y perdonó nuestros pecados.",
-          "headings": [
-            "La supremacía de Cristo"
-          ]
+          "text": "quien compró nuestra libertad y perdonó nuestros pecados."
         },
         {
           "number": 15,
-          "text": "Cristo es la imagen misma del Dios invisible, y existe desde antes que Dios comenzara la creación."
+          "text": "Cristo es la imagen misma del Dios invisible, y existe desde antes que Dios comenzara la creación.",
+          "headings": [
+            "La supremacía de Cristo"
+          ]
         },
         {
           "number": 16,
@@ -103,14 +103,14 @@
         },
         {
           "number": 23,
-          "text": "Pero para esto tienen que creer firmemente y no abandonar la esperanza que tienen gracias a las buenas noticias. Estas son las buenas noticias que un día escucharon y que ahora mismo están siendo proclamadas en el mundo entero. Y yo, Pablo, trabajo anunciándolas.",
-          "headings": [
-            "Trabajo de Pablo por la iglesia"
-          ]
+          "text": "Pero para esto tienen que creer firmemente y no abandonar la esperanza que tienen gracias a las buenas noticias. Estas son las buenas noticias que un día escucharon y que ahora mismo están siendo proclamadas en el mundo entero. Y yo, Pablo, trabajo anunciándolas."
         },
         {
           "number": 24,
-          "text": "Es cierto que estoy sufriendo por ustedes, pero me alegro. Así ayudo a completar lo que falta de los sufrimientos de Cristo por ese cuerpo suyo que es la iglesia."
+          "text": "Es cierto que estoy sufriendo por ustedes, pero me alegro. Así ayudo a completar lo que falta de los sufrimientos de Cristo por ese cuerpo suyo que es la iglesia.",
+          "headings": [
+            "Trabajo de Pablo por la iglesia"
+          ]
         },
         {
           "number": 25,
@@ -155,14 +155,14 @@
         },
         {
           "number": 5,
-          "text": "y porque, a pesar de que me encuentro lejos de ustedes, mi corazón está a su lado, feliz de ver que todo marcha bien entre ustedes y que poseen una fe robusta en Cristo.",
-          "headings": [
-            "Libertad en Cristo"
-          ]
+          "text": "y porque, a pesar de que me encuentro lejos de ustedes, mi corazón está a su lado, feliz de ver que todo marcha bien entre ustedes y que poseen una fe robusta en Cristo."
         },
         {
           "number": 6,
-          "text": "Ahora bien, de la misma manera que recibieron a Cristo Jesús como Señor, deben comportarse como le agrada a él;"
+          "text": "Ahora bien, de la misma manera que recibieron a Cristo Jesús como Señor, deben comportarse como le agrada a él;",
+          "headings": [
+            "Libertad en Cristo"
+          ]
         },
         {
           "number": 7,
@@ -239,7 +239,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Puesto que ustedes resucitaron con Cristo, fijen la mirada en las cosas de arriba, donde está Cristo sentado junto a Dios en el sitio de honor."
+          "text": "Puesto que ustedes resucitaron con Cristo, fijen la mirada en las cosas de arriba, donde está Cristo sentado junto a Dios en el sitio de honor.",
+          "headings": [
+            "Normas para una vida santa"
+          ]
         },
         {
           "number": 2,
@@ -303,14 +306,14 @@
         },
         {
           "number": 17,
-          "text": "Y todo lo que hagan o digan, háganlo en el nombre del Señor Jesús, y por medio de él acérquense a la presencia de Dios con acción de gracias.",
-          "headings": [
-            "Normas para la familia cristiana"
-          ]
+          "text": "Y todo lo que hagan o digan, háganlo en el nombre del Señor Jesús, y por medio de él acérquense a la presencia de Dios con acción de gracias."
         },
         {
           "number": 18,
-          "text": "Esposas, sométanse a sus esposos, porque así lo ha dispuesto el Señor."
+          "text": "Esposas, sométanse a sus esposos, porque así lo ha dispuesto el Señor.",
+          "headings": [
+            "Normas para la familia cristiana"
+          ]
         },
         {
           "number": 19,
@@ -347,14 +350,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por otro lado, ustedes, amos, sean justos y equitativos, recordando que también tienen un Amo en el cielo.",
-          "headings": [
-            "Instrucciones adicionales"
-          ]
+          "text": "Por otro lado, ustedes, amos, sean justos y equitativos, recordando que también tienen un Amo en el cielo."
         },
         {
           "number": 2,
-          "text": "Nunca se cansen de orar. Oren siempre con gratitud."
+          "text": "Nunca se cansen de orar. Oren siempre con gratitud.",
+          "headings": [
+            "Instrucciones adicionales"
+          ]
         },
         {
           "number": 3,
@@ -370,14 +373,14 @@
         },
         {
           "number": 6,
-          "text": "Hablen siempre con buen gusto y de forma amena. Así podrán contestar siempre las preguntas que les hagan.",
-          "headings": [
-            "Saludos finales"
-          ]
+          "text": "Hablen siempre con buen gusto y de forma amena. Así podrán contestar siempre las preguntas que les hagan."
         },
         {
           "number": 7,
-          "text": "Tíquico, nuestro muy amado hermano, les contará cómo me va. Él es muy trabajador y sirve al Señor conmigo."
+          "text": "Tíquico, nuestro muy amado hermano, les contará cómo me va. Él es muy trabajador y sirve al Señor conmigo.",
+          "headings": [
+            "Saludos finales"
+          ]
         },
         {
           "number": 8,

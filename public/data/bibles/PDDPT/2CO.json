@@ -13,14 +13,14 @@
         },
         {
           "number": 2,
-          "text": "Gracia a ustedes y paz de Dios nuestro Padre y del Señor Jesucristo.",
-          "headings": [
-            "Consolación de Dios"
-          ]
+          "text": "Gracia a ustedes y paz de Dios nuestro Padre y del Señor Jesucristo."
         },
         {
           "number": 3,
-          "text": "Bendito sea el Dios y Padre de nuestro Señor Jesucristo, el Padre de misericordias y Dios de toda consolación,"
+          "text": "Bendito sea el Dios y Padre de nuestro Señor Jesucristo, el Padre de misericordias y Dios de toda consolación,",
+          "headings": [
+            "Consolación de Dios"
+          ]
         },
         {
           "number": 4,
@@ -52,14 +52,14 @@
         },
         {
           "number": 11,
-          "text": "Ustedes también cooperan en su conversación con Dios a favor de nosotros, para que muchas personas den gracias por el don de gracia que se nos concedió.",
-          "headings": [
-            "Viaje pospuesto"
-          ]
+          "text": "Ustedes también cooperan en su conversación con Dios a favor de nosotros, para que muchas personas den gracias por el don de gracia que se nos concedió."
         },
         {
           "number": 12,
-          "text": "Porque ésta es nuestra satisfacción: el testimonio de nuestra conciencia es que nos portamos con sencillez y sinceridad de Dios en el mundo y mucho más ante ustedes. No nos portamos con sabiduría humana, sino con gracia de Dios."
+          "text": "Porque ésta es nuestra satisfacción: el testimonio de nuestra conciencia es que nos portamos con sencillez y sinceridad de Dios en el mundo y mucho más ante ustedes. No nos portamos con sabiduría humana, sino con gracia de Dios.",
+          "headings": [
+            "Viaje pospuesto"
+          ]
         },
         {
           "number": 13,
@@ -128,14 +128,14 @@
         },
         {
           "number": 4,
-          "text": "Les escribí con muchas lágrimas por la gran aflicción y angustia, no para entristecerlos, sino para que supieran cuán gran amor les tengo.",
-          "headings": [
-            "Perdón para el disciplinado"
-          ]
+          "text": "Les escribí con muchas lágrimas por la gran aflicción y angustia, no para entristecerlos, sino para que supieran cuán gran amor les tengo."
         },
         {
           "number": 5,
-          "text": "Si causó tristeza a alguno, no fue solo a mí, sino hasta cierto punto, para no exagerar, a todos ustedes."
+          "text": "Si causó tristeza a alguno, no fue solo a mí, sino hasta cierto punto, para no exagerar, a todos ustedes.",
+          "headings": [
+            "Perdón para el disciplinado"
+          ]
         },
         {
           "number": 6,
@@ -159,14 +159,14 @@
         },
         {
           "number": 11,
-          "text": "para que Satanás no se aproveche, porque no ignoramos sus maquinaciones.",
-          "headings": [
-            "El conocimiento de Cristo"
-          ]
+          "text": "para que Satanás no se aproveche, porque no ignoramos sus maquinaciones."
         },
         {
           "number": 12,
-          "text": "Cuando fui a Troas para predicar las Buenas Noticias de Cristo, aunque el Señor me abrió una puerta,"
+          "text": "Cuando fui a Troas para predicar las Buenas Noticias de Cristo, aunque el Señor me abrió una puerta,",
+          "headings": [
+            "El conocimiento de Cristo"
+          ]
         },
         {
           "number": 13,
@@ -195,7 +195,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¿Otra vez comenzamos a recomendarnos a nosotros mismos? ¿O necesitamos, como algunos, cartas de recomendación para ustedes, o de ustedes?"
+          "text": "¿Otra vez comenzamos a recomendarnos a nosotros mismos? ¿O necesitamos, como algunos, cartas de recomendación para ustedes, o de ustedes?",
+          "headings": [
+            "El Nuevo Pacto"
+          ]
         },
         {
           "number": 2,
@@ -292,14 +295,14 @@
         },
         {
           "number": 6,
-          "text": "Porque Dios, Quien ordenó que la Luz resplandezca de la oscuridad, resplandeció en nuestros corazones para iluminación del conocimiento de la gloria de Dios en el rostro de Cristo.",
-          "headings": [
-            "Un peso eterno de gloria"
-          ]
+          "text": "Porque Dios, Quien ordenó que la Luz resplandezca de la oscuridad, resplandeció en nuestros corazones para iluminación del conocimiento de la gloria de Dios en el rostro de Cristo."
         },
         {
           "number": 7,
-          "text": "Pero tenemos este tesoro en vasos de barro, para que la extraordinaria cualidad del poder sea de Dios y no de nosotros,"
+          "text": "Pero tenemos este tesoro en vasos de barro, para que la extraordinaria cualidad del poder sea de Dios y no de nosotros,",
+          "headings": [
+            "Un peso eterno de gloria"
+          ]
         },
         {
           "number": 8,
@@ -352,7 +355,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Sabemos que si se deshace nuestra casa terrenal, este tabernáculo, tenemos un edificio de Dios, una casa eterna en el cielo no hecha por manos."
+          "text": "Sabemos que si se deshace nuestra casa terrenal, este tabernáculo, tenemos un edificio de Dios, una casa eterna en el cielo no hecha por manos.",
+          "headings": [
+            "Cuerpo espiritual eterno"
+          ]
         },
         {
           "number": 2,
@@ -388,14 +394,14 @@
         },
         {
           "number": 10,
-          "text": "Es necesario que todos nosotros comparezcamos ante el tribunal de Cristo, para que cada uno reciba según lo que hizo mientras estuvo en el cuerpo, sea bueno o malo.",
-          "headings": [
-            "La nueva criatura"
-          ]
+          "text": "Es necesario que todos nosotros comparezcamos ante el tribunal de Cristo, para que cada uno reciba según lo que hizo mientras estuvo en el cuerpo, sea bueno o malo."
         },
         {
           "number": 11,
-          "text": "Entonces como conocimos el temor al Señor, persuadimos a los hombres. Pero a Dios le es manifiesto lo que somos, y confiamos que también seamos manifiestos a las conciencias de ustedes."
+          "text": "Entonces como conocimos el temor al Señor, persuadimos a los hombres. Pero a Dios le es manifiesto lo que somos, y confiamos que también seamos manifiestos a las conciencias de ustedes.",
+          "headings": [
+            "La nueva criatura"
+          ]
         },
         {
           "number": 12,
@@ -492,14 +498,14 @@
         },
         {
           "number": 13,
-          "text": "Para que correspondan del mismo modo, amplíen también su corazón . Les hablo como a hijos.",
-          "headings": [
-            "El yugo desigual"
-          ]
+          "text": "Para que correspondan del mismo modo, amplíen también su corazón . Les hablo como a hijos."
         },
         {
           "number": 14,
-          "text": "No se unan en yugo desigual con incrédulos, porque ¿qué compañerismo hay entre la justicia y la iniquidad? ¿Qué comunión hay entre la luz y la oscuridad?"
+          "text": "No se unan en yugo desigual con incrédulos, porque ¿qué compañerismo hay entre la justicia y la iniquidad? ¿Qué comunión hay entre la luz y la oscuridad?",
+          "headings": [
+            "El yugo desigual"
+          ]
         },
         {
           "number": 15,
@@ -524,14 +530,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por tanto, amados, puesto que tenemos estas promesas, purifiquémonos de toda contaminación del cuerpo y del espíritu, y perfeccionemos la santidad en el temor a Dios.",
-          "headings": [
-            "Gozo por el arrepentimiento"
-          ]
+          "text": "Por tanto, amados, puesto que tenemos estas promesas, purifiquémonos de toda contaminación del cuerpo y del espíritu, y perfeccionemos la santidad en el temor a Dios."
         },
         {
           "number": 2,
-          "text": "Admítannos. A nadie hicimos mal, a nadie corrompimos, a nadie engañamos."
+          "text": "Admítannos. A nadie hicimos mal, a nadie corrompimos, a nadie engañamos.",
+          "headings": [
+            "Gozo por el arrepentimiento"
+          ]
         },
         {
           "number": 3,
@@ -596,7 +602,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hermanos, les informamos sobre la gracia de Dios que fue dada a las iglesias de Macedonia,"
+          "text": "Hermanos, les informamos sobre la gracia de Dios que fue dada a las iglesias de Macedonia,",
+          "headings": [
+            "La ofrenda para los pobres"
+          ]
         },
         {
           "number": 2,
@@ -776,7 +785,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yo, Pablo, les ruego por la mansedumbre y gentileza de Cristo, yo, que cuando estoy presente ciertamente soy humilde entre ustedes, pero ausente soy atrevido."
+          "text": "Yo, Pablo, les ruego por la mansedumbre y gentileza de Cristo, yo, que cuando estoy presente ciertamente soy humilde entre ustedes, pero ausente soy atrevido.",
+          "headings": [
+            "Defensa de Pablo"
+          ]
         },
         {
           "number": 2,
@@ -860,7 +872,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Ojalá soporten un poco de insensatez! Pero también les ruego que me soporten,"
+          "text": "¡Ojalá soporten un poco de insensatez! Pero también les ruego que me soporten,",
+          "headings": [
+            "Los falsos apóstoles"
+          ]
         },
         {
           "number": 2,
@@ -916,14 +931,14 @@
         },
         {
           "number": 15,
-          "text": "Así que no es gran cosa si también sus ministros se disfrazan como ministros de justicia, cuyo fin será según sus obras.",
-          "headings": [
-            "Sufrimientos de Pablo"
-          ]
+          "text": "Así que no es gran cosa si también sus ministros se disfrazan como ministros de justicia, cuyo fin será según sus obras."
         },
         {
           "number": 16,
-          "text": "Otra vez digo: Nadie suponga que soy un insensato. Pero si no, por lo menos, sopórtenme como a un insensato, para que yo también me enaltezca un poco."
+          "text": "Otra vez digo: Nadie suponga que soy un insensato. Pero si no, por lo menos, sopórtenme como a un insensato, para que yo también me enaltezca un poco.",
+          "headings": [
+            "Sufrimientos de Pablo"
+          ]
         },
         {
           "number": 17,
@@ -1000,7 +1015,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Exaltarse es necesario, aunque no es provechoso. Recurriré a las visiones y revelaciones del Señor."
+          "text": "Exaltarse es necesario, aunque no es provechoso. Recurriré a las visiones y revelaciones del Señor.",
+          "headings": [
+            "Un mensajero de Satanás"
+          ]
         },
         {
           "number": 2,
@@ -1048,14 +1066,14 @@
         },
         {
           "number": 13,
-          "text": "Porque ¿en qué fueron menos que las demás iglesias, sino en que yo mismo no les fui una carga? ¡Perdónenme este agravio!",
-          "headings": [
-            "Tercera visita"
-          ]
+          "text": "Porque ¿en qué fueron menos que las demás iglesias, sino en que yo mismo no les fui una carga? ¡Perdónenme este agravio!"
         },
         {
           "number": 14,
-          "text": "Ahora tengo todo listo para visitarlos por tercera vez, y no seré una carga. Porque no busco las cosas de ustedes, sino a ustedes. Pues no están obligados a atesorar los hijos para los progenitores, sino los progenitores para los hijos."
+          "text": "Ahora tengo todo listo para visitarlos por tercera vez, y no seré una carga. Porque no busco las cosas de ustedes, sino a ustedes. Pues no están obligados a atesorar los hijos para los progenitores, sino los progenitores para los hijos.",
+          "headings": [
+            "Tercera visita"
+          ]
         },
         {
           "number": 15,
@@ -1128,14 +1146,14 @@
         },
         {
           "number": 10,
-          "text": "Por tanto escribo estas cosas al estar ausente, para no actuar severamente cuando me presente, según la autoridad que el Señor me dio para edificación y no para destrucción.",
-          "headings": [
-            "Despedida"
-          ]
+          "text": "Por tanto escribo estas cosas al estar ausente, para no actuar severamente cuando me presente, según la autoridad que el Señor me dio para edificación y no para destrucción."
         },
         {
           "number": 11,
-          "text": "Por lo demás, hermanos, tengan gozo, restáurense, exhórtense, tengan un mismo sentir, vivan en paz. El Dios de amor y de paz estará con ustedes."
+          "text": "Por lo demás, hermanos, tengan gozo, restáurense, exhórtense, tengan un mismo sentir, vivan en paz. El Dios de amor y de paz estará con ustedes.",
+          "headings": [
+            "Despedida"
+          ]
         },
         {
           "number": 12,

@@ -9,18 +9,21 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo, Silvano y Timoteo, a la iglesia de los tesalonicenses en Dios nuestro Padre y en el Señor Jesucristo:"
-        },
-        {
-          "number": 2,
-          "text": "Gracia y paz a ustedes de Dios nuestro Padre y del Señor Jesucristo.",
+          "text": "Pablo, Silvano y Timoteo, a la iglesia de los tesalonicenses en Dios nuestro Padre y en el Señor Jesucristo:",
           "headings": [
-            "Una justa retribución"
+            "Saludo"
           ]
         },
         {
+          "number": 2,
+          "text": "Gracia y paz a ustedes de Dios nuestro Padre y del Señor Jesucristo."
+        },
+        {
           "number": 3,
-          "text": "Hermanos, tenemos que dar gracias a Dios siempre por ustedes como es apropiado, pues su fe crece maravillosamente y abunda el amor de cada uno de ustedes hacia los otros,"
+          "text": "Hermanos, tenemos que dar gracias a Dios siempre por ustedes como es apropiado, pues su fe crece maravillosamente y abunda el amor de cada uno de ustedes hacia los otros,",
+          "headings": [
+            "Una justa retribución"
+          ]
         },
         {
           "number": 4,
@@ -65,7 +68,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero con respecto a la venida de nuestro Señor Jesucristo y nuestra reunión con Él, les rogamos, hermanos,"
+          "text": "Pero con respecto a la venida de nuestro Señor Jesucristo y nuestra reunión con Él, les rogamos, hermanos,",
+          "headings": [
+            "La manifestación del Anticristo"
+          ]
         },
         {
           "number": 2,
@@ -109,14 +115,14 @@
         },
         {
           "number": 12,
-          "text": "a fin de que sean juzgados todos los que no creyeron en la verdad, sino se deleitaron en la injusticia.",
-          "headings": [
-            "Escogidos para salvación"
-          ]
+          "text": "a fin de que sean juzgados todos los que no creyeron en la verdad, sino se deleitaron en la injusticia."
         },
         {
           "number": 13,
-          "text": "Hermanos amados por el Señor, nosotros tenemos que dar gracias siempre a Dios por ustedes, pues desde el principio Él los escogió para salvación por medio de la santificación del espíritu y fe en la verdad."
+          "text": "Hermanos amados por el Señor, nosotros tenemos que dar gracias siempre a Dios por ustedes, pues desde el principio Él los escogió para salvación por medio de la santificación del espíritu y fe en la verdad.",
+          "headings": [
+            "Escogidos para salvación"
+          ]
         },
         {
           "number": 14,
@@ -141,7 +147,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por lo demás, hermanos, hablen con Dios con respecto a nosotros para que la Palabra del Señor corra y sea magnificada, como también ocurrió con ustedes,"
+          "text": "Por lo demás, hermanos, hablen con Dios con respecto a nosotros para que la Palabra del Señor corra y sea magnificada, como también ocurrió con ustedes,",
+          "headings": [
+            "Petición especial de Pablo"
+          ]
         },
         {
           "number": 2,
@@ -157,14 +166,14 @@
         },
         {
           "number": 5,
-          "text": "El Señor dirija sus corazones al amor de Dios y a la paciencia de Cristo.",
-          "headings": [
-            "Contra el desorden"
-          ]
+          "text": "El Señor dirija sus corazones al amor de Dios y a la paciencia de Cristo."
         },
         {
           "number": 6,
-          "text": "Pero les ordenamos, hermanos, en Nombre del Señor Jesucristo, que ustedes se mantengan alejados de todo hermano que viva desordenadamente, y no según la enseñanza que recibieron de nosotros."
+          "text": "Pero les ordenamos, hermanos, en Nombre del Señor Jesucristo, que ustedes se mantengan alejados de todo hermano que viva desordenadamente, y no según la enseñanza que recibieron de nosotros.",
+          "headings": [
+            "Contra el desorden"
+          ]
         },
         {
           "number": 7,
@@ -200,14 +209,14 @@
         },
         {
           "number": 15,
-          "text": "Pero no lo consideren como enemigo. Amonéstenlo como a un hermano.",
-          "headings": [
-            "Despedida"
-          ]
+          "text": "Pero no lo consideren como enemigo. Amonéstenlo como a un hermano."
         },
         {
           "number": 16,
-          "text": "El mismo Señor de la paz les dé siempre la paz en toda manera. El Señor sea con todos ustedes."
+          "text": "El mismo Señor de la paz les dé siempre la paz en toda manera. El Señor sea con todos ustedes.",
+          "headings": [
+            "Despedida"
+          ]
         },
         {
           "number": 17,

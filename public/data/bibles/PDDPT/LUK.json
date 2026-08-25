@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Puesto que muchos han tratado de poner en orden un relato de las cosas completamente ciertas entre nosotros,"
+          "text": "Puesto que muchos han tratado de poner en orden un relato de las cosas completamente ciertas entre nosotros,",
+          "headings": [
+            "Introducción"
+          ]
         },
         {
           "number": 2,
@@ -21,14 +24,14 @@
         },
         {
           "number": 4,
-          "text": "para que conozcas exactamente la verdad con respecto a las cosas en las cuales fuiste instruido.",
-          "headings": [
-            "Anuncio del nacimiento de Juan el Bautista"
-          ]
+          "text": "para que conozcas exactamente la verdad con respecto a las cosas en las cuales fuiste instruido."
         },
         {
           "number": 5,
-          "text": "Hubo en los días de Herodes, rey de Judea, un sacerdote llamado Zacarías, de la clase de Abías. Su esposa Elisabet era de la descendencia de Aarón."
+          "text": "Hubo en los días de Herodes, rey de Judea, un sacerdote llamado Zacarías, de la clase de Abías. Su esposa Elisabet era de la descendencia de Aarón.",
+          "headings": [
+            "Anuncio del nacimiento de Juan el Bautista"
+          ]
         },
         {
           "number": 6,
@@ -108,14 +111,14 @@
         },
         {
           "number": 25,
-          "text": "Así hizo conmigo el Señor en los días cuando me miró para quitarme una afrenta entre los hombres.",
-          "headings": [
-            "Anuncio del nacimiento de Jesús"
-          ]
+          "text": "Así hizo conmigo el Señor en los días cuando me miró para quitarme una afrenta entre los hombres."
         },
         {
           "number": 26,
-          "text": "El sexto mes Dios envió al ángel Gabriel a Nazaret de Galilea,"
+          "text": "El sexto mes Dios envió al ángel Gabriel a Nazaret de Galilea,",
+          "headings": [
+            "Anuncio del nacimiento de Jesús"
+          ]
         },
         {
           "number": 27,
@@ -170,14 +173,14 @@
         },
         {
           "number": 38,
-          "text": "Entonces María contestó: Aquí está la esclava del Señor. Que se haga conmigo según tu palabra. Y el ángel se retiró.",
-          "headings": [
-            "El misterio de la piedad"
-          ]
+          "text": "Entonces María contestó: Aquí está la esclava del Señor. Que se haga conmigo según tu palabra. Y el ángel se retiró."
         },
         {
           "number": 39,
-          "text": "En aquellos días, María fue de prisa a una ciudad en la región montañosa de Judá."
+          "text": "En aquellos días, María fue de prisa a una ciudad en la región montañosa de Judá.",
+          "headings": [
+            "El misterio de la piedad"
+          ]
         },
         {
           "number": 40,
@@ -252,14 +255,14 @@
         },
         {
           "number": 56,
-          "text": "María permaneció con ella como tres meses, y regresó a su casa.",
-          "headings": [
-            "Nacimiento de Juan el Bautista"
-          ]
+          "text": "María permaneció con ella como tres meses, y regresó a su casa."
         },
         {
           "number": 57,
-          "text": "Entonces se le cumplió a Elisabet el tiempo del parto y dio a luz un hijo."
+          "text": "Entonces se le cumplió a Elisabet el tiempo del parto y dio a luz un hijo.",
+          "headings": [
+            "Nacimiento de Juan el Bautista"
+          ]
         },
         {
           "number": 58,
@@ -360,7 +363,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En aquellos días aconteció que salió un edicto de parte de César Augusto, para que se empadronara toda la tierra habitada."
+          "text": "En aquellos días aconteció que salió un edicto de parte de César Augusto, para que se empadronara toda la tierra habitada.",
+          "headings": [
+            "La Natividad"
+          ]
         },
         {
           "number": 2,
@@ -384,14 +390,14 @@
         },
         {
           "number": 7,
-          "text": "dio a luz a su Hijo primogénito. Lo envolvió en pañales y lo acostó en un pesebre, porque no había lugar para ellos en la pensión.",
-          "headings": [
-            "Visto por los ángeles"
-          ]
+          "text": "dio a luz a su Hijo primogénito. Lo envolvió en pañales y lo acostó en un pesebre, porque no había lugar para ellos en la pensión."
         },
         {
           "number": 8,
-          "text": "Había pastores en aquella misma región que posaban a campo abierto y guardaban las vigilias de la noche sobre sus rebaños."
+          "text": "Había pastores en aquella misma región que posaban a campo abierto y guardaban las vigilias de la noche sobre sus rebaños.",
+          "headings": [
+            "Visto por los ángeles"
+          ]
         },
         {
           "number": 9,
@@ -443,14 +449,14 @@
         },
         {
           "number": 21,
-          "text": "Cuando se cumplieron los ocho días para circuncidarlo, lo llamaron Jesús, nombre que le fue asignado por el ángel antes de que fuera concebido en el vientre.",
-          "headings": [
-            "La presentación"
-          ]
+          "text": "Cuando se cumplieron los ocho días para circuncidarlo, lo llamaron Jesús, nombre que le fue asignado por el ángel antes de que fuera concebido en el vientre."
         },
         {
           "number": 22,
-          "text": "Cuando se cumplieron los días de la purificación de ellos, según la Ley de Moisés, lo llevaron a Jerusalén para presentarlo al Señor,"
+          "text": "Cuando se cumplieron los días de la purificación de ellos, según la Ley de Moisés, lo llevaron a Jerusalén para presentarlo al Señor,",
+          "headings": [
+            "La presentación"
+          ]
         },
         {
           "number": 23,
@@ -458,14 +464,14 @@
         },
         {
           "number": 24,
-          "text": "y para dar la ofrenda conforme a lo dicho en la Ley del Señor: Un par de tórtolas o dos palominos.",
-          "headings": [
-            "Simeón"
-          ]
+          "text": "y para dar la ofrenda conforme a lo dicho en la Ley del Señor: Un par de tórtolas o dos palominos."
         },
         {
           "number": 25,
-          "text": "Estaba en Jerusalén un hombre justo y devoto llamado Simeón, quien esperaba la consolación de Israel. El Espíritu Santo estaba sobre él,"
+          "text": "Estaba en Jerusalén un hombre justo y devoto llamado Simeón, quien esperaba la consolación de Israel. El Espíritu Santo estaba sobre él,",
+          "headings": [
+            "Simeón"
+          ]
         },
         {
           "number": 26,
@@ -505,14 +511,14 @@
         },
         {
           "number": 35,
-          "text": "para que sean descubiertos los pensamientos de muchos. Y una espada traspasará tu alma.",
-          "headings": [
-            "Ana"
-          ]
+          "text": "para que sean descubiertos los pensamientos de muchos. Y una espada traspasará tu alma."
         },
         {
           "number": 36,
-          "text": "Estaba allí la profetiza Ana, hija de Fanuel, de la tribu de Aser. Ella vivió con su esposo siete años desde su virginidad y era de edad avanzada."
+          "text": "Estaba allí la profetiza Ana, hija de Fanuel, de la tribu de Aser. Ella vivió con su esposo siete años desde su virginidad y era de edad avanzada.",
+          "headings": [
+            "Ana"
+          ]
         },
         {
           "number": 37,
@@ -520,14 +526,14 @@
         },
         {
           "number": 38,
-          "text": "Ella se presentó en ese momento. Daba gracias a Dios y hablaba del Niño a todos los que esperaban la redención de Jerusalén.",
-          "headings": [
-            "Regreso a Nazaret"
-          ]
+          "text": "Ella se presentó en ese momento. Daba gracias a Dios y hablaba del Niño a todos los que esperaban la redención de Jerusalén."
         },
         {
           "number": 39,
-          "text": "Cuando cumplieron todo según la Ley del Señor, regresaron a Nazaret de Galilea, su ciudad."
+          "text": "Cuando cumplieron todo según la Ley del Señor, regresaron a Nazaret de Galilea, su ciudad.",
+          "headings": [
+            "Regreso a Nazaret"
+          ]
         },
         {
           "number": 40,
@@ -588,7 +594,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En el año decimoquinto del imperio de Tiberio César, cuando Poncio Pilato era gobernador de Judea, y Herodes tetrarca de Galilea, y su hermano Felipe tetrarca de Iturea y de la provincia de Traconite, y Lisanias tetrarca de Abilinia,"
+          "text": "En el año decimoquinto del imperio de Tiberio César, cuando Poncio Pilato era gobernador de Judea, y Herodes tetrarca de Galilea, y su hermano Felipe tetrarca de Iturea y de la provincia de Traconite, y Lisanias tetrarca de Abilinia,",
+          "headings": [
+            "Ministerio de Juan el Bautista"
+          ]
         },
         {
           "number": 2,
@@ -664,25 +673,25 @@
         },
         {
           "number": 20,
-          "text": "añadió a todas también esto: Encerró a Juan en la cárcel.",
+          "text": "añadió a todas también esto: Encerró a Juan en la cárcel."
+        },
+        {
+          "number": 21,
+          "text": "Cuando todo el pueblo era bautizado, Jesús también fue bautizado. Habló con Dios y se abrió el cielo.",
           "headings": [
             "El bautismo"
           ]
         },
         {
-          "number": 21,
-          "text": "Cuando todo el pueblo era bautizado, Jesús también fue bautizado. Habló con Dios y se abrió el cielo."
-        },
-        {
           "number": 22,
-          "text": "Descendió el Espíritu Santo sobre Él en forma corporal como una paloma, y hubo una voz del cielo: Tú eres mi Hijo amado. En Ti me deleité.",
-          "headings": [
-            "La genealogía"
-          ]
+          "text": "Descendió el Espíritu Santo sobre Él en forma corporal como una paloma, y hubo una voz del cielo: Tú eres mi Hijo amado. En Ti me deleité."
         },
         {
           "number": 23,
-          "text": "Cuando Jesús comenzó su ministerio tenía como 30 años. Era hijo, según se suponía, de José, de Elí,"
+          "text": "Cuando Jesús comenzó su ministerio tenía como 30 años. Era hijo, según se suponía, de José, de Elí,",
+          "headings": [
+            "La genealogía"
+          ]
         },
         {
           "number": 24,
@@ -751,7 +760,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jesús regresó del Jordán lleno del Espíritu Santo y fue impulsado por el Espíritu a una región deshabitada"
+          "text": "Jesús regresó del Jordán lleno del Espíritu Santo y fue impulsado por el Espíritu a una región deshabitada",
+          "headings": [
+            "La tentación"
+          ]
         },
         {
           "number": 2,
@@ -799,25 +811,25 @@
         },
         {
           "number": 13,
-          "text": "Y cuando acabó toda tentación, el diablo se retiró de Él hasta un tiempo oportuno.",
+          "text": "Y cuando acabó toda tentación, el diablo se retiró de Él hasta un tiempo oportuno."
+        },
+        {
+          "number": 14,
+          "text": "Jesús regresó a Galilea con el poder del Espíritu, y la noticia con respecto a Él salió por toda la región alrededor.",
           "headings": [
             "El regreso a Galilea"
           ]
         },
         {
-          "number": 14,
-          "text": "Jesús regresó a Galilea con el poder del Espíritu, y la noticia con respecto a Él salió por toda la región alrededor."
-        },
-        {
           "number": 15,
-          "text": "Enseñaba en las congregaciones de ellos y era alabado por todos.",
-          "headings": [
-            "En Nazaret"
-          ]
+          "text": "Enseñaba en las congregaciones de ellos y era alabado por todos."
         },
         {
           "number": 16,
-          "text": "Fue a Nazaret, donde fue criado. El día sábado entró en la congregación según la costumbre y se levantó a leer."
+          "text": "Fue a Nazaret, donde fue criado. El día sábado entró en la congregación según la costumbre y se levantó a leer.",
+          "headings": [
+            "En Nazaret"
+          ]
         },
         {
           "number": 17,
@@ -873,14 +885,14 @@
         },
         {
           "number": 30,
-          "text": "Pero Él pasó por en medio de ellos y salió.",
-          "headings": [
-            "En Cafarnaúm"
-          ]
+          "text": "Pero Él pasó por en medio de ellos y salió."
         },
         {
           "number": 31,
-          "text": "Descendió a la ciudad de Cafarnaúm en Galilea y los sábados les enseñaba."
+          "text": "Descendió a la ciudad de Cafarnaúm en Galilea y los sábados les enseñaba.",
+          "headings": [
+            "En Cafarnaúm"
+          ]
         },
         {
           "number": 32,
@@ -904,25 +916,25 @@
         },
         {
           "number": 37,
-          "text": "Su fama se difundía por todo lugar de la región circunvecina.",
+          "text": "Su fama se difundía por todo lugar de la región circunvecina."
+        },
+        {
+          "number": 38,
+          "text": "Cuando salió de la congregación, entró en la casa de Simón. La suegra de Simón estaba atormentada por una gran fiebre y le rogaron por ella.",
           "headings": [
             "La suegra de Pedro"
           ]
         },
         {
-          "number": 38,
-          "text": "Cuando salió de la congregación, entró en la casa de Simón. La suegra de Simón estaba atormentada por una gran fiebre y le rogaron por ella."
-        },
-        {
           "number": 39,
-          "text": "Se inclinó hacia ella, reprendió la fiebre y la sanó. De inmediato, se levantó y les servía.",
-          "headings": [
-            "Sanidades al ocultarse el sol"
-          ]
+          "text": "Se inclinó hacia ella, reprendió la fiebre y la sanó. De inmediato, se levantó y les servía."
         },
         {
           "number": 40,
-          "text": "Cuando el sol bajaba, todos los que tenían enfermos de diversas dolencias los llevaban a Él. Imponía las manos sobre cada uno de ellos y los sanaba."
+          "text": "Cuando el sol bajaba, todos los que tenían enfermos de diversas dolencias los llevaban a Él. Imponía las manos sobre cada uno de ellos y los sanaba.",
+          "headings": [
+            "Sanidades al ocultarse el sol"
+          ]
         },
         {
           "number": 41,
@@ -947,7 +959,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jesús estaba en pie junto al lago Genesaret. La multitud se agolpó alrededor de Él para oír la Palabra de Dios."
+          "text": "Jesús estaba en pie junto al lago Genesaret. La multitud se agolpó alrededor de Él para oír la Palabra de Dios.",
+          "headings": [
+            "La pesca milagrosa"
+          ]
         },
         {
           "number": 2,
@@ -987,14 +1002,14 @@
         },
         {
           "number": 11,
-          "text": "Después de llevar las barcas a la tierra, dejaron todo y lo siguieron.",
-          "headings": [
-            "Sanidad de un leproso"
-          ]
+          "text": "Después de llevar las barcas a la tierra, dejaron todo y lo siguieron."
         },
         {
           "number": 12,
-          "text": "Cuando Él estaba en una ciudad vio a un leproso. Éste miró a Jesús, se postró y le rogó: Señor, si quieres, puedes limpiarme."
+          "text": "Cuando Él estaba en una ciudad vio a un leproso. Éste miró a Jesús, se postró y le rogó: Señor, si quieres, puedes limpiarme.",
+          "headings": [
+            "Sanidad de un leproso"
+          ]
         },
         {
           "number": 13,
@@ -1010,14 +1025,14 @@
         },
         {
           "number": 16,
-          "text": "Pero Él se retiraba a lugares solitarios y hablaba con Dios.",
-          "headings": [
-            "Sanidad de un paralítico"
-          ]
+          "text": "Pero Él se retiraba a lugares solitarios y hablaba con Dios."
         },
         {
           "number": 17,
-          "text": "Un día mientras Jesús enseñaba, unos fariseos y maestros de la Ley que habían llegado de Galilea, Judea y Jerusalén, se sentaron a su alrededor. Y el poder sanador del Señor estaba con Él."
+          "text": "Un día mientras Jesús enseñaba, unos fariseos y maestros de la Ley que habían llegado de Galilea, Judea y Jerusalén, se sentaron a su alrededor. Y el poder sanador del Señor estaba con Él.",
+          "headings": [
+            "Sanidad de un paralítico"
+          ]
         },
         {
           "number": 18,
@@ -1053,14 +1068,14 @@
         },
         {
           "number": 26,
-          "text": "Todos se asombraron. Glorificaban a Dios, se llenaron de temor y decían: ¡Hoy vimos maravillas!",
-          "headings": [
-            "El publicano Leví"
-          ]
+          "text": "Todos se asombraron. Glorificaban a Dios, se llenaron de temor y decían: ¡Hoy vimos maravillas!"
         },
         {
           "number": 27,
-          "text": "Después de esto, salió y vio al publicano Leví sentado en el lugar de los tributos, y le dijo: ¡Sígueme!"
+          "text": "Después de esto, salió y vio al publicano Leví sentado en el lugar de los tributos, y le dijo: ¡Sígueme!",
+          "headings": [
+            "El publicano Leví"
+          ]
         },
         {
           "number": 28,
@@ -1080,14 +1095,14 @@
         },
         {
           "number": 32,
-          "text": "No vine a llamar a justos sino a pecadores para que cambien de mente.",
-          "headings": [
-            "Vino añejo y vino nuevo"
-          ]
+          "text": "No vine a llamar a justos sino a pecadores para que cambien de mente."
         },
         {
           "number": 33,
-          "text": "Ellos le dijeron: Los discípulos de Juan ayunan y hablan con Dios con frecuencia, pero los tuyos solo comen y beben."
+          "text": "Ellos le dijeron: Los discípulos de Juan ayunan y hablan con Dios con frecuencia, pero los tuyos solo comen y beben.",
+          "headings": [
+            "Vino añejo y vino nuevo"
+          ]
         },
         {
           "number": 34,
@@ -1120,7 +1135,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un sábado, Él pasó por los sembrados. Los discípulos arrancaban espigas, las restregaban con las manos y comían."
+          "text": "Un sábado, Él pasó por los sembrados. Los discípulos arrancaban espigas, las restregaban con las manos y comían.",
+          "headings": [
+            "Señor del sábado"
+          ]
         },
         {
           "number": 2,
@@ -1136,14 +1154,14 @@
         },
         {
           "number": 5,
-          "text": "El Hijo del Hombre es Señor del sábado.",
-          "headings": [
-            "Restauración de una mano paralizada"
-          ]
+          "text": "El Hijo del Hombre es Señor del sábado."
         },
         {
           "number": 6,
-          "text": "Otro sábado Él entró en la congregación a enseñar. Estaba allí un hombre que tenía la mano derecha paralizada."
+          "text": "Otro sábado Él entró en la congregación a enseñar. Estaba allí un hombre que tenía la mano derecha paralizada.",
+          "headings": [
+            "Restauración de una mano paralizada"
+          ]
         },
         {
           "number": 7,
@@ -1163,14 +1181,14 @@
         },
         {
           "number": 11,
-          "text": "Pero ellos se llenaron de ira y discutían qué hacer a Jesús.",
-          "headings": [
-            "12 apóstoles"
-          ]
+          "text": "Pero ellos se llenaron de ira y discutían qué hacer a Jesús."
         },
         {
           "number": 12,
-          "text": "En aquellos días Él subió a la montaña para hablar con Dios, y pasó toda la noche en la conversación con Dios."
+          "text": "En aquellos días Él subió a la montaña para hablar con Dios, y pasó toda la noche en la conversación con Dios.",
+          "headings": [
+            "12 apóstoles"
+          ]
         },
         {
           "number": 13,
@@ -1186,14 +1204,14 @@
         },
         {
           "number": 16,
-          "text": "Judas, hijo de Jacobo, y Judas Iscariote el traidor.",
-          "headings": [
-            "Enseñanzas y sanidades"
-          ]
+          "text": "Judas, hijo de Jacobo, y Judas Iscariote el traidor."
         },
         {
           "number": 17,
-          "text": "Bajó con ellos y se detuvo en un lugar plano. Una multitud de sus discípulos y del pueblo de Judea, Jerusalén y de la región costera de Tiro y Sidón,"
+          "text": "Bajó con ellos y se detuvo en un lugar plano. Una multitud de sus discípulos y del pueblo de Judea, Jerusalén y de la región costera de Tiro y Sidón,",
+          "headings": [
+            "Enseñanzas y sanidades"
+          ]
         },
         {
           "number": 18,
@@ -1201,14 +1219,14 @@
         },
         {
           "number": 19,
-          "text": "Toda la multitud procuraba tocarlo, porque salía poder de Él y sanaba a todos.",
-          "headings": [
-            "Los inmensamente felices"
-          ]
+          "text": "Toda la multitud procuraba tocarlo, porque salía poder de Él y sanaba a todos."
         },
         {
           "number": 20,
           "text": "Al levantar sus ojos hacia sus discípulos, decía: Inmensamente felices los pobres, porque de ustedes es el reino de Dios.",
+          "headings": [
+            "Los inmensamente felices"
+          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -1227,14 +1245,14 @@
         },
         {
           "number": 23,
-          "text": "Ese día regocíjense y salten, porque su recompensa será grande en el cielo, pues sus antepasados trataban así a los profetas.",
-          "headings": [
-            "Ayes"
-          ]
+          "text": "Ese día regocíjense y salten, porque su recompensa será grande en el cielo, pues sus antepasados trataban así a los profetas."
         },
         {
           "number": 24,
-          "text": "Pero ¡ay de ustedes los ricos, porque ya tienen su consuelo!"
+          "text": "Pero ¡ay de ustedes los ricos, porque ya tienen su consuelo!",
+          "headings": [
+            "Ayes"
+          ]
         },
         {
           "number": 25,
@@ -1242,14 +1260,14 @@
         },
         {
           "number": 26,
-          "text": "¡Ay, cuando todos los hombres digan bien de ustedes, porque así hacían sus antepasados con los falsos profetas!",
-          "headings": [
-            "La regla de oro"
-          ]
+          "text": "¡Ay, cuando todos los hombres digan bien de ustedes, porque así hacían sus antepasados con los falsos profetas!"
         },
         {
           "number": 27,
-          "text": "Pero a ustedes quienes me oyen les digo: Amen a sus enemigos, hagan bien a los que los aborrecen,"
+          "text": "Pero a ustedes quienes me oyen les digo: Amen a sus enemigos, hagan bien a los que los aborrecen,",
+          "headings": [
+            "La regla de oro"
+          ]
         },
         {
           "number": 28,
@@ -1265,14 +1283,14 @@
         },
         {
           "number": 31,
-          "text": "Traten a los demás como desean que los traten a ustedes.",
-          "headings": [
-            "El amor verdadero"
-          ]
+          "text": "Traten a los demás como desean que los traten a ustedes."
         },
         {
           "number": 32,
-          "text": "Pues si aman a los que los aman, ¿qué mérito tienen? ¡Aun los pecadores aman a los que los aman!"
+          "text": "Pues si aman a los que los aman, ¿qué mérito tienen? ¡Aun los pecadores aman a los que los aman!",
+          "headings": [
+            "El amor verdadero"
+          ]
         },
         {
           "number": 33,
@@ -1288,14 +1306,14 @@
         },
         {
           "number": 36,
-          "text": "Sean misericordiosos como su Padre es misericordioso.",
-          "headings": [
-            "La inconveniencia de juzgar"
-          ]
+          "text": "Sean misericordiosos como su Padre es misericordioso."
         },
         {
           "number": 37,
-          "text": "No juzguen, y que de ningún modo sean juzgados. No condenen, y que de ningún modo sean condenados. Perdonen y serán perdonados."
+          "text": "No juzguen, y que de ningún modo sean juzgados. No condenen, y que de ningún modo sean condenados. Perdonen y serán perdonados.",
+          "headings": [
+            "La inconveniencia de juzgar"
+          ]
         },
         {
           "number": 38,
@@ -1322,14 +1340,14 @@
         },
         {
           "number": 42,
-          "text": "¿Cómo puedes decir a tu hermano: Hermano, deja que saque la concha de grano que está en tu ojo, y tú mismo no ves la viga que está en el tuyo? ¡Hipócrita, saca primero la viga de tu ojo, y entonces verás bien para sacar la concha de grano que está en el ojo de tu hermano!",
-          "headings": [
-            "Reconocimiento por el fruto"
-          ]
+          "text": "¿Cómo puedes decir a tu hermano: Hermano, deja que saque la concha de grano que está en tu ojo, y tú mismo no ves la viga que está en el tuyo? ¡Hipócrita, saca primero la viga de tu ojo, y entonces verás bien para sacar la concha de grano que está en el ojo de tu hermano!"
         },
         {
           "number": 43,
-          "text": "No hay árbol bueno que produzca fruto malo, ni árbol malo que produzca fruto bueno."
+          "text": "No hay árbol bueno que produzca fruto malo, ni árbol malo que produzca fruto bueno.",
+          "headings": [
+            "Reconocimiento por el fruto"
+          ]
         },
         {
           "number": 44,
@@ -1337,14 +1355,14 @@
         },
         {
           "number": 45,
-          "text": "El hombre bueno del tesoro bueno del corazón saca lo bueno, y el malvado saca lo malvado, porque de la abundancia del corazón habla su boca.",
-          "headings": [
-            "Los dos cimientos"
-          ]
+          "text": "El hombre bueno del tesoro bueno del corazón saca lo bueno, y el malvado saca lo malvado, porque de la abundancia del corazón habla su boca."
         },
         {
           "number": 46,
-          "text": "¿Por qué me llaman: Señor, Señor, y no hacen lo que digo?"
+          "text": "¿Por qué me llaman: Señor, Señor, y no hacen lo que digo?",
+          "headings": [
+            "Los dos cimientos"
+          ]
         },
         {
           "number": 47,
@@ -1365,7 +1383,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando terminó sus palabras para el pueblo que lo escuchaba, entró en Cafarnaúm."
+          "text": "Cuando terminó sus palabras para el pueblo que lo escuchaba, entró en Cafarnaúm.",
+          "headings": [
+            "El esclavo de un centurión"
+          ]
         },
         {
           "number": 2,
@@ -1401,14 +1422,14 @@
         },
         {
           "number": 10,
-          "text": "Cuando los enviados regresaron a la casa, hallaron al esclavo sano.",
-          "headings": [
-            "Una viuda de Naín"
-          ]
+          "text": "Cuando los enviados regresaron a la casa, hallaron al esclavo sano."
         },
         {
           "number": 11,
-          "text": "Después fue con sus discípulos y una gran multitud a la ciudad de Naín."
+          "text": "Después fue con sus discípulos y una gran multitud a la ciudad de Naín.",
+          "headings": [
+            "Una viuda de Naín"
+          ]
         },
         {
           "number": 12,
@@ -1432,14 +1453,14 @@
         },
         {
           "number": 17,
-          "text": "Esta declaración con respecto a Él se difundió por toda Judea y la región circundante.",
-          "headings": [
-            "Pregunta de Juan el Bautista"
-          ]
+          "text": "Esta declaración con respecto a Él se difundió por toda Judea y la región circundante."
         },
         {
           "number": 18,
-          "text": "Los discípulos de Juan le informaron todas estas cosas."
+          "text": "Los discípulos de Juan le informaron todas estas cosas.",
+          "headings": [
+            "Pregunta de Juan el Bautista"
+          ]
         },
         {
           "number": 19,
@@ -1459,14 +1480,14 @@
         },
         {
           "number": 23,
-          "text": "Inmensamente feliz el que no se conturbe por causa de Mí.",
-          "headings": [
-            "El profeta más grande"
-          ]
+          "text": "Inmensamente feliz el que no se conturbe por causa de Mí."
         },
         {
           "number": 24,
-          "text": "Cuando salieron los mensajeros de Juan, preguntó a la multitud con respecto a él: ¿Qué salieron a ver en el lugar despoblado? ¿Una caña sacudida por el viento?"
+          "text": "Cuando salieron los mensajeros de Juan, preguntó a la multitud con respecto a él: ¿Qué salieron a ver en el lugar despoblado? ¿Una caña sacudida por el viento?",
+          "headings": [
+            "El profeta más grande"
+          ]
         },
         {
           "number": 25,
@@ -1510,14 +1531,14 @@
         },
         {
           "number": 35,
-          "text": "Pero la sabiduría es defendida por todos sus hijos.",
-          "headings": [
-            "Un fariseo y una pecadora"
-          ]
+          "text": "Pero la sabiduría es defendida por todos sus hijos."
         },
         {
           "number": 36,
-          "text": "Uno de los fariseos le rogaba que comiera con él. Al entrar en la casa del fariseo, se reclinó."
+          "text": "Uno de los fariseos le rogaba que comiera con él. Al entrar en la casa del fariseo, se reclinó.",
+          "headings": [
+            "Un fariseo y una pecadora"
+          ]
         },
         {
           "number": 37,
@@ -1589,7 +1610,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Él iba por ciudades y aldeas. Predicaba y proclamaba las Buenas Noticias del reino de Dios. Lo acompañaban los 12"
+          "text": "Él iba por ciudades y aldeas. Predicaba y proclamaba las Buenas Noticias del reino de Dios. Lo acompañaban los 12",
+          "headings": [
+            "Unas siervas del Señor"
+          ]
         },
         {
           "number": 2,
@@ -1597,14 +1621,14 @@
         },
         {
           "number": 3,
-          "text": "Juana, esposa de Chuza, mayordomo de Herodes, Susana y muchas otras que les servían de sus propiedades.",
-          "headings": [
-            "Parábola del sembrador"
-          ]
+          "text": "Juana, esposa de Chuza, mayordomo de Herodes, Susana y muchas otras que les servían de sus propiedades."
         },
         {
           "number": 4,
-          "text": "Cuando se reunió una gran multitud que acudió a Él de cada ciudad, les habló por medio de una parábola."
+          "text": "Cuando se reunió una gran multitud que acudió a Él de cada ciudad, les habló por medio de una parábola.",
+          "headings": [
+            "Parábola del sembrador"
+          ]
         },
         {
           "number": 5,
@@ -1648,14 +1672,14 @@
         },
         {
           "number": 15,
-          "text": "Pero la parte que cae en la buena tierra son los que oyeron la Palabra con corazón recto y bueno, y producen fruto con perseverancia.",
-          "headings": [
-            "La imposibilidad de ocultar cosas"
-          ]
+          "text": "Pero la parte que cae en la buena tierra son los que oyeron la Palabra con corazón recto y bueno, y producen fruto con perseverancia."
         },
         {
           "number": 16,
-          "text": "El que enciende una lámpara no la cubre con una vasija ni la mete debajo de la cama, sino la pone sobre un candelero para que los que entran tengan luz."
+          "text": "El que enciende una lámpara no la cubre con una vasija ni la mete debajo de la cama, sino la pone sobre un candelero para que los que entran tengan luz.",
+          "headings": [
+            "La imposibilidad de ocultar cosas"
+          ]
         },
         {
           "number": 17,
@@ -1663,14 +1687,14 @@
         },
         {
           "number": 18,
-          "text": "Consideren, pues, lo que oyen, porque al que tenga, le será dado, y al que no tenga, aun lo que supone tener le será quitado.",
-          "headings": [
-            "La verdadera familia de Jesús"
-          ]
+          "text": "Consideren, pues, lo que oyen, porque al que tenga, le será dado, y al que no tenga, aun lo que supone tener le será quitado."
         },
         {
           "number": 19,
-          "text": "Entonces llegaron la madre y los hermanos de Jesús, pero no podían acercarse a Él por causa de la multitud."
+          "text": "Entonces llegaron la madre y los hermanos de Jesús, pero no podían acercarse a Él por causa de la multitud.",
+          "headings": [
+            "La verdadera familia de Jesús"
+          ]
         },
         {
           "number": 20,
@@ -1678,14 +1702,14 @@
         },
         {
           "number": 21,
-          "text": "Él respondió: Mi madre y mis hermanos son los que oyen y practican la Palabra de Dios.",
-          "headings": [
-            "Una tempestad"
-          ]
+          "text": "Él respondió: Mi madre y mis hermanos son los que oyen y practican la Palabra de Dios."
         },
         {
           "number": 22,
-          "text": "Un día Él entró en una barca con sus discípulos y les dijo: Pasemos al otro lado del lago. Y salieron al mar."
+          "text": "Un día Él entró en una barca con sus discípulos y les dijo: Pasemos al otro lado del lago. Y salieron al mar.",
+          "headings": [
+            "Una tempestad"
+          ]
         },
         {
           "number": 23,
@@ -1697,14 +1721,14 @@
         },
         {
           "number": 25,
-          "text": "Les preguntó: ¿Dónde está su fe? Atemorizados y asombrados, se preguntaban unos a otros: ¿Quién es Éste que aun manda a los vientos y al agua, y le obedecen?",
-          "headings": [
-            "Un endemoniado geraseno"
-          ]
+          "text": "Les preguntó: ¿Dónde está su fe? Atemorizados y asombrados, se preguntaban unos a otros: ¿Quién es Éste que aun manda a los vientos y al agua, y le obedecen?"
         },
         {
           "number": 26,
-          "text": "Navegaron hacia la región de los gerasenos, en la ribera opuesta a Galilea."
+          "text": "Navegaron hacia la región de los gerasenos, en la ribera opuesta a Galilea.",
+          "headings": [
+            "Un endemoniado geraseno"
+          ]
         },
         {
           "number": 27,
@@ -1756,14 +1780,14 @@
         },
         {
           "number": 39,
-          "text": "Regresa a tu casa y anuncia cuán grandes cosas te hizo Dios. Salió y proclamaba por toda la ciudad las grandes cosas que Jesús le hizo.",
-          "headings": [
-            "La hija de Jairo"
-          ]
+          "text": "Regresa a tu casa y anuncia cuán grandes cosas te hizo Dios. Salió y proclamaba por toda la ciudad las grandes cosas que Jesús le hizo."
         },
         {
           "number": 40,
-          "text": "Al regresar Jesús, la multitud le dio la bienvenida, pues todos lo esperaban."
+          "text": "Al regresar Jesús, la multitud le dio la bienvenida, pues todos lo esperaban.",
+          "headings": [
+            "La hija de Jairo"
+          ]
         },
         {
           "number": 41,
@@ -1771,14 +1795,14 @@
         },
         {
           "number": 42,
-          "text": "porque su única hija, como de 12 años, estaba a punto de morir. Cuando Él iba, la multitud lo apretujaba.",
-          "headings": [
-            "Una mujer con flujo de sangre"
-          ]
+          "text": "porque su única hija, como de 12 años, estaba a punto de morir. Cuando Él iba, la multitud lo apretujaba."
         },
         {
           "number": 43,
-          "text": "Una mujer que había tenido flujo de sangre por 12 años, quien no pudo ser sanada por alguno,"
+          "text": "Una mujer que había tenido flujo de sangre por 12 años, quien no pudo ser sanada por alguno,",
+          "headings": [
+            "Una mujer con flujo de sangre"
+          ]
         },
         {
           "number": 44,
@@ -1839,7 +1863,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Convocó a los 12, y les dio poder y autoridad sobre todos los demonios y para sanar."
+          "text": "Convocó a los 12, y les dio poder y autoridad sobre todos los demonios y para sanar.",
+          "headings": [
+            "Ministerio de los apóstoles"
+          ]
         },
         {
           "number": 2,
@@ -1866,14 +1893,14 @@
         },
         {
           "number": 6,
-          "text": "Cuando salieron, recorrían una por una las aldeas, anunciaban las Buenas Noticias y sanaban por todas partes.",
-          "headings": [
-            "Confusión de Herodes"
-          ]
+          "text": "Cuando salieron, recorrían una por una las aldeas, anunciaban las Buenas Noticias y sanaban por todas partes."
         },
         {
           "number": 7,
-          "text": "Herodes el tetrarca supo todas las cosas que pasaban y estaba muy perplejo porque algunos decían: Juan resucitó."
+          "text": "Herodes el tetrarca supo todas las cosas que pasaban y estaba muy perplejo porque algunos decían: Juan resucitó.",
+          "headings": [
+            "Confusión de Herodes"
+          ]
         },
         {
           "number": 8,
@@ -1881,14 +1908,14 @@
         },
         {
           "number": 9,
-          "text": "Pero Herodes decía: Yo decapité a Juan. ¿Quién es Éste de quien oigo estas cosas? Y procuraba verlo.",
-          "headings": [
-            "Una multiplicación de panes y peces"
-          ]
+          "text": "Pero Herodes decía: Yo decapité a Juan. ¿Quién es Éste de quien oigo estas cosas? Y procuraba verlo."
         },
         {
           "number": 10,
-          "text": "Al regresar los apóstoles le relataron todo lo que hicieron. Y Jesús los tomó consigo y salió en privado a una ciudad llamada Betsaida."
+          "text": "Al regresar los apóstoles le relataron todo lo que hicieron. Y Jesús los tomó consigo y salió en privado a una ciudad llamada Betsaida.",
+          "headings": [
+            "Una multiplicación de panes y peces"
+          ]
         },
         {
           "number": 11,
@@ -1916,14 +1943,14 @@
         },
         {
           "number": 17,
-          "text": "Todos comieron y se saciaron. Recogieron lo que les sobró: 12 cestos de pedazos.",
-          "headings": [
-            "Confesión de Pedro"
-          ]
+          "text": "Todos comieron y se saciaron. Recogieron lo que les sobró: 12 cestos de pedazos."
         },
         {
           "number": 18,
-          "text": "Un día, después que Jesús hablaba a solas con Dios, los discípulos estaban con Él y les preguntó: Según la gente, ¿Quién soy Yo?"
+          "text": "Un día, después que Jesús hablaba a solas con Dios, los discípulos estaban con Él y les preguntó: Según la gente, ¿Quién soy Yo?",
+          "headings": [
+            "Confesión de Pedro"
+          ]
         },
         {
           "number": 19,
@@ -1931,14 +1958,14 @@
         },
         {
           "number": 20,
-          "text": "Les preguntó: ¿Y ustedes, quién dicen que soy? Y respondió Pedro: El Cristo de Dios.",
-          "headings": [
-            "Un anuncio de su muerte y resurrección"
-          ]
+          "text": "Les preguntó: ¿Y ustedes, quién dicen que soy? Y respondió Pedro: El Cristo de Dios."
         },
         {
           "number": 21,
-          "text": "Entonces Él les ordenó rigurosamente que a nadie hablaran de esto."
+          "text": "Entonces Él les ordenó rigurosamente que a nadie hablaran de esto.",
+          "headings": [
+            "Un anuncio de su muerte y resurrección"
+          ]
         },
         {
           "number": 22,
@@ -1958,14 +1985,14 @@
         },
         {
           "number": 26,
-          "text": "Porque el que se avergüence de Mí y de mis Palabras, el Hijo del Hombre se avergonzará de él cuando venga en su gloria, la del Padre y de los santos ángeles.",
-          "headings": [
-            "Transfiguración"
-          ]
+          "text": "Porque el que se avergüence de Mí y de mis Palabras, el Hijo del Hombre se avergonzará de él cuando venga en su gloria, la del Padre y de los santos ángeles."
         },
         {
           "number": 27,
-          "text": "En verdad les digo que algunos de los que están aquí, que de ningún modo sufran muerte hasta que vean el reino de Dios."
+          "text": "En verdad les digo que algunos de los que están aquí, que de ningún modo sufran muerte hasta que vean el reino de Dios.",
+          "headings": [
+            "Transfiguración"
+          ]
         },
         {
           "number": 28,
@@ -2001,14 +2028,14 @@
         },
         {
           "number": 36,
-          "text": "Al cesar la voz, Jesús estaba solo. Los discípulos callaron y en aquellos días a nadie dijeron lo que vieron.",
-          "headings": [
-            "Liberación de un endemoniado"
-          ]
+          "text": "Al cesar la voz, Jesús estaba solo. Los discípulos callaron y en aquellos días a nadie dijeron lo que vieron."
         },
         {
           "number": 37,
-          "text": "Al día siguiente cuando bajó de la montaña, una gran multitud le salió al encuentro,"
+          "text": "Al día siguiente cuando bajó de la montaña, una gran multitud le salió al encuentro,",
+          "headings": [
+            "Liberación de un endemoniado"
+          ]
         },
         {
           "number": 38,
@@ -2032,25 +2059,25 @@
         },
         {
           "number": 43,
-          "text": "Todos estaban asombrados de la grandeza de Dios. Mientras admiraban las cosas que hacía, Jesús dijo a sus discípulos:",
+          "text": "Todos estaban asombrados de la grandeza de Dios. Mientras admiraban las cosas que hacía, Jesús dijo a sus discípulos:"
+        },
+        {
+          "number": 44,
+          "text": "Penetren estas Palabras en sus oídos. Porque el Hijo del Hombre va a ser entregado en manos de hombres.",
           "headings": [
             "Otro anuncio de su muerte"
           ]
         },
         {
-          "number": 44,
-          "text": "Penetren estas Palabras en sus oídos. Porque el Hijo del Hombre va a ser entregado en manos de hombres."
-        },
-        {
           "number": 45,
-          "text": "Pero ellos no entendían esta palabra pues les estaba encubierta para que no la entendieran, y temían preguntarle acerca de esto.",
-          "headings": [
-            "El más grande"
-          ]
+          "text": "Pero ellos no entendían esta palabra pues les estaba encubierta para que no la entendieran, y temían preguntarle acerca de esto."
         },
         {
           "number": 46,
-          "text": "Entonces discutieron quién de ellos sería el más grande."
+          "text": "Entonces discutieron quién de ellos sería el más grande.",
+          "headings": [
+            "El más grande"
+          ]
         },
         {
           "number": 47,
@@ -2058,25 +2085,25 @@
         },
         {
           "number": 48,
-          "text": "y les dijo: Cualquiera que recibe a este niño en mi Nombre, me recibe. Cualquiera que me recibe, recibe al que me envió. Porque el menor entre ustedes es el mayor.",
+          "text": "y les dijo: Cualquiera que recibe a este niño en mi Nombre, me recibe. Cualquiera que me recibe, recibe al que me envió. Porque el menor entre ustedes es el mayor."
+        },
+        {
+          "number": 49,
+          "text": "Juan dijo: Maestro, vimos a uno que echaba fuera demonios en tu Nombre. Le prohibimos, porque no sigue con nosotros.",
           "headings": [
             "Otro que echaba fuera demonios"
           ]
         },
         {
-          "number": 49,
-          "text": "Juan dijo: Maestro, vimos a uno que echaba fuera demonios en tu Nombre. Le prohibimos, porque no sigue con nosotros."
-        },
-        {
           "number": 50,
-          "text": "Jesús le respondió: No le prohíban, porque el que no está contra ustedes, está a favor de ustedes.",
-          "headings": [
-            "El paso por Samaria"
-          ]
+          "text": "Jesús le respondió: No le prohíban, porque el que no está contra ustedes, está a favor de ustedes."
         },
         {
           "number": 51,
-          "text": "Al cumplirse los días de su ascensión, Él afirmó su rostro para ir a Jerusalén."
+          "text": "Al cumplirse los días de su ascensión, Él afirmó su rostro para ir a Jerusalén.",
+          "headings": [
+            "El paso por Samaria"
+          ]
         },
         {
           "number": 52,
@@ -2129,7 +2156,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de esto, el Señor designó a otros 70, a quienes envió de dos en dos a los lugares a donde Él pensaba ir."
+          "text": "Después de esto, el Señor designó a otros 70, a quienes envió de dos en dos a los lugares a donde Él pensaba ir.",
+          "headings": [
+            "70 enviados"
+          ]
         },
         {
           "number": 2,
@@ -2173,14 +2203,14 @@
         },
         {
           "number": 12,
-          "text": "Les digo que en el día del juicio será más tolerable el juicio para Sodoma que para aquella ciudad.",
-          "headings": [
-            "Maldiciones para Corazín, Betsaida y Cafarnaúm"
-          ]
+          "text": "Les digo que en el día del juicio será más tolerable el juicio para Sodoma que para aquella ciudad."
         },
         {
           "number": 13,
-          "text": "¡Ay de ti, Corazín! ¡Ay de ti, Betsaida! Porque si en Tiro y Sidón se hubieran hecho los milagros que se hicieron en ustedes, hace tiempo habrían cambiado de mente, sentadas en tela áspera y ceniza."
+          "text": "¡Ay de ti, Corazín! ¡Ay de ti, Betsaida! Porque si en Tiro y Sidón se hubieran hecho los milagros que se hicieron en ustedes, hace tiempo habrían cambiado de mente, sentadas en tela áspera y ceniza.",
+          "headings": [
+            "Maldiciones para Corazín, Betsaida y Cafarnaúm"
+          ]
         },
         {
           "number": 14,
@@ -2199,14 +2229,14 @@
         },
         {
           "number": 16,
-          "text": "El que los oye a ustedes, me oye. El que los rechaza, me rechaza. El que me rechaza, rechaza al que me envió.",
-          "headings": [
-            "Regreso de los 70"
-          ]
+          "text": "El que los oye a ustedes, me oye. El que los rechaza, me rechaza. El que me rechaza, rechaza al que me envió."
         },
         {
           "number": 17,
-          "text": "Los 70 regresaron con gozo y decían: Señor, aun los demonios se nos someten en tu Nombre."
+          "text": "Los 70 regresaron con gozo y decían: Señor, aun los demonios se nos someten en tu Nombre.",
+          "headings": [
+            "Regreso de los 70"
+          ]
         },
         {
           "number": 18,
@@ -2218,14 +2248,14 @@
         },
         {
           "number": 20,
-          "text": "Pero no se regocijen por esto, que los espíritus se les sometan, sino regocíjense porque sus nombres están inscritos en los cielos.",
-          "headings": [
-            "Alabanza por los niños"
-          ]
+          "text": "Pero no se regocijen por esto, que los espíritus se les sometan, sino regocíjense porque sus nombres están inscritos en los cielos."
         },
         {
           "number": 21,
-          "text": "En aquella misma hora se regocijó muchísimo en el Espíritu Santo y dijo: Te alabo, Padre, Señor del cielo y de la tierra, porque escondiste estas cosas de sabios e inteligentes y las revelaste a niños. Sí, Padre, porque así te agradó."
+          "text": "En aquella misma hora se regocijó muchísimo en el Espíritu Santo y dijo: Te alabo, Padre, Señor del cielo y de la tierra, porque escondiste estas cosas de sabios e inteligentes y las revelaste a niños. Sí, Padre, porque así te agradó.",
+          "headings": [
+            "Alabanza por los niños"
+          ]
         },
         {
           "number": 22,
@@ -2237,14 +2267,14 @@
         },
         {
           "number": 24,
-          "text": "porque les digo que muchos profetas y reyes desearon ver lo que ustedes ven, y no lo vieron, y oír lo que escuchan, y no lo escucharon.",
-          "headings": [
-            "Relato sobre el buen samaritano"
-          ]
+          "text": "porque les digo que muchos profetas y reyes desearon ver lo que ustedes ven, y no lo vieron, y oír lo que escuchan, y no lo escucharon."
         },
         {
           "number": 25,
-          "text": "De repente un doctor de la Ley apareció para probarlo y preguntó: Maestro, ¿qué haré para heredar la vida eterna?"
+          "text": "De repente un doctor de la Ley apareció para probarlo y preguntó: Maestro, ¿qué haré para heredar la vida eterna?",
+          "headings": [
+            "Relato sobre el buen samaritano"
+          ]
         },
         {
           "number": 26,
@@ -2292,14 +2322,14 @@
         },
         {
           "number": 37,
-          "text": "Y él contestó: El que hizo la misericordia con él. Entonces Jesús le dijo: Vé y haz tú lo mismo.",
-          "headings": [
-            "En casa de Marta y María"
-          ]
+          "text": "Y él contestó: El que hizo la misericordia con él. Entonces Jesús le dijo: Vé y haz tú lo mismo."
         },
         {
           "number": 38,
-          "text": "Al proseguir ellos, Él entró a una aldea y una mujer llamada Marta lo hospedó."
+          "text": "Al proseguir ellos, Él entró a una aldea y una mujer llamada Marta lo hospedó.",
+          "headings": [
+            "En casa de Marta y María"
+          ]
         },
         {
           "number": 39,
@@ -2324,7 +2354,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando Él terminó de hablar con Dios en un lugar, uno de sus discípulos le dijo: Señor, enséñanos a hablar con Dios, como Juan enseñó a sus discípulos."
+          "text": "Cuando Él terminó de hablar con Dios en un lugar, uno de sus discípulos le dijo: Señor, enséñanos a hablar con Dios, como Juan enseñó a sus discípulos.",
+          "headings": [
+            "Cómo hablar con Dios"
+          ]
         },
         {
           "number": 2,
@@ -2379,14 +2412,14 @@
         },
         {
           "number": 13,
-          "text": "Pues si ustedes, que son malos, saben dar buenos regalos a sus hijos, ¡Cuánto más el Padre celestial dará el Espíritu Santo a los que lo piden!",
-          "headings": [
-            "La casa dividida"
-          ]
+          "text": "Pues si ustedes, que son malos, saben dar buenos regalos a sus hijos, ¡Cuánto más el Padre celestial dará el Espíritu Santo a los que lo piden!"
         },
         {
           "number": 14,
-          "text": "Jesús echó fuera un demonio mudo. Al salir el demonio, el mudo habló, y la multitud quedó asombrada."
+          "text": "Jesús echó fuera un demonio mudo. Al salir el demonio, el mudo habló, y la multitud quedó asombrada.",
+          "headings": [
+            "La casa dividida"
+          ]
         },
         {
           "number": 15,
@@ -2422,14 +2455,14 @@
         },
         {
           "number": 23,
-          "text": "El que no está conmigo, está contra Mí, y el que no recoge conmigo, desparrama.",
-          "headings": [
-            "Lo que hace el espíritu impuro"
-          ]
+          "text": "El que no está conmigo, está contra Mí, y el que no recoge conmigo, desparrama."
         },
         {
           "number": 24,
-          "text": "Cuando el espíritu impuro sale del hombre, va por lugares secos y busca reposo. Al no hallarlo, dice: Regresaré a mi casa de donde salí."
+          "text": "Cuando el espíritu impuro sale del hombre, va por lugares secos y busca reposo. Al no hallarlo, dice: Regresaré a mi casa de donde salí.",
+          "headings": [
+            "Lo que hace el espíritu impuro"
+          ]
         },
         {
           "number": 25,
@@ -2437,25 +2470,25 @@
         },
         {
           "number": 26,
-          "text": "Entonces va y toma consigo otros siete espíritus peores que él, entran y habitan allí. Las últimas cosas de aquel hombre son peores que las primeras.",
+          "text": "Entonces va y toma consigo otros siete espíritus peores que él, entran y habitan allí. Las últimas cosas de aquel hombre son peores que las primeras."
+        },
+        {
+          "number": 27,
+          "text": "Cuando Él hablaba estas cosas, una mujer de la multitud exclamó: ¡Inmensamente feliz el vientre que te llevó y los pechos que mamaste!",
           "headings": [
             "Quiénes son inmensamente felices"
           ]
         },
         {
-          "number": 27,
-          "text": "Cuando Él hablaba estas cosas, una mujer de la multitud exclamó: ¡Inmensamente feliz el vientre que te llevó y los pechos que mamaste!"
-        },
-        {
           "number": 28,
-          "text": "Pero Él replicó: Más inmensamente felices son los que oyen y guardan la Palabra de Dios.",
-          "headings": [
-            "Demanda de una señal"
-          ]
+          "text": "Pero Él replicó: Más inmensamente felices son los que oyen y guardan la Palabra de Dios."
         },
         {
           "number": 29,
-          "text": "Mientras se aglomeraba la multitud, Él dijo: Esta generación es perversa. Busca una señal, pero solo se le dará la señal de Jonás."
+          "text": "Mientras se aglomeraba la multitud, Él dijo: Esta generación es perversa. Busca una señal, pero solo se le dará la señal de Jonás.",
+          "headings": [
+            "Demanda de una señal"
+          ]
         },
         {
           "number": 30,
@@ -2467,14 +2500,14 @@
         },
         {
           "number": 32,
-          "text": "Unos varones ninivitas se levantarán en el juicio contra esta generación y la condenarán, porque cambiaron de mente por la predicación de Jonás, y aquí está Uno mayor que Jonás.",
-          "headings": [
-            "Ojo bueno y ojo malo"
-          ]
+          "text": "Unos varones ninivitas se levantarán en el juicio contra esta generación y la condenarán, porque cambiaron de mente por la predicación de Jonás, y aquí está Uno mayor que Jonás."
         },
         {
           "number": 33,
-          "text": "Nadie que enciende una lámpara la pone en un lugar oculto, o debajo de una caja para medir granos, sino sobre el candelero para que los que entran vean la luz."
+          "text": "Nadie que enciende una lámpara la pone en un lugar oculto, o debajo de una caja para medir granos, sino sobre el candelero para que los que entran vean la luz.",
+          "headings": [
+            "Ojo bueno y ojo malo"
+          ]
         },
         {
           "number": 34,
@@ -2486,14 +2519,14 @@
         },
         {
           "number": 36,
-          "text": "Así que, si todo tu cuerpo está iluminado y no tiene ninguna parte oscura, todo será luminoso, como cuando una lámpara te ilumina con su fulgor.",
-          "headings": [
-            "Censura a escribas y fariseos"
-          ]
+          "text": "Así que, si todo tu cuerpo está iluminado y no tiene ninguna parte oscura, todo será luminoso, como cuando una lámpara te ilumina con su fulgor."
         },
         {
           "number": 37,
-          "text": "Mientras hablaba, un fariseo le rogó que comiera con él. Entró y se reclinó."
+          "text": "Mientras hablaba, un fariseo le rogó que comiera con él. Entró y se reclinó.",
+          "headings": [
+            "Censura a escribas y fariseos"
+          ]
         },
         {
           "number": 38,
@@ -2570,7 +2603,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entretanto, al reunirse una multitud de miles y miles, hasta pisotearse unos a otros, comenzó a decir primero a sus discípulos: Guárdense de la levadura de los fariseos, que es una hipocresía."
+          "text": "Entretanto, al reunirse una multitud de miles y miles, hasta pisotearse unos a otros, comenzó a decir primero a sus discípulos: Guárdense de la levadura de los fariseos, que es una hipocresía.",
+          "headings": [
+            "La hipocresía de los fariseos"
+          ]
         },
         {
           "number": 2,
@@ -2578,14 +2614,14 @@
         },
         {
           "number": 3,
-          "text": "Por tanto lo que dijeron ustedes en la oscuridad será oído en la luz, y lo que hablaron al oído en los aposentos más secretos será pregonado en las azoteas.",
-          "headings": [
-            "Un verdadero temor"
-          ]
+          "text": "Por tanto lo que dijeron ustedes en la oscuridad será oído en la luz, y lo que hablaron al oído en los aposentos más secretos será pregonado en las azoteas."
         },
         {
           "number": 4,
-          "text": "Les digo, amigos míos: No teman a los que matan el cuerpo, y después no tienen como hacer algo peor."
+          "text": "Les digo, amigos míos: No teman a los que matan el cuerpo, y después no tienen como hacer algo peor.",
+          "headings": [
+            "Un verdadero temor"
+          ]
         },
         {
           "number": 5,
@@ -2597,14 +2633,14 @@
         },
         {
           "number": 7,
-          "text": "Aun los cabellos de la cabeza de ustedes están contados. No teman, ustedes valen más que muchos pajarillos.",
-          "headings": [
-            "La blasfemia contra el Espíritu Santo"
-          ]
+          "text": "Aun los cabellos de la cabeza de ustedes están contados. No teman, ustedes valen más que muchos pajarillos."
         },
         {
           "number": 8,
-          "text": "Les digo: Todo aquel que me confiese delante de los hombres, el Hijo del Hombre lo confesará delante de los ángeles de Dios,"
+          "text": "Les digo: Todo aquel que me confiese delante de los hombres, el Hijo del Hombre lo confesará delante de los ángeles de Dios,",
+          "headings": [
+            "La blasfemia contra el Espíritu Santo"
+          ]
         },
         {
           "number": 9,
@@ -2620,14 +2656,14 @@
         },
         {
           "number": 12,
-          "text": "porque el Santo Espíritu les enseñará en aquella hora lo que deben decir.",
-          "headings": [
-            "Jesús, Juez o Partidor"
-          ]
+          "text": "porque el Santo Espíritu les enseñará en aquella hora lo que deben decir."
         },
         {
           "number": 13,
-          "text": "Le dijo uno de la multitud: Maestro, dí a mi hermano que comparta la herencia conmigo."
+          "text": "Le dijo uno de la multitud: Maestro, dí a mi hermano que comparta la herencia conmigo.",
+          "headings": [
+            "Jesús, Juez o Partidor"
+          ]
         },
         {
           "number": 14,
@@ -2635,14 +2671,14 @@
         },
         {
           "number": 15,
-          "text": "Y les dijo: Tengan cuidado y guárdense de toda avaricia, porque aunque alguno tenga más que suficiente, su vida no depende de las cosas que posee.",
-          "headings": [
-            "Parábola del insensato"
-          ]
+          "text": "Y les dijo: Tengan cuidado y guárdense de toda avaricia, porque aunque alguno tenga más que suficiente, su vida no depende de las cosas que posee."
         },
         {
           "number": 16,
-          "text": "Les narró una parábola: La tierra de un hombre rico produjo mucho fruto."
+          "text": "Les narró una parábola: La tierra de un hombre rico produjo mucho fruto.",
+          "headings": [
+            "Parábola del insensato"
+          ]
         },
         {
           "number": 17,
@@ -2662,14 +2698,14 @@
         },
         {
           "number": 21,
-          "text": "Así es el que atesora para él y no es rico para Dios.",
-          "headings": [
-            "Contra la preocupación por la vida"
-          ]
+          "text": "Así es el que atesora para él y no es rico para Dios."
         },
         {
           "number": 22,
-          "text": "Y dijo a los discípulos: Por esto les digo: No se preocupen por la vida ni por el cuerpo: qué comerán y qué vestirán."
+          "text": "Y dijo a los discípulos: Por esto les digo: No se preocupen por la vida ni por el cuerpo: qué comerán y qué vestirán.",
+          "headings": [
+            "Contra la preocupación por la vida"
+          ]
         },
         {
           "number": 23,
@@ -2724,14 +2760,14 @@
         },
         {
           "number": 34,
-          "text": "porque donde está tu tesoro, allí también está tu corazón.",
-          "headings": [
-            "Inmensa felicidad para el que vela"
-          ]
+          "text": "porque donde está tu tesoro, allí también está tu corazón."
         },
         {
           "number": 35,
-          "text": "Estén atadas sus cinturas y encendidas sus lámparas."
+          "text": "Estén atadas sus cinturas y encendidas sus lámparas.",
+          "headings": [
+            "Inmensa felicidad para el que vela"
+          ]
         },
         {
           "number": 36,
@@ -2783,14 +2819,14 @@
         },
         {
           "number": 48,
-          "text": "Pero el que no la conoció, aunque hizo cosas dignas de azotes, será azotado poco. Porque a todo aquel a quien fue dado mucho, mucho se le demandará. Al que encomendaron mucho, mucho más le pedirán.",
-          "headings": [
-            "Un objetivo de la primera venida de Cristo: la división"
-          ]
+          "text": "Pero el que no la conoció, aunque hizo cosas dignas de azotes, será azotado poco. Porque a todo aquel a quien fue dado mucho, mucho se le demandará. Al que encomendaron mucho, mucho más le pedirán."
         },
         {
           "number": 49,
-          "text": "Vine a echar fuego sobre la tierra. ¿Qué más quiero, si ya fue encendido?"
+          "text": "Vine a echar fuego sobre la tierra. ¿Qué más quiero, si ya fue encendido?",
+          "headings": [
+            "Un objetivo de la primera venida de Cristo: la división"
+          ]
         },
         {
           "number": 50,
@@ -2806,14 +2842,14 @@
         },
         {
           "number": 53,
-          "text": "Se dividirán padre contra hijo e hijo contra padre, madre contra hija e hija contra madre, suegra contra nuera y nuera contra suegra.",
-          "headings": [
-            "Reconocimiento del tiempo"
-          ]
+          "text": "Se dividirán padre contra hijo e hijo contra padre, madre contra hija e hija contra madre, suegra contra nuera y nuera contra suegra."
         },
         {
           "number": 54,
-          "text": "Decía también a la multitud: Cuando ustedes ven una nube que sale del occidente, de inmediato dicen: Viene un aguacero, y así sucede."
+          "text": "Decía también a la multitud: Cuando ustedes ven una nube que sale del occidente, de inmediato dicen: Viene un aguacero, y así sucede.",
+          "headings": [
+            "Reconocimiento del tiempo"
+          ]
         },
         {
           "number": 55,
@@ -2821,14 +2857,14 @@
         },
         {
           "number": 56,
-          "text": "¡Hipócritas! Saben analizar el aspecto de la tierra y del cielo, ¿y cómo no analizaron este tiempo?",
-          "headings": [
-            "Reconciliación con el adversario"
-          ]
+          "text": "¡Hipócritas! Saben analizar el aspecto de la tierra y del cielo, ¿y cómo no analizaron este tiempo?"
         },
         {
           "number": 57,
-          "text": "¿Por qué no juzgan ustedes lo justo?"
+          "text": "¿Por qué no juzgan ustedes lo justo?",
+          "headings": [
+            "Reconciliación con el adversario"
+          ]
         },
         {
           "number": 58,
@@ -2845,7 +2881,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En la misma ocasión estaban presentes algunos que le informaron a Jesús sobre unos galileos cuya sangre Pilato mezcló con los sacrificios de ellos."
+          "text": "En la misma ocasión estaban presentes algunos que le informaron a Jesús sobre unos galileos cuya sangre Pilato mezcló con los sacrificios de ellos.",
+          "headings": [
+            "El cambio de mente"
+          ]
         },
         {
           "number": 2,
@@ -2861,14 +2900,14 @@
         },
         {
           "number": 5,
-          "text": "No. Más bien, si ustedes no cambian de mente todos perecerán del mismo modo.",
-          "headings": [
-            "Una higuera estéril"
-          ]
+          "text": "No. Más bien, si ustedes no cambian de mente todos perecerán del mismo modo."
         },
         {
           "number": 6,
-          "text": "Les narró esta parábola: Alguien tenía una higuera plantada en su huerto. Fue a buscar fruto en ella y no lo halló."
+          "text": "Les narró esta parábola: Alguien tenía una higuera plantada en su huerto. Fue a buscar fruto en ella y no lo halló.",
+          "headings": [
+            "Una higuera estéril"
+          ]
         },
         {
           "number": 7,
@@ -2880,14 +2919,14 @@
         },
         {
           "number": 9,
-          "text": "Si se ve que va a producir fruto, bien , y si no, la cortas.",
-          "headings": [
-            "Sanidad en un sábado"
-          ]
+          "text": "Si se ve que va a producir fruto, bien , y si no, la cortas."
         },
         {
           "number": 10,
-          "text": "Un sábado enseñaba en una congregación de los judíos."
+          "text": "Un sábado enseñaba en una congregación de los judíos.",
+          "headings": [
+            "Sanidad en un sábado"
+          ]
         },
         {
           "number": 11,
@@ -2915,36 +2954,36 @@
         },
         {
           "number": 17,
-          "text": "Al decir estas cosas, todos los que se le oponían quedaban humillados, pero todo el pueblo se regocijaba por las cosas espléndidas que Él hacía.",
+          "text": "Al decir estas cosas, todos los que se le oponían quedaban humillados, pero todo el pueblo se regocijaba por las cosas espléndidas que Él hacía."
+        },
+        {
+          "number": 18,
+          "text": "Por tanto dijo: ¿A qué es semejante el reino de Dios, y a qué lo compararé?",
           "headings": [
             "Como un grano de mostaza"
           ]
         },
         {
-          "number": 18,
-          "text": "Por tanto dijo: ¿A qué es semejante el reino de Dios, y a qué lo compararé?"
+          "number": 19,
+          "text": "Es semejante a un grano de mostaza que un hombre sembró en su huerto. Creció y se convirtió en un árbol, y las aves del cielo anidaron en sus ramas."
         },
         {
-          "number": 19,
-          "text": "Es semejante a un grano de mostaza que un hombre sembró en su huerto. Creció y se convirtió en un árbol, y las aves del cielo anidaron en sus ramas.",
+          "number": 20,
+          "text": "Y otra vez dijo: ¿A qué compararé el reino de Dios?",
           "headings": [
             "La levadura"
           ]
         },
         {
-          "number": 20,
-          "text": "Y otra vez dijo: ¿A qué compararé el reino de Dios?"
-        },
-        {
           "number": 21,
-          "text": "Es semejante a la levadura que una mujer echó en tres medidas de harina hasta que todo fue leudado.",
-          "headings": [
-            "Puerta angosta"
-          ]
+          "text": "Es semejante a la levadura que una mujer echó en tres medidas de harina hasta que todo fue leudado."
         },
         {
           "number": 22,
-          "text": "En su viaje a Jerusalén, Jesús enseñaba en las ciudades y aldeas por donde pasaba."
+          "text": "En su viaje a Jerusalén, Jesús enseñaba en las ciudades y aldeas por donde pasaba.",
+          "headings": [
+            "Puerta angosta"
+          ]
         },
         {
           "number": 23,
@@ -2976,14 +3015,14 @@
         },
         {
           "number": 30,
-          "text": "Piensen: Hay últimos que serán primeros, y primeros que serán últimos.",
-          "headings": [
-            "Queja contra Jerusalén"
-          ]
+          "text": "Piensen: Hay últimos que serán primeros, y primeros que serán últimos."
         },
         {
           "number": 31,
-          "text": "En aquella hora llegaron unos fariseos que le dijeron: Sal y escápate de aquí porque Herodes quiere matarte."
+          "text": "En aquella hora llegaron unos fariseos que le dijeron: Sal y escápate de aquí porque Herodes quiere matarte.",
+          "headings": [
+            "Queja contra Jerusalén"
+          ]
         },
         {
           "number": 32,
@@ -3008,7 +3047,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Él entró en la casa de uno de los principales fariseos a comer pan un sábado. Ellos lo observaban detenidamente."
+          "text": "Él entró en la casa de uno de los principales fariseos a comer pan un sábado. Ellos lo observaban detenidamente.",
+          "headings": [
+            "Sanidad en sábado"
+          ]
         },
         {
           "number": 2,
@@ -3028,14 +3070,14 @@
         },
         {
           "number": 6,
-          "text": "Y no pudieron responderle.",
-          "headings": [
-            "Los primeros puestos"
-          ]
+          "text": "Y no pudieron responderle."
         },
         {
           "number": 7,
-          "text": "Al ver que ellos escogían los puestos de honor, les narró una parábola:"
+          "text": "Al ver que ellos escogían los puestos de honor, les narró una parábola:",
+          "headings": [
+            "Los primeros puestos"
+          ]
         },
         {
           "number": 8,
@@ -3051,14 +3093,14 @@
         },
         {
           "number": 11,
-          "text": "Porque todo el que se enaltece será humillado, y el que se humilla será enaltecido.",
-          "headings": [
-            "A quiénes se debe invitar"
-          ]
+          "text": "Porque todo el que se enaltece será humillado, y el que se humilla será enaltecido."
         },
         {
           "number": 12,
-          "text": "Decía también al que lo invitó: Cuando ofrezcas una comida o una cena, no invites a tus amigos, hermanos, parientes, ni vecinos ricos, no sea que también ellos a su vez te inviten y tengas recompensa."
+          "text": "Decía también al que lo invitó: Cuando ofrezcas una comida o una cena, no invites a tus amigos, hermanos, parientes, ni vecinos ricos, no sea que también ellos a su vez te inviten y tengas recompensa.",
+          "headings": [
+            "A quiénes se debe invitar"
+          ]
         },
         {
           "number": 13,
@@ -3066,14 +3108,14 @@
         },
         {
           "number": 14,
-          "text": "y serás inmensamente feliz, pues no tienen cómo retribuirte, pero te será recompensado en la resurrección de los justos.",
-          "headings": [
-            "Una gran cena"
-          ]
+          "text": "y serás inmensamente feliz, pues no tienen cómo retribuirte, pero te será recompensado en la resurrección de los justos."
         },
         {
           "number": 15,
-          "text": "Al oírlo, uno de los reclinados le dijo: Inmensamente feliz cualquiera que coma pan en el reino de Dios."
+          "text": "Al oírlo, uno de los reclinados le dijo: Inmensamente feliz cualquiera que coma pan en el reino de Dios.",
+          "headings": [
+            "Una gran cena"
+          ]
         },
         {
           "number": 16,
@@ -3109,14 +3151,14 @@
         },
         {
           "number": 24,
-          "text": "Porque les digo que ninguno de aquellos que fueron invitados probará mi cena.",
-          "headings": [
-            "Condiciones para ser discípulo de Cristo"
-          ]
+          "text": "Porque les digo que ninguno de aquellos que fueron invitados probará mi cena."
         },
         {
           "number": 25,
-          "text": "Iba con Él una gran multitud, y al dar la vuelta, les dijo:"
+          "text": "Iba con Él una gran multitud, y al dar la vuelta, les dijo:",
+          "headings": [
+            "Condiciones para ser discípulo de Cristo"
+          ]
         },
         {
           "number": 26,
@@ -3148,14 +3190,14 @@
         },
         {
           "number": 33,
-          "text": "Así pues, cualquiera de ustedes que no se despoje de todas sus posesiones no puede ser mi discípulo.",
-          "headings": [
-            "Una comparación con la sal"
-          ]
+          "text": "Así pues, cualquiera de ustedes que no se despoje de todas sus posesiones no puede ser mi discípulo."
         },
         {
           "number": 34,
-          "text": "Buena es la sal, pero si la sal se desvanece, ¿con qué será sazonada?"
+          "text": "Buena es la sal, pero si la sal se desvanece, ¿con qué será sazonada?",
+          "headings": [
+            "Una comparación con la sal"
+          ]
         },
         {
           "number": 35,
@@ -3168,7 +3210,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces muchos publicanos y pecadores se acercaban para oírlo."
+          "text": "Entonces muchos publicanos y pecadores se acercaban para oírlo.",
+          "headings": [
+            "La oveja perdida"
+          ]
         },
         {
           "number": 2,
@@ -3192,14 +3237,14 @@
         },
         {
           "number": 7,
-          "text": "Les digo que así habrá más gozo en el cielo por un pecador que cambia de mente que por 99 justos que no tienen necesidad de cambio de mente.",
-          "headings": [
-            "Una dracma perdida"
-          ]
+          "text": "Les digo que así habrá más gozo en el cielo por un pecador que cambia de mente que por 99 justos que no tienen necesidad de cambio de mente."
         },
         {
           "number": 8,
           "text": "¿O cuál mujer que tiene diez dracmas, cuando pierda una, no enciende una lámpara, barre la casa y busca cuidadosamente hasta que la halla?",
+          "headings": [
+            "Una dracma perdida"
+          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -3214,14 +3259,14 @@
         },
         {
           "number": 10,
-          "text": "Así les digo, habrá gozo delante de los ángeles de Dios por un pecador que cambia de mente.",
-          "headings": [
-            "Un hijo menor perdido"
-          ]
+          "text": "Así les digo, habrá gozo delante de los ángeles de Dios por un pecador que cambia de mente."
         },
         {
           "number": 11,
-          "text": "También dijo: Un hombre tenía dos hijos."
+          "text": "También dijo: Un hombre tenía dos hijos.",
+          "headings": [
+            "Un hijo menor perdido"
+          ]
         },
         {
           "number": 12,
@@ -3261,14 +3306,14 @@
         },
         {
           "number": 21,
-          "text": "El hijo le habló: Padre, pequé contra el cielo y contra ti. No soy digno de que me llames tu hijo.",
-          "headings": [
-            "Celebración del rescate de un hijo"
-          ]
+          "text": "El hijo le habló: Padre, pequé contra el cielo y contra ti. No soy digno de que me llames tu hijo."
         },
         {
           "number": 22,
-          "text": "Pero el padre ordenó a sus esclavos: ¡Saquen pronto la mejor ropa y vístanlo, y pongan un anillo en su mano y sandalias en sus pies!"
+          "text": "Pero el padre ordenó a sus esclavos: ¡Saquen pronto la mejor ropa y vístanlo, y pongan un anillo en su mano y sandalias en sus pies!",
+          "headings": [
+            "Celebración del rescate de un hijo"
+          ]
         },
         {
           "number": 23,
@@ -3276,14 +3321,14 @@
         },
         {
           "number": 24,
-          "text": "Porque este hijo mío estaba muerto y revivió. Estaba perdido y fue hallado. Y comenzaron a regocijarse.",
-          "headings": [
-            "Un hijo mayor perdido"
-          ]
+          "text": "Porque este hijo mío estaba muerto y revivió. Estaba perdido y fue hallado. Y comenzaron a regocijarse."
         },
         {
           "number": 25,
-          "text": "Cuando el hijo mayor regresaba del campo, se acercó a la casa y oyó música y danza."
+          "text": "Cuando el hijo mayor regresaba del campo, se acercó a la casa y oyó música y danza.",
+          "headings": [
+            "Un hijo mayor perdido"
+          ]
         },
         {
           "number": 26,
@@ -3320,7 +3365,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Dijo también a los discípulos: Un rico tenía un mayordomo quien fue acusado de malgastar los bienes de su señor."
+          "text": "Dijo también a los discípulos: Un rico tenía un mayordomo quien fue acusado de malgastar los bienes de su señor.",
+          "headings": [
+            "El mayordomo de la injusticia"
+          ]
         },
         {
           "number": 2,
@@ -3344,14 +3392,14 @@
         },
         {
           "number": 7,
-          "text": "Luego preguntó a otro: ¿Y tú, cuánto debes? Y él respondió: 100 medidas de trigo. Le dijo: Toma las facturas y escribe 80.",
-          "headings": [
-            "La riqueza de la injusticia"
-          ]
+          "text": "Luego preguntó a otro: ¿Y tú, cuánto debes? Y él respondió: 100 medidas de trigo. Le dijo: Toma las facturas y escribe 80."
         },
         {
           "number": 8,
-          "text": "El señor elogió al mayordomo de la injusticia porque actuó sagazmente. Porque con respecto a su generación, los hijos de este siglo son más sagaces que los hijos de la luz."
+          "text": "El señor elogió al mayordomo de la injusticia porque actuó sagazmente. Porque con respecto a su generación, los hijos de este siglo son más sagaces que los hijos de la luz.",
+          "headings": [
+            "La riqueza de la injusticia"
+          ]
         },
         {
           "number": 9,
@@ -3374,14 +3422,14 @@
         },
         {
           "number": 12,
-          "text": "Y si en lo ajeno no fueron fieles, ¿quién les dará a ustedes lo que le pertenece a él?",
-          "headings": [
-            "Dios y la riqueza injusta"
-          ]
+          "text": "Y si en lo ajeno no fueron fieles, ¿quién les dará a ustedes lo que le pertenece a él?"
         },
         {
           "number": 13,
-          "text": "Ningún esclavo doméstico puede servir como esclavo a dos señores, porque despreciará al uno y apreciará al otro, o estimará al uno y desestimará al otro. No pueden servir como esclavos a Dios y a la riqueza injusta."
+          "text": "Ningún esclavo doméstico puede servir como esclavo a dos señores, porque despreciará al uno y apreciará al otro, o estimará al uno y desestimará al otro. No pueden servir como esclavos a Dios y a la riqueza injusta.",
+          "headings": [
+            "Dios y la riqueza injusta"
+          ]
         },
         {
           "number": 14,
@@ -3389,32 +3437,32 @@
         },
         {
           "number": 15,
-          "text": "Entonces les dijo: Ustedes se declaran justos delante de los hombres, pero Dios conoce sus corazones, porque lo sublime entre hombres, delante de Dios es repugnancia.",
+          "text": "Entonces les dijo: Ustedes se declaran justos delante de los hombres, pero Dios conoce sus corazones, porque lo sublime entre hombres, delante de Dios es repugnancia."
+        },
+        {
+          "number": 16,
+          "text": "La Ley y los profetas se proclamaron hasta Juan. Desde entonces se proclama el reino de Dios, y todos se esfuerzan por entrar en él.",
           "headings": [
             "La Ley y el reino"
           ]
         },
         {
-          "number": 16,
-          "text": "La Ley y los profetas se proclamaron hasta Juan. Desde entonces se proclama el reino de Dios, y todos se esfuerzan por entrar en él."
-        },
-        {
           "number": 17,
-          "text": "Pero es más fácil que desaparezcan el cielo y la tierra que caiga un trazo de una letra de la Ley.",
-          "headings": [
-            "Repudio y adulterio"
-          ]
+          "text": "Pero es más fácil que desaparezcan el cielo y la tierra que caiga un trazo de una letra de la Ley."
         },
         {
           "number": 18,
           "text": "Todo el que repudia a su esposa y se casa con otra, adultera, y el que se casa con la repudiada, adultera.",
           "headings": [
-            "Un rico y un mendigo"
+            "Repudio y adulterio"
           ]
         },
         {
           "number": 19,
-          "text": "Había un hombre rico que se vestía de púrpura y lino fino y se regocijaba con esplendidez cada día."
+          "text": "Había un hombre rico que se vestía de púrpura y lino fino y se regocijaba con esplendidez cada día.",
+          "headings": [
+            "Un rico y un mendigo"
+          ]
         },
         {
           "number": 20,
@@ -3478,7 +3526,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces dijo a sus discípulos: Es imposible que no vengan las conturbaciones, pero ¡ay de aquél por medio de quien vienen!"
+          "text": "Entonces dijo a sus discípulos: Es imposible que no vengan las conturbaciones, pero ¡ay de aquél por medio de quien vienen!",
+          "headings": [
+            "Las conturbaciones"
+          ]
         },
         {
           "number": 2,
@@ -3490,21 +3541,18 @@
         },
         {
           "number": 4,
-          "text": "Si siete veces al día peca contra ti, y siete veces vuelve a ti y dice: Cambio de mente. Perdónalo.",
+          "text": "Si siete veces al día peca contra ti, y siete veces vuelve a ti y dice: Cambio de mente. Perdónalo."
+        },
+        {
+          "number": 5,
+          "text": "Dijeron los apóstoles al Señor: Auméntanos la fe.",
           "headings": [
             "La dimensión de la fe"
           ]
         },
         {
-          "number": 5,
-          "text": "Dijeron los apóstoles al Señor: Auméntanos la fe."
-        },
-        {
           "number": 6,
           "text": "Entonces el Señor dijo: Si ustedes tienen fe como un grano de mostaza, dirían al sicómoro: ¡Desarráigate y plántate en el mar! Y les obedecería.",
-          "headings": [
-            "Esclavos inútiles"
-          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -3515,7 +3563,10 @@
         },
         {
           "number": 7,
-          "text": "¿Quién de ustedes tiene un esclavo que ara o pastorea, y al llegar éste del campo, le dice: Pasa de inmediato, reclínate?"
+          "text": "¿Quién de ustedes tiene un esclavo que ara o pastorea, y al llegar éste del campo, le dice: Pasa de inmediato, reclínate?",
+          "headings": [
+            "Esclavos inútiles"
+          ]
         },
         {
           "number": 8,
@@ -3527,14 +3578,14 @@
         },
         {
           "number": 10,
-          "text": "Así también ustedes, cuando hagan todas las cosas que se les ordenan, digan: Somos esclavos inútiles. Hicimos lo que debíamos hacer.",
-          "headings": [
-            "Diez leprosos"
-          ]
+          "text": "Así también ustedes, cuando hagan todas las cosas que se les ordenan, digan: Somos esclavos inútiles. Hicimos lo que debíamos hacer."
         },
         {
           "number": 11,
-          "text": "Cuando iba hacia Jerusalén, pasaba entre Samaria y Galilea."
+          "text": "Cuando iba hacia Jerusalén, pasaba entre Samaria y Galilea.",
+          "headings": [
+            "Diez leprosos"
+          ]
         },
         {
           "number": 12,
@@ -3566,25 +3617,25 @@
         },
         {
           "number": 19,
-          "text": "Y le dijo: Levántate, vete. Tu fe te salvó.",
+          "text": "Y le dijo: Levántate, vete. Tu fe te salvó."
+        },
+        {
+          "number": 20,
+          "text": "Al ser interrogado por los fariseos sobre cuándo viene el reino de Dios, les respondió: El reino de Dios no viene con advertencia ,",
           "headings": [
             "La venida del reino"
           ]
         },
         {
-          "number": 20,
-          "text": "Al ser interrogado por los fariseos sobre cuándo viene el reino de Dios, les respondió: El reino de Dios no viene con advertencia ,"
-        },
-        {
           "number": 21,
-          "text": "ni dirán: ¡Miren, está aquí! O: ¡Miren, está allí! Porque aquí en medio de ustedes está el reino de Dios.",
-          "headings": [
-            "Como el relámpago"
-          ]
+          "text": "ni dirán: ¡Miren, está aquí! O: ¡Miren, está allí! Porque aquí en medio de ustedes está el reino de Dios."
         },
         {
           "number": 22,
-          "text": "Entonces dijo a los discípulos: Vendrán días cuando ustedes anhelarán ver uno de los días del Hijo del Hombre, y no lo verán."
+          "text": "Entonces dijo a los discípulos: Vendrán días cuando ustedes anhelarán ver uno de los días del Hijo del Hombre, y no lo verán.",
+          "headings": [
+            "Como el relámpago"
+          ]
         },
         {
           "number": 23,
@@ -3596,14 +3647,14 @@
         },
         {
           "number": 25,
-          "text": "Pero primero le es necesario padecer mucho y ser rechazado por esta generación.",
-          "headings": [
-            "Como en los días de Noé y de Lot"
-          ]
+          "text": "Pero primero le es necesario padecer mucho y ser rechazado por esta generación."
         },
         {
           "number": 26,
-          "text": "Como sucedió en los días de Noé, así será también en los días del Hijo del Hombre:"
+          "text": "Como sucedió en los días de Noé, así será también en los días del Hijo del Hombre:",
+          "headings": [
+            "Como en los días de Noé y de Lot"
+          ]
         },
         {
           "number": 27,
@@ -3631,14 +3682,14 @@
         },
         {
           "number": 33,
-          "text": "Cualquiera que procure preservar su vida, la perderá, y cualquiera que la pierda, la preservará.",
-          "headings": [
-            "Uno tomado y otro dejado"
-          ]
+          "text": "Cualquiera que procure preservar su vida, la perderá, y cualquiera que la pierda, la preservará."
         },
         {
           "number": 34,
-          "text": "Les digo: Aquella noche estarán dos en una cama: uno será tomado y otro será dejado."
+          "text": "Les digo: Aquella noche estarán dos en una cama: uno será tomado y otro será dejado.",
+          "headings": [
+            "Uno tomado y otro dejado"
+          ]
         },
         {
           "number": 35,
@@ -3659,7 +3710,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Les narró también una parábola con respecto a la necesidad de hablar ellos siempre con Dios y no desmayar:"
+          "text": "Les narró también una parábola con respecto a la necesidad de hablar ellos siempre con Dios y no desmayar:",
+          "headings": [
+            "Un juez injusto y una viuda"
+          ]
         },
         {
           "number": 2,
@@ -3694,14 +3748,14 @@
         },
         {
           "number": 8,
-          "text": "Les digo que con prontitud les hará justicia. Pero cuando el Hijo del Hombre venga, ¿hallará la fe en la tierra?",
-          "headings": [
-            "Un fariseo y un publicano"
-          ]
+          "text": "Les digo que con prontitud les hará justicia. Pero cuando el Hijo del Hombre venga, ¿hallará la fe en la tierra?"
         },
         {
           "number": 9,
-          "text": "Narró esta parábola a unos que confiaban en ellos mismos como justos y menospreciaban a los demás:"
+          "text": "Narró esta parábola a unos que confiaban en ellos mismos como justos y menospreciaban a los demás:",
+          "headings": [
+            "Un fariseo y un publicano"
+          ]
         },
         {
           "number": 10,
@@ -3721,14 +3775,14 @@
         },
         {
           "number": 14,
-          "text": "Les digo que éste bajó a su casa justificado y no el otro, porque todo el que se enaltece será humillado, y el que se humilla será enaltecido.",
-          "headings": [
-            "Presentación de los niños"
-          ]
+          "text": "Les digo que éste bajó a su casa justificado y no el otro, porque todo el que se enaltece será humillado, y el que se humilla será enaltecido."
         },
         {
           "number": 15,
-          "text": "Le presentaban también los niños para que los tocara. Al ver esto, los discípulos los reprendían."
+          "text": "Le presentaban también los niños para que los tocara. Al ver esto, los discípulos los reprendían.",
+          "headings": [
+            "Presentación de los niños"
+          ]
         },
         {
           "number": 16,
@@ -3736,14 +3790,14 @@
         },
         {
           "number": 17,
-          "text": "En verdad les digo: El que no reciba el reino de Dios como un niño, que de ningún modo entre en él.",
-          "headings": [
-            "Dificultad de los ricos"
-          ]
+          "text": "En verdad les digo: El que no reciba el reino de Dios como un niño, que de ningún modo entre en él."
         },
         {
           "number": 18,
-          "text": "Un dignatario le preguntó: Maestro bueno, ¿qué hago para heredar la vida eterna?"
+          "text": "Un dignatario le preguntó: Maestro bueno, ¿qué hago para heredar la vida eterna?",
+          "headings": [
+            "Dificultad de los ricos"
+          ]
         },
         {
           "number": 19,
@@ -3805,14 +3859,14 @@
         },
         {
           "number": 30,
-          "text": "que no reciba muchas veces más en este tiempo, y en la era que viene, la vida eterna.",
-          "headings": [
-            "Tercera predicción de su muerte y resurrección"
-          ]
+          "text": "que no reciba muchas veces más en este tiempo, y en la era que viene, la vida eterna."
         },
         {
           "number": 31,
-          "text": "Jesús tomó consigo a los 12 y les dijo: Miren, subimos a Jerusalén. Se cumplirán todas las cosas que fueron escritas por los profetas con respecto al Hijo del Hombre."
+          "text": "Jesús tomó consigo a los 12 y les dijo: Miren, subimos a Jerusalén. Se cumplirán todas las cosas que fueron escritas por los profetas con respecto al Hijo del Hombre.",
+          "headings": [
+            "Tercera predicción de su muerte y resurrección"
+          ]
         },
         {
           "number": 32,
@@ -3824,14 +3878,14 @@
         },
         {
           "number": 34,
-          "text": "Ellos nada de esto entendieron. Esta Palabra era oculta de ellos. No entendían lo que se les decía.",
-          "headings": [
-            "Un ciego cerca de Jericó"
-          ]
+          "text": "Ellos nada de esto entendieron. Esta Palabra era oculta de ellos. No entendían lo que se les decía."
         },
         {
           "number": 35,
-          "text": "Cuando Él se acercó a Jericó, un ciego estaba sentado junto al camino y mendigaba."
+          "text": "Cuando Él se acercó a Jericó, un ciego estaba sentado junto al camino y mendigaba.",
+          "headings": [
+            "Un ciego cerca de Jericó"
+          ]
         },
         {
           "number": 36,
@@ -3872,7 +3926,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando Jesús entró en Jericó, iba por la ciudad."
+          "text": "Cuando Jesús entró en Jericó, iba por la ciudad.",
+          "headings": [
+            "El publicano Zaqueo"
+          ]
         },
         {
           "number": 2,
@@ -3908,14 +3965,14 @@
         },
         {
           "number": 10,
-          "text": "Porque el Hijo del Hombre vino a buscar y a salvar lo que estaba perdido.",
-          "headings": [
-            "Parábola de las diez minas"
-          ]
+          "text": "Porque el Hijo del Hombre vino a buscar y a salvar lo que estaba perdido."
         },
         {
           "number": 11,
-          "text": "Por cuanto Él estaba cerca de Jerusalén y porque ellos oían esto y pensaban que el reino de Dios ya iba a manifestarse, prosiguió y presentó una parábola:"
+          "text": "Por cuanto Él estaba cerca de Jerusalén y porque ellos oían esto y pensaban que el reino de Dios ya iba a manifestarse, prosiguió y presentó una parábola:",
+          "headings": [
+            "Parábola de las diez minas"
+          ]
         },
         {
           "number": 12,
@@ -3983,14 +4040,14 @@
         },
         {
           "number": 28,
-          "text": "Después de decir estas cosas, iba hacia adelante y subía a Jerusalén.",
-          "headings": [
-            "Llegada a Jerusalén"
-          ]
+          "text": "Después de decir estas cosas, iba hacia adelante y subía a Jerusalén."
         },
         {
           "number": 29,
-          "text": "Cuando Jesús llegó cerca de Betfagé y Betania, a la Montaña de Los Olivos, envió a dos discípulos"
+          "text": "Cuando Jesús llegó cerca de Betfagé y Betania, a la Montaña de Los Olivos, envió a dos discípulos",
+          "headings": [
+            "Llegada a Jerusalén"
+          ]
         },
         {
           "number": 30,
@@ -4050,14 +4107,14 @@
         },
         {
           "number": 44,
-          "text": "te arrasarán con tus hijos dentro de ti y no dejarán en ti piedra sobre piedra, por cuanto no reconociste el tiempo de tu supervisión.",
-          "headings": [
-            "Entrada al Templo"
-          ]
+          "text": "te arrasarán con tus hijos dentro de ti y no dejarán en ti piedra sobre piedra, por cuanto no reconociste el tiempo de tu supervisión."
         },
         {
           "number": 45,
-          "text": "Cuando entró en el Templo, comenzó a echar fuera a los que vendían,"
+          "text": "Cuando entró en el Templo, comenzó a echar fuera a los que vendían,",
+          "headings": [
+            "Entrada al Templo"
+          ]
         },
         {
           "number": 46,
@@ -4078,7 +4135,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día mientras Jesús enseñaba al pueblo y proclamaba las Buenas Noticias en el Templo, aparecieron los principales sacerdotes, los escribas y los ancianos"
+          "text": "Un día mientras Jesús enseñaba al pueblo y proclamaba las Buenas Noticias en el Templo, aparecieron los principales sacerdotes, los escribas y los ancianos",
+          "headings": [
+            "Su autoridad"
+          ]
         },
         {
           "number": 2,
@@ -4106,14 +4166,14 @@
         },
         {
           "number": 8,
-          "text": "Jesús les dijo: Tampoco Yo les digo con cuál autoridad hago estas cosas.",
-          "headings": [
-            "Unos labradores perversos"
-          ]
+          "text": "Jesús les dijo: Tampoco Yo les digo con cuál autoridad hago estas cosas."
         },
         {
           "number": 9,
-          "text": "Entonces dijo al pueblo esta parábola: Un hombre plantó una viña, se la arrendó a unos labradores y salió de viaje por mucho tiempo."
+          "text": "Entonces dijo al pueblo esta parábola: Un hombre plantó una viña, se la arrendó a unos labradores y salió de viaje por mucho tiempo.",
+          "headings": [
+            "Unos labradores perversos"
+          ]
         },
         {
           "number": 10,
@@ -4149,14 +4209,14 @@
         },
         {
           "number": 18,
-          "text": "Todo el que cae sobre esta piedra se quebrará, pero sobre aquel que caiga, lo desmenuzará.",
-          "headings": [
-            "Lo de Dios y lo de César"
-          ]
+          "text": "Todo el que cae sobre esta piedra se quebrará, pero sobre aquel que caiga, lo desmenuzará."
         },
         {
           "number": 19,
-          "text": "En aquella hora los escribas y los principales sacerdotes trataron de arrestarlo, porque entendieron que la parábola era contra ellos, pero tuvieron temor al pueblo."
+          "text": "En aquella hora los escribas y los principales sacerdotes trataron de arrestarlo, porque entendieron que la parábola era contra ellos, pero tuvieron temor al pueblo.",
+          "headings": [
+            "Lo de Dios y lo de César"
+          ]
         },
         {
           "number": 20,
@@ -4184,14 +4244,14 @@
         },
         {
           "number": 26,
-          "text": "Y no pudieron atrapar una palabra de Él delante del pueblo, y maravillados por su respuesta, callaron.",
-          "headings": [
-            "Pregunta de los saduceos"
-          ]
+          "text": "Y no pudieron atrapar una palabra de Él delante del pueblo, y maravillados por su respuesta, callaron."
         },
         {
           "number": 27,
-          "text": "Entonces se acercaron unos saduceos, quienes dicen que no hay resurrección, y le preguntaron:"
+          "text": "Entonces se acercaron unos saduceos, quienes dicen que no hay resurrección, y le preguntaron:",
+          "headings": [
+            "Pregunta de los saduceos"
+          ]
         },
         {
           "number": 28,
@@ -4243,14 +4303,14 @@
         },
         {
           "number": 40,
-          "text": "Y ya nadie tenía el valor de hacerle más preguntas.",
-          "headings": [
-            "¿De quién es Hijo?"
-          ]
+          "text": "Y ya nadie tenía el valor de hacerle más preguntas."
         },
         {
           "number": 41,
-          "text": "Entonces les preguntó: ¿Cómo dicen que el Cristo es Hijo de David?"
+          "text": "Entonces les preguntó: ¿Cómo dicen que el Cristo es Hijo de David?",
+          "headings": [
+            "¿De quién es Hijo?"
+          ]
         },
         {
           "number": 42,
@@ -4262,14 +4322,14 @@
         },
         {
           "number": 44,
-          "text": "Pues si David lo llama Señor, ¿cómo, pues, es Hijo de Él?",
-          "headings": [
-            "Cuidado con los escribas"
-          ]
+          "text": "Pues si David lo llama Señor, ¿cómo, pues, es Hijo de Él?"
         },
         {
           "number": 45,
-          "text": "Mientras el pueblo escuchaba, dijo a los discípulos:"
+          "text": "Mientras el pueblo escuchaba, dijo a los discípulos:",
+          "headings": [
+            "Cuidado con los escribas"
+          ]
         },
         {
           "number": 46,
@@ -4286,14 +4346,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Él observó a los ricos que echaban sus ofrendas en el receptáculo para contribuciones.",
-          "headings": [
-            "La ofrenda de una viuda"
-          ]
+          "text": "Él observó a los ricos que echaban sus ofrendas en el receptáculo para contribuciones."
         },
         {
           "number": 2,
-          "text": "Vio también a una viuda pobre que echaba allí dos pequeñas monedas de cobre"
+          "text": "Vio también a una viuda pobre que echaba allí dos pequeñas monedas de cobre",
+          "headings": [
+            "La ofrenda de una viuda"
+          ]
         },
         {
           "number": 3,
@@ -4301,25 +4361,25 @@
         },
         {
           "number": 4,
-          "text": "porque todos éstos ofrendaron de lo que les sobra, pero ésta de su pobreza ofrendó todo el sustento que tenía.",
+          "text": "porque todos éstos ofrendaron de lo que les sobra, pero ésta de su pobreza ofrendó todo el sustento que tenía."
+        },
+        {
+          "number": 5,
+          "text": "A unos que comentaban sobre las piedras preciosas y las ofrendas votivas que adornaban el Templo, les dijo:",
           "headings": [
             "Decreto sobre el Templo"
           ]
         },
         {
-          "number": 5,
-          "text": "A unos que comentaban sobre las piedras preciosas y las ofrendas votivas que adornaban el Templo, les dijo:"
-        },
-        {
           "number": 6,
-          "text": "En cuanto a estas cosas que miran, vendrán días cuando no quedará piedra sobre piedra que no sea derribada.",
-          "headings": [
-            "Señales"
-          ]
+          "text": "En cuanto a estas cosas que miran, vendrán días cuando no quedará piedra sobre piedra que no sea derribada."
         },
         {
           "number": 7,
-          "text": "Le preguntaron: Maestro, ¿cuándo sucederá esto? ¿Y cuál es la señal para saber cuando van a suceder?"
+          "text": "Le preguntaron: Maestro, ¿cuándo sucederá esto? ¿Y cuál es la señal para saber cuando van a suceder?",
+          "headings": [
+            "Señales"
+          ]
         },
         {
           "number": 8,
@@ -4335,14 +4395,14 @@
         },
         {
           "number": 11,
-          "text": "En varios lugares habrá grandes terremotos, pestilencias y hambrunas. Y habrá horrores y grandes señales en el cielo.",
-          "headings": [
-            "Persecuciones"
-          ]
+          "text": "En varios lugares habrá grandes terremotos, pestilencias y hambrunas. Y habrá horrores y grandes señales en el cielo."
         },
         {
           "number": 12,
-          "text": "Pero antes de todo esto los detendrán, perseguirán y entregarán a las congregaciones judías y cárceles. Serán llevados ante reyes y gobernadores por causa de mi Nombre."
+          "text": "Pero antes de todo esto los detendrán, perseguirán y entregarán a las congregaciones judías y cárceles. Serán llevados ante reyes y gobernadores por causa de mi Nombre.",
+          "headings": [
+            "Persecuciones"
+          ]
         },
         {
           "number": 13,
@@ -4370,14 +4430,14 @@
         },
         {
           "number": 19,
-          "text": "Por su perseverancia ganarán sus vidas.",
-          "headings": [
-            "La destrucción de Jerusalén"
-          ]
+          "text": "Por su perseverancia ganarán sus vidas."
         },
         {
           "number": 20,
-          "text": "Cuando vean a Jerusalén rodeada por ejércitos, sepan que su destrucción está cerca."
+          "text": "Cuando vean a Jerusalén rodeada por ejércitos, sepan que su destrucción está cerca.",
+          "headings": [
+            "La destrucción de Jerusalén"
+          ]
         },
         {
           "number": 21,
@@ -4400,14 +4460,14 @@
         },
         {
           "number": 24,
-          "text": "Caerán a filo de espada, serán esparcidos como cautivos a todas las naciones y Jerusalén será hollada por gentiles hasta que sean cumplidos los tiempos de ellos.",
-          "headings": [
-            "La venida del Hijo del Hombre"
-          ]
+          "text": "Caerán a filo de espada, serán esparcidos como cautivos a todas las naciones y Jerusalén será hollada por gentiles hasta que sean cumplidos los tiempos de ellos."
         },
         {
           "number": 25,
-          "text": "Habrá señales en el sol, la luna y las estrellas. Sobre la tierra habrá angustia de gentes en perplejidad por un rugido y oleaje del mar,"
+          "text": "Habrá señales en el sol, la luna y las estrellas. Sobre la tierra habrá angustia de gentes en perplejidad por un rugido y oleaje del mar,",
+          "headings": [
+            "La venida del Hijo del Hombre"
+          ]
         },
         {
           "number": 26,
@@ -4468,7 +4528,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Se aproximaba la Pascua, la fiesta de los Panes sin Levadura."
+          "text": "Se aproximaba la Pascua, la fiesta de los Panes sin Levadura.",
+          "headings": [
+            "Una confabulación"
+          ]
         },
         {
           "number": 2,
@@ -4488,14 +4551,14 @@
         },
         {
           "number": 6,
-          "text": "Él aceptó y buscaba una ocasión para entregárselo sin alboroto.",
-          "headings": [
-            "Celebración de la Pascua"
-          ]
+          "text": "Él aceptó y buscaba una ocasión para entregárselo sin alboroto."
         },
         {
           "number": 7,
-          "text": "Entonces llegó el día de los Panes sin Levadura. Era necesario sacrificar la pascua."
+          "text": "Entonces llegó el día de los Panes sin Levadura. Era necesario sacrificar la pascua.",
+          "headings": [
+            "Celebración de la Pascua"
+          ]
         },
         {
           "number": 8,
@@ -4539,14 +4602,14 @@
         },
         {
           "number": 18,
-          "text": "porque de ahora en adelante, que de ningún modo beba del fruto de la vid hasta que venga el reino de Dios.",
-          "headings": [
-            "Origen de la Cena del Señor"
-          ]
+          "text": "porque de ahora en adelante, que de ningún modo beba del fruto de la vid hasta que venga el reino de Dios."
         },
         {
           "number": 19,
-          "text": "Tomó un pan, dio gracias, lo partió, les dio y les dijo: Esto es mi cuerpo que es entregado por ustedes. Hagan esto en memoria de Mí."
+          "text": "Tomó un pan, dio gracias, lo partió, les dio y les dijo: Esto es mi cuerpo que es entregado por ustedes. Hagan esto en memoria de Mí.",
+          "headings": [
+            "Origen de la Cena del Señor"
+          ]
         },
         {
           "number": 20,
@@ -4562,14 +4625,14 @@
         },
         {
           "number": 23,
-          "text": "Ellos discutieron quién sería el que iba a cometer esto.",
-          "headings": [
-            "El mayor"
-          ]
+          "text": "Ellos discutieron quién sería el que iba a cometer esto."
         },
         {
           "number": 24,
-          "text": "También discutieron entre ellos quién era el más importante."
+          "text": "También discutieron entre ellos quién era el más importante.",
+          "headings": [
+            "El mayor"
+          ]
         },
         {
           "number": 25,
@@ -4593,14 +4656,14 @@
         },
         {
           "number": 30,
-          "text": "para que coman y beban a mi mesa en mi reino, y se sienten en tronos a juzgar a las 12 tribus de Israel.",
-          "headings": [
-            "Anuncio sobre la negación de Pedro"
-          ]
+          "text": "para que coman y beban a mi mesa en mi reino, y se sienten en tronos a juzgar a las 12 tribus de Israel."
         },
         {
           "number": 31,
-          "text": "Simón, Simón, piensa esto: Satanás te reclamó para zarandearte como el trigo."
+          "text": "Simón, Simón, piensa esto: Satanás te reclamó para zarandearte como el trigo.",
+          "headings": [
+            "Anuncio sobre la negación de Pedro"
+          ]
         },
         {
           "number": 32,
@@ -4612,14 +4675,14 @@
         },
         {
           "number": 34,
-          "text": "Él respondió: Pedro, un gallo no cantará hoy hasta que me niegues tres veces.",
-          "headings": [
-            "Las armas"
-          ]
+          "text": "Él respondió: Pedro, un gallo no cantará hoy hasta que me niegues tres veces."
         },
         {
           "number": 35,
-          "text": "Y les dijo: Cuando los envié sin bolsa, ni morral, ni sandalias, ¿les faltó algo? Y ellos contestaron: Nada."
+          "text": "Y les dijo: Cuando los envié sin bolsa, ni morral, ni sandalias, ¿les faltó algo? Y ellos contestaron: Nada.",
+          "headings": [
+            "Las armas"
+          ]
         },
         {
           "number": 36,
@@ -4631,14 +4694,14 @@
         },
         {
           "number": 38,
-          "text": "Ellos dijeron: Señor, aquí hay dos espadas. Él les respondió: Es suficiente.",
-          "headings": [
-            "Conversación con Dios en Getsemaní"
-          ]
+          "text": "Ellos dijeron: Señor, aquí hay dos espadas. Él les respondió: Es suficiente."
         },
         {
           "number": 39,
-          "text": "Como acostumbraba, fue a la Montaña de Los Olivos, y lo siguieron sus discípulos."
+          "text": "Como acostumbraba, fue a la Montaña de Los Olivos, y lo siguieron sus discípulos.",
+          "headings": [
+            "Conversación con Dios en Getsemaní"
+          ]
         },
         {
           "number": 40,
@@ -4664,14 +4727,14 @@
         },
         {
           "number": 46,
-          "text": "Y les preguntó: ¿Por qué duermen? Levántense, hablen con Dios para que no entren en tentación.",
-          "headings": [
-            "El arresto del Señor Jesús"
-          ]
+          "text": "Y les preguntó: ¿Por qué duermen? Levántense, hablen con Dios para que no entren en tentación."
         },
         {
           "number": 47,
-          "text": "Mientras Él hablaba, apareció Judas, uno de los 12, seguido por una turba. Se acercó a Jesús para besarlo."
+          "text": "Mientras Él hablaba, apareció Judas, uno de los 12, seguido por una turba. Se acercó a Jesús para besarlo.",
+          "headings": [
+            "El arresto del Señor Jesús"
+          ]
         },
         {
           "number": 48,
@@ -4695,14 +4758,14 @@
         },
         {
           "number": 53,
-          "text": "Cada día Yo estaba con ustedes en el Templo, y no extendieron las manos contra Mí. Pero ésta es la hora de ustedes y la potestad de la oscuridad.",
-          "headings": [
-            "La negación de Pedro"
-          ]
+          "text": "Cada día Yo estaba con ustedes en el Templo, y no extendieron las manos contra Mí. Pero ésta es la hora de ustedes y la potestad de la oscuridad."
         },
         {
           "number": 54,
-          "text": "Lo arrestaron y lo llevaron a la casa del sumo sacerdote. Y Pedro lo seguía de lejos."
+          "text": "Lo arrestaron y lo llevaron a la casa del sumo sacerdote. Y Pedro lo seguía de lejos.",
+          "headings": [
+            "La negación de Pedro"
+          ]
         },
         {
           "number": 55,
@@ -4734,14 +4797,14 @@
         },
         {
           "number": 62,
-          "text": "Salió y lloró amargamente.",
-          "headings": [
-            "Jesús ridiculizado y golpeado"
-          ]
+          "text": "Salió y lloró amargamente."
         },
         {
           "number": 63,
-          "text": "Los hombres que lo custodiaban lo ridiculizaban y golpeaban,"
+          "text": "Los hombres que lo custodiaban lo ridiculizaban y golpeaban,",
+          "headings": [
+            "Jesús ridiculizado y golpeado"
+          ]
         },
         {
           "number": 64,
@@ -4749,14 +4812,14 @@
         },
         {
           "number": 65,
-          "text": "Y decían muchas otras cosas para blasfemar contra Él.",
-          "headings": [
-            "Presentado al Tribunal Supremo de los judíos"
-          ]
+          "text": "Y decían muchas otras cosas para blasfemar contra Él."
         },
         {
           "number": 66,
-          "text": "Cuando amaneció, se reunieron el presbiterio del pueblo, los principales sacerdotes y los escribas. Lo llevaron ante su Tribunal Supremo"
+          "text": "Cuando amaneció, se reunieron el presbiterio del pueblo, los principales sacerdotes y los escribas. Lo llevaron ante su Tribunal Supremo",
+          "headings": [
+            "Presentado al Tribunal Supremo de los judíos"
+          ]
         },
         {
           "number": 67,
@@ -4785,7 +4848,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Todo el gran número de ellos se levantó, y lo llevó ante Pilato."
+          "text": "Todo el gran número de ellos se levantó, y lo llevó ante Pilato.",
+          "headings": [
+            "El Señor Jesús ante Pilato"
+          ]
         },
         {
           "number": 2,
@@ -4801,14 +4867,14 @@
         },
         {
           "number": 5,
-          "text": "Pero ellos insistían: Alborota al pueblo. Comenzó desde Galilea y enseñó por toda Judea hasta aquí.",
-          "headings": [
-            "Llevado ante Herodes"
-          ]
+          "text": "Pero ellos insistían: Alborota al pueblo. Comenzó desde Galilea y enseñó por toda Judea hasta aquí."
         },
         {
           "number": 6,
-          "text": "Al oír esto Pilato preguntó si el hombre era galileo."
+          "text": "Al oír esto Pilato preguntó si el hombre era galileo.",
+          "headings": [
+            "Llevado ante Herodes"
+          ]
         },
         {
           "number": 7,
@@ -4832,14 +4898,14 @@
         },
         {
           "number": 12,
-          "text": "Herodes y Pilato se hicieron amigos aquel día, porque habían estado enemistados.",
-          "headings": [
-            "El juicio y la sentencia"
-          ]
+          "text": "Herodes y Pilato se hicieron amigos aquel día, porque habían estado enemistados."
         },
         {
           "number": 13,
-          "text": "Entonces Pilato convocó a los principales sacerdotes, a los gobernantes y al pueblo,"
+          "text": "Entonces Pilato convocó a los principales sacerdotes, a los gobernantes y al pueblo,",
+          "headings": [
+            "El juicio y la sentencia"
+          ]
         },
         {
           "number": 14,
@@ -4887,14 +4953,14 @@
         },
         {
           "number": 25,
-          "text": "Entonces soltó al que pedían, quien estaba preso en la cárcel por insurrección y homicidio, y entregó a Jesús a la voluntad de ellos.",
-          "headings": [
-            "La crucifixión"
-          ]
+          "text": "Entonces soltó al que pedían, quien estaba preso en la cárcel por insurrección y homicidio, y entregó a Jesús a la voluntad de ellos."
         },
         {
           "number": 26,
-          "text": "Cuando lo llevaban, agarraron a Simón de Cirene, quien venía del campo, y le cargaron la cruz para que la llevara detrás de Jesús."
+          "text": "Cuando lo llevaban, agarraron a Simón de Cirene, quien venía del campo, y le cargaron la cruz para que la llevara detrás de Jesús.",
+          "headings": [
+            "La crucifixión"
+          ]
         },
         {
           "number": 27,
@@ -4942,14 +5008,14 @@
         },
         {
           "number": 38,
-          "text": "Había también una inscripción encima de Él: Éste es el Rey de los judíos.",
-          "headings": [
-            "Los dos malhechores"
-          ]
+          "text": "Había también una inscripción encima de Él: Éste es el Rey de los judíos."
         },
         {
           "number": 39,
-          "text": "Uno de los malhechores que fue colgado lo blasfemaba: ¿No eres Tú el Cristo? ¡Sálvate a Ti mismo y a nosotros!"
+          "text": "Uno de los malhechores que fue colgado lo blasfemaba: ¿No eres Tú el Cristo? ¡Sálvate a Ti mismo y a nosotros!",
+          "headings": [
+            "Los dos malhechores"
+          ]
         },
         {
           "number": 40,
@@ -4965,14 +5031,14 @@
         },
         {
           "number": 43,
-          "text": "Le contestó: En verdad te digo: Hoy estarás conmigo en el paraíso.",
-          "headings": [
-            "Muerte del Señor Jesús"
-          ]
+          "text": "Le contestó: En verdad te digo: Hoy estarás conmigo en el paraíso."
         },
         {
           "number": 44,
-          "text": "Desde las 12 del día hasta las tres de la tarde hubo oscuridad en toda la tierra."
+          "text": "Desde las 12 del día hasta las tres de la tarde hubo oscuridad en toda la tierra.",
+          "headings": [
+            "Muerte del Señor Jesús"
+          ]
         },
         {
           "number": 45,
@@ -4992,14 +5058,14 @@
         },
         {
           "number": 49,
-          "text": "Pero todos los conocidos de Él, y mujeres que lo seguían desde Galilea, miraban desde lejos lo que sucedía.",
-          "headings": [
-            "Sepultura del Señor Jesús"
-          ]
+          "text": "Pero todos los conocidos de Él, y mujeres que lo seguían desde Galilea, miraban desde lejos lo que sucedía."
         },
         {
           "number": 50,
-          "text": "Un varón bueno y justo llamado José, miembro del Tribunal Supremo,"
+          "text": "Un varón bueno y justo llamado José, miembro del Tribunal Supremo,",
+          "headings": [
+            "Sepultura del Señor Jesús"
+          ]
         },
         {
           "number": 51,
@@ -5032,7 +5098,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Muy de mañana el primer día de la semana las mujeres fueron al sepulcro a llevar las especias aromáticas preparadas."
+          "text": "Muy de mañana el primer día de la semana las mujeres fueron al sepulcro a llevar las especias aromáticas preparadas.",
+          "headings": [
+            "Resurrección del Señor Jesús"
+          ]
         },
         {
           "number": 2,
@@ -5076,14 +5145,14 @@
         },
         {
           "number": 12,
-          "text": "Pero Pedro corrió al sepulcro, se agachó y vio los lienzos solos. Salió maravillado de lo sucedido.",
-          "headings": [
-            "Una caminata hacia Emaús"
-          ]
+          "text": "Pero Pedro corrió al sepulcro, se agachó y vio los lienzos solos. Salió maravillado de lo sucedido."
         },
         {
           "number": 13,
           "text": "El mismo día dos de ellos iban hacia una aldea llamada Emaús, que dista 11 kilómetros de Jerusalén.",
+          "headings": [
+            "Una caminata hacia Emaús"
+          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -5178,14 +5247,14 @@
         },
         {
           "number": 35,
-          "text": "Ellos contaron lo que sucedió en el camino, y cómo se dio a conocer a ellos cuando partió el pan.",
-          "headings": [
-            "Aparición de Jesús"
-          ]
+          "text": "Ellos contaron lo que sucedió en el camino, y cómo se dio a conocer a ellos cuando partió el pan."
         },
         {
           "number": 36,
-          "text": "Mientras ellos hablaban esto, Él mismo apareció en medio de ellos y les dijo: Paz a ustedes."
+          "text": "Mientras ellos hablaban esto, Él mismo apareció en medio de ellos y les dijo: Paz a ustedes.",
+          "headings": [
+            "Aparición de Jesús"
+          ]
         },
         {
           "number": 37,
@@ -5237,14 +5306,14 @@
         },
         {
           "number": 49,
-          "text": "Yo envío la promesa de mi Padre sobre ustedes. Permanezcan en la ciudad hasta que sean investidos de poder de lo alto.",
-          "headings": [
-            "Ascensión de nuestro Señor"
-          ]
+          "text": "Yo envío la promesa de mi Padre sobre ustedes. Permanezcan en la ciudad hasta que sean investidos de poder de lo alto."
         },
         {
           "number": 50,
-          "text": "Los condujo hasta Betania, alzó sus manos y los bendijo."
+          "text": "Los condujo hasta Betania, alzó sus manos y los bendijo.",
+          "headings": [
+            "Ascensión de nuestro Señor"
+          ]
         },
         {
           "number": 51,

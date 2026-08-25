@@ -9,14 +9,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cantar de los cantares de Salomón. La amada",
-          "headings": [
-            "Primer canto"
-          ]
+          "text": "Cantar de los cantares de Salomón. La amada"
         },
         {
           "number": 2,
-          "text": "Bésame una y otra vez, pues tu amor es más dulce que el vino."
+          "text": "Bésame una y otra vez, pues tu amor es más dulce que el vino.",
+          "headings": [
+            "Primer canto"
+          ]
         },
         {
           "number": 3,
@@ -109,14 +109,14 @@
         },
         {
           "number": 7,
-          "text": "Mujeres de Jerusalén, les ruego por las gacelas y cervatillas del bosque que no despierten a mi amada. ¡Déjenla dormir! La amada",
-          "headings": [
-            "Segundo canto"
-          ]
+          "text": "Mujeres de Jerusalén, les ruego por las gacelas y cervatillas del bosque que no despierten a mi amada. ¡Déjenla dormir! La amada"
         },
         {
           "number": 8,
-          "text": "¡Ya oigo a mi amado! Viene, saltando por los montes, brincando por las colinas."
+          "text": "¡Ya oigo a mi amado! Viene, saltando por los montes, brincando por las colinas.",
+          "headings": [
+            "Segundo canto"
+          ]
         },
         {
           "number": 9,
@@ -177,14 +177,14 @@
         },
         {
           "number": 5,
-          "text": "Les ruego, mujeres de Jerusalén, por las gacelas y cervatillas del bosque que no despierten a mi amada. ¡Déjenla dormir! El coro",
-          "headings": [
-            "Tercer canto"
-          ]
+          "text": "Les ruego, mujeres de Jerusalén, por las gacelas y cervatillas del bosque que no despierten a mi amada. ¡Déjenla dormir! El coro"
         },
         {
           "number": 6,
-          "text": "¿Quién es este que irrumpe de los desiertos como nube de humo por la tierra, entre aromas de mirra e incienso y perfumes exóticos?"
+          "text": "¿Quién es este que irrumpe de los desiertos como nube de humo por la tierra, entre aromas de mirra e incienso y perfumes exóticos?",
+          "headings": [
+            "Tercer canto"
+          ]
         },
         {
           "number": 7,
@@ -282,14 +282,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aquí estoy en mi huerto, amada mía, novia mía. Reúno la mirra con las especias mías y como mi panal con la miel. Bebo mi vino con mi leche. El coro ¡Oh, amado y amada, coman y beban! ¡Sí, beban hasta saciarse! La amada",
-          "headings": [
-            "Cuarto canto"
-          ]
+          "text": "Aquí estoy en mi huerto, amada mía, novia mía. Reúno la mirra con las especias mías y como mi panal con la miel. Bebo mi vino con mi leche. El coro ¡Oh, amado y amada, coman y beban! ¡Sí, beban hasta saciarse! La amada"
         },
         {
           "number": 2,
-          "text": "Cierta noche, mientras dormía, se me despertó en sueños el corazón. Oí la voz de mi amado; ¡llamaba a la puerta de mi recámara! «Ábreme, amada mía; amor mío, mi linda paloma», decía, «pues mi cabeza está empapada de rocío; la humedad de la noche corre por mi cabello»."
+          "text": "Cierta noche, mientras dormía, se me despertó en sueños el corazón. Oí la voz de mi amado; ¡llamaba a la puerta de mi recámara! «Ábreme, amada mía; amor mío, mi linda paloma», decía, «pues mi cabeza está empapada de rocío; la humedad de la noche corre por mi cabello».",
+          "headings": [
+            "Cuarto canto"
+          ]
         },
         {
           "number": 3,
@@ -362,14 +362,14 @@
         },
         {
           "number": 3,
-          "text": "Yo soy de mi amado y mi amado es mío. Él apacienta su rebaño entre los lirios. El amado",
-          "headings": [
-            "Quinto canto"
-          ]
+          "text": "Yo soy de mi amado y mi amado es mío. Él apacienta su rebaño entre los lirios. El amado"
         },
         {
           "number": 4,
-          "text": "Amada mía, eres tan bella como la tierra de Tirsá; hermosa como Jerusalén. Impresionante como las estrellas del cielo."
+          "text": "Amada mía, eres tan bella como la tierra de Tirsá; hermosa como Jerusalén. Impresionante como las estrellas del cielo.",
+          "headings": [
+            "Quinto canto"
+          ]
         },
         {
           "number": 5,
@@ -483,14 +483,14 @@
         },
         {
           "number": 4,
-          "text": "Les ruego, mujeres de Jerusalén, que no despierten a mi amada hasta que ella quiera. El coro",
-          "headings": [
-            "Sexto canto"
-          ]
+          "text": "Les ruego, mujeres de Jerusalén, que no despierten a mi amada hasta que ella quiera. El coro"
         },
         {
           "number": 5,
-          "text": "¿Quién es esta que sube del desierto, apoyada en el hombro de su amado? La amada Bajo el manzano donde entre dolores te trajo al mundo tu madre, allí desperté tu amor."
+          "text": "¿Quién es esta que sube del desierto, apoyada en el hombro de su amado? La amada Bajo el manzano donde entre dolores te trajo al mundo tu madre, allí desperté tu amor.",
+          "headings": [
+            "Sexto canto"
+          ]
         },
         {
           "number": 6,

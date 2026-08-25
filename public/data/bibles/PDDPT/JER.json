@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Palabras de Jeremías, hijo de Hilcías, uno de los sacerdotes que vivían en Anatot, en tierra de Benjamín,"
+          "text": "Palabras de Jeremías, hijo de Hilcías, uno de los sacerdotes que vivían en Anatot, en tierra de Benjamín,",
+          "headings": [
+            "Llamamiento al profeta"
+          ]
         },
         {
           "number": 2,
@@ -90,7 +93,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La Palabra de Yavé vino a mí:"
+          "text": "La Palabra de Yavé vino a mí:",
+          "headings": [
+            "Apostasía de Israel"
+          ]
         },
         {
           "number": 2,
@@ -259,14 +265,14 @@
         },
         {
           "number": 5,
-          "text": "¿Estará Él airado para siempre? ¿Eternamente estará airado? Ciertamente tú hablaste así, pero hiciste cuantas cosas perversas pudiste.",
-          "headings": [
-            "Exhortación al arrepentimiento"
-          ]
+          "text": "¿Estará Él airado para siempre? ¿Eternamente estará airado? Ciertamente tú hablaste así, pero hiciste cuantas cosas perversas pudiste."
         },
         {
           "number": 6,
-          "text": "En los días del rey Josías Yavé me dijo: ¿Viste lo que hace la apóstata Israel? Ella sube a toda montaña alta y fornica debajo de todo árbol frondoso."
+          "text": "En los días del rey Josías Yavé me dijo: ¿Viste lo que hace la apóstata Israel? Ella sube a toda montaña alta y fornica debajo de todo árbol frondoso.",
+          "headings": [
+            "Exhortación al arrepentimiento"
+          ]
         },
         {
           "number": 7,
@@ -363,14 +369,14 @@
         },
         {
           "number": 4,
-          "text": "Circuncídense ante Yavé . Quiten el prepucio de su corazón, oh varones de Judá y habitantes de Jerusalén, no sea que mi ira salga como fuego y arda, y no haya quien la apague.",
-          "headings": [
-            "Profecía con respecto a una invasión"
-          ]
+          "text": "Circuncídense ante Yavé . Quiten el prepucio de su corazón, oh varones de Judá y habitantes de Jerusalén, no sea que mi ira salga como fuego y arda, y no haya quien la apague."
         },
         {
           "number": 5,
-          "text": "Anuncien en Judá y proclamen en Jerusalén: ¡Toquen la trompeta en la tierra! Proclamen, reúnanse y digan: ¡Reúnanse y entremos en las ciudades fortificadas!"
+          "text": "Anuncien en Judá y proclamen en Jerusalén: ¡Toquen la trompeta en la tierra! Proclamen, reúnanse y digan: ¡Reúnanse y entremos en las ciudades fortificadas!",
+          "headings": [
+            "Profecía con respecto a una invasión"
+          ]
         },
         {
           "number": 6,
@@ -483,7 +489,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Recorran las calles de Jerusalén. Miren e infórmense. Busquen en sus plazas para ver si hallan un solo hombre y si hallan alguno que practique justicia, que busque la verdad, y Yo la perdonaré."
+          "text": "Recorran las calles de Jerusalén. Miren e infórmense. Busquen en sus plazas para ver si hallan un solo hombre y si hallan alguno que practique justicia, que busque la verdad, y Yo la perdonaré.",
+          "headings": [
+            "La perversidad de Judá"
+          ]
         },
         {
           "number": 2,
@@ -612,7 +621,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Huyan de Jerusalén, oh hijos de Benjamín! Toquen la trompeta en Tecoa. Levanten una señal sobre Bet-haquerem, porque una calamidad y una gran destrucción se asoma desde el norte."
+          "text": "¡Huyan de Jerusalén, oh hijos de Benjamín! Toquen la trompeta en Tecoa. Levanten una señal sobre Bet-haquerem, porque una calamidad y una gran destrucción se asoma desde el norte.",
+          "headings": [
+            "Profecía sobre la invasión de Asiria"
+          ]
         },
         {
           "number": 2,
@@ -737,7 +749,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La Palabra de Yavé que vino a Jeremías:"
+          "text": "La Palabra de Yavé que vino a Jeremías:",
+          "headings": [
+            "La obediencia superior a los sacrificios"
+          ]
         },
         {
           "number": 2,
@@ -813,14 +828,14 @@
         },
         {
           "number": 20,
-          "text": "Por tanto, ʼAdonay Yavé dice: Ciertamente mi ira y mi ardiente furor serán derramados sobre este lugar, hombres y bestias, los árboles del campo y el fruto de la tierra. Arderá y no será extinguido.",
-          "headings": [
-            "La rebelión de Judá"
-          ]
+          "text": "Por tanto, ʼAdonay Yavé dice: Ciertamente mi ira y mi ardiente furor serán derramados sobre este lugar, hombres y bestias, los árboles del campo y el fruto de la tierra. Arderá y no será extinguido."
         },
         {
           "number": 21,
-          "text": "Yavé de las huestes, ʼElohim de Israel, dice: Reúnan sus holocaustos con sus sacrificios y coman la carne."
+          "text": "Yavé de las huestes, ʼElohim de Israel, dice: Reúnan sus holocaustos con sus sacrificios y coman la carne.",
+          "headings": [
+            "La rebelión de Judá"
+          ]
         },
         {
           "number": 22,
@@ -945,14 +960,14 @@
         },
         {
           "number": 17,
-          "text": "Porque ciertamente Yo envío contra ustedes serpientes, víboras, contra las cuales no hay encantamiento, y los morderán, dice Yavé .",
-          "headings": [
-            "Lamento de Jeremías"
-          ]
+          "text": "Porque ciertamente Yo envío contra ustedes serpientes, víboras, contra las cuales no hay encantamiento, y los morderán, dice Yavé ."
         },
         {
           "number": 18,
-          "text": "Aunque tenga consuelo en la aflicción, mi corazón desfallece dentro de mí."
+          "text": "Aunque tenga consuelo en la aflicción, mi corazón desfallece dentro de mí.",
+          "headings": [
+            "Lamento de Jeremías"
+          ]
         },
         {
           "number": 19,
@@ -1017,14 +1032,14 @@
         },
         {
           "number": 11,
-          "text": "Convertiré a Jerusalén en una pila de escombros y una guarida de chacales, y a las ciudades de Judá en una desolación sin habitante.",
-          "headings": [
-            "Profecía sobre la dispersión"
-          ]
+          "text": "Convertiré a Jerusalén en una pila de escombros y una guarida de chacales, y a las ciudades de Judá en una desolación sin habitante."
         },
         {
           "number": 12,
-          "text": "¿Quién es un hombre sabio que entienda esto? ¿Y a quién habló la boca de Yavé para que lo declare? ¿Por qué pereció la tierra? Fue asolada como un desierto, y no hay quien pase por ella."
+          "text": "¿Quién es un hombre sabio que entienda esto? ¿Y a quién habló la boca de Yavé para que lo declare? ¿Por qué pereció la tierra? Fue asolada como un desierto, y no hay quien pase por ella.",
+          "headings": [
+            "Profecía sobre la dispersión"
+          ]
         },
         {
           "number": 13,
@@ -1089,7 +1104,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oigan la Palabra que Yavé les dice, oh Casa de Israel."
+          "text": "Oigan la Palabra que Yavé les dice, oh Casa de Israel.",
+          "headings": [
+            "Los ʼelohim de las naciones"
+          ]
         },
         {
           "number": 2,
@@ -1149,14 +1167,14 @@
         },
         {
           "number": 16,
-          "text": "La Porción de Jacob no es parecida a ellas, porque Él es el Hacedor de todo, e Israel es la tribu de su heredad. ¡ Yavé de las huestes es su Nombre!",
-          "headings": [
-            "Asolamiento de Judá"
-          ]
+          "text": "La Porción de Jacob no es parecida a ellas, porque Él es el Hacedor de todo, e Israel es la tribu de su heredad. ¡ Yavé de las huestes es su Nombre!"
         },
         {
           "number": 17,
-          "text": "Recoge del suelo tu equipaje, tú que vives bajo asedio."
+          "text": "Recoge del suelo tu equipaje, tú que vives bajo asedio.",
+          "headings": [
+            "Asolamiento de Judá"
+          ]
         },
         {
           "number": 18,
@@ -1197,7 +1215,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La Palabra de Yavé que vino a Jeremías:"
+          "text": "La Palabra de Yavé que vino a Jeremías:",
+          "headings": [
+            "Violación del Pacto"
+          ]
         },
         {
           "number": 2,
@@ -1261,14 +1282,14 @@
         },
         {
           "number": 17,
-          "text": "Yavé de las huestes, Quien te plantó, decretó una aflicción contra ti, a causa de la maldad que hicieron la Casa de Israel y la Casa de Judá, pues me provocaron a ira al quemar incienso a baal.",
-          "headings": [
-            "Conspiración contra Jeremías"
-          ]
+          "text": "Yavé de las huestes, Quien te plantó, decretó una aflicción contra ti, a causa de la maldad que hicieron la Casa de Israel y la Casa de Judá, pues me provocaron a ira al quemar incienso a baal."
         },
         {
           "number": 18,
-          "text": "Yavé me lo informó y lo supe. Entonces Tú me mostraste sus obras."
+          "text": "Yavé me lo informó y lo supe. Entonces Tú me mostraste sus obras.",
+          "headings": [
+            "Conspiración contra Jeremías"
+          ]
         },
         {
           "number": 19,
@@ -1297,7 +1318,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Justo eres Tú, oh Yavé , para que yo contienda contigo. Sin embargo, defenderé mi causa ante Ti: ¿Por qué prospera el camino de los perversos, y los traidores viven en paz?"
+          "text": "Justo eres Tú, oh Yavé , para que yo contienda contigo. Sin embargo, defenderé mi causa ante Ti: ¿Por qué prospera el camino de los perversos, y los traidores viven en paz?",
+          "headings": [
+            "Queja de Jeremías ante Yavé"
+          ]
         },
         {
           "number": 2,
@@ -1370,7 +1394,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé me dijo: Vé, cómprate un cinturón de lino y átalo a tu cintura, pero no lo metas en agua."
+          "text": "Yavé me dijo: Vé, cómprate un cinturón de lino y átalo a tu cintura, pero no lo metas en agua.",
+          "headings": [
+            "El cinturón podrido"
+          ]
         },
         {
           "number": 2,
@@ -1410,14 +1437,14 @@
         },
         {
           "number": 11,
-          "text": "Porque como el cinturón se adhiere a la cintura de un hombre, así establecí que se adhiera a Mí toda la Casa de Israel y toda la Casa de Judá, dice Yavé , para que fuera mi pueblo, mi renombre, mi alabanza y mi gloria. Pero ellos no escucharon.",
-          "headings": [
-            "Lección objetiva de los cántaros"
-          ]
+          "text": "Porque como el cinturón se adhiere a la cintura de un hombre, así establecí que se adhiera a Mí toda la Casa de Israel y toda la Casa de Judá, dice Yavé , para que fuera mi pueblo, mi renombre, mi alabanza y mi gloria. Pero ellos no escucharon."
         },
         {
           "number": 12,
-          "text": "Entonces les dirás esta Palabra: Yavé , el ʼElohim de Israel dice: Todo cántaro será llenado con vino. Y ellos te preguntarán: ¿No sabemos ciertamente que todo cántaro será llenado con vino?"
+          "text": "Entonces les dirás esta Palabra: Yavé , el ʼElohim de Israel dice: Todo cántaro será llenado con vino. Y ellos te preguntarán: ¿No sabemos ciertamente que todo cántaro será llenado con vino?",
+          "headings": [
+            "Lección objetiva de los cántaros"
+          ]
         },
         {
           "number": 13,
@@ -1425,14 +1452,14 @@
         },
         {
           "number": 14,
-          "text": "Los quebrantaré unos contra otros, padres contra hijos a la vez, dice Yavé . No perdonaré ni tendré compasión, ni misericordia para no destruirlos.",
-          "headings": [
-            "Cautiverio de Judá"
-          ]
+          "text": "Los quebrantaré unos contra otros, padres contra hijos a la vez, dice Yavé . No perdonaré ni tendré compasión, ni misericordia para no destruirlos."
         },
         {
           "number": 15,
-          "text": "Oigan y presten atención. No sean altivos, porque Yavé habló."
+          "text": "Oigan y presten atención. No sean altivos, porque Yavé habló.",
+          "headings": [
+            "Cautiverio de Judá"
+          ]
         },
         {
           "number": 16,
@@ -1489,7 +1516,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Palabra de Yavé que vino a Jeremías con motivo de la sequía:"
+          "text": "Palabra de Yavé que vino a Jeremías con motivo de la sequía:",
+          "headings": [
+            "Una espantosa sequía"
+          ]
         },
         {
           "number": 2,
@@ -1589,7 +1619,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Yavé me dijo: Aunque Moisés y Samuel se coloquen delante de Mí, no me conmoveré por este pueblo. Échalos, que salgan de mi Presencia."
+          "text": "Entonces Yavé me dijo: Aunque Moisés y Samuel se coloquen delante de Mí, no me conmoveré por este pueblo. Échalos, que salgan de mi Presencia.",
+          "headings": [
+            "Una ira implacable"
+          ]
         },
         {
           "number": 2,
@@ -1641,14 +1674,14 @@
         },
         {
           "number": 14,
-          "text": "Ordenaré que sirvas a tus enemigos en una tierra que tú no conoces, porque un fuego se encendió en mi furor y arderá sobre ustedes.",
-          "headings": [
-            "Conversación entre Yavé y Jeremías"
-          ]
+          "text": "Ordenaré que sirvas a tus enemigos en una tierra que tú no conoces, porque un fuego se encendió en mi furor y arderá sobre ustedes."
         },
         {
           "number": 15,
-          "text": "Oh Yavé , Tú lo sabes. Acuérdate de mí. Visítame y véngame de mis perseguidores. En vista de tu paciencia, no me arrebates. Sabes que por amor a Ti soporto afrentas."
+          "text": "Oh Yavé , Tú lo sabes. Acuérdate de mí. Visítame y véngame de mis perseguidores. En vista de tu paciencia, no me arrebates. Sabes que por amor a Ti soporto afrentas.",
+          "headings": [
+            "Conversación entre Yavé y Jeremías"
+          ]
         },
         {
           "number": 16,
@@ -1681,7 +1714,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces la Palabra de Yavé vino a mí:"
+          "text": "Entonces la Palabra de Yavé vino a mí:",
+          "headings": [
+            "La ruina de Israel"
+          ]
         },
         {
           "number": 2,
@@ -1770,7 +1806,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El pecado de Judá está esculpido con cincel de hierro. Está grabado en la tabla de su corazón y en los cuernos de sus altares con punta de diamante."
+          "text": "El pecado de Judá está esculpido con cincel de hierro. Está grabado en la tabla de su corazón y en los cuernos de sus altares con punta de diamante.",
+          "headings": [
+            "La gravedad del pecado de Judá"
+          ]
         },
         {
           "number": 2,
@@ -1838,14 +1877,14 @@
         },
         {
           "number": 18,
-          "text": "Que se avergüencen los que me persiguen, pero que no me avergüence yo. Que se aterroricen ellos, y no me aterrorice yo. Trae el día malo sobre ellos, y destrúyelos con doble quebranto.",
-          "headings": [
-            "La observancia del sábado"
-          ]
+          "text": "Que se avergüencen los que me persiguen, pero que no me avergüence yo. Que se aterroricen ellos, y no me aterrorice yo. Trae el día malo sobre ellos, y destrúyelos con doble quebranto."
         },
         {
           "number": 19,
-          "text": "Yavé me dice: Vé y ponte en pie en la puerta de los hijos del pueblo, por la cual los reyes de Judá entran y salen, en todas las puertas de Jerusalén,"
+          "text": "Yavé me dice: Vé y ponte en pie en la puerta de los hijos del pueblo, por la cual los reyes de Judá entran y salen, en todas las puertas de Jerusalén,",
+          "headings": [
+            "La observancia del sábado"
+          ]
         },
         {
           "number": 20,
@@ -1886,7 +1925,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La Palabra de Yavé que vino a Jeremías:"
+          "text": "La Palabra de Yavé que vino a Jeremías:",
+          "headings": [
+            "La obra de Yavé como Alfarero"
+          ]
         },
         {
           "number": 2,
@@ -1950,14 +1992,14 @@
         },
         {
           "number": 17,
-          "text": "Como con un viento del oriente los esparciré delante del enemigo. En el día de la aflicción les daré la espalda y no el rostro.",
-          "headings": [
-            "Otra oración de Jeremías"
-          ]
+          "text": "Como con un viento del oriente los esparciré delante del enemigo. En el día de la aflicción les daré la espalda y no el rostro."
         },
         {
           "number": 18,
-          "text": "Entonces ellos dijeron: ¡Vengan, tramemos nosotros un plan contra Jeremías! Porque la enseñanza no le faltará al sacerdote, ni el consejo al sabio, ni la palabra al profeta. Vengan, causémosle una herida en la lengua, y no atendamos ninguna de sus palabras."
+          "text": "Entonces ellos dijeron: ¡Vengan, tramemos nosotros un plan contra Jeremías! Porque la enseñanza no le faltará al sacerdote, ni el consejo al sabio, ni la palabra al profeta. Vengan, causémosle una herida en la lengua, y no atendamos ninguna de sus palabras.",
+          "headings": [
+            "Otra oración de Jeremías"
+          ]
         },
         {
           "number": 19,
@@ -1986,7 +2028,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé dijo: Vé y compra una vasija de arcilla al alfarero. Lleva contigo ancianos del pueblo y ancianos de los sacerdotes."
+          "text": "Yavé dijo: Vé y compra una vasija de arcilla al alfarero. Lleva contigo ancianos del pueblo y ancianos de los sacerdotes.",
+          "headings": [
+            "La vasija rota"
+          ]
         },
         {
           "number": 2,
@@ -2051,7 +2096,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El sacerdote Pasur, hijo de Imer, quien presidía como jefe en la Casa de Yavé , oyó a Jeremías cuando profetizaba estas cosas."
+          "text": "El sacerdote Pasur, hijo de Imer, quien presidía como jefe en la Casa de Yavé , oyó a Jeremías cuando profetizaba estas cosas.",
+          "headings": [
+            "Actuación perversa del sacerdote Pasur"
+          ]
         },
         {
           "number": 2,
@@ -2071,14 +2119,14 @@
         },
         {
           "number": 6,
-          "text": "Y tú, Pasur, y todos los que viven en tu casa irán cautivos. Entrarás en Babilonia y allí morirás. Allí serán sepultados, tú y todos tus amigos, a los cuales profetizaste mentira.",
-          "headings": [
-            "Lamentación de Jeremías"
-          ]
+          "text": "Y tú, Pasur, y todos los que viven en tu casa irán cautivos. Entrarás en Babilonia y allí morirás. Allí serán sepultados, tú y todos tus amigos, a los cuales profetizaste mentira."
         },
         {
           "number": 7,
-          "text": "Me sedujiste, oh Yavé , y fui seducido. Fuiste más fuerte que yo, y me venciste. Cada día soy objeto de burla. Cada uno se burla de mí."
+          "text": "Me sedujiste, oh Yavé , y fui seducido. Fuiste más fuerte que yo, y me venciste. Cada día soy objeto de burla. Cada uno se burla de mí.",
+          "headings": [
+            "Lamentación de Jeremías"
+          ]
         },
         {
           "number": 8,
@@ -2131,7 +2179,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La Palabra de Yavé que vino a Jeremías, cuando el rey Sedequías le envió a Pasur, hijo de Malquías y al sacerdote Sofonías, hijo de Maasías, para que le dijeran:"
+          "text": "La Palabra de Yavé que vino a Jeremías, cuando el rey Sedequías le envió a Pasur, hijo de Malquías y al sacerdote Sofonías, hijo de Maasías, para que le dijeran:",
+          "headings": [
+            "Destrucción del reino de Judá"
+          ]
         },
         {
           "number": 2,
@@ -2192,7 +2243,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé dijo: Baja a la casa del rey de Judá y habla allí estas Palabras:"
+          "text": "Yavé dijo: Baja a la casa del rey de Judá y habla allí estas Palabras:",
+          "headings": [
+            "Palabra contra el rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -2317,7 +2371,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Ay de los pastores que destruyen y dispersan las ovejas de mi prado! dice Yavé ."
+          "text": "¡Ay de los pastores que destruyen y dispersan las ovejas de mi prado! dice Yavé .",
+          "headings": [
+            "Los pastores perversos"
+          ]
         },
         {
           "number": 2,
@@ -2482,7 +2539,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después que Nabucodonosor, rey de Babilonia, deportó desde Jerusalén a Jeconías, hijo de Joacim, rey de Judá, y a los magistrados de Judá con los artesanos y los herreros, y los llevó a Babilonia, Yavé me mostró dos cestas de higos puestas delante de la Casa de Yavé ."
+          "text": "Después que Nabucodonosor, rey de Babilonia, deportó desde Jerusalén a Jeconías, hijo de Joacim, rey de Judá, y a los magistrados de Judá con los artesanos y los herreros, y los llevó a Babilonia, Yavé me mostró dos cestas de higos puestas delante de la Casa de Yavé .",
+          "headings": [
+            "La señal de los higos"
+          ]
         },
         {
           "number": 2,
@@ -2527,7 +2587,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Palabra que vino a Jeremías con respecto a todo el pueblo de Judá, el año cuarto de Joacim, hijo de Josías, rey de Judá, el cual era el año primero de Nabucodonosor, rey de Babilonia."
+          "text": "Palabra que vino a Jeremías con respecto a todo el pueblo de Judá, el año cuarto de Joacim, hijo de Josías, rey de Judá, el cual era el año primero de Nabucodonosor, rey de Babilonia.",
+          "headings": [
+            "Profetizada una esclavitud de 70 años"
+          ]
         },
         {
           "number": 2,
@@ -2579,14 +2642,14 @@
         },
         {
           "number": 14,
-          "text": "Porque también ella será reducida a esclavitud por muchas naciones y reyes poderosos. Le pagaré conforme a sus hechos, según la obra de sus manos.",
-          "headings": [
-            "Profecía contra las naciones"
-          ]
+          "text": "Porque también ella será reducida a esclavitud por muchas naciones y reyes poderosos. Le pagaré conforme a sus hechos, según la obra de sus manos."
         },
         {
           "number": 15,
-          "text": "Porque Yavé , el ʼElohim de Israel, me dice: Toma de mi mano esta copa del vino de mi furor, y da a beber de ella a todas las naciones a las cuales Yo te envío."
+          "text": "Porque Yavé , el ʼElohim de Israel, me dice: Toma de mi mano esta copa del vino de mi furor, y da a beber de ella a todas las naciones a las cuales Yo te envío.",
+          "headings": [
+            "Profecía contra las naciones"
+          ]
         },
         {
           "number": 16,
@@ -2687,7 +2750,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En el principio del reinado de Joacim, hijo de Josías, rey de Judá, vino esta Palabra de Yavé :"
+          "text": "En el principio del reinado de Joacim, hijo de Josías, rey de Judá, vino esta Palabra de Yavé :",
+          "headings": [
+            "Amenaza de muerte contra Jeremías"
+          ]
         },
         {
           "number": 2,
@@ -2788,7 +2854,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En el principio del reinado de Zedequías, hijo de Josías, rey de Judá, vino esta Palabra de Yavé a Jeremías:"
+          "text": "En el principio del reinado de Zedequías, hijo de Josías, rey de Judá, vino esta Palabra de Yavé a Jeremías:",
+          "headings": [
+            "La señal de los yugos"
+          ]
         },
         {
           "number": 2,
@@ -2881,7 +2950,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En aquel mismo año, al principio del reinado de Sedequías, en el quinto mes del año cuarto, aconteció que Hananías, hijo de Azur, quien era profeta de Gabaón, me habló en la Casa de Yavé en presencia de los sacerdotes y de todo el pueblo:"
+          "text": "En aquel mismo año, al principio del reinado de Sedequías, en el quinto mes del año cuarto, aconteció que Hananías, hijo de Azur, quien era profeta de Gabaón, me habló en la Casa de Yavé en presencia de los sacerdotes y de todo el pueblo:",
+          "headings": [
+            "Un falso profeta"
+          ]
         },
         {
           "number": 2,
@@ -2954,7 +3026,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estas son las palabras de la carta que el profeta Jeremías envió desde Jerusalén al resto de los ancianos, a los sacerdotes, profetas y a todo el pueblo que Nabucodonosor deportó de Jerusalén a Babilonia."
+          "text": "Estas son las palabras de la carta que el profeta Jeremías envió desde Jerusalén al resto de los ancianos, a los sacerdotes, profetas y a todo el pueblo que Nabucodonosor deportó de Jerusalén a Babilonia.",
+          "headings": [
+            "Comunicación de Jeremías a los deportados"
+          ]
         },
         {
           "number": 2,
@@ -3087,7 +3162,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Palabra de Yavé que vino a Jeremías:"
+          "text": "Palabra de Yavé que vino a Jeremías:",
+          "headings": [
+            "Promesa de restauración para los cautivos"
+          ]
         },
         {
           "number": 2,
@@ -3288,14 +3366,14 @@
         },
         {
           "number": 26,
-          "text": "Desperté y miré. Mi sueño me fue agradable.",
-          "headings": [
-            "El nuevo Pacto con Israel"
-          ]
+          "text": "Desperté y miré. Mi sueño me fue agradable."
         },
         {
           "number": 27,
-          "text": "Ciertamente vienen días, dice Yavé , cuando sembraré la Casa de Israel y la Casa de Judá con semilla de hombres y de animales."
+          "text": "Ciertamente vienen días, dice Yavé , cuando sembraré la Casa de Israel y la Casa de Judá con semilla de hombres y de animales.",
+          "headings": [
+            "El nuevo Pacto con Israel"
+          ]
         },
         {
           "number": 28,
@@ -3356,7 +3434,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Palabra de Yavé que vino a Jeremías el año 10 de Sedequías, rey de Judá, año 18 de Nabucodonosor."
+          "text": "Palabra de Yavé que vino a Jeremías el año 10 de Sedequías, rey de Judá, año 18 de Nabucodonosor.",
+          "headings": [
+            "La compra de una heredad"
+          ]
         },
         {
           "number": 2,
@@ -3537,7 +3618,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La Palabra de Yavé vino por segunda vez a Jeremías, cuando él aún estaba preso en el patio de la guardia:"
+          "text": "La Palabra de Yavé vino por segunda vez a Jeremías, cuando él aún estaba preso en el patio de la guardia:",
+          "headings": [
+            "Repetición sobre el regreso de los cautivos"
+          ]
         },
         {
           "number": 2,
@@ -3653,7 +3737,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Palabra de Yavé que vino a Jeremías cuando Nabucodonosor, rey de Babilonia, todo su ejército, todos los reyes de la tierra que estaban bajo el dominio de su mano y todos los pueblos combatían contra Jerusalén y sus ciudades:"
+          "text": "Palabra de Yavé que vino a Jeremías cuando Nabucodonosor, rey de Babilonia, todo su ejército, todos los reyes de la tierra que estaban bajo el dominio de su mano y todos los pueblos combatían contra Jerusalén y sus ciudades:",
+          "headings": [
+            "Profecía Contra el rey Sedequías"
+          ]
         },
         {
           "number": 2,
@@ -3746,7 +3833,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La Palabra de Yavé que vino a Jeremías en días de Joacim, hijo de Josías, rey de Judá:"
+          "text": "La Palabra de Yavé que vino a Jeremías en días de Joacim, hijo de Josías, rey de Judá:",
+          "headings": [
+            "La fidelidad de los hijos de Jonadab"
+          ]
         },
         {
           "number": 2,
@@ -3827,7 +3917,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El año cuarto de Joacim, hijo de Josías, rey de Judá, esta Palabra de Yavé vino a Jeremías:"
+          "text": "El año cuarto de Joacim, hijo de Josías, rey de Judá, esta Palabra de Yavé vino a Jeremías:",
+          "headings": [
+            "Quema del rollo de las profecías de Jeremías"
+          ]
         },
         {
           "number": 2,
@@ -3960,7 +4053,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En lugar de Conías, hijo de Joacim, reinó Sedequías, hijo de Josías, al cual Nabucodonosor, rey de Babilonia, constituyó como rey en la tierra de Judá."
+          "text": "En lugar de Conías, hijo de Joacim, reinó Sedequías, hijo de Josías, al cual Nabucodonosor, rey de Babilonia, constituyó como rey en la tierra de Judá.",
+          "headings": [
+            "El profeta Jeremías en la mazmorra"
+          ]
         },
         {
           "number": 2,
@@ -4056,7 +4152,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Sefatías, hijo de Matán, Gedalías, hijo de Pasur, Jucal, hijo de Selemías, y Pasur, hijo de Malquías, oyeron las Palabras que Jeremías hablaba a todo el pueblo:"
+          "text": "Sefatías, hijo de Matán, Gedalías, hijo de Pasur, Jucal, hijo de Selemías, y Pasur, hijo de Malquías, oyeron las Palabras que Jeremías hablaba a todo el pueblo:",
+          "headings": [
+            "Castigo para Jeremías en una cisterna de lodo"
+          ]
         },
         {
           "number": 2,
@@ -4104,14 +4203,14 @@
         },
         {
           "number": 13,
-          "text": "De este modo sacaron a Jeremías con sogas y lo subieron de la cisterna. Y Jeremías permaneció en el patio de la guardia.",
-          "headings": [
-            "Una consulta del rey a Jeremías"
-          ]
+          "text": "De este modo sacaron a Jeremías con sogas y lo subieron de la cisterna. Y Jeremías permaneció en el patio de la guardia."
         },
         {
           "number": 14,
-          "text": "Después el rey Sedequías llamó al profeta Jeremías ante su presencia, en la tercera entrada de la Casa de Yavé . Y el rey dijo a Jeremías: Te haré una pregunta. No me encubras alguna cosa."
+          "text": "Después el rey Sedequías llamó al profeta Jeremías ante su presencia, en la tercera entrada de la Casa de Yavé . Y el rey dijo a Jeremías: Te haré una pregunta. No me encubras alguna cosa.",
+          "headings": [
+            "Una consulta del rey a Jeremías"
+          ]
         },
         {
           "number": 15,
@@ -4176,7 +4275,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El año noveno de Sedequías, rey de Judá, el mes décimo, Nabucodonosor, rey de Babilonia, llegó con todo su ejército contra Jerusalén y la sitió."
+          "text": "El año noveno de Sedequías, rey de Judá, el mes décimo, Nabucodonosor, rey de Babilonia, llegó con todo su ejército contra Jerusalén y la sitió.",
+          "headings": [
+            "La caída de Jerusalén en manos de Nabucodonosor"
+          ]
         },
         {
           "number": 2,
@@ -4212,14 +4314,14 @@
         },
         {
           "number": 10,
-          "text": "Pero Nabuzaradán, capitán de la guardia, ordenó que los más pobres del pueblo, los que nada tenían, permanecieran en tierra de Judá, y les dio viñedos y heredades.",
-          "headings": [
-            "Provisión para el profeta Jeremías"
-          ]
+          "text": "Pero Nabuzaradán, capitán de la guardia, ordenó que los más pobres del pueblo, los que nada tenían, permanecieran en tierra de Judá, y les dio viñedos y heredades."
         },
         {
           "number": 11,
-          "text": "En cuanto a Jeremías, Nabucodonosor ordenó a Nabuzaradán, capitán de la guardia:"
+          "text": "En cuanto a Jeremías, Nabucodonosor ordenó a Nabuzaradán, capitán de la guardia:",
+          "headings": [
+            "Provisión para el profeta Jeremías"
+          ]
         },
         {
           "number": 12,
@@ -4256,7 +4358,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Palabra de Yavé que vino a Jeremías, después que Nabuzaradán, capitán de la guardia, lo envió desde Ramá, cuando lo encontró encadenado entre todos los cautivos de Jerusalén y de Judá que iban deportados a Babilonia."
+          "text": "Palabra de Yavé que vino a Jeremías, después que Nabuzaradán, capitán de la guardia, lo envió desde Ramá, cuando lo encontró encadenado entre todos los cautivos de Jerusalén y de Judá que iban deportados a Babilonia.",
+          "headings": [
+            "Diversas circunstancias del remanente"
+          ]
         },
         {
           "number": 2,
@@ -4300,14 +4405,14 @@
         },
         {
           "number": 12,
-          "text": "todos estos judíos regresaron de todos los lugares adonde fueron echados. Llegaron a tierra de Judá a visitar a Gedalías en Mizpa y recogieron vino y abundantes frutos.",
-          "headings": [
-            "Conspiración contra Gedalías"
-          ]
+          "text": "todos estos judíos regresaron de todos los lugares adonde fueron echados. Llegaron a tierra de Judá a visitar a Gedalías en Mizpa y recogieron vino y abundantes frutos."
         },
         {
           "number": 13,
-          "text": "Johanán, hijo de Carea, y todos los comandantes que estaban en el campo llegaron a Gedalías en Mizpa,"
+          "text": "Johanán, hijo de Carea, y todos los comandantes que estaban en el campo llegaron a Gedalías en Mizpa,",
+          "headings": [
+            "Conspiración contra Gedalías"
+          ]
         },
         {
           "number": 14,
@@ -4405,7 +4510,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Todos los comandantes de los guerreros, junto con Johanán, hijo de Carea, Jezanías, hijo de Osaías, y todo el pueblo, desde el menor hasta el mayor, llegaron"
+          "text": "Todos los comandantes de los guerreros, junto con Johanán, hijo de Carea, Jezanías, hijo de Osaías, y todo el pueblo, desde el menor hasta el mayor, llegaron",
+          "headings": [
+            "Consulta al profeta Jeremías"
+          ]
         },
         {
           "number": 2,
@@ -4498,7 +4606,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció que, cuando Jeremías terminó de hablar todas las Palabras de Yavé , su ʼElohim , a todo el pueblo, es decir, todas las Palabras que Yavé su ʼElohim les envió,"
+          "text": "Aconteció que, cuando Jeremías terminó de hablar todas las Palabras de Yavé , su ʼElohim , a todo el pueblo, es decir, todas las Palabras que Yavé su ʼElohim les envió,",
+          "headings": [
+            "Huida del remanente a Egipto"
+          ]
         },
         {
           "number": 2,
@@ -4522,14 +4633,14 @@
         },
         {
           "number": 7,
-          "text": "Entraron en tierra de Egipto. No obedecieron la voz de Yavé y llegaron a Tafnes.",
-          "headings": [
-            "El profeta Jeremías en Egipto"
-          ]
+          "text": "Entraron en tierra de Egipto. No obedecieron la voz de Yavé y llegaron a Tafnes."
         },
         {
           "number": 8,
-          "text": "Entonces la Palabra de Yavé vino a Jeremías en Tafnes:"
+          "text": "Entonces la Palabra de Yavé vino a Jeremías en Tafnes:",
+          "headings": [
+            "El profeta Jeremías en Egipto"
+          ]
         },
         {
           "number": 9,
@@ -4558,7 +4669,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Palabra que vino a Jeremías con respecto a todos los judíos que residían en la tierra de Egipto y habitaban en Migdol, Tafnes, Menfis y en la tierra de Patros:"
+          "text": "Palabra que vino a Jeremías con respecto a todos los judíos que residían en la tierra de Egipto y habitaban en Migdol, Tafnes, Menfis y en la tierra de Patros:",
+          "headings": [
+            "El remanente huye a Egipto"
+          ]
         },
         {
           "number": 2,
@@ -4683,7 +4797,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La Palabra que habló el profeta Jeremías a Baruc, hijo de Nerías, cuando éste escribió en el rollo aquellas Palabras de la boca de Jeremías, el año cuarto de Joacim, hijo de Josías, rey de Judá:"
+          "text": "La Palabra que habló el profeta Jeremías a Baruc, hijo de Nerías, cuando éste escribió en el rollo aquellas Palabras de la boca de Jeremías, el año cuarto de Joacim, hijo de Josías, rey de Judá:",
+          "headings": [
+            "Palabra de Yavé para el escriba Baruc"
+          ]
         },
         {
           "number": 2,
@@ -4710,12 +4827,15 @@
           "number": 1,
           "text": "Palabra de Yavé que vino al profeta Jeremías contra las naciones:",
           "headings": [
-            "Contra Egipto"
+            "Profecía contra las naciones"
           ]
         },
         {
           "number": 2,
-          "text": "Con respecto a Egipto. Contra el ejército de Faraón Necao, rey de Egipto, quien llegó hasta Carquemis, junto al Éufrates, y fue derrotado por Nabucodonosor, rey de Babilonia, el año cuarto de Joacim, hijo de Josías, rey de Judá:"
+          "text": "Con respecto a Egipto. Contra el ejército de Faraón Necao, rey de Egipto, quien llegó hasta Carquemis, junto al Éufrates, y fue derrotado por Nabucodonosor, rey de Babilonia, el año cuarto de Joacim, hijo de Josías, rey de Judá:",
+          "headings": [
+            "Contra Egipto"
+          ]
         },
         {
           "number": 3,
@@ -4842,7 +4962,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Palabra de Yavé que vino al profeta Jeremías con respecto a los filisteos, antes que Faraón destruyera Gaza."
+          "text": "Palabra de Yavé que vino al profeta Jeremías con respecto a los filisteos, antes que Faraón destruyera Gaza.",
+          "headings": [
+            "Profecía contra Filistea"
+          ]
         },
         {
           "number": 2,
@@ -4875,7 +4998,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Con respecto a Moab, Yavé de las huestes, ʼElohim de Israel, dice: ¡Ay de Nebo, porque es destruida, de Quiriataim, porque es avergonzada y capturada! La altiva fortaleza es avergonzada y destrozada."
+          "text": "Con respecto a Moab, Yavé de las huestes, ʼElohim de Israel, dice: ¡Ay de Nebo, porque es destruida, de Quiriataim, porque es avergonzada y capturada! La altiva fortaleza es avergonzada y destrozada.",
+          "headings": [
+            "La sentencia profética contra Moab"
+          ]
         },
         {
           "number": 2,
@@ -5075,7 +5201,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé dice: ¿Israel no tiene hijos? ¿No tiene heredero? ¿Por qué Milcom desposeyó a Gad, y el pueblo de él se estableció en sus ciudades?"
+          "text": "Yavé dice: ¿Israel no tiene hijos? ¿No tiene heredero? ¿Por qué Milcom desposeyó a Gad, y el pueblo de él se estableció en sus ciudades?",
+          "headings": [
+            "Profecía contra Amón"
+          ]
         },
         {
           "number": 2,
@@ -5095,14 +5224,14 @@
         },
         {
           "number": 6,
-          "text": "Pero después restauraré a los cautivos de Amón, dice Yavé .",
-          "headings": [
-            "Profecía contra Idumea"
-          ]
+          "text": "Pero después restauraré a los cautivos de Amón, dice Yavé ."
         },
         {
           "number": 7,
-          "text": "Con respecto a Idumea. Yavé de las huestes dice: ¿Ya no hay sabiduría en Temán? ¿Se perdió el buen consejo de los prudentes? ¿Decayó su sabiduría?"
+          "text": "Con respecto a Idumea. Yavé de las huestes dice: ¿Ya no hay sabiduría en Temán? ¿Se perdió el buen consejo de los prudentes? ¿Decayó su sabiduría?",
+          "headings": [
+            "Profecía contra Idumea"
+          ]
         },
         {
           "number": 8,
@@ -5162,14 +5291,14 @@
         },
         {
           "number": 22,
-          "text": "En verdad, Él se remonta y vuela. Se abalanza como un águila, y extiende sus alas contra Bosra. En aquel día el corazón de los valientes de Edom será como el corazón de una parturienta.",
-          "headings": [
-            "Profecía contra Damasco"
-          ]
+          "text": "En verdad, Él se remonta y vuela. Se abalanza como un águila, y extiende sus alas contra Bosra. En aquel día el corazón de los valientes de Edom será como el corazón de una parturienta."
         },
         {
           "number": 23,
-          "text": "Con respecto a Damasco. Amat y Arpad están avergonzadas porque oyeron malas noticias. Se derriten en un mar de ansiedad que no puede sosegarse."
+          "text": "Con respecto a Damasco. Amat y Arpad están avergonzadas porque oyeron malas noticias. Se derriten en un mar de ansiedad que no puede sosegarse.",
+          "headings": [
+            "Profecía contra Damasco"
+          ]
         },
         {
           "number": 24,
@@ -5185,14 +5314,14 @@
         },
         {
           "number": 27,
-          "text": "Encenderé un fuego en el muro de Damasco que devorará los palacios fortificados de Ben-adad.",
-          "headings": [
-            "Profecía contra Cedar y Hazor"
-          ]
+          "text": "Encenderé un fuego en el muro de Damasco que devorará los palacios fortificados de Ben-adad."
         },
         {
           "number": 28,
-          "text": "Yavé dice esto contra Cedar y los reinos de Hazor, a quienes Nabucodonosor, rey de Babilonia, derrotó: Levántense, suban contra Cedar. Destruyan a los hombres del oriente."
+          "text": "Yavé dice esto contra Cedar y los reinos de Hazor, a quienes Nabucodonosor, rey de Babilonia, derrotó: Levántense, suban contra Cedar. Destruyan a los hombres del oriente.",
+          "headings": [
+            "Profecía contra Cedar y Hazor"
+          ]
         },
         {
           "number": 29,
@@ -5212,14 +5341,14 @@
         },
         {
           "number": 33,
-          "text": "Hazor será como residencia de chacales, una desolación perpetua. Nadie vivirá allí, ni la habitará hijo de hombre.",
-          "headings": [
-            "Profecía contra Elam"
-          ]
+          "text": "Hazor será como residencia de chacales, una desolación perpetua. Nadie vivirá allí, ni la habitará hijo de hombre."
         },
         {
           "number": 34,
-          "text": "Palabra de Yavé que vino al profeta Jeremías con respecto a Elam, al principio del reinado de Sedequías, rey de Judá:"
+          "text": "Palabra de Yavé que vino al profeta Jeremías con respecto a Elam, al principio del reinado de Sedequías, rey de Judá:",
+          "headings": [
+            "Profecía contra Elam"
+          ]
         },
         {
           "number": 35,
@@ -5248,7 +5377,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Palabra de Yavé que vino al profeta Jeremías con respecto a Babilonia y la tierra de los caldeos:"
+          "text": "Palabra de Yavé que vino al profeta Jeremías con respecto a Babilonia y la tierra de los caldeos:",
+          "headings": [
+            "Profecía sobre el destino final de Babilonia"
+          ]
         },
         {
           "number": 2,
@@ -5437,7 +5569,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé dice: Ciertamente Yo envío un viento destructor contra Babilonia y contra sus habitantes que se levantan contra Mí."
+          "text": "Yavé dice: Ciertamente Yo envío un viento destructor contra Babilonia y contra sus habitantes que se levantan contra Mí.",
+          "headings": [
+            "Continuación de la profecía contra Babilonia"
+          ]
         },
         {
           "number": 2,
@@ -5698,7 +5833,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Sedequías tenía 21 años de edad cuando comenzó a reinar, y reinó 11 años en Jerusalén. Su madre se llamaba Hamutal, hija de Jeremías de Libna."
+          "text": "Sedequías tenía 21 años de edad cuando comenzó a reinar, y reinó 11 años en Jerusalén. Su madre se llamaba Hamutal, hija de Jeremías de Libna.",
+          "headings": [
+            "La caída de Jerusalén en mano de Nabucodonosor"
+          ]
         },
         {
           "number": 2,
@@ -5738,14 +5876,14 @@
         },
         {
           "number": 11,
-          "text": "El rey de Babilonia le sacó los ojos a Sedequías y le puso grillos. Mandó llevarlo a Babilonia y lo metió en la cárcel hasta el día cuando murió.",
-          "headings": [
-            "La cautividad"
-          ]
+          "text": "El rey de Babilonia le sacó los ojos a Sedequías y le puso grillos. Mandó llevarlo a Babilonia y lo metió en la cárcel hasta el día cuando murió."
         },
         {
           "number": 12,
-          "text": "El mes quinto, a los diez días del mes, año 19 del reinado de Nabucodonosor, rey de Babilonia, llegó a Jerusalén Nabuzaradán, capitán de la guardia que servía en la presencia del rey de Babilonia."
+          "text": "El mes quinto, a los diez días del mes, año 19 del reinado de Nabucodonosor, rey de Babilonia, llegó a Jerusalén Nabuzaradán, capitán de la guardia que servía en la presencia del rey de Babilonia.",
+          "headings": [
+            "La cautividad"
+          ]
         },
         {
           "number": 13,
@@ -5824,14 +5962,14 @@
         },
         {
           "number": 30,
-          "text": "el año 23 de Nabucodonosor, a 745 personas de Judá por Nabuzaradán, capitán de la guardia. Hubo un total de 4.600 personas.",
-          "headings": [
-            "Libertad de Joaquín"
-          ]
+          "text": "el año 23 de Nabucodonosor, a 745 personas de Judá por Nabuzaradán, capitán de la guardia. Hubo un total de 4.600 personas."
         },
         {
           "number": 31,
-          "text": "El año 37 del cautiverio de Joaquín, rey de Judá, el mes 12, a los 25 días del mes, sucedió que Evil-merodac, rey de Babilonia, el año primero de su reinado, indultó a Joaquín, rey de Judá, y lo sacó de la cárcel."
+          "text": "El año 37 del cautiverio de Joaquín, rey de Judá, el mes 12, a los 25 días del mes, sucedió que Evil-merodac, rey de Babilonia, el año primero de su reinado, indultó a Joaquín, rey de Judá, y lo sacó de la cárcel.",
+          "headings": [
+            "Libertad de Joaquín"
+          ]
         },
         {
           "number": 32,

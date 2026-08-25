@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de la muerte de Moisés, el siervo del Señor , Dios habló al ayudante de Moisés, Josué, hijo de Nun, y le dijo:"
+          "text": "Después de la muerte de Moisés, el siervo del Señor , Dios habló al ayudante de Moisés, Josué, hijo de Nun, y le dijo:",
+          "headings": [
+            "Orden del Señor a Josué"
+          ]
         },
         {
           "number": 2,
@@ -84,7 +87,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Josué envió dos espías desde el campamento de Israel en Sitín para que cruzaran el río Jordán y observaran la situación en la otra orilla, especialmente en Jericó. Llegaron a la casa de una mujer llamada Rajab, que era prostituta;"
+          "text": "Josué envió dos espías desde el campamento de Israel en Sitín para que cruzaran el río Jordán y observaran la situación en la otra orilla, especialmente en Jericó. Llegaron a la casa de una mujer llamada Rajab, que era prostituta;",
+          "headings": [
+            "Rajab y los espías"
+          ]
         },
         {
           "number": 2,
@@ -183,7 +189,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Temprano en la mañana del día siguiente Josué y todo el pueblo de Israel salieron de Sitín y llegaron a las riberas del río Jordán, donde acamparon durante varios días antes de cruzarlo."
+          "text": "Temprano en la mañana del día siguiente Josué y todo el pueblo de Israel salieron de Sitín y llegaron a las riberas del río Jordán, donde acamparon durante varios días antes de cruzarlo.",
+          "headings": [
+            "El cruce del río Jordán"
+          ]
         },
         {
           "number": 2,
@@ -254,7 +263,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando el pueblo terminó de cruzar el río, el Señor le dijo a Josué:"
+          "text": "Cuando el pueblo terminó de cruzar el río, el Señor le dijo a Josué:",
+          "headings": [
+            "Monumento conmemorativo"
+          ]
         },
         {
           "number": 2,
@@ -351,16 +363,16 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando las naciones que estaban al oeste del río Jordán (los cananeos y los amorreos que vivían a lo largo de la costa del Mediterráneo) oyeron que el Señor había secado el río Jordán para que el pueblo de Israel pudiera cruzarlo, se les disipó completamente el valor y quedaron paralizados de temor.",
-          "headings": [
-            "Liberación del oprobio egipcio"
-          ]
+          "text": "Cuando las naciones que estaban al oeste del río Jordán (los cananeos y los amorreos que vivían a lo largo de la costa del Mediterráneo) oyeron que el Señor había secado el río Jordán para que el pueblo de Israel pudiera cruzarlo, se les disipó completamente el valor y quedaron paralizados de temor."
         },
         {
           "number": 2,
           "text": "El Señor entonces le dijo a Josué que apartara un día para circuncidar a toda la población masculina de Israel. El Señor les dio orden de hacer cuchillos de piedra con este propósito. El lugar donde se realizó el rito de la circuncisión fue denominado colina de los Prepucios.",
           "verseDisplay": "2-3",
-          "endNumber": 3
+          "endNumber": 3,
+          "headings": [
+            "Liberación del oprobio egipcio"
+          ]
         },
         {
           "number": 4,
@@ -380,14 +392,14 @@
           "number": 8,
           "text": "Y el Señor le dijo a Josué: «Hoy he quitado de ustedes la humillación de ser esclavos». Por esta razón el lugar donde se realizó esto se llamó Guilgal, y así se llama todavía. Después de la ceremonia todos descansaron en el campamento hasta que sus heridas sanaron.",
           "verseDisplay": "8-9",
-          "endNumber": 9,
-          "headings": [
-            "Celebración de la Pascua"
-          ]
+          "endNumber": 9
         },
         {
           "number": 10,
-          "text": "Mientras estaban acampados en Guilgal, en los llanos de Jericó, celebraron la Pascua durante la tarde del día catorce del mes."
+          "text": "Mientras estaban acampados en Guilgal, en los llanos de Jericó, celebraron la Pascua durante la tarde del día catorce del mes.",
+          "headings": [
+            "Celebración de la Pascua"
+          ]
         },
         {
           "number": 11,
@@ -395,14 +407,14 @@
         },
         {
           "number": 12,
-          "text": "Al otro día ya no hubo maná y jamás volvieron a verlo. Desde entonces comenzaron a vivir de lo que producía la tierra de Canaán.",
-          "headings": [
-            "El comandante del ejército del Señor"
-          ]
+          "text": "Al otro día ya no hubo maná y jamás volvieron a verlo. Desde entonces comenzaron a vivir de lo que producía la tierra de Canaán."
         },
         {
           "number": 13,
-          "text": "Un día que Josué recorría los alrededores de la ciudad de Jericó apareció un hombre junto a él con una espada desenvainada. Josué se dirigió a él y le preguntó: ―¿Eres amigo o enemigo?"
+          "text": "Un día que Josué recorría los alrededores de la ciudad de Jericó apareció un hombre junto a él con una espada desenvainada. Josué se dirigió a él y le preguntó: ―¿Eres amigo o enemigo?",
+          "headings": [
+            "El comandante del ejército del Señor"
+          ]
         },
         {
           "number": 14,
@@ -419,7 +431,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los habitantes de Jericó mantenían las puertas de la ciudad bien cerradas porque tenían miedo de los israelitas. Nadie podía salir ni entrar. Entonces el Señor le dijo a Josué:"
+          "text": "Los habitantes de Jericó mantenían las puertas de la ciudad bien cerradas porque tenían miedo de los israelitas. Nadie podía salir ni entrar. Entonces el Señor le dijo a Josué:",
+          "headings": [
+            "La conquista de Jericó"
+          ]
         },
         {
           "number": 2,
@@ -518,12 +533,15 @@
           "number": 1,
           "text": "Hubo un gran pecado entre los israelitas. Alguien desobedeció el mandato de Dios de destruir todo salvo lo que estaba reservado para los tesoros del Señor . Acán, hijo de Carmí, nieto de Zabdí y bisnieto de Zera, de la tribu de Judá, tomó parte del botín para sí, y el Señor se enojó con toda la nación a causa de esto.",
           "headings": [
-            "La derrota en Hai"
+            "El pecado de Acán"
           ]
         },
         {
           "number": 2,
-          "text": "Poco después de la derrota de Jericó, Josué envió a sus hombres a reconocer la ciudad de Hai que queda al oriente de Betel."
+          "text": "Poco después de la derrota de Jericó, Josué envió a sus hombres a reconocer la ciudad de Hai que queda al oriente de Betel.",
+          "headings": [
+            "La derrota en Hai"
+          ]
         },
         {
           "number": 3,
@@ -575,14 +593,14 @@
         },
         {
           "number": 15,
-          "text": "El que haya robado lo que pertenece al Señor será quemado junto con todo lo que tiene, porque ha violado el pacto del Señor y ha traído calamidades sobre Israel.",
-          "headings": [
-            "El castigo de Acán"
-          ]
+          "text": "El que haya robado lo que pertenece al Señor será quemado junto con todo lo que tiene, porque ha violado el pacto del Señor y ha traído calamidades sobre Israel."
         },
         {
           "number": 16,
-          "text": "Al día siguiente, siendo muy temprano, Josué presentó las tribus de Israel delante del Señor y fue señalada la tribu de Judá."
+          "text": "Al día siguiente, siendo muy temprano, Josué presentó las tribus de Israel delante del Señor y fue señalada la tribu de Judá.",
+          "headings": [
+            "El castigo de Acán"
+          ]
         },
         {
           "number": 17,
@@ -631,7 +649,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le dijo a Josué: «No temas ni desmayes, toma contigo toda la gente de guerra, y levántate y sube a Hai. La he entregado en tus manos para que la conquistes. He entregado en tus manos al rey de Hai y a todo su pueblo, su ciudad y su tierra."
+          "text": "El Señor le dijo a Josué: «No temas ni desmayes, toma contigo toda la gente de guerra, y levántate y sube a Hai. La he entregado en tus manos para que la conquistes. He entregado en tus manos al rey de Hai y a todo su pueblo, su ciudad y su tierra.",
+          "headings": [
+            "Obediencia y victoria"
+          ]
         },
         {
           "number": 2,
@@ -733,14 +754,14 @@
         },
         {
           "number": 29,
-          "text": "Josué colgó al rey de Hai de un árbol hasta la tarde, pero cuando el sol estaba declinando bajó el cuerpo, lo arrojó frente al portón de la ciudad, y lo cubrió con un montón de piedras que todavía está allí.",
-          "headings": [
-            "Lectura de la ley en el monte Ebal"
-          ]
+          "text": "Josué colgó al rey de Hai de un árbol hasta la tarde, pero cuando el sol estaba declinando bajó el cuerpo, lo arrojó frente al portón de la ciudad, y lo cubrió con un montón de piedras que todavía está allí."
         },
         {
           "number": 30,
-          "text": "Luego Josué construyó un altar al Señor Dios de Israel en el monte Ebal"
+          "text": "Luego Josué construyó un altar al Señor Dios de Israel en el monte Ebal",
+          "headings": [
+            "Lectura de la ley en el monte Ebal"
+          ]
         },
         {
           "number": 31,
@@ -769,7 +790,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando los reyes de los alrededores oyeron lo que le había ocurrido a Jericó, rápidamente se unieron para defender sus vidas de los ataques de Josué y los israelitas."
+          "text": "Cuando los reyes de los alrededores oyeron lo que le había ocurrido a Jericó, rápidamente se unieron para defender sus vidas de los ataques de Josué y los israelitas.",
+          "headings": [
+            "Astucia de los gabaonitas"
+          ]
         },
         {
           "number": 2,
@@ -874,7 +898,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando Adonisédec, rey de Jerusalén, oyó que Josué había capturado y destruido a Hai, y que había dado muerte a su rey de la misma manera que había hecho en Jericó, y supo que con una estratagema Gabaón había hecho paz con Israel y ahora eran aliados,"
+          "text": "Cuando Adonisédec, rey de Jerusalén, oyó que Josué había capturado y destruido a Hai, y que había dado muerte a su rey de la misma manera que había hecho en Jericó, y supo que con una estratagema Gabaón había hecho paz con Israel y ahora eran aliados,",
+          "headings": [
+            "Ataque de los reyes amorreos"
+          ]
         },
         {
           "number": 2,
@@ -890,14 +917,14 @@
         },
         {
           "number": 5,
-          "text": "Los cinco reyes amorreos unieron sus ejércitos para atacar juntos a Gabaón.",
-          "headings": [
-            "Derrota de los reyes amorreos"
-          ]
+          "text": "Los cinco reyes amorreos unieron sus ejércitos para atacar juntos a Gabaón."
         },
         {
           "number": 6,
-          "text": "Al saberlo los hombres de Gabaón enviaron un mensaje urgente a Josué que estaba en Guilgal: «Ven y ayuda a tus siervos. Ven rápidamente y sálvanos. Todos los reyes que viven en las montañas están aquí con sus ejércitos»."
+          "text": "Al saberlo los hombres de Gabaón enviaron un mensaje urgente a Josué que estaba en Guilgal: «Ven y ayuda a tus siervos. Ven rápidamente y sálvanos. Todos los reyes que viven en las montañas están aquí con sus ejércitos».",
+          "headings": [
+            "Derrota de los reyes amorreos"
+          ]
         },
         {
           "number": 7,
@@ -933,14 +960,14 @@
         },
         {
           "number": 15,
-          "text": "Después Josué y todos los israelitas regresaron a Guilgal.",
-          "headings": [
-            "Muerte de los reyes amorreos"
-          ]
+          "text": "Después Josué y todos los israelitas regresaron a Guilgal."
         },
         {
           "number": 16,
-          "text": "Durante la batalla los cinco reyes escaparon y se escondieron en una caverna en Maquedá."
+          "text": "Durante la batalla los cinco reyes escaparon y se escondieron en una caverna en Maquedá.",
+          "headings": [
+            "Muerte de los reyes amorreos"
+          ]
         },
         {
           "number": 17,
@@ -986,14 +1013,14 @@
         },
         {
           "number": 28,
-          "text": "Aquel mismo día Josué destruyó la ciudad de Maquedá y mató a su rey y a todos los que vivían en ella. Ninguna persona de la ciudad quedó viva. Al igual que en Jericó.",
-          "headings": [
-            "Conquista de las ciudades del sur"
-          ]
+          "text": "Aquel mismo día Josué destruyó la ciudad de Maquedá y mató a su rey y a todos los que vivían en ella. Ninguna persona de la ciudad quedó viva. Al igual que en Jericó."
         },
         {
           "number": 29,
-          "text": "Luego los israelitas fueron a Libná."
+          "text": "Luego los israelitas fueron a Libná.",
+          "headings": [
+            "Conquista de las ciudades del sur"
+          ]
         },
         {
           "number": 30,
@@ -1056,7 +1083,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando el rey Jabín de Jazor se enteró de lo ocurrido, envió mensajes urgentes a los siguientes reyes: Jobab rey de Madón; al rey de Simrón; al rey de Acsaf;"
+          "text": "Cuando el rey Jabín de Jazor se enteró de lo ocurrido, envió mensajes urgentes a los siguientes reyes: Jobab rey de Madón; al rey de Simrón; al rey de Acsaf;",
+          "headings": [
+            "Conquista de los reinos del norte"
+          ]
         },
         {
           "number": 2,
@@ -1112,14 +1142,14 @@
         },
         {
           "number": 15,
-          "text": "Así lo había ordenado el Señor a su siervo Moisés, y Moisés había pasado esta orden a Josué el cual hizo según se le había ordenado. Cuidadosamente obedeció todas las órdenes que el Señor le había dado a Moisés.",
-          "headings": [
-            "Síntesis de la conquista"
-          ]
+          "text": "Así lo había ordenado el Señor a su siervo Moisés, y Moisés había pasado esta orden a Josué el cual hizo según se le había ordenado. Cuidadosamente obedeció todas las órdenes que el Señor le había dado a Moisés."
         },
         {
           "number": 16,
-          "text": "De modo que Josué conquistó toda la tierra: las montañas, el Néguev, la tierra de Gosén, las llanuras, el Arabá, y las montañas y las llanuras de Israel."
+          "text": "De modo que Josué conquistó toda la tierra: las montañas, el Néguev, la tierra de Gosén, las llanuras, el Arabá, y las montañas y las llanuras de Israel.",
+          "headings": [
+            "Síntesis de la conquista"
+          ]
         },
         {
           "number": 17,
@@ -1156,7 +1186,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Esta es la lista de los reyes del lado oriental del río Jordán cuyas ciudades fueron destruidas por los israelitas. El área abarca toda la región desde el valle del Arnón hasta el monte Hermón incluyendo las ciudades del desierto oriental."
+          "text": "Esta es la lista de los reyes del lado oriental del río Jordán cuyas ciudades fueron destruidas por los israelitas. El área abarca toda la región desde el valle del Arnón hasta el monte Hermón incluyendo las ciudades del desierto oriental.",
+          "headings": [
+            "Reyes derrotados por Moisés"
+          ]
         },
         {
           "number": 2,
@@ -1176,14 +1209,14 @@
         },
         {
           "number": 6,
-          "text": "Moisés y el pueblo de Israel habían destruido estos pueblos, y Moisés les dio las tierras a las tribus de Rubén y Gad, y a la media tribu de Manasés.",
-          "headings": [
-            "Reyes derrotados por Josué"
-          ]
+          "text": "Moisés y el pueblo de Israel habían destruido estos pueblos, y Moisés les dio las tierras a las tribus de Rubén y Gad, y a la media tribu de Manasés."
         },
         {
           "number": 7,
-          "text": "Esta es la lista de los reyes destruidos por Josué y los guerreros de Israel en el lado occidental del Jordán. Esta tierra, que queda entre Baal Gad en el valle del Líbano y el monte Jalac al occidente del monte Seír, Josué la repartió a las distintas tribus de Israel."
+          "text": "Esta es la lista de los reyes destruidos por Josué y los guerreros de Israel en el lado occidental del Jordán. Esta tierra, que queda entre Baal Gad en el valle del Líbano y el monte Jalac al occidente del monte Seír, Josué la repartió a las distintas tribus de Israel.",
+          "headings": [
+            "Reyes derrotados por Josué"
+          ]
         },
         {
           "number": 8,
@@ -1198,20 +1231,23 @@
       "verses": [
         {
           "number": 1,
-          "text": "Josué ya estaba muy anciano y el Señor le dijo: «Has envejecido y aún falta conquistar muchas naciones."
+          "text": "Josué ya estaba muy anciano y el Señor le dijo: «Has envejecido y aún falta conquistar muchas naciones.",
+          "headings": [
+            "El territorio no conquistado"
+          ]
         },
         {
           "number": 2,
           "text": "Esta es la lista de los territorios aún no ocupados: »Toda la tierra de los filisteos; la de los guesureos; el territorio que ahora pertenece a los cananeos desde el arroyo de Egipto hasta el límite meridional de Ecrón; cinco ciudades de los filisteos: Gaza, Asdod, Ascalón, Gat, y Ecrón; la tierra de los aveos en el sur; en el norte, toda la tierra de los cananeos, incluyendo Araj que pertenece a los sidonios; que se extiende hacia el norte hasta Afec en el límite de los amorreos; la tierra de los guiblitas, y toda la región montañosa, desde Baal Gad al pie del monte Hermón en el sur hasta la entrada de Lebó Jamat en el norte; toda la región montañosa desde el Líbano hasta Misrefot Mayin, incluyendo toda la tierra de los sidonios. »Expulsaré a todas estas naciones de Israel para incluir su territorio en la división de la tierra entre las nueve tribus restantes y la media tribu de Manasés de la manera que te he ordenado».",
           "verseDisplay": "2-7",
-          "endNumber": 7,
-          "headings": [
-            "División de los territorios al oriente del Jordán"
-          ]
+          "endNumber": 7
         },
         {
           "number": 8,
-          "text": "La otra mitad de la tribu de Manasés y las tribus de Rubén y Gad ya habían recibido sus tierras en la ribera oriental del río Jordán, porque Moisés les había asignado esta tierra."
+          "text": "La otra mitad de la tribu de Manasés y las tribus de Rubén y Gad ya habían recibido sus tierras en la ribera oriental del río Jordán, porque Moisés les había asignado esta tierra.",
+          "headings": [
+            "División de los territorios al oriente del Jordán"
+          ]
         },
         {
           "number": 9,
@@ -1308,7 +1344,10 @@
           "number": 1,
           "text": "Las tierras conquistadas en Canaán fueron asignadas a las nueve tribus y media restantes en Israel. La decisión en cuanto a la parte que recibiría cada tribu se tomó por sorteo delante del Señor, y él hizo que estas salieran en la forma por él deseada. Eleazar el sacerdote, Josué y los jefes de las tribus hicieron el sorteo.",
           "verseDisplay": "1-2",
-          "endNumber": 2
+          "endNumber": 2,
+          "headings": [
+            "División de los territorios al occidente del Jordán"
+          ]
         },
         {
           "number": 3,
@@ -1318,14 +1357,14 @@
         },
         {
           "number": 5,
-          "text": "La distribución de la tierra se realizó estrictamente de acuerdo con las órdenes dadas por el Señor a Moisés.",
-          "headings": [
-            "Caleb recibe Hebrón"
-          ]
+          "text": "La distribución de la tierra se realizó estrictamente de acuerdo con las órdenes dadas por el Señor a Moisés."
         },
         {
           "number": 6,
-          "text": "Tierra asignada a Caleb: Una delegación de la tribu de Judá dirigida por Caleb, se presentó delante de Josué en Guilgal. «Recuerda lo que el Señor le dijo a Moisés acerca de nosotros dos cuando estábamos en Cades Barnea —dijo Caleb a Josué—."
+          "text": "Tierra asignada a Caleb: Una delegación de la tribu de Judá dirigida por Caleb, se presentó delante de Josué en Guilgal. «Recuerda lo que el Señor le dijo a Moisés acerca de nosotros dos cuando estábamos en Cades Barnea —dijo Caleb a Josué—.",
+          "headings": [
+            "Caleb recibe Hebrón"
+          ]
         },
         {
           "number": 7,
@@ -1368,7 +1407,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Tierra asignada, por sorteo, a la tribu de Judá: El límite sur de Judá empezaba en la frontera con Edom, cruzaba el desierto de Zin y terminaba en el extremo norte del Néguev."
+          "text": "Tierra asignada, por sorteo, a la tribu de Judá: El límite sur de Judá empezaba en la frontera con Edom, cruzaba el desierto de Zin y terminaba en el extremo norte del Néguev.",
+          "headings": [
+            "Los territorios de Judá"
+          ]
         },
         {
           "number": 2,
@@ -1404,14 +1446,14 @@
         },
         {
           "number": 12,
-          "text": "El límite occidental era la línea costera del mar Mediterráneo: Estos son los límites de la tierra que se le dio a los clanes de la tribu de Judá.",
-          "headings": [
-            "Caleb conquista Hebrón y Debir"
-          ]
+          "text": "El límite occidental era la línea costera del mar Mediterráneo: Estos son los límites de la tierra que se le dio a los clanes de la tribu de Judá."
         },
         {
           "number": 13,
-          "text": "Tierra concedida a Caleb: El Señor le dio órdenes a Josué de asignar algo de la tierra de Judá a Caleb, hijo de Jefone, de modo que le dio la ciudad de Quiriat Arbá (llamada también Hebrón), llamada así en honor al padre de Anac."
+          "text": "Tierra concedida a Caleb: El Señor le dio órdenes a Josué de asignar algo de la tierra de Judá a Caleb, hijo de Jefone, de modo que le dio la ciudad de Quiriat Arbá (llamada también Hebrón), llamada así en honor al padre de Anac.",
+          "headings": [
+            "Caleb conquista Hebrón y Debir"
+          ]
         },
         {
           "number": 14,
@@ -1435,14 +1477,14 @@
         },
         {
           "number": 19,
-          "text": "Dame otro regalo —ella le respondió—. La tierra que me diste es desierta; danos algunos manantiales también. Él les concedió los manantiales de arriba y de abajo.",
-          "headings": [
-            "Ciudades de Judá"
-          ]
+          "text": "Dame otro regalo —ella le respondió—. La tierra que me diste es desierta; danos algunos manantiales también. Él les concedió los manantiales de arriba y de abajo."
         },
         {
           "number": 20,
-          "text": "Esta fue la asignación de tierras de la tribu de Judá:"
+          "text": "Esta fue la asignación de tierras de la tribu de Judá:",
+          "headings": [
+            "Ciudades de Judá"
+          ]
         },
         {
           "number": 21,
@@ -1491,20 +1533,23 @@
       "verses": [
         {
           "number": 1,
-          "text": "Límite sur de las tribus de José (Efraín y la media tribu de Manasés):"
+          "text": "Límite sur de las tribus de José (Efraín y la media tribu de Manasés):",
+          "headings": [
+            "Los territorios de Efraín y Manasés"
+          ]
         },
         {
           "number": 2,
           "text": "Este límite se extendía desde el río Jordán en Jericó, a través del desierto y de la región montañosa, hasta Betel. De allí seguía hasta Luz y hasta Atarot, en el territorio de los arquitas; y hacia el occidente hasta la frontera de los jafletitas, hasta Bet Jorón la de abajo luego hasta Guézer y de allí hacia el mar Mediterráneo.",
           "verseDisplay": "2-4",
-          "endNumber": 4,
-          "headings": [
-            "El territorio de Efraín"
-          ]
+          "endNumber": 4
         },
         {
           "number": 5,
-          "text": "Tierra asignada a la tribu de Efraín: El límite oriental comenzaba en Atarot Adar. De allí seguía hasta Bet Jorón la de arriba,"
+          "text": "Tierra asignada a la tribu de Efraín: El límite oriental comenzaba en Atarot Adar. De allí seguía hasta Bet Jorón la de arriba,",
+          "headings": [
+            "El territorio de Efraín"
+          ]
         },
         {
           "number": 6,
@@ -1533,7 +1578,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Tierra asignada por sorteo a la media tribu de Manasés, hijo mayor de José: El clan de Maquir, hijo mayor de Manasés y padre de Galaad, que era hombre de guerra, recibió la tierra de Galaad y de Basán en la ribera oriental del río Jordán."
+          "text": "Tierra asignada por sorteo a la media tribu de Manasés, hijo mayor de José: El clan de Maquir, hijo mayor de Manasés y padre de Galaad, que era hombre de guerra, recibió la tierra de Galaad y de Basán en la ribera oriental del río Jordán.",
+          "headings": [
+            "El territorio de Manasés"
+          ]
         },
         {
           "number": 2,
@@ -1606,7 +1654,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de la conquista"
+          "text": "Después de la conquista",
+          "headings": [
+            "Los territorios de las otras tribus"
+          ]
         },
         {
           "number": 2,
@@ -1640,14 +1691,14 @@
         },
         {
           "number": 10,
-          "text": "Allí, en el santuario en Siló, el Señor le mostró a Josué por medio de suertes la sección que cada tribu debía recibir.",
-          "headings": [
-            "El territorio de Benjamín"
-          ]
+          "text": "Allí, en el santuario en Siló, el Señor le mostró a Josué por medio de suertes la sección que cada tribu debía recibir."
         },
         {
           "number": 11,
-          "text": "Tierra asignada a la tribu de Benjamín: La sección asignada a la familia de Benjamín quedó entre los territorios asignados previamente a las tribus de Judá y José."
+          "text": "Tierra asignada a la tribu de Benjamín: La sección asignada a la familia de Benjamín quedó entre los territorios asignados previamente a las tribus de Judá y José.",
+          "headings": [
+            "El territorio de Benjamín"
+          ]
         },
         {
           "number": 12,
@@ -1698,7 +1749,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Tierra asignada a la tribu de Simeón: La tribu de Simeón recibió la siguiente porción de tierra, la cual estuvo ubicada en medio del territorio asignado a Judá."
+          "text": "Tierra asignada a la tribu de Simeón: La tribu de Simeón recibió la siguiente porción de tierra, la cual estuvo ubicada en medio del territorio asignado a Judá.",
+          "headings": [
+            "El territorio de Simeón"
+          ]
         },
         {
           "number": 2,
@@ -1712,14 +1766,14 @@
         },
         {
           "number": 9,
-          "text": "Las propiedades de Simeón, pues, vinieron de parte de lo que antes había sido dado a Judá, porque la sección de Judá había sido demasiado grande para ellos.",
-          "headings": [
-            "El territorio de Zabulón"
-          ]
+          "text": "Las propiedades de Simeón, pues, vinieron de parte de lo que antes había sido dado a Judá, porque la sección de Judá había sido demasiado grande para ellos."
         },
         {
           "number": 10,
-          "text": "Tierra asignada a la tribu de Zabulón: La tercera tribu en recibir su asignación de tierras fue Zabulón. Sus límites comenzaban al costado sur de Sarid."
+          "text": "Tierra asignada a la tribu de Zabulón: La tercera tribu en recibir su asignación de tierras fue Zabulón. Sus límites comenzaban al costado sur de Sarid.",
+          "headings": [
+            "El territorio de Zabulón"
+          ]
         },
         {
           "number": 11,
@@ -1741,10 +1795,7 @@
           "number": 15,
           "text": "Las ciudades en estas áreas, además de las mencionadas, incluían a Catat, Nalal, Simrón, Idalá y Belén, y todos los pueblos circundantes. En total eran doce ciudades. Esta es la tierra que se le dio a los clanes de la tribu de Zabulón.",
           "verseDisplay": "15-16",
-          "endNumber": 16,
-          "headings": [
-            "El territorio de Isacar"
-          ]
+          "endNumber": 16
         },
         {
           "number": 17,
@@ -1752,14 +1803,17 @@
           "verseDisplay": "17-23",
           "endNumber": 23,
           "headings": [
-            "El territorio de Aser"
+            "El territorio de Isacar"
           ]
         },
         {
           "number": 24,
           "text": "Tierra asignada a la tribu de Aser: La quinta tribu en recibir su asignación de tierras fue Aser. Sus fronteras incluían estas ciudades: Jelcat, Jalí, Betén, Acsaf, Alamélec, Amad y Miseal. Sus límites del lado occidental iban desde el Carmelo hasta Sijor Libnat,",
           "verseDisplay": "24-26",
-          "endNumber": 26
+          "endNumber": 26,
+          "headings": [
+            "El territorio de Aser"
+          ]
         },
         {
           "number": 27,
@@ -1777,14 +1831,14 @@
           "number": 30,
           "text": "Uma, Afec y Rejob, un total de veintidós ciudades con los pueblos que las rodeaban. Esta es la tierra que se le dio a los clanes de la tribu de Aser.",
           "verseDisplay": "30-31",
-          "endNumber": 31,
-          "headings": [
-            "El territorio de Neftalí"
-          ]
+          "endNumber": 31
         },
         {
           "number": 32,
-          "text": "Tierra asignada a la tribu de Neftalí: La sexta tribu en recibir su asignación de tierras fue la de Neftalí."
+          "text": "Tierra asignada a la tribu de Neftalí: La sexta tribu en recibir su asignación de tierras fue la de Neftalí.",
+          "headings": [
+            "El territorio de Neftalí"
+          ]
         },
         {
           "number": 33,
@@ -1798,14 +1852,14 @@
           "number": 35,
           "text": "Las ciudades fortificadas que estaban en este territorio eran: Sidín, Ser, Jamat, Racat, Quinéret, Adamá, Ramá, Jazor, Cedes, Edrey, Enjazor, Irón, Migdal El, Jorén, Bet Anat y Bet Semes. Eran en total diecinueve ciudades con sus correspondientes pueblos.",
           "verseDisplay": "35-39",
-          "endNumber": 39,
-          "headings": [
-            "El territorio de Dan"
-          ]
+          "endNumber": 39
         },
         {
           "number": 40,
-          "text": "Tierra asignada a la tribu de Dan: La última tribu en recibir su asignación de tierras fue Dan."
+          "text": "Tierra asignada a la tribu de Dan: La última tribu en recibir su asignación de tierras fue Dan.",
+          "headings": [
+            "El territorio de Dan"
+          ]
         },
         {
           "number": 41,
@@ -1819,14 +1873,14 @@
         },
         {
           "number": 48,
-          "text": "Estas ciudades y sus pueblos constituyen la herencia de la tribu de Dan y sus familias.",
-          "headings": [
-            "El territorio de Josué"
-          ]
+          "text": "Estas ciudades y sus pueblos constituyen la herencia de la tribu de Dan y sus familias."
         },
         {
           "number": 49,
-          "text": "Así fue que toda la tierra fue dividida entre las tribus con los límites señalados. La nación de Israel dio una porción especial de tierra a Josué,"
+          "text": "Así fue que toda la tierra fue dividida entre las tribus con los límites señalados. La nación de Israel dio una porción especial de tierra a Josué,",
+          "headings": [
+            "El territorio de Josué"
+          ]
         },
         {
           "number": 50,
@@ -1843,7 +1897,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le dijo a Josué:"
+          "text": "El Señor le dijo a Josué:",
+          "headings": [
+            "Ciudades de refugio"
+          ]
         },
         {
           "number": 2,
@@ -1884,7 +1941,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los dirigentes de la tribu de Leví fueron a Siló a hacer una consulta al sacerdote Eleazar, a Josué y a los jefes de las tribus, y les dijeron:"
+          "text": "Los dirigentes de la tribu de Leví fueron a Siló a hacer una consulta al sacerdote Eleazar, a Josué y a los jefes de las tribus, y les dijeron:",
+          "headings": [
+            "Las poblaciones de los levitas"
+          ]
         },
         {
           "number": 2,
@@ -2021,7 +2081,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Josué convocó a las tribus de Rubén, de Gad, y de la media tribu de Manasés,"
+          "text": "Josué convocó a las tribus de Rubén, de Gad, y de la media tribu de Manasés,",
+          "headings": [
+            "Retorno de las tribus orientales"
+          ]
         },
         {
           "number": 2,
@@ -2158,7 +2221,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Mucho tiempo después, cuando el Señor había dado a Israel victoria contra sus enemigos, y Josué estaba muy anciano,"
+          "text": "Mucho tiempo después, cuando el Señor había dado a Israel victoria contra sus enemigos, y Josué estaba muy anciano,",
+          "headings": [
+            "Despedida de Josué"
+          ]
         },
         {
           "number": 2,
@@ -2225,7 +2291,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego Josué convocó a todo el pueblo de Israel en Siquén, juntamente con sus ancianos, oficiales y jueces. Todos asistieron y se presentaron delante del Señor ."
+          "text": "Luego Josué convocó a todo el pueblo de Israel en Siquén, juntamente con sus ancianos, oficiales y jueces. Todos asistieron y se presentaron delante del Señor .",
+          "headings": [
+            "Renovación del pacto en Siquén"
+          ]
         },
         {
           "number": 2,
@@ -2333,14 +2402,14 @@
         },
         {
           "number": 28,
-          "text": "Luego Josué despidió al pueblo para que volviera cada uno a sus tierras.",
-          "headings": [
-            "Entierros en la Tierra prometida"
-          ]
+          "text": "Luego Josué despidió al pueblo para que volviera cada uno a sus tierras."
         },
         {
           "number": 29,
-          "text": "Poco después de esto murió Josué, hijo de Nun, siervo del Señor, a la edad de ciento diez años."
+          "text": "Poco después de esto murió Josué, hijo de Nun, siervo del Señor, a la edad de ciento diez años.",
+          "headings": [
+            "Entierros en la Tierra prometida"
+          ]
         },
         {
           "number": 30,

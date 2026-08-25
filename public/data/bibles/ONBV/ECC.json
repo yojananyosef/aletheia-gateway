@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estas son las palabras del Predicador, hijo de David, rey de Jerusalén."
+          "text": "Estas son las palabras del Predicador, hijo de David, rey de Jerusalén.",
+          "headings": [
+            "Discurso inicial"
+          ]
         },
         {
           "number": 2,
@@ -25,16 +28,16 @@
           "number": 8,
           "text": "Todo es indecible fastidio y fatiga. Por más que vemos, jamás nos satisfacemos; por más que oímos, no estamos contentos. La historia es simple repetición. Nada hay realmente nuevo; todo ha sido hecho o dicho antes. ¿Puedes tú indicar algo que sea nuevo? ¿Cómo sabes que no existió ya en remotas edades? No recordamos lo ocurrido en aquellos tiempos antiguos, y en las futuras generaciones nadie recordará lo que hayamos hecho ahora.",
           "verseDisplay": "8-11",
-          "endNumber": 11,
-          "headings": [
-            "Primeras conclusiones"
-          ]
+          "endNumber": 11
         },
         {
           "number": 12,
           "text": "Yo, el Predicador, fui rey de Israel y viví en Jerusalén. Y en busca de conocimientos me dediqué a investigarlo todo en el universo. Descubrí que la suerte del ser humano, que Dios le ha señalado, no es un camino feliz. Todo es insensatez; todo es perseguir el viento. Lo torcido no puede enderezarse: es agua pasada; y de nada vale soñar con lo que pudiera haber sido.",
           "verseDisplay": "12-15",
-          "endNumber": 15
+          "endNumber": 15,
+          "headings": [
+            "Primeras conclusiones"
+          ]
         },
         {
           "number": 16,
@@ -81,14 +84,14 @@
         },
         {
           "number": 11,
-          "text": "Pero mirando cuanto había emprendido, me pareció tan inútil, como perseguir el viento sin que nada valiera realmente la pena.",
-          "headings": [
-            "Todos paran en lo mismo"
-          ]
+          "text": "Pero mirando cuanto había emprendido, me pareció tan inútil, como perseguir el viento sin que nada valiera realmente la pena."
         },
         {
           "number": 12,
-          "text": "Entonces consideré la sabiduría y la insensatez, y cualquiera llegaría a la misma conclusión que yo:"
+          "text": "Entonces consideré la sabiduría y la insensatez, y cualquiera llegaría a la misma conclusión que yo:",
+          "headings": [
+            "Todos paran en lo mismo"
+          ]
         },
         {
           "number": 13,
@@ -135,7 +138,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Para todo hay un tiempo oportuno. Hay tiempo para todo lo que se hace bajo el sol."
+          "text": "Para todo hay un tiempo oportuno. Hay tiempo para todo lo que se hace bajo el sol.",
+          "headings": [
+            "Hay un tiempo para todo"
+          ]
         },
         {
           "number": 2,
@@ -163,14 +169,14 @@
         },
         {
           "number": 8,
-          "text": "Tiempo de amar; Tiempo de odiar; Tiempo de guerra; Tiempo de paz.",
-          "headings": [
-            "De nada sirve afanarse"
-          ]
+          "text": "Tiempo de amar; Tiempo de odiar; Tiempo de guerra; Tiempo de paz."
         },
         {
           "number": 9,
-          "text": "Realmente, ¿qué se obtiene del mucho trabajar?"
+          "text": "Realmente, ¿qué se obtiene del mucho trabajar?",
+          "headings": [
+            "De nada sirve afanarse"
+          ]
         },
         {
           "number": 10,
@@ -194,14 +200,14 @@
         },
         {
           "number": 15,
-          "text": "Lo que ahora existe ya existía, y lo que va a existir, existe ya. Dios hace que la historia se repita.",
-          "headings": [
-            "Contradicciones de la vida"
-          ]
+          "text": "Lo que ahora existe ya existía, y lo que va a existir, existe ya. Dios hace que la historia se repita."
         },
         {
           "number": 16,
-          "text": "Además, observo que en toda la tierra la justicia está cediendo ante el crimen y que hasta los tribunales de justicia están corrompidos."
+          "text": "Además, observo que en toda la tierra la justicia está cediendo ante el crimen y que hasta los tribunales de justicia están corrompidos.",
+          "headings": [
+            "Contradicciones de la vida"
+          ]
         },
         {
           "number": 17,
@@ -234,7 +240,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego observé opresión y tristeza por toda la tierra: lloraban los oprimidos y nadie les ayudaba, mientras sus opresores contaban con poderosos aliados."
+          "text": "Luego observé opresión y tristeza por toda la tierra: lloraban los oprimidos y nadie les ayudaba, mientras sus opresores contaban con poderosos aliados.",
+          "headings": [
+            "Opresores y oprimidos"
+          ]
         },
         {
           "number": 2,
@@ -252,14 +261,14 @@
           "number": 5,
           "text": "El necio rehúsa trabajar y casi muere de hambre, pero cree que mejor es ser perezoso y vivir a medias que trabajar mucho, si al fin de cuentas todo es tan vano.",
           "verseDisplay": "5-6",
-          "endNumber": 6,
-          "headings": [
-            "La unión hace la fuerza"
-          ]
+          "endNumber": 6
         },
         {
           "number": 7,
-          "text": "También observé en la tierra otra locura:"
+          "text": "También observé en la tierra otra locura:",
+          "headings": [
+            "La unión hace la fuerza"
+          ]
         },
         {
           "number": 8,
@@ -279,14 +288,14 @@
         },
         {
           "number": 12,
-          "text": "Y uno solo puede ser atacado y vencido, pero dos, espalda contra espalda, pueden resistir y triunfar; y tres son aún mejores, pues una cuerda de tres hilos no es fácil de romper.",
-          "headings": [
-            "Juventud y sabiduría"
-          ]
+          "text": "Y uno solo puede ser atacado y vencido, pero dos, espalda contra espalda, pueden resistir y triunfar; y tres son aún mejores, pues una cuerda de tres hilos no es fácil de romper."
         },
         {
           "number": 13,
-          "text": "Mejor es el joven pobre y sabio que el rey viejo y necio que rechaza todo consejo."
+          "text": "Mejor es el joven pobre y sabio que el rey viejo y necio que rechaza todo consejo.",
+          "headings": [
+            "Juventud y sabiduría"
+          ]
         },
         {
           "number": 14,
@@ -307,7 +316,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando entres en la casa de Dios, ten abiertos los oídos y cerrada la boca. No seas como el necio que ni siquiera reconoce que es pecado hacerle a Dios promesas temerarias,"
+          "text": "Cuando entres en la casa de Dios, ten abiertos los oídos y cerrada la boca. No seas como el necio que ni siquiera reconoce que es pecado hacerle a Dios promesas temerarias,",
+          "headings": [
+            "Hay que cumplir los votos"
+          ]
         },
         {
           "number": 2,
@@ -329,14 +341,14 @@
           "number": 6,
           "text": "En este caso, la boca te hace pecar. No procures excusarte diciéndole al mensajero de Dios que fue por error (el hacer la promesa). Eso enojaría mucho a Dios; y él podría truncar tu prosperidad. Soñar y no realizar es necedad, y el torrente de palabras vacías es ruidoso; en vez de eso, teme a Dios.",
           "verseDisplay": "6-7",
-          "endNumber": 7,
-          "headings": [
-            "Futilidad de las riquezas"
-          ]
+          "endNumber": 7
         },
         {
           "number": 8,
-          "text": "Si en cualquier parte del país ves que un rico oprime al pobre haciendo abortar la justicia, no te sorprendas. Pues cada subalterno recibe órdenes de más arriba, y los más altos oficiales tienen la mirada puesta en sus jefes. Así es que la cuestión se hace una maraña de papeleo y burocracia. Y por sobre todos está el rey."
+          "text": "Si en cualquier parte del país ves que un rico oprime al pobre haciendo abortar la justicia, no te sorprendas. Pues cada subalterno recibe órdenes de más arriba, y los más altos oficiales tienen la mirada puesta en sus jefes. Así es que la cuestión se hace una maraña de papeleo y burocracia. Y por sobre todos está el rey.",
+          "headings": [
+            "Futilidad de las riquezas"
+          ]
         },
         {
           "number": 9,
@@ -389,7 +401,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero hay un gravísimo mal que he visto en todas partes:"
+          "text": "Pero hay un gravísimo mal que he visto en todas partes:",
+          "headings": [
+            "¿Qué sentido tiene la vida?"
+          ]
         },
         {
           "number": 2,
@@ -440,7 +455,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La buena fama es más valiosa que el perfume más caro. Mejor es el día de nuestra muerte que el día que nacimos."
+          "text": "La buena fama es más valiosa que el perfume más caro. Mejor es el día de nuestra muerte que el día que nacimos.",
+          "headings": [
+            "Nueva escala de valores"
+          ]
         },
         {
           "number": 2,
@@ -516,14 +534,14 @@
           "number": 21,
           "text": "No escuches a hurtadillas. Podrías oír a tu siervo murmurando de ti. Bien sabes cuán a menudo hablas tú mal del prójimo.",
           "verseDisplay": "21-22",
-          "endNumber": 22,
-          "headings": [
-            "Tras la razón de las cosas"
-          ]
+          "endNumber": 22
         },
         {
           "number": 23,
-          "text": "He hecho lo posible por ser sabio. Dije: «Yo quiero ser sabio», pero fue inútil."
+          "text": "He hecho lo posible por ser sabio. Dije: «Yo quiero ser sabio», pero fue inútil.",
+          "headings": [
+            "Tras la razón de las cosas"
+          ]
         },
         {
           "number": 24,
@@ -554,16 +572,16 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Qué admirable es ser sabio, para poder comprender, analizar e interpretar las cosas! La sabiduría ilumina el rostro del ser humano, suavizando sus durezas.",
-          "headings": [
-            "La obediencia al rey"
-          ]
+          "text": "¡Qué admirable es ser sabio, para poder comprender, analizar e interpretar las cosas! La sabiduría ilumina el rostro del ser humano, suavizando sus durezas."
         },
         {
           "number": 2,
           "text": "Obedece al rey conforme a tu juramento. No andes tratando de rehuir responsabilidades, aunque sean desagradables. Porque el rey castiga a los desobedientes.",
           "verseDisplay": "2-3",
-          "endNumber": 3
+          "endNumber": 3,
+          "headings": [
+            "La obediencia al rey"
+          ]
         },
         {
           "number": 4,
@@ -581,16 +599,16 @@
         },
         {
           "number": 8,
-          "text": "Nadie puede impedir que se le escape el espíritu; nadie tiene poder para evitar el día de la muerte, pues no hay licencia que libre de esa obligación y de esa negra batalla. Y desde luego, la maldad del ser humano no le ayudará entonces.",
-          "headings": [
-            "Sinrazones de la vida"
-          ]
+          "text": "Nadie puede impedir que se le escape el espíritu; nadie tiene poder para evitar el día de la muerte, pues no hay licencia que libre de esa obligación y de esa negra batalla. Y desde luego, la maldad del ser humano no le ayudará entonces."
         },
         {
           "number": 9,
           "text": "He meditado profundamente en todo lo que ocurre en este mundo, en que los individuos tienen el poder de perjudicarse los unos a los otros. He visto los funerales de los malvados, y cuando sus amigos regresaban del cementerio, olvidadas todas las maldades del difunto, se le alababa en la misma ciudad en donde había cometido sus múltiples fechorías. ¡Qué absurdo!",
           "verseDisplay": "9-10",
-          "endNumber": 10
+          "endNumber": 10,
+          "headings": [
+            "Sinrazones de la vida"
+          ]
         },
         {
           "number": 11,
@@ -625,7 +643,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "También investigué minuciosamente esto: que los justos y los sabios dependen de la voluntad de Dios; nadie sabe si Dios los favorecerá o no. Es cosa de azar."
+          "text": "También investigué minuciosamente esto: que los justos y los sabios dependen de la voluntad de Dios; nadie sabe si Dios los favorecerá o no. Es cosa de azar.",
+          "headings": [
+            "Un destino común"
+          ]
         },
         {
           "number": 2,
@@ -659,14 +680,14 @@
         },
         {
           "number": 10,
-          "text": "Haz bien todo lo que emprendas, porque en la muerte, a la cual vas, no hay trabajo, planes, saber ni entendimiento.",
-          "headings": [
-            "Más vale maña que fuerza"
-          ]
+          "text": "Haz bien todo lo que emprendas, porque en la muerte, a la cual vas, no hay trabajo, planes, saber ni entendimiento."
         },
         {
           "number": 11,
-          "text": "Volví a mirar por toda la tierra y descubrí que no siempre el más veloz gana la carrera, ni el más fuerte la batalla; que los sabios suelen ser pobres y los hombres diestros no son por fuerza famosos; todo es cuestión de suerte; de estar en el sitio adecuado en el momento oportuno."
+          "text": "Volví a mirar por toda la tierra y descubrí que no siempre el más veloz gana la carrera, ni el más fuerte la batalla; que los sabios suelen ser pobres y los hombres diestros no son por fuerza famosos; todo es cuestión de suerte; de estar en el sitio adecuado en el momento oportuno.",
+          "headings": [
+            "Más vale maña que fuerza"
+          ]
         },
         {
           "number": 12,
@@ -703,7 +724,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Las moscas muertas dan mal olor y echan a perder el perfume. Un pequeño error puede pesar más que gran sabiduría y honra."
+          "text": "Las moscas muertas dan mal olor y echan a perder el perfume. Un pequeño error puede pesar más que gran sabiduría y honra.",
+          "headings": [
+            "Dichos de sabiduría"
+          ]
         },
         {
           "number": 2,
@@ -810,14 +834,14 @@
         },
         {
           "number": 8,
-          "text": "El que llegue a muy anciano regocíjese cada día de su vida, pero recuerde también que la eternidad es mucho más larga y que comparado con ella todo lo de este mundo es vano.",
-          "headings": [
-            "Acuérdate de tu Creador"
-          ]
+          "text": "El que llegue a muy anciano regocíjese cada día de su vida, pero recuerde también que la eternidad es mucho más larga y que comparado con ella todo lo de este mundo es vano."
         },
         {
           "number": 9,
-          "text": "Joven, la juventud es un tesoro. ¡Disfruta cada minuto de ella! ¡Haz cuanto se te antoje! Pruébalo todo, pero sabe que tendrás que rendirle cuentas a Dios de cuanto hagas."
+          "text": "Joven, la juventud es un tesoro. ¡Disfruta cada minuto de ella! ¡Haz cuanto se te antoje! Pruébalo todo, pero sabe que tendrás que rendirle cuentas a Dios de cuanto hagas.",
+          "headings": [
+            "Acuérdate de tu Creador"
+          ]
         },
         {
           "number": 10,
@@ -858,14 +882,14 @@
         },
         {
           "number": 8,
-          "text": "Vanidad tras vanidad, dice el Predicador; todo es vanidad.",
-          "headings": [
-            "Epílogo"
-          ]
+          "text": "Vanidad tras vanidad, dice el Predicador; todo es vanidad."
         },
         {
           "number": 9,
-          "text": "Pero luego, ya que el Predicador era sabio, continuó enseñándole al pueblo todo lo que sabía; y recogió proverbios y los clasificó."
+          "text": "Pero luego, ya que el Predicador era sabio, continuó enseñándole al pueblo todo lo que sabía; y recogió proverbios y los clasificó.",
+          "headings": [
+            "Epílogo"
+          ]
         },
         {
           "number": 10,

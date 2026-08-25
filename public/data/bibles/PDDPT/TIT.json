@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo, un esclavo de Dios y apóstol de Jesucristo, según la fe de los escogidos de Dios y el conocimiento de la verdad en la piedad,"
+          "text": "Pablo, un esclavo de Dios y apóstol de Jesucristo, según la fe de los escogidos de Dios y el conocimiento de la verdad en la piedad,",
+          "headings": [
+            "Saludo"
+          ]
         },
         {
           "number": 2,
@@ -21,21 +24,21 @@
         },
         {
           "number": 4,
-          "text": "A Tito, genuino hijo según la fe común. Gracia y paz de Dios Padre y de Cristo Jesús, nuestro Salvador.",
-          "headings": [
-            "Tito en Creta"
-          ]
+          "text": "A Tito, genuino hijo según la fe común. Gracia y paz de Dios Padre y de Cristo Jesús, nuestro Salvador."
         },
         {
           "number": 5,
           "text": "Por esta razón te dejé en Creta, para que te encargaras de poner en orden las cosas desordenadas, y designaras ancianos en cada ciudad, como yo me propuse.",
           "headings": [
-            "Requisitos para los ancianos"
+            "Tito en Creta"
           ]
         },
         {
           "number": 6,
-          "text": "El anciano debe ser irreprochable, esposo de una sola esposa, que tenga hijos fieles, no con acusación de relajamiento moral o rebeldes."
+          "text": "El anciano debe ser irreprochable, esposo de una sola esposa, que tenga hijos fieles, no con acusación de relajamiento moral o rebeldes.",
+          "headings": [
+            "Requisitos para los ancianos"
+          ]
         },
         {
           "number": 7,
@@ -84,7 +87,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero tú habla lo que es conveniente a la sana doctrina."
+          "text": "Pero tú habla lo que es conveniente a la sana doctrina.",
+          "headings": [
+            "Sana doctrina"
+          ]
         },
         {
           "number": 2,
@@ -149,7 +155,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Recuérdales que se sometan a gobernantes y autoridades, que estén preparados para toda obra buena,"
+          "text": "Recuérdales que se sometan a gobernantes y autoridades, que estén preparados para toda obra buena,",
+          "headings": [
+            "Salvación gratuita"
+          ]
         },
         {
           "number": 2,
@@ -189,14 +198,14 @@
         },
         {
           "number": 11,
-          "text": "Sabes que se pervirtió y al ser condenado por sí mismo, peca.",
-          "headings": [
-            "Recomendaciones y despedida"
-          ]
+          "text": "Sabes que se pervirtió y al ser condenado por sí mismo, peca."
         },
         {
           "number": 12,
-          "text": "Cuando te envíe a Artemas o a Tíquico, haz todo esfuerzo por visitarme en Nicópolis, porque decidí pasar allí el invierno."
+          "text": "Cuando te envíe a Artemas o a Tíquico, haz todo esfuerzo por visitarme en Nicópolis, porque decidí pasar allí el invierno.",
+          "headings": [
+            "Recomendaciones y despedida"
+          ]
         },
         {
           "number": 13,

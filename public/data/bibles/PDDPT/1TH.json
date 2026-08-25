@@ -11,12 +11,15 @@
           "number": 1,
           "text": "Pablo, Silvano y Timoteo, a la iglesia de los tesalonicenses, en Dios Padre y en el Señor Jesucristo. Gracia y paz a ustedes.",
           "headings": [
-            "Cristianos ejemplares"
+            "Saludo"
           ]
         },
         {
           "number": 2,
-          "text": "Damos siempre gracias a Dios por todos ustedes y hacemos incesantemente mención en nuestras conversaciones con Dios,"
+          "text": "Damos siempre gracias a Dios por todos ustedes y hacemos incesantemente mención en nuestras conversaciones con Dios,",
+          "headings": [
+            "Cristianos ejemplares"
+          ]
         },
         {
           "number": 3,
@@ -58,6 +61,9 @@
         {
           "number": 1,
           "text": "Porque ustedes mismos saben, hermanos, que nuestra visita a ustedes no fue en vano,",
+          "headings": [
+            "El ministerio en Tesalónica"
+          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -124,14 +130,14 @@
         },
         {
           "number": 16,
-          "text": "Nos prohíben hablar a los gentiles para que sean salvos, a fin de llenar siempre la medida de sus pecados. Pero la máxima ira llegó sobre ellos.",
-          "headings": [
-            "Anhelo de ver a los tesalonicenses"
-          ]
+          "text": "Nos prohíben hablar a los gentiles para que sean salvos, a fin de llenar siempre la medida de sus pecados. Pero la máxima ira llegó sobre ellos."
         },
         {
           "number": 17,
-          "text": "Nosotros, hermanos, al estar separados de ustedes por breve tiempo, de presencia, no de corazón, deseábamos ardientemente ver su rostro."
+          "text": "Nosotros, hermanos, al estar separados de ustedes por breve tiempo, de presencia, no de corazón, deseábamos ardientemente ver su rostro.",
+          "headings": [
+            "Anhelo de ver a los tesalonicenses"
+          ]
         },
         {
           "number": 18,
@@ -152,7 +158,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por lo cual, al no soportar más, decidimos quedarnos solos en Atenas."
+          "text": "Por lo cual, al no soportar más, decidimos quedarnos solos en Atenas.",
+          "headings": [
+            "El viaje de Timoteo"
+          ]
         },
         {
           "number": 2,
@@ -209,7 +218,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por lo demás, hermanos, les rogamos y exhortamos en el Señor Jesús que, como les enseñamos la manera de vivir y agradar a Dios, tal como viven, así abunden más,"
+          "text": "Por lo demás, hermanos, les rogamos y exhortamos en el Señor Jesús que, como les enseñamos la manera de vivir y agradar a Dios, tal como viven, así abunden más,",
+          "headings": [
+            "Una clase de vida que agrada a Dios"
+          ]
         },
         {
           "number": 2,
@@ -253,14 +265,14 @@
         },
         {
           "number": 12,
-          "text": "a fin de que vivan decentemente hacia los de afuera, y que de nada tengan necesidad.",
-          "headings": [
-            "El traslado de la Iglesia"
-          ]
+          "text": "a fin de que vivan decentemente hacia los de afuera, y que de nada tengan necesidad."
         },
         {
           "number": 13,
-          "text": "Hermanos, no queremos que ignoren en cuanto a los que duermen, para que no se entristezcan como los demás que no tienen esperanza."
+          "text": "Hermanos, no queremos que ignoren en cuanto a los que duermen, para que no se entristezcan como los demás que no tienen esperanza.",
+          "headings": [
+            "El traslado de la Iglesia"
+          ]
         },
         {
           "number": 14,
@@ -289,7 +301,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hermanos, no tienen necesidad de que les escriba con respecto a los tiempos y a las ocasiones."
+          "text": "Hermanos, no tienen necesidad de que les escriba con respecto a los tiempos y a las ocasiones.",
+          "headings": [
+            "Como ladrón de noche"
+          ]
         },
         {
           "number": 2,
@@ -329,14 +344,14 @@
         },
         {
           "number": 11,
-          "text": "Por tanto exhórtense y edifíquense los unos a los otros, como ya lo hacen.",
-          "headings": [
-            "Últimas exhortaciones"
-          ]
+          "text": "Por tanto exhórtense y edifíquense los unos a los otros, como ya lo hacen."
         },
         {
           "number": 12,
-          "text": "Hermanos, les rogamos que reconozcan a los que trabajan entre ustedes, que se preocupan por ustedes y los amonestan en el Señor."
+          "text": "Hermanos, les rogamos que reconozcan a los que trabajan entre ustedes, que se preocupan por ustedes y los amonestan en el Señor.",
+          "headings": [
+            "Últimas exhortaciones"
+          ]
         },
         {
           "number": 13,
@@ -384,14 +399,14 @@
         },
         {
           "number": 24,
-          "text": "Fiel es el que los llama, Quien también lo hará.",
-          "headings": [
-            "Despedida"
-          ]
+          "text": "Fiel es el que los llama, Quien también lo hará."
         },
         {
           "number": 25,
-          "text": "Hermanos, hablen con Dios por nosotros."
+          "text": "Hermanos, hablen con Dios por nosotros.",
+          "headings": [
+            "Despedida"
+          ]
         },
         {
           "number": 26,

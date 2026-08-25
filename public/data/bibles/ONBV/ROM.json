@@ -31,14 +31,14 @@
           "number": 6,
           "text": "Ustedes, romanos, están incluidos entre esas naciones, y Dios los ha llamado a pertenecer a Jesucristo. ¡Que la gracia y la paz de Dios nuestro Padre y de nuestro Señor Jesucristo se derramen sobre ustedes!",
           "verseDisplay": "6-7",
-          "endNumber": 7,
-          "headings": [
-            "Pablo anhela visitar Roma"
-          ]
+          "endNumber": 7
         },
         {
           "number": 8,
-          "text": "Antes que nada les diré que casi todo el mundo sabe de su fe. Y ustedes no saben cuántas gracias le doy a Dios a través de Jesucristo por ello."
+          "text": "Antes que nada les diré que casi todo el mundo sabe de su fe. Y ustedes no saben cuántas gracias le doy a Dios a través de Jesucristo por ello.",
+          "headings": [
+            "Pablo anhela visitar Roma"
+          ]
         },
         {
           "number": 9,
@@ -74,14 +74,14 @@
         },
         {
           "number": 17,
-          "text": "Las buenas noticias nos muestran la manera en que Dios nos acepta: por la fe, de principio a fin. Como está escrito en el Antiguo Testamento: «El que es justo, lo es por creer en Dios».",
-          "headings": [
-            "La ira de Dios contra la humanidad"
-          ]
+          "text": "Las buenas noticias nos muestran la manera en que Dios nos acepta: por la fe, de principio a fin. Como está escrito en el Antiguo Testamento: «El que es justo, lo es por creer en Dios»."
         },
         {
           "number": 18,
-          "text": "Pero Dios muestra desde el cielo su ira contra la injusticia y la maldad de la gente que, por su injusticia, impide que la verdad se manifieste."
+          "text": "Pero Dios muestra desde el cielo su ira contra la injusticia y la maldad de la gente que, por su injusticia, impide que la verdad se manifieste.",
+          "headings": [
+            "La ira de Dios contra la humanidad"
+          ]
         },
         {
           "number": 19,
@@ -146,7 +146,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por eso no tienes excusa alguna cuando juzgas a otros, pues cuando lo haces, te condenas a ti mismo, ya que cometes los mismos actos que ellos."
+          "text": "Por eso no tienes excusa alguna cuando juzgas a otros, pues cuando lo haces, te condenas a ti mismo, ya que cometes los mismos actos que ellos.",
+          "headings": [
+            "El justo juicio de Dios"
+          ]
         },
         {
           "number": 2,
@@ -206,14 +209,14 @@
         },
         {
           "number": 16,
-          "text": "Y así, Dios juzgará en aquel día, por medio de Jesucristo, hasta los secretos de todas las personas.",
-          "headings": [
-            "Los judíos y la ley"
-          ]
+          "text": "Y así, Dios juzgará en aquel día, por medio de Jesucristo, hasta los secretos de todas las personas."
         },
         {
           "number": 17,
-          "text": "Tú, como judío, te apoyas en la ley y te sientes orgulloso de tu relación con Dios."
+          "text": "Tú, como judío, te apoyas en la ley y te sientes orgulloso de tu relación con Dios.",
+          "headings": [
+            "Los judíos y la ley"
+          ]
         },
         {
           "number": 18,
@@ -270,7 +273,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces, ¿de qué vale ser judío? ¿De qué sirve la circuncisión?"
+          "text": "Entonces, ¿de qué vale ser judío? ¿De qué sirve la circuncisión?",
+          "headings": [
+            "Fidelidad de Dios"
+          ]
         },
         {
           "number": 2,
@@ -298,14 +304,14 @@
         },
         {
           "number": 8,
-          "text": "Si así fuera, podríamos llegar a esta conclusión: «Hagamos el mal para que nos vaya bien». Los que dicen tales cosas tienen bien merecida la condenación. ¡Y hay quién se atreve a decir que esto es lo que yo enseño!",
-          "headings": [
-            "No hay un solo justo"
-          ]
+          "text": "Si así fuera, podríamos llegar a esta conclusión: «Hagamos el mal para que nos vaya bien». Los que dicen tales cosas tienen bien merecida la condenación. ¡Y hay quién se atreve a decir que esto es lo que yo enseño!"
         },
         {
           "number": 9,
-          "text": "Bueno, ¿somos los judíos mejores que los demás? En ninguna manera. Ya hemos demostrado que todos los hombres son pecadores, ya sean judíos o gentiles."
+          "text": "Bueno, ¿somos los judíos mejores que los demás? En ninguna manera. Ya hemos demostrado que todos los hombres son pecadores, ya sean judíos o gentiles.",
+          "headings": [
+            "No hay un solo justo"
+          ]
         },
         {
           "number": 10,
@@ -349,14 +355,14 @@
         },
         {
           "number": 20,
-          "text": "Y esto es así porque nadie puede alcanzar el favor de Dios por obedecer la ley, pues mientras mejor conocemos la ley de Dios más nos damos cuenta de que somos pecadores.",
-          "headings": [
-            "La justicia mediante la fe"
-          ]
+          "text": "Y esto es así porque nadie puede alcanzar el favor de Dios por obedecer la ley, pues mientras mejor conocemos la ley de Dios más nos damos cuenta de que somos pecadores."
         },
         {
           "number": 21,
-          "text": "Sin embargo, Dios nos ha mostrado ahora la forma para que él nos acepte. De ella ya había enseñado el Antiguo Testamento. No se trata de guardar la ley."
+          "text": "Sin embargo, Dios nos ha mostrado ahora la forma para que él nos acepte. De ella ya había enseñado el Antiguo Testamento. No se trata de guardar la ley.",
+          "headings": [
+            "La justicia mediante la fe"
+          ]
         },
         {
           "number": 22,
@@ -403,7 +409,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¿Entonces, qué podemos decir con respecto a Abraham, nuestro antepasado como pueblo judío?"
+          "text": "¿Entonces, qué podemos decir con respecto a Abraham, nuestro antepasado como pueblo judío?",
+          "headings": [
+            "Abraham, justificado por la fe"
+          ]
         },
         {
           "number": 2,
@@ -508,7 +517,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Así que, ahora que Dios nos ha declarado justos por haber creído, disfrutamos de la paz con Dios gracias a lo que Jesucristo nuestro Señor hizo por nosotros."
+          "text": "Así que, ahora que Dios nos ha declarado justos por haber creído, disfrutamos de la paz con Dios gracias a lo que Jesucristo nuestro Señor hizo por nosotros.",
+          "headings": [
+            "Paz y alegría"
+          ]
         },
         {
           "number": 2,
@@ -548,14 +560,14 @@
         },
         {
           "number": 11,
-          "text": "Y además de todo esto, también nos sentimos orgullosos en Dios, gracias a nuestro Señor Jesucristo, por quien ahora hemos sido reconciliados con Dios.",
-          "headings": [
-            "De Adán, la muerte; de Cristo, la vida"
-          ]
+          "text": "Y además de todo esto, también nos sentimos orgullosos en Dios, gracias a nuestro Señor Jesucristo, por quien ahora hemos sido reconciliados con Dios."
         },
         {
           "number": 12,
-          "text": "Por el pecado de un hombre, el pecado entró en el mundo, y por el pecado llegó la muerte. Y como todos pecaron, la muerte ha pasado a todos."
+          "text": "Por el pecado de un hombre, el pecado entró en el mundo, y por el pecado llegó la muerte. Y como todos pecaron, la muerte ha pasado a todos.",
+          "headings": [
+            "De Adán, la muerte; de Cristo, la vida"
+          ]
         },
         {
           "number": 13,
@@ -600,7 +612,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¿Qué podemos decir? ¿Seguiremos pecando para que el amor gratuito de Dios abunde aún más?"
+          "text": "¿Qué podemos decir? ¿Seguiremos pecando para que el amor gratuito de Dios abunde aún más?",
+          "headings": [
+            "Muertos al pecado, vivos en Cristo"
+          ]
         },
         {
           "number": 2,
@@ -652,14 +667,14 @@
         },
         {
           "number": 14,
-          "text": "¡Que el pecado no vuelva a dominarlos! Ya no estamos atados a la ley; ahora vivimos bajo la gracia de Dios.",
-          "headings": [
-            "Esclavos de la justicia"
-          ]
+          "text": "¡Que el pecado no vuelva a dominarlos! Ya no estamos atados a la ley; ahora vivimos bajo la gracia de Dios."
         },
         {
           "number": 15,
-          "text": "Entonces, como ya no vivimos bajo la ley sino bajo la gracia de Dios, ¿podemos pecar? ¡Claro que no!"
+          "text": "Entonces, como ya no vivimos bajo la ley sino bajo la gracia de Dios, ¿podemos pecar? ¡Claro que no!",
+          "headings": [
+            "Esclavos de la justicia"
+          ]
         },
         {
           "number": 16,
@@ -700,7 +715,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¿Es que no comprenden todavía, mis hermanos conocedores de la ley, que cuando una persona muere, la ley pierde todo su poder sobre ella?"
+          "text": "¿Es que no comprenden todavía, mis hermanos conocedores de la ley, que cuando una persona muere, la ley pierde todo su poder sobre ella?",
+          "headings": [
+            "Analogía tomada del matrimonio"
+          ]
         },
         {
           "number": 2,
@@ -720,14 +738,14 @@
         },
         {
           "number": 6,
-          "text": "Pero ahora estamos muertos con respecto a la ley que nos dominaba y podemos servir a Dios. Y esto no como antes, que lo hacíamos bajo el antiguo mandamiento, sino que ahora lo hacemos bajo el poder del Espíritu.",
-          "headings": [
-            "Conflicto con el pecado"
-          ]
+          "text": "Pero ahora estamos muertos con respecto a la ley que nos dominaba y podemos servir a Dios. Y esto no como antes, que lo hacíamos bajo el antiguo mandamiento, sino que ahora lo hacemos bajo el poder del Espíritu."
         },
         {
           "number": 7,
-          "text": "¿Es que acaso estoy dando a entender que la ley de Dios es pecado? ¡Claro que no! La ley no es pecado, pero fue la ley la que me enseñó que en mí había pecado. Jamás me habría dado cuenta de lo que es codiciar si la ley no me hubiera dicho: «No codiciarás»."
+          "text": "¿Es que acaso estoy dando a entender que la ley de Dios es pecado? ¡Claro que no! La ley no es pecado, pero fue la ley la que me enseñó que en mí había pecado. Jamás me habría dado cuenta de lo que es codiciar si la ley no me hubiera dicho: «No codiciarás».",
+          "headings": [
+            "Conflicto con el pecado"
+          ]
         },
         {
           "number": 8,
@@ -808,7 +826,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Así que a los que están unidos a Jesucristo ya no les espera ninguna condenación,"
+          "text": "Así que a los que están unidos a Jesucristo ya no les espera ninguna condenación,",
+          "headings": [
+            "Vida mediante el Espíritu"
+          ]
         },
         {
           "number": 2,
@@ -872,14 +893,14 @@
         },
         {
           "number": 17,
-          "text": "Y como somos sus hijos, somos herederos: herederos de Dios y coherederos junto con Cristo. Pero si compartimos su gloria, también hemos de participar de sus sufrimientos.",
-          "headings": [
-            "La gloria futura"
-          ]
+          "text": "Y como somos sus hijos, somos herederos: herederos de Dios y coherederos junto con Cristo. Pero si compartimos su gloria, también hemos de participar de sus sufrimientos."
         },
         {
           "number": 18,
-          "text": "Sin embargo, lo que ahora sufrimos no tiene comparación con la gloria que se nos dará después,"
+          "text": "Sin embargo, lo que ahora sufrimos no tiene comparación con la gloria que se nos dará después,",
+          "headings": [
+            "La gloria futura"
+          ]
         },
         {
           "number": 19,
@@ -907,14 +928,14 @@
         },
         {
           "number": 25,
-          "text": "Pero mantenernos esperando de Dios lo que todavía no se ha manifestado nos enseña a tener paciencia.",
-          "headings": [
-            "Más que vencedores"
-          ]
+          "text": "Pero mantenernos esperando de Dios lo que todavía no se ha manifestado nos enseña a tener paciencia."
         },
         {
           "number": 26,
-          "text": "De igual manera, el Espíritu nos ayuda en nuestras debilidades. Es cierto que no sabemos qué debemos pedir, pero el Espíritu ora por nosotros con gemidos tales que no se pueden expresar con palabras."
+          "text": "De igual manera, el Espíritu nos ayuda en nuestras debilidades. Es cierto que no sabemos qué debemos pedir, pero el Espíritu ora por nosotros con gemidos tales que no se pueden expresar con palabras.",
+          "headings": [
+            "Más que vencedores"
+          ]
         },
         {
           "number": 27,
@@ -975,7 +996,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Les digo la verdad en Cristo; no miento. Mi conciencia, guiada por el Espíritu Santo, me confirma que esto es verdad."
+          "text": "Les digo la verdad en Cristo; no miento. Mi conciencia, guiada por el Espíritu Santo, me confirma que esto es verdad.",
+          "headings": [
+            "La elección soberana de Dios"
+          ]
         },
         {
           "number": 2,
@@ -1079,14 +1103,14 @@
         },
         {
           "number": 29,
-          "text": "Y añade en otro lugar: «Si no fuera porque el Señor Todopoderoso nos dejó descendientes, ahora mismo seríamos como las ciudades de Sodoma y Gomorra».",
-          "headings": [
-            "Incredulidad de Israel"
-          ]
+          "text": "Y añade en otro lugar: «Si no fuera porque el Señor Todopoderoso nos dejó descendientes, ahora mismo seríamos como las ciudades de Sodoma y Gomorra»."
         },
         {
           "number": 30,
-          "text": "En conclusión, ¿qué más podemos decir? Pues que a los gentiles que no buscaban que Dios los aceptara, Dios los hizo justos porque creyeron en él."
+          "text": "En conclusión, ¿qué más podemos decir? Pues que a los gentiles que no buscaban que Dios los aceptara, Dios los hizo justos porque creyeron en él.",
+          "headings": [
+            "Incredulidad de Israel"
+          ]
         },
         {
           "number": 31,
@@ -1196,7 +1220,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pregunto entonces: ¿Ha rechazado Dios a su pueblo? ¡De ninguna manera! Yo mismo soy israelita, descendiente de Abraham y miembro de la familia de Benjamín."
+          "text": "Pregunto entonces: ¿Ha rechazado Dios a su pueblo? ¡De ninguna manera! Yo mismo soy israelita, descendiente de Abraham y miembro de la familia de Benjamín.",
+          "headings": [
+            "El remanente de Israel"
+          ]
         },
         {
           "number": 2,
@@ -1232,14 +1259,14 @@
         },
         {
           "number": 10,
-          "text": "¡Que se les oscurezca la vista y no puedan ver! ¡Que anden para siempre con la espalda agobiada bajo un gran peso!».",
-          "headings": [
-            "Ramas injertadas"
-          ]
+          "text": "¡Que se les oscurezca la vista y no puedan ver! ¡Que anden para siempre con la espalda agobiada bajo un gran peso!»."
         },
         {
           "number": 11,
-          "text": "Hago ahora esta pregunta: ¿Tropezaron los israelitas para no volver a levantarse? ¡Por supuesto que no! Gracias a su desobediencia, la salvación vino a los gentiles, para que los israelitas sientan celos."
+          "text": "Hago ahora esta pregunta: ¿Tropezaron los israelitas para no volver a levantarse? ¡Por supuesto que no! Gracias a su desobediencia, la salvación vino a los gentiles, para que los israelitas sientan celos.",
+          "headings": [
+            "Ramas injertadas"
+          ]
         },
         {
           "number": 12,
@@ -1291,14 +1318,14 @@
         },
         {
           "number": 24,
-          "text": "Si Dios te cortó de un olivo silvestre, del cual eras parte, y te injertó en su propio buen olivo, contra tu condición natural, ¿no crees que le será mucho más fácil reinjertar las ramas que estaban allí primero?",
-          "headings": [
-            "Todo Israel será salvo"
-          ]
+          "text": "Si Dios te cortó de un olivo silvestre, del cual eras parte, y te injertó en su propio buen olivo, contra tu condición natural, ¿no crees que le será mucho más fácil reinjertar las ramas que estaban allí primero?"
         },
         {
           "number": 25,
-          "text": "Quiero que conozcan bien, amados hermanos, este misterio, para que no sean arrogantes. Sí, es cierto que algunos israelitas han sido muy tercos, y esto será así hasta que los gentiles hayan creído."
+          "text": "Quiero que conozcan bien, amados hermanos, este misterio, para que no sean arrogantes. Sí, es cierto que algunos israelitas han sido muy tercos, y esto será así hasta que los gentiles hayan creído.",
+          "headings": [
+            "Todo Israel será salvo"
+          ]
         },
         {
           "number": 26,
@@ -1326,14 +1353,14 @@
         },
         {
           "number": 32,
-          "text": "En conclusión, Dios encerró a israelitas y a gentiles en la desobediencia, para tener misericordia de todos.",
-          "headings": [
-            "Doxología"
-          ]
+          "text": "En conclusión, Dios encerró a israelitas y a gentiles en la desobediencia, para tener misericordia de todos."
         },
         {
           "number": 33,
-          "text": "¡Qué inmensas son las riquezas de la sabiduría y del conocimiento de Dios! ¡Qué difícil es entender sus decisiones y explicar lo que hace!"
+          "text": "¡Qué inmensas son las riquezas de la sabiduría y del conocimiento de Dios! ¡Qué difícil es entender sus decisiones y explicar lo que hace!",
+          "headings": [
+            "Doxología"
+          ]
         },
         {
           "number": 34,
@@ -1354,7 +1381,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por esto, hermanos, tomando en cuenta el amor que Dios nos tiene, les ruego que cada uno de ustedes se entregue como sacrificio vivo y santo; este es el único sacrificio que a él le agrada."
+          "text": "Por esto, hermanos, tomando en cuenta el amor que Dios nos tiene, les ruego que cada uno de ustedes se entregue como sacrificio vivo y santo; este es el único sacrificio que a él le agrada.",
+          "headings": [
+            "Sacrificios vivos"
+          ]
         },
         {
           "number": 2,
@@ -1382,14 +1412,14 @@
         },
         {
           "number": 8,
-          "text": "si tienes el don de animar a otros, anímalos; si Dios te ha puesto para ayudar a los necesitados, hazlo generosamente; si Dios te ha concedido ser líder, dirige con mucha dedicación; y si tienes el don de mostrar compasión, hazlo con alegría.",
-          "headings": [
-            "El amor"
-          ]
+          "text": "si tienes el don de animar a otros, anímalos; si Dios te ha puesto para ayudar a los necesitados, hazlo generosamente; si Dios te ha concedido ser líder, dirige con mucha dedicación; y si tienes el don de mostrar compasión, hazlo con alegría."
         },
         {
           "number": 9,
-          "text": "No finjan amar; amen de veras. Aborrezcan lo malo; pónganse de parte del bien."
+          "text": "No finjan amar; amen de veras. Aborrezcan lo malo; pónganse de parte del bien.",
+          "headings": [
+            "El amor"
+          ]
         },
         {
           "number": 10,
@@ -1446,7 +1476,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Todos deben obedecer a las autoridades del gobierno, porque Dios es quien les ha otorgado el poder. No hay ningún gobierno que Dios no haya establecido."
+          "text": "Todos deben obedecer a las autoridades del gobierno, porque Dios es quien les ha otorgado el poder. No hay ningún gobierno que Dios no haya establecido.",
+          "headings": [
+            "El respeto a las autoridades"
+          ]
         },
         {
           "number": 2,
@@ -1470,14 +1503,14 @@
         },
         {
           "number": 7,
-          "text": "Páguenle a cada quien lo que le corresponda: sean impuestos, contribuciones, respeto u honor.",
-          "headings": [
-            "La responsabilidad hacia los demás"
-          ]
+          "text": "Páguenle a cada quien lo que le corresponda: sean impuestos, contribuciones, respeto u honor."
         },
         {
           "number": 8,
-          "text": "No tengan deudas con nadie, excepto las deudas de amor hacia otros. De hecho, quien ama al prójimo ha cumplido la ley,"
+          "text": "No tengan deudas con nadie, excepto las deudas de amor hacia otros. De hecho, quien ama al prójimo ha cumplido la ley,",
+          "headings": [
+            "La responsabilidad hacia los demás"
+          ]
         },
         {
           "number": 9,
@@ -1510,7 +1543,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Reciban a cualquier hermano aun cuando su fe sea débil, y no entren en discusiones con él."
+          "text": "Reciban a cualquier hermano aun cuando su fe sea débil, y no entren en discusiones con él.",
+          "headings": [
+            "Los débiles y los fuertes"
+          ]
         },
         {
           "number": 2,
@@ -1655,14 +1691,14 @@
         },
         {
           "number": 13,
-          "text": "Hermanos míos, mi deseo es que el Dios que les concedió esperanza los inunde siempre de felicidad y paz al creer en él. Y le pido a Dios que los haga rebosar de esperanza por el poder del Espíritu Santo.",
-          "headings": [
-            "Pablo, ministro de los gentiles"
-          ]
+          "text": "Hermanos míos, mi deseo es que el Dios que les concedió esperanza los inunde siempre de felicidad y paz al creer en él. Y le pido a Dios que los haga rebosar de esperanza por el poder del Espíritu Santo."
         },
         {
           "number": 14,
-          "text": "Sé que ustedes son sabios y bondadosos, hermanos míos, y que están capacitados para enseñarse unos a otros."
+          "text": "Sé que ustedes son sabios y bondadosos, hermanos míos, y que están capacitados para enseñarse unos a otros.",
+          "headings": [
+            "Pablo, ministro de los gentiles"
+          ]
         },
         {
           "number": 15,
@@ -1694,14 +1730,14 @@
         },
         {
           "number": 22,
-          "text": "En realidad, por eso me he demorado tanto en ir a visitarlos.",
-          "headings": [
-            "Pablo piensa visitar Roma"
-          ]
+          "text": "En realidad, por eso me he demorado tanto en ir a visitarlos."
         },
         {
           "number": 23,
-          "text": "Pero al fin, tras años de espera, ya he terminado mi trabajo por estos lugares y puedo ir a verlos."
+          "text": "Pero al fin, tras años de espera, ya he terminado mi trabajo por estos lugares y puedo ir a verlos.",
+          "headings": [
+            "Pablo piensa visitar Roma"
+          ]
         },
         {
           "number": 24,
@@ -1750,7 +1786,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Les recomiendo a nuestra hermana Febe, diaconisa de la iglesia de Cencreas."
+          "text": "Les recomiendo a nuestra hermana Febe, diaconisa de la iglesia de Cencreas.",
+          "headings": [
+            "Saludos personales"
+          ]
         },
         {
           "number": 2,

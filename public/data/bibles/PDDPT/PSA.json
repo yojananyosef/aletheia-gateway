@@ -10,6 +10,9 @@
         {
           "number": 1,
           "text": "¡Inmensamente feliz es el varón que no anduvo en consejo de impíos, Ni se detuvo en camino de pecadores, Ni se sentó en silla de burladores!",
+          "headings": [
+            "Prólogo"
+          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -112,7 +115,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Oh Yavé , cómo se multiplicaron mis opresores! Muchos son los que se levantan contra mí."
+          "text": "¡Oh Yavé , cómo se multiplicaron mis opresores! Muchos son los que se levantan contra mí.",
+          "headings": [
+            "Salmo de David cuando huía de su hijo Absalón"
+          ]
         },
         {
           "number": 2,
@@ -156,7 +162,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Oh ʼElohim de mi justicia, respóndeme cuando clamo! Tú que me diste holgura en la estrechez, Ten compasión de mí y escucha mi oración."
+          "text": "¡Oh ʼElohim de mi justicia, respóndeme cuando clamo! Tú que me diste holgura en la estrechez, Ten compasión de mí y escucha mi oración.",
+          "headings": [
+            "Al director del coro, con instrumentos de cuerda. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -193,7 +202,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Escucha, oh Yavé , mis palabras. Considera mi susurro."
+          "text": "Escucha, oh Yavé , mis palabras. Considera mi susurro.",
+          "headings": [
+            "Al director del coro, para instrumentos de viento. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -246,7 +258,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh Yavé , no me reprendas en tu furor. Ni me disciplines en tu ardiente ira."
+          "text": "Oh Yavé , no me reprendas en tu furor. Ni me disciplines en tu ardiente ira.",
+          "headings": [
+            "Al director del coro, con instrumentos de cuerda. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -298,7 +313,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Oh Yavé, ʼElohim mío, en Ti me refugio! ¡Sálvame y líbrame de todos los que me persiguen!"
+          "text": "¡Oh Yavé, ʼElohim mío, en Ti me refugio! ¡Sálvame y líbrame de todos los que me persiguen!",
+          "headings": [
+            "Oda de David, que cantó a Yavé por causa de las palabras de Cus benjaminita"
+          ]
         },
         {
           "number": 2,
@@ -378,7 +396,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Oh Yavé , ʼAdonay nuestro, Cuán majestuoso es tu Nombre en toda la tierra! Colocaste tu majestad sobre los cielos."
+          "text": "¡Oh Yavé , ʼAdonay nuestro, Cuán majestuoso es tu Nombre en toda la tierra! Colocaste tu majestad sobre los cielos.",
+          "headings": [
+            "Al director del coro, con notas. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -419,7 +440,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Daré gracias a Yavé con todo mi corazón. Contaré todas tus maravillas."
+          "text": "Daré gracias a Yavé con todo mi corazón. Contaré todas tus maravillas.",
+          "headings": [
+            "Al director del coro. Según Mut-labbén (melodía del canto “Morir por un hijo”). Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -588,7 +612,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En Yavé me refugio. ¿Cómo puedes decir a mi alma: Huye como ave a tu montaña?"
+          "text": "En Yavé me refugio. ¿Cómo puedes decir a mi alma: Huye como ave a tu montaña?",
+          "headings": [
+            "Al director del coro. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -621,7 +648,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Salva, oh Yavé , porque se acaban los piadosos! Porque desaparecen los fieles entre los hijos de los hombres."
+          "text": "¡Salva, oh Yavé , porque se acaban los piadosos! Porque desaparecen los fieles entre los hijos de los hombres.",
+          "headings": [
+            "Al director del coro. Con arpa en octava baja. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -658,7 +688,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¿Hasta cuándo, oh Yavé ? ¿Me olvidarás para siempre? ¿Hasta cuándo esconderás tu rostro de mí?"
+          "text": "¿Hasta cuándo, oh Yavé ? ¿Me olvidarás para siempre? ¿Hasta cuándo esconderás tu rostro de mí?",
+          "headings": [
+            "Al director del coro. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -687,7 +720,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El necio dice en su corazón: ¡No existe ʼElohim ! Están corrompidos, hicieron obras repugnantes. No hay quien haga el bien."
+          "text": "El necio dice en su corazón: ¡No existe ʼElohim ! Están corrompidos, hicieron obras repugnantes. No hay quien haga el bien.",
+          "headings": [
+            "Al director del coro. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -720,7 +756,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh Yavé , ¿quién morará en tu Tabernáculo? ¿Quién morará en tu Montaña Santa?"
+          "text": "Oh Yavé , ¿quién morará en tu Tabernáculo? ¿Quién morará en tu Montaña Santa?",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -745,7 +784,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Guárdame, oh ʼElohim , porque en Ti me refugio."
+          "text": "Guárdame, oh ʼElohim , porque en Ti me refugio.",
+          "headings": [
+            "Canto a media voz, de David"
+          ]
         },
         {
           "number": 2,
@@ -801,7 +843,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oye, oh Yavé , una causa justa, atiende mi clamor. Escucha mi oración hecha con labios sin engaño."
+          "text": "Oye, oh Yavé , una causa justa, atiende mi clamor. Escucha mi oración hecha con labios sin engaño.",
+          "headings": [
+            "Oración de David"
+          ]
         },
         {
           "number": 2,
@@ -866,7 +911,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Dijo: ¡Te amo, oh Yavé , Fortaleza mía!"
+          "text": "Dijo: ¡Te amo, oh Yavé , Fortaleza mía!",
+          "headings": [
+            "Al director del coro. Salmo de David, esclavo de Yavé, el cual habló a Yavé las palabras de este canto el día cuando Yavé lo libró de la mano de todos sus enemigos, y de la mano de Saúl."
+          ]
         },
         {
           "number": 2,
@@ -1071,7 +1119,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los cielos cuentan la gloria de ʼElohim , Y el firmamento declara la obra de sus manos."
+          "text": "Los cielos cuentan la gloria de ʼElohim , Y el firmamento declara la obra de sus manos.",
+          "headings": [
+            "Al director del coro. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -1132,7 +1183,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé te responda en el día de la adversidad. El Nombre del ʼElohim de Jacob te defienda,"
+          "text": "Yavé te responda en el día de la adversidad. El Nombre del ʼElohim de Jacob te defienda,",
+          "headings": [
+            "Al director del coro. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -1173,7 +1227,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh Yavé , el rey se alegrará en tu poder, Y en tu salvación ¡cuánto se regocijará!"
+          "text": "Oh Yavé , el rey se alegrará en tu poder, Y en tu salvación ¡cuánto se regocijará!",
+          "headings": [
+            "Al director del coro. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -1230,7 +1287,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡ ʼEL mío, ʼEL mío! ¿Por qué me desamparaste? ¿Por qué estás lejos de mi salvación y de las palabras de mi clamor?"
+          "text": "¡ ʼEL mío, ʼEL mío! ¿Por qué me desamparaste? ¿Por qué estás lejos de mi salvación y de las palabras de mi clamor?",
+          "headings": [
+            "Al director del coro. Según el canto: Una sierva es la aurora. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -1359,7 +1419,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé es mi Pastor. Nada me faltará."
+          "text": "Yavé es mi Pastor. Nada me faltará.",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -1388,7 +1451,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "De Yavé es la tierra y lo que hay en ella, El mundo y los que habitan en él."
+          "text": "De Yavé es la tierra y lo que hay en ella, El mundo y los que habitan en él.",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -1433,7 +1499,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "A Ti, oh Yavé , levanto mi alma."
+          "text": "A Ti, oh Yavé , levanto mi alma.",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -1526,7 +1595,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Defiéndeme, oh Yavé , porque en mi integridad anduve, Y en Yavé confié sin titubear."
+          "text": "Defiéndeme, oh Yavé , porque en mi integridad anduve, Y en Yavé confié sin titubear.",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -1586,7 +1658,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé es mi Luz y mi Salvación, ¿De quién temeré? Yavé es la Fortaleza de mi vida, ¿De quién me aterrorizaré?"
+          "text": "Yavé es mi Luz y mi Salvación, ¿De quién temeré? Yavé es la Fortaleza de mi vida, ¿De quién me aterrorizaré?",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -1647,7 +1722,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "A Ti clamo, oh Yavé , Roca mía. No enmudezcas para mí, Porque si Tú enmudeces para mí, Seré como los que bajan a la fosa."
+          "text": "A Ti clamo, oh Yavé , Roca mía. No enmudezcas para mí, Porque si Tú enmudeces para mí, Seré como los que bajan a la fosa.",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -1688,7 +1766,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Tributen a Yavé , oh hijos de los poderosos! ¡Tributen a Yavé la gloria y el poder!"
+          "text": "¡Tributen a Yavé , oh hijos de los poderosos! ¡Tributen a Yavé la gloria y el poder!",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -1737,7 +1818,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Te exalto oh Yavé , porque me levantaste, Y no dejaste que mis enemigos se alegraran de mí."
+          "text": "Te exalto oh Yavé , porque me levantaste, Y no dejaste que mis enemigos se alegraran de mí.",
+          "headings": [
+            "Canto para la dedicación del Templo. Salmo de David."
+          ]
         },
         {
           "number": 2,
@@ -1790,7 +1874,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En Ti, oh Yavé , me refugié. No sea yo avergonzado jamás. Líbrame en tu justicia."
+          "text": "En Ti, oh Yavé , me refugié. No sea yo avergonzado jamás. Líbrame en tu justicia.",
+          "headings": [
+            "Al director del coro. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -1891,7 +1978,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Inmensamente feliz es aquel A quien es perdonada su transgresión Y cubierto su pecado."
+          "text": "Inmensamente feliz es aquel A quien es perdonada su transgresión Y cubierto su pecado.",
+          "headings": [
+            "Instrucción (Maskil) de David"
+          ]
         },
         {
           "number": 2,
@@ -2033,7 +2123,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Bendeciré a Yavé en todo tiempo. Su alabanza estará de continuo en mi boca."
+          "text": "Bendeciré a Yavé en todo tiempo. Su alabanza estará de continuo en mi boca.",
+          "headings": [
+            "Salmo de David. Cuando cambió su conducta ante Abimelec, quien lo echó y él salió"
+          ]
         },
         {
           "number": 2,
@@ -2126,7 +2219,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Oh Yavé , contiende con los que contienden contra mí! ¡Pelea contra los que combaten contra mí!"
+          "text": "¡Oh Yavé , contiende con los que contienden contra mí! ¡Pelea contra los que combaten contra mí!",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -2250,7 +2346,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La transgresión del impío habla a su corazón. No hay temor a ʼElohim delante de sus ojos."
+          "text": "La transgresión del impío habla a su corazón. No hay temor a ʼElohim delante de sus ojos.",
+          "headings": [
+            "Al director del coro. Salmo de David, esclavo de Yavé"
+          ]
         },
         {
           "number": 2,
@@ -2310,7 +2409,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "No te impacientes a causa de los malignos, Ni tengas envidia de los que hacen iniquidad."
+          "text": "No te impacientes a causa de los malignos, Ni tengas envidia de los que hacen iniquidad.",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -2475,7 +2577,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh Yavé , no me reprendas con tu indignación, Ni me castigues con tu ardiente ira."
+          "text": "Oh Yavé , no me reprendas con tu indignación, Ni me castigues con tu ardiente ira.",
+          "headings": [
+            "Salmo de David. En conmemoración"
+          ]
         },
         {
           "number": 2,
@@ -2568,7 +2673,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Dije: Guardaré mis caminos para no pecar con mi boca. Llevaré mordaza en mi boca Mientras los perversos estén frente a mí."
+          "text": "Dije: Guardaré mis caminos para no pecar con mi boca. Llevaré mordaza en mi boca Mientras los perversos estén frente a mí.",
+          "headings": [
+            "Al director del coro, para Jedutún.*Jedutún era un levita instructor. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -2625,7 +2733,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pacientemente esperé a Yavé , Y se inclinó hacia mí y escuchó mi clamor."
+          "text": "Pacientemente esperé a Yavé , Y se inclinó hacia mí y escuchó mi clamor.",
+          "headings": [
+            "Al director del coro. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -2698,7 +2809,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Oh cuán bendecido es el que piensa en el pobre! En el día malo Yavé lo librará."
+          "text": "¡Oh cuán bendecido es el que piensa en el pobre! En el día malo Yavé lo librará.",
+          "headings": [
+            "Al director del coro. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -2755,7 +2869,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Como el venado anhela las corrientes de agua, Así, oh ʼElohim , te anhela mi alma."
+          "text": "Como el venado anhela las corrientes de agua, Así, oh ʼElohim , te anhela mi alma.",
+          "headings": [
+            "Al director del coro. Instrucción (Maskil) de los hijos de Coré"
+          ]
         },
         {
           "number": 2,
@@ -2829,7 +2946,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼElohim , escuchamos con nuestros oídos, Nos contaron nuestros antepasados Las obras que Tú hiciste en sus días, En los tiempos antiguos."
+          "text": "Oh ʼElohim , escuchamos con nuestros oídos, Nos contaron nuestros antepasados Las obras que Tú hiciste en sus días, En los tiempos antiguos.",
+          "headings": [
+            "Al director del coro. Instrucción (Maskil) de los hijos de Coré"
+          ]
         },
         {
           "number": 2,
@@ -2938,7 +3058,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Rebosa mi corazón palabra buena. Dirijo al Rey mi canto. Mi boca es como pluma de experto escriba."
+          "text": "Rebosa mi corazón palabra buena. Dirijo al Rey mi canto. Mi boca es como pluma de experto escriba.",
+          "headings": [
+            "Al director del coro. Sobre lirios. Instrucción (Maskil) de los hijos de Coré. Canción de amor"
+          ]
         },
         {
           "number": 2,
@@ -3018,7 +3141,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "ʼElohim es nuestro Refugio y Fortaleza, Un auxilio muy presente en la tribulación."
+          "text": "ʼElohim es nuestro Refugio y Fortaleza, Un auxilio muy presente en la tribulación.",
+          "headings": [
+            "Al director del coro. Salmo de los hijos de Coré, sobre instrumentos de tonos altos. Canto"
+          ]
         },
         {
           "number": 2,
@@ -3067,7 +3193,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Pueblos todos, aplaudan! ¡Aclamen a ʼElohim con voz de júbilo!"
+          "text": "¡Pueblos todos, aplaudan! ¡Aclamen a ʼElohim con voz de júbilo!",
+          "headings": [
+            "Al director del coro. Salmo de los hijos de Coré"
+          ]
         },
         {
           "number": 2,
@@ -3115,7 +3244,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Grande es Yavé y digno de suprema alabanza! En la ciudad de nuestro ʼElohim , su Montaña Santa."
+          "text": "¡Grande es Yavé y digno de suprema alabanza! En la ciudad de nuestro ʼElohim , su Montaña Santa.",
+          "headings": [
+            "Canto. Salmo de los hijos de Coré"
+          ]
         },
         {
           "number": 2,
@@ -3176,7 +3308,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oigan esto, pueblos todos, Escuchen todos los habitantes del mundo,"
+          "text": "Oigan esto, pueblos todos, Escuchen todos los habitantes del mundo,",
+          "headings": [
+            "Al director del coro. Salmo de los hijos de Coré"
+          ]
         },
         {
           "number": 2,
@@ -3261,7 +3396,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El poderoso ʼEL, ʼElohim , Yavé habló Y convocó a la tierra desde el oriente hasta el occidente."
+          "text": "El poderoso ʼEL, ʼElohim , Yavé habló Y convocó a la tierra desde el oriente hasta el occidente.",
+          "headings": [
+            "Salmo de Asaf"
+          ]
         },
         {
           "number": 2,
@@ -3358,7 +3496,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ten compasión de mí, oh ʼElohim , Conforme a tu misericordia. Según tu gran clemencia Borra mis transgresiones."
+          "text": "Ten compasión de mí, oh ʼElohim , Conforme a tu misericordia. Según tu gran clemencia Borra mis transgresiones.",
+          "headings": [
+            "Al director del coro. Salmo de David, cuando el profeta Natán fue a él, después que él se unió con Betsabé"
+          ]
         },
         {
           "number": 2,
@@ -3439,7 +3580,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¿Por qué te jactas de ser perverso, oh poderoso? La misericordia de ʼEL es continua."
+          "text": "¿Por qué te jactas de ser perverso, oh poderoso? La misericordia de ʼEL es continua.",
+          "headings": [
+            "Al director del coro. Instrucción (Maskil) de David, cuando Doeg Edomita dio aviso a Saúl, y le dijo: David entró en casa de Ahimelec"
+          ]
         },
         {
           "number": 2,
@@ -3480,7 +3624,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El necio dijo en su corazón: No hay ʼElohim . Están corrompidos. Cometieron repugnante injusticia. No hay uno que haga lo recto."
+          "text": "El necio dijo en su corazón: No hay ʼElohim . Están corrompidos. Cometieron repugnante injusticia. No hay uno que haga lo recto.",
+          "headings": [
+            "Al director del coro. Al estilo de duelo (Mahalath). Instrucción (Maskil) de David"
+          ]
         },
         {
           "number": 2,
@@ -3509,7 +3656,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼElohim , sálvame por tu Nombre, Y defiéndeme con tu poder."
+          "text": "Oh ʼElohim , sálvame por tu Nombre, Y defiéndeme con tu poder.",
+          "headings": [
+            "Al director del coro. Sobre instrumentos de cuerda. Instrucción. (Maskil) de David, cuando llegaron los zifeos y dijeron a Saúl: ¿No se esconde David entre nosotros?"
+          ]
         },
         {
           "number": 2,
@@ -3542,7 +3692,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼElohim , escucha mi oración, Y no te escondas de mi súplica."
+          "text": "Oh ʼElohim , escucha mi oración, Y no te escondas de mi súplica.",
+          "headings": [
+            "Al director del coro. Con música de cuerdas. Instrucción (Maskil) de David"
+          ]
         },
         {
           "number": 2,
@@ -3639,7 +3792,11 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼElohim , ten compasión de mí, Porque el hombre me pisotea, me devora, Me oprime y me combate todo el día."
+          "text": "Oh ʼElohim , ten compasión de mí, Porque el hombre me pisotea, me devora, Me oprime y me combate todo el día.",
+          "headings": [
+            "Al director del coro. Sobre la paloma silenciosa en parajes muy lejanos.",
+            "Canto a media voz (Mictam) de David, cuando los filisteos lo capturaron en Gat"
+          ]
         },
         {
           "number": 2,
@@ -3696,7 +3853,11 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ten compasión de mí, oh ʼElohim . Ten compasión de mí. Porque mi alma confía en Ti, Y en la sombra de tus alas me amparo Hasta que pase la destrucción."
+          "text": "Ten compasión de mí, oh ʼElohim . Ten compasión de mí. Porque mi alma confía en Ti, Y en la sombra de tus alas me amparo Hasta que pase la destrucción.",
+          "headings": [
+            "Al director del coro. A modo de “No destruyas.”",
+            "Canto a media voz (Mictam) de David, en la cueva, cuando huía de Saúl"
+          ]
         },
         {
           "number": 2,
@@ -3745,7 +3906,11 @@
       "verses": [
         {
           "number": 1,
-          "text": "Magistrados: ¿Ustedes pronuncian justicia en verdad? ¿Juzgan rectamente, oh hijos de hombre?"
+          "text": "Magistrados: ¿Ustedes pronuncian justicia en verdad? ¿Juzgan rectamente, oh hijos de hombre?",
+          "headings": [
+            "Al director del coro. Al modo de “No destruyas”",
+            "Canto a media voz (Mictam) de David"
+          ]
         },
         {
           "number": 2,
@@ -3794,7 +3959,11 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Oh ʼElohim mío, líbrame de mis enemigos! ¡Oh ʼElohim mío, ponme a salvo De los que se levantan contra mí!"
+          "text": "¡Oh ʼElohim mío, líbrame de mis enemigos! ¡Oh ʼElohim mío, ponme a salvo De los que se levantan contra mí!",
+          "headings": [
+            "Al director del coro. Al modo de “No destruyas”.",
+            "Canto a media voz (Mictam) de David, cuando Saúl envió a vigilar la casa para matarlo"
+          ]
         },
         {
           "number": 2,
@@ -3867,7 +4036,11 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼElohim , Tú nos rechasaste. Tú nos desechaste, rompiste nuestras defensas. Te airaste. Vuelve a nosotros."
+          "text": "Oh ʼElohim , Tú nos rechasaste. Tú nos desechaste, rompiste nuestras defensas. Te airaste. Vuelve a nosotros.",
+          "headings": [
+            "Al director del coro. Al modo del “Lirio del Testimonio”",
+            "Canto a media voz (Mictam) de David, cuando combatió contra Siria Mesopotámica y contra Siria de Soba, y Joab regresó y derrotó a 12.000 edomitas en el valle de la Sal."
+          ]
         },
         {
           "number": 2,
@@ -3920,7 +4093,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼElohim , oye mi clamor. Atiende mi súplica."
+          "text": "Oh ʼElohim , oye mi clamor. Atiende mi súplica.",
+          "headings": [
+            "Al director del coro. Con música de cuerdas. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -3957,7 +4133,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Solo en ʼElohim se aquieta mi alma. De Él viene mi salvación."
+          "text": "Solo en ʼElohim se aquieta mi alma. De Él viene mi salvación.",
+          "headings": [
+            "Al director del coro, para Jedutún. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -4010,7 +4189,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼElohim , Tú eres mi ʼEL . Ansiosamente te busqué. Mi alma tiene sed de Ti. Mi cuerpo te anhela en tierra árida y deshabitada, Donde no hay agua."
+          "text": "Oh ʼElohim , Tú eres mi ʼEL . Ansiosamente te busqué. Mi alma tiene sed de Ti. Mi cuerpo te anhela en tierra árida y deshabitada, Donde no hay agua.",
+          "headings": [
+            "Salmo de David, compuesto cuando estaba en el desierto de Judá"
+          ]
         },
         {
           "number": 2,
@@ -4066,7 +4248,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Escucha, oh ʼElohim , la voz de mi queja: Preserva mi vida del terror de perversos."
+          "text": "Escucha, oh ʼElohim , la voz de mi queja: Preserva mi vida del terror de perversos.",
+          "headings": [
+            "Al director del coro. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -4111,7 +4296,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "A Ti te corresponde la alabanza en Sion, oh ʼElohim . A Ti se pagará el voto."
+          "text": "A Ti te corresponde la alabanza en Sion, oh ʼElohim . A Ti se pagará el voto.",
+          "headings": [
+            "Al director del coro. Salmo de David. Canto"
+          ]
         },
         {
           "number": 2,
@@ -4175,7 +4363,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aclame a ʼElohim , toda la tierra."
+          "text": "Aclame a ʼElohim , toda la tierra.",
+          "headings": [
+            "Al director del coro. Canto. Salmo"
+          ]
         },
         {
           "number": 2,
@@ -4260,7 +4451,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "ʼElohim tenga compasión de nosotros y nos bendiga, Resplandezca su rostro sobre nosotros, Selah"
+          "text": "ʼElohim tenga compasión de nosotros y nos bendiga, Resplandezca su rostro sobre nosotros, Selah",
+          "headings": [
+            "Al director del coro. Con instrumentos de cuerda. Salmo. Canto"
+          ]
         },
         {
           "number": 2,
@@ -4293,7 +4487,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Levántese ʼElohim , sean esparcidos sus enemigos. Huyan de tu Presencia los que lo aborrecen."
+          "text": "Levántese ʼElohim , sean esparcidos sus enemigos. Huyan de tu Presencia los que lo aborrecen.",
+          "headings": [
+            "Al director del coro. Salmo de David. Canto"
+          ]
         },
         {
           "number": 2,
@@ -4445,7 +4642,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Sálvame, oh ʼElohim , porque las aguas amenazan mi vida."
+          "text": "Sálvame, oh ʼElohim , porque las aguas amenazan mi vida.",
+          "headings": [
+            "Al director del coro. Según “Los lirios”. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -4594,7 +4794,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼElohim , apresúrate a librarme. Apresúrate, oh Yavé , a socorrerme."
+          "text": "Oh ʼElohim , apresúrate a librarme. Apresúrate, oh Yavé , a socorrerme.",
+          "headings": [
+            "Al director del coro. Salmo de David. En conmemoración"
+          ]
         },
         {
           "number": 2,
@@ -4727,7 +4930,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼElohim , da tus juicios al rey, Y tu justicia al hijo del rey."
+          "text": "Oh ʼElohim , da tus juicios al rey, Y tu justicia al hijo del rey.",
+          "headings": [
+            "Salmo de Salomón"
+          ]
         },
         {
           "number": 2,
@@ -4812,7 +5018,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ciertamente ʼElohim es bueno con Israel, Con los que son puros de corazón."
+          "text": "Ciertamente ʼElohim es bueno con Israel, Con los que son puros de corazón.",
+          "headings": [
+            "Salmo de Asaf"
+          ]
         },
         {
           "number": 2,
@@ -4929,7 +5138,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼElohim , ¿por qué nos desechaste para siempre? ¿Por qué humea tu ira contra las ovejas de tu prado?"
+          "text": "Oh ʼElohim , ¿por qué nos desechaste para siempre? ¿Por qué humea tu ira contra las ovejas de tu prado?",
+          "headings": [
+            "Instrucción (Maskil) de Asaf"
+          ]
         },
         {
           "number": 2,
@@ -5026,7 +5238,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Gracias te damos, oh ʼElohim , te damos gracias, Porque tu Nombre está cerca. Los hombres declaran tus maravillosas obras."
+          "text": "Gracias te damos, oh ʼElohim , te damos gracias, Porque tu Nombre está cerca. Los hombres declaran tus maravillosas obras.",
+          "headings": [
+            "Al director del coro. Según “No destruyas”. Salmo de Asaf. Canto"
+          ]
         },
         {
           "number": 2,
@@ -5071,7 +5286,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "ʼElohim es conocido en Judá, Y en Israel es grande su Nombre."
+          "text": "ʼElohim es conocido en Judá, Y en Israel es grande su Nombre.",
+          "headings": [
+            "Al director del coro. Con instrumentos de cuerda. Salmo de Asaf. Canto"
+          ]
         },
         {
           "number": 2,
@@ -5124,7 +5342,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Mi voz se levanta a ʼElohim y clamaré. Mi voz se levanta a ʼElohim , Y Él me oirá."
+          "text": "Mi voz se levanta a ʼElohim y clamaré. Mi voz se levanta a ʼElohim , Y Él me oirá.",
+          "headings": [
+            "Al director del coro. Para Jedutún. Salmo de Asaf"
+          ]
         },
         {
           "number": 2,
@@ -5209,7 +5430,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Escucha, pueblo mío, mi instrucción. Inclina tus oídos a las palabras de mi boca."
+          "text": "Escucha, pueblo mío, mi instrucción. Inclina tus oídos a las palabras de mi boca.",
+          "headings": [
+            "Instrucción (Maskil) de Asaf"
+          ]
         },
         {
           "number": 2,
@@ -5502,7 +5726,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼElohim , las naciones invadieron tu heredad. Profanaron tu Santuario Y redujeron a escombros a Jerusalén."
+          "text": "Oh ʼElohim , las naciones invadieron tu heredad. Profanaron tu Santuario Y redujeron a escombros a Jerusalén.",
+          "headings": [
+            "Salmo de Asaf"
+          ]
         },
         {
           "number": 2,
@@ -5559,7 +5786,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh Pastor de Israel, escucha. Tú, que pastoreas a José como un rebaño, Tú, que estás entronizado entre querubines, ¡Resplandece!"
+          "text": "Oh Pastor de Israel, escucha. Tú, que pastoreas a José como un rebaño, Tú, que estás entronizado entre querubines, ¡Resplandece!",
+          "headings": [
+            "Al director del coro. Según “Sobre lirios”. Testimonio. Salmo de Asaf"
+          ]
         },
         {
           "number": 2,
@@ -5640,7 +5870,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Canten con gozo a ʼElohim , Fortaleza nuestra. Aclamen con júbilo al ʼElohim de Jacob."
+          "text": "Canten con gozo a ʼElohim , Fortaleza nuestra. Aclamen con júbilo al ʼElohim de Jacob.",
+          "headings": [
+            "Al director del coro. Según Geteos. Salmo de Asaf"
+          ]
         },
         {
           "number": 2,
@@ -5716,7 +5949,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "ʼElohim toma su posición en la asamblea de los ʼelohim . Juzga en medio de los ʼelohim ."
+          "text": "ʼElohim toma su posición en la asamblea de los ʼelohim . Juzga en medio de los ʼelohim .",
+          "headings": [
+            "Salmo de Asaf"
+          ]
         },
         {
           "number": 2,
@@ -5753,7 +5989,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼElohim , no permanezcas en silencio. Oh ʼElohim , no calles, no estés imperturbable."
+          "text": "Oh ʼElohim , no permanezcas en silencio. Oh ʼElohim , no calles, no estés imperturbable.",
+          "headings": [
+            "Canto. Salmo de Asa"
+          ]
         },
         {
           "number": 2,
@@ -5830,7 +6069,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Cuán maravillosas son tus moradas, oh Yavé de las huestes!"
+          "text": "¡Cuán maravillosas son tus moradas, oh Yavé de las huestes!",
+          "headings": [
+            "Al director del coro. Sobre los Geteos. Salmo de los hijos de Coré"
+          ]
         },
         {
           "number": 2,
@@ -5883,7 +6125,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh Yavé , fuiste favorable a tu tierra. Devolviste a los cautivos de Jacob."
+          "text": "Oh Yavé , fuiste favorable a tu tierra. Devolviste a los cautivos de Jacob.",
+          "headings": [
+            "Al director del coro. Salmo de los hijos de Coré"
+          ]
         },
         {
           "number": 2,
@@ -5940,7 +6185,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh Yavé , inclina tu oído y escúchame. Porque estoy afligido y necesitado."
+          "text": "Oh Yavé , inclina tu oído y escúchame. Porque estoy afligido y necesitado.",
+          "headings": [
+            "Oración de David"
+          ]
         },
         {
           "number": 2,
@@ -6013,7 +6261,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Su cimiento está en las santas montañas."
+          "text": "Su cimiento está en las santas montañas.",
+          "headings": [
+            "Salmo de los hijos de Coré. Canto"
+          ]
         },
         {
           "number": 2,
@@ -6046,7 +6297,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh Yavé, ʼElohim de mi salvación, Día y noche clamo delante de Ti."
+          "text": "Oh Yavé, ʼElohim de mi salvación, Día y noche clamo delante de Ti.",
+          "headings": [
+            "Canto. Salmo de los hijos de Coré. Al director del coro, al estilo de duelo (Leannoth). Instrucción (Maskil) de Hemán ezraíta."
+          ]
         },
         {
           "number": 2,
@@ -6130,7 +6384,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Las misericordias de Yavé cantaré perpetuamente. Con mi boca proclamaré tu fidelidad."
+          "text": "Las misericordias de Yavé cantaré perpetuamente. Con mi boca proclamaré tu fidelidad.",
+          "headings": [
+            "Instrucción (Maskil) de Etán ezraíta"
+          ]
         },
         {
           "number": 2,
@@ -6343,7 +6600,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼAdonay , Tú fuiste nuestro Refugio en todas las generaciones."
+          "text": "Oh ʼAdonay , Tú fuiste nuestro Refugio en todas las generaciones.",
+          "headings": [
+            "Oración de Moisés, varón de ʼElohim"
+          ]
         },
         {
           "number": 2,
@@ -6499,7 +6759,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Bueno es alabar a Yavé Y cantar salmos a tu Nombre, oh ʼElyón ."
+          "text": "Bueno es alabar a Yavé Y cantar salmos a tu Nombre, oh ʼElyón .",
+          "headings": [
+            "Salmo. Canto para el sábado"
+          ]
         },
         {
           "number": 2,
@@ -6852,7 +7115,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Canten a Yavé un canto nuevo, Porque Él hizo maravillosas cosas. Su mano derecha y su santo brazo ganaron la victoria para Él."
+          "text": "Canten a Yavé un canto nuevo, Porque Él hizo maravillosas cosas. Su mano derecha y su santo brazo ganaron la victoria para Él.",
+          "headings": [
+            "Salmo"
+          ]
         },
         {
           "number": 2,
@@ -6934,7 +7200,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Canten con júbilo a Yavé , gentes de toda la tierra!"
+          "text": "¡Canten con júbilo a Yavé , gentes de toda la tierra!",
+          "headings": [
+            "Salmo de acción de gracias"
+          ]
         },
         {
           "number": 2,
@@ -6959,7 +7228,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cantaré de tu misericordia y justicia. A Ti, oh Yavé , cantaré salmos."
+          "text": "Cantaré de tu misericordia y justicia. A Ti, oh Yavé , cantaré salmos.",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -6996,7 +7268,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Escucha mi oración, oh Yavé , Y llegue mi clamor a Ti."
+          "text": "Escucha mi oración, oh Yavé , Y llegue mi clamor a Ti.",
+          "headings": [
+            "Oración de un afligido que desmaya, y derrama su queja delante de Yavé."
+          ]
         },
         {
           "number": 2,
@@ -7113,7 +7388,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Bendice, alma mía, a Yavé , Y bendiga todo mi ser su santo Nombre."
+          "text": "Bendice, alma mía, a Yavé , Y bendiga todo mi ser su santo Nombre.",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -7910,7 +8188,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Mi corazón está firme, oh ʼElohim . Cantaré y entonaré salmos. Esta es mi gloria."
+          "text": "Mi corazón está firme, oh ʼElohim . Cantaré y entonaré salmos. Esta es mi gloria.",
+          "headings": [
+            "Canto. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -7974,7 +8255,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh ʼElohim de mi alabanza, no te calles."
+          "text": "Oh ʼElohim de mi alabanza, no te calles.",
+          "headings": [
+            "Al director del coro. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -8103,7 +8387,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Dice Yavé a mi ʼAdonay : Siéntate a mi mano derecha, Hasta que pongas a tus enemigos como estrado de tus pies."
+          "text": "Dice Yavé a mi ʼAdonay : Siéntate a mi mano derecha, Hasta que pongas a tus enemigos como estrado de tus pies.",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -8143,7 +8430,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Daré gracias a Yavé con todo mi corazón En la compañía de los rectos y en la congregación."
+          "text": "Daré gracias a Yavé con todo mi corazón En la compañía de los rectos y en la congregación.",
+          "headings": [
+            "¡Aleluya!"
+          ]
         },
         {
           "number": 2,
@@ -8188,7 +8478,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Aleluya! Inmensamente feliz es el hombre que teme a Yavé , Que grandemente se deleita en sus Mandamientos."
+          "text": "¡Aleluya! Inmensamente feliz es el hombre que teme a Yavé , Que grandemente se deleita en sus Mandamientos.",
+          "headings": [
+            "¡Aleluya!"
+          ]
         },
         {
           "number": 2,
@@ -8233,7 +8526,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Alaben, esclavos de Yavé ! ¡Alaben el Nombre de Yavé !"
+          "text": "¡Alaben, esclavos de Yavé ! ¡Alaben el Nombre de Yavé !",
+          "headings": [
+            "¡Aleluya!"
+          ]
         },
         {
           "number": 2,
@@ -9312,7 +9608,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En mi angustia clamé a Yavé , Y Él me respondió."
+          "text": "En mi angustia clamé a Yavé , Y Él me respondió.",
+          "headings": [
+            "Canto de ascenso gradual*Gradual: O de las subidas, o peregrinaciones. Probablemente se cantaban en las subidas anuales a Jerusalén."
+          ]
         },
         {
           "number": 2,
@@ -9352,7 +9651,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Levantaré mis ojos a las montañas. ¿De dónde vendrá mi socorro?"
+          "text": "Levantaré mis ojos a las montañas. ¿De dónde vendrá mi socorro?",
+          "headings": [
+            "Canto de ascenso gradual"
+          ]
         },
         {
           "number": 2,
@@ -9389,7 +9691,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yo me alegraba cuando me decían: Vayamos a la Casa de Yavé ."
+          "text": "Yo me alegraba cuando me decían: Vayamos a la Casa de Yavé .",
+          "headings": [
+            "Canto de ascenso gradual de David"
+          ]
         },
         {
           "number": 2,
@@ -9430,7 +9735,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "A Ti, que habitas en los cielos, levanto mis ojos, A Ti que estás entronizado en los cielos."
+          "text": "A Ti, que habitas en los cielos, levanto mis ojos, A Ti que estás entronizado en los cielos.",
+          "headings": [
+            "Canto de ascenso gradual"
+          ]
         },
         {
           "number": 2,
@@ -9451,7 +9759,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Si Yavé no estuviera a favor de nosotros, Que lo diga ahora Israel:"
+          "text": "Si Yavé no estuviera a favor de nosotros, Que lo diga ahora Israel:",
+          "headings": [
+            "Canto gradual de David"
+          ]
         },
         {
           "number": 2,
@@ -9488,7 +9799,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los que confían en Yavé Son como la Montaña Sion, Que no se mueve, sino permanece para siempre."
+          "text": "Los que confían en Yavé Son como la Montaña Sion, Que no se mueve, sino permanece para siempre.",
+          "headings": [
+            "Canto de ascenso gradual"
+          ]
         },
         {
           "number": 2,
@@ -9513,7 +9827,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando Yavé devuelva a los cautivos de Sion, Seremos como los que sueñan."
+          "text": "Cuando Yavé devuelva a los cautivos de Sion, Seremos como los que sueñan.",
+          "headings": [
+            "Canto de ascenso gradual"
+          ]
         },
         {
           "number": 2,
@@ -9542,7 +9859,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Si Yavé no edifica la casa, En vano trabajan los que la edifican. Si Yavé no guarda la ciudad, En vano vela el vigilante."
+          "text": "Si Yavé no edifica la casa, En vano trabajan los que la edifican. Si Yavé no guarda la ciudad, En vano vela el vigilante.",
+          "headings": [
+            "Canto de ascenso gradual de Salomón"
+          ]
         },
         {
           "number": 2,
@@ -9567,7 +9887,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Inmensamente feliz es todo el que teme a Yavé , Quien anda en sus caminos."
+          "text": "Inmensamente feliz es todo el que teme a Yavé , Quien anda en sus caminos.",
+          "headings": [
+            "Canto de ascenso gradual"
+          ]
         },
         {
           "number": 2,
@@ -9596,7 +9919,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Muchas veces me persiguieron desde mi juventud. Que lo diga ahora Israel:"
+          "text": "Muchas veces me persiguieron desde mi juventud. Que lo diga ahora Israel:",
+          "headings": [
+            "Canto de ascenso gradual"
+          ]
         },
         {
           "number": 2,
@@ -9633,7 +9959,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh Yavé , de lo profundo de mi ser clamo a Ti."
+          "text": "Oh Yavé , de lo profundo de mi ser clamo a Ti.",
+          "headings": [
+            "Canto de ascenso gradual"
+          ]
         },
         {
           "number": 2,
@@ -9670,7 +9999,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh Yavé , no se envaneció mi corazón, Ni mis ojos se enaltecieron, Ni anduve tras grandezas, Ni en cosas demasiado difíciles para mí."
+          "text": "Oh Yavé , no se envaneció mi corazón, Ni mis ojos se enaltecieron, Ni anduve tras grandezas, Ni en cosas demasiado difíciles para mí.",
+          "headings": [
+            "Canto de ascenso gradual de David"
+          ]
         },
         {
           "number": 2,
@@ -9687,7 +10019,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Acuérdate, oh Yavé, de David, Y de toda su aflicción."
+          "text": "Acuérdate, oh Yavé, de David, Y de toda su aflicción.",
+          "headings": [
+            "Canto de ascenso gradual"
+          ]
         },
         {
           "number": 2,
@@ -9764,7 +10099,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Miren cuán bueno y cuán agradable es Que los hermanos vivan juntos en unidad!"
+          "text": "¡Miren cuán bueno y cuán agradable es Que los hermanos vivan juntos en unidad!",
+          "headings": [
+            "Canto de ascenso gradual de David"
+          ]
         },
         {
           "number": 2,
@@ -9781,7 +10119,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Miren, bendigan a Yavé , Ustedes, todos los esclavos de Yavé , Los que sirven de noche en la Casa de Yavé ."
+          "text": "Miren, bendigan a Yavé , Ustedes, todos los esclavos de Yavé , Los que sirven de noche en la Casa de Yavé .",
+          "headings": [
+            "Canto de ascenso gradual"
+          ]
         },
         {
           "number": 2,
@@ -9798,7 +10139,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Alaben el Nombre de Yavé . Alábenlo, esclavos de Yavé ,"
+          "text": "Alaben el Nombre de Yavé . Alábenlo, esclavos de Yavé ,",
+          "headings": [
+            "¡Aleluya!"
+          ]
         },
         {
           "number": 2,
@@ -10037,7 +10381,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh Yavé , te doy gracias con todo mi corazón. Te cantaré alabanzas delante de los ʼelohim ."
+          "text": "Oh Yavé , te doy gracias con todo mi corazón. Te cantaré alabanzas delante de los ʼelohim .",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -10074,7 +10421,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh Yavé , Tú me escudriñaste y conociste."
+          "text": "Oh Yavé , Tú me escudriñaste y conociste.",
+          "headings": [
+            "Al director del coro. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -10175,7 +10525,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Rescátame, oh Yavé , de hombres perversos. Guárdame de hombres violentos"
+          "text": "Rescátame, oh Yavé , de hombres perversos. Guárdame de hombres violentos",
+          "headings": [
+            "Al director del coro. Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -10232,7 +10585,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Oh Yavé , a Ti clamo, apresúrate hacia mí! Presta oído a mi voz cuando te invoco."
+          "text": "¡Oh Yavé , a Ti clamo, apresúrate hacia mí! Presta oído a mi voz cuando te invoco.",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -10277,7 +10633,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Con mi voz clamo a Yavé . Con mi voz suplico a Yavé ."
+          "text": "Con mi voz clamo a Yavé . Con mi voz suplico a Yavé .",
+          "headings": [
+            "Instrucción (Maskil) de David cuando estaba en la cueva. Oración"
+          ]
         },
         {
           "number": 2,
@@ -10310,7 +10669,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh Yavé , escucha mi oración. Presta oído a mis súplicas. Por tu fidelidad, por tu justicia respóndeme."
+          "text": "Oh Yavé , escucha mi oración. Presta oído a mis súplicas. Por tu fidelidad, por tu justicia respóndeme.",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -10363,7 +10725,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Bendito sea Yavé , mi Roca, Que adiestra mis manos para la guerra Y mis dedos para la batalla!"
+          "text": "¡Bendito sea Yavé , mi Roca, Que adiestra mis manos para la guerra Y mis dedos para la batalla!",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 2,
@@ -10435,7 +10800,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Te exaltaré, mi ʼElohim , oh Rey, Y bendeciré tu Nombre eternamente y para siempre."
+          "text": "Te exaltaré, mi ʼElohim , oh Rey, Y bendeciré tu Nombre eternamente y para siempre.",
+          "headings": [
+            "Alabanza. Salmo de David"
+          ]
         },
         {
           "number": 2,

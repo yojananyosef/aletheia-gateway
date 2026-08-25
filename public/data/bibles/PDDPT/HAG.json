@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El año segundo del reinado de Darío, el mes sexto, el primer día del mes, vino la Palabra de Yavé a Zorobabel, hijo de Salatiel, gobernador de Judá, y a Josué, hijo del sumo sacerdote Josadac, por medio del profeta Hageo:"
+          "text": "El año segundo del reinado de Darío, el mes sexto, el primer día del mes, vino la Palabra de Yavé a Zorobabel, hijo de Salatiel, gobernador de Judá, y a Josué, hijo del sumo sacerdote Josadac, por medio del profeta Hageo:",
+          "headings": [
+            "Exhortación"
+          ]
         },
         {
           "number": 2,
@@ -74,7 +77,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El 21 del mes séptimo, la Palabra de Yavé vino por medio del profeta Hageo:"
+          "text": "El 21 del mes séptimo, la Palabra de Yavé vino por medio del profeta Hageo:",
+          "headings": [
+            "El nuevo templo"
+          ]
         },
         {
           "number": 2,
@@ -106,14 +112,14 @@
         },
         {
           "number": 9,
-          "text": "La gloria final de este Templo será mayor que la del primero. En este lugar daré paz, dice Yavé de las huestes.",
-          "headings": [
-            "Recordatorio"
-          ]
+          "text": "La gloria final de este Templo será mayor que la del primero. En este lugar daré paz, dice Yavé de las huestes."
         },
         {
           "number": 10,
-          "text": "El día 24 del noveno mes, en el segundo año de Darío, vino la Palabra de Yavé por medio del profeta Hageo:"
+          "text": "El día 24 del noveno mes, en el segundo año de Darío, vino la Palabra de Yavé por medio del profeta Hageo:",
+          "headings": [
+            "Recordatorio"
+          ]
         },
         {
           "number": 11,
@@ -149,14 +155,14 @@
         },
         {
           "number": 19,
-          "text": "¿Está aún la semilla en el granero? Ni la vid, ni la higuera, ni el granado, ni el olivo produjeron, pero desde hoy en adelante los bendeciré.",
-          "headings": [
-            "Contra los gentiles"
-          ]
+          "text": "¿Está aún la semilla en el granero? Ni la vid, ni la higuera, ni el granado, ni el olivo produjeron, pero desde hoy en adelante los bendeciré."
         },
         {
           "number": 20,
-          "text": "El 24 del mismo mes vino la Palabra de Yavé por segunda vez a Hageo:"
+          "text": "El 24 del mismo mes vino la Palabra de Yavé por segunda vez a Hageo:",
+          "headings": [
+            "Contra los gentiles"
+          ]
         },
         {
           "number": 21,

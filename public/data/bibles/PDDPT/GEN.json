@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En un principio ʼElohim creó los cielos y la tierra."
+          "text": "En un principio ʼElohim creó los cielos y la tierra.",
+          "headings": [
+            "La creación"
+          ]
         },
         {
           "number": 2,
@@ -105,14 +108,14 @@
         },
         {
           "number": 25,
-          "text": "ʼElohim hizo las bestias de la tierra según su especie, el ganado según su especie, y todo reptil del suelo según su especie. Y ʼElohim vio que estaba bien.",
-          "headings": [
-            "El hombre"
-          ]
+          "text": "ʼElohim hizo las bestias de la tierra según su especie, el ganado según su especie, y todo reptil del suelo según su especie. Y ʼElohim vio que estaba bien."
         },
         {
           "number": 26,
-          "text": "Entonces ʼElohim dijo: Hagamos al hombre a nuestra imagen, conforme a nuestra semejanza, y ejerza dominio sobre los peces del mar, sobre las aves de los cielos, sobre el ganado, sobre toda la tierra, y sobre todo reptil que repta sobre la tierra."
+          "text": "Entonces ʼElohim dijo: Hagamos al hombre a nuestra imagen, conforme a nuestra semejanza, y ejerza dominio sobre los peces del mar, sobre las aves de los cielos, sobre el ganado, sobre toda la tierra, y sobre todo reptil que repta sobre la tierra.",
+          "headings": [
+            "El hombre"
+          ]
         },
         {
           "number": 27,
@@ -153,14 +156,14 @@
         },
         {
           "number": 4,
-          "text": "Este fue el origen de los cielos y la tierra cuando fueron creados. El día en el cual Yavé ʼElohim hizo la tierra y los cielos",
-          "headings": [
-            "El hombre en Edén"
-          ]
+          "text": "Este fue el origen de los cielos y la tierra cuando fueron creados. El día en el cual Yavé ʼElohim hizo la tierra y los cielos"
         },
         {
           "number": 5,
-          "text": "no había aún alguna planta del campo. Ni brotaba aún en la tierra alguna hierba del campo, porque Yavé ʼElohim no había enviado lluvia sobre la tierra. Ni había hombre para que labrara el suelo."
+          "text": "no había aún alguna planta del campo. Ni brotaba aún en la tierra alguna hierba del campo, porque Yavé ʼElohim no había enviado lluvia sobre la tierra. Ni había hombre para que labrara el suelo.",
+          "headings": [
+            "El hombre en Edén"
+          ]
         },
         {
           "number": 6,
@@ -220,14 +223,14 @@
         },
         {
           "number": 20,
-          "text": "El hombre dio nombres a todos los animales, a las aves del cielo y a toda bestia del campo. Pero para el hombre no se halló una ayuda semejante a él.",
-          "headings": [
-            "La varona"
-          ]
+          "text": "El hombre dio nombres a todos los animales, a las aves del cielo y a toda bestia del campo. Pero para el hombre no se halló una ayuda semejante a él."
         },
         {
           "number": 21,
-          "text": "Entonces Yavé ʼElohim hizo caer al hombre en un sueño profundo. Y mientras dormía, tomó una de sus costillas y cerró la carne en su lugar."
+          "text": "Entonces Yavé ʼElohim hizo caer al hombre en un sueño profundo. Y mientras dormía, tomó una de sus costillas y cerró la carne en su lugar.",
+          "headings": [
+            "La varona"
+          ]
         },
         {
           "number": 22,
@@ -252,7 +255,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero la serpiente era astuta, más que toda bestia del campo que Yavé ʼElohim hizo. Y preguntó a la mujer: ¿Así que ʼElohim dijo: No coman de ningún árbol del huerto?"
+          "text": "Pero la serpiente era astuta, más que toda bestia del campo que Yavé ʼElohim hizo. Y preguntó a la mujer: ¿Así que ʼElohim dijo: No coman de ningún árbol del huerto?",
+          "headings": [
+            "La caída"
+          ]
         },
         {
           "number": 2,
@@ -353,7 +359,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Adán se unió a su esposa Eva, y ella concibió. Dio a luz a Caín, y dijo: Adquirí un varón de parte de Yavé ."
+          "text": "Adán se unió a su esposa Eva, y ella concibió. Dio a luz a Caín, y dijo: Adquirí un varón de parte de Yavé .",
+          "headings": [
+            "Caín y Abel"
+          ]
         },
         {
           "number": 2,
@@ -445,14 +454,14 @@
         },
         {
           "number": 24,
-          "text": "Si siete veces es vengado Caín, 70 veces siete lo será Lamec.",
-          "headings": [
-            "Set"
-          ]
+          "text": "Si siete veces es vengado Caín, 70 veces siete lo será Lamec."
         },
         {
           "number": 25,
-          "text": "Adán se unió otra vez a su esposa. Ella dio a luz un hijo y lo llamó Set, porque pensó: ʼElohim me concedió otro descendiente en lugar de Abel, a quien Caín asesinó."
+          "text": "Adán se unió otra vez a su esposa. Ella dio a luz un hijo y lo llamó Set, porque pensó: ʼElohim me concedió otro descendiente en lugar de Abel, a quien Caín asesinó.",
+          "headings": [
+            "Set"
+          ]
         },
         {
           "number": 26,
@@ -465,7 +474,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este es el rollo de las generaciones de Adán. El día cuando ʼElohim creó al hombre, lo hizo a imagen de ʼElohim ."
+          "text": "Este es el rollo de las generaciones de Adán. El día cuando ʼElohim creó al hombre, lo hizo a imagen de ʼElohim .",
+          "headings": [
+            "Descendencia de Adán"
+          ]
         },
         {
           "number": 2,
@@ -598,7 +610,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció que cuando la humanidad comenzó a multiplicarse sobre la superficie de la tierra, y les nacieron hijas,"
+          "text": "Aconteció que cuando la humanidad comenzó a multiplicarse sobre la superficie de la tierra, y les nacieron hijas,",
+          "headings": [
+            "Corrupción de la humanidad"
+          ]
         },
         {
           "number": 2,
@@ -633,14 +648,14 @@
         },
         {
           "number": 8,
-          "text": "Pero Noé halló gracia ante los ojos de Yavé .",
-          "headings": [
-            "Descendencia de Noé"
-          ]
+          "text": "Pero Noé halló gracia ante los ojos de Yavé ."
         },
         {
           "number": 9,
-          "text": "Estos son los descendientes de Noé. Noé, varón justo, fue sin defecto en sus generaciones. Noé andaba con ʼElohim ."
+          "text": "Estos son los descendientes de Noé. Noé, varón justo, fue sin defecto en sus generaciones. Noé andaba con ʼElohim .",
+          "headings": [
+            "Descendencia de Noé"
+          ]
         },
         {
           "number": 10,
@@ -656,14 +671,14 @@
         },
         {
           "number": 13,
-          "text": "Y ʼElohim dijo a Noé: Decidí el fin de todo ser viviente. Porque la tierra se llenó de violencia a causa de ellos. Mira, Yo los destruyo con la tierra.",
-          "headings": [
-            "El arca"
-          ]
+          "text": "Y ʼElohim dijo a Noé: Decidí el fin de todo ser viviente. Porque la tierra se llenó de violencia a causa de ellos. Mira, Yo los destruyo con la tierra."
         },
         {
           "number": 14,
-          "text": "Haz un arca de madera de ciprés. Harás compartimientos al arca y la calafatearás con brea por dentro y por fuera."
+          "text": "Haz un arca de madera de ciprés. Harás compartimientos al arca y la calafatearás con brea por dentro y por fuera.",
+          "headings": [
+            "El arca"
+          ]
         },
         {
           "number": 15,
@@ -704,7 +719,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé dijo a Noé: Entra tú y toda tu casa en el arca, porque te he visto justo delante de Mí en esta generación."
+          "text": "Yavé dijo a Noé: Entra tú y toda tu casa en el arca, porque te he visto justo delante de Mí en esta generación.",
+          "headings": [
+            "Un diluvio"
+          ]
         },
         {
           "number": 2,
@@ -805,7 +823,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces ʼElohim se acordó de Noé, de todo ser viviente y de todos los animales que estaban con él en el arca. Y ʼElohim hizo soplar un viento sobre la tierra y las aguas decrecieron."
+          "text": "Entonces ʼElohim se acordó de Noé, de todo ser viviente y de todos los animales que estaban con él en el arca. Y ʼElohim hizo soplar un viento sobre la tierra y las aguas decrecieron.",
+          "headings": [
+            "Cesación del diluvio"
+          ]
         },
         {
           "number": 2,
@@ -898,7 +919,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "ʼElohim bendijo a Noé y a sus hijos, y les dijo: Sean fecundos y multiplíquense y llenen la tierra."
+          "text": "ʼElohim bendijo a Noé y a sus hijos, y les dijo: Sean fecundos y multiplíquense y llenen la tierra.",
+          "headings": [
+            "Pacto de ʼElohim con Noé"
+          ]
         },
         {
           "number": 2,
@@ -962,14 +986,14 @@
         },
         {
           "number": 17,
-          "text": "Luego ʼElohim dijo a Noé: Esta es la señal del Pacto que establezco entre Yo y toda carne que hay sobre la tierra.",
-          "headings": [
-            "Cam"
-          ]
+          "text": "Luego ʼElohim dijo a Noé: Esta es la señal del Pacto que establezco entre Yo y toda carne que hay sobre la tierra."
         },
         {
           "number": 18,
-          "text": "Los hijos de Noé que salieron del arca fueron Sem, Cam y Jafet (y Cam es el padre de Canaán)."
+          "text": "Los hijos de Noé que salieron del arca fueron Sem, Cam y Jafet (y Cam es el padre de Canaán).",
+          "headings": [
+            "Cam"
+          ]
         },
         {
           "number": 19,
@@ -1022,7 +1046,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estos son los descendientes de Sem, Cam y Jafet, hijos de Noé, a quienes les nacieron hijos después del diluvio."
+          "text": "Estos son los descendientes de Sem, Cam y Jafet, hijos de Noé, a quienes les nacieron hijos después del diluvio.",
+          "headings": [
+            "Descendencia de Sem, Cam y Jafet"
+          ]
         },
         {
           "number": 2,
@@ -1155,7 +1182,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces toda la tierra tenía una sola lengua y las mismas palabras."
+          "text": "Entonces toda la tierra tenía una sola lengua y las mismas palabras.",
+          "headings": [
+            "Babilonia"
+          ]
         },
         {
           "number": 2,
@@ -1187,14 +1217,14 @@
         },
         {
           "number": 9,
-          "text": "Por eso lo llamó Babel, porque allí Yavé confundió la lengua de toda la tierra. Desde allí Yavé los esparció por la superficie de toda la tierra.",
-          "headings": [
-            "Descendencia de Sem"
-          ]
+          "text": "Por eso lo llamó Babel, porque allí Yavé confundió la lengua de toda la tierra. Desde allí Yavé los esparció por la superficie de toda la tierra."
         },
         {
           "number": 10,
-          "text": "Estos son los descendientes de Sem: Cuando Sem tenía 100 años engendró a Arfaxad, dos años después del diluvio."
+          "text": "Estos son los descendientes de Sem: Cuando Sem tenía 100 años engendró a Arfaxad, dos años después del diluvio.",
+          "headings": [
+            "Descendencia de Sem"
+          ]
         },
         {
           "number": 11,
@@ -1258,14 +1288,14 @@
         },
         {
           "number": 26,
-          "text": "Y Taré vivió 70 años y engendró a Abram, a Nacor y a Harán.",
-          "headings": [
-            "Descendencia de Taré"
-          ]
+          "text": "Y Taré vivió 70 años y engendró a Abram, a Nacor y a Harán."
         },
         {
           "number": 27,
-          "text": "Estos son los descendientes de Taré: Taré engendró a Abram, a Nacor y a Harán. Harán engendró a Lot."
+          "text": "Estos son los descendientes de Taré: Taré engendró a Abram, a Nacor y a Harán. Harán engendró a Lot.",
+          "headings": [
+            "Descendencia de Taré"
+          ]
         },
         {
           "number": 28,
@@ -1294,7 +1324,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero Yavé dijo a Abram: Vete de tu tierra, de tu parentela y de la casa de tu padre, a la tierra que te mostraré."
+          "text": "Pero Yavé dijo a Abram: Vete de tu tierra, de tu parentela y de la casa de tu padre, a la tierra que te mostraré.",
+          "headings": [
+            "Llamamiento de ʼElohim a Abram"
+          ]
         },
         {
           "number": 2,
@@ -1322,14 +1355,14 @@
         },
         {
           "number": 8,
-          "text": "De allí se trasladó a la montaña al oriente de Bet-ʼEl, y plantó su tienda entre Bet-ʼEl al occidente y Hai al oriente. Luego edificó allí un altar a Yavé e invocó el Nombre de Yavé .",
-          "headings": [
-            "Abram en Egipto"
-          ]
+          "text": "De allí se trasladó a la montaña al oriente de Bet-ʼEl, y plantó su tienda entre Bet-ʼEl al occidente y Hai al oriente. Luego edificó allí un altar a Yavé e invocó el Nombre de Yavé ."
         },
         {
           "number": 9,
-          "text": "Después Abram salió y se dirigió progresivamente hacia el Neguev."
+          "text": "Después Abram salió y se dirigió progresivamente hacia el Neguev.",
+          "headings": [
+            "Abram en Egipto"
+          ]
         },
         {
           "number": 10,
@@ -1382,7 +1415,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Subió, pues, Abram desde Egipto hacia el Neguev con su esposa, Lot y todo lo que poseía."
+          "text": "Subió, pues, Abram desde Egipto hacia el Neguev con su esposa, Lot y todo lo que poseía.",
+          "headings": [
+            "Abram y Lot"
+          ]
         },
         {
           "number": 2,
@@ -1466,7 +1502,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció en los días de Amrafel, rey de Sinar, Arioc, rey de Elasar, Quedorlaomer, rey de Elam, y Tidal, rey de los Goyim,"
+          "text": "Aconteció en los días de Amrafel, rey de Sinar, Arioc, rey de Elasar, Quedorlaomer, rey de Elam, y Tidal, rey de los Goyim,",
+          "headings": [
+            "Rescate de Lot"
+          ]
         },
         {
           "number": 2,
@@ -1526,14 +1565,14 @@
         },
         {
           "number": 16,
-          "text": "Recuperó todos los bienes, y también a su pariente Lot y sus bienes, así como a las mujeres y al pueblo.",
-          "headings": [
-            "Melquisedec"
-          ]
+          "text": "Recuperó todos los bienes, y también a su pariente Lot y sus bienes, así como a las mujeres y al pueblo."
         },
         {
           "number": 17,
-          "text": "Cuando Abram regresaba de derrotar a Quedorlaomer y a los reyes que estaban con él, el rey de Sodoma salió a su encuentro en el valle de Savé, que es el valle del Rey."
+          "text": "Cuando Abram regresaba de derrotar a Quedorlaomer y a los reyes que estaban con él, el rey de Sodoma salió a su encuentro en el valle de Savé, que es el valle del Rey.",
+          "headings": [
+            "Melquisedec"
+          ]
         },
         {
           "number": 18,
@@ -1570,7 +1609,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de estas cosas, la Palabra de Yavé vino a Abram en visión: No temas Abram. Yo soy tu Escudo. Tu galardón será muy grande."
+          "text": "Después de estas cosas, la Palabra de Yavé vino a Abram en visión: No temas Abram. Yo soy tu Escudo. Tu galardón será muy grande.",
+          "headings": [
+            "La promesa"
+          ]
         },
         {
           "number": 2,
@@ -1659,7 +1701,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Saray, esposa de Abram, no le daba hijos. Pero ella tenía una esclava egipcia cuyo nombre era Agar."
+          "text": "Saray, esposa de Abram, no le daba hijos. Pero ella tenía una esclava egipcia cuyo nombre era Agar.",
+          "headings": [
+            "Agar e Ismael"
+          ]
         },
         {
           "number": 2,
@@ -1728,7 +1773,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Abram tenía 99 años cuando Yavé se le apareció, y le dijo: Yo soy ʼEL-Shadday . Anda delante de Mí y sé perfecto."
+          "text": "Abram tenía 99 años cuando Yavé se le apareció, y le dijo: Yo soy ʼEL-Shadday . Anda delante de Mí y sé perfecto.",
+          "headings": [
+            "La señal del Pacto"
+          ]
         },
         {
           "number": 2,
@@ -1780,14 +1828,14 @@
         },
         {
           "number": 14,
-          "text": "Pero el varón incircunciso, que no haya circuncidado su prepucio, será cortado de su pueblo. Quebrantó mi Pacto.",
-          "headings": [
-            "Promesa con respecto a Isaac"
-          ]
+          "text": "Pero el varón incircunciso, que no haya circuncidado su prepucio, será cortado de su pueblo. Quebrantó mi Pacto."
         },
         {
           "number": 15,
-          "text": "También ʼElohim dijo a Abraham: A tu esposa Saray no la llamarás Saray, sino su nombre será Sara."
+          "text": "También ʼElohim dijo a Abraham: A tu esposa Saray no la llamarás Saray, sino su nombre será Sara.",
+          "headings": [
+            "Promesa con respecto a Isaac"
+          ]
         },
         {
           "number": 16,
@@ -1844,7 +1892,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después Yavé se le apareció a Abraham en el robledal de Mamre cuando él estaba sentado en la puerta de la tienda en el intenso calor del día."
+          "text": "Después Yavé se le apareció a Abraham en el robledal de Mamre cuando él estaba sentado en la puerta de la tienda en el intenso calor del día.",
+          "headings": [
+            "La Teofanía"
+          ]
         },
         {
           "number": 2,
@@ -1981,7 +2032,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entre tanto los dos ángeles llegaron a Sodoma al llegar la noche. Lot estaba sentado en la puerta de Sodoma. Cuando Lot los vio, se levantó a recibirlos y al postrarse con su rostro a tierra,"
+          "text": "Entre tanto los dos ángeles llegaron a Sodoma al llegar la noche. Lot estaba sentado en la puerta de Sodoma. Cuando Lot los vio, se levantó a recibirlos y al postrarse con su rostro a tierra,",
+          "headings": [
+            "Destrucción de Sodoma y Gomorra"
+          ]
         },
         {
           "number": 2,
@@ -2093,14 +2147,14 @@
         },
         {
           "number": 29,
-          "text": "Así ocurrió que cuando ʼElohim destruyó las ciudades de la llanura, ʼElohim se acordó de Abraham. Por eso sacó a Lot de en medio de la destrucción de las ciudades en las cuales Lot se estableció.",
-          "headings": [
-            "Descendencia de Lot"
-          ]
+          "text": "Así ocurrió que cuando ʼElohim destruyó las ciudades de la llanura, ʼElohim se acordó de Abraham. Por eso sacó a Lot de en medio de la destrucción de las ciudades en las cuales Lot se estableció."
         },
         {
           "number": 30,
-          "text": "Luego Lot subió desde Zoar y vivió en la montaña con sus dos hijas, pues temía permanecer en Zoar. Habitó, pues, en una caverna junto con sus dos hijas."
+          "text": "Luego Lot subió desde Zoar y vivió en la montaña con sus dos hijas, pues temía permanecer en Zoar. Habitó, pues, en una caverna junto con sus dos hijas.",
+          "headings": [
+            "Descendencia de Lot"
+          ]
         },
         {
           "number": 31,
@@ -2141,7 +2195,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Desde allí Abraham viajó hacia la tierra del Neguev. Acampó entre Cades y Shur, y vivió temporalmente en Gerar."
+          "text": "Desde allí Abraham viajó hacia la tierra del Neguev. Acampó entre Cades y Shur, y vivió temporalmente en Gerar.",
+          "headings": [
+            "Abraham y Sara en Gerar"
+          ]
         },
         {
           "number": 2,
@@ -2218,7 +2275,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé visitó a Sara como dijo, y Yavé procedió con Sara según lo prometido."
+          "text": "Yavé visitó a Sara como dijo, y Yavé procedió con Sara según lo prometido.",
+          "headings": [
+            "Nacimiento de Isaac"
+          ]
         },
         {
           "number": 2,
@@ -2246,14 +2306,14 @@
         },
         {
           "number": 8,
-          "text": "Creció el niño, y fue destetado. Entonces Abraham hizo un gran banquete el día cuando Isaac fue destetado.",
-          "headings": [
-            "Expulsión de Agar"
-          ]
+          "text": "Creció el niño, y fue destetado. Entonces Abraham hizo un gran banquete el día cuando Isaac fue destetado."
         },
         {
           "number": 9,
-          "text": "Pero Sara vio que el hijo que Abraham tuvo con Agar la egipcia se burlaba."
+          "text": "Pero Sara vio que el hijo que Abraham tuvo con Agar la egipcia se burlaba.",
+          "headings": [
+            "Expulsión de Agar"
+          ]
         },
         {
           "number": 10,
@@ -2301,14 +2361,14 @@
         },
         {
           "number": 21,
-          "text": "Habitó en el desierto de Parán, y su madre tomó para él una esposa de la tierra de Egipto.",
-          "headings": [
-            "Pacto de Abraham con Abimelec"
-          ]
+          "text": "Habitó en el desierto de Parán, y su madre tomó para él una esposa de la tierra de Egipto."
         },
         {
           "number": 22,
-          "text": "Sucedió en aquel tiempo que Abimelec y Ficol, capitán de su ejército, se dirigieron a Abraham y dijeron: ʼElohim está contigo en todo lo que tú haces."
+          "text": "Sucedió en aquel tiempo que Abimelec y Ficol, capitán de su ejército, se dirigieron a Abraham y dijeron: ʼElohim está contigo en todo lo que tú haces.",
+          "headings": [
+            "Pacto de Abraham con Abimelec"
+          ]
         },
         {
           "number": 23,
@@ -2365,7 +2425,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de esto aconteció que ʼElohim probó a Abraham, y le dijo: ¡Abraham! Él respondió: Aquí estoy."
+          "text": "Después de esto aconteció que ʼElohim probó a Abraham, y le dijo: ¡Abraham! Él respondió: Aquí estoy.",
+          "headings": [
+            "El sacrificio"
+          ]
         },
         {
           "number": 2,
@@ -2437,14 +2500,14 @@
         },
         {
           "number": 19,
-          "text": "Abraham regresó a sus jóvenes esclavos. Luego se levantaron y fueron juntos hacia Beerseba. Y vivió Abraham en Beerseba.",
-          "headings": [
-            "Familia de Nacor"
-          ]
+          "text": "Abraham regresó a sus jóvenes esclavos. Luego se levantaron y fueron juntos hacia Beerseba. Y vivió Abraham en Beerseba."
         },
         {
           "number": 20,
-          "text": "Después de estas cosas ocurrió que se informó a Abraham: Mira, también Milca ha dado hijos a Nacor tu hermano:"
+          "text": "Después de estas cosas ocurrió que se informó a Abraham: Mira, también Milca ha dado hijos a Nacor tu hermano:",
+          "headings": [
+            "Familia de Nacor"
+          ]
         },
         {
           "number": 21,
@@ -2469,7 +2532,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Sara vivió 127 años. Tantos fueron los años de la vida de Sara."
+          "text": "Sara vivió 127 años. Tantos fueron los años de la vida de Sara.",
+          "headings": [
+            "Muerte de Sara"
+          ]
         },
         {
           "number": 2,
@@ -2501,14 +2567,14 @@
         },
         {
           "number": 9,
-          "text": "para que me venda la cueva de la Macpela, que está en el extremo de su campo, que por su justo precio me la dé como propiedad para sepultura entre ustedes.",
-          "headings": [
-            "La cueva de la Macpela"
-          ]
+          "text": "para que me venda la cueva de la Macpela, que está en el extremo de su campo, que por su justo precio me la dé como propiedad para sepultura entre ustedes."
         },
         {
           "number": 10,
-          "text": "Efrón habitaba en medio de los hijos de Het. Y Efrón heteo respondió a Abraham, a oídos de los hijos de Het y de todos los que entraban por la puerta de su ciudad:"
+          "text": "Efrón habitaba en medio de los hijos de Het. Y Efrón heteo respondió a Abraham, a oídos de los hijos de Het y de todos los que entraban por la puerta de su ciudad:",
+          "headings": [
+            "La cueva de la Macpela"
+          ]
         },
         {
           "number": 11,
@@ -2557,7 +2623,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Abraham era anciano, entrado en días, y Yavé lo había bendecido en todo."
+          "text": "Abraham era anciano, entrado en días, y Yavé lo había bendecido en todo.",
+          "headings": [
+            "El esclavo y Rebeca"
+          ]
         },
         {
           "number": 2,
@@ -2830,7 +2899,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Abraham tomó otra esposa, cuyo nombre era Cetura,"
+          "text": "Abraham tomó otra esposa, cuyo nombre era Cetura,",
+          "headings": [
+            "Hijos de Abraham y Cetura"
+          ]
         },
         {
           "number": 2,
@@ -2850,14 +2922,14 @@
         },
         {
           "number": 6,
-          "text": "pero les dio regalos a los hijos de las concubinas que tuvo. Y mientras vivía, los envió al oriente, lejos de su hijo Isaac, a la tierra oriental.",
-          "headings": [
-            "Muerte de Abraham"
-          ]
+          "text": "pero les dio regalos a los hijos de las concubinas que tuvo. Y mientras vivía, los envió al oriente, lejos de su hijo Isaac, a la tierra oriental."
         },
         {
           "number": 7,
-          "text": "Los días de los años que vivió Abraham fueron 175 años."
+          "text": "Los días de los años que vivió Abraham fueron 175 años.",
+          "headings": [
+            "Muerte de Abraham"
+          ]
         },
         {
           "number": 8,
@@ -2873,14 +2945,14 @@
         },
         {
           "number": 11,
-          "text": "Sucedió después de la muerte de Abraham, que ʼElohim bendijo a Isaac su hijo. E Isaac vivió junto al pozo del Viviente-que-me-ve.",
-          "headings": [
-            "Descendencia de Ismael"
-          ]
+          "text": "Sucedió después de la muerte de Abraham, que ʼElohim bendijo a Isaac su hijo. E Isaac vivió junto al pozo del Viviente-que-me-ve."
         },
         {
           "number": 12,
-          "text": "Estos son los descendientes de Ismael, hijo de Abraham, que Agar la egipcia, esclava de Sara, le dio a luz."
+          "text": "Estos son los descendientes de Ismael, hijo de Abraham, que Agar la egipcia, esclava de Sara, le dio a luz.",
+          "headings": [
+            "Descendencia de Ismael"
+          ]
         },
         {
           "number": 13,
@@ -2904,14 +2976,14 @@
         },
         {
           "number": 18,
-          "text": "Se estableció desde Havila hasta Shur, que está enfrente de Egipto en dirección a Asiria. Y habitó enfrentado a todos sus hermanos.",
-          "headings": [
-            "Jacob y Esaú"
-          ]
+          "text": "Se estableció desde Havila hasta Shur, que está enfrente de Egipto en dirección a Asiria. Y habitó enfrentado a todos sus hermanos."
         },
         {
           "number": 19,
-          "text": "Estos son los descendientes de Isaac, hijo de Abraham. Abraham engendró a Isaac."
+          "text": "Estos son los descendientes de Isaac, hijo de Abraham. Abraham engendró a Isaac.",
+          "headings": [
+            "Jacob y Esaú"
+          ]
         },
         {
           "number": 20,
@@ -2947,14 +3019,14 @@
         },
         {
           "number": 28,
-          "text": "Isaac prefería a Esaú porque la caza de éste era deleitosa a su boca, pero Rebeca amaba a Jacob.",
-          "headings": [
-            "La primogenitura"
-          ]
+          "text": "Isaac prefería a Esaú porque la caza de éste era deleitosa a su boca, pero Rebeca amaba a Jacob."
         },
         {
           "number": 29,
-          "text": "Un día Jacob hizo un guiso, y cuando Esaú llegó del campo y estaba cansado,"
+          "text": "Un día Jacob hizo un guiso, y cuando Esaú llegó del campo y estaba cansado,",
+          "headings": [
+            "La primogenitura"
+          ]
         },
         {
           "number": 30,
@@ -2983,7 +3055,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hubo una hambruna en aquella tierra, además de aquella primera hambruna que hubo en los días de Abraham. Isaac fue a Gerar, donde Abimelec era rey de los filisteos."
+          "text": "Hubo una hambruna en aquella tierra, además de aquella primera hambruna que hubo en los días de Abraham. Isaac fue a Gerar, donde Abimelec era rey de los filisteos.",
+          "headings": [
+            "Isaac en Gerar"
+          ]
         },
         {
           "number": 2,
@@ -3023,14 +3098,14 @@
         },
         {
           "number": 11,
-          "text": "Por lo cual Abimelec mandó a todo su pueblo: El que toque a este hombre o a su esposa, ciertamente morirá.",
-          "headings": [
-            "Los pozos de Isaac"
-          ]
+          "text": "Por lo cual Abimelec mandó a todo su pueblo: El que toque a este hombre o a su esposa, ciertamente morirá."
         },
         {
           "number": 12,
-          "text": "Isaac sembró en aquella tierra. Aquel mismo año cosechó ciento por uno, porque Yavé lo bendijo."
+          "text": "Isaac sembró en aquella tierra. Aquel mismo año cosechó ciento por uno, porque Yavé lo bendijo.",
+          "headings": [
+            "Los pozos de Isaac"
+          ]
         },
         {
           "number": 13,
@@ -3131,7 +3206,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció que Isaac envejeció y sus ojos se debilitaron hasta no ver. Entonces llamó a Esaú, su hijo mayor, y le dijo: Hijo mío. Y él respondió: Aquí estoy."
+          "text": "Aconteció que Isaac envejeció y sus ojos se debilitaron hasta no ver. Entonces llamó a Esaú, su hijo mayor, y le dijo: Hijo mío. Y él respondió: Aquí estoy.",
+          "headings": [
+            "La bendición de Isaac"
+          ]
         },
         {
           "number": 2,
@@ -3287,14 +3365,14 @@
         },
         {
           "number": 40,
-          "text": "Por tu espada vivirás, Y a tu hermano servirás. Pero sucederá que cuando te fortalezcas, Sacudirás su yugo de tus hombros.",
-          "headings": [
-            "Huida de Jacob"
-          ]
+          "text": "Por tu espada vivirás, Y a tu hermano servirás. Pero sucederá que cuando te fortalezcas, Sacudirás su yugo de tus hombros."
         },
         {
           "number": 41,
-          "text": "Esaú aborreció a Jacob por la bendición de su padre y dijo en su corazón: Se acercan los días del duelo por mi padre, entonces mataré a mi hermano Jacob."
+          "text": "Esaú aborreció a Jacob por la bendición de su padre y dijo en su corazón: Se acercan los días del duelo por mi padre, entonces mataré a mi hermano Jacob.",
+          "headings": [
+            "Huida de Jacob"
+          ]
         },
         {
           "number": 42,
@@ -3323,7 +3401,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Isaac llamó a Jacob, lo bendijo y le ordenó: No tomes esposa de las hijas de Canaán."
+          "text": "Entonces Isaac llamó a Jacob, lo bendijo y le ordenó: No tomes esposa de las hijas de Canaán.",
+          "headings": [
+            "Bet-ʼEl"
+          ]
         },
         {
           "number": 2,
@@ -3416,7 +3497,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Jacob prosiguió su viaje, y fue a tierra de los hijos de oriente."
+          "text": "Entonces Jacob prosiguió su viaje, y fue a tierra de los hijos de oriente.",
+          "headings": [
+            "Mesopotamia"
+          ]
         },
         {
           "number": 2,
@@ -3460,25 +3544,25 @@
         },
         {
           "number": 12,
-          "text": "Jacob le declaró a Raquel que él era pariente de su padre e hijo de Rebeca. Y ella corrió y lo declaró a su padre.",
+          "text": "Jacob le declaró a Raquel que él era pariente de su padre e hijo de Rebeca. Y ella corrió y lo declaró a su padre."
+        },
+        {
+          "number": 13,
+          "text": "Aconteció que cuando Labán oyó la noticia con respecto a Jacob, hijo de su hermana, corrió a su encuentro. Lo abrazó y lo besó efusivamente, y lo llevó a su casa. Y él contó a Labán todas estas cosas.",
           "headings": [
             "Jacob en casa de Labán"
           ]
         },
         {
-          "number": 13,
-          "text": "Aconteció que cuando Labán oyó la noticia con respecto a Jacob, hijo de su hermana, corrió a su encuentro. Lo abrazó y lo besó efusivamente, y lo llevó a su casa. Y él contó a Labán todas estas cosas."
-        },
-        {
           "number": 14,
-          "text": "Labán le dijo: ¡Ciertamente eres hueso mío y carne mía! Y habitó con él un mes.",
-          "headings": [
-            "Lea y Raquel"
-          ]
+          "text": "Labán le dijo: ¡Ciertamente eres hueso mío y carne mía! Y habitó con él un mes."
         },
         {
           "number": 15,
-          "text": "Entonces Labán dijo a Jacob: ¿Me vas a servir sin pago por ser mi pariente? Indícame cuál será tu salario."
+          "text": "Entonces Labán dijo a Jacob: ¿Me vas a servir sin pago por ser mi pariente? Indícame cuál será tu salario.",
+          "headings": [
+            "Lea y Raquel"
+          ]
         },
         {
           "number": 16,
@@ -3567,7 +3651,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Al ver Raquel que no daba hijos a Jacob, tuvo celos de su hermana y decía a Jacob: ¡Dame hijos o me muero!"
+          "text": "Al ver Raquel que no daba hijos a Jacob, tuvo celos de su hermana y decía a Jacob: ¡Dame hijos o me muero!",
+          "headings": [
+            "Prosperidad de Jacob"
+          ]
         },
         {
           "number": 2,
@@ -3744,7 +3831,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero Jacob escuchaba las palabras de los hijos de Labán, que decían: Jacob tomó todo lo que era de nuestro padre. Toda esta riqueza la adquirió con lo que era de nuestro padre."
+          "text": "Pero Jacob escuchaba las palabras de los hijos de Labán, que decían: Jacob tomó todo lo que era de nuestro padre. Toda esta riqueza la adquirió con lo que era de nuestro padre.",
+          "headings": [
+            "El regreso a Canaán"
+          ]
         },
         {
           "number": 2,
@@ -3969,7 +4059,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "También Jacob prosiguió su camino, y unos ángeles de ʼElohim salieron a su encuentro."
+          "text": "También Jacob prosiguió su camino, y unos ángeles de ʼElohim salieron a su encuentro.",
+          "headings": [
+            "Los dos campamentos"
+          ]
         },
         {
           "number": 2,
@@ -4057,14 +4150,14 @@
         },
         {
           "number": 23,
-          "text": "Los tomó, les ordenó pasar el arroyo y luego ordenó pasar todo lo que tenía.",
-          "headings": [
-            "La lucha con el Ángel"
-          ]
+          "text": "Los tomó, les ordenó pasar el arroyo y luego ordenó pasar todo lo que tenía."
         },
         {
           "number": 24,
-          "text": "Jacob se quedó solo, y un Varón luchó con él hasta rayar el alba."
+          "text": "Jacob se quedó solo, y un Varón luchó con él hasta rayar el alba.",
+          "headings": [
+            "La lucha con el Ángel"
+          ]
         },
         {
           "number": 25,
@@ -4105,7 +4198,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jacob levantó la mirada, y al ver que Esaú se acercaba con sus 400 hombres, repartió sus hijos entre Lea, Raquel y las dos esclavas."
+          "text": "Jacob levantó la mirada, y al ver que Esaú se acercaba con sus 400 hombres, repartió sus hijos entre Lea, Raquel y las dos esclavas.",
+          "headings": [
+            "Encuentro de Jacob y Esaú"
+          ]
         },
         {
           "number": 2,
@@ -4190,7 +4286,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Dina, la hija que Lea dio a luz a Jacob, salió a ver a las hijas de aquella tierra."
+          "text": "Entonces Dina, la hija que Lea dio a luz a Jacob, salió a ver a las hijas de aquella tierra.",
+          "headings": [
+            "Rapto de Dina"
+          ]
         },
         {
           "number": 2,
@@ -4234,14 +4333,14 @@
         },
         {
           "number": 12,
-          "text": "Aumenten mucha dote y regalos a mi cargo, que yo daré cuanto me digan, pero denme la muchacha para que sea mi esposa.",
-          "headings": [
-            "La venganza"
-          ]
+          "text": "Aumenten mucha dote y regalos a mi cargo, que yo daré cuanto me digan, pero denme la muchacha para que sea mi esposa."
         },
         {
           "number": 13,
-          "text": "Los hijos de Jacob respondieron con doblez a Siquem y a Hamor su padre, porque Siquem violó a su hermana Dina."
+          "text": "Los hijos de Jacob respondieron con doblez a Siquem y a Hamor su padre, porque Siquem violó a su hermana Dina.",
+          "headings": [
+            "La venganza"
+          ]
         },
         {
           "number": 14,
@@ -4322,7 +4421,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces ʼElohim dijo a Jacob: Levántate, sube a Bet-ʼEl y vive allí. Haz allí un altar al ʼEL que se te apareció cuando huías de tu hermano Esaú."
+          "text": "Entonces ʼElohim dijo a Jacob: Levántate, sube a Bet-ʼEl y vive allí. Haz allí un altar al ʼEL que se te apareció cuando huías de tu hermano Esaú.",
+          "headings": [
+            "Jacob en Bet-ʼEl"
+          ]
         },
         {
           "number": 2,
@@ -4386,14 +4488,14 @@
         },
         {
           "number": 17,
-          "text": "Aconteció que en la dificultad de su parto, la partera le dijo: No temas, que también tendrás este hijo.",
-          "headings": [
-            "Muerte de Raquel e Isaac"
-          ]
+          "text": "Aconteció que en la dificultad de su parto, la partera le dijo: No temas, que también tendrás este hijo."
         },
         {
           "number": 18,
-          "text": "Ocurrió que al salir su alma, pues murió, lo llamó Benoni, pero su padre lo llamó Benjamín."
+          "text": "Ocurrió que al salir su alma, pues murió, lo llamó Benoni, pero su padre lo llamó Benjamín.",
+          "headings": [
+            "Muerte de Raquel e Isaac"
+          ]
         },
         {
           "number": 19,
@@ -4446,7 +4548,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estos son los descendientes de Esaú, el cual es Edom."
+          "text": "Estos son los descendientes de Esaú, el cual es Edom.",
+          "headings": [
+            "Descendencia de Esaú"
+          ]
         },
         {
           "number": 2,
@@ -4623,7 +4728,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jacob habitó en la tierra de Canaán, la tierra de las peregrinaciones de su padre."
+          "text": "Jacob habitó en la tierra de Canaán, la tierra de las peregrinaciones de su padre.",
+          "headings": [
+            "José y sus hermanos"
+          ]
         },
         {
           "number": 2,
@@ -4663,14 +4771,14 @@
         },
         {
           "number": 11,
-          "text": "Sus hermanos le tenían envidia, pero su padre meditaba en esto.",
-          "headings": [
-            "José vendido por sus hermanos"
-          ]
+          "text": "Sus hermanos le tenían envidia, pero su padre meditaba en esto."
         },
         {
           "number": 12,
-          "text": "Cuando sus hermanos apacentaban el rebaño de su padre en Siquem,"
+          "text": "Cuando sus hermanos apacentaban el rebaño de su padre en Siquem,",
+          "headings": [
+            "José vendido por sus hermanos"
+          ]
         },
         {
           "number": 13,
@@ -4775,7 +4883,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció en aquel tiempo que Judá se apartó de sus hermanos para establecerse con un adulamita llamado Hira."
+          "text": "Aconteció en aquel tiempo que Judá se apartó de sus hermanos para establecerse con un adulamita llamado Hira.",
+          "headings": [
+            "Judá y Tamar"
+          ]
         },
         {
           "number": 2,
@@ -4900,7 +5011,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "José fue llevado a Egipto. Potifar, funcionario de Faraón, capitán de la guardia, varón egipcio, lo compró a los ismaelitas que lo llevaron allá."
+          "text": "José fue llevado a Egipto. Potifar, funcionario de Faraón, capitán de la guardia, varón egipcio, lo compró a los ismaelitas que lo llevaron allá.",
+          "headings": [
+            "José en Egipto"
+          ]
         },
         {
           "number": 2,
@@ -4997,7 +5111,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de estas cosas, sucedió que el copero y el panadero del rey de Egipto ofendieron a su ʼadón, el rey de Egipto."
+          "text": "Después de estas cosas, sucedió que el copero y el panadero del rey de Egipto ofendieron a su ʼadón, el rey de Egipto.",
+          "headings": [
+            "En la cárcel"
+          ]
         },
         {
           "number": 2,
@@ -5009,14 +5126,14 @@
         },
         {
           "number": 4,
-          "text": "El capitán de la guardia se los encargó a José, y éste les servía. Estuvieron bajo custodia durante algún tiempo.",
-          "headings": [
-            "Sueños del copero y del panadero de Faraón"
-          ]
+          "text": "El capitán de la guardia se los encargó a José, y éste les servía. Estuvieron bajo custodia durante algún tiempo."
         },
         {
           "number": 5,
-          "text": "El copero y el panadero del rey de Egipto, cuando estaban presos en la cárcel, ambos tuvieron un sueño en una misma noche, cada uno su sueño con su peculiar sentido."
+          "text": "El copero y el panadero del rey de Egipto, cuando estaban presos en la cárcel, ambos tuvieron un sueño en una misma noche, cada uno su sueño con su peculiar sentido.",
+          "headings": [
+            "Sueños del copero y del panadero de Faraón"
+          ]
         },
         {
           "number": 6,
@@ -5097,7 +5214,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció que después de dos años completos Faraón tuvo un sueño. Ciertamente él estaba en pie junto al Nilo,"
+          "text": "Aconteció que después de dos años completos Faraón tuvo un sueño. Ciertamente él estaba en pie junto al Nilo,",
+          "headings": [
+            "Los sueños de Faraón"
+          ]
         },
         {
           "number": 2,
@@ -5145,14 +5265,14 @@
         },
         {
           "number": 13,
-          "text": "Aconteció que tal como nos lo interpretó, así sucedió. Yo fui restablecido en mi puesto, pero el otro fue colgado.",
-          "headings": [
-            "José ante Faraón"
-          ]
+          "text": "Aconteció que tal como nos lo interpretó, así sucedió. Yo fui restablecido en mi puesto, pero el otro fue colgado."
         },
         {
           "number": 14,
-          "text": "Entonces Faraón mandó llamar a José. Lo sacaron apresuradamente de la cárcel, se afeitó, mudó sus ropas y acudió a Faraón."
+          "text": "Entonces Faraón mandó llamar a José. Lo sacaron apresuradamente de la cárcel, se afeitó, mudó sus ropas y acudió a Faraón.",
+          "headings": [
+            "José ante Faraón"
+          ]
         },
         {
           "number": 15,
@@ -5340,7 +5460,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jacob, al considerar que había grano en Egipto, dijo a sus hijos: ¿Por qué se miran unos a otros?"
+          "text": "Jacob, al considerar que había grano en Egipto, dijo a sus hijos: ¿Por qué se miran unos a otros?",
+          "headings": [
+            "El primer viaje de los hijos de Israel a Egipto"
+          ]
         },
         {
           "number": 2,
@@ -5497,7 +5620,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero la hambruna era severa en aquella tierra."
+          "text": "Pero la hambruna era severa en aquella tierra.",
+          "headings": [
+            "El segundo viaje de los hijos de Israel a Egipto"
+          ]
         },
         {
           "number": 2,
@@ -5638,7 +5764,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego él ordenó al administrador de su casa: Llena de comida los sacos de estos hombres, tanto como puedan llevar, y pon la plata de cada uno en la boca de su saco."
+          "text": "Luego él ordenó al administrador de su casa: Llena de comida los sacos de estos hombres, tanto como puedan llevar, y pon la plata de cada uno en la boca de su saco.",
+          "headings": [
+            "La copa de José"
+          ]
         },
         {
           "number": 2,
@@ -5779,7 +5908,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "José ya no podía contenerse ante todos los que estaban a su lado y exclamó: ¡Saquen de mi presencia a todos! Nadie quedó con él cuando José se dio a conocer a sus hermanos."
+          "text": "José ya no podía contenerse ante todos los que estaban a su lado y exclamó: ¡Saquen de mi presencia a todos! Nadie quedó con él cuando José se dio a conocer a sus hermanos.",
+          "headings": [
+            "José se da a conocer a sus hermanos"
+          ]
         },
         {
           "number": 2,
@@ -5896,7 +6028,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Israel salió con todo lo que tenía. Fue a Beerseba y ofreció sacrificios al ʼElohim de su padre Isaac."
+          "text": "Israel salió con todo lo que tenía. Fue a Beerseba y ofreció sacrificios al ʼElohim de su padre Isaac.",
+          "headings": [
+            "Israel en Egipto"
+          ]
         },
         {
           "number": 2,
@@ -6037,7 +6172,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "José informó a Faraón: Mi padre y mis hermanos, sus rebaños y manadas de ganado vacuno, con todo lo que tienen, llegaron de la tierra de Canaán, y aquí están en la tierra de Gosén."
+          "text": "José informó a Faraón: Mi padre y mis hermanos, sus rebaños y manadas de ganado vacuno, con todo lo que tienen, llegaron de la tierra de Canaán, y aquí están en la tierra de Gosén.",
+          "headings": [
+            "Los israelitas en Gosén"
+          ]
         },
         {
           "number": 2,
@@ -6085,14 +6223,14 @@
         },
         {
           "number": 13,
-          "text": "aunque no había alimento en todo el país. La hambruna era muy grave, y la tierra de Egipto y la de Canaán desfallecían a causa de la hambruna.",
-          "headings": [
-            "Últimos años de la hambruna"
-          ]
+          "text": "aunque no había alimento en todo el país. La hambruna era muy grave, y la tierra de Egipto y la de Canaán desfallecían a causa de la hambruna."
         },
         {
           "number": 14,
-          "text": "José recogió todo el dinero que se halló en la tierra de Egipto y en Canaán por el grano que le compraban, e ingresó el dinero en la casa de Faraón."
+          "text": "José recogió todo el dinero que se halló en la tierra de Egipto y en Canaán por el grano que le compraban, e ingresó el dinero en la casa de Faraón.",
+          "headings": [
+            "Últimos años de la hambruna"
+          ]
         },
         {
           "number": 15,
@@ -6169,7 +6307,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de estas cosas, se le informó a José: Mira, tu padre está enfermo. Entonces él tomó consigo a sus dos hijos, Manasés y Efraín."
+          "text": "Después de estas cosas, se le informó a José: Mira, tu padre está enfermo. Entonces él tomó consigo a sus dos hijos, Manasés y Efraín.",
+          "headings": [
+            "Bendición para Efraín y Manasés"
+          ]
         },
         {
           "number": 2,
@@ -6262,7 +6403,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jacob llamó a sus hijos y les dijo: Reúnanse y les declararé lo que les acontecerá en los días venideros."
+          "text": "Jacob llamó a sus hijos y les dijo: Reúnanse y les declararé lo que les acontecerá en los días venideros.",
+          "headings": [
+            "Profecía de Jacob para sus hijos"
+          ]
         },
         {
           "number": 2,
@@ -6370,14 +6514,14 @@
         },
         {
           "number": 28,
-          "text": "Todas estas son las 12 tribus de Israel, y esto es lo que les predijo su padre al bendecirlos a cada uno según la bendición que le correspondió.",
-          "headings": [
-            "Muerte de Jacob"
-          ]
+          "text": "Todas estas son las 12 tribus de Israel, y esto es lo que les predijo su padre al bendecirlos a cada uno según la bendición que le correspondió."
         },
         {
           "number": 29,
-          "text": "Luego les dio instrucciones y les dijo: Yo voy a ser reunido a mi pueblo. Sepúltenme con mis antepasados en la cueva que está en el campo de Efrón el heteo,"
+          "text": "Luego les dio instrucciones y les dijo: Yo voy a ser reunido a mi pueblo. Sepúltenme con mis antepasados en la cueva que está en el campo de Efrón el heteo,",
+          "headings": [
+            "Muerte de Jacob"
+          ]
         },
         {
           "number": 30,
@@ -6402,7 +6546,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces José se echó sobre el rostro de su padre, lloró sobre él y lo besó."
+          "text": "Entonces José se echó sobre el rostro de su padre, lloró sobre él y lo besó.",
+          "headings": [
+            "Exequias de Jacob"
+          ]
         },
         {
           "number": 2,
@@ -6450,14 +6597,14 @@
         },
         {
           "number": 13,
-          "text": "Lo llevaron a la tierra de Canaán y lo sepultaron en la cueva del campo de la Macpela, campo que Abraham compró a Efrón heteo, como propiedad para sepultura, en frente de Mamre.",
-          "headings": [
-            "Últimos días de José"
-          ]
+          "text": "Lo llevaron a la tierra de Canaán y lo sepultaron en la cueva del campo de la Macpela, campo que Abraham compró a Efrón heteo, como propiedad para sepultura, en frente de Mamre."
         },
         {
           "number": 14,
-          "text": "Después de sepultar a su padre, José regresó a Egipto juntamente con sus hermanos y todos los que subieron con él a sepultar a su padre."
+          "text": "Después de sepultar a su padre, José regresó a Egipto juntamente con sus hermanos y todos los que subieron con él a sepultar a su padre.",
+          "headings": [
+            "Últimos días de José"
+          ]
         },
         {
           "number": 15,
@@ -6493,14 +6640,14 @@
         },
         {
           "number": 23,
-          "text": "José vio a los hijos de Efraín hasta la tercera generación. También los hijos de Maquir, hijo de Manasés, nacieron sobre las rodillas de José.",
-          "headings": [
-            "Última voluntad de José"
-          ]
+          "text": "José vio a los hijos de Efraín hasta la tercera generación. También los hijos de Maquir, hijo de Manasés, nacieron sobre las rodillas de José."
         },
         {
           "number": 24,
-          "text": "Después José dijo a sus hermanos: Yo voy a morir, pero ʼElohim ciertamente los visitará y los hará subir de esta tierra a la tierra que juró dar a Abraham, a Isaac y a Jacob."
+          "text": "Después José dijo a sus hermanos: Yo voy a morir, pero ʼElohim ciertamente los visitará y los hará subir de esta tierra a la tierra que juró dar a Abraham, a Isaac y a Jacob.",
+          "headings": [
+            "Última voluntad de José"
+          ]
         },
         {
           "number": 25,

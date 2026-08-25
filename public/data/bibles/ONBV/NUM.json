@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El primer día del segundo mes del segundo año desde la salida de los israelitas de Egipto, el Señor dio las siguientes instrucciones a Moisés, que se encontraba en el santuario, en el desierto del Sinaí."
+          "text": "El primer día del segundo mes del segundo año desde la salida de los israelitas de Egipto, el Señor dio las siguientes instrucciones a Moisés, que se encontraba en el santuario, en el desierto del Sinaí.",
+          "headings": [
+            "Censo de las tribus de Israel"
+          ]
         },
         {
           "number": 2,
@@ -31,16 +34,16 @@
           "number": 20,
           "text": "La tabla resultante: Tribu Total Rubén (el hijo mayor de Jacob) 46.500 Simeón 59.300 Gad 45.650 Judá 74.600 Isacar 54.400 Zabulón 57.400 José: Efraín (hijo de José) 40.500 José: Manasés (hijo de José) 32.200 Benjamín 35.400 Dan 62.700 Aser 41.500 Neftalí 53.400 TOTAL 603.550",
           "verseDisplay": "20-46",
-          "endNumber": 46,
-          "headings": [
-            "Los levitas"
-          ]
+          "endNumber": 46
         },
         {
           "number": 47,
           "text": "Esa cifra no incluía a los levitas, pues el Señor le había dicho a Moisés: «Excluye a toda la tribu de Leví,",
           "verseDisplay": "47-49",
-          "endNumber": 49
+          "endNumber": 49,
+          "headings": [
+            "Los levitas"
+          ]
         },
         {
           "number": 50,
@@ -69,7 +72,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor dio también estas instrucciones a Moisés y Aarón:"
+          "text": "El Señor dio también estas instrucciones a Moisés y Aarón:",
+          "headings": [
+            "Ubicación de cada tribu"
+          ]
         },
         {
           "number": 2,
@@ -79,19 +85,19 @@
           "number": 3,
           "text": "La ubicación de las tribus: Tribu Jefe Situación Censo Judá Naasón (hijo de Aminadab) Al este del santuario 74.600 Isacar Natanael (hijo de Zuar) Junto a Judá 54.400 Zabulón Eliab (hijo de Helón) Junto a Isacar 57.400 El total de los que estaban en el campamento junto a Judá era de ciento ochenta y seis mil cuatrocientos. Estas tribus abrían la marcha siempre que los israelitas tenían que trasladar el campamento. Tribu Jefe Situación Censo Rubén Elisur (hijo de Sedeúr) Al sur del santuario 46.500 Simeón Selumiel (hijo de Zurisaday) Junto a Rubén 59.300 Gad Eliasaf (hijo de Reuel [o Deuel]) Junto a Simeón 45.650 Así que el total de los que estaban en el campamento junto a Rubén era de ciento cincuenta y un mil cuatrocientos cincuenta. Estas tres tribus eran las segundas en marchar cuando los israelitas viajaban. Luego seguía el santuario con los levitas. Durante los viajes, cada tribu se mantenía en torno a su bandera, conservando el lugar, el orden y la distancia que había entre cada una cuando acampaban. Tribu Jefe Situación Censo Efraín Elisama (hijo de Amiud) Al oeste del santuario 40.500 Manasés Gamaliel (hijo de Pedasur) Junto a Efraín 32.200 Benjamín Abidán (hijo de Gedeoni) Junto a Manasés 35.400 El total de los que estaban en el campamento junto a Efraín era de ciento ocho mil cien, y eran los terceros en marchar. Tribu Jefe Situación Censo Dan Ajiezer (hijo de Amisaday) Al norte del santuario 62.700 Aser Paguiel (hijo de Ocrán) Junto a Dan 41.500 Neftalí Ajira (hijo de Enán) Junto a Aser 53.400 El total de los que estaban en el campamento junto a Dan era de ciento cincuenta y siete mil seiscientos. Estos cerraban la marcha cuando Israel se trasladaba.",
           "verseDisplay": "3-31",
-          "endNumber": 31,
+          "endNumber": 31
+        },
+        {
+          "number": 32,
+          "text": "En resumen, los ejércitos de Israel sumaban seiscientos tres mil quinientos cincuenta (sin incluir a los levitas, que quedaban exentos por el mandamiento que el Señor le había dado a Moisés).",
+          "verseDisplay": "32-33",
+          "endNumber": 33,
           "headings": [
             "Campamento del este",
             "Campamento del sur",
             "Campamento del oeste",
             "Campamento del norte"
           ]
-        },
-        {
-          "number": 32,
-          "text": "En resumen, los ejércitos de Israel sumaban seiscientos tres mil quinientos cincuenta (sin incluir a los levitas, que quedaban exentos por el mandamiento que el Señor le había dado a Moisés).",
-          "verseDisplay": "32-33",
-          "endNumber": 33
         },
         {
           "number": 34,
@@ -104,7 +110,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En la época en que el Señor habló a Moisés en el monte Sinaí,"
+          "text": "En la época en que el Señor habló a Moisés en el monte Sinaí,",
+          "headings": [
+            "La tribu de Leví"
+          ]
         },
         {
           "number": 2,
@@ -116,14 +125,14 @@
         },
         {
           "number": 4,
-          "text": "Pero Nadab y Abiú murieron delante del Señor en el desierto del Sinaí, porque utilizaron un fuego diferente al que Dios les había indicado. Y como no tenían hijos, sólo quedaron Eleazar e Itamar para ayudar a su padre Aarón.",
-          "headings": [
-            "Ministerio de los levitas"
-          ]
+          "text": "Pero Nadab y Abiú murieron delante del Señor en el desierto del Sinaí, porque utilizaron un fuego diferente al que Dios les había indicado. Y como no tenían hijos, sólo quedaron Eleazar e Itamar para ayudar a su padre Aarón."
         },
         {
           "number": 5,
-          "text": "Entonces el Señor le dijo a Moisés:"
+          "text": "Entonces el Señor le dijo a Moisés:",
+          "headings": [
+            "Ministerio de los levitas"
+          ]
         },
         {
           "number": 6,
@@ -137,14 +146,14 @@
         },
         {
           "number": 10,
-          "text": "Pero sólo Aarón y sus hijos están autorizados para desempeñar este cargo; cualquiera otro que se atreva a hacerlo morirá».",
-          "headings": [
-            "Elección de los levitas"
-          ]
+          "text": "Pero sólo Aarón y sus hijos están autorizados para desempeñar este cargo; cualquiera otro que se atreva a hacerlo morirá»."
         },
         {
           "number": 11,
-          "text": "Además el Señor le dijo a Moisés:"
+          "text": "Además el Señor le dijo a Moisés:",
+          "headings": [
+            "Elección de los levitas"
+          ]
         },
         {
           "number": 12,
@@ -152,14 +161,14 @@
         },
         {
           "number": 13,
-          "text": "a cambio de todos los primogénitos. Desde el día en que maté a todos los primogénitos de los egipcios, me he reservado para mí a todos los primogénitos de Israel, tanto de hombres como de animales. Son míos: Yo soy el Señor ».",
-          "headings": [
-            "Censo de la tribu de Leví"
-          ]
+          "text": "a cambio de todos los primogénitos. Desde el día en que maté a todos los primogénitos de los egipcios, me he reservado para mí a todos los primogénitos de Israel, tanto de hombres como de animales. Son míos: Yo soy el Señor »."
         },
         {
           "number": 14,
-          "text": "El Señor le habló de nuevo a Moisés en el desierto del Sinaí, diciéndole:"
+          "text": "El Señor le habló de nuevo a Moisés en el desierto del Sinaí, diciéndole:",
+          "headings": [
+            "Censo de la tribu de Leví"
+          ]
         },
         {
           "number": 15,
@@ -169,11 +178,7 @@
           "number": 16,
           "text": "Y Moisés lo hizo. Estos fueron los resultados: Hijo de Leví Nietos de Leví (Nombres del clan) Censo Jefe Situación Guersón Libn, Simí 7.500 Eliasaf (hijo de Lael) Al oeste del santuario La responsabilidad de estos dos clanes de levitas consistía en cuidar el santuario: sus cubiertas, sus cortinajes de entrada, la cortina que cubría la valla que rodeaba el patio, la cortina de la entrada al patio del santuario, el altar y todas las cuerdas que se usaban para armar el santuario. Coat Amirá, Iza, Hebró, Uziel 8.600 Elizafán (hijo de Uziel) Al sur del santuario",
           "verseDisplay": "16-24",
-          "endNumber": 24,
-          "headings": [
-            "Responsabilidades",
-            "Responsabilidades"
-          ]
+          "endNumber": 24
         },
         {
           "number": 25,
@@ -182,23 +187,27 @@
           "endNumber": 37,
           "headings": [
             "Responsabilidades",
-            "La tribu de Leví"
+            "Responsabilidades"
           ]
         },
         {
           "number": 38,
-          "text": "La zona este del santuario estaba reservada para las tiendas de Moisés y de Aarón y sus hijos, quienes tenían la responsabilidad máxima sobre el santuario, en representación del pueblo de Israel. (Si alguien que no fuera sacerdote ni levita entraba en el santuario, debía ser ejecutado)."
-        },
-        {
-          "number": 39,
-          "text": "Así que los levitas, contados por Moisés y Aarón por mandamiento del Señor , sumaban veintidós mil varones de más de un mes de edad.",
+          "text": "La zona este del santuario estaba reservada para las tiendas de Moisés y de Aarón y sus hijos, quienes tenían la responsabilidad máxima sobre el santuario, en representación del pueblo de Israel. (Si alguien que no fuera sacerdote ni levita entraba en el santuario, debía ser ejecutado).",
           "headings": [
-            "Los levitas y los primogénitos"
+            "Responsabilidades",
+            "La tribu de Leví"
           ]
         },
         {
+          "number": 39,
+          "text": "Así que los levitas, contados por Moisés y Aarón por mandamiento del Señor , sumaban veintidós mil varones de más de un mes de edad."
+        },
+        {
           "number": 40,
-          "text": "Entonces el Señor le dijo a Moisés: «Ahora haz un censo de todos los primogénitos de Israel de más de un mes de nacidos; e inscríbelos por sus nombres."
+          "text": "Entonces el Señor le dijo a Moisés: «Ahora haz un censo de todos los primogénitos de Israel de más de un mes de nacidos; e inscríbelos por sus nombres.",
+          "headings": [
+            "Los levitas y los primogénitos"
+          ]
         },
         {
           "number": 41,
@@ -249,7 +258,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces el Señor les dijo a Moisés y a Aarón:"
+          "text": "Entonces el Señor les dijo a Moisés y a Aarón:",
+          "headings": [
+            "Ministerio de los coatitas"
+          ]
         },
         {
           "number": 2,
@@ -325,14 +337,14 @@
         },
         {
           "number": 20,
-          "text": "Aparte de esto, nunca deben entrar en el santuario ni por un momento, porque si se atreven a mirar los objetos sagrados, morirán».",
-          "headings": [
-            "Ministerio de los guersonitas"
-          ]
+          "text": "Aparte de esto, nunca deben entrar en el santuario ni por un momento, porque si se atreven a mirar los objetos sagrados, morirán»."
         },
         {
           "number": 21,
-          "text": "Y el Señor le dijo a Moisés:"
+          "text": "Y el Señor le dijo a Moisés:",
+          "headings": [
+            "Ministerio de los guersonitas"
+          ]
         },
         {
           "number": 22,
@@ -360,14 +372,14 @@
         },
         {
           "number": 28,
-          "text": "pero estos serán directamente responsables ante Itamar, el hijo de Aarón.",
-          "headings": [
-            "Ministerio de los meraritas"
-          ]
+          "text": "pero estos serán directamente responsables ante Itamar, el hijo de Aarón."
         },
         {
           "number": 29,
-          "text": "»Luego haz el censo del clan de Merari de la tribu de Leví,"
+          "text": "»Luego haz el censo del clan de Merari de la tribu de Leví,",
+          "headings": [
+            "Ministerio de los meraritas"
+          ]
         },
         {
           "number": 30,
@@ -383,14 +395,14 @@
         },
         {
           "number": 33,
-          "text": "El clan de Merari también será responsable ante Itamar, el hijo de Aarón».",
-          "headings": [
-            "Censo del clan de Coat"
-          ]
+          "text": "El clan de Merari también será responsable ante Itamar, el hijo de Aarón»."
         },
         {
           "number": 34,
-          "text": "Así pues, Moisés, Aarón y los demás jefes hicieron el censo del clan de Coat,"
+          "text": "Así pues, Moisés, Aarón y los demás jefes hicieron el censo del clan de Coat,",
+          "headings": [
+            "Censo del clan de Coat"
+          ]
         },
         {
           "number": 35,
@@ -402,31 +414,31 @@
         },
         {
           "number": 37,
-          "text": "Todo esto lo hicieron en cumplimiento de las instrucciones que el Señor le dio a Moisés.",
-          "headings": [
-            "Censo del clan de Guersón"
-          ]
+          "text": "Todo esto lo hicieron en cumplimiento de las instrucciones que el Señor le dio a Moisés."
         },
         {
           "number": 38,
           "text": "El censo similar del clan de Guersón dio una cifra de dos mil seiscientos treinta.",
           "verseDisplay": "38-41",
-          "endNumber": 41
+          "endNumber": 41,
+          "headings": [
+            "Censo del clan de Guersón"
+          ]
         },
         {
           "number": 42,
           "text": "Y el del clan de Merari, tres mil doscientos.",
           "verseDisplay": "42-45",
-          "endNumber": 45,
-          "headings": [
-            "Conclusión"
-          ]
+          "endNumber": 45
         },
         {
           "number": 46,
           "text": "Así que Moisés, Aarón y los demás dirigentes de Israel vieron que el total de los levitas entre treinta y cincuenta años, aptos para el servicio en el santuario, y para su transporte, era de ocho mil quinientos ochenta.",
           "verseDisplay": "46-48",
-          "endNumber": 48
+          "endNumber": 48,
+          "headings": [
+            "Conclusión"
+          ]
         },
         {
           "number": 49,
@@ -439,7 +451,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Otras instrucciones que el Señor dio a Moisés:"
+          "text": "Otras instrucciones que el Señor dio a Moisés:",
+          "headings": [
+            "Purificación del campamento"
+          ]
         },
         {
           "number": 2,
@@ -451,14 +466,14 @@
         },
         {
           "number": 4,
-          "text": "Estas instrucciones se llevaron a cabo.",
-          "headings": [
-            "Confesión y restitución por daños"
-          ]
+          "text": "Estas instrucciones se llevaron a cabo."
         },
         {
           "number": 5,
-          "text": "Entonces el Señor le dijo a Moisés:"
+          "text": "Entonces el Señor le dijo a Moisés:",
+          "headings": [
+            "Confesión y restitución por daños"
+          ]
         },
         {
           "number": 6,
@@ -476,14 +491,14 @@
           "number": 9,
           "text": "Cuando el pueblo de Israel lleve una ofrenda al Señor , la ofrenda quedará como posesión de los sacerdotes».",
           "verseDisplay": "9-10",
-          "endNumber": 10,
-          "headings": [
-            "Ley sobre los celos"
-          ]
+          "endNumber": 10
         },
         {
           "number": 11,
-          "text": "Y el Señor le dijo a Moisés:"
+          "text": "Y el Señor le dijo a Moisés:",
+          "headings": [
+            "Ley sobre los celos"
+          ]
         },
         {
           "number": 12,
@@ -570,7 +585,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor también le dio a Moisés estas instrucciones para el pueblo de Israel:"
+          "text": "El Señor también le dio a Moisés estas instrucciones para el pueblo de Israel:",
+          "headings": [
+            "Los nazareos"
+          ]
         },
         {
           "number": 2,
@@ -648,14 +666,14 @@
         },
         {
           "number": 21,
-          "text": "»Ese es el reglamento para el nazareato y para sus sacrificios al terminar el período de la dedicación especial. Además de estos sacrificios debe también traer la ofrenda que prometió cuando hizo el voto de hacerse nazareo».",
-          "headings": [
-            "Bendición sacerdotal"
-          ]
+          "text": "»Ese es el reglamento para el nazareato y para sus sacrificios al terminar el período de la dedicación especial. Además de estos sacrificios debe también traer la ofrenda que prometió cuando hizo el voto de hacerse nazareo»."
         },
         {
           "number": 22,
-          "text": "Luego el Señor le dijo a Moisés:"
+          "text": "Luego el Señor le dijo a Moisés:",
+          "headings": [
+            "Bendición sacerdotal"
+          ]
         },
         {
           "number": 23,
@@ -678,7 +696,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Moisés ungió y santificó el santuario, incluyendo el altar y los utensilios, el mismo día en que se terminó su montaje."
+          "text": "Moisés ungió y santificó el santuario, incluyendo el altar y los utensilios, el mismo día en que se terminó su montaje.",
+          "headings": [
+            "Ofrendas para la consagración del santuario"
+          ]
         },
         {
           "number": 2,
@@ -708,25 +729,25 @@
         },
         {
           "number": 9,
-          "text": "Al grupo de Coat no se le dio ningún carro ni ninguna yunta, ya que se les había requerido que transportaran en hombros la parte que les correspondía del santuario.",
+          "text": "Al grupo de Coat no se le dio ningún carro ni ninguna yunta, ya que se les había requerido que transportaran en hombros la parte que les correspondía del santuario."
+        },
+        {
+          "number": 10,
+          "text": "Los jefes presentaron también unas ofrendas de dedicación el día en que el altar fue ungido, colocándolas sobre el altar.",
           "headings": [
             "Ofrendas para la dedicación del altar"
           ]
         },
         {
-          "number": 10,
-          "text": "Los jefes presentaron también unas ofrendas de dedicación el día en que el altar fue ungido, colocándolas sobre el altar."
-        },
-        {
           "number": 11,
-          "text": "El Señor le dijo a Moisés: «Que cada uno traiga, en días diferentes, su ofrenda para la dedicación del altar».",
-          "headings": [
-            "La ofrenda de Judá"
-          ]
+          "text": "El Señor le dijo a Moisés: «Que cada uno traiga, en días diferentes, su ofrenda para la dedicación del altar»."
         },
         {
           "number": 12,
-          "text": "Naasón, hijo de Aminadab, de la tribu de Judá, fue el primero en presentar su ofrenda."
+          "text": "Naasón, hijo de Aminadab, de la tribu de Judá, fue el primero en presentar su ofrenda.",
+          "headings": [
+            "La ofrenda de Judá"
+          ]
         },
         {
           "number": 13,
@@ -746,10 +767,7 @@
         },
         {
           "number": 17,
-          "text": "y dos bueyes, cinco carneros, cinco chivos y cinco corderillos de un año para la ofrenda de paz.",
-          "headings": [
-            "La ofrenda de Isacar"
-          ]
+          "text": "y dos bueyes, cinco carneros, cinco chivos y cinco corderillos de un año para la ofrenda de paz."
         },
         {
           "number": 18,
@@ -757,7 +775,7 @@
           "verseDisplay": "18-23",
           "endNumber": 23,
           "headings": [
-            "La ofrenda de Zabulón"
+            "La ofrenda de Isacar"
           ],
           "footnotes": [
             {
@@ -773,7 +791,7 @@
           "verseDisplay": "24-29",
           "endNumber": 29,
           "headings": [
-            "La ofrenda de Rubén"
+            "La ofrenda de Zabulón"
           ]
         },
         {
@@ -782,7 +800,7 @@
           "verseDisplay": "30-35",
           "endNumber": 35,
           "headings": [
-            "La ofrenda de Simeón"
+            "La ofrenda de Rubén"
           ]
         },
         {
@@ -791,7 +809,7 @@
           "verseDisplay": "36-41",
           "endNumber": 41,
           "headings": [
-            "La ofrenda de Gad"
+            "La ofrenda de Simeón"
           ]
         },
         {
@@ -800,7 +818,7 @@
           "verseDisplay": "42-47",
           "endNumber": 47,
           "headings": [
-            "La ofrenda de Efraín"
+            "La ofrenda de Gad"
           ]
         },
         {
@@ -809,7 +827,7 @@
           "verseDisplay": "48-53",
           "endNumber": 53,
           "headings": [
-            "La ofrenda de Manasés"
+            "La ofrenda de Efraín"
           ]
         },
         {
@@ -818,7 +836,7 @@
           "verseDisplay": "54-59",
           "endNumber": 59,
           "headings": [
-            "La ofrenda de Bejamín"
+            "La ofrenda de Manasés"
           ]
         },
         {
@@ -827,7 +845,7 @@
           "verseDisplay": "60-65",
           "endNumber": 65,
           "headings": [
-            "La ofrenda de Dan"
+            "La ofrenda de Bejamín"
           ]
         },
         {
@@ -836,7 +854,7 @@
           "verseDisplay": "66-71",
           "endNumber": 71,
           "headings": [
-            "La ofrenda de Aser"
+            "La ofrenda de Dan"
           ]
         },
         {
@@ -845,7 +863,7 @@
           "verseDisplay": "72-77",
           "endNumber": 77,
           "headings": [
-            "La ofrenda de Neftalí"
+            "La ofrenda de Aser"
           ]
         },
         {
@@ -854,14 +872,17 @@
           "verseDisplay": "78-83",
           "endNumber": 83,
           "headings": [
-            "Conclusión"
+            "La ofrenda de Neftalí"
           ]
         },
         {
           "number": 84,
           "text": "Así pues, a partir del día en que se ungió el altar, este fue dedicado con las ofrendas de los jefes de las tribus de Israel. Las ofrendas sumadas fueron: 12 bandejas de plata (de más de un kilo y medio cada una); 12 tazones de plata (de más de ochocientos gramos cada uno, de modo que el peso total de la plata era casi veintinueve kilos); 12 cajitas de oro (cada una de ellas de ciento veinte gramos; de modo que el peso total del oro casi llegaba al kilo y medio).",
           "verseDisplay": "84-86",
-          "endNumber": 86
+          "endNumber": 86,
+          "headings": [
+            "Conclusión"
+          ]
         },
         {
           "number": 87,
@@ -869,14 +890,14 @@
         },
         {
           "number": 88,
-          "text": "Para las ofrendas de paz presentaron: 24 novillos, 60 carneros, 60 chivos, 60 corderos de un año.",
-          "headings": [
-            "Dios se revela en medio del pueblo"
-          ]
+          "text": "Para las ofrendas de paz presentaron: 24 novillos, 60 carneros, 60 chivos, 60 corderos de un año."
         },
         {
           "number": 89,
-          "text": "Cuando Moisés entraba en el santuario para hablar con Dios, oía la voz que le hablaba desde encima del propiciatorio que estaba sobre el cofre, entre los dos querubines."
+          "text": "Cuando Moisés entraba en el santuario para hablar con Dios, oía la voz que le hablaba desde encima del propiciatorio que estaba sobre el cofre, entre los dos querubines.",
+          "headings": [
+            "Dios se revela en medio del pueblo"
+          ]
         }
       ]
     },
@@ -885,7 +906,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le dijo a Moisés:"
+          "text": "El Señor le dijo a Moisés:",
+          "headings": [
+            "Las lámparas del candelabro"
+          ]
         },
         {
           "number": 2,
@@ -897,14 +921,14 @@
         },
         {
           "number": 4,
-          "text": "El candelabro, incluyendo los adornos florales de la base y las ramas, estaba todo hecho de oro labrado a martillo. Su construcción correspondía al modelo exacto que el Señor le había mostrado a Moisés.",
-          "headings": [
-            "Consagración de los levitas"
-          ]
+          "text": "El candelabro, incluyendo los adornos florales de la base y las ramas, estaba todo hecho de oro labrado a martillo. Su construcción correspondía al modelo exacto que el Señor le había mostrado a Moisés."
         },
         {
           "number": 5,
-          "text": "Entonces el Señor le dijo a Moisés:"
+          "text": "Entonces el Señor le dijo a Moisés:",
+          "headings": [
+            "Consagración de los levitas"
+          ]
         },
         {
           "number": 6,
@@ -997,7 +1021,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le dio estas instrucciones a Moisés cuando él y el resto de Israel estaban en la península de Sinaí, durante el primer mes del segundo año tras su salida de Egipto:"
+          "text": "El Señor le dio estas instrucciones a Moisés cuando él y el resto de Israel estaban en la península de Sinaí, durante el primer mes del segundo año tras su salida de Egipto:",
+          "headings": [
+            "La fecha de la Pascua"
+          ]
         },
         {
           "number": 2,
@@ -1047,14 +1074,14 @@
         },
         {
           "number": 14,
-          "text": "Y si un extranjero vive con ustedes y quiere celebrar la Pascua al Señor , seguirá las mismas instrucciones. Todos tienen la misma ley».",
-          "headings": [
-            "La nube cubre el santuario"
-          ]
+          "text": "Y si un extranjero vive con ustedes y quiere celebrar la Pascua al Señor , seguirá las mismas instrucciones. Todos tienen la misma ley»."
         },
         {
           "number": 15,
-          "text": "El día en que se erigió el santuario, la nube lo cubrió; y por la noche la nube se transformó en fuego y se mantuvo así durante toda la noche."
+          "text": "El día en que se erigió el santuario, la nube lo cubrió; y por la noche la nube se transformó en fuego y se mantuvo así durante toda la noche.",
+          "headings": [
+            "La nube cubre el santuario"
+          ]
         },
         {
           "number": 16,
@@ -1093,7 +1120,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego el Señor le dijo a Moisés:"
+          "text": "Luego el Señor le dijo a Moisés:",
+          "headings": [
+            "La señal de las trompetas"
+          ]
         },
         {
           "number": 2,
@@ -1123,14 +1153,14 @@
         },
         {
           "number": 10,
-          "text": "Usen las trompetas en tiempo de alegría también, haciéndolas sonar en las fiestas anuales y al comienzo de cada mes, para alegrarse en las ofrendas totalmente ofrecidas a Dios y en las ofrendas de paz. Y yo me acordaré de ustedes. Pues yo soy el Señor , su Dios».",
-          "headings": [
-            "Desde el Sinaí hasta Parán"
-          ]
+          "text": "Usen las trompetas en tiempo de alegría también, haciéndolas sonar en las fiestas anuales y al comienzo de cada mes, para alegrarse en las ofrendas totalmente ofrecidas a Dios y en las ofrendas de paz. Y yo me acordaré de ustedes. Pues yo soy el Señor , su Dios»."
         },
         {
           "number": 11,
-          "text": "La nube se levantó del santuario el día veinte del segundo mes del segundo año después de la salida de Israel de Egipto"
+          "text": "La nube se levantó del santuario el día veinte del segundo mes del segundo año después de la salida de Israel de Egipto",
+          "headings": [
+            "Desde el Sinaí hasta Parán"
+          ]
         },
         {
           "number": 12,
@@ -1198,14 +1228,14 @@
         },
         {
           "number": 28,
-          "text": "Este era el orden en que marchaban las tribus.",
-          "headings": [
-            "Moisés invita a Hobab"
-          ]
+          "text": "Este era el orden en que marchaban las tribus."
         },
         {
           "number": 29,
-          "text": "Un día Moisés le dijo a su cuñado Hobab, hijo de Reuel, el madianita: ―Por fin estamos camino a la Tierra prometida. Ven con nosotros y te favoreceremos, pues el Señor ha hecho maravillosas promesas a Israel."
+          "text": "Un día Moisés le dijo a su cuñado Hobab, hijo de Reuel, el madianita: ―Por fin estamos camino a la Tierra prometida. Ven con nosotros y te favoreceremos, pues el Señor ha hecho maravillosas promesas a Israel.",
+          "headings": [
+            "Moisés invita a Hobab"
+          ]
         },
         {
           "number": 30,
@@ -1217,14 +1247,14 @@
         },
         {
           "number": 32,
-          "text": "Si vienes, tendrás una parte de los bienes que Dios nos dará.",
-          "headings": [
-            "Israel se pone en marcha"
-          ]
+          "text": "Si vienes, tendrás una parte de los bienes que Dios nos dará."
         },
         {
           "number": 33,
-          "text": "Tras dejar el monte Sinaí, viajaron tres días con el cofre al frente de la columna, para elegir lugar donde detenerse."
+          "text": "Tras dejar el monte Sinaí, viajaron tres días con el cofre al frente de la columna, para elegir lugar donde detenerse.",
+          "headings": [
+            "Israel se pone en marcha"
+          ]
         },
         {
           "number": 34,
@@ -1245,7 +1275,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El pueblo empezó pronto a quejarse, y el Señor lo oyó. Su furor se encendió contra ellos a causa de sus quejas, y el fuego del Señor empezó por destruir a los que se encontraban en uno de los extremos del campamento."
+          "text": "El pueblo empezó pronto a quejarse, y el Señor lo oyó. Su furor se encendió contra ellos a causa de sus quejas, y el fuego del Señor empezó por destruir a los que se encontraban en uno de los extremos del campamento.",
+          "headings": [
+            "Fuego del Señor en Taberá"
+          ]
         },
         {
           "number": 2,
@@ -1253,16 +1286,16 @@
         },
         {
           "number": 3,
-          "text": "Desde entonces aquel lugar se conoció con el nombre de Taberá (Incendio), porque el fuego del Señor ardió allí.",
-          "headings": [
-            "El pueblo añora las cosas de Egipto"
-          ]
+          "text": "Desde entonces aquel lugar se conoció con el nombre de Taberá (Incendio), porque el fuego del Señor ardió allí."
         },
         {
           "number": 4,
           "text": "El populacho que iban con ellos empezó a añorar las cosas buenas de Egipto. A esto se sumó el resto de los israelitas que, descontentos, empezaron a llorar diciendo: «¡Quién nos diera carne! ¡Ah, si tuviéramos un poco del delicioso pescado que comíamos gratis en Egipto, y pepinos, melones, puerros, cebollas y ajos!",
           "verseDisplay": "4-5",
-          "endNumber": 5
+          "endNumber": 5,
+          "headings": [
+            "El pueblo añora las cosas de Egipto"
+          ]
         },
         {
           "number": 6,
@@ -1278,14 +1311,14 @@
         },
         {
           "number": 9,
-          "text": "El maná caía con el rocío de la noche.",
-          "headings": [
-            "Moisés se queja ante Dios"
-          ]
+          "text": "El maná caía con el rocío de la noche."
         },
         {
           "number": 10,
-          "text": "Moisés oyó que las familias lloraban de pie delante de sus tiendas, y el furor del Señor se encendió. También Moisés se disgustó mucho, y"
+          "text": "Moisés oyó que las familias lloraban de pie delante de sus tiendas, y el furor del Señor se encendió. También Moisés se disgustó mucho, y",
+          "headings": [
+            "Moisés se queja ante Dios"
+          ]
         },
         {
           "number": 11,
@@ -1305,14 +1338,14 @@
         },
         {
           "number": 15,
-          "text": "Si me vas a tratar así, mándame la muerte; me harías un favor. ¡Déjame salir de esta situación insoportable!».",
-          "headings": [
-            "Dios responde a Moisés"
-          ]
+          "text": "Si me vas a tratar así, mándame la muerte; me harías un favor. ¡Déjame salir de esta situación insoportable!»."
         },
         {
           "number": 16,
-          "text": "Entonces el Señor le dijo a Moisés: ―Convócame a setenta dirigentes de Israel y reúnelos en el santuario para que se presenten contigo."
+          "text": "Entonces el Señor le dijo a Moisés: ―Convócame a setenta dirigentes de Israel y reúnelos en el santuario para que se presenten contigo.",
+          "headings": [
+            "Dios responde a Moisés"
+          ]
         },
         {
           "number": 17,
@@ -1397,7 +1430,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día Miriam y Aarón se pusieron a criticar a Moisés porque su mujer era una cusita,"
+          "text": "Un día Miriam y Aarón se pusieron a criticar a Moisés porque su mujer era una cusita,",
+          "headings": [
+            "Miriam y Aarón critican a Moisés"
+          ]
         },
         {
           "number": 2,
@@ -1464,7 +1500,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día el Señor le ordenó a Moisés:"
+          "text": "Un día el Señor le ordenó a Moisés:",
+          "headings": [
+            "Los israelitas exploran Canaán"
+          ]
         },
         {
           "number": 2,
@@ -1510,14 +1549,14 @@
         },
         {
           "number": 24,
-          "text": "Los israelitas llamaron al valle Escol (Racimo) por el racimo que allí encontraron.",
-          "headings": [
-            "Informe de los espías"
-          ]
+          "text": "Los israelitas llamaron al valle Escol (Racimo) por el racimo que allí encontraron."
         },
         {
           "number": 25,
-          "text": "Cuarenta días después regresaron de su expedición."
+          "text": "Cuarenta días después regresaron de su expedición.",
+          "headings": [
+            "Informe de los espías"
+          ]
         },
         {
           "number": 26,
@@ -1558,7 +1597,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces el pueblo comenzó a llorar en alta voz y se pasaron la noche llorando."
+          "text": "Entonces el pueblo comenzó a llorar en alta voz y se pasaron la noche llorando.",
+          "headings": [
+            "El pueblo se rebela"
+          ]
         },
         {
           "number": 2,
@@ -1700,14 +1742,14 @@
           "number": 36,
           "text": "Los diez espías que habían incitado la rebelión contra el Señor y habían llenado de temor los corazones del pueblo fueron los primeros en morir delante del Señor . Josué y Caleb fueron los únicos que quedaron con vida.",
           "verseDisplay": "36-38",
-          "endNumber": 38,
-          "headings": [
-            "El pueblo intenta conquistar la tierra"
-          ]
+          "endNumber": 38
         },
         {
           "number": 39,
-          "text": "Y hubo llanto en el campamento cuando Moisés les informó lo que el Señor le había dicho."
+          "text": "Y hubo llanto en el campamento cuando Moisés les informó lo que el Señor le había dicho.",
+          "headings": [
+            "El pueblo intenta conquistar la tierra"
+          ]
         },
         {
           "number": 40,
@@ -1740,7 +1782,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor habló con Moisés y le dio las siguientes órdenes para el pueblo de Israel:"
+          "text": "El Señor habló con Moisés y le dio las siguientes órdenes para el pueblo de Israel:",
+          "headings": [
+            "Leyes adicionales sobre las ofrendas"
+          ]
         },
         {
           "number": 2,
@@ -1792,14 +1837,14 @@
           "number": 15,
           "text": "Esta misma ley rige para todos, israelitas o extranjeros, y tendrá vigencia de generación en generación para siempre. Todos son iguales delante del Señor . La misma ley regirá para todos».",
           "verseDisplay": "15-16",
-          "endNumber": 16,
-          "headings": [
-            "Ofrenda de las primicias"
-          ]
+          "endNumber": 16
         },
         {
           "number": 17,
-          "text": "El Señor también dijo a Moisés en este tiempo:"
+          "text": "El Señor también dijo a Moisés en este tiempo:",
+          "headings": [
+            "Ofrenda de las primicias"
+          ]
         },
         {
           "number": 18,
@@ -1809,16 +1854,16 @@
           "number": 19,
           "text": "deben ofrecer al Señor las primicias de la nueva cosecha presentándole un pan de harina gruesa cada año. Este pan será ofrecido al Señor , anualmente, de generación en generación.",
           "verseDisplay": "19-21",
-          "endNumber": 21,
-          "headings": [
-            "Ofrendas por pecados inadvertidos"
-          ]
+          "endNumber": 21
         },
         {
           "number": 22,
           "text": "»Si por error tú o las generaciones futuras no cumplen con todas las reglas que el Señor les ha dado a través de los años por medio de Moisés,",
           "verseDisplay": "22-23",
-          "endNumber": 23
+          "endNumber": 23,
+          "headings": [
+            "Ofrendas por pecados inadvertidos"
+          ]
         },
         {
           "number": 24,
@@ -1850,14 +1895,14 @@
         },
         {
           "number": 31,
-          "text": "Ha despreciado el mandamiento del Señor y deliberadamente ha dejado de obedecer su ley. Deberá ser ejecutado a causa de su pecado».",
-          "headings": [
-            "Quebrantamiento del día de reposo"
-          ]
+          "text": "Ha despreciado el mandamiento del Señor y deliberadamente ha dejado de obedecer su ley. Deberá ser ejecutado a causa de su pecado»."
         },
         {
           "number": 32,
-          "text": "Un día, estando el pueblo de Israel en el desierto, uno de ellos fue sorprendido recogiendo leña en el día de reposo."
+          "text": "Un día, estando el pueblo de Israel en el desierto, uno de ellos fue sorprendido recogiendo leña en el día de reposo.",
+          "headings": [
+            "Quebrantamiento del día de reposo"
+          ]
         },
         {
           "number": 33,
@@ -1873,14 +1918,14 @@
         },
         {
           "number": 36,
-          "text": "Entonces lo llevaron fuera del campamento y le dieron muerte de la manera que el Señor lo había ordenado.",
-          "headings": [
-            "Flecos recordatorios"
-          ]
+          "text": "Entonces lo llevaron fuera del campamento y le dieron muerte de la manera que el Señor lo había ordenado."
         },
         {
           "number": 37,
-          "text": "El Señor le dijo a Moisés:"
+          "text": "El Señor le dijo a Moisés:",
+          "headings": [
+            "Flecos recordatorios"
+          ]
         },
         {
           "number": 38,
@@ -1905,7 +1950,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día Coré (hijo de Izhar, nieto de Coat y descendiente de Leví) conspiró con Datán y Abirán (hijos de Eliab), y con On (hijo de Pélet). La intención de los tres, que por cierto pertenecían a la tribu de Rubén,"
+          "text": "Un día Coré (hijo de Izhar, nieto de Coat y descendiente de Leví) conspiró con Datán y Abirán (hijos de Eliab), y con On (hijo de Pélet). La intención de los tres, que por cierto pertenecían a la tribu de Rubén,",
+          "headings": [
+            "La rebelión de Coré, Datán y Abirán"
+          ]
         },
         {
           "number": 2,
@@ -2041,14 +2089,14 @@
         },
         {
           "number": 35,
-          "text": "Enseguida descendió fuego del Señor y quemó a los doscientos cincuenta hombres que estaban ofreciéndole incienso.",
-          "headings": [
-            "Los incensarios"
-          ]
+          "text": "Enseguida descendió fuego del Señor y quemó a los doscientos cincuenta hombres que estaban ofreciéndole incienso."
         },
         {
           "number": 36,
-          "text": "Y el Señor le dijo a Moisés:"
+          "text": "Y el Señor le dijo a Moisés:",
+          "headings": [
+            "Los incensarios"
+          ]
         },
         {
           "number": 37,
@@ -2064,14 +2112,14 @@
         },
         {
           "number": 40,
-          "text": "a fin de que sirva de recordatorio al pueblo de Israel de que ninguna persona no autorizada, esto es, que no sea descendiente de Aarón; puede venir delante del Señor a quemar el incienso; porque le ocurrirá lo mismo que le pasó a Coré y sus aliados. Estas órdenes del Señor dadas a Moisés fueron cumplidas al pie de la letra.",
-          "headings": [
-            "Aarón intercede por el pueblo"
-          ]
+          "text": "a fin de que sirva de recordatorio al pueblo de Israel de que ninguna persona no autorizada, esto es, que no sea descendiente de Aarón; puede venir delante del Señor a quemar el incienso; porque le ocurrirá lo mismo que le pasó a Coré y sus aliados. Estas órdenes del Señor dadas a Moisés fueron cumplidas al pie de la letra."
         },
         {
           "number": 41,
-          "text": "Pero a la mañana siguiente, todo el pueblo comenzó a murmurar contra Moisés y Aarón diciendo: ―Tú has dado muerte al pueblo de el Señor ."
+          "text": "Pero a la mañana siguiente, todo el pueblo comenzó a murmurar contra Moisés y Aarón diciendo: ―Tú has dado muerte al pueblo de el Señor .",
+          "headings": [
+            "Aarón intercede por el pueblo"
+          ]
         },
         {
           "number": 42,
@@ -2116,7 +2164,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces el Señor le dijo a Moisés:"
+          "text": "Entonces el Señor le dijo a Moisés:",
+          "headings": [
+            "La vara de Aarón"
+          ]
         },
         {
           "number": 2,
@@ -2171,7 +2222,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le dijo a Aarón: «Tú y tus hijos, y tu familia responderán por cualquier profanación del santuario, y por cualquier conducta impropia durante el servicio sacerdotal."
+          "text": "El Señor le dijo a Aarón: «Tú y tus hijos, y tu familia responderán por cualquier profanación del santuario, y por cualquier conducta impropia durante el servicio sacerdotal.",
+          "headings": [
+            "Deberes de sacerdotes y levitas"
+          ]
         },
         {
           "number": 2,
@@ -2193,14 +2247,14 @@
         },
         {
           "number": 7,
-          "text": "Pero tú, y tus hijos, personalmente llevarán a cabo el servicio sagrado incluyendo el del altar y todo lo que está dentro de la cortina, porque el sacerdocio es una tarea especial que Dios ha puesto en tus manos. Cualquier persona que trate de realizar estos deberes sin ser de tus descendientes morirá».",
-          "headings": [
-            "Privilegios de los sacerdotes"
-          ]
+          "text": "Pero tú, y tus hijos, personalmente llevarán a cabo el servicio sagrado incluyendo el del altar y todo lo que está dentro de la cortina, porque el sacerdocio es una tarea especial que Dios ha puesto en tus manos. Cualquier persona que trate de realizar estos deberes sin ser de tus descendientes morirá»."
         },
         {
           "number": 8,
-          "text": "Además el Señor le dio estas órdenes a Aarón: «He cedido a los sacerdotes todos los presentes que se ofrecen al Señor ; todas las ofrendas que se presentan al Señor meciéndolas delante del altar te pertenecen a ti y a tus hijos por norma permanente."
+          "text": "Además el Señor le dio estas órdenes a Aarón: «He cedido a los sacerdotes todos los presentes que se ofrecen al Señor ; todas las ofrendas que se presentan al Señor meciéndolas delante del altar te pertenecen a ti y a tus hijos por norma permanente.",
+          "headings": [
+            "Privilegios de los sacerdotes"
+          ]
         },
         {
           "number": 9,
@@ -2242,14 +2296,14 @@
         },
         {
           "number": 19,
-          "text": "Sí, yo te he dado todas estas “ofrendas mecidas” que los israelitas presentan al Señor . Son para que tú y tu familia las coman. Este es un convenio permanente entre el Señor , tú y tus descendientes.",
-          "headings": [
-            "Privilegios de los levitas"
-          ]
+          "text": "Sí, yo te he dado todas estas “ofrendas mecidas” que los israelitas presentan al Señor . Son para que tú y tu familia las coman. Este es un convenio permanente entre el Señor , tú y tus descendientes."
         },
         {
           "number": 20,
-          "text": "»Los sacerdotes no podrán poseer tierras ni tener otros ingresos, porque el tenerme a mí les será suficiente."
+          "text": "»Los sacerdotes no podrán poseer tierras ni tener otros ingresos, porque el tenerme a mí les será suficiente.",
+          "headings": [
+            "Privilegios de los levitas"
+          ]
         },
         {
           "number": 21,
@@ -2265,14 +2319,14 @@
         },
         {
           "number": 24,
-          "text": "Porque los diezmos que el pueblo ofrezca al Señor mecidos delante del altar pertenecerán a los levitas. Esta es la heredad de ellos, y por lo tanto no tienen necesidad de propiedades».",
-          "headings": [
-            "El diezmo de los diezmos"
-          ]
+          "text": "Porque los diezmos que el pueblo ofrezca al Señor mecidos delante del altar pertenecerán a los levitas. Esta es la heredad de ellos, y por lo tanto no tienen necesidad de propiedades»."
         },
         {
           "number": 25,
-          "text": "El Señor también le dijo a Moisés:"
+          "text": "El Señor también le dijo a Moisés:",
+          "headings": [
+            "El diezmo de los diezmos"
+          ]
         },
         {
           "number": 26,
@@ -2307,7 +2361,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor les dijo a Moisés y a Aarón:"
+          "text": "El Señor les dijo a Moisés y a Aarón:",
+          "headings": [
+            "Purificación de los impuros"
+          ]
         },
         {
           "number": 2,
@@ -2343,14 +2400,14 @@
         },
         {
           "number": 10,
-          "text": "El que junta las cenizas de la ternera deberá lavarse las ropas y quedará impuro hasta la noche. Esta es una ley permanente para beneficio del pueblo de Israel y para los extranjeros que viven en medio de ustedes.",
-          "headings": [
-            "El agua de la purificación"
-          ]
+          "text": "El que junta las cenizas de la ternera deberá lavarse las ropas y quedará impuro hasta la noche. Esta es una ley permanente para beneficio del pueblo de Israel y para los extranjeros que viven en medio de ustedes."
         },
         {
           "number": 11,
-          "text": "»Cualquiera que toque un cadáver permanecerá impuro siete días."
+          "text": "»Cualquiera que toque un cadáver permanecerá impuro siete días.",
+          "headings": [
+            "El agua de la purificación"
+          ]
         },
         {
           "number": 12,
@@ -2403,7 +2460,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El pueblo de Israel entró en el desierto de Zin en abril, y acampó en Cades, donde Miriam murió y fue sepultada."
+          "text": "El pueblo de Israel entró en el desierto de Zin en abril, y acampó en Cades, donde Miriam murió y fue sepultada.",
+          "headings": [
+            "El agua de la roca"
+          ]
         },
         {
           "number": 2,
@@ -2451,14 +2511,14 @@
         },
         {
           "number": 13,
-          "text": "El lugar fue llamado Meribá (Aguas de la rencillas), porque allí el pueblo de Israel se rebeló contra el Señor , y allí les mostró que era un Dios santo.",
-          "headings": [
-            "Edom le niega el paso a Israel"
-          ]
+          "text": "El lugar fue llamado Meribá (Aguas de la rencillas), porque allí el pueblo de Israel se rebeló contra el Señor , y allí les mostró que era un Dios santo."
         },
         {
           "number": 14,
-          "text": "Cuando llegaron a Cades, Moisés envió el siguiente mensaje al rey de Edom: «Somos los descendientes de tu hermano Israel. Tú sabes nuestra triste historia."
+          "text": "Cuando llegaron a Cades, Moisés envió el siguiente mensaje al rey de Edom: «Somos los descendientes de tu hermano Israel. Tú sabes nuestra triste historia.",
+          "headings": [
+            "Edom le niega el paso a Israel"
+          ]
         },
         {
           "number": 15,
@@ -2482,16 +2542,16 @@
         },
         {
           "number": 20,
-          "text": "Pero el rey de Edom fue cortante: «Ya se los advertí, ¡no pasen por mi territorio!». Dicho eso, se dirigió hacia la frontera con un ejército muy fuerte y bien armado.",
-          "headings": [
-            "Muerte de Aarón"
-          ]
+          "text": "Pero el rey de Edom fue cortante: «Ya se los advertí, ¡no pasen por mi territorio!». Dicho eso, se dirigió hacia la frontera con un ejército muy fuerte y bien armado."
         },
         {
           "number": 21,
           "text": "Debido a que Edom le negó el paso a través de su territorio, Israel tuvo que regresar y viajar desde Cades hasta el monte de Hor.",
           "verseDisplay": "21-22",
-          "endNumber": 22
+          "endNumber": 22,
+          "headings": [
+            "Muerte de Aarón"
+          ]
         },
         {
           "number": 23,
@@ -2528,7 +2588,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando el rey de Arad que estaba en Néguev, oyó que los israelitas se acercaban (porque estaban siguiendo la misma ruta de los espías), movilizó su ejército y atacó a Israel, y tomó prisioneros a algunos de sus hombres."
+          "text": "Cuando el rey de Arad que estaba en Néguev, oyó que los israelitas se acercaban (porque estaban siguiendo la misma ruta de los espías), movilizó su ejército y atacó a Israel, y tomó prisioneros a algunos de sus hombres.",
+          "headings": [
+            "Derrota de Arad"
+          ]
         },
         {
           "number": 2,
@@ -2536,14 +2599,14 @@
         },
         {
           "number": 3,
-          "text": "El Señor oyó su petición y derrotaron a los cananeos, y los israelitas destruyeron completamente todas sus ciudades. De ahí en adelante el nombre de la región fue Jormá (Destrucción completa).",
-          "headings": [
-            "La serpiente de bronce"
-          ]
+          "text": "El Señor oyó su petición y derrotaron a los cananeos, y los israelitas destruyeron completamente todas sus ciudades. De ahí en adelante el nombre de la región fue Jormá (Destrucción completa)."
         },
         {
           "number": 4,
-          "text": "El pueblo de Israel regresó al monte de Hor, y desde allí continuó hacia el sur por la ruta del Mar Rojo con el fin de dar un rodeo y pasar por el costado de la tierra de Edom. El pueblo estaba muy desalentado."
+          "text": "El pueblo de Israel regresó al monte de Hor, y desde allí continuó hacia el sur por la ruta del Mar Rojo con el fin de dar un rodeo y pasar por el costado de la tierra de Edom. El pueblo estaba muy desalentado.",
+          "headings": [
+            "La serpiente de bronce"
+          ]
         },
         {
           "number": 5,
@@ -2559,14 +2622,14 @@
         },
         {
           "number": 8,
-          "text": "el Señor le dijo: ―Haz una serpiente de bronce y átala en un asta de bandera. Quienquiera que haya sido mordido vivirá con sólo mirar a la serpiente de bronce.",
-          "headings": [
-            "En camino a Moab"
-          ]
+          "text": "el Señor le dijo: ―Haz una serpiente de bronce y átala en un asta de bandera. Quienquiera que haya sido mordido vivirá con sólo mirar a la serpiente de bronce."
         },
         {
           "number": 9,
-          "text": "Moisés hizo la serpiente de bronce y todo el que era mordido y miraba a la serpiente de bronce se salvaba."
+          "text": "Moisés hizo la serpiente de bronce y todo el que era mordido y miraba a la serpiente de bronce se salvaba.",
+          "headings": [
+            "En camino a Moab"
+          ]
         },
         {
           "number": 10,
@@ -2610,14 +2673,14 @@
         },
         {
           "number": 20,
-          "text": "Luego entraron en los valles de la meseta de Moab hasta llegar a la cumbre del monte Pisgá, desde donde se puede ver el desierto.",
-          "headings": [
-            "Victoria sobre Sijón"
-          ]
+          "text": "Luego entraron en los valles de la meseta de Moab hasta llegar a la cumbre del monte Pisgá, desde donde se puede ver el desierto."
         },
         {
           "number": 21,
-          "text": "Israel envió entonces embajadores al rey Sijón de los amorreos."
+          "text": "Israel envió entonces embajadores al rey Sijón de los amorreos.",
+          "headings": [
+            "Victoria sobre Sijón"
+          ]
         },
         {
           "number": 22,
@@ -2653,14 +2716,14 @@
         },
         {
           "number": 30,
-          "text": "Él ha devastado el reino de ellos, y ha perecido Hesbón hasta Dibón, y destruimos hasta Nofa y Medeba».",
-          "headings": [
-            "Victoria sobre el rey Og"
-          ]
+          "text": "Él ha devastado el reino de ellos, y ha perecido Hesbón hasta Dibón, y destruimos hasta Nofa y Medeba»."
         },
         {
           "number": 31,
-          "text": "Estando Israel en el país de los amorreos,"
+          "text": "Estando Israel en el país de los amorreos,",
+          "headings": [
+            "Victoria sobre el rey Og"
+          ]
         },
         {
           "number": 32,
@@ -2848,7 +2911,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Balán le dijo al rey: «Edifica siete altares y prepara siete becerros y siete carneros para el sacrificio»."
+          "text": "Balán le dijo al rey: «Edifica siete altares y prepara siete becerros y siete carneros para el sacrificio».",
+          "headings": [
+            "Primer oráculo de Balán"
+          ]
         },
         {
           "number": 2,
@@ -2892,14 +2958,14 @@
         },
         {
           "number": 12,
-          "text": "―¿Puedo decir algo distinto de lo que el Señor me ha dicho?",
-          "headings": [
-            "Segundo oráculo de Balán"
-          ]
+          "text": "―¿Puedo decir algo distinto de lo que el Señor me ha dicho?"
         },
         {
           "number": 13,
-          "text": "Entonces Balac le dijo: ―Ven conmigo a otro lugar. Allí sólo verás una parte del pueblo de Israel. Maldice por lo menos a esa parte."
+          "text": "Entonces Balac le dijo: ―Ven conmigo a otro lugar. Allí sólo verás una parte del pueblo de Israel. Maldice por lo menos a esa parte.",
+          "headings": [
+            "Segundo oráculo de Balán"
+          ]
         },
         {
           "number": 14,
@@ -2951,14 +3017,14 @@
         },
         {
           "number": 26,
-          "text": "Pero Balán contestó: ―¿No te dije que yo tengo que decir lo que el Señor me diga?",
-          "headings": [
-            "Tercer oráculo de Balán"
-          ]
+          "text": "Pero Balán contestó: ―¿No te dije que yo tengo que decir lo que el Señor me diga?"
         },
         {
           "number": 27,
-          "text": "―Yo te llevaré a otro lugar —le dijo el rey—. Quizá desde allí el Señor quiera que los maldigas."
+          "text": "―Yo te llevaré a otro lugar —le dijo el rey—. Quizá desde allí el Señor quiera que los maldigas.",
+          "headings": [
+            "Tercer oráculo de Balán"
+          ]
         },
         {
           "number": 28,
@@ -3031,14 +3097,14 @@
         },
         {
           "number": 14,
-          "text": "En efecto, voy a regresar ahora mismo a mi pueblo, pero déjame primero decirte lo que los israelitas van a hacerle a tu pueblo.",
-          "headings": [
-            "Cuarto oráculo de Balán"
-          ]
+          "text": "En efecto, voy a regresar ahora mismo a mi pueblo, pero déjame primero decirte lo que los israelitas van a hacerle a tu pueblo."
         },
         {
           "number": 15,
-          "text": "Entonces Balán añadió: «Balán el hijo de Beor,"
+          "text": "Entonces Balán añadió: «Balán el hijo de Beor,",
+          "headings": [
+            "Cuarto oráculo de Balán"
+          ]
         },
         {
           "number": 16,
@@ -3087,7 +3153,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Mientras Israel estaba establecido en Sitín, algunos de los jóvenes comenzaron a tener relaciones con las muchachas moabitas."
+          "text": "Mientras Israel estaba establecido en Sitín, algunos de los jóvenes comenzaron a tener relaciones con las muchachas moabitas.",
+          "headings": [
+            "Infidelidad de Israel"
+          ]
         },
         {
           "number": 2,
@@ -3162,7 +3231,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando la plaga terminó, el Señor les dijo a Moisés y a Eleazar (hijo de Aarón el sacerdote):"
+          "text": "Cuando la plaga terminó, el Señor les dijo a Moisés y a Eleazar (hijo de Aarón el sacerdote):",
+          "headings": [
+            "Segundo censo de las tribus de Israel"
+          ]
         },
         {
           "number": 2,
@@ -3303,7 +3375,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Había un hombre llamado Zelofejad hijo de Héfer, nieto de Galaad, y bisnieto de Maquir, de la tribu de Manasés hijo de José. Zelofejad tenía cinco hijas llamadas Majlá, Noa, Joglá, Milca y Tirsá."
+          "text": "Había un hombre llamado Zelofejad hijo de Héfer, nieto de Galaad, y bisnieto de Maquir, de la tribu de Manasés hijo de José. Zelofejad tenía cinco hijas llamadas Majlá, Noa, Joglá, Milca y Tirsá.",
+          "headings": [
+            "Las hijas de Zelofejad"
+          ]
         },
         {
           "number": 2,
@@ -3341,14 +3416,14 @@
         },
         {
           "number": 11,
-          "text": "Y si no tiene tíos, pasará al pariente más cercano.",
-          "headings": [
-            "Anuncio de la muerte de Moisés"
-          ]
+          "text": "Y si no tiene tíos, pasará al pariente más cercano."
         },
         {
           "number": 12,
-          "text": "Un día el Señor le dijo a Moisés: ―Sube al monte Abarín y verás al otro lado del río la tierra que he dado al pueblo de Israel."
+          "text": "Un día el Señor le dijo a Moisés: ―Sube al monte Abarín y verás al otro lado del río la tierra que he dado al pueblo de Israel.",
+          "headings": [
+            "Anuncio de la muerte de Moisés"
+          ]
         },
         {
           "number": 13,
@@ -3356,14 +3431,14 @@
         },
         {
           "number": 14,
-          "text": "por cuanto te rebelaste contra mis instrucciones en el desierto de Zin. Cuando el pueblo de Israel se rebeló, no me glorificaste delante de ellos siguiendo mis instrucciones a fin de que el agua brotara de la roca. Se estaba refiriendo al incidente de las aguas de Meribá (Aguas de la rencilla) en Cades, en el desierto de Zin.",
-          "headings": [
-            "Moisés pide un líder para Israel"
-          ]
+          "text": "por cuanto te rebelaste contra mis instrucciones en el desierto de Zin. Cuando el pueblo de Israel se rebeló, no me glorificaste delante de ellos siguiendo mis instrucciones a fin de que el agua brotara de la roca. Se estaba refiriendo al incidente de las aguas de Meribá (Aguas de la rencilla) en Cades, en el desierto de Zin."
         },
         {
           "number": 15,
-          "text": "Entonces Moisés le dijo al Señor :"
+          "text": "Entonces Moisés le dijo al Señor :",
+          "headings": [
+            "Moisés pide un líder para Israel"
+          ]
         },
         {
           "number": 16,
@@ -3404,18 +3479,21 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le dio a Moisés las siguientes instrucciones para que las entregara al pueblo de Israel:"
-        },
-        {
-          "number": 2,
-          "text": "«Las ofrendas que se presentan encendidas sobre el altar son para mí como el alimento, y las recibo con gratitud; por lo tanto, deberán presentarlas a su tiempo y tal como lo he mandado.",
+          "text": "El Señor le dio a Moisés las siguientes instrucciones para que las entregara al pueblo de Israel:",
           "headings": [
-            "Sacrificio diario"
+            "Calendario litúrgico"
           ]
         },
         {
+          "number": 2,
+          "text": "«Las ofrendas que se presentan encendidas sobre el altar son para mí como el alimento, y las recibo con gratitud; por lo tanto, deberán presentarlas a su tiempo y tal como lo he mandado."
+        },
+        {
           "number": 3,
-          "text": "»Cuando presenten ofrendas encendidas, presenten corderos machos sin defectos. Presenten dos cada día como ofrenda regular."
+          "text": "»Cuando presenten ofrendas encendidas, presenten corderos machos sin defectos. Presenten dos cada día como ofrenda regular.",
+          "headings": [
+            "Sacrificio diario"
+          ]
         },
         {
           "number": 4,
@@ -3435,10 +3513,7 @@
         },
         {
           "number": 8,
-          "text": "El segundo cordero lo ofrecerán en la tarde con la misma ofrenda de harina fina y libación. Es también una ofrenda de olor fragante delante del Señor , una ofrenda presentada por fuego.",
-          "headings": [
-            "Ofrenda del día de reposo"
-          ]
+          "text": "El segundo cordero lo ofrecerán en la tarde con la misma ofrenda de harina fina y libación. Es también una ofrenda de olor fragante delante del Señor , una ofrenda presentada por fuego."
         },
         {
           "number": 9,
@@ -3446,12 +3521,15 @@
           "verseDisplay": "9-10",
           "endNumber": 10,
           "headings": [
-            "Ofrenda mensual"
+            "Ofrenda del día de reposo"
           ]
         },
         {
           "number": 11,
-          "text": "»Además, el primer día de cada mes, se presentará una ofrenda encendida extraordinaria en que se ofrecerán al Señor dos becerros, un carnero y siete corderos de un año, todos sin defecto."
+          "text": "»Además, el primer día de cada mes, se presentará una ofrenda encendida extraordinaria en que se ofrecerán al Señor dos becerros, un carnero y siete corderos de un año, todos sin defecto.",
+          "headings": [
+            "Ofrenda mensual"
+          ]
         },
         {
           "number": 12,
@@ -3467,14 +3545,14 @@
         },
         {
           "number": 15,
-          "text": "»Además, el primer día de cada mes, ofrecerán al Señor un chivo como ofrenda por el pecado. Lo ofrecerán además de la ofrenda encendida y la libación de cada día.",
-          "headings": [
-            "La Pascua"
-          ]
+          "text": "»Además, el primer día de cada mes, ofrecerán al Señor un chivo como ofrenda por el pecado. Lo ofrecerán además de la ofrenda encendida y la libación de cada día."
         },
         {
           "number": 16,
-          "text": "»En el día catorce del primer mes de cada año, celebrarán la Pascua."
+          "text": "»En el día catorce del primer mes de cada año, celebrarán la Pascua.",
+          "headings": [
+            "La Pascua"
+          ]
         },
         {
           "number": 17,
@@ -3510,14 +3588,14 @@
         },
         {
           "number": 25,
-          "text": "En el séptimo día habrá una asamblea santa y solemne de todo el pueblo, y durante aquel día no podrán hacer obra alguna.",
-          "headings": [
-            "Fiesta de las Semanas"
-          ]
+          "text": "En el séptimo día habrá una asamblea santa y solemne de todo el pueblo, y durante aquel día no podrán hacer obra alguna."
         },
         {
           "number": 26,
-          "text": "»En el día de las Primicias (llamado también fiesta de las Semanas o Pentecostés), habrá una asamblea especial y solemne en la que todo el pueblo se reunirá para celebrar la nueva cosecha. En aquel día presentarán las primicias de la nueva cosecha de grano como una ofrenda vegetal al Señor . Nadie trabajará en aquel día."
+          "text": "»En el día de las Primicias (llamado también fiesta de las Semanas o Pentecostés), habrá una asamblea especial y solemne en la que todo el pueblo se reunirá para celebrar la nueva cosecha. En aquel día presentarán las primicias de la nueva cosecha de grano como una ofrenda vegetal al Señor . Nadie trabajará en aquel día.",
+          "headings": [
+            "Fiesta de las Semanas"
+          ]
         },
         {
           "number": 27,
@@ -3546,7 +3624,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»La fiesta de las Trompetas será celebrada el primer día del séptimo mes de cada año. Habrá una asamblea solemne de todo el pueblo en aquel día, y nadie realizará trabajo alguno."
+          "text": "»La fiesta de las Trompetas será celebrada el primer día del séptimo mes de cada año. Habrá una asamblea solemne de todo el pueblo en aquel día, y nadie realizará trabajo alguno.",
+          "headings": [
+            "Fiesta de las Trompetas"
+          ]
         },
         {
           "number": 2,
@@ -3566,14 +3647,14 @@
         },
         {
           "number": 6,
-          "text": "Estos sacrificios especiales los ofrecerán además de las ofrendas quemadas de cada día y de cada mes. Me los presentarán con sus respectivas ofrendas vegetales y libaciones, en la forma especificada.",
-          "headings": [
-            "El día del perdón"
-          ]
+          "text": "Estos sacrificios especiales los ofrecerán además de las ofrendas quemadas de cada día y de cada mes. Me los presentarán con sus respectivas ofrendas vegetales y libaciones, en la forma especificada."
         },
         {
           "number": 7,
-          "text": "»Diez días después convocarán nuevamente al pueblo. Ese será un día de humillación delante del Señor , y no se realizará trabajo alguno."
+          "text": "»Diez días después convocarán nuevamente al pueblo. Ese será un día de humillación delante del Señor , y no se realizará trabajo alguno.",
+          "headings": [
+            "El día del perdón"
+          ]
         },
         {
           "number": 8,
@@ -3589,14 +3670,14 @@
         },
         {
           "number": 11,
-          "text": "Además presentarán un chivo como ofrenda por el pecado. Esta se presenta aparte además de la ofrenda por el pecado del día de la Expiación (que se ofrecerá cada año en ese día) y aparte de las ofrendas encendidas regulares de cada día y sus correspondientes ofrendas vegetales y libaciones.",
-          "headings": [
-            "Fiesta de las Enramadas"
-          ]
+          "text": "Además presentarán un chivo como ofrenda por el pecado. Esta se presenta aparte además de la ofrenda por el pecado del día de la Expiación (que se ofrecerá cada año en ese día) y aparte de las ofrendas encendidas regulares de cada día y sus correspondientes ofrendas vegetales y libaciones."
         },
         {
           "number": 12,
-          "text": "»Cinco días después habrá otra asamblea de todo el pueblo, y ese día no se hará trabajo alguno. Es el comienzo de una fiesta dedicada al Señor que durará siete días."
+          "text": "»Cinco días después habrá otra asamblea de todo el pueblo, y ese día no se hará trabajo alguno. Es el comienzo de una fiesta dedicada al Señor que durará siete días.",
+          "headings": [
+            "Fiesta de las Enramadas"
+          ]
         },
         {
           "number": 13,
@@ -3715,7 +3796,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Moisés convocó a todos los jefes de las tribus y les dijo:"
+          "text": "Moisés convocó a todos los jefes de las tribus y les dijo:",
+          "headings": [
+            "Votos de las mujeres"
+          ]
         },
         {
           "number": 2,
@@ -3784,7 +3868,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces el Señor le dijo a Moisés:"
+          "text": "Entonces el Señor le dijo a Moisés:",
+          "headings": [
+            "Guerra contra Madián"
+          ]
         },
         {
           "number": 2,
@@ -3846,14 +3933,14 @@
         },
         {
           "number": 18,
-          "text": "Solamente las muchachas vírgenes podrán vivir. Con ellas pueden quedarse.",
-          "headings": [
-            "Purificación de combatientes y de prisioneros"
-          ]
+          "text": "Solamente las muchachas vírgenes podrán vivir. Con ellas pueden quedarse."
         },
         {
           "number": 19,
-          "text": "»Y en cuanto a ustedes, quédense fuera del campamento por siete días todos los que hayan matado a alguien o hayan tocado un cuerpo muerto. Purifíquense ustedes y los cautivos en los días tercero y séptimo."
+          "text": "»Y en cuanto a ustedes, quédense fuera del campamento por siete días todos los que hayan matado a alguien o hayan tocado un cuerpo muerto. Purifíquense ustedes y los cautivos en los días tercero y séptimo.",
+          "headings": [
+            "Purificación de combatientes y de prisioneros"
+          ]
         },
         {
           "number": 20,
@@ -3873,14 +3960,14 @@
         },
         {
           "number": 24,
-          "text": "En el día séptimo deben lavar la ropa que traen puesta, y después de purificarse pueden regresar al campamento».",
-          "headings": [
-            "Reparto del botín"
-          ]
+          "text": "En el día séptimo deben lavar la ropa que traen puesta, y después de purificarse pueden regresar al campamento»."
         },
         {
           "number": 25,
-          "text": "Y el Señor le dijo a Moisés:"
+          "text": "Y el Señor le dijo a Moisés:",
+          "headings": [
+            "Reparto del botín"
+          ]
         },
         {
           "number": 26,
@@ -3930,14 +4017,14 @@
         },
         {
           "number": 47,
-          "text": "En conformidad con las órdenes del Señor , Moisés dio el dos por ciento de todo a los levitas.",
-          "headings": [
-            "Las ofrendas de los capitanes"
-          ]
+          "text": "En conformidad con las órdenes del Señor , Moisés dio el dos por ciento de todo a los levitas."
         },
         {
           "number": 48,
-          "text": "Entonces los oficiales y los comandantes de batallones se acercaron a Moisés y le dijeron:"
+          "text": "Entonces los oficiales y los comandantes de batallones se acercaron a Moisés y le dijeron:",
+          "headings": [
+            "Las ofrendas de los capitanes"
+          ]
         },
         {
           "number": 49,
@@ -3968,7 +4055,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando Israel llegó a la tierra de Jazer y Galaad, las tribus de Rubén y Gad (que tenían grandes rebaños de ovejas) notaron que era un país hermoso para el pastoreo,"
+          "text": "Cuando Israel llegó a la tierra de Jazer y Galaad, las tribus de Rubén y Gad (que tenían grandes rebaños de ovejas) notaron que era un país hermoso para el pastoreo,",
+          "headings": [
+            "Rubén y Gad se establecen en Transjordania"
+          ]
         },
         {
           "number": 2,
@@ -4135,7 +4225,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este es el itinerario que Israel siguió desde que Moisés y Aarón lo sacaron de Egipto."
+          "text": "Este es el itinerario que Israel siguió desde que Moisés y Aarón lo sacaron de Egipto.",
+          "headings": [
+            "Ruta de Israel por el desierto"
+          ]
         },
         {
           "number": 2,
@@ -4235,14 +4328,14 @@
         },
         {
           "number": 49,
-          "text": "Mientras estaban en esta zona acamparon en varios lugares a lo largo del río Jordán desde Bet Yesimot hasta Abel Sitín en las llanuras de Moab.",
-          "headings": [
-            "Instrucciones acerca de la Tierra prometida"
-          ]
+          "text": "Mientras estaban en esta zona acamparon en varios lugares a lo largo del río Jordán desde Bet Yesimot hasta Abel Sitín en las llanuras de Moab."
         },
         {
           "number": 50,
-          "text": "Estando acampados allí, el Señor le pidió a Moisés que dijera al pueblo de Israel:"
+          "text": "Estando acampados allí, el Señor le pidió a Moisés que dijera al pueblo de Israel:",
+          "headings": [
+            "Instrucciones acerca de la Tierra prometida"
+          ]
         },
         {
           "number": 51,
@@ -4275,7 +4368,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le dijo a Moisés:"
+          "text": "El Señor le dijo a Moisés:",
+          "headings": [
+            "Fronteras de Canaán"
+          ]
         },
         {
           "number": 2,
@@ -4340,7 +4436,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Mientras Israel estaba acampando junto al Jordán en las llanuras de Moab, frente a Jericó, el Señor le dijo a Moisés:"
+          "text": "Mientras Israel estaba acampando junto al Jordán en las llanuras de Moab, frente a Jericó, el Señor le dijo a Moisés:",
+          "headings": [
+            "Ciudades levíticas"
+          ]
         },
         {
           "number": 2,
@@ -4368,14 +4467,14 @@
         },
         {
           "number": 8,
-          "text": "Estas ciudades estarán distribuidas en diversos lugares de la nación. Las tribus más grandes, que tienen muchas ciudades, darán más ciudades a los levitas, mientras que las tribus más pequeñas les darán menos ciudades».",
-          "headings": [
-            "Ciudades de refugio"
-          ]
+          "text": "Estas ciudades estarán distribuidas en diversos lugares de la nación. Las tribus más grandes, que tienen muchas ciudades, darán más ciudades a los levitas, mientras que las tribus más pequeñas les darán menos ciudades»."
         },
         {
           "number": 9,
-          "text": "Y el Señor le dijo a Moisés:"
+          "text": "Y el Señor le dijo a Moisés:",
+          "headings": [
+            "Ciudades de refugio"
+          ]
         },
         {
           "number": 10,
@@ -4480,7 +4579,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces los dirigentes del subclan de Galaad (el clan de Maquir, de la tribu de Manasés, uno de los hijos de José) vinieron a Moisés ante los jefes de Israel con una petición:"
+          "text": "Entonces los dirigentes del subclan de Galaad (el clan de Maquir, de la tribu de Manasés, uno de los hijos de José) vinieron a Moisés ante los jefes de Israel con una petición:",
+          "headings": [
+            "Herencia de las mujeres"
+          ]
         },
         {
           "number": 2,

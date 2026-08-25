@@ -9,14 +9,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este es el mensaje que el Señor le dio a Joel, hijo de Petuel.",
-          "headings": [
-            "La invasión de langostas"
-          ]
+          "text": "Este es el mensaje que el Señor le dio a Joel, hijo de Petuel."
         },
         {
           "number": 2,
-          "text": "¡Escuchen, sabios consejeros de Israel! ¡Escuchen, todos sus habitantes! En toda su vida, sí, en toda su historia, ¿ha sucedido algo semejante a lo que les voy a contar?"
+          "text": "¡Escuchen, sabios consejeros de Israel! ¡Escuchen, todos sus habitantes! En toda su vida, sí, en toda su historia, ¿ha sucedido algo semejante a lo que les voy a contar?",
+          "headings": [
+            "La invasión de langostas"
+          ]
         },
         {
           "number": 3,
@@ -56,14 +56,14 @@
         },
         {
           "number": 12,
-          "text": "Las vides están muertas; las higueras se están muriendo; los granados están secos, lo mismo que las palmeras y los manzanos. ¡Todos los árboles del campo se murieron! Por eso la alegría se ha ido de la gente.",
-          "headings": [
-            "Llamado al arrepentimiento"
-          ]
+          "text": "Las vides están muertas; las higueras se están muriendo; los granados están secos, lo mismo que las palmeras y los manzanos. ¡Todos los árboles del campo se murieron! Por eso la alegría se ha ido de la gente."
         },
         {
           "number": 13,
-          "text": "¡Sacerdotes, vístanse de luto, lloren ustedes que ministran en el altar! Vengan, ministros de Dios, y pasen la noche sobre ceniza y con ropas ásperas en señal de profunda tristeza, porque en el templo de su Dios no hay ofrendas de cereales ni de vino."
+          "text": "¡Sacerdotes, vístanse de luto, lloren ustedes que ministran en el altar! Vengan, ministros de Dios, y pasen la noche sobre ceniza y con ropas ásperas en señal de profunda tristeza, porque en el templo de su Dios no hay ofrendas de cereales ni de vino.",
+          "headings": [
+            "Llamado al arrepentimiento"
+          ]
         },
         {
           "number": 14,
@@ -100,7 +100,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Hagan sonar la alarma en Jerusalén! ¡Que el trompetazo de advertencia sea escuchado sobre mi santo monte! ¡Que todo el mundo tiemble de miedo, pues se acerca el día del juicio del Señor !"
+          "text": "¡Hagan sonar la alarma en Jerusalén! ¡Que el trompetazo de advertencia sea escuchado sobre mi santo monte! ¡Que todo el mundo tiemble de miedo, pues se acerca el día del juicio del Señor !",
+          "headings": [
+            "Un ejército de langostas"
+          ]
         },
         {
           "number": 2,
@@ -140,14 +143,14 @@
         },
         {
           "number": 11,
-          "text": "El Señor los conduce con su voz de mando. El suyo es un poderoso ejército, con innumerables batallones que siguen sus órdenes. El día del juicio del Señor es algo terrible y pavoroso. ¿Quién podrá mantenerse en pie?",
-          "headings": [
-            "Exhortación al arrepentimiento"
-          ]
+          "text": "El Señor los conduce con su voz de mando. El suyo es un poderoso ejército, con innumerables batallones que siguen sus órdenes. El día del juicio del Señor es algo terrible y pavoroso. ¿Quién podrá mantenerse en pie?"
         },
         {
           "number": 12,
-          "text": "Por eso el Señor dice: «Vuélvanse a mí por completo, mientras aun hay tiempo. Háganlo con ayuno, llanto y arrepentimiento sincero»."
+          "text": "Por eso el Señor dice: «Vuélvanse a mí por completo, mientras aun hay tiempo. Háganlo con ayuno, llanto y arrepentimiento sincero».",
+          "headings": [
+            "Exhortación al arrepentimiento"
+          ]
         },
         {
           "number": 13,
@@ -167,14 +170,14 @@
         },
         {
           "number": 17,
-          "text": "Los sacerdotes, ministros de Dios, se pararán entre el pueblo y el altar, llorando, y orarán diciendo: « Señor nuestro, perdona a tu pueblo, no permitas que los paganos reinen sobre nosotros, pues tú eres también su dueño. Que no se burlen de tu pueblo los paganos, y digan: “¿Dónde está ese Dios de ellos? ¡Qué débil e inútil debe de ser!”».",
-          "headings": [
-            "La respuesta del Señor"
-          ]
+          "text": "Los sacerdotes, ministros de Dios, se pararán entre el pueblo y el altar, llorando, y orarán diciendo: « Señor nuestro, perdona a tu pueblo, no permitas que los paganos reinen sobre nosotros, pues tú eres también su dueño. Que no se burlen de tu pueblo los paganos, y digan: “¿Dónde está ese Dios de ellos? ¡Qué débil e inútil debe de ser!”»."
         },
         {
           "number": 18,
-          "text": "Entonces el Señor tendrá piedad de su pueblo y lo perdonará."
+          "text": "Entonces el Señor tendrá piedad de su pueblo y lo perdonará.",
+          "headings": [
+            "La respuesta del Señor"
+          ]
         },
         {
           "number": 19,
@@ -210,14 +213,14 @@
         },
         {
           "number": 27,
-          "text": "Y ustedes se convencerán que yo estoy en medio de Israel, mi pueblo, y que sólo yo soy el Señor su Dios, y que no hay otro dios. Y mi pueblo nunca más recibirá un golpe como este.",
-          "headings": [
-            "El día del Señor"
-          ]
+          "text": "Y ustedes se convencerán que yo estoy en medio de Israel, mi pueblo, y que sólo yo soy el Señor su Dios, y que no hay otro dios. Y mi pueblo nunca más recibirá un golpe como este."
         },
         {
           "number": 28,
-          "text": "Después de haber derramado mis lluvias de nuevo, ¡también derramaré mi Espíritu sobre todos ustedes! Sus hijos e hijas profetizarán, sus ancianos tendrán sueños y sus jóvenes tendrán visiones de parte de Dios."
+          "text": "Después de haber derramado mis lluvias de nuevo, ¡también derramaré mi Espíritu sobre todos ustedes! Sus hijos e hijas profetizarán, sus ancianos tendrán sueños y sus jóvenes tendrán visiones de parte de Dios.",
+          "headings": [
+            "El día del Señor"
+          ]
         },
         {
           "number": 29,
@@ -242,7 +245,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En el tiempo que viene, cuando yo restaure la prosperidad de Judá y Jerusalén,"
+          "text": "En el tiempo que viene, cuando yo restaure la prosperidad de Judá y Jerusalén,",
+          "headings": [
+            "El juicio de las naciones"
+          ]
         },
         {
           "number": 2,
@@ -302,14 +308,14 @@
         },
         {
           "number": 16,
-          "text": "El Señor ruge como si fuera un león desde Sion, desde Jerusalén lanza su grito, y la tierra y el cielo comienzan a temblar. ¡Pero el Señor protegerá a su pueblo, será un refugio seguro para Israel!",
-          "headings": [
-            "Bendiciones para el pueblo de Dios"
-          ]
+          "text": "El Señor ruge como si fuera un león desde Sion, desde Jerusalén lanza su grito, y la tierra y el cielo comienzan a temblar. ¡Pero el Señor protegerá a su pueblo, será un refugio seguro para Israel!"
         },
         {
           "number": 17,
-          "text": "Entonces se convencerán, por fin, que yo soy el Señor su Dios, y que habito en Sion, mi santo monte. Jerusalén será santa, y nunca más los extranjeros la volverán a invadir."
+          "text": "Entonces se convencerán, por fin, que yo soy el Señor su Dios, y que habito en Sion, mi santo monte. Jerusalén será santa, y nunca más los extranjeros la volverán a invadir.",
+          "headings": [
+            "Bendiciones para el pueblo de Dios"
+          ]
         },
         {
           "number": 18,

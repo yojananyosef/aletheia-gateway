@@ -9,18 +9,21 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo, un apóstol de Cristo Jesús por mandato de Dios nuestro Salvador, y de Cristo Jesús nuestra esperanza,"
-        },
-        {
-          "number": 2,
-          "text": "a Timoteo, legítimo hijo en la fe. Gracia, misericordia, paz de Dios Padre y de Cristo Jesús nuestro Señor.",
+          "text": "Pablo, un apóstol de Cristo Jesús por mandato de Dios nuestro Salvador, y de Cristo Jesús nuestra esperanza,",
           "headings": [
-            "Falsos maestros"
+            "Saludo"
           ]
         },
         {
+          "number": 2,
+          "text": "a Timoteo, legítimo hijo en la fe. Gracia, misericordia, paz de Dios Padre y de Cristo Jesús nuestro Señor."
+        },
+        {
           "number": 3,
-          "text": "Cuando pasé a Macedonia te rogué permanecer en Éfeso para que mandaras a algunos que no ofrecieran instrucción diferente,"
+          "text": "Cuando pasé a Macedonia te rogué permanecer en Éfeso para que mandaras a algunos que no ofrecieran instrucción diferente,",
+          "headings": [
+            "Falsos maestros"
+          ]
         },
         {
           "number": 4,
@@ -36,14 +39,14 @@
         },
         {
           "number": 7,
-          "text": "Deseaban ser maestros de la Ley sin entender lo que dicen, ni las cosas que hablan de manera absoluta.",
-          "headings": [
-            "Propósito de la Ley"
-          ]
+          "text": "Deseaban ser maestros de la Ley sin entender lo que dicen, ni las cosas que hablan de manera absoluta."
         },
         {
           "number": 8,
-          "text": "Pero sabemos que la Ley es buena cuando alguno habla legítimamente."
+          "text": "Pero sabemos que la Ley es buena cuando alguno habla legítimamente.",
+          "headings": [
+            "Propósito de la Ley"
+          ]
         },
         {
           "number": 9,
@@ -55,14 +58,14 @@
         },
         {
           "number": 11,
-          "text": "según las Buenas Noticias de la gloria del bendito Dios, las cuales se me encomendaron.",
-          "headings": [
-            "Vocación de Pablo"
-          ]
+          "text": "según las Buenas Noticias de la gloria del bendito Dios, las cuales se me encomendaron."
         },
         {
           "number": 12,
-          "text": "Estoy agradecido al que me fortaleció, a Cristo Jesús nuestro Señor, porque al ponerme en el ministerio, me consideró fiel."
+          "text": "Estoy agradecido al que me fortaleció, a Cristo Jesús nuestro Señor, porque al ponerme en el ministerio, me consideró fiel.",
+          "headings": [
+            "Vocación de Pablo"
+          ]
         },
         {
           "number": 13,
@@ -103,7 +106,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Exhorto ante todo, que sean hechas peticiones, conversaciones con Dios, súplicas y acciones de gracias por todos los hombres,"
+          "text": "Exhorto ante todo, que sean hechas peticiones, conversaciones con Dios, súplicas y acciones de gracias por todos los hombres,",
+          "headings": [
+            "Respaldo a la conversación con Dios"
+          ]
         },
         {
           "number": 2,
@@ -131,14 +137,14 @@
         },
         {
           "number": 8,
-          "text": "Quiero, pues, que los hombres hablen con Dios en todo lugar y levanten manos santas, sin ira ni discusión.",
-          "headings": [
-            "Comportamiento de las mujeres"
-          ]
+          "text": "Quiero, pues, que los hombres hablen con Dios en todo lugar y levanten manos santas, sin ira ni discusión."
         },
         {
           "number": 9,
-          "text": "Asimismo, que las mujeres se adornen con ropa decorosa, con modestia y decencia, no con peinados ostentosos, ni oro, ni perlas, ni ropa costosa,"
+          "text": "Asimismo, que las mujeres se adornen con ropa decorosa, con modestia y decencia, no con peinados ostentosos, ni oro, ni perlas, ni ropa costosa,",
+          "headings": [
+            "Comportamiento de las mujeres"
+          ]
         },
         {
           "number": 10,
@@ -171,7 +177,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Fiel es la Palabra: Si alguno anhela oficio de supervisor, desea buena obra."
+          "text": "Fiel es la Palabra: Si alguno anhela oficio de supervisor, desea buena obra.",
+          "headings": [
+            "Para los que anhelan ministerio"
+          ]
         },
         {
           "number": 2,
@@ -195,14 +204,14 @@
         },
         {
           "number": 7,
-          "text": "Debe tener también buen testimonio de los de afuera, para que no caiga en reproche y trampa del diablo.",
-          "headings": [
-            "Para los diáconos"
-          ]
+          "text": "Debe tener también buen testimonio de los de afuera, para que no caiga en reproche y trampa del diablo."
         },
         {
           "number": 8,
-          "text": "Asimismo, los diáconos, sean serios, sin doblez de lengua, dignos de respeto, no de doble palabra, no adictos a mucho vino, no codiciosos de ganancia deshonesta,"
+          "text": "Asimismo, los diáconos, sean serios, sin doblez de lengua, dignos de respeto, no de doble palabra, no adictos a mucho vino, no codiciosos de ganancia deshonesta,",
+          "headings": [
+            "Para los diáconos"
+          ]
         },
         {
           "number": 9,
@@ -230,14 +239,14 @@
         },
         {
           "number": 15,
-          "text": "Pero, si demoro, te escribo para que sepas cómo debes conducirte en la familia de Dios, que es la iglesia del Dios viviente, columna y fundamento de la verdad.",
-          "headings": [
-            "Gran misterio"
-          ]
+          "text": "Pero, si demoro, te escribo para que sepas cómo debes conducirte en la familia de Dios, que es la iglesia del Dios viviente, columna y fundamento de la verdad."
         },
         {
           "number": 16,
-          "text": "Por confesión unánime, grande es el misterio de la piedad: Él fue manifestado en el cuerpo, Justificado en Espíritu, Visto por ángeles, Proclamado entre gentiles, Creído en el mundo, Recibido arriba en gloria."
+          "text": "Por confesión unánime, grande es el misterio de la piedad: Él fue manifestado en el cuerpo, Justificado en Espíritu, Visto por ángeles, Proclamado entre gentiles, Creído en el mundo, Recibido arriba en gloria.",
+          "headings": [
+            "Gran misterio"
+          ]
         }
       ]
     },
@@ -246,7 +255,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero el Espíritu dice explícitamente que en los postreros tiempos algunos apostatarán de la fe. Fijarán la atención en espíritus engañadores y en enseñanzas relacionadas con demonios,"
+          "text": "Pero el Espíritu dice explícitamente que en los postreros tiempos algunos apostatarán de la fe. Fijarán la atención en espíritus engañadores y en enseñanzas relacionadas con demonios,",
+          "headings": [
+            "El tiempo del fin"
+          ]
         },
         {
           "number": 2,
@@ -262,14 +274,14 @@
         },
         {
           "number": 5,
-          "text": "porque es santificado por medio de la Palabra de Dios y de la conversación con Dios.",
-          "headings": [
-            "El buen ministro de Cristo"
-          ]
+          "text": "porque es santificado por medio de la Palabra de Dios y de la conversación con Dios."
         },
         {
           "number": 6,
-          "text": "Cuando enseñes estas cosas a los hermanos serás un buen ministro de Cristo Jesús, porque estás nutrido con las palabras de la fe y de la buena doctrina que seguiste fielmente."
+          "text": "Cuando enseñes estas cosas a los hermanos serás un buen ministro de Cristo Jesús, porque estás nutrido con las palabras de la fe y de la buena doctrina que seguiste fielmente.",
+          "headings": [
+            "El buen ministro de Cristo"
+          ]
         },
         {
           "number": 7,
@@ -318,7 +330,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "No reprendas al anciano, sino exhórtalo como a un padre, a los más jóvenes, como a hermanos,"
+          "text": "No reprendas al anciano, sino exhórtalo como a un padre, a los más jóvenes, como a hermanos,",
+          "headings": [
+            "Exhortaciones"
+          ]
         },
         {
           "number": 2,
@@ -427,14 +442,14 @@
         },
         {
           "number": 2,
-          "text": "Los esclavos que tienen amos creyentes no les falten el respeto por ser hermanos. Más bien sírvanles aun mejor por cuanto los que disfrutan del buen servicio son creyentes y amados. Enseña estas cosas y exhorta.",
-          "headings": [
-            "Oposición a los falsos maestros"
-          ]
+          "text": "Los esclavos que tienen amos creyentes no les falten el respeto por ser hermanos. Más bien sírvanles aun mejor por cuanto los que disfrutan del buen servicio son creyentes y amados. Enseña estas cosas y exhorta."
         },
         {
           "number": 3,
-          "text": "Si alguno ofrece diferente instrucción, y no acepta las sanas palabras, las de nuestro Señor Jesucristo y la doctrina según la piedad,"
+          "text": "Si alguno ofrece diferente instrucción, y no acepta las sanas palabras, las de nuestro Señor Jesucristo y la doctrina según la piedad,",
+          "headings": [
+            "Oposición a los falsos maestros"
+          ]
         },
         {
           "number": 4,
@@ -462,14 +477,14 @@
         },
         {
           "number": 10,
-          "text": "Porque la raíz de todos los males es el amor al dinero, el cual codiciaron algunos, se descarriaron de la fe y fueron atormentados con muchos dolores.",
-          "headings": [
-            "Exhortación al hombre de Dios"
-          ]
+          "text": "Porque la raíz de todos los males es el amor al dinero, el cual codiciaron algunos, se descarriaron de la fe y fueron atormentados con muchos dolores."
         },
         {
           "number": 11,
-          "text": "Pero tú, oh hombre de Dios, huye de estas cosas. Persigue la justicia, la piedad, la fe, el amor, la paciencia, la mansedumbre."
+          "text": "Pero tú, oh hombre de Dios, huye de estas cosas. Persigue la justicia, la piedad, la fe, el amor, la paciencia, la mansedumbre.",
+          "headings": [
+            "Exhortación al hombre de Dios"
+          ]
         },
         {
           "number": 12,
@@ -489,14 +504,14 @@
         },
         {
           "number": 16,
-          "text": "el Único que tiene inmortalidad, que mora en luz inaccesible, a Quien ninguno de los humanos vio, ni puede ver. A Él sea honor y soberanía eterna. Amén.",
-          "headings": [
-            "La verdadera riqueza"
-          ]
+          "text": "el Único que tiene inmortalidad, que mora en luz inaccesible, a Quien ninguno de los humanos vio, ni puede ver. A Él sea honor y soberanía eterna. Amén."
         },
         {
           "number": 17,
-          "text": "Instruye a los ricos de este mundo a no ser arrogantes ni poner su esperanza en riquezas inciertas, sino en Dios, Quien nos provee abundantemente todas las cosas para que las disfrutemos."
+          "text": "Instruye a los ricos de este mundo a no ser arrogantes ni poner su esperanza en riquezas inciertas, sino en Dios, Quien nos provee abundantemente todas las cosas para que las disfrutemos.",
+          "headings": [
+            "La verdadera riqueza"
+          ]
         },
         {
           "number": 18,
@@ -504,14 +519,14 @@
         },
         {
           "number": 19,
-          "text": "que atesoren para sí mismos una buena reserva para lo futuro, a fin de que posean lo que en verdad es vida.",
-          "headings": [
-            "Exhortaciones finales"
-          ]
+          "text": "que atesoren para sí mismos una buena reserva para lo futuro, a fin de que posean lo que en verdad es vida."
         },
         {
           "number": 20,
-          "text": "Oh Timoteo, guarda el depósito que se te encomendó. Evita las palabrerías vacías y profanas, y contradicciones del que de manera falsa llaman conocimiento."
+          "text": "Oh Timoteo, guarda el depósito que se te encomendó. Evita las palabrerías vacías y profanas, y contradicciones del que de manera falsa llaman conocimiento.",
+          "headings": [
+            "Exhortaciones finales"
+          ]
         },
         {
           "number": 21,

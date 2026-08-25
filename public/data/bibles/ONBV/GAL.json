@@ -32,14 +32,14 @@
         },
         {
           "number": 5,
-          "text": "A él sea la gloria por los siglos eternos. Amén.",
-          "headings": [
-            "No hay otro evangelio"
-          ]
+          "text": "A él sea la gloria por los siglos eternos. Amén."
         },
         {
           "number": 6,
-          "text": "Me ha sorprendido que tan pronto se estén apartando ustedes de Dios, quien les llamó y mostró su amor por medio de Cristo. Ahora han adoptado otro evangelio."
+          "text": "Me ha sorprendido que tan pronto se estén apartando ustedes de Dios, quien les llamó y mostró su amor por medio de Cristo. Ahora han adoptado otro evangelio.",
+          "headings": [
+            "No hay otro evangelio"
+          ]
         },
         {
           "number": 7,
@@ -55,14 +55,14 @@
         },
         {
           "number": 10,
-          "text": "Como han visto, no estoy tratando de ganármelos ni de quedar bien con ustedes. Al único que trato de agradar es a Dios. Si todavía buscara agradar a los hombres, no sería siervo de Cristo.",
-          "headings": [
-            "Pablo, llamado por Dios"
-          ]
+          "text": "Como han visto, no estoy tratando de ganármelos ni de quedar bien con ustedes. Al único que trato de agradar es a Dios. Si todavía buscara agradar a los hombres, no sería siervo de Cristo."
         },
         {
           "number": 11,
-          "text": "Hermanos, quiero que sepan que el evangelio que yo predico no es una invención humana."
+          "text": "Hermanos, quiero que sepan que el evangelio que yo predico no es una invención humana.",
+          "headings": [
+            "Pablo, llamado por Dios"
+          ]
         },
         {
           "number": 12,
@@ -123,7 +123,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Catorce años más tarde fui de nuevo a Jerusalén, esta vez con Bernabé. Tito nos acompañaba."
+          "text": "Catorce años más tarde fui de nuevo a Jerusalén, esta vez con Bernabé. Tito nos acompañaba.",
+          "headings": [
+            "Los apóstoles aceptan a Pablo"
+          ]
         },
         {
           "number": 2,
@@ -153,14 +156,14 @@
         },
         {
           "number": 10,
-          "text": "Eso sí, nos pidieron que recordáramos a los pobres, cosa que por mi parte he procurado hacer con todo cuidado.",
-          "headings": [
-            "Pablo se opone a Pedro"
-          ]
+          "text": "Eso sí, nos pidieron que recordáramos a los pobres, cosa que por mi parte he procurado hacer con todo cuidado."
         },
         {
           "number": 11,
-          "text": "Pero cuando después me encontré con Pedro en Antioquía, me opuse a él en público, y le critiqué fuertemente algo que estaba haciendo."
+          "text": "Pero cuando después me encontré con Pedro en Antioquía, me opuse a él en público, y le critiqué fuertemente algo que estaba haciendo.",
+          "headings": [
+            "Pablo se opone a Pedro"
+          ]
         },
         {
           "number": 12,
@@ -209,7 +212,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Oh gálatas, qué estúpidos son ustedes! ¿Quién los embrujó? ¡A ustedes les hemos presentado claramente el mensaje de la muerte de Jesucristo!"
+          "text": "¡Oh gálatas, qué estúpidos son ustedes! ¿Quién los embrujó? ¡A ustedes les hemos presentado claramente el mensaje de la muerte de Jesucristo!",
+          "headings": [
+            "La fe o la observancia de la ley"
+          ]
         },
         {
           "number": 2,
@@ -261,14 +267,14 @@
         },
         {
           "number": 14,
-          "text": "Y así sucedió para que ahora Dios pueda dar también a los gentiles la misma bendición que prometió a Abraham; y para que nosotros podamos recibir la promesa del Espíritu Santo a través de esta fe.",
-          "headings": [
-            "La ley y la promesa"
-          ]
+          "text": "Y así sucedió para que ahora Dios pueda dar también a los gentiles la misma bendición que prometió a Abraham; y para que nosotros podamos recibir la promesa del Espíritu Santo a través de esta fe."
         },
         {
           "number": 15,
-          "text": "Hermanos, les pondré un ejemplo. Cualquier contrato humano si es por escrito y está firmado, tiene que ser cumplido. Nadie puede anularlo ni añadirle nada una vez que se ha firmado."
+          "text": "Hermanos, les pondré un ejemplo. Cualquier contrato humano si es por escrito y está firmado, tiene que ser cumplido. Nadie puede anularlo ni añadirle nada una vez que se ha firmado.",
+          "headings": [
+            "La ley y la promesa"
+          ]
         },
         {
           "number": 16,
@@ -306,14 +312,14 @@
         },
         {
           "number": 25,
-          "text": "Pero ya que ha llegado la fe, ya no necesitamos que la ley nos guíe.",
-          "headings": [
-            "Hijos de Dios"
-          ]
+          "text": "Pero ya que ha llegado la fe, ya no necesitamos que la ley nos guíe."
         },
         {
           "number": 26,
-          "text": "Ahora todos ustedes son hijos de Dios por medio de la fe en Cristo Jesús."
+          "text": "Ahora todos ustedes son hijos de Dios por medio de la fe en Cristo Jesús.",
+          "headings": [
+            "Hijos de Dios"
+          ]
         },
         {
           "number": 27,
@@ -358,14 +364,14 @@
         },
         {
           "number": 7,
-          "text": "Así que ya no eres esclavo, sino hijo de Dios. Y como eres su hijo, Dios te ha hecho su heredero.",
-          "headings": [
-            "Preocupación de Pablo por los gálatas"
-          ]
+          "text": "Así que ya no eres esclavo, sino hijo de Dios. Y como eres su hijo, Dios te ha hecho su heredero."
         },
         {
           "number": 8,
-          "text": "Antes que ustedes conocieran a Dios, eran esclavos de los que en realidad no son dioses."
+          "text": "Antes que ustedes conocieran a Dios, eran esclavos de los que en realidad no son dioses.",
+          "headings": [
+            "Preocupación de Pablo por los gálatas"
+          ]
         },
         {
           "number": 9,
@@ -420,14 +426,14 @@
         },
         {
           "number": 20,
-          "text": "Daría cualquier cosa por estar allá con ustedes y no tener que hablarles de esta manera, porque francamente me tienen muy confundido.",
-          "headings": [
-            "Agar y Sara"
-          ]
+          "text": "Daría cualquier cosa por estar allá con ustedes y no tener que hablarles de esta manera, porque francamente me tienen muy confundido."
         },
         {
           "number": 21,
-          "text": "Los que quieren obedecer la ley, díganme: ¿Por qué no se fijan bien en lo que dice la ley?"
+          "text": "Los que quieren obedecer la ley, díganme: ¿Por qué no se fijan bien en lo que dice la ley?",
+          "headings": [
+            "Agar y Sara"
+          ]
         },
         {
           "number": 22,
@@ -476,7 +482,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Cristo nos libertó para que vivamos en libertad! ¡Cuiden esa libertad y no se dejen someter de nuevo al yugo de la esclavitud!"
+          "text": "¡Cristo nos libertó para que vivamos en libertad! ¡Cuiden esa libertad y no se dejen someter de nuevo al yugo de la esclavitud!",
+          "headings": [
+            "Libertad en Cristo"
+          ]
         },
         {
           "number": 2,
@@ -532,14 +541,14 @@
         },
         {
           "number": 15,
-          "text": "Pero si en vez de hacerlo se muerden y se comen unos a otros, ¡cuidado no sea que acaben por consumirse unos a otros!",
-          "headings": [
-            "La vida por el Espíritu"
-          ]
+          "text": "Pero si en vez de hacerlo se muerden y se comen unos a otros, ¡cuidado no sea que acaben por consumirse unos a otros!"
         },
         {
           "number": 16,
-          "text": "Así que les aconsejo que vivan por el poder del Espíritu. De esa manera no obedecerán los deseos de la naturaleza pecaminosa,"
+          "text": "Así que les aconsejo que vivan por el poder del Espíritu. De esa manera no obedecerán los deseos de la naturaleza pecaminosa,",
+          "headings": [
+            "La vida por el Espíritu"
+          ]
         },
         {
           "number": 17,
@@ -588,7 +597,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hermanos, si descubren que alguno ha pecado, ustedes, que son espirituales, deben ayudarlo a volver al buen camino con actitud humilde. Pero cada uno debe cuidarse, porque también puede ser puesto a prueba."
+          "text": "Hermanos, si descubren que alguno ha pecado, ustedes, que son espirituales, deben ayudarlo a volver al buen camino con actitud humilde. Pero cada uno debe cuidarse, porque también puede ser puesto a prueba.",
+          "headings": [
+            "La ayuda mutua"
+          ]
         },
         {
           "number": 2,
@@ -624,14 +636,14 @@
         },
         {
           "number": 10,
-          "text": "Por lo tanto, hagamos el bien a todos cada vez que se presente la oportunidad, y especialmente a los que, por la fe, son de la familia.",
-          "headings": [
-            "No la circuncisión, sino una nueva creación"
-          ]
+          "text": "Por lo tanto, hagamos el bien a todos cada vez que se presente la oportunidad, y especialmente a los que, por la fe, son de la familia."
         },
         {
           "number": 11,
-          "text": "Les escribo de mi puño y letra, ¡y miren con qué letras tan grandes!"
+          "text": "Les escribo de mi puño y letra, ¡y miren con qué letras tan grandes!",
+          "headings": [
+            "No la circuncisión, sino una nueva creación"
+          ]
         },
         {
           "number": 12,

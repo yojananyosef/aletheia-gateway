@@ -11,12 +11,15 @@
           "number": 1,
           "text": "La Palabra de Yavé que vino a Miqueas de Moreset, en días de Jotam, Acaz y Ezequías, reyes de Judá, lo que vio sobre Samaria y Jerusalén.",
           "headings": [
-            "Contra la Casa de Israel"
+            "La visión"
           ]
         },
         {
           "number": 2,
-          "text": "¡Escuchen, pueblos todos! Atiende, oh tierra, y lo que hay en ti. Sea ʼAdonay Yavé Testigo contra ustedes, desde su santo Templo."
+          "text": "¡Escuchen, pueblos todos! Atiende, oh tierra, y lo que hay en ti. Sea ʼAdonay Yavé Testigo contra ustedes, desde su santo Templo.",
+          "headings": [
+            "Contra la Casa de Israel"
+          ]
         },
         {
           "number": 3,
@@ -81,7 +84,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Ay de los que planean maldades y traman iniquidad en sus camas! ¡Cuando llega la mañana las ejecutan con el poder que tienen en su mano!"
+          "text": "¡Ay de los que planean maldades y traman iniquidad en sus camas! ¡Cuando llega la mañana las ejecutan con el poder que tienen en su mano!",
+          "headings": [
+            "Riquezas y opresión"
+          ]
         },
         {
           "number": 2,
@@ -138,7 +144,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Y dije: Les ruego que escuchen ahora, jefes de Jacob y gobernantes de la Casa de Israel: ¿No corresponde a ustedes conocer justicia?"
+          "text": "Y dije: Les ruego que escuchen ahora, jefes de Jacob y gobernantes de la Casa de Israel: ¿No corresponde a ustedes conocer justicia?",
+          "headings": [
+            "La ruina de Israel"
+          ]
         },
         {
           "number": 2,
@@ -191,7 +200,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Acontecerá en los últimos días que la Montaña de la Casa de Yavé será establecida como cabeza de las montañas y exaltada sobre las colinas. Los pueblos correrán a ella."
+          "text": "Acontecerá en los últimos días que la Montaña de la Casa de Yavé será establecida como cabeza de las montañas y exaltada sobre las colinas. Los pueblos correrán a ella.",
+          "headings": [
+            "El reino del Mesías"
+          ]
         },
         {
           "number": 2,
@@ -248,7 +260,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Reúnete ahora en tropas, oh hija de guerreros! Fuimos sitiados. Con vara herirán en la mejilla al Juez de Israel."
+          "text": "¡Reúnete ahora en tropas, oh hija de guerreros! Fuimos sitiados. Con vara herirán en la mejilla al Juez de Israel.",
+          "headings": [
+            "El Rey de paz"
+          ]
         },
         {
           "number": 2,
@@ -313,7 +328,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Les ruego que escuchen lo que dice Yavé : ¡Levántate, llama a juicio a las montañas, y que las colinas oigan tu voz!"
+          "text": "Les ruego que escuchen lo que dice Yavé : ¡Levántate, llama a juicio a las montañas, y que las colinas oigan tu voz!",
+          "headings": [
+            "Recordatorio"
+          ]
         },
         {
           "number": 2,
@@ -329,14 +347,14 @@
         },
         {
           "number": 5,
-          "text": "Recuerda, pueblo mío, lo que tramaba Balac, rey de Moab, y qué le respondió Balaam, hijo de Beor, desde Sitim hasta Gilgal. Recuerda para que reconozcas los hechos justicieros de Yavé.",
-          "headings": [
-            "Lo que pide Yavé"
-          ]
+          "text": "Recuerda, pueblo mío, lo que tramaba Balac, rey de Moab, y qué le respondió Balaam, hijo de Beor, desde Sitim hasta Gilgal. Recuerda para que reconozcas los hechos justicieros de Yavé."
         },
         {
           "number": 6,
-          "text": "¿Con qué me presentaré a Yavé y me postraré ante el ʼElohim Altísimo? ¿Me presentaré con holocaustos, con becerros añales?"
+          "text": "¿Con qué me presentaré a Yavé y me postraré ante el ʼElohim Altísimo? ¿Me presentaré con holocaustos, con becerros añales?",
+          "headings": [
+            "Lo que pide Yavé"
+          ]
         },
         {
           "number": 7,
@@ -385,7 +403,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Ay de mí! Porque soy como el último de los frutos de verano, como el rebusco después de la cosecha, cuando ya no queda racimo que comer. Mi alma deseó el fruto maduro."
+          "text": "¡Ay de mí! Porque soy como el último de los frutos de verano, como el rebusco después de la cosecha, cuando ya no queda racimo que comer. Mi alma deseó el fruto maduro.",
+          "headings": [
+            "Días finales"
+          ]
         },
         {
           "number": 2,
@@ -405,14 +426,14 @@
         },
         {
           "number": 6,
-          "text": "Porque el hijo deshonra al padre, la hija se levanta contra la madre y la nuera contra la suegra. Los enemigos del hombre son los de su propia casa.",
-          "headings": [
-            "Fidelidad"
-          ]
+          "text": "Porque el hijo deshonra al padre, la hija se levanta contra la madre y la nuera contra la suegra. Los enemigos del hombre son los de su propia casa."
         },
         {
           "number": 7,
-          "text": "Pero yo esperaré a Yavé. Esperaré al ʼElohim de mi salvación. ¡Mi ʼElohim me escuchará!"
+          "text": "Pero yo esperaré a Yavé. Esperaré al ʼElohim de mi salvación. ¡Mi ʼElohim me escuchará!",
+          "headings": [
+            "Fidelidad"
+          ]
         },
         {
           "number": 8,
@@ -436,14 +457,14 @@
         },
         {
           "number": 13,
-          "text": "Porque la tierra será asolada a causa de sus habitantes, como fruto de sus obras.",
-          "headings": [
-            "Restauración"
-          ]
+          "text": "Porque la tierra será asolada a causa de sus habitantes, como fruto de sus obras."
         },
         {
           "number": 14,
-          "text": "Apacienta a tu pueblo con tu cayado, el rebaño de tu posesión que vive solo en la montaña, en medio del bosque de la montaña Carmelo. Apacentarán sus rebaños en Basán y en Galaad, como en los tiempos antiguos."
+          "text": "Apacienta a tu pueblo con tu cayado, el rebaño de tu posesión que vive solo en la montaña, en medio del bosque de la montaña Carmelo. Apacentarán sus rebaños en Basán y en Galaad, como en los tiempos antiguos.",
+          "headings": [
+            "Restauración"
+          ]
         },
         {
           "number": 15,

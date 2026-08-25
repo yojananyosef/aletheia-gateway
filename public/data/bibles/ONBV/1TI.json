@@ -13,14 +13,14 @@
         },
         {
           "number": 2,
-          "text": "a Timoteo, mi verdadero hijo en la fe: Que Dios nuestro Padre y Cristo Jesús nuestro Señor te concedan su amor, misericordia y paz.",
-          "headings": [
-            "Advertencia contra los falsos maestros de la ley"
-          ]
+          "text": "a Timoteo, mi verdadero hijo en la fe: Que Dios nuestro Padre y Cristo Jesús nuestro Señor te concedan su amor, misericordia y paz."
         },
         {
           "number": 3,
-          "text": "Cuando salí para Macedonia, te encargué que te quedaras en Éfeso y les mandaras a algunos individuos que no enseñaran falsas doctrinas"
+          "text": "Cuando salí para Macedonia, te encargué que te quedaras en Éfeso y les mandaras a algunos individuos que no enseñaran falsas doctrinas",
+          "headings": [
+            "Advertencia contra los falsos maestros de la ley"
+          ]
         },
         {
           "number": 4,
@@ -52,14 +52,14 @@
         },
         {
           "number": 11,
-          "text": "del glorioso evangelio que el bendito Dios me ha confiado.",
-          "headings": [
-            "La gracia que el Señor dio a Pablo"
-          ]
+          "text": "del glorioso evangelio que el bendito Dios me ha confiado."
         },
         {
           "number": 12,
-          "text": "Mil gracias doy a Cristo Jesús, nuestro Señor, por escogerme como uno de sus mensajeros y darme la fortaleza necesaria para serle fiel."
+          "text": "Mil gracias doy a Cristo Jesús, nuestro Señor, por escogerme como uno de sus mensajeros y darme la fortaleza necesaria para serle fiel.",
+          "headings": [
+            "La gracia que el Señor dio a Pablo"
+          ]
         },
         {
           "number": 13,
@@ -100,7 +100,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Lo que recomiendo es que, en primer lugar, hagan oraciones por todos; rueguen y supliquen que Dios tenga misericordia de ellos, y denle gracias."
+          "text": "Lo que recomiendo es que, en primer lugar, hagan oraciones por todos; rueguen y supliquen que Dios tenga misericordia de ellos, y denle gracias.",
+          "headings": [
+            "Instrucciones sobre la adoración"
+          ]
         },
         {
           "number": 2,
@@ -165,7 +168,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Se ha dicho que si alguien desea ser obispo tiene una aspiración noble. Es cierto."
+          "text": "Se ha dicho que si alguien desea ser obispo tiene una aspiración noble. Es cierto.",
+          "headings": [
+            "Obispos y diáconos"
+          ]
         },
         {
           "number": 2,
@@ -234,7 +240,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero el Espíritu dice claramente que en los últimos tiempos algunos se apartarán de la fe y se convertirán en seguidores de ideas engañosas y doctrinas diabólicas."
+          "text": "Pero el Espíritu dice claramente que en los últimos tiempos algunos se apartarán de la fe y se convertirán en seguidores de ideas engañosas y doctrinas diabólicas.",
+          "headings": [
+            "Instrucciones a Timoteo"
+          ]
         },
         {
           "number": 2,
@@ -303,7 +312,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "No reprendas al anciano con dureza, sino exhórtalo con respeto, como a un padre; a los más jóvenes trátalos como a hermanos;"
+          "text": "No reprendas al anciano con dureza, sino exhórtalo con respeto, como a un padre; a los más jóvenes trátalos como a hermanos;",
+          "headings": [
+            "Cómo tratar a viudas, ancianos y esclavos"
+          ]
         },
         {
           "number": 2,
@@ -412,14 +424,14 @@
         },
         {
           "number": 2,
-          "text": "Los que tienen un amo que es creyente, no por eso deben faltarle al respeto. Al contrario, deben servirle mejor, pues con su trabajo están ayudando a un hermano en la fe. Enseña estas verdades y exhorta a que las pongan en práctica.",
-          "headings": [
-            "El amor al dinero"
-          ]
+          "text": "Los que tienen un amo que es creyente, no por eso deben faltarle al respeto. Al contrario, deben servirle mejor, pues con su trabajo están ayudando a un hermano en la fe. Enseña estas verdades y exhorta a que las pongan en práctica."
         },
         {
           "number": 3,
-          "text": "Si alguien enseña falsas doctrinas y se aparta de la sana enseñanza de nuestro Señor Jesucristo y de lo que enseña la verdadera religión,"
+          "text": "Si alguien enseña falsas doctrinas y se aparta de la sana enseñanza de nuestro Señor Jesucristo y de lo que enseña la verdadera religión,",
+          "headings": [
+            "El amor al dinero"
+          ]
         },
         {
           "number": 4,
@@ -447,14 +459,14 @@
         },
         {
           "number": 10,
-          "text": "porque ¡el amor al dinero es la raíz de todos los males! Hay quienes han dejado la fe por correr tras las riquezas y al fin se han causado a sí mismos muchísimos sufrimientos.",
-          "headings": [
-            "Encargo de Pablo a Timoteo"
-          ]
+          "text": "porque ¡el amor al dinero es la raíz de todos los males! Hay quienes han dejado la fe por correr tras las riquezas y al fin se han causado a sí mismos muchísimos sufrimientos."
         },
         {
           "number": 11,
-          "text": "Tú, en cambio, eres un hombre de Dios. Huye de estas cosas y dedícate de lleno a lo que es justo y bueno, a la fe y al amor, a la constancia y a la humildad."
+          "text": "Tú, en cambio, eres un hombre de Dios. Huye de estas cosas y dedícate de lleno a lo que es justo y bueno, a la fe y al amor, a la constancia y a la humildad.",
+          "headings": [
+            "Encargo de Pablo a Timoteo"
+          ]
         },
         {
           "number": 12,

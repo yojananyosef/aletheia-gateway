@@ -11,12 +11,15 @@
           "number": 1,
           "text": "Santiago, un esclavo de Dios y del Señor Jesucristo, a las 12 tribus que están en la dispersión. Saludos.",
           "headings": [
-            "La prueba de la fe"
+            "Saludo"
           ]
         },
         {
           "number": 2,
-          "text": "Hermanos míos, gócense profundamente cuando pasen por diversas pruebas,"
+          "text": "Hermanos míos, gócense profundamente cuando pasen por diversas pruebas,",
+          "headings": [
+            "La prueba de la fe"
+          ]
         },
         {
           "number": 3,
@@ -52,14 +55,14 @@
         },
         {
           "number": 11,
-          "text": "Porque el sol sale con calor abrasador, seca la hierba, su flor cae y perece la belleza de su apariencia. Así también el rico se marchitará en todos sus negocios.",
-          "headings": [
-            "Prueba y tentación"
-          ]
+          "text": "Porque el sol sale con calor abrasador, seca la hierba, su flor cae y perece la belleza de su apariencia. Así también el rico se marchitará en todos sus negocios."
         },
         {
           "number": 12,
-          "text": "Inmensamente feliz el varón que soporta la prueba, porque al ser aprobado, ganará la corona de la vida que Dios prometió a los que lo aman."
+          "text": "Inmensamente feliz el varón que soporta la prueba, porque al ser aprobado, ganará la corona de la vida que Dios prometió a los que lo aman.",
+          "headings": [
+            "Prueba y tentación"
+          ]
         },
         {
           "number": 13,
@@ -83,14 +86,14 @@
         },
         {
           "number": 18,
-          "text": "Por su voluntad, nos dio a luz por la Palabra de verdad para que seamos primicias de sus criaturas.",
-          "headings": [
-            "Hacedores"
-          ]
+          "text": "Por su voluntad, nos dio a luz por la Palabra de verdad para que seamos primicias de sus criaturas."
         },
         {
           "number": 19,
-          "text": "Sepan, mis amados hermanos: Todo ser humano sea pronto para escuchar, tardo para hablar, tardo para airarse,"
+          "text": "Sepan, mis amados hermanos: Todo ser humano sea pronto para escuchar, tardo para hablar, tardo para airarse,",
+          "headings": [
+            "Hacedores"
+          ]
         },
         {
           "number": 20,
@@ -131,7 +134,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hermanos míos, no practiquen la fe de nuestro glorioso Señor Jesucristo con acepción de personas."
+          "text": "Hermanos míos, no practiquen la fe de nuestro glorioso Señor Jesucristo con acepción de personas.",
+          "headings": [
+            "Contra la acepción de personas"
+          ]
         },
         {
           "number": 2,
@@ -179,14 +185,14 @@
         },
         {
           "number": 13,
-          "text": "Porque el juicio será sin misericordia para el que no tiene misericordia. La misericordia triunfa sobre el juicio.",
-          "headings": [
-            "Fe y obras"
-          ]
+          "text": "Porque el juicio será sin misericordia para el que no tiene misericordia. La misericordia triunfa sobre el juicio."
         },
         {
           "number": 14,
-          "text": "¿De qué vale, hermanos míos, cuando alguno diga que tiene fe y no tiene obras? ¿Esa fe puede salvarlo?"
+          "text": "¿De qué vale, hermanos míos, cuando alguno diga que tiene fe y no tiene obras? ¿Esa fe puede salvarlo?",
+          "headings": [
+            "Fe y obras"
+          ]
         },
         {
           "number": 15,
@@ -243,7 +249,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hermanos míos, no se promuevan muchos de ustedes como maestros, porque sabemos que recibiremos un juicio más severo."
+          "text": "Hermanos míos, no se promuevan muchos de ustedes como maestros, porque sabemos que recibiremos un juicio más severo.",
+          "headings": [
+            "La lengua"
+          ]
         },
         {
           "number": 2,
@@ -287,14 +296,14 @@
         },
         {
           "number": 12,
-          "text": "Hermanos míos, ¿puede una higuera producir aceitunas, o una vid higos? Tampoco un manantial salado puede producir agua dulce.",
-          "headings": [
-            "La sabiduría"
-          ]
+          "text": "Hermanos míos, ¿puede una higuera producir aceitunas, o una vid higos? Tampoco un manantial salado puede producir agua dulce."
         },
         {
           "number": 13,
-          "text": "¿Quién es sabio y entendido entre ustedes? Muestre la buena conducta por medio de sus hechos con gentileza sabia."
+          "text": "¿Quién es sabio y entendido entre ustedes? Muestre la buena conducta por medio de sus hechos con gentileza sabia.",
+          "headings": [
+            "La sabiduría"
+          ]
         },
         {
           "number": 14,
@@ -323,7 +332,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¿De dónde vienen las luchas y contiendas entre ustedes? ¿No vienen de sus pasiones, las cuales combaten como soldados en sus miembros?"
+          "text": "¿De dónde vienen las luchas y contiendas entre ustedes? ¿No vienen de sus pasiones, las cuales combaten como soldados en sus miembros?",
+          "headings": [
+            "Lo santo y lo profano"
+          ]
         },
         {
           "number": 2,
@@ -359,25 +371,25 @@
         },
         {
           "number": 10,
-          "text": "Humíllense ante el Señor, y Él los exaltará.",
+          "text": "Humíllense ante el Señor, y Él los exaltará."
+        },
+        {
+          "number": 11,
+          "text": "Hermanos, no hablen mal unos de otros. El que habla mal del hermano o que juzga a su hermano, habla mal de la Ley y juzga a la Ley. Si juzgas la Ley, ya no eres cumplidor de la Ley, sino juez.",
           "headings": [
             "Un solo Legislador y Juez"
           ]
         },
         {
-          "number": 11,
-          "text": "Hermanos, no hablen mal unos de otros. El que habla mal del hermano o que juzga a su hermano, habla mal de la Ley y juzga a la Ley. Si juzgas la Ley, ya no eres cumplidor de la Ley, sino juez."
-        },
-        {
           "number": 12,
-          "text": "Uno solo es el Legislador y Juez, Quien puede salvar y condenar. Pero tú, que juzgas al prójimo, ¿quién eres?",
-          "headings": [
-            "La vida como una neblina"
-          ]
+          "text": "Uno solo es el Legislador y Juez, Quien puede salvar y condenar. Pero tú, que juzgas al prójimo, ¿quién eres?"
         },
         {
           "number": 13,
-          "text": "Escuchen ahora los que dicen: Hoy o mañana iremos a tal y tal ciudad, estaremos allá un año, haremos negocios y ganaremos."
+          "text": "Escuchen ahora los que dicen: Hoy o mañana iremos a tal y tal ciudad, estaremos allá un año, haremos negocios y ganaremos.",
+          "headings": [
+            "La vida como una neblina"
+          ]
         },
         {
           "number": 14,
@@ -402,7 +414,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Vamos ahora a tratar con los ricos. ¡Lloren y laméntense por las miserias que les vienen!"
+          "text": "Vamos ahora a tratar con los ricos. ¡Lloren y laméntense por las miserias que les vienen!",
+          "headings": [
+            "Miseria de los ricos"
+          ]
         },
         {
           "number": 2,
@@ -422,14 +437,14 @@
         },
         {
           "number": 6,
-          "text": "Condenaron, asesinaron al justo, sin que él se opusiera.",
-          "headings": [
-            "Un Dios compasivo y misericordioso"
-          ]
+          "text": "Condenaron, asesinaron al justo, sin que él se opusiera."
         },
         {
           "number": 7,
-          "text": "Por tanto, hermanos, tengan paciencia hasta la venida del Señor. Observen cómo el labrador espera con paciencia el precioso fruto de la tierra hasta que llegue la lluvia temprana y tardía."
+          "text": "Por tanto, hermanos, tengan paciencia hasta la venida del Señor. Observen cómo el labrador espera con paciencia el precioso fruto de la tierra hasta que llegue la lluvia temprana y tardía.",
+          "headings": [
+            "Un Dios compasivo y misericordioso"
+          ]
         },
         {
           "number": 8,
@@ -445,14 +460,14 @@
         },
         {
           "number": 11,
-          "text": "Consideramos como inmensamente felices a los que sufren. Oyeron de la paciencia de Job, y vieron el propósito del Señor, porque el Señor es compasivo y misericordioso.",
-          "headings": [
-            "El juramento"
-          ]
+          "text": "Consideramos como inmensamente felices a los que sufren. Oyeron de la paciencia de Job, y vieron el propósito del Señor, porque el Señor es compasivo y misericordioso."
         },
         {
           "number": 12,
-          "text": "Pero sobre todas las cosas, hermanos míos, no juren por el cielo, ni por la tierra, ni por ningún otra cosa. Su sí sea sí, y su no sea no, para que no caigan en juicio."
+          "text": "Pero sobre todas las cosas, hermanos míos, no juren por el cielo, ni por la tierra, ni por ningún otra cosa. Su sí sea sí, y su no sea no, para que no caigan en juicio.",
+          "headings": [
+            "El juramento"
+          ]
         },
         {
           "number": 13,

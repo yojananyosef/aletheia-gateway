@@ -13,14 +13,14 @@
         },
         {
           "number": 2,
-          "text": "a los que Dios el Padre ama y ha llamado, y a quienes Jesucristo cuida: que Dios les dé en abundancia su misericordia, paz y amor.",
-          "headings": [
-            "Pecado y condenación de los impíos"
-          ]
+          "text": "a los que Dios el Padre ama y ha llamado, y a quienes Jesucristo cuida: que Dios les dé en abundancia su misericordia, paz y amor."
         },
         {
           "number": 3,
-          "text": "Amados, me había propuesto escribirles acerca de la salvación que Dios nos ha dado; pero ahora es preciso escribirles para que luchen y defiendan con firmeza la verdad que Dios, una vez y para siempre, dio a su santo pueblo."
+          "text": "Amados, me había propuesto escribirles acerca de la salvación que Dios nos ha dado; pero ahora es preciso escribirles para que luchen y defiendan con firmeza la verdad que Dios, una vez y para siempre, dio a su santo pueblo.",
+          "headings": [
+            "Pecado y condenación de los impíos"
+          ]
         },
         {
           "number": 4,
@@ -72,14 +72,14 @@
         },
         {
           "number": 16,
-          "text": "Estas personas son murmuradoras, nunca están satisfechas con nada; siguen siempre sus deseos egoístas y son tan arrogantes que cuando hablan bien de alguien es para sacarle algún beneficio.",
-          "headings": [
-            "Exhortación a la perseverancia"
-          ]
+          "text": "Estas personas son murmuradoras, nunca están satisfechas con nada; siguen siempre sus deseos egoístas y son tan arrogantes que cuando hablan bien de alguien es para sacarle algún beneficio."
         },
         {
           "number": 17,
-          "text": "Pero ustedes, amados, recuerden lo que los apóstoles de nuestro Señor Jesucristo ya les habían advertido:"
+          "text": "Pero ustedes, amados, recuerden lo que los apóstoles de nuestro Señor Jesucristo ya les habían advertido:",
+          "headings": [
+            "Exhortación a la perseverancia"
+          ]
         },
         {
           "number": 18,
@@ -103,16 +103,16 @@
         },
         {
           "number": 23,
-          "text": "salven a otros, arrebatándolos del fuego. Y en cuanto a los demás, sean bondadosos con ellos, pero tengan cuidado y no se dejen arrastrar por sus pecados.",
-          "headings": [
-            "Doxología"
-          ]
+          "text": "salven a otros, arrebatándolos del fuego. Y en cuanto a los demás, sean bondadosos con ellos, pero tengan cuidado y no se dejen arrastrar por sus pecados."
         },
         {
           "number": 24,
           "text": "Y ahora, que la gloria, la majestad, el imperio y la potencia sean eternamente del único Dios, Salvador nuestro por medio de Jesucristo, quien tiene poder para conservarlos sin caída y, con gran alegría, presentarlos sin tacha ante su gloriosa presencia. Amén.",
           "verseDisplay": "24-25",
-          "endNumber": 25
+          "endNumber": 25,
+          "headings": [
+            "Doxología"
+          ]
         }
       ]
     }

@@ -13,14 +13,14 @@
         },
         {
           "number": 2,
-          "text": "a Timoteo, mi amado hijo: Que Dios el Padre y Jesucristo nuestro Señor derramen en ti su gracia, su misericordia y su paz.",
-          "headings": [
-            "Exhortación a la fidelidad"
-          ]
+          "text": "a Timoteo, mi amado hijo: Que Dios el Padre y Jesucristo nuestro Señor derramen en ti su gracia, su misericordia y su paz."
         },
         {
           "number": 3,
-          "text": "¡Siempre doy gracias a Dios por ti, Timoteo! De día y de noche elevo oraciones por ti al Dios de mis antepasados. A él le sirvo con la conciencia limpia."
+          "text": "¡Siempre doy gracias a Dios por ti, Timoteo! De día y de noche elevo oraciones por ti al Dios de mis antepasados. A él le sirvo con la conciencia limpia.",
+          "headings": [
+            "Exhortación a la fidelidad"
+          ]
         },
         {
           "number": 4,
@@ -137,14 +137,14 @@
         },
         {
           "number": 13,
-          "text": "si no somos fieles, él se mantiene fiel a nosotros, porque no puede faltar a su promesa.",
-          "headings": [
-            "Un obrero aprobado por Dios"
-          ]
+          "text": "si no somos fieles, él se mantiene fiel a nosotros, porque no puede faltar a su promesa."
         },
         {
           "number": 14,
-          "text": "Recuérdales esto y encárgales delante de Dios que no discutan asuntos que no tienen importancia. Tales discusiones lo único que logran es hacer daño a los oyentes."
+          "text": "Recuérdales esto y encárgales delante de Dios que no discutan asuntos que no tienen importancia. Tales discusiones lo único que logran es hacer daño a los oyentes.",
+          "headings": [
+            "Un obrero aprobado por Dios"
+          ]
         },
         {
           "number": 15,
@@ -201,7 +201,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "También debes saber, Timoteo, que los últimos tiempos serán difíciles."
+          "text": "También debes saber, Timoteo, que los últimos tiempos serán difíciles.",
+          "headings": [
+            "La impiedad en los últimos días"
+          ]
         },
         {
           "number": 2,
@@ -233,14 +236,14 @@
         },
         {
           "number": 9,
-          "text": "Pero no siempre se saldrán con la suya. Un día, su estupidez quedará al descubierto ante todo el mundo, de la misma manera que les pasó a Janes y Jambres.",
-          "headings": [
-            "Encargo de Pablo a Timoteo"
-          ]
+          "text": "Pero no siempre se saldrán con la suya. Un día, su estupidez quedará al descubierto ante todo el mundo, de la misma manera que les pasó a Janes y Jambres."
         },
         {
           "number": 10,
-          "text": "Pero tú conoces muy bien mis enseñanzas y sabes cómo me comporto; sabes cuáles han sido siempre mis creencias y mis propósitos. Conoces mi fe en Cristo y cuánto he sufrido por él. Sabes del amor que te profeso y de mi paciencia."
+          "text": "Pero tú conoces muy bien mis enseñanzas y sabes cómo me comporto; sabes cuáles han sido siempre mis creencias y mis propósitos. Conoces mi fe en Cristo y cuánto he sufrido por él. Sabes del amor que te profeso y de mi paciencia.",
+          "headings": [
+            "Encargo de Pablo a Timoteo"
+          ]
         },
         {
           "number": 11,
@@ -305,14 +308,14 @@
         },
         {
           "number": 8,
-          "text": "Por lo demás, me espera la corona de justicia que el Señor, juez justo, me dará en aquel gran día. Y no sólo a mí, sino a todos los que con amor esperan su venida.",
-          "headings": [
-            "Instrucciones personales"
-          ]
+          "text": "Por lo demás, me espera la corona de justicia que el Señor, juez justo, me dará en aquel gran día. Y no sólo a mí, sino a todos los que con amor esperan su venida."
         },
         {
           "number": 9,
-          "text": "Haz todo lo que te sea posible para venir pronto a verme,"
+          "text": "Haz todo lo que te sea posible para venir pronto a verme,",
+          "headings": [
+            "Instrucciones personales"
+          ]
         },
         {
           "number": 10,
@@ -348,14 +351,14 @@
         },
         {
           "number": 18,
-          "text": "El Señor me librará de todo mal y me preservará para su reino celestial. A él sea la gloria por los siglos de los siglos. Amén.",
-          "headings": [
-            "Saludos finales"
-          ]
+          "text": "El Señor me librará de todo mal y me preservará para su reino celestial. A él sea la gloria por los siglos de los siglos. Amén."
         },
         {
           "number": 19,
-          "text": "Saluda en mi nombre a Priscila y a Aquila, y a los de la casa de Onesíforo."
+          "text": "Saluda en mi nombre a Priscila y a Aquila, y a los de la casa de Onesíforo.",
+          "headings": [
+            "Saludos finales"
+          ]
         },
         {
           "number": 20,

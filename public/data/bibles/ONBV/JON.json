@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor envió este mensaje a Jonás, hijo de Amitay:"
+          "text": "El Señor envió este mensaje a Jonás, hijo de Amitay:",
+          "headings": [
+            "Jonás desobedece al Señor"
+          ]
         },
         {
           "number": 2,
@@ -80,7 +83,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Jonás oró al Señor desde el vientre del pez:"
+          "text": "Entonces Jonás oró al Señor desde el vientre del pez:",
+          "headings": [
+            "Oración de Jonás"
+          ]
         },
         {
           "number": 2,
@@ -125,7 +131,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces el Señor le habló de nuevo a Jonás:"
+          "text": "Entonces el Señor le habló de nuevo a Jonás:",
+          "headings": [
+            "Jonás obedece al Señor"
+          ]
         },
         {
           "number": 2,
@@ -175,7 +184,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Esto hizo que Jonás se sintiera muy enojado."
+          "text": "Esto hizo que Jonás se sintiera muy enojado.",
+          "headings": [
+            "Enojo de Jonás"
+          ]
         },
         {
           "number": 2,

@@ -21,14 +21,14 @@
         },
         {
           "number": 4,
-          "text": "Por eso la Ley no tiene poder y la justicia no prevalece. El perverso encierra al justo, de modo que la justicia resulta pervertida.",
-          "headings": [
-            "Respuesta de Yavé"
-          ]
+          "text": "Por eso la Ley no tiene poder y la justicia no prevalece. El perverso encierra al justo, de modo que la justicia resulta pervertida."
         },
         {
           "number": 5,
-          "text": "Miren las naciones y observen. Sean asombrados, porque Yo haré una obra en sus días que, aun cuando se la cuenten, no la creerían."
+          "text": "Miren las naciones y observen. Sean asombrados, porque Yo haré una obra en sus días que, aun cuando se la cuenten, no la creerían.",
+          "headings": [
+            "Respuesta de Yavé"
+          ]
         },
         {
           "number": 6,
@@ -52,14 +52,14 @@
         },
         {
           "number": 11,
-          "text": "Luego ellos pasarán como huracán y ofenderán al atribuir su fuerza a su ʼeloha .",
-          "headings": [
-            "Contestación del profeta"
-          ]
+          "text": "Luego ellos pasarán como huracán y ofenderán al atribuir su fuerza a su ʼeloha ."
         },
         {
           "number": 12,
-          "text": "¡Oh Yavé, ʼElohim mío y Santo mío! No moriremos. Tú, Oh Yavé , los escogiste para juzgar, y Tú, oh Roca, los estableciste para corregir."
+          "text": "¡Oh Yavé, ʼElohim mío y Santo mío! No moriremos. Tú, Oh Yavé , los escogiste para juzgar, y Tú, oh Roca, los estableciste para corregir.",
+          "headings": [
+            "Contestación del profeta"
+          ]
         },
         {
           "number": 13,
@@ -90,12 +90,15 @@
           "number": 1,
           "text": "Me pondré sobre mi torre de vigilante. Me plantaré en mi muro y observaré desde arriba para ver lo que Él me dice y qué responde a mi queja.",
           "headings": [
-            "Respuesta de Yavé"
+            "Expectativa del profeta"
           ]
         },
         {
           "number": 2,
-          "text": "Y Yavé me respondió: Escribe la visión y escúlpela en tablillas, para que cualquiera la pueda leer con rapidez."
+          "text": "Y Yavé me respondió: Escribe la visión y escúlpela en tablillas, para que cualquiera la pueda leer con rapidez.",
+          "headings": [
+            "Respuesta de Yavé"
+          ]
         },
         {
           "number": 3,
@@ -176,7 +179,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oración del profeta Habacuc. En el tono de lamentaciones."
+          "text": "Oración del profeta Habacuc. En el tono de lamentaciones.",
+          "headings": [
+            "Salmo de conformidad con los planes de Yavé"
+          ]
         },
         {
           "number": 2,
@@ -248,10 +254,7 @@
         },
         {
           "number": 19,
-          "text": "¡Adonay Yavé es mi fortaleza! Él me da pies como de venados Y me hace andar en las alturas.",
-          "headings": [
-            "Al director del coro, con mis instrumentos de cuerda."
-          ]
+          "text": "¡Adonay Yavé es mi fortaleza! Él me da pies como de venados Y me hace andar en las alturas."
         }
       ]
     }

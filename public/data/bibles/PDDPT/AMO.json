@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Palabras de Amós, uno de los pastores de Tecoa. Visión que tuvo sobre Israel en los días de Uzías, rey de Judá, y en los días de Jeroboam, hijo de Joás, rey de Israel, dos años antes del terremoto."
+          "text": "Palabras de Amós, uno de los pastores de Tecoa. Visión que tuvo sobre Israel en los días de Uzías, rey de Judá, y en los días de Jeroboam, hijo de Joás, rey de Israel, dos años antes del terremoto.",
+          "headings": [
+            "Juicio contra las naciones vecinas"
+          ]
         },
         {
           "number": 2,
@@ -74,7 +77,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé dice: Por tres pecados de Moab, y por el cuarto, no revocaré su castigo: Porque quemó los huesos del rey de Edom hasta calcinarlos."
+          "text": "Yavé dice: Por tres pecados de Moab, y por el cuarto, no revocaré su castigo: Porque quemó los huesos del rey de Edom hasta calcinarlos.",
+          "headings": [
+            "Pecados de Moab, Judá e Israel"
+          ]
         },
         {
           "number": 2,
@@ -143,7 +149,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oh hijos de Israel, escuchen la palabra que Yavé habla contra ustedes, contra toda la familia que saqué de la tierra de Egipto:"
+          "text": "Oh hijos de Israel, escuchen la palabra que Yavé habla contra ustedes, contra toda la familia que saqué de la tierra de Egipto:",
+          "headings": [
+            "Gloria y tragedia de Israel"
+          ]
         },
         {
           "number": 2,
@@ -208,7 +217,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Escuchen estas palabras, vacas de Basán que están en la montaña de Samaria, quienes oprimen a los pobres, quebrantan a los necesitados y dicen a sus esposos: ¡Traigan para que bebamos!"
+          "text": "Escuchen estas palabras, vacas de Basán que están en la montaña de Samaria, quienes oprimen a los pobres, quebrantan a los necesitados y dicen a sus esposos: ¡Traigan para que bebamos!",
+          "headings": [
+            "Dureza de Israel"
+          ]
         },
         {
           "number": 2,
@@ -265,7 +277,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Escuchen la palabra que pronuncio como lamento por ustedes, oh Casa de Israel:"
+          "text": "Escuchen la palabra que pronuncio como lamento por ustedes, oh Casa de Israel:",
+          "headings": [
+            "Llamado al arrepentimiento"
+          ]
         },
         {
           "number": 2,
@@ -378,7 +393,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Ay de los que viven tranquilos en Sion, de los que confían en la montaña de Samaria y los notables y principales entre las naciones, a quienes la Casa de Israel acude!"
+          "text": "¡Ay de los que viven tranquilos en Sion, de los que confían en la montaña de Samaria y los notables y principales entre las naciones, a quienes la Casa de Israel acude!",
+          "headings": [
+            "Destrucción para Israel"
+          ]
         },
         {
           "number": 2,
@@ -439,7 +457,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "ʼAdonay Yavé me mostró esto: Ciertamente Él formaba un enjambre de langostas cuando comenzaba a brotar el pasto tardío. Y en verdad era el pasto tardío que viene después de la cosecha del rey."
+          "text": "ʼAdonay Yavé me mostró esto: Ciertamente Él formaba un enjambre de langostas cuando comenzaba a brotar el pasto tardío. Y en verdad era el pasto tardío que viene después de la cosecha del rey.",
+          "headings": [
+            "Langosta, fuego y plomada"
+          ]
         },
         {
           "number": 2,
@@ -512,7 +533,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "ʼAdonay Yavé me mostró: Mira ahí una cesta con frutas de verano."
+          "text": "ʼAdonay Yavé me mostró: Mira ahí una cesta con frutas de verano.",
+          "headings": [
+            "La fruta de verano"
+          ]
         },
         {
           "number": 2,
@@ -573,7 +597,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Vi a ʼAdonay en pie sobre el altar, y dijo: Golpea los capiteles para que se estremezcan las columnas. Destrózalos sobre las cabezas de todos. Mataré a espada hasta el último de ellos. No habrá quien huya o escape."
+          "text": "Vi a ʼAdonay en pie sobre el altar, y dijo: Golpea los capiteles para que se estremezcan las columnas. Destrózalos sobre las cabezas de todos. Mataré a espada hasta el último de ellos. No habrá quien huya o escape.",
+          "headings": [
+            "Ruina y restauración de Israel"
+          ]
         },
         {
           "number": 2,
@@ -609,14 +636,14 @@
         },
         {
           "number": 10,
-          "text": "Morirán por la espada todos los pecadores de mi pueblo que dicen: ¡El mal no se acercará ni caerá sobre nosotros!",
-          "headings": [
-            "El reino"
-          ]
+          "text": "Morirán por la espada todos los pecadores de mi pueblo que dicen: ¡El mal no se acercará ni caerá sobre nosotros!"
         },
         {
           "number": 11,
-          "text": "En aquel día levantaré el Tabernáculo caído de David. Cerraré sus brechas, reconstruiré sus ruinas y lo edificaré como en los días de antaño,"
+          "text": "En aquel día levantaré el Tabernáculo caído de David. Cerraré sus brechas, reconstruiré sus ruinas y lo edificaré como en los días de antaño,",
+          "headings": [
+            "El reino"
+          ]
         },
         {
           "number": 12,

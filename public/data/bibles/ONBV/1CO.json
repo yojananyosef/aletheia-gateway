@@ -17,14 +17,14 @@
         },
         {
           "number": 3,
-          "text": "Que Dios nuestro Padre y el Señor Jesucristo derramen en ustedes su amor y su paz.",
-          "headings": [
-            "Acción de gracias"
-          ]
+          "text": "Que Dios nuestro Padre y el Señor Jesucristo derramen en ustedes su amor y su paz."
         },
         {
           "number": 4,
-          "text": "No ceso de dar gracias a Dios que les concedió su amor por medio de Cristo."
+          "text": "No ceso de dar gracias a Dios que les concedió su amor por medio de Cristo.",
+          "headings": [
+            "Acción de gracias"
+          ]
         },
         {
           "number": 5,
@@ -44,14 +44,14 @@
         },
         {
           "number": 9,
-          "text": "Dios siempre cumple su palabra, y él los llamó a vivir unidos a su Hijo, Jesucristo, nuestro Señor.",
-          "headings": [
-            "Divisiones en la iglesia"
-          ]
+          "text": "Dios siempre cumple su palabra, y él los llamó a vivir unidos a su Hijo, Jesucristo, nuestro Señor."
         },
         {
           "number": 10,
-          "text": "Pero, amados hermanos, les suplico en el nombre de nuestro Señor Jesucristo que no discutan más, que reine entre ustedes la armonía y cesen las divisiones. Les ruego encarecidamente que mantengan la unidad en sus pensamientos y propósitos."
+          "text": "Pero, amados hermanos, les suplico en el nombre de nuestro Señor Jesucristo que no discutan más, que reine entre ustedes la armonía y cesen las divisiones. Les ruego encarecidamente que mantengan la unidad en sus pensamientos y propósitos.",
+          "headings": [
+            "Divisiones en la iglesia"
+          ]
         },
         {
           "number": 11,
@@ -79,14 +79,14 @@
         },
         {
           "number": 17,
-          "text": "porque Cristo no me envió a bautizar sino a predicar el evangelio. Es más, mi predicación fue sin usar discursos propios de la sabiduría humana, para que el mensaje de la cruz de Cristo no perdiera su eficacia.",
-          "headings": [
-            "Cristo, sabiduría y poder de Dios"
-          ]
+          "text": "porque Cristo no me envió a bautizar sino a predicar el evangelio. Es más, mi predicación fue sin usar discursos propios de la sabiduría humana, para que el mensaje de la cruz de Cristo no perdiera su eficacia."
         },
         {
           "number": 18,
-          "text": "Sé bien que, para los perdidos, el mensaje de la cruz es una locura, pero para los salvos, esto es, para nosotros, es poder de Dios,"
+          "text": "Sé bien que, para los perdidos, el mensaje de la cruz es una locura, pero para los salvos, esto es, para nosotros, es poder de Dios,",
+          "headings": [
+            "Cristo, sabiduría y poder de Dios"
+          ]
         },
         {
           "number": 19,
@@ -163,14 +163,14 @@
         },
         {
           "number": 5,
-          "text": "Prediqué así porque deseaba que la fe que naciera en ustedes dependiera del poder de Dios, no de la sabiduría de los seres humanos.",
-          "headings": [
-            "Sabiduría procedente del Espíritu"
-          ]
+          "text": "Prediqué así porque deseaba que la fe que naciera en ustedes dependiera del poder de Dios, no de la sabiduría de los seres humanos."
         },
         {
           "number": 6,
-          "text": "Sin embargo, cuando estoy entre cristianos maduros, imparto sabiduría; pero no la sabiduría de este mundo ni la de quienes lo gobiernan, que están destinados a desaparecer."
+          "text": "Sin embargo, cuando estoy entre cristianos maduros, imparto sabiduría; pero no la sabiduría de este mundo ni la de quienes lo gobiernan, que están destinados a desaparecer.",
+          "headings": [
+            "Sabiduría procedente del Espíritu"
+          ]
         },
         {
           "number": 7,
@@ -219,7 +219,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hermanos, les he estado hablando como si fueran niños en la vida cristiana, como si fueran inmaduros, y no he podido hablarles como a cristianos espirituales."
+          "text": "Hermanos, les he estado hablando como si fueran niños en la vida cristiana, como si fueran inmaduros, y no he podido hablarles como a cristianos espirituales.",
+          "headings": [
+            "Sobre las divisiones en la iglesia"
+          ]
         },
         {
           "number": 2,
@@ -316,7 +319,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Así que deben tenernos por siervos de Cristo encargados de impartir los secretos del Señor."
+          "text": "Así que deben tenernos por siervos de Cristo encargados de impartir los secretos del Señor.",
+          "headings": [
+            "Apóstoles de Cristo"
+          ]
         },
         {
           "number": 2,
@@ -405,7 +411,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por ahí se dice que entre ustedes hay un caso de inmoralidad sexual que ni aun los paganos lo cometen. Se dice que uno de ustedes tiene relaciones sexuales con la esposa de su padre."
+          "text": "Por ahí se dice que entre ustedes hay un caso de inmoralidad sexual que ni aun los paganos lo cometen. Se dice que uno de ustedes tiene relaciones sexuales con la esposa de su padre.",
+          "headings": [
+            "¡Expulsen al hermano inmoral!"
+          ]
         },
         {
           "number": 2,
@@ -462,7 +471,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¿Cómo es que ustedes, cuando tienen algo contra otro creyente, acuden a las autoridades paganas para que juzguen el asunto, en vez de acudir a los cristianos?"
+          "text": "¿Cómo es que ustedes, cuando tienen algo contra otro creyente, acuden a las autoridades paganas para que juzguen el asunto, en vez de acudir a los cristianos?",
+          "headings": [
+            "Pleitos entre creyentes"
+          ]
         },
         {
           "number": 2,
@@ -502,14 +514,14 @@
         },
         {
           "number": 11,
-          "text": "Varios de ustedes merecían antes estos calificativos, pero ya el Señor les lavó sus pecados, los santificó y los justificó en el nombre del Señor Jesucristo y por el Espíritu de nuestro Dios.",
-          "headings": [
-            "La inmoralidad sexual"
-          ]
+          "text": "Varios de ustedes merecían antes estos calificativos, pero ya el Señor les lavó sus pecados, los santificó y los justificó en el nombre del Señor Jesucristo y por el Espíritu de nuestro Dios."
         },
         {
           "number": 12,
-          "text": "«Todo me está permitido», pero no todo es para mi bien. «Todo me está permitido», pero no haré nada que luego pueda dominarme."
+          "text": "«Todo me está permitido», pero no todo es para mi bien. «Todo me está permitido», pero no haré nada que luego pueda dominarme.",
+          "headings": [
+            "La inmoralidad sexual"
+          ]
         },
         {
           "number": 13,
@@ -550,7 +562,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En cuanto a lo que me preguntaron por carta, les contesto: es mejor que no se casen."
+          "text": "En cuanto a lo que me preguntaron por carta, les contesto: es mejor que no se casen.",
+          "headings": [
+            "Consejos matrimoniales"
+          ]
         },
         {
           "number": 2,
@@ -715,7 +730,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Y ahora, pasemos a la pregunta en cuanto a si se debe comer o no lo que ha sido sacrificado a los ídolos. Es cierto que todos tenemos conocimiento. Sin embargo, el saberlo todo hace que nos sintamos orgullosos. Lo que se necesita es el amor que edifica."
+          "text": "Y ahora, pasemos a la pregunta en cuanto a si se debe comer o no lo que ha sido sacrificado a los ídolos. Es cierto que todos tenemos conocimiento. Sin embargo, el saberlo todo hace que nos sintamos orgullosos. Lo que se necesita es el amor que edifica.",
+          "headings": [
+            "Lo sacrificado a los ídolos"
+          ]
         },
         {
           "number": 2,
@@ -772,7 +790,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yo soy libre, soy apóstol, he visto al Señor con mis propios ojos y ustedes son el fruto de mi trabajo en el Señor."
+          "text": "Yo soy libre, soy apóstol, he visto al Señor con mis propios ojos y ustedes son el fruto de mi trabajo en el Señor.",
+          "headings": [
+            "Los derechos de un apóstol"
+          ]
         },
         {
           "number": 2,
@@ -885,7 +906,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "No quiero, hermanos que ignoren lo que le sucedió a nuestro pueblo siglos atrás, en el desierto. Todos estuvieron bajo la nube y todos atravesaron el mar."
+          "text": "No quiero, hermanos que ignoren lo que le sucedió a nuestro pueblo siglos atrás, en el desierto. Todos estuvieron bajo la nube y todos atravesaron el mar.",
+          "headings": [
+            "Advertencias basadas en la historia de Israel"
+          ]
         },
         {
           "number": 2,
@@ -933,14 +957,14 @@
         },
         {
           "number": 13,
-          "text": "Ustedes no han pasado por ninguna tentación que no sea común al género humano. Pero pueden estar confiados en la fidelidad de Dios, que no dejará que la tentación sea más fuerte de lo que puedan resistir. Dios les mostrará la manera de resistir la tentación y escapar de ella.",
-          "headings": [
-            "Las fiestas idólatras y la Cena del Señor"
-          ]
+          "text": "Ustedes no han pasado por ninguna tentación que no sea común al género humano. Pero pueden estar confiados en la fidelidad de Dios, que no dejará que la tentación sea más fuerte de lo que puedan resistir. Dios les mostrará la manera de resistir la tentación y escapar de ella."
         },
         {
           "number": 14,
-          "text": "Por lo tanto, hermanos amados, huyan de la idolatría."
+          "text": "Por lo tanto, hermanos amados, huyan de la idolatría.",
+          "headings": [
+            "Las fiestas idólatras y la Cena del Señor"
+          ]
         },
         {
           "number": 15,
@@ -972,14 +996,14 @@
         },
         {
           "number": 22,
-          "text": "¿Qué, pues? ¿Nos arriesgaremos a poner celoso al Señor? ¿Somos más fuertes que él?",
-          "headings": [
-            "La libertad del creyente"
-          ]
+          "text": "¿Qué, pues? ¿Nos arriesgaremos a poner celoso al Señor? ¿Somos más fuertes que él?"
         },
         {
           "number": 23,
-          "text": "Es verdad que «todo está permitido», pero no todo es provechoso ni edifica a los demás."
+          "text": "Es verdad que «todo está permitido», pero no todo es provechoso ni edifica a los demás.",
+          "headings": [
+            "La libertad del creyente"
+          ]
         },
         {
           "number": 24,
@@ -1028,14 +1052,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Sigan mi ejemplo, así como yo sigo el de Cristo.",
-          "headings": [
-            "Decoro en el culto"
-          ]
+          "text": "Sigan mi ejemplo, así como yo sigo el de Cristo."
         },
         {
           "number": 2,
-          "text": "Me alegra muchísimo, hermanos, que hayan recordado y puesto en práctica lo que les enseñé."
+          "text": "Me alegra muchísimo, hermanos, que hayan recordado y puesto en práctica lo que les enseñé.",
+          "headings": [
+            "Decoro en el culto"
+          ]
         },
         {
           "number": 3,
@@ -1091,14 +1115,14 @@
         },
         {
           "number": 16,
-          "text": "El que quiera discutir este asunto, que lo discuta. Pero debe tener en cuenta que nosotros no tenemos otra costumbre, ni tampoco las demás iglesias de Dios.",
-          "headings": [
-            "La Cena del Señor"
-          ]
+          "text": "El que quiera discutir este asunto, que lo discuta. Pero debe tener en cuenta que nosotros no tenemos otra costumbre, ni tampoco las demás iglesias de Dios."
         },
         {
           "number": 17,
-          "text": "En esto que ahora les voy a escribir no puedo felicitarlos: me han dicho que cuando se congregan, resulta más para mal que para bien."
+          "text": "En esto que ahora les voy a escribir no puedo felicitarlos: me han dicho que cuando se congregan, resulta más para mal que para bien.",
+          "headings": [
+            "La Cena del Señor"
+          ]
         },
         {
           "number": 18,
@@ -1175,7 +1199,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Y ahora, hermanos, deseo hablarles de los dones espirituales porque quiero que los entiendan bien."
+          "text": "Y ahora, hermanos, deseo hablarles de los dones espirituales porque quiero que los entiendan bien.",
+          "headings": [
+            "Los dones espirituales"
+          ]
         },
         {
           "number": 2,
@@ -1215,14 +1242,14 @@
         },
         {
           "number": 11,
-          "text": "Todo esto lo hace un mismo y único Espíritu, y él da tales dones y determina cuál ha de recibir cada uno.",
-          "headings": [
-            "Un cuerpo con muchos miembros"
-          ]
+          "text": "Todo esto lo hace un mismo y único Espíritu, y él da tales dones y determina cuál ha de recibir cada uno."
         },
         {
           "number": 12,
-          "text": "El cuerpo humano, aunque es uno, está compuesto de muchos miembros; y esos miembros, aunque son muchos, forman un solo cuerpo. Lo mismo sucede con el cuerpo de Cristo."
+          "text": "El cuerpo humano, aunque es uno, está compuesto de muchos miembros; y esos miembros, aunque son muchos, forman un solo cuerpo. Lo mismo sucede con el cuerpo de Cristo.",
+          "headings": [
+            "Un cuerpo con muchos miembros"
+          ]
         },
         {
           "number": 13,
@@ -1307,7 +1334,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Si yo tengo el don de hablar en lenguas humanas o angélicas y no tengo amor, soy como un metal que resuena o un platillo que hace ruido."
+          "text": "Si yo tengo el don de hablar en lenguas humanas o angélicas y no tengo amor, soy como un metal que resuena o un platillo que hace ruido.",
+          "headings": [
+            "El amor"
+          ]
         },
         {
           "number": 2,
@@ -1362,7 +1392,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Que el amor sea siempre para ustedes la más alta meta! Desde luego, busquen también los otros dones que da el Espíritu Santo, especialmente el don de profecía."
+          "text": "¡Que el amor sea siempre para ustedes la más alta meta! Desde luego, busquen también los otros dones que da el Espíritu Santo, especialmente el don de profecía.",
+          "headings": [
+            "El don de lenguas y el de profecía"
+          ]
         },
         {
           "number": 2,
@@ -1458,14 +1491,14 @@
         },
         {
           "number": 25,
-          "text": "sus más íntimos pensamientos saldrán a la luz, se postrará de rodillas a adorar a Dios y reconocerá que Dios de veras está entre ustedes.",
-          "headings": [
-            "Orden en los cultos"
-          ]
+          "text": "sus más íntimos pensamientos saldrán a la luz, se postrará de rodillas a adorar a Dios y reconocerá que Dios de veras está entre ustedes."
         },
         {
           "number": 26,
-          "text": "Bien, hermanos míos, resumamos. Cuando se reúnan, unos canten, otros enseñen o comuniquen lo que Dios les haya revelado o hablen en lenguas extrañas o interpreten lo que los otros dijeron en lenguas; pero que todo sirva para la edificación de la iglesia."
+          "text": "Bien, hermanos míos, resumamos. Cuando se reúnan, unos canten, otros enseñen o comuniquen lo que Dios les haya revelado o hablen en lenguas extrañas o interpreten lo que los otros dijeron en lenguas; pero que todo sirva para la edificación de la iglesia.",
+          "headings": [
+            "Orden en los cultos"
+          ]
         },
         {
           "number": 27,
@@ -1530,7 +1563,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Permítanme recordarles, hermanos, el evangelio que les prediqué antes. Ustedes lo aceptaron entonces, y perseveran en él."
+          "text": "Permítanme recordarles, hermanos, el evangelio que les prediqué antes. Ustedes lo aceptaron entonces, y perseveran en él.",
+          "headings": [
+            "La resurrección de Cristo"
+          ]
         },
         {
           "number": 2,
@@ -1570,14 +1606,14 @@
         },
         {
           "number": 11,
-          "text": "Pero no importa quién trabajó más, yo o ellos; lo importante es que les predicamos el evangelio y que ustedes lo creyeron.",
-          "headings": [
-            "La resurrección de los muertos"
-          ]
+          "text": "Pero no importa quién trabajó más, yo o ellos; lo importante es que les predicamos el evangelio y que ustedes lo creyeron."
         },
         {
           "number": 12,
-          "text": "Ahora bien, si se predica que Cristo resucitó, ¿por qué algunos andan diciendo que no existe la resurrección de los muertos?"
+          "text": "Ahora bien, si se predica que Cristo resucitó, ¿por qué algunos andan diciendo que no existe la resurrección de los muertos?",
+          "headings": [
+            "La resurrección de los muertos"
+          ]
         },
         {
           "number": 13,
@@ -1665,14 +1701,14 @@
         },
         {
           "number": 34,
-          "text": "Despierten y no pequen más, porque algunos de ustedes no conocen a Dios. Para avergonzarlos les digo eso.",
-          "headings": [
-            "El cuerpo resucitado"
-          ]
+          "text": "Despierten y no pequen más, porque algunos de ustedes no conocen a Dios. Para avergonzarlos les digo eso."
         },
         {
           "number": 35,
-          "text": "Quizás algunos se pregunten: «¿Cómo resucitarán los muertos? ¿Qué clase de cuerpo tendrán?»."
+          "text": "Quizás algunos se pregunten: «¿Cómo resucitarán los muertos? ¿Qué clase de cuerpo tendrán?».",
+          "headings": [
+            "El cuerpo resucitado"
+          ]
         },
         {
           "number": 36,
@@ -1773,7 +1809,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estas son las instrucciones en cuanto al dinero que están recogiendo para ayudar a los cristianos, instrucciones que di también a las iglesias de Galacia."
+          "text": "Estas son las instrucciones en cuanto al dinero que están recogiendo para ayudar a los cristianos, instrucciones que di también a las iglesias de Galacia.",
+          "headings": [
+            "La colecta para el pueblo de Dios"
+          ]
         },
         {
           "number": 2,
@@ -1785,14 +1824,14 @@
         },
         {
           "number": 4,
-          "text": "Si es conveniente que yo las acompañe, iré con ellas.",
-          "headings": [
-            "Encargos personales"
-          ]
+          "text": "Si es conveniente que yo las acompañe, iré con ellas."
         },
         {
           "number": 5,
-          "text": "Llegaré a visitarlos después que vaya a Macedonia."
+          "text": "Llegaré a visitarlos después que vaya a Macedonia.",
+          "headings": [
+            "Encargos personales"
+          ]
         },
         {
           "number": 6,
@@ -1844,14 +1883,14 @@
         },
         {
           "number": 18,
-          "text": "Me tranquilizaron muchísimo, lo mismo que a ustedes. Espero que ustedes reconozcan la obra que estos hermanos realizan.",
-          "headings": [
-            "Saludos finales"
-          ]
+          "text": "Me tranquilizaron muchísimo, lo mismo que a ustedes. Espero que ustedes reconozcan la obra que estos hermanos realizan."
         },
         {
           "number": 19,
-          "text": "Las iglesias de Asia les envían saludos. Aquila y Priscila les saludan con mucho afecto, y lo mismo hacen los hermanos que se reúnen en casa de ellos."
+          "text": "Las iglesias de Asia les envían saludos. Aquila y Priscila les saludan con mucho afecto, y lo mismo hacen los hermanos que se reúnen en casa de ellos.",
+          "headings": [
+            "Saludos finales"
+          ]
         },
         {
           "number": 20,

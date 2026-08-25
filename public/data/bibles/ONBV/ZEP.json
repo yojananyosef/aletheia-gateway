@@ -9,25 +9,25 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando Josías, hijo de Amón, reinaba en Judá, el Señor le dio un mensaje al profeta Sofonías. Este era hijo de Cusí, quien, a su vez, era hijo de Guedalías, nieto de Amarías y bisnieto de Ezequías.",
+          "text": "Cuando Josías, hijo de Amón, reinaba en Judá, el Señor le dio un mensaje al profeta Sofonías. Este era hijo de Cusí, quien, a su vez, era hijo de Guedalías, nieto de Amarías y bisnieto de Ezequías."
+        },
+        {
+          "number": 2,
+          "text": "«Arrasaré por completo con todo lo que hay sobre la tierra, dice el Señor .",
           "headings": [
             "Advertencia sobre la destrucción venidera"
           ]
         },
         {
-          "number": 2,
-          "text": "«Arrasaré por completo con todo lo que hay sobre la tierra, dice el Señor ."
-        },
-        {
           "number": 3,
-          "text": "»Arrasaré con hombres y animales por igual. Los ídolos y quienes los adoran desaparecerán de la tierra. Aun las aves del cielo y los peces del mar perecerán. Acabaré con los habitantes de toda la tierra, dice el Señor .",
-          "headings": [
-            "Juicio contra Judá"
-          ]
+          "text": "»Arrasaré con hombres y animales por igual. Los ídolos y quienes los adoran desaparecerán de la tierra. Aun las aves del cielo y los peces del mar perecerán. Acabaré con los habitantes de toda la tierra, dice el Señor ."
         },
         {
           "number": 4,
-          "text": "»Aplastaré a Judá, junto con Jerusalén, con mi puño, y destruiré a todos los que rinden homenaje a Baal. Acabaré con los sacerdotes idólatras, de manera que hasta el recuerdo de ellos desaparecerá."
+          "text": "»Aplastaré a Judá, junto con Jerusalén, con mi puño, y destruiré a todos los que rinden homenaje a Baal. Acabaré con los sacerdotes idólatras, de manera que hasta el recuerdo de ellos desaparecerá.",
+          "headings": [
+            "Juicio contra Judá"
+          ]
         },
         {
           "number": 5,
@@ -63,14 +63,14 @@
         },
         {
           "number": 13,
-          "text": "Estos mismos verán cómo sus riquezas cambian de dueño, verán cómo sus casas son destruidas. No tendrán jamás la oportunidad de vivir en las casas nuevas que edificaron. No podrán beber el fruto de los viñedos que plantaron.",
-          "headings": [
-            "El gran día del Señor"
-          ]
+          "text": "Estos mismos verán cómo sus riquezas cambian de dueño, verán cómo sus casas son destruidas. No tendrán jamás la oportunidad de vivir en las casas nuevas que edificaron. No podrán beber el fruto de los viñedos que plantaron."
         },
         {
           "number": 14,
-          "text": "»Ese día terrible del Señor está cerca. ¡Se acerca rápidamente! Ese día será tan horrible que hasta los más valientes llorarán amargamente y habrá alboroto por todos lados."
+          "text": "»Ese día terrible del Señor está cerca. ¡Se acerca rápidamente! Ese día será tan horrible que hasta los más valientes llorarán amargamente y habrá alboroto por todos lados.",
+          "headings": [
+            "El gran día del Señor"
+          ]
         },
         {
           "number": 15,
@@ -103,14 +103,14 @@
         },
         {
           "number": 3,
-          "text": "Ustedes, los humildes del país, los que aun procuran vivir de acuerdo a las instrucciones del Señor , practiquen la justicia y vivan con humildad. Quizá así puedan ser salvados el día en que el Señor desate su castigo.",
-          "headings": [
-            "Juicio contra los filisteos"
-          ]
+          "text": "Ustedes, los humildes del país, los que aun procuran vivir de acuerdo a las instrucciones del Señor , practiquen la justicia y vivan con humildad. Quizá así puedan ser salvados el día en que el Señor desate su castigo."
         },
         {
           "number": 4,
-          "text": "Gaza, Ascalón, Asdod y Ecrón, ciudades filisteas, también serán castigadas y dejadas en completa desolación."
+          "text": "Gaza, Ascalón, Asdod y Ecrón, ciudades filisteas, también serán castigadas y dejadas en completa desolación.",
+          "headings": [
+            "Juicio contra los filisteos"
+          ]
         },
         {
           "number": 5,
@@ -122,14 +122,14 @@
         },
         {
           "number": 7,
-          "text": "Allí será reubicado el pequeño grupo de sobrevivientes de Judá. Reposarán en las casas abandonadas de Ascalón. Y es que el Señor Dios visitará a su pueblo con su misericordia y nuevamente restaurará su prosperidad.",
-          "headings": [
-            "Juicio contra Moab y Amón"
-          ]
+          "text": "Allí será reubicado el pequeño grupo de sobrevivientes de Judá. Reposarán en las casas abandonadas de Ascalón. Y es que el Señor Dios visitará a su pueblo con su misericordia y nuevamente restaurará su prosperidad."
         },
         {
           "number": 8,
-          "text": "«He oído las burlas de Moab y de Amón, que insultaban a mi pueblo e invadían su territorio."
+          "text": "«He oído las burlas de Moab y de Amón, que insultaban a mi pueblo e invadían su territorio.",
+          "headings": [
+            "Juicio contra Moab y Amón"
+          ]
         },
         {
           "number": 9,
@@ -141,21 +141,21 @@
         },
         {
           "number": 11,
-          "text": "El Señor les hará cosas terribles. Destruirá todos los dioses de las potencias extranjeras, y luego todos los habitantes de la tierra, hasta los que viven muy lejos, rendirán homenaje al Señor , cada uno en su propio país.",
-          "headings": [
-            "Juicio contra Cus"
-          ]
+          "text": "El Señor les hará cosas terribles. Destruirá todos los dioses de las potencias extranjeras, y luego todos los habitantes de la tierra, hasta los que viven muy lejos, rendirán homenaje al Señor , cada uno en su propio país."
         },
         {
           "number": 12,
           "text": "«También ustedes, los de Etiopía, serán muertos por el ataque poderoso del Señor ».",
           "headings": [
-            "Juicio contra Asiria"
+            "Juicio contra Cus"
           ]
         },
         {
           "number": 13,
-          "text": "El Señor también castigará al país del norte; sí, él destruirá a Asiria y hará que Nínive, su gran capital, quede convertida en tierra desolada como si fuera un desierto."
+          "text": "El Señor también castigará al país del norte; sí, él destruirá a Asiria y hará que Nínive, su gran capital, quede convertida en tierra desolada como si fuera un desierto.",
+          "headings": [
+            "Juicio contra Asiria"
+          ]
         },
         {
           "number": 14,
@@ -172,7 +172,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Pobre de Jerusalén, que es una ciudad rebelde, llena de maldad y opresión!"
+          "text": "¡Pobre de Jerusalén, que es una ciudad rebelde, llena de maldad y opresión!",
+          "headings": [
+            "El futuro de Jerusalén"
+          ]
         },
         {
           "number": 2,

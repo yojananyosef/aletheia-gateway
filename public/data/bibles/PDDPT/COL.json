@@ -9,18 +9,21 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo, un apóstol de Jesucristo por la voluntad de Dios, y el hermano Timoteo,"
-        },
-        {
-          "number": 2,
-          "text": "a los santos y fieles hermanos en Cristo de Colosas. Gracia y paz a ustedes de Dios nuestro Padre.",
+          "text": "Pablo, un apóstol de Jesucristo por la voluntad de Dios, y el hermano Timoteo,",
           "headings": [
-            "Gratitud"
+            "Saludo"
           ]
         },
         {
+          "number": 2,
+          "text": "a los santos y fieles hermanos en Cristo de Colosas. Gracia y paz a ustedes de Dios nuestro Padre."
+        },
+        {
           "number": 3,
-          "text": "Siempre le damos gracias a Dios, Padre de nuestro Señor Jesucristo, cuando hablamos con Él a favor de ustedes."
+          "text": "Siempre le damos gracias a Dios, Padre de nuestro Señor Jesucristo, cuando hablamos con Él a favor de ustedes.",
+          "headings": [
+            "Gratitud"
+          ]
         },
         {
           "number": 4,
@@ -40,14 +43,14 @@
         },
         {
           "number": 8,
-          "text": "Él nos declaró el amor de ustedes en el Espíritu.",
-          "headings": [
-            "Conversación con Dios"
-          ]
+          "text": "Él nos declaró el amor de ustedes en el Espíritu."
         },
         {
           "number": 9,
-          "text": "Por esto también nosotros, desde el día cuando oímos, no nos cansamos de hablar con Dios y pedir que ustedes sean llenos del pleno conocimiento de su voluntad en toda sabiduría y entendimiento espiritual,"
+          "text": "Por esto también nosotros, desde el día cuando oímos, no nos cansamos de hablar con Dios y pedir que ustedes sean llenos del pleno conocimiento de su voluntad en toda sabiduría y entendimiento espiritual,",
+          "headings": [
+            "Conversación con Dios"
+          ]
         },
         {
           "number": 10,
@@ -67,14 +70,14 @@
         },
         {
           "number": 14,
-          "text": "En Él tenemos la redención, el perdón de los pecados.",
-          "headings": [
-            "Grandeza de Cristo"
-          ]
+          "text": "En Él tenemos la redención, el perdón de los pecados."
         },
         {
           "number": 15,
-          "text": "Él es la Imagen del Dios invisible, Primogénito de toda creación."
+          "text": "Él es la Imagen del Dios invisible, Primogénito de toda creación.",
+          "headings": [
+            "Grandeza de Cristo"
+          ]
         },
         {
           "number": 16,
@@ -106,14 +109,14 @@
         },
         {
           "number": 23,
-          "text": "si en verdad permanecen fortalecidos, firmes en la fe y sin moverse de la esperanza de las Buenas Noticias que oyeron, proclamadas en toda la creación debajo del cielo, de las cuales yo, Pablo, soy ministro.",
-          "headings": [
-            "Cristo, la esperanza de gloria"
-          ]
+          "text": "si en verdad permanecen fortalecidos, firmes en la fe y sin moverse de la esperanza de las Buenas Noticias que oyeron, proclamadas en toda la creación debajo del cielo, de las cuales yo, Pablo, soy ministro."
         },
         {
           "number": 24,
-          "text": "Ahora me regocijo en mis sufrimientos por ustedes. Completo en mi cuerpo lo que falta de las aflicciones de Cristo por su cuerpo, que es la iglesia,"
+          "text": "Ahora me regocijo en mis sufrimientos por ustedes. Completo en mi cuerpo lo que falta de las aflicciones de Cristo por su cuerpo, que es la iglesia,",
+          "headings": [
+            "Cristo, la esperanza de gloria"
+          ]
         },
         {
           "number": 25,
@@ -142,7 +145,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Porque quiero que ustedes sepan cuán grande lucha tengo por ustedes, por los que están en Laodicea y por todos los que no me han visto,"
+          "text": "Porque quiero que ustedes sepan cuán grande lucha tengo por ustedes, por los que están en Laodicea y por todos los que no me han visto,",
+          "headings": [
+            "El misterio de Dios"
+          ]
         },
         {
           "number": 2,
@@ -166,14 +172,14 @@
         },
         {
           "number": 7,
-          "text": "arraigados y edificados en Él, establecidos en la fe como se les enseñó. Abunden en acción de gracias.",
-          "headings": [
-            "La plenitud de la Deidad"
-          ]
+          "text": "arraigados y edificados en Él, establecidos en la fe como se les enseñó. Abunden en acción de gracias."
         },
         {
           "number": 8,
-          "text": "Tengan cuidado no sea que se presente alguno que los lleve como esclavos por medio de filosofías y vanas sutilezas, según la tradición de los hombres, conforme a los rudimentos del mundo y no según Cristo."
+          "text": "Tengan cuidado no sea que se presente alguno que los lleve como esclavos por medio de filosofías y vanas sutilezas, según la tradición de los hombres, conforme a los rudimentos del mundo y no según Cristo.",
+          "headings": [
+            "La plenitud de la Deidad"
+          ]
         },
         {
           "number": 9,
@@ -201,14 +207,14 @@
         },
         {
           "number": 15,
-          "text": "Desarmó en ella a los principados y a las jurisdicciones. Al dirigir un desfile triunfal, los expuso en público y triunfó sobre ellos en la cruz.",
-          "headings": [
-            "Contra enseñanzas falsas"
-          ]
+          "text": "Desarmó en ella a los principados y a las jurisdicciones. Al dirigir un desfile triunfal, los expuso en público y triunfó sobre ellos en la cruz."
         },
         {
           "number": 16,
-          "text": "Nadie, pues, los juzgue en comida, ni en bebida, ni con respecto a fiesta, o luna nueva, o sábados,"
+          "text": "Nadie, pues, los juzgue en comida, ni en bebida, ni con respecto a fiesta, o luna nueva, o sábados,",
+          "headings": [
+            "Contra enseñanzas falsas"
+          ]
         },
         {
           "number": 17,
@@ -245,7 +251,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Si fueron resucitados con Cristo, busquen las cosas de arriba, donde Cristo está sentado a la mano derecha de Dios."
+          "text": "Si fueron resucitados con Cristo, busquen las cosas de arriba, donde Cristo está sentado a la mano derecha de Dios.",
+          "headings": [
+            "Compromiso del cristiano con Cristo"
+          ]
         },
         {
           "number": 2,
@@ -273,14 +282,14 @@
         },
         {
           "number": 8,
-          "text": "Pero ahora, despójense también de todas estas cosas: ira, enojo, malicia, maledicencia y lenguaje obsceno de su boca.",
-          "headings": [
-            "La vestidura del cristiano"
-          ]
+          "text": "Pero ahora, despójense también de todas estas cosas: ira, enojo, malicia, maledicencia y lenguaje obsceno de su boca."
         },
         {
           "number": 9,
-          "text": "Después de despojarse el viejo ser con sus prácticas, no se mientan unos a otros."
+          "text": "Después de despojarse el viejo ser con sus prácticas, no se mientan unos a otros.",
+          "headings": [
+            "La vestidura del cristiano"
+          ]
         },
         {
           "number": 10,
@@ -319,14 +328,14 @@
         },
         {
           "number": 17,
-          "text": "Todo lo que hagan , en palabra y en obra, háganlo en el Nombre del Señor Jesús y den gracias a Dios Padre por medio de Él.",
-          "headings": [
-            "Consejos para la familia"
-          ]
+          "text": "Todo lo que hagan , en palabra y en obra, háganlo en el Nombre del Señor Jesús y den gracias a Dios Padre por medio de Él."
         },
         {
           "number": 18,
-          "text": "Las esposas sométanse a los esposos, como conviene en el Señor."
+          "text": "Las esposas sométanse a los esposos, como conviene en el Señor.",
+          "headings": [
+            "Consejos para la familia"
+          ]
         },
         {
           "number": 19,
@@ -383,14 +392,14 @@
         },
         {
           "number": 6,
-          "text": "La palabra de ustedes sea siempre con gracia, sazonada con sal para que sepan cómo les conviene responder.",
-          "headings": [
-            "Despedida"
-          ]
+          "text": "La palabra de ustedes sea siempre con gracia, sazonada con sal para que sepan cómo les conviene responder."
         },
         {
           "number": 7,
-          "text": "Todas las cosas con respecto a mí se las informará Tíquico, el hermano amado, fiel ministro y consiervo en el Señor,"
+          "text": "Todas las cosas con respecto a mí se las informará Tíquico, el hermano amado, fiel ministro y consiervo en el Señor,",
+          "headings": [
+            "Despedida"
+          ]
         },
         {
           "number": 8,

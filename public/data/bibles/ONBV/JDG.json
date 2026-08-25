@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de la muerte de Josué, la gente de Israel se presentó delante del Señor para pedirle instrucciones. ―¿Cuál de las tribus será la primera en salir a pelear contra los cananeos? —preguntaron."
+          "text": "Después de la muerte de Josué, la gente de Israel se presentó delante del Señor para pedirle instrucciones. ―¿Cuál de las tribus será la primera en salir a pelear contra los cananeos? —preguntaron.",
+          "headings": [
+            "Israel continúa su lucha contra los cananeos"
+          ]
         },
         {
           "number": 2,
@@ -150,7 +153,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día el ángel del Señor llegó a Boquín, desde Guilgal y anunció al pueblo de Israel: «Los saqué de Egipto, los hice entrar en esta tierra que prometí a sus antepasados, y dije que jamás quebrantaría mi pacto con ustedes"
+          "text": "Un día el ángel del Señor llegó a Boquín, desde Guilgal y anunció al pueblo de Israel: «Los saqué de Egipto, los hice entrar en esta tierra que prometí a sus antepasados, y dije que jamás quebrantaría mi pacto con ustedes",
+          "headings": [
+            "El ángel del Señor en Boquín"
+          ]
         },
         {
           "number": 2,
@@ -166,14 +172,14 @@
         },
         {
           "number": 5,
-          "text": "Por eso le pusieron al lugar Boquín (Lugar donde el pueblo lloró). Luego ofrecieron allí sacrificios al Señor .",
-          "headings": [
-            "Desobediencia y derrota"
-          ]
+          "text": "Por eso le pusieron al lugar Boquín (Lugar donde el pueblo lloró). Luego ofrecieron allí sacrificios al Señor ."
         },
         {
           "number": 6,
-          "text": "Josué envió de regreso a los israelitas, cada tribu pasó a su nuevo territorio y tomó posesión de la tierra."
+          "text": "Josué envió de regreso a los israelitas, cada tribu pasó a su nuevo territorio y tomó posesión de la tierra.",
+          "headings": [
+            "Desobediencia y derrota"
+          ]
         },
         {
           "number": 7,
@@ -258,14 +264,14 @@
         },
         {
           "number": 6,
-          "text": "y comenzaron a mezclarse con ellos. Los jóvenes de Israel se casaban con las mujeres de esos pueblos, y las israelitas se casaban con los hombres del lugar. Pronto todo Israel estuvo adorando a sus dioses.",
-          "headings": [
-            "Otoniel"
-          ]
+          "text": "y comenzaron a mezclarse con ellos. Los jóvenes de Israel se casaban con las mujeres de esos pueblos, y las israelitas se casaban con los hombres del lugar. Pronto todo Israel estuvo adorando a sus dioses."
         },
         {
           "number": 7,
-          "text": "El pueblo de Israel hizo lo malo delante de los ojos de Dios, porque se volvieron contra el Señor su Dios y adoraron a Baal y a los ídolos de Aserá."
+          "text": "El pueblo de Israel hizo lo malo delante de los ojos de Dios, porque se volvieron contra el Señor su Dios y adoraron a Baal y a los ídolos de Aserá.",
+          "headings": [
+            "Otoniel"
+          ]
         },
         {
           "number": 8,
@@ -285,14 +291,14 @@
         },
         {
           "number": 12,
-          "text": "Israel se volvió una vez más a sus malos caminos. En consecuencia, el Señor ayudó a Eglón, rey de Moab a conquistar parte de Israel.",
-          "headings": [
-            "Aod"
-          ]
+          "text": "Israel se volvió una vez más a sus malos caminos. En consecuencia, el Señor ayudó a Eglón, rey de Moab a conquistar parte de Israel."
         },
         {
           "number": 13,
-          "text": "Con él se aliaron los amonitas y los amalecitas, y derrotaron a los israelitas y tomaron posesión de Jericó, la Ciudad de las Palmeras."
+          "text": "Con él se aliaron los amonitas y los amalecitas, y derrotaron a los israelitas y tomaron posesión de Jericó, la Ciudad de las Palmeras.",
+          "headings": [
+            "Aod"
+          ]
         },
         {
           "number": 14,
@@ -352,14 +358,14 @@
         },
         {
           "number": 30,
-          "text": "Moab fue conquistada por Israel aquel día, y la tierra tuvo paz durante los siguientes ochenta años.",
-          "headings": [
-            "Samgar"
-          ]
+          "text": "Moab fue conquistada por Israel aquel día, y la tierra tuvo paz durante los siguientes ochenta años."
         },
         {
           "number": 31,
-          "text": "Después de Aod fue juez Samgar, hijo de Anat, el cual una vez dio muerte a seiscientos filisteos con una vara para arrear bueyes, y salvó a Israel de un desastre."
+          "text": "Después de Aod fue juez Samgar, hijo de Anat, el cual una vez dio muerte a seiscientos filisteos con una vara para arrear bueyes, y salvó a Israel de un desastre.",
+          "headings": [
+            "Samgar"
+          ]
         }
       ]
     },
@@ -368,7 +374,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de la muerte de Aod, el pueblo de Israel volvió a pecar contra el Señor ,"
+          "text": "Después de la muerte de Aod, el pueblo de Israel volvió a pecar contra el Señor ,",
+          "headings": [
+            "Débora"
+          ]
         },
         {
           "number": 2,
@@ -469,7 +478,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Débora y Barac cantaron esta canción:"
+          "text": "Entonces Débora y Barac cantaron esta canción:",
+          "headings": [
+            "La canción de Débora"
+          ]
         },
         {
           "number": 2,
@@ -598,7 +610,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero el pueblo de Israel comenzó una vez más a adorar a otros dioses, y una vez más el Señor los entregó en mano de sus enemigos para que los oprimieran. Esta vez fue el pueblo de Madián, y lo hizo durante siete años."
+          "text": "Pero el pueblo de Israel comenzó una vez más a adorar a otros dioses, y una vez más el Señor los entregó en mano de sus enemigos para que los oprimieran. Esta vez fue el pueblo de Madián, y lo hizo durante siete años.",
+          "headings": [
+            "Gedeón"
+          ]
         },
         {
           "number": 2,
@@ -761,7 +776,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yerubaal (el otro nombre de Gedeón) y sus hombres se levantaron temprano y avanzaron hasta los manantiales de Arod. El ejército madianita estaba acampado al norte de ellos, en el valle cerca de la colina de Moré."
+          "text": "Yerubaal (el otro nombre de Gedeón) y sus hombres se levantaron temprano y avanzaron hasta los manantiales de Arod. El ejército madianita estaba acampado al norte de ellos, en el valle cerca de la colina de Moré.",
+          "headings": [
+            "Gedeón derrota a los madianitas"
+          ]
         },
         {
           "number": 2,
@@ -864,7 +882,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero los jefes de la tribu de Efraín estaban airados con Gedeón. ―¿Por qué no nos llamaste la primera vez que saliste a pelear contra los madianitas? —le preguntaron."
+          "text": "Pero los jefes de la tribu de Efraín estaban airados con Gedeón. ―¿Por qué no nos llamaste la primera vez que saliste a pelear contra los madianitas? —le preguntaron.",
+          "headings": [
+            "Zeba y Zalmuna"
+          ]
         },
         {
           "number": 2,
@@ -942,14 +963,14 @@
         },
         {
           "number": 21,
-          "text": "Zeba y Zalmuna le dijeron a Gedeón: ―Hazlo tú mismo; preferimos que nos mate un hombre. Entonces Gedeón los mató y sacó los adornos de los cuellos de sus camellos.",
-          "headings": [
-            "El efod de Gedeón"
-          ]
+          "text": "Zeba y Zalmuna le dijeron a Gedeón: ―Hazlo tú mismo; preferimos que nos mate un hombre. Entonces Gedeón los mató y sacó los adornos de los cuellos de sus camellos."
         },
         {
           "number": 22,
-          "text": "Más tarde los hombres de Israel le dijeron a Gedeón: ―Sé nuestro rey. Tú, tus descendientes y todos tus hijos reinen sobre nosotros, por cuanto nos has salvado de Madián."
+          "text": "Más tarde los hombres de Israel le dijeron a Gedeón: ―Sé nuestro rey. Tú, tus descendientes y todos tus hijos reinen sobre nosotros, por cuanto nos has salvado de Madián.",
+          "headings": [
+            "El efod de Gedeón"
+          ]
         },
         {
           "number": 23,
@@ -973,14 +994,14 @@
         },
         {
           "number": 28,
-          "text": "Este es el relato de cómo Madián fue subyugado por Israel. Madián jamás se recobró y la tierra tuvo paz durante cuarenta años, mientras vivió Gedeón.",
-          "headings": [
-            "Muerte de Gedeón"
-          ]
+          "text": "Este es el relato de cómo Madián fue subyugado por Israel. Madián jamás se recobró y la tierra tuvo paz durante cuarenta años, mientras vivió Gedeón."
         },
         {
           "number": 29,
-          "text": "Gedeón regresó a su tierra"
+          "text": "Gedeón regresó a su tierra",
+          "headings": [
+            "Muerte de Gedeón"
+          ]
         },
         {
           "number": 30,
@@ -1013,7 +1034,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día Abimélec, hijo de Gedeón, visitó a sus tíos, los hermanos de su madre, en Siquén."
+          "text": "Un día Abimélec, hijo de Gedeón, visitó a sus tíos, los hermanos de su madre, en Siquén.",
+          "headings": [
+            "Abimélec"
+          ]
         },
         {
           "number": 2,
@@ -1242,18 +1266,21 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de la muerte de Abimélec, el juez de Israel fue Tola, hijo de Fuvá y nieto de Dodó. Era de la tribu de Isacar, pero vivía en la ciudad de Samir en el monte de Efraín."
-        },
-        {
-          "number": 2,
-          "text": "Fue juez en Israel durante veintitrés años. Cuando murió, fue sepultado en Samir.",
+          "text": "Después de la muerte de Abimélec, el juez de Israel fue Tola, hijo de Fuvá y nieto de Dodó. Era de la tribu de Isacar, pero vivía en la ciudad de Samir en el monte de Efraín.",
           "headings": [
-            "Yaír"
+            "Tola"
           ]
         },
         {
+          "number": 2,
+          "text": "Fue juez en Israel durante veintitrés años. Cuando murió, fue sepultado en Samir."
+        },
+        {
           "number": 3,
-          "text": "A Tola lo sucedió Yaír, un hombre de Galaad que juzgó a Israel durante veintidós años."
+          "text": "A Tola lo sucedió Yaír, un hombre de Galaad que juzgó a Israel durante veintidós años.",
+          "headings": [
+            "Yaír"
+          ]
         },
         {
           "number": 4,
@@ -1261,14 +1288,14 @@
         },
         {
           "number": 5,
-          "text": "Cuando Yaír murió fue sepultado en Camón.",
-          "headings": [
-            "Jefté"
-          ]
+          "text": "Cuando Yaír murió fue sepultado en Camón."
         },
         {
           "number": 6,
-          "text": "El pueblo de Israel se apartó del Señor nuevamente y adoró los dioses paganos Baal y Astarté, y los dioses de Siria, Sidón, Moab, Amón y Filistea. No sólo esto, sino que también habían dejado completamente la adoración del Señor ."
+          "text": "El pueblo de Israel se apartó del Señor nuevamente y adoró los dioses paganos Baal y Astarté, y los dioses de Siria, Sidón, Moab, Amón y Filistea. No sólo esto, sino que también habían dejado completamente la adoración del Señor .",
+          "headings": [
+            "Jefté"
+          ]
         },
         {
           "number": 7,
@@ -1482,7 +1509,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La tribu de Efraín se movilizó en Zafón y envió este mensaje a Jefté: ―¿Por qué no nos llamaste para que te ayudáramos en la lucha contra Amón? Vamos a quemar la casa contigo dentro."
+          "text": "La tribu de Efraín se movilizó en Zafón y envió este mensaje a Jefté: ―¿Por qué no nos llamaste para que te ayudáramos en la lucha contra Amón? Vamos a quemar la casa contigo dentro.",
+          "headings": [
+            "Jefté y Efraín"
+          ]
         },
         {
           "number": 2,
@@ -1506,14 +1536,14 @@
         },
         {
           "number": 7,
-          "text": "Jefté fue juez de Israel durante seis años. Cuando murió fue sepultado en una de las ciudades de Galaad.",
-          "headings": [
-            "Ibsán, Elón y Abdón"
-          ]
+          "text": "Jefté fue juez de Israel durante seis años. Cuando murió fue sepultado en una de las ciudades de Galaad."
         },
         {
           "number": 8,
-          "text": "El juez que le sucedió fue Ibsán, que vivió en Belén."
+          "text": "El juez que le sucedió fue Ibsán, que vivió en Belén.",
+          "headings": [
+            "Ibsán, Elón y Abdón"
+          ]
         },
         {
           "number": 9,
@@ -1546,7 +1576,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Una vez más Israel pecó adorando a otros dioses, por lo que el Señor dejó que fueran conquistados por los filisteos, quienes los tuvieron bajo su dominio durante cuarenta años."
+          "text": "Una vez más Israel pecó adorando a otros dioses, por lo que el Señor dejó que fueran conquistados por los filisteos, quienes los tuvieron bajo su dominio durante cuarenta años.",
+          "headings": [
+            "Nacimiento de Sansón"
+          ]
         },
         {
           "number": 2,
@@ -1649,7 +1682,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día Sansón fue a Timnat y se enamoró de cierta joven filistea."
+          "text": "Un día Sansón fue a Timnat y se enamoró de cierta joven filistea.",
+          "headings": [
+            "Matrimonio de Sansón"
+          ]
         },
         {
           "number": 2,
@@ -1732,7 +1768,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Algún tiempo después durante la siega, Sansón tomó un cabrito para llevarlo como presente a su prometida, con la intención de consumar el matrimonio con ella, pero el padre de ella no lo dejó entrar."
+          "text": "Algún tiempo después durante la siega, Sansón tomó un cabrito para llevarlo como presente a su prometida, con la intención de consumar el matrimonio con ella, pero el padre de ella no lo dejó entrar.",
+          "headings": [
+            "Sansón se venga de los filisteos"
+          ]
         },
         {
           "number": 2,
@@ -1813,7 +1852,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día Sansón fue a la ciudad filistea de Gaza y pasó la noche con una prostituta."
+          "text": "Un día Sansón fue a la ciudad filistea de Gaza y pasó la noche con una prostituta.",
+          "headings": [
+            "Sansón y Dalila"
+          ]
         },
         {
           "number": 2,
@@ -1897,16 +1939,16 @@
         },
         {
           "number": 22,
-          "text": "Pero el cabello no tardó en crecerle nuevamente.",
-          "headings": [
-            "Muerte de Sansón"
-          ]
+          "text": "Pero el cabello no tardó en crecerle nuevamente."
         },
         {
           "number": 23,
           "text": "Los jefes de los filisteos hicieron una gran fiesta a fin de celebrar la captura de Sansón. El pueblo hacía sacrificios al dios Dagón y lo alababan con mucho entusiasmo. «Nuestro dios nos ha librado de nuestro enemigo Sansón —gritaban satisfechos al verlo allí atado con cadenas—. El enemigo de nuestra nación, el que destruía nuestros campos, y el que ha matado a tantos de nosotros, ahora está en nuestro poder».",
           "verseDisplay": "23-24",
-          "endNumber": 24
+          "endNumber": 24,
+          "headings": [
+            "Muerte de Sansón"
+          ]
         },
         {
           "number": 25,
@@ -1943,7 +1985,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En la región montañosa de Efraín vivía un hombre llamado Micaías."
+          "text": "En la región montañosa de Efraín vivía un hombre llamado Micaías.",
+          "headings": [
+            "Los ídolos de Micaías"
+          ]
         },
         {
           "number": 2,
@@ -1996,7 +2041,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Como ya se ha dicho, no había rey en Israel en aquel tiempo. La tribu de Dan estaba tratando de encontrar un lugar donde establecerse, pues aún no habían recibido su heredad para establecerse allí."
+          "text": "Como ya se ha dicho, no había rey en Israel en aquel tiempo. La tribu de Dan estaba tratando de encontrar un lugar donde establecerse, pues aún no habían recibido su heredad para establecerse allí.",
+          "headings": [
+            "La tribu de Dan se establece en Lais"
+          ]
         },
         {
           "number": 2,
@@ -2121,7 +2169,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En aquellos días, antes que hubiera rey en Israel, hubo un hombre de la tribu de Leví que vivía en la parte más remota de la región montañosa de Efraín, que llevó a su casa a una mujer de Belén de Judá para que fuera su concubina."
+          "text": "En aquellos días, antes que hubiera rey en Israel, hubo un hombre de la tribu de Leví que vivía en la parte más remota de la región montañosa de Efraín, que llevó a su casa a una mujer de Belén de Judá para que fuera su concubina.",
+          "headings": [
+            "El levita y su concubina"
+          ]
         },
         {
           "number": 2,
@@ -2248,7 +2299,10 @@
           "number": 1,
           "text": "Entonces toda la nación de Israel envió a sus dirigentes y a cuatrocientos cincuenta mil hombres para que se reunieran delante del Señor en Mizpa. Vinieron desde Dan, desde Berseba y de todos los lugares intermedios, y desde el otro lado del Jordán, de la tierra de Galaad.",
           "verseDisplay": "1-2",
-          "endNumber": 2
+          "endNumber": 2,
+          "headings": [
+            "Los israelitas derrotan a los benjaminitas"
+          ]
         },
         {
           "number": 3,
@@ -2411,7 +2465,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los jefes de Israel habían jurado en Mizpa que no permitirían que sus hijas se casaran con hombres de la tribu de Benjamín."
+          "text": "Los jefes de Israel habían jurado en Mizpa que no permitirían que sus hijas se casaran con hombres de la tribu de Benjamín.",
+          "headings": [
+            "Esposas para los benjaminitas"
+          ]
         },
         {
           "number": 2,

@@ -13,14 +13,14 @@
         },
         {
           "number": 2,
-          "text": "que la gracia y la paz de Dios les sean multiplicadas por medio del conocimiento que tienen de Dios y de Jesucristo, nuestro Señor.",
-          "headings": [
-            "Firmeza en el llamamiento y en la elección"
-          ]
+          "text": "que la gracia y la paz de Dios les sean multiplicadas por medio del conocimiento que tienen de Dios y de Jesucristo, nuestro Señor."
         },
         {
           "number": 3,
-          "text": "Dios en su gran poder nos ha concedido lo que necesitamos para llevar una vida piadosa. ¡Lo hizo cuando conocimos a Aquel que nos llamó por su propia gloria y excelencia!"
+          "text": "Dios en su gran poder nos ha concedido lo que necesitamos para llevar una vida piadosa. ¡Lo hizo cuando conocimos a Aquel que nos llamó por su propia gloria y excelencia!",
+          "headings": [
+            "Firmeza en el llamamiento y en la elección"
+          ]
         },
         {
           "number": 4,
@@ -52,14 +52,14 @@
         },
         {
           "number": 11,
-          "text": "Además, les será concedida amplia entrada en el reino eterno de nuestro Señor y Salvador Jesucristo.",
-          "headings": [
-            "La veracidad de la Escritura"
-          ]
+          "text": "Además, les será concedida amplia entrada en el reino eterno de nuestro Señor y Salvador Jesucristo."
         },
         {
           "number": 12,
-          "text": "Jamás dejaré de recordarles estas cosas, aun cuando las sepan y permanezcan firmes en la verdad."
+          "text": "Jamás dejaré de recordarles estas cosas, aun cuando las sepan y permanezcan firmes en la verdad.",
+          "headings": [
+            "La veracidad de la Escritura"
+          ]
         },
         {
           "number": 13,
@@ -100,7 +100,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero así como en el pasado hubo falsos profetas, entre ustedes surgirán falsos maestros que veladamente les mentirán acerca de Dios y hasta negarán al mismo Señor que los salvó. ¡La condenación de los tales será repentina y terrible!"
+          "text": "Pero así como en el pasado hubo falsos profetas, entre ustedes surgirán falsos maestros que veladamente les mentirán acerca de Dios y hasta negarán al mismo Señor que los salvó. ¡La condenación de los tales será repentina y terrible!",
+          "headings": [
+            "Los falsos maestros y su destrucción"
+          ]
         },
         {
           "number": 2,
@@ -191,7 +194,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Amados, esta es la segunda carta que les escribo,"
+          "text": "Amados, esta es la segunda carta que les escribo,",
+          "headings": [
+            "El día del Señor"
+          ]
         },
         {
           "number": 2,

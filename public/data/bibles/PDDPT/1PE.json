@@ -10,6 +10,9 @@
         {
           "number": 1,
           "text": "Pedro, un apóstol de Jesucristo, a los peregrinos elegidos de una diáspora en Ponto, Galacia, Capadocia, Asia y Bitinia,",
+          "headings": [
+            "Saludo"
+          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -20,14 +23,14 @@
         },
         {
           "number": 2,
-          "text": "elegidos según la presciencia de Dios Padre en santificación del Espíritu, para que le obedecieran y fueran rociados con la sangre de Jesucristo. Gracia y paz se les concedan abundantemente.",
-          "headings": [
-            "La herencia incorruptible"
-          ]
+          "text": "elegidos según la presciencia de Dios Padre en santificación del Espíritu, para que le obedecieran y fueran rociados con la sangre de Jesucristo. Gracia y paz se les concedan abundantemente."
         },
         {
           "number": 3,
-          "text": "Bendito el Dios y Padre de nuestro Señor Jesucristo, Quien según su gran misericordia causó que renaciéramos para una esperanza viva por medio de la resurrección de Jesucristo de entre los muertos,"
+          "text": "Bendito el Dios y Padre de nuestro Señor Jesucristo, Quien según su gran misericordia causó que renaciéramos para una esperanza viva por medio de la resurrección de Jesucristo de entre los muertos,",
+          "headings": [
+            "La herencia incorruptible"
+          ]
         },
         {
           "number": 4,
@@ -51,14 +54,14 @@
         },
         {
           "number": 9,
-          "text": "y obtienen el fin de su fe: la salvación de sus almas.",
-          "headings": [
-            "Las profecías y las Buenas Noticias"
-          ]
+          "text": "y obtienen el fin de su fe: la salvación de sus almas."
         },
         {
           "number": 10,
-          "text": "Los profetas que profetizaron con respecto a la gracia para ustedes, escudriñaron e indagaron cuidadosamente en cuanto a esta salvación."
+          "text": "Los profetas que profetizaron con respecto a la gracia para ustedes, escudriñaron e indagaron cuidadosamente en cuanto a esta salvación.",
+          "headings": [
+            "Las profecías y las Buenas Noticias"
+          ]
         },
         {
           "number": 11,
@@ -66,14 +69,14 @@
         },
         {
           "number": 12,
-          "text": "A ellos se les reveló que no administraban esto para ellos mismos sino para ustedes. Tales cosas les fueron anunciadas por los que predicaron estas Buenas Noticias según el Espíritu Santo enviado del cielo. Los ángeles anhelan mirar esto.",
-          "headings": [
-            "El precio del rescate"
-          ]
+          "text": "A ellos se les reveló que no administraban esto para ellos mismos sino para ustedes. Tales cosas les fueron anunciadas por los que predicaron estas Buenas Noticias según el Espíritu Santo enviado del cielo. Los ángeles anhelan mirar esto."
         },
         {
           "number": 13,
-          "text": "Por tanto átense el cinturón de su entendimiento. Sean sobrios. Esperen por completo la gracia que se les traerá cuando se manifieste Jesucristo."
+          "text": "Por tanto átense el cinturón de su entendimiento. Sean sobrios. Esperen por completo la gracia que se les traerá cuando se manifieste Jesucristo.",
+          "headings": [
+            "El precio del rescate"
+          ]
         },
         {
           "number": 14,
@@ -130,7 +133,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por tanto desechen toda maldad, engaño, hipocresía, envidias y maledicencia."
+          "text": "Por tanto desechen toda maldad, engaño, hipocresía, envidias y maledicencia.",
+          "headings": [
+            "Piedra escogida"
+          ]
         },
         {
           "number": 2,
@@ -158,25 +164,25 @@
         },
         {
           "number": 8,
-          "text": "Y: Piedra de tropiezo y roca que hace caer. Éstos, al ser desobedientes, tropiezan en la Palabra. Tal es su destino.",
+          "text": "Y: Piedra de tropiezo y roca que hace caer. Éstos, al ser desobedientes, tropiezan en la Palabra. Tal es su destino."
+        },
+        {
+          "number": 9,
+          "text": "Pero ustedes son linaje escogido, sacerdocio real, nación santa, pueblo adquirido por Dios para que proclamen las virtudes del que los llamó de la oscuridad a su luz admirable,",
           "headings": [
             "Linaje especial"
           ]
         },
         {
-          "number": 9,
-          "text": "Pero ustedes son linaje escogido, sacerdocio real, nación santa, pueblo adquirido por Dios para que proclamen las virtudes del que los llamó de la oscuridad a su luz admirable,"
-        },
-        {
           "number": 10,
-          "text": "los que en un tiempo no eran pueblo, pero ahora son pueblo de Dios, los no compadecidos por misericordia, pero ahora compadecidos por misericordia.",
-          "headings": [
-            "Necesidad de una vida digna"
-          ]
+          "text": "los que en un tiempo no eran pueblo, pero ahora son pueblo de Dios, los no compadecidos por misericordia, pero ahora compadecidos por misericordia."
         },
         {
           "number": 11,
-          "text": "Amados, les ruego como a extranjeros y peregrinos, que se abstengan de los ardientes deseos humanos que se enfrentan en batalla contra el alma."
+          "text": "Amados, les ruego como a extranjeros y peregrinos, que se abstengan de los ardientes deseos humanos que se enfrentan en batalla contra el alma.",
+          "headings": [
+            "Necesidad de una vida digna"
+          ]
         },
         {
           "number": 12,
@@ -241,7 +247,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Del mismo modo ustedes esposas, sujétense a sus esposos para que también los que no creen en la Palabra, sean ganados sin palabra por medio de la conducta de sus esposas"
+          "text": "Del mismo modo ustedes esposas, sujétense a sus esposos para que también los que no creen en la Palabra, sean ganados sin palabra por medio de la conducta de sus esposas",
+          "headings": [
+            "Consejos para los cónyuges"
+          ]
         },
         {
           "number": 2,
@@ -265,14 +274,14 @@
         },
         {
           "number": 7,
-          "text": "Los esposos del mismo modo, convivan con comprensión, y muestren honor a la esposa como a vaso más frágil, y como a coherederas de la gracia de la vida, para que sus conversaciones con Dios no sean impedidas.",
-          "headings": [
-            "Vida santa"
-          ]
+          "text": "Los esposos del mismo modo, convivan con comprensión, y muestren honor a la esposa como a vaso más frágil, y como a coherederas de la gracia de la vida, para que sus conversaciones con Dios no sean impedidas."
         },
         {
           "number": 8,
-          "text": "Finalmente, sean todos de un mismo sentir, compasivos, con amor fraternal, misericordiosos, humildes."
+          "text": "Finalmente, sean todos de un mismo sentir, compasivos, con amor fraternal, misericordiosos, humildes.",
+          "headings": [
+            "Vida santa"
+          ]
         },
         {
           "number": 9,
@@ -315,14 +324,14 @@
         },
         {
           "number": 17,
-          "text": "Porque si es la voluntad de Dios, mejor es que padezcan por hacer el bien que por hacer el mal.",
-          "headings": [
-            "A la mano derecha de Dios"
-          ]
+          "text": "Porque si es la voluntad de Dios, mejor es que padezcan por hacer el bien que por hacer el mal."
         },
         {
           "number": 18,
-          "text": "Porque también Cristo padeció una sola vez por los pecados, el Justo por los injustos, para llevarnos a Dios. En verdad murió en el cuerpo, pero fue vivificado en el Espíritu."
+          "text": "Porque también Cristo padeció una sola vez por los pecados, el Justo por los injustos, para llevarnos a Dios. En verdad murió en el cuerpo, pero fue vivificado en el Espíritu.",
+          "headings": [
+            "A la mano derecha de Dios"
+          ]
         },
         {
           "number": 19,
@@ -347,7 +356,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Puesto que Cristo padeció por nosotros en el cuerpo, ustedes también ármense con el mismo pensamiento. Porque el que padeció en el cuerpo se apartó del pecado"
+          "text": "Puesto que Cristo padeció por nosotros en el cuerpo, ustedes también ármense con el mismo pensamiento. Porque el que padeció en el cuerpo se apartó del pecado",
+          "headings": [
+            "Multiforme gracia de Dios"
+          ]
         },
         {
           "number": 2,
@@ -387,14 +399,14 @@
         },
         {
           "number": 11,
-          "text": "Si alguno habla, hable según las Palabras de Dios. Si alguno ministra, hágalo según el poder que Dios suministra para que en todo Dios sea glorificado por medio de Jesucristo, a Quien pertenecen la gloria y la soberanía por los siglos de los siglos. Amén.",
-          "headings": [
-            "Prueba de fuego"
-          ]
+          "text": "Si alguno habla, hable según las Palabras de Dios. Si alguno ministra, hágalo según el poder que Dios suministra para que en todo Dios sea glorificado por medio de Jesucristo, a Quien pertenecen la gloria y la soberanía por los siglos de los siglos. Amén."
         },
         {
           "number": 12,
-          "text": "Amados, no se sorprendan por el fuego que se presenta para prueba, como si algo extraño les aconteciera."
+          "text": "Amados, no se sorprendan por el fuego que se presenta para prueba, como si algo extraño les aconteciera.",
+          "headings": [
+            "Prueba de fuego"
+          ]
         },
         {
           "number": 13,
@@ -431,7 +443,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ruego a los ancianos entre ustedes, yo, anciano también con ellos y testigo de los padecimientos de Cristo, que también soy participante de la gloria que será manifestada:"
+          "text": "Ruego a los ancianos entre ustedes, yo, anciano también con ellos y testigo de los padecimientos de Cristo, que también soy participante de la gloria que será manifestada:",
+          "headings": [
+            "Asesoramiento pastoral"
+          ]
         },
         {
           "number": 2,
@@ -471,14 +486,14 @@
         },
         {
           "number": 11,
-          "text": "A Él sea la soberanía por los siglos. Amén.",
-          "headings": [
-            "Posdata"
-          ]
+          "text": "A Él sea la soberanía por los siglos. Amén."
         },
         {
           "number": 12,
-          "text": "Por medio de Silvano, el fiel hermano, como lo considero, les escribí con pocas palabras para exhortar y testificar que ésta es la verdadera gracia de Dios, en la cual estén firmes."
+          "text": "Por medio de Silvano, el fiel hermano, como lo considero, les escribí con pocas palabras para exhortar y testificar que ésta es la verdadera gracia de Dios, en la cual estén firmes.",
+          "headings": [
+            "Posdata"
+          ]
         },
         {
           "number": 13,

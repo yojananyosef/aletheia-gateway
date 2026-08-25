@@ -9,14 +9,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este es el mensaje dado por el Señor a Miqueas, que vivió en el pueblo de Moréset, durante los reinados de Jotán, Acaz y Ezequías, reyes de Judá. Este mensaje está dirigido a Samaria y a Jerusalén, recibido por Miqueas en forma de visiones.",
-          "headings": [
-            "La venida del Señor"
-          ]
+          "text": "Este es el mensaje dado por el Señor a Miqueas, que vivió en el pueblo de Moréset, durante los reinados de Jotán, Acaz y Ezequías, reyes de Judá. Este mensaje está dirigido a Samaria y a Jerusalén, recibido por Miqueas en forma de visiones."
         },
         {
           "number": 2,
-          "text": "¡Atención, todos los pueblos de la tierra! ¡Escuchen bien, habitantes de esta nación! Dios el Señor , desde su santo templo ha hecho acusaciones contra ustedes."
+          "text": "¡Atención, todos los pueblos de la tierra! ¡Escuchen bien, habitantes de esta nación! Dios el Señor , desde su santo templo ha hecho acusaciones contra ustedes.",
+          "headings": [
+            "La venida del Señor"
+          ]
         },
         {
           "number": 3,
@@ -36,14 +36,14 @@
         },
         {
           "number": 7,
-          "text": "Todas las imágenes de sus ídolos serán destruidas, ya sea con fuego o a golpes de martillo. Como esos ídolos fueron hechos con el salario que recibían las prostitutas, serán quemados y convertidos en monedas para pagar a las prostitutas.",
-          "headings": [
-            "Lamento de Miqueas"
-          ]
+          "text": "Todas las imágenes de sus ídolos serán destruidas, ya sea con fuego o a golpes de martillo. Como esos ídolos fueron hechos con el salario que recibían las prostitutas, serán quemados y convertidos en monedas para pagar a las prostitutas."
         },
         {
           "number": 8,
-          "text": "Lloraré y me sentiré muy triste; andaré descalzo y desnudo. Aullaré como si fuera un chacal, y chillaré como si fuera un avestruz herido."
+          "text": "Lloraré y me sentiré muy triste; andaré descalzo y desnudo. Aullaré como si fuera un chacal, y chillaré como si fuera un avestruz herido.",
+          "headings": [
+            "Lamento de Miqueas"
+          ]
         },
         {
           "number": 9,
@@ -84,7 +84,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Ay de los que se pasan la noche tramando el mal, y se levantan de madrugada para ejecutar lo que planearon, porque tienen el poder para hacerlo!"
+          "text": "¡Ay de los que se pasan la noche tramando el mal, y se levantan de madrugada para ejecutar lo que planearon, porque tienen el poder para hacerlo!",
+          "headings": [
+            "El castigo a los ricos opresores"
+          ]
         },
         {
           "number": 2,
@@ -100,14 +103,14 @@
         },
         {
           "number": 5,
-          "text": "Por eso, israelitas, ustedes no volverán a ser parte del pueblo del Señor .",
-          "headings": [
-            "Falsos profetas"
-          ]
+          "text": "Por eso, israelitas, ustedes no volverán a ser parte del pueblo del Señor ."
         },
         {
           "number": 6,
-          "text": "«No digan tonterías, no sigan diciendo que la desgracia vendrá sobre nosotros, porque no será así», le dice la gente a los profetas."
+          "text": "«No digan tonterías, no sigan diciendo que la desgracia vendrá sobre nosotros, porque no será así», le dice la gente a los profetas.",
+          "headings": [
+            "Falsos profetas"
+          ]
         },
         {
           "number": 7,
@@ -127,14 +130,14 @@
         },
         {
           "number": 11,
-          "text": "Si un falso profeta viniera y les dijera: «Les anunciaré cosas muy lindas a cambio de alguna botella de vino», seguro que ustedes lo recibirían con los brazos abiertos.",
-          "headings": [
-            "Promesa de liberación"
-          ]
+          "text": "Si un falso profeta viniera y les dijera: «Les anunciaré cosas muy lindas a cambio de alguna botella de vino», seguro que ustedes lo recibirían con los brazos abiertos."
         },
         {
           "number": 12,
-          "text": "Vendrá el día en que yo reuniré al grupo de sobrevivientes de Israel, y los pastorearé como si fueran ovejas de un redil, como rebaño en las praderas, y serán de nuevo un pueblo alegre y con ánimo de fiesta."
+          "text": "Vendrá el día en que yo reuniré al grupo de sobrevivientes de Israel, y los pastorearé como si fueran ovejas de un redil, como rebaño en las praderas, y serán de nuevo un pueblo alegre y con ánimo de fiesta.",
+          "headings": [
+            "Promesa de liberación"
+          ]
         },
         {
           "number": 13,
@@ -147,7 +150,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Oigan ustedes, jefes de Israel! Escuchen ustedes que gobiernan al pueblo de Jacob: ¿Acaso no es deber de ustedes saber lo que es la justicia?"
+          "text": "¡Oigan ustedes, jefes de Israel! Escuchen ustedes que gobiernan al pueblo de Jacob: ¿Acaso no es deber de ustedes saber lo que es la justicia?",
+          "headings": [
+            "El castigo a los gobernantes corruptos"
+          ]
         },
         {
           "number": 2,
@@ -159,14 +165,14 @@
         },
         {
           "number": 4,
-          "text": "Por eso, cuando rueguen al Señor que los ayude en los tiempos difíciles, él no les hará caso. Cuando procuren su ayuda, el Señor se les esconderá, pues está enojado por los crímenes que ustedes cometen.",
-          "headings": [
-            "Contraste entre el profeta falso y el verdadero"
-          ]
+          "text": "Por eso, cuando rueguen al Señor que los ayude en los tiempos difíciles, él no les hará caso. Cuando procuren su ayuda, el Señor se les esconderá, pues está enojado por los crímenes que ustedes cometen."
         },
         {
           "number": 5,
-          "text": "Esto es lo que el Señor dice contra los falsos profetas, los que descarrían a este pueblo: «Ustedes le anuncian la paz a quienes les dan de comer, pero a quienes no les dan nada, les anuncian la guerra."
+          "text": "Esto es lo que el Señor dice contra los falsos profetas, los que descarrían a este pueblo: «Ustedes le anuncian la paz a quienes les dan de comer, pero a quienes no les dan nada, les anuncian la guerra.",
+          "headings": [
+            "Contraste entre el profeta falso y el verdadero"
+          ]
         },
         {
           "number": 6,
@@ -178,14 +184,14 @@
         },
         {
           "number": 8,
-          "text": "En cambio, yo estoy lleno de poder, de justicia y de fuerza. Estoy lleno del Espíritu del Señor para denunciar sin temor todas las maldades y la desobediencia de Israel.",
-          "headings": [
-            "El gobierno corrupto, causa de la caída de Sion"
-          ]
+          "text": "En cambio, yo estoy lleno de poder, de justicia y de fuerza. Estoy lleno del Espíritu del Señor para denunciar sin temor todas las maldades y la desobediencia de Israel."
         },
         {
           "number": 9,
-          "text": "Escuchen esto, líderes de Israel, que odian la justicia y tuercen las intenciones y las obras justas,"
+          "text": "Escuchen esto, líderes de Israel, que odian la justicia y tuercen las intenciones y las obras justas,",
+          "headings": [
+            "El gobierno corrupto, causa de la caída de Sion"
+          ]
         },
         {
           "number": 10,
@@ -206,7 +212,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero en los últimos días, la montaña sobre la cual se asienta el templo del Señor se convertirá en la más famosa montaña del mundo, será la colina más elogiada de la tierra; personas de todas las naciones del mundo irán a visitarla."
+          "text": "Pero en los últimos días, la montaña sobre la cual se asienta el templo del Señor se convertirá en la más famosa montaña del mundo, será la colina más elogiada de la tierra; personas de todas las naciones del mundo irán a visitarla.",
+          "headings": [
+            "Futura exaltación de Sion"
+          ]
         },
         {
           "number": 2,
@@ -222,14 +231,14 @@
         },
         {
           "number": 5,
-          "text": "¡Aunque las otras naciones sigan a sus propios dioses, nosotros siempre seguiremos y obedeceremos sólo al Señor nuestro Dios!",
-          "headings": [
-            "Futura restauración de Sion"
-          ]
+          "text": "¡Aunque las otras naciones sigan a sus propios dioses, nosotros siempre seguiremos y obedeceremos sólo al Señor nuestro Dios!"
         },
         {
           "number": 6,
-          "text": "Lo siguiente afirma el Señor : «En ese día haré que mi pueblo, al que había castigado, regrese a su tierra. Los reuniré con cuidado, como un pastor que se preocupa por una oveja herida o una que extravió el camino a su redil."
+          "text": "Lo siguiente afirma el Señor : «En ese día haré que mi pueblo, al que había castigado, regrese a su tierra. Los reuniré con cuidado, como un pastor que se preocupa por una oveja herida o una que extravió el camino a su redil.",
+          "headings": [
+            "Futura restauración de Sion"
+          ]
         },
         {
           "number": 7,
@@ -237,14 +246,14 @@
         },
         {
           "number": 8,
-          "text": "Y tú, Jerusalén, ciudad fuerte edificada sobre el monte Sion, volverás a tener el poderío de antes, pues nuevamente serás la capital del reino».",
-          "headings": [
-            "Castigo y triunfo de Sion"
-          ]
+          "text": "Y tú, Jerusalén, ciudad fuerte edificada sobre el monte Sion, volverás a tener el poderío de antes, pues nuevamente serás la capital del reino»."
         },
         {
           "number": 9,
-          "text": "Y ahora, ¿por qué haces tanto alboroto? ¿Es que no tienes rey? ¿Acaso se murieron tus consejeros, para que te retuerzas de dolor como una mujer que está a punto de dar a luz?"
+          "text": "Y ahora, ¿por qué haces tanto alboroto? ¿Es que no tienes rey? ¿Acaso se murieron tus consejeros, para que te retuerzas de dolor como una mujer que está a punto de dar a luz?",
+          "headings": [
+            "Castigo y triunfo de Sion"
+          ]
         },
         {
           "number": 10,
@@ -269,7 +278,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Jerusalén, ciudad guerrera, prepárate para la guerra, refuerza tus murallas pues nos han sitiado y el gobernante de Israel será humillado y maltratado!"
+          "text": "¡Jerusalén, ciudad guerrera, prepárate para la guerra, refuerza tus murallas pues nos han sitiado y el gobernante de Israel será humillado y maltratado!",
+          "headings": [
+            "Humillación y exaltación de la dinastía davídica"
+          ]
         },
         {
           "number": 2,
@@ -289,14 +301,14 @@
         },
         {
           "number": 6,
-          "text": "Ellos someterán, por medio de su poder y destreza para la guerra, a Asiria, la tierra de Nimrod. Sí, cuando los asirios se atrevan a invadirnos, este rey nuestro nos librará de ellos y los expulsará de nuestra tierra.",
-          "headings": [
-            "El remanente"
-          ]
+          "text": "Ellos someterán, por medio de su poder y destreza para la guerra, a Asiria, la tierra de Nimrod. Sí, cuando los asirios se atrevan a invadirnos, este rey nuestro nos librará de ellos y los expulsará de nuestra tierra."
         },
         {
           "number": 7,
-          "text": "Entonces, esa nación diezmada de Israel será para el mundo como un rocío suave que lo refresca, como lluvia sobre la hierba que cae sin que persona alguna intervenga. ¡Israel será una bendición para todas las naciones!"
+          "text": "Entonces, esa nación diezmada de Israel será para el mundo como un rocío suave que lo refresca, como lluvia sobre la hierba que cae sin que persona alguna intervenga. ¡Israel será una bendición para todas las naciones!",
+          "headings": [
+            "El remanente"
+          ]
         },
         {
           "number": 8,
@@ -304,14 +316,14 @@
         },
         {
           "number": 9,
-          "text": "Es así, Señor , como te levantarás ante tus enemigos y acabarás con todos ellos.",
-          "headings": [
-            "Purificación de un pueblo idólatra y belicoso"
-          ]
+          "text": "Es así, Señor , como te levantarás ante tus enemigos y acabarás con todos ellos."
         },
         {
           "number": 10,
-          "text": "Esto es lo que dice el Señor : «En aquel tiempo destruiré todas las armas en las cuales confías, y desbarataré tus ejércitos."
+          "text": "Esto es lo que dice el Señor : «En aquel tiempo destruiré todas las armas en las cuales confías, y desbarataré tus ejércitos.",
+          "headings": [
+            "Purificación de un pueblo idólatra y belicoso"
+          ]
         },
         {
           "number": 11,
@@ -340,7 +352,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Oigan lo que el Señor dice a su pueblo: «¡Levántate y presenta tu caso de manera tan poderosa que se escuche por todo el mundo! ¡Habla de forma que hasta en las colinas más alejadas escuchen tu queja!»."
+          "text": "Oigan lo que el Señor dice a su pueblo: «¡Levántate y presenta tu caso de manera tan poderosa que se escuche por todo el mundo! ¡Habla de forma que hasta en las colinas más alejadas escuchen tu queja!».",
+          "headings": [
+            "Querella de Dios contra su pueblo"
+          ]
         },
         {
           "number": 2,
@@ -368,14 +383,14 @@
         },
         {
           "number": 8,
-          "text": "¡Pueblo de Dios! Ya el Señor les ha dicho qué es lo que él espera que ustedes hagan. Ya él les ha enseñado lo que es bueno y espera que ustedes hagan. Lo que el Señor les pide es que practiquen la justicia, que sean misericordiosos y que vivan siguiendo fielmente sus instrucciones.",
-          "headings": [
-            "Castigo por delitos económicos y sociales"
-          ]
+          "text": "¡Pueblo de Dios! Ya el Señor les ha dicho qué es lo que él espera que ustedes hagan. Ya él les ha enseñado lo que es bueno y espera que ustedes hagan. Lo que el Señor les pide es que practiquen la justicia, que sean misericordiosos y que vivan siguiendo fielmente sus instrucciones."
         },
         {
           "number": 9,
-          "text": "La voz del Señor se ha escuchado. Él está convocando a una reunión a todos los habitantes de Jerusalén. Así que escuchen su voz, pues es de sabios prestar atención a las palabras del Señor ."
+          "text": "La voz del Señor se ha escuchado. Él está convocando a una reunión a todos los habitantes de Jerusalén. Así que escuchen su voz, pues es de sabios prestar atención a las palabras del Señor .",
+          "headings": [
+            "Castigo por delitos económicos y sociales"
+          ]
         },
         {
           "number": 10,
@@ -412,7 +427,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Ay de mí! Soy como el que ha llegado después de que ha pasado la cosecha y ya no encuentra ni higos ni uvas para comer. ¡Y yo que con tanta ilusión esperé por los buenos frutos!"
+          "text": "¡Ay de mí! Soy como el que ha llegado después de que ha pasado la cosecha y ya no encuentra ni higos ni uvas para comer. ¡Y yo que con tanta ilusión esperé por los buenos frutos!",
+          "headings": [
+            "Lamento ante una sociedad corrupta"
+          ]
         },
         {
           "number": 2,
@@ -436,14 +454,14 @@
         },
         {
           "number": 7,
-          "text": "Pero yo he puesto toda mi confianza en el Señor ; yo confío en que Dios me salvará de cualquier peligro, y estoy seguro que siempre escucha mis ruegos.",
-          "headings": [
-            "Esperanza de redención"
-          ]
+          "text": "Pero yo he puesto toda mi confianza en el Señor ; yo confío en que Dios me salvará de cualquier peligro, y estoy seguro que siempre escucha mis ruegos."
         },
         {
           "number": 8,
-          "text": "No te regocijes de mi derrota, enemiga mía, porque aunque caiga, me volveré a levantar. Porque aunque ahora vivan esta situación tan difícil que parece que atravieso un túnel oscuro, el Señor me sacará adelante hasta que vuelva a tener la situación bajo control. El Señor es para mí como luz en la noche oscura."
+          "text": "No te regocijes de mi derrota, enemiga mía, porque aunque caiga, me volveré a levantar. Porque aunque ahora vivan esta situación tan difícil que parece que atravieso un túnel oscuro, el Señor me sacará adelante hasta que vuelva a tener la situación bajo control. El Señor es para mí como luz en la noche oscura.",
+          "headings": [
+            "Esperanza de redención"
+          ]
         },
         {
           "number": 9,

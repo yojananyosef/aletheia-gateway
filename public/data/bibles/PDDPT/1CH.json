@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Adam, Set, Enós,"
+          "text": "Adam, Set, Enós,",
+          "headings": [
+            "Genealogías importantes para Israel"
+          ]
         },
         {
           "number": 2,
@@ -230,7 +233,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Éstos son los hijos de Israel: Rubén, Simeón, Leví, Judá, Isacar, Zabulón,"
+          "text": "Éstos son los hijos de Israel: Rubén, Simeón, Leví, Judá, Isacar, Zabulón,",
+          "headings": [
+            "Descendientes de Israel"
+          ]
         },
         {
           "number": 2,
@@ -455,7 +461,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Éstos son los hijos de David que le nacieron en Hebrón: Amnón, el primogénito, de Ahinoam jezreelita; el segundo, Daniel, de Abigail la de Carmel;"
+          "text": "Éstos son los hijos de David que le nacieron en Hebrón: Amnón, el primogénito, de Ahinoam jezreelita; el segundo, Daniel, de Abigail la de Carmel;",
+          "headings": [
+            "Descendientes de David"
+          ]
         },
         {
           "number": 2,
@@ -563,7 +572,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hijos de Judá: Fares, Hezrón, Carmi, Hur y Sobal."
+          "text": "Hijos de Judá: Fares, Hezrón, Carmi, Hur y Sobal.",
+          "headings": [
+            "Descendientes de Judá"
+          ]
         },
         {
           "number": 2,
@@ -651,14 +663,14 @@
         },
         {
           "number": 23,
-          "text": "Éstos eran alfareros, y habitaban en medio de plantíos y cercados, cerca del rey, ocupados en su servicio.",
-          "headings": [
-            "Descendientes de Simeón"
-          ]
+          "text": "Éstos eran alfareros, y habitaban en medio de plantíos y cercados, cerca del rey, ocupados en su servicio."
         },
         {
           "number": 24,
-          "text": "Hijos de Simeón: Nemuel, Jamín, Jarib, Zera, Saúl,"
+          "text": "Hijos de Simeón: Nemuel, Jamín, Jarib, Zera, Saúl,",
+          "headings": [
+            "Descendientes de Simeón"
+          ]
         },
         {
           "number": 25,
@@ -743,7 +755,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hijos de Rubén, primogénito de Israel. Él era el primogénito, pero porque profanó el lecho de su padre, su primogenitura fue dada a los hijos de José, hijo de Israel, y no fue posible registrarlo como primogénito."
+          "text": "Hijos de Rubén, primogénito de Israel. Él era el primogénito, pero porque profanó el lecho de su padre, su primogenitura fue dada a los hijos de José, hijo de Israel, y no fue posible registrarlo como primogénito.",
+          "headings": [
+            "Descendientes de Rubén"
+          ]
         },
         {
           "number": 2,
@@ -779,14 +794,14 @@
         },
         {
           "number": 10,
-          "text": "Pero en tiempo de Saúl guerrearon contra los agarenos, los cuales cayeron en su mano. Y ellos vivieron en sus tiendas en toda la región oriental de Galaad.",
-          "headings": [
-            "Descendientes de Gad"
-          ]
+          "text": "Pero en tiempo de Saúl guerrearon contra los agarenos, los cuales cayeron en su mano. Y ellos vivieron en sus tiendas en toda la región oriental de Galaad."
         },
         {
           "number": 11,
-          "text": "Los hijos de Gad vivieron enfrente a los rubenitas en la tierra de Basán hasta Salca."
+          "text": "Los hijos de Gad vivieron enfrente a los rubenitas en la tierra de Basán hasta Salca.",
+          "headings": [
+            "Descendientes de Gad"
+          ]
         },
         {
           "number": 12,
@@ -830,14 +845,14 @@
         },
         {
           "number": 22,
-          "text": "Muchos cayeron muertos, porque la batalla era de ʼElohim . Vivieron en sus lugares hasta el cautiverio.",
-          "headings": [
-            "Descendientes de la media tribu de Manasés"
-          ]
+          "text": "Muchos cayeron muertos, porque la batalla era de ʼElohim . Vivieron en sus lugares hasta el cautiverio."
         },
         {
           "number": 23,
-          "text": "Los hijos de la media tribu de Manasés vivieron en la tierra desde Basán hasta Baal-hermón, Senir y la montaña Hermón, y se multiplicaron muchísimo."
+          "text": "Los hijos de la media tribu de Manasés vivieron en la tierra desde Basán hasta Baal-hermón, Senir y la montaña Hermón, y se multiplicaron muchísimo.",
+          "headings": [
+            "Descendientes de la media tribu de Manasés"
+          ]
         },
         {
           "number": 24,
@@ -858,7 +873,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hijos de Leví: Gersón, Coat y Merari."
+          "text": "Hijos de Leví: Gersón, Coat y Merari.",
+          "headings": [
+            "Descendientes de Leví"
+          ]
         },
         {
           "number": 2,
@@ -974,14 +992,14 @@
         },
         {
           "number": 30,
-          "text": "Simea, Haguía, Asaías.",
-          "headings": [
-            "Principios para el servicio del canto"
-          ]
+          "text": "Simea, Haguía, Asaías."
         },
         {
           "number": 31,
-          "text": "Éstos son los que David estableció para el servicio del canto en la Casa de Yavé desde cuando el Arca reposó allí,"
+          "text": "Éstos son los que David estableció para el servicio del canto en la Casa de Yavé desde cuando el Arca reposó allí,",
+          "headings": [
+            "Principios para el servicio del canto"
+          ]
         },
         {
           "number": 32,
@@ -1069,14 +1087,14 @@
         },
         {
           "number": 53,
-          "text": "Sadoc, Ahimaas.",
-          "headings": [
-            "Lugares de residencia de los levitas"
-          ]
+          "text": "Sadoc, Ahimaas."
         },
         {
           "number": 54,
-          "text": "Éstos son los lugares de residencia según sus campamentos en su territorio. A los hijos de Aarón de la familia de los coatitas, porque a ellos les tocó la primera suerte,"
+          "text": "Éstos son los lugares de residencia según sus campamentos en su territorio. A los hijos de Aarón de la familia de los coatitas, porque a ellos les tocó la primera suerte,",
+          "headings": [
+            "Lugares de residencia de los levitas"
+          ]
         },
         {
           "number": 55,
@@ -1193,7 +1211,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hijos de Isacar: Tola, Fúa, Jasub y Simrón: cuatro."
+          "text": "Hijos de Isacar: Tola, Fúa, Jasub y Simrón: cuatro.",
+          "headings": [
+            "Descendientes de Isacar"
+          ]
         },
         {
           "number": 2,
@@ -1209,14 +1230,14 @@
         },
         {
           "number": 5,
-          "text": "Sus hermanos, según todas las familias de Isacar, contados por sus genealogías, eran 87.000 hombres valientes.",
-          "headings": [
-            "Descendientes de Benjamín"
-          ]
+          "text": "Sus hermanos, según todas las familias de Isacar, contados por sus genealogías, eran 87.000 hombres valientes."
         },
         {
           "number": 6,
-          "text": "Hijos de Benjamín: Bela, Bequer y Jediael: tres."
+          "text": "Hijos de Benjamín: Bela, Bequer y Jediael: tres.",
+          "headings": [
+            "Descendientes de Benjamín"
+          ]
         },
         {
           "number": 7,
@@ -1240,21 +1261,21 @@
         },
         {
           "number": 12,
-          "text": "Supim y Hupim fueron hijos de Hir. Husim fue hijo de Aher.",
-          "headings": [
-            "Descendientes de Neftalí"
-          ]
+          "text": "Supim y Hupim fueron hijos de Hir. Husim fue hijo de Aher."
         },
         {
           "number": 13,
           "text": "Hijos de Neftalí: Jahzeel, Guni, Jezer y Salum, hijos de Bilha.",
           "headings": [
-            "Descendientes de Manasés"
+            "Descendientes de Neftalí"
           ]
         },
         {
           "number": 14,
-          "text": "Hijos de Manasés: Asriel, al cual dio a luz su concubina siria, quien también dio a luz a Maquir, padre de Galaad."
+          "text": "Hijos de Manasés: Asriel, al cual dio a luz su concubina siria, quien también dio a luz a Maquir, padre de Galaad.",
+          "headings": [
+            "Descendientes de Manasés"
+          ]
         },
         {
           "number": 15,
@@ -1274,14 +1295,14 @@
         },
         {
           "number": 19,
-          "text": "Los hijos de Semida fueron Ahián, Siquem, Likhi y Aniam.",
-          "headings": [
-            "Descendientes de Efraín"
-          ]
+          "text": "Los hijos de Semida fueron Ahián, Siquem, Likhi y Aniam."
         },
         {
           "number": 20,
-          "text": "Hijos de Efraín: Sutela, Bered, Tahat, Elada, Tahat,"
+          "text": "Hijos de Efraín: Sutela, Bered, Tahat, Elada, Tahat,",
+          "headings": [
+            "Descendientes de Efraín"
+          ]
         },
         {
           "number": 21,
@@ -1317,14 +1338,14 @@
         },
         {
           "number": 29,
-          "text": "y junto al territorio de los hijos de Manasés, Bet-seán, Taanac, Meguido y Dor, cada uno con sus aldeas. En estos lugares vivieron los hijos de José, hijo de Israel.",
-          "headings": [
-            "Descendientes de Aser"
-          ]
+          "text": "y junto al territorio de los hijos de Manasés, Bet-seán, Taanac, Meguido y Dor, cada uno con sus aldeas. En estos lugares vivieron los hijos de José, hijo de Israel."
         },
         {
           "number": 30,
-          "text": "Hijos de Aser: Imna, Isúa, Isúi, Bería y su hermana Sera."
+          "text": "Hijos de Aser: Imna, Isúa, Isúi, Bería y su hermana Sera.",
+          "headings": [
+            "Descendientes de Aser"
+          ]
         },
         {
           "number": 31,
@@ -1373,7 +1394,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Benjamín engendró a su primogénito, Bela, Asbel el segundo, Ahara el tercero,"
+          "text": "Benjamín engendró a su primogénito, Bela, Asbel el segundo, Ahara el tercero,",
+          "headings": [
+            "Otros descendientes de Benjamín"
+          ]
         },
         {
           "number": 2,
@@ -1538,7 +1562,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Todo Israel fue registrado según sus genealogías, y están inscritos en el rollo de los reyes de Israel. Y los de Judá fueron llevados cautivos a Babilonia, por causa de su infidelidad."
+          "text": "Todo Israel fue registrado según sus genealogías, y están inscritos en el rollo de los reyes de Israel. Y los de Judá fueron llevados cautivos a Babilonia, por causa de su infidelidad.",
+          "headings": [
+            "Los que regresaron de Babilonia"
+          ]
         },
         {
           "number": 2,
@@ -1719,7 +1746,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los filisteos combatieron contra Israel. Los hombres de Israel huyeron de los filisteos y cayeron muertos en la montaña Gilboa."
+          "text": "Los filisteos combatieron contra Israel. Los hombres de Israel huyeron de los filisteos y cayeron muertos en la montaña Gilboa.",
+          "headings": [
+            "Muerte de Saúl"
+          ]
         },
         {
           "number": 2,
@@ -1780,7 +1810,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces todo Israel se congregó ante David en Hebrón y dijeron: Aquí estamos, somos hueso tuyo y carne tuya."
+          "text": "Entonces todo Israel se congregó ante David en Hebrón y dijeron: Aquí estamos, somos hueso tuyo y carne tuya.",
+          "headings": [
+            "Reinado de David en todo Israel"
+          ]
         },
         {
           "number": 2,
@@ -1788,14 +1821,14 @@
         },
         {
           "number": 3,
-          "text": "Cuando los ancianos de Israel fueron ante el rey en Hebrón, David hizo un pacto delante de Yavé . Entonces ungieron a David como rey sobre Israel, según la Palabra que Yavé dio por medio de Samuel.",
-          "headings": [
-            "La conquista de Jerusalén"
-          ]
+          "text": "Cuando los ancianos de Israel fueron ante el rey en Hebrón, David hizo un pacto delante de Yavé . Entonces ungieron a David como rey sobre Israel, según la Palabra que Yavé dio por medio de Samuel."
         },
         {
           "number": 4,
-          "text": "Entonces David fue con todo Israel a Jerusalén, la cual es Jebús. Los jebuseos vivían en aquella tierra."
+          "text": "Entonces David fue con todo Israel a Jerusalén, la cual es Jebús. Los jebuseos vivían en aquella tierra.",
+          "headings": [
+            "La conquista de Jerusalén"
+          ]
         },
         {
           "number": 5,
@@ -1815,14 +1848,14 @@
         },
         {
           "number": 9,
-          "text": "David se engrandecía cada vez más, porque Yavé de las huestes estaba con él.",
-          "headings": [
-            "Los valientes guerreros de David"
-          ]
+          "text": "David se engrandecía cada vez más, porque Yavé de las huestes estaba con él."
         },
         {
           "number": 10,
-          "text": "Éstos son los principales valientes que respaldaron fuertemente a David. Lo ayudaron para designarlo rey de Israel, según la Palabra de Yavé ."
+          "text": "Éstos son los principales valientes que respaldaron fuertemente a David. Lo ayudaron para designarlo rey de Israel, según la Palabra de Yavé .",
+          "headings": [
+            "Los valientes guerreros de David"
+          ]
         },
         {
           "number": 11,
@@ -1979,7 +2012,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Éstos eran los que fueron a David en Siclag, cuando él estaba aún encerrado por causa de Saúl, hijo de Cis, y eran de los valientes que lo ayudaron en la guerra."
+          "text": "Éstos eran los que fueron a David en Siclag, cuando él estaba aún encerrado por causa de Saúl, hijo de Cis, y eran de los valientes que lo ayudaron en la guerra.",
+          "headings": [
+            "Los ejércitos de David"
+          ]
         },
         {
           "number": 2,
@@ -2063,14 +2099,14 @@
         },
         {
           "number": 22,
-          "text": "En aquel tiempo acudían día tras día a David para ayudarlo, hasta que se formó un gran ejército, como el ejército de ʼElohim .",
-          "headings": [
-            "Guerreros que acudieron a la proclamación de David como rey."
-          ]
+          "text": "En aquel tiempo acudían día tras día a David para ayudarlo, hasta que se formó un gran ejército, como el ejército de ʼElohim ."
         },
         {
           "number": 23,
-          "text": "Éste es el número de los jefes que estaban listos Kiriath Jearim para la guerra, que fueron a David en Hebrón a fin de traspasarle el reino de Saúl según la Palabra de Yavé :"
+          "text": "Éste es el número de los jefes que estaban listos Kiriath Jearim para la guerra, que fueron a David en Hebrón a fin de traspasarle el reino de Saúl según la Palabra de Yavé :",
+          "headings": [
+            "Guerreros que acudieron a la proclamación de David como rey."
+          ]
         },
         {
           "number": 24,
@@ -2147,7 +2183,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces David tomó consejo con los jefes de millares y de centenas, los oficiales de la casa y todos los jefes."
+          "text": "Entonces David tomó consejo con los jefes de millares y de centenas, los oficiales de la casa y todos los jefes.",
+          "headings": [
+            "Traslado del Arca de Yavé"
+          ]
         },
         {
           "number": 2,
@@ -2208,7 +2247,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hiram, rey de Tiro, envió mensajeros a David con madera de cedro, artesanos y ebanistas para que le edificaran una casa."
+          "text": "Hiram, rey de Tiro, envió mensajeros a David con madera de cedro, artesanos y ebanistas para que le edificaran una casa.",
+          "headings": [
+            "David y su familia"
+          ]
         },
         {
           "number": 2,
@@ -2281,7 +2323,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David hizo para él casas en la Ciudad de David. Preparó un lugar para el Arca de ʼElohim y levantó una tienda para ella."
+          "text": "David hizo para él casas en la Ciudad de David. Preparó un lugar para el Arca de ʼElohim y levantó una tienda para ella.",
+          "headings": [
+            "Traslado del Arca de Yavé a Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -2402,7 +2447,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Así llevaron el Arca de ʼElohim y la asentaron en medio de la tienda que David le levantó. Ofrecieron holocaustos y sacrificios de paz delante de ʼElohim ."
+          "text": "Así llevaron el Arca de ʼElohim y la asentaron en medio de la tienda que David le levantó. Ofrecieron holocaustos y sacrificios de paz delante de ʼElohim .",
+          "headings": [
+            "Alabanza de David"
+          ]
         },
         {
           "number": 2,
@@ -2579,7 +2627,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando David ya vivía en su casa, sucedió que él dijo al profeta Natán: Ciertamente yo vivo en casa de cedro, pero el Arca del Pacto de Yavé está entre cortinas."
+          "text": "Cuando David ya vivía en su casa, sucedió que él dijo al profeta Natán: Ciertamente yo vivo en casa de cedro, pero el Arca del Pacto de Yavé está entre cortinas.",
+          "headings": [
+            "Proyecto de la Casa"
+          ]
         },
         {
           "number": 2,
@@ -2692,7 +2743,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció después de esto que David derrotó a los filisteos y los sometió. Quitó a Gat y sus aldeas de mano de los filisteos."
+          "text": "Aconteció después de esto que David derrotó a los filisteos y los sometió. Quitó a Gat y sus aldeas de mano de los filisteos.",
+          "headings": [
+            "Victorias de David"
+          ]
         },
         {
           "number": 2,
@@ -2765,7 +2819,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció después de estas cosas que murió Nahas, rey de los hijos de Amón, y reinó en su lugar su hijo."
+          "text": "Aconteció después de estas cosas que murió Nahas, rey de los hijos de Amón, y reinó en su lugar su hijo.",
+          "headings": [
+            "Derrota de los hijos de Amón"
+          ]
         },
         {
           "number": 2,
@@ -2781,14 +2838,14 @@
         },
         {
           "number": 5,
-          "text": "Luego salieron. Cuando llegó la noticia a David sobre aquellos varones, él envió a recibirlos, pues los hombres estaban muy avergonzados. El rey dijo: Permanezcan en Jericó hasta que crezcan sus barbas y entonces regresen.",
-          "headings": [
-            "Derrota de los sirios"
-          ]
+          "text": "Luego salieron. Cuando llegó la noticia a David sobre aquellos varones, él envió a recibirlos, pues los hombres estaban muy avergonzados. El rey dijo: Permanezcan en Jericó hasta que crezcan sus barbas y entonces regresen."
         },
         {
           "number": 6,
-          "text": "Al ver los hijos de Amón que se volvieron aborrecibles a David, Hanún y los hijos de Amón enviaron 33 toneladas de plata para contratar carruajes y jinetes de Mesopotamia, Siria, Maaca y Soba."
+          "text": "Al ver los hijos de Amón que se volvieron aborrecibles a David, Hanún y los hijos de Amón enviaron 33 toneladas de plata para contratar carruajes y jinetes de Mesopotamia, Siria, Maaca y Soba.",
+          "headings": [
+            "Derrota de los sirios"
+          ]
         },
         {
           "number": 7,
@@ -2849,7 +2906,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció el año siguiente, en el tiempo cuando los reyes acostumbran salir a la guerra, que Joab sacó las fuerzas del ejército. Destruyó la tierra de los hijos de Amón y sitió a Rabá. Sin embargo, David permaneció en Jerusalén, mientras Joab atacaba y destruía a Rabá."
+          "text": "Aconteció el año siguiente, en el tiempo cuando los reyes acostumbran salir a la guerra, que Joab sacó las fuerzas del ejército. Destruyó la tierra de los hijos de Amón y sitió a Rabá. Sin embargo, David permaneció en Jerusalén, mientras Joab atacaba y destruía a Rabá.",
+          "headings": [
+            "Guerra contra los hijos de Amón"
+          ]
         },
         {
           "number": 2,
@@ -2858,9 +2918,6 @@
         {
           "number": 3,
           "text": "Sacó también a la gente que estaba en ella y la obligó a trabajar con sierras, trillos de hierro y hachas. Así David hizo a todas las ciudades de los hijos de Amón. Y David regresó con todo el ejército a Jerusalén.",
-          "headings": [
-            "Guerras contra los filisteos"
-          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -2871,7 +2928,10 @@
         },
         {
           "number": 4,
-          "text": "Después de esto aconteció que hubo otra guerra contra los filisteos en Gezer. Sibecai husatita mató a Sipai, uno de los descendientes de los gigantes, los cuales fueron sometidos."
+          "text": "Después de esto aconteció que hubo otra guerra contra los filisteos en Gezer. Sibecai husatita mató a Sipai, uno de los descendientes de los gigantes, los cuales fueron sometidos.",
+          "headings": [
+            "Guerras contra los filisteos"
+          ]
         },
         {
           "number": 5,
@@ -2896,7 +2956,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Satán se levantó contra Israel, e incitó a David a hacer un censo de Israel."
+          "text": "Entonces Satán se levantó contra Israel, e incitó a David a hacer un censo de Israel.",
+          "headings": [
+            "Un censo no ordenado por Yavé"
+          ]
         },
         {
           "number": 2,
@@ -2924,14 +2987,14 @@
         },
         {
           "number": 8,
-          "text": "Entonces David confesó a ʼElohim : Pequé gravemente al hacer esto. Pero ahora te ruego que quites la iniquidad de tu esclavo, porque obré muy neciamente.",
-          "headings": [
-            "El castigo de Yavé por el atrevimiento de David"
-          ]
+          "text": "Entonces David confesó a ʼElohim : Pequé gravemente al hacer esto. Pero ahora te ruego que quites la iniquidad de tu esclavo, porque obré muy neciamente."
         },
         {
           "number": 9,
-          "text": "Yavé habló a Gad, vidente de David:"
+          "text": "Yavé habló a Gad, vidente de David:",
+          "headings": [
+            "El castigo de Yavé por el atrevimiento de David"
+          ]
         },
         {
           "number": 10,
@@ -2951,14 +3014,14 @@
         },
         {
           "number": 14,
-          "text": "Así que Yavé envió una pestilencia a Israel, y murieron 70.000 hombres de Israel.",
-          "headings": [
-            "La era de Ornán jebuseo"
-          ]
+          "text": "Así que Yavé envió una pestilencia a Israel, y murieron 70.000 hombres de Israel."
         },
         {
           "number": 15,
-          "text": "ʼElohim envió al Ángel a Jerusalén para destruirla, pero cuando destruía, Yavé miró y sintió pesar por aquella calamidad. Dijo al Ángel que destruía: ¡Basta! ¡Detén tu mano! Y el Ángel de Yavé estaba junto a la era de Ornán jebuseo."
+          "text": "ʼElohim envió al Ángel a Jerusalén para destruirla, pero cuando destruía, Yavé miró y sintió pesar por aquella calamidad. Dijo al Ángel que destruía: ¡Basta! ¡Detén tu mano! Y el Ángel de Yavé estaba junto a la era de Ornán jebuseo.",
+          "headings": [
+            "La era de Ornán jebuseo"
+          ]
         },
         {
           "number": 16,
@@ -3027,7 +3090,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces David dijo: Ésta es la Casa de Yavé ʼElohim , y éste es el altar del holocausto para Israel."
+          "text": "Entonces David dijo: Ésta es la Casa de Yavé ʼElohim , y éste es el altar del holocausto para Israel.",
+          "headings": [
+            "Preparativos para la Casa de Yavé"
+          ]
         },
         {
           "number": 2,
@@ -3108,7 +3174,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando David era anciano y lleno de días, proclamó a su hijo Salomón como rey sobre Israel."
+          "text": "Cuando David era anciano y lleno de días, proclamó a su hijo Salomón como rey sobre Israel.",
+          "headings": [
+            "Asignación de ministerio a los levitas"
+          ]
         },
         {
           "number": 2,
@@ -3241,7 +3310,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ahora, los hijos de Aarón fueron distribuidos en grupos. Los hijos de Aarón fueron Nadab, Abiú, Eleazar e Itamar."
+          "text": "Ahora, los hijos de Aarón fueron distribuidos en grupos. Los hijos de Aarón fueron Nadab, Abiú, Eleazar e Itamar.",
+          "headings": [
+            "Organización de los sacerdotes"
+          ]
         },
         {
           "number": 2,
@@ -3370,7 +3442,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Asimismo David y los jefes del ejército apartaron para el ministerio a algunos de los hijos de Asaf, Hemán y Jedutún, quienes cantaban salmos proféticos al son de arpas, salterios y címbalos. El número de los hombres idóneos para la obra de su ministerio, fue:"
+          "text": "Asimismo David y los jefes del ejército apartaron para el ministerio a algunos de los hijos de Asaf, Hemán y Jedutún, quienes cantaban salmos proféticos al son de arpas, salterios y címbalos. El número de los hombres idóneos para la obra de su ministerio, fue:",
+          "headings": [
+            "Organización de los cantores"
+          ]
         },
         {
           "number": 2,
@@ -3499,7 +3574,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La distribución de los porteros fue así: de los coreítas, Meselemías, hijo de Coré, de los hijos de Asaf."
+          "text": "La distribución de los porteros fue así: de los coreítas, Meselemías, hijo de Coré, de los hijos de Asaf.",
+          "headings": [
+            "Organización de los porteros y otros funcionarios"
+          ]
         },
         {
           "number": 2,
@@ -3571,14 +3649,14 @@
         },
         {
           "number": 19,
-          "text": "Tales fueron las distribuciones de los porteros de los hijos de Coré y de Merari.",
-          "headings": [
-            "Funcionarios de los levitas"
-          ]
+          "text": "Tales fueron las distribuciones de los porteros de los hijos de Coré y de Merari."
         },
         {
           "number": 20,
-          "text": "De los levitas, Ahías estaba encargado de los tesoros de la Casa de ʼElohim y de los tesoros de las cosas consagradas."
+          "text": "De los levitas, Ahías estaba encargado de los tesoros de la Casa de ʼElohim y de los tesoros de las cosas consagradas.",
+          "headings": [
+            "Funcionarios de los levitas"
+          ]
         },
         {
           "number": 21,
@@ -3635,7 +3713,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Esta es la lista de los israelitas, los jefes de casas paternas, jefes de millares y centenas, con sus oficiales que servían al rey en todos los asuntos de las divisiones. Ellos entraban y salían cada mes durante todo el año. Cada división era de 24.000."
+          "text": "Esta es la lista de los israelitas, los jefes de casas paternas, jefes de millares y centenas, con sus oficiales que servían al rey en todos los asuntos de las divisiones. Ellos entraban y salían cada mes durante todo el año. Cada división era de 24.000.",
+          "headings": [
+            "Oficiales del ejército"
+          ]
         },
         {
           "number": 2,
@@ -3691,14 +3772,14 @@
         },
         {
           "number": 15,
-          "text": "El comandante para el mes duodécimo era Heldai netofatita, de Otoniel. En su división había 24.000.",
-          "headings": [
-            "Comandantes de las tribus de Israel"
-          ]
+          "text": "El comandante para el mes duodécimo era Heldai netofatita, de Otoniel. En su división había 24.000."
         },
         {
           "number": 16,
-          "text": "Asimismo el caudillo de los rubenitas, Eliezer, hijo de Zicri, comandaba las tribus de Israel. De los simeonitas, Sefatías, hijo de Maaca."
+          "text": "Asimismo el caudillo de los rubenitas, Eliezer, hijo de Zicri, comandaba las tribus de Israel. De los simeonitas, Sefatías, hijo de Maaca.",
+          "headings": [
+            "Comandantes de las tribus de Israel"
+          ]
         },
         {
           "number": 17,
@@ -3730,14 +3811,14 @@
         },
         {
           "number": 24,
-          "text": "Joab, hijo de Sarvia, comenzó a contar, pero no acabó, pues por eso hubo una explosión de ira contra Israel. Así el número no fue colocado en el registro de las crónicas del rey David.",
-          "headings": [
-            "Otros funcionarios del rey David"
-          ]
+          "text": "Joab, hijo de Sarvia, comenzó a contar, pero no acabó, pues por eso hubo una explosión de ira contra Israel. Así el número no fue colocado en el registro de las crónicas del rey David."
         },
         {
           "number": 25,
-          "text": "Azmavet, hijo de Adiel, estaba a cargo de los tesoros del rey; Jonatán, hijo de Uzías, de los almacenes en el campo, las ciudades, aldeas y torres;"
+          "text": "Azmavet, hijo de Adiel, estaba a cargo de los tesoros del rey; Jonatán, hijo de Uzías, de los almacenes en el campo, las ciudades, aldeas y torres;",
+          "headings": [
+            "Otros funcionarios del rey David"
+          ]
         },
         {
           "number": 26,
@@ -3782,7 +3863,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David congregó en Jerusalén a todos los jefes de Israel: los jefes de tribus, de las divisiones que servían al rey, de millares y de centenas, los administradores de todo el patrimonio y hacienda del rey y de sus hijos, junto con los oficiales y todos los guerreros valientes."
+          "text": "David congregó en Jerusalén a todos los jefes de Israel: los jefes de tribus, de las divisiones que servían al rey, de millares y de centenas, los administradores de todo el patrimonio y hacienda del rey y de sus hijos, junto con los oficiales y todos los guerreros valientes.",
+          "headings": [
+            "Instrucciones de David para la Casa de Yavé"
+          ]
         },
         {
           "number": 2,
@@ -3871,7 +3955,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después el rey David dijo a toda la congregación: ʼElohim escogió solo a mi hijo Salomón. Él es joven e inmaduro, y la obra es grande, porque la Casa no es para hombre sino para Yavé ʼElohim ."
+          "text": "Después el rey David dijo a toda la congregación: ʼElohim escogió solo a mi hijo Salomón. Él es joven e inmaduro, y la obra es grande, porque la Casa no es para hombre sino para Yavé ʼElohim .",
+          "headings": [
+            "Ofrendas para la Casa de Yavé"
+          ]
         },
         {
           "number": 2,

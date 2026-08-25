@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Autobiografía de Nehemías hijo de Jacalías: En diciembre del año veinte del reinado de Artajerjes de Persia, cuando yo servía en el palacio de Susa,"
+          "text": "Autobiografía de Nehemías hijo de Jacalías: En diciembre del año veinte del reinado de Artajerjes de Persia, cuando yo servía en el palacio de Susa,",
+          "headings": [
+            "Nehemías ora por su pueblo"
+          ]
         },
         {
           "number": 2,
@@ -56,7 +59,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuatro meses después, un día de abril, yo estaba sirviendo el vino al rey;"
+          "text": "Cuatro meses después, un día de abril, yo estaba sirviendo el vino al rey;",
+          "headings": [
+            "Nehemías vuelve a Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -90,16 +96,16 @@
         },
         {
           "number": 10,
-          "text": "Pero cuando Sambalat el horonita, y Tobías el funcionario amonita, oyeron que había alguien interesado en ayudar a los israelitas, se enojaron mucho.",
-          "headings": [
-            "Nehemías inspecciona la muralla"
-          ]
+          "text": "Pero cuando Sambalat el horonita, y Tobías el funcionario amonita, oyeron que había alguien interesado en ayudar a los israelitas, se enojaron mucho."
         },
         {
           "number": 11,
           "text": "Tres días después de mi llegada a Jerusalén, me levanté durante la noche y salí acompañado de unos cuantos hombres. Yo no le había contado a nadie los planes que Dios había puesto en mi corazón acerca de Jerusalén. Yo iba montado en mi burro y mis acompañantes iban a pie.",
           "verseDisplay": "11-12",
-          "endNumber": 12
+          "endNumber": 12,
+          "headings": [
+            "Nehemías inspecciona la muralla"
+          ]
         },
         {
           "number": 13,
@@ -138,7 +144,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El sumo sacerdote Eliasib y los otros sacerdotes se encargaron de reconstruir la entrada de las Ovejas. Le colocaron la puerta, y reedificaron la muralla desde la torre de los Cien hasta la torre de Jananel."
+          "text": "El sumo sacerdote Eliasib y los otros sacerdotes se encargaron de reconstruir la entrada de las Ovejas. Le colocaron la puerta, y reedificaron la muralla desde la torre de los Cien hasta la torre de Jananel.",
+          "headings": [
+            "Se inicia la reconstrucción"
+          ]
         },
         {
           "number": 2,
@@ -271,7 +280,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Sambalat se enojó mucho cuando supo que estábamos reedificando la muralla. Enfurecido, nos insultó y se burló de nosotros."
+          "text": "Sambalat se enojó mucho cuando supo que estábamos reedificando la muralla. Enfurecido, nos insultó y se burló de nosotros.",
+          "headings": [
+            "Se obstaculiza la reconstrucción"
+          ]
         },
         {
           "number": 2,
@@ -368,7 +380,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hubo en esos días una gran protesta de las familias del pueblo contra algunos judíos ricos que estaban abusando de ellos."
+          "text": "Hubo en esos días una gran protesta de las familias del pueblo contra algunos judíos ricos que estaban abusando de ellos.",
+          "headings": [
+            "Nehemías defiende a los pobres"
+          ]
         },
         {
           "number": 2,
@@ -443,7 +458,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando Sambalat, Tobías, Guesén el árabe, y el resto de nuestros enemigos se dieron cuenta de que estábamos a punto de finalizar la reconstrucción de la muralla, aunque faltaba colocar las hojas de muchas puertas,"
+          "text": "Cuando Sambalat, Tobías, Guesén el árabe, y el resto de nuestros enemigos se dieron cuenta de que estábamos a punto de finalizar la reconstrucción de la muralla, aunque faltaba colocar las hojas de muchas puertas,",
+          "headings": [
+            "Nueva oposición de los enemigos"
+          ]
         },
         {
           "number": 2,
@@ -491,14 +509,14 @@
         },
         {
           "number": 14,
-          "text": "Entonces oré: «¡Dios mío, no te olvides de Tobías, de Sambalat, de la profetisa Noadías, ni de los demás profetas que han tratado de intimidarme!».",
-          "headings": [
-            "Termina la reconstrucción de la muralla"
-          ]
+          "text": "Entonces oré: «¡Dios mío, no te olvides de Tobías, de Sambalat, de la profetisa Noadías, ni de los demás profetas que han tratado de intimidarme!»."
         },
         {
           "number": 15,
-          "text": "Terminamos la reconstrucción de la muralla el día veinticinco del mes de elul, es decir, cincuenta y dos días después de haberla comenzado."
+          "text": "Terminamos la reconstrucción de la muralla el día veinticinco del mes de elul, es decir, cincuenta y dos días después de haberla comenzado.",
+          "headings": [
+            "Termina la reconstrucción de la muralla"
+          ]
         },
         {
           "number": 16,
@@ -523,7 +541,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando la muralla estuvo terminada y le colocamos las puertas y designamos a los porteros, cantores y levitas,"
+          "text": "Cuando la muralla estuvo terminada y le colocamos las puertas y designamos a los porteros, cantores y levitas,",
+          "headings": [
+            "Plan para defender a Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -535,14 +556,14 @@
         },
         {
           "number": 4,
-          "text": "Porque la ciudad era grande, pero la población era pequeña, y había sólo unas pocas viviendas esparcidas a través de la ciudad, pues aún no se habían reconstruido todas las casas.",
-          "headings": [
-            "Lista de los repatriados"
-          ]
+          "text": "Porque la ciudad era grande, pero la población era pequeña, y había sólo unas pocas viviendas esparcidas a través de la ciudad, pues aún no se habían reconstruido todas las casas."
         },
         {
           "number": 5,
-          "text": "Entonces mi Dios puso en mí el sentir de convocar a los jefes de la ciudad, juntamente con los del común del pueblo para censarlos. Yo había encontrado los registros genealógicos de los que habían regresado a Judá antes, y esto es lo que estaba escrito en ellos:"
+          "text": "Entonces mi Dios puso en mí el sentir de convocar a los jefes de la ciudad, juntamente con los del común del pueblo para censarlos. Yo había encontrado los registros genealógicos de los que habían regresado a Judá antes, y esto es lo que estaba escrito en ellos:",
+          "headings": [
+            "Lista de los repatriados"
+          ]
         },
         {
           "number": 6,
@@ -632,10 +653,7 @@
         },
         {
           "number": 73,
-          "text": "Los sacerdotes, los levitas, los porteros, los miembros del coro, los ayudantes del templo, y el resto del pueblo volvieron a sus respectivos pueblos y ciudades. Para el mes séptimo ya los israelitas estaban ubicados en sus ciudades.",
-          "headings": [
-            "Esdras lee la ley"
-          ]
+          "text": "Los sacerdotes, los levitas, los porteros, los miembros del coro, los ayudantes del templo, y el resto del pueblo volvieron a sus respectivos pueblos y ciudades. Para el mes séptimo ya los israelitas estaban ubicados en sus ciudades."
         }
       ]
     },
@@ -672,14 +690,14 @@
         },
         {
           "number": 12,
-          "text": "Entonces el pueblo se fue a hacer fiesta y a compartir sus comidas y bebidas con sus amigos. Fue ocasión de gran fiesta y gozo, porque podían oír y entender las palabras del libro de la Ley.",
-          "headings": [
-            "La fiesta de las Enramadas"
-          ]
+          "text": "Entonces el pueblo se fue a hacer fiesta y a compartir sus comidas y bebidas con sus amigos. Fue ocasión de gran fiesta y gozo, porque podían oír y entender las palabras del libro de la Ley."
         },
         {
           "number": 13,
-          "text": "Al día siguiente, los jefes de los clanes y los sacerdotes y levitas se reunieron con el maestro Esdras, para estudiar la ley con más detalle."
+          "text": "Al día siguiente, los jefes de los clanes y los sacerdotes y levitas se reunieron con el maestro Esdras, para estudiar la ley con más detalle.",
+          "headings": [
+            "La fiesta de las Enramadas"
+          ]
         },
         {
           "number": 14,
@@ -708,7 +726,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El día veinticuatro de ese mes los israelitas regresaron para celebrar otra fiesta. En esta oportunidad ayunaron, se vistieron de luto y se echaron ceniza en la cabeza; además,"
+          "text": "El día veinticuatro de ese mes los israelitas regresaron para celebrar otra fiesta. En esta oportunidad ayunaron, se vistieron de luto y se echaron ceniza en la cabeza; además,",
+          "headings": [
+            "Los israelitas confiesan sus pecados"
+          ]
         },
         {
           "number": 2,
@@ -865,7 +886,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yo, Nehemías, como gobernador, firmé el pacto."
+          "text": "Yo, Nehemías, como gobernador, firmé el pacto.",
+          "headings": [
+            "El pueblo se compromete a obedecer la ley"
+          ]
         },
         {
           "number": 2,
@@ -940,7 +964,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los funcionarios israelitas se quedaron viviendo en Jerusalén, la ciudad santa. En cuanto al resto del pueblo, echaron suertes para seleccionar a una de cada diez personas para que se quedaran viviendo en Jerusalén; los restantes residirían en las demás poblaciones."
+          "text": "Los funcionarios israelitas se quedaron viviendo en Jerusalén, la ciudad santa. En cuanto al resto del pueblo, echaron suertes para seleccionar a una de cada diez personas para que se quedaran viviendo en Jerusalén; los restantes residirían en las demás poblaciones.",
+          "headings": [
+            "Los que se establecieron en Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -998,16 +1025,16 @@
         },
         {
           "number": 24,
-          "text": "Petaías hijo de Mesezabel, descendiente de Zera hijo de Judá, ayudaba en todo lo que se refería a la administración pública.",
-          "headings": [
-            "Otras ciudades habitadas"
-          ]
+          "text": "Petaías hijo de Mesezabel, descendiente de Zera hijo de Judá, ayudaba en todo lo que se refería a la administración pública."
         },
         {
           "number": 25,
           "text": "Algunas de las poblaciones donde el pueblo de Judá estableció su residencia fueron: Quiriat Arbá, Dibón, Yecabsel (además de todos los pueblos vecinos), Jesúa; Moladá, Bet Pelet, Jazar Súal, Berseba (y todos los pueblos circunvecinos), Siclag, Mecona (y los pueblos que las rodean), Enrimón, Zora, Jarmut, Zanoa, Adulán y sus pueblos; Laquis y sus tierras, y Azeca con sus pueblos. Así que el pueblo se esparció desde Berseba hasta el valle de Hinón.",
           "verseDisplay": "25-30",
-          "endNumber": 30
+          "endNumber": 30,
+          "headings": [
+            "Otras ciudades habitadas"
+          ]
         },
         {
           "number": 31,
@@ -1026,7 +1053,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Esta es la lista de los sacerdotes y levitas que regresaron de Babilonia bajo la dirección de Zorobabel hijo de Salatiel, y con Jesúa:"
+          "text": "Esta es la lista de los sacerdotes y levitas que regresaron de Babilonia bajo la dirección de Zorobabel hijo de Salatiel, y con Jesúa:",
+          "headings": [
+            "Sacerdotes y levitas repatriados"
+          ]
         },
         {
           "number": 2,
@@ -1072,14 +1102,14 @@
         },
         {
           "number": 26,
-          "text": "Estos eran los hombres que estaban en servicio en tiempo de Joaquim hijo de Jesúa y nieto de Josadac, cuando yo era el gobernador, y Esdras era el sacerdote y maestro de la Ley.",
-          "headings": [
-            "Dedicación de la muralla"
-          ]
+          "text": "Estos eran los hombres que estaban en servicio en tiempo de Joaquim hijo de Jesúa y nieto de Josadac, cuando yo era el gobernador, y Esdras era el sacerdote y maestro de la Ley."
         },
         {
           "number": 27,
-          "text": "Próxima ya la dedicación de la nueva muralla de Jerusalén, se pidió a todos los levitas de la tierra que vinieran a Jerusalén a presenciar la ceremonia y a participar en la feliz ocasión con sus acciones de gracias, acompañados de címbalos, salterios y arpas."
+          "text": "Próxima ya la dedicación de la nueva muralla de Jerusalén, se pidió a todos los levitas de la tierra que vinieran a Jerusalén a presenciar la ceremonia y a participar en la feliz ocasión con sus acciones de gracias, acompañados de címbalos, salterios y arpas.",
+          "headings": [
+            "Dedicación de la muralla"
+          ]
         },
         {
           "number": 28,
@@ -1137,14 +1167,14 @@
         },
         {
           "number": 43,
-          "text": "En aquel día de gozo se ofrecieron muchos sacrificios, porque el Señor les había dado motivos para estar muy gozosos. Las mujeres y los niños también se alegraron, y el regocijo del pueblo de Jerusalén se oía desde lejos.",
-          "headings": [
-            "Contribución para los sacerdotes y levitas"
-          ]
+          "text": "En aquel día de gozo se ofrecieron muchos sacrificios, porque el Señor les había dado motivos para estar muy gozosos. Las mujeres y los niños también se alegraron, y el regocijo del pueblo de Jerusalén se oía desde lejos."
         },
         {
           "number": 44,
-          "text": "En aquel día se nombraron a las personas que se harían cargo de los tesoros, las ofrendas mecidas, los diezmos y las primicias. Tendrían la tarea de recolectarlas de los campos pertenecientes a las poblaciones, como lo estipulan las leyes de Moisés. Estas ofrendas estaban destinadas a los sacerdotes y levitas, porque el pueblo de Judá los apreciaba mucho por el servicio que ofrecían."
+          "text": "En aquel día se nombraron a las personas que se harían cargo de los tesoros, las ofrendas mecidas, los diezmos y las primicias. Tendrían la tarea de recolectarlas de los campos pertenecientes a las poblaciones, como lo estipulan las leyes de Moisés. Estas ofrendas estaban destinadas a los sacerdotes y levitas, porque el pueblo de Judá los apreciaba mucho por el servicio que ofrecían.",
+          "headings": [
+            "Contribución para los sacerdotes y levitas"
+          ]
         },
         {
           "number": 45,
@@ -1165,7 +1195,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aquel mismo día, al leer la Ley de Moisés al pueblo, se encontró un texto que decía que los amonitas y los moabitas no debían formar parte del pueblo de Dios,"
+          "text": "Aquel mismo día, al leer la Ley de Moisés al pueblo, se encontró un texto que decía que los amonitas y los moabitas no debían formar parte del pueblo de Dios,",
+          "headings": [
+            "Reforma final de Nehemías"
+          ]
         },
         {
           "number": 2,

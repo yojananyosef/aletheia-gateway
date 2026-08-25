@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le habló a Moisés desde el santuario,"
+          "text": "El Señor le habló a Moisés desde el santuario,",
+          "headings": [
+            "El holocausto"
+          ]
         },
         {
           "number": 2,
@@ -74,7 +77,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Cuando alguna persona quiera presentar una ofrenda de cereales al Señor , deberá llevar harina de la mejor calidad, sobre la cual derramará aceite puro de oliva e incienso."
+          "text": "»Cuando alguna persona quiera presentar una ofrenda de cereales al Señor , deberá llevar harina de la mejor calidad, sobre la cual derramará aceite puro de oliva e incienso.",
+          "headings": [
+            "La ofrenda de cereal"
+          ]
         },
         {
           "number": 2,
@@ -143,7 +149,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Cualquiera que quiera presentar una ofrenda de acción de gracias delante del Señor , podrá traer un becerro o una ternera, pero el animal debe ser sin defectos."
+          "text": "»Cualquiera que quiera presentar una ofrenda de acción de gracias delante del Señor , podrá traer un becerro o una ternera, pero el animal debe ser sin defectos.",
+          "headings": [
+            "El sacrificio de comunión"
+          ]
         },
         {
           "number": 2,
@@ -200,18 +209,21 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces el Señor le dio estas otras instrucciones a Moisés:"
-        },
-        {
-          "number": 2,
-          "text": "«Dile al pueblo de Israel que estas son las leyes para cualquiera que sin querer quebrante alguno de mis mandamientos:",
+          "text": "Entonces el Señor le dio estas otras instrucciones a Moisés:",
           "headings": [
-            "El sacrificio expiatorio por el pecado del sacerdote"
+            "El sacrificio expiatorio"
           ]
         },
         {
+          "number": 2,
+          "text": "«Dile al pueblo de Israel que estas son las leyes para cualquiera que sin querer quebrante alguno de mis mandamientos:"
+        },
+        {
           "number": 3,
-          "text": "»Si un sacerdote peca, sin haber tenido la intención de hacerlo, y en consecuencia hace caer alguna culpa sobre el pueblo, debe ofrecer al Señor un becerro sin defecto, como expiación por el pecado del pueblo."
+          "text": "»Si un sacerdote peca, sin haber tenido la intención de hacerlo, y en consecuencia hace caer alguna culpa sobre el pueblo, debe ofrecer al Señor un becerro sin defecto, como expiación por el pecado del pueblo.",
+          "headings": [
+            "El sacrificio expiatorio por el pecado del sacerdote"
+          ]
         },
         {
           "number": 4,
@@ -245,14 +257,14 @@
           "number": 11,
           "text": "Pero el resto del becerro, la piel, la carne, la cabeza, las patas, los órganos internos y los intestinos, serán llevados a un lugar ceremonialmente limpio, fuera del campamento, al lugar donde se llevan las cenizas del altar, y lo quemarán sobre la leña encendida.",
           "verseDisplay": "11-12",
-          "endNumber": 12,
-          "headings": [
-            "El sacrificio expiatorio por el pecado de la comunidad"
-          ]
+          "endNumber": 12
         },
         {
           "number": 13,
-          "text": "»Si toda la nación de Israel peca, sin darse cuenta de ello, y hace algo que el Señor le haya prohibido, todo el pueblo será culpable."
+          "text": "»Si toda la nación de Israel peca, sin darse cuenta de ello, y hace algo que el Señor le haya prohibido, todo el pueblo será culpable.",
+          "headings": [
+            "El sacrificio expiatorio por el pecado de la comunidad"
+          ]
         },
         {
           "number": 14,
@@ -284,14 +296,14 @@
         },
         {
           "number": 21,
-          "text": "Enseguida, el sacerdote sacará el becerro del campamento y lo quemará, de la misma manera que lo haría si se tratara de una ofrenda por el pecado de algún individuo, sólo que esta vez se trata de una ofrenda por el pecado de toda la nación.",
-          "headings": [
-            "El sacrificio expiatorio por el pecado de un gobernante"
-          ]
+          "text": "Enseguida, el sacerdote sacará el becerro del campamento y lo quemará, de la misma manera que lo haría si se tratara de una ofrenda por el pecado de algún individuo, sólo que esta vez se trata de una ofrenda por el pecado de toda la nación."
         },
         {
           "number": 22,
-          "text": "»Si uno de los jefes de la nación peca sin darse cuenta, y desobedece la ley de Dios,"
+          "text": "»Si uno de los jefes de la nación peca sin darse cuenta, y desobedece la ley de Dios,",
+          "headings": [
+            "El sacrificio expiatorio por el pecado de un gobernante"
+          ]
         },
         {
           "number": 23,
@@ -307,14 +319,14 @@
         },
         {
           "number": 26,
-          "text": "Toda la grasa será quemada sobre el altar como se hace con el sacrificio de acción de gracias; de esta manera el sacerdote hará expiación por el jefe que haya pecado, y este será perdonado.",
-          "headings": [
-            "El sacrificio expiatorio por el pecado de un miembro del pueblo"
-          ]
+          "text": "Toda la grasa será quemada sobre el altar como se hace con el sacrificio de acción de gracias; de esta manera el sacerdote hará expiación por el jefe que haya pecado, y este será perdonado."
         },
         {
           "number": 27,
-          "text": "»Si alguien del pueblo peca y no se da cuenta de ello, es culpable."
+          "text": "»Si alguien del pueblo peca y no se da cuenta de ello, es culpable.",
+          "headings": [
+            "El sacrificio expiatorio por el pecado de un miembro del pueblo"
+          ]
         },
         {
           "number": 28,
@@ -355,7 +367,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Cualquiera que se niegue a testificar acerca de un delito del cual es testigo, ya sea porque vio o escuchó, es culpable de complicidad, y deberá pagar por ello."
+          "text": "»Cualquiera que se niegue a testificar acerca de un delito del cual es testigo, ya sea porque vio o escuchó, es culpable de complicidad, y deberá pagar por ello.",
+          "headings": [
+            "El sacrificio expiatorio por diversos pecados"
+          ]
         },
         {
           "number": 2,
@@ -375,14 +390,14 @@
         },
         {
           "number": 6,
-          "text": "y presentará una ofrenda por su culpa: una hembra de ganado menor, oveja o cabra. El sacerdote hará la expiación por esa persona, y esta quedará perdonada.",
-          "headings": [
-            "El caso del pobre"
-          ]
+          "text": "y presentará una ofrenda por su culpa: una hembra de ganado menor, oveja o cabra. El sacerdote hará la expiación por esa persona, y esta quedará perdonada."
         },
         {
           "number": 7,
-          "text": "»Si el culpable es una persona muy pobre, de modo que no tiene forma de ofrecer una oveja, entonces ofrecerá dos tórtolas o dos pichones de paloma: uno como ofrenda por el pecado y el otro como holocausto."
+          "text": "»Si el culpable es una persona muy pobre, de modo que no tiene forma de ofrecer una oveja, entonces ofrecerá dos tórtolas o dos pichones de paloma: uno como ofrenda por el pecado y el otro como holocausto.",
+          "headings": [
+            "El caso del pobre"
+          ]
         },
         {
           "number": 8,
@@ -406,14 +421,14 @@
         },
         {
           "number": 13,
-          "text": "De esta manera el sacerdote hará expiación por el que haya cometido cualquier pecado de esta clase, y será perdonado. El resto de la harina pertenecerá al sacerdote, como en el caso de una ofrenda de cereales».",
-          "headings": [
-            "El sacrificio por la culpa"
-          ]
+          "text": "De esta manera el sacerdote hará expiación por el que haya cometido cualquier pecado de esta clase, y será perdonado. El resto de la harina pertenecerá al sacerdote, como en el caso de una ofrenda de cereales»."
         },
         {
           "number": 14,
-          "text": "Además, el Señor le dijo a Moisés:"
+          "text": "Además, el Señor le dijo a Moisés:",
+          "headings": [
+            "El sacrificio por la culpa"
+          ]
         },
         {
           "number": 15,
@@ -462,14 +477,14 @@
         },
         {
           "number": 7,
-          "text": "el sacerdote hará la expiación a su favor delante del Señor , y será perdonado».",
-          "headings": [
-            "El holocausto"
-          ]
+          "text": "el sacerdote hará la expiación a su favor delante del Señor , y será perdonado»."
         },
         {
           "number": 8,
-          "text": "Además, el Señor le dijo a Moisés:"
+          "text": "Además, el Señor le dijo a Moisés:",
+          "headings": [
+            "El holocausto"
+          ]
         },
         {
           "number": 9,
@@ -489,14 +504,14 @@
         },
         {
           "number": 13,
-          "text": "El fuego debe mantenerse encendido continuamente sobre el altar. No debe dejarse apagar.",
-          "headings": [
-            "La ofrenda de cereal"
-          ]
+          "text": "El fuego debe mantenerse encendido continuamente sobre el altar. No debe dejarse apagar."
         },
         {
           "number": 14,
-          "text": "»Estas son las reglas acerca de las ofrendas de cereales: Los hijos de Aarón se pondrán de pie ante el altar, delante del Señor para presentar la ofrenda de cereales."
+          "text": "»Estas son las reglas acerca de las ofrendas de cereales: Los hijos de Aarón se pondrán de pie ante el altar, delante del Señor para presentar la ofrenda de cereales.",
+          "headings": [
+            "La ofrenda de cereal"
+          ]
         },
         {
           "number": 15,
@@ -512,16 +527,16 @@
         },
         {
           "number": 18,
-          "text": "Podrá comerla cualquier varón descendiente de Aarón, generación tras generación. Pero sólo ellos podrán comer de estas ofrendas presentadas en el fuego al Señor . Cualquier cosa que toque los sacrificios quedará consangrada».",
-          "headings": [
-            "La ofrenda de los sacerdotes"
-          ]
+          "text": "Podrá comerla cualquier varón descendiente de Aarón, generación tras generación. Pero sólo ellos podrán comer de estas ofrendas presentadas en el fuego al Señor . Cualquier cosa que toque los sacrificios quedará consangrada»."
         },
         {
           "number": 19,
           "text": "El Señor le dijo a Moisés: «El día que Aarón y sus hijos sean ungidos, presentarán al Señor una ofrenda de dos kilos de harina: ofrecerán la mitad en la mañana, y la otra mitad en la tarde.",
           "verseDisplay": "19-20",
-          "endNumber": 20
+          "endNumber": 20,
+          "headings": [
+            "La ofrenda de los sacerdotes"
+          ]
         },
         {
           "number": 21,
@@ -531,14 +546,14 @@
           "number": 22,
           "text": "Cuando los hijos de los sacerdotes tengan que tomar el lugar de sus padres, serán incorporados al oficio por medio de la presentación de este mismo sacrificio en el día de su unción. Esta es una ley perpetua. Estas ofrendas serán completamente quemadas delante del Señor . Nadie comerá parte alguna de ellas».",
           "verseDisplay": "22-23",
-          "endNumber": 23,
-          "headings": [
-            "El sacrificio expiatorio"
-          ]
+          "endNumber": 23
         },
         {
           "number": 24,
-          "text": "Luego el Señor le dijo a Moisés:"
+          "text": "Luego el Señor le dijo a Moisés:",
+          "headings": [
+            "El sacrificio expiatorio"
+          ]
         },
         {
           "number": 25,
@@ -571,7 +586,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Estas son mis órdenes sobre la ofrenda santísima por la culpa:"
+          "text": "»Estas son mis órdenes sobre la ofrenda santísima por la culpa:",
+          "headings": [
+            "El sacrificio por la culpa"
+          ]
         },
         {
           "number": 2,
@@ -591,14 +609,14 @@
         },
         {
           "number": 6,
-          "text": "Todo varón de entre los sacerdotes podrá comer la víctima, y deberá hacerlo en un lugar limpio, porque es un sacrificio santísimo.",
-          "headings": [
-            "Derechos de los sacerdotes"
-          ]
+          "text": "Todo varón de entre los sacerdotes podrá comer la víctima, y deberá hacerlo en un lugar limpio, porque es un sacrificio santísimo."
         },
         {
           "number": 7,
-          "text": "»La misma orden se aplica a la ofrenda por el pecado y a la ofrenda por la culpa: El animal sacrificado pertenece al sacerdote que está a cargo de presentar el sacrificio, y comerá de él."
+          "text": "»La misma orden se aplica a la ofrenda por el pecado y a la ofrenda por la culpa: El animal sacrificado pertenece al sacerdote que está a cargo de presentar el sacrificio, y comerá de él.",
+          "headings": [
+            "Derechos de los sacerdotes"
+          ]
         },
         {
           "number": 8,
@@ -610,14 +628,14 @@
         },
         {
           "number": 10,
-          "text": "Todas las demás ofrendas de harina, mezcladas con aceite de oliva o secas, son propiedad de todos los hijos de Aarón.",
-          "headings": [
-            "Diversos sacrificios de comunión"
-          ]
+          "text": "Todas las demás ofrendas de harina, mezcladas con aceite de oliva o secas, son propiedad de todos los hijos de Aarón."
         },
         {
           "number": 11,
-          "text": "»Estas son mis órdenes acerca de los sacrificios presentados como ofrendas de paz al Señor :"
+          "text": "»Estas son mis órdenes acerca de los sacrificios presentados como ofrendas de paz al Señor :",
+          "headings": [
+            "Diversos sacrificios de comunión"
+          ]
         },
         {
           "number": 12,
@@ -655,14 +673,14 @@
         },
         {
           "number": 21,
-          "text": "»Cualquiera que toque algo que esté ritualmente impuro, sea de hombre o de bestia, y luego coma del sacrificio de paz, será separado de su pueblo por haber contaminado lo que es sagrado».",
-          "headings": [
-            "Prohibiciones acerca de la grasa y de la sangre"
-          ]
+          "text": "»Cualquiera que toque algo que esté ritualmente impuro, sea de hombre o de bestia, y luego coma del sacrificio de paz, será separado de su pueblo por haber contaminado lo que es sagrado»."
         },
         {
           "number": 22,
-          "text": "Entonces el Señor le dijo a Moisés"
+          "text": "Entonces el Señor le dijo a Moisés",
+          "headings": [
+            "Prohibiciones acerca de la grasa y de la sangre"
+          ]
         },
         {
           "number": 23,
@@ -680,14 +698,14 @@
           "number": 26,
           "text": "Sin importar dónde ustedes vivan, no podrán comer sangre ni grasa de aves ni de ningún animal. Cualquiera que lo haga será expulsado de su pueblo».",
           "verseDisplay": "26-27",
-          "endNumber": 27,
-          "headings": [
-            "La porción de los sacerdotes"
-          ]
+          "endNumber": 27
         },
         {
           "number": 28,
-          "text": "Y el Señor le dijo a Moisés"
+          "text": "Y el Señor le dijo a Moisés",
+          "headings": [
+            "La porción de los sacerdotes"
+          ]
         },
         {
           "number": 29,
@@ -734,7 +752,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le dijo a Moisés:"
+          "text": "El Señor le dijo a Moisés:",
+          "headings": [
+            "La ordenación de Aarón y sus hijos"
+          ]
         },
         {
           "number": 2,
@@ -888,7 +909,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Al octavo día de las ceremonias de la consagración, Moisés convocó a Aarón, a sus hijos y a los jefes de Israel,"
+          "text": "Al octavo día de las ceremonias de la consagración, Moisés convocó a Aarón, a sus hijos y a los jefes de Israel,",
+          "headings": [
+            "Los sacerdotes inician su ministerio"
+          ]
         },
         {
           "number": 2,
@@ -989,7 +1013,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Nadab y Abiú, hijos de Aarón, pusieron fuego sin consagrar en sus incensarios, y ofrecieron incienso delante Señor . De modo que actuaron en contra de lo que el Señor les acababa de ordenar."
+          "text": "Nadab y Abiú, hijos de Aarón, pusieron fuego sin consagrar en sus incensarios, y ofrecieron incienso delante Señor . De modo que actuaron en contra de lo que el Señor les acababa de ordenar.",
+          "headings": [
+            "Muerte de Nadab y Abiú"
+          ]
         },
         {
           "number": 2,
@@ -1005,27 +1032,27 @@
         },
         {
           "number": 5,
-          "text": "Se acercaron, pues, los agarraron por sus túnicas y los sacaron fuera del campamento, como Moisés les había ordenado.",
+          "text": "Se acercaron, pues, los agarraron por sus túnicas y los sacaron fuera del campamento, como Moisés les había ordenado."
+        },
+        {
+          "number": 6,
+          "text": "Entonces Moisés les dijo a Aarón y a sus hijos Eleazar e Itamar: «No lloren ni anden despeinados, ni se rasguen sus vestidos, en señal de duelo. Si lo hacen, el Señor se enojará contra ustedes y les dará muerte también, y hará caer su ira sobre todo el pueblo de Israel. El resto del pueblo sí puede lamentar la muerte de Nadab y Abiú y puede hacer duelo por el terrible fuego que el Señor ha enviado.",
           "headings": [
             "Ley sobre el duelo sacerdotal"
           ]
         },
         {
-          "number": 6,
-          "text": "Entonces Moisés les dijo a Aarón y a sus hijos Eleazar e Itamar: «No lloren ni anden despeinados, ni se rasguen sus vestidos, en señal de duelo. Si lo hacen, el Señor se enojará contra ustedes y les dará muerte también, y hará caer su ira sobre todo el pueblo de Israel. El resto del pueblo sí puede lamentar la muerte de Nadab y Abiú y puede hacer duelo por el terrible fuego que el Señor ha enviado."
-        },
-        {
           "number": 7,
-          "text": "Pero ustedes no deben salir del santuario, pues si lo hacen serán castigados con la muerte, porque el Señor los ha ungido». Ellos hicieron, pues, lo que Moisés ordenó.",
-          "headings": [
-            "Ley sobre el culto y el licor"
-          ]
+          "text": "Pero ustedes no deben salir del santuario, pues si lo hacen serán castigados con la muerte, porque el Señor los ha ungido». Ellos hicieron, pues, lo que Moisés ordenó."
         },
         {
           "number": 8,
           "text": "El Señor le habló a Aarón y le dijo: «No bebas vino ni otras bebidas alcohólicas cuando tengas que entrar al santuario, o morirás. Esta norma se aplicará a tus hijos y a todos tus descendientes, de generación en generación.",
           "verseDisplay": "8-9",
-          "endNumber": 9
+          "endNumber": 9,
+          "headings": [
+            "Ley sobre el culto y el licor"
+          ]
         },
         {
           "number": 10,
@@ -1033,14 +1060,14 @@
         },
         {
           "number": 11,
-          "text": "de modo que también podrán enseñarles a los israelitas las leyes que yo, el Señor , les he dado por medio de Moisés».",
-          "headings": [
-            "La porción de los sacerdotes"
-          ]
+          "text": "de modo que también podrán enseñarles a los israelitas las leyes que yo, el Señor , les he dado por medio de Moisés»."
         },
         {
           "number": 12,
-          "text": "Entonces Moisés le dijo a Aarón y a los hijos que le quedaban, es decir, Eleazar e Itamar: «Tomen lo que ha quedado de la ofrenda de harina de la mejor calidad, y cómanla sin levadura, junto al altar. Es una ofrenda santísima."
+          "text": "Entonces Moisés le dijo a Aarón y a los hijos que le quedaban, es decir, Eleazar e Itamar: «Tomen lo que ha quedado de la ofrenda de harina de la mejor calidad, y cómanla sin levadura, junto al altar. Es una ofrenda santísima.",
+          "headings": [
+            "La porción de los sacerdotes"
+          ]
         },
         {
           "number": 13,
@@ -1052,14 +1079,14 @@
         },
         {
           "number": 15,
-          "text": "»El pueblo debe traer el muslo que fue apartado y el pecho que se ofreció cuando se quemó la grasa, y ambos serán presentados y mecidos delante del Señor . Después de eso serán para ti y para tu familia, porque el Señor lo ha ordenado así».",
-          "headings": [
-            "Un caso especial"
-          ]
+          "text": "»El pueblo debe traer el muslo que fue apartado y el pecho que se ofreció cuando se quemó la grasa, y ambos serán presentados y mecidos delante del Señor . Después de eso serán para ti y para tu familia, porque el Señor lo ha ordenado así»."
         },
         {
           "number": 16,
-          "text": "Moisés buscó diligentemente el macho cabrío de la ofrenda por el pecado, y cuando descubrió que lo habían quemado, se disgustó mucho con Eleazar e Itamar, los dos hijos de Aarón."
+          "text": "Moisés buscó diligentemente el macho cabrío de la ofrenda por el pecado, y cuando descubrió que lo habían quemado, se disgustó mucho con Eleazar e Itamar, los dos hijos de Aarón.",
+          "headings": [
+            "Un caso especial"
+          ]
         },
         {
           "number": 17,
@@ -1084,7 +1111,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces el Señor les dijo a Moisés y a Aarón:"
+          "text": "Entonces el Señor les dijo a Moisés y a Aarón:",
+          "headings": [
+            "Leyes sobre animales puros e impuros"
+          ]
         },
         {
           "number": 2,
@@ -1136,14 +1166,14 @@
         },
         {
           "number": 23,
-          "text": "Los demás insectos alados que tienen cuatro patas están prohibidos.",
-          "headings": [
-            "Leyes sobre la impureza por tocar un animal impuro"
-          ]
+          "text": "Los demás insectos alados que tienen cuatro patas están prohibidos."
         },
         {
           "number": 24,
-          "text": "»Cualquiera que toque sus cuerpos muertos quedará impuro hasta la noche,"
+          "text": "»Cualquiera que toque sus cuerpos muertos quedará impuro hasta la noche,",
+          "headings": [
+            "Leyes sobre la impureza por tocar un animal impuro"
+          ]
         },
         {
           "number": 25,
@@ -1169,14 +1199,14 @@
         },
         {
           "number": 31,
-          "text": "»La persona que toque alguno de estos animales muertos quedará impura hasta la noche.",
-          "headings": [
-            "Otras leyes sobre el contacto con animales impuros"
-          ]
+          "text": "»La persona que toque alguno de estos animales muertos quedará impura hasta la noche."
         },
         {
           "number": 32,
-          "text": "»Cualquier objeto, sin importar de qué material esté hecho, sobre el que caiga el animal muerto, quedará impuro, y deberán dejarlo en agua hasta el anochecer."
+          "text": "»Cualquier objeto, sin importar de qué material esté hecho, sobre el que caiga el animal muerto, quedará impuro, y deberán dejarlo en agua hasta el anochecer.",
+          "headings": [
+            "Otras leyes sobre el contacto con animales impuros"
+          ]
         },
         {
           "number": 33,
@@ -1208,16 +1238,16 @@
         },
         {
           "number": 40,
-          "text": "Además, cualquier persona que coma esa carne o saque el animal tendrá que lavarse la ropa y quedará impura hasta el anochecer.",
-          "headings": [
-            "Resumen sobre los reptiles y la santidad"
-          ]
+          "text": "Además, cualquier persona que coma esa carne o saque el animal tendrá que lavarse la ropa y quedará impura hasta el anochecer."
         },
         {
           "number": 41,
           "text": "»No comerán animales que se arrastran sobre la tierra. Esto incluye a reptiles que se deslizan sobre el vientre y los que tienen patas. Ningún animal que se arrastra y tiene muchas patas se podrá comer, porque es impuro.",
           "verseDisplay": "41-42",
-          "endNumber": 42
+          "endNumber": 42,
+          "headings": [
+            "Resumen sobre los reptiles y la santidad"
+          ]
         },
         {
           "number": 43,
@@ -1229,14 +1259,14 @@
         },
         {
           "number": 45,
-          "text": "Yo soy el Señor , el que los sacó de Egipto para ser su Dios. Por lo tanto, deben ser santos como yo soy santo.",
-          "headings": [
-            "Conclusión"
-          ]
+          "text": "Yo soy el Señor , el que los sacó de Egipto para ser su Dios. Por lo tanto, deben ser santos como yo soy santo."
         },
         {
           "number": 46,
-          "text": "»Estas son las leyes acerca de animales, aves, animales acuáticos y reptiles."
+          "text": "»Estas son las leyes acerca de animales, aves, animales acuáticos y reptiles.",
+          "headings": [
+            "Conclusión"
+          ]
         },
         {
           "number": 47,
@@ -1249,7 +1279,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le dijo a Moisés que le diera las siguientes instrucciones al pueblo de Israel:"
+          "text": "El Señor le dijo a Moisés que le diera las siguientes instrucciones al pueblo de Israel:",
+          "headings": [
+            "Purificación después del alumbramiento"
+          ]
         },
         {
           "number": 2,
@@ -1286,7 +1319,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor les dijo a Moisés y a Aarón:"
+          "text": "El Señor les dijo a Moisés y a Aarón:",
+          "headings": [
+            "Leyes sobre enfermedades cutáneas"
+          ]
         },
         {
           "number": 2,
@@ -1314,16 +1350,16 @@
         },
         {
           "number": 8,
-          "text": "Si al examinar a la persona, el sacerdote descubre que la mancha se ha extendido sobre la piel, entonces la declarará impura. Se trata de un caso de lepra.",
-          "headings": [
-            "Leyes sobre enfermedades infecciosas"
-          ]
+          "text": "Si al examinar a la persona, el sacerdote descubre que la mancha se ha extendido sobre la piel, entonces la declarará impura. Se trata de un caso de lepra."
         },
         {
           "number": 9,
           "text": "»Cuando una persona presente una llaga en la piel, tendrá que ser llevada ante el sacerdote. Si al examinar a la persona, el sacerdote nota que la llaga y el vello se han puesto blancos, y se ve la carne viva,",
           "verseDisplay": "9-10",
-          "endNumber": 10
+          "endNumber": 10,
+          "headings": [
+            "Leyes sobre enfermedades infecciosas"
+          ]
         },
         {
           "number": 11,
@@ -1347,14 +1383,14 @@
           "number": 16,
           "text": "Pero si la carne viva se vuelve blanca, la persona enferma acudirá al sacerdote para ser examinada nuevamente. Si el lugar en realidad se ha vuelto completamente blanco, el sacerdote la declarará sin lepra.",
           "verseDisplay": "16-17",
-          "endNumber": 17,
-          "headings": [
-            "Leyes sobre los abscesos"
-          ]
+          "endNumber": 17
         },
         {
           "number": 18,
-          "text": "»En el caso de que una persona haya tenido un absceso en la piel,"
+          "text": "»En el caso de que una persona haya tenido un absceso en la piel,",
+          "headings": [
+            "Leyes sobre los abscesos"
+          ]
         },
         {
           "number": 19,
@@ -1374,14 +1410,14 @@
         },
         {
           "number": 23,
-          "text": "Pero si no parece mayor, y no se ha extendido, se trata solamente de la cicatriz del absceso, y el sacerdote la declarará limpia.",
-          "headings": [
-            "Leyes sobre las quemaduras"
-          ]
+          "text": "Pero si no parece mayor, y no se ha extendido, se trata solamente de la cicatriz del absceso, y el sacerdote la declarará limpia."
         },
         {
           "number": 24,
-          "text": "»Si alguien se quema en cualquier forma, y la parte quemada se pone de un color blanco rojizo,"
+          "text": "»Si alguien se quema en cualquier forma, y la parte quemada se pone de un color blanco rojizo,",
+          "headings": [
+            "Leyes sobre las quemaduras"
+          ]
         },
         {
           "number": 25,
@@ -1397,16 +1433,16 @@
         },
         {
           "number": 28,
-          "text": "Pero si el lugar afectado no se ha extendido, y se ve que ha disminuido, se trata sólo de la cicatriz de la quemadura, y el sacerdote lo declarará limpio.",
-          "headings": [
-            "Leyes sobre enfermedades del cuero cabelludo y de la barba"
-          ]
+          "text": "Pero si el lugar afectado no se ha extendido, y se ve que ha disminuido, se trata sólo de la cicatriz de la quemadura, y el sacerdote lo declarará limpio."
         },
         {
           "number": 29,
           "text": "»Si una persona, hombre o mujer, tiene una llaga en la cabeza o en el mentón, acudirá al sacerdote para que examine la llaga. Si la llaga parece estar más hundida que el resto de la piel y se encuentra vello amarillento en ella, el sacerdote declarará leprosa a esa persona.",
           "verseDisplay": "29-30",
-          "endNumber": 30
+          "endNumber": 30,
+          "headings": [
+            "Leyes sobre enfermedades del cuero cabelludo y de la barba"
+          ]
         },
         {
           "number": 31,
@@ -1434,25 +1470,25 @@
         },
         {
           "number": 37,
-          "text": "Pero si se ve claramente que la herida ha dejado de extenderse y que los vellos del lugar son negros, es porque dicha persona está sana, así que el sacerdote la declarará sin lepra.",
+          "text": "Pero si se ve claramente que la herida ha dejado de extenderse y que los vellos del lugar son negros, es porque dicha persona está sana, así que el sacerdote la declarará sin lepra."
+        },
+        {
+          "number": 38,
+          "text": "»Si una persona, hombre o mujer, presenta manchas blancuzcas en la piel,",
           "headings": [
             "Afecciones cutáneas benignas"
           ]
         },
         {
-          "number": 38,
-          "text": "»Si una persona, hombre o mujer, presenta manchas blancuzcas en la piel,"
-        },
-        {
           "number": 39,
-          "text": "pero estas se están oscureciendo, no es lepra. Se trata sólo de una infección común de la piel. Por eso, dicha persona es pura.",
-          "headings": [
-            "Leyes sobre la calvicie"
-          ]
+          "text": "pero estas se están oscureciendo, no es lepra. Se trata sólo de una infección común de la piel. Por eso, dicha persona es pura."
         },
         {
           "number": 40,
-          "text": "»Si un hombre pierde el cabello, aunque quede calvo, no es leproso."
+          "text": "»Si un hombre pierde el cabello, aunque quede calvo, no es leproso.",
+          "headings": [
+            "Leyes sobre la calvicie"
+          ]
         },
         {
           "number": 41,
@@ -1468,27 +1504,27 @@
         },
         {
           "number": 44,
-          "text": "se trata efectivamente de lepra, y el sacerdote así lo declarará.",
+          "text": "se trata efectivamente de lepra, y el sacerdote así lo declarará."
+        },
+        {
+          "number": 45,
+          "text": "»La persona en la que se encuentre una infección deberá rasgar su ropa, andar despeinada, cubrirse el rostro hasta el labio superior y anunciar mientras camina: “¡Soy impuro! ¡Soy impuro!”.",
           "headings": [
             "Leyes sobre las infecciones"
           ]
         },
         {
-          "number": 45,
-          "text": "»La persona en la que se encuentre una infección deberá rasgar su ropa, andar despeinada, cubrirse el rostro hasta el labio superior y anunciar mientras camina: “¡Soy impuro! ¡Soy impuro!”."
-        },
-        {
           "number": 46,
-          "text": "Mientras dure la enfermedad será considerado impuro, y tendrá que vivir fuera del campamento.",
-          "headings": [
-            "Leyes sobre el moho"
-          ]
+          "text": "Mientras dure la enfermedad será considerado impuro, y tendrá que vivir fuera del campamento."
         },
         {
           "number": 47,
           "text": "»Cuando aparezca una mancha en un vestido de lana o de lino, o en un objeto de piel o en un utensilio de cuero,",
           "verseDisplay": "47-48",
-          "endNumber": 48
+          "endNumber": 48,
+          "headings": [
+            "Leyes sobre el moho"
+          ]
         },
         {
           "number": 49,
@@ -1541,7 +1577,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le dio a Moisés las siguientes instrucciones"
+          "text": "El Señor le dio a Moisés las siguientes instrucciones",
+          "headings": [
+            "Purificación de las enfermedades cutáneas"
+          ]
         },
         {
           "number": 2,
@@ -1665,16 +1704,16 @@
         },
         {
           "number": 32,
-          "text": "»Estas, pues, son las leyes acerca de las personas pobres que se purifican de alguna infección cutánea, y que no pueden presentar los sacrificios normalmente requeridos para su purificación».",
-          "headings": [
-            "Purificación de casas infectadas"
-          ]
+          "text": "»Estas, pues, son las leyes acerca de las personas pobres que se purifican de alguna infección cutánea, y que no pueden presentar los sacrificios normalmente requeridos para su purificación»."
         },
         {
           "number": 33,
           "text": "Entonces el Señor les dijo a Moisés y Aarón: «Cuando lleguen a la tierra de Canaán, que yo les he dado, si ven que aparecen hongos o moho en las paredes de una casa,",
           "verseDisplay": "33-34",
-          "endNumber": 34
+          "endNumber": 34,
+          "headings": [
+            "Purificación de casas infectadas"
+          ]
         },
         {
           "number": 35,
@@ -1771,7 +1810,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor habló a Moisés y a Aarón para darles más instrucciones para el pueblo."
+          "text": "El Señor habló a Moisés y a Aarón para darles más instrucciones para el pueblo.",
+          "headings": [
+            "Impurezas sexuales en el hombre"
+          ]
         },
         {
           "number": 2,
@@ -1839,14 +1881,14 @@
         },
         {
           "number": 18,
-          "text": "Después de la relación conyugal, la mujer y el hombre deberán bañarse y quedarán ritualmente impuros hasta la noche siguiente.",
-          "headings": [
-            "Impurezas sexuales en la mujer"
-          ]
+          "text": "Después de la relación conyugal, la mujer y el hombre deberán bañarse y quedarán ritualmente impuros hasta la noche siguiente."
         },
         {
           "number": 19,
-          "text": "»Cuando una mujer tenga su flujo menstrual quedará ritualmente impura los siete días siguientes al término de su menstruación. Todo el que la toque durante ese tiempo quedará impuro hasta la noche."
+          "text": "»Cuando una mujer tenga su flujo menstrual quedará ritualmente impura los siete días siguientes al término de su menstruación. Todo el que la toque durante ese tiempo quedará impuro hasta la noche.",
+          "headings": [
+            "Impurezas sexuales en la mujer"
+          ]
         },
         {
           "number": 20,
@@ -1905,7 +1947,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de la muerte de los dos hijos de Aarón, que murieron por haber actuado en forma incorrecta al acercarse al Señor ,"
+          "text": "Después de la muerte de los dos hijos de Aarón, que murieron por haber actuado en forma incorrecta al acercarse al Señor ,",
+          "headings": [
+            "Leyes para la expiación de pecados"
+          ]
         },
         {
           "number": 2,
@@ -2044,7 +2089,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor también le dio a Moisés estas instrucciones"
+          "text": "El Señor también le dio a Moisés estas instrucciones",
+          "headings": [
+            "Prohibición de comer sangre"
+          ]
         },
         {
           "number": 2,
@@ -2109,7 +2157,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor ordenó a Moisés"
+          "text": "El Señor ordenó a Moisés",
+          "headings": [
+            "Relaciones sexuales ilícitas"
+          ]
         },
         {
           "number": 2,
@@ -2123,14 +2174,14 @@
           "number": 4,
           "text": "Solamente obedecerán mis leyes y las cumplirán al pie de la letra, porque yo soy el Señor su Dios. Si las obedecen tendrán vida. Yo soy el Señor .",
           "verseDisplay": "4-5",
-          "endNumber": 5,
-          "headings": [
-            "Relaciones no permitidas"
-          ]
+          "endNumber": 5
         },
         {
           "number": 6,
-          "text": "»Ninguno de ustedes podrá casarse con una pariente cercana, porque lo digo yo, el Señor ."
+          "text": "»Ninguno de ustedes podrá casarse con una pariente cercana, porque lo digo yo, el Señor .",
+          "headings": [
+            "Relaciones no permitidas"
+          ]
         },
         {
           "number": 7,
@@ -2178,14 +2229,14 @@
         },
         {
           "number": 18,
-          "text": "Un hombre no se podrá casar con la hermana de su esposa ni tener relaciones sexuales con ella, mientras su esposa viva, pues hará que las dos se traten como enemigas.",
-          "headings": [
-            "Otras relaciones ilícitas"
-          ]
+          "text": "Un hombre no se podrá casar con la hermana de su esposa ni tener relaciones sexuales con ella, mientras su esposa viva, pues hará que las dos se traten como enemigas."
         },
         {
           "number": 19,
-          "text": "»No tendrán relaciones con una mujer durante su menstruación,"
+          "text": "»No tendrán relaciones con una mujer durante su menstruación,",
+          "headings": [
+            "Otras relaciones ilícitas"
+          ]
         },
         {
           "number": 20,
@@ -2236,7 +2287,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Además, el Señor le encargó a Moisés"
+          "text": "Además, el Señor le encargó a Moisés",
+          "headings": [
+            "Llamado a la santidad"
+          ]
         },
         {
           "number": 2,
@@ -2262,14 +2316,14 @@
         },
         {
           "number": 8,
-          "text": "El que la coma al tercer día, será culpable, por cuanto ha profanado la santidad del Señor , y será expulsado de su pueblo.",
-          "headings": [
-            "Relaciones sociales"
-          ]
+          "text": "El que la coma al tercer día, será culpable, por cuanto ha profanado la santidad del Señor , y será expulsado de su pueblo."
         },
         {
           "number": 9,
-          "text": "»Cuando cosechen sus campos, no arranquen las espigas que están a la orilla del campo, ni recojan las espigas que hayan caído al suelo."
+          "text": "»Cuando cosechen sus campos, no arranquen las espigas que están a la orilla del campo, ni recojan las espigas que hayan caído al suelo.",
+          "headings": [
+            "Relaciones sociales"
+          ]
         },
         {
           "number": 10,
@@ -2305,14 +2359,14 @@
         },
         {
           "number": 18,
-          "text": "»No busquen la venganza. No conserven rencor en el corazón, sino amen a su prójimo como a ustedes mismos, porque yo soy el Señor .",
-          "headings": [
-            "Otras exigencias de la santidad"
-          ]
+          "text": "»No busquen la venganza. No conserven rencor en el corazón, sino amen a su prójimo como a ustedes mismos, porque yo soy el Señor ."
         },
         {
           "number": 19,
-          "text": "»Obedezcan mis leyes: No crucen su ganado con animales de otra especie; no siembren en su campo dos clases de semillas; no usen ropa mezclada de lana y lino."
+          "text": "»Obedezcan mis leyes: No crucen su ganado con animales de otra especie; no siembren en su campo dos clases de semillas; no usen ropa mezclada de lana y lino.",
+          "headings": [
+            "Otras exigencias de la santidad"
+          ]
         },
         {
           "number": 20,
@@ -2352,14 +2406,14 @@
         },
         {
           "number": 29,
-          "text": "»No violarán la pureza de su hija haciéndola prostituta, para que la tierra no se llene de maldad.",
-          "headings": [
-            "Otros deberes"
-          ]
+          "text": "»No violarán la pureza de su hija haciéndola prostituta, para que la tierra no se llene de maldad."
         },
         {
           "number": 30,
-          "text": "»Obedezcan mis leyes acerca del descanso, y tengan reverencia por mi santuario, porque yo soy el Señor ."
+          "text": "»Obedezcan mis leyes acerca del descanso, y tengan reverencia por mi santuario, porque yo soy el Señor .",
+          "headings": [
+            "Otros deberes"
+          ]
         },
         {
           "number": 31,
@@ -2394,7 +2448,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le dio a Moisés estas otras instrucciones"
+          "text": "El Señor le dio a Moisés estas otras instrucciones",
+          "headings": [
+            "Castigos por el pecado"
+          ]
         },
         {
           "number": 2,
@@ -2507,7 +2564,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor ordenó a Moisés que les diera a los sacerdotes, descendientes de Aarón, estas instrucciones: «No deben tocar ningún muerto, pues eso los hará impuros."
+          "text": "El Señor ordenó a Moisés que les diera a los sacerdotes, descendientes de Aarón, estas instrucciones: «No deben tocar ningún muerto, pues eso los hará impuros.",
+          "headings": [
+            "La santidad de los sacerdotes"
+          ]
         },
         {
           "number": 2,
@@ -2537,14 +2597,14 @@
         },
         {
           "number": 9,
-          "text": "»La hija de un sacerdote que se haga prostituta y deshonre así tanto la santidad de su padre como la suya propia, será quemada viva.",
-          "headings": [
-            "Santidad del sumo sacerdote"
-          ]
+          "text": "»La hija de un sacerdote que se haga prostituta y deshonre así tanto la santidad de su padre como la suya propia, será quemada viva."
         },
         {
           "number": 10,
-          "text": "»El sumo sacerdote ha recibido la unción especial y usa las vestiduras especiales, y por eso no debe descubrirse, ni rasgar sus vestiduras,"
+          "text": "»El sumo sacerdote ha recibido la unción especial y usa las vestiduras especiales, y por eso no debe descubrirse, ni rasgar sus vestiduras,",
+          "headings": [
+            "Santidad del sumo sacerdote"
+          ]
         },
         {
           "number": 11,
@@ -2562,16 +2622,16 @@
           "number": 14,
           "text": "No puede casarse con una viuda, ni con una divorciada, ni con una prostituta. Debe casarse con una virgen de su propia tribu, porque él no puede ser padre de hijos de sangre mixta, mitad sacerdotal y mitad de persona común. Yo soy el Señor que lo santifica».",
           "verseDisplay": "14-15",
-          "endNumber": 15,
-          "headings": [
-            "Impedimentos para ejercer el sacerdocio"
-          ]
+          "endNumber": 15
         },
         {
           "number": 16,
           "text": "El Señor le ordenó a Moisés que le dijera a Aarón: «A través de todas las generaciones, cualquier descendiente tuyo que tenga algún defecto físico no podrá ofrecer sacrificio delante de Dios.",
           "verseDisplay": "16-17",
-          "endNumber": 17
+          "endNumber": 17,
+          "headings": [
+            "Impedimentos para ejercer el sacerdocio"
+          ]
         },
         {
           "number": 18,
@@ -2608,7 +2668,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le ordenó a Moisés"
+          "text": "El Señor le ordenó a Moisés",
+          "headings": [
+            "Las ofrendas del Señor"
+          ]
         },
         {
           "number": 2,
@@ -2668,16 +2731,16 @@
         },
         {
           "number": 16,
-          "text": "Cualquiera que viole esta ley es culpable y está en peligro, porque ha comido de las ofrendas sagradas. Yo soy el Señor , quien santifica las ofrendas».",
-          "headings": [
-            "Sacrificios inaceptables"
-          ]
+          "text": "Cualquiera que viole esta ley es culpable y está en peligro, porque ha comido de las ofrendas sagradas. Yo soy el Señor , quien santifica las ofrendas»."
         },
         {
           "number": 17,
           "text": "El Señor le ordenó a Moisés que les dijera a Aarón y a sus hijos, y a todos los israelitas en general: «Si un israelita o un extranjero que viva en medio de ustedes ofrece un holocausto al Señor , sea para cumplir una promesa o sea una ofrenda voluntaria espontánea,",
           "verseDisplay": "17-18",
-          "endNumber": 18
+          "endNumber": 18,
+          "headings": [
+            "Sacrificios inaceptables"
+          ]
         },
         {
           "number": 19,
@@ -2740,25 +2803,28 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le ordenó a Moisés"
+          "text": "El Señor le ordenó a Moisés",
+          "headings": [
+            "Calendario de fiestas solemnes"
+          ]
         },
         {
           "number": 2,
-          "text": "que les dijera a los israelitas: «Las siguientes son las fiestas solemnes que yo he establecido, las cuales deberán celebrar en mi honor de una manera muy especial. En tales ocasiones todos deberán reunirse para adorarme. Yo, el Señor , las establecí.",
-          "headings": [
-            "Celebración del sábado"
-          ]
+          "text": "que les dijera a los israelitas: «Las siguientes son las fiestas solemnes que yo he establecido, las cuales deberán celebrar en mi honor de una manera muy especial. En tales ocasiones todos deberán reunirse para adorarme. Yo, el Señor , las establecí."
         },
         {
           "number": 3,
           "text": "»Seis días trabajarán, pero descansarán el día séptimo. Ese día es un día muy especial. Por eso, no harán ningún tipo de trabajo, sino que lo dedicarán para adorarme. Donde quiera que ustedes vivan, ese día será dedicado a mí, pues yo soy el Señor .",
           "headings": [
-            "Fiesta de la Pascua"
+            "Celebración del sábado"
           ]
         },
         {
           "number": 4,
-          "text": "»Las siguientes son las festividades santas que deberán observar cada año:"
+          "text": "»Las siguientes son las festividades santas que deberán observar cada año:",
+          "headings": [
+            "Fiesta de la Pascua"
+          ]
         },
         {
           "number": 5,
@@ -2774,16 +2840,16 @@
         },
         {
           "number": 8,
-          "text": "Lo mismo hará el séptimo día de la festividad. Y durante los siete días ofrecerán holocaustos al Señor .",
-          "headings": [
-            "Fiesta de las Primicias"
-          ]
+          "text": "Lo mismo hará el séptimo día de la festividad. Y durante los siete días ofrecerán holocaustos al Señor ."
         },
         {
           "number": 9,
           "text": "»La fiesta de las Primicias: Cuando lleguen a la tierra que yo les daré, y hagan su primera cosecha, lleven las primeras gavillas de la cosecha al sacerdote, al día siguiente del día de descanso. Él la mecerá para ofrecérsela al Señor , quien la aceptará como ofrenda de ustedes.",
           "verseDisplay": "9-11",
-          "endNumber": 11
+          "endNumber": 11,
+          "headings": [
+            "Fiesta de las Primicias"
+          ]
         },
         {
           "number": 12,
@@ -2795,16 +2861,16 @@
         },
         {
           "number": 14,
-          "text": "Mientras no hayan presentado estas ofrendas, no comerán pan, ni grano tostado, ni espiga fresca de esta cosecha. Esta será una ley permanente para la nación, donde quiera que vivan.",
-          "headings": [
-            "Fiesta de las Semanas"
-          ]
+          "text": "Mientras no hayan presentado estas ofrendas, no comerán pan, ni grano tostado, ni espiga fresca de esta cosecha. Esta será una ley permanente para la nación, donde quiera que vivan."
         },
         {
           "number": 15,
           "text": "»La fiesta de las Semanas: Cincuenta días después traerán al Señor una ofrenda de grano nuevo de su última cosecha.",
           "verseDisplay": "15-16",
-          "endNumber": 16
+          "endNumber": 16,
+          "headings": [
+            "Fiesta de las Semanas"
+          ]
         },
         {
           "number": 17,
@@ -2828,29 +2894,29 @@
         },
         {
           "number": 22,
-          "text": "»Cuando cosechen el producto de la tierra, no lo harán hasta el último rincón del campo, ni recogerán el grano caído, sino que lo dejarán para los pobres y para los extranjeros que vivan en medio de ustedes y que no tienen tierra de su propiedad. Yo soy el Señor su Dios.",
-          "headings": [
-            "Fiesta de las Trompetas"
-          ]
+          "text": "»Cuando cosechen el producto de la tierra, no lo harán hasta el último rincón del campo, ni recogerán el grano caído, sino que lo dejarán para los pobres y para los extranjeros que vivan en medio de ustedes y que no tienen tierra de su propiedad. Yo soy el Señor su Dios."
         },
         {
           "number": 23,
           "text": "»La fiesta de las Trompetas: Esta fiesta se celebrará el primer día del séptimo mes. Es una fiesta en honor al Señor , y todo el pueblo se reunirá para adorar solemnemente al Señor . Es una fecha memorable, y debe ser anunciada por medio del sonido de trompetas.",
           "verseDisplay": "23-24",
-          "endNumber": 24
+          "endNumber": 24,
+          "headings": [
+            "Fiesta de las Trompetas"
+          ]
         },
         {
           "number": 25,
-          "text": "Ese día no harán ningún trabajo, y ofrecerán un sacrificio al Señor .",
-          "headings": [
-            "El día del Perdón"
-          ]
+          "text": "Ese día no harán ningún trabajo, y ofrecerán un sacrificio al Señor ."
         },
         {
           "number": 26,
           "text": "»El día del Perdón: Se celebrará nueve días después, es decir, el día diez del mes séptimo. Todo el pueblo debe presentarse delante del Señor , para ayunar y presentar sacrificios por fuego en honor al Señor .",
           "verseDisplay": "26-27",
-          "endNumber": 27
+          "endNumber": 27,
+          "headings": [
+            "El día del Perdón"
+          ]
         },
         {
           "number": 28,
@@ -2868,16 +2934,16 @@
         },
         {
           "number": 32,
-          "text": "Porque este es un día de descanso solemne, y en él ustedes se humillarán y expresarán completo arrepentimiento; esto lo comenzarán en la tarde del día noveno y continuará todo el día hasta la tarde del día siguiente.",
-          "headings": [
-            "Fiesta de las Enramadas"
-          ]
+          "text": "Porque este es un día de descanso solemne, y en él ustedes se humillarán y expresarán completo arrepentimiento; esto lo comenzarán en la tarde del día noveno y continuará todo el día hasta la tarde del día siguiente."
         },
         {
           "number": 33,
           "text": "»La fiesta de las Enramadas: Cinco días después, esto es, el día quince del mes séptimo, se celebrará la fiesta de las Enramadas durante siete días, delante del Señor .",
           "verseDisplay": "33-34",
-          "endNumber": 34
+          "endNumber": 34,
+          "headings": [
+            "Fiesta de las Enramadas"
+          ]
         },
         {
           "number": 35,
@@ -2926,7 +2992,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le dijo a Moisés:"
+          "text": "El Señor le dijo a Moisés:",
+          "headings": [
+            "Iluminación del santuario"
+          ]
         },
         {
           "number": 2,
@@ -2936,27 +3005,27 @@
           "number": 3,
           "text": "Aarón preparará las lámparas que están en el santuario, fuera de la cortina del testimonio. Cada mañana y cada tarde Aarón pondrá aceite nuevo en las lámparas que habrá limpiado. La llama arderá continuamente delante del Señor .",
           "verseDisplay": "3-4",
-          "endNumber": 4,
-          "headings": [
-            "Los panes ofrecidos al Señor"
-          ]
+          "endNumber": 4
         },
         {
           "number": 5,
           "text": "»Cada día de descanso, el sumo sacerdote colocará doce panes, en dos hileras, sobre la mesa de oro que está delante del Señor . Cada uno de estos panes será preparado con harina de la mejor calidad, y deberá pesar unos cuatro kilos. Sobre cada hilera pondrá incienso puro. Esto será una ofrenda recordatoria, ofrecida por fuego al Señor . Con ella se recordará el pacto eterno que el Señor hizo con el pueblo de Israel.",
           "verseDisplay": "5-8",
-          "endNumber": 8
-        },
-        {
-          "number": 9,
-          "text": "El pan será comido por Aarón y sus hijos, en un lugar señalado para esto, pues las ofrendas que se ofrecen al Señor por fuego son muy sagradas. Esta es una ley que debe cumplirse siempre».",
+          "endNumber": 8,
           "headings": [
-            "Lapidación de un blasfemo"
+            "Los panes ofrecidos al Señor"
           ]
         },
         {
+          "number": 9,
+          "text": "El pan será comido por Aarón y sus hijos, en un lugar señalado para esto, pues las ofrendas que se ofrecen al Señor por fuego son muy sagradas. Esta es una ley que debe cumplirse siempre»."
+        },
+        {
           "number": 10,
-          "text": "Un joven, de madre israelita y padre egipcio, riñó con uno de los hombres de Israel en el campo."
+          "text": "Un joven, de madre israelita y padre egipcio, riñó con uno de los hombres de Israel en el campo.",
+          "headings": [
+            "Lapidación de un blasfemo"
+          ]
         },
         {
           "number": 11,
@@ -2976,14 +3045,14 @@
           "number": 15,
           "text": "Y dile al pueblo de Israel que cualquiera que maldiga a Dios sufrirá el mismo castigo. Sí, todo el que pronuncie el nombre del Señor al maldecir a su prójimo debe ser condenado a muerte. Esta ley se aplicará tanto a israelitas como a extranjeros. El que pronuncie el nombre del Señor al maldecir, será muerto a pedradas.",
           "verseDisplay": "15-16",
-          "endNumber": 16,
-          "headings": [
-            "La ley del talión"
-          ]
+          "endNumber": 16
         },
         {
           "number": 17,
-          "text": "»Además, todos los asesinos deberán ser ejecutados."
+          "text": "»Además, todos los asesinos deberán ser ejecutados.",
+          "headings": [
+            "La ley del talión"
+          ]
         },
         {
           "number": 18,
@@ -3016,7 +3085,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Mientras Moisés estaba en el monte Sinaí, el Señor le dio estas instrucciones para el pueblo de Israel:"
+          "text": "Mientras Moisés estaba en el monte Sinaí, el Señor le dio estas instrucciones para el pueblo de Israel:",
+          "headings": [
+            "El año sabático"
+          ]
         },
         {
           "number": 2,
@@ -3038,14 +3110,14 @@
           "number": 6,
           "text": "Todo lo que se produzca naturalmente ese año servirá de alimento para ustedes, para sus siervos, para sus esclavos y para los extranjeros que vivan entre ustedes. Allí también pastarán el ganado y los animales salvajes.",
           "verseDisplay": "6-7",
-          "endNumber": 7,
-          "headings": [
-            "El año del jubileo"
-          ]
+          "endNumber": 7
         },
         {
           "number": 8,
-          "text": "»Cada cincuenta años,"
+          "text": "»Cada cincuenta años,",
+          "headings": [
+            "El año del jubileo"
+          ]
         },
         {
           "number": 9,
@@ -3071,16 +3143,16 @@
           "number": 14,
           "text": "Por esta razón, si se vende la tierra durante los cuarenta y nueve años precedentes, se establecerá un precio justo, teniendo en cuenta los años que faltan para el jubileo. Si el jubileo está a muchos años de distancia, el precio será alto. Si faltan pocos años, el precio será bajo. Lo que realmente están haciendo es vender el número de cosechas que habrá hasta el próximo jubileo, cuando la tierra les sea devuelta por el que la compró.",
           "verseDisplay": "14-16",
-          "endNumber": 16,
-          "headings": [
-            "Consecuencias de la obediencia"
-          ]
+          "endNumber": 16
         },
         {
           "number": 17,
           "text": "»Teman a Dios y no le hagan daño a su prójimo, porque yo soy el Señor . Si quieren vivir seguros en la tierra, obedezcan mis leyes.",
           "verseDisplay": "17-18",
-          "endNumber": 18
+          "endNumber": 18,
+          "headings": [
+            "Consecuencias de la obediencia"
+          ]
         },
         {
           "number": 19,
@@ -3094,14 +3166,14 @@
           "number": 21,
           "text": "La respuesta es: Los bendeciré con cosechas extraordinarias el sexto año, lo que les permitirá vivir hasta que obtengan la cosecha del octavo año.",
           "verseDisplay": "21-22",
-          "endNumber": 22,
-          "headings": [
-            "Leyes sobre el rescate de propiedades"
-          ]
+          "endNumber": 22
         },
         {
           "number": 23,
-          "text": "»Recuerden, la tierra es mía, de modo que no pueden venderla definitivamente. Ustedes son solamente arrendatarios y tendrán la tierra a su cargo."
+          "text": "»Recuerden, la tierra es mía, de modo que no pueden venderla definitivamente. Ustedes son solamente arrendatarios y tendrán la tierra a su cargo.",
+          "headings": [
+            "Leyes sobre el rescate de propiedades"
+          ]
         },
         {
           "number": 24,
@@ -3238,7 +3310,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»No tendrán ídolos. No adorarán imágenes talladas, ni estatuas ni piedras esculpidas, porque yo soy el Señor su Dios."
+          "text": "»No tendrán ídolos. No adorarán imágenes talladas, ni estatuas ni piedras esculpidas, porque yo soy el Señor su Dios.",
+          "headings": [
+            "Bendiciones de la obediencia"
+          ]
         },
         {
           "number": 2,
@@ -3284,14 +3359,14 @@
         },
         {
           "number": 13,
-          "text": "Porque yo soy el Señor su Dios que los sacó de Egipto, y no permitiré que sean esclavos nuevamente. He roto sus cadenas, y haré que anden con dignidad.",
-          "headings": [
-            "Maldiciones de la desobediencia"
-          ]
+          "text": "Porque yo soy el Señor su Dios que los sacó de Egipto, y no permitiré que sean esclavos nuevamente. He roto sus cadenas, y haré que anden con dignidad."
         },
         {
           "number": 14,
-          "text": "»Pero si no escuchan lo que les digo y no me obedecen,"
+          "text": "»Pero si no escuchan lo que les digo y no me obedecen,",
+          "headings": [
+            "Maldiciones de la desobediencia"
+          ]
         },
         {
           "number": 15,
@@ -3424,7 +3499,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor le ordenó a Moisés"
+          "text": "El Señor le ordenó a Moisés",
+          "headings": [
+            "Rescate de las ofrendas al Señor"
+          ]
         },
         {
           "number": 2,

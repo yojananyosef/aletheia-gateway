@@ -13,14 +13,14 @@
         },
         {
           "number": 2,
-          "text": "Que Dios nuestro Padre y el Señor Jesucristo los llenen de amor y de paz.",
-          "headings": [
-            "Acción de gracias e intercesión"
-          ]
+          "text": "Que Dios nuestro Padre y el Señor Jesucristo los llenen de amor y de paz."
         },
         {
           "number": 3,
-          "text": "Cada vez que me acuerdo de ustedes doy gracias a mi Dios;"
+          "text": "Cada vez que me acuerdo de ustedes doy gracias a mi Dios;",
+          "headings": [
+            "Acción de gracias e intercesión"
+          ]
         },
         {
           "number": 4,
@@ -52,14 +52,14 @@
         },
         {
           "number": 11,
-          "text": "también para que estén llenos del fruto de justicia que se produce por medio de Jesucristo, para que le den la gloria y la alabanza a Dios.",
-          "headings": [
-            "El vivir es Cristo"
-          ]
+          "text": "también para que estén llenos del fruto de justicia que se produce por medio de Jesucristo, para que le den la gloria y la alabanza a Dios."
         },
         {
           "number": 12,
-          "text": "Hermanos, quiero que sepan que lo que me ha pasado ha ayudado a anunciar el evangelio."
+          "text": "Hermanos, quiero que sepan que lo que me ha pasado ha ayudado a anunciar el evangelio.",
+          "headings": [
+            "El vivir es Cristo"
+          ]
         },
         {
           "number": 13,
@@ -140,7 +140,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Así que, si se sienten animados al estar unidos a Cristo, si sienten algún consuelo en su amor, si todos tienen el mismo Espíritu, si tienen algún afecto verdadero,"
+          "text": "Así que, si se sienten animados al estar unidos a Cristo, si sienten algún consuelo en su amor, si todos tienen el mismo Espíritu, si tienen algún afecto verdadero,",
+          "headings": [
+            "Humillación y exaltación de Cristo"
+          ]
         },
         {
           "number": 2,
@@ -180,14 +183,14 @@
         },
         {
           "number": 11,
-          "text": "y para que toda lengua confiese que Jesucristo es Señor, para que le den la gloria a Dios Padre.",
-          "headings": [
-            "Testimonio de luz"
-          ]
+          "text": "y para que toda lengua confiese que Jesucristo es Señor, para que le den la gloria a Dios Padre."
         },
         {
           "number": 12,
-          "text": "Queridos hermanos, ustedes siempre me han obedecido, no sólo cuando estuve con ustedes sino también ahora que ya no estoy; lleven a cabo su salvación con temor y temblor,"
+          "text": "Queridos hermanos, ustedes siempre me han obedecido, no sólo cuando estuve con ustedes sino también ahora que ya no estoy; lleven a cabo su salvación con temor y temblor,",
+          "headings": [
+            "Testimonio de luz"
+          ]
         },
         {
           "number": 13,
@@ -211,14 +214,14 @@
         },
         {
           "number": 18,
-          "text": "Ustedes también alégrense y compartan conmigo su alegría.",
-          "headings": [
-            "Dos colaboradores ejemplares"
-          ]
+          "text": "Ustedes también alégrense y compartan conmigo su alegría."
         },
         {
           "number": 19,
-          "text": "Espero que el Señor Jesús me conceda enviarles pronto a Timoteo, así yo también me animaré al recibir noticias de ustedes."
+          "text": "Espero que el Señor Jesús me conceda enviarles pronto a Timoteo, así yo también me animaré al recibir noticias de ustedes.",
+          "headings": [
+            "Dos colaboradores ejemplares"
+          ]
         },
         {
           "number": 20,
@@ -271,7 +274,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por lo demás, hermanos míos, alégrense en el Señor. A mí no me molesta volver a escribirles lo mismo, y a ustedes les da seguridad."
+          "text": "Por lo demás, hermanos míos, alégrense en el Señor. A mí no me molesta volver a escribirles lo mismo, y a ustedes les da seguridad.",
+          "headings": [
+            "Plena confianza en Cristo"
+          ]
         },
         {
           "number": 2,
@@ -311,14 +317,14 @@
         },
         {
           "number": 11,
-          "text": "Así espero llegar a resucitar de entre los muertos.",
-          "headings": [
-            "Ciudadanos del cielo"
-          ]
+          "text": "Así espero llegar a resucitar de entre los muertos."
         },
         {
           "number": 12,
-          "text": "No quiere decir que yo ya lo haya conseguido todo, ni que ya sea perfecto; pero sigo adelante trabajando para poder alcanzar aquello para lo que Cristo Jesús me salvó a mí."
+          "text": "No quiere decir que yo ya lo haya conseguido todo, ni que ya sea perfecto; pero sigo adelante trabajando para poder alcanzar aquello para lo que Cristo Jesús me salvó a mí.",
+          "headings": [
+            "Ciudadanos del cielo"
+          ]
         },
         {
           "number": 13,
@@ -363,14 +369,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por eso, queridos hermanos míos, a los que amo y extraño mucho, a ustedes que son mi alegría y mi corona les digo que se mantengan firmes en el Señor.",
-          "headings": [
-            "Exhortaciones"
-          ]
+          "text": "Por eso, queridos hermanos míos, a los que amo y extraño mucho, a ustedes que son mi alegría y mi corona les digo que se mantengan firmes en el Señor."
         },
         {
           "number": 2,
-          "text": "Les ruego a Evodia y también a Síntique que se pongan de acuerdo en el Señor."
+          "text": "Les ruego a Evodia y también a Síntique que se pongan de acuerdo en el Señor.",
+          "headings": [
+            "Exhortaciones"
+          ]
         },
         {
           "number": 3,
@@ -398,14 +404,14 @@
         },
         {
           "number": 9,
-          "text": "Practiquen lo que han aprendido, recibido y oído de mí, y lo que han visto en mí. Y obrando así, el Dios de paz estará con ustedes.",
-          "headings": [
-            "Gratitud por la ayuda recibida"
-          ]
+          "text": "Practiquen lo que han aprendido, recibido y oído de mí, y lo que han visto en mí. Y obrando así, el Dios de paz estará con ustedes."
         },
         {
           "number": 10,
-          "text": "Me alegro mucho en el Señor de que al fin se han vuelto a interesar en mí. Por supuesto que tenían interés, sólo que no habían tenido la oportunidad de demostrarlo."
+          "text": "Me alegro mucho en el Señor de que al fin se han vuelto a interesar en mí. Por supuesto que tenían interés, sólo que no habían tenido la oportunidad de demostrarlo.",
+          "headings": [
+            "Gratitud por la ayuda recibida"
+          ]
         },
         {
           "number": 11,
@@ -445,14 +451,14 @@
         },
         {
           "number": 20,
-          "text": "Denle a nuestro Dios y Padre la gloria para siempre. Amén.",
-          "headings": [
-            "Saludos finales"
-          ]
+          "text": "Denle a nuestro Dios y Padre la gloria para siempre. Amén."
         },
         {
           "number": 21,
-          "text": "Saluden a todo el pueblo santo de Dios en Cristo Jesús. Los hermanos que están conmigo les mandan saludos."
+          "text": "Saluden a todo el pueblo santo de Dios en Cristo Jesús. Los hermanos que están conmigo les mandan saludos.",
+          "headings": [
+            "Saludos finales"
+          ]
         },
         {
           "number": 22,

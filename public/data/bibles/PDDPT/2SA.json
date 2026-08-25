@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció que después de la muerte de Saúl, cuando David regresó de la derrota de los amalecitas, David permaneció dos días en Siclag."
+          "text": "Aconteció que después de la muerte de Saúl, cuando David regresó de la derrota de los amalecitas, David permaneció dos días en Siclag.",
+          "headings": [
+            "El informe para David"
+          ]
         },
         {
           "number": 2,
@@ -77,14 +80,14 @@
         },
         {
           "number": 18,
-          "text": "y mandó que enseñaran a los hijos de Judá la endecha del Arco. Ciertamente está escrita en el rollo del Justo:",
-          "headings": [
-            "Endecha El Arco"
-          ]
+          "text": "y mandó que enseñaran a los hijos de Judá la endecha del Arco. Ciertamente está escrita en el rollo del Justo:"
         },
         {
           "number": 19,
-          "text": "¡Pereció el esplendor de Israel sobre tus alturas! ¡Cómo cayeron los valientes!"
+          "text": "¡Pereció el esplendor de Israel sobre tus alturas! ¡Cómo cayeron los valientes!",
+          "headings": [
+            "Endecha El Arco"
+          ]
         },
         {
           "number": 20,
@@ -125,7 +128,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de esto aconteció que David consultó a Yavé , y preguntó: ¿Subo a alguna de las ciudades de Judá? Y Yavé le contestó: Sube. Y David preguntó: ¿A dónde subo? Y Él respondió: A Hebrón."
+          "text": "Después de esto aconteció que David consultó a Yavé , y preguntó: ¿Subo a alguna de las ciudades de Judá? Y Yavé le contestó: Sube. Y David preguntó: ¿A dónde subo? Y Él respondió: A Hebrón.",
+          "headings": [
+            "David en Hebrón"
+          ]
         },
         {
           "number": 2,
@@ -258,7 +264,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La guerra entre la casa de Saúl y la casa de David fue larga, pero David se fortalecía, mientras la casa de Saúl se debilitaba cada vez más."
+          "text": "La guerra entre la casa de Saúl y la casa de David fue larga, pero David se fortalecía, mientras la casa de Saúl se debilitaba cada vez más.",
+          "headings": [
+            "Hijos de David nacidos en Hebrón"
+          ]
         },
         {
           "number": 2,
@@ -274,14 +283,14 @@
         },
         {
           "number": 5,
-          "text": "y el sexto Itream, de Egla, esposa de David. Estos le nacieron a David en Hebrón.",
-          "headings": [
-            "Asesinado Abner por parte del vengador de la sangre"
-          ]
+          "text": "y el sexto Itream, de Egla, esposa de David. Estos le nacieron a David en Hebrón."
         },
         {
           "number": 6,
-          "text": "Durante el transcurso de la guerra entre la casa de Saúl y la casa de David, Abner se fortalecía en la casa de Saúl."
+          "text": "Durante el transcurso de la guerra entre la casa de Saúl y la casa de David, Abner se fortalecía en la casa de Saúl.",
+          "headings": [
+            "Asesinado Abner por parte del vengador de la sangre"
+          ]
         },
         {
           "number": 7,
@@ -385,14 +394,14 @@
         },
         {
           "number": 32,
-          "text": "Sepultaron a Abner en Hebrón. El rey alzó su voz y lloró junto al sepulcro de Abner. Todo el pueblo también lloró.",
-          "headings": [
-            "Endecha de David por Abner"
-          ]
+          "text": "Sepultaron a Abner en Hebrón. El rey alzó su voz y lloró junto al sepulcro de Abner. Todo el pueblo también lloró."
         },
         {
           "number": 33,
-          "text": "El rey pronunció esta endecha por Abner: ¿Tenía que morir Abner como muere un insensato?"
+          "text": "El rey pronunció esta endecha por Abner: ¿Tenía que morir Abner como muere un insensato?",
+          "headings": [
+            "Endecha de David por Abner"
+          ]
         },
         {
           "number": 34,
@@ -425,7 +434,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando Is-boset, el hijo de Saúl, supo que Abner murió en Hebrón, sus manos se debilitaron y todo Israel fue perturbado."
+          "text": "Cuando Is-boset, el hijo de Saúl, supo que Abner murió en Hebrón, sus manos se debilitaron y todo Israel fue perturbado.",
+          "headings": [
+            "Asesinado Is-boset"
+          ]
         },
         {
           "number": 2,
@@ -478,7 +490,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces todas las tribus de Israel fueron a David en Hebrón y dijeron: ¡Aquí estamos, hueso tuyo y carne tuya!"
+          "text": "Entonces todas las tribus de Israel fueron a David en Hebrón y dijeron: ¡Aquí estamos, hueso tuyo y carne tuya!",
+          "headings": [
+            "David, rey de Israel"
+          ]
         },
         {
           "number": 2,
@@ -583,7 +598,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David volvió a reunir a todos los escogidos de Israel: 30.000."
+          "text": "David volvió a reunir a todos los escogidos de Israel: 30.000.",
+          "headings": [
+            "El traslado del Arca"
+          ]
         },
         {
           "number": 2,
@@ -680,7 +698,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció que cuando el rey ya vivía en su casa, después que Yavé le dio reposo de todos sus enemigos alrededor,"
+          "text": "Aconteció que cuando el rey ya vivía en su casa, después que Yavé le dio reposo de todos sus enemigos alrededor,",
+          "headings": [
+            "El Pacto de Yavé con David"
+          ]
         },
         {
           "number": 2,
@@ -801,7 +822,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de esto aconteció que David derrotó a los filisteos y los sometió. David tomó la rienda de la ciudad principal de la mano de los filisteos."
+          "text": "Después de esto aconteció que David derrotó a los filisteos y los sometió. David tomó la rienda de la ciudad principal de la mano de los filisteos.",
+          "headings": [
+            "Victorias de David"
+          ]
         },
         {
           "number": 2,
@@ -878,7 +902,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David preguntó: ¿Quedó alguien de la casa de Saúl a quien yo muestre bondad por amor a Jonatán?"
+          "text": "David preguntó: ¿Quedó alguien de la casa de Saúl a quien yo muestre bondad por amor a Jonatán?",
+          "headings": [
+            "El trato a Mefi-boset, hijo de Jonatán"
+          ]
         },
         {
           "number": 2,
@@ -935,7 +962,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de esto, aconteció que murió el rey de los amonitas, y en su lugar reinó su hijo Hanún."
+          "text": "Después de esto, aconteció que murió el rey de los amonitas, y en su lugar reinó su hijo Hanún.",
+          "headings": [
+            "Guerra contra los amonitas"
+          ]
         },
         {
           "number": 2,
@@ -1016,7 +1046,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció en la primavera del año, en el tiempo cuando los reyes suelen salir en campaña, que David envió a Joab, y con él a sus esclavos y a todo Israel, los cuales destruyeron a los amonitas y sitiaron a Rabá. Pero David permaneció en Jerusalén."
+          "text": "Aconteció en la primavera del año, en el tiempo cuando los reyes suelen salir en campaña, que David envió a Joab, y con él a sus esclavos y a todo Israel, los cuales destruyeron a los amonitas y sitiaron a Rabá. Pero David permaneció en Jerusalén.",
+          "headings": [
+            "El horrible crimen de David contra Urías"
+          ]
         },
         {
           "number": 2,
@@ -1129,7 +1162,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé envió a Natán a hablar con David. Al llegar a él le dijo: En una ciudad había dos hombres, uno rico y uno pobre."
+          "text": "Yavé envió a Natán a hablar con David. Al llegar a él le dijo: En una ciudad había dos hombres, uno rico y uno pobre.",
+          "headings": [
+            "Profecía contra David"
+          ]
         },
         {
           "number": 2,
@@ -1258,7 +1294,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Absalón, hijo de David, tenía una hija muy hermosa llamada Tamar. Aconteció después de esto que Amnón, hijo de David, se enamoró de ella."
+          "text": "Absalón, hijo de David, tenía una hija muy hermosa llamada Tamar. Aconteció después de esto que Amnón, hijo de David, se enamoró de ella.",
+          "headings": [
+            "La violación de Tamar por Amnón"
+          ]
         },
         {
           "number": 2,
@@ -1342,14 +1381,14 @@
         },
         {
           "number": 22,
-          "text": "Y Absalón no habló con Amnón mal ni bien, pero lo aborreció porque violó a su hija Tamar.",
-          "headings": [
-            "Muerte de Amnón"
-          ]
+          "text": "Y Absalón no habló con Amnón mal ni bien, pero lo aborreció porque violó a su hija Tamar."
         },
         {
           "number": 23,
-          "text": "Dos años después, aconteció que Absalón tenía esquiladores en Baal-hazor, que está junto a Efraín. Absalón invitó a todos los hijos del rey."
+          "text": "Dos años después, aconteció que Absalón tenía esquiladores en Baal-hazor, que está junto a Efraín. Absalón invitó a todos los hijos del rey.",
+          "headings": [
+            "Muerte de Amnón"
+          ]
         },
         {
           "number": 24,
@@ -1422,7 +1461,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Joab, hijo de Sarvia, entendió que el corazón del rey se inclinaba hacia Absalón."
+          "text": "Entonces Joab, hijo de Sarvia, entendió que el corazón del rey se inclinaba hacia Absalón.",
+          "headings": [
+            "El regreso de Absalón"
+          ]
         },
         {
           "number": 2,
@@ -1559,7 +1601,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de esto, aconteció que Absalón consiguió una carroza y caballos, y 50 hombres para que corrieran delante de él."
+          "text": "Después de esto, aconteció que Absalón consiguió una carroza y caballos, y 50 hombres para que corrieran delante de él.",
+          "headings": [
+            "La conspiración de Absalón"
+          ]
         },
         {
           "number": 2,
@@ -1719,7 +1764,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando David pasó un poco más allá de la cumbre, ahí estaba Siba, esclavo de Mefi-boset, que llegaba a encontrarlo con un par de asnos cargados con 200 panes, 100 racimos de pasas, 100 tortas de higos secos y un odre de vino."
+          "text": "Cuando David pasó un poco más allá de la cumbre, ahí estaba Siba, esclavo de Mefi-boset, que llegaba a encontrarlo con un par de asnos cargados con 200 panes, 100 racimos de pasas, 100 tortas de higos secos y un odre de vino.",
+          "headings": [
+            "La fidelidad de Siba y la perversidad de Simei"
+          ]
         },
         {
           "number": 2,
@@ -1816,7 +1864,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Ahitofel dijo a Absalón: Permíteme que escoja 12.000 hombres, y me levante para perseguir a David esta misma noche."
+          "text": "Entonces Ahitofel dijo a Absalón: Permíteme que escoja 12.000 hombres, y me levante para perseguir a David esta misma noche.",
+          "headings": [
+            "Los consejos de Ahitofel y de Husai"
+          ]
         },
         {
           "number": 2,
@@ -1937,7 +1988,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces David pasó revista a la gente que tenía consigo, y designó para ellos jefes de miles y jefes de cientos."
+          "text": "Entonces David pasó revista a la gente que tenía consigo, y designó para ellos jefes de miles y jefes de cientos.",
+          "headings": [
+            "Derrota y muerte de Absalón"
+          ]
         },
         {
           "number": 2,
@@ -2074,7 +2128,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Informaron a Joab: ¡Mira, el rey llora y endecha a causa de Absalón!"
+          "text": "Informaron a Joab: ¡Mira, el rey llora y endecha a causa de Absalón!",
+          "headings": [
+            "El regreso a Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -2251,7 +2308,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero Seba, hijo de Bicri, de Benjamín, hombre perverso, estaba allí. Éste sopló la corneta y dijo: ¡No tenemos parte en David ni heredad en el hijo de Isaí! ¡Israel: cada uno a su tienda!"
+          "text": "Pero Seba, hijo de Bicri, de Benjamín, hombre perverso, estaba allí. Éste sopló la corneta y dijo: ¡No tenemos parte en David ni heredad en el hijo de Isaí! ¡Israel: cada uno a su tienda!",
+          "headings": [
+            "Rebelión de Seba"
+          ]
         },
         {
           "number": 2,
@@ -2360,7 +2420,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En los días de David hubo una hambruna durante tres años consecutivos, y David buscó el rostro de Yavé . Y Yavé dijo: Es por causa de Saúl y de su casa sanguinaria que mató a los gabaonitas."
+          "text": "En los días de David hubo una hambruna durante tres años consecutivos, y David buscó el rostro de Yavé . Y Yavé dijo: Es por causa de Saúl y de su casa sanguinaria que mató a los gabaonitas.",
+          "headings": [
+            "Situación de los gabaonitas"
+          ]
         },
         {
           "number": 2,
@@ -2453,7 +2516,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David pronunció las palabras de este cántico a Yavé el día cuando Yavé lo libró de la mano de Saúl y de todos sus enemigos:"
+          "text": "David pronunció las palabras de este cántico a Yavé el día cuando Yavé lo libró de la mano de Saúl y de todos sus enemigos:",
+          "headings": [
+            "Cántico de David"
+          ]
         },
         {
           "number": 2,
@@ -2662,7 +2728,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estas son las últimas palabras de David: David, el hijo de Isaí declara: Así dice el hombre que fue exaltado, El ungido del ʼElohim de Jacob, El dulce salmista de Israel:"
+          "text": "Estas son las últimas palabras de David: David, el hijo de Isaí declara: Así dice el hombre que fue exaltado, El ungido del ʼElohim de Jacob, El dulce salmista de Israel:",
+          "headings": [
+            "Últimas palabras de David"
+          ]
         },
         {
           "number": 2,
@@ -2686,14 +2755,14 @@
         },
         {
           "number": 7,
-          "text": "Nadie los tocará, sino con un hierro o con un asta de lanza, Y con fuego que los queme por completo en su lugar.",
-          "headings": [
-            "Los valientes de David"
-          ]
+          "text": "Nadie los tocará, sino con un hierro o con un asta de lanza, Y con fuego que los queme por completo en su lugar."
         },
         {
           "number": 8,
-          "text": "Estos son los nombres de los valientes que David tuvo: Joseb-basebet el tacmonita, principal de los tres capitanes, quien era llamado Adino el eznita, quien mató a 800 hombres en una ocasión."
+          "text": "Estos son los nombres de los valientes que David tuvo: Joseb-basebet el tacmonita, principal de los tres capitanes, quien era llamado Adino el eznita, quien mató a 800 hombres en una ocasión.",
+          "headings": [
+            "Los valientes de David"
+          ]
         },
         {
           "number": 9,
@@ -2826,7 +2895,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La ira de Yavé volvió a encenderse contra Israel, e incitó a David contra ellos para que dijera: Vé, haz un censo de Israel y de Judá."
+          "text": "La ira de Yavé volvió a encenderse contra Israel, e incitó a David contra ellos para que dijera: Vé, haz un censo de Israel y de Judá.",
+          "headings": [
+            "Censo ordenado como castigo por Yavé"
+          ]
         },
         {
           "number": 2,

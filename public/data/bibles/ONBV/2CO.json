@@ -13,14 +13,14 @@
         },
         {
           "number": 2,
-          "text": "Que Dios nuestro Padre y el Señor Jesucristo les concedan su amor y su paz.",
-          "headings": [
-            "El Dios de toda consolación"
-          ]
+          "text": "Que Dios nuestro Padre y el Señor Jesucristo les concedan su amor y su paz."
         },
         {
           "number": 3,
-          "text": "¡Bendito sea el Dios y Padre de nuestro Señor Jesucristo, Padre misericordioso y Dios de toda consolación!"
+          "text": "¡Bendito sea el Dios y Padre de nuestro Señor Jesucristo, Padre misericordioso y Dios de toda consolación!",
+          "headings": [
+            "El Dios de toda consolación"
+          ]
         },
         {
           "number": 4,
@@ -52,14 +52,14 @@
         },
         {
           "number": 11,
-          "text": "Pero ustedes nos ayudaron también con sus oraciones, y juntos podremos elevar alabanzas a Dios al contestar él los ruegos por nuestra seguridad.",
-          "headings": [
-            "Pablo cambia de planes"
-          ]
+          "text": "Pero ustedes nos ayudaron también con sus oraciones, y juntos podremos elevar alabanzas a Dios al contestar él los ruegos por nuestra seguridad."
         },
         {
           "number": 12,
-          "text": "Con gran satisfacción y sinceridad podemos afirmar que siempre hemos dependido de la gracia del Señor y no de nuestra sabiduría y que siempre hemos sido puros y sinceros en el mundo, especialmente en cuanto a la forma en que nos hemos comportado con ustedes."
+          "text": "Con gran satisfacción y sinceridad podemos afirmar que siempre hemos dependido de la gracia del Señor y no de nuestra sabiduría y que siempre hemos sido puros y sinceros en el mundo, especialmente en cuanto a la forma en que nos hemos comportado con ustedes.",
+          "headings": [
+            "Pablo cambia de planes"
+          ]
         },
         {
           "number": 13,
@@ -128,14 +128,14 @@
         },
         {
           "number": 4,
-          "text": "Y cuando les escribí, se me partía el corazón al hacerlo. Lo digo con sinceridad: lloré muchísimo. Mi intención no era hacerlos sufrir, pero tenía que demostrarles cuán grande es el amor que les tengo.",
-          "headings": [
-            "Perdón para el pecador"
-          ]
+          "text": "Y cuando les escribí, se me partía el corazón al hacerlo. Lo digo con sinceridad: lloré muchísimo. Mi intención no era hacerlos sufrir, pero tenía que demostrarles cuán grande es el amor que les tengo."
         },
         {
           "number": 5,
-          "text": "Aquel hombre, el causante de tanta tristeza, no me la causó sólo a mí sino también a ustedes, aunque yo exagere."
+          "text": "Aquel hombre, el causante de tanta tristeza, no me la causó sólo a mí sino también a ustedes, aunque yo exagere.",
+          "headings": [
+            "Perdón para el pecador"
+          ]
         },
         {
           "number": 6,
@@ -159,14 +159,14 @@
         },
         {
           "number": 11,
-          "text": "para que Satanás no se aproveche de nosotros, pues ya conocemos sus malas intenciones.",
-          "headings": [
-            "Ministros del nuevo pacto"
-          ]
+          "text": "para que Satanás no se aproveche de nosotros, pues ya conocemos sus malas intenciones."
         },
         {
           "number": 12,
-          "text": "Bien, cuando llegué a la ciudad de Troas, el Señor me proporcionó formidables oportunidades para predicar el evangelio de Cristo."
+          "text": "Bien, cuando llegué a la ciudad de Troas, el Señor me proporcionó formidables oportunidades para predicar el evangelio de Cristo.",
+          "headings": [
+            "Ministros del nuevo pacto"
+          ]
         },
         {
           "number": 13,
@@ -215,14 +215,14 @@
         },
         {
           "number": 6,
-          "text": "Él nos ha capacitado para que seamos siervos del nuevo pacto, no basado en la ley sino en la obra del Espíritu, porque la ley condena a muerte, pero el Espíritu da vida.",
-          "headings": [
-            "La gloria del nuevo pacto"
-          ]
+          "text": "Él nos ha capacitado para que seamos siervos del nuevo pacto, no basado en la ley sino en la obra del Espíritu, porque la ley condena a muerte, pero el Espíritu da vida."
         },
         {
           "number": 7,
-          "text": "El ministerio que conducía a la muerte fue grabado en piedras; era tan glorioso que el pueblo no podía fijar la vista en el rostro de Moisés. Esto se debía a que el rostro le resplandecía con la gloria de Dios, si bien aquella brillantez ya se estaba desvaneciendo."
+          "text": "El ministerio que conducía a la muerte fue grabado en piedras; era tan glorioso que el pueblo no podía fijar la vista en el rostro de Moisés. Esto se debía a que el rostro le resplandecía con la gloria de Dios, si bien aquella brillantez ya se estaba desvaneciendo.",
+          "headings": [
+            "La gloria del nuevo pacto"
+          ]
         },
         {
           "number": 8,
@@ -275,7 +275,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Dios, en su misericordia, es el que nos permite servirle, y por eso no nos damos nunca por vencidos."
+          "text": "Dios, en su misericordia, es el que nos permite servirle, y por eso no nos damos nunca por vencidos.",
+          "headings": [
+            "Tesoros en vasijas de barro"
+          ]
         },
         {
           "number": 2,
@@ -352,7 +355,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Sabemos que cuando esta tienda de campaña en que vivimos se desmantele, recibiremos de Dios un edificio, una casa eterna en el cielo, no construida por manos humanas."
+          "text": "Sabemos que cuando esta tienda de campaña en que vivimos se desmantele, recibiremos de Dios un edificio, una casa eterna en el cielo, no construida por manos humanas.",
+          "headings": [
+            "Nuestra morada celestial"
+          ]
         },
         {
           "number": 2,
@@ -388,14 +394,14 @@
         },
         {
           "number": 10,
-          "text": "Un día tendremos que comparecer ante el tribunal de Cristo, y seremos juzgados. Cada uno recibirá lo que merezca por las buenas o las malas cosas que haya hecho mientras estaba en el cuerpo.",
-          "headings": [
-            "El ministerio de la reconciliación"
-          ]
+          "text": "Un día tendremos que comparecer ante el tribunal de Cristo, y seremos juzgados. Cada uno recibirá lo que merezca por las buenas o las malas cosas que haya hecho mientras estaba en el cuerpo."
         },
         {
           "number": 11,
-          "text": "Impulsados por este temor reverencial al Señor, tratamos arduamente de persuadir a otros. Dios sabe que nuestros corazones son sinceros en cuanto a esto, y espero que ustedes lo sepan también."
+          "text": "Impulsados por este temor reverencial al Señor, tratamos arduamente de persuadir a otros. Dios sabe que nuestros corazones son sinceros en cuanto a esto, y espero que ustedes lo sepan también.",
+          "headings": [
+            "El ministerio de la reconciliación"
+          ]
         },
         {
           "number": 12,
@@ -448,14 +454,14 @@
         },
         {
           "number": 2,
-          "text": "Porque Dios dice: «Escuché tu clamor en tiempo favorable, y en día de salvación te socorrí». Ahora mismo es el tiempo favorable de Dios; hoy es el día de la salvación.",
-          "headings": [
-            "Privaciones de Pablo"
-          ]
+          "text": "Porque Dios dice: «Escuché tu clamor en tiempo favorable, y en día de salvación te socorrí». Ahora mismo es el tiempo favorable de Dios; hoy es el día de la salvación."
         },
         {
           "number": 3,
-          "text": "Nosotros nos comportamos siempre de tal manera que nadie se escandalice, ni critique nuestro servicio."
+          "text": "Nosotros nos comportamos siempre de tal manera que nadie se escandalice, ni critique nuestro servicio.",
+          "headings": [
+            "Privaciones de Pablo"
+          ]
         },
         {
           "number": 4,
@@ -495,14 +501,14 @@
         },
         {
           "number": 13,
-          "text": "Les estoy hablando ahora como si fueran mis propios hijos. ¡Correspondan al amor que les ofrezco!",
-          "headings": [
-            "No formen yunta con los incrédulos"
-          ]
+          "text": "Les estoy hablando ahora como si fueran mis propios hijos. ¡Correspondan al amor que les ofrezco!"
         },
         {
           "number": 14,
-          "text": "No se unan en matrimonio con los que no creen en el Señor, porque ¿qué pueden tener en común la justicia con la maldad? ¿Cómo puede la luz llevarse bien con la oscuridad?"
+          "text": "No se unan en matrimonio con los que no creen en el Señor, porque ¿qué pueden tener en común la justicia con la maldad? ¿Cómo puede la luz llevarse bien con la oscuridad?",
+          "headings": [
+            "No formen yunta con los incrédulos"
+          ]
         },
         {
           "number": 15,
@@ -527,14 +533,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Puesto que tenemos tan grandes promesas, amados hermanos, apartémonos del mal, ya sea mal corporal o espiritual. Así en el temor de Dios procuraremos ser completamente santos.",
-          "headings": [
-            "La alegría de Pablo"
-          ]
+          "text": "Puesto que tenemos tan grandes promesas, amados hermanos, apartémonos del mal, ya sea mal corporal o espiritual. Así en el temor de Dios procuraremos ser completamente santos."
         },
         {
           "number": 2,
-          "text": "Por favor, vuelvan a darnos cabida en su corazón, porque a ninguno de ustedes lo hemos defraudado, a nadie hemos corrompido ni de nadie nos hemos aprovechado."
+          "text": "Por favor, vuelvan a darnos cabida en su corazón, porque a ninguno de ustedes lo hemos defraudado, a nadie hemos corrompido ni de nadie nos hemos aprovechado.",
+          "headings": [
+            "La alegría de Pablo"
+          ]
         },
         {
           "number": 3,
@@ -599,7 +605,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Quiero hablarles ahora sobre la gracia que Dios ha dado a las iglesias de Macedonia."
+          "text": "Quiero hablarles ahora sobre la gracia que Dios ha dado a las iglesias de Macedonia.",
+          "headings": [
+            "Estímulo a la generosidad"
+          ]
         },
         {
           "number": 2,
@@ -655,14 +664,14 @@
         },
         {
           "number": 15,
-          "text": "Pues así está escrito: «Al que recogió mucho no le sobró nada, y el que recogió poco no tuvo menos».",
-          "headings": [
-            "Tito enviado a Corinto"
-          ]
+          "text": "Pues así está escrito: «Al que recogió mucho no le sobró nada, y el que recogió poco no tuvo menos»."
         },
         {
           "number": 16,
-          "text": "Doy gracias a Dios porque ha dado a Tito el mismo interés sincero en ustedes que tengo yo."
+          "text": "Doy gracias a Dios porque ha dado a Tito el mismo interés sincero en ustedes que tengo yo.",
+          "headings": [
+            "Tito enviado a Corinto"
+          ]
         },
         {
           "number": 17,
@@ -719,14 +728,14 @@
         },
         {
           "number": 5,
-          "text": "Así que pedí a estos hermanos que fueran primero y se cercioraran de que el generoso donativo que ustedes prometieron ya esté listo. Así será una muestra de generosidad y no de tacañería.",
-          "headings": [
-            "Sembrar con generosidad"
-          ]
+          "text": "Así que pedí a estos hermanos que fueran primero y se cercioraran de que el generoso donativo que ustedes prometieron ya esté listo. Así será una muestra de generosidad y no de tacañería."
         },
         {
           "number": 6,
-          "text": "Ahora bien, el agricultor que siembra pocas semillas, obtendrá poca cosecha; pero el que siembra mucho, mucho cosechará."
+          "text": "Ahora bien, el agricultor que siembra pocas semillas, obtendrá poca cosecha; pero el que siembra mucho, mucho cosechará.",
+          "headings": [
+            "Sembrar con generosidad"
+          ]
         },
         {
           "number": 7,
@@ -771,7 +780,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando yo, Pablo, les ruego algo, lo hago con la misma ternura y bondad de Cristo. Sin embargo, se ha dicho que cuando les escribo soy fuerte, pero que cuando lo hago personalmente soy suave."
+          "text": "Cuando yo, Pablo, les ruego algo, lo hago con la misma ternura y bondad de Cristo. Sin embargo, se ha dicho que cuando les escribo soy fuerte, pero que cuando lo hago personalmente soy suave.",
+          "headings": [
+            "Pablo defiende su ministerio"
+          ]
         },
         {
           "number": 2,
@@ -848,7 +860,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Espero que me toleren si digo algunas tonterías. ¡Por favor, aguántenmelas!"
+          "text": "Espero que me toleren si digo algunas tonterías. ¡Por favor, aguántenmelas!",
+          "headings": [
+            "Pablo y los falsos apóstoles"
+          ]
         },
         {
           "number": 2,
@@ -904,14 +919,14 @@
         },
         {
           "number": 15,
-          "text": "¡No es extraño que sus siervos se disfracen como gente que hace el bien! ¡Un día recibirán el castigo que por sus perversas obras merecen!",
-          "headings": [
-            "Los sufrimientos de Pablo"
-          ]
+          "text": "¡No es extraño que sus siervos se disfracen como gente que hace el bien! ¡Un día recibirán el castigo que por sus perversas obras merecen!"
         },
         {
           "number": 16,
-          "text": "De nuevo les suplico que no crean que he perdido el juicio al hablar así; pero aun si lo creen, dejen que este loco presuma un poco."
+          "text": "De nuevo les suplico que no crean que he perdido el juicio al hablar así; pero aun si lo creen, dejen que este loco presuma un poco.",
+          "headings": [
+            "Los sufrimientos de Pablo"
+          ]
         },
         {
           "number": 17,
@@ -988,7 +1003,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ya sé que no gano nada con presumir de mí mismo, pero ahora les voy a hablar de las visiones y de las revelaciones del Señor."
+          "text": "Ya sé que no gano nada con presumir de mí mismo, pero ahora les voy a hablar de las visiones y de las revelaciones del Señor.",
+          "headings": [
+            "Visión y debilidad de Pablo"
+          ]
         },
         {
           "number": 2,
@@ -1022,14 +1040,14 @@
         },
         {
           "number": 10,
-          "text": "Desde que sé que lo que sufro lo sufro por Cristo, me siento feliz por mis debilidades, los insultos, las privaciones, las persecuciones y las dificultades. En efecto, cuando soy débil, entonces soy fuerte.",
-          "headings": [
-            "Preocupación de Pablo por los corintios"
-          ]
+          "text": "Desde que sé que lo que sufro lo sufro por Cristo, me siento feliz por mis debilidades, los insultos, las privaciones, las persecuciones y las dificultades. En efecto, cuando soy débil, entonces soy fuerte."
         },
         {
           "number": 11,
-          "text": "He sido un necio al andar con jactancias como estas; pero ustedes me han obligado, ya que ustedes son los que debían haber hablado bien de mí. En nada soy inferior a los superapóstoles, aunque a fin de cuentas yo no soy nada."
+          "text": "He sido un necio al andar con jactancias como estas; pero ustedes me han obligado, ya que ustedes son los que debían haber hablado bien de mí. En nada soy inferior a los superapóstoles, aunque a fin de cuentas yo no soy nada.",
+          "headings": [
+            "Preocupación de Pablo por los corintios"
+          ]
         },
         {
           "number": 12,
@@ -1078,7 +1096,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Esta será la tercera vez que los visite. Las Escrituras dicen que «en todo asunto debe haber dos o tres testigos»."
+          "text": "Esta será la tercera vez que los visite. Las Escrituras dicen que «en todo asunto debe haber dos o tres testigos».",
+          "headings": [
+            "Advertencias finales"
+          ]
         },
         {
           "number": 2,
@@ -1114,14 +1135,14 @@
         },
         {
           "number": 10,
-          "text": "Les he escrito esta carta con la esperanza de que cuando los visite no tenga que ser duro y usar mi autoridad. Quiero emplear la autoridad que me confirió el Señor para ayudarlos a madurar y no para destruirlos.",
-          "headings": [
-            "Saludos finales"
-          ]
+          "text": "Les he escrito esta carta con la esperanza de que cuando los visite no tenga que ser duro y usar mi autoridad. Quiero emplear la autoridad que me confirió el Señor para ayudarlos a madurar y no para destruirlos."
         },
         {
           "number": 11,
-          "text": "Concluyo con estas palabras: Estén contentos, busquen su restauración, consuélense, vivan en paz y armonía, y el Dios de amor y paz estará con ustedes."
+          "text": "Concluyo con estas palabras: Estén contentos, busquen su restauración, consuélense, vivan en paz y armonía, y el Dios de amor y paz estará con ustedes.",
+          "headings": [
+            "Saludos finales"
+          ]
         },
         {
           "number": 12,

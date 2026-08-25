@@ -10,6 +10,9 @@
         {
           "number": 1,
           "text": "Distinguido Teófilo: En mi primera carta te hablé de todo lo que Jesús empezó a hacer y enseñar",
+          "headings": [
+            "Jesús llevado al cielo"
+          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -56,14 +59,14 @@
         },
         {
           "number": 11,
-          "text": "―Galileos —les dijeron—, ¿por qué se han quedado mirando al cielo? Jesús regresará de la misma forma en que lo han visto ascender al cielo.",
-          "headings": [
-            "Elección de Matías para reemplazar a Judas"
-          ]
+          "text": "―Galileos —les dijeron—, ¿por qué se han quedado mirando al cielo? Jesús regresará de la misma forma en que lo han visto ascender al cielo."
         },
         {
           "number": 12,
-          "text": "Como estaban en el monte de los Olivos, para regresar a Jerusalén caminaron casi un kilómetro, que era lo que se permitía caminar en el día de reposo."
+          "text": "Como estaban en el monte de los Olivos, para regresar a Jerusalén caminaron casi un kilómetro, que era lo que se permitía caminar en el día de reposo.",
+          "headings": [
+            "Elección de Matías para reemplazar a Judas"
+          ]
         },
         {
           "number": 13,
@@ -126,7 +129,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando llegó el día de Pentecostés, los creyentes estaban juntos reunidos."
+          "text": "Cuando llegó el día de Pentecostés, los creyentes estaban juntos reunidos.",
+          "headings": [
+            "El Espíritu Santo desciende en Pentecostés"
+          ]
         },
         {
           "number": 2,
@@ -172,14 +178,14 @@
         },
         {
           "number": 13,
-          "text": "«¡Es que están borrachos!», les respondían otros, en son de burla.",
-          "headings": [
-            "Pedro se dirige a la multitud"
-          ]
+          "text": "«¡Es que están borrachos!», les respondían otros, en son de burla."
         },
         {
           "number": 14,
-          "text": "Entonces Pedro se puso de pie con los once apóstoles y tomó la palabra: «¡Escúchenme bien, judíos y residentes de Jerusalén!"
+          "text": "Entonces Pedro se puso de pie con los once apóstoles y tomó la palabra: «¡Escúchenme bien, judíos y residentes de Jerusalén!",
+          "headings": [
+            "Pedro se dirige a la multitud"
+          ]
         },
         {
           "number": 15,
@@ -283,14 +289,14 @@
         },
         {
           "number": 40,
-          "text": "Y con muchas palabras más, Pedro les exhortaba y les decía: ―¡Aléjense de esta gente perversa!",
-          "headings": [
-            "La comunidad de los creyentes"
-          ]
+          "text": "Y con muchas palabras más, Pedro les exhortaba y les decía: ―¡Aléjense de esta gente perversa!"
         },
         {
           "number": 41,
-          "text": "Los que creyeron sus palabras, unos tres mil en total, se bautizaron y se unieron a los demás creyentes"
+          "text": "Los que creyeron sus palabras, unos tres mil en total, se bautizaron y se unieron a los demás creyentes",
+          "headings": [
+            "La comunidad de los creyentes"
+          ]
         },
         {
           "number": 42,
@@ -323,7 +329,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En cierta ocasión, Pedro y Juan fueron al templo a orar. Era como a las tres de la tarde."
+          "text": "En cierta ocasión, Pedro y Juan fueron al templo a orar. Era como a las tres de la tarde.",
+          "headings": [
+            "Pedro sana a un mendigo lisiado"
+          ]
         },
         {
           "number": 2,
@@ -359,14 +368,14 @@
         },
         {
           "number": 10,
-          "text": "y reconocieron que era el lisiado que estaban acostumbrados a ver en el templo, junto a la Hermosa, y se quedaron asombrados.",
-          "headings": [
-            "Pedro se dirige a los espectadores"
-          ]
+          "text": "y reconocieron que era el lisiado que estaban acostumbrados a ver en el templo, junto a la Hermosa, y se quedaron asombrados."
         },
         {
           "number": 11,
-          "text": "Todos fueron corriendo al portal de Salomón, donde el lisiado tenía firmemente asidos a Pedro y a Juan."
+          "text": "Todos fueron corriendo al portal de Salomón, donde el lisiado tenía firmemente asidos a Pedro y a Juan.",
+          "headings": [
+            "Pedro se dirige a los espectadores"
+          ]
         },
         {
           "number": 12,
@@ -435,7 +444,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Mientras Pedro y Juan hablaban al pueblo, los principales sacerdotes, el jefe de la guardia del templo y varios de los saduceos se presentaron ante ellos,"
+          "text": "Mientras Pedro y Juan hablaban al pueblo, los principales sacerdotes, el jefe de la guardia del templo y varios de los saduceos se presentaron ante ellos,",
+          "headings": [
+            "Pedro y Juan ante el Consejo"
+          ]
         },
         {
           "number": 2,
@@ -519,14 +531,14 @@
         },
         {
           "number": 22,
-          "text": "El hombre que había estado tullido tenía más de cuarenta años.",
-          "headings": [
-            "La oración de los creyentes"
-          ]
+          "text": "El hombre que había estado tullido tenía más de cuarenta años."
         },
         {
           "number": 23,
-          "text": "Una vez libres, Pedro y Juan fueron en busca de los demás discípulos y les contaron lo que los jefes de los sacerdotes y los ancianos les habían dicho."
+          "text": "Una vez libres, Pedro y Juan fueron en busca de los demás discípulos y les contaron lo que los jefes de los sacerdotes y los ancianos les habían dicho.",
+          "headings": [
+            "La oración de los creyentes"
+          ]
         },
         {
           "number": 24,
@@ -556,14 +568,14 @@
         },
         {
           "number": 31,
-          "text": "Después de esta oración, el edificio donde estaban reunidos se estremeció y quedaron llenos del Espíritu Santo, y se entregaron a predicar con arrojo el mensaje de Dios.",
-          "headings": [
-            "Los creyentes comparten sus bienes"
-          ]
+          "text": "Después de esta oración, el edificio donde estaban reunidos se estremeció y quedaron llenos del Espíritu Santo, y se entregaron a predicar con arrojo el mensaje de Dios."
         },
         {
           "number": 32,
-          "text": "Todos los creyentes estaban unidos enteramente en alma y corazón, ninguno tenía por suyo lo que poseía, sino que lo compartía con los demás."
+          "text": "Todos los creyentes estaban unidos enteramente en alma y corazón, ninguno tenía por suyo lo que poseía, sino que lo compartía con los demás.",
+          "headings": [
+            "Los creyentes comparten sus bienes"
+          ]
         },
         {
           "number": 33,
@@ -590,7 +602,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero se dio el caso de un hombre llamado Ananías, esposo de Safira, que vendió cierta propiedad,"
+          "text": "Pero se dio el caso de un hombre llamado Ananías, esposo de Safira, que vendió cierta propiedad,",
+          "headings": [
+            "Ananías y Safira"
+          ]
         },
         {
           "number": 2,
@@ -630,14 +645,14 @@
         },
         {
           "number": 11,
-          "text": "Un gran terror se apoderó de toda la iglesia y de todas las personas que se enteraron de lo que había pasado.",
-          "headings": [
-            "Los apóstoles sanan a muchas personas"
-          ]
+          "text": "Un gran terror se apoderó de toda la iglesia y de todas las personas que se enteraron de lo que había pasado."
         },
         {
           "number": 12,
-          "text": "Los apóstoles siguieron reuniéndose regularmente en el portal de Salomón, y por medio de ellos Dios siguió realizando milagros extraordinarios entre el pueblo."
+          "text": "Los apóstoles siguieron reuniéndose regularmente en el portal de Salomón, y por medio de ellos Dios siguió realizando milagros extraordinarios entre el pueblo.",
+          "headings": [
+            "Los apóstoles sanan a muchas personas"
+          ]
         },
         {
           "number": 13,
@@ -653,14 +668,14 @@
         },
         {
           "number": 16,
-          "text": "Grandes multitudes acudían de los suburbios de Jerusalén trayendo enfermos y endemoniados, y todos eran sanados.",
-          "headings": [
-            "Persiguen a los apóstoles"
-          ]
+          "text": "Grandes multitudes acudían de los suburbios de Jerusalén trayendo enfermos y endemoniados, y todos eran sanados."
         },
         {
           "number": 17,
-          "text": "El sumo sacerdote y sus colegas de la secta de los saduceos reaccionaron con envidia,"
+          "text": "El sumo sacerdote y sus colegas de la secta de los saduceos reaccionaron con envidia,",
+          "headings": [
+            "Persiguen a los apóstoles"
+          ]
         },
         {
           "number": 18,
@@ -769,7 +784,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero con la rápida multiplicación de los creyentes, empezaron las murmuraciones. Los que sólo hablaban griego se quejaban contra los de habla aramea, de que sus viudas sufrían discriminación en la distribución diaria de los alimentos."
+          "text": "Pero con la rápida multiplicación de los creyentes, empezaron las murmuraciones. Los que sólo hablaban griego se quejaban contra los de habla aramea, de que sus viudas sufrían discriminación en la distribución diaria de los alimentos.",
+          "headings": [
+            "Elección de los siete"
+          ]
         },
         {
           "number": 2,
@@ -793,14 +811,14 @@
         },
         {
           "number": 7,
-          "text": "El mensaje de Dios se seguía extendiendo y el número de los discípulos aumentaba enormemente en Jerusalén, donde muchos de los sacerdotes judíos obedecían a la fe.",
-          "headings": [
-            "Arresto de Esteban"
-          ]
+          "text": "El mensaje de Dios se seguía extendiendo y el número de los discípulos aumentaba enormemente en Jerusalén, donde muchos de los sacerdotes judíos obedecían a la fe."
         },
         {
           "number": 8,
-          "text": "Esteban, lleno de la gracia y del poder de Dios, realizaba grandes milagros y señales asombrosas entre el pueblo."
+          "text": "Esteban, lleno de la gracia y del poder de Dios, realizaba grandes milagros y señales asombrosas entre el pueblo.",
+          "headings": [
+            "Arresto de Esteban"
+          ]
         },
         {
           "number": 9,
@@ -837,7 +855,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "―¿Son ciertas estas acusaciones? —le preguntó el jefe de los sacerdotes."
+          "text": "―¿Son ciertas estas acusaciones? —le preguntó el jefe de los sacerdotes.",
+          "headings": [
+            "Discurso de Esteban ante el Consejo"
+          ]
         },
         {
           "number": 2,
@@ -1045,14 +1066,14 @@
         },
         {
           "number": 53,
-          "text": "Sí, ustedes que quebrantan la ley que recibieron de mano de los ángeles».",
-          "headings": [
-            "Muerte de Esteban"
-          ]
+          "text": "Sí, ustedes que quebrantan la ley que recibieron de mano de los ángeles»."
         },
         {
           "number": 54,
-          "text": "Los jefes judíos, al escuchar la acusación de Esteban, crujían los dientes y rabiaban de furia contra él."
+          "text": "Los jefes judíos, al escuchar la acusación de Esteban, crujían los dientes y rabiaban de furia contra él.",
+          "headings": [
+            "Muerte de Esteban"
+          ]
         },
         {
           "number": 55,
@@ -1085,25 +1106,25 @@
       "verses": [
         {
           "number": 1,
-          "text": "Y Saulo estaba de acuerdo en que asesinaran a Esteban. Aquel mismo día, una gran ola de persecución se levantó contra los creyentes y barrió la iglesia de Jerusalén. Todos, excepto los apóstoles, huyeron a Judea y Samaria.",
+          "text": "Y Saulo estaba de acuerdo en que asesinaran a Esteban. Aquel mismo día, una gran ola de persecución se levantó contra los creyentes y barrió la iglesia de Jerusalén. Todos, excepto los apóstoles, huyeron a Judea y Samaria."
+        },
+        {
+          "number": 2,
+          "text": "Varios judíos piadosos, llenos de tristeza, enterraron a Esteban.",
           "headings": [
             "La iglesia perseguida y dispersa"
           ]
         },
         {
-          "number": 2,
-          "text": "Varios judíos piadosos, llenos de tristeza, enterraron a Esteban."
-        },
-        {
           "number": 3,
-          "text": "Saulo, por su parte, iba por todas partes persiguiendo a la iglesia. Entraba a las casas, arrastraba a hombres y mujeres y los metía en la cárcel.",
-          "headings": [
-            "Felipe en Samaria"
-          ]
+          "text": "Saulo, por su parte, iba por todas partes persiguiendo a la iglesia. Entraba a las casas, arrastraba a hombres y mujeres y los metía en la cárcel."
         },
         {
           "number": 4,
-          "text": "Los creyentes que huyeron de Jerusalén continuaron predicando las buenas noticias por dondequiera que iban."
+          "text": "Los creyentes que huyeron de Jerusalén continuaron predicando las buenas noticias por dondequiera que iban.",
+          "headings": [
+            "Felipe en Samaria"
+          ]
         },
         {
           "number": 5,
@@ -1119,14 +1140,14 @@
         },
         {
           "number": 8,
-          "text": "Y había gran gozo en la ciudad.",
-          "headings": [
-            "Simón el hechicero"
-          ]
+          "text": "Y había gran gozo en la ciudad."
         },
         {
           "number": 9,
-          "text": "Vivía en Samaria un tal Simón, que había ejercido la magia durante muchos años, y tenía asombrada a la gente haciéndose pasar por alguien muy grande."
+          "text": "Vivía en Samaria un tal Simón, que había ejercido la magia durante muchos años, y tenía asombrada a la gente haciéndose pasar por alguien muy grande.",
+          "headings": [
+            "Simón el hechicero"
+          ]
         },
         {
           "number": 10,
@@ -1190,14 +1211,14 @@
         },
         {
           "number": 25,
-          "text": "Tras testificar y predicar en Samaria, Pedro y Juan regresaron a Jerusalén. A lo largo del camino fueron deteniéndose en los pueblos samaritanos, para predicar las buenas noticias.",
-          "headings": [
-            "Felipe y el etíope"
-          ]
+          "text": "Tras testificar y predicar en Samaria, Pedro y Juan regresaron a Jerusalén. A lo largo del camino fueron deteniéndose en los pueblos samaritanos, para predicar las buenas noticias."
         },
         {
           "number": 26,
-          "text": "Un ángel del Señor le dijo a Felipe: «Ve hacia el sur por el camino desierto que va de Jerusalén a Gaza»."
+          "text": "Un ángel del Señor le dijo a Felipe: «Ve hacia el sur por el camino desierto que va de Jerusalén a Gaza».",
+          "headings": [
+            "Felipe y el etíope"
+          ]
         },
         {
           "number": 27,
@@ -1262,7 +1283,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Saulo, respirando amenazas de muerte contra los discípulos del Señor, acudió al jefe de los sacerdotes en Jerusalén"
+          "text": "Saulo, respirando amenazas de muerte contra los discípulos del Señor, acudió al jefe de los sacerdotes en Jerusalén",
+          "headings": [
+            "Conversión de Saulo"
+          ]
         },
         {
           "number": 2,
@@ -1334,14 +1358,14 @@
         },
         {
           "number": 19,
-          "text": "Luego comió para recuperar sus fuerzas. Después de permanecer con los discípulos de Damasco varios días,",
-          "headings": [
-            "Saulo en Damasco y en Jerusalén"
-          ]
+          "text": "Luego comió para recuperar sus fuerzas. Después de permanecer con los discípulos de Damasco varios días,"
         },
         {
           "number": 20,
-          "text": "se fue por las sinagogas afirmando que Jesús era el Hijo de Dios."
+          "text": "se fue por las sinagogas afirmando que Jesús era el Hijo de Dios.",
+          "headings": [
+            "Saulo en Damasco y en Jerusalén"
+          ]
         },
         {
           "number": 21,
@@ -1385,14 +1409,14 @@
         },
         {
           "number": 31,
-          "text": "Mientras tanto, la iglesia de Judea, Galilea y Samaria tenía paz y crecía en fortaleza y número. Los creyentes aprendían cómo andar en el temor del Señor, fortalecidos por el Espíritu Santo.",
-          "headings": [
-            "Eneas y Dorcas"
-          ]
+          "text": "Mientras tanto, la iglesia de Judea, Galilea y Samaria tenía paz y crecía en fortaleza y número. Los creyentes aprendían cómo andar en el temor del Señor, fortalecidos por el Espíritu Santo."
         },
         {
           "number": 32,
-          "text": "Pedro viajaba de lugar en lugar visitándolos. Visitó también a los santos del pueblo de Lida."
+          "text": "Pedro viajaba de lugar en lugar visitándolos. Visitó también a los santos del pueblo de Lida.",
+          "headings": [
+            "Eneas y Dorcas"
+          ]
         },
         {
           "number": 33,
@@ -1445,7 +1469,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En Cesarea vivía un oficial del ejército romano llamado Cornelio, capitán de un regimiento italiano."
+          "text": "En Cesarea vivía un oficial del ejército romano llamado Cornelio, capitán de un regimiento italiano.",
+          "headings": [
+            "Cornelio manda llamar a Pedro"
+          ]
         },
         {
           "number": 2,
@@ -1471,14 +1498,14 @@
         },
         {
           "number": 8,
-          "text": "Tras contarles lo sucedido, los envió a Jope.",
-          "headings": [
-            "La visión de Pedro"
-          ]
+          "text": "Tras contarles lo sucedido, los envió a Jope."
         },
         {
           "number": 9,
-          "text": "Al siguiente día, mientras ellos se aproximaban a la ciudad, Pedro subió a la azotea de la casa a orar."
+          "text": "Al siguiente día, mientras ellos se aproximaban a la ciudad, Pedro subió a la azotea de la casa a orar.",
+          "headings": [
+            "La visión de Pedro"
+          ]
         },
         {
           "number": 10,
@@ -1534,14 +1561,14 @@
         },
         {
           "number": 23,
-          "text": "Pedro entonces los invitó a pasar y los albergó aquella noche. Por la mañana, partió con ellos, acompañado de algunos creyentes de Jope.",
-          "headings": [
-            "Pedro en casa de Cornelio"
-          ]
+          "text": "Pedro entonces los invitó a pasar y los albergó aquella noche. Por la mañana, partió con ellos, acompañado de algunos creyentes de Jope."
         },
         {
           "number": 24,
-          "text": "Llegaron a Cesarea al día siguiente. Cornelio, que los estaba esperando, había reunido a sus familiares y amigos más íntimos."
+          "text": "Llegaron a Cesarea al día siguiente. Cornelio, que los estaba esperando, había reunido a sus familiares y amigos más íntimos.",
+          "headings": [
+            "Pedro en casa de Cornelio"
+          ]
         },
         {
           "number": 25,
@@ -1644,7 +1671,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La noticia de que también los gentiles habían recibido la palabra de Dios no tardó en llegar a oídos de los apóstoles y de los demás hermanos de Judea."
+          "text": "La noticia de que también los gentiles habían recibido la palabra de Dios no tardó en llegar a oídos de los apóstoles y de los demás hermanos de Judea.",
+          "headings": [
+            "Pedro explica su comportamiento"
+          ]
         },
         {
           "number": 2,
@@ -1712,14 +1742,14 @@
         },
         {
           "number": 18,
-          "text": "Aquellas palabras bastaron para acallar las objeciones, y alabaron a Dios. ―Sí —exclamaban—, Dios ha concedido también a los gentiles el volverse a él para recibir la vida.",
-          "headings": [
-            "La iglesia en Antioquía"
-          ]
+          "text": "Aquellas palabras bastaron para acallar las objeciones, y alabaron a Dios. ―Sí —exclamaban—, Dios ha concedido también a los gentiles el volverse a él para recibir la vida."
         },
         {
           "number": 19,
-          "text": "Los creyentes que habían huido de Jerusalén durante la persecución después de la muerte de Esteban, fueron a parar a Fenicia, Chipre y Antioquía. A lo largo del camino fueron esparciendo las buenas noticias, pero sólo entre los judíos."
+          "text": "Los creyentes que habían huido de Jerusalén durante la persecución después de la muerte de Esteban, fueron a parar a Fenicia, Chipre y Antioquía. A lo largo del camino fueron esparciendo las buenas noticias, pero sólo entre los judíos.",
+          "headings": [
+            "La iglesia en Antioquía"
+          ]
         },
         {
           "number": 20,
@@ -1772,7 +1802,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En aquellos días el rey Herodes hizo arrestar a algunos de la iglesia para maltratarlos."
+          "text": "En aquellos días el rey Herodes hizo arrestar a algunos de la iglesia para maltratarlos.",
+          "headings": [
+            "Pedro escapa milagrosamente de la cárcel"
+          ]
         },
         {
           "number": 2,
@@ -1844,14 +1877,14 @@
         },
         {
           "number": 19,
-          "text": "Y cuando Herodes lo mandó buscar y no lo halló, hizo responsables a los guardias y los sentenció a muerte. Después se fue a vivir un tiempo en Cesarea.",
-          "headings": [
-            "Muerte de Herodes"
-          ]
+          "text": "Y cuando Herodes lo mandó buscar y no lo halló, hizo responsables a los guardias y los sentenció a muerte. Después se fue a vivir un tiempo en Cesarea."
         },
         {
           "number": 20,
-          "text": "Una delegación de Tiro y Sidón fue a verlo a Cesarea. Herodes estaba enojado con los habitantes de esas dos ciudades, pero los miembros de la delegación se compraron la amistad de Blasto, el secretario del rey, y solicitaron la paz, porque sus ciudades dependían económicamente del comercio con el territorio de Herodes."
+          "text": "Una delegación de Tiro y Sidón fue a verlo a Cesarea. Herodes estaba enojado con los habitantes de esas dos ciudades, pero los miembros de la delegación se compraron la amistad de Blasto, el secretario del rey, y solicitaron la paz, porque sus ciudades dependían económicamente del comercio con el territorio de Herodes.",
+          "headings": [
+            "Muerte de Herodes"
+          ]
         },
         {
           "number": 21,
@@ -1880,7 +1913,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En la iglesia de Antioquía eran profetas y maestros Bernabé, Simeón el Negro, Lucio de Cirene, Manaén (hermano de crianza del tetrarca Herodes) y Saulo."
+          "text": "En la iglesia de Antioquía eran profetas y maestros Bernabé, Simeón el Negro, Lucio de Cirene, Manaén (hermano de crianza del tetrarca Herodes) y Saulo.",
+          "headings": [
+            "Despedida de Bernabé y Saulo"
+          ]
         },
         {
           "number": 2,
@@ -1888,14 +1924,14 @@
         },
         {
           "number": 3,
-          "text": "Después de ayunar y orar, pusieron las manos sobre ellos y los despidieron.",
-          "headings": [
-            "En Chipre"
-          ]
+          "text": "Después de ayunar y orar, pusieron las manos sobre ellos y los despidieron."
         },
         {
           "number": 4,
-          "text": "Dirigidos por el Espíritu Santo, Saulo y Bernabé fueron a Seleucia y de allí navegaron a Chipre."
+          "text": "Dirigidos por el Espíritu Santo, Saulo y Bernabé fueron a Seleucia y de allí navegaron a Chipre.",
+          "headings": [
+            "En Chipre"
+          ]
         },
         {
           "number": 5,
@@ -1927,14 +1963,14 @@
         },
         {
           "number": 12,
-          "text": "Cuando el gobernador vio aquello, creyó, maravillado de la enseñanza del Señor.",
-          "headings": [
-            "En Antioquía de Pisidia"
-          ]
+          "text": "Cuando el gobernador vio aquello, creyó, maravillado de la enseñanza del Señor."
         },
         {
           "number": 13,
-          "text": "Pablo y los que andaban con él zarparon de Pafos y desembarcaron en Perge de Panfilia. Allí Juan los abandonó para regresar a Jerusalén,"
+          "text": "Pablo y los que andaban con él zarparon de Pafos y desembarcaron en Perge de Panfilia. Allí Juan los abandonó para regresar a Jerusalén,",
+          "headings": [
+            "En Antioquía de Pisidia"
+          ]
         },
         {
           "number": 14,
@@ -2093,7 +2129,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo y Bernabé fueron a la sinagoga judía en Iconio y predicaron de tal modo que un gran número de gentiles y judíos creyeron."
+          "text": "Pablo y Bernabé fueron a la sinagoga judía en Iconio y predicaron de tal modo que un gran número de gentiles y judíos creyeron.",
+          "headings": [
+            "En Iconio"
+          ]
         },
         {
           "number": 2,
@@ -2117,14 +2156,14 @@
         },
         {
           "number": 7,
-          "text": "y allí predicaron el evangelio.",
-          "headings": [
-            "En Listra y Derbe"
-          ]
+          "text": "y allí predicaron el evangelio."
         },
         {
           "number": 8,
-          "text": "Estando en Listra, pasaron junto a un hombre inválido de nacimiento, que nunca había caminado porque tenía los pies tullidos."
+          "text": "Estando en Listra, pasaron junto a un hombre inválido de nacimiento, que nunca había caminado porque tenía los pies tullidos.",
+          "headings": [
+            "En Listra y Derbe"
+          ]
         },
         {
           "number": 9,
@@ -2172,14 +2211,14 @@
         },
         {
           "number": 20,
-          "text": "Pero luego, mientras los creyentes lo rodeaban, Pablo se levantó y regresó a la ciudad. Al día siguiente él y Bernabé partieron rumbo a Derbe.",
-          "headings": [
-            "El regreso a Antioquía de Siria"
-          ]
+          "text": "Pero luego, mientras los creyentes lo rodeaban, Pablo se levantó y regresó a la ciudad. Al día siguiente él y Bernabé partieron rumbo a Derbe."
         },
         {
           "number": 21,
-          "text": "Después de predicar el evangelio en Derbe y ganar muchos discípulos, regresaron a Listra, a Iconio y a Antioquía,"
+          "text": "Después de predicar el evangelio en Derbe y ganar muchos discípulos, regresaron a Listra, a Iconio y a Antioquía,",
+          "headings": [
+            "El regreso a Antioquía de Siria"
+          ]
         },
         {
           "number": 22,
@@ -2216,7 +2255,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Llegaron varias personas de Judea a Antioquía y empezaron a enseñar a los hermanos que, a menos que se circuncidaran conforme a la ley de Moisés, no podrían ser salvos."
+          "text": "Llegaron varias personas de Judea a Antioquía y empezaron a enseñar a los hermanos que, a menos que se circuncidaran conforme a la ley de Moisés, no podrían ser salvos.",
+          "headings": [
+            "El concilio de Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -2296,14 +2338,14 @@
         },
         {
           "number": 21,
-          "text": "ya que estas son las cosas contra las cuales a través de los tiempos se ha estado predicando todos los sábados en las sinagogas judías de todas las ciudades».",
-          "headings": [
-            "Carta del concilio a los creyentes gentiles"
-          ]
+          "text": "ya que estas son las cosas contra las cuales a través de los tiempos se ha estado predicando todos los sábados en las sinagogas judías de todas las ciudades»."
         },
         {
           "number": 22,
-          "text": "Entonces los apóstoles, los ancianos y la congregación en pleno decidieron nombrar a personas que fueran con Pablo y Bernabé a Antioquía a dar a conocer la decisión. Escogieron a Judas (conocido también como Barsabás) y a Silas. Ambos tenían buen testimonio entre los hermanos."
+          "text": "Entonces los apóstoles, los ancianos y la congregación en pleno decidieron nombrar a personas que fueran con Pablo y Bernabé a Antioquía a dar a conocer la decisión. Escogieron a Judas (conocido también como Barsabás) y a Silas. Ambos tenían buen testimonio entre los hermanos.",
+          "headings": [
+            "Carta del concilio a los creyentes gentiles"
+          ]
         },
         {
           "number": 23,
@@ -2355,14 +2397,14 @@
         },
         {
           "number": 35,
-          "text": "Pablo y Bernabé se quedaron en Antioquía y junto con otros muchos predicaban y enseñaban la palabra del Señor.",
-          "headings": [
-            "Desacuerdo entre Pablo y Bernabé"
-          ]
+          "text": "Pablo y Bernabé se quedaron en Antioquía y junto con otros muchos predicaban y enseñaban la palabra del Señor."
         },
         {
           "number": 36,
-          "text": "Varios días más tarde, Pablo le propuso a Bernabé regresar a visitar las ciudades donde anteriormente habían predicado la palabra del Señor, a fin de ver cómo estaban los creyentes."
+          "text": "Varios días más tarde, Pablo le propuso a Bernabé regresar a visitar las ciudades donde anteriormente habían predicado la palabra del Señor, a fin de ver cómo estaban los creyentes.",
+          "headings": [
+            "Desacuerdo entre Pablo y Bernabé"
+          ]
         },
         {
           "number": 37,
@@ -2389,7 +2431,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo y Silas fueron primero a Derbe y luego a Listra, donde conocieron a un creyente llamado Timoteo, hijo de una judía creyente, pero de padre griego."
+          "text": "Pablo y Silas fueron primero a Derbe y luego a Listra, donde conocieron a un creyente llamado Timoteo, hijo de una judía creyente, pero de padre griego.",
+          "headings": [
+            "Timoteo se une a Pablo y a Silas"
+          ]
         },
         {
           "number": 2,
@@ -2405,14 +2450,14 @@
         },
         {
           "number": 5,
-          "text": "De esta forma, las iglesias se afianzaban en la fe y crecían en número todos los días.",
-          "headings": [
-            "La visión de Pablo del hombre macedonio"
-          ]
+          "text": "De esta forma, las iglesias se afianzaban en la fe y crecían en número todos los días."
         },
         {
           "number": 6,
-          "text": "Luego atravesaron Frigia y Galacia, porque el Espíritu Santo les prohibió predicar en la provincia de Asia."
+          "text": "Luego atravesaron Frigia y Galacia, porque el Espíritu Santo les prohibió predicar en la provincia de Asia.",
+          "headings": [
+            "La visión de Pablo del hombre macedonio"
+          ]
         },
         {
           "number": 7,
@@ -2428,14 +2473,14 @@
         },
         {
           "number": 10,
-          "text": "Inmediatamente nos fuimos a Macedonia, seguros de que Dios nos estaba llamando allá a predicar las buenas noticias.",
-          "headings": [
-            "Conversión de Lidia en Filipos"
-          ]
+          "text": "Inmediatamente nos fuimos a Macedonia, seguros de que Dios nos estaba llamando allá a predicar las buenas noticias."
         },
         {
           "number": 11,
-          "text": "En Troas tomamos un barco y navegamos hacia Samotracia, y de allí, el siguiente día, a Neápolis."
+          "text": "En Troas tomamos un barco y navegamos hacia Samotracia, y de allí, el siguiente día, a Neápolis.",
+          "headings": [
+            "Conversión de Lidia en Filipos"
+          ]
         },
         {
           "number": 12,
@@ -2451,14 +2496,14 @@
         },
         {
           "number": 15,
-          "text": "Entonces la bautizamos junto con los demás miembros de su familia. ―Si ustedes creen que soy fiel al Señor —nos dijo ella—, vengan a hospedarse a mi casa. Su insistencia fue tal que aceptamos.",
-          "headings": [
-            "Pablo y Silas en la cárcel"
-          ]
+          "text": "Entonces la bautizamos junto con los demás miembros de su familia. ―Si ustedes creen que soy fiel al Señor —nos dijo ella—, vengan a hospedarse a mi casa. Su insistencia fue tal que aceptamos."
         },
         {
           "number": 16,
-          "text": "Un día en que nos dirigíamos a orar, nos salió al encuentro una joven esclava endemoniada que tenía la facultad de adivinar. Con sus adivinaciones, les proporcionaba jugosas ganancias a sus amos."
+          "text": "Un día en que nos dirigíamos a orar, nos salió al encuentro una joven esclava endemoniada que tenía la facultad de adivinar. Con sus adivinaciones, les proporcionaba jugosas ganancias a sus amos.",
+          "headings": [
+            "Pablo y Silas en la cárcel"
+          ]
         },
         {
           "number": 17,
@@ -2561,7 +2606,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Viajaron luego a través de las ciudades de Anfípolis y Apolonia, y llegaron a Tesalónica, donde había una sinagoga judía."
+          "text": "Viajaron luego a través de las ciudades de Anfípolis y Apolonia, y llegaron a Tesalónica, donde había una sinagoga judía.",
+          "headings": [
+            "En Tesalónica"
+          ]
         },
         {
           "number": 2,
@@ -2593,14 +2641,14 @@
         },
         {
           "number": 9,
-          "text": "pero como Jasón y los demás pagaron una fianza, los pusieron en libertad.",
-          "headings": [
-            "En Berea"
-          ]
+          "text": "pero como Jasón y los demás pagaron una fianza, los pusieron en libertad."
         },
         {
           "number": 10,
-          "text": "Aquella misma noche los hermanos mandaron para Berea a Pablo y a Silas. En Berea, como de costumbre, se fueron a predicar a la sinagoga."
+          "text": "Aquella misma noche los hermanos mandaron para Berea a Pablo y a Silas. En Berea, como de costumbre, se fueron a predicar a la sinagoga.",
+          "headings": [
+            "En Berea"
+          ]
         },
         {
           "number": 11,
@@ -2620,14 +2668,14 @@
         },
         {
           "number": 15,
-          "text": "Los acompañantes de Pablo lo condujeron a Atenas y de allí regresaron a Berea con un mensaje para Silas y Timoteo, en el que Pablo les suplicaba que se unieran a él en cuanto pudieran.",
-          "headings": [
-            "En Atenas"
-          ]
+          "text": "Los acompañantes de Pablo lo condujeron a Atenas y de allí regresaron a Berea con un mensaje para Silas y Timoteo, en el que Pablo les suplicaba que se unieran a él en cuanto pudieran."
         },
         {
           "number": 16,
-          "text": "Mientras los esperaba en Atenas, Pablo estaba sumamente molesto ante la gran cantidad de ídolos que veía por todas partes."
+          "text": "Mientras los esperaba en Atenas, Pablo estaba sumamente molesto ante la gran cantidad de ídolos que veía por todas partes.",
+          "headings": [
+            "En Atenas"
+          ]
         },
         {
           "number": 17,
@@ -2706,7 +2754,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo salió de Atenas y se fue a Corinto."
+          "text": "Pablo salió de Atenas y se fue a Corinto.",
+          "headings": [
+            "En Corinto"
+          ]
         },
         {
           "number": 2,
@@ -2770,14 +2821,14 @@
         },
         {
           "number": 17,
-          "text": "Entonces unos griegos se apoderaron de Sóstenes, el jefe de la sinagoga, y lo golpearon frente al juzgado. Y a Galión no le importó que lo hicieran.",
-          "headings": [
-            "Priscila, Aquila y Apolos"
-          ]
+          "text": "Entonces unos griegos se apoderaron de Sóstenes, el jefe de la sinagoga, y lo golpearon frente al juzgado. Y a Galión no le importó que lo hicieran."
         },
         {
           "number": 18,
           "text": "Pablo permaneció en la ciudad muchos días más y luego se despidió de los hermanos para zarpar hacia las costas de Siria en compañía de Priscila y Aquila. En Cencreas, se afeitó la cabeza según la costumbre judía, porque tenía hecho voto.",
+          "headings": [
+            "Priscila, Aquila y Apolos"
+          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -2833,7 +2884,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Mientras Apolos estaba en Corinto, Pablo viajaba por las regiones superiores y llegó a Éfeso. Allí encontró a varios discípulos."
+          "text": "Mientras Apolos estaba en Corinto, Pablo viajaba por las regiones superiores y llegó a Éfeso. Allí encontró a varios discípulos.",
+          "headings": [
+            "Pablo en Éfeso"
+          ]
         },
         {
           "number": 2,
@@ -2917,14 +2971,14 @@
         },
         {
           "number": 22,
-          "text": "Pero decidió enviar a Timoteo y a Erasto a Macedonia, mientras él permanecía un poco más de tiempo en Asia.",
-          "headings": [
-            "El disturbio en Éfeso"
-          ]
+          "text": "Pero decidió enviar a Timoteo y a Erasto a Macedonia, mientras él permanecía un poco más de tiempo en Asia."
         },
         {
           "number": 23,
-          "text": "En aquellos días se produjo en Éfeso un gran disturbio contra el Camino."
+          "text": "En aquellos días se produjo en Éfeso un gran disturbio contra el Camino.",
+          "headings": [
+            "El disturbio en Éfeso"
+          ]
         },
         {
           "number": 24,
@@ -3001,7 +3055,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después que cesaron los disturbios, Pablo mandó buscar a los discípulos y, cuando los hubo animado, se despidió de ellos y salió hacia Macedonia."
+          "text": "Después que cesaron los disturbios, Pablo mandó buscar a los discípulos y, cuando los hubo animado, se despidió de ellos y salió hacia Macedonia.",
+          "headings": [
+            "Recorrido por Macedonia y Grecia"
+          ]
         },
         {
           "number": 2,
@@ -3021,14 +3078,14 @@
         },
         {
           "number": 6,
-          "text": "Tan pronto terminaron las ceremonias de la Pascua, tomamos un barco en Filipos y cinco días más tarde arribábamos a Troas, donde permanecimos una semana.",
-          "headings": [
-            "Visita de Pablo a Troas"
-          ]
+          "text": "Tan pronto terminaron las ceremonias de la Pascua, tomamos un barco en Filipos y cinco días más tarde arribábamos a Troas, donde permanecimos una semana."
         },
         {
           "number": 7,
-          "text": "El domingo nos reunimos a partir el pan y, como al siguiente día partía Pablo, estuvo hablando hasta la medianoche."
+          "text": "El domingo nos reunimos a partir el pan y, como al siguiente día partía Pablo, estuvo hablando hasta la medianoche.",
+          "headings": [
+            "Visita de Pablo a Troas"
+          ]
         },
         {
           "number": 8,
@@ -3048,14 +3105,14 @@
         },
         {
           "number": 12,
-          "text": "Y llevaron al joven vivo y muchos fueron consolados.",
-          "headings": [
-            "Pablo se despide de los ancianos de Éfeso"
-          ]
+          "text": "Y llevaron al joven vivo y muchos fueron consolados."
         },
         {
           "number": 13,
-          "text": "Pablo se fue por tierra a Asón, mientras nosotros nos adelantamos por barco, pues así él lo quería."
+          "text": "Pablo se fue por tierra a Asón, mientras nosotros nos adelantamos por barco, pues así él lo quería.",
+          "headings": [
+            "Pablo se despide de los ancianos de Éfeso"
+          ]
         },
         {
           "number": 14,
@@ -3164,7 +3221,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de separarnos de ellos navegamos en línea recta hasta Cos. Al siguiente día llegamos a Rodas, y de Rodas seguimos a Pátara."
+          "text": "Después de separarnos de ellos navegamos en línea recta hasta Cos. Al siguiente día llegamos a Rodas, y de Rodas seguimos a Pátara.",
+          "headings": [
+            "Rumbo a Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -3224,14 +3284,14 @@
         },
         {
           "number": 16,
-          "text": "acompañados por varios discípulos de Cesarea, que traían con ellos a Mnasón. En Jerusalén, nos hospedamos en la casa de Mnasón, que era de Chipre y uno de los primeros discípulos.",
-          "headings": [
-            "Llegada de Pablo a Jerusalén"
-          ]
+          "text": "acompañados por varios discípulos de Cesarea, que traían con ellos a Mnasón. En Jerusalén, nos hospedamos en la casa de Mnasón, que era de Chipre y uno de los primeros discípulos."
         },
         {
           "number": 17,
-          "text": "Los hermanos de Jerusalén nos dieron una bienvenida gozosa."
+          "text": "Los hermanos de Jerusalén nos dieron una bienvenida gozosa.",
+          "headings": [
+            "Llegada de Pablo a Jerusalén"
+          ]
         },
         {
           "number": 18,
@@ -3267,14 +3327,14 @@
         },
         {
           "number": 26,
-          "text": "Pablo estuvo de acuerdo, y al día siguiente fue al templo con aquellos hombres a observar la ceremonia y a proclamar su voto de ofrecer más tarde un sacrificio junto con los demás.",
-          "headings": [
-            "Arresto de Pablo"
-          ]
+          "text": "Pablo estuvo de acuerdo, y al día siguiente fue al templo con aquellos hombres a observar la ceremonia y a proclamar su voto de ofrecer más tarde un sacrificio junto con los demás."
         },
         {
           "number": 27,
-          "text": "Casi al final de los siete días, varios judíos de Asia lo vieron en el templo y provocaron un escándalo contra él."
+          "text": "Casi al final de los siete días, varios judíos de Asia lo vieron en el templo y provocaron un escándalo contra él.",
+          "headings": [
+            "Arresto de Pablo"
+          ]
         },
         {
           "number": 28,
@@ -3310,14 +3370,14 @@
         },
         {
           "number": 36,
-          "text": "«¡Muera!» —gritaba la multitud detrás de ellos.",
-          "headings": [
-            "Pablo se dirige a la multitud"
-          ]
+          "text": "«¡Muera!» —gritaba la multitud detrás de ellos."
         },
         {
           "number": 37,
-          "text": "Ya lo iban a meter en la fortaleza cuando Pablo le dijo al comandante: ―¿Puedo decirte algo? ―¡Conque sabes griego! —le dijo el comandante."
+          "text": "Ya lo iban a meter en la fortaleza cuando Pablo le dijo al comandante: ―¿Puedo decirte algo? ―¡Conque sabes griego! —le dijo el comandante.",
+          "headings": [
+            "Pablo se dirige a la multitud"
+          ]
         },
         {
           "number": 38,
@@ -3418,14 +3478,14 @@
         },
         {
           "number": 21,
-          "text": "Pero el Señor me dijo: “Vete, porque yo te enviaré a naciones que están lejos” ».",
-          "headings": [
-            "Pablo el ciudadano romano"
-          ]
+          "text": "Pero el Señor me dijo: “Vete, porque yo te enviaré a naciones que están lejos” »."
         },
         {
           "number": 22,
-          "text": "La gente estuvo escuchando a Pablo hasta que dijo esto. Entonces gritaron: «¡Bórralo de la tierra! ¡Ese hombre no merece vivir!»."
+          "text": "La gente estuvo escuchando a Pablo hasta que dijo esto. Entonces gritaron: «¡Bórralo de la tierra! ¡Ese hombre no merece vivir!».",
+          "headings": [
+            "Pablo el ciudadano romano"
+          ]
         },
         {
           "number": 23,
@@ -3453,14 +3513,14 @@
         },
         {
           "number": 29,
-          "text": "Los soldados que iban a azotarlo, al oír que Pablo era ciudadano romano, se apartaron de él. El comandante mismo tuvo miedo de haberlo encadenado.",
-          "headings": [
-            "Pablo ante el Consejo"
-          ]
+          "text": "Los soldados que iban a azotarlo, al oír que Pablo era ciudadano romano, se apartaron de él. El comandante mismo tuvo miedo de haberlo encadenado."
         },
         {
           "number": 30,
-          "text": "Al día siguiente, el comandante ordenó que desataran a Pablo y se reuniera con los jefes de los sacerdotes y con el Consejo en pleno. Él quería saber exactamente de qué acusaban a Pablo los judíos, así que lo llevó para que compareciera ante ellos."
+          "text": "Al día siguiente, el comandante ordenó que desataran a Pablo y se reuniera con los jefes de los sacerdotes y con el Consejo en pleno. Él quería saber exactamente de qué acusaban a Pablo los judíos, así que lo llevó para que compareciera ante ellos.",
+          "headings": [
+            "Pablo ante el Consejo"
+          ]
         }
       ]
     },
@@ -3509,14 +3569,14 @@
         },
         {
           "number": 11,
-          "text": "A la noche siguiente, el Señor se le apareció a Pablo y le dijo: ―Ánimo. De la misma manera que has hablado de mí en Jerusalén, hablarás en Roma.",
-          "headings": [
-            "Conspiración para matar a Pablo"
-          ]
+          "text": "A la noche siguiente, el Señor se le apareció a Pablo y le dijo: ―Ánimo. De la misma manera que has hablado de mí en Jerusalén, hablarás en Roma."
         },
         {
           "number": 12,
-          "text": "Por la mañana, los judíos planearon matar a Pablo. Juraron que no comerían ni beberían hasta lograrlo."
+          "text": "Por la mañana, los judíos planearon matar a Pablo. Juraron que no comerían ni beberían hasta lograrlo.",
+          "headings": [
+            "Conspiración para matar a Pablo"
+          ]
         },
         {
           "number": 13,
@@ -3556,14 +3616,14 @@
         },
         {
           "number": 22,
-          "text": "El comandante despidió al muchacho y le dijo: ―No le digas a nadie que me has dicho esto.",
-          "headings": [
-            "Trasladan a Pablo a Cesarea"
-          ]
+          "text": "El comandante despidió al muchacho y le dijo: ―No le digas a nadie que me has dicho esto."
         },
         {
           "number": 23,
-          "text": "El comandante llamó a dos de sus capitanes y les ordenó: ―Preparen doscientos soldados de infantería, setenta de caballería y doscientos que lleven lanzas para que vayan a Cesarea esta noche a las nueve."
+          "text": "El comandante llamó a dos de sus capitanes y les ordenó: ―Preparen doscientos soldados de infantería, setenta de caballería y doscientos que lleven lanzas para que vayan a Cesarea esta noche a las nueve.",
+          "headings": [
+            "Trasladan a Pablo a Cesarea"
+          ]
         },
         {
           "number": 24,
@@ -3620,7 +3680,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cinco días después, llegó el jefe de los sacerdotes, Ananías, acompañado de algunos de los ancianos y de un abogado llamado Tértulo. Ellos fueron ante el gobernador para acusar a Pablo."
+          "text": "Cinco días después, llegó el jefe de los sacerdotes, Ananías, acompañado de algunos de los ancianos y de un abogado llamado Tértulo. Ellos fueron ante el gobernador para acusar a Pablo.",
+          "headings": [
+            "El proceso ante Félix"
+          ]
         },
         {
           "number": 2,
@@ -3731,7 +3794,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Festo llegó a la provincia y después de tres días subió de Cesarea a Jerusalén."
+          "text": "Festo llegó a la provincia y después de tres días subió de Cesarea a Jerusalén.",
+          "headings": [
+            "El proceso ante Festo"
+          ]
         },
         {
           "number": 2,
@@ -3775,14 +3841,14 @@
         },
         {
           "number": 12,
-          "text": "Festo habló con sus consejeros y después dijo: ―Has pedido que te juzgue el emperador. ¡El emperador te juzgará!",
-          "headings": [
-            "Festo consulta al rey Agripa"
-          ]
+          "text": "Festo habló con sus consejeros y después dijo: ―Has pedido que te juzgue el emperador. ¡El emperador te juzgará!"
         },
         {
           "number": 13,
-          "text": "Habían pasado algunos días, y el rey Agripa, acompañado de Berenice, fue a Cesarea a visitar a Festo."
+          "text": "Habían pasado algunos días, y el rey Agripa, acompañado de Berenice, fue a Cesarea a visitar a Festo.",
+          "headings": [
+            "Festo consulta al rey Agripa"
+          ]
         },
         {
           "number": 14,
@@ -3818,14 +3884,14 @@
         },
         {
           "number": 22,
-          "text": "Agripa le dijo a Festo: —Me gustaría escuchar a ese hombre. Festo le contestó: —¡Pues mañana mismo lo escucharás!",
-          "headings": [
-            "Pablo ante Agripa"
-          ]
+          "text": "Agripa le dijo a Festo: —Me gustaría escuchar a ese hombre. Festo le contestó: —¡Pues mañana mismo lo escucharás!"
         },
         {
           "number": 23,
-          "text": "Al día siguiente, Agripa y Berenice llegaron a la sala de audiencia en medio de gran pompa. Los acompañaban oficiales del ejército y hombres importantes de la ciudad. Festo ordenó que le trajeran a Pablo,"
+          "text": "Al día siguiente, Agripa y Berenice llegaron a la sala de audiencia en medio de gran pompa. Los acompañaban oficiales del ejército y hombres importantes de la ciudad. Festo ordenó que le trajeran a Pablo,",
+          "headings": [
+            "Pablo ante Agripa"
+          ]
         },
         {
           "number": 24,
@@ -3981,7 +4047,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando decidieron por fin mandarnos a Italia, entregaron a Pablo y a otros presos a un capitán llamado Julio. Este pertenecía al batallón del emperador."
+          "text": "Cuando decidieron por fin mandarnos a Italia, entregaron a Pablo y a otros presos a un capitán llamado Julio. Este pertenecía al batallón del emperador.",
+          "headings": [
+            "Pablo viaja a Roma"
+          ]
         },
         {
           "number": 2,
@@ -4025,14 +4094,14 @@
         },
         {
           "number": 12,
-          "text": "Como el puerto no era bueno para pasar el invierno, la mayoría decidimos seguir adelante. Teníamos la esperanza de llegar a Fenice, que es un puerto de la isla de Creta que da tanto al suroeste como al noreste, para pasar allí el invierno.",
-          "headings": [
-            "La tempestad"
-          ]
+          "text": "Como el puerto no era bueno para pasar el invierno, la mayoría decidimos seguir adelante. Teníamos la esperanza de llegar a Fenice, que es un puerto de la isla de Creta que da tanto al suroeste como al noreste, para pasar allí el invierno."
         },
         {
           "number": 13,
-          "text": "Comenzó a soplar un viento suave que venía del sur. Entonces pensaron que podían viajar, así que levaron anclas y navegaron junto a la costa de Creta."
+          "text": "Comenzó a soplar un viento suave que venía del sur. Entonces pensaron que podían viajar, así que levaron anclas y navegaron junto a la costa de Creta.",
+          "headings": [
+            "La tempestad"
+          ]
         },
         {
           "number": 14,
@@ -4084,14 +4153,14 @@
         },
         {
           "number": 26,
-          "text": "Sin embargo, el barco quedará atascado en una isla».",
-          "headings": [
-            "El naufragio"
-          ]
+          "text": "Sin embargo, el barco quedará atascado en una isla»."
         },
         {
           "number": 27,
-          "text": "A eso de la medianoche, los marineros se dieron cuenta de que nos acercábamos a tierra. Ya habían pasado catorce días en los que el viento nos llevaba de un lado a otro por el mar Adriático."
+          "text": "A eso de la medianoche, los marineros se dieron cuenta de que nos acercábamos a tierra. Ya habían pasado catorce días en los que el viento nos llevaba de un lado a otro por el mar Adriático.",
+          "headings": [
+            "El naufragio"
+          ]
         },
         {
           "number": 28,
@@ -4168,7 +4237,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando ya estábamos a salvo, nos enteramos de que la isla se llamaba Malta."
+          "text": "Cuando ya estábamos a salvo, nos enteramos de que la isla se llamaba Malta.",
+          "headings": [
+            "En la isla de Malta"
+          ]
         },
         {
           "number": 2,
@@ -4204,14 +4276,14 @@
         },
         {
           "number": 10,
-          "text": "Nos atendieron muy bien y cuando llegó el momento de partir, nos dieron todo lo que necesitábamos para el viaje.",
-          "headings": [
-            "Llegada a Roma"
-          ]
+          "text": "Nos atendieron muy bien y cuando llegó el momento de partir, nos dieron todo lo que necesitábamos para el viaje."
         },
         {
           "number": 11,
-          "text": "Después de pasar tres meses en la isla, salimos en un barco que había pasado el invierno allí. Era un barco de Alejandría que tenía en la parte delantera la figura de los dioses Dióscuros."
+          "text": "Después de pasar tres meses en la isla, salimos en un barco que había pasado el invierno allí. Era un barco de Alejandría que tenía en la parte delantera la figura de los dioses Dióscuros.",
+          "headings": [
+            "Llegada a Roma"
+          ]
         },
         {
           "number": 12,
@@ -4231,14 +4303,14 @@
         },
         {
           "number": 16,
-          "text": "Ya en Roma, a Pablo le permitieron que viviera aparte, aunque un soldado lo vigilaba.",
-          "headings": [
-            "Pablo predica bajo custodia en Roma"
-          ]
+          "text": "Ya en Roma, a Pablo le permitieron que viviera aparte, aunque un soldado lo vigilaba."
         },
         {
           "number": 17,
-          "text": "Tres días después, Pablo reunió a los dirigentes judíos y les dijo: ―Hermanos, yo no he hecho nada contra mi pueblo ni contra las costumbres de nuestros antepasados. Sin embargo, me arrestaron en Jerusalén y me entregaron a los romanos."
+          "text": "Tres días después, Pablo reunió a los dirigentes judíos y les dijo: ―Hermanos, yo no he hecho nada contra mi pueblo ni contra las costumbres de nuestros antepasados. Sin embargo, me arrestaron en Jerusalén y me entregaron a los romanos.",
+          "headings": [
+            "Pablo predica bajo custodia en Roma"
+          ]
         },
         {
           "number": 18,

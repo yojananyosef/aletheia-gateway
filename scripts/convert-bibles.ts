@@ -299,6 +299,20 @@ function parseChapterHtml(html: string, fallbackChapterNum: number) {
   }
 
   const verses: VerseItem[] = [];
+  let pendingHeadings: string[] = [];
+
+  // 1. Capture any headings before verse 1 (e.g. section title of chapter start)
+  if (matches.length > 0) {
+    const preVerseChunk = mainContent.substring(0, matches[0].index);
+    const preHeadingRegex = /<div class=["'](?:s|ms|r|d)\d?["'][^>]*>([\s\S]*?)<\/div>/gi;
+    let phMatch;
+    while ((phMatch = preHeadingRegex.exec(preVerseChunk)) !== null) {
+      const hText = phMatch[1].replace(/<[^>]+>/g, '').replace(/&#160;/g, ' ').replace(/&nbsp;/g, ' ').trim();
+      if (hText && !hText.startsWith('Capítulo') && !hText.startsWith('Capitulo')) {
+        pendingHeadings.push(hText);
+      }
+    }
+  }
 
   for (let i = 0; i < matches.length; i++) {
     const cur = matches[i];
@@ -306,15 +320,20 @@ function parseChapterHtml(html: string, fallbackChapterNum: number) {
     const endIndex = i + 1 < matches.length ? matches[i + 1].index : mainContent.length;
     let verseChunk = mainContent.substring(startIndex, endIndex);
 
-    // Extract headings if present in this chunk
-    const headings: string[] = [];
-    const headingRegex = /<div class=["'](?:s|ms|r)\d?["']>([\s\S]*?)<\/div>/gi;
+    // Current verse receives any headings accumulated before it
+    const verseHeadings = [...pendingHeadings];
+    pendingHeadings = [];
+
+    // Extract headings from this chunk that belong to the NEXT verse
+    const headingRegex = /<div class=["'](?:s|ms|r|d)\d?["'][^>]*>([\s\S]*?)<\/div>/gi;
     let hMatch;
     while ((hMatch = headingRegex.exec(verseChunk)) !== null) {
-      const headingText = hMatch[1].replace(/<[^>]+>/g, '').replace(/&#160;/g, ' ').trim();
-      if (headingText) headings.push(headingText);
+      const headingText = hMatch[1].replace(/<[^>]+>/g, '').replace(/&#160;/g, ' ').replace(/&nbsp;/g, ' ').trim();
+      if (headingText && !headingText.startsWith('Capítulo') && !headingText.startsWith('Capitulo')) {
+        pendingHeadings.push(headingText);
+      }
     }
-    verseChunk = verseChunk.replace(/<div class=["'](?:s|ms|r)\d?["']>[\s\S]*?<\/div>/gi, '');
+    verseChunk = verseChunk.replace(/<div class=["'](?:s|ms|r|d)\d?["'][^>]*>[\s\S]*?<\/div>/gi, '');
 
     // Extract inline footnotes
     const verseFootnotes: FootnoteItem[] = [];
@@ -365,7 +384,7 @@ function parseChapterHtml(html: string, fallbackChapterNum: number) {
       verseObj.endNumber = cur.endNumber;
     }
 
-    if (headings.length > 0) verseObj.headings = headings;
+    if (verseHeadings.length > 0) verseObj.headings = verseHeadings;
     if (verseFootnotes.length > 0) verseObj.footnotes = verseFootnotes;
 
     verses.push(verseObj);
@@ -467,6 +486,33 @@ async function runConversion() {
     });
 
     console.log(`✅ [${config.id}] Convertidos con éxito: ${totalBooksInVersion} libros, ${totalChaptersInVersion} capítulos.`);
+  }
+
+  // Include Sword versions (SpaPlatense and SpaRVG) in manifest
+  if (fs.existsSync(path.join(outputBaseDir, 'SpaPlatense'))) {
+    manifestList.push({
+      id: 'SpaPlatense',
+      name: 'Biblia Platense (Straubinger)',
+      shortName: 'PLATENSE',
+      description: 'Traducción comentada de Mons. Juan Straubinger con abundantes notas exegéticas.',
+      language: 'es',
+      copyright: 'Dominio Público',
+      booksCount: 73,
+      chaptersCount: 1334,
+    });
+  }
+
+  if (fs.existsSync(path.join(outputBaseDir, 'SpaRVG'))) {
+    manifestList.push({
+      id: 'SpaRVG',
+      name: 'Reina Valera Gómez (2010)',
+      shortName: 'RVG',
+      description: 'Revisión hispana fiel al Texto Recibido por el Dr. Humberto Gómez Caballero.',
+      language: 'es',
+      copyright: 'Creative Commons Atribución-NoComercial-SinDerivadas (CC BY-NC-ND 4.0)',
+      booksCount: 66,
+      chaptersCount: 1189,
+    });
   }
 
   // Write manifest.json

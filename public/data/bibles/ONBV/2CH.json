@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Salomón, hijo de David, llegó a ser un rey muy poderoso, porque contaba con la ayuda del Señor su Dios."
+          "text": "Salomón, hijo de David, llegó a ser un rey muy poderoso, porque contaba con la ayuda del Señor su Dios.",
+          "headings": [
+            "Salomón pide sabiduría"
+          ]
         },
         {
           "number": 2,
@@ -78,7 +81,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Salomón decidió construir un templo para el Señor , y su propio palacio real."
+          "text": "Salomón decidió construir un templo para el Señor , y su propio palacio real.",
+          "headings": [
+            "Preparativos para la construcción del templo"
+          ]
         },
         {
           "number": 2,
@@ -155,7 +161,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por fin se inició la construcción del templo del Señor . Su ubicación fue en Jerusalén, en la parte alta del monte Moria, donde el Señor se le apareció al rey David, padre de Salomón, es decir, en el terreno de Ornán el jebuseo. Ese fue el lugar que David escogió."
+          "text": "Por fin se inició la construcción del templo del Señor . Su ubicación fue en Jerusalén, en la parte alta del monte Moria, donde el Señor se le apareció al rey David, padre de Salomón, es decir, en el terreno de Ornán el jebuseo. Ese fue el lugar que David escogió.",
+          "headings": [
+            "Construcción del templo"
+          ]
         },
         {
           "number": 2,
@@ -222,7 +231,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Salomón también hizo un altar de bronce de nueve metros de largo, por nueve de ancho y cuatro metros y medio de alto."
+          "text": "Salomón también hizo un altar de bronce de nueve metros de largo, por nueve de ancho y cuatro metros y medio de alto.",
+          "headings": [
+            "Mobiliario del templo"
+          ]
         },
         {
           "number": 2,
@@ -299,14 +311,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Una vez terminada la construcción del templo del Señor , Salomón trajo los obsequios dedicados al Señor por su padre, el rey David, y los guardaron en la tesorería del templo de Dios.",
-          "headings": [
-            "El cofre del pacto"
-          ]
+          "text": "Una vez terminada la construcción del templo del Señor , Salomón trajo los obsequios dedicados al Señor por su padre, el rey David, y los guardaron en la tesorería del templo de Dios."
         },
         {
           "number": 2,
-          "text": "Salomón procedió a reunir en Jerusalén a todos los dirigentes de Israel, jefes de tribus y clanes, para la ceremonia del traslado del cofre desde el santuario que está en la ciudad de David, conocida también como Sion."
+          "text": "Salomón procedió a reunir en Jerusalén a todos los dirigentes de Israel, jefes de tribus y clanes, para la ceremonia del traslado del cofre desde el santuario que está en la ciudad de David, conocida también como Sion.",
+          "headings": [
+            "El cofre del pacto"
+          ]
         },
         {
           "number": 3,
@@ -395,16 +407,16 @@
         },
         {
           "number": 11,
-          "text": "y en su interior he colocado el cofre. Y en el cofre se encuentra el pacto entre el Señor y el pueblo de Israel».",
-          "headings": [
-            "Oración de Salomón"
-          ]
+          "text": "y en su interior he colocado el cofre. Y en el cofre se encuentra el pacto entre el Señor y el pueblo de Israel»."
         },
         {
           "number": 12,
           "text": "Mientras hablaba, Salomón estaba de pie delante del pueblo sobre una plataforma en el centro del atrio exterior, frente al altar del Señor . La plataforma estaba hecha de bronce, y era de dos metros con veinte centímetros por cada lado, y un metro con treinta centímetros de alto. Luego, mientras la gente lo observaba, Salomón se arrodilló, levantó los brazos hacia el cielo, y elevó esta oración:",
           "verseDisplay": "12-13",
-          "endNumber": 13
+          "endNumber": 13,
+          "headings": [
+            "Oración de Salomón"
+          ]
         },
         {
           "number": 14,
@@ -525,7 +537,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando Salomón terminó de orar, cayeron del cielo ráfagas de fuego y consumieron el holocausto y los sacrificios."
+          "text": "Cuando Salomón terminó de orar, cayeron del cielo ráfagas de fuego y consumieron el holocausto y los sacrificios.",
+          "headings": [
+            "Dedicación del templo"
+          ]
         },
         {
           "number": 2,
@@ -559,14 +574,14 @@
         },
         {
           "number": 10,
-          "text": "El día veintitrés del mes séptimo, el rey despidió a toda la gente. Así que todos regresaron a sus pueblos y a sus casas, muy alegres por lo bueno que el Señor había sido con David, con Salomón y con su pueblo Israel.",
-          "headings": [
-            "Pacto de Dios con Salomón"
-          ]
+          "text": "El día veintitrés del mes séptimo, el rey despidió a toda la gente. Así que todos regresaron a sus pueblos y a sus casas, muy alegres por lo bueno que el Señor había sido con David, con Salomón y con su pueblo Israel."
         },
         {
           "number": 11,
-          "text": "De esta manera dio término Salomón a la construcción del templo del Señor , así como a la de su propio palacio. Y logró realizar todo lo que se había propuesto hacer."
+          "text": "De esta manera dio término Salomón a la construcción del templo del Señor , así como a la de su propio palacio. Y logró realizar todo lo que se había propuesto hacer.",
+          "headings": [
+            "Pacto de Dios con Salomón"
+          ]
         },
         {
           "number": 12,
@@ -619,7 +634,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Veinte años tardó Salomón en construir el templo de Dios y el palacio real."
+          "text": "Veinte años tardó Salomón en construir el templo de Dios y el palacio real.",
+          "headings": [
+            "Otras actividades de Salomón"
+          ]
         },
         {
           "number": 2,
@@ -692,7 +710,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando la reina de Sabá oyó hablar de la legendaria sabiduría de Salomón, vino a Jerusalén para someterlo a prueba con preguntas difíciles. La acompañaba un séquito numeroso de ayudantes y sirvientes, y camellos cargados de especias, oro y piedras preciosas."
+          "text": "Cuando la reina de Sabá oyó hablar de la legendaria sabiduría de Salomón, vino a Jerusalén para someterlo a prueba con preguntas difíciles. La acompañaba un séquito numeroso de ayudantes y sirvientes, y camellos cargados de especias, oro y piedras preciosas.",
+          "headings": [
+            "La reina de Sabá visita a Salomón"
+          ]
         },
         {
           "number": 2,
@@ -736,14 +757,14 @@
         },
         {
           "number": 12,
-          "text": "El rey Salomón hizo entrega a la reina de Sabá de obsequios equivalentes al valor de los que ella le había traído, y todo lo que ella pidió le fue concedido. Luego ella y su comitiva regresaron a su tierra.",
-          "headings": [
-            "El esplendor de Salomón"
-          ]
+          "text": "El rey Salomón hizo entrega a la reina de Sabá de obsequios equivalentes al valor de los que ella le había traído, y todo lo que ella pidió le fue concedido. Luego ella y su comitiva regresaron a su tierra."
         },
         {
           "number": 13,
-          "text": "Salomón recibía unos veintidós mil kilos de oro cada año,"
+          "text": "Salomón recibía unos veintidós mil kilos de oro cada año,",
+          "headings": [
+            "El esplendor de Salomón"
+          ]
         },
         {
           "number": 14,
@@ -803,14 +824,14 @@
         },
         {
           "number": 28,
-          "text": "Y le traían caballos desde Egipto y otros países.",
-          "headings": [
-            "Muerte de Salomón"
-          ]
+          "text": "Y le traían caballos desde Egipto y otros países."
         },
         {
           "number": 29,
-          "text": "El resto de la biografía de Salomón está escrito en la historia del profeta Natán, en la profecía de Ahías el silonita, y en las visiones del vidente Idó con respecto a Jeroboán hijo de Nabat."
+          "text": "El resto de la biografía de Salomón está escrito en la historia del profeta Natán, en la profecía de Ahías el silonita, y en las visiones del vidente Idó con respecto a Jeroboán hijo de Nabat.",
+          "headings": [
+            "Muerte de Salomón"
+          ]
         },
         {
           "number": 30,
@@ -827,7 +848,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Todo el pueblo de Israel se reunió en Siquén, para proclamar como nuevo rey a Roboán."
+          "text": "Todo el pueblo de Israel se reunió en Siquén, para proclamar como nuevo rey a Roboán.",
+          "headings": [
+            "División del reino"
+          ]
         },
         {
           "number": 2,
@@ -916,16 +940,16 @@
         },
         {
           "number": 4,
-          "text": "que este es el mensaje que yo, el Señor , les doy: “No peleen contra sus hermanos. Vuélvanse a su tierra, por cuanto ellos se han rebelado por disposición mía”». Por tanto, obedecieron al Señor , y no fueron a pelear contra Jeroboán.",
-          "headings": [
-            "Roboán fortifica las ciudades de Judá"
-          ]
+          "text": "que este es el mensaje que yo, el Señor , les doy: “No peleen contra sus hermanos. Vuélvanse a su tierra, por cuanto ellos se han rebelado por disposición mía”». Por tanto, obedecieron al Señor , y no fueron a pelear contra Jeroboán."
         },
         {
           "number": 5,
           "text": "Roboán se quedó en Jerusalén y fortificó las siguientes ciudades de Judá y de Benjamín con murallas y portones: Belén, Etam, Tecoa, Betsur, Soco, Adulán, Gat, Maresá, Zif, Adorayin, Laquis, Azeca, Zora, Ayalón y Hebrón.",
           "verseDisplay": "5-10",
-          "endNumber": 10
+          "endNumber": 10,
+          "headings": [
+            "Roboán fortifica las ciudades de Judá"
+          ]
         },
         {
           "number": 11,
@@ -933,16 +957,16 @@
         },
         {
           "number": 12,
-          "text": "Se establecieron arsenales en cada ciudad para mantener existencias de escudos y lanzas, como otra medida de seguridad; porque solamente los israelitas de Judá y de Benjamín permanecían leales al rey.",
-          "headings": [
-            "Los sacerdotes y los levitas apoyan a Roboán"
-          ]
+          "text": "Se establecieron arsenales en cada ciudad para mantener existencias de escudos y lanzas, como otra medida de seguridad; porque solamente los israelitas de Judá y de Benjamín permanecían leales al rey."
         },
         {
           "number": 13,
           "text": "Sin embargo, los sacerdotes y levitas de las otras tribus procedieron a abandonar sus hogares y se trasladaron a Judá y a Jerusalén, porque el rey Jeroboán los había despedido y prohibido ejercer el sacerdocio del Señor .",
           "verseDisplay": "13-14",
-          "endNumber": 14
+          "endNumber": 14,
+          "headings": [
+            "Los sacerdotes y los levitas apoyan a Roboán"
+          ]
         },
         {
           "number": 15,
@@ -954,14 +978,14 @@
         },
         {
           "number": 17,
-          "text": "Esto fortaleció tanto al reino de Judá, que el rey Roboán pudo subsistir por tres años sin dificultad; porque en aquellos años se hizo un sincero esfuerzo por obedecer al Señor , tal como lo habían hecho el rey David y el rey Salomón.",
-          "headings": [
-            "Esposas e hijos de Roboán"
-          ]
+          "text": "Esto fortaleció tanto al reino de Judá, que el rey Roboán pudo subsistir por tres años sin dificultad; porque en aquellos años se hizo un sincero esfuerzo por obedecer al Señor , tal como lo habían hecho el rey David y el rey Salomón."
         },
         {
           "number": 18,
-          "text": "Roboán se había casado con su prima Majalat, que era hija de Jerimot hijo de David. La madre de Jerimot fue Abijaíl, hija de Eliab y nieta de Isaí."
+          "text": "Roboán se había casado con su prima Majalat, que era hija de Jerimot hijo de David. La madre de Jerimot fue Abijaíl, hija de Eliab y nieta de Isaí.",
+          "headings": [
+            "Esposas e hijos de Roboán"
+          ]
         },
         {
           "number": 19,
@@ -990,7 +1014,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero justo cuando Roboán se encontraba en la cima de su popularidad y poder, abandonó la ley del Señor , y el pueblo lo siguió en este pecado."
+          "text": "Pero justo cuando Roboán se encontraba en la cima de su popularidad y poder, abandonó la ley del Señor , y el pueblo lo siguió en este pecado.",
+          "headings": [
+            "Sisac invade Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -1059,7 +1086,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Abías ocupó el trono de Judá, en Jerusalén, en el año dieciocho del reinado de Jeroboán, rey de Israel."
+          "text": "Abías ocupó el trono de Judá, en Jerusalén, en el año dieciocho del reinado de Jeroboán, rey de Israel.",
+          "headings": [
+            "Abías, rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -1146,7 +1176,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando el rey Abías murió, fue sepultado en Jerusalén, en la ciudad de David. Su hijo Asá ocupó el trono de Judá, y hubo paz en la tierra durante los primeros diez años de su reinado,"
+          "text": "Cuando el rey Abías murió, fue sepultado en Jerusalén, en la ciudad de David. Su hijo Asá ocupó el trono de Judá, y hubo paz en la tierra durante los primeros diez años de su reinado,",
+          "headings": [
+            "Asá, rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -1209,7 +1242,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día, el espíritu de Dios vino sobre Azarías hijo de Obed,"
+          "text": "Un día, el espíritu de Dios vino sobre Azarías hijo de Obed,",
+          "headings": [
+            "Reformas de Asá"
+          ]
         },
         {
           "number": 2,
@@ -1290,7 +1326,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En el año treinta y seis del reinado de Asá, Basá, rey de Israel, le declaró la guerra a Judá y fortificó la ciudad Ramá con el fin de bloquear las rutas de comunicación de Judá."
+          "text": "En el año treinta y seis del reinado de Asá, Basá, rey de Israel, le declaró la guerra a Judá y fortificó la ciudad Ramá con el fin de bloquear las rutas de comunicación de Judá.",
+          "headings": [
+            "Pacto de Asá con Ben Adad"
+          ]
         },
         {
           "number": 2,
@@ -1349,7 +1388,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En lugar de Asá reinó su hijo Josafat, el cual se fortificó contra Israel."
+          "text": "En lugar de Asá reinó su hijo Josafat, el cual se fortificó contra Israel.",
+          "headings": [
+            "Josafat, rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -1422,7 +1464,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El rey Josafat llegó a ser muy rico y poderoso, y emparentó con Acab, quien era el rey de Israel."
+          "text": "El rey Josafat llegó a ser muy rico y poderoso, y emparentó con Acab, quien era el rey de Israel.",
+          "headings": [
+            "Micaías profetiza contra Acab"
+          ]
         },
         {
           "number": 2,
@@ -1516,14 +1561,14 @@
         },
         {
           "number": 27,
-          "text": "Micaías respondió: ―Si regresas sano y salvo, el Señor no ha hablado a través de mí. Entonces, dirigiéndose a los que lo rodeaban, recalcó: ―¡Tomen nota de lo que he dicho!",
-          "headings": [
-            "Muerte de Acab en Ramot de Galaad"
-          ]
+          "text": "Micaías respondió: ―Si regresas sano y salvo, el Señor no ha hablado a través de mí. Entonces, dirigiéndose a los que lo rodeaban, recalcó: ―¡Tomen nota de lo que he dicho!"
         },
         {
           "number": 28,
-          "text": "Así que el rey de Israel y el rey de Judá subieron contra Ramot de Galaad."
+          "text": "Así que el rey de Israel y el rey de Judá subieron contra Ramot de Galaad.",
+          "headings": [
+            "Muerte de Acab en Ramot de Galaad"
+          ]
         },
         {
           "number": 29,
@@ -1564,14 +1609,14 @@
         },
         {
           "number": 3,
-          "text": "Pero tienes algunas cosas buenas, pues eliminaste las imágenes de la diosa Aserá en todo el país y has tratado de ser fiel a Dios».",
-          "headings": [
-            "Josafat nombra jueces"
-          ]
+          "text": "Pero tienes algunas cosas buenas, pues eliminaste las imágenes de la diosa Aserá en todo el país y has tratado de ser fiel a Dios»."
         },
         {
           "number": 4,
-          "text": "Josafat ya no hizo más viajes a Israel, sino que permaneció tranquilo en Jerusalén. Algún tiempo después se dio a la tarea de visitar al pueblo, desde Berseba hasta las serranías de Efraín, para estimularlos a que adoraran al Dios de sus antepasados."
+          "text": "Josafat ya no hizo más viajes a Israel, sino que permaneció tranquilo en Jerusalén. Algún tiempo después se dio a la tarea de visitar al pueblo, desde Berseba hasta las serranías de Efraín, para estimularlos a que adoraran al Dios de sus antepasados.",
+          "headings": [
+            "Josafat nombra jueces"
+          ]
         },
         {
           "number": 5,
@@ -1608,7 +1653,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Algún tiempo después, los moabitas, amonitas y meunitas le declararon la guerra a Josafat y al pueblo de Judá."
+          "text": "Algún tiempo después, los moabitas, amonitas y meunitas le declararon la guerra a Josafat y al pueblo de Judá.",
+          "headings": [
+            "Josafat derrota a Moab y Amón"
+          ]
         },
         {
           "number": 2,
@@ -1724,14 +1772,14 @@
         },
         {
           "number": 30,
-          "text": "Y el reino de Josafat tuvo paz, porque Dios le dio reposo.",
-          "headings": [
-            "Fin del reinado de Josafat"
-          ]
+          "text": "Y el reino de Josafat tuvo paz, porque Dios le dio reposo."
         },
         {
           "number": 31,
-          "text": "El reinado de Josafat fue así: subió al trono de Judá cuando tenía treinta y cinco años, y reinó veinticinco años en Jerusalén. El nombre de su madre fue Azuba, hija de Siljí."
+          "text": "El reinado de Josafat fue así: subió al trono de Judá cuando tenía treinta y cinco años, y reinó veinticinco años en Jerusalén. El nombre de su madre fue Azuba, hija de Siljí.",
+          "headings": [
+            "Fin del reinado de Josafat"
+          ]
         },
         {
           "number": 32,
@@ -1764,7 +1812,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando Josafat murió, lo sepultaron en el cementerio de los reyes en Jerusalén, en la ciudad de David, y su hijo Jorán ocupó el trono de Judá."
+          "text": "Cuando Josafat murió, lo sepultaron en el cementerio de los reyes en Jerusalén, en la ciudad de David, y su hijo Jorán ocupó el trono de Judá.",
+          "headings": [
+            "Jorán, rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -1848,6 +1899,9 @@
         {
           "number": 1,
           "text": "Cuando Jorán murió, la gente de Jerusalén proclamó como rey a Ocozías, el hijo menor de Jorán (porque las bandas árabes que habían asaltado a Jerusalén habían dado muerte a los hijos mayores del rey).",
+          "headings": [
+            "Ocozías, rey de Judá"
+          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -1874,14 +1928,14 @@
         },
         {
           "number": 6,
-          "text": "regresó a Jezrel para curarse. Ocozías hijo de Jorán, rey de Judá, fue a visitarlo.",
-          "headings": [
-            "Jehú mata a Ocozías"
-          ]
+          "text": "regresó a Jezrel para curarse. Ocozías hijo de Jorán, rey de Judá, fue a visitarlo."
         },
         {
           "number": 7,
-          "text": "Pero Dios había decidido que Ocozías muriera durante esta visita. Al poco tiempo de haber llegado, Ocozías y Jorán marcharon contra Jehú hijo de Nimsi, a quien el Señor había escogido para poner fin a la dinastía de Acab."
+          "text": "Pero Dios había decidido que Ocozías muriera durante esta visita. Al poco tiempo de haber llegado, Ocozías y Jorán marcharon contra Jehú hijo de Nimsi, a quien el Señor había escogido para poner fin a la dinastía de Acab.",
+          "headings": [
+            "Jehú mata a Ocozías"
+          ]
         },
         {
           "number": 8,
@@ -1889,14 +1943,14 @@
         },
         {
           "number": 9,
-          "text": "Luego los hombres de Jehú estuvieron buscando a Ocozías, hasta que lo encontraron escondido en la ciudad de Samaria, y lo llevaron a la presencia de Jehú, el cual lo mató. Pero lo sepultaron, pues decían: «Es nieto de Josafat, el rey que, de todo corazón, sirvió al Señor ». Y en la familia de Ocozías no quedó nadie que fuera capaz de reinar en Judá.",
-          "headings": [
-            "Atalía y Joás"
-          ]
+          "text": "Luego los hombres de Jehú estuvieron buscando a Ocozías, hasta que lo encontraron escondido en la ciudad de Samaria, y lo llevaron a la presencia de Jehú, el cual lo mató. Pero lo sepultaron, pues decían: «Es nieto de Josafat, el rey que, de todo corazón, sirvió al Señor ». Y en la familia de Ocozías no quedó nadie que fuera capaz de reinar en Judá."
         },
         {
           "number": 10,
-          "text": "Cuando Atalía, madre de Ocozías, supo que su hijo había muerto, mandó a matar a toda la familia del rey."
+          "text": "Cuando Atalía, madre de Ocozías, supo que su hijo había muerto, mandó a matar a toda la familia del rey.",
+          "headings": [
+            "Atalía y Joás"
+          ]
         },
         {
           "number": 11,
@@ -1998,7 +2052,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Joás tenía siete años cuando comenzó a reinar, y reinó cuarenta años en Jerusalén. Su madre era Sibia, de Berseba."
+          "text": "Joás tenía siete años cuando comenzó a reinar, y reinó cuarenta años en Jerusalén. Su madre era Sibia, de Berseba.",
+          "headings": [
+            "Joás, rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -2056,16 +2113,16 @@
         },
         {
           "number": 16,
-          "text": "Lo sepultaron en la ciudad de David, entre los reyes, porque había servido fielmente a Israel, a Dios y a su templo.",
-          "headings": [
-            "Depravación de Joás"
-          ]
+          "text": "Lo sepultaron en la ciudad de David, entre los reyes, porque había servido fielmente a Israel, a Dios y a su templo."
         },
         {
           "number": 17,
           "text": "Después de la muerte de Joyadá, los dirigentes de Judá vinieron ante el rey Joás y lo indujeron a olvidarse del templo y a abandonar al Dios de sus antepasados, y a adorar la imagen de la diosa Aserá y a otros ídolos abominables. Entonces la ira de Dios cayó sobre Judá y Jerusalén nuevamente.",
           "verseDisplay": "17-18",
-          "endNumber": 18
+          "endNumber": 18,
+          "headings": [
+            "Depravación de Joás"
+          ]
         },
         {
           "number": 19,
@@ -2110,7 +2167,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Amasías tenía veinticinco años cuando comenzó a reinar, y reinó durante veintinueve años en Jerusalén. El nombre de su madre era Joadán, nacida en Jerusalén."
+          "text": "Amasías tenía veinticinco años cuando comenzó a reinar, y reinó durante veintinueve años en Jerusalén. El nombre de su madre era Joadán, nacida en Jerusalén.",
+          "headings": [
+            "Amasías, rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -2225,7 +2285,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El pueblo de Judá proclamó rey a Uzías, que tenía dieciséis años."
+          "text": "El pueblo de Judá proclamó rey a Uzías, que tenía dieciséis años.",
+          "headings": [
+            "Uzías, rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -2320,7 +2383,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jotán tenía veinticinco años cuando subió al trono, y reinó dieciséis años en Jerusalén. Su madre era Jerusa, hija de Sadoc."
+          "text": "Jotán tenía veinticinco años cuando subió al trono, y reinó dieciséis años en Jerusalén. Su madre era Jerusa, hija de Sadoc.",
+          "headings": [
+            "Jotán, rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -2361,7 +2427,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Acaz tenía veinte años cuando comenzó a reinar y reinó dieciséis años en Jerusalén. Fue un rey malo, pues no siguió el ejemplo del rey David, su antepasado."
+          "text": "Acaz tenía veinte años cuando comenzó a reinar y reinó dieciséis años en Jerusalén. Fue un rey malo, pues no siguió el ejemplo del rey David, su antepasado.",
+          "headings": [
+            "Acaz, rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -2474,7 +2543,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ezequías tenía veinticinco años cuando comenzó a reinar en Judá, y reinó veintinueve años en Jerusalén. El nombre de su madre era Abías, hija de Zacarías."
+          "text": "Ezequías tenía veinticinco años cuando comenzó a reinar en Judá, y reinó veintinueve años en Jerusalén. El nombre de su madre era Abías, hija de Zacarías.",
+          "headings": [
+            "Ezequías, rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -2611,7 +2683,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El rey Ezequías envió cartas por todo Israel, Judá, Efraín y Manasés invitando a todos al templo de Jerusalén, para celebrar la Pascua."
+          "text": "El rey Ezequías envió cartas por todo Israel, Judá, Efraín y Manasés invitando a todos al templo de Jerusalén, para celebrar la Pascua.",
+          "headings": [
+            "Celebración de la Pascua"
+          ]
         },
         {
           "number": 2,
@@ -2716,14 +2791,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego comenzó una intensa campaña contra la adoración de ídolos. Los israelitas que se hallaban presentes se dirigieron a las ciudades de Judá, Benjamín, Efraín y Manasés y destruyeron los altares paganos, los ídolos, las imágenes abominables de la diosa Aserá y todos los centros paganos de adoración. Luego las personas que habían venido de las tribus del norte a celebrar la Pascua regresaron a sus tierras.",
-          "headings": [
-            "Reorganización del culto"
-          ]
+          "text": "Luego comenzó una intensa campaña contra la adoración de ídolos. Los israelitas que se hallaban presentes se dirigieron a las ciudades de Judá, Benjamín, Efraín y Manasés y destruyeron los altares paganos, los ídolos, las imágenes abominables de la diosa Aserá y todos los centros paganos de adoración. Luego las personas que habían venido de las tribus del norte a celebrar la Pascua regresaron a sus tierras."
         },
         {
           "number": 2,
-          "text": "Ezequías organizó después a los sacerdotes y levitas en un cuerpo de servicio para ofrecer los holocaustos y los sacrificios de reconciliación, y para adorar, dar gracias y alabar al Señor ."
+          "text": "Ezequías organizó después a los sacerdotes y levitas en un cuerpo de servicio para ofrecer los holocaustos y los sacrificios de reconciliación, y para adorar, dar gracias y alabar al Señor .",
+          "headings": [
+            "Reorganización del culto"
+          ]
         },
         {
           "number": 3,
@@ -2798,7 +2873,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Algún tiempo después de esta buena obra de Ezequías, el rey Senaquerib, de Asiria, invadió Judá y sitió las ciudades fortificadas, con el objeto de imponerles tributo."
+          "text": "Algún tiempo después de esta buena obra de Ezequías, el rey Senaquerib, de Asiria, invadió Judá y sitió las ciudades fortificadas, con el objeto de imponerles tributo.",
+          "headings": [
+            "Senaquerib invade Judá"
+          ]
         },
         {
           "number": 2,
@@ -2886,14 +2964,14 @@
         },
         {
           "number": 23,
-          "text": "De allí en adelante, el rey Ezequías fue inmensamente respetado entre las naciones vecinas, y llegaban a Jerusalén muchas ofrendas para el Señor , y valiosos regalos para Ezequías.",
-          "headings": [
-            "Enfermedad y curación de Ezequías"
-          ]
+          "text": "De allí en adelante, el rey Ezequías fue inmensamente respetado entre las naciones vecinas, y llegaban a Jerusalén muchas ofrendas para el Señor , y valiosos regalos para Ezequías."
         },
         {
           "number": 24,
-          "text": "Un día Ezequías enfermó de muerte; entonces oró al Señor , y él le respondió con un milagro."
+          "text": "Un día Ezequías enfermó de muerte; entonces oró al Señor , y él le respondió con un milagro.",
+          "headings": [
+            "Enfermedad y curación de Ezequías"
+          ]
         },
         {
           "number": 25,
@@ -2901,14 +2979,14 @@
         },
         {
           "number": 26,
-          "text": "Pero luego, Ezequías y todos los residentes de Jerusalén se arrepintieron de su pecado. Por eso, durante toda la vida de Ezequías, el Señor no descargó su ira sobre ellos.",
-          "headings": [
-            "Prosperidad y muerte de Ezequías"
-          ]
+          "text": "Pero luego, Ezequías y todos los residentes de Jerusalén se arrepintieron de su pecado. Por eso, durante toda la vida de Ezequías, el Señor no descargó su ira sobre ellos."
         },
         {
           "number": 27,
-          "text": "Ezequías se hizo muy rico y recibió muchos honores. Tuvo que construir edificios para guardar la plata, el oro, las piedras preciosas y los perfumes, y los escudos y vasijas de oro."
+          "text": "Ezequías se hizo muy rico y recibió muchos honores. Tuvo que construir edificios para guardar la plata, el oro, las piedras preciosas y los perfumes, y los escudos y vasijas de oro.",
+          "headings": [
+            "Prosperidad y muerte de Ezequías"
+          ]
         },
         {
           "number": 28,
@@ -2939,7 +3017,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Manasés tenía doce años cuando empezó a reinar, y reinó cincuenta y cinco años en Jerusalén."
+          "text": "Manasés tenía doce años cuando empezó a reinar, y reinó cincuenta y cinco años en Jerusalén.",
+          "headings": [
+            "Manasés, rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -3013,14 +3094,14 @@
         },
         {
           "number": 20,
-          "text": "Cuando Manasés murió, fue sepultado en su palacio, y su hijo Amón subió al trono.",
-          "headings": [
-            "Amón, rey de Judá"
-          ]
+          "text": "Cuando Manasés murió, fue sepultado en su palacio, y su hijo Amón subió al trono."
         },
         {
           "number": 21,
-          "text": "Amón tenía veintidós años cuando comenzó a reinar en Jerusalén y reinó durante sólo dos años."
+          "text": "Amón tenía veintidós años cuando comenzó a reinar en Jerusalén y reinó durante sólo dos años.",
+          "headings": [
+            "Amón, rey de Judá"
+          ]
         },
         {
           "number": 22,
@@ -3045,7 +3126,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Josías tenía solo ocho años cuando comenzó a reinar. Reinó treinta y un años en Jerusalén."
+          "text": "Josías tenía solo ocho años cuando comenzó a reinar. Reinó treinta y un años en Jerusalén.",
+          "headings": [
+            "Josías, rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -3091,14 +3175,14 @@
         },
         {
           "number": 13,
-          "text": "Otros levitas supervisaban a los jornaleros que llevaban los materiales para los obreros especializados. Otros ayudaban en las cuentas, como capataces y como porteros.",
-          "headings": [
-            "Hallazgo del libro de la ley"
-          ]
+          "text": "Otros levitas supervisaban a los jornaleros que llevaban los materiales para los obreros especializados. Otros ayudaban en las cuentas, como capataces y como porteros."
         },
         {
           "number": 14,
-          "text": "Un día en que Jilquías, el sumo sacerdote, estaba en el templo anotando el dinero reunido en las puertas, descubrió un viejo rollo que resultó ser de las leyes que Dios le había dado a Moisés."
+          "text": "Un día en que Jilquías, el sumo sacerdote, estaba en el templo anotando el dinero reunido en las puertas, descubrió un viejo rollo que resultó ser de las leyes que Dios le había dado a Moisés.",
+          "headings": [
+            "Hallazgo del libro de la ley"
+          ]
         },
         {
           "number": 15,
@@ -3150,14 +3234,14 @@
         },
         {
           "number": 28,
-          "text": "Por eso, el Señor no enviará esta desgracia sobre el pueblo durante la vida del rey, sino que lo hará después. De modo que el rey morirá en paz, sin ver todo el mal que vendrá sobre este lugar y su gente”». Ellos le llevaron este mensaje del Señor al rey.",
-          "headings": [
-            "Renovación del pacto"
-          ]
+          "text": "Por eso, el Señor no enviará esta desgracia sobre el pueblo durante la vida del rey, sino que lo hará después. De modo que el rey morirá en paz, sin ver todo el mal que vendrá sobre este lugar y su gente”». Ellos le llevaron este mensaje del Señor al rey."
         },
         {
           "number": 29,
-          "text": "El rey convocó a todos los ancianos de Judá y de Jerusalén,"
+          "text": "El rey convocó a todos los ancianos de Judá y de Jerusalén,",
+          "headings": [
+            "Renovación del pacto"
+          ]
         },
         {
           "number": 30,
@@ -3182,7 +3266,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Josías anunció que el día catorce del mes primero se celebraría la Pascua en Jerusalén."
+          "text": "Josías anunció que el día catorce del mes primero se celebraría la Pascua en Jerusalén.",
+          "headings": [
+            "Celebración de la Pascua"
+          ]
         },
         {
           "number": 2,
@@ -3252,14 +3339,14 @@
         },
         {
           "number": 19,
-          "text": "Todo esto ocurrió en el año dieciocho del reinado de Josías.",
-          "headings": [
-            "Muerte de Josías"
-          ]
+          "text": "Todo esto ocurrió en el año dieciocho del reinado de Josías."
         },
         {
           "number": 20,
-          "text": "Después de esto, el rey Necao, de Egipto, condujo su ejército contra los asirios hasta Carquemis, junto al río Éufrates, pero el rey Josías quiso impedirle el paso."
+          "text": "Después de esto, el rey Necao, de Egipto, condujo su ejército contra los asirios hasta Carquemis, junto al río Éufrates, pero el rey Josías quiso impedirle el paso.",
+          "headings": [
+            "Muerte de Josías"
+          ]
         },
         {
           "number": 21,
@@ -3294,7 +3381,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces el pueblo proclamó rey de Judá a Joacaz hijo de Josías."
+          "text": "Entonces el pueblo proclamó rey de Judá a Joacaz hijo de Josías.",
+          "headings": [
+            "Joacaz, rey de Judá"
+          ]
         },
         {
           "number": 2,
@@ -3306,14 +3396,14 @@
         },
         {
           "number": 4,
-          "text": "Luego puso a Eliaquín, hermano de Joacaz, como rey de Judá (le cambió el nombre y le puso Joacim). Joacaz fue llevado a Egipto en calidad de prisionero.",
-          "headings": [
-            "Joacim, rey de Judá"
-          ]
+          "text": "Luego puso a Eliaquín, hermano de Joacaz, como rey de Judá (le cambió el nombre y le puso Joacim). Joacaz fue llevado a Egipto en calidad de prisionero."
         },
         {
           "number": 5,
-          "text": "Joacim tenía veinticinco años cuando comenzó a reinar, y reinó once años en Jerusalén, pero fue un rey malo, pues hizo lo que no le agrada al Señor , su Dios."
+          "text": "Joacim tenía veinticinco años cuando comenzó a reinar, y reinó once años en Jerusalén, pero fue un rey malo, pues hizo lo que no le agrada al Señor , su Dios.",
+          "headings": [
+            "Joacim, rey de Judá"
+          ]
         },
         {
           "number": 6,
@@ -3325,25 +3415,25 @@
         },
         {
           "number": 8,
-          "text": "Los demás hechos de Joacim, y todos los males que hizo, están escritos en el libro de los reyes de Judá. Su hijo Joaquín reinó en su lugar.",
+          "text": "Los demás hechos de Joacim, y todos los males que hizo, están escritos en el libro de los reyes de Judá. Su hijo Joaquín reinó en su lugar."
+        },
+        {
+          "number": 9,
+          "text": "Joaquín tenía dieciocho años cuando subió al trono, pero sólo alcanzó a reinar tres meses y diez días en Jerusalén. Fue un rey malo, pues hizo lo que no le agrada al Señor .",
           "headings": [
             "Joaquín, rey de Judá"
           ]
         },
         {
-          "number": 9,
-          "text": "Joaquín tenía dieciocho años cuando subió al trono, pero sólo alcanzó a reinar tres meses y diez días en Jerusalén. Fue un rey malo, pues hizo lo que no le agrada al Señor ."
-        },
-        {
           "number": 10,
-          "text": "Por eso, en la primavera de ese año, Nabucodonosor ordenó que lo llevaran a Babilonia. Muchos tesoros del templo también fueron llevados en aquella ocasión. Entonces, el rey Nabucodonosor designó a Sedequías, tío de Joaquín, como rey de Judá.",
-          "headings": [
-            "Sedequías, rey de Judá"
-          ]
+          "text": "Por eso, en la primavera de ese año, Nabucodonosor ordenó que lo llevaran a Babilonia. Muchos tesoros del templo también fueron llevados en aquella ocasión. Entonces, el rey Nabucodonosor designó a Sedequías, tío de Joaquín, como rey de Judá."
         },
         {
           "number": 11,
-          "text": "Sedequías tenía veintiún años cuando comenzó a reinar, y reinó once años en Jerusalén."
+          "text": "Sedequías tenía veintiún años cuando comenzó a reinar, y reinó once años en Jerusalén.",
+          "headings": [
+            "Sedequías, rey de Judá"
+          ]
         },
         {
           "number": 12,
@@ -3363,14 +3453,14 @@
         },
         {
           "number": 16,
-          "text": "Pero el pueblo se burlaba de aquellos mensajeros de Dios, es decir, de los profetas, y no tenían respeto por la palabra del Señor . Por eso, llegó el día en que el Señor descargó su ira contra ellos, y ya no hubo más remedio.",
-          "headings": [
-            "La caída de Jerusalén"
-          ]
+          "text": "Pero el pueblo se burlaba de aquellos mensajeros de Dios, es decir, de los profetas, y no tenían respeto por la palabra del Señor . Por eso, llegó el día en que el Señor descargó su ira contra ellos, y ya no hubo más remedio."
         },
         {
           "number": 17,
-          "text": "El Señor hizo que el rey de Babilonia se levantara en contra de ellos y matara a los jóvenes, a los que siguió aun dentro del templo, sin tener misericordia de jóvenes ni doncellas ni de ancianos. El Señor permitió que todos cayeran en las manos del rey de Babilonia."
+          "text": "El Señor hizo que el rey de Babilonia se levantara en contra de ellos y matara a los jóvenes, a los que siguió aun dentro del templo, sin tener misericordia de jóvenes ni doncellas ni de ancianos. El Señor permitió que todos cayeran en las manos del rey de Babilonia.",
+          "headings": [
+            "La caída de Jerusalén"
+          ]
         },
         {
           "number": 18,
@@ -3386,14 +3476,14 @@
         },
         {
           "number": 21,
-          "text": "De esta manera se cumplió la palabra del Señor , dada por medio de Jeremías. Así, pues, la tierra de Judá disfrutó de su descanso y tuvo paz por setenta años, que fue el tiempo que estuvo abandonada.",
-          "headings": [
-            "Decreto de Ciro"
-          ]
+          "text": "De esta manera se cumplió la palabra del Señor , dada por medio de Jeremías. Así, pues, la tierra de Judá disfrutó de su descanso y tuvo paz por setenta años, que fue el tiempo que estuvo abandonada."
         },
         {
           "number": 22,
-          "text": "Pero en el primer año del reinado de Ciro, rey de Persia, el Señor hizo que el rey promulgara un decreto, tanto de forma oral como por escrito, permitiendo que los cautivos de Judá pudieran regresar a su tierra. De esa manera el Señor cumplió lo que había dicho por medio del profeta Jeremías. Este decreto, que se dio a conocer en todo el imperio persa, decía:"
+          "text": "Pero en el primer año del reinado de Ciro, rey de Persia, el Señor hizo que el rey promulgara un decreto, tanto de forma oral como por escrito, permitiendo que los cautivos de Judá pudieran regresar a su tierra. De esa manera el Señor cumplió lo que había dicho por medio del profeta Jeremías. Este decreto, que se dio a conocer en todo el imperio persa, decía:",
+          "headings": [
+            "Decreto de Ciro"
+          ]
         },
         {
           "number": 23,

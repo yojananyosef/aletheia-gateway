@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Profecía de la Palabra de Yavé contra Israel, por medio de Malaquías."
+          "text": "Profecía de la Palabra de Yavé contra Israel, por medio de Malaquías.",
+          "headings": [
+            "Fuerte reclamo al pueblo de Israel"
+          ]
         },
         {
           "number": 2,
@@ -70,7 +73,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ahora pues, oh sacerdotes, para ustedes es este Mandamiento."
+          "text": "Ahora pues, oh sacerdotes, para ustedes es este Mandamiento.",
+          "headings": [
+            "Contra los sacerdotes"
+          ]
         },
         {
           "number": 2,
@@ -130,14 +136,14 @@
         },
         {
           "number": 16,
-          "text": "Porque aborrezco el repudio y al que cubre su ropa con violencia, dice Yavé de las huestes de las huestes. Así que cuiden su espíritu y no sean infieles.",
-          "headings": [
-            "El día del juicio"
-          ]
+          "text": "Porque aborrezco el repudio y al que cubre su ropa con violencia, dice Yavé de las huestes de las huestes. Así que cuiden su espíritu y no sean infieles."
         },
         {
           "number": 17,
-          "text": "Ustedes fastidian a Yavé con sus palabras y dicen: ¿Cómo lo fastidiamos? Cuando dicen: Todo el que hace mal agrada a Yavé , y de ellos se complace. O dicen: ¿Dónde está el ʼElohim de justicia?"
+          "text": "Ustedes fastidian a Yavé con sus palabras y dicen: ¿Cómo lo fastidiamos? Cuando dicen: Todo el que hace mal agrada a Yavé , y de ellos se complace. O dicen: ¿Dónde está el ʼElohim de justicia?",
+          "headings": [
+            "El día del juicio"
+          ]
         }
       ]
     },
@@ -146,7 +152,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ciertamente, Yo envío mi mensajero, el cual preparará el camino delante de Mí. Y vendrá súbitamente a su Casa el ʼAdón a Quien ustedes buscan, el Ángel del Pacto, a Quien ustedes desean. Ciertamente viene, dice Yavé de las huestes."
+          "text": "Ciertamente, Yo envío mi mensajero, el cual preparará el camino delante de Mí. Y vendrá súbitamente a su Casa el ʼAdón a Quien ustedes buscan, el Ángel del Pacto, a Quien ustedes desean. Ciertamente viene, dice Yavé de las huestes.",
+          "headings": [
+            "La venida del Amo de la Casa"
+          ]
         },
         {
           "number": 2,
@@ -223,7 +232,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Porque ciertamente viene el día ardiente como un horno, cuando todos los altivos y todos los perversos serán estopa. Aquel día que viene los quemará, y no quedará de ellos raíz ni rama, dice Yavé de las huestes."
+          "text": "Porque ciertamente viene el día ardiente como un horno, cuando todos los altivos y todos los perversos serán estopa. Aquel día que viene los quemará, y no quedará de ellos raíz ni rama, dice Yavé de las huestes.",
+          "headings": [
+            "El Heraldo"
+          ]
         },
         {
           "number": 2,

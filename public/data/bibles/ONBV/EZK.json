@@ -127,6 +127,9 @@
         {
           "number": 1,
           "text": "Y me dijo: ¡Ponte de pie, hombre mortal, que hablaré contigo!",
+          "headings": [
+            "Llamamiento de Ezequiel"
+          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -234,14 +237,14 @@
         },
         {
           "number": 15,
-          "text": "Llegamos a Tel Aviv, donde estaban los israelitas deportados, junto al río Quebar. Al llegar me senté entre ellos, abrumado y atónito, durante siete días.",
-          "headings": [
-            "Advertencia a Israel"
-          ]
+          "text": "Llegamos a Tel Aviv, donde estaban los israelitas deportados, junto al río Quebar. Al llegar me senté entre ellos, abrumado y atónito, durante siete días."
         },
         {
           "number": 16,
-          "text": "Al final de los siete días, el Señor me dijo:"
+          "text": "Al final de los siete días, el Señor me dijo:",
+          "headings": [
+            "Advertencia a Israel"
+          ]
         },
         {
           "number": 17,
@@ -294,7 +297,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Y ahora, hombre mortal, toma una tablilla de arcilla y ponla delante de ti y dibuja sobre ella un mapa de la ciudad de Jerusalén."
+          "text": "»Y ahora, hombre mortal, toma una tablilla de arcilla y ponla delante de ti y dibuja sobre ella un mapa de la ciudad de Jerusalén.",
+          "headings": [
+            "Anuncio del sitio a Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -432,7 +438,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "De nuevo me vino un mensaje del Señor :"
+          "text": "De nuevo me vino un mensaje del Señor :",
+          "headings": [
+            "Profecía contra los montes de Israel"
+          ]
         },
         {
           "number": 2,
@@ -483,7 +492,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este nuevo mensaje me vino del Señor :"
+          "text": "Este nuevo mensaje me vino del Señor :",
+          "headings": [
+            "El fin ha llegado"
+          ]
         },
         {
           "number": 2,
@@ -590,7 +602,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego, a fines de agosto del sexto año del cautiverio del rey Joacín, mientras yo estaba hablando con los sabios consejeros de Judá en mi hogar, llegó a mí la presencia de Dios el Señor ."
+          "text": "Luego, a fines de agosto del sexto año del cautiverio del rey Joacín, mientras yo estaba hablando con los sabios consejeros de Judá en mi hogar, llegó a mí la presencia de Dios el Señor .",
+          "headings": [
+            "Idolatría en el templo"
+          ]
         },
         {
           "number": 2,
@@ -667,7 +682,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego el Señor gritó con fuerza: «¡Llama a aquellos a quienes yo he entregado la ciudad para que la conquisten! ¡Diles que traigan sus armas consigo!»."
+          "text": "Luego el Señor gritó con fuerza: «¡Llama a aquellos a quienes yo he entregado la ciudad para que la conquisten! ¡Diles que traigan sus armas consigo!».",
+          "headings": [
+            "El castigo de los culpables"
+          ]
         },
         {
           "number": 2,
@@ -716,7 +734,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Repentinamente un trono hecho de hermosos zafiros azules apareció en el cielo encima de las cabezas de los seres alados, también llamados querubines."
+          "text": "Repentinamente un trono hecho de hermosos zafiros azules apareció en el cielo encima de las cabezas de los seres alados, también llamados querubines.",
+          "headings": [
+            "La gloria del Señor abandona el templo"
+          ]
         },
         {
           "number": 2,
@@ -791,7 +812,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego el Espíritu me alzó de nuevo y me llevó a la entrada oriental del templo, donde vi a veinticinco de los hombres más prominentes de la ciudad, incluyendo a dos funcionarios, Jazanías, hijo de Azur, y Palatías, hijo de Benaías."
+          "text": "Luego el Espíritu me alzó de nuevo y me llevó a la entrada oriental del templo, donde vi a veinticinco de los hombres más prominentes de la ciudad, incluyendo a dos funcionarios, Jazanías, hijo de Azur, y Palatías, hijo de Benaías.",
+          "headings": [
+            "Juicio contra los líderes de Israel"
+          ]
         },
         {
           "number": 2,
@@ -871,14 +895,14 @@
         },
         {
           "number": 21,
-          "text": "Pero en cuanto a los que están ahora en Jerusalén, esos que anhelan los ídolos, yo les pagaré en pleno por sus malas conductas, dice el Señor Dios”».",
-          "headings": [
-            "La gloria del Señor abandona Jerusalén"
-          ]
+          "text": "Pero en cuanto a los que están ahora en Jerusalén, esos que anhelan los ídolos, yo les pagaré en pleno por sus malas conductas, dice el Señor Dios”»."
         },
         {
           "number": 22,
-          "text": "Los querubines desplegaron sus alas y se alzaron en el aire con sus ruedas junto a ellos, y la magnífica presencia del Dios de Israel estaba sobre ellos."
+          "text": "Los querubines desplegaron sus alas y se alzaron en el aire con sus ruedas junto a ellos, y la magnífica presencia del Dios de Israel estaba sobre ellos.",
+          "headings": [
+            "La gloria del Señor abandona Jerusalén"
+          ]
         },
         {
           "number": 23,
@@ -899,7 +923,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "De nuevo me vino un mensaje del Señor :"
+          "text": "De nuevo me vino un mensaje del Señor :",
+          "headings": [
+            "Símbolo del exilio"
+          ]
         },
         {
           "number": 2,
@@ -1016,7 +1043,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces me vino este mensaje de parte del Señor :"
+          "text": "Entonces me vino este mensaje de parte del Señor :",
+          "headings": [
+            "Condena a los falsos profetas"
+          ]
         },
         {
           "number": 2,
@@ -1074,14 +1104,14 @@
         },
         {
           "number": 16,
-          "text": "pues ellos eran profetas mentirosos que pretendían que Jerusalén tendría paz cuando no habría paz, dice el Señor Dios”.",
-          "headings": [
-            "Condena a las profetisas"
-          ]
+          "text": "pues ellos eran profetas mentirosos que pretendían que Jerusalén tendría paz cuando no habría paz, dice el Señor Dios”."
         },
         {
           "number": 17,
-          "text": "»Hombre mortal, habla contra las profetisas quienes también pretenden que el Señor les ha dado sus mensajes."
+          "text": "»Hombre mortal, habla contra las profetisas quienes también pretenden que el Señor les ha dado sus mensajes.",
+          "headings": [
+            "Condena a las profetisas"
+          ]
         },
         {
           "number": 18,
@@ -1114,7 +1144,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces algunos de los sabios consejeros de Israel me visitaron para pedirme un mensaje del Señor ,"
+          "text": "Entonces algunos de los sabios consejeros de Israel me visitaron para pedirme un mensaje del Señor ,",
+          "headings": [
+            "Contra la idolatría"
+          ]
         },
         {
           "number": 2,
@@ -1152,14 +1185,14 @@
         },
         {
           "number": 11,
-          "text": "para que el pueblo de Israel aprenda a no abandonarme y contaminarse con todas sus maldades, sino a ser mi pueblo fiel y yo su Dios. Así dice el Señor ».",
-          "headings": [
-            "Contra falsas esperanzas"
-          ]
+          "text": "para que el pueblo de Israel aprenda a no abandonarme y contaminarse con todas sus maldades, sino a ser mi pueblo fiel y yo su Dios. Así dice el Señor »."
         },
         {
           "number": 12,
-          "text": "Luego me vino este mensaje del Señor :"
+          "text": "Luego me vino este mensaje del Señor :",
+          "headings": [
+            "Contra falsas esperanzas"
+          ]
         },
         {
           "number": 13,
@@ -1212,7 +1245,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego me vino este mensaje del Señor :"
+          "text": "Luego me vino este mensaje del Señor :",
+          "headings": [
+            "Jerusalén, una vid inútil"
+          ]
         },
         {
           "number": 2,
@@ -1249,7 +1285,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego me vino de nuevo un mensaje del Señor :"
+          "text": "Luego me vino de nuevo un mensaje del Señor :",
+          "headings": [
+            "Infidelidad de Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -1504,7 +1543,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego me vino este mensaje de parte del Señor :"
+          "text": "Luego me vino este mensaje de parte del Señor :",
+          "headings": [
+            "La vid y el águila"
+          ]
         },
         {
           "number": 2,
@@ -1605,7 +1647,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces me vino de nuevo un mensaje del Señor :"
+          "text": "Entonces me vino de nuevo un mensaje del Señor :",
+          "headings": [
+            "La responsabilidad personal"
+          ]
         },
         {
           "number": 2,
@@ -1738,7 +1783,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Canta estas estrofas para los jefes de Israel:"
+          "text": "»Canta estas estrofas para los jefes de Israel:",
+          "headings": [
+            "Lamento por los príncipes de Israel"
+          ]
         },
         {
           "number": 2,
@@ -1799,7 +1847,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "A fines de julio, seis años después de que el rey Joaquín fuera capturado, algunos de los consejeros de Israel vinieron a mí para solicitar instrucciones del Señor , y se sentaron delante de mí aguardando la respuesta."
+          "text": "A fines de julio, seis años después de que el rey Joaquín fuera capturado, algunos de los consejeros de Israel vinieron a mí para solicitar instrucciones del Señor , y se sentaron delante de mí aguardando la respuesta.",
+          "headings": [
+            "Historia de una rebelión"
+          ]
         },
         {
           "number": 2,
@@ -1903,14 +1954,14 @@
         },
         {
           "number": 29,
-          "text": "Yo les dije: ‘¿Qué es ese lugar de sacrificio a donde van?’. Y por eso le llaman ‘El lugar de sacrificio’; así es como obtuvo su nombre”.",
-          "headings": [
-            "Juicio y restauración"
-          ]
+          "text": "Yo les dije: ‘¿Qué es ese lugar de sacrificio a donde van?’. Y por eso le llaman ‘El lugar de sacrificio’; así es como obtuvo su nombre”."
         },
         {
           "number": 30,
-          "text": "»El Señor Dios quiere saber si ustedes se van a contaminar tal como lo hicieron sus antepasados, si seguirán ofreciendo homenajes a sus ídolos."
+          "text": "»El Señor Dios quiere saber si ustedes se van a contaminar tal como lo hicieron sus antepasados, si seguirán ofreciendo homenajes a sus ídolos.",
+          "headings": [
+            "Juicio y restauración"
+          ]
         },
         {
           "number": 31,
@@ -1964,14 +2015,14 @@
         },
         {
           "number": 44,
-          "text": "¡Y cuando yo haya honrado mi nombre haciéndoles toda clase de bien a pesar de su maldad, entonces, oh Israel, ustedes sabrán que yo soy el Señor !”».",
-          "headings": [
-            "Profecía contra el sur"
-          ]
+          "text": "¡Y cuando yo haya honrado mi nombre haciéndoles toda clase de bien a pesar de su maldad, entonces, oh Israel, ustedes sabrán que yo soy el Señor !”»."
         },
         {
           "number": 45,
-          "text": "Luego me vino este mensaje del Señor :"
+          "text": "Luego me vino este mensaje del Señor :",
+          "headings": [
+            "Profecía contra el sur"
+          ]
         },
         {
           "number": 46,
@@ -1996,7 +2047,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego me vino este mensaje del Señor :"
+          "text": "Luego me vino este mensaje del Señor :",
+          "headings": [
+            "La espada justiciera"
+          ]
         },
         {
           "number": 2,
@@ -2127,7 +2181,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Otro mensaje me vino de parte del Señor :"
+          "text": "Otro mensaje me vino de parte del Señor :",
+          "headings": [
+            "Los pecados de Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -2250,7 +2307,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un mensaje del Señor me vino otra vez, diciendo:"
+          "text": "Un mensaje del Señor me vino otra vez, diciendo:",
+          "headings": [
+            "Las dos hermanas adúlteras"
+          ]
         },
         {
           "number": 2,
@@ -2449,7 +2509,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día a fines de diciembre del noveno año del cautiverio del rey Joaquín me vino otro mensaje del Señor ."
+          "text": "Un día a fines de diciembre del noveno año del cautiverio del rey Joaquín me vino otro mensaje del Señor .",
+          "headings": [
+            "La olla hirviente"
+          ]
         },
         {
           "number": 2,
@@ -2501,14 +2564,14 @@
         },
         {
           "number": 14,
-          "text": "¡Yo, el Señor , lo he dicho, sucederá así, yo lo haré!”».",
-          "headings": [
-            "Muerte de la esposa de Ezequiel"
-          ]
+          "text": "¡Yo, el Señor , lo he dicho, sucederá así, yo lo haré!”»."
         },
         {
           "number": 15,
-          "text": "De nuevo me vino un mensaje del Señor , diciendo:"
+          "text": "De nuevo me vino un mensaje del Señor , diciendo:",
+          "headings": [
+            "Muerte de la esposa de Ezequiel"
+          ]
         },
         {
           "number": 16,
@@ -2563,7 +2626,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego me llegó un mensaje del Señor otra vez:"
+          "text": "Luego me llegó un mensaje del Señor otra vez:",
+          "headings": [
+            "Profecía contra Amón"
+          ]
         },
         {
           "number": 2,
@@ -2587,14 +2653,14 @@
         },
         {
           "number": 7,
-          "text": "yo te castigaré con mucho rigor, entregándolos a muchas naciones para ser maltratados! Los haré desaparecer como nación para siempre, los destruiré, y entonces sabrán que yo soy el Señor ”».",
-          "headings": [
-            "Profecía contra Moab"
-          ]
+          "text": "yo te castigaré con mucho rigor, entregándolos a muchas naciones para ser maltratados! Los haré desaparecer como nación para siempre, los destruiré, y entonces sabrán que yo soy el Señor ”»."
         },
         {
           "number": 8,
-          "text": "Y el Señor Dios dice: «¡Puesto que los moabitas han dicho que Judá no está mejor que ninguna otra nación,"
+          "text": "Y el Señor Dios dice: «¡Puesto que los moabitas han dicho que Judá no está mejor que ninguna otra nación,",
+          "headings": [
+            "Profecía contra Moab"
+          ]
         },
         {
           "number": 9,
@@ -2604,14 +2670,14 @@
         },
         {
           "number": 11,
-          "text": "Así haré sentir mi juicio sobre los moabitas, y ellos sabrán que yo soy el Señor ».",
-          "headings": [
-            "Profecía contra Edom"
-          ]
+          "text": "Así haré sentir mi juicio sobre los moabitas, y ellos sabrán que yo soy el Señor »."
         },
         {
           "number": 12,
-          "text": "Y el Señor Dios dice: «¡Por cuanto el pueblo de Edom ha causado tanto daño al vengarse sobre el pueblo de Judá,"
+          "text": "Y el Señor Dios dice: «¡Por cuanto el pueblo de Edom ha causado tanto daño al vengarse sobre el pueblo de Judá,",
+          "headings": [
+            "Profecía contra Edom"
+          ]
         },
         {
           "number": 13,
@@ -2619,14 +2685,14 @@
         },
         {
           "number": 14,
-          "text": "Y el instrumento de mi venganza será mi pueblo Israel. Ellos ejecutarán mi tremenda venganza».",
-          "headings": [
-            "Profecía contra los filisteos"
-          ]
+          "text": "Y el instrumento de mi venganza será mi pueblo Israel. Ellos ejecutarán mi tremenda venganza»."
         },
         {
           "number": 15,
-          "text": "Y el Señor Dios dice: «¡Por haber actuado los filisteos contra Judá con tanta violencia, con un odio añejado,"
+          "text": "Y el Señor Dios dice: «¡Por haber actuado los filisteos contra Judá con tanta violencia, con un odio añejado,",
+          "headings": [
+            "Profecía contra los filisteos"
+          ]
         },
         {
           "number": 16,
@@ -2643,7 +2709,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Otro mensaje me vino del Señor en el primer día del mes, en el onceavo año después que el rey Joaquín fue llevado al cautiverio:"
+          "text": "Otro mensaje me vino del Señor en el primer día del mes, en el onceavo año después que el rey Joaquín fue llevado al cautiverio:",
+          "headings": [
+            "Profecía contra Tiro"
+          ]
         },
         {
           "number": 2,
@@ -2732,7 +2801,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego me vino este mensaje de parte del Señor :"
+          "text": "Luego me vino este mensaje de parte del Señor :",
+          "headings": [
+            "Lamento por la caída de Tiro"
+          ]
         },
         {
           "number": 2,
@@ -2881,7 +2953,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aquí hay otro mensaje que me fue dado por el Señor :"
+          "text": "Aquí hay otro mensaje que me fue dado por el Señor :",
+          "headings": [
+            "Profecía contra el rey de Tiro"
+          ]
         },
         {
           "number": 2,
@@ -2953,14 +3028,14 @@
         },
         {
           "number": 19,
-          "text": "¡Todos los que te conocen están asombrados ante tu triste destino, eres un escarmiento para ellos, estás destruido para siempre!».",
-          "headings": [
-            "Profecía contra Sidón"
-          ]
+          "text": "¡Todos los que te conocen están asombrados ante tu triste destino, eres un escarmiento para ellos, estás destruido para siempre!»."
         },
         {
           "number": 20,
-          "text": "Luego me vino otro mensaje del Señor :"
+          "text": "Luego me vino otro mensaje del Señor :",
+          "headings": [
+            "Profecía contra Sidón"
+          ]
         },
         {
           "number": 21,
@@ -2993,7 +3068,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "A fines de diciembre del décimo año del encarcelamiento del rey Joaquín, me vino este mensaje del Señor :"
+          "text": "A fines de diciembre del décimo año del encarcelamiento del rey Joaquín, me vino este mensaje del Señor :",
+          "headings": [
+            "Profecía contra Egipto"
+          ]
         },
         {
           "number": 2,
@@ -3082,7 +3160,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Otro mensaje del Señor :"
+          "text": "Otro mensaje del Señor :",
+          "headings": [
+            "Lamento por Egipto"
+          ]
         },
         {
           "number": 2,
@@ -3191,7 +3272,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "A mediados de mayo del año undécimo del cautiverio del rey Joacín, me vino este mensaje del Señor :"
+          "text": "A mediados de mayo del año undécimo del cautiverio del rey Joacín, me vino este mensaje del Señor :",
+          "headings": [
+            "El cedro del Líbano"
+          ]
         },
         {
           "number": 2,
@@ -3268,7 +3352,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "A mediados de febrero del año décimosegundo del cautiverio del rey Joaquín, me vino este mensaje del Señor :"
+          "text": "A mediados de febrero del año décimosegundo del cautiverio del rey Joaquín, me vino este mensaje del Señor :",
+          "headings": [
+            "Lamento por el faraón"
+          ]
         },
         {
           "number": 2,
@@ -3401,7 +3488,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Nuevamente me vino un mensaje del Señor , diciendo:"
+          "text": "Nuevamente me vino un mensaje del Señor , diciendo:",
+          "headings": [
+            "El profeta centinela de su pueblo"
+          ]
         },
         {
           "number": 2,
@@ -3477,14 +3567,14 @@
         },
         {
           "number": 20,
-          "text": "¡Y aún están diciendo que el Señor no es cabal! Pero yo juzgaré a cada uno de ustedes conforme a sus hechos».",
-          "headings": [
-            "La caída de Jerusalén"
-          ]
+          "text": "¡Y aún están diciendo que el Señor no es cabal! Pero yo juzgaré a cada uno de ustedes conforme a sus hechos»."
         },
         {
           "number": 21,
-          "text": "En el decimosegundo año de nuestro exilio, a fines de diciembre, uno de aquellos que escapó de Jerusalén llegó para decirme: «¡La ciudad ha sido conquistada!»."
+          "text": "En el decimosegundo año de nuestro exilio, a fines de diciembre, uno de aquellos que escapó de Jerusalén llegó para decirme: «¡La ciudad ha sido conquistada!».",
+          "headings": [
+            "La caída de Jerusalén"
+          ]
         },
         {
           "number": 22,
@@ -3541,7 +3631,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces me vino este mensaje del Señor :"
+          "text": "Entonces me vino este mensaje del Señor :",
+          "headings": [
+            "Pastores y ovejas"
+          ]
         },
         {
           "number": 2,
@@ -3668,7 +3761,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Nuevamente me vino un mensaje del Señor :"
+          "text": "Nuevamente me vino un mensaje del Señor :",
+          "headings": [
+            "Profecía contra Edom"
+          ]
         },
         {
           "number": 2,
@@ -3731,7 +3827,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Hombre mortal, profetiza a los habitantes de las montañas de Israel. Diles: “Escuchen este mensaje del Señor :"
+          "text": "»Hombre mortal, profetiza a los habitantes de las montañas de Israel. Diles: “Escuchen este mensaje del Señor :",
+          "headings": [
+            "Profecía sobre las montañas de Israel"
+          ]
         },
         {
           "number": 2,
@@ -3888,7 +3987,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La fuerza del Señor vino sobre mí y fui llevado por el Espíritu del Señor a un valle lleno de huesos viejos y secos que estaban esparcidos por todas partes sobre el suelo."
+          "text": "La fuerza del Señor vino sobre mí y fui llevado por el Espíritu del Señor a un valle lleno de huesos viejos y secos que estaban esparcidos por todas partes sobre el suelo.",
+          "headings": [
+            "El valle de los huesos secos"
+          ]
         },
         {
           "number": 2,
@@ -3940,14 +4042,14 @@
         },
         {
           "number": 14,
-          "text": "»”¡Yo pondré mi aliento de vida, el Espíritu, en ustedes y vivirán y volverán a su hogar en su tierra! Entonces sabrán que yo, el Señor , he hecho exactamente lo que prometí hacer”».",
-          "headings": [
-            "Unificación de Judá e Israel"
-          ]
+          "text": "»”¡Yo pondré mi aliento de vida, el Espíritu, en ustedes y vivirán y volverán a su hogar en su tierra! Entonces sabrán que yo, el Señor , he hecho exactamente lo que prometí hacer”»."
         },
         {
           "number": 15,
-          "text": "De nuevo me vino un mensaje del Señor , diciendo:"
+          "text": "De nuevo me vino un mensaje del Señor , diciendo:",
+          "headings": [
+            "Unificación de Judá e Israel"
+          ]
         },
         {
           "number": 16,
@@ -4002,7 +4104,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aquí hay otro mensaje que me dio el Señor :"
+          "text": "Aquí hay otro mensaje que me dio el Señor :",
+          "headings": [
+            "Profecía contra Gog"
+          ]
         },
         {
           "number": 2,
@@ -4099,7 +4204,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Hombre mortal, profetiza esto también contra Gog. Dile: “Yo estoy contra ti, Gog, jefe de Mésec y Tubal."
+          "text": "»Hombre mortal, profetiza esto también contra Gog. Dile: “Yo estoy contra ti, Gog, jefe de Mésec y Tubal.",
+          "headings": [
+            "Derrota de Og"
+          ]
         },
         {
           "number": 2,
@@ -4220,7 +4328,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "A principios de abril del vigésimo quinto año de nuestro exilio, el decimocuarto año después de que Jerusalén fue capturada, la mano del Señor vino sobre mí,"
+          "text": "A principios de abril del vigésimo quinto año de nuestro exilio, el decimocuarto año después de que Jerusalén fue capturada, la mano del Señor vino sobre mí,",
+          "headings": [
+            "Visión del templo futuro"
+          ]
         },
         {
           "number": 2,
@@ -4232,14 +4343,14 @@
         },
         {
           "number": 4,
-          "text": "Me dijo: «Hombre mortal, observa y escucha, presta atención a todo lo que yo te mostraré, porque has sido traído aquí para que yo pueda mostrarte muchas cosas; y luego has de volver al pueblo de Israel para contarles todo lo que has visto».",
-          "headings": [
-            "La puerta oriental"
-          ]
+          "text": "Me dijo: «Hombre mortal, observa y escucha, presta atención a todo lo que yo te mostraré, porque has sido traído aquí para que yo pueda mostrarte muchas cosas; y luego has de volver al pueblo de Israel para contarles todo lo que has visto»."
         },
         {
           "number": 5,
-          "text": "El hombre comenzó a medir el muro que rodea el exterior de la zona del templo con su vara de medir, el cual tenía un largo de tres metros con quince centímetros. Él me dijo: «Este muro tiene una altura de tres metros con quince centímetros y un espesor de tres metros con quince centímetros»."
+          "text": "El hombre comenzó a medir el muro que rodea el exterior de la zona del templo con su vara de medir, el cual tenía un largo de tres metros con quince centímetros. Él me dijo: «Este muro tiene una altura de tres metros con quince centímetros y un espesor de tres metros con quince centímetros».",
+          "headings": [
+            "La puerta oriental"
+          ]
         },
         {
           "number": 6,
@@ -4283,14 +4394,14 @@
         },
         {
           "number": 16,
-          "text": "Había ventanas que se volvían más angostas hacia adentro, las que atravesaban las paredes de ambos lados del pasillo y las habitaciones de la guardia. Las ventanas también estaban en las salas de entrada y salida. Los pilares estaban decorados con motivos de palmeras.",
-          "headings": [
-            "El atrio exterior"
-          ]
+          "text": "Había ventanas que se volvían más angostas hacia adentro, las que atravesaban las paredes de ambos lados del pasillo y las habitaciones de la guardia. Las ventanas también estaban en las salas de entrada y salida. Los pilares estaban decorados con motivos de palmeras."
         },
         {
           "number": 17,
-          "text": "Y así pasamos a través del pasillo de entrada al atrio. Un enlosado de piedra lo rodeaba del lado interior de las paredes, y había treinta habitaciones construidas contra las paredes, con apertura hacia este enlosado."
+          "text": "Y así pasamos a través del pasillo de entrada al atrio. Un enlosado de piedra lo rodeaba del lado interior de las paredes, y había treinta habitaciones construidas contra las paredes, con apertura hacia este enlosado.",
+          "headings": [
+            "El atrio exterior"
+          ]
         },
         {
           "number": 18,
@@ -4298,14 +4409,14 @@
         },
         {
           "number": 19,
-          "text": "Luego midió hasta la pared del otro costado del atrio, que se llamaba el «atrio exterior» del templo, y encontró que la distancia era de cincuenta y dos metros y medio.",
-          "headings": [
-            "La puerta norte"
-          ]
+          "text": "Luego midió hasta la pared del otro costado del atrio, que se llamaba el «atrio exterior» del templo, y encontró que la distancia era de cincuenta y dos metros y medio."
         },
         {
           "number": 20,
-          "text": "Mientras yo lo seguía, dejó el pasillo de entrada del este y se fue al pasillo de entrada a través del muro del norte y lo midió."
+          "text": "Mientras yo lo seguía, dejó el pasillo de entrada del este y se fue al pasillo de entrada a través del muro del norte y lo midió.",
+          "headings": [
+            "La puerta norte"
+          ]
         },
         {
           "number": 21,
@@ -4317,14 +4428,14 @@
         },
         {
           "number": 23,
-          "text": "Aquí en la entrada del norte, tal como en la del este, había un pasillo que conducía al patio exterior que llegaba hasta la pared interior. Esta tenía otro pasillo que conducía al patio interior. La distancia entre los dos pasillos era de cincuenta y dos metros y medio.",
-          "headings": [
-            "La puerta sur"
-          ]
+          "text": "Aquí en la entrada del norte, tal como en la del este, había un pasillo que conducía al patio exterior que llegaba hasta la pared interior. Esta tenía otro pasillo que conducía al patio interior. La distancia entre los dos pasillos era de cincuenta y dos metros y medio."
         },
         {
           "number": 24,
-          "text": "Luego me llevó a la puerta del sur y midió las varias sesiones de su pasillo y encontró que eran iguales a las de las otras."
+          "text": "Luego me llevó a la puerta del sur y midió las varias sesiones de su pasillo y encontró que eran iguales a las de las otras.",
+          "headings": [
+            "La puerta sur"
+          ]
         },
         {
           "number": 25,
@@ -4336,14 +4447,14 @@
         },
         {
           "number": 27,
-          "text": "Y aquí, de nuevo, si uno caminaba a través del pasillo hasta el patio y lo cruzaba, llegaba a una pared interior y un pasillo a través de ella que conducía a un patio interior. La distancia entre los dos pasillos era de cincuenta y dos metros y medio.",
-          "headings": [
-            "Las puertas del atrio interior: la puerta sur"
-          ]
+          "text": "Y aquí, de nuevo, si uno caminaba a través del pasillo hasta el patio y lo cruzaba, llegaba a una pared interior y un pasillo a través de ella que conducía a un patio interior. La distancia entre los dos pasillos era de cincuenta y dos metros y medio."
         },
         {
           "number": 28,
-          "text": "Luego me llevó al muro interior y su pasillo sur. Midió este pasillo y encontró que tenía las mismas medidas que los pasillos del muro exterior."
+          "text": "Luego me llevó al muro interior y su pasillo sur. Midió este pasillo y encontró que tenía las mismas medidas que los pasillos del muro exterior.",
+          "headings": [
+            "Las puertas del atrio interior: la puerta sur"
+          ]
         },
         {
           "number": 29,
@@ -4355,14 +4466,14 @@
         },
         {
           "number": 31,
-          "text": "La única diferencia era que tenía ocho escalones de acceso en vez de siete. Tenía decoraciones de palmeras sobre los pilares, tal como las otras.",
-          "headings": [
-            "El atrio interior: la puerta oriental"
-          ]
+          "text": "La única diferencia era que tenía ocho escalones de acceso en vez de siete. Tenía decoraciones de palmeras sobre los pilares, tal como las otras."
         },
         {
           "number": 32,
-          "text": "Luego me llevó por el atrio hasta la entrada oriental del muro interior, y la midió. Esta también tenía las mismas medidas que las otras."
+          "text": "Luego me llevó por el atrio hasta la entrada oriental del muro interior, y la midió. Esta también tenía las mismas medidas que las otras.",
+          "headings": [
+            "El atrio interior: la puerta oriental"
+          ]
         },
         {
           "number": 33,
@@ -4370,14 +4481,14 @@
         },
         {
           "number": 34,
-          "text": "Su sala de entrada miraba hacia el patio exterior y había decoraciones de palmeras sobre sus columnas; pero había ocho escalones de acceso a la entrada en vez de siete.",
-          "headings": [
-            "El atrio interior: la puerta norte"
-          ]
+          "text": "Su sala de entrada miraba hacia el patio exterior y había decoraciones de palmeras sobre sus columnas; pero había ocho escalones de acceso a la entrada en vez de siete."
         },
         {
           "number": 35,
-          "text": "Luego me llevó a la puerta norte del muro interior, y las medidas allí eran idénticas a las otras."
+          "text": "Luego me llevó a la puerta norte del muro interior, y las medidas allí eran idénticas a las otras.",
+          "headings": [
+            "El atrio interior: la puerta norte"
+          ]
         },
         {
           "number": 36,
@@ -4385,14 +4496,14 @@
         },
         {
           "number": 37,
-          "text": "Su sala de entrada miraba hacia el patio exterior y había decoraciones de palmeras a cada lado del pasillo, y había ocho escalones de acceso a la entrada.",
-          "headings": [
-            "Los anexos de las puertas"
-          ]
+          "text": "Su sala de entrada miraba hacia el patio exterior y había decoraciones de palmeras a cada lado del pasillo, y había ocho escalones de acceso a la entrada."
         },
         {
           "number": 38,
-          "text": "Pero una puerta conducía de su sala de entrada a una habitación al costado donde la carne de los sacrificios era lavada antes de ser llevada al altar."
+          "text": "Pero una puerta conducía de su sala de entrada a una habitación al costado donde la carne de los sacrificios era lavada antes de ser llevada al altar.",
+          "headings": [
+            "Los anexos de las puertas"
+          ]
         },
         {
           "number": 39,
@@ -4412,14 +4523,14 @@
         },
         {
           "number": 43,
-          "text": "Había ganchos, de siete centímetros y medio de largo, sobre las paredes de la sala de entrada y sobre las mesas donde la carne de las ofrendas se colocaba.",
-          "headings": [
-            "Las habitaciones para los sacerdotes"
-          ]
+          "text": "Había ganchos, de siete centímetros y medio de largo, sobre las paredes de la sala de entrada y sobre las mesas donde la carne de las ofrendas se colocaba."
         },
         {
           "number": 44,
-          "text": "En el patio interior había dos edificios de una sola habitación, uno al lado de la entrada norte, mirando hacia el sur, y el otro al lado de la entrada sur, mirando hacia el norte."
+          "text": "En el patio interior había dos edificios de una sola habitación, uno al lado de la entrada norte, mirando hacia el sur, y el otro al lado de la entrada sur, mirando hacia el norte.",
+          "headings": [
+            "Las habitaciones para los sacerdotes"
+          ]
         },
         {
           "number": 45,
@@ -4427,14 +4538,14 @@
         },
         {
           "number": 46,
-          "text": "El edificio al lado de la entrada interior del sur es para los sacerdotes que están a cargo del altar —los descendientes de Sadoc— pues sólo ellos, de entre todos los levitas, pueden acercarse para ministrar para el Señor ».",
-          "headings": [
-            "El atrio interior y el templo"
-          ]
+          "text": "El edificio al lado de la entrada interior del sur es para los sacerdotes que están a cargo del altar —los descendientes de Sadoc— pues sólo ellos, de entre todos los levitas, pueden acercarse para ministrar para el Señor »."
         },
         {
           "number": 47,
-          "text": "Luego midió el patio interior (que está frente al templo) y encontró que medía cincuenta y dos metros y medio por los cuatro costados, y había un altar en el patio delante del templo."
+          "text": "Luego midió el patio interior (que está frente al templo) y encontró que medía cincuenta y dos metros y medio por los cuatro costados, y había un altar en el patio delante del templo.",
+          "headings": [
+            "El atrio interior y el templo"
+          ]
         },
         {
           "number": 48,
@@ -4560,7 +4671,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego me condujo fuera del templo, a través del patio interior, a las habitaciones al norte del patio del templo y a otro edificio."
+          "text": "Luego me condujo fuera del templo, a través del patio interior, a las habitaciones al norte del patio del templo y a otro edificio.",
+          "headings": [
+            "Las habitaciones para los sacerdotes"
+          ]
         },
         {
           "number": 2,
@@ -4631,7 +4745,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después me trajo de nuevo al pasillo a través del muro exterior hacia el este."
+          "text": "Después me trajo de nuevo al pasillo a través del muro exterior hacia el este.",
+          "headings": [
+            "La gloria del Señor vuelve al templo"
+          ]
         },
         {
           "number": 2,
@@ -4675,16 +4792,16 @@
         },
         {
           "number": 12,
-          "text": "Y esta es la ley básica del templo: ¡Exclusividad! ¡Toda la parte superior de la colina donde está construido el templo es exclusiva! ¡Sí, esta es la ley principal!».",
-          "headings": [
-            "El altar"
-          ]
+          "text": "Y esta es la ley básica del templo: ¡Exclusividad! ¡Toda la parte superior de la colina donde está construido el templo es exclusiva! ¡Sí, esta es la ley principal!»."
         },
         {
           "number": 13,
           "text": "Y estas son las medidas del altar: La base del altar es cuadrada, de nueve metros con cuarenta y cinco centímetros de lado, con un borde en todo el derredor de veintidós centímetros y medio de alto. Esta base se eleva del patio cincuenta y dos centímetros y medio. Encima de la base hay una plataforma de piedra de un metro con cinco centímetros de alto, y ocho metros con cuarenta centímetros de lado. (Esto deja cincuenta y dos centímetros y medio de borde entre la base y la plataforma de piedra). Esta, a su vez, sostiene la próxima plataforma cuadrada de siete metros con treinta y cinco centímetros por lado y dos metros con diez centímetros de alto, dejando una repisa de cincuenta y dos centímetros y medio en cada lado. La plataforma cuadrada de siete metros con treinta y cinco centímetros tiene un reborde de veintidós centímetros y medio de alto, y lleva a la plataforma más alta, de seis metros con treinta centímetros por lado, y dos metros con diez centímetros de alto. De las esquinas de esta última plataforma se extienden cuatro cuernos de cincuenta y dos centímetros y medio cada uno. Los escalones para subir el altar estaban en el lado este.",
           "verseDisplay": "13-17",
-          "endNumber": 17
+          "endNumber": 17,
+          "headings": [
+            "El altar"
+          ]
         },
         {
           "number": 18,
@@ -4733,7 +4850,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego el Señor me trajo de vuelta a la entrada oriental del muro exterior, pero estaba cerrada."
+          "text": "Luego el Señor me trajo de vuelta a la entrada oriental del muro exterior, pero estaba cerrada.",
+          "headings": [
+            "Deberes de levitas y sacerdotes"
+          ]
         },
         {
           "number": 2,
@@ -4741,14 +4861,14 @@
         },
         {
           "number": 3,
-          "text": "Sólo el príncipe —por ser él el príncipe— se sentará allí para comer delante del Señor . Pero entrará y saldrá solamente por la sala de entrada.",
-          "headings": [
-            "Los levitas"
-          ]
+          "text": "Sólo el príncipe —por ser él el príncipe— se sentará allí para comer delante del Señor . Pero entrará y saldrá solamente por la sala de entrada."
         },
         {
           "number": 4,
-          "text": "»Luego me condujo a través del pasillo de entrada del norte hasta el frente del templo. Miré y vi la presencia majestuosa del Señor que llenaba el templo, y caí rostro en tierra»."
+          "text": "»Luego me condujo a través del pasillo de entrada del norte hasta el frente del templo. Miré y vi la presencia majestuosa del Señor que llenaba el templo, y caí rostro en tierra».",
+          "headings": [
+            "Los levitas"
+          ]
         },
         {
           "number": 5,
@@ -4865,7 +4985,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»”Cuando dividas por la suerte la tierra entre las tribus de Israel, primero dejarás una sección de la misma para el Señor como su porción exclusiva. Esta porción será de trece kilómetros con ciento veinticinco metros de largo, y diez kilómetros con quinientos metros de ancho. Todo este terreno será exclusivo."
+          "text": "»”Cuando dividas por la suerte la tierra entre las tribus de Israel, primero dejarás una sección de la misma para el Señor como su porción exclusiva. Esta porción será de trece kilómetros con ciento veinticinco metros de largo, y diez kilómetros con quinientos metros de ancho. Todo este terreno será exclusivo.",
+          "headings": [
+            "División de la tierra"
+          ]
         },
         {
           "number": 2,
@@ -5065,7 +5188,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego mi guía celestial me trajo de vuelta a la puerta del templo. Vi una corriente de agua fluyendo hacia el este, desde debajo del templo y pasando a la derecha del altar, o sea, sobre su lado sur."
+          "text": "Luego mi guía celestial me trajo de vuelta a la puerta del templo. Vi una corriente de agua fluyendo hacia el este, desde debajo del templo y pasando a la derecha del altar, o sea, sobre su lado sur.",
+          "headings": [
+            "El río del templo"
+          ]
         },
         {
           "number": 2,
@@ -5109,14 +5235,14 @@
         },
         {
           "number": 12,
-          "text": "Toda clase de árboles frutales crecerán en las riberas del río. Las hojas nunca se marchitarán y ni caerán, sino que siempre habrá fruto. Habrá una nueva cosecha de fruta cada mes, ¡sin falta! ¡Es que están regados por el río que fluye del templo! ¡Sus frutos servirán de alimento y sus hojas de medicina!",
-          "headings": [
-            "Los límites del país"
-          ]
+          "text": "Toda clase de árboles frutales crecerán en las riberas del río. Las hojas nunca se marchitarán y ni caerán, sino que siempre habrá fruto. Habrá una nueva cosecha de fruta cada mes, ¡sin falta! ¡Es que están regados por el río que fluye del templo! ¡Sus frutos servirán de alimento y sus hojas de medicina!"
         },
         {
           "number": 13,
-          "text": "»El Señor Dios dice: Aquí están las indicaciones para dividir la tierra entre las doce tribus de Israel: la tribu de José (Efraín y Manasés) recibirá dos secciones."
+          "text": "»El Señor Dios dice: Aquí están las indicaciones para dividir la tierra entre las doce tribus de Israel: la tribu de José (Efraín y Manasés) recibirá dos secciones.",
+          "headings": [
+            "Los límites del país"
+          ]
         },
         {
           "number": 14,
@@ -5165,7 +5291,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Aquí está la lista de tribus y el territorio que cada una de ellas ha de recibir. Para Dan: Desde el límite norte en el Mediterráneo, a través de Hetlón, luego a Lebó Jamat y hasta Jazar Enán en la frontera entre Damasco hacia el sur y Jamat hacia el norte. Estos son los límites orientales y occidentales de la tierra."
+          "text": "»Aquí está la lista de tribus y el territorio que cada una de ellas ha de recibir. Para Dan: Desde el límite norte en el Mediterráneo, a través de Hetlón, luego a Lebó Jamat y hasta Jazar Enán en la frontera entre Damasco hacia el sur y Jamat hacia el norte. Estos son los límites orientales y occidentales de la tierra.",
+          "headings": [
+            "Reparto de la tierra"
+          ]
         },
         {
           "number": 2,
@@ -5267,16 +5396,16 @@
         },
         {
           "number": 29,
-          "text": "»Estas son las asignaciones que han de ser hechas a cada tribu, dice el Señor Dios.",
-          "headings": [
-            "Las puertas de Jerusalén"
-          ]
+          "text": "»Estas son las asignaciones que han de ser hechas a cada tribu, dice el Señor Dios."
         },
         {
           "number": 30,
           "text": "»Cada puerta de la ciudad será nombrada en honor de una de las tribus de Israel. Sobre el lado norte, con su muro de dos kilómetros y trescientos sesenta metros de largo habrá tres puertas, una nombrada Rubén, otra Judá y otra Leví.",
           "verseDisplay": "30-31",
-          "endNumber": 31
+          "endNumber": 31,
+          "headings": [
+            "Las puertas de Jerusalén"
+          ]
         },
         {
           "number": 32,

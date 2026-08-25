@@ -9,18 +9,21 @@
       "verses": [
         {
           "number": 1,
-          "text": "Simeón Pedro, un esclavo y apóstol de Jesucristo, a los que obtuvieron una fe igual a la nuestra por medio de la justicia de nuestro Dios y Salvador Jesucristo."
-        },
-        {
-          "number": 2,
-          "text": "Gracia y paz les sean multiplicadas a ustedes en el conocimiento de Dios y de nuestro Señor Jesús.",
+          "text": "Simeón Pedro, un esclavo y apóstol de Jesucristo, a los que obtuvieron una fe igual a la nuestra por medio de la justicia de nuestro Dios y Salvador Jesucristo.",
           "headings": [
-            "Participantes de la naturaleza divina"
+            "Saludo"
           ]
         },
         {
+          "number": 2,
+          "text": "Gracia y paz les sean multiplicadas a ustedes en el conocimiento de Dios y de nuestro Señor Jesús."
+        },
+        {
           "number": 3,
-          "text": "Por cuanto todas las cosas que pertenecen a la vida y la piedad nos fueron concedidas mediante su divino poder a través del pleno conocimiento del que nos llamó por su propia gloria y virtud,"
+          "text": "Por cuanto todas las cosas que pertenecen a la vida y la piedad nos fueron concedidas mediante su divino poder a través del pleno conocimiento del que nos llamó por su propia gloria y virtud,",
+          "headings": [
+            "Participantes de la naturaleza divina"
+          ]
         },
         {
           "number": 4,
@@ -52,14 +55,14 @@
         },
         {
           "number": 11,
-          "text": "Porque de esta manera se les proveerá amplia entrada en el reino eterno de nuestro Señor y Salvador Jesucristo.",
-          "headings": [
-            "Propósito de la Epístola"
-          ]
+          "text": "Porque de esta manera se les proveerá amplia entrada en el reino eterno de nuestro Señor y Salvador Jesucristo."
         },
         {
           "number": 12,
-          "text": "Por esto, siempre les recordaré esto, aunque ustedes lo saben y están confirmados en la verdad presente."
+          "text": "Por esto, siempre les recordaré esto, aunque ustedes lo saben y están confirmados en la verdad presente.",
+          "headings": [
+            "Propósito de la Epístola"
+          ]
         },
         {
           "number": 13,
@@ -71,14 +74,14 @@
         },
         {
           "number": 15,
-          "text": "También procuraré que ustedes recuerden siempre estas cosas después de mi partida.",
-          "headings": [
-            "Testigos oculares de la majestad de Cristo"
-          ]
+          "text": "También procuraré que ustedes recuerden siempre estas cosas después de mi partida."
         },
         {
           "number": 16,
-          "text": "Cuando les proclamamos el poder y la venida de nuestro Señor Jesucristo no seguimos fábulas artificiosas, sino fuimos testigos oculares de su majestad."
+          "text": "Cuando les proclamamos el poder y la venida de nuestro Señor Jesucristo no seguimos fábulas artificiosas, sino fuimos testigos oculares de su majestad.",
+          "headings": [
+            "Testigos oculares de la majestad de Cristo"
+          ]
         },
         {
           "number": 17,
@@ -107,7 +110,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Sin embargo, hubo falsos profetas entre el pueblo como también habrá falsos maestros entre ustedes quienes introducirán herejías destructivas de manera encubierta. Aun se negarán a reconocer al Soberano que los compró y traerán destrucción repentina sobre ellos."
+          "text": "Sin embargo, hubo falsos profetas entre el pueblo como también habrá falsos maestros entre ustedes quienes introducirán herejías destructivas de manera encubierta. Aun se negarán a reconocer al Soberano que los compró y traerán destrucción repentina sobre ellos.",
+          "headings": [
+            "Falsos profetas"
+          ]
         },
         {
           "number": 2,
@@ -200,7 +206,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Amados, ésta es la segunda epístola que les escribo. En ambas les recuerdo que despierten su sincero entendimiento,"
+          "text": "Amados, ésta es la segunda epístola que les escribo. En ambas les recuerdo que despierten su sincero entendimiento,",
+          "headings": [
+            "Esperanza del día de Dios"
+          ]
         },
         {
           "number": 2,

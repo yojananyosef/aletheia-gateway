@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hubo un hombre de Ramataim de Sofim, de la región montañosa de Efraín, que se llamaba Elcana, hijo de Jeroham, hijo de Eliú, hijo de Toju, hijo de Suf, efrainita."
+          "text": "Hubo un hombre de Ramataim de Sofim, de la región montañosa de Efraín, que se llamaba Elcana, hijo de Jeroham, hijo de Eliú, hijo de Toju, hijo de Suf, efrainita.",
+          "headings": [
+            "Elcana y su familia en el Santuario de Silo"
+          ]
         },
         {
           "number": 2,
@@ -37,14 +40,14 @@
         },
         {
           "number": 8,
-          "text": "Su esposo Elcana le decía: Ana, ¿por qué lloras y no comes? ¿Por qué estás triste? ¿No soy yo para ti mejor que diez hijos?",
-          "headings": [
-            "Petición y voto de Ana"
-          ]
+          "text": "Su esposo Elcana le decía: Ana, ¿por qué lloras y no comes? ¿Por qué estás triste? ¿No soy yo para ti mejor que diez hijos?"
         },
         {
           "number": 9,
-          "text": "Entonces Ana, después de comer y beber en Silo, se levantó y se presentó ante Yavé . El sacerdote Elí estaba sentado en su silla, junto a la jamba de la puerta del Santuario de Yavé ."
+          "text": "Entonces Ana, después de comer y beber en Silo, se levantó y se presentó ante Yavé . El sacerdote Elí estaba sentado en su silla, junto a la jamba de la puerta del Santuario de Yavé .",
+          "headings": [
+            "Petición y voto de Ana"
+          ]
         },
         {
           "number": 10,
@@ -80,14 +83,14 @@
         },
         {
           "number": 18,
-          "text": "Ella dijo: Que tu esclava halle gracia ante ti. Y la mujer siguió su camino, comió y ya no estuvo triste.",
-          "headings": [
-            "Nacimiento de Samuel"
-          ]
+          "text": "Ella dijo: Que tu esclava halle gracia ante ti. Y la mujer siguió su camino, comió y ya no estuvo triste."
         },
         {
           "number": 19,
-          "text": "Después de levantarse de mañana, se postraron ante Yavé , regresaron y llegaron a su casa en Ramá. Elcana se unió a su esposa Ana, y Yavé se acordó de ella."
+          "text": "Después de levantarse de mañana, se postraron ante Yavé , regresaron y llegaron a su casa en Ramá. Elcana se unió a su esposa Ana, y Yavé se acordó de ella.",
+          "headings": [
+            "Nacimiento de Samuel"
+          ]
         },
         {
           "number": 20,
@@ -139,7 +142,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Ana oró y exclamó: Mi corazón se exalta en Yavé . Mi cuerno se exalta en Yavé . Mi boca habla osadamente contra mis enemigos, Porque me regocijo en tu salvación."
+          "text": "Entonces Ana oró y exclamó: Mi corazón se exalta en Yavé . Mi cuerno se exalta en Yavé . Mi boca habla osadamente contra mis enemigos, Porque me regocijo en tu salvación.",
+          "headings": [
+            "Cántico de Ana"
+          ]
         },
         {
           "number": 2,
@@ -175,14 +181,14 @@
         },
         {
           "number": 10,
-          "text": "Los adversarios de Yavé son destrozados. Contra ellos truena desde el cielo. Yavé juzgará los confines de la tierra, Dará fortaleza a su Rey Y exaltará el cuerno de su Ungido.",
-          "headings": [
-            "Conducta perversa de los hijos de Elí"
-          ]
+          "text": "Los adversarios de Yavé son destrozados. Contra ellos truena desde el cielo. Yavé juzgará los confines de la tierra, Dará fortaleza a su Rey Y exaltará el cuerno de su Ungido."
         },
         {
           "number": 11,
-          "text": "Entonces Elcana regresó a su casa en Ramá, pero el niño ministraba a Yavé delante del sacerdote Elí."
+          "text": "Entonces Elcana regresó a su casa en Ramá, pero el niño ministraba a Yavé delante del sacerdote Elí.",
+          "headings": [
+            "Conducta perversa de los hijos de Elí"
+          ]
         },
         {
           "number": 12,
@@ -291,7 +297,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El joven Samuel ministraba a Yavé en presencia de Elí. En aquellos días la Palabra de Yavé era escasa y las visiones no frecuentes."
+          "text": "El joven Samuel ministraba a Yavé en presencia de Elí. En aquellos días la Palabra de Yavé era escasa y las visiones no frecuentes.",
+          "headings": [
+            "Llamamiento a Samuel"
+          ]
         },
         {
           "number": 2,
@@ -380,7 +389,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La palabra de Samuel llegaba a todo Israel. Entonces Israel salió a enfrentar a los filisteos en batalla y acampó junto a Ebenezer. Los filisteos acamparon en Afec y"
+          "text": "La palabra de Samuel llegaba a todo Israel. Entonces Israel salió a enfrentar a los filisteos en batalla y acampó junto a Ebenezer. Los filisteos acamparon en Afec y",
+          "headings": [
+            "Victoria filistea"
+          ]
         },
         {
           "number": 2,
@@ -473,7 +485,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando los filisteos tomaron el Arca de ʼElohim , la llevaron de Ebenezer a Asdod."
+          "text": "Cuando los filisteos tomaron el Arca de ʼElohim , la llevaron de Ebenezer a Asdod.",
+          "headings": [
+            "El Arca entre los filisteos"
+          ]
         },
         {
           "number": 2,
@@ -526,7 +541,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Arca de Yavé permaneció siete meses en el campo de los filisteos."
+          "text": "El Arca de Yavé permaneció siete meses en el campo de los filisteos.",
+          "headings": [
+            "Devolución del Arca"
+          ]
         },
         {
           "number": 2,
@@ -615,7 +633,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces los hombres de Quiriat-jearim fueron y subieron el Arca de Yavé a la región montañosa. La pusieron en casa de Abinadab y consagraron a Eleazar, su hijo, para que guardara el Arca de Yavé ."
+          "text": "Entonces los hombres de Quiriat-jearim fueron y subieron el Arca de Yavé a la región montañosa. La pusieron en casa de Abinadab y consagraron a Eleazar, su hijo, para que guardara el Arca de Yavé .",
+          "headings": [
+            "Samuel, juez de Israel"
+          ]
         },
         {
           "number": 2,
@@ -688,7 +709,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció que cuando Samuel envejeció, designó a sus hijos como jueces de Israel."
+          "text": "Aconteció que cuando Samuel envejeció, designó a sus hijos como jueces de Israel.",
+          "headings": [
+            "Los hijos de Samuel como jueces"
+          ]
         },
         {
           "number": 2,
@@ -696,14 +720,14 @@
         },
         {
           "number": 3,
-          "text": "Pero sus hijos no andaban por los caminos de él, sino se apartaron tras la ganancia deshonesta. Recibían soborno y pervertían la justicia.",
-          "headings": [
-            "Clamor de Israel por un rey"
-          ]
+          "text": "Pero sus hijos no andaban por los caminos de él, sino se apartaron tras la ganancia deshonesta. Recibían soborno y pervertían la justicia."
         },
         {
           "number": 4,
-          "text": "Entonces todos los ancianos de Israel se reunieron y fueron a Samuel en Ramá,"
+          "text": "Entonces todos los ancianos de Israel se reunieron y fueron a Samuel en Ramá,",
+          "headings": [
+            "Clamor de Israel por un rey"
+          ]
         },
         {
           "number": 5,
@@ -784,7 +808,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Había un varón de Benjamín, hombre valiente llamado Cis, hijo de Abiel, hijo de Zeror, hijo de Becorat, hijo de Afía, hijo de un benjamita."
+          "text": "Había un varón de Benjamín, hombre valiente llamado Cis, hijo de Abiel, hijo de Zeror, hijo de Becorat, hijo de Afía, hijo de un benjamita.",
+          "headings": [
+            "Saúl"
+          ]
         },
         {
           "number": 2,
@@ -897,7 +924,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Samuel tomó la vasija de aceite y la derramó sobre la cabeza de Saúl . Lo besó y le dijo: ¿No te ungió Yavé para que seas jefe de su heredad?"
+          "text": "Samuel tomó la vasija de aceite y la derramó sobre la cabeza de Saúl . Lo besó y le dijo: ¿No te ungió Yavé para que seas jefe de su heredad?",
+          "headings": [
+            "Saúl ungido rey"
+          ]
         },
         {
           "number": 2,
@@ -1010,7 +1040,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Nahas amonita subió y acampó contra Jabes de Galaad. Todos los hombres de Jabes dijeron a Nahas: Pacten con nosotros y les serviremos."
+          "text": "Nahas amonita subió y acampó contra Jabes de Galaad. Todos los hombres de Jabes dijeron a Nahas: Pacten con nosotros y les serviremos.",
+          "headings": [
+            "Derrota de los amonitas"
+          ]
         },
         {
           "number": 2,
@@ -1075,7 +1108,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Samuel dijo a todo Israel: Ciertamente escuché su voz en todo lo que me dijeron. Constituí un rey que reine sobre ustedes."
+          "text": "Entonces Samuel dijo a todo Israel: Ciertamente escuché su voz en todo lo que me dijeron. Constituí un rey que reine sobre ustedes.",
+          "headings": [
+            "Exhortación de Samuel"
+          ]
         },
         {
           "number": 2,
@@ -1180,7 +1216,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Saúl tenía 30 años cuando comenzó a reinar, y reinó sobre Israel 42 años."
+          "text": "Saúl tenía 30 años cuando comenzó a reinar, y reinó sobre Israel 42 años.",
+          "headings": [
+            "Guerra contra los filisteos"
+          ]
         },
         {
           "number": 2,
@@ -1277,7 +1316,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Sucedió un día que Jonatán, hijo de Saúl, dijo al joven que llevaba sus armas: Ven, pasemos a la guarnición de los filisteos que está en el otro lado. Pero no le dijo a su padre."
+          "text": "Sucedió un día que Jonatán, hijo de Saúl, dijo al joven que llevaba sus armas: Ven, pasemos a la guarnición de los filisteos que está en el otro lado. Pero no le dijo a su padre.",
+          "headings": [
+            "Valentía de Jonatán"
+          ]
         },
         {
           "number": 2,
@@ -1365,14 +1407,14 @@
         },
         {
           "number": 23,
-          "text": "Así Yavé salvó aquel día a Israel. La batalla llegó hasta Bet-aven.",
-          "headings": [
-            "Temeridad de Saúl"
-          ]
+          "text": "Así Yavé salvó aquel día a Israel. La batalla llegó hasta Bet-aven."
         },
         {
           "number": 24,
-          "text": "Pero los hombres de Israel fueron puestos en apuros aquel día, pues Saúl conjuró al pueblo: Maldito aquel que coma alimento antes de llegar la noche, antes que yo me vengue de mis enemigos. Por lo cual ninguno del pueblo probó bocado."
+          "text": "Pero los hombres de Israel fueron puestos en apuros aquel día, pues Saúl conjuró al pueblo: Maldito aquel que coma alimento antes de llegar la noche, antes que yo me vengue de mis enemigos. Por lo cual ninguno del pueblo probó bocado.",
+          "headings": [
+            "Temeridad de Saúl"
+          ]
         },
         {
           "number": 25,
@@ -1493,7 +1535,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Samuel dijo a Saúl: Yavé me envió a que te ungiera como rey de su pueblo Israel. Por tanto, escucha ahora la voz de las Palabras de Yavé ."
+          "text": "Samuel dijo a Saúl: Yavé me envió a que te ungiera como rey de su pueblo Israel. Por tanto, escucha ahora la voz de las Palabras de Yavé .",
+          "headings": [
+            "Desobediencia de Saúl"
+          ]
         },
         {
           "number": 2,
@@ -1638,7 +1683,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé dijo a Samuel: ¿Hasta cuándo te afligirás por Saúl, si Yo lo rechacé como rey de Israel? Llena tu cuerno de aceite, y ven, porque Yo te enviaré a Isaí de Belén, porque de entre sus hijos me seleccioné un rey."
+          "text": "Yavé dijo a Samuel: ¿Hasta cuándo te afligirás por Saúl, si Yo lo rechacé como rey de Israel? Llena tu cuerno de aceite, y ven, porque Yo te enviaré a Isaí de Belén, porque de entre sus hijos me seleccioné un rey.",
+          "headings": [
+            "Unción de David como rey"
+          ]
         },
         {
           "number": 2,
@@ -1686,14 +1734,14 @@
         },
         {
           "number": 13,
-          "text": "Entonces Samuel tomó el cuerno de aceite y lo ungió en medio de sus hermanos, y el Espíritu de Yavé se apoderó de David desde aquel día en adelante. Luego Samuel se levantó y regresó a Ramá.",
-          "headings": [
-            "Saúl atormentado por un espíritu malo"
-          ]
+          "text": "Entonces Samuel tomó el cuerno de aceite y lo ungió en medio de sus hermanos, y el Espíritu de Yavé se apoderó de David desde aquel día en adelante. Luego Samuel se levantó y regresó a Ramá."
         },
         {
           "number": 14,
-          "text": "El Espíritu de Yavé se apartó de Saúl, y un espíritu malo de parte de Yavé lo atormentaba."
+          "text": "El Espíritu de Yavé se apartó de Saúl, y un espíritu malo de parte de Yavé lo atormentaba.",
+          "headings": [
+            "Saúl atormentado por un espíritu malo"
+          ]
         },
         {
           "number": 15,
@@ -1717,14 +1765,14 @@
         },
         {
           "number": 20,
-          "text": "Isaí tomó un asno cargado de pan, un odre de vino y un cabrito del rebaño, y los envió a Saúl por medio de su hijo David.",
-          "headings": [
-            "David en casa de Saúl"
-          ]
+          "text": "Isaí tomó un asno cargado de pan, un odre de vino y un cabrito del rebaño, y los envió a Saúl por medio de su hijo David."
         },
         {
           "number": 21,
-          "text": "David fue a Saúl y se quedó con él. Lo estimó muchísimo, y lo nombró portador de sus armas."
+          "text": "David fue a Saúl y se quedó con él. Lo estimó muchísimo, y lo nombró portador de sus armas.",
+          "headings": [
+            "David en casa de Saúl"
+          ]
         },
         {
           "number": 22,
@@ -1741,7 +1789,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces los filisteos reunieron sus ejércitos para la guerra y se concentraron en Soco, que pertenece a Judá. Acamparon en Efes-damim entre Soco y Azeca."
+          "text": "Entonces los filisteos reunieron sus ejércitos para la guerra y se concentraron en Soco, que pertenece a Judá. Acamparon en Efes-damim entre Soco y Azeca.",
+          "headings": [
+            "David y el gigante Goliat"
+          ]
         },
         {
           "number": 2,
@@ -1781,14 +1832,14 @@
         },
         {
           "number": 11,
-          "text": "Cuando Saúl y todo Israel oyeron estas palabras del filisteo, se turbaron y tuvieron mucho temor.",
-          "headings": [
-            "La nueva condición de David"
-          ]
+          "text": "Cuando Saúl y todo Israel oyeron estas palabras del filisteo, se turbaron y tuvieron mucho temor."
         },
         {
           "number": 12,
-          "text": "Ahora bien, David era hijo de un hombre efrateo de Belén de Judá, llamado Isaí, quien tenía ocho hijos. En los días de Saúl, ese anciano tenía edad muy avanzada."
+          "text": "Ahora bien, David era hijo de un hombre efrateo de Belén de Judá, llamado Isaí, quien tenía ocho hijos. En los días de Saúl, ese anciano tenía edad muy avanzada.",
+          "headings": [
+            "La nueva condición de David"
+          ]
         },
         {
           "number": 13,
@@ -1988,7 +2039,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando acabó de hablar a Saúl, aconteció que el alma de Jonatán quedó ligada al alma de David, y Jonatán lo amó como a él mismo."
+          "text": "Cuando acabó de hablar a Saúl, aconteció que el alma de Jonatán quedó ligada al alma de David, y Jonatán lo amó como a él mismo.",
+          "headings": [
+            "Jonatán, David y Saúl"
+          ]
         },
         {
           "number": 2,
@@ -2113,7 +2167,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Saúl dijo a su hijo Jonatán y a todos sus esclavos que mataran a David, pero Jonatán, hijo de Saúl, amaba mucho a David."
+          "text": "Saúl dijo a su hijo Jonatán y a todos sus esclavos que mataran a David, pero Jonatán, hijo de Saúl, amaba mucho a David.",
+          "headings": [
+            "Atentado de Saúl contra David"
+          ]
         },
         {
           "number": 2,
@@ -2214,7 +2271,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David huyó de Nayot de Ramá. Fue a Jonatán y le dijo: ¿Qué hice? ¿Cuál es mi iniquidad? ¿Cuál es mi pecado contra tu padre para que busque mi vida?"
+          "text": "David huyó de Nayot de Ramá. Fue a Jonatán y le dijo: ¿Qué hice? ¿Cuál es mi iniquidad? ¿Cuál es mi pecado contra tu padre para que busque mi vida?",
+          "headings": [
+            "Pacto de David y Jonatán"
+          ]
         },
         {
           "number": 2,
@@ -2387,7 +2447,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces David fue a Nob, a Ahimelec el sacerdote. Ahimelec salió tembloroso a recibir a David y le dijo: ¿Por qué estás solo, y nadie está contigo?"
+          "text": "Entonces David fue a Nob, a Ahimelec el sacerdote. Ahimelec salió tembloroso a recibir a David y le dijo: ¿Por qué estás solo, y nadie está contigo?",
+          "headings": [
+            "David en Nob y en Gat"
+          ]
         },
         {
           "number": 2,
@@ -2452,7 +2515,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David salió de allí y se refugió en la cueva de Adulam. Cuando sus hermanos y toda la casa de su padre oyeron esto, fueron a él allá."
+          "text": "David salió de allí y se refugió en la cueva de Adulam. Cuando sus hermanos y toda la casa de su padre oyeron esto, fueron a él allá.",
+          "headings": [
+            "Asesinato de los sacerdotes"
+          ]
         },
         {
           "number": 2,
@@ -2549,7 +2615,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Informaron a David: ¡Mira, los filisteos atacan a Queila y saquean los graneros!"
+          "text": "Informaron a David: ¡Mira, los filisteos atacan a Queila y saquean los graneros!",
+          "headings": [
+            "Victoria en Queila"
+          ]
         },
         {
           "number": 2,
@@ -2670,7 +2739,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Sucedió que cuando Saúl volvió de perseguir a los filisteos, le informaron: Mira, David está en la región despoblada de Engadí."
+          "text": "Sucedió que cuando Saúl volvió de perseguir a los filisteos, le informaron: Mira, David está en la región despoblada de Engadí.",
+          "headings": [
+            "En la cueva de Engadí"
+          ]
         },
         {
           "number": 2,
@@ -2765,12 +2837,15 @@
           "number": 1,
           "text": "Entonces Samuel murió. Todo Israel se reunió para lamentar por él, y lo sepultaron en su casa en Ramá. Y David se levantó y bajó a la región despoblada de Parán.",
           "headings": [
-            "Nabal y Abigail"
+            "Muerte de Samuel"
           ]
         },
         {
           "number": 2,
-          "text": "Había entonces un hombre en Maón que tenía posesiones en la montaña Carmelo. Aquel hombre era muy pudiente, pues tenía 3.000 ovejas y 1.000 cabras. Esquilaba sus ovejas en la montaña Carmelo."
+          "text": "Había entonces un hombre en Maón que tenía posesiones en la montaña Carmelo. Aquel hombre era muy pudiente, pues tenía 3.000 ovejas y 1.000 cabras. Esquilaba sus ovejas en la montaña Carmelo.",
+          "headings": [
+            "Nabal y Abigail"
+          ]
         },
         {
           "number": 3,
@@ -2947,7 +3022,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los zifeos llegaron a Saúl en Gabaa y dijeron: ¿No está David escondido en la colina de Haquila frente a Jesimón?"
+          "text": "Los zifeos llegaron a Saúl en Gabaa y dijeron: ¿No está David escondido en la colina de Haquila frente a Jesimón?",
+          "headings": [
+            "En el campamento de Zif"
+          ]
         },
         {
           "number": 2,
@@ -3052,7 +3130,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero David se dijo: Algún día voy a perecer por mano de Saúl. Nada me será mejor que escapar a la tierra de los filisteos. Así Saúl perderá toda esperanza de buscarme por todo el territorio de Israel, y escaparé de su mano."
+          "text": "Pero David se dijo: Algún día voy a perecer por mano de Saúl. Nada me será mejor que escapar a la tierra de los filisteos. Así Saúl perderá toda esperanza de buscarme por todo el territorio de Israel, y escaparé de su mano.",
+          "headings": [
+            "David entre los filisteos"
+          ]
         },
         {
           "number": 2,
@@ -3105,7 +3186,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En aquellos días aconteció que los filisteos reunieron sus escuadrones de guerra para combatir contra Israel. Y Aquís dijo a David: ¡Ten bien entendido que tú y tus hombres saldrán conmigo a la batalla!"
+          "text": "En aquellos días aconteció que los filisteos reunieron sus escuadrones de guerra para combatir contra Israel. Y Aquís dijo a David: ¡Ten bien entendido que tú y tus hombres saldrán conmigo a la batalla!",
+          "headings": [
+            "La bruja de Endor"
+          ]
         },
         {
           "number": 2,
@@ -3217,7 +3301,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los filisteos reunieron todos sus ejércitos en Afec, mientras los israelitas acamparon junto a la fuente que está en Jezreel."
+          "text": "Los filisteos reunieron todos sus ejércitos en Afec, mientras los israelitas acamparon junto a la fuente que está en Jezreel.",
+          "headings": [
+            "Desconfianza de los filisteos"
+          ]
         },
         {
           "number": 2,
@@ -3266,7 +3353,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Al tercer día, cuando David y sus hombres llegaron a Siclag, aconteció que los amalecitas habían incursionado en el Neguev contra Siclag, y lo asolaron e incendiaron."
+          "text": "Al tercer día, cuando David y sus hombres llegaron a Siclag, aconteció que los amalecitas habían incursionado en el Neguev contra Siclag, y lo asolaron e incendiaron.",
+          "headings": [
+            "Contra los amalecitas"
+          ]
         },
         {
           "number": 2,
@@ -3395,7 +3485,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entretanto los filisteos combatían contra Israel. Los israelitas huyeron de los filisteos y cayeron muertos en la montaña Gilboa."
+          "text": "Entretanto los filisteos combatían contra Israel. Los israelitas huyeron de los filisteos y cayeron muertos en la montaña Gilboa.",
+          "headings": [
+            "Muerte de Saúl"
+          ]
         },
         {
           "number": 2,

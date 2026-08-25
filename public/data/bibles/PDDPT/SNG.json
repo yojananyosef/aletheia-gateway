@@ -9,14 +9,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cantar de los cantares, El cual es de Salomón.",
-          "headings": [
-            "Ella"
-          ]
+          "text": "Cantar de los cantares, El cual es de Salomón."
         },
         {
           "number": 2,
-          "text": "¡Oh, si él me besara con ósculos de su boca! Mejor que el vino es tu amor."
+          "text": "¡Oh, si él me besara con ósculos de su boca! Mejor que el vino es tu amor.",
+          "headings": [
+            "Ella"
+          ]
         },
         {
           "number": 3,
@@ -36,21 +36,21 @@
         },
         {
           "number": 7,
-          "text": "Hazme saber tú, amado de mi alma, dónde pastoreas, Dónde haces recostar el rebaño al mediodía. Pues, ¿por qué seré como la que se desvela Junto a los rebaños de tus compañeros?",
-          "headings": [
-            "Coro"
-          ]
+          "text": "Hazme saber tú, amado de mi alma, dónde pastoreas, Dónde haces recostar el rebaño al mediodía. Pues, ¿por qué seré como la que se desvela Junto a los rebaños de tus compañeros?"
         },
         {
           "number": 8,
           "text": "¡Si no lo sabes tú, La más hermosa de las mujeres, Sal tras las huellas del rebaño, Y apacienta tus cabritas junto a las cabañas de los pastores!",
           "headings": [
-            "Él"
+            "Coro"
           ]
         },
         {
           "number": 9,
-          "text": "A mi yegua favorita entre las carrozas de Faraón Te comparé, oh amada mía."
+          "text": "A mi yegua favorita entre las carrozas de Faraón Te comparé, oh amada mía.",
+          "headings": [
+            "Él"
+          ]
         },
         {
           "number": 10,
@@ -58,14 +58,14 @@
         },
         {
           "number": 11,
-          "text": "Te haremos aretes de oro con incrustaciones de plata.",
-          "headings": [
-            "Ella"
-          ]
+          "text": "Te haremos aretes de oro con incrustaciones de plata."
         },
         {
           "number": 12,
-          "text": "Mientras el rey está en su reclinatorio, Mi nardo da su fragancia."
+          "text": "Mientras el rey está en su reclinatorio, Mi nardo da su fragancia.",
+          "headings": [
+            "Ella"
+          ]
         },
         {
           "number": 13,
@@ -73,21 +73,21 @@
         },
         {
           "number": 14,
-          "text": "Ramillete de flores de alheña Es mi amado para mí en las viñas de En-gadi.",
-          "headings": [
-            "Él"
-          ]
+          "text": "Ramillete de flores de alheña Es mi amado para mí en las viñas de En-gadi."
         },
         {
           "number": 15,
           "text": "Mira, eres hermosa, oh amada mía. ¡Cuán bella eres! Tus ojos son como palomas.",
           "headings": [
-            "Ella"
+            "Él"
           ]
         },
         {
           "number": 16,
-          "text": "Mira, eres hermoso, oh amado mío. También placentero. Nuestra cama es de florido verdor."
+          "text": "Mira, eres hermoso, oh amado mío. También placentero. Nuestra cama es de florido verdor.",
+          "headings": [
+            "Ella"
+          ]
         },
         {
           "number": 17,
@@ -100,21 +100,21 @@
       "verses": [
         {
           "number": 1,
-          "text": "Soy la rosa de Sarón Y el lirio de los valles.",
-          "headings": [
-            "Él"
-          ]
+          "text": "Soy la rosa de Sarón Y el lirio de los valles."
         },
         {
           "number": 2,
           "text": "Como el lirio entre los espinos, Así es mi amada entre las doncellas.",
           "headings": [
-            "Ella"
+            "Él"
           ]
         },
         {
           "number": 3,
-          "text": "Como el manzano entre los árboles del bosque, Así es mi amado entre los jóvenes. A su sombra deseo sentarme y comer sus dulces frutos."
+          "text": "Como el manzano entre los árboles del bosque, Así es mi amado entre los jóvenes. A su sombra deseo sentarme y comer sus dulces frutos.",
+          "headings": [
+            "Ella"
+          ]
         },
         {
           "number": 4,
@@ -142,14 +142,14 @@
         },
         {
           "number": 10,
-          "text": "Mi amado habló: ¡Oh amada mía, hermosa mía, levántate y sal conmigo!",
-          "headings": [
-            "Él"
-          ]
+          "text": "Mi amado habló: ¡Oh amada mía, hermosa mía, levántate y sal conmigo!"
         },
         {
           "number": 11,
-          "text": "Porque pasó el invierno. La lluvia cesó y se fue."
+          "text": "Porque pasó el invierno. La lluvia cesó y se fue.",
+          "headings": [
+            "Él"
+          ]
         },
         {
           "number": 12,
@@ -165,14 +165,14 @@
         },
         {
           "number": 15,
-          "text": "Cácennos las zorras, Las zorras pequeñas que echan a perder las viñas, ¡Nuestras viñas en flor!",
-          "headings": [
-            "Ella"
-          ]
+          "text": "Cácennos las zorras, Las zorras pequeñas que echan a perder las viñas, ¡Nuestras viñas en flor!"
         },
         {
           "number": 16,
-          "text": "¡Mi amado es mío y yo suya! Él pastorea entre los lirios"
+          "text": "¡Mi amado es mío y yo suya! Él pastorea entre los lirios",
+          "headings": [
+            "Ella"
+          ]
         },
         {
           "number": 17,
@@ -201,14 +201,14 @@
         },
         {
           "number": 5,
-          "text": "Las conjuro, oh hijas de Jerusalén, Por las gacelas y por los venados del campo, Que no despierten al amor Ni lo hagan velar hasta que quiera.",
-          "headings": [
-            "Coro"
-          ]
+          "text": "Las conjuro, oh hijas de Jerusalén, Por las gacelas y por los venados del campo, Que no despierten al amor Ni lo hagan velar hasta que quiera."
         },
         {
           "number": 6,
-          "text": "¿Qué es esto que sube del desierto como columnas de humo, Perfumado con mirra e incienso Y con todos los aromas del mercader?"
+          "text": "¿Qué es esto que sube del desierto como columnas de humo, Perfumado con mirra e incienso Y con todos los aromas del mercader?",
+          "headings": [
+            "Coro"
+          ]
         },
         {
           "number": 7,
@@ -237,7 +237,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Qué bella eres, amada mía! ¡Eres realmente hermosa! Tus ojos son palomas detrás de tu velo, Tus cabellos como un rebaño de cabras que descienden de la montaña Galaad."
+          "text": "¡Qué bella eres, amada mía! ¡Eres realmente hermosa! Tus ojos son palomas detrás de tu velo, Tus cabellos como un rebaño de cabras que descienden de la montaña Galaad.",
+          "headings": [
+            "Él"
+          ]
         },
         {
           "number": 2,
@@ -297,10 +300,7 @@
         },
         {
           "number": 16,
-          "text": "¡Despierta, viento del norte! ¡Ven, viento del sur, soplen sobre mi huerto Para que se esparzan sus aromas! ¡Venga mi amado a su huerto Y coma de su dulce fruta!",
-          "headings": [
-            "Ella"
-          ]
+          "text": "¡Despierta, viento del norte! ¡Ven, viento del sur, soplen sobre mi huerto Para que se esparzan sus aromas! ¡Venga mi amado a su huerto Y coma de su dulce fruta!"
         }
       ]
     },
@@ -311,20 +311,23 @@
           "number": 1,
           "text": "¡Vine a mi huerto, oh hermana mía y esposa mía. Recogí mi mirra con mi bálsamo, Comí mi panal con mi miel, Bebí mi vino con mi leche! ¡Coman, amigos! ¡Beban y embriáguense, oh amados!",
           "headings": [
-            "Ella"
+            "Él"
           ]
         },
         {
           "number": 2,
           "text": "Yo dormía, Pero mi corazón velaba: ¡Una voz! ¡Mi amado llama! ¡Ábreme, hermana mía, amada mía, Paloma mía, perfecta mía! Porque mi cabeza está empapada de rocío, Y mis cabellos con las gotas de la noche.",
           "headings": [
-            "Él",
             "Ella"
           ]
         },
         {
           "number": 3,
-          "text": "Me quité el vestido. ¿Cómo me volveré a vestir? Me lavé los pies, ¿Los volveré a ensuciar?"
+          "text": "Me quité el vestido. ¿Cómo me volveré a vestir? Me lavé los pies, ¿Los volveré a ensuciar?",
+          "headings": [
+            "Él",
+            "Ella"
+          ]
         },
         {
           "number": 4,
@@ -344,21 +347,21 @@
         },
         {
           "number": 8,
-          "text": "Las conjuro, oh hijas de Jerusalén, Que si hallan a mi amado, ¡Le digan que estoy enferma de amor!",
-          "headings": [
-            "Coro"
-          ]
+          "text": "Las conjuro, oh hijas de Jerusalén, Que si hallan a mi amado, ¡Le digan que estoy enferma de amor!"
         },
         {
           "number": 9,
           "text": "¿Qué es tu amado más que otro amado, Oh tú, la más hermosa entre las mujeres? ¿Qué es tu amado más que otro amado, Que así nos conjuras?",
           "headings": [
-            "Ella"
+            "Coro"
           ]
         },
         {
           "number": 10,
-          "text": "Mi amado es radiante y lozano, Distinguido entre 10.000."
+          "text": "Mi amado es radiante y lozano, Distinguido entre 10.000.",
+          "headings": [
+            "Ella"
+          ]
         },
         {
           "number": 11,
@@ -393,23 +396,26 @@
           "number": 1,
           "text": "¿Adónde se fue tu amado, Oh tú, la más hermosa entre las mujeres? ¿Adónde fue tu amado, Para que lo busquemos contigo?",
           "headings": [
-            "Ella"
+            "Coro"
           ]
         },
         {
           "number": 2,
-          "text": "Mi amado bajó a su huerto, A las eras de las especias para apacentar entre los huertos y recoger los lirios."
-        },
-        {
-          "number": 3,
-          "text": "Yo soy de mi amado y mi amado es mío. Él apacienta entre lirios.",
+          "text": "Mi amado bajó a su huerto, A las eras de las especias para apacentar entre los huertos y recoger los lirios.",
           "headings": [
-            "Él"
+            "Ella"
           ]
         },
         {
+          "number": 3,
+          "text": "Yo soy de mi amado y mi amado es mío. Él apacienta entre lirios."
+        },
+        {
           "number": 4,
-          "text": "Oh amada mía, eres hermosa como Tirsa, Deseable como Jerusalén, Imponente como un ejército con estandartes."
+          "text": "Oh amada mía, eres hermosa como Tirsa, Deseable como Jerusalén, Imponente como un ejército con estandartes.",
+          "headings": [
+            "Él"
+          ]
         },
         {
           "number": 5,
@@ -429,34 +435,31 @@
         },
         {
           "number": 9,
-          "text": "Una sola es mi paloma, la perfecta mía, Una sola, predilecta de su madre. Las doncellas la vieron y la consideran inmensamente feliz. La alabaron las reinas y las concubinas.",
-          "headings": [
-            "Coro"
-          ]
+          "text": "Una sola es mi paloma, la perfecta mía, Una sola, predilecta de su madre. Las doncellas la vieron y la consideran inmensamente feliz. La alabaron las reinas y las concubinas."
         },
         {
           "number": 10,
           "text": "¿Quién es la que se asoma como el alba, Hermosa como la luna, Límpida como el sol, Imponente como un escuadrón abanderado?",
           "headings": [
-            "Él"
+            "Coro"
           ]
         },
         {
           "number": 11,
-          "text": "Al huerto de los nogales descendí A ver los frutos del valle, A ver si brotaba la vid, Si florecían los granados."
+          "text": "Al huerto de los nogales descendí A ver los frutos del valle, A ver si brotaba la vid, Si florecían los granados.",
+          "headings": [
+            "Él"
+          ]
         },
         {
           "number": 12,
-          "text": "Antes que lo supiera, Mi alma me puso entre las carrozas de Abinadab.",
-          "headings": [
-            "Coro"
-          ]
+          "text": "Antes que lo supiera, Mi alma me puso entre las carrozas de Abinadab."
         },
         {
           "number": 13,
           "text": "¡Vuelve, vuelve, oh sulamita! ¡Vuelve, vuelve y te contemplaremos! ¿Qué quieren ver en la sulamita? Algo como las danzas de Majanaim, ¡Cuán graciosos son tus pasos en sandalias, oh hija del príncipe!",
           "headings": [
-            "Él"
+            "Coro"
           ]
         }
       ]
@@ -498,14 +501,14 @@
         },
         {
           "number": 9,
-          "text": "Y el cielo de tu boca como el vino generoso. Que de mi amado fluye suavemente, Y hace mover apaciblemente los labios de los que duermen.",
-          "headings": [
-            "Ella"
-          ]
+          "text": "Y el cielo de tu boca como el vino generoso. Que de mi amado fluye suavemente, Y hace mover apaciblemente los labios de los que duermen."
         },
         {
           "number": 10,
-          "text": "Yo soy de mi amado, Y su deseo es para mí."
+          "text": "Yo soy de mi amado, Y su deseo es para mí.",
+          "headings": [
+            "Ella"
+          ]
         },
         {
           "number": 11,
@@ -538,43 +541,43 @@
         },
         {
           "number": 4,
-          "text": "¡Las conjuro, oh hijas de Jerusalén, Que no despierten Ni hagan velar al amor hasta que quiera!",
-          "headings": [
-            "Coro"
-          ]
+          "text": "¡Las conjuro, oh hijas de Jerusalén, Que no despierten Ni hagan velar al amor hasta que quiera!"
         },
         {
           "number": 5,
           "text": "¿Quién es la que sube del desierto, Recostada sobre su amado? Debajo del manzano te desperté. Allí tuvo dolores tu madre, Allí tuvo los dolores la que te dio a luz.",
           "headings": [
-            "Ella"
+            "Coro"
           ]
         },
         {
           "number": 6,
-          "text": "Ponme como un sello sobre tu corazón, Como una marca sobre tu brazo. Porque fuerte como la muerte es el amor, Y obstinados son los celos como el Seol, Sus ascuas son carbones encendidos de fuego, La misma llama de YA ."
+          "text": "Ponme como un sello sobre tu corazón, Como una marca sobre tu brazo. Porque fuerte como la muerte es el amor, Y obstinados son los celos como el Seol, Sus ascuas son carbones encendidos de fuego, La misma llama de YA .",
+          "headings": [
+            "Ella"
+          ]
         },
         {
           "number": 7,
-          "text": "Las muchas aguas no pueden apagar el amor, Ni los ríos pueden extinguirlo. Si el hombre ofreciera por el amor todas las riquezas de su casa, De cierto sería menospreciado.",
+          "text": "Las muchas aguas no pueden apagar el amor, Ni los ríos pueden extinguirlo. Si el hombre ofreciera por el amor todas las riquezas de su casa, De cierto sería menospreciado."
+        },
+        {
+          "number": 8,
+          "text": "Tenemos una hermana pequeña, que aún no tiene pechos. ¿Qué haremos por nuestra hermana cuando se hable de ella?",
           "headings": [
             "Coro"
           ]
         },
         {
-          "number": 8,
-          "text": "Tenemos una hermana pequeña, que aún no tiene pechos. ¿Qué haremos por nuestra hermana cuando se hable de ella?"
-        },
-        {
           "number": 9,
-          "text": "Si ella es muro, Le colocaremos torrecillas de plata, Y si es puerta la reforzaremos con tablones de cedro.",
-          "headings": [
-            "Ella"
-          ]
+          "text": "Si ella es muro, Le colocaremos torrecillas de plata, Y si es puerta la reforzaremos con tablones de cedro."
         },
         {
           "number": 10,
-          "text": "Yo soy muro, Y mis pechos son torreones, Y ahora soy ante sus ojos como la que halla paz."
+          "text": "Yo soy muro, Y mis pechos son torreones, Y ahora soy ante sus ojos como la que halla paz.",
+          "headings": [
+            "Ella"
+          ]
         },
         {
           "number": 11,
@@ -582,21 +585,21 @@
         },
         {
           "number": 12,
-          "text": "Mi viña, que es mía, está delante de mí. Tú, oh Salomón, tendrás las 1.000, Y 200 para los que guardan su fruto.",
-          "headings": [
-            "Él"
-          ]
+          "text": "Mi viña, que es mía, está delante de mí. Tú, oh Salomón, tendrás las 1.000, Y 200 para los que guardan su fruto."
         },
         {
           "number": 13,
           "text": "¡Oh la que habita en los huertos, Los compañeros escuchan tu voz! ¡Házmela escuchar!",
           "headings": [
-            "Ella"
+            "Él"
           ]
         },
         {
           "number": 14,
-          "text": "Apresúrate, amado mío, Sé como el venado o el cervatillo, Sobre las montañas de las especias."
+          "text": "Apresúrate, amado mío, Sé como el venado o el cervatillo, Sobre las montañas de las especias.",
+          "headings": [
+            "Ella"
+          ]
         }
       ]
     }

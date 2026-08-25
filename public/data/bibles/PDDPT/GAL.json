@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo, un apóstol no por hombres ni por medio de hombre, sino por medio de Jesucristo y de Dios Padre, Quien lo resucitó de entre los muertos,"
+          "text": "Pablo, un apóstol no por hombres ni por medio de hombre, sino por medio de Jesucristo y de Dios Padre, Quien lo resucitó de entre los muertos,",
+          "headings": [
+            "Saludo"
+          ]
         },
         {
           "number": 2,
@@ -25,14 +28,14 @@
         },
         {
           "number": 5,
-          "text": "a Quien sea la gloria por los siglos de los siglos. Amén.",
-          "headings": [
-            "Las únicas Buenas Noticias"
-          ]
+          "text": "a Quien sea la gloria por los siglos de los siglos. Amén."
         },
         {
           "number": 6,
-          "text": "Estoy asombrado de que tan pronto se apartaron del que los llamó por gracia de Cristo hacia un evangelio diferente."
+          "text": "Estoy asombrado de que tan pronto se apartaron del que los llamó por gracia de Cristo hacia un evangelio diferente.",
+          "headings": [
+            "Las únicas Buenas Noticias"
+          ]
         },
         {
           "number": 7,
@@ -170,14 +173,14 @@
         },
         {
           "number": 10,
-          "text": "Solo nos pidieron que nos acordemos de los pobres. Yo también anhelaba hacer esto.",
-          "headings": [
-            "Un enfrentamiento entre apóstoles"
-          ]
+          "text": "Solo nos pidieron que nos acordemos de los pobres. Yo también anhelaba hacer esto."
         },
         {
           "number": 11,
-          "text": "Pero cuando Cefas fue a Antioquía, le resistí cara a cara porque era digno de reprensión."
+          "text": "Pero cuando Cefas fue a Antioquía, le resistí cara a cara porque era digno de reprensión.",
+          "headings": [
+            "Un enfrentamiento entre apóstoles"
+          ]
         },
         {
           "number": 12,
@@ -196,14 +199,14 @@
         },
         {
           "number": 14,
-          "text": "Pero cuando noté que no actuaban rectamente en cuanto a la verdad de las Buenas Noticias, dije a Cefas delante de todos: Si tú, que eres judío, vives como gentil y no como judío, ¿cómo obligas a los gentiles a vivir según las costumbres judías?",
-          "headings": [
-            "Las Buenas Noticias encomendadas a Pablo"
-          ]
+          "text": "Pero cuando noté que no actuaban rectamente en cuanto a la verdad de las Buenas Noticias, dije a Cefas delante de todos: Si tú, que eres judío, vives como gentil y no como judío, ¿cómo obligas a los gentiles a vivir según las costumbres judías?"
         },
         {
           "number": 15,
-          "text": "Nosotros, judíos por naturaleza, y no pecadores de entre los gentiles,"
+          "text": "Nosotros, judíos por naturaleza, y no pecadores de entre los gentiles,",
+          "headings": [
+            "Las Buenas Noticias encomendadas a Pablo"
+          ]
         },
         {
           "number": 16,
@@ -243,7 +246,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Oh gálatas insensatos! ¡Ante sus ojos fue exhibido Jesucristo crucificado! ¿Quién los hechizó?"
+          "text": "¡Oh gálatas insensatos! ¡Ante sus ojos fue exhibido Jesucristo crucificado! ¿Quién los hechizó?",
+          "headings": [
+            "La recepción del Espíritu por la fe"
+          ]
         },
         {
           "number": 2,
@@ -311,14 +317,14 @@
         },
         {
           "number": 18,
-          "text": "Porque si la herencia es por la Ley, ya no es por la promesa. Pero Dios se comprometió por medio de la promesa a Abraham.",
-          "headings": [
-            "Finalidad de la Ley"
-          ]
+          "text": "Porque si la herencia es por la Ley, ya no es por la promesa. Pero Dios se comprometió por medio de la promesa a Abraham."
         },
         {
           "number": 19,
-          "text": "Entonces, ¿para qué sirve la Ley? Fue añadida por causa de las transgresiones hasta que viniera la Descendencia a la cual fue hecha la promesa. La Ley fue ordenada por medio de los ángeles en mano de un mediador."
+          "text": "Entonces, ¿para qué sirve la Ley? Fue añadida por causa de las transgresiones hasta que viniera la Descendencia a la cual fue hecha la promesa. La Ley fue ordenada por medio de los ángeles en mano de un mediador.",
+          "headings": [
+            "Finalidad de la Ley"
+          ]
         },
         {
           "number": 20,
@@ -330,14 +336,14 @@
         },
         {
           "number": 22,
-          "text": "Pero la Escritura encerró todas las cosas bajo el pecado, para que la promesa de la fe en Jesucristo fuera dada a los que creen.",
-          "headings": [
-            "Nuestro tutor"
-          ]
+          "text": "Pero la Escritura encerró todas las cosas bajo el pecado, para que la promesa de la fe en Jesucristo fuera dada a los que creen."
         },
         {
           "number": 23,
-          "text": "Antes de venir la fe estábamos confinados, destinados bajo la Ley para la fe que estaba a punto de ser revelada."
+          "text": "Antes de venir la fe estábamos confinados, destinados bajo la Ley para la fe que estaba a punto de ser revelada.",
+          "headings": [
+            "Nuestro tutor"
+          ]
         },
         {
           "number": 24,
@@ -401,14 +407,14 @@
         },
         {
           "number": 7,
-          "text": "Por tanto, ya no eres esclavo sino hijo, y si hijo, también heredero por medio de Dios.",
-          "headings": [
-            "Asombro de Pablo"
-          ]
+          "text": "Por tanto, ya no eres esclavo sino hijo, y si hijo, también heredero por medio de Dios."
         },
         {
           "number": 8,
-          "text": "Pero entonces, ciertamente, por no conocer a Dios, ustedes servían como esclavos a los que por naturaleza no son dioses."
+          "text": "Pero entonces, ciertamente, por no conocer a Dios, ustedes servían como esclavos a los que por naturaleza no son dioses.",
+          "headings": [
+            "Asombro de Pablo"
+          ]
         },
         {
           "number": 9,
@@ -420,14 +426,14 @@
         },
         {
           "number": 11,
-          "text": "Temo por ustedes, no sea que, de algún modo, un trabajo duro entre ustedes fue en vano.",
-          "headings": [
-            "Recuerdo de la primera visita"
-          ]
+          "text": "Temo por ustedes, no sea que, de algún modo, un trabajo duro entre ustedes fue en vano."
         },
         {
           "number": 12,
-          "text": "Les ruego, hermanos, que sean como yo, porque yo también soy como ustedes. No me hicieron agravio."
+          "text": "Les ruego, hermanos, que sean como yo, porque yo también soy como ustedes. No me hicieron agravio.",
+          "headings": [
+            "Recuerdo de la primera visita"
+          ]
         },
         {
           "number": 13,
@@ -459,14 +465,14 @@
         },
         {
           "number": 20,
-          "text": "deseaba más bien estar presente con ustedes y mudar mi tono, porque me asombro de ustedes.",
-          "headings": [
-            "Simbolismo de Sara y Agar"
-          ]
+          "text": "deseaba más bien estar presente con ustedes y mudar mi tono, porque me asombro de ustedes."
         },
         {
           "number": 21,
-          "text": "Díganme, los que desean estar bajo la Ley: ¿No ponen atención a la Ley?"
+          "text": "Díganme, los que desean estar bajo la Ley: ¿No ponen atención a la Ley?",
+          "headings": [
+            "Simbolismo de Sara y Agar"
+          ]
         },
         {
           "number": 22,
@@ -515,7 +521,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Para la libertad Cristo nos libertó. Por tanto estén firmes y no sean sometidos otra vez a yugo de esclavitud."
+          "text": "Para la libertad Cristo nos libertó. Por tanto estén firmes y no sean sometidos otra vez a yugo de esclavitud.",
+          "headings": [
+            "Libertados para la libertad"
+          ]
         },
         {
           "number": 2,
@@ -571,14 +580,14 @@
         },
         {
           "number": 15,
-          "text": "Pero si se muerden y se devoran unos a otros, tengan cuidado que no sean consumidos unos por otros.",
-          "headings": [
-            "Obras humanas y fruto del espíritu"
-          ]
+          "text": "Pero si se muerden y se devoran unos a otros, tengan cuidado que no sean consumidos unos por otros."
         },
         {
           "number": 16,
-          "text": "Digo, pues: Vivan en el Espíritu y no satisfagan los deseos apasionados de la naturaleza humana."
+          "text": "Digo, pues: Vivan en el Espíritu y no satisfagan los deseos apasionados de la naturaleza humana.",
+          "headings": [
+            "Obras humanas y fruto del espíritu"
+          ]
         },
         {
           "number": 17,
@@ -627,7 +636,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hermanos, cuando una persona sea sorprendida en alguna transgresión, ustedes, los espirituales, restáurenlo con un espíritu de humildad, al considerarte a ti mismo, no sea que tú también seas tentado."
+          "text": "Hermanos, cuando una persona sea sorprendida en alguna transgresión, ustedes, los espirituales, restáurenlo con un espíritu de humildad, al considerarte a ti mismo, no sea que tú también seas tentado.",
+          "headings": [
+            "Práctica de la vida cristiana"
+          ]
         },
         {
           "number": 2,
@@ -663,14 +675,14 @@
         },
         {
           "number": 10,
-          "text": "Así que, mientras tengamos oportunidad, esforcémonos en hacer el bien a todos, especialmente a la familia de la fe.",
-          "headings": [
-            "Exaltación en la cruz de Cristo"
-          ]
+          "text": "Así que, mientras tengamos oportunidad, esforcémonos en hacer el bien a todos, especialmente a la familia de la fe."
         },
         {
           "number": 11,
-          "text": "¡Observen cuán grandes letras les escribí con mi mano!"
+          "text": "¡Observen cuán grandes letras les escribí con mi mano!",
+          "headings": [
+            "Exaltación en la cruz de Cristo"
+          ]
         },
         {
           "number": 12,
@@ -694,14 +706,14 @@
         },
         {
           "number": 17,
-          "text": "De aquí en adelante, nadie me cause dificultades, porque yo llevo en mi cuerpo las cicatrices de Jesús.",
-          "headings": [
-            "Bendición"
-          ]
+          "text": "De aquí en adelante, nadie me cause dificultades, porque yo llevo en mi cuerpo las cicatrices de Jesús."
         },
         {
           "number": 18,
-          "text": "Hermanos, la gracia de nuestro Señor Jesucristo sea con su espíritu. Amén."
+          "text": "Hermanos, la gracia de nuestro Señor Jesucristo sea con su espíritu. Amén.",
+          "headings": [
+            "Bendición"
+          ]
         }
       ]
     }

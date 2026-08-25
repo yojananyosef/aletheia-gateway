@@ -10,6 +10,9 @@
         {
           "number": 1,
           "text": "Durante el primer año del reinado del rey Ciro, de Persia, el Señor hizo que el rey promulgara un decreto, tanto de forma oral como por escrito, permitiendo que los cautivos de Judá pudieran regresar a su tierra. De esa manera el Señor cumplió lo que había dicho por medio del profeta Jeremías. Este decreto, que se dio a conocer en todo el imperio persa, decía:",
+          "headings": [
+            "Decreto de Ciro"
+          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -28,14 +31,14 @@
         },
         {
           "number": 4,
-          "text": "Los judíos que no vayan deberán proporcionar vestido, transporte y provisiones para el viaje de quienes sí decidan ir; así como una ofrenda voluntaria para el templo de Dios que está en Jerusalén».",
-          "headings": [
-            "El regreso de los judíos"
-          ]
+          "text": "Los judíos que no vayan deberán proporcionar vestido, transporte y provisiones para el viaje de quienes sí decidan ir; así como una ofrenda voluntaria para el templo de Dios que está en Jerusalén»."
         },
         {
           "number": 5,
-          "text": "Entonces el Señor puso en los dirigentes de las tribus de Judá y de Benjamín, y de los sacerdotes y levitas, un gran deseo de regresar a Jerusalén, para reedificar el templo."
+          "text": "Entonces el Señor puso en los dirigentes de las tribus de Judá y de Benjamín, y de los sacerdotes y levitas, un gran deseo de regresar a Jerusalén, para reedificar el templo.",
+          "headings": [
+            "El regreso de los judíos"
+          ]
         },
         {
           "number": 6,
@@ -68,7 +71,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Esta es la lista de los cautivos judíos que regresaron a Jerusalén y a las otras ciudades de Judá. Todos ellos eran hijos de los judíos que fueron llevados cautivos a Babilonia por el rey Nabucodonosor."
+          "text": "Esta es la lista de los cautivos judíos que regresaron a Jerusalén y a las otras ciudades de Judá. Todos ellos eran hijos de los judíos que fueron llevados cautivos a Babilonia por el rey Nabucodonosor.",
+          "headings": [
+            "Lista de los que regresaron"
+          ]
         },
         {
           "number": 2,
@@ -157,7 +163,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Siete meses después de haber regresado a Judá, se reunieron todos en Jerusalén. Para ese entonces ya todos estaban ubicados en sus ciudades."
+          "text": "Siete meses después de haber regresado a Judá, se reunieron todos en Jerusalén. Para ese entonces ya todos estaban ubicados en sus ciudades.",
+          "headings": [
+            "Restauración del altar"
+          ]
         },
         {
           "number": 2,
@@ -177,14 +186,14 @@
         },
         {
           "number": 6,
-          "text": "Así que, desde el primer día del séptimo mes, comenzaron a ofrecer holocaustos al Señor . Para esa fecha aún no se habían echado los cimientos del templo.",
-          "headings": [
-            "Se comienza la reconstrucción del templo"
-          ]
+          "text": "Así que, desde el primer día del séptimo mes, comenzaron a ofrecer holocaustos al Señor . Para esa fecha aún no se habían echado los cimientos del templo."
         },
         {
           "number": 7,
-          "text": "Luego contrataron albañiles y carpinteros, y compraron madera de cedro de Tiro y Sidón, lo que pagaron con alimentos, vino y aceite de oliva. La madera de cedro la llevaban desde el Líbano y por el mar hasta Jope, tal como lo había ordenado el rey Ciro, de Persia."
+          "text": "Luego contrataron albañiles y carpinteros, y compraron madera de cedro de Tiro y Sidón, lo que pagaron con alimentos, vino y aceite de oliva. La madera de cedro la llevaban desde el Líbano y por el mar hasta Jope, tal como lo había ordenado el rey Ciro, de Persia.",
+          "headings": [
+            "Se comienza la reconstrucción del templo"
+          ]
         },
         {
           "number": 8,
@@ -217,7 +226,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando los enemigos de Judá y de Benjamín oyeron que los cautivos habían regresado y estaban reconstruyendo el templo,"
+          "text": "Cuando los enemigos de Judá y de Benjamín oyeron que los cautivos habían regresado y estaban reconstruyendo el templo,",
+          "headings": [
+            "Oposición samaritana"
+          ]
         },
         {
           "number": 2,
@@ -314,7 +326,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los profetas Hageo y Zacarías hijo de Idó le dieron a la gente de Judá y de Jerusalén un mensaje de parte del Dios de Israel, que era quien protegía a su pueblo."
+          "text": "Los profetas Hageo y Zacarías hijo de Idó le dieron a la gente de Judá y de Jerusalén un mensaje de parte del Dios de Israel, que era quien protegía a su pueblo.",
+          "headings": [
+            "Se reinicia la reconstrucción del templo"
+          ]
         },
         {
           "number": 2,
@@ -387,7 +402,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces el rey Darío ordenó investigar en los archivos de la tesorería de Babilonia, que era donde se guardaban los archivos."
+          "text": "Entonces el rey Darío ordenó investigar en los archivos de la tesorería de Babilonia, que era donde se guardaban los archivos.",
+          "headings": [
+            "Decreto de Darío"
+          ]
         },
         {
           "number": 2,
@@ -431,14 +449,14 @@
         },
         {
           "number": 12,
-          "text": "El Dios que ha escogido la ciudad de Jerusalén destruirá a cualquier nación que altere este mandamiento y destruya este templo. Yo, Darío, he promulgado este decreto. Por lo tanto, debe cumplirse con toda diligencia.",
-          "headings": [
-            "Terminación y dedicación del templo"
-          ]
+          "text": "El Dios que ha escogido la ciudad de Jerusalén destruirá a cualquier nación que altere este mandamiento y destruya este templo. Yo, Darío, he promulgado este decreto. Por lo tanto, debe cumplirse con toda diligencia."
         },
         {
           "number": 13,
-          "text": "Por eso, el gobernador Tatenay, Setar Bosnay y sus compañeros cumplieron inmediatamente el mandato del rey Darío."
+          "text": "Por eso, el gobernador Tatenay, Setar Bosnay y sus compañeros cumplieron inmediatamente el mandato del rey Darío.",
+          "headings": [
+            "Terminación y dedicación del templo"
+          ]
         },
         {
           "number": 14,
@@ -458,14 +476,14 @@
         },
         {
           "number": 18,
-          "text": "Los sacerdotes y levitas fueron instalados en sus diversos cargos, para hacer la obra de Dios, tal como está establecido en las leyes de Moisés.",
-          "headings": [
-            "Celebración de la Pascua"
-          ]
+          "text": "Los sacerdotes y levitas fueron instalados en sus diversos cargos, para hacer la obra de Dios, tal como está establecido en las leyes de Moisés."
         },
         {
           "number": 19,
-          "text": "También celebraron la fiesta de la Pascua el día catorce del mes primero."
+          "text": "También celebraron la fiesta de la Pascua el día catorce del mes primero.",
+          "headings": [
+            "Celebración de la Pascua"
+          ]
         },
         {
           "number": 20,
@@ -486,7 +504,10 @@
           "number": 1,
           "text": "Después, durante el reinado de Artajerjes, rey de Persia, Esdras llegó a Jerusalén. Esdras era hijo de Seraías. Seraías era hijo de Azarías; Azarías era hijo de Jilquías; Jilquías era hijo de Salún; Salún era hijo de Sadoc; Sadoc era hijo de Ajitob; Ajitob era hijo de Amarías; Amarías era hijo de Azarías; Azarías era hijo de Merayot, Merayot era hijo de Zeraías; Zeraías era hijo de Uzi; Uzi era hijo de Buquí; Buquí era hijo de Abisúa; Abisúa era hijo de Finés; Finés era hijo de Eleazar; y Eleazar era hijo de Aarón, el primer sumo sacerdote.",
           "verseDisplay": "1-5",
-          "endNumber": 5
+          "endNumber": 5,
+          "headings": [
+            "Esdras llega a Jerusalén"
+          ]
         },
         {
           "number": 6,
@@ -500,14 +521,14 @@
         },
         {
           "number": 10,
-          "text": "Esto fue porque Esdras se había propuesto estudiar y obedecer las leyes del Señor , y ser un maestro de la Palabra de Dios y enseñar las leyes al pueblo de Israel.",
-          "headings": [
-            "Carta de Artajerjes a Esdras"
-          ]
+          "text": "Esto fue porque Esdras se había propuesto estudiar y obedecer las leyes del Señor , y ser un maestro de la Palabra de Dios y enseñar las leyes al pueblo de Israel."
         },
         {
           "number": 11,
-          "text": "El rey Artajerjes entregó esta carta al sacerdote Esdras, que era un maestro muy entendido en los mandamientos que el Señor les dio a los israelitas:"
+          "text": "El rey Artajerjes entregó esta carta al sacerdote Esdras, que era un maestro muy entendido en los mandamientos que el Señor les dio a los israelitas:",
+          "headings": [
+            "Carta de Artajerjes a Esdras"
+          ]
         },
         {
           "number": 12,
@@ -567,14 +588,14 @@
         },
         {
           "number": 26,
-          "text": "Cualquiera que se niegue a obedecer las leyes de tu Dios y las leyes del rey, será castigado inmediatamente con la muerte, el destierro, la confiscación de sus bienes o la prisión.",
-          "headings": [
-            "Oración de Esdras"
-          ]
+          "text": "Cualquiera que se niegue a obedecer las leyes de tu Dios y las leyes del rey, será castigado inmediatamente con la muerte, el destierro, la confiscación de sus bienes o la prisión."
         },
         {
           "number": 27,
-          "text": "«Bendito sea el Señor , Dios de nuestros antepasados, que colocó en el corazón del rey el deseo de embellecer el templo del Señor en Jerusalén."
+          "text": "«Bendito sea el Señor , Dios de nuestros antepasados, que colocó en el corazón del rey el deseo de embellecer el templo del Señor en Jerusalén.",
+          "headings": [
+            "Oración de Esdras"
+          ]
         },
         {
           "number": 28,
@@ -587,20 +608,23 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estos son los nombres y genealogías de los jefes que regresaron conmigo de Babilonia, durante el reinado de Artajerjes:"
+          "text": "Estos son los nombres y genealogías de los jefes que regresaron conmigo de Babilonia, durante el reinado de Artajerjes:",
+          "headings": [
+            "Lista de los que regresaron con Esdras"
+          ]
         },
         {
           "number": 2,
           "text": "Del clan de Finés: Guersón; del clan de Itamar: Daniel; del clan de David: Jatús; del clan de Secanías y del clan de Parós: Zacarías, y con él otros ciento cincuenta varones; del clan de Pajat Moab: Elihoenay hijo de Zeraías, y doscientos varones más; del clan de Secanías: el hijo de Jahaziel y trescientos varones más; del clan de Adín: Ébed hijo de Jonatán, y cincuenta varones más; del clan de Elam: Isaías hijo de Atalías, y otros setenta varones; del clan de Sefatías: Zebadías hijo de Micael, y ochenta varones más; del clan de Joab: Abdías hijo de Jehiel, y otros doscientos dieciocho varones; del clan de Baní: Selomit hijo de Josifías, y otros ciento sesenta varones; del clan de Bebay: Zacarías hijo de Bebay, y otros veintiocho varones; del clan de Azgad: Johanán hijo de Hacatán, y otros ciento diez varones; del clan de Adonicán: Elifélet, Jeyel, Semaías, y otros sesenta varones. Estos fueron los últimos en llegar; del clan de Bigvay: Utay, Zabud y otros setenta varones.",
           "verseDisplay": "2-14",
-          "endNumber": 14,
-          "headings": [
-            "El regreso a Jerusalén"
-          ]
+          "endNumber": 14
         },
         {
           "number": 15,
-          "text": "Nos reunimos cerca del río que desemboca en el Ahava, y acampamos allí tres días, mientras tomábamos nota de las personas y de los sacerdotes que habían llegado. Encontré que ningún levita se había presentado como voluntario."
+          "text": "Nos reunimos cerca del río que desemboca en el Ahava, y acampamos allí tres días, mientras tomábamos nota de las personas y de los sacerdotes que habían llegado. Encontré que ningún levita se había presentado como voluntario.",
+          "headings": [
+            "El regreso a Jerusalén"
+          ]
         },
         {
           "number": 16,
@@ -691,7 +715,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de esto, los jefes de los judíos vinieron a mí para decirme que muchos judíos, aun algunos sacerdotes y levitas, se habían mezclado con los pueblos vecinos y habían adquirido las horribles costumbres de los hititas, los ferezeos, los jebuseos, los amonitas, los moabitas, los egipcios y los amorreos."
+          "text": "Después de esto, los jefes de los judíos vinieron a mí para decirme que muchos judíos, aun algunos sacerdotes y levitas, se habían mezclado con los pueblos vecinos y habían adquirido las horribles costumbres de los hititas, los ferezeos, los jebuseos, los amonitas, los moabitas, los egipcios y los amorreos.",
+          "headings": [
+            "Esdras confiesa el pecado del pueblo"
+          ]
         },
         {
           "number": 2,
@@ -756,7 +783,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Mientras Esdras oraba, lloraba y confesaba el pecado del pueblo, de rodillas delante del templo de Dios, una gran multitud de hombres, mujeres y niños llegó y se puso a llorar amargamente, junto a él."
+          "text": "Mientras Esdras oraba, lloraba y confesaba el pecado del pueblo, de rodillas delante del templo de Dios, una gran multitud de hombres, mujeres y niños llegó y se puso a llorar amargamente, junto a él.",
+          "headings": [
+            "El pueblo reconoce su pecado"
+          ]
         },
         {
           "number": 2,
@@ -816,16 +846,16 @@
           "number": 16,
           "text": "Este fue el plan que se siguió: El sacerdote Esdras y algunos jefes de familia fueron designados como jueces para resolver cada caso. Comenzaron la tarea el primer día del mes décimo, y el primer día del mes primero ya habían resuelto todos los casos de quienes se habían casado con mujeres extranjeras.",
           "verseDisplay": "16-17",
-          "endNumber": 17,
-          "headings": [
-            "Lista de los culpables"
-          ]
+          "endNumber": 17
         },
         {
           "number": 18,
           "text": "La siguiente es la lista de los sacerdotes que se habían casado con mujeres extranjeras y que prometieron divorciarse de ellas, y reconocieron su culpa ofreciendo carneros como sacrificio: De los hijos de Jesúa hijo de Josadac, y de sus hermanos: Maseías, Eliezer, Jarib y Guedalías.",
           "verseDisplay": "18-19",
-          "endNumber": 19
+          "endNumber": 19,
+          "headings": [
+            "Lista de los culpables"
+          ]
         },
         {
           "number": 20,

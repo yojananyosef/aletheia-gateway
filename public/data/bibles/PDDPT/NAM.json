@@ -13,14 +13,14 @@
         },
         {
           "number": 2,
-          "text": "Yavé es ʼEL celoso y justiciero. Yavé es vengador y lleno de indignación. Se venga de sus adversarios y guarda su enojo contra ellos.",
-          "headings": [
-            "La reserva para sus adversarios"
-          ]
+          "text": "Yavé es ʼEL celoso y justiciero. Yavé es vengador y lleno de indignación. Se venga de sus adversarios y guarda su enojo contra ellos."
         },
         {
           "number": 3,
-          "text": "Yavé es lento para la ira y grande en poder. De ninguna manera dejará sin castigo al culpable . Yavé camina en la tempestad y en la tormenta, y las nubes son el polvo de sus pies."
+          "text": "Yavé es lento para la ira y grande en poder. De ninguna manera dejará sin castigo al culpable . Yavé camina en la tempestad y en la tormenta, y las nubes son el polvo de sus pies.",
+          "headings": [
+            "La reserva para sus adversarios"
+          ]
         },
         {
           "number": 4,
@@ -64,14 +64,14 @@
         },
         {
           "number": 14,
-          "text": "Pero con respecto a ti Yavé ordenó que no quede memoria de tu nombre. Destruiré esculturas e imágenes fundidas de la casa de tus ʼelohim , y la convertiré en tu sepultura, porque eres vil.",
-          "headings": [
-            "Buenas noticias"
-          ]
+          "text": "Pero con respecto a ti Yavé ordenó que no quede memoria de tu nombre. Destruiré esculturas e imágenes fundidas de la casa de tus ʼelohim , y la convertiré en tu sepultura, porque eres vil."
         },
         {
           "number": 15,
-          "text": "¡Miren sobre las montañas los pies del que trae buenas noticias, del que anuncia la paz! ¡Celebra tus solemnidades, oh Judá, y cumple tus votos porque nunca más pasará por ti el perverso! Fue destruido por completo."
+          "text": "¡Miren sobre las montañas los pies del que trae buenas noticias, del que anuncia la paz! ¡Celebra tus solemnidades, oh Judá, y cumple tus votos porque nunca más pasará por ti el perverso! Fue destruido por completo.",
+          "headings": [
+            "Buenas noticias"
+          ]
         }
       ]
     },
@@ -80,7 +80,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡El destructor subió contra ti! Guarda la fortaleza, vigila el camino, fortalece tu retaguardia, reúne toda tu fuerza."
+          "text": "¡El destructor subió contra ti! Guarda la fortaleza, vigila el camino, fortalece tu retaguardia, reúne toda tu fuerza.",
+          "headings": [
+            "Restauración"
+          ]
         },
         {
           "number": 2,
@@ -137,7 +140,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Ay de la ciudad sanguinaria completamente llena de mentiras y pillaje! Su presa no se va nunca."
+          "text": "¡Ay de la ciudad sanguinaria completamente llena de mentiras y pillaje! Su presa no se va nunca.",
+          "headings": [
+            "Absoluta derrota de Nínive"
+          ]
         },
         {
           "number": 2,

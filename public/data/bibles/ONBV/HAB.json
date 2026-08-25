@@ -9,14 +9,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Esta es la profecía que recibió Habacuc en una visión que Dios le dio.",
-          "headings": [
-            "La primera queja de Habacuc"
-          ]
+          "text": "Esta es la profecía que recibió Habacuc en una visión que Dios le dio."
         },
         {
           "number": 2,
-          "text": "Señor , ¿por cuánto tiempo debo clamar pidiéndote ayuda sin que me oigas? ¿Hasta cuándo te pediré que nos salves de esta cruel violencia?"
+          "text": "Señor , ¿por cuánto tiempo debo clamar pidiéndote ayuda sin que me oigas? ¿Hasta cuándo te pediré que nos salves de esta cruel violencia?",
+          "headings": [
+            "La primera queja de Habacuc"
+          ]
         },
         {
           "number": 3,
@@ -24,14 +24,14 @@
         },
         {
           "number": 4,
-          "text": "La ley no se pone en vigor y las cortes no administran justicia, porque los perversos son más que los justos, y el soborno y el engaño se han generalizado.",
-          "headings": [
-            "La respuesta del Señor"
-          ]
+          "text": "La ley no se pone en vigor y las cortes no administran justicia, porque los perversos son más que los justos, y el soborno y el engaño se han generalizado."
         },
         {
           "number": 5,
-          "text": "Entonces, Dios respondió: «¡Miren y asómbrense! ¡Quedarán perplejos ante lo que voy a hacer! Porque haré algo en su vida que tendrán que verlo para creerlo."
+          "text": "Entonces, Dios respondió: «¡Miren y asómbrense! ¡Quedarán perplejos ante lo que voy a hacer! Porque haré algo en su vida que tendrán que verlo para creerlo.",
+          "headings": [
+            "La respuesta del Señor"
+          ]
         },
         {
           "number": 6,
@@ -55,14 +55,14 @@
         },
         {
           "number": 11,
-          "text": "Pasan como el huracán que todo lo destruye; pero su gran error es creer que de su dios les viene el inmenso poder que tienen».",
-          "headings": [
-            "La segunda queja de Habacuc"
-          ]
+          "text": "Pasan como el huracán que todo lo destruye; pero su gran error es creer que de su dios les viene el inmenso poder que tienen»."
         },
         {
           "number": 12,
-          "text": "Señor , Dios mío, tú eres eterno. Tú, mi Dios santo, no nos dejarás perecer. Yo sé, Señor , que usarás a los babilonios para obrar tu justicia. Tú, Roca mía, los has hecho surgir con mucho poder para castigar nuestro pecado."
+          "text": "Señor , Dios mío, tú eres eterno. Tú, mi Dios santo, no nos dejarás perecer. Yo sé, Señor , que usarás a los babilonios para obrar tu justicia. Tú, Roca mía, los has hecho surgir con mucho poder para castigar nuestro pecado.",
+          "headings": [
+            "La segunda queja de Habacuc"
+          ]
         },
         {
           "number": 13,
@@ -91,14 +91,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Subiré a la torre de vigilancia y me quedaré ahí a la espera de la respuesta que Dios dará a mi queja.",
-          "headings": [
-            "La respuesta del Señor"
-          ]
+          "text": "Subiré a la torre de vigilancia y me quedaré ahí a la espera de la respuesta que Dios dará a mi queja."
         },
         {
           "number": 2,
-          "text": "Entonces el Señor me dijo: «Escribe mi respuesta en letras grandes y claras, para que cualquiera pueda leerla de una mirada y corra a contarla a los demás."
+          "text": "Entonces el Señor me dijo: «Escribe mi respuesta en letras grandes y claras, para que cualquiera pueda leerla de una mirada y corra a contarla a los demás.",
+          "headings": [
+            "La respuesta del Señor"
+          ]
         },
         {
           "number": 3,
@@ -179,7 +179,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Esta es la oración que compuso el profeta Habacuc, para que sea cantada:"
+          "text": "Esta es la oración que compuso el profeta Habacuc, para que sea cantada:",
+          "headings": [
+            "La oración de Habacuc"
+          ]
         },
         {
           "number": 2,
@@ -251,7 +254,7 @@
         },
         {
           "number": 19,
-          "text": "¡El Señor Dios es quien me hace estar fuerte! Me dará la velocidad de un venado y me conducirá con seguridad sobre la altura de las montañas». (Nota para el director del coro: Al cantar esta oración, el coro debe ir acompañado por instrumentos de cuerdas)."
+          "text": "¡El Señor Dios es quien me hace estar fuerte! Me dará la velocidad de un venado y me conducirá con seguridad sobre la altura de las montañas»."
         }
       ]
     }

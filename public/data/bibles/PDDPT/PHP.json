@@ -9,18 +9,21 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo y Timoteo, esclavos de Jesucristo, a todos los santos en Cristo Jesús de Filipos, con los supervisores y diáconos."
-        },
-        {
-          "number": 2,
-          "text": "Gracia y paz a ustedes de Dios nuestro Padre y del Señor Jesucristo.",
+          "text": "Pablo y Timoteo, esclavos de Jesucristo, a todos los santos en Cristo Jesús de Filipos, con los supervisores y diáconos.",
           "headings": [
-            "Oración"
+            "Saludo"
           ]
         },
         {
+          "number": 2,
+          "text": "Gracia y paz a ustedes de Dios nuestro Padre y del Señor Jesucristo."
+        },
+        {
           "number": 3,
-          "text": "Doy gracias a mi Dios por todo el recuerdo de ustedes."
+          "text": "Doy gracias a mi Dios por todo el recuerdo de ustedes.",
+          "headings": [
+            "Oración"
+          ]
         },
         {
           "number": 4,
@@ -52,14 +55,14 @@
         },
         {
           "number": 11,
-          "text": "llenos de fruto de justicia para gloria y alabanza de Dios por medio de Jesucristo.",
-          "headings": [
-            "Anhelos de Pablo"
-          ]
+          "text": "llenos de fruto de justicia para gloria y alabanza de Dios por medio de Jesucristo."
         },
         {
           "number": 12,
-          "text": "Anhelo, hermanos, que ustedes sepan que las cosas que me han sucedido han resultado más bien para el avance de las Buenas Noticias,"
+          "text": "Anhelo, hermanos, que ustedes sepan que las cosas que me han sucedido han resultado más bien para el avance de las Buenas Noticias,",
+          "headings": [
+            "Anhelos de Pablo"
+          ]
         },
         {
           "number": 13,
@@ -115,14 +118,14 @@
         },
         {
           "number": 26,
-          "text": "a fin de que su enaltecimiento de mí en Cristo Jesús sea más que suficiente por mi presencia otra vez con ustedes.",
-          "headings": [
-            "Conducta del cristiano"
-          ]
+          "text": "a fin de que su enaltecimiento de mí en Cristo Jesús sea más que suficiente por mi presencia otra vez con ustedes."
         },
         {
           "number": 27,
-          "text": "Solo anhelo que sean buenos ciudadanos de una manera digna de las Buenas Noticias de Cristo, para que, ya sea que vaya a visitarlos o esté ausente, oiga que ustedes están firmes en un solo espíritu, con un solo ánimo y que combaten juntos por la fe de las Buenas Noticias."
+          "text": "Solo anhelo que sean buenos ciudadanos de una manera digna de las Buenas Noticias de Cristo, para que, ya sea que vaya a visitarlos o esté ausente, oiga que ustedes están firmes en un solo espíritu, con un solo ánimo y que combaten juntos por la fe de las Buenas Noticias.",
+          "headings": [
+            "Conducta del cristiano"
+          ]
         },
         {
           "number": 28,
@@ -143,7 +146,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por tanto, si hay algún estímulo en Cristo, si alguna consolación de amor, si alguna comunión del espíritu, si algunos afectos profundos y alguna compasión,"
+          "text": "Por tanto, si hay algún estímulo en Cristo, si alguna consolación de amor, si alguna comunión del espíritu, si algunos afectos profundos y alguna compasión,",
+          "headings": [
+            "Unidad en Cristo"
+          ]
         },
         {
           "number": 2,
@@ -183,14 +189,14 @@
         },
         {
           "number": 11,
-          "text": "y toda lengua confiese que Jesucristo es el Señor para la gloria de Dios Padre.",
-          "headings": [
-            "El gozo de Pablo"
-          ]
+          "text": "y toda lengua confiese que Jesucristo es el Señor para la gloria de Dios Padre."
         },
         {
           "number": 12,
-          "text": "Por tanto, amados míos, como siempre obedecieron, no solo en mi presencia, sino mucho más ahora en mi ausencia, alisten su propia salvación con temor y temblor."
+          "text": "Por tanto, amados míos, como siempre obedecieron, no solo en mi presencia, sino mucho más ahora en mi ausencia, alisten su propia salvación con temor y temblor.",
+          "headings": [
+            "El gozo de Pablo"
+          ]
         },
         {
           "number": 13,
@@ -214,14 +220,14 @@
         },
         {
           "number": 18,
-          "text": "Asimismo también ustedes, gócense y regocíjense conmigo.",
-          "headings": [
-            "Estrellas ejemplares"
-          ]
+          "text": "Asimismo también ustedes, gócense y regocíjense conmigo."
         },
         {
           "number": 19,
-          "text": "Espero en el Señor Jesús enviarles pronto a Timoteo, para que yo también me anime al saber de ustedes."
+          "text": "Espero en el Señor Jesús enviarles pronto a Timoteo, para que yo también me anime al saber de ustedes.",
+          "headings": [
+            "Estrellas ejemplares"
+          ]
         },
         {
           "number": 20,
@@ -274,7 +280,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por lo demás, hermanos míos, regocíjense en el Señor. A mí ciertamente no me es molesto escribirles las mismas cosas y para ustedes son una protección."
+          "text": "Por lo demás, hermanos míos, regocíjense en el Señor. A mí ciertamente no me es molesto escribirles las mismas cosas y para ustedes son una protección.",
+          "headings": [
+            "Las ganancias de Pablo"
+          ]
         },
         {
           "number": 2,
@@ -329,9 +338,6 @@
         {
           "number": 11,
           "text": "a fin de llegar a la resurrección de entre los muertos.",
-          "headings": [
-            "La meta"
-          ],
           "footnotes": [
             {
               "id": "FN3",
@@ -342,7 +348,10 @@
         },
         {
           "number": 12,
-          "text": "No digo que ya lo alcancé, ni que ya sea perfecto. Pero prosigo a fin de alcanzar aquello para lo cual también fui alcanzado por Cristo Jesús."
+          "text": "No digo que ya lo alcancé, ni que ya sea perfecto. Pero prosigo a fin de alcanzar aquello para lo cual también fui alcanzado por Cristo Jesús.",
+          "headings": [
+            "La meta"
+          ]
         },
         {
           "number": 13,
@@ -387,7 +396,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por tanto, hermanos míos amados y añorados, gozo y corona mía, de este modo estén firmes en el Señor, amados."
+          "text": "Por tanto, hermanos míos amados y añorados, gozo y corona mía, de este modo estén firmes en el Señor, amados.",
+          "headings": [
+            "Regocijo y paz"
+          ]
         },
         {
           "number": 2,
@@ -418,25 +430,25 @@
         },
         {
           "number": 7,
-          "text": "La paz de Dios, que sobrepasa todo entendimiento, guardará sus corazones y sus pensamientos en Cristo Jesús.",
+          "text": "La paz de Dios, que sobrepasa todo entendimiento, guardará sus corazones y sus pensamientos en Cristo Jesús."
+        },
+        {
+          "number": 8,
+          "text": "Por lo demás, hermanos, todo lo que es verdadero, todo lo honorable, todo lo justo, todo lo puro, todo lo amable, todo lo que es de buena reputación; si hay alguna virtud, si hay algo digno de alabanza, piensen en esto.",
           "headings": [
             "Lo que uno debe proponerse"
           ]
         },
         {
-          "number": 8,
-          "text": "Por lo demás, hermanos, todo lo que es verdadero, todo lo honorable, todo lo justo, todo lo puro, todo lo amable, todo lo que es de buena reputación; si hay alguna virtud, si hay algo digno de alabanza, piensen en esto."
-        },
-        {
           "number": 9,
-          "text": "Hagan lo que aprendieron, recibieron, oyeron y vieron en mí. El Dios de paz estará con ustedes.",
-          "headings": [
-            "La oportunidad de las ofrendas"
-          ]
+          "text": "Hagan lo que aprendieron, recibieron, oyeron y vieron en mí. El Dios de paz estará con ustedes."
         },
         {
           "number": 10,
-          "text": "En gran manera me regocijé en el Señor porque al fin revivió su pensar en mí, lo cual también hacían, pero no tenían oportunidad."
+          "text": "En gran manera me regocijé en el Señor porque al fin revivió su pensar en mí, lo cual también hacían, pero no tenían oportunidad.",
+          "headings": [
+            "La oportunidad de las ofrendas"
+          ]
         },
         {
           "number": 11,
@@ -483,14 +495,14 @@
         },
         {
           "number": 20,
-          "text": "Al Dios y Padre nuestro sea la gloria, por los siglos de los siglos. Amén.",
-          "headings": [
-            "Despedida"
-          ]
+          "text": "Al Dios y Padre nuestro sea la gloria, por los siglos de los siglos. Amén."
         },
         {
           "number": 21,
-          "text": "Saluden a todo santo en Cristo Jesús. Los hermanos que están conmigo los saludan."
+          "text": "Saluden a todo santo en Cristo Jesús. Los hermanos que están conmigo los saludan.",
+          "headings": [
+            "Despedida"
+          ]
         },
         {
           "number": 22,

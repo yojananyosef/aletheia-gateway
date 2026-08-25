@@ -9,18 +9,21 @@
       "verses": [
         {
           "number": 1,
-          "text": "Judas, un esclavo de Jesucristo, y hermano de Jacobo, a los llamados, amados por Dios Padre y guardados por Jesucristo."
-        },
-        {
-          "number": 2,
-          "text": "Misericordia, paz y amor les sean multiplicados.",
+          "text": "Judas, un esclavo de Jesucristo, y hermano de Jacobo, a los llamados, amados por Dios Padre y guardados por Jesucristo.",
           "headings": [
-            "Contra falsas enseñanzas"
+            "Saludo"
           ]
         },
         {
+          "number": 2,
+          "text": "Misericordia, paz y amor les sean multiplicados."
+        },
+        {
           "number": 3,
-          "text": "Amados, con toda diligencia para escribirles con respecto a nuestra común salvación, tuve necesidad de escribir para exhortarlos a que luchen ardientemente por la fe que fue dada una vez a los santos."
+          "text": "Amados, con toda diligencia para escribirles con respecto a nuestra común salvación, tuve necesidad de escribir para exhortarlos a que luchen ardientemente por la fe que fue dada una vez a los santos.",
+          "headings": [
+            "Contra falsas enseñanzas"
+          ]
         },
         {
           "number": 4,
@@ -79,14 +82,14 @@
         },
         {
           "number": 16,
-          "text": "Éstos son murmuradores quejumbrosos, quienes proceden según sus propios deseos apasionados, y su boca habla palabras arrogantes y adulan a personas por amor a una ganancia.",
-          "headings": [
-            "Consejos finales"
-          ]
+          "text": "Éstos son murmuradores quejumbrosos, quienes proceden según sus propios deseos apasionados, y su boca habla palabras arrogantes y adulan a personas por amor a una ganancia."
         },
         {
           "number": 17,
-          "text": "Pero ustedes, amados, recuerden las palabras dichas por los apóstoles de nuestro Señor Jesucristo,"
+          "text": "Pero ustedes, amados, recuerden las palabras dichas por los apóstoles de nuestro Señor Jesucristo,",
+          "headings": [
+            "Consejos finales"
+          ]
         },
         {
           "number": 18,
@@ -118,9 +121,6 @@
         {
           "number": 23,
           "text": "Arrebaten del fuego, rescaten a otros, aborrezcan aun la ropa del cuerpo contaminada, tengan misericordia de otros con temor.",
-          "headings": [
-            "Alabanza a Dios"
-          ],
           "footnotes": [
             {
               "id": "FN3",
@@ -131,7 +131,10 @@
         },
         {
           "number": 24,
-          "text": "Al que es poderoso para guardarlos sin caída y colocarlos en pie sin mancha en presencia de su gloria con gran gozo,"
+          "text": "Al que es poderoso para guardarlos sin caída y colocarlos en pie sin mancha en presencia de su gloria con gran gozo,",
+          "headings": [
+            "Alabanza a Dios"
+          ]
         },
         {
           "number": 25,

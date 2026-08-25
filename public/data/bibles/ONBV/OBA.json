@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Esta es la visión que Dios el Señor le mostró a Abdías en cuanto a lo que iba a hacer con Edom. Un mensajero ha sido enviado por el Señor para que les dé esta orden a las naciones: «¡Atención! ¡Envíen sus ejércitos contra Edom y destrúyanlo!»."
+          "text": "Esta es la visión que Dios el Señor le mostró a Abdías en cuanto a lo que iba a hacer con Edom. Un mensajero ha sido enviado por el Señor para que les dé esta orden a las naciones: «¡Atención! ¡Envíen sus ejércitos contra Edom y destrúyanlo!».",
+          "headings": [
+            "Orgullo y caída de Edom"
+          ]
         },
         {
           "number": 2,
@@ -77,14 +80,14 @@
         },
         {
           "number": 18,
-          "text": "Israel será como un fuego que incendiará los campos secos de Edom. ¡Ningún edomita quedará vivo!». Lo dice el Señor .",
-          "headings": [
-            "Restauración del pueblo de Dios"
-          ]
+          "text": "Israel será como un fuego que incendiará los campos secos de Edom. ¡Ningún edomita quedará vivo!». Lo dice el Señor ."
         },
         {
           "number": 19,
-          "text": "Entonces mi pueblo, que vive en el Néguev, ocupará para habitarla la zona montañosa de los edomitas, los descendientes de Esaú; los que viven en las tierras bajas de Judea tomarán posesión de los valles de los filisteos, y volverán a tomar posesión de los campos de Efraín y de Samaria. Y el pueblo de Benjamín poseerá a Galaad."
+          "text": "Entonces mi pueblo, que vive en el Néguev, ocupará para habitarla la zona montañosa de los edomitas, los descendientes de Esaú; los que viven en las tierras bajas de Judea tomarán posesión de los valles de los filisteos, y volverán a tomar posesión de los campos de Efraín y de Samaria. Y el pueblo de Benjamín poseerá a Galaad.",
+          "headings": [
+            "Restauración del pueblo de Dios"
+          ]
         },
         {
           "number": 20,

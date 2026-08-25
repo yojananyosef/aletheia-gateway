@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este libro registra las palabras que Moisés dirigió al pueblo de Israel cuando estaba acampado en el valle del Arabá en el desierto de Moab, al oriente del río Jordán. Las ciudades que había en la zona eran Parán, Tofel, Labán, Jazerot y Dizahab."
+          "text": "Este libro registra las palabras que Moisés dirigió al pueblo de Israel cuando estaba acampado en el valle del Arabá en el desierto de Moab, al oriente del río Jordán. Las ciudades que había en la zona eran Parán, Tofel, Labán, Jazerot y Dizahab.",
+          "headings": [
+            "Moisés ordena salir de Horeb"
+          ]
         },
         {
           "number": 2,
@@ -35,14 +38,14 @@
         },
         {
           "number": 8,
-          "text": "Yo se la doy a ustedes. Entren y poséanla, porque es la tierra que el Señor prometió a sus antepasados Abraham, Isaac y Jacob, y a todos sus descendientes”.",
-          "headings": [
-            "Nombramiento de jefes"
-          ]
+          "text": "Yo se la doy a ustedes. Entren y poséanla, porque es la tierra que el Señor prometió a sus antepasados Abraham, Isaac y Jacob, y a todos sus descendientes”."
         },
         {
           "number": 9,
-          "text": "»En aquel tiempo le dije al pueblo: “Ayúdenme. Ustedes son una gran carga para que yo la lleve solo,"
+          "text": "»En aquel tiempo le dije al pueblo: “Ayúdenme. Ustedes son una gran carga para que yo la lleve solo,",
+          "headings": [
+            "Nombramiento de jefes"
+          ]
         },
         {
           "number": 10,
@@ -78,16 +81,16 @@
         },
         {
           "number": 18,
-          "text": "Les di además varias otras instrucciones para ustedes.",
-          "headings": [
-            "Misión de los espías"
-          ]
+          "text": "Les di además varias otras instrucciones para ustedes."
         },
         {
           "number": 19,
           "text": "»Luego nos alejamos del monte Horeb y viajamos a través del desierto grande y terrible, y llegamos finalmente a las montañas de los amorreos a las cuales el Señor nuestro Dios nos había dirigido. Estábamos entonces en Cades Barnea (en el límite con la Tierra prometida) y le dije al pueblo: “El Señor , el Dios de nuestros antepasados, nos ha dado esta tierra. Vayan y poséanla como él nos ha dicho. No teman, ni duden”.",
           "verseDisplay": "19-21",
-          "endNumber": 21
+          "endNumber": 21,
+          "headings": [
+            "Misión de los espías"
+          ]
         },
         {
           "number": 22,
@@ -101,14 +104,14 @@
           "number": 24,
           "text": "Los espías cruzaron las colinas y llegaron al valle de Escol, y volvieron con muestras de las frutas que allí se producían. Una sola mirada bastó para convencernos de que la tierra que el Señor nos había dado era una tierra buena.",
           "verseDisplay": "24-25",
-          "endNumber": 25,
-          "headings": [
-            "Rebelión contra el Señor"
-          ]
+          "endNumber": 25
         },
         {
           "number": 26,
-          "text": "»Pero el pueblo no quiso entrar y se rebeló contra el mandamiento del Señor ."
+          "text": "»Pero el pueblo no quiso entrar y se rebeló contra el mandamiento del Señor .",
+          "headings": [
+            "Rebelión contra el Señor"
+          ]
         },
         {
           "number": 27,
@@ -197,7 +200,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Luego regresamos al desierto camino del Mar Rojo, como me había ordenado el Señor . Durante muchos años vagamos por los alrededores del monte Seír,"
+          "text": "»Luego regresamos al desierto camino del Mar Rojo, como me había ordenado el Señor . Durante muchos años vagamos por los alrededores del monte Seír,",
+          "headings": [
+            "Peregrinación por el desierto"
+          ]
         },
         {
           "number": 2,
@@ -283,14 +289,14 @@
         },
         {
           "number": 23,
-          "text": "Una situación similar se produjo cuando el pueblo de Caftor invadió y destruyó la tribu de los aveos que vivían en pueblos esparcidos en toda aquella zona hasta Gaza).",
-          "headings": [
-            "Derrota de Sijón, rey de Hesbón"
-          ]
+          "text": "Una situación similar se produjo cuando el pueblo de Caftor invadió y destruyó la tribu de los aveos que vivían en pueblos esparcidos en toda aquella zona hasta Gaza)."
         },
         {
           "number": 24,
-          "text": "»Y el Señor dijo: “Pasen el río Arnón y entren en la tierra de Sijón, rey amorreo de Hesbón. Háganle guerra y tomen posesión de su tierra."
+          "text": "»Y el Señor dijo: “Pasen el río Arnón y entren en la tierra de Sijón, rey amorreo de Hesbón. Háganle guerra y tomen posesión de su tierra.",
+          "headings": [
+            "Derrota de Sijón, rey de Hesbón"
+          ]
         },
         {
           "number": 25,
@@ -349,7 +355,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Luego seguimos hacia la tierra de Basán. Inmediatamente el rey Og movilizó su ejército y nos atacó en Edrey."
+          "text": "»Luego seguimos hacia la tierra de Basán. Inmediatamente el rey Og movilizó su ejército y nos atacó en Edrey.",
+          "headings": [
+            "Derrota de Og, rey de Basán"
+          ]
         },
         {
           "number": 2,
@@ -389,14 +398,14 @@
         },
         {
           "number": 11,
-          "text": "»A propósito, el rey Og de Basán fue el último de los gigantes. Su cama de hierro se conserva en un museo de Rabá, una de las ciudades de los amonitas, y mide unos cuatro metros de largo por uno ochenta de ancho.",
-          "headings": [
-            "División de la tierra"
-          ]
+          "text": "»A propósito, el rey Og de Basán fue el último de los gigantes. Su cama de hierro se conserva en un museo de Rabá, una de las ciudades de los amonitas, y mide unos cuatro metros de largo por uno ochenta de ancho."
         },
         {
           "number": 12,
-          "text": "»En aquel tiempo entregué la tierra conquistada a las tribus de Rubén y Gad, y a la media tribu de Manasés. A las tribus de Rubén y Gad les di la región que comenzaba en Aroer sobre el río Arnón, más la mitad del monte Galaad; incluyendo sus ciudades."
+          "text": "»En aquel tiempo entregué la tierra conquistada a las tribus de Rubén y Gad, y a la media tribu de Manasés. A las tribus de Rubén y Gad les di la región que comenzaba en Aroer sobre el río Arnón, más la mitad del monte Galaad; incluyendo sus ciudades.",
+          "headings": [
+            "División de la tierra"
+          ]
         },
         {
           "number": 13,
@@ -428,25 +437,25 @@
         },
         {
           "number": 20,
-          "text": "hasta que el Señor haya dado la victoria a las otras tribus. Cuando ellos hayan conquistado las tierras que el Señor les ha dado al otro lado del río Jordán, podrán ustedes regresar a la tierra que les he dado”.",
+          "text": "hasta que el Señor haya dado la victoria a las otras tribus. Cuando ellos hayan conquistado las tierras que el Señor les ha dado al otro lado del río Jordán, podrán ustedes regresar a la tierra que les he dado”."
+        },
+        {
+          "number": 21,
+          "text": "»Entonces le dije a Josué: “Tú mismo has sido testigo de lo que el Señor tu Dios ha hecho con estos dos reyes. Ahora tú harás lo mismo con todos los reinos que hay al otro lado del Jordán.",
           "headings": [
             "Instrucciones a Josué"
           ]
         },
         {
-          "number": 21,
-          "text": "»Entonces le dije a Josué: “Tú mismo has sido testigo de lo que el Señor tu Dios ha hecho con estos dos reyes. Ahora tú harás lo mismo con todos los reinos que hay al otro lado del Jordán."
-        },
-        {
           "number": 22,
-          "text": "No temas a los pueblos que allí viven, porque el Señor tu Dios peleará por ti”.",
-          "headings": [
-            "Dios le prohíbe a Moisés cruzar el Jordán"
-          ]
+          "text": "No temas a los pueblos que allí viven, porque el Señor tu Dios peleará por ti”."
         },
         {
           "number": 23,
-          "text": "»En aquel tiempo, oré al Señor así:"
+          "text": "»En aquel tiempo, oré al Señor así:",
+          "headings": [
+            "Dios le prohíbe a Moisés cruzar el Jordán"
+          ]
         },
         {
           "number": 24,
@@ -477,7 +486,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Moisés continuó su discurso y dijo: «Escuchen ahora con atención, israelitas, las leyes que les doy y obedézcanlas, si quieren vivir y entrar a poseer la tierra que les da el Señor , Dios de sus padres."
+          "text": "Moisés continuó su discurso y dijo: «Escuchen ahora con atención, israelitas, las leyes que les doy y obedézcanlas, si quieren vivir y entrar a poseer la tierra que les da el Señor , Dios de sus padres.",
+          "headings": [
+            "Exhortación a la obediencia"
+          ]
         },
         {
           "number": 2,
@@ -529,14 +541,14 @@
         },
         {
           "number": 14,
-          "text": "En aquel tiempo el Señor me ordenó que les entregara las leyes que deben obedecer tan pronto entren en la Tierra prometida.",
-          "headings": [
-            "Prohibición de la idolatría"
-          ]
+          "text": "En aquel tiempo el Señor me ordenó que les entregara las leyes que deben obedecer tan pronto entren en la Tierra prometida."
         },
         {
           "number": 15,
-          "text": "»Pero ¡cuidado! Ustedes no vieron la figura de Dios el día en que les habló desde el fuego en el monte Horeb,"
+          "text": "»Pero ¡cuidado! Ustedes no vieron la figura de Dios el día en que les habló desde el fuego en el monte Horeb,",
+          "headings": [
+            "Prohibición de la idolatría"
+          ]
         },
         {
           "number": 16,
@@ -598,14 +610,14 @@
         },
         {
           "number": 31,
-          "text": "Porque el Señor su Dios es misericordioso; él no los abandonará ni los destruirá ni olvidará el pacto y las promesas hechas a sus antepasados.",
-          "headings": [
-            "El Señor es Dios"
-          ]
+          "text": "Porque el Señor su Dios es misericordioso; él no los abandonará ni los destruirá ni olvidará el pacto y las promesas hechas a sus antepasados."
         },
         {
           "number": 32,
-          "text": "»Analicen la historia desde que Dios creó al ser humano sobre la tierra, y busquen desde un extremo del cielo al otro, para ver si pueden encontrar algo semejante a esto:"
+          "text": "»Analicen la historia desde que Dios creó al ser humano sobre la tierra, y busquen desde un extremo del cielo al otro, para ver si pueden encontrar algo semejante a esto:",
+          "headings": [
+            "El Señor es Dios"
+          ]
         },
         {
           "number": 33,
@@ -637,14 +649,14 @@
         },
         {
           "number": 40,
-          "text": "Deben obedecer las leyes que les doy en este día para que ustedes y sus hijos tengan bienestar y puedan vivir para siempre en la tierra que el Señor su Dios les da».",
-          "headings": [
-            "Ciudades de refugio"
-          ]
+          "text": "Deben obedecer las leyes que les doy en este día para que ustedes y sus hijos tengan bienestar y puedan vivir para siempre en la tierra que el Señor su Dios les da»."
         },
         {
           "number": 41,
-          "text": "Entonces Moisés instruyó al pueblo de Israel para que apartaran tres ciudades al oriente del río Jordán"
+          "text": "Entonces Moisés instruyó al pueblo de Israel para que apartaran tres ciudades al oriente del río Jordán",
+          "headings": [
+            "Ciudades de refugio"
+          ]
         },
         {
           "number": 42,
@@ -652,16 +664,16 @@
         },
         {
           "number": 43,
-          "text": "Estas ciudades eran Béser en la llanura del desierto para la tribu de Rubén; Ramot de Galaad para la tribu de Gad; y Golán de Basán para la de Manasés.",
-          "headings": [
-            "Introducción de la ley"
-          ]
+          "text": "Estas ciudades eran Béser en la llanura del desierto para la tribu de Rubén; Ramot de Galaad para la tribu de Gad; y Golán de Basán para la de Manasés."
         },
         {
           "number": 44,
           "text": "Estas son las leyes que Moisés entregó al pueblo de Israel cuando salieron de Egipto y estuvieron acampados al oriente del río Jordán cerca de la ciudad de Bet Peor. (Este había sido parte del territorio de Sijón, rey de los amorreos. Su capital era Hesbón; él y su pueblo fueron destruidos por Moisés y los israelitas.",
           "verseDisplay": "44-46",
-          "endNumber": 46
+          "endNumber": 46,
+          "headings": [
+            "Introducción de la ley"
+          ]
         },
         {
           "number": 47,
@@ -682,7 +694,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Moisés siguió hablándole al pueblo de Israel y le dijo: «Oigan ahora cuidadosamente estas leyes y normas que Dios les ha dado; apréndanselas, consérvenlas y obedézcanlas."
+          "text": "Moisés siguió hablándole al pueblo de Israel y le dijo: «Oigan ahora cuidadosamente estas leyes y normas que Dios les ha dado; apréndanselas, consérvenlas y obedézcanlas.",
+          "headings": [
+            "Los Diez Mandamientos"
+          ]
         },
         {
           "number": 2,
@@ -815,7 +830,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»El Señor su Dios me ha pedido que les dé estos mandamientos, para que los obedezcan en la tierra a la que pronto entrarán y en la cual vivirán."
+          "text": "»El Señor su Dios me ha pedido que les dé estos mandamientos, para que los obedezcan en la tierra a la que pronto entrarán y en la cual vivirán.",
+          "headings": [
+            "El amor de Dios"
+          ]
         },
         {
           "number": 2,
@@ -918,7 +936,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Cuando el Señor te haya introducido en la Tierra prometida, como pronto lo hará, destruirá a las siguientes naciones, siete en total, todas naciones numerosas y más poderosas que tú: Los hititas, los gergeseos, los amorreos, los cananeos, los ferezeos, los heveos y los jebuseos."
+          "text": "»Cuando el Señor te haya introducido en la Tierra prometida, como pronto lo hará, destruirá a las siguientes naciones, siete en total, todas naciones numerosas y más poderosas que tú: Los hititas, los gergeseos, los amorreos, los cananeos, los ferezeos, los heveos y los jebuseos.",
+          "headings": [
+            "Expulsión de las naciones"
+          ]
         },
         {
           "number": 2,
@@ -1027,7 +1048,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Obedece los mandamientos que te doy en este día. Si así lo haces, no solamente vivirás sino que te multiplicarás y entrarás, y poseerás la tierra que el Señor prometió a tus antepasados."
+          "text": "»Obedece los mandamientos que te doy en este día. Si así lo haces, no solamente vivirás sino que te multiplicarás y entrarás, y poseerás la tierra que el Señor prometió a tus antepasados.",
+          "headings": [
+            "Recuerda al Señor tu Dios"
+          ]
         },
         {
           "number": 2,
@@ -1112,7 +1136,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Escucha, Israel: hoy mismo vas a cruzar el río Jordán e iniciarás la conquista de las naciones que viven al otro lado del río."
+          "text": "»Escucha, Israel: hoy mismo vas a cruzar el río Jordán e iniciarás la conquista de las naciones que viven al otro lado del río.",
+          "headings": [
+            "El mérito no es de Israel"
+          ]
         },
         {
           "number": 2,
@@ -1132,14 +1159,14 @@
         },
         {
           "number": 6,
-          "text": "Te lo digo una vez más: El Señor tu Dios no te da esta buena tierra porque tú seas justo, porque no lo eres: Al contrario, eres un pueblo soberbio y rebelde.",
-          "headings": [
-            "El becerro de oro"
-          ]
+          "text": "Te lo digo una vez más: El Señor tu Dios no te da esta buena tierra porque tú seas justo, porque no lo eres: Al contrario, eres un pueblo soberbio y rebelde."
         },
         {
           "number": 7,
-          "text": "»No lo olvides, más bien recuerda las muchas veces que hiciste enojar al Señor tu Dios en el desierto. Esto lo hiciste, una y otra vez, desde el día que te sacó de Egipto hasta ahora. Todo este tiempo te has rebelado continuamente contra Dios."
+          "text": "»No lo olvides, más bien recuerda las muchas veces que hiciste enojar al Señor tu Dios en el desierto. Esto lo hiciste, una y otra vez, desde el día que te sacó de Egipto hasta ahora. Todo este tiempo te has rebelado continuamente contra Dios.",
+          "headings": [
+            "El becerro de oro"
+          ]
         },
         {
           "number": 8,
@@ -1232,7 +1259,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»En aquel tiempo, el Señor me dijo que preparara dos tablas de piedra como las primeras, y que hiciera un cofre de madera para guardarlas dentro, y que volviera a subir a su presencia en el monte."
+          "text": "»En aquel tiempo, el Señor me dijo que preparara dos tablas de piedra como las primeras, y que hiciera un cofre de madera para guardarlas dentro, y que volviera a subir a su presencia en el monte.",
+          "headings": [
+            "Las nuevas tablas de la ley"
+          ]
         },
         {
           "number": 2,
@@ -1248,14 +1278,14 @@
         },
         {
           "number": 5,
-          "text": "Cuando descendí, coloqué las tablas en el cofre que había hecho, donde están hasta este día como el Señor me lo ordenó».",
-          "headings": [
-            "Ministerio de los levitas"
-          ]
+          "text": "Cuando descendí, coloqué las tablas en el cofre que había hecho, donde están hasta este día como el Señor me lo ordenó»."
         },
         {
           "number": 6,
-          "text": "El pueblo de Israel luego avanzó desde los pozos de Berot Bené Yacán hasta Moserá, donde murió Aarón y fue sepultado. Eleazar, su hijo, fue nombrado sumo sacerdote."
+          "text": "El pueblo de Israel luego avanzó desde los pozos de Berot Bené Yacán hasta Moserá, donde murió Aarón y fue sepultado. Eleazar, su hijo, fue nombrado sumo sacerdote.",
+          "headings": [
+            "Ministerio de los levitas"
+          ]
         },
         {
           "number": 7,
@@ -1267,14 +1297,14 @@
         },
         {
           "number": 9,
-          "text": "Esa es la razón por la cual la tribu de Leví no tiene reservada ninguna porción de la tierra entre las tribus hermanas. El Señor es su heredad, como el mismo Señor afirmó.",
-          "headings": [
-            "Las demandas del Señor"
-          ]
+          "text": "Esa es la razón por la cual la tribu de Leví no tiene reservada ninguna porción de la tierra entre las tribus hermanas. El Señor es su heredad, como el mismo Señor afirmó."
         },
         {
           "number": 10,
-          "text": "«Como ocurrió en la primera ocasión, yo permanecí en el monte por espacio de cuarenta días y cuarenta noches. Y en esta ocasión el Señor respondió a mi oración, y no te destruyó."
+          "text": "«Como ocurrió en la primera ocasión, yo permanecí en el monte por espacio de cuarenta días y cuarenta noches. Y en esta ocasión el Señor respondió a mi oración, y no te destruyó.",
+          "headings": [
+            "Las demandas del Señor"
+          ]
         },
         {
           "number": 11,
@@ -1329,7 +1359,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Amen al Señor su Dios y obedezcan todos los días cada uno de sus mandamientos."
+          "text": "»Amen al Señor su Dios y obedezcan todos los días cada uno de sus mandamientos.",
+          "headings": [
+            "Amor y obediencia al Señor"
+          ]
         },
         {
           "number": 2,
@@ -1462,7 +1495,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Estas son las leyes que debes obedecer cuando llegues a la tierra que el Señor , el Dios de tus padres, te ha dado para siempre:"
+          "text": "»Estas son las leyes que debes obedecer cuando llegues a la tierra que el Señor , el Dios de tus padres, te ha dado para siempre:",
+          "headings": [
+            "El lugar único de adoración"
+          ]
         },
         {
           "number": 2,
@@ -1583,7 +1619,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Si hay en medio tuyo un profeta o alguien que asegure ver el futuro por medio de sueños,"
+          "text": "»Si hay en medio tuyo un profeta o alguien que asegure ver el futuro por medio de sueños,",
+          "headings": [
+            "Advertencia contra la idolatría"
+          ]
         },
         {
           "number": 2,
@@ -1652,7 +1691,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Puesto que ustedes son el pueblo de Dios, no se harán heridas en el cuerpo, ni se raparán las cabezas para asistir a funerales."
+          "text": "»Puesto que ustedes son el pueblo de Dios, no se harán heridas en el cuerpo, ni se raparán las cabezas para asistir a funerales.",
+          "headings": [
+            "Alimentos puros e impuros"
+          ]
         },
         {
           "number": 2,
@@ -1704,14 +1746,14 @@
         },
         {
           "number": 21,
-          "text": "»No comerás lo que ha muerto de muerte natural. Sin embargo el extranjero puede hacerlo. Puedes dárselo y vendérselo; pero no comas tú de ello, porque tú eres santo delante del Señor tu Dios. »No cocerás el cabrito en la leche de su madre.",
-          "headings": [
-            "Los diezmos"
-          ]
+          "text": "»No comerás lo que ha muerto de muerte natural. Sin embargo el extranjero puede hacerlo. Puedes dárselo y vendérselo; pero no comas tú de ello, porque tú eres santo delante del Señor tu Dios. »No cocerás el cabrito en la leche de su madre."
         },
         {
           "number": 22,
-          "text": "»Todos los años deberás apartar la décima parte de todas tus cosechas."
+          "text": "»Todos los años deberás apartar la décima parte de todas tus cosechas.",
+          "headings": [
+            "Los diezmos"
+          ]
         },
         {
           "number": 23,
@@ -1748,7 +1790,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Al final de cada séptimo año, perdonarán todas las deudas."
+          "text": "»Al final de cada séptimo año, perdonarán todas las deudas.",
+          "headings": [
+            "El año del perdón de las deudas"
+          ]
         },
         {
           "number": 2,
@@ -1786,14 +1831,14 @@
         },
         {
           "number": 11,
-          "text": "Siempre habrá pobres en esta tierra, por eso te ordeno que seas muy generoso con los pobres y los necesitados.",
-          "headings": [
-            "Liberación de los esclavos"
-          ]
+          "text": "Siempre habrá pobres en esta tierra, por eso te ordeno que seas muy generoso con los pobres y los necesitados."
         },
         {
           "number": 12,
-          "text": "»Si alguno de tus hermanos hebreos, hombre o mujer, se vende a ti como esclavo, deberás darle la libertad al final del sexto año de haber estado en tu propiedad"
+          "text": "»Si alguno de tus hermanos hebreos, hombre o mujer, se vende a ti como esclavo, deberás darle la libertad al final del sexto año de haber estado en tu propiedad",
+          "headings": [
+            "Liberación de los esclavos"
+          ]
         },
         {
           "number": 13,
@@ -1817,14 +1862,14 @@
         },
         {
           "number": 18,
-          "text": "Cuando le des la libertad a un esclavo, no te pese hacerlo; porque la verdad es que durante seis años él te ha costado menos de la mitad de lo que cuesta un empleado, y el Señor tu Dios te prosperará en todo porque tú le has dado la libertad.",
-          "headings": [
-            "Los animales primogénitos"
-          ]
+          "text": "Cuando le des la libertad a un esclavo, no te pese hacerlo; porque la verdad es que durante seis años él te ha costado menos de la mitad de lo que cuesta un empleado, y el Señor tu Dios te prosperará en todo porque tú le has dado la libertad."
         },
         {
           "number": 19,
-          "text": "»Dedicarás al Señor todos los primogénitos machos de tus vacas y de tus ovejas. No usarás los primogénitos de tus vacas para trabajar en los campos, y no trasquilarás a los primogénitos de tus ovejas."
+          "text": "»Dedicarás al Señor todos los primogénitos machos de tus vacas y de tus ovejas. No usarás los primogénitos de tus vacas para trabajar en los campos, y no trasquilarás a los primogénitos de tus ovejas.",
+          "headings": [
+            "Los animales primogénitos"
+          ]
         },
         {
           "number": 20,
@@ -1849,7 +1894,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Acuérdate siempre de celebrar la Pascua en honor del Señor tu Dios en el mes de aviv, porque fue en ese mes que el Señor tu Dios te sacó de Egipto durante la noche."
+          "text": "»Acuérdate siempre de celebrar la Pascua en honor del Señor tu Dios en el mes de aviv, porque fue en ese mes que el Señor tu Dios te sacó de Egipto durante la noche.",
+          "headings": [
+            "Fiesta de la Pascua"
+          ]
         },
         {
           "number": 2,
@@ -1877,14 +1925,14 @@
         },
         {
           "number": 8,
-          "text": "Durante los seis días siguientes no comerás pan leudado. El séptimo día habrá una fiesta solemne del pueblo de cada ciudad delante del Señor tu Dios. No hagas en ese día ningún trabajo.",
-          "headings": [
-            "Fiesta de las Semanas"
-          ]
+          "text": "Durante los seis días siguientes no comerás pan leudado. El séptimo día habrá una fiesta solemne del pueblo de cada ciudad delante del Señor tu Dios. No hagas en ese día ningún trabajo."
         },
         {
           "number": 9,
-          "text": "»Siete semanas después del comienzo de la siega"
+          "text": "»Siete semanas después del comienzo de la siega",
+          "headings": [
+            "Fiesta de las Semanas"
+          ]
         },
         {
           "number": 10,
@@ -1896,16 +1944,16 @@
         },
         {
           "number": 12,
-          "text": "Recuerda que fuiste esclavo en Egipto, así que cumple cuidadosamente con este mandamiento.",
-          "headings": [
-            "Fiesta de las Enramadas"
-          ]
+          "text": "Recuerda que fuiste esclavo en Egipto, así que cumple cuidadosamente con este mandamiento."
         },
         {
           "number": 13,
           "text": "»Al final del tiempo de la cosecha, cuando el grano haya sido trillado, y las uvas hayan sido pisadas en el lagar, celebrarás otra fiesta, la fiesta de las Enramadas. Su celebración durará siete días. Serán días de alegría de los que participarán tu familia y tus siervos. Y no te olvides de invitar a los levitas, a los exiliados, a los huérfanos y a las viudas de tu pueblo. »La fiesta se celebrará en el santuario, que estará en el lugar que el Señor haya designado. Será tiempo de acción de gracias al Señor por la bendición que te ha dado de una buena cosecha y porque ha bendecido tu trabajo. Será un tiempo de gran gozo.",
           "verseDisplay": "13-15",
-          "endNumber": 15
+          "endNumber": 15,
+          "headings": [
+            "Fiesta de las Enramadas"
+          ]
         },
         {
           "number": 16,
@@ -1913,14 +1961,14 @@
         },
         {
           "number": 17,
-          "text": "Cada uno dará conforme a su posibilidad, según la bendición que el Señor le haya dado.",
-          "headings": [
-            "Administración de justicia"
-          ]
+          "text": "Cada uno dará conforme a su posibilidad, según la bendición que el Señor le haya dado."
         },
         {
           "number": 18,
-          "text": "»Designa jueces y funcionarios administrativos en todas las ciudades que el Señor tu Dios te da. Ellos administrarán la justicia en todo el país."
+          "text": "»Designa jueces y funcionarios administrativos en todas las ciudades que el Señor tu Dios te da. Ellos administrarán la justicia en todo el país.",
+          "headings": [
+            "Administración de justicia"
+          ]
         },
         {
           "number": 19,
@@ -1928,14 +1976,14 @@
         },
         {
           "number": 20,
-          "text": "La justicia debe prevalecer. Esta es la única manera en que serás prosperado en la tierra que el Señor tu Dios te da.",
-          "headings": [
-            "Contra la idolatría"
-          ]
+          "text": "La justicia debe prevalecer. Esta es la única manera en que serás prosperado en la tierra que el Señor tu Dios te da."
         },
         {
           "number": 21,
-          "text": "»No erigirás ninguna imagen de la diosa Aserá junto al altar del Señor tu Dios,"
+          "text": "»No erigirás ninguna imagen de la diosa Aserá junto al altar del Señor tu Dios,",
+          "headings": [
+            "Contra la idolatría"
+          ]
         },
         {
           "number": 22,
@@ -1970,14 +2018,14 @@
         },
         {
           "number": 7,
-          "text": "Los testigos serán los primeros en arrojar las piedras, y luego lo hará el resto del pueblo. De esta manera, se purgará el mal que haya entre ustedes.",
-          "headings": [
-            "Los tribunales"
-          ]
+          "text": "Los testigos serán los primeros en arrojar las piedras, y luego lo hará el resto del pueblo. De esta manera, se purgará el mal que haya entre ustedes."
         },
         {
           "number": 8,
-          "text": "»Si surge un caso difícil (por ejemplo, si alguno es culpado de asesinato pero no hay suficiente evidencia, o si los derechos de alguno han sido violados), llevarás el caso al santuario del Señor tu Dios,"
+          "text": "»Si surge un caso difícil (por ejemplo, si alguno es culpado de asesinato pero no hay suficiente evidencia, o si los derechos de alguno han sido violados), llevarás el caso al santuario del Señor tu Dios,",
+          "headings": [
+            "Los tribunales"
+          ]
         },
         {
           "number": 9,
@@ -1997,14 +2045,14 @@
         },
         {
           "number": 13,
-          "text": "Entonces todos oirán lo que ocurrió con el hombre que no quiso aceptar el veredicto de Dios, y tendrán temor y no se atreverán a desafiar otra vez los juicios de la corte.",
-          "headings": [
-            "El rey"
-          ]
+          "text": "Entonces todos oirán lo que ocurrió con el hombre que no quiso aceptar el veredicto de Dios, y tendrán temor y no se atreverán a desafiar otra vez los juicios de la corte."
         },
         {
           "number": 14,
-          "text": "»Cuando llegues a la tierra que el Señor tu Dios te da, y la hayas conquistado, y comiences a pensar: “Debiéramos tener un rey como todas las naciones que nos rodean”,"
+          "text": "»Cuando llegues a la tierra que el Señor tu Dios te da, y la hayas conquistado, y comiences a pensar: “Debiéramos tener un rey como todas las naciones que nos rodean”,",
+          "headings": [
+            "El rey"
+          ]
         },
         {
           "number": 15,
@@ -2037,7 +2085,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Los sacerdotes y los miembros de la tribu de los levitas no tendrán propiedad como las demás tribus. Por lo tanto, los sacerdotes y los levitas deberán vivir de los sacrificios que se llevan al altar del Señor y de las demás ofrendas del pueblo."
+          "text": "»Los sacerdotes y los miembros de la tribu de los levitas no tendrán propiedad como las demás tribus. Por lo tanto, los sacerdotes y los levitas deberán vivir de los sacrificios que se llevan al altar del Señor y de las demás ofrendas del pueblo.",
+          "headings": [
+            "Ofrendas para los sacerdotes levitas"
+          ]
         },
         {
           "number": 2,
@@ -2065,14 +2116,14 @@
         },
         {
           "number": 8,
-          "text": "Tendrá participación de los sacrificios y ofrendas por derecho propio, no como ayuda en caso de necesidad.",
-          "headings": [
-            "Costumbres corrompidas"
-          ]
+          "text": "Tendrá participación de los sacrificios y ofrendas por derecho propio, no como ayuda en caso de necesidad."
         },
         {
           "number": 9,
-          "text": "»Cuando hayas entrado en la tierra que el Señor tu Dios te da, tendrás especial cuidado de no dejarte llevar por las costumbres corrompidas de las naciones que ahora viven allí."
+          "text": "»Cuando hayas entrado en la tierra que el Señor tu Dios te da, tendrás especial cuidado de no dejarte llevar por las costumbres corrompidas de las naciones que ahora viven allí.",
+          "headings": [
+            "Costumbres corrompidas"
+          ]
         },
         {
           "number": 10,
@@ -2088,14 +2139,14 @@
         },
         {
           "number": 13,
-          "text": "Deberás comportarte de manera irreprensible delante del Señor tu Dios.",
-          "headings": [
-            "El profeta"
-          ]
+          "text": "Deberás comportarte de manera irreprensible delante del Señor tu Dios."
         },
         {
           "number": 14,
-          "text": "»Las naciones de cuyo territorio tú te adueñarás practican todas estas maldades; pero el Señor tu Dios no permitirá que tú las practiques también."
+          "text": "»Las naciones de cuyo territorio tú te adueñarás practican todas estas maldades; pero el Señor tu Dios no permitirá que tú las practiques también.",
+          "headings": [
+            "El profeta"
+          ]
         },
         {
           "number": 15,
@@ -2136,7 +2187,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Cuando el Señor tu Dios haya destruido a las naciones cuya tierra vas a ocupar, y las hayas expulsado; cuando estés viviendo en las ciudades y casas que ellos dejen,"
+          "text": "»Cuando el Señor tu Dios haya destruido a las naciones cuya tierra vas a ocupar, y las hayas expulsado; cuando estés viviendo en las ciudades y casas que ellos dejen,",
+          "headings": [
+            "Las ciudades de refugio"
+          ]
         },
         {
           "number": 2,
@@ -2184,14 +2238,14 @@
         },
         {
           "number": 14,
-          "text": "»Cuando entres en la tierra que el Señor tu Dios te da, no cambies los límites de la propiedad de tu prójimo. Esos límites se establecieron desde hace mucho tiempo.",
-          "headings": [
-            "Los testigos requeridos"
-          ]
+          "text": "»Cuando entres en la tierra que el Señor tu Dios te da, no cambies los límites de la propiedad de tu prójimo. Esos límites se establecieron desde hace mucho tiempo."
         },
         {
           "number": 15,
-          "text": "»No condenarás a nadie basado en la palabra de un solo testigo. Debe haber por lo menos dos o tres."
+          "text": "»No condenarás a nadie basado en la palabra de un solo testigo. Debe haber por lo menos dos o tres.",
+          "headings": [
+            "Los testigos requeridos"
+          ]
         },
         {
           "number": 16,
@@ -2224,7 +2278,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Cuando salgas a la guerra y veas delante de ti un gran número de caballos y carros, y un ejército mucho mayor que el tuyo, no tengas miedo. El Señor tu Dios, el mismo Dios que te sacó de Egipto, está contigo."
+          "text": "»Cuando salgas a la guerra y veas delante de ti un gran número de caballos y carros, y un ejército mucho mayor que el tuyo, no tengas miedo. El Señor tu Dios, el mismo Dios que te sacó de Egipto, está contigo.",
+          "headings": [
+            "Instrucciones para la guerra"
+          ]
         },
         {
           "number": 2,
@@ -2309,7 +2366,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Cuando hayas entrado en el territorio que el Señor tu Dios te da, si se encuentra en el campo un cadáver y no se sabe quién ha sido el homicida,"
+          "text": "»Cuando hayas entrado en el territorio que el Señor tu Dios te da, si se encuentra en el campo un cadáver y no se sabe quién ha sido el homicida,",
+          "headings": [
+            "Un caso especial de homicidio"
+          ]
         },
         {
           "number": 2,
@@ -2341,14 +2401,14 @@
         },
         {
           "number": 9,
-          "text": "Quedarás libre de culpa al seguir las instrucciones del Señor .",
-          "headings": [
-            "El matrimonio con prisioneras de guerra"
-          ]
+          "text": "Quedarás libre de culpa al seguir las instrucciones del Señor ."
         },
         {
           "number": 10,
-          "text": "»Cuando salgas a la guerra, y el Señor tu Dios te entregue a tus enemigos en tus manos,"
+          "text": "»Cuando salgas a la guerra, y el Señor tu Dios te entregue a tus enemigos en tus manos,",
+          "headings": [
+            "El matrimonio con prisioneras de guerra"
+          ]
         },
         {
           "number": 11,
@@ -2364,14 +2424,14 @@
         },
         {
           "number": 14,
-          "text": "Sin embargo, si después de casarte con ella te das cuenta de que no te gusta, deberás dejarla libre. No podrás venderla ni tratarla como esclava, por cuanto la has humillado.",
-          "headings": [
-            "El derecho del primogénito"
-          ]
+          "text": "Sin embargo, si después de casarte con ella te das cuenta de que no te gusta, deberás dejarla libre. No podrás venderla ni tratarla como esclava, por cuanto la has humillado."
         },
         {
           "number": 15,
-          "text": "»Si un hombre tiene dos esposas pero sólo ama a una de ellas, y las dos le han dado hijos, y la madre de su primogénito es la que no ama,"
+          "text": "»Si un hombre tiene dos esposas pero sólo ama a una de ellas, y las dos le han dado hijos, y la madre de su primogénito es la que no ama,",
+          "headings": [
+            "El derecho del primogénito"
+          ]
         },
         {
           "number": 16,
@@ -2379,14 +2439,14 @@
         },
         {
           "number": 17,
-          "text": "Debe darle la doble porción acostumbrada al hijo mayor porque es el principio de su vigor, y tiene los derechos de primogenitura aun cuando es el hijo de la esposa que su padre no ama.",
-          "headings": [
-            "Un hijo rebelde"
-          ]
+          "text": "Debe darle la doble porción acostumbrada al hijo mayor porque es el principio de su vigor, y tiene los derechos de primogenitura aun cuando es el hijo de la esposa que su padre no ama."
         },
         {
           "number": 18,
-          "text": "»Si un hombre tiene un hijo soberbio y rebelde que no obedece a su padre ni a su madre aun cuando ellos lo hayan castigado,"
+          "text": "»Si un hombre tiene un hijo soberbio y rebelde que no obedece a su padre ni a su madre aun cuando ellos lo hayan castigado,",
+          "headings": [
+            "Un hijo rebelde"
+          ]
         },
         {
           "number": 19,
@@ -2398,14 +2458,14 @@
         },
         {
           "number": 21,
-          "text": "Entonces los hombres de la ciudad lo apedrearán hasta darle muerte. De esta manera desarraigarás el mal de en medio de ti, y todos los jóvenes de Israel oirán lo ocurrido y tendrán temor.",
-          "headings": [
-            "Diversas leyes"
-          ]
+          "text": "Entonces los hombres de la ciudad lo apedrearán hasta darle muerte. De esta manera desarraigarás el mal de en medio de ti, y todos los jóvenes de Israel oirán lo ocurrido y tendrán temor."
         },
         {
           "number": 22,
-          "text": "»Si un hombre ha cometido un crimen digno de muerte, y se le ejecuta colgándolo de un madero,"
+          "text": "»Si un hombre ha cometido un crimen digno de muerte, y se le ejecuta colgándolo de un madero,",
+          "headings": [
+            "Diversas leyes"
+          ]
         },
         {
           "number": 23,
@@ -2462,14 +2522,14 @@
         },
         {
           "number": 12,
-          "text": "»Harás flecos en las cuatro puntas del manto con que te cubras.",
-          "headings": [
-            "Violación de las reglas matrimoniales"
-          ]
+          "text": "»Harás flecos en las cuatro puntas del manto con que te cubras."
         },
         {
           "number": 13,
-          "text": "»Si un hombre se casa con una muchacha, y después de haber dormido con ella"
+          "text": "»Si un hombre se casa con una muchacha, y después de haber dormido con ella",
+          "headings": [
+            "Violación de las reglas matrimoniales"
+          ]
         },
         {
           "number": 14,
@@ -2544,7 +2604,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»No entrará en la asamblea del Señor ningún hombre cuyos testículos estén magullados o le haya sido amputado el pene."
+          "text": "»No entrará en la asamblea del Señor ningún hombre cuyos testículos estén magullados o le haya sido amputado el pene.",
+          "headings": [
+            "Exclusión de la asamblea"
+          ]
         },
         {
           "number": 2,
@@ -2572,14 +2635,14 @@
         },
         {
           "number": 8,
-          "text": "Los nietos de los egipcios que vinieron contigo desde Egipto pueden entrar en la asamblea del Señor .",
-          "headings": [
-            "Higiene en el campamento"
-          ]
+          "text": "Los nietos de los egipcios que vinieron contigo desde Egipto pueden entrar en la asamblea del Señor ."
         },
         {
           "number": 9,
-          "text": "»Cuando estés en campaña contra el enemigo, los soldados del campamento deben apartarse de todo mal."
+          "text": "»Cuando estés en campaña contra el enemigo, los soldados del campamento deben apartarse de todo mal.",
+          "headings": [
+            "Higiene en el campamento"
+          ]
         },
         {
           "number": 10,
@@ -2599,14 +2662,14 @@
         },
         {
           "number": 14,
-          "text": "El campamento debe mantenerse limpio y santo porque el Señor lo recorre para protegerte y para hacer que tus enemigos caigan delante de ti. No debe haber en él ninguna cosa indecente para que no se aparte el Señor de ti.",
-          "headings": [
-            "Leyes misceláneas"
-          ]
+          "text": "El campamento debe mantenerse limpio y santo porque el Señor lo recorre para protegerte y para hacer que tus enemigos caigan delante de ti. No debe haber en él ninguna cosa indecente para que no se aparte el Señor de ti."
         },
         {
           "number": 15,
-          "text": "»Si un esclavo huye de su amo, no debes forzarlo a regresar;"
+          "text": "»Si un esclavo huye de su amo, no debes forzarlo a regresar;",
+          "headings": [
+            "Leyes misceláneas"
+          ]
         },
         {
           "number": 16,
@@ -2823,7 +2886,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Cuando hayas entrado en la tierra que el Señor tu Dios te ha dado, y la hayas conquistado y estés viviendo en ella,"
+          "text": "»Cuando hayas entrado en la tierra que el Señor tu Dios te ha dado, y la hayas conquistado y estés viviendo en ella,",
+          "headings": [
+            "Diezmos y primicias"
+          ]
         },
         {
           "number": 2,
@@ -2877,14 +2943,14 @@
         },
         {
           "number": 15,
-          "text": "Mira desde tu santa morada en el cielo y bendice a tu pueblo y la tierra que nos has dado tal como prometiste a nuestros antepasados, una tierra de la que fluye leche y miel”.",
-          "headings": [
-            "Exhortación a seguir los mandamientos del Señor"
-          ]
+          "text": "Mira desde tu santa morada en el cielo y bendice a tu pueblo y la tierra que nos has dado tal como prometiste a nuestros antepasados, una tierra de la que fluye leche y miel”."
         },
         {
           "number": 16,
-          "text": "»Obedecerás de todo corazón todos estos mandamientos y ordenanzas que el Señor tu Dios te está dando hoy."
+          "text": "»Obedecerás de todo corazón todos estos mandamientos y ordenanzas que el Señor tu Dios te está dando hoy.",
+          "headings": [
+            "Exhortación a seguir los mandamientos del Señor"
+          ]
         },
         {
           "number": 17,
@@ -2905,7 +2971,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Moisés y los ancianos de Israel le dieron al pueblo estas otras instrucciones:"
+          "text": "Entonces Moisés y los ancianos de Israel le dieron al pueblo estas otras instrucciones:",
+          "headings": [
+            "El altar sobre el monte Ebal"
+          ]
         },
         {
           "number": 2,
@@ -2925,14 +2994,14 @@
         },
         {
           "number": 8,
-          "text": "Escribe todas estas leyes claramente sobre el monumento».",
-          "headings": [
-            "Maldiciones sobre el monte Ebal"
-          ]
+          "text": "Escribe todas estas leyes claramente sobre el monumento»."
         },
         {
           "number": 9,
-          "text": "Entonces Moisés y los levitas se dirigieron a todo el pueblo de Israel diciéndole: «Oye Israel, hoy has llegado a ser el pueblo de Dios,"
+          "text": "Entonces Moisés y los levitas se dirigieron a todo el pueblo de Israel diciéndole: «Oye Israel, hoy has llegado a ser el pueblo de Dios,",
+          "headings": [
+            "Maldiciones sobre el monte Ebal"
+          ]
         },
         {
           "number": 10,
@@ -3009,7 +3078,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Si obedeces completamente todas estas ordenanzas del Señor tu Dios, las leyes que te estoy dando en este día, el Señor te convertirá en la nación más grande del mundo."
+          "text": "»Si obedeces completamente todas estas ordenanzas del Señor tu Dios, las leyes que te estoy dando en este día, el Señor te convertirá en la nación más grande del mundo.",
+          "headings": [
+            "Bendiciones por la obediencia"
+          ]
         },
         {
           "number": 2,
@@ -3047,16 +3119,16 @@
         },
         {
           "number": 14,
-          "text": "Pero cada una de estas bendiciones depende de que no te apartes de ninguna de las leyes que te he dado; y no debes jamás adorar a otros dioses.",
-          "headings": [
-            "Maldiciones por la desobediencia"
-          ]
+          "text": "Pero cada una de estas bendiciones depende de que no te apartes de ninguna de las leyes que te he dado; y no debes jamás adorar a otros dioses."
         },
         {
           "number": 15,
           "text": "»Si no escuchas al Señor tu Dios y no obedeces estas leyes que te doy en este día, todas estas maldiciones vendrán sobre ti: »Maldito sea en la ciudad; maldito sea en el campo. »Maldiciones en las frutas y en el pan. »Maldición de matrices estériles. »Maldición sobre tus cosechas. »Maldiciones sobre la fertilidad de tus ovejas y vacas. »Maldiciones cuando entres; maldiciones cuando salgas.",
           "verseDisplay": "15-19",
-          "endNumber": 19
+          "endNumber": 19,
+          "headings": [
+            "Maldiciones por la desobediencia"
+          ]
         },
         {
           "number": 20,
@@ -3259,7 +3331,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Fue en las llanuras de Moab donde Moisés confirmó el pacto que el Señor había hecho con el pueblo de Israel en el monte Horeb."
+          "text": "Fue en las llanuras de Moab donde Moisés confirmó el pacto que el Señor había hecho con el pueblo de Israel en el monte Horeb.",
+          "headings": [
+            "La renovación del pacto"
+          ]
         },
         {
           "number": 2,
@@ -3378,7 +3453,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "»Cuando te hayan ocurrido todas estas cosas, las bendiciones y las maldiciones que te he enumerado, meditarás acerca de ellas en las naciones a donde el Señor tu Dios te habrá desterrado."
+          "text": "»Cuando te hayan ocurrido todas estas cosas, las bendiciones y las maldiciones que te he enumerado, meditarás acerca de ellas en las naciones a donde el Señor tu Dios te habrá desterrado.",
+          "headings": [
+            "Bendición a causa del arrepentimiento"
+          ]
         },
         {
           "number": 2,
@@ -3412,14 +3490,14 @@
         },
         {
           "number": 10,
-          "text": "Él se alegrará con tu obediencia si sigues los mandamientos escritos en este libro de la ley y si te vuelves al Señor tu Dios con toda tu mente y con todo tu ser.",
-          "headings": [
-            "Elección entre la vida y la muerte"
-          ]
+          "text": "Él se alegrará con tu obediencia si sigues los mandamientos escritos en este libro de la ley y si te vuelves al Señor tu Dios con toda tu mente y con todo tu ser."
         },
         {
           "number": 11,
-          "text": "»Estos mandamientos no están fuera de tu alcance ni son superiores a tus fuerzas como para que no los obedezcas;"
+          "text": "»Estos mandamientos no están fuera de tu alcance ni son superiores a tus fuerzas como para que no los obedezcas;",
+          "headings": [
+            "Elección entre la vida y la muerte"
+          ]
         },
         {
           "number": 12,
@@ -3464,7 +3542,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después que Moisés terminó de decir estas advertencias y consejos al pueblo,"
+          "text": "Después que Moisés terminó de decir estas advertencias y consejos al pueblo,",
+          "headings": [
+            "Josué, sucesor de Moisés"
+          ]
         },
         {
           "number": 2,
@@ -3492,14 +3573,14 @@
         },
         {
           "number": 8,
-          "text": "No tengas miedo porque el Señor irá delante de ti y estará contigo. Él no te desamparará. No temas ni te desanimes».",
-          "headings": [
-            "La lectura de la ley"
-          ]
+          "text": "No tengas miedo porque el Señor irá delante de ti y estará contigo. Él no te desamparará. No temas ni te desanimes»."
         },
         {
           "number": 9,
-          "text": "Moisés, entonces, escribió las leyes que ya había expresado al pueblo y se las entregó a los sacerdotes, los hijos de Leví. Los que tenían a cargo el transporte del cofre que contenía los Diez Mandamientos del Señor . Moisés también se las dio a los ancianos de Israel."
+          "text": "Moisés, entonces, escribió las leyes que ya había expresado al pueblo y se las entregó a los sacerdotes, los hijos de Leví. Los que tenían a cargo el transporte del cofre que contenía los Diez Mandamientos del Señor . Moisés también se las dio a los ancianos de Israel.",
+          "headings": [
+            "La lectura de la ley"
+          ]
         },
         {
           "number": 10,
@@ -3513,14 +3594,14 @@
         },
         {
           "number": 13,
-          "text": "Hagan esto para que los hijos de ustedes que no conocen estas leyes las oigan y aprendan a temer al Señor su Dios mientras vivan en la Tierra prometida».",
-          "headings": [
-            "Predicción de la rebeldía de Israel"
-          ]
+          "text": "Hagan esto para que los hijos de ustedes que no conocen estas leyes las oigan y aprendan a temer al Señor su Dios mientras vivan en la Tierra prometida»."
         },
         {
           "number": 14,
-          "text": "Luego el Señor dijo a Moisés: «Ha llegado el momento en que debes morir. Llama a Josué y entra en el santuario para que pueda darle las instrucciones». Moisés y Josué entraron y estuvieron de pie delante del Señor ."
+          "text": "Luego el Señor dijo a Moisés: «Ha llegado el momento en que debes morir. Llama a Josué y entra en el santuario para que pueda darle las instrucciones». Moisés y Josué entraron y estuvieron de pie delante del Señor .",
+          "headings": [
+            "Predicción de la rebeldía de Israel"
+          ]
         },
         {
           "number": 15,
@@ -3775,14 +3856,14 @@
         },
         {
           "number": 47,
-          "text": "Estas leyes no son sólo palabras, son tu vida. Si las obedecen podrán vivir una vida larga y próspera en la tierra que entrarán a poseer al otro lado del Jordán».",
-          "headings": [
-            "Anuncio de la muerte de Moisés"
-          ]
+          "text": "Estas leyes no son sólo palabras, son tu vida. Si las obedecen podrán vivir una vida larga y próspera en la tierra que entrarán a poseer al otro lado del Jordán»."
         },
         {
           "number": 48,
-          "text": "Ese mismo día el Señor le dijo a Moisés:"
+          "text": "Ese mismo día el Señor le dijo a Moisés:",
+          "headings": [
+            "Anuncio de la muerte de Moisés"
+          ]
         },
         {
           "number": 49,
@@ -3807,7 +3888,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Esta es la bendición que Moisés, varón de Dios, dio al pueblo de Israel antes de morir:"
+          "text": "Esta es la bendición que Moisés, varón de Dios, dio al pueblo de Israel antes de morir:",
+          "headings": [
+            "Moisés bendice las tribus"
+          ]
         },
         {
           "number": 2,
@@ -3928,7 +4012,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Moisés subió desde las llanuras de Moab a la cumbre del Pisgá en el monte Nebo, al otro lado de Jericó. Y el Señor le mostró la tierra entera mientras recorría con la vista todo el territorio de Galaad hasta llegar a alcanzar al de Dan:"
+          "text": "Entonces Moisés subió desde las llanuras de Moab a la cumbre del Pisgá en el monte Nebo, al otro lado de Jericó. Y el Señor le mostró la tierra entera mientras recorría con la vista todo el territorio de Galaad hasta llegar a alcanzar al de Dan:",
+          "headings": [
+            "Muerte de Moisés"
+          ]
         },
         {
           "number": 2,

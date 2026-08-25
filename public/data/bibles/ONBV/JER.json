@@ -17,14 +17,14 @@
         },
         {
           "number": 3,
-          "text": "Recibió otros durante el reinado de Joacim, hijo de Josías, rey de Judá, y posteriormente en diversas ocasiones hasta el mes de julio en el año once del reinado de Sedequías, hijo de Josías, rey de Judá, cuando la población de Jerusalén fue llevada cautiva a Babilonia.",
-          "headings": [
-            "Llamamiento de Jeremías"
-          ]
+          "text": "Recibió otros durante el reinado de Joacim, hijo de Josías, rey de Judá, y posteriormente en diversas ocasiones hasta el mes de julio en el año once del reinado de Sedequías, hijo de Josías, rey de Judá, cuando la población de Jerusalén fue llevada cautiva a Babilonia."
         },
         {
           "number": 4,
-          "text": "El Señor me dijo:"
+          "text": "El Señor me dijo:",
+          "headings": [
+            "Llamamiento de Jeremías"
+          ]
         },
         {
           "number": 5,
@@ -93,7 +93,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Me habló nuevamente el Señor y dijo:"
+          "text": "Me habló nuevamente el Señor y dijo:",
+          "headings": [
+            "Israel abandona a Dios"
+          ]
         },
         {
           "number": 2,
@@ -254,14 +257,14 @@
           "number": 4,
           "text": "Y sin embargo me dices: «¡Oh Padre, tú siempre has sido amigo mío, de seguro no estarás enojado por una pequeñez así, de seguro la olvidarás!». Eso dices y prosigues haciendo todo el mal que puedes. Se han acumulado sin fin los delitos que has cometido.",
           "verseDisplay": "4-5",
-          "endNumber": 5,
-          "headings": [
-            "La infidelidad de Israel"
-          ]
+          "endNumber": 5
         },
         {
           "number": 6,
-          "text": "Este comunicado del Señor me llegó durante el reinado del rey Josías: ¿Has visto lo que hace Israel? Se comporta como esposa infiel que se entrega a otros hombres cada vez que puede, pues es semejante lo que hace Israel al rendirle homenaje a otros dioses en cualquier colina, debajo de cada árbol frondoso."
+          "text": "Este comunicado del Señor me llegó durante el reinado del rey Josías: ¿Has visto lo que hace Israel? Se comporta como esposa infiel que se entrega a otros hombres cada vez que puede, pues es semejante lo que hace Israel al rendirle homenaje a otros dioses en cualquier colina, debajo de cada árbol frondoso.",
+          "headings": [
+            "La infidelidad de Israel"
+          ]
         },
         {
           "number": 7,
@@ -358,14 +361,14 @@
         },
         {
           "number": 4,
-          "text": "Dediquen al Señor su mente y corazón, y no sólo su cuerpo como lo simbolizan al cortar parte de la piel del pene, o de otro modo mi cólera se encenderá y con ella los castigaré tanto que parecerá como un incendio que no se puede apagar.",
-          "headings": [
-            "La infidelidad de Israel"
-          ]
+          "text": "Dediquen al Señor su mente y corazón, y no sólo su cuerpo como lo simbolizan al cortar parte de la piel del pene, o de otro modo mi cólera se encenderá y con ella los castigaré tanto que parecerá como un incendio que no se puede apagar."
         },
         {
           "number": 5,
-          "text": "Grítenle a la gente de Jerusalén y Judea que den la alarma por todo el país y se comunique por todos lados: «¡Huyan para salvarse! ¡Refúgiense en los edificios más seguros de cada ciudad!»."
+          "text": "Grítenle a la gente de Jerusalén y Judea que den la alarma por todo el país y se comunique por todos lados: «¡Huyan para salvarse! ¡Refúgiense en los edificios más seguros de cada ciudad!».",
+          "headings": [
+            "La infidelidad de Israel"
+          ]
         },
         {
           "number": 6,
@@ -476,7 +479,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Corran arriba y abajo por todas las calles de Jerusalén; busquen con cuidado por todas partes para ver si pueden hallar siquiera una persona justa y honrada! Si encuentran aunque sea una, no destruiré la ciudad."
+          "text": "¡Corran arriba y abajo por todas las calles de Jerusalén; busquen con cuidado por todas partes para ver si pueden hallar siquiera una persona justa y honrada! Si encuentran aunque sea una, no destruiré la ciudad.",
+          "headings": [
+            "La corrupción de Jerusalén y de Judá"
+          ]
         },
         {
           "number": 2,
@@ -603,7 +609,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Corre, pueblo de Benjamín, sálvese quien pueda! ¡Huyan de Jerusalén! ¡Toquen alarma en el pueblo de Tecoa, envíen señales desde Bet Haqueren, adviertan a todos que desde el norte viene un poderoso ejército para destruir esta nación!"
+          "text": "¡Corre, pueblo de Benjamín, sálvese quien pueda! ¡Huyan de Jerusalén! ¡Toquen alarma en el pueblo de Tecoa, envíen señales desde Bet Haqueren, adviertan a todos que desde el norte viene un poderoso ejército para destruir esta nación!",
+          "headings": [
+            "Jerusalén es sitiada"
+          ]
         },
         {
           "number": 2,
@@ -726,7 +735,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego le dijo el Señor a Jeremías:"
+          "text": "Luego le dijo el Señor a Jeremías:",
+          "headings": [
+            "La religión falsa e inútil"
+          ]
         },
         {
           "number": 2,
@@ -843,14 +855,14 @@
         },
         {
           "number": 29,
-          "text": "¡Oh Jerusalén, rápate la cabeza en señal de vergüenza y llora solitaria sobre los montes, porque el Señor ha rechazado y abandonado a este pueblo, quien ha provocado su enojo!",
-          "headings": [
-            "El valle de la Matanza"
-          ]
+          "text": "¡Oh Jerusalén, rápate la cabeza en señal de vergüenza y llora solitaria sobre los montes, porque el Señor ha rechazado y abandonado a este pueblo, quien ha provocado su enojo!"
         },
         {
           "number": 30,
-          "text": "Porque el pueblo de Judá ha actuado de muy mala manera, dice el Señor . Han colocado sus feos ídolos en mi propio templo, deshonrándolo."
+          "text": "Porque el pueblo de Judá ha actuado de muy mala manera, dice el Señor . Han colocado sus feos ídolos en mi propio templo, deshonrándolo.",
+          "headings": [
+            "El valle de la Matanza"
+          ]
         },
         {
           "number": 31,
@@ -883,16 +895,16 @@
         },
         {
           "number": 3,
-          "text": "Y los que de esta malvada nación queden aún con vida anhelarán la muerte antes que vivir en donde yo los dejaré abandonados, dice el Señor de los ejércitos.",
-          "headings": [
-            "Pecado y castigo"
-          ]
+          "text": "Y los que de esta malvada nación queden aún con vida anhelarán la muerte antes que vivir en donde yo los dejaré abandonados, dice el Señor de los ejércitos."
         },
         {
           "number": 4,
           "text": "Y dales también este mensaje del Señor : Cuando alguien cae se levanta inmediatamente. Cuando va por senda equivocada y descubre su error, retrocede al punto donde se equivocó. Pero este pueblo sigue actuando equivocadamente, por más que yo lo prevenga. No quieren cambiar, aferrándose a su conducta idolátrica.",
           "verseDisplay": "4-5",
-          "endNumber": 5
+          "endNumber": 5,
+          "headings": [
+            "Pecado y castigo"
+          ]
         },
         {
           "number": 6,
@@ -1074,7 +1086,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Escucha el mensaje del Señor , Israel:"
+          "text": "Escucha el mensaje del Señor , Israel:",
+          "headings": [
+            "Dios y los ídolos"
+          ]
         },
         {
           "number": 2,
@@ -1132,14 +1147,14 @@
         },
         {
           "number": 16,
-          "text": "¡Qué diferente es el Dios de Jacob, él es el Creador de todo, e Israel es su nación elegida. Señor de los ejércitos es su nombre.",
-          "headings": [
-            "Destrucción inminente"
-          ]
+          "text": "¡Qué diferente es el Dios de Jacob, él es el Creador de todo, e Israel es su nación elegida. Señor de los ejércitos es su nombre."
         },
         {
           "number": 17,
-          "text": "Alisten el equipaje, dice, prepárense para partir, pronto comenzará el asedio."
+          "text": "Alisten el equipaje, dice, prepárense para partir, pronto comenzará el asedio.",
+          "headings": [
+            "Destrucción inminente"
+          ]
         },
         {
           "number": 18,
@@ -1159,14 +1174,14 @@
         },
         {
           "number": 22,
-          "text": "¡Oigan, escuchen el terrible escándalo que producen los ejércitos que vienen desde el norte! Las ciudades de Judá quedarán convertidas en guaridas de chacales.",
-          "headings": [
-            "Oración de Jeremías"
-          ]
+          "text": "¡Oigan, escuchen el terrible escándalo que producen los ejércitos que vienen desde el norte! Las ciudades de Judá quedarán convertidas en guaridas de chacales."
         },
         {
           "number": 23,
-          "text": "¡Oh Señor , yo sé que no está en manos del ser humano trazar el plan de su vida y ponerle rumbo!"
+          "text": "¡Oh Señor , yo sé que no está en manos del ser humano trazar el plan de su vida y ponerle rumbo!",
+          "headings": [
+            "Oración de Jeremías"
+          ]
         },
         {
           "number": 24,
@@ -1183,7 +1198,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego volvió el Señor a hablarle a Jeremías:"
+          "text": "Luego volvió el Señor a hablarle a Jeremías:",
+          "headings": [
+            "Violación del pacto"
+          ]
         },
         {
           "number": 2,
@@ -1276,7 +1294,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Señor , tú siempre me haces justicia cuando te presento mis quejas. Deja que te presente ahora una más: ¿Por qué prosperan tanto los malvados? ¿Por qué son tan felices los traidores?"
+          "text": "Señor , tú siempre me haces justicia cuando te presento mis quejas. Deja que te presente ahora una más: ¿Por qué prosperan tanto los malvados? ¿Por qué son tan felices los traidores?",
+          "headings": [
+            "Queja de Jeremías"
+          ]
         },
         {
           "number": 2,
@@ -1288,14 +1309,14 @@
         },
         {
           "number": 4,
-          "text": "¿Hasta cuando tendrá esta tierra tuya que soportar la conducta de ellos? ¡Aun la hierba del campo tiene que pagar las consecuencias por las perversidades que ellos cometen! Las bestias y aves silvestres han huido, dejando desierta la tierra. Sin embargo, el pueblo dice: «Dios no nos llevará a juicio. Estamos completamente a salvo».",
-          "headings": [
-            "Respuesta de Dios"
-          ]
+          "text": "¿Hasta cuando tendrá esta tierra tuya que soportar la conducta de ellos? ¡Aun la hierba del campo tiene que pagar las consecuencias por las perversidades que ellos cometen! Las bestias y aves silvestres han huido, dejando desierta la tierra. Sin embargo, el pueblo dice: «Dios no nos llevará a juicio. Estamos completamente a salvo»."
         },
         {
           "number": 5,
-          "text": "El Señor me respondió: Si el competir en la carrera con simples hombres —los de Anatot— te ha cansado, ¿cómo vas a competir contra caballos, contra el rey, su corte y todos sus malvados sacerdotes? Si en tierra pareja tropiezas y caes, ¿qué harás en las selvas del río Jordán?"
+          "text": "El Señor me respondió: Si el competir en la carrera con simples hombres —los de Anatot— te ha cansado, ¿cómo vas a competir contra caballos, contra el rey, su corte y todos sus malvados sacerdotes? Si en tierra pareja tropiezas y caes, ¿qué harás en las selvas del río Jordán?",
+          "headings": [
+            "Respuesta de Dios"
+          ]
         },
         {
           "number": 6,
@@ -1352,7 +1373,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor me dijo: Ve y cómprate un cinturón de lino y cíñete con él, pero no lo laves, no lo metas en el agua."
+          "text": "El Señor me dijo: Ve y cómprate un cinturón de lino y cíñete con él, pero no lo laves, no lo metas en el agua.",
+          "headings": [
+            "El cinturón de lino"
+          ]
         },
         {
           "number": 2,
@@ -1390,14 +1414,14 @@
         },
         {
           "number": 11,
-          "text": "Como el cinturón se ciñe a la cintura de una persona, hice que Judá e Israel se ciñeran a mí, con la idea de que fueran mi orgullo, lo más valioso para mí, dice el Señor . Eran mi pueblo, quienes le daban fama a mi nombre. Pero se desviaron.",
-          "headings": [
-            "Los cántaros rotos"
-          ]
+          "text": "Como el cinturón se ciñe a la cintura de una persona, hice que Judá e Israel se ciñeran a mí, con la idea de que fueran mi orgullo, lo más valioso para mí, dice el Señor . Eran mi pueblo, quienes le daban fama a mi nombre. Pero se desviaron."
         },
         {
           "number": 12,
-          "text": "Diles esto: «El Señor Dios de Israel les dice este refrán: Todas sus jarras se pueden llenar con vino». Y ellos responderán: «Desde luego, no hay para qué decirnos que toda jarra puede ser llena con vino»."
+          "text": "Diles esto: «El Señor Dios de Israel les dice este refrán: Todas sus jarras se pueden llenar con vino». Y ellos responderán: «Desde luego, no hay para qué decirnos que toda jarra puede ser llena con vino».",
+          "headings": [
+            "Los cántaros rotos"
+          ]
         },
         {
           "number": 13,
@@ -1405,14 +1429,14 @@
         },
         {
           "number": 14,
-          "text": "A hijos y a padres estrellaré unos contra otros, dice el Señor . No dejaré que la lástima ni la misericordia los salve de la ruina total.",
-          "headings": [
-            "Advertencia oportuna"
-          ]
+          "text": "A hijos y a padres estrellaré unos contra otros, dice el Señor . No dejaré que la lástima ni la misericordia los salve de la ruina total."
         },
         {
           "number": 15,
-          "text": "¡Ay, si no fueran tan orgullosos y tercos! Entonces pondrían atención al Señor cuando les habla."
+          "text": "¡Ay, si no fueran tan orgullosos y tercos! Entonces pondrían atención al Señor cuando les habla.",
+          "headings": [
+            "Advertencia oportuna"
+          ]
         },
         {
           "number": 16,
@@ -1467,7 +1491,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este mensaje del Señor le vino a Jeremías como explicación de la sequía que había llegado."
+          "text": "Este mensaje del Señor le vino a Jeremías como explicación de la sequía que había llegado.",
+          "headings": [
+            "Sequía, hambre y espada"
+          ]
         },
         {
           "number": 2,
@@ -1645,7 +1672,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En otra ocasión me habló nuevamente el Señor y me dijo:"
+          "text": "En otra ocasión me habló nuevamente el Señor y me dijo:",
+          "headings": [
+            "Mensaje de juicio"
+          ]
         },
         {
           "number": 2,
@@ -1798,14 +1828,14 @@
         },
         {
           "number": 18,
-          "text": "Acarréales confusión y congojas a cuantos me persiguen, y a mí dame paz. ¡Sí, doble destrucción para ellos!",
-          "headings": [
-            "La observancia del sábado"
-          ]
+          "text": "Acarréales confusión y congojas a cuantos me persiguen, y a mí dame paz. ¡Sí, doble destrucción para ellos!"
         },
         {
           "number": 19,
-          "text": "Entonces el Señor me dijo: Ve y ponte de pie ante las puertas de la ciudad de Jerusalén, primero ante la puerta por donde entra y sale el rey, y luego ante cada una de las otras,"
+          "text": "Entonces el Señor me dijo: Ve y ponte de pie ante las puertas de la ciudad de Jerusalén, primero ante la puerta por donde entra y sale el rey, y luego ante cada una de las otras,",
+          "headings": [
+            "La observancia del sábado"
+          ]
         },
         {
           "number": 20,
@@ -1844,7 +1874,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Otro mensaje que Jeremías recibió del Señor :"
+          "text": "Otro mensaje que Jeremías recibió del Señor :",
+          "headings": [
+            "Parábola del alfarero"
+          ]
         },
         {
           "number": 2,
@@ -2006,7 +2039,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces, cuando Pasur, hijo de Imer, sacerdote encargado del templo del Señor , oyó lo que Jeremías decía,"
+          "text": "Entonces, cuando Pasur, hijo de Imer, sacerdote encargado del templo del Señor , oyó lo que Jeremías decía,",
+          "headings": [
+            "Jeremías y Pasur"
+          ]
         },
         {
           "number": 2,
@@ -2026,14 +2062,14 @@
         },
         {
           "number": 6,
-          "text": "En cuanto a ti, Pasur, todos los de tu casa y parentela serán esclavos en Babilonia y allí morirán; tú y aquellos a quienes engañaste profetizando que todo saldría bien.",
-          "headings": [
-            "Quejas de Jeremías"
-          ]
+          "text": "En cuanto a ti, Pasur, todos los de tu casa y parentela serán esclavos en Babilonia y allí morirán; tú y aquellos a quienes engañaste profetizando que todo saldría bien."
         },
         {
           "number": 7,
-          "text": "Entonces dije: ¡Oh Señor , me sedujiste y no puse resistencia! Me veo forzado a darles tus mensajes porque tú eres más fuerte que yo, pero ahora soy el hazmerreír de la ciudad, todo el mundo se burla de mí."
+          "text": "Entonces dije: ¡Oh Señor , me sedujiste y no puse resistencia! Me veo forzado a darles tus mensajes porque tú eres más fuerte que yo, pero ahora soy el hazmerreír de la ciudad, todo el mundo se burla de mí.",
+          "headings": [
+            "Quejas de Jeremías"
+          ]
         },
         {
           "number": 8,
@@ -2086,7 +2122,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces el rey Sedequías envió a Pasur, hijo de Malquías, y a Sofonías, hijo de Maseías, a Jeremías y le rogaron: ―Pídele al Señor que nos ayude, porque Nabucodonosor, rey de Babilonia, nos ha declarado la guerra."
+          "text": "Entonces el rey Sedequías envió a Pasur, hijo de Malquías, y a Sofonías, hijo de Maseías, a Jeremías y le rogaron: ―Pídele al Señor que nos ayude, porque Nabucodonosor, rey de Babilonia, nos ha declarado la guerra.",
+          "headings": [
+            "Dios rechaza la petición de Sedequías"
+          ]
         },
         {
           "number": 2,
@@ -2145,7 +2184,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego el Señor me dijo: Ve a hablarle directamente al rey de Judá y dile:"
+          "text": "Luego el Señor me dijo: Ve a hablarle directamente al rey de Judá y dile:",
+          "headings": [
+            "Juicio contra reyes malvados"
+          ]
         },
         {
           "number": 2,
@@ -2268,7 +2310,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Son unos desgraciados los pastores que dejan que sus ovejas se pierdan o las dejan abandonadas ante el peligro!, dice el Señor"
+          "text": "¡Son unos desgraciados los pastores que dejan que sus ovejas se pierdan o las dejan abandonadas ante el peligro!, dice el Señor",
+          "headings": [
+            "El Rey justo"
+          ]
         },
         {
           "number": 2,
@@ -2296,14 +2341,14 @@
         },
         {
           "number": 8,
-          "text": "sino que se dirá: «Por el Señor que desde los países del norte donde los había desterrado trajo a los israelitas de regreso a su patria Israel».",
-          "headings": [
-            "Profetas mentirosos"
-          ]
+          "text": "sino que se dirá: «Por el Señor que desde los países del norte donde los había desterrado trajo a los israelitas de regreso a su patria Israel»."
         },
         {
           "number": 9,
-          "text": "Tengo el corazón lleno de dolor, me siento debilitado y confundido como un borracho que es tardo en reaccionar por causa del espantoso destino que les espera a los falsos profetas, porque el Señor ha pronunciado contra ellos palabras terribles de castigo."
+          "text": "Tengo el corazón lleno de dolor, me siento debilitado y confundido como un borracho que es tardo en reaccionar por causa del espantoso destino que les espera a los falsos profetas, porque el Señor ha pronunciado contra ellos palabras terribles de castigo.",
+          "headings": [
+            "Profetas mentirosos"
+          ]
         },
         {
           "number": 10,
@@ -2395,14 +2440,14 @@
         },
         {
           "number": 32,
-          "text": "Sus sueños inventados son descaradas mentiras que inducen a mi pueblo a cometer maldades. Yo no los envié y no tienen mensaje alguno para mi pueblo, dice el Señor .",
-          "headings": [
-            "Profecías falsas"
-          ]
+          "text": "Sus sueños inventados son descaradas mentiras que inducen a mi pueblo a cometer maldades. Yo no los envié y no tienen mensaje alguno para mi pueblo, dice el Señor ."
         },
         {
           "number": 33,
-          "text": "Cuando alguien del pueblo o uno de sus «profetas» o sacerdotes te pregunten: «Anda Jeremías, ¿qué tristes noticias del Señor tienes hoy?», les responderás: «¿Qué tristes noticias? ¡Ustedes son las tristes noticias, porque el Señor los ha reprobado!»."
+          "text": "Cuando alguien del pueblo o uno de sus «profetas» o sacerdotes te pregunten: «Anda Jeremías, ¿qué tristes noticias del Señor tienes hoy?», les responderás: «¿Qué tristes noticias? ¡Ustedes son las tristes noticias, porque el Señor los ha reprobado!».",
+          "headings": [
+            "Profecías falsas"
+          ]
         },
         {
           "number": 34,
@@ -2437,7 +2482,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después que Nabucodonosor, el rey de Babilonia, capturó y sometió a esclavitud a Jeconías, hijo de Joacim, rey de Judá, y lo llevó prisionero a Babilonia junto con los príncipes de Judá y los obreros calificados —carpinteros y herreros—, el Señor me dio otra visión."
+          "text": "Después que Nabucodonosor, el rey de Babilonia, capturó y sometió a esclavitud a Jeconías, hijo de Joacim, rey de Judá, y lo llevó prisionero a Babilonia junto con los príncipes de Judá y los obreros calificados —carpinteros y herreros—, el Señor me dio otra visión.",
+          "headings": [
+            "Dos canastas de higos"
+          ]
         },
         {
           "number": 2,
@@ -2480,7 +2528,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El siguiente mensaje del Señor para todo el pueblo de Judá le fue dado a Jeremías en el cuarto año del reinado del rey Joacim de Judá, hijo de Josías. Este fue el año que comenzó a reinar Nabucodonosor como rey de Babilonia."
+          "text": "El siguiente mensaje del Señor para todo el pueblo de Judá le fue dado a Jeremías en el cuarto año del reinado del rey Joacim de Judá, hijo de Josías. Este fue el año que comenzó a reinar Nabucodonosor como rey de Babilonia.",
+          "headings": [
+            "Setenta años de cautiverio"
+          ]
         },
         {
           "number": 2,
@@ -2631,7 +2682,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Vino a Jeremías este mensaje de parte del Señor durante el primer año del reinado de Joacim, hijo de Josías, rey de Judá:"
+          "text": "Vino a Jeremías este mensaje de parte del Señor durante el primer año del reinado de Joacim, hijo de Josías, rey de Judá:",
+          "headings": [
+            "Jeremías bajo amenaza de muerte"
+          ]
         },
         {
           "number": 2,
@@ -2731,6 +2785,9 @@
         {
           "number": 1,
           "text": "Este mensaje del Señor recibió Jeremías al comienzo del reinado de Joacim, hijo de Josías, rey de Judá:",
+          "headings": [
+            "Parábola del yugo"
+          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -2824,7 +2881,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cierto día de diciembre del mismo año —el cuarto año del reinado de Sedequías, rey de Judá— Jananías, hijo de Azur, un falso profeta de Gabaón, habló en público en el templo cuando todos los sacerdotes y el pueblo escuchaban, y dijo:"
+          "text": "Cierto día de diciembre del mismo año —el cuarto año del reinado de Sedequías, rey de Judá— Jananías, hijo de Azur, un falso profeta de Gabaón, habló en público en el templo cuando todos los sacerdotes y el pueblo escuchaban, y dijo:",
+          "headings": [
+            "Jananías, el falso profeta"
+          ]
         },
         {
           "number": 2,
@@ -2897,7 +2957,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después que fueron llevados cautivos por Nabucodonosor a Babilonia el rey Jeconías, la reina madre, los dignatarios de la corte, los jefes de las tribus y los obreros calificados,"
+          "text": "Después que fueron llevados cautivos por Nabucodonosor a Babilonia el rey Jeconías, la reina madre, los dignatarios de la corte, los jefes de las tribus y los obreros calificados,",
+          "headings": [
+            "Carta a los exiliados"
+          ]
         },
         {
           "number": 2,
@@ -2983,14 +3046,14 @@
         },
         {
           "number": 23,
-          "text": "Porque estos hombres han hecho algo terrible en mi pueblo. Han cometido adulterio con las esposas de sus vecinos y han mentido usando mi nombre. Lo sé bien, porque he visto todo cuanto hacen, dice el Señor ».",
-          "headings": [
-            "Mensaje de Semaías"
-          ]
+          "text": "Porque estos hombres han hecho algo terrible en mi pueblo. Han cometido adulterio con las esposas de sus vecinos y han mentido usando mi nombre. Lo sé bien, porque he visto todo cuanto hacen, dice el Señor »."
         },
         {
           "number": 24,
-          "text": "«Y díganle esto a Semaías, el nejelamita (que significa “soñador”):"
+          "text": "«Y díganle esto a Semaías, el nejelamita (que significa “soñador”):",
+          "headings": [
+            "Mensaje de Semaías"
+          ]
         },
         {
           "number": 25,
@@ -3031,7 +3094,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este es otro de los mensajes del Señor a Jeremías:"
+          "text": "Este es otro de los mensajes del Señor a Jeremías:",
+          "headings": [
+            "Restauración de Israel"
+          ]
         },
         {
           "number": 2,
@@ -3297,7 +3363,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El Señor dio a Jeremías el siguiente mensaje el décimo año del reinado de Sedequías, rey de Judá (decimoctavo año del reinado de Nabucodonosor),"
+          "text": "El Señor dio a Jeremías el siguiente mensaje el décimo año del reinado de Sedequías, rey de Judá (decimoctavo año del reinado de Nabucodonosor),",
+          "headings": [
+            "Parábola del terreno"
+          ]
         },
         {
           "number": 2,
@@ -3474,7 +3543,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estaba Jeremías aún en la cárcel cuando el Señor le envió este otro mensaje:"
+          "text": "Estaba Jeremías aún en la cárcel cuando el Señor le envió este otro mensaje:",
+          "headings": [
+            "Promesas de restauración"
+          ]
         },
         {
           "number": 2,
@@ -3577,7 +3649,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este es el mensaje del Señor que llegó a Jeremías cuando Nabucodonosor, rey de Babilonia, y todos sus ejércitos de todos los reinos que gobernaba, llegaron a combatir contra Jerusalén y las ciudades de Judá:"
+          "text": "Este es el mensaje del Señor que llegó a Jeremías cuando Nabucodonosor, rey de Babilonia, y todos sus ejércitos de todos los reinos que gobernaba, llegaron a combatir contra Jerusalén y las ciudades de Judá:",
+          "headings": [
+            "Advertencia al rey Sedequías"
+          ]
         },
         {
           "number": 2,
@@ -3601,14 +3676,14 @@
         },
         {
           "number": 7,
-          "text": "Por entonces el ejército babilónico sitiaba a Jerusalén, Laquis y Azeca, las únicas ciudades amuralladas de Judá que aún quedaban en pie.",
-          "headings": [
-            "Liberación para los esclavos"
-          ]
+          "text": "Por entonces el ejército babilónico sitiaba a Jerusalén, Laquis y Azeca, las únicas ciudades amuralladas de Judá que aún quedaban en pie."
         },
         {
           "number": 8,
-          "text": "Este es el mensaje del Señor que llegó a Jeremías después de que el rey Sedequías de Judá había libertado a todos los esclavos de Jerusalén."
+          "text": "Este es el mensaje del Señor que llegó a Jeremías después de que el rey Sedequías de Judá había libertado a todos los esclavos de Jerusalén.",
+          "headings": [
+            "Liberación para los esclavos"
+          ]
         },
         {
           "number": 9,
@@ -3671,7 +3746,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este es el mensaje que el Señor dio a Jeremías cuando Joacim, hijo de Josías, era rey de Judá:"
+          "text": "Este es el mensaje que el Señor dio a Jeremías cuando Joacim, hijo de Josías, era rey de Judá:",
+          "headings": [
+            "El ejemplo de los recabitas"
+          ]
         },
         {
           "number": 2,
@@ -3750,7 +3828,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El cuarto año del reinado del rey Joacim de Judá, hijo de Josías, el Señor dio a Jeremías este mensaje:"
+          "text": "El cuarto año del reinado del rey Joacim de Judá, hijo de Josías, el Señor dio a Jeremías este mensaje:",
+          "headings": [
+            "El rey Joacim quema el rollo de Jeremías"
+          ]
         },
         {
           "number": 2,
@@ -3879,7 +3960,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Nabucodonosor, rey de Babilonia, no nombró a Jeconías, hijo del rey Joacim, como nuevo rey de Judá, sino que eligió a Sedequías, hijo de Josías."
+          "text": "Nabucodonosor, rey de Babilonia, no nombró a Jeconías, hijo del rey Joacim, como nuevo rey de Judá, sino que eligió a Sedequías, hijo de Josías.",
+          "headings": [
+            "Encarcelamiento de Jeremías"
+          ]
         },
         {
           "number": 2,
@@ -3966,7 +4050,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero cuando Sefatías, hijo de Matán, Guedalías, hijo de Pasur, Jucal, hijo de Selemías, y Pasur, hijo de Malquías, oyeron lo que Jeremías le había estado diciendo al pueblo,"
+          "text": "Pero cuando Sefatías, hijo de Matán, Guedalías, hijo de Pasur, Jucal, hijo de Selemías, y Pasur, hijo de Malquías, oyeron lo que Jeremías le había estado diciendo al pueblo,",
+          "headings": [
+            "Jeremías en la cisterna"
+          ]
         },
         {
           "number": 2,
@@ -4014,14 +4101,14 @@
         },
         {
           "number": 13,
-          "text": "lo izaron y después lo llevaron a la cárcel del palacio, en donde permaneció.",
-          "headings": [
-            "Sedequías interroga a Jeremías"
-          ]
+          "text": "lo izaron y después lo llevaron a la cárcel del palacio, en donde permaneció."
         },
         {
           "number": 14,
-          "text": "Un día el rey Sedequías envió a llamar a Jeremías para reunirse con él en la puerta lateral del templo. ―Quiero preguntarte algo —dijo el rey—. No trates de ocultarme la verdad."
+          "text": "Un día el rey Sedequías envió a llamar a Jeremías para reunirse con él en la puerta lateral del templo. ―Quiero preguntarte algo —dijo el rey—. No trates de ocultarme la verdad.",
+          "headings": [
+            "Sedequías interroga a Jeremías"
+          ]
         },
         {
           "number": 15,
@@ -4084,7 +4171,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Fue en enero del noveno año del reinado del rey Sedequías de Judá que el rey Nabucodonosor y su ejército volvieron a atacar a Jerusalén y la sitiaron."
+          "text": "Fue en enero del noveno año del reinado del rey Sedequías de Judá que el rey Nabucodonosor y su ejército volvieron a atacar a Jerusalén y la sitiaron.",
+          "headings": [
+            "La caída de Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -4159,7 +4249,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Nabuzaradán, capitán de la guardia, llevó a Jeremías a Ramá junto con todo el pueblo exiliado de Jerusalén y Judá que eran enviados a Babilonia, pero luego lo soltó."
+          "text": "Nabuzaradán, capitán de la guardia, llevó a Jeremías a Ramá junto con todo el pueblo exiliado de Jerusalén y Judá que eran enviados a Babilonia, pero luego lo soltó.",
+          "headings": [
+            "Liberación de Jeremías"
+          ]
         },
         {
           "number": 2,
@@ -4177,14 +4270,14 @@
         },
         {
           "number": 6,
-          "text": "Jeremías volvió entonces a donde estaba Guedalías y vivió en Judá con el pueblo que se había quedado en el país.",
-          "headings": [
-            "Asesinato de Guedalías"
-          ]
+          "text": "Jeremías volvió entonces a donde estaba Guedalías y vivió en Judá con el pueblo que se había quedado en el país."
         },
         {
           "number": 7,
-          "text": "Y cuando los jefes de los guerrilleros judíos que andaban por el campo oyeron que el rey de Babilonia había nombrado a Guedalías gobernador de los pobres de la tierra que se habían quedado, y no había exiliado a todos a Babilonia,"
+          "text": "Y cuando los jefes de los guerrilleros judíos que andaban por el campo oyeron que el rey de Babilonia había nombrado a Guedalías gobernador de los pobres de la tierra que se habían quedado, y no había exiliado a todos a Babilonia,",
+          "headings": [
+            "Asesinato de Guedalías"
+          ]
         },
         {
           "number": 8,
@@ -4281,16 +4374,16 @@
         },
         {
           "number": 15,
-          "text": "Mientras tanto Ismael escapó con ocho de sus hombres a la tierra de los amonitas.",
-          "headings": [
-            "Huida a Egipto"
-          ]
+          "text": "Mientras tanto Ismael escapó con ocho de sus hombres a la tierra de los amonitas."
         },
         {
           "number": 16,
           "text": "Entonces Johanán y sus hombres fueron al pueblo de Guerut Quimán, cerca de Belén, llevando consigo a los que habían rescatado: soldados, mujeres, niños y eunucos, para prepararse para salir huyendo a Egipto,",
           "verseDisplay": "16-17",
-          "endNumber": 17
+          "endNumber": 17,
+          "headings": [
+            "Huida a Egipto"
+          ]
         },
         {
           "number": 18,
@@ -4449,7 +4542,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este es el mensaje que Jeremías recibió del Señor respecto a todos los israelitas que vivían en el norte de Egipto en las ciudades de Migdol, Tafnes y Menfis, y por todo el sur de Egipto también."
+          "text": "Este es el mensaje que Jeremías recibió del Señor respecto a todos los israelitas que vivían en el norte de Egipto en las ciudades de Migdol, Tafnes y Menfis, y por todo el sur de Egipto también.",
+          "headings": [
+            "Desastre causado por la idolatría"
+          ]
         },
         {
           "number": 2,
@@ -4572,7 +4668,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este es el mensaje que Jeremías comunicó a Baruc el cuarto año del reinado del rey Joacim, hijo de Josías, cuando Baruc escribía todos los mensajes según se los dictaba Jeremías:"
+          "text": "Este es el mensaje que Jeremías comunicó a Baruc el cuarto año del reinado del rey Joacim, hijo de Josías, cuando Baruc escribía todos los mensajes según se los dictaba Jeremías:",
+          "headings": [
+            "Mensaje para Baruc"
+          ]
         },
         {
           "number": 2,
@@ -4597,7 +4696,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estos son los mensajes que el Señor le dio a Jeremías respecto a las naciones extranjeras. Respecto a los egipcios:"
+          "text": "Estos son los mensajes que el Señor le dio a Jeremías respecto a las naciones extranjeras. Respecto a los egipcios:",
+          "headings": [
+            "Mensaje para Egipto"
+          ]
         },
         {
           "number": 2,
@@ -4710,7 +4812,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este es el mensaje que el Señor dio a Jeremías respecto a los filisteos de Gaza, antes que la ciudad fuera tomada por el ejército egipcio."
+          "text": "Este es el mensaje que el Señor dio a Jeremías respecto a los filisteos de Gaza, antes que la ciudad fuera tomada por el ejército egipcio.",
+          "headings": [
+            "Mensaje para los filisteos"
+          ]
         },
         {
           "number": 2,
@@ -4743,7 +4848,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este es el mensaje del Señor de los ejércitos, el Dios de Israel, contra Moab: ¡Ay de la ciudad de Nebo, pues quedará en ruinas! La ciudad de Quiriatayin y sus fuertes defensivos son derribados y tomados."
+          "text": "Este es el mensaje del Señor de los ejércitos, el Dios de Israel, contra Moab: ¡Ay de la ciudad de Nebo, pues quedará en ruinas! La ciudad de Quiriatayin y sus fuertes defensivos son derribados y tomados.",
+          "headings": [
+            "Mensaje para Moab"
+          ]
         },
         {
           "number": 2,
@@ -4930,7 +5038,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¿Qué es lo que hacen? ¿Por qué moran los amonitas en las ciudades de los israelitas? ¿No hay acaso israelitas suficientes? ¿No se las di a ellos como herencia? ¿Por qué entonces ustedes, adoradores de Moloc, se han apoderado de Gad y todas sus ciudades?"
+          "text": "¿Qué es lo que hacen? ¿Por qué moran los amonitas en las ciudades de los israelitas? ¿No hay acaso israelitas suficientes? ¿No se las di a ellos como herencia? ¿Por qué entonces ustedes, adoradores de Moloc, se han apoderado de Gad y todas sus ciudades?",
+          "headings": [
+            "Mensaje para Amón"
+          ]
         },
         {
           "number": 2,
@@ -4950,14 +5061,14 @@
         },
         {
           "number": 6,
-          "text": "Pero yo ayudaré a los amonitas en el futuro para que puedan volver a su tierra, dice el Señor .",
-          "headings": [
-            "Mensaje para Edom"
-          ]
+          "text": "Pero yo ayudaré a los amonitas en el futuro para que puedan volver a su tierra, dice el Señor ."
         },
         {
           "number": 7,
-          "text": "El Señor de los ejércitos dice: ¿Qué se hicieron todos tus sabios del pasado? ¿No quedó ni uno en todo Temán? ¿No hay nadie que pueda dar un consejo prudente?"
+          "text": "El Señor de los ejércitos dice: ¿Qué se hicieron todos tus sabios del pasado? ¿No quedó ni uno en todo Temán? ¿No hay nadie que pueda dar un consejo prudente?",
+          "headings": [
+            "Mensaje para Edom"
+          ]
         },
         {
           "number": 8,
@@ -5015,14 +5126,14 @@
         },
         {
           "number": 22,
-          "text": "El que ha de venir volará veloz como un águila y extenderá sus alas contra Bosra. ¡Entonces el valor de los más fuertes guerreros se desvanecerá como el de mujer ante los dolores del parto!",
-          "headings": [
-            "Mensaje para Damasco"
-          ]
+          "text": "El que ha de venir volará veloz como un águila y extenderá sus alas contra Bosra. ¡Entonces el valor de los más fuertes guerreros se desvanecerá como el de mujer ante los dolores del parto!"
         },
         {
           "number": 23,
-          "text": "¡Presas de temor están las ciudades de Jamat y Arfad, porque les llegó la noticia de su sentencia! Tienen el corazón latiendo acelerado por el miedo como si fuera un mar agitado."
+          "text": "¡Presas de temor están las ciudades de Jamat y Arfad, porque les llegó la noticia de su sentencia! Tienen el corazón latiendo acelerado por el miedo como si fuera un mar agitado.",
+          "headings": [
+            "Mensaje para Damasco"
+          ]
         },
         {
           "number": 24,
@@ -5038,14 +5149,14 @@
         },
         {
           "number": 27,
-          "text": "Y haré estallar un incendio que acabe con las murallas de Damasco así como con los palacios de Ben Adad.",
-          "headings": [
-            "Mensaje para Cedar y Jazor"
-          ]
+          "text": "Y haré estallar un incendio que acabe con las murallas de Damasco así como con los palacios de Ben Adad."
         },
         {
           "number": 28,
-          "text": "Esta profecía se refiere a Cedar y a los reinos de Jazor, los que van a ser destruidos por Nabucodonosor, rey de Babilonia, porque el Señor lo enviará para destruirlos."
+          "text": "Esta profecía se refiere a Cedar y a los reinos de Jazor, los que van a ser destruidos por Nabucodonosor, rey de Babilonia, porque el Señor lo enviará para destruirlos.",
+          "headings": [
+            "Mensaje para Cedar y Jazor"
+          ]
         },
         {
           "number": 29,
@@ -5065,14 +5176,14 @@
         },
         {
           "number": 33,
-          "text": "Jazor se convertirá en morada de alimañas del desierto. Jamás volverá a morar nadie allí. Para siempre sólo será un montón de ruinas.",
-          "headings": [
-            "Mensaje para Elam"
-          ]
+          "text": "Jazor se convertirá en morada de alimañas del desierto. Jamás volverá a morar nadie allí. Para siempre sólo será un montón de ruinas."
         },
         {
           "number": 34,
-          "text": "Este mensaje del Señor contra Elam le llegó a Jeremías al comienzo del reinado de Sedequías, rey de Judá:"
+          "text": "Este mensaje del Señor contra Elam le llegó a Jeremías al comienzo del reinado de Sedequías, rey de Judá:",
+          "headings": [
+            "Mensaje para Elam"
+          ]
         },
         {
           "number": 35,
@@ -5101,7 +5212,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Este es el mensaje del Señor contra Babilonia y los caldeos, proclamado por el profeta Jeremías:"
+          "text": "Este es el mensaje del Señor contra Babilonia y los caldeos, proclamado por el profeta Jeremías:",
+          "headings": [
+            "Mensaje para Babilonia"
+          ]
         },
         {
           "number": 2,
@@ -5547,7 +5661,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Tenía Sedequías veintiún años de edad cuando se convirtió en rey, y reinó once años en Jerusalén. Su madre se llamaba Jamutal y era hija de Jeremías de Libná."
+          "text": "Tenía Sedequías veintiún años de edad cuando se convirtió en rey, y reinó once años en Jerusalén. Su madre se llamaba Jamutal y era hija de Jeremías de Libná.",
+          "headings": [
+            "La caída de Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -5661,14 +5778,14 @@
         },
         {
           "number": 30,
-          "text": "cinco años después envió a Nabuzaradán, el capitán de su guardia, y se llevó setecientos cuarenta y cinco, haciendo un total de cuatro mil seiscientos cautivos.",
-          "headings": [
-            "Liberación del rey Joaquín"
-          ]
+          "text": "cinco años después envió a Nabuzaradán, el capitán de su guardia, y se llevó setecientos cuarenta y cinco, haciendo un total de cuatro mil seiscientos cautivos."
         },
         {
           "number": 31,
-          "text": "El veinticinco de febrero, el año treinta y siete del cautiverio de Joaquín, rey de Judá, en Babilonia, Evil Merodac, que ese año comenzó a reinar en Babilonia, bondadosamente sacó de la cárcel al rey Joaquín."
+          "text": "El veinticinco de febrero, el año treinta y siete del cautiverio de Joaquín, rey de Judá, en Babilonia, Evil Merodac, que ese año comenzó a reinar en Babilonia, bondadosamente sacó de la cárcel al rey Joaquín.",
+          "headings": [
+            "Liberación del rey Joaquín"
+          ]
         },
         {
           "number": 32,

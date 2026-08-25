@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés en el Tabernáculo de Reunión cuando estaban en el desierto de Sinaí, el día primero del mes segundo, en el segundo año de su salida de la tierra de Egipto:"
+          "text": "Yavé habló a Moisés en el Tabernáculo de Reunión cuando estaban en el desierto de Sinaí, el día primero del mes segundo, en el segundo año de su salida de la tierra de Egipto:",
+          "headings": [
+            "El primer censo"
+          ]
         },
         {
           "number": 2,
@@ -230,7 +233,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés y a Aarón:"
+          "text": "Yavé habló a Moisés y a Aarón:",
+          "headings": [
+            "Disposiciones para acampar y marchar"
+          ]
         },
         {
           "number": 2,
@@ -371,7 +377,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estos son los descendientes de Aarón y Moisés, el día cuando Yavé habló con Moisés en la Montaña Sinaí."
+          "text": "Estos son los descendientes de Aarón y Moisés, el día cuando Yavé habló con Moisés en la Montaña Sinaí.",
+          "headings": [
+            "Institución y funciones de los levitas"
+          ]
         },
         {
           "number": 2,
@@ -587,7 +596,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés y a Aarón:"
+          "text": "Yavé habló a Moisés y a Aarón:",
+          "headings": [
+            "Asignación de tareas a los levitas"
+          ]
         },
         {
           "number": 2,
@@ -788,7 +800,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "Con respecto a los impuros, a la restitución y a los celos"
+          ]
         },
         {
           "number": 2,
@@ -917,7 +932,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "Los Nazareos"
+          ]
         },
         {
           "number": 2,
@@ -997,14 +1015,14 @@
         },
         {
           "number": 21,
-          "text": "Esta es la ley del nazareo que hace un voto. Su ofrenda para Yavé según su consagración, además de aquello que pueda ofrecer, según el voto que hizo, así hará conforme a la ley de su consagración.",
-          "headings": [
-            "La bendición sacerdotal"
-          ]
+          "text": "Esta es la ley del nazareo que hace un voto. Su ofrenda para Yavé según su consagración, además de aquello que pueda ofrecer, según el voto que hizo, así hará conforme a la ley de su consagración."
         },
         {
           "number": 22,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "La bendición sacerdotal"
+          ]
         },
         {
           "number": 23,
@@ -1033,7 +1051,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Aconteció que el día cuando Moisés terminó de levantar el Tabernáculo, de ungirlo y consagrarlo con todos sus utensilios, y de ungir y consagrar el altar con todos sus utensilios,"
+          "text": "Aconteció que el día cuando Moisés terminó de levantar el Tabernáculo, de ungirlo y consagrarlo con todos sus utensilios, y de ungir y consagrar el altar con todos sus utensilios,",
+          "headings": [
+            "Consagraciones, ofrendas y sacrificios"
+          ]
         },
         {
           "number": 2,
@@ -1394,7 +1415,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "El candelabro"
+          ]
         },
         {
           "number": 2,
@@ -1406,14 +1430,14 @@
         },
         {
           "number": 4,
-          "text": "El candelabro de oro era labrado a martillo desde su basa hasta sus flores. Hizo el candelabro según el modelo que Yavé mostró a Moisés.",
-          "headings": [
-            "Consagración de los levitas"
-          ]
+          "text": "El candelabro de oro era labrado a martillo desde su basa hasta sus flores. Hizo el candelabro según el modelo que Yavé mostró a Moisés."
         },
         {
           "number": 5,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "Consagración de los levitas"
+          ]
         },
         {
           "number": 6,
@@ -1506,7 +1530,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El mes primero del año segundo de su salida de la tierra de Egipto, Yavé habló a Moisés en el desierto de Sinaí:"
+          "text": "El mes primero del año segundo de su salida de la tierra de Egipto, Yavé habló a Moisés en el desierto de Sinaí:",
+          "headings": [
+            "La Pascua"
+          ]
         },
         {
           "number": 2,
@@ -1558,14 +1585,14 @@
         },
         {
           "number": 14,
-          "text": "Si un extranjero vive con ustedes y desea celebrar la Pascua para Yavé , lo hará conforme al estatuto de la Pascua y conforme a su ordenanza. Un solo estatuto habrá para ustedes, tanto para el extranjero como para el nativo de la tierra.",
-          "headings": [
-            "La columna de nube"
-          ]
+          "text": "Si un extranjero vive con ustedes y desea celebrar la Pascua para Yavé , lo hará conforme al estatuto de la Pascua y conforme a su ordenanza. Un solo estatuto habrá para ustedes, tanto para el extranjero como para el nativo de la tierra."
         },
         {
           "number": 15,
-          "text": "El día cuando fue erigido el Tabernáculo, la nube cubrió el Tabernáculo del Testimonio. Desde la llegada de la noche hasta la mañana hubo una apariencia como de fuego sobre el Tabernáculo."
+          "text": "El día cuando fue erigido el Tabernáculo, la nube cubrió el Tabernáculo del Testimonio. Desde la llegada de la noche hasta la mañana hubo una apariencia como de fuego sobre el Tabernáculo.",
+          "headings": [
+            "La columna de nube"
+          ]
         },
         {
           "number": 16,
@@ -1606,7 +1633,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "Las trompetas"
+          ]
         },
         {
           "number": 2,
@@ -1755,7 +1785,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero aconteció que el pueblo se quejó de adversidad a oídos de Yavé . Y Yavé oyó y se encendió su ira, de manera que el fuego de Yavé ardió entre ellos. Consumió a algunos en los extremos del campamento."
+          "text": "Pero aconteció que el pueblo se quejó de adversidad a oídos de Yavé . Y Yavé oyó y se encendió su ira, de manera que el fuego de Yavé ardió entre ellos. Consumió a algunos en los extremos del campamento.",
+          "headings": [
+            "Descontento del pueblo"
+          ]
         },
         {
           "number": 2,
@@ -1900,7 +1933,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Miriam y Aarón hablaron contra Moisés a causa de la esposa cusita que tomó, pues él había tomado esposa cusita."
+          "text": "Miriam y Aarón hablaron contra Moisés a causa de la esposa cusita que tomó, pues él había tomado esposa cusita.",
+          "headings": [
+            "La lepra de Miriam"
+          ]
         },
         {
           "number": 2,
@@ -1969,7 +2005,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "Los exploradores"
+          ]
         },
         {
           "number": 2,
@@ -2106,7 +2145,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces toda la congregación gritó y lloró aquella noche."
+          "text": "Entonces toda la congregación gritó y lloró aquella noche.",
+          "headings": [
+            "Rebelión del pueblo"
+          ]
         },
         {
           "number": 2,
@@ -2291,7 +2333,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "Diversas instrucciones"
+          ]
         },
         {
           "number": 2,
@@ -2460,7 +2505,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Coré, hijo de Itsar, hijo de Coat, hijo de Leví, Datán y Abirán, hijos de Eliab, y On, hijo de Pelet, de los hijos de Rubén, se envanecieron."
+          "text": "Coré, hijo de Itsar, hijo de Coat, hijo de Leví, Datán y Abirán, hijos de Eliab, y On, hijo de Pelet, de los hijos de Rubén, se envanecieron.",
+          "headings": [
+            "La rebelión de Coré"
+          ]
         },
         {
           "number": 2,
@@ -2665,7 +2713,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Yavé habló a Moisés:"
+          "text": "Entonces Yavé habló a Moisés:",
+          "headings": [
+            "La vara de Aarón"
+          ]
         },
         {
           "number": 2,
@@ -2722,7 +2773,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Yavé dijo a Aarón: Tú, tus hijos y tu casa paterna llevarán las ofensas contra el Santuario y contra su sacerdocio."
+          "text": "Entonces Yavé dijo a Aarón: Tú, tus hijos y tu casa paterna llevarán las ofensas contra el Santuario y contra su sacerdocio.",
+          "headings": [
+            "Funciones y derechos de los levitas"
+          ]
         },
         {
           "number": 2,
@@ -2821,14 +2875,14 @@
         },
         {
           "number": 24,
-          "text": "porque el diezmo que los hijos de Israel ofrecen a Yavé como ofrenda alzada, lo di a los levitas por heredad, por lo cual les dije: No tendrán heredad en medio de los hijos de Israel.",
-          "headings": [
-            "El diezmo de los diezmos"
-          ]
+          "text": "porque el diezmo que los hijos de Israel ofrecen a Yavé como ofrenda alzada, lo di a los levitas por heredad, por lo cual les dije: No tendrán heredad en medio de los hijos de Israel."
         },
         {
           "number": 25,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "El diezmo de los diezmos"
+          ]
         },
         {
           "number": 26,
@@ -2865,7 +2919,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés y a Aarón:"
+          "text": "Yavé habló a Moisés y a Aarón:",
+          "headings": [
+            "La vaca bermeja y la purificación"
+          ]
         },
         {
           "number": 2,
@@ -2958,7 +3015,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Toda la congregación de los hijos de Israel llegó al desierto de Zin el mes primero, y el pueblo permaneció en Cades. Allí murió Miriam, y fue sepultada."
+          "text": "Toda la congregación de los hijos de Israel llegó al desierto de Zin el mes primero, y el pueblo permaneció en Cades. Allí murió Miriam, y fue sepultada.",
+          "headings": [
+            "La peña de Meriba"
+          ]
         },
         {
           "number": 2,
@@ -3042,14 +3102,14 @@
         },
         {
           "number": 22,
-          "text": "Los hijos de Israel, toda aquella congregación, salieron de Cades, y fueron hacia la montaña Hor.",
-          "headings": [
-            "Muerte de Aarón"
-          ]
+          "text": "Los hijos de Israel, toda aquella congregación, salieron de Cades, y fueron hacia la montaña Hor."
         },
         {
           "number": 23,
-          "text": "Yavé habló a Moisés y Aarón en la montaña Hor, en los confines de la tierra de Edom:"
+          "text": "Yavé habló a Moisés y Aarón en la montaña Hor, en los confines de la tierra de Edom:",
+          "headings": [
+            "Muerte de Aarón"
+          ]
         },
         {
           "number": 24,
@@ -3082,7 +3142,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando el cananeo, el rey de Arad, quien habitaba en el Neguev, oyó que Israel iba por el camino de Atarim, combatió contra Israel y tomó cautivos de él."
+          "text": "Cuando el cananeo, el rey de Arad, quien habitaba en el Neguev, oyó que Israel iba por el camino de Atarim, combatió contra Israel y tomó cautivos de él.",
+          "headings": [
+            "La Serpiente de Bronce"
+          ]
         },
         {
           "number": 2,
@@ -3227,7 +3290,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Salieron los hijos de Israel y acamparon en las llanuras de Moab, junto al Jordán, frente a Jericó."
+          "text": "Salieron los hijos de Israel y acamparon en las llanuras de Moab, junto al Jordán, frente a Jericó.",
+          "headings": [
+            "Balac y Balaam"
+          ]
         },
         {
           "number": 2,
@@ -3396,7 +3462,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Balaam dijo al rey Balac: Edifícame aquí siete altares y sacrifícame aquí siete becerros y siete carneros."
+          "text": "Balaam dijo al rey Balac: Edifícame aquí siete altares y sacrifícame aquí siete becerros y siete carneros.",
+          "headings": [
+            "Primeras profecías de Balaam"
+          ]
         },
         {
           "number": 2,
@@ -3521,7 +3590,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando Balaam vio que era grato a Yavé bendecir a Israel, no fue como las otras veces, en busca de encantamientos, sino que volvió su rostro hacia el desierto."
+          "text": "Cuando Balaam vio que era grato a Yavé bendecir a Israel, no fue como las otras veces, en busca de encantamientos, sino que volvió su rostro hacia el desierto.",
+          "headings": [
+            "Profecías finales de Balaam"
+          ]
         },
         {
           "number": 2,
@@ -3626,7 +3698,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Mientras Israel permanecía en Sitim, el pueblo comenzó a prostituírse con las hijas de Moab,"
+          "text": "Mientras Israel permanecía en Sitim, el pueblo comenzó a prostituírse con las hijas de Moab,",
+          "headings": [
+            "Apostasía en Sitim"
+          ]
         },
         {
           "number": 2,
@@ -3703,7 +3778,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de aquella mortandad, sucedió que Yavé habló a Moisés y a Eleazar, hijo del sacerdote Aarón:"
+          "text": "Después de aquella mortandad, sucedió que Yavé habló a Moisés y a Eleazar, hijo del sacerdote Aarón:",
+          "headings": [
+            "Segundo censo"
+          ]
         },
         {
           "number": 2,
@@ -3968,7 +4046,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces llegaron las hijas de Zelofejad, hijo de Hefer, hijo de Galaad, hijo de Maquir, hijo de Manasés, de las familias de Manasés, hijo de José, los nombres de los cuales eran Maala, Noa, Hogla, Milca y Tirsa."
+          "text": "Entonces llegaron las hijas de Zelofejad, hijo de Hefer, hijo de Galaad, hijo de Maquir, hijo de Manasés, de las familias de Manasés, hijo de José, los nombres de los cuales eran Maala, Noa, Hogla, Milca y Tirsa.",
+          "headings": [
+            "Herencia de las hijas"
+          ]
         },
         {
           "number": 2,
@@ -4008,14 +4089,14 @@
         },
         {
           "number": 11,
-          "text": "Si su padre no tiene hermanos, darán su herencia al pariente más cercano de su familia, el cual la poseerá. Esto será para los hijos de Israel un estatuto de justo juicio, como Yavé ordenó a Moisés.",
-          "headings": [
-            "Josué sucede a Moisés"
-          ]
+          "text": "Si su padre no tiene hermanos, darán su herencia al pariente más cercano de su familia, el cual la poseerá. Esto será para los hijos de Israel un estatuto de justo juicio, como Yavé ordenó a Moisés."
         },
         {
           "number": 12,
-          "text": "Yavé dijo a Moisés: Sube a esta montaña de Abarim, y contempla la tierra que di a los hijos de Israel."
+          "text": "Yavé dijo a Moisés: Sube a esta montaña de Abarim, y contempla la tierra que di a los hijos de Israel.",
+          "headings": [
+            "Josué sucede a Moisés"
+          ]
         },
         {
           "number": 13,
@@ -4068,7 +4149,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "Sacrificios en las fiestas solemnes"
+          ]
         },
         {
           "number": 2,
@@ -4197,7 +4281,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En el séptimo mes, el día primero del mes, tendrán santa convocación. No harán obra servil. Les será día de tocar las trompetas."
+          "text": "En el séptimo mes, el día primero del mes, tendrán santa convocación. No harán obra servil. Les será día de tocar las trompetas.",
+          "headings": [
+            "Sacrificios de las fiestas solemnes del séptimo mes"
+          ]
         },
         {
           "number": 2,
@@ -4237,14 +4324,14 @@
         },
         {
           "number": 11,
-          "text": "También ofrecerán un macho cabrío como sacrificio por el pecado, además del sacrificio de olor que apacigua por el pecado y del holocausto continuo, de su ofrenda vegetal y sus libaciones.",
-          "headings": [
-            "La fiesta solemne de Las Cabañas"
-          ]
+          "text": "También ofrecerán un macho cabrío como sacrificio por el pecado, además del sacrificio de olor que apacigua por el pecado y del holocausto continuo, de su ofrenda vegetal y sus libaciones."
         },
         {
           "number": 12,
-          "text": "El día 15 del mes séptimo tendrán una santa convocación. No harán obra servil. Celebrarán la fiesta solemne a Yavé durante siete días."
+          "text": "El día 15 del mes séptimo tendrán una santa convocación. No harán obra servil. Celebrarán la fiesta solemne a Yavé durante siete días.",
+          "headings": [
+            "La fiesta solemne de Las Cabañas"
+          ]
         },
         {
           "number": 13,
@@ -4365,7 +4452,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Moisés habló a los jefes de las tribus de los hijos de Israel: Esta es la Palabra que Yavé ordenó:"
+          "text": "Moisés habló a los jefes de las tribus de los hijos de Israel: Esta es la Palabra que Yavé ordenó:",
+          "headings": [
+            "Ley sobre los votos"
+          ]
         },
         {
           "number": 2,
@@ -4434,7 +4524,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "Derrota de los madianitas"
+          ]
         },
         {
           "number": 2,
@@ -4526,14 +4619,14 @@
         },
         {
           "number": 24,
-          "text": "El día séptimo lavarán sus ropas y quedarán puros. Después podrán entrar en el campamento.",
-          "headings": [
-            "Ley sobre el botín"
-          ]
+          "text": "El día séptimo lavarán sus ropas y quedarán puros. Después podrán entrar en el campamento."
         },
         {
           "number": 25,
-          "text": "También Yavé habló a Moisés:"
+          "text": "También Yavé habló a Moisés:",
+          "headings": [
+            "Ley sobre el botín"
+          ]
         },
         {
           "number": 26,
@@ -4658,7 +4751,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los hijos de Rubén y los hijos de Gad tenían una cantidad muy grande de ganado. Así que cuando ellos vieron que la tierra de Jazer y la tierra de Galaad era en verdad un lugar apropiado para el ganado,"
+          "text": "Los hijos de Rubén y los hijos de Gad tenían una cantidad muy grande de ganado. Así que cuando ellos vieron que la tierra de Jazer y la tierra de Galaad era en verdad un lugar apropiado para el ganado,",
+          "headings": [
+            "Concesión de la Transjordania"
+          ]
         },
         {
           "number": 2,
@@ -4831,7 +4927,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estas son las jornadas de los hijos de Israel cuando salieron de la tierra de Egipto en escuadrones, bajo el mando de Moisés y Aarón."
+          "text": "Estas son las jornadas de los hijos de Israel cuando salieron de la tierra de Egipto en escuadrones, bajo el mando de Moisés y Aarón.",
+          "headings": [
+            "Desde Egipto al Jordán"
+          ]
         },
         {
           "number": 2,
@@ -5060,7 +5159,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "Fronteras de la Tierra Prometida"
+          ]
         },
         {
           "number": 2,
@@ -5181,7 +5283,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés frente a Jericó en las llanuras de Moab, junto al Jordán:"
+          "text": "Yavé habló a Moisés frente a Jericó en las llanuras de Moab, junto al Jordán:",
+          "headings": [
+            "Ciudades levíticas y ciudades de refugio"
+          ]
         },
         {
           "number": 2,
@@ -5322,7 +5427,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los jefes de las casas paternas de la familia de Galaad, descendiente de Maquir, hijo de Manasés, de las familias de los hijos de José, se presentaron ante Moisés y ante los jefes de las casas paternas de los hijos de Israel"
+          "text": "Los jefes de las casas paternas de la familia de Galaad, descendiente de Maquir, hijo de Manasés, de las familias de los hijos de José, se presentaron ante Moisés y ante los jefes de las casas paternas de los hijos de Israel",
+          "headings": [
+            "Sobre el matrimonio de las herederas"
+          ]
         },
         {
           "number": 2,

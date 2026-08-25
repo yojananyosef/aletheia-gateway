@@ -9,14 +9,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Santiago, siervo de Dios y del Señor Jesucristo, saluda a las doce tribus que se hallan dispersas por todo el mundo.",
-          "headings": [
-            "Pruebas y tentaciones"
-          ]
+          "text": "Santiago, siervo de Dios y del Señor Jesucristo, saluda a las doce tribus que se hallan dispersas por todo el mundo."
         },
         {
           "number": 2,
-          "text": "Hermanos míos, que les dé gran alegría cuando pasen por diferentes pruebas,"
+          "text": "Hermanos míos, que les dé gran alegría cuando pasen por diferentes pruebas,",
+          "headings": [
+            "Pruebas y tentaciones"
+          ]
         },
         {
           "number": 3,
@@ -80,14 +80,14 @@
         },
         {
           "number": 18,
-          "text": "Él quiso darnos vida por medio de la palabra de verdad, para que fuéramos los primeros frutos de su creación.",
-          "headings": [
-            "Hay que poner en práctica la palabra"
-          ]
+          "text": "Él quiso darnos vida por medio de la palabra de verdad, para que fuéramos los primeros frutos de su creación."
         },
         {
           "number": 19,
-          "text": "Mis queridos hermanos, pongan atención: Todos ustedes deben estar listos para escuchar, pero deben ser lentos para hablar y para enojarse."
+          "text": "Mis queridos hermanos, pongan atención: Todos ustedes deben estar listos para escuchar, pero deben ser lentos para hablar y para enojarse.",
+          "headings": [
+            "Hay que poner en práctica la palabra"
+          ]
         },
         {
           "number": 20,
@@ -128,7 +128,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hermanos míos, ustedes que creen en nuestro Señor Jesucristo no deben favorecer más a unas personas que a otras."
+          "text": "Hermanos míos, ustedes que creen en nuestro Señor Jesucristo no deben favorecer más a unas personas que a otras.",
+          "headings": [
+            "Prohibición del favoritismo"
+          ]
         },
         {
           "number": 2,
@@ -176,14 +179,14 @@
         },
         {
           "number": 13,
-          "text": "pues al que no ha tenido compasión se le juzgará sin compasión. Y el que ha mostrado compasión triunfará a la hora del juicio.",
-          "headings": [
-            "La fe y las obras"
-          ]
+          "text": "pues al que no ha tenido compasión se le juzgará sin compasión. Y el que ha mostrado compasión triunfará a la hora del juicio."
         },
         {
           "number": 14,
-          "text": "Hermanos míos, ¿de qué le sirve a uno decir que tiene fe si no lo demuestra con sus acciones? ¿Acaso podrá salvarlo esa fe?"
+          "text": "Hermanos míos, ¿de qué le sirve a uno decir que tiene fe si no lo demuestra con sus acciones? ¿Acaso podrá salvarlo esa fe?",
+          "headings": [
+            "La fe y las obras"
+          ]
         },
         {
           "number": 15,
@@ -240,7 +243,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hermanos míos, no procuren muchos de ustedes ser maestros, pues como ustedes saben, seremos juzgados con más severidad."
+          "text": "Hermanos míos, no procuren muchos de ustedes ser maestros, pues como ustedes saben, seremos juzgados con más severidad.",
+          "headings": [
+            "Hay que domar la lengua"
+          ]
         },
         {
           "number": 2,
@@ -284,14 +290,14 @@
         },
         {
           "number": 12,
-          "text": "Hermanos míos, no puede dar aceitunas una higuera ni higos una vid. Tampoco puede una fuente dar agua salada y agua dulce.",
-          "headings": [
-            "Dos clases de sabiduría"
-          ]
+          "text": "Hermanos míos, no puede dar aceitunas una higuera ni higos una vid. Tampoco puede una fuente dar agua salada y agua dulce."
         },
         {
           "number": 13,
-          "text": "El que es sabio y entendido entre ustedes es el que lo demuestra con su buena conducta, y con acciones hechas con humildad y sabiduría."
+          "text": "El que es sabio y entendido entre ustedes es el que lo demuestra con su buena conducta, y con acciones hechas con humildad y sabiduría.",
+          "headings": [
+            "Dos clases de sabiduría"
+          ]
         },
         {
           "number": 14,
@@ -320,7 +326,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¿Qué provoca las guerras y los pleitos entre ustedes? Pues son las pasiones que luchan dentro de ustedes."
+          "text": "¿Qué provoca las guerras y los pleitos entre ustedes? Pues son las pasiones que luchan dentro de ustedes.",
+          "headings": [
+            "Sométanse a Dios"
+          ]
         },
         {
           "number": 2,
@@ -364,14 +373,14 @@
         },
         {
           "number": 12,
-          "text": "Hay sólo un legislador y juez, que puede salvar y condenar. Pero tú, ¿quién eres para juzgar a tu prójimo?",
-          "headings": [
-            "Alarde sobre el mañana"
-          ]
+          "text": "Hay sólo un legislador y juez, que puede salvar y condenar. Pero tú, ¿quién eres para juzgar a tu prójimo?"
         },
         {
           "number": 13,
-          "text": "Escuchen bien esto, ustedes los que dicen: «Hoy o mañana iremos a tal o cual ciudad, nos quedaremos allí un año, haremos negocios y ganaremos dinero»."
+          "text": "Escuchen bien esto, ustedes los que dicen: «Hoy o mañana iremos a tal o cual ciudad, nos quedaremos allí un año, haremos negocios y ganaremos dinero».",
+          "headings": [
+            "Alarde sobre el mañana"
+          ]
         },
         {
           "number": 14,
@@ -396,7 +405,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ahora escuchen, ustedes los ricos: ¡Lloren y griten por todas las desgracias que van a sufrir!"
+          "text": "Ahora escuchen, ustedes los ricos: ¡Lloren y griten por todas las desgracias que van a sufrir!",
+          "headings": [
+            "Advertencia a los ricos opresores"
+          ]
         },
         {
           "number": 2,
@@ -416,14 +428,14 @@
         },
         {
           "number": 6,
-          "text": "Han acusado y matado al inocente sin que él pudiera defenderse.",
-          "headings": [
-            "Paciencia en los sufrimientos"
-          ]
+          "text": "Han acusado y matado al inocente sin que él pudiera defenderse."
         },
         {
           "number": 7,
-          "text": "Por eso, hermanos, tengan paciencia hasta que el Señor venga. Sean como el agricultor que espera a que la tierra dé su precioso fruto y aguarda con paciencia las temporadas de lluvia."
+          "text": "Por eso, hermanos, tengan paciencia hasta que el Señor venga. Sean como el agricultor que espera a que la tierra dé su precioso fruto y aguarda con paciencia las temporadas de lluvia.",
+          "headings": [
+            "Paciencia en los sufrimientos"
+          ]
         },
         {
           "number": 8,
@@ -443,14 +455,14 @@
         },
         {
           "number": 12,
-          "text": "Sobre todo, hermanos míos, no juren ni por el cielo ni por la tierra ni por ninguna otra cosa. Cuando digan «sí», que sea sí; y cuando digan «no», que sea no. De esta manera no serán condenados.",
-          "headings": [
-            "La oración de fe"
-          ]
+          "text": "Sobre todo, hermanos míos, no juren ni por el cielo ni por la tierra ni por ninguna otra cosa. Cuando digan «sí», que sea sí; y cuando digan «no», que sea no. De esta manera no serán condenados."
         },
         {
           "number": 13,
-          "text": "Si alguno de ustedes está angustiado, que ore. Si alguno está alegre, que cante alabanzas."
+          "text": "Si alguno de ustedes está angustiado, que ore. Si alguno está alegre, que cante alabanzas.",
+          "headings": [
+            "La oración de fe"
+          ]
         },
         {
           "number": 14,

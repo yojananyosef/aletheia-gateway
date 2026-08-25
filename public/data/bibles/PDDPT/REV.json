@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Revelación de Jesucristo la cual Dios le dio para manifestar a sus esclavos las cosas que deben suceder en breve. La dio a conocer y la envió por medio de su ángel a su esclavo Juan,"
+          "text": "Revelación de Jesucristo la cual Dios le dio para manifestar a sus esclavos las cosas que deben suceder en breve. La dio a conocer y la envió por medio de su ángel a su esclavo Juan,",
+          "headings": [
+            "Presentación"
+          ]
         },
         {
           "number": 2,
@@ -25,9 +28,6 @@
         {
           "number": 3,
           "text": "Inmensamente feliz el que lee y los que escuchan las palabras de la profecía y guardan las cosas que fueron escritas en ella, porque el tiempo está cerca.",
-          "headings": [
-            "Cartas a siete iglesias"
-          ],
           "footnotes": [
             {
               "id": "FN2",
@@ -38,7 +38,10 @@
         },
         {
           "number": 4,
-          "text": "Juan, a las siete iglesias que están en Asia. Gracia y paz a ustedes del que es, del que era y del que viene, de los siete espíritus que están delante de su trono"
+          "text": "Juan, a las siete iglesias que están en Asia. Gracia y paz a ustedes del que es, del que era y del que viene, de los siete espíritus que están delante de su trono",
+          "headings": [
+            "Cartas a siete iglesias"
+          ]
         },
         {
           "number": 5,
@@ -54,14 +57,14 @@
         },
         {
           "number": 8,
-          "text": "Yo soy el Alfa y la Omega, dice el Señor Dios, el que es, el que era y el que viene, el Todopoderoso.",
-          "headings": [
-            "La visión de Juan"
-          ]
+          "text": "Yo soy el Alfa y la Omega, dice el Señor Dios, el que es, el que era y el que viene, el Todopoderoso."
         },
         {
           "number": 9,
-          "text": "Yo, Juan, su hermano y copartícipe en la aflicción, el reino y la paciencia en Jesús, estaba en la isla llamada Patmos, por causa de la Palabra de Dios y el testimonio de Jesús."
+          "text": "Yo, Juan, su hermano y copartícipe en la aflicción, el reino y la paciencia en Jesús, estaba en la isla llamada Patmos, por causa de la Palabra de Dios y el testimonio de Jesús.",
+          "headings": [
+            "La visión de Juan"
+          ]
         },
         {
           "number": 10,
@@ -121,7 +124,11 @@
       "verses": [
         {
           "number": 1,
-          "text": "Escribe al ángel de la iglesia de Éfeso. Esto dice el que sostiene las siete estrellas en su derecha, el que anda en medio de los siete candelabros de oro:"
+          "text": "Escribe al ángel de la iglesia de Éfeso. Esto dice el que sostiene las siete estrellas en su derecha, el que anda en medio de los siete candelabros de oro:",
+          "headings": [
+            "Mensajes a siete iglesias",
+            "A Éfeso"
+          ]
         },
         {
           "number": 2,
@@ -145,14 +152,14 @@
         },
         {
           "number": 7,
-          "text": "El que tiene oído, escuche lo que dice el Espíritu a las iglesias. Al que vence le concederé que coma del árbol de la vida que está en el paraíso de Dios.",
-          "headings": [
-            "A Esmirna"
-          ]
+          "text": "El que tiene oído, escuche lo que dice el Espíritu a las iglesias. Al que vence le concederé que coma del árbol de la vida que está en el paraíso de Dios."
         },
         {
           "number": 8,
-          "text": "Escribe al ángel de la iglesia de Esmirna. Esto dice el Primero y el Último, el que estuvo muerto y vivió:"
+          "text": "Escribe al ángel de la iglesia de Esmirna. Esto dice el Primero y el Último, el que estuvo muerto y vivió:",
+          "headings": [
+            "A Esmirna"
+          ]
         },
         {
           "number": 9,
@@ -164,14 +171,14 @@
         },
         {
           "number": 11,
-          "text": "El que tiene oído, escuche lo que dice el Espíritu a las iglesias. El que vence, que de ningún modo sufra la muerte segunda.",
-          "headings": [
-            "A Pérgamo"
-          ]
+          "text": "El que tiene oído, escuche lo que dice el Espíritu a las iglesias. El que vence, que de ningún modo sufra la muerte segunda."
         },
         {
           "number": 12,
-          "text": "Escribe al ángel de la iglesia de Pérgamo. Esto dice el que tiene la espada aguda de doble filo:"
+          "text": "Escribe al ángel de la iglesia de Pérgamo. Esto dice el que tiene la espada aguda de doble filo:",
+          "headings": [
+            "A Pérgamo"
+          ]
         },
         {
           "number": 13,
@@ -192,9 +199,6 @@
         {
           "number": 17,
           "text": "El que tiene oído, escuche lo que dice el Espíritu a las iglesias. Al que vence le daré del maná escondido. Le daré una piedrecita blanca, y escrito sobre la piedrecita un nombre nuevo que nadie conoce, sino el que lo recibe.",
-          "headings": [
-            "A Tiatira"
-          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -205,7 +209,10 @@
         },
         {
           "number": 18,
-          "text": "Escribe al ángel de la iglesia de Tiatira. Estas cosas dice el Hijo de Dios, el que tiene sus ojos como llama de fuego y sus pies semejantes a bronce pulido:"
+          "text": "Escribe al ángel de la iglesia de Tiatira. Estas cosas dice el Hijo de Dios, el que tiene sus ojos como llama de fuego y sus pies semejantes a bronce pulido:",
+          "headings": [
+            "A Tiatira"
+          ]
         },
         {
           "number": 19,
@@ -265,7 +272,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Escribe al ángel de la iglesia de Sardis. Estas cosas dice el que tiene los siete espíritus de Dios y las siete estrellas: Conozco tus obras, que tienes fama de que vives, pero estás muerta."
+          "text": "Escribe al ángel de la iglesia de Sardis. Estas cosas dice el que tiene los siete espíritus de Dios y las siete estrellas: Conozco tus obras, que tienes fama de que vives, pero estás muerta.",
+          "headings": [
+            "A Sardis"
+          ]
         },
         {
           "number": 2,
@@ -285,14 +295,14 @@
         },
         {
           "number": 6,
-          "text": "El que tiene oído, escuche lo que dice el Espíritu a las iglesias.",
-          "headings": [
-            "A Filadelfia"
-          ]
+          "text": "El que tiene oído, escuche lo que dice el Espíritu a las iglesias."
         },
         {
           "number": 7,
-          "text": "Escribe al ángel de la iglesia de Filadelfia. Estas cosas dice el Santo, el Verdadero, el que tiene la llave de David, el que abre y ninguno cierra, y cuando cierra ninguno abre:"
+          "text": "Escribe al ángel de la iglesia de Filadelfia. Estas cosas dice el Santo, el Verdadero, el que tiene la llave de David, el que abre y ninguno cierra, y cuando cierra ninguno abre:",
+          "headings": [
+            "A Filadelfia"
+          ]
         },
         {
           "number": 8,
@@ -316,14 +326,14 @@
         },
         {
           "number": 13,
-          "text": "El que tiene oído, escuche lo que dice el Espíritu a las iglesias.",
-          "headings": [
-            "A Laodicea"
-          ]
+          "text": "El que tiene oído, escuche lo que dice el Espíritu a las iglesias."
         },
         {
           "number": 14,
-          "text": "Escribe al ángel de la iglesia de Laodicea. Estas cosas dice el Amén, el Testigo fiel y verdadero, el Principio de la creación de Dios:"
+          "text": "Escribe al ángel de la iglesia de Laodicea. Estas cosas dice el Amén, el Testigo fiel y verdadero, el Principio de la creación de Dios:",
+          "headings": [
+            "A Laodicea"
+          ]
         },
         {
           "number": 15,
@@ -364,7 +374,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de estas cosas miré, y vi una puerta abierta en el cielo. La primera voz que oí, como de trompeta, al hablar conmigo, dijo: Sube acá y te mostraré las cosas que sucederán después de éstas."
+          "text": "Después de estas cosas miré, y vi una puerta abierta en el cielo. La primera voz que oí, como de trompeta, al hablar conmigo, dijo: Sube acá y te mostraré las cosas que sucederán después de éstas.",
+          "headings": [
+            "Una puerta abierta en el cielo"
+          ]
         },
         {
           "number": 2,
@@ -413,7 +426,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En la mano derecha del que estaba sentado en el trono vi un rollo escrito por dentro y por fuera, sellado con siete sellos."
+          "text": "En la mano derecha del que estaba sentado en el trono vi un rollo escrito por dentro y por fuera, sellado con siete sellos.",
+          "headings": [
+            "Un rollo con siete sellos"
+          ]
         },
         {
           "number": 2,
@@ -474,7 +490,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Vi cuando el Cordero abrió uno de los siete sellos y escuché a uno de los cuatro seres vivientes que decía con voz de trueno: ¡Ven!"
+          "text": "Vi cuando el Cordero abrió uno de los siete sellos y escuché a uno de los cuatro seres vivientes que decía con voz de trueno: ¡Ven!",
+          "headings": [
+            "Los siete sellos"
+          ]
         },
         {
           "number": 2,
@@ -575,14 +594,14 @@
         },
         {
           "number": 8,
-          "text": "de la tribu de Zabulón 12.000, de la tribu de José 12.000, de la tribu de Benjamín 12.000 sellados.",
-          "headings": [
-            "Una gran multitud"
-          ]
+          "text": "de la tribu de Zabulón 12.000, de la tribu de José 12.000, de la tribu de Benjamín 12.000 sellados."
         },
         {
           "number": 9,
-          "text": "Después de estas cosas miré, y ahí estaba una gran multitud de toda nación, tribus, pueblos y lenguas que nadie podía contar. Estaban delante del trono y del Cordero, vestidos con mantos blancos. Tenían palmas en sus manos y"
+          "text": "Después de estas cosas miré, y ahí estaba una gran multitud de toda nación, tribus, pueblos y lenguas que nadie podía contar. Estaban delante del trono y del Cordero, vestidos con mantos blancos. Tenían palmas en sus manos y",
+          "headings": [
+            "Una gran multitud"
+          ]
         },
         {
           "number": 10,
@@ -625,12 +644,15 @@
           "number": 1,
           "text": "Cuando el Cordero abrió el séptimo sello hubo silencio en el cielo como por media hora.",
           "headings": [
-            "Siete trompetas"
+            "El séptimo sello"
           ]
         },
         {
           "number": 2,
-          "text": "Vi a los siete ángeles que estaban en pie delante de Dios. Se les dieron siete trompetas."
+          "text": "Vi a los siete ángeles que estaban en pie delante de Dios. Se les dieron siete trompetas.",
+          "headings": [
+            "Siete trompetas"
+          ]
         },
         {
           "number": 3,
@@ -646,43 +668,43 @@
         },
         {
           "number": 6,
-          "text": "Los siete ángeles que tenían las siete trompetas se prepararon para tocarlas.",
-          "headings": [
-            "Primera trompeta"
-          ]
+          "text": "Los siete ángeles que tenían las siete trompetas se prepararon para tocarlas."
         },
         {
           "number": 7,
           "text": "El primero tocó la trompeta. Hubo granizo y fuego mezclados con sangre, los cuales fueron lanzados a la tierra. Y se quemó la tercera parte de la tierra, de los árboles y de toda hierba verde.",
           "headings": [
-            "Segunda trompeta"
+            "Primera trompeta"
           ]
         },
         {
           "number": 8,
-          "text": "El segundo ángel tocó la trompeta. Algo como una gran montaña que ardía en llamas fue lanzada al mar. La tercera parte del mar se convirtió en sangre."
+          "text": "El segundo ángel tocó la trompeta. Algo como una gran montaña que ardía en llamas fue lanzada al mar. La tercera parte del mar se convirtió en sangre.",
+          "headings": [
+            "Segunda trompeta"
+          ]
         },
         {
           "number": 9,
-          "text": "Murió la tercera parte de las criaturas marítimas, y fue destruida la tercera parte de las naves.",
+          "text": "Murió la tercera parte de las criaturas marítimas, y fue destruida la tercera parte de las naves."
+        },
+        {
+          "number": 10,
+          "text": "El tercer ángel tocó la trompeta. Y una gran estrella encendida como una antorcha cayó del cielo sobre la tercera parte de los ríos y sobre las fuentes de las aguas.",
           "headings": [
             "Tercera trompeta"
           ]
         },
         {
-          "number": 10,
-          "text": "El tercer ángel tocó la trompeta. Y una gran estrella encendida como una antorcha cayó del cielo sobre la tercera parte de los ríos y sobre las fuentes de las aguas."
-        },
-        {
           "number": 11,
-          "text": "El nombre de la estrella es Ajenjo. La tercera parte de las aguas se convirtió en ajenjo. Y muchos hombres murieron a causa de las aguas, porque se volvieron amargas.",
-          "headings": [
-            "Cuarta trompeta"
-          ]
+          "text": "El nombre de la estrella es Ajenjo. La tercera parte de las aguas se convirtió en ajenjo. Y muchos hombres murieron a causa de las aguas, porque se volvieron amargas."
         },
         {
           "number": 12,
-          "text": "El cuarto ángel tocó la trompeta. Fue golpeada la tercera parte del sol, de la luna, y de las estrellas para que se oscureciera la tercera parte de ellos, y que no resplandecieran en la tercera parte del día ni de la noche."
+          "text": "El cuarto ángel tocó la trompeta. Fue golpeada la tercera parte del sol, de la luna, y de las estrellas para que se oscureciera la tercera parte de ellos, y que no resplandecieran en la tercera parte del día ni de la noche.",
+          "headings": [
+            "Cuarta trompeta"
+          ]
         },
         {
           "number": 13,
@@ -695,7 +717,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El quinto ángel tocó la trompeta. Vi una estrella que caía del cielo a la tierra. Se le dio la llave del pozo del abismo y"
+          "text": "El quinto ángel tocó la trompeta. Vi una estrella que caía del cielo a la tierra. Se le dio la llave del pozo del abismo y",
+          "headings": [
+            "Quinta trompeta"
+          ]
         },
         {
           "number": 2,
@@ -739,14 +764,14 @@
         },
         {
           "number": 12,
-          "text": "El primer ¡ay! pasó. Después de estas cosas vienen aún dos ayes.",
-          "headings": [
-            "Sexta trompeta"
-          ]
+          "text": "El primer ¡ay! pasó. Después de estas cosas vienen aún dos ayes."
         },
         {
           "number": 13,
-          "text": "El sexto ángel tocó la trompeta. Escuché una voz de los cuernos del altar de oro que estaba delante de Dios,"
+          "text": "El sexto ángel tocó la trompeta. Escuché una voz de los cuernos del altar de oro que estaba delante de Dios,",
+          "headings": [
+            "Sexta trompeta"
+          ]
         },
         {
           "number": 14,
@@ -787,7 +812,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Vi a otro ángel fuerte que descendía del cielo, envuelto en una nube. Tenía el arco iris sobre su cabeza. Su rostro era como el sol y sus piernas como columnas de fuego."
+          "text": "Vi a otro ángel fuerte que descendía del cielo, envuelto en una nube. Tenía el arco iris sobre su cabeza. Su rostro era como el sol y sus piernas como columnas de fuego.",
+          "headings": [
+            "Un rollo pequeño"
+          ]
         },
         {
           "number": 2,
@@ -836,7 +864,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Me fue dada una caña larga como una vara de medir y se me dijo: Levántate y mide el Santuario de Dios, el altar y a los que adoran en él."
+          "text": "Me fue dada una caña larga como una vara de medir y se me dijo: Levántate y mide el Santuario de Dios, el altar y a los que adoran en él.",
+          "headings": [
+            "Dos olivos"
+          ]
         },
         {
           "number": 2,
@@ -888,14 +919,14 @@
         },
         {
           "number": 14,
-          "text": "El segundo ¡ay! pasó, y el tercer ¡ay! viene sin demora.",
-          "headings": [
-            "Séptima trompeta"
-          ]
+          "text": "El segundo ¡ay! pasó, y el tercer ¡ay! viene sin demora."
         },
         {
           "number": 15,
-          "text": "El séptimo ángel tocó la trompeta, y se produjeron grandes voces en el cielo, que decían: ¡El reino del mundo es de nuestro Señor y de su Cristo, y reinará por los siglos de los siglos!"
+          "text": "El séptimo ángel tocó la trompeta, y se produjeron grandes voces en el cielo, que decían: ¡El reino del mundo es de nuestro Señor y de su Cristo, y reinará por los siglos de los siglos!",
+          "headings": [
+            "Séptima trompeta"
+          ]
         },
         {
           "number": 16,
@@ -903,14 +934,14 @@
         },
         {
           "number": 17,
-          "text": "y dijeron: Te damos gracias, Señor Dios Todopoderoso, el que es y el que era, porque tomaste tu gran poder y reinaste.",
-          "headings": [
-            "La ira de Dios"
-          ]
+          "text": "y dijeron: Te damos gracias, Señor Dios Todopoderoso, el que es y el que era, porque tomaste tu gran poder y reinaste."
         },
         {
           "number": 18,
-          "text": "Las naciones se airaron. Pero llegó tu ira y el tiempo para juzgar a los muertos, dar el galardón a tus esclavos profetas, a los santos, a los que temen tu Nombre, a los pequeños y a los grandes, y para destruir a los que destruyen la tierra."
+          "text": "Las naciones se airaron. Pero llegó tu ira y el tiempo para juzgar a los muertos, dar el galardón a tus esclavos profetas, a los santos, a los que temen tu Nombre, a los pequeños y a los grandes, y para destruir a los que destruyen la tierra.",
+          "headings": [
+            "La ira de Dios"
+          ]
         },
         {
           "number": 19,
@@ -923,7 +954,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Una gran señal apareció en el cielo: una mujer vestida con el sol y la luna debajo de sus pies, y en su cabeza una corona de 12 estrellas."
+          "text": "Una gran señal apareció en el cielo: una mujer vestida con el sol y la luna debajo de sus pies, y en su cabeza una corona de 12 estrellas.",
+          "headings": [
+            "Una mujer, un dragón y un Hijo varón"
+          ]
         },
         {
           "number": 2,
@@ -1000,7 +1034,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Me paré sobre la arena del mar y vi que subía del mar una bestia que tenía siete cabezas y diez cuernos, y diez diademas en sus cuernos, y un nombre blasfemo sobre sus cabezas."
+          "text": "Me paré sobre la arena del mar y vi que subía del mar una bestia que tenía siete cabezas y diez cuernos, y diez diademas en sus cuernos, y un nombre blasfemo sobre sus cabezas.",
+          "headings": [
+            "El dragón y dos bestias"
+          ]
         },
         {
           "number": 2,
@@ -1077,7 +1114,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Miré, y ahí estaba el Cordero en pie sobre la Montaña Sion, y con Él 144.000 que tenían el Nombre de Él y el Nombre de su Padre escrito en sus frentes."
+          "text": "Miré, y ahí estaba el Cordero en pie sobre la Montaña Sion, y con Él 144.000 que tenían el Nombre de Él y el Nombre de su Padre escrito en sus frentes.",
+          "headings": [
+            "Cántico nuevo"
+          ]
         },
         {
           "number": 2,
@@ -1093,14 +1133,14 @@
         },
         {
           "number": 5,
-          "text": "En su boca no fue hallada mentira. Son sin mancha.",
-          "headings": [
-            "Tres ángeles"
-          ]
+          "text": "En su boca no fue hallada mentira. Son sin mancha."
         },
         {
           "number": 6,
-          "text": "Vi a otro ángel que volaba en medio del cielo, el cual tenía un evangelio eterno para proclamar a los que están asentados en la tierra, es decir, a toda nación, tribu, lengua y pueblo,"
+          "text": "Vi a otro ángel que volaba en medio del cielo, el cual tenía un evangelio eterno para proclamar a los que están asentados en la tierra, es decir, a toda nación, tribu, lengua y pueblo,",
+          "headings": [
+            "Tres ángeles"
+          ]
         },
         {
           "number": 7,
@@ -1128,14 +1168,14 @@
         },
         {
           "number": 13,
-          "text": "Escuché una voz del cielo que decía: Escribe: ¡Inmensamente felices los que desde ahora mueren en el Señor! ¡Sí! dice el Espíritu. Descansarán de sus trabajos, porque sus obras siguen con ellos.",
-          "headings": [
-            "Un gran lagar"
-          ]
+          "text": "Escuché una voz del cielo que decía: Escribe: ¡Inmensamente felices los que desde ahora mueren en el Señor! ¡Sí! dice el Espíritu. Descansarán de sus trabajos, porque sus obras siguen con ellos."
         },
         {
           "number": 14,
-          "text": "Miré, y ahí estaba una nube blanca, y sobre la nube estaba sentado uno semejante al Hijo del Hombre, Quien tenía en su cabeza una corona de oro y en su mano una hoz afilada."
+          "text": "Miré, y ahí estaba una nube blanca, y sobre la nube estaba sentado uno semejante al Hijo del Hombre, Quien tenía en su cabeza una corona de oro y en su mano una hoz afilada.",
+          "headings": [
+            "Un gran lagar"
+          ]
         },
         {
           "number": 15,
@@ -1175,7 +1215,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Vi en el cielo otra señal grande y maravillosa: siete ángeles que tenían las siete últimas plagas, porque el furor de Dios fue consumado con ellas."
+          "text": "Vi en el cielo otra señal grande y maravillosa: siete ángeles que tenían las siete últimas plagas, porque el furor de Dios fue consumado con ellas.",
+          "headings": [
+            "Siete plagas"
+          ]
         },
         {
           "number": 2,
@@ -1212,7 +1255,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Escuché una gran voz del Santuario que decía a los siete ángeles: ¡Vayan! ¡Derramen las siete copas del furor de Dios sobre la tierra!"
+          "text": "Escuché una gran voz del Santuario que decía a los siete ángeles: ¡Vayan! ¡Derramen las siete copas del furor de Dios sobre la tierra!",
+          "headings": [
+            "Siete copas de ira"
+          ]
         },
         {
           "number": 2,
@@ -1252,14 +1298,14 @@
         },
         {
           "number": 11,
-          "text": "Blasfemaron al Dios del cielo a causa de sus dolores y sus úlceras. No cambiaron de mente con respecto a sus obras.",
-          "headings": [
-            "La batalla de Armagedón"
-          ]
+          "text": "Blasfemaron al Dios del cielo a causa de sus dolores y sus úlceras. No cambiaron de mente con respecto a sus obras."
         },
         {
           "number": 12,
-          "text": "El sexto ángel derramó su copa sobre el gran río Éufrates, y su agua se secó para que se preparara el camino de los reyes del oriente."
+          "text": "El sexto ángel derramó su copa sobre el gran río Éufrates, y su agua se secó para que se preparara el camino de los reyes del oriente.",
+          "headings": [
+            "La batalla de Armagedón"
+          ]
         },
         {
           "number": 13,
@@ -1304,7 +1350,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Vino uno de los siete ángeles que tenían las siete copas y habló conmigo: Ven acá. Te mostraré la sentencia contra la gran ramera que está sobre muchas aguas."
+          "text": "Vino uno de los siete ángeles que tenían las siete copas y habló conmigo: Ven acá. Te mostraré la sentencia contra la gran ramera que está sobre muchas aguas.",
+          "headings": [
+            "Juicio contra Babilonia"
+          ]
         },
         {
           "number": 2,
@@ -1381,7 +1430,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de estas cosas vi a otro ángel que descendía del cielo, el cual tenía gran autoridad. La tierra fue iluminada con su resplandor."
+          "text": "Después de estas cosas vi a otro ángel que descendía del cielo, el cual tenía gran autoridad. La tierra fue iluminada con su resplandor.",
+          "headings": [
+            "Destrucción de Babilonia"
+          ]
         },
         {
           "number": 2,
@@ -1482,7 +1534,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de estas cosas, escuché una gran voz como de una gran multitud en el cielo que decían: ¡Aleluya! La salvación, la gloria y el poder son de nuestro Dios."
+          "text": "Después de estas cosas, escuché una gran voz como de una gran multitud en el cielo que decían: ¡Aleluya! La salvación, la gloria y el poder son de nuestro Dios.",
+          "headings": [
+            "El Rey asume el reino"
+          ]
         },
         {
           "number": 2,
@@ -1510,25 +1565,25 @@
         },
         {
           "number": 8,
-          "text": "Se le concedió que se vistiera de lino fino, resplandeciente, limpio, porque el lino fino simboliza las acciones justas de los santos.",
+          "text": "Se le concedió que se vistiera de lino fino, resplandeciente, limpio, porque el lino fino simboliza las acciones justas de los santos."
+        },
+        {
+          "number": 9,
+          "text": "Me dijo: Escribe: Inmensamente felices los que fueron invitados a la cena de la boda del Cordero. Y me dijo: Éstas son las palabras verdaderas de Dios.",
           "headings": [
             "Fiesta de boda"
           ]
         },
         {
-          "number": 9,
-          "text": "Me dijo: Escribe: Inmensamente felices los que fueron invitados a la cena de la boda del Cordero. Y me dijo: Éstas son las palabras verdaderas de Dios."
-        },
-        {
           "number": 10,
-          "text": "Caí ante sus pies para adorarlo, pero me dijo: ¡Mira, no! Soy consiervo tuyo y de tus hermanos, de los que retienen el testimonio de Jesús. ¡Adora a Dios! Porque el testimonio de Jesús es el espíritu de la profecía.",
-          "headings": [
-            "Rey de reyes y Señor de señores"
-          ]
+          "text": "Caí ante sus pies para adorarlo, pero me dijo: ¡Mira, no! Soy consiervo tuyo y de tus hermanos, de los que retienen el testimonio de Jesús. ¡Adora a Dios! Porque el testimonio de Jesús es el espíritu de la profecía."
         },
         {
           "number": 11,
-          "text": "Vi el cielo abierto, y ahí estaba un caballo blanco. Su Jinete es Fiel y Verdadero. Con justicia juzga y pelea."
+          "text": "Vi el cielo abierto, y ahí estaba un caballo blanco. Su Jinete es Fiel y Verdadero. Con justicia juzga y pelea.",
+          "headings": [
+            "Rey de reyes y Señor de señores"
+          ]
         },
         {
           "number": 12,
@@ -1577,7 +1632,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Vi a un ángel que descendía del cielo. Tenía en su mano la llave del abismo y una gran cadena."
+          "text": "Vi a un ángel que descendía del cielo. Tenía en su mano la llave del abismo y una gran cadena.",
+          "headings": [
+            "Un reinado de 1.000 años"
+          ]
         },
         {
           "number": 2,
@@ -1613,14 +1671,14 @@
         },
         {
           "number": 10,
-          "text": "El diablo que los engañaba fue lanzado al lago de fuego y azufre, donde están la bestia y el falso profeta. Serán atormentados de día y de noche por los siglos de los siglos.",
-          "headings": [
-            "Juicio final"
-          ]
+          "text": "El diablo que los engañaba fue lanzado al lago de fuego y azufre, donde están la bestia y el falso profeta. Serán atormentados de día y de noche por los siglos de los siglos."
         },
         {
           "number": 11,
-          "text": "Vi un gran trono blanco y al que estaba sentado en él. La tierra y el cielo huyeron de su presencia, y no se halló el lugar de ellos."
+          "text": "Vi un gran trono blanco y al que estaba sentado en él. La tierra y el cielo huyeron de su presencia, y no se halló el lugar de ellos.",
+          "headings": [
+            "Juicio final"
+          ]
         },
         {
           "number": 12,
@@ -1645,7 +1703,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Vi un cielo nuevo y una tierra nueva, porque el primer cielo y la primera tierra pasaron, y el mar ya no existe."
+          "text": "Vi un cielo nuevo y una tierra nueva, porque el primer cielo y la primera tierra pasaron, y el mar ya no existe.",
+          "headings": [
+            "Nuestra morada eterna"
+          ]
         },
         {
           "number": 2,
@@ -1774,14 +1835,14 @@
         },
         {
           "number": 5,
-          "text": "Ya no habrá noche. No tienen necesidad de luz de lámpara, ni de luz del sol, porque el Señor Dios resplandecerá sobre ellos. Y reinarán por los siglos de los siglos.",
-          "headings": [
-            "Conclusión"
-          ]
+          "text": "Ya no habrá noche. No tienen necesidad de luz de lámpara, ni de luz del sol, porque el Señor Dios resplandecerá sobre ellos. Y reinarán por los siglos de los siglos."
         },
         {
           "number": 6,
-          "text": "El ángel me dijo: Estas palabras son fieles y verdaderas. El Señor Dios de los espíritus de los profetas envió a su ángel para mostrar a sus esclavos las cosas que deben suceder con prontitud."
+          "text": "El ángel me dijo: Estas palabras son fieles y verdaderas. El Señor Dios de los espíritus de los profetas envió a su ángel para mostrar a sus esclavos las cosas que deben suceder con prontitud.",
+          "headings": [
+            "Conclusión"
+          ]
         },
         {
           "number": 7,

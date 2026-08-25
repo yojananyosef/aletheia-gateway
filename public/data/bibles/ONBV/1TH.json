@@ -9,14 +9,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo, Silvano y Timoteo a la iglesia de los tesalonicenses, que está en Dios el Padre y en el Señor Jesucristo: Que el favor y la paz de Dios estén con ustedes.",
-          "headings": [
-            "Acción de gracias por los tesalonicenses"
-          ]
+          "text": "Pablo, Silvano y Timoteo a la iglesia de los tesalonicenses, que está en Dios el Padre y en el Señor Jesucristo: Que el favor y la paz de Dios estén con ustedes."
         },
         {
           "number": 2,
-          "text": "Siempre damos gracias a Dios por todos ustedes al mencionarlos en nuestras oraciones."
+          "text": "Siempre damos gracias a Dios por todos ustedes al mencionarlos en nuestras oraciones.",
+          "headings": [
+            "Acción de gracias por los tesalonicenses"
+          ]
         },
         {
           "number": 3,
@@ -57,7 +57,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hermanos, ustedes saben bien que la visita que nosotros les hicimos no fue en vano."
+          "text": "Hermanos, ustedes saben bien que la visita que nosotros les hicimos no fue en vano.",
+          "headings": [
+            "Ministerio de Pablo en Tesalónica"
+          ]
         },
         {
           "number": 2,
@@ -117,14 +120,14 @@
         },
         {
           "number": 16,
-          "text": "pues tratan de que nosotros no anunciemos el mensaje de salvación a los que no son judíos. Así llegan siempre al colmo de su pecado. Pero Dios los castigará duramente.",
-          "headings": [
-            "Pablo anhela ver a los tesalonicenses"
-          ]
+          "text": "pues tratan de que nosotros no anunciemos el mensaje de salvación a los que no son judíos. Así llegan siempre al colmo de su pecado. Pero Dios los castigará duramente."
         },
         {
           "number": 17,
-          "text": "Hermanos, aunque nos separamos físicamente de ustedes por algún tiempo, siempre los llevábamos en nuestro corazón, e hicimos todo lo posible por ir a verlos."
+          "text": "Hermanos, aunque nos separamos físicamente de ustedes por algún tiempo, siempre los llevábamos en nuestro corazón, e hicimos todo lo posible por ir a verlos.",
+          "headings": [
+            "Pablo anhela ver a los tesalonicenses"
+          ]
         },
         {
           "number": 18,
@@ -161,14 +164,14 @@
         },
         {
           "number": 5,
-          "text": "Por eso, cuando ya no pude soportar más, envié a Timoteo para que se informara de cómo estaban ustedes en cuanto a su fe. Temía que el tentador los hubiera hecho caer y que nuestro trabajo hubiera sido en vano.",
-          "headings": [
-            "El informe alentador de Timoteo"
-          ]
+          "text": "Por eso, cuando ya no pude soportar más, envié a Timoteo para que se informara de cómo estaban ustedes en cuanto a su fe. Temía que el tentador los hubiera hecho caer y que nuestro trabajo hubiera sido en vano."
         },
         {
           "number": 6,
-          "text": "Timoteo acaba de regresar de Tesalónica con las buenas noticias de la fe y del amor de ustedes. También nos dice que nos recuerdan con cariño y que tienen tantas ganas de vernos, como nosotros a ustedes."
+          "text": "Timoteo acaba de regresar de Tesalónica con las buenas noticias de la fe y del amor de ustedes. También nos dice que nos recuerdan con cariño y que tienen tantas ganas de vernos, como nosotros a ustedes.",
+          "headings": [
+            "El informe alentador de Timoteo"
+          ]
         },
         {
           "number": 7,
@@ -205,7 +208,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ahora, hermanos, les suplicamos en el nombre del Señor Jesús que cada vez vivan más como le agrada a Dios, así como lo aprendieron de nosotros. En realidad, ya lo están haciendo."
+          "text": "Ahora, hermanos, les suplicamos en el nombre del Señor Jesús que cada vez vivan más como le agrada a Dios, así como lo aprendieron de nosotros. En realidad, ya lo están haciendo.",
+          "headings": [
+            "La vida que agrada a Dios"
+          ]
         },
         {
           "number": 2,
@@ -249,14 +255,14 @@
         },
         {
           "number": 12,
-          "text": "Si viven de ese modo, se ganarán el respeto de los que no son creyentes y no tendrán que depender de nadie.",
-          "headings": [
-            "La venida del Señor"
-          ]
+          "text": "Si viven de ese modo, se ganarán el respeto de los que no son creyentes y no tendrán que depender de nadie."
         },
         {
           "number": 13,
-          "text": "Hermanos, no queremos que ignoren lo que pasa con los que mueren, para que no se pongan tristes como esos otros que no tienen esperanza."
+          "text": "Hermanos, no queremos que ignoren lo que pasa con los que mueren, para que no se pongan tristes como esos otros que no tienen esperanza.",
+          "headings": [
+            "La venida del Señor"
+          ]
         },
         {
           "number": 14,
@@ -325,14 +331,14 @@
         },
         {
           "number": 11,
-          "text": "Así que anímense y ayúdense unos a otros a crecer, como ya lo están haciendo.",
-          "headings": [
-            "Instrucciones finales"
-          ]
+          "text": "Así que anímense y ayúdense unos a otros a crecer, como ya lo están haciendo."
         },
         {
           "number": 12,
-          "text": "Hermanos, les pedimos que respeten a los que trabajan entre ustedes, los guían y reprenden en el Señor."
+          "text": "Hermanos, les pedimos que respeten a los que trabajan entre ustedes, los guían y reprenden en el Señor.",
+          "headings": [
+            "Instrucciones finales"
+          ]
         },
         {
           "number": 13,

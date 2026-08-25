@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En la tierra de Uz vivía un hombre llamado Job, hombre bueno que temía a Dios y se abstenía de lo malo."
+          "text": "En la tierra de Uz vivía un hombre llamado Job, hombre bueno que temía a Dios y se abstenía de lo malo.",
+          "headings": [
+            "Prólogo"
+          ]
         },
         {
           "number": 2,
@@ -23,14 +26,14 @@
         },
         {
           "number": 5,
-          "text": "Al terminar el ciclo de los banquetes, Job reunía a sus hijos y los santificaba; se levantaba muy de mañana y presentaba una ofrenda por cada uno de ellos. Porque pensaba: «Quizás mis hijos hayan pecado y en su corazón se hayan alejado de Dios». Estas cosas eran costumbre en Job.",
-          "headings": [
-            "Primera prueba de Job"
-          ]
+          "text": "Al terminar el ciclo de los banquetes, Job reunía a sus hijos y los santificaba; se levantaba muy de mañana y presentaba una ofrenda por cada uno de ellos. Porque pensaba: «Quizás mis hijos hayan pecado y en su corazón se hayan alejado de Dios». Estas cosas eran costumbre en Job."
         },
         {
           "number": 6,
-          "text": "Cierto día en que los ángeles se presentaron ante el Señor , acudió también con ellos el ángel acusador."
+          "text": "Cierto día en que los ángeles se presentaron ante el Señor , acudió también con ellos el ángel acusador.",
+          "headings": [
+            "Primera prueba de Job"
+          ]
         },
         {
           "number": 7,
@@ -99,7 +102,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Llegaron nuevamente los ángeles a presentarse ante el Señor , y con ellos el ángel acusador."
+          "text": "Llegaron nuevamente los ángeles a presentarse ante el Señor , y con ellos el ángel acusador.",
+          "headings": [
+            "Segunda prueba de Job"
+          ]
         },
         {
           "number": 2,
@@ -133,14 +139,14 @@
         },
         {
           "number": 10,
-          "text": "Pero él respondió: ―Hablas como una necia. ¿Pues qué? ¿Hemos de recibir de manos de Dios únicamente lo agradable y nunca lo desagradable? En todo esto Job no pecó ni de palabra.",
-          "headings": [
-            "Los tres amigos de Job"
-          ]
+          "text": "Pero él respondió: ―Hablas como una necia. ¿Pues qué? ¿Hemos de recibir de manos de Dios únicamente lo agradable y nunca lo desagradable? En todo esto Job no pecó ni de palabra."
         },
         {
           "number": 11,
-          "text": "Había tres amigos de Job, que al enterarse de la gran tragedia que le había sobrevenido, se pusieron de acuerdo para ir a consolarlo y animarlo. Se llamaban Elifaz de Temán, Bildad de Súah y Zofar de Namat."
+          "text": "Había tres amigos de Job, que al enterarse de la gran tragedia que le había sobrevenido, se pusieron de acuerdo para ir a consolarlo y animarlo. Se llamaban Elifaz de Temán, Bildad de Súah y Zofar de Namat.",
+          "headings": [
+            "Los tres amigos de Job"
+          ]
         },
         {
           "number": 12,
@@ -157,7 +163,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Al fin habló Job, y maldijo el día de su nacimiento."
+          "text": "Al fin habló Job, y maldijo el día de su nacimiento.",
+          "headings": [
+            "Primer discurso de Job"
+          ]
         },
         {
           "number": 2,
@@ -260,7 +269,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Respuesta de Elifaz de Temán a Job:"
+          "text": "Respuesta de Elifaz de Temán a Job:",
+          "headings": [
+            "Primer discurso de Elifaz"
+          ]
         },
         {
           "number": 2,
@@ -456,7 +468,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Respuesta de Job:"
+          "text": "Respuesta de Job:",
+          "headings": [
+            "Segundo discurso de Job"
+          ]
         },
         {
           "number": 2,
@@ -642,7 +657,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Bildad de Súah responde a Job:"
+          "text": "Bildad de Súah responde a Job:",
+          "headings": [
+            "Primer discurso de Bildad"
+          ]
         },
         {
           "number": 2,
@@ -729,7 +747,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Respuesta de Job:"
+          "text": "Respuesta de Job:",
+          "headings": [
+            "Tercer discurso de Job"
+          ]
         },
         {
           "number": 2,
@@ -945,7 +966,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Zofar de Namat responde a Job:"
+          "text": "Zofar de Namat responde a Job:",
+          "headings": [
+            "Primer discurso de Zofar"
+          ]
         },
         {
           "number": 2,
@@ -1028,7 +1052,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Respuesta de Job:"
+          "text": "Respuesta de Job:",
+          "headings": [
+            "Cuarto discurso de Job"
+          ]
         },
         {
           "number": 2,
@@ -1325,7 +1352,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Respuesta de Elifaz de Temán:"
+          "text": "Respuesta de Elifaz de Temán:",
+          "headings": [
+            "Segundo discurso de Elifaz"
+          ]
         },
         {
           "number": 2,
@@ -1454,7 +1484,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Respuesta de Job:"
+          "text": "Respuesta de Job:",
+          "headings": [
+            "Quinto discurso de Job"
+          ]
         },
         {
           "number": 2,
@@ -1612,7 +1645,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Bildad de Súah responde nuevamente:"
+          "text": "Bildad de Súah responde nuevamente:",
+          "headings": [
+            "Segundo discurso de Bildad"
+          ]
         },
         {
           "number": 2,
@@ -1699,7 +1735,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Respuesta de Job:"
+          "text": "Respuesta de Job:",
+          "headings": [
+            "Sexto discurso de Job"
+          ]
         },
         {
           "number": 2,
@@ -1818,7 +1857,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Respuesta de Zofar de Namat:"
+          "text": "Respuesta de Zofar de Namat:",
+          "headings": [
+            "Segundo discurso de Zofar"
+          ]
         },
         {
           "number": 2,
@@ -1939,7 +1981,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Respuesta de Job:"
+          "text": "Respuesta de Job:",
+          "headings": [
+            "Séptimo discurso de Job"
+          ]
         },
         {
           "number": 2,
@@ -2068,7 +2113,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Otra respuesta de Elifaz de Temán:"
+          "text": "Otra respuesta de Elifaz de Temán:",
+          "headings": [
+            "Tercer discurso de Elifaz"
+          ]
         },
         {
           "number": 2,
@@ -2189,7 +2237,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Respuesta de Job:"
+          "text": "Respuesta de Job:",
+          "headings": [
+            "Octavo discurso de Job"
+          ]
         },
         {
           "number": 2,
@@ -2320,14 +2371,14 @@
         },
         {
           "number": 17,
-          "text": "Para todos ellos, la mañana es oscuridad; prefieren el horror de las tinieblas».",
-          "headings": [
-            "Interrupción de Zofar"
-          ]
+          "text": "Para todos ellos, la mañana es oscuridad; prefieren el horror de las tinieblas»."
         },
         {
           "number": 18,
-          "text": "«¡Pero cuán velozmente desaparecen de la tierra! Todo lo que poseen está maldito. No dejan bienes en herencia a sus hijos."
+          "text": "«¡Pero cuán velozmente desaparecen de la tierra! Todo lo que poseen está maldito. No dejan bienes en herencia a sus hijos.",
+          "headings": [
+            "Interrupción de Zofar"
+          ]
         },
         {
           "number": 19,
@@ -2362,7 +2413,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Bildad de Súah responde:"
+          "text": "Bildad de Súah responde:",
+          "headings": [
+            "Tercer discurso de Bildad"
+          ]
         },
         {
           "number": 2,
@@ -2391,7 +2445,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Respuesta de Job:"
+          "text": "Respuesta de Job:",
+          "headings": [
+            "Interrupción de Job"
+          ]
         },
         {
           "number": 2,
@@ -2403,16 +2460,16 @@
         },
         {
           "number": 4,
-          "text": "¿Cómo se te han ocurrido esos admirables comentarios?».",
-          "headings": [
-            "Bildad reanuda su discurso"
-          ]
+          "text": "¿Cómo se te han ocurrido esos admirables comentarios?»."
         },
         {
           "number": 5,
           "text": "«Desnudos y temblorosos se presentan los muertos ante Dios en el sitio adonde van.",
           "verseDisplay": "5-6",
-          "endNumber": 6
+          "endNumber": 6,
+          "headings": [
+            "Bildad reanuda su discurso"
+          ]
         },
         {
           "number": 7,
@@ -2453,7 +2510,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Defensa final de Job:"
+          "text": "Defensa final de Job:",
+          "headings": [
+            "Noveno discurso de Job"
+          ]
         },
         {
           "number": 2,
@@ -2497,14 +2557,14 @@
         },
         {
           "number": 12,
-          "text": "pero en realidad no es necesario, puesto que ustedes saben de él tanto como yo. Y sin embargo, vienen diciéndome tantas palabras inútiles».",
-          "headings": [
-            "Tercer discurso de Zofar"
-          ]
+          "text": "pero en realidad no es necesario, puesto que ustedes saben de él tanto como yo. Y sin embargo, vienen diciéndome tantas palabras inútiles»."
         },
         {
           "number": 13,
-          "text": "«Este es el destino que aguarda a los malvados, y que procede de la mano del Todopoderoso:"
+          "text": "«Este es el destino que aguarda a los malvados, y que procede de la mano del Todopoderoso:",
+          "headings": [
+            "Tercer discurso de Zofar"
+          ]
         },
         {
           "number": 14,
@@ -2553,7 +2613,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hay minas donde se extrae la plata, y lugares especiales donde se refina el oro."
+          "text": "Hay minas donde se extrae la plata, y lugares especiales donde se refina el oro.",
+          "headings": [
+            "Elogio de la sabiduría"
+          ]
         },
         {
           "number": 2,
@@ -2666,7 +2729,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Job prosiguió:"
+          "text": "Job prosiguió:",
+          "headings": [
+            "Soliloquio de Job"
+          ]
         },
         {
           "number": 2,
@@ -3055,7 +3121,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los tres hombres rehusaron dar ninguna otra respuesta a Job, porque este insistía en su inocencia."
+          "text": "Los tres hombres rehusaron dar ninguna otra respuesta a Job, porque este insistía en su inocencia.",
+          "headings": [
+            "Intervención de Eliú"
+          ]
         },
         {
           "number": 2,
@@ -3075,14 +3144,14 @@
         },
         {
           "number": 6,
-          "text": "y dijo: «Soy joven, y ustedes son ancianos; por eso me contuve, sin atreverme a decirles lo que pensaba,",
-          "headings": [
-            "Primer discurso de Eliú"
-          ]
+          "text": "y dijo: «Soy joven, y ustedes son ancianos; por eso me contuve, sin atreverme a decirles lo que pensaba,"
         },
         {
           "number": 7,
-          "text": "pues dicen que los ancianos son más sabios."
+          "text": "pues dicen que los ancianos son más sabios.",
+          "headings": [
+            "Primer discurso de Eliú"
+          ]
         },
         {
           "number": 8,
@@ -3278,7 +3347,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Eliú prosiguió:"
+          "text": "Eliú prosiguió:",
+          "headings": [
+            "Segundo discurso de Eliú"
+          ]
         },
         {
           "number": 2,
@@ -3425,7 +3497,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Eliú prosiguió:"
+          "text": "Eliú prosiguió:",
+          "headings": [
+            "Tercer discurso de Eliú"
+          ]
         },
         {
           "number": 2,
@@ -3488,7 +3563,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Eliú prosiguió:"
+          "text": "Eliú prosiguió:",
+          "headings": [
+            "Cuarto discurso de Eliú"
+          ]
         },
         {
           "number": 2,
@@ -3722,7 +3800,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces el Señor respondió a Job desde el torbellino:"
+          "text": "Entonces el Señor respondió a Job desde el torbellino:",
+          "headings": [
+            "Respuesta de Dios"
+          ]
         },
         {
           "number": 2,
@@ -4222,7 +4303,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Job respondió a Dios:"
+          "text": "Entonces Job respondió a Dios:",
+          "headings": [
+            "Respuesta de Job"
+          ]
         },
         {
           "number": 2,
@@ -4242,14 +4326,14 @@
         },
         {
           "number": 6,
-          "text": "y me detesto, y me arrepiento en polvo y cenizas».",
-          "headings": [
-            "Epílogo"
-          ]
+          "text": "y me detesto, y me arrepiento en polvo y cenizas»."
         },
         {
           "number": 7,
-          "text": "Luego que el Señor terminó de hablar con Job, dijo a Elifaz de Temán: «Estoy airado contra ti y tus dos amigos, pues no tenían razón en lo que dijeron respecto a mí, como sí la tuvo Job."
+          "text": "Luego que el Señor terminó de hablar con Job, dijo a Elifaz de Temán: «Estoy airado contra ti y tus dos amigos, pues no tenían razón en lo que dijeron respecto a mí, como sí la tuvo Job.",
+          "headings": [
+            "Epílogo"
+          ]
         },
         {
           "number": 8,

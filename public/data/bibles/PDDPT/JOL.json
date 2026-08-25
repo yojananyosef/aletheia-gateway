@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La Palabra de Yavé que vino a Joel, hijo de Petuel:"
+          "text": "La Palabra de Yavé que vino a Joel, hijo de Petuel:",
+          "headings": [
+            "Desolación de la tierra"
+          ]
         },
         {
           "number": 2,
@@ -57,14 +60,14 @@
         },
         {
           "number": 13,
-          "text": "Vístanse de luto, sacerdotes. Giman, ministros del altar. Pernocten con tela áspera, ministros de mi ʼElohim , porque a la casa de su ʼElohim se le negó la ofrenda vegetal y la libación.",
-          "headings": [
-            "Un llamado a clamar a Yavé"
-          ]
+          "text": "Vístanse de luto, sacerdotes. Giman, ministros del altar. Pernocten con tela áspera, ministros de mi ʼElohim , porque a la casa de su ʼElohim se le negó la ofrenda vegetal y la libación."
         },
         {
           "number": 14,
-          "text": "Proclamen un ayuno, convoquen solemne asamblea, reúnan a los ancianos y a todos los habitantes de la tierra en la Casa de Yavé , su ʼElohim , e invoquen a Yavé ."
+          "text": "Proclamen un ayuno, convoquen solemne asamblea, reúnan a los ancianos y a todos los habitantes de la tierra en la Casa de Yavé , su ʼElohim , e invoquen a Yavé .",
+          "headings": [
+            "Un llamado a clamar a Yavé"
+          ]
         },
         {
           "number": 15,
@@ -97,7 +100,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Toquen trompeta en Sion! ¡Suene alarma en mi Montaña Santa! ¡Tiemblen todos los habitantes de la tierra! Porque viene el día de Yavé . Ciertamente está cerca."
+          "text": "¡Toquen trompeta en Sion! ¡Suene alarma en mi Montaña Santa! ¡Tiemblen todos los habitantes de la tierra! Porque viene el día de Yavé . Ciertamente está cerca.",
+          "headings": [
+            "El día de Yavé"
+          ]
         },
         {
           "number": 2,
@@ -137,14 +143,14 @@
         },
         {
           "number": 11,
-          "text": "Yavé da su voz ante su ejército. Su campamento es muy grande, poderoso el que ejecuta su Palabra. ¡Porque grande y terrible es el día de Yavé ! ¿Quién lo podrá soportar?",
-          "headings": [
-            "Arrepentimiento"
-          ]
+          "text": "Yavé da su voz ante su ejército. Su campamento es muy grande, poderoso el que ejecuta su Palabra. ¡Porque grande y terrible es el día de Yavé ! ¿Quién lo podrá soportar?"
         },
         {
           "number": 12,
-          "text": "Pero aun ahora, Yavé dice: ¡Regresen a Mí de todo corazón, con ayuno, llanto y lamento!"
+          "text": "Pero aun ahora, Yavé dice: ¡Regresen a Mí de todo corazón, con ayuno, llanto y lamento!",
+          "headings": [
+            "Arrepentimiento"
+          ]
         },
         {
           "number": 13,
@@ -233,7 +239,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ciertamente en aquellos días y en aquel tiempo, cuando Yo restaure de la cautividad a Judá y a Jerusalén,"
+          "text": "Ciertamente en aquellos días y en aquel tiempo, cuando Yo restaure de la cautividad a Judá y a Jerusalén,",
+          "headings": [
+            "Juicio y restauración"
+          ]
         },
         {
           "number": 2,
@@ -261,14 +270,14 @@
         },
         {
           "number": 8,
-          "text": "Venderé sus hijos e hijas a los hijos de Judá, y ellos los venderán a los sabeos, una nación distante, pues Yavé habló.",
-          "headings": [
-            "El valle de la Decisión"
-          ]
+          "text": "Venderé sus hijos e hijas a los hijos de Judá, y ellos los venderán a los sabeos, una nación distante, pues Yavé habló."
         },
         {
           "number": 9,
-          "text": "¡Pregónenlo a las naciones! ¡Prepárense para una guerra! ¡Levántense los hombres valientes! Todos los guerreros: ¡Acérquense y suban!"
+          "text": "¡Pregónenlo a las naciones! ¡Prepárense para una guerra! ¡Levántense los hombres valientes! Todos los guerreros: ¡Acérquense y suban!",
+          "headings": [
+            "El valle de la Decisión"
+          ]
         },
         {
           "number": 10,
@@ -296,14 +305,14 @@
         },
         {
           "number": 16,
-          "text": "Yavé ruge desde Sion. Da su voz desde Jerusalén y tiemblan los cielos y la tierra. Pero Yavé es la esperanza de su pueblo, la fortaleza de los hijos de Israel.",
-          "headings": [
-            "El reino"
-          ]
+          "text": "Yavé ruge desde Sion. Da su voz desde Jerusalén y tiemblan los cielos y la tierra. Pero Yavé es la esperanza de su pueblo, la fortaleza de los hijos de Israel."
         },
         {
           "number": 17,
-          "text": "Entonces conocerán que Yo soy Yavé su ʼElohim , quien mora en Sion, mi Montaña Santa. Jerusalén será santa, y los extraños no pasarán más por ella."
+          "text": "Entonces conocerán que Yo soy Yavé su ʼElohim , quien mora en Sion, mi Montaña Santa. Jerusalén será santa, y los extraños no pasarán más por ella.",
+          "headings": [
+            "El reino"
+          ]
         },
         {
           "number": 18,

@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Muchos han escrito historias de las cosas que se han cumplido entre nosotros,"
+          "text": "Muchos han escrito historias de las cosas que se han cumplido entre nosotros,",
+          "headings": [
+            "Prólogo"
+          ]
         },
         {
           "number": 2,
@@ -21,14 +24,14 @@
         },
         {
           "number": 4,
-          "text": "para que confirmes la verdad de lo que se te ha enseñado.",
-          "headings": [
-            "Anuncio del nacimiento de Juan el Bautista"
-          ]
+          "text": "para que confirmes la verdad de lo que se te ha enseñado."
         },
         {
           "number": 5,
-          "text": "Hubo un sacerdote llamado Zacarías, miembro del grupo de Abías, que vivió cuando Herodes era rey de Judea. Su esposa, Elisabet, era descendiente de Aarón."
+          "text": "Hubo un sacerdote llamado Zacarías, miembro del grupo de Abías, que vivió cuando Herodes era rey de Judea. Su esposa, Elisabet, era descendiente de Aarón.",
+          "headings": [
+            "Anuncio del nacimiento de Juan el Bautista"
+          ]
         },
         {
           "number": 6,
@@ -108,14 +111,14 @@
         },
         {
           "number": 25,
-          "text": "Ella decía: «El Señor me ha mostrado su bondad haciendo que yo vaya a tener un hijo y así la gente ya no me despreciará».",
-          "headings": [
-            "Anuncio del nacimiento de Jesús"
-          ]
+          "text": "Ella decía: «El Señor me ha mostrado su bondad haciendo que yo vaya a tener un hijo y así la gente ya no me despreciará»."
         },
         {
           "number": 26,
-          "text": "A los seis meses, Dios envió al ángel Gabriel al pueblo de Nazaret, que pertenecía a la región de Galilea."
+          "text": "A los seis meses, Dios envió al ángel Gabriel al pueblo de Nazaret, que pertenecía a la región de Galilea.",
+          "headings": [
+            "Anuncio del nacimiento de Jesús"
+          ]
         },
         {
           "number": 27,
@@ -163,14 +166,14 @@
         },
         {
           "number": 38,
-          "text": "María dijo: ―Soy la esclava del Señor. Que él haga conmigo como tú me has dicho. Y entonces el ángel se fue.",
-          "headings": [
-            "María visita a Elisabet"
-          ]
+          "text": "María dijo: ―Soy la esclava del Señor. Que él haga conmigo como tú me has dicho. Y entonces el ángel se fue."
         },
         {
           "number": 39,
-          "text": "Pocos días después, María se fue de prisa a un pueblo en la región montañosa de Judea."
+          "text": "Pocos días después, María se fue de prisa a un pueblo en la región montañosa de Judea.",
+          "headings": [
+            "María visita a Elisabet"
+          ]
         },
         {
           "number": 40,
@@ -194,14 +197,14 @@
         },
         {
           "number": 45,
-          "text": "Dichosa tú que has creído, pues lo que el Señor te dijo se cumplirá.",
-          "headings": [
-            "El cántico de María"
-          ]
+          "text": "Dichosa tú que has creído, pues lo que el Señor te dijo se cumplirá."
         },
         {
           "number": 46,
-          "text": "Entonces María dijo: ―Mi alma alaba al Señor,"
+          "text": "Entonces María dijo: ―Mi alma alaba al Señor,",
+          "headings": [
+            "El cántico de María"
+          ]
         },
         {
           "number": 47,
@@ -241,14 +244,14 @@
         },
         {
           "number": 56,
-          "text": "María se quedó con Elisabet como tres meses. Después regresó a su casa.",
-          "headings": [
-            "Nacimiento de Juan el Bautista"
-          ]
+          "text": "María se quedó con Elisabet como tres meses. Después regresó a su casa."
         },
         {
           "number": 57,
-          "text": "Cuando llegó el momento, Elisabet dio a luz a su hijo."
+          "text": "Cuando llegó el momento, Elisabet dio a luz a su hijo.",
+          "headings": [
+            "Nacimiento de Juan el Bautista"
+          ]
         },
         {
           "number": 58,
@@ -284,14 +287,14 @@
         },
         {
           "number": 66,
-          "text": "Todos los que oían hablar del asunto se preguntaban: «¿Qué llegará a ser ese niño? Porque el Señor estaba con él».",
-          "headings": [
-            "El cántico de Zacarías"
-          ]
+          "text": "Todos los que oían hablar del asunto se preguntaban: «¿Qué llegará a ser ese niño? Porque el Señor estaba con él»."
         },
         {
           "number": 67,
-          "text": "Entonces Zacarías, su padre, lleno del Espíritu Santo, dijo esta profecía:"
+          "text": "Entonces Zacarías, su padre, lleno del Espíritu Santo, dijo esta profecía:",
+          "headings": [
+            "El cántico de Zacarías"
+          ]
         },
         {
           "number": 68,
@@ -352,7 +355,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por aquellos días, César Augusto mandó que se hiciera un censo en todo el imperio romano."
+          "text": "Por aquellos días, César Augusto mandó que se hiciera un censo en todo el imperio romano.",
+          "headings": [
+            "Nacimiento de Jesús"
+          ]
         },
         {
           "number": 2,
@@ -376,14 +382,14 @@
         },
         {
           "number": 7,
-          "text": "y dio a luz a su primer hijo. Lo envolvió en pañales y lo acostó en un pesebre, porque no habían encontrado lugar para ellos en la posada.",
-          "headings": [
-            "Los pastores y los ángeles"
-          ]
+          "text": "y dio a luz a su primer hijo. Lo envolvió en pañales y lo acostó en un pesebre, porque no habían encontrado lugar para ellos en la posada."
         },
         {
           "number": 8,
-          "text": "Por aquella misma región había unos pastores que pasaban la noche en el campo cuidando a sus ovejas."
+          "text": "Por aquella misma región había unos pastores que pasaban la noche en el campo cuidando a sus ovejas.",
+          "headings": [
+            "Los pastores y los ángeles"
+          ]
         },
         {
           "number": 9,
@@ -431,14 +437,14 @@
         },
         {
           "number": 20,
-          "text": "Los pastores regresaron dando la gloria a Dios y alabándolo por lo que habían visto y oído. Todo sucedió tal como se les había dicho.",
-          "headings": [
-            "Presentación de Jesús en el templo"
-          ]
+          "text": "Los pastores regresaron dando la gloria a Dios y alabándolo por lo que habían visto y oído. Todo sucedió tal como se les había dicho."
         },
         {
           "number": 21,
-          "text": "Ocho días más tarde fueron a circuncidar al niño, y le pusieron el nombre de Jesús, tal como el ángel le había dicho a María antes de quedar embarazada."
+          "text": "Ocho días más tarde fueron a circuncidar al niño, y le pusieron el nombre de Jesús, tal como el ángel le había dicho a María antes de quedar embarazada.",
+          "headings": [
+            "Presentación de Jesús en el templo"
+          ]
         },
         {
           "number": 22,
@@ -514,14 +520,14 @@
         },
         {
           "number": 40,
-          "text": "El niño crecía y se fortalecía; se llenaba de sabiduría y Dios lo favorecía.",
-          "headings": [
-            "El niño Jesús en el templo"
-          ]
+          "text": "El niño crecía y se fortalecía; se llenaba de sabiduría y Dios lo favorecía."
         },
         {
           "number": 41,
-          "text": "Los padres de Jesús iban todos los años a Jerusalén para la fiesta de la Pascua."
+          "text": "Los padres de Jesús iban todos los años a Jerusalén para la fiesta de la Pascua.",
+          "headings": [
+            "El niño Jesús en el templo"
+          ]
         },
         {
           "number": 42,
@@ -574,7 +580,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando ya llevaba quince años reinando Tiberio César, Poncio Pilato era gobernador de la región de Judea. Herodes gobernaba en Galilea; Felipe, el hermano de Herodes, gobernaba en Iturea y en la región de Traconite; y Lisanias gobernaba en Abilene."
+          "text": "Cuando ya llevaba quince años reinando Tiberio César, Poncio Pilato era gobernador de la región de Judea. Herodes gobernaba en Galilea; Felipe, el hermano de Herodes, gobernaba en Iturea y en la región de Traconite; y Lisanias gobernaba en Abilene.",
+          "headings": [
+            "Juan el Bautista prepara el camino"
+          ]
         },
         {
           "number": 2,
@@ -650,14 +659,14 @@
         },
         {
           "number": 20,
-          "text": "Entonces Herodes hizo otra cosa peor: encerró a Juan en la cárcel.",
-          "headings": [
-            "Bautismo y genealogía de Jesús"
-          ]
+          "text": "Entonces Herodes hizo otra cosa peor: encerró a Juan en la cárcel."
         },
         {
           "number": 21,
-          "text": "En una ocasión en que todos iban para que Juan los bautizara, Jesús fue y también a él lo bautizó. Y mientras Jesús oraba, el cielo se abrió"
+          "text": "En una ocasión en que todos iban para que Juan los bautizara, Jesús fue y también a él lo bautizó. Y mientras Jesús oraba, el cielo se abrió",
+          "headings": [
+            "Bautismo y genealogía de Jesús"
+          ]
         },
         {
           "number": 22,
@@ -734,7 +743,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jesús, lleno del Espíritu Santo, volvió del Jordán y el Espíritu lo llevó al desierto."
+          "text": "Jesús, lleno del Espíritu Santo, volvió del Jordán y el Espíritu lo llevó al desierto.",
+          "headings": [
+            "Tentación de Jesús"
+          ]
         },
         {
           "number": 2,
@@ -782,14 +794,14 @@
         },
         {
           "number": 13,
-          "text": "Después que el diablo trató por todos los medios de hacerlo caer en tentación, se alejó de él por un tiempo.",
-          "headings": [
-            "Rechazan a Jesús en Nazaret"
-          ]
+          "text": "Después que el diablo trató por todos los medios de hacerlo caer en tentación, se alejó de él por un tiempo."
         },
         {
           "number": 14,
-          "text": "Jesús regresó a Galilea lleno del poder del Espíritu Santo, y adquirió fama por toda la región."
+          "text": "Jesús regresó a Galilea lleno del poder del Espíritu Santo, y adquirió fama por toda la región.",
+          "headings": [
+            "Rechazan a Jesús en Nazaret"
+          ]
         },
         {
           "number": 15,
@@ -853,14 +865,14 @@
         },
         {
           "number": 30,
-          "text": "pero él pasó por en medio de ellos y se fue.",
-          "headings": [
-            "Jesús expulsa a un espíritu maligno"
-          ]
+          "text": "pero él pasó por en medio de ellos y se fue."
         },
         {
           "number": 31,
-          "text": "Jesús se fue a Capernaúm, un pueblo de la región de Galilea, y enseñaba a la gente el día sábado."
+          "text": "Jesús se fue a Capernaúm, un pueblo de la región de Galilea, y enseñaba a la gente el día sábado.",
+          "headings": [
+            "Jesús expulsa a un espíritu maligno"
+          ]
         },
         {
           "number": 32,
@@ -884,14 +896,14 @@
         },
         {
           "number": 37,
-          "text": "Y por todo aquel lugar se hablaba de Jesús.",
-          "headings": [
-            "Jesús sana a muchos enfermos"
-          ]
+          "text": "Y por todo aquel lugar se hablaba de Jesús."
         },
         {
           "number": 38,
-          "text": "Al salir Jesús de la sinagoga se fue a la casa de Simón. La suegra de este estaba enferma y con fiebre muy alta, y le pidieron a Jesús que hiciera algo por ella."
+          "text": "Al salir Jesús de la sinagoga se fue a la casa de Simón. La suegra de este estaba enferma y con fiebre muy alta, y le pidieron a Jesús que hiciera algo por ella.",
+          "headings": [
+            "Jesús sana a muchos enfermos"
+          ]
         },
         {
           "number": 39,
@@ -924,7 +936,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día, Jesús estaba a la orilla del lago de Genesaret y la gente lo apretujaba para oír el mensaje de Dios."
+          "text": "Un día, Jesús estaba a la orilla del lago de Genesaret y la gente lo apretujaba para oír el mensaje de Dios.",
+          "headings": [
+            "Llamamiento de los primeros discípulos"
+          ]
         },
         {
           "number": 2,
@@ -964,14 +979,14 @@
         },
         {
           "number": 11,
-          "text": "Entonces llevaron las barcas a tierra, lo dejaron todo y siguieron a Jesús.",
-          "headings": [
-            "Jesús sana a un leproso"
-          ]
+          "text": "Entonces llevaron las barcas a tierra, lo dejaron todo y siguieron a Jesús."
         },
         {
           "number": 12,
-          "text": "Un día que Jesús estaba en un pueblo, se presentó un hombre enfermo de lepra. Al ver a Jesús, se inclinó hasta tocar con su rostro el suelo y le suplicó: ―Señor, si quieres, puedes sanarme."
+          "text": "Un día que Jesús estaba en un pueblo, se presentó un hombre enfermo de lepra. Al ver a Jesús, se inclinó hasta tocar con su rostro el suelo y le suplicó: ―Señor, si quieres, puedes sanarme.",
+          "headings": [
+            "Jesús sana a un leproso"
+          ]
         },
         {
           "number": 13,
@@ -987,14 +1002,14 @@
         },
         {
           "number": 16,
-          "text": "Pero él con frecuencia se apartaba a lugares solitarios para orar.",
-          "headings": [
-            "Jesús sana a un paralítico"
-          ]
+          "text": "Pero él con frecuencia se apartaba a lugares solitarios para orar."
         },
         {
           "number": 17,
-          "text": "Un día que enseñaba, estaban sentados por allí algunos fariseos y maestros de la ley que habían venido de todos los pueblos de Galilea y Judea, y hasta de Jerusalén. Jesús mostraba el poder del Señor sanando a los enfermos."
+          "text": "Un día que enseñaba, estaban sentados por allí algunos fariseos y maestros de la ley que habían venido de todos los pueblos de Galilea y Judea, y hasta de Jerusalén. Jesús mostraba el poder del Señor sanando a los enfermos.",
+          "headings": [
+            "Jesús sana a un paralítico"
+          ]
         },
         {
           "number": 18,
@@ -1030,14 +1045,14 @@
         },
         {
           "number": 26,
-          "text": "Todos quedaron asombrados y comenzaron también a alabar a Dios. Y llenos de temor, decían: ―Hoy hemos visto cosas maravillosas.",
-          "headings": [
-            "Llamamiento de Leví"
-          ]
+          "text": "Todos quedaron asombrados y comenzaron también a alabar a Dios. Y llenos de temor, decían: ―Hoy hemos visto cosas maravillosas."
         },
         {
           "number": 27,
-          "text": "Después de esto salió Jesús y vio a un hombre llamado Leví que era recaudador de impuestos. Estaba sentado a la mesa donde cobraba. Jesús le dijo: ―Sígueme."
+          "text": "Después de esto salió Jesús y vio a un hombre llamado Leví que era recaudador de impuestos. Estaba sentado a la mesa donde cobraba. Jesús le dijo: ―Sígueme.",
+          "headings": [
+            "Llamamiento de Leví"
+          ]
         },
         {
           "number": 28,
@@ -1057,14 +1072,14 @@
         },
         {
           "number": 32,
-          "text": "Yo no he venido a llamar a los justos para que se arrepientan, sino a los pecadores.",
-          "headings": [
-            "Le preguntan a Jesús sobre el ayuno"
-          ]
+          "text": "Yo no he venido a llamar a los justos para que se arrepientan, sino a los pecadores."
         },
         {
           "number": 33,
-          "text": "Algunos le dijeron a Jesús: ―Los discípulos de Juan y los discípulos de los fariseos ayunan y oran mucho, pero los tuyos se la pasan comiendo y bebiendo."
+          "text": "Algunos le dijeron a Jesús: ―Los discípulos de Juan y los discípulos de los fariseos ayunan y oran mucho, pero los tuyos se la pasan comiendo y bebiendo.",
+          "headings": [
+            "Le preguntan a Jesús sobre el ayuno"
+          ]
         },
         {
           "number": 34,
@@ -1097,7 +1112,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un sábado, Jesús y sus discípulos pasaban por los sembrados. Sus discípulos se pusieron a arrancar unas espigas de trigo y las restregaban con las manos para desgranarlas y comérselas."
+          "text": "Un sábado, Jesús y sus discípulos pasaban por los sembrados. Sus discípulos se pusieron a arrancar unas espigas de trigo y las restregaban con las manos para desgranarlas y comérselas.",
+          "headings": [
+            "Señor del sábado"
+          ]
         },
         {
           "number": 2,
@@ -1137,14 +1155,14 @@
         },
         {
           "number": 11,
-          "text": "Pero los que querían acusarlo se llenaron de ira y comenzaron a hacer planes contra Jesús.",
-          "headings": [
-            "Los doce apóstoles"
-          ]
+          "text": "Pero los que querían acusarlo se llenaron de ira y comenzaron a hacer planes contra Jesús."
         },
         {
           "number": 12,
-          "text": "En aquellos días se fue Jesús a la montaña y pasó toda la noche orando a Dios."
+          "text": "En aquellos días se fue Jesús a la montaña y pasó toda la noche orando a Dios.",
+          "headings": [
+            "Los doce apóstoles"
+          ]
         },
         {
           "number": 13,
@@ -1160,14 +1178,14 @@
         },
         {
           "number": 16,
-          "text": "Judas hijo de Jacobo, y Judas Iscariote (que fue el que lo traicionó).",
-          "headings": [
-            "Bendiciones y ayes"
-          ]
+          "text": "Judas hijo de Jacobo, y Judas Iscariote (que fue el que lo traicionó)."
         },
         {
           "number": 17,
-          "text": "Jesús bajó de la montaña con ellos y se detuvo en un lugar llano. Allí lo esperaban muchos de sus discípulos y mucha gente de toda Judea, de Jerusalén y de la costa de Tiro y Sidón."
+          "text": "Jesús bajó de la montaña con ellos y se detuvo en un lugar llano. Allí lo esperaban muchos de sus discípulos y mucha gente de toda Judea, de Jerusalén y de la costa de Tiro y Sidón.",
+          "headings": [
+            "Bendiciones y ayes"
+          ]
         },
         {
           "number": 18,
@@ -1203,14 +1221,14 @@
         },
         {
           "number": 26,
-          "text": "»¡Qué tristeza cuando a ustedes todos los elogien! Porque los antepasados de los que ahora los elogian, elogiaron de la misma manera a los falsos profetas.",
-          "headings": [
-            "El amor a los enemigos"
-          ]
+          "text": "»¡Qué tristeza cuando a ustedes todos los elogien! Porque los antepasados de los que ahora los elogian, elogiaron de la misma manera a los falsos profetas."
         },
         {
           "number": 27,
-          "text": "»Pero a ustedes que me escuchan les digo: Amen a sus enemigos, hagan bien a quienes los odian,"
+          "text": "»Pero a ustedes que me escuchan les digo: Amen a sus enemigos, hagan bien a quienes los odian,",
+          "headings": [
+            "El amor a los enemigos"
+          ]
         },
         {
           "number": 28,
@@ -1246,14 +1264,14 @@
         },
         {
           "number": 36,
-          "text": "Ustedes sean compasivos, así como su Padre es compasivo.",
-          "headings": [
-            "El juzgar a los demás"
-          ]
+          "text": "Ustedes sean compasivos, así como su Padre es compasivo."
         },
         {
           "number": 37,
-          "text": "»No juzguen a los demás y así no los juzgarán a ustedes. No condenen a los demás y no los condenarán a ustedes. Perdonen, y serán perdonados."
+          "text": "»No juzguen a los demás y así no los juzgarán a ustedes. No condenen a los demás y no los condenarán a ustedes. Perdonen, y serán perdonados.",
+          "headings": [
+            "El juzgar a los demás"
+          ]
         },
         {
           "number": 38,
@@ -1273,14 +1291,14 @@
         },
         {
           "number": 42,
-          "text": "¿Cómo te atreves a decirle a tu hermano: “Hermano, déjame sacarte la paja que tienes en tu ojo”, si tú no te das cuenta de la viga que tienes en el tuyo? ¡Hipócrita! Saca primero la viga que tienes en tu ojo, y entonces podrás ver con claridad para sacar la paja del ojo de tu hermano.",
-          "headings": [
-            "El árbol y su fruto"
-          ]
+          "text": "¿Cómo te atreves a decirle a tu hermano: “Hermano, déjame sacarte la paja que tienes en tu ojo”, si tú no te das cuenta de la viga que tienes en el tuyo? ¡Hipócrita! Saca primero la viga que tienes en tu ojo, y entonces podrás ver con claridad para sacar la paja del ojo de tu hermano."
         },
         {
           "number": 43,
-          "text": "»Ningún árbol bueno da fruto malo, ni ningún árbol malo da fruto bueno."
+          "text": "»Ningún árbol bueno da fruto malo, ni ningún árbol malo da fruto bueno.",
+          "headings": [
+            "El árbol y su fruto"
+          ]
         },
         {
           "number": 44,
@@ -1288,14 +1306,14 @@
         },
         {
           "number": 45,
-          "text": "El hombre que es bueno hace el bien, porque en su corazón tiene un tesoro de bondad. Pero el que es malo hace el mal, porque eso es lo que llena su corazón. De lo que abunda en su corazón es de lo que habla su boca.",
-          "headings": [
-            "El prudente y el insensato"
-          ]
+          "text": "El hombre que es bueno hace el bien, porque en su corazón tiene un tesoro de bondad. Pero el que es malo hace el mal, porque eso es lo que llena su corazón. De lo que abunda en su corazón es de lo que habla su boca."
         },
         {
           "number": 46,
-          "text": "»¿Por qué me llaman “Señor, Señor”, si no me obedecen?"
+          "text": "»¿Por qué me llaman “Señor, Señor”, si no me obedecen?",
+          "headings": [
+            "El prudente y el insensato"
+          ]
         },
         {
           "number": 47,
@@ -1316,7 +1334,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando Jesús terminó de hablar al pueblo, entró en Capernaúm."
+          "text": "Cuando Jesús terminó de hablar al pueblo, entró en Capernaúm.",
+          "headings": [
+            "La fe del centurión"
+          ]
         },
         {
           "number": 2,
@@ -1352,14 +1373,14 @@
         },
         {
           "number": 10,
-          "text": "Cuando los enviados regresaron a la casa, encontraron sano al siervo.",
-          "headings": [
-            "Jesús resucita al hijo de una viuda"
-          ]
+          "text": "Cuando los enviados regresaron a la casa, encontraron sano al siervo."
         },
         {
           "number": 11,
-          "text": "Poco después, Jesús, acompañado de mucha gente y de sus discípulos, se dirigió a un pueblo llamado Naín."
+          "text": "Poco después, Jesús, acompañado de mucha gente y de sus discípulos, se dirigió a un pueblo llamado Naín.",
+          "headings": [
+            "Jesús resucita al hijo de una viuda"
+          ]
         },
         {
           "number": 12,
@@ -1383,14 +1404,14 @@
         },
         {
           "number": 17,
-          "text": "Lo que Jesús había hecho se supo por toda Judea y sus alrededores.",
-          "headings": [
-            "Jesús y Juan el Bautista"
-          ]
+          "text": "Lo que Jesús había hecho se supo por toda Judea y sus alrededores."
         },
         {
           "number": 18,
-          "text": "Los discípulos de Juan le contaron todas estas cosas. Él llamó a dos de ellos"
+          "text": "Los discípulos de Juan le contaron todas estas cosas. Él llamó a dos de ellos",
+          "headings": [
+            "Jesús y Juan el Bautista"
+          ]
         },
         {
           "number": 19,
@@ -1458,14 +1479,14 @@
         },
         {
           "number": 35,
-          "text": "Pero la sabiduría se demuestra por los que la siguen».",
-          "headings": [
-            "Una mujer pecadora unge a Jesús"
-          ]
+          "text": "Pero la sabiduría se demuestra por los que la siguen»."
         },
         {
           "number": 36,
-          "text": "Un fariseo invitó a Jesús a comer. Él fue a la casa del fariseo y se sentó a la mesa."
+          "text": "Un fariseo invitó a Jesús a comer. Él fue a la casa del fariseo y se sentó a la mesa.",
+          "headings": [
+            "Una mujer pecadora unge a Jesús"
+          ]
         },
         {
           "number": 37,
@@ -1530,7 +1551,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de esto, Jesús anduvo por muchos pueblos y aldeas anunciando las buenas nuevas del reino de Dios. Lo acompañaban los doce"
+          "text": "Después de esto, Jesús anduvo por muchos pueblos y aldeas anunciando las buenas nuevas del reino de Dios. Lo acompañaban los doce",
+          "headings": [
+            "Parábola del sembrador"
+          ]
         },
         {
           "number": 2,
@@ -1586,14 +1610,14 @@
         },
         {
           "number": 15,
-          "text": "La que cayó en buena tierra representa a los que oyen la palabra con un corazón bueno y sincero. Estos la retienen y, porque perseveran, producen una buena cosecha.",
-          "headings": [
-            "Una lámpara en una repisa"
-          ]
+          "text": "La que cayó en buena tierra representa a los que oyen la palabra con un corazón bueno y sincero. Estos la retienen y, porque perseveran, producen una buena cosecha."
         },
         {
           "number": 16,
-          "text": "»Nadie enciende una lámpara y la cubre con una olla o la pone debajo de la cama. Lo que hace es ponerla en un lugar alto para que los que entren a la casa tengan luz."
+          "text": "»Nadie enciende una lámpara y la cubre con una olla o la pone debajo de la cama. Lo que hace es ponerla en un lugar alto para que los que entren a la casa tengan luz.",
+          "headings": [
+            "Una lámpara en una repisa"
+          ]
         },
         {
           "number": 17,
@@ -1601,14 +1625,14 @@
         },
         {
           "number": 18,
-          "text": "Por eso, pongan mucha atención, pues al que tiene, se le dará más; pero al que no tiene, aun lo que cree tener se le quitará».",
-          "headings": [
-            "La madre y los hermanos de Jesús"
-          ]
+          "text": "Por eso, pongan mucha atención, pues al que tiene, se le dará más; pero al que no tiene, aun lo que cree tener se le quitará»."
         },
         {
           "number": 19,
-          "text": "La madre y los hermanos de Jesús fueron a verlo, pero no podían acercarse a él porque había mucha gente."
+          "text": "La madre y los hermanos de Jesús fueron a verlo, pero no podían acercarse a él porque había mucha gente.",
+          "headings": [
+            "La madre y los hermanos de Jesús"
+          ]
         },
         {
           "number": 20,
@@ -1616,14 +1640,14 @@
         },
         {
           "number": 21,
-          "text": "Pero él les contestó: —Mi madre y mis hermanos son los que oyen la palabra de Dios y la obedecen.",
-          "headings": [
-            "Jesús calma la tormenta"
-          ]
+          "text": "Pero él les contestó: —Mi madre y mis hermanos son los que oyen la palabra de Dios y la obedecen."
         },
         {
           "number": 22,
-          "text": "Un día, Jesús subió a una barca con sus discípulos y les dijo: ―Vamos al otro lado del lago. Y partieron."
+          "text": "Un día, Jesús subió a una barca con sus discípulos y les dijo: ―Vamos al otro lado del lago. Y partieron.",
+          "headings": [
+            "Jesús calma la tormenta"
+          ]
         },
         {
           "number": 23,
@@ -1635,14 +1659,14 @@
         },
         {
           "number": 25,
-          "text": "Después les dijo a sus discípulos: ―¿Dónde está la fe de ustedes? Ellos, llenos de temor y asombro, se decían unos a otros: «¿Quién será este hombre que aun los vientos y el mar lo obedecen?».",
-          "headings": [
-            "Liberación de un endemoniado"
-          ]
+          "text": "Después les dijo a sus discípulos: ―¿Dónde está la fe de ustedes? Ellos, llenos de temor y asombro, se decían unos a otros: «¿Quién será este hombre que aun los vientos y el mar lo obedecen?»."
         },
         {
           "number": 26,
-          "text": "Siguieron navegando hasta la otra orilla del lago, hasta la región de los gerasenos, frente a Galilea."
+          "text": "Siguieron navegando hasta la otra orilla del lago, hasta la región de los gerasenos, frente a Galilea.",
+          "headings": [
+            "Liberación de un endemoniado"
+          ]
         },
         {
           "number": 27,
@@ -1694,14 +1718,14 @@
         },
         {
           "number": 39,
-          "text": "―Vuelve a tu casa y cuenta todo lo que Dios ha hecho por ti. El hombre se fue y le contó a todo el pueblo lo que Jesús había hecho por él.",
-          "headings": [
-            "Una niña muerta y una mujer enferma"
-          ]
+          "text": "―Vuelve a tu casa y cuenta todo lo que Dios ha hecho por ti. El hombre se fue y le contó a todo el pueblo lo que Jesús había hecho por él."
         },
         {
           "number": 40,
-          "text": "Cuando Jesús regresó, la gente lo recibió con alegría, pues todos lo estaban esperando."
+          "text": "Cuando Jesús regresó, la gente lo recibió con alegría, pues todos lo estaban esperando.",
+          "headings": [
+            "Una niña muerta y una mujer enferma"
+          ]
         },
         {
           "number": 41,
@@ -1774,7 +1798,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jesús reunió a sus doce discípulos y les dio poder y autoridad para echar fuera a todos los demonios y para sanar enfermedades."
+          "text": "Jesús reunió a sus doce discípulos y les dio poder y autoridad para echar fuera a todos los demonios y para sanar enfermedades.",
+          "headings": [
+            "Jesús envía a los doce"
+          ]
         },
         {
           "number": 2,
@@ -1806,14 +1833,14 @@
         },
         {
           "number": 9,
-          "text": "Pero Herodes dijo: «Yo mismo mandé que a Juan le cortaran la cabeza. ¿Quién será entonces este, de quien oigo estas cosas?». Y buscaba la oportunidad de verlo.",
-          "headings": [
-            "Jesús alimenta a los cinco mil"
-          ]
+          "text": "Pero Herodes dijo: «Yo mismo mandé que a Juan le cortaran la cabeza. ¿Quién será entonces este, de quien oigo estas cosas?». Y buscaba la oportunidad de verlo."
         },
         {
           "number": 10,
-          "text": "Cuando los apóstoles regresaron, le contaron a Jesús lo que habían hecho. Él se los llevó sólo a ellos a un pueblo llamado Betsaida."
+          "text": "Cuando los apóstoles regresaron, le contaron a Jesús lo que habían hecho. Él se los llevó sólo a ellos a un pueblo llamado Betsaida.",
+          "headings": [
+            "Jesús alimenta a los cinco mil"
+          ]
         },
         {
           "number": 11,
@@ -1841,14 +1868,14 @@
         },
         {
           "number": 17,
-          "text": "Todos comieron hasta quedar satisfechos; y recogieron doce canastas con los pedazos que sobraron.",
-          "headings": [
-            "La confesión de Pedro"
-          ]
+          "text": "Todos comieron hasta quedar satisfechos; y recogieron doce canastas con los pedazos que sobraron."
         },
         {
           "number": 18,
-          "text": "Un día en que Jesús estaba orando a solas, sus discípulos lo acompañaban, y él les preguntó: ―¿Quién dice la gente que soy yo?"
+          "text": "Un día en que Jesús estaba orando a solas, sus discípulos lo acompañaban, y él les preguntó: ―¿Quién dice la gente que soy yo?",
+          "headings": [
+            "La confesión de Pedro"
+          ]
         },
         {
           "number": 19,
@@ -1884,14 +1911,14 @@
         },
         {
           "number": 27,
-          "text": "Les aseguro que algunos de los que están aquí no morirán sin antes haber visto el reino de Dios.",
-          "headings": [
-            "La transfiguración"
-          ]
+          "text": "Les aseguro que algunos de los que están aquí no morirán sin antes haber visto el reino de Dios."
         },
         {
           "number": 28,
-          "text": "Más o menos ocho días después de haber dicho esto, Jesús, acompañado de Pedro, Juan y Jacobo, subió a una montaña para orar."
+          "text": "Más o menos ocho días después de haber dicho esto, Jesús, acompañado de Pedro, Juan y Jacobo, subió a una montaña para orar.",
+          "headings": [
+            "La transfiguración"
+          ]
         },
         {
           "number": 29,
@@ -1923,14 +1950,14 @@
         },
         {
           "number": 36,
-          "text": "Después que se oyó la voz, Jesús quedó solo. Los discípulos por algún tiempo no le dijeron nada a nadie de lo que habían visto.",
-          "headings": [
-            "Jesús sana a un muchacho endemoniado"
-          ]
+          "text": "Después que se oyó la voz, Jesús quedó solo. Los discípulos por algún tiempo no le dijeron nada a nadie de lo que habían visto."
         },
         {
           "number": 37,
-          "text": "Al día siguiente, cuando bajaron de la montaña, mucha gente les salió al encuentro."
+          "text": "Al día siguiente, cuando bajaron de la montaña, mucha gente les salió al encuentro.",
+          "headings": [
+            "Jesús sana a un muchacho endemoniado"
+          ]
         },
         {
           "number": 38,
@@ -1962,14 +1989,14 @@
         },
         {
           "number": 45,
-          "text": "Pero los discípulos no entendían lo que Jesús quería decir con esto. Todavía todo estaba como nublado para ellos y no podían comprenderlo. Y no se atrevían a preguntarle.",
-          "headings": [
-            "¿Quién va a ser el más importante?"
-          ]
+          "text": "Pero los discípulos no entendían lo que Jesús quería decir con esto. Todavía todo estaba como nublado para ellos y no podían comprenderlo. Y no se atrevían a preguntarle."
         },
         {
           "number": 46,
-          "text": "Cierto día, los discípulos comenzaron a discutir acerca de quién de ellos sería el más importante."
+          "text": "Cierto día, los discípulos comenzaron a discutir acerca de quién de ellos sería el más importante.",
+          "headings": [
+            "¿Quién va a ser el más importante?"
+          ]
         },
         {
           "number": 47,
@@ -1985,14 +2012,14 @@
         },
         {
           "number": 50,
-          "text": "Jesús les respondió: ―No se lo impidan, porque el que no está contra ustedes está a favor de ustedes.",
-          "headings": [
-            "La oposición de los samaritanos"
-          ]
+          "text": "Jesús les respondió: ―No se lo impidan, porque el que no está contra ustedes está a favor de ustedes."
         },
         {
           "number": 51,
-          "text": "Cuando se acercaba el tiempo de que Jesús subiera al cielo, él se hizo el firme propósito de ir a Jerusalén."
+          "text": "Cuando se acercaba el tiempo de que Jesús subiera al cielo, él se hizo el firme propósito de ir a Jerusalén.",
+          "headings": [
+            "La oposición de los samaritanos"
+          ]
         },
         {
           "number": 52,
@@ -2019,14 +2046,14 @@
         },
         {
           "number": 56,
-          "text": "Luego siguieron su camino hacia otro pueblo.",
-          "headings": [
-            "Lo que cuesta seguir a Jesús"
-          ]
+          "text": "Luego siguieron su camino hacia otro pueblo."
         },
         {
           "number": 57,
-          "text": "Cuando iban por el camino, alguien le dijo: ―Te seguiré a dondequiera que vayas."
+          "text": "Cuando iban por el camino, alguien le dijo: ―Te seguiré a dondequiera que vayas.",
+          "headings": [
+            "Lo que cuesta seguir a Jesús"
+          ]
         },
         {
           "number": 58,
@@ -2055,7 +2082,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de esto, el Señor escogió a otros setenta y dos discípulos y los envió de dos en dos para que llegaran antes que él a todos los pueblos y lugares donde él pensaba ir."
+          "text": "Después de esto, el Señor escogió a otros setenta y dos discípulos y los envió de dos en dos para que llegaran antes que él a todos los pueblos y lugares donde él pensaba ir.",
+          "headings": [
+            "Jesús envía a los setenta y dos"
+          ]
         },
         {
           "number": 2,
@@ -2147,14 +2177,14 @@
         },
         {
           "number": 24,
-          "text": "Pues yo les digo que muchos profetas y reyes quisieron ver lo que ustedes ven, pero no lo vieron; y oír lo que ustedes oyen, pero no lo oyeron».",
-          "headings": [
-            "Parábola del buen samaritano"
-          ]
+          "text": "Pues yo les digo que muchos profetas y reyes quisieron ver lo que ustedes ven, pero no lo vieron; y oír lo que ustedes oyen, pero no lo oyeron»."
         },
         {
           "number": 25,
-          "text": "Un maestro de la ley fue ante Jesús y lo quiso poner a prueba haciéndole esta pregunta: ―Maestro, ¿qué tengo que hacer para tener la vida eterna?"
+          "text": "Un maestro de la ley fue ante Jesús y lo quiso poner a prueba haciéndole esta pregunta: ―Maestro, ¿qué tengo que hacer para tener la vida eterna?",
+          "headings": [
+            "Parábola del buen samaritano"
+          ]
         },
         {
           "number": 26,
@@ -2202,14 +2232,14 @@
         },
         {
           "number": 37,
-          "text": "El maestro de la ley contestó: ―El que se compadeció de él. Entonces Jesús le dijo: ―Anda pues y haz tú lo mismo.",
-          "headings": [
-            "En casa de Marta y María"
-          ]
+          "text": "El maestro de la ley contestó: ―El que se compadeció de él. Entonces Jesús le dijo: ―Anda pues y haz tú lo mismo."
         },
         {
           "number": 38,
-          "text": "Jesús y sus discípulos continuaron su viaje y entraron en un pueblo. Allí, una mujer llamada Marta los recibió en su casa."
+          "text": "Jesús y sus discípulos continuaron su viaje y entraron en un pueblo. Allí, una mujer llamada Marta los recibió en su casa.",
+          "headings": [
+            "En casa de Marta y María"
+          ]
         },
         {
           "number": 39,
@@ -2234,7 +2264,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día que Jesús estaba orando en cierto lugar, al terminar uno de sus discípulos le dijo: ―Señor, enséñanos a orar, así como Juan enseñó a sus discípulos."
+          "text": "Un día que Jesús estaba orando en cierto lugar, al terminar uno de sus discípulos le dijo: ―Señor, enséñanos a orar, así como Juan enseñó a sus discípulos.",
+          "headings": [
+            "Jesús enseña sobre la oración"
+          ]
         },
         {
           "number": 2,
@@ -2289,14 +2322,14 @@
         },
         {
           "number": 13,
-          "text": "Pues si ustedes, que son malos, saben darles cosas buenas a sus hijos, con mayor razón el Padre celestial dará el Espíritu Santo a quienes se lo pidan».",
-          "headings": [
-            "Jesús y Beelzebú"
-          ]
+          "text": "Pues si ustedes, que son malos, saben darles cosas buenas a sus hijos, con mayor razón el Padre celestial dará el Espíritu Santo a quienes se lo pidan»."
         },
         {
           "number": 14,
-          "text": "En cierta ocasión cuando Jesús estaba echando fuera de un hombre a un demonio que lo había dejado mudo, al salir el demonio el mudo empezó a hablar. La gente se quedó asombrada por esto;"
+          "text": "En cierta ocasión cuando Jesús estaba echando fuera de un hombre a un demonio que lo había dejado mudo, al salir el demonio el mudo empezó a hablar. La gente se quedó asombrada por esto;",
+          "headings": [
+            "Jesús y Beelzebú"
+          ]
         },
         {
           "number": 15,
@@ -2352,14 +2385,14 @@
         },
         {
           "number": 28,
-          "text": "Jesús contestó: ―¡Dichosos, más bien, los que oyen la palabra de Dios y la obedecen!",
-          "headings": [
-            "La señal de Jonás"
-          ]
+          "text": "Jesús contestó: ―¡Dichosos, más bien, los que oyen la palabra de Dios y la obedecen!"
         },
         {
           "number": 29,
-          "text": "Como la gente seguía llegando, Jesús comenzó a decirles: «Esta es una generación de gente malvada. Pide una señal milagrosa, pero la única señal que se le dará será lo que le pasó a Jonás."
+          "text": "Como la gente seguía llegando, Jesús comenzó a decirles: «Esta es una generación de gente malvada. Pide una señal milagrosa, pero la única señal que se le dará será lo que le pasó a Jonás.",
+          "headings": [
+            "La señal de Jonás"
+          ]
         },
         {
           "number": 30,
@@ -2371,14 +2404,14 @@
         },
         {
           "number": 32,
-          "text": "La gente de Nínive se levantará en el día del juicio y condenará a esta generación, porque ellos se arrepintieron al escuchar la predicación de Jonás. Y ustedes tienen aquí a uno más grande que Jonás.",
-          "headings": [
-            "La lámpara del cuerpo"
-          ]
+          "text": "La gente de Nínive se levantará en el día del juicio y condenará a esta generación, porque ellos se arrepintieron al escuchar la predicación de Jonás. Y ustedes tienen aquí a uno más grande que Jonás."
         },
         {
           "number": 33,
-          "text": "»Nadie enciende una lámpara y luego la esconde o la cubre con un cajón. Al contrario, la pone en alto para que alumbre a los que entren en la casa."
+          "text": "»Nadie enciende una lámpara y luego la esconde o la cubre con un cajón. Al contrario, la pone en alto para que alumbre a los que entren en la casa.",
+          "headings": [
+            "La lámpara del cuerpo"
+          ]
         },
         {
           "number": 34,
@@ -2390,14 +2423,14 @@
         },
         {
           "number": 36,
-          "text": "Por tanto, si todo tu ser está lleno de luz, sin que haya ninguna parte en tinieblas, verás todo claramente, como cuando una lámpara te alumbra con su resplandor».",
-          "headings": [
-            "Jesús denuncia a los fariseos y a los maestros de la ley"
-          ]
+          "text": "Por tanto, si todo tu ser está lleno de luz, sin que haya ninguna parte en tinieblas, verás todo claramente, como cuando una lámpara te alumbra con su resplandor»."
         },
         {
           "number": 37,
-          "text": "Cuando Jesús terminó de hablar, un fariseo lo invitó a comer con él. Jesús entró en su casa y se sentó a la mesa."
+          "text": "Cuando Jesús terminó de hablar, un fariseo lo invitó a comer con él. Jesús entró en su casa y se sentó a la mesa.",
+          "headings": [
+            "Jesús denuncia a los fariseos y a los maestros de la ley"
+          ]
         },
         {
           "number": 38,
@@ -2474,7 +2507,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Mientras, se habían juntado miles de personas, tantas que se atropellaban unas a otras. Jesús comenzó a hablar y les dijo primero a sus discípulos: «Cuídense de la levadura de los fariseos, o sea, de su hipocresía."
+          "text": "Mientras, se habían juntado miles de personas, tantas que se atropellaban unas a otras. Jesús comenzó a hablar y les dijo primero a sus discípulos: «Cuídense de la levadura de los fariseos, o sea, de su hipocresía.",
+          "headings": [
+            "Advertencias y estímulos"
+          ]
         },
         {
           "number": 2,
@@ -2518,14 +2554,14 @@
         },
         {
           "number": 12,
-          "text": "porque el Espíritu Santo les enseñará en ese momento lo que deben decir».",
-          "headings": [
-            "Parábola del rico insensato"
-          ]
+          "text": "porque el Espíritu Santo les enseñará en ese momento lo que deben decir»."
         },
         {
           "number": 13,
-          "text": "Uno de entre la gente le dijo: ―Maestro, dile a mi hermano que comparta la herencia conmigo."
+          "text": "Uno de entre la gente le dijo: ―Maestro, dile a mi hermano que comparta la herencia conmigo.",
+          "headings": [
+            "Parábola del rico insensato"
+          ]
         },
         {
           "number": 14,
@@ -2557,14 +2593,14 @@
         },
         {
           "number": 21,
-          "text": "»Así le sucede al que acumula riquezas para sí mismo, pero no es rico delante de Dios».",
-          "headings": [
-            "No se preocupen"
-          ]
+          "text": "»Así le sucede al que acumula riquezas para sí mismo, pero no es rico delante de Dios»."
         },
         {
           "number": 22,
-          "text": "Después Jesús les aconsejó a sus discípulos: ―Por eso les digo: No se preocupen por su vida, qué van a comer; ni por su cuerpo, con qué se van a vestir."
+          "text": "Después Jesús les aconsejó a sus discípulos: ―Por eso les digo: No se preocupen por su vida, qué van a comer; ni por su cuerpo, con qué se van a vestir.",
+          "headings": [
+            "No se preocupen"
+          ]
         },
         {
           "number": 23,
@@ -2612,14 +2648,14 @@
         },
         {
           "number": 34,
-          "text": "Donde ustedes tengan su tesoro, allí tendrán también su corazón.",
-          "headings": [
-            "La vigilancia"
-          ]
+          "text": "Donde ustedes tengan su tesoro, allí tendrán también su corazón."
         },
         {
           "number": 35,
-          "text": "»Estén siempre listos, con la ropa bien ajustada y la lámpara encendida,"
+          "text": "»Estén siempre listos, con la ropa bien ajustada y la lámpara encendida,",
+          "headings": [
+            "La vigilancia"
+          ]
         },
         {
           "number": 36,
@@ -2671,14 +2707,14 @@
         },
         {
           "number": 48,
-          "text": "Pero el que no lo sabe y hace algo que merezca castigo, recibirá pocos golpes. A todo el que se le da mucho, también mucho se le exigirá; y al que mucho se le confía mucho más se le pedirá.",
-          "headings": [
-            "División en vez de paz"
-          ]
+          "text": "Pero el que no lo sabe y hace algo que merezca castigo, recibirá pocos golpes. A todo el que se le da mucho, también mucho se le exigirá; y al que mucho se le confía mucho más se le pedirá."
         },
         {
           "number": 49,
-          "text": "»He venido a traer fuego a la tierra, y ¡cómo quisiera que ya estuviera ardiendo!"
+          "text": "»He venido a traer fuego a la tierra, y ¡cómo quisiera que ya estuviera ardiendo!",
+          "headings": [
+            "División en vez de paz"
+          ]
         },
         {
           "number": 50,
@@ -2694,14 +2730,14 @@
         },
         {
           "number": 53,
-          "text": "Estarán divididos el padre contra su hijo y el hijo contra su padre, la madre contra su hija y la hija contra su madre, la suegra contra su nuera y la nuera contra su suegra».",
-          "headings": [
-            "Señales de los tiempos"
-          ]
+          "text": "Estarán divididos el padre contra su hijo y el hijo contra su padre, la madre contra su hija y la hija contra su madre, la suegra contra su nuera y la nuera contra su suegra»."
         },
         {
           "number": 54,
-          "text": "Luego Jesús le dijo a la gente: ―Cuando ustedes ven una nube que se forma en el occidente, dicen: “Va a llover”; y así sucede."
+          "text": "Luego Jesús le dijo a la gente: ―Cuando ustedes ven una nube que se forma en el occidente, dicen: “Va a llover”; y así sucede.",
+          "headings": [
+            "Señales de los tiempos"
+          ]
         },
         {
           "number": 55,
@@ -2730,7 +2766,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por ese mismo tiempo había unas personas que le contaron a Jesús que Pilato había mandado matar a unos hombres de Galilea mientras ofrecían sus sacrificios."
+          "text": "Por ese mismo tiempo había unas personas que le contaron a Jesús que Pilato había mandado matar a unos hombres de Galilea mientras ofrecían sus sacrificios.",
+          "headings": [
+            "El que no se arrepiente perecerá"
+          ]
         },
         {
           "number": 2,
@@ -2762,14 +2801,14 @@
         },
         {
           "number": 9,
-          "text": "Tal vez así dé fruto. Y si no da, córtela”».",
-          "headings": [
-            "Jesús sana a una mujer encorvada"
-          ]
+          "text": "Tal vez así dé fruto. Y si no da, córtela”»."
         },
         {
           "number": 10,
-          "text": "Un sábado, Jesús estaba enseñando en una sinagoga."
+          "text": "Un sábado, Jesús estaba enseñando en una sinagoga.",
+          "headings": [
+            "Jesús sana a una mujer encorvada"
+          ]
         },
         {
           "number": 11,
@@ -2797,14 +2836,14 @@
         },
         {
           "number": 17,
-          "text": "Cuando él habló de esta manera, sus enemigos quedaron en vergüenza ante la gente, pero esta estaba feliz por las maravillas que él hacía.",
-          "headings": [
-            "Parábola del grano de mostaza y de la levadura"
-          ]
+          "text": "Cuando él habló de esta manera, sus enemigos quedaron en vergüenza ante la gente, pero esta estaba feliz por las maravillas que él hacía."
         },
         {
           "number": 18,
-          "text": "Jesús también les dijo: ―¿A qué se parece el reino de Dios? ¿Con qué puedo compararlo?"
+          "text": "Jesús también les dijo: ―¿A qué se parece el reino de Dios? ¿Con qué puedo compararlo?",
+          "headings": [
+            "Parábola del grano de mostaza y de la levadura"
+          ]
         },
         {
           "number": 19,
@@ -2816,14 +2855,14 @@
         },
         {
           "number": 21,
-          "text": "Se puede comparar con la levadura que una mujer mezcló con una gran cantidad de harina, y la levadura hizo que fermentara toda la masa.",
-          "headings": [
-            "La puerta estrecha"
-          ]
+          "text": "Se puede comparar con la levadura que una mujer mezcló con una gran cantidad de harina, y la levadura hizo que fermentara toda la masa."
         },
         {
           "number": 22,
-          "text": "Jesús continuó su viaje a Jerusalén y enseñaba en los pueblos y aldeas por donde pasaba."
+          "text": "Jesús continuó su viaje a Jerusalén y enseñaba en los pueblos y aldeas por donde pasaba.",
+          "headings": [
+            "La puerta estrecha"
+          ]
         },
         {
           "number": 23,
@@ -2855,14 +2894,14 @@
         },
         {
           "number": 30,
-          "text": "Entonces verán que los que fueron últimos serán primeros, y los que fueron primeros serán últimos».",
-          "headings": [
-            "Lamento de Jesús sobre Jerusalén"
-          ]
+          "text": "Entonces verán que los que fueron últimos serán primeros, y los que fueron primeros serán últimos»."
         },
         {
           "number": 31,
-          "text": "En ese momento unos fariseos se acercaron a Jesús y le dijeron: ―Vete de aquí, porque Herodes te quiere matar."
+          "text": "En ese momento unos fariseos se acercaron a Jesús y le dijeron: ―Vete de aquí, porque Herodes te quiere matar.",
+          "headings": [
+            "Lamento de Jesús sobre Jerusalén"
+          ]
         },
         {
           "number": 32,
@@ -2887,7 +2926,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un sábado, Jesús fue a comer a casa de un jefe fariseo. Los fariseos lo vigilaban."
+          "text": "Un sábado, Jesús fue a comer a casa de un jefe fariseo. Los fariseos lo vigilaban.",
+          "headings": [
+            "Jesús en casa de un fariseo"
+          ]
         },
         {
           "number": 2,
@@ -2939,14 +2981,14 @@
         },
         {
           "number": 14,
-          "text": "Así serás dichoso, pues ellos no tienen con qué recompensarte, pero tú serás recompensado cuando resuciten los justos.",
-          "headings": [
-            "Parábola del gran banquete"
-          ]
+          "text": "Así serás dichoso, pues ellos no tienen con qué recompensarte, pero tú serás recompensado cuando resuciten los justos."
         },
         {
           "number": 15,
-          "text": "Cuando uno de los que estaba sentado a la mesa con Jesús oyó esto, le dijo: ―¡Dichoso el que coma en el banquete del reino de Dios!"
+          "text": "Cuando uno de los que estaba sentado a la mesa con Jesús oyó esto, le dijo: ―¡Dichoso el que coma en el banquete del reino de Dios!",
+          "headings": [
+            "Parábola del gran banquete"
+          ]
         },
         {
           "number": 16,
@@ -2982,14 +3024,14 @@
         },
         {
           "number": 24,
-          "text": "Les aseguro que ninguno de los primeros invitados disfrutará de mi cena”».",
-          "headings": [
-            "El precio del discipulado"
-          ]
+          "text": "Les aseguro que ninguno de los primeros invitados disfrutará de mi cena”»."
         },
         {
           "number": 25,
-          "text": "Mucha gente seguía a Jesús, entonces él se volvió y les dijo:"
+          "text": "Mucha gente seguía a Jesús, entonces él se volvió y les dijo:",
+          "headings": [
+            "El precio del discipulado"
+          ]
         },
         {
           "number": 26,
@@ -3038,7 +3080,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Muchos de los que cobraban impuestos y de los pecadores se acercaban a Jesús para oírlo."
+          "text": "Muchos de los que cobraban impuestos y de los pecadores se acercaban a Jesús para oírlo.",
+          "headings": [
+            "Parábola de la oveja perdida"
+          ]
         },
         {
           "number": 2,
@@ -3062,14 +3107,14 @@
         },
         {
           "number": 7,
-          "text": "Les digo que lo mismo pasa en el cielo: hay más alegría por un pecador que se arrepiente que por noventa y nueve justos que no necesitan arrepentirse.",
-          "headings": [
-            "Parábola de la moneda perdida"
-          ]
+          "text": "Les digo que lo mismo pasa en el cielo: hay más alegría por un pecador que se arrepiente que por noventa y nueve justos que no necesitan arrepentirse."
         },
         {
           "number": 8,
-          "text": "»Supongamos también que una mujer tiene diez monedas de plata y pierde una. ¿No encendería la lámpara y barrería la casa buscando con cuidado hasta encontrarla?"
+          "text": "»Supongamos también que una mujer tiene diez monedas de plata y pierde una. ¿No encendería la lámpara y barrería la casa buscando con cuidado hasta encontrarla?",
+          "headings": [
+            "Parábola de la moneda perdida"
+          ]
         },
         {
           "number": 9,
@@ -3077,14 +3122,14 @@
         },
         {
           "number": 10,
-          "text": "Les digo que de la misma manera se alegra Dios con sus ángeles por un pecador que se arrepiente».",
-          "headings": [
-            "Parábola del hijo perdido"
-          ]
+          "text": "Les digo que de la misma manera se alegra Dios con sus ángeles por un pecador que se arrepiente»."
         },
         {
           "number": 11,
-          "text": "Jesús continuó y les dijo: «Un hombre tenía dos hijos."
+          "text": "Jesús continuó y les dijo: «Un hombre tenía dos hijos.",
+          "headings": [
+            "Parábola del hijo perdido"
+          ]
         },
         {
           "number": 12,
@@ -3177,7 +3222,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jesús les contó esta parábola a sus discípulos: «Un hombre rico tenía un administrador al que acusaron de estarle malgastando sus bienes."
+          "text": "Jesús les contó esta parábola a sus discípulos: «Un hombre rico tenía un administrador al que acusaron de estarle malgastando sus bienes.",
+          "headings": [
+            "Parábola del administrador astuto"
+          ]
         },
         {
           "number": 2,
@@ -3233,14 +3281,14 @@
         },
         {
           "number": 15,
-          "text": "Jesús les dijo: «Ustedes se hacen pasar por buenos delante de la gente, pero Dios conoce sus corazones. Les digo que aquello que la gente piensa que tiene mucho valor para Dios es despreciable.",
-          "headings": [
-            "Otras enseñanzas"
-          ]
+          "text": "Jesús les dijo: «Ustedes se hacen pasar por buenos delante de la gente, pero Dios conoce sus corazones. Les digo que aquello que la gente piensa que tiene mucho valor para Dios es despreciable."
         },
         {
           "number": 16,
-          "text": "»La ley y los profetas se anunciaron hasta Juan. Desde entonces, se anuncian las buenas nuevas del reino de Dios, y todos se esfuerzan por entrar en él."
+          "text": "»La ley y los profetas se anunciaron hasta Juan. Desde entonces, se anuncian las buenas nuevas del reino de Dios, y todos se esfuerzan por entrar en él.",
+          "headings": [
+            "Otras enseñanzas"
+          ]
         },
         {
           "number": 17,
@@ -3248,14 +3296,14 @@
         },
         {
           "number": 18,
-          "text": "»Todo hombre que se divorcia de su esposa y se casa con otra, comete adulterio; y el que se casa con la divorciada, también comete adulterio.",
-          "headings": [
-            "El rico y Lázaro"
-          ]
+          "text": "»Todo hombre que se divorcia de su esposa y se casa con otra, comete adulterio; y el que se casa con la divorciada, también comete adulterio."
         },
         {
           "number": 19,
-          "text": "»Había un hombre rico que se vestía con ropas muy lujosas y a diario hacía fiestas donde servían espléndidos banquetes."
+          "text": "»Había un hombre rico que se vestía con ropas muy lujosas y a diario hacía fiestas donde servían espléndidos banquetes.",
+          "headings": [
+            "El rico y Lázaro"
+          ]
         },
         {
           "number": 20,
@@ -3312,7 +3360,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jesús les dijo a sus discípulos: ―No se pueden evitar los tropiezos, pero ¡ay de aquel que los causa!"
+          "text": "Jesús les dijo a sus discípulos: ―No se pueden evitar los tropiezos, pero ¡ay de aquel que los causa!",
+          "headings": [
+            "El pecado, la fe y el deber"
+          ]
         },
         {
           "number": 2,
@@ -3348,14 +3399,14 @@
         },
         {
           "number": 10,
-          "text": "Así también ustedes, cuando hayan hecho lo que se les mandó, deben decir: “Somos sirvientes inútiles, pues sólo cumplimos con nuestra obligación”».",
-          "headings": [
-            "Jesús sana a diez leprosos"
-          ]
+          "text": "Así también ustedes, cuando hayan hecho lo que se les mandó, deben decir: “Somos sirvientes inútiles, pues sólo cumplimos con nuestra obligación”»."
         },
         {
           "number": 11,
-          "text": "Un día, Jesús siguió su viaje hacia Jerusalén, pasando por Samaria y Galilea."
+          "text": "Un día, Jesús siguió su viaje hacia Jerusalén, pasando por Samaria y Galilea.",
+          "headings": [
+            "Jesús sana a diez leprosos"
+          ]
         },
         {
           "number": 12,
@@ -3387,14 +3438,14 @@
         },
         {
           "number": 19,
-          "text": "—Y le dijo al hombre—: Levántate y vete. Tu fe te ha sanado.",
-          "headings": [
-            "La venida del reino de Dios"
-          ]
+          "text": "—Y le dijo al hombre—: Levántate y vete. Tu fe te ha sanado."
         },
         {
           "number": 20,
-          "text": "Los fariseos le preguntaron cuándo vendría el reino de Dios. Él les contestó: ―El reino de Dios no vendrá como algo que todo mundo pueda ver."
+          "text": "Los fariseos le preguntaron cuándo vendría el reino de Dios. Él les contestó: ―El reino de Dios no vendrá como algo que todo mundo pueda ver.",
+          "headings": [
+            "La venida del reino de Dios"
+          ]
         },
         {
           "number": 21,
@@ -3476,7 +3527,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jesús les contó una parábola a sus discípulos para enseñarles que debían orar siempre y sin desanimarse."
+          "text": "Jesús les contó una parábola a sus discípulos para enseñarles que debían orar siempre y sin desanimarse.",
+          "headings": [
+            "Parábola de la viuda insistente"
+          ]
         },
         {
           "number": 2,
@@ -3504,14 +3558,14 @@
         },
         {
           "number": 8,
-          "text": "Yo les aseguro que él les hará justicia sin tardar. Pero cuando el Hijo del hombre venga, ¿encontrará fe en la tierra?».",
-          "headings": [
-            "Parábola del fariseo y del recaudador de impuestos"
-          ]
+          "text": "Yo les aseguro que él les hará justicia sin tardar. Pero cuando el Hijo del hombre venga, ¿encontrará fe en la tierra?»."
         },
         {
           "number": 9,
-          "text": "Jesús les contó esta parábola a unos que se creían muy justos y despreciaban a los demás:"
+          "text": "Jesús les contó esta parábola a unos que se creían muy justos y despreciaban a los demás:",
+          "headings": [
+            "Parábola del fariseo y del recaudador de impuestos"
+          ]
         },
         {
           "number": 10,
@@ -3531,14 +3585,14 @@
         },
         {
           "number": 14,
-          "text": "»Les aseguro que este, y no el fariseo, regresó a su casa habiendo sido perdonado por Dios. Porque el que se engrandece a sí mismo será humillado, y el que se humilla será engrandecido».",
-          "headings": [
-            "Jesús y los niños"
-          ]
+          "text": "»Les aseguro que este, y no el fariseo, regresó a su casa habiendo sido perdonado por Dios. Porque el que se engrandece a sí mismo será humillado, y el que se humilla será engrandecido»."
         },
         {
           "number": 15,
-          "text": "También le llevaron a Jesús niños pequeños para que los tocara. Sus discípulos, al ver esto, comenzaron a reprender a quienes los llevaron."
+          "text": "También le llevaron a Jesús niños pequeños para que los tocara. Sus discípulos, al ver esto, comenzaron a reprender a quienes los llevaron.",
+          "headings": [
+            "Jesús y los niños"
+          ]
         },
         {
           "number": 16,
@@ -3546,14 +3600,14 @@
         },
         {
           "number": 17,
-          "text": "Les aseguro que el que no reciba el reino de Dios como lo recibe un niño, no entrará en él».",
-          "headings": [
-            "El dirigente rico"
-          ]
+          "text": "Les aseguro que el que no reciba el reino de Dios como lo recibe un niño, no entrará en él»."
         },
         {
           "number": 18,
-          "text": "Uno de los jefes de los judíos le preguntó: ―Maestro bueno, ¿qué debo hacer para tener la vida eterna?"
+          "text": "Uno de los jefes de los judíos le preguntó: ―Maestro bueno, ¿qué debo hacer para tener la vida eterna?",
+          "headings": [
+            "El dirigente rico"
+          ]
         },
         {
           "number": 19,
@@ -3601,14 +3655,14 @@
         },
         {
           "number": 30,
-          "text": "recibirá mucho más en este tiempo, y en la vida venidera recibirá la vida eterna.",
-          "headings": [
-            "Jesús predice de nuevo su muerte"
-          ]
+          "text": "recibirá mucho más en este tiempo, y en la vida venidera recibirá la vida eterna."
         },
         {
           "number": 31,
-          "text": "Entonces Jesús se reunió aparte con los doce y les dijo: «Ahora vamos camino a Jerusalén. Allí se cumplirá todo lo que los profetas escribieron acerca del Hijo del hombre."
+          "text": "Entonces Jesús se reunió aparte con los doce y les dijo: «Ahora vamos camino a Jerusalén. Allí se cumplirá todo lo que los profetas escribieron acerca del Hijo del hombre.",
+          "headings": [
+            "Jesús predice de nuevo su muerte"
+          ]
         },
         {
           "number": 32,
@@ -3620,14 +3674,14 @@
         },
         {
           "number": 34,
-          "text": "Los discípulos no entendieron nada de esto, ni sabían de qué les hablaba.",
-          "headings": [
-            "Un mendigo ciego recibe la vista"
-          ]
+          "text": "Los discípulos no entendieron nada de esto, ni sabían de qué les hablaba."
         },
         {
           "number": 35,
-          "text": "Cuando Jesús se acercaba a Jericó, un ciego estaba sentado junto al camino pidiendo limosna."
+          "text": "Cuando Jesús se acercaba a Jericó, un ciego estaba sentado junto al camino pidiendo limosna.",
+          "headings": [
+            "Un mendigo ciego recibe la vista"
+          ]
         },
         {
           "number": 36,
@@ -3668,7 +3722,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jesús llegó a Jericó y comenzó a cruzar la ciudad."
+          "text": "Jesús llegó a Jericó y comenzó a cruzar la ciudad.",
+          "headings": [
+            "Zaqueo, el recaudador de impuestos"
+          ]
         },
         {
           "number": 2,
@@ -3704,14 +3761,14 @@
         },
         {
           "number": 10,
-          "text": "En efecto, el Hijo del hombre vino a buscar y a salvar a los que se habían perdido.",
-          "headings": [
-            "Parábola del dinero"
-          ]
+          "text": "En efecto, el Hijo del hombre vino a buscar y a salvar a los que se habían perdido."
         },
         {
           "number": 11,
-          "text": "Como Jesús ya estaba cerca de Jerusalén y la gente pensaba que el reino de Dios comenzaría en ese momento, Jesús les contó una parábola."
+          "text": "Como Jesús ya estaba cerca de Jerusalén y la gente pensaba que el reino de Dios comenzaría en ese momento, Jesús les contó una parábola.",
+          "headings": [
+            "Parábola del dinero"
+          ]
         },
         {
           "number": 12,
@@ -3775,14 +3832,14 @@
         },
         {
           "number": 27,
-          "text": "Y a esos enemigos míos que no querían que yo fuera su rey, tráiganlos aquí y mátenlos delante de mí”».",
-          "headings": [
-            "La entrada triunfal"
-          ]
+          "text": "Y a esos enemigos míos que no querían que yo fuera su rey, tráiganlos aquí y mátenlos delante de mí”»."
         },
         {
           "number": 28,
-          "text": "Al terminar de decir esto, siguió su camino hacia Jerusalén."
+          "text": "Al terminar de decir esto, siguió su camino hacia Jerusalén.",
+          "headings": [
+            "La entrada triunfal"
+          ]
         },
         {
           "number": 29,
@@ -3830,14 +3887,14 @@
         },
         {
           "number": 40,
-          "text": "Él les respondió: ―Les aseguro que si ellos se callan, las piedras gritarán.",
-          "headings": [
-            "Jesús en el templo"
-          ]
+          "text": "Él les respondió: ―Les aseguro que si ellos se callan, las piedras gritarán."
         },
         {
           "number": 41,
-          "text": "Cuando Jesús estaba cerca de Jerusalén y vio la ciudad, lloró por ella."
+          "text": "Cuando Jesús estaba cerca de Jerusalén y vio la ciudad, lloró por ella.",
+          "headings": [
+            "Jesús en el templo"
+          ]
         },
         {
           "number": 42,
@@ -3874,7 +3931,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día, Jesús estaba enseñando a la gente en el templo. Mientras les enseñaba las buenas noticias, se le acercaron los jefes de los sacerdotes, los maestros de la ley y los ancianos para hacerle esta pregunta:"
+          "text": "Un día, Jesús estaba enseñando a la gente en el templo. Mientras les enseñaba las buenas noticias, se le acercaron los jefes de los sacerdotes, los maestros de la ley y los ancianos para hacerle esta pregunta:",
+          "headings": [
+            "La autoridad de Jesús puesta en duda"
+          ]
         },
         {
           "number": 2,
@@ -3902,14 +3962,14 @@
         },
         {
           "number": 8,
-          "text": "Él les dijo: ―Pues yo tampoco les voy a decir con qué autoridad hago esto.",
-          "headings": [
-            "Parábola de los labradores malvados"
-          ]
+          "text": "Él les dijo: ―Pues yo tampoco les voy a decir con qué autoridad hago esto."
         },
         {
           "number": 9,
-          "text": "Después le contó a la gente esta parábola: ―Un hombre plantó un viñedo, lo alquiló a unos labradores y luego se fue de viaje por largo tiempo."
+          "text": "Después le contó a la gente esta parábola: ―Un hombre plantó un viñedo, lo alquiló a unos labradores y luego se fue de viaje por largo tiempo.",
+          "headings": [
+            "Parábola de los labradores malvados"
+          ]
         },
         {
           "number": 10,
@@ -3949,14 +4009,14 @@
         },
         {
           "number": 19,
-          "text": "Los maestros de la ley y los jefes de los sacerdotes se dieron cuenta de que la parábola se refería a ellos. Por eso querían arrestarlo en ese mismo momento, pero le tenían miedo a la gente.",
-          "headings": [
-            "El pago de impuestos al césar"
-          ]
+          "text": "Los maestros de la ley y los jefes de los sacerdotes se dieron cuenta de que la parábola se refería a ellos. Por eso querían arrestarlo en ese mismo momento, pero le tenían miedo a la gente."
         },
         {
           "number": 20,
-          "text": "Entonces enviaron espías que se hacían pasar por gente honrada para vigilarlo. Querían atrapar a Jesús cuando dijera algo que les diera la oportunidad de entregarlo al gobernador romano."
+          "text": "Entonces enviaron espías que se hacían pasar por gente honrada para vigilarlo. Querían atrapar a Jesús cuando dijera algo que les diera la oportunidad de entregarlo al gobernador romano.",
+          "headings": [
+            "El pago de impuestos al césar"
+          ]
         },
         {
           "number": 21,
@@ -3980,14 +4040,14 @@
         },
         {
           "number": 26,
-          "text": "Y así no encontraron oportunidad para atraparlo en nada de lo que él decía frente a la gente. Por eso, sorprendidos de su respuesta, se callaron.",
-          "headings": [
-            "La resurrección y el matrimonio"
-          ]
+          "text": "Y así no encontraron oportunidad para atraparlo en nada de lo que él decía frente a la gente. Por eso, sorprendidos de su respuesta, se callaron."
         },
         {
           "number": 27,
-          "text": "Después, algunos saduceos se acercaron a Jesús. Ellos no creían que hubiera resurrección, y por esa razón le hicieron esta pregunta:"
+          "text": "Después, algunos saduceos se acercaron a Jesús. Ellos no creían que hubiera resurrección, y por esa razón le hicieron esta pregunta:",
+          "headings": [
+            "La resurrección y el matrimonio"
+          ]
         },
         {
           "number": 28,
@@ -4039,14 +4099,14 @@
         },
         {
           "number": 40,
-          "text": "Y ya no se atrevieron a hacerle más preguntas.",
-          "headings": [
-            "¿De quién es Hijo el Cristo?"
-          ]
+          "text": "Y ya no se atrevieron a hacerle más preguntas."
         },
         {
           "number": 41,
-          "text": "Entonces fue Jesús quien les preguntó: ―¿Por qué dicen que el Cristo es el Hijo de David?"
+          "text": "Entonces fue Jesús quien les preguntó: ―¿Por qué dicen que el Cristo es el Hijo de David?",
+          "headings": [
+            "¿De quién es Hijo el Cristo?"
+          ]
         },
         {
           "number": 42,
@@ -4079,7 +4139,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jesús vio como los ricos echaban sus ofrendas en las alcancías del templo."
+          "text": "Jesús vio como los ricos echaban sus ofrendas en las alcancías del templo.",
+          "headings": [
+            "La ofrenda de la viuda"
+          ]
         },
         {
           "number": 2,
@@ -4091,14 +4154,14 @@
         },
         {
           "number": 4,
-          "text": "porque todos ellos dieron sus ofrendas de lo que les sobraba; pero ella, en medio de su pobreza, dio todo lo que tenía para vivir.",
-          "headings": [
-            "Señales del fin del mundo"
-          ]
+          "text": "porque todos ellos dieron sus ofrendas de lo que les sobraba; pero ella, en medio de su pobreza, dio todo lo que tenía para vivir."
         },
         {
           "number": 5,
-          "text": "Algunos de sus discípulos hablaban del templo, de las hermosas piedras y ofrendas dedicadas a Dios, que lo adornaban. Pero Jesús les dijo:"
+          "text": "Algunos de sus discípulos hablaban del templo, de las hermosas piedras y ofrendas dedicadas a Dios, que lo adornaban. Pero Jesús les dijo:",
+          "headings": [
+            "Señales del fin del mundo"
+          ]
         },
         {
           "number": 6,
@@ -4239,7 +4302,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Se acercaba la fiesta de los panes sin levadura, también llamada Pascua."
+          "text": "Se acercaba la fiesta de los panes sin levadura, también llamada Pascua.",
+          "headings": [
+            "Judas acuerda traicionar a Jesús"
+          ]
         },
         {
           "number": 2,
@@ -4259,14 +4325,14 @@
         },
         {
           "number": 6,
-          "text": "Judas aceptó, y comenzó a buscar la oportunidad de entregarles a Jesús cuando no hubiera nadie.",
-          "headings": [
-            "La última cena"
-          ]
+          "text": "Judas aceptó, y comenzó a buscar la oportunidad de entregarles a Jesús cuando no hubiera nadie."
         },
         {
           "number": 7,
-          "text": "Cuando llegó el día de la fiesta de los panes sin levadura, en que se sacrificaba el cordero de la Pascua,"
+          "text": "Cuando llegó el día de la fiesta de los panes sin levadura, en que se sacrificaba el cordero de la Pascua,",
+          "headings": [
+            "La última cena"
+          ]
         },
         {
           "number": 8,
@@ -4390,14 +4456,14 @@
         },
         {
           "number": 38,
-          "text": "Los discípulos le dijeron: ―Señor, mira, aquí hay dos espadas. Y él les contestó: ―¡Basta!",
-          "headings": [
-            "Jesús ora en el monte de los Olivos"
-          ]
+          "text": "Los discípulos le dijeron: ―Señor, mira, aquí hay dos espadas. Y él les contestó: ―¡Basta!"
         },
         {
           "number": 39,
-          "text": "Jesús salió de la ciudad acompañado por sus discípulos y se dirigió al monte de los Olivos, como era su costumbre."
+          "text": "Jesús salió de la ciudad acompañado por sus discípulos y se dirigió al monte de los Olivos, como era su costumbre.",
+          "headings": [
+            "Jesús ora en el monte de los Olivos"
+          ]
         },
         {
           "number": 40,
@@ -4425,14 +4491,14 @@
         },
         {
           "number": 46,
-          "text": "Les dijo: «¿Por qué están durmiendo? Levántense y oren para que no caigan en tentación».",
-          "headings": [
-            "Arresto de Jesús"
-          ]
+          "text": "Les dijo: «¿Por qué están durmiendo? Levántense y oren para que no caigan en tentación»."
         },
         {
           "number": 47,
-          "text": "Mientras Jesús decía esto, llegó mucha gente y al frente de ellos iba Judas, que era uno de los doce. Este se acercó para besar a Jesús."
+          "text": "Mientras Jesús decía esto, llegó mucha gente y al frente de ellos iba Judas, que era uno de los doce. Este se acercó para besar a Jesús.",
+          "headings": [
+            "Arresto de Jesús"
+          ]
         },
         {
           "number": 48,
@@ -4456,14 +4522,14 @@
         },
         {
           "number": 53,
-          "text": "Yo estaba con ustedes en el templo todos los días, y sin embargo, no se atrevieron a arrestarme. Pero esta es ya la hora de ustedes, hora en que reinan las tinieblas.",
-          "headings": [
-            "Pedro niega a Jesús"
-          ]
+          "text": "Yo estaba con ustedes en el templo todos los días, y sin embargo, no se atrevieron a arrestarme. Pero esta es ya la hora de ustedes, hora en que reinan las tinieblas."
         },
         {
           "number": 54,
-          "text": "Entonces arrestaron a Jesús y lo llevaron a la casa del jefe de los sacerdotes. Pedro los seguía de lejos."
+          "text": "Entonces arrestaron a Jesús y lo llevaron a la casa del jefe de los sacerdotes. Pedro los seguía de lejos.",
+          "headings": [
+            "Pedro niega a Jesús"
+          ]
         },
         {
           "number": 55,
@@ -4495,14 +4561,14 @@
         },
         {
           "number": 62,
-          "text": "Y Pedro salió de allí a llorar amargamente.",
-          "headings": [
-            "Los soldados se burlan de Jesús"
-          ]
+          "text": "Y Pedro salió de allí a llorar amargamente."
         },
         {
           "number": 63,
-          "text": "Los hombres que vigilaban a Jesús se burlaban de él y lo golpeaban."
+          "text": "Los hombres que vigilaban a Jesús se burlaban de él y lo golpeaban.",
+          "headings": [
+            "Los soldados se burlan de Jesús"
+          ]
         },
         {
           "number": 64,
@@ -4510,14 +4576,14 @@
         },
         {
           "number": 65,
-          "text": "Y lo insultaban diciéndole muchas otras cosas.",
-          "headings": [
-            "Jesús ante Pilato y Herodes"
-          ]
+          "text": "Y lo insultaban diciéndole muchas otras cosas."
         },
         {
           "number": 66,
-          "text": "Cuando amaneció, se reunieron los ancianos del pueblo, los jefes de los sacerdotes y los maestros de la ley y llevaron a Jesús ante el Consejo. Entonces le preguntaron:"
+          "text": "Cuando amaneció, se reunieron los ancianos del pueblo, los jefes de los sacerdotes y los maestros de la ley y llevaron a Jesús ante el Consejo. Entonces le preguntaron:",
+          "headings": [
+            "Jesús ante Pilato y Herodes"
+          ]
         },
         {
           "number": 67,
@@ -4642,14 +4708,14 @@
         },
         {
           "number": 25,
-          "text": "Ordenó que dejaran libre al hombre que estaba preso por rebelde y asesino, y les entregó a Jesús para que hicieran con él lo que quisieran.",
-          "headings": [
-            "La crucifixión"
-          ]
+          "text": "Ordenó que dejaran libre al hombre que estaba preso por rebelde y asesino, y les entregó a Jesús para que hicieran con él lo que quisieran."
         },
         {
           "number": 26,
-          "text": "Cuando se lo llevaban, obligaron a un hombre de Cirene, llamado Simón, a que fuera detrás de Jesús cargando la cruz. Este hombre volvía en ese momento del campo."
+          "text": "Cuando se lo llevaban, obligaron a un hombre de Cirene, llamado Simón, a que fuera detrás de Jesús cargando la cruz. Este hombre volvía en ese momento del campo.",
+          "headings": [
+            "La crucifixión"
+          ]
         },
         {
           "number": 27,
@@ -4717,14 +4783,14 @@
         },
         {
           "number": 43,
-          "text": "Jesús le contestó: ―Te aseguro que hoy estarás conmigo en el paraíso.",
-          "headings": [
-            "Muerte de Jesús"
-          ]
+          "text": "Jesús le contestó: ―Te aseguro que hoy estarás conmigo en el paraíso."
         },
         {
           "number": 44,
-          "text": "Desde el mediodía y hasta las tres de la tarde, toda la tierra quedó a oscuras,"
+          "text": "Desde el mediodía y hasta las tres de la tarde, toda la tierra quedó a oscuras,",
+          "headings": [
+            "Muerte de Jesús"
+          ]
         },
         {
           "number": 45,
@@ -4744,14 +4810,14 @@
         },
         {
           "number": 49,
-          "text": "Pero todos los conocidos de Jesús y las mujeres que lo habían seguido desde Galilea, se quedaron mirando desde lejos.",
-          "headings": [
-            "Sepultura de Jesús"
-          ]
+          "text": "Pero todos los conocidos de Jesús y las mujeres que lo habían seguido desde Galilea, se quedaron mirando desde lejos."
         },
         {
           "number": 50,
-          "text": "Había un hombre llamado José que era bueno y justo. Era miembro del Consejo,"
+          "text": "Había un hombre llamado José que era bueno y justo. Era miembro del Consejo,",
+          "headings": [
+            "Sepultura de Jesús"
+          ]
         },
         {
           "number": 51,
@@ -4784,7 +4850,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El primer día de la semana, muy de mañana, las mujeres fueron al sepulcro llevando las especias aromáticas que habían preparado."
+          "text": "El primer día de la semana, muy de mañana, las mujeres fueron al sepulcro llevando las especias aromáticas que habían preparado.",
+          "headings": [
+            "La resurrección"
+          ]
         },
         {
           "number": 2,
@@ -4828,14 +4897,14 @@
         },
         {
           "number": 12,
-          "text": "Sin embargo, Pedro salió corriendo al sepulcro. Al asomarse, sólo vio las vendas de lino. Luego regresó a su casa sorprendido de lo que había sucedido.",
-          "headings": [
-            "De camino a Emaús"
-          ]
+          "text": "Sin embargo, Pedro salió corriendo al sepulcro. Al asomarse, sólo vio las vendas de lino. Luego regresó a su casa sorprendido de lo que había sucedido."
         },
         {
           "number": 13,
-          "text": "Ese mismo día, dos de ellos se dirigían a un pueblo llamado Emaús, a unos once kilómetros de Jerusalén."
+          "text": "Ese mismo día, dos de ellos se dirigían a un pueblo llamado Emaús, a unos once kilómetros de Jerusalén.",
+          "headings": [
+            "De camino a Emaús"
+          ]
         },
         {
           "number": 14,
@@ -4923,14 +4992,14 @@
         },
         {
           "number": 35,
-          "text": "Los dos también contaron lo que les había pasado en el camino, y cómo reconocieron a Jesús cuando partió el pan.",
-          "headings": [
-            "Jesús se aparece a los discípulos"
-          ]
+          "text": "Los dos también contaron lo que les había pasado en el camino, y cómo reconocieron a Jesús cuando partió el pan."
         },
         {
           "number": 36,
-          "text": "Ellos todavía estaban hablando cuando Jesús mismo se puso en medio de ellos y les dijo: ―Paz a ustedes."
+          "text": "Ellos todavía estaban hablando cuando Jesús mismo se puso en medio de ellos y les dijo: ―Paz a ustedes.",
+          "headings": [
+            "Jesús se aparece a los discípulos"
+          ]
         },
         {
           "number": 37,
@@ -4982,14 +5051,14 @@
         },
         {
           "number": 49,
-          "text": "Pronto enviaré lo que prometió mi Padre. Pero ustedes quédense en Jerusalén hasta que los llene con poder de lo alto.",
-          "headings": [
-            "La ascensión"
-          ]
+          "text": "Pronto enviaré lo que prometió mi Padre. Pero ustedes quédense en Jerusalén hasta que los llene con poder de lo alto."
         },
         {
           "number": 50,
-          "text": "Tras aquellas palabras, los llevó hasta Betania. Una vez allí, alzó las manos y los bendijo."
+          "text": "Tras aquellas palabras, los llevó hasta Betania. Una vez allí, alzó las manos y los bendijo.",
+          "headings": [
+            "La ascensión"
+          ]
         },
         {
           "number": 51,

@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo, prisionero de Cristo Jesús, y el hermano Timoteo, al amado Filemón, colaborador nuestro,"
+          "text": "Pablo, prisionero de Cristo Jesús, y el hermano Timoteo, al amado Filemón, colaborador nuestro,",
+          "headings": [
+            "Saludo"
+          ]
         },
         {
           "number": 2,
@@ -17,14 +20,14 @@
         },
         {
           "number": 3,
-          "text": "Gracia a ustedes y paz de Dios nuestro Padre, y del Señor Jesucristo.",
-          "headings": [
-            "Gracias a Dios por Filemón"
-          ]
+          "text": "Gracia a ustedes y paz de Dios nuestro Padre, y del Señor Jesucristo."
         },
         {
           "number": 4,
-          "text": "Doy gracias a mi Dios siempre que me acuerdo de ti en mis conversaciones con Dios,"
+          "text": "Doy gracias a mi Dios siempre que me acuerdo de ti en mis conversaciones con Dios,",
+          "headings": [
+            "Gracias a Dios por Filemón"
+          ]
         },
         {
           "number": 5,
@@ -36,14 +39,14 @@
         },
         {
           "number": 7,
-          "text": "Porque tuvimos mucho gozo y consolación en tu amor, pues por medio de ti, hermano, fueron refrescados los corazones de los santos.",
-          "headings": [
-            "Un inútil convertido en útil"
-          ]
+          "text": "Porque tuvimos mucho gozo y consolación en tu amor, pues por medio de ti, hermano, fueron refrescados los corazones de los santos."
         },
         {
           "number": 8,
-          "text": "Por tanto, aunque tengo mucho atrevimiento en Cristo para mandarte lo que es apropiado,"
+          "text": "Por tanto, aunque tengo mucho atrevimiento en Cristo para mandarte lo que es apropiado,",
+          "headings": [
+            "Un inútil convertido en útil"
+          ]
         },
         {
           "number": 9,
@@ -99,14 +102,14 @@
         },
         {
           "number": 22,
-          "text": "Al mismo tiempo, prepárame alojamiento, porque espero que seré libertado por medio de las conversaciones de ustedes con Dios.",
-          "headings": [
-            "Despedida"
-          ]
+          "text": "Al mismo tiempo, prepárame alojamiento, porque espero que seré libertado por medio de las conversaciones de ustedes con Dios."
         },
         {
           "number": 23,
-          "text": "Te saludan Epafras, mi compañero de prisión por Cristo Jesús,"
+          "text": "Te saludan Epafras, mi compañero de prisión por Cristo Jesús,",
+          "headings": [
+            "Despedida"
+          ]
         },
         {
           "number": 24,

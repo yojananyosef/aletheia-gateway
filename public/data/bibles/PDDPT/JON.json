@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La Palabra de Yavé vino a Jonás, hijo de Amitay:"
+          "text": "La Palabra de Yavé vino a Jonás, hijo de Amitay:",
+          "headings": [
+            "El profeta rebelde"
+          ]
         },
         {
           "number": 2,
@@ -82,7 +85,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Jonás oró a Yavé su ʼElohim desde el estómago del pez,"
+          "text": "Entonces Jonás oró a Yavé su ʼElohim desde el estómago del pez,",
+          "headings": [
+            "Oración de Jonás"
+          ]
         },
         {
           "number": 2,
@@ -127,7 +133,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "La Palabra de Yavé vino por segunda vez a Jonás:"
+          "text": "La Palabra de Yavé vino por segunda vez a Jonás:",
+          "headings": [
+            "Arrepentimiento de Nínive"
+          ]
         },
         {
           "number": 2,
@@ -172,7 +181,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero esto desagradó a Jonás y lo enojó muchísimo."
+          "text": "Pero esto desagradó a Jonás y lo enojó muchísimo.",
+          "headings": [
+            "La calabacera"
+          ]
         },
         {
           "number": 2,

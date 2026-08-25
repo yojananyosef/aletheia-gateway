@@ -9,14 +9,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estas son las visiones que Dios le dio a Nahúm, que vivió en Elcós, acerca de la inminente destrucción de Nínive.",
-          "headings": [
-            "Manifestación del Señor"
-          ]
+          "text": "Estas son las visiones que Dios le dio a Nahúm, que vivió en Elcós, acerca de la inminente destrucción de Nínive."
         },
         {
           "number": 2,
-          "text": "El Señor es celoso con todos los que ama y por eso castiga a los que les causan daño y destruye a sus enemigos con furor."
+          "text": "El Señor es celoso con todos los que ama y por eso castiga a los que les causan daño y destruye a sus enemigos con furor.",
+          "headings": [
+            "Manifestación del Señor"
+          ]
         },
         {
           "number": 3,
@@ -32,14 +32,14 @@
         },
         {
           "number": 6,
-          "text": "¿Quién puede permanecer en pie ante la cólera de Dios? Su enojo es como el ardor del fuego, que es capaz de arrasar con todo lo que se ponga a su paso; hasta las montañas tiemblan cuando Dios da rienda suelta a su enojo.",
-          "headings": [
-            "Destrucción de Nínive"
-          ]
+          "text": "¿Quién puede permanecer en pie ante la cólera de Dios? Su enojo es como el ardor del fuego, que es capaz de arrasar con todo lo que se ponga a su paso; hasta las montañas tiemblan cuando Dios da rienda suelta a su enojo."
         },
         {
           "number": 7,
-          "text": "Pero el Señor es bueno. Cuando llegan la angustia y la desesperación él es el mejor refugio. Protege a todos los que en él ponen su confianza; él conoce bien a los que le son fieles."
+          "text": "Pero el Señor es bueno. Cuando llegan la angustia y la desesperación él es el mejor refugio. Protege a todos los que en él ponen su confianza; él conoce bien a los que le son fieles.",
+          "headings": [
+            "Destrucción de Nínive"
+          ]
         },
         {
           "number": 8,
@@ -55,14 +55,14 @@
         },
         {
           "number": 11,
-          "text": "Nínive, de ti ha salido el malvado consejero que se atreve a imaginar que puede hacerle daño al Señor .",
-          "headings": [
-            "Liberación del opresor"
-          ]
+          "text": "Nínive, de ti ha salido el malvado consejero que se atreve a imaginar que puede hacerle daño al Señor ."
         },
         {
           "number": 12,
-          "text": "Así ha dicho el Señor : «¡Aunque los asirios sean muy fuertes y numerosos, los voy a destruir por completo! Y a ti, Judá, pueblo mío, que te he castigado mucho, ya no te castigaré más."
+          "text": "Así ha dicho el Señor : «¡Aunque los asirios sean muy fuertes y numerosos, los voy a destruir por completo! Y a ti, Judá, pueblo mío, que te he castigado mucho, ya no te castigaré más.",
+          "headings": [
+            "Liberación del opresor"
+          ]
         },
         {
           "number": 13,
@@ -70,14 +70,14 @@
         },
         {
           "number": 14,
-          "text": "Pero acerca de ti, Nínive, el Señor ha dicho: «He decidido el fin de tu dinastía real; los descendientes de tus reyes no se sentarán jamás sobre tu trono. Y yo destruiré tus dioses y tus templos, y te sepultaré, porque te has aferrado a la maldad».",
-          "headings": [
-            "Anuncio de la victoria sobre Nínive"
-          ]
+          "text": "Pero acerca de ti, Nínive, el Señor ha dicho: «He decidido el fin de tu dinastía real; los descendientes de tus reyes no se sentarán jamás sobre tu trono. Y yo destruiré tus dioses y tus templos, y te sepultaré, porque te has aferrado a la maldad»."
         },
         {
           "number": 15,
-          "text": "¡Miren! Mensajeros descienden de las montañas trayendo buenas noticias: «Los invasores han sido derrotados y hemos sido salvados». ¡Judá, celebra un día de acción de gracias y ríndele un homenaje al Señor como prometiste, porque nunca más volverás a ser atacada por Nínive! ¡Ha sido destruida para siempre! ¡Jamás la volveremos a ver!"
+          "text": "¡Miren! Mensajeros descienden de las montañas trayendo buenas noticias: «Los invasores han sido derrotados y hemos sido salvados». ¡Judá, celebra un día de acción de gracias y ríndele un homenaje al Señor como prometiste, porque nunca más volverás a ser atacada por Nínive! ¡Ha sido destruida para siempre! ¡Jamás la volveremos a ver!",
+          "headings": [
+            "Anuncio de la victoria sobre Nínive"
+          ]
         }
       ]
     },
@@ -86,7 +86,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Nínive, estás acabada! ¡Ya estás sitiada por los ejércitos enemigos! ¡Haz sonar las alarmas! ¡Refuerza con guerreros tus murallas! ¡Pasa revista a tus defensas, a todas tus fuerzas, y monta una buena vigilancia porque comienza el ataque del enemigo!"
+          "text": "¡Nínive, estás acabada! ¡Ya estás sitiada por los ejércitos enemigos! ¡Haz sonar las alarmas! ¡Refuerza con guerreros tus murallas! ¡Pasa revista a tus defensas, a todas tus fuerzas, y monta una buena vigilancia porque comienza el ataque del enemigo!",
+          "headings": [
+            "La destrucción de Nínive"
+          ]
         },
         {
           "number": 2,
@@ -98,14 +101,14 @@
         },
         {
           "number": 4,
-          "text": "Sus carros de guerra corren por todas las calles y plazas de tu ciudad provocando gran alboroto y causando pavor a tus ciudadanos. Parece que fueran antorchas de fuego. ¡Parecen relámpagos veloces!",
-          "headings": [
-            "Caída y saqueo de Nínive"
-          ]
+          "text": "Sus carros de guerra corren por todas las calles y plazas de tu ciudad provocando gran alboroto y causando pavor a tus ciudadanos. Parece que fueran antorchas de fuego. ¡Parecen relámpagos veloces!"
         },
         {
           "number": 5,
-          "text": "El rey de Nínive llama a sus oficiales y ellos se atropellan entre sí al correr hacia las murallas para fortalecer sus defensas."
+          "text": "El rey de Nínive llama a sus oficiales y ellos se atropellan entre sí al correr hacia las murallas para fortalecer sus defensas.",
+          "headings": [
+            "Caída y saqueo de Nínive"
+          ]
         },
         {
           "number": 6,
@@ -125,14 +128,14 @@
         },
         {
           "number": 10,
-          "text": "En poco tiempo la ciudad ha quedado como un matadero vacío. Los corazones laten acelerados de terror; tiemblan las rodillas; la gente se estremece de dolor y todos palidecen de espanto.",
-          "headings": [
-            "La bestia salvaje morirá"
-          ]
+          "text": "En poco tiempo la ciudad ha quedado como un matadero vacío. Los corazones laten acelerados de terror; tiemblan las rodillas; la gente se estremece de dolor y todos palidecen de espanto."
         },
         {
           "number": 11,
-          "text": "¿Dónde está ahora la gran Nínive, que era como un poderoso y temible león entre las naciones, que despedazaba a sus enemigos? ¿Qué fue de ese león que se metía en su guarida con su leona y sus cachorros, y nadie se atrevía a molestarlos?"
+          "text": "¿Dónde está ahora la gran Nínive, que era como un poderoso y temible león entre las naciones, que despedazaba a sus enemigos? ¿Qué fue de ese león que se metía en su guarida con su leona y sus cachorros, y nadie se atrevía a molestarlos?",
+          "headings": [
+            "La bestia salvaje morirá"
+          ]
         },
         {
           "number": 12,
@@ -149,7 +152,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Qué pesar por Nínive, esa ciudad sanguinaria, llena de mentiras y de robos, que como fiera salvaje siempre andaba tras sus presas!"
+          "text": "¡Qué pesar por Nínive, esa ciudad sanguinaria, llena de mentiras y de robos, que como fiera salvaje siempre andaba tras sus presas!",
+          "headings": [
+            "Descripción del fin de Nínive"
+          ]
         },
         {
           "number": 2,
@@ -173,14 +179,14 @@
         },
         {
           "number": 7,
-          "text": "Todos los que te vean retrocederán espantados, y dirán: “Nínive ha quedado en la más completa ruina”. Sin embargo, nadie lamentará tu destino».",
-          "headings": [
-            "Destrucción total de Nínive"
-          ]
+          "text": "Todos los que te vean retrocederán espantados, y dirán: “Nínive ha quedado en la más completa ruina”. Sin embargo, nadie lamentará tu destino»."
         },
         {
           "number": 8,
-          "text": "¿Eres acaso mejor que Tebas, que es una ciudad asentada junto al Nilo, protegida por todos sus costados por el río y por el mar?"
+          "text": "¿Eres acaso mejor que Tebas, que es una ciudad asentada junto al Nilo, protegida por todos sus costados por el río y por el mar?",
+          "headings": [
+            "Destrucción total de Nínive"
+          ]
         },
         {
           "number": 9,
@@ -200,14 +206,14 @@
         },
         {
           "number": 13,
-          "text": "Tus soldados estarán débiles e indefensos y serán deshonrados como mujeres por las tropas enemigas. Las puertas de tu territorio se abrirán de par en par ante tu enemigo y serás devorada por el fuego.",
-          "headings": [
-            "Defensa inútil"
-          ]
+          "text": "Tus soldados estarán débiles e indefensos y serán deshonrados como mujeres por las tropas enemigas. Las puertas de tu territorio se abrirán de par en par ante tu enemigo y serás devorada por el fuego."
         },
         {
           "number": 14,
-          "text": "¡Prepárate para el ataque! Almacena agua. Refuerza tus fortificaciones. Prepara muchos ladrillos para reparar tus murallas. Entra al pozo, pisa el lodo y mételo en los moldes."
+          "text": "¡Prepárate para el ataque! Almacena agua. Refuerza tus fortificaciones. Prepara muchos ladrillos para reparar tus murallas. Entra al pozo, pisa el lodo y mételo en los moldes.",
+          "headings": [
+            "Defensa inútil"
+          ]
         },
         {
           "number": 15,

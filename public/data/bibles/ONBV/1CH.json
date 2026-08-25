@@ -9,22 +9,25 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estas son las más remotas generaciones de la raza humana:"
+          "text": "Estas son las más remotas generaciones de la raza humana:",
+          "headings": [
+            "Descendientes de Adán"
+          ]
         },
         {
           "number": 2,
           "text": "Adán, Set, Enós, Cainán, Malalel, Jared, Enoc, Matusalén, Lamec, Noé. Los descendientes de Noé son: Sem, Cam, y Jafet.",
           "verseDisplay": "2-4",
-          "endNumber": 4,
-          "headings": [
-            "Descendientes de Noé"
-          ]
+          "endNumber": 4
         },
         {
           "number": 5,
           "text": "Los hijos de Jafet fueron: Gómer, Magog, Maday, Javán, Tubal, Mésec y Tirás. Los hijos de Gómer fueron: Asquenaz, Rifat, y Togarma. Los hijos de Javán fueron: Elisá, Tarsis, Chipre y Rodanín. Los hijos de Cam fueron: Cus, Misrayin, Fut y Canaán. Los hijos de Cus fueron: Seba, Javilá, Sabtá, Ragama y Sabteca. Los hijos de Ragama fueron: Sabá y Dedán.",
           "verseDisplay": "5-9",
-          "endNumber": 9
+          "endNumber": 9,
+          "headings": [
+            "Descendientes de Noé"
+          ]
         },
         {
           "number": 10,
@@ -58,10 +61,7 @@
           "number": 20,
           "text": "Los hijos de Joctán fueron: Almodad, Sélef, Jazar Mávet, Yeraj, Hadorán, Uzal, Diclá, Obal, Abimael, Sabá, Ofir, Javilá y Jobab.",
           "verseDisplay": "20-23",
-          "endNumber": 23,
-          "headings": [
-            "Descendientes de Sem"
-          ]
+          "endNumber": 23
         },
         {
           "number": 24,
@@ -69,14 +69,17 @@
           "verseDisplay": "24-27",
           "endNumber": 27,
           "headings": [
-            "Descendientes de Abraham"
+            "Descendientes de Sem"
           ]
         },
         {
           "number": 28,
           "text": "Los hijos de Abraham fueron Isaac e Ismael. Los hijos de Ismael fueron: Nebayot, hijo mayor de Ismael, Cedar, Abdel, Mibsán, Mismá, Dumá, Masá, Hadad, Temá, Jetur, Nafis y Cedema.",
           "verseDisplay": "28-31",
-          "endNumber": 31
+          "endNumber": 31,
+          "headings": [
+            "Descendientes de Abraham"
+          ]
         },
         {
           "number": 32,
@@ -88,14 +91,14 @@
         },
         {
           "number": 34,
-          "text": "El otro hijo de Abraham fue Isaac. Los hijos de Isaac fueron Esaú e Israel.",
-          "headings": [
-            "Descendientes de Esaú"
-          ]
+          "text": "El otro hijo de Abraham fue Isaac. Los hijos de Isaac fueron Esaú e Israel."
         },
         {
           "number": 35,
-          "text": "Los hijos de Esaú fueron: Elifaz, Reuel, Jeús, Jalán y Coré."
+          "text": "Los hijos de Esaú fueron: Elifaz, Reuel, Jeús, Jalán y Coré.",
+          "headings": [
+            "Descendientes de Esaú"
+          ]
         },
         {
           "number": 36,
@@ -121,14 +124,14 @@
         },
         {
           "number": 42,
-          "text": "Los hijos de Ezer fueron Bilán, Zaván y Yacán. Los hijos de Disón fueron Uz y Arán.",
-          "headings": [
-            "Reyes de Edom"
-          ]
+          "text": "Los hijos de Ezer fueron Bilán, Zaván y Yacán. Los hijos de Disón fueron Uz y Arán."
         },
         {
           "number": 43,
-          "text": "A continuación viene una lista de los nombres de los reyes de Edom que reinaron antes de que en Israel hubiera reyes. Bela hijo de Beor, que vivía en la ciudad de Dinaba."
+          "text": "A continuación viene una lista de los nombres de los reyes de Edom que reinaron antes de que en Israel hubiera reyes. Bela hijo de Beor, que vivía en la ciudad de Dinaba.",
+          "headings": [
+            "Reyes de Edom"
+          ]
         },
         {
           "number": 44,
@@ -171,18 +174,21 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los hijos de Israel fueron: Rubén, Simeón, Leví, Judá, Isacar, Zabulón,"
-        },
-        {
-          "number": 2,
-          "text": "Dan, José, Benjamín, Neftalí, Gad y Aser.",
+          "text": "Los hijos de Israel fueron: Rubén, Simeón, Leví, Judá, Isacar, Zabulón,",
           "headings": [
-            "Descendientes de Judá"
+            "Hijos de Israel"
           ]
         },
         {
+          "number": 2,
+          "text": "Dan, José, Benjamín, Neftalí, Gad y Aser."
+        },
+        {
           "number": 3,
-          "text": "Judá tuvo tres hijos de una mujer de Canaán, hija de Súaj, que fueron: Er, Onán y Selá. Pero el hijo mayor, Er, era tan malvado que el Señor le quitó la vida."
+          "text": "Judá tuvo tres hijos de una mujer de Canaán, hija de Súaj, que fueron: Er, Onán y Selá. Pero el hijo mayor, Er, era tan malvado que el Señor le quitó la vida.",
+          "headings": [
+            "Descendientes de Judá"
+          ]
         },
         {
           "number": 4,
@@ -339,14 +345,14 @@
         },
         {
           "number": 41,
-          "text": "el hijo de Salún fue Jecamías; el hijo de Jecamías fue Elisama.",
-          "headings": [
-            "Descendientes de Caleb"
-          ]
+          "text": "el hijo de Salún fue Jecamías; el hijo de Jecamías fue Elisama."
         },
         {
           "number": 42,
-          "text": "Caleb, hermano de Jeramel, fue el padre de Mesá y de Maresá. Mesá, el hijo mayor, fue el padre de Zif, y Maresá fue el padre de Hebrón."
+          "text": "Caleb, hermano de Jeramel, fue el padre de Mesá y de Maresá. Mesá, el hijo mayor, fue el padre de Zif, y Maresá fue el padre de Hebrón.",
+          "headings": [
+            "Descendientes de Caleb"
+          ]
         },
         {
           "number": 43,
@@ -405,7 +411,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El hijo mayor del rey David fue Amnón, el cual tuvo con su esposa Ajinoán, que era de la tierra de Jezrel. Su segundo hijo fue Daniel, y la madre de este fue Abigaíl, que era de Carmel."
+          "text": "El hijo mayor del rey David fue Amnón, el cual tuvo con su esposa Ajinoán, que era de la tierra de Jezrel. Su segundo hijo fue Daniel, y la madre de este fue Abigaíl, que era de Carmel.",
+          "headings": [
+            "Hijos de David"
+          ]
         },
         {
           "number": 2,
@@ -438,16 +447,16 @@
         },
         {
           "number": 9,
-          "text": "Y hay que añadir a los hijos de sus concubinas y a una hija llamada Tamar.",
-          "headings": [
-            "Descendientes de Salomón"
-          ]
+          "text": "Y hay que añadir a los hijos de sus concubinas y a una hija llamada Tamar."
         },
         {
           "number": 10,
           "text": "Los siguientes son los descendientes del rey Salomón, que fueron reyes de Judá: Roboán, Abías, Asá, Josafat, Jorán, Ocozías, Joás, Amasías, Azarías, Jotán, Acaz, Ezequías, Manasés, Amón y Josías.",
           "verseDisplay": "10-14",
           "endNumber": 14,
+          "headings": [
+            "Descendientes de Salomón"
+          ],
           "footnotes": [
             {
               "id": "FN2",
@@ -516,7 +525,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los siguientes son los descendientes de Judá: Fares, Jezrón, Carmí, Jur y Sobal."
+          "text": "Los siguientes son los descendientes de Judá: Fares, Jezrón, Carmí, Jur y Sobal.",
+          "headings": [
+            "Descendientes de Judá"
+          ]
         },
         {
           "number": 2,
@@ -600,14 +612,14 @@
         },
         {
           "number": 23,
-          "text": "Todos ellos eran alfareros que vivían en Netaín y Guederá, y prestaban sus servicios al rey.",
-          "headings": [
-            "Descendientes de Simeón"
-          ]
+          "text": "Todos ellos eran alfareros que vivían en Netaín y Guederá, y prestaban sus servicios al rey."
         },
         {
           "number": 24,
-          "text": "Los descendientes de Simeón fueron: Nemuel, Jamín, Jarib, Zera, y Saúl."
+          "text": "Los descendientes de Simeón fueron: Nemuel, Jamín, Jarib, Zera, y Saúl.",
+          "headings": [
+            "Descendientes de Simeón"
+          ]
         },
         {
           "number": 25,
@@ -670,7 +682,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El primer hijo de Israel fue Rubén, pero desde que deshonró a su padre por haber dormido con una de sus esposas, perdió su derecho de primogenitura, el cual se le otorgó a su medio hermano José. De consiguiente, la genealogía oficial no menciona a Rubén como primogénito."
+          "text": "El primer hijo de Israel fue Rubén, pero desde que deshonró a su padre por haber dormido con una de sus esposas, perdió su derecho de primogenitura, el cual se le otorgó a su medio hermano José. De consiguiente, la genealogía oficial no menciona a Rubén como primogénito.",
+          "headings": [
+            "Descendientes de Rubén"
+          ]
         },
         {
           "number": 2,
@@ -704,14 +719,14 @@
         },
         {
           "number": 10,
-          "text": "Durante el gobierno del rey Saúl, los hombres de la tribu de Rubén le declararon la guerra a los agarenos y los derrotaron, y se quedaron en la región oriental de Galaad.",
-          "headings": [
-            "Descendientes de Gad"
-          ]
+          "text": "Durante el gobierno del rey Saúl, los hombres de la tribu de Rubén le declararon la guerra a los agarenos y los derrotaron, y se quedaron en la región oriental de Galaad."
         },
         {
           "number": 11,
-          "text": "Los descendientes de Gad habitaron en la región de Basán, hasta Salcá, que está al frente de la región de los rubenitas. Los descendientes de Gad fueron:"
+          "text": "Los descendientes de Gad habitaron en la región de Basán, hasta Salcá, que está al frente de la región de los rubenitas. Los descendientes de Gad fueron:",
+          "headings": [
+            "Descendientes de Gad"
+          ]
         },
         {
           "number": 12,
@@ -755,14 +770,14 @@
         },
         {
           "number": 22,
-          "text": "Un gran número de enemigos pereció en la batalla, porque Dios estaba peleando contra ellos. Por lo tanto, los rubenitas vivieron en el territorio de los agarenos hasta el tiempo del exilio.",
-          "headings": [
-            "La media tribu de Manasés"
-          ]
+          "text": "Un gran número de enemigos pereció en la batalla, porque Dios estaba peleando contra ellos. Por lo tanto, los rubenitas vivieron en el territorio de los agarenos hasta el tiempo del exilio."
         },
         {
           "number": 23,
-          "text": "La media tribu de Manasés llegó a ser muy numerosa y se extendió a través del campo de Basán hasta Baal Hermón, Senir y el monte Hermón."
+          "text": "La media tribu de Manasés llegó a ser muy numerosa y se extendió a través del campo de Basán hasta Baal Hermón, Senir y el monte Hermón.",
+          "headings": [
+            "La media tribu de Manasés"
+          ]
         },
         {
           "number": 24,
@@ -783,7 +798,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los nombres de los hijos de Leví fueron Guersón, Coat y Merari."
+          "text": "Los nombres de los hijos de Leví fueron Guersón, Coat y Merari.",
+          "headings": [
+            "Descendientes de Leví"
+          ]
         },
         {
           "number": 2,
@@ -879,14 +897,14 @@
           "number": 29,
           "text": "Los descendientes de Merari fueron: Majlí, Libní, Simí, Uza, Simá, Jaguías y Asaías.",
           "verseDisplay": "29-30",
-          "endNumber": 30,
-          "headings": [
-            "Cantores del templo"
-          ]
+          "endNumber": 30
         },
         {
           "number": 31,
-          "text": "El rey David designó directores de canto y coros para alabar a Dios en el templo del Señor , después que el cofre fue colocado en este."
+          "text": "El rey David designó directores de canto y coros para alabar a Dios en el templo del Señor , después que el cofre fue colocado en este.",
+          "headings": [
+            "Cantores del templo"
+          ]
         },
         {
           "number": 32,
@@ -922,14 +940,14 @@
           "number": 50,
           "text": "Los siguientes son los descendientes de Aarón: Eleazar, Finés, Abisúa, Buquí, Uzi, Zeraías, Merayot, Amarías, Ajitob, Sadoc, y Ajimaz.",
           "verseDisplay": "50-53",
-          "endNumber": 53,
-          "headings": [
-            "Ciudades de los levitas"
-          ]
+          "endNumber": 53
         },
         {
           "number": 54,
-          "text": "La relación que sigue es la inscripción de las ciudades y terrenos repartidos por sorteo a los descendientes de Aarón, todos los cuales eran miembros del clan de Coat:"
+          "text": "La relación que sigue es la inscripción de las ciudades y terrenos repartidos por sorteo a los descendientes de Aarón, todos los cuales eran miembros del clan de Coat:",
+          "headings": [
+            "Ciudades de los levitas"
+          ]
         },
         {
           "number": 55,
@@ -1018,7 +1036,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los descendientes de Isacar fueron: Tola, Fuvá, Yasub y Simrón."
+          "text": "Los descendientes de Isacar fueron: Tola, Fuvá, Yasub y Simrón.",
+          "headings": [
+            "Descendientes de Isacar"
+          ]
         },
         {
           "number": 2,
@@ -1034,14 +1055,14 @@
         },
         {
           "number": 5,
-          "text": "El número total de hombres disponibles para la guerra, de todas las familias de la tribu de Isacar, ascendía a ochenta y siete mil guerreros valientes, todos incluidos en la genealogía oficial.",
-          "headings": [
-            "Descendientes de Benjamín"
-          ]
+          "text": "El número total de hombres disponibles para la guerra, de todas las familias de la tribu de Isacar, ascendía a ochenta y siete mil guerreros valientes, todos incluidos en la genealogía oficial."
         },
         {
           "number": 6,
-          "text": "Los hijos de Benjamín fueron Bela, Béquer y Jediael."
+          "text": "Los hijos de Benjamín fueron Bela, Béquer y Jediael.",
+          "headings": [
+            "Descendientes de Benjamín"
+          ]
         },
         {
           "number": 7,
@@ -1065,21 +1086,21 @@
         },
         {
           "number": 12,
-          "text": "Los hijos de Ir fueron Supín y Jupín. Jusín fue uno de los hijos de Ajer.",
-          "headings": [
-            "Descendientes de Neftalí"
-          ]
+          "text": "Los hijos de Ir fueron Supín y Jupín. Jusín fue uno de los hijos de Ajer."
         },
         {
           "number": 13,
           "text": "Los hijos de Neftalí (que descendieron de Bilhá, esposa de Jacob), fueron: Yazel, Guní, Jéser y Salún.",
           "headings": [
-            "Descendientes de Manasés"
+            "Descendientes de Neftalí"
           ]
         },
         {
           "number": 14,
-          "text": "Los hijos de Manasés, nacidos de su concubina aramea, fueron Asriel y Maquir. (Este último llegó a ser el padre de Galaad)."
+          "text": "Los hijos de Manasés, nacidos de su concubina aramea, fueron Asriel y Maquir. (Este último llegó a ser el padre de Galaad).",
+          "headings": [
+            "Descendientes de Manasés"
+          ]
         },
         {
           "number": 15,
@@ -1099,16 +1120,16 @@
         },
         {
           "number": 19,
-          "text": "Los hijos de Semidá fueron: Ahián, Siquén, Liquejí y Anián.",
-          "headings": [
-            "Descendientes de Efraín"
-          ]
+          "text": "Los hijos de Semidá fueron: Ahián, Siquén, Liquejí y Anián."
         },
         {
           "number": 20,
           "text": "Los descendientes de Efraín fueron: Sutela, Béred, Tajat, Eladá, Tajat, Zabad, Sutela, Ezer y Elad. Elad y Ezer fueron a robar ganado en Gat, pero los agricultores de la zona les dieron muerte.",
           "verseDisplay": "20-21",
-          "endNumber": 21
+          "endNumber": 21,
+          "headings": [
+            "Descendientes de Efraín"
+          ]
         },
         {
           "number": 22,
@@ -1134,14 +1155,14 @@
         },
         {
           "number": 29,
-          "text": "La tribu de Manasés hijo de José y nieto de Israel, controlaba los siguientes pueblos y regiones circundantes: Betseán, Tanac, Meguido y Dor.",
-          "headings": [
-            "Descendientes de Aser"
-          ]
+          "text": "La tribu de Manasés hijo de José y nieto de Israel, controlaba los siguientes pueblos y regiones circundantes: Betseán, Tanac, Meguido y Dor."
         },
         {
           "number": 30,
-          "text": "Los hijos de Aser fueron: Imná, Isvá, Isví, Bería, y Sera (su hermana)."
+          "text": "Los hijos de Aser fueron: Imná, Isvá, Isví, Bería, y Sera (su hermana).",
+          "headings": [
+            "Descendientes de Aser"
+          ]
         },
         {
           "number": 31,
@@ -1188,7 +1209,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los hijos de Benjamín, de acuerdo con su edad, fueron:"
+          "text": "Los hijos de Benjamín, de acuerdo con su edad, fueron:",
+          "headings": [
+            "Descendientes de Benjamín"
+          ]
         },
         {
           "number": 2,
@@ -1307,14 +1331,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "El árbol genealógico al cual pertenecía cada israelita, está registrado cuidadosamente en el libro de los reyes de Israel. Los habitantes de Judá, debido a su infidelidad a Dios, fueron llevados cautivos a Babilonia.",
-          "headings": [
-            "Los que regresaron a Jerusalén"
-          ]
+          "text": "El árbol genealógico al cual pertenecía cada israelita, está registrado cuidadosamente en el libro de los reyes de Israel. Los habitantes de Judá, debido a su infidelidad a Dios, fueron llevados cautivos a Babilonia."
         },
         {
           "number": 2,
-          "text": "Los primeros en regresar y establecer otra vez su hogar en los pueblos en que antes vivían, fueron familias de las tribus de Israel, como también los sacerdotes, los levitas, y los ayudantes del templo."
+          "text": "Los primeros en regresar y establecer otra vez su hogar en los pueblos en que antes vivían, fueron familias de las tribus de Israel, como también los sacerdotes, los levitas, y los ayudantes del templo.",
+          "headings": [
+            "Los que regresaron a Jerusalén"
+          ]
         },
         {
           "number": 3,
@@ -1428,16 +1452,16 @@
           "number": 33,
           "text": "Los cantores eran todos levitas prominentes. Vivían en Jerusalén y estaban en el desempeño de su labor a toda hora. Estaban exentos de otras responsabilidades, y la selección de ellos se practicaba tomando en consideración sus genealogías.",
           "verseDisplay": "33-34",
-          "endNumber": 34,
-          "headings": [
-            "Genealogía de Saúl"
-          ]
+          "endNumber": 34
         },
         {
           "number": 35,
           "text": "Jehiel, padre de Gabaón, vivía en Gabaón. Su esposa fue Macá; tuvo muchos hijos, entre los cuales se contaban los siguientes: Abdón (el primogénito), Zur, Quis, Baal, Ner, Nadab, Guedor, Ajío, Zacarías y Miclot.",
           "verseDisplay": "35-37",
-          "endNumber": 37
+          "endNumber": 37,
+          "headings": [
+            "Genealogía de Saúl"
+          ]
         },
         {
           "number": 38,
@@ -1474,7 +1498,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los filisteos atacaron y derrotaron a las tropas israelitas, las cuales se volvieron y huyeron. Pero muchos de ellos fueron masacrados en las laderas del monte Guilboa."
+          "text": "Los filisteos atacaron y derrotaron a las tropas israelitas, las cuales se volvieron y huyeron. Pero muchos de ellos fueron masacrados en las laderas del monte Guilboa.",
+          "headings": [
+            "Muerte de Saúl"
+          ]
         },
         {
           "number": 2,
@@ -1535,7 +1562,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces los dirigentes de Israel fueron a Hebrón a hablar con David y le dijeron: «Nosotros somos tus parientes,"
+          "text": "Entonces los dirigentes de Israel fueron a Hebrón a hablar con David y le dijeron: «Nosotros somos tus parientes,",
+          "headings": [
+            "Proclamación de David como rey de Israel"
+          ]
         },
         {
           "number": 2,
@@ -1543,14 +1573,14 @@
         },
         {
           "number": 3,
-          "text": "Entonces David hizo un pacto con ellos delante del Señor . Luego lo ungieron como rey de Israel, tal como el Señor le había dicho a Samuel.",
-          "headings": [
-            "David conquista Jerusalén"
-          ]
+          "text": "Entonces David hizo un pacto con ellos delante del Señor . Luego lo ungieron como rey de Israel, tal como el Señor le había dicho a Samuel."
         },
         {
           "number": 4,
-          "text": "David y los dirigentes se fueron a Jerusalén (o Jebús, como era costumbre llamarla) donde vivían los jebuseos, que eran los primeros habitantes de esa tierra."
+          "text": "David y los dirigentes se fueron a Jerusalén (o Jebús, como era costumbre llamarla) donde vivían los jebuseos, que eran los primeros habitantes de esa tierra.",
+          "headings": [
+            "David conquista Jerusalén"
+          ]
         },
         {
           "number": 5,
@@ -1570,14 +1600,14 @@
         },
         {
           "number": 9,
-          "text": "Y David adquiría más y más fama, porque el Señor Todopoderoso estaba con él.",
-          "headings": [
-            "Jefes del ejército de David"
-          ]
+          "text": "Y David adquiría más y más fama, porque el Señor Todopoderoso estaba con él."
         },
         {
           "number": 10,
-          "text": "Estos son algunos de los más bravos guerreros de David (los que también estimularon a los dirigentes de Israel a hacer de David su rey, tal como el Señor había dicho que ocurriría)."
+          "text": "Estos son algunos de los más bravos guerreros de David (los que también estimularon a los dirigentes de Israel a hacer de David su rey, tal como el Señor había dicho que ocurriría).",
+          "headings": [
+            "Jefes del ejército de David"
+          ]
         },
         {
           "number": 11,
@@ -1648,7 +1678,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "A continuación están los nombres de los guerreros famosos que se unieron a David en Siclag, mientras andaba ocultándose del rey Saúl hijo de Quis."
+          "text": "A continuación están los nombres de los guerreros famosos que se unieron a David en Siclag, mientras andaba ocultándose del rey Saúl hijo de Quis.",
+          "headings": [
+            "Guerreros que se unieron a David"
+          ]
         },
         {
           "number": 2,
@@ -1684,14 +1717,14 @@
           "number": 19,
           "text": "También algunos guerreros de la tribu de Manasés desertaron y se unieron a David, justamente cuando él, con los filisteos, se dirigía a pelear contra el rey Saúl. Entretanto, los príncipes filisteos se opusieron a que David y sus hombres fueran con ellos. Después de mucha deliberación los enviaron de regreso, por cuanto tenían desconfianza de que David y sus hombres desertaran y fueran a unirse a las filas del rey Saúl. Los siguientes son los guerreros de la tribu de Manasés que desertaron y se unieron a David cuando este se dirigía a Siclag: Adnás, Jozabad, Jediael, Micael, Jozabad, Eliú y Ziletay. Cada uno de ellos era oficial de alto rango de las tropas de Manasés, pues estaban a cargo de mil soldados. Eran guerreros bravos y capacitados, y ayudaban a David a combatir a sus enemigos. Más y más hombres se unían diariamente a David, hasta que llegó a tener un ejército muy poderoso, como un ejército de Dios.",
           "verseDisplay": "19-22",
-          "endNumber": 22,
-          "headings": [
-            "Los que se unieron a David en Hebrón"
-          ]
+          "endNumber": 22
         },
         {
           "number": 23,
-          "text": "A continuación está el registro de los hombres de guerra que se unieron a David en Hebrón. Estaban ansiosos de que David llegara a ser rey en lugar de Saúl, tal como el Señor había dicho que ocurriría."
+          "text": "A continuación está el registro de los hombres de guerra que se unieron a David en Hebrón. Estaban ansiosos de que David llegara a ser rey en lugar de Saúl, tal como el Señor había dicho que ocurriría.",
+          "headings": [
+            "Los que se unieron a David en Hebrón"
+          ]
         },
         {
           "number": 24,
@@ -1718,7 +1751,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de consultar con todos los oficiales de sus fuerzas, David"
+          "text": "Después de consultar con todos los oficiales de sus fuerzas, David",
+          "headings": [
+            "Traslado del cofre a la casa de Obed Edom"
+          ]
         },
         {
           "number": 2,
@@ -1779,7 +1815,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hiram, rey de Tiro, envió a David una delegación compuesta por albañiles y carpinteros, para ayudarle a construir su palacio, y, además, le proveyó mucha madera de cedro."
+          "text": "Hiram, rey de Tiro, envió a David una delegación compuesta por albañiles y carpinteros, para ayudarle a construir su palacio, y, además, le proveyó mucha madera de cedro.",
+          "headings": [
+            "Palacio y familia de David"
+          ]
         },
         {
           "number": 2,
@@ -1793,14 +1832,14 @@
           "number": 4,
           "text": "Los siguientes son los nombres de los hijos que le nacieron en Jerusalén: Samúa, Sobab, Natán, Salomón, Ibjar, Elisúa, Elpélet, Noga, Néfeg, Jafía, Elisama, Belyadá y Elifelet.",
           "verseDisplay": "4-7",
-          "endNumber": 7,
-          "headings": [
-            "David derrota a los filisteos"
-          ]
+          "endNumber": 7
         },
         {
           "number": 8,
-          "text": "Cuando los filisteos oyeron la noticia de que David era el nuevo rey de Israel, movilizaron sus tropas para capturarlo. Pero cuando David supo que venían en camino, salió contra ellos."
+          "text": "Cuando los filisteos oyeron la noticia de que David era el nuevo rey de Israel, movilizaron sus tropas para capturarlo. Pero cuando David supo que venían en camino, salió contra ellos.",
+          "headings": [
+            "David derrota a los filisteos"
+          ]
         },
         {
           "number": 9,
@@ -1845,7 +1884,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David hizo construir para él varias casas en Jerusalén, en el sector conocido como la «Ciudad de David». Además, hizo levantar una carpa para que sirviera de residencia al cofre de Dios,"
+          "text": "David hizo construir para él varias casas en Jerusalén, en el sector conocido como la «Ciudad de David». Además, hizo levantar una carpa para que sirviera de residencia al cofre de Dios,",
+          "headings": [
+            "David lleva el cofre a Jerusalén"
+          ]
         },
         {
           "number": 2,
@@ -1964,14 +2006,14 @@
         },
         {
           "number": 6,
-          "text": "Los sacerdotes Benaías y Jahaziel tocaban continuamente sus trompetas delante del cofre del Señor .",
-          "headings": [
-            "Salmo de David"
-          ]
+          "text": "Los sacerdotes Benaías y Jahaziel tocaban continuamente sus trompetas delante del cofre del Señor ."
         },
         {
           "number": 7,
-          "text": "En ese tiempo, David encargó, por primera vez, a Asaf y a sus compañeros que alabaran al Señor con este salmo:"
+          "text": "En ese tiempo, David encargó, por primera vez, a Asaf y a sus compañeros que alabaran al Señor con este salmo:",
+          "headings": [
+            "Salmo de David"
+          ]
         },
         {
           "number": 8,
@@ -2122,7 +2164,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después de que David se había instalado en su palacio, le dijo al profeta Natán: ―¡Mira! Mientras yo vivo aquí en un palacio con paredes de madera de cedro, el cofre del pacto de Dios está afuera en una carpa."
+          "text": "Después de que David se había instalado en su palacio, le dijo al profeta Natán: ―¡Mira! Mientras yo vivo aquí en un palacio con paredes de madera de cedro, el cofre del pacto de Dios está afuera en una carpa.",
+          "headings": [
+            "Promesa de Dios a David"
+          ]
         },
         {
           "number": 2,
@@ -2178,14 +2223,14 @@
         },
         {
           "number": 15,
-          "text": "De esta manera Natán le comunicó al rey David todo lo que el Señor le había dicho.",
-          "headings": [
-            "Oración de David"
-          ]
+          "text": "De esta manera Natán le comunicó al rey David todo lo que el Señor le había dicho."
         },
         {
           "number": 16,
-          "text": "Entonces David entró y se sentó delante del Señor y dijo: «¿Quién soy yo, Señor y Dios, y qué es mi familia para que me hayas dado todo esto?"
+          "text": "Entonces David entró y se sentó delante del Señor y dijo: «¿Quién soy yo, Señor y Dios, y qué es mi familia para que me hayas dado todo esto?",
+          "headings": [
+            "Oración de David"
+          ]
         },
         {
           "number": 17,
@@ -2238,7 +2283,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David, finalmente, derrotó y sometió a los filisteos, y conquistó la ciudad de Gat y sus pueblos circundantes."
+          "text": "David, finalmente, derrotó y sometió a los filisteos, y conquistó la ciudad de Gat y sus pueblos circundantes.",
+          "headings": [
+            "Victorias de David"
+          ]
         },
         {
           "number": 2,
@@ -2286,14 +2334,14 @@
         },
         {
           "number": 13,
-          "text": "Estableció una base militar en Edom, y obligó a los edomitas a pagar grandes sumas de dinero anualmente a David. Esta es precisamente una nueva demostración de cómo el Señor daba a David victoria tras victoria.",
-          "headings": [
-            "Oficiales de David"
-          ]
+          "text": "Estableció una base militar en Edom, y obligó a los edomitas a pagar grandes sumas de dinero anualmente a David. Esta es precisamente una nueva demostración de cómo el Señor daba a David victoria tras victoria."
         },
         {
           "number": 14,
-          "text": "David reinaba sobre toda la nación de Israel, y era un gobernante justo."
+          "text": "David reinaba sobre toda la nación de Israel, y era un gobernante justo.",
+          "headings": [
+            "Oficiales de David"
+          ]
         },
         {
           "number": 15,
@@ -2314,7 +2362,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando murió Najás, rey de Amón, su hijo Janún pasó a ser el nuevo rey."
+          "text": "Cuando murió Najás, rey de Amón, su hijo Janún pasó a ser el nuevo rey.",
+          "headings": [
+            "Guerra contra los amonitas"
+          ]
         },
         {
           "number": 2,
@@ -2391,7 +2442,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En la primavera, que era el tiempo que los reyes acostumbraban salir a la guerra, Joab salió con el ejército israelita, y atacó y arrasó el país de los amonitas. Después de destruirlos, sitió a Rabá y la conquistó. Mientras tanto, David había permanecido en Jerusalén."
+          "text": "En la primavera, que era el tiempo que los reyes acostumbraban salir a la guerra, Joab salió con el ejército israelita, y atacó y arrasó el país de los amonitas. Después de destruirlos, sitió a Rabá y la conquistó. Mientras tanto, David había permanecido en Jerusalén.",
+          "headings": [
+            "Conquista de Rabá"
+          ]
         },
         {
           "number": 2,
@@ -2399,14 +2453,14 @@
         },
         {
           "number": 3,
-          "text": "A la gente de la ciudad la llevó a trabajar con sierras, picos de hierro y hachas, como era su costumbre con todos los pueblos que conquistaba. Luego David regresó a Jerusalén con todo el pueblo.",
-          "headings": [
-            "Guerra contra los filisteos"
-          ]
+          "text": "A la gente de la ciudad la llevó a trabajar con sierras, picos de hierro y hachas, como era su costumbre con todos los pueblos que conquistaba. Luego David regresó a Jerusalén con todo el pueblo."
         },
         {
           "number": 4,
-          "text": "La siguiente guerra fue contra los filisteos, en Guézer. Fue allí donde Sibecay el jusatita mató a Sipay, que era uno de los descendientes de los gigantes. Esto hizo que los filisteos se rindieran."
+          "text": "La siguiente guerra fue contra los filisteos, en Guézer. Fue allí donde Sibecay el jusatita mató a Sipay, que era uno de los descendientes de los gigantes. Esto hizo que los filisteos se rindieran.",
+          "headings": [
+            "Guerra contra los filisteos"
+          ]
         },
         {
           "number": 5,
@@ -2429,7 +2483,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Satanás se levantó contra Israel, pues incitó a David a hacer un censo."
+          "text": "Satanás se levantó contra Israel, pues incitó a David a hacer un censo.",
+          "headings": [
+            "David hace un censo militar"
+          ]
         },
         {
           "number": 2,
@@ -2493,14 +2550,14 @@
         },
         {
           "number": 17,
-          "text": "Y David le dijo a Dios: «Yo fui el que pecó al dar la orden de hacer el censo. Pero, ¿qué han hecho estas ovejas? Señor , Dios mío, castígame a mí y a mi familia, pero no sigas castigando a tu pueblo».",
-          "headings": [
-            "David construye un altar"
-          ]
+          "text": "Y David le dijo a Dios: «Yo fui el que pecó al dar la orden de hacer el censo. Pero, ¿qué han hecho estas ovejas? Señor , Dios mío, castígame a mí y a mi familia, pero no sigas castigando a tu pueblo»."
         },
         {
           "number": 18,
-          "text": "Entonces el ángel del Señor le dijo a Gad: «Ve y dile a David que construya un altar al Señor en el terreno de trilla de Ornán el jebuseo»."
+          "text": "Entonces el ángel del Señor le dijo a Gad: «Ve y dile a David que construya un altar al Señor en el terreno de trilla de Ornán el jebuseo».",
+          "headings": [
+            "David construye un altar"
+          ]
         },
         {
           "number": 19,
@@ -2557,14 +2614,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces David exclamó: «¡Aquí, en el campo de trilla de Ornán, es el lugar en que edificaré el templo del Señor Dios, y también construiré el altar para que Israel presente sus ofrendas y holocaustos!».",
-          "headings": [
-            "Preparativos para el templo"
-          ]
+          "text": "Entonces David exclamó: «¡Aquí, en el campo de trilla de Ornán, es el lugar en que edificaré el templo del Señor Dios, y también construiré el altar para que Israel presente sus ofrendas y holocaustos!»."
         },
         {
           "number": 2,
-          "text": "Después David, por medio de un decreto, ordenó que se reuniera a todos los extranjeros que vivían en Israel. De entre estos extranjeros escogió a los que debían trabajar cortando y puliendo las piedras para el templo de Dios."
+          "text": "Después David, por medio de un decreto, ordenó que se reuniera a todos los extranjeros que vivían en Israel. De entre estos extranjeros escogió a los que debían trabajar cortando y puliendo las piedras para el templo de Dios.",
+          "headings": [
+            "Preparativos para el templo"
+          ]
         },
         {
           "number": 3,
@@ -2641,7 +2698,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David era muy anciano cuando nombró a su hijo Salomón como rey de Israel."
+          "text": "David era muy anciano cuando nombró a su hijo Salomón como rey de Israel.",
+          "headings": [
+            "Los levitas"
+          ]
         },
         {
           "number": 2,
@@ -2659,14 +2719,14 @@
         },
         {
           "number": 6,
-          "text": "Luego David procedió a dividirlos en tres grupos principales, cada grupo encabezado por descendientes de Leví, como sigue: Sección de Guersón, sección de Coat, y sección de Merari.",
-          "headings": [
-            "Los guersonitas"
-          ]
+          "text": "Luego David procedió a dividirlos en tres grupos principales, cada grupo encabezado por descendientes de Leví, como sigue: Sección de Guersón, sección de Coat, y sección de Merari."
         },
         {
           "number": 7,
-          "text": "Se procedió a establecer subdivisiones: la sección de Guersón estaría encabezada por sus hijos Ladán y Simí."
+          "text": "Se procedió a establecer subdivisiones: la sección de Guersón estaría encabezada por sus hijos Ladán y Simí.",
+          "headings": [
+            "Los guersonitas"
+          ]
         },
         {
           "number": 8,
@@ -2679,9 +2739,6 @@
           "text": "Los hijos de Simí fueron: Yajat, el mayor, Ziza, el segundo; y luego Jeús y Beriá que se cuentan como una sola familia porque ambos tuvieron pocos hijos.",
           "verseDisplay": "10-11",
           "endNumber": 11,
-          "headings": [
-            "Los coatitas"
-          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -2692,7 +2749,10 @@
         },
         {
           "number": 12,
-          "text": "Los hijos de Coat fueron: Amirán, Izar, Hebrón y Uziel."
+          "text": "Los hijos de Coat fueron: Amirán, Izar, Hebrón y Uziel.",
+          "headings": [
+            "Los coatitas"
+          ]
         },
         {
           "number": 13,
@@ -2722,14 +2782,14 @@
         },
         {
           "number": 20,
-          "text": "Los hijos de Uziel tuvieron como jefe a Micaías, y como segundo a Isías.",
-          "headings": [
-            "Los meraritas"
-          ]
+          "text": "Los hijos de Uziel tuvieron como jefe a Micaías, y como segundo a Isías."
         },
         {
           "number": 21,
-          "text": "Los hijos de Merari fueron Majlí y Musí. Los hijos de Majlí fueron Eleazar y Quis."
+          "text": "Los hijos de Merari fueron Majlí y Musí. Los hijos de Majlí fueron Eleazar y Quis.",
+          "headings": [
+            "Los meraritas"
+          ]
         },
         {
           "number": 22,
@@ -2782,7 +2842,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los sacerdotes (descendientes de Aarón) fueron divididos en dos grupos. Los hijos de Aarón fueron: Nadab, Abiú, Eleazar e Itamar."
+          "text": "Los sacerdotes (descendientes de Aarón) fueron divididos en dos grupos. Los hijos de Aarón fueron: Nadab, Abiú, Eleazar e Itamar.",
+          "headings": [
+            "Organización del servicio sacerdotal"
+          ]
         },
         {
           "number": 2,
@@ -2812,14 +2875,14 @@
         },
         {
           "number": 19,
-          "text": "Cada grupo efectuaba sus deberes del templo del Señor en la forma que originalmente Dios había mandado por medio de su antepasado Aarón.",
-          "headings": [
-            "El resto de los levitas"
-          ]
+          "text": "Cada grupo efectuaba sus deberes del templo del Señor en la forma que originalmente Dios había mandado por medio de su antepasado Aarón."
         },
         {
           "number": 20,
-          "text": "Esta es la lista del resto de los descendientes de Leví: Amirán; su descendiente Subael; y Jehedías descendiente de Subael;"
+          "text": "Esta es la lista del resto de los descendientes de Leví: Amirán; su descendiente Subael; y Jehedías descendiente de Subael;",
+          "headings": [
+            "El resto de los levitas"
+          ]
         },
         {
           "number": 21,
@@ -2868,7 +2931,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David y los oficiales del santuario apartaron a Asaf, Hemán y Jedutún para que se encargaran de la música. Estos profetizaban acompañándose de arpas, liras y címbalos. La siguiente es la lista de todos los que fueron apartados para este servicio:"
+          "text": "David y los oficiales del santuario apartaron a Asaf, Hemán y Jedutún para que se encargaran de la música. Estos profetizaban acompañándose de arpas, liras y címbalos. La siguiente es la lista de todos los que fueron apartados para este servicio:",
+          "headings": [
+            "Organización de los músicos"
+          ]
         },
         {
           "number": 2,
@@ -2907,7 +2973,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los porteros del templo del Señor también fueron organizados por turnos, quedando de la siguiente manera: De los coreítas: Meselemías hijo de Coré, de la familia de Asaf."
+          "text": "Los porteros del templo del Señor también fueron organizados por turnos, quedando de la siguiente manera: De los coreítas: Meselemías hijo de Coré, de la familia de Asaf.",
+          "headings": [
+            "Organización de los porteros"
+          ]
         },
         {
           "number": 2,
@@ -2971,16 +3040,16 @@
         },
         {
           "number": 19,
-          "text": "Los porteros del templo del Señor habían sido escogidos de los clanes de Coré y de Merari.",
-          "headings": [
-            "Los tesoreros y otros oficiales"
-          ]
+          "text": "Los porteros del templo del Señor habían sido escogidos de los clanes de Coré y de Merari."
         },
         {
           "number": 20,
           "text": "Otros levitas, que tenían por jefe a Ahías, eran los encargados de recibir las donaciones traídas a Dios, que se guardaban en la tesorería del templo del Señor . Estos varones del subclan de Ladán, provenientes del clan de Guersón, comprendían también a Zetán y Joel, hijos de Jehiel.",
           "verseDisplay": "20-22",
-          "endNumber": 22
+          "endNumber": 22,
+          "headings": [
+            "Los tesoreros y otros oficiales"
+          ]
         },
         {
           "number": 23,
@@ -3023,7 +3092,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El ejército israelita fue dividido en doce regimientos, cada uno con veinticuatro mil soldados, incluyendo oficiales y personal administrativo. Estas unidades recibían el llamado para prestar servicio activo durante un mes al año. La que sigue es la lista de unidades y sus comandantes en jefe:"
+          "text": "El ejército israelita fue dividido en doce regimientos, cada uno con veinticuatro mil soldados, incluyendo oficiales y personal administrativo. Estas unidades recibían el llamado para prestar servicio activo durante un mes al año. La que sigue es la lista de unidades y sus comandantes en jefe:",
+          "headings": [
+            "Divisiones del ejército"
+          ]
         },
         {
           "number": 2,
@@ -3075,16 +3147,16 @@
         },
         {
           "number": 15,
-          "text": "El jefe de la duodécima división era Jelday de Netofa, descendiente de Otoniel. Comandaba veinticuatro mil hombres que prestaban su servicio durante el duodécimo mes de cada año.",
-          "headings": [
-            "Jefes de las tribus"
-          ]
+          "text": "El jefe de la duodécima división era Jelday de Netofa, descendiente de Otoniel. Comandaba veinticuatro mil hombres que prestaban su servicio durante el duodécimo mes de cada año."
         },
         {
           "number": 16,
           "text": "A cargo de las tribus de Israel estaban los siguientes: Jefe de la tribu de Rubén, Eliezer hijo de Zicrí; de Simeón, Sefatías hijo de Macá; de Leví, Jasabías hijo de Quemuel; de los descendientes de Aarón, Sadoc; de Judá, Eliú, hermano del rey David; de Isacar, Omrí hijo de Micael; de Zabulón, Ismaías hijo de Abdías; de Neftalí, Jerimot hijo de Azriel; de Efraín, Oseas hijo de Azazías; de la media tribu de Manasés, Joel hijo de Pedaías; de la otra mitad de Manasés, en Galaad, Idó hijo de Zacarías; de Benjamín, Jasiel hijo de Abner; y de Dan, Azarel hijo de Jeroán.",
           "verseDisplay": "16-22",
-          "endNumber": 22
+          "endNumber": 22,
+          "headings": [
+            "Jefes de las tribus"
+          ]
         },
         {
           "number": 23,
@@ -3092,14 +3164,14 @@
         },
         {
           "number": 24,
-          "text": "Joab comenzó la labor del censo, pero nunca la terminó, porque la ira de Dios se desató sobre Israel; por consiguiente, el total final nunca se insertó en los anales del rey David.",
-          "headings": [
-            "Superintendentes del rey"
-          ]
+          "text": "Joab comenzó la labor del censo, pero nunca la terminó, porque la ira de Dios se desató sobre Israel; por consiguiente, el total final nunca se insertó en los anales del rey David."
         },
         {
           "number": 25,
-          "text": "Azmávet hijo de Adiel era el funcionario que tenía a su cargo las tesorerías del palacio, y Jonatán hijo de Uzías estaba a cargo de las tesorerías regionales a través de las ciudades, pueblos y fortalezas de Israel."
+          "text": "Azmávet hijo de Adiel era el funcionario que tenía a su cargo las tesorerías del palacio, y Jonatán hijo de Uzías estaba a cargo de las tesorerías regionales a través de las ciudades, pueblos y fortalezas de Israel.",
+          "headings": [
+            "Superintendentes del rey"
+          ]
         },
         {
           "number": 26,
@@ -3144,7 +3216,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Luego David citó a reunión a todos sus oficiales a Jerusalén: los jefes de las tribus, los jefes de las doce divisiones del ejército, los otros oficiales del ejército, los funcionarios a cargo de su finca y su ganado, y todos los otros hombres de autoridad en su reino."
+          "text": "Luego David citó a reunión a todos sus oficiales a Jerusalén: los jefes de las tribus, los jefes de las doce divisiones del ejército, los otros oficiales del ejército, los funcionarios a cargo de su finca y su ganado, y todos los otros hombres de autoridad en su reino.",
+          "headings": [
+            "Instrucciones para la construcción del templo"
+          ]
         },
         {
           "number": 2,
@@ -3233,7 +3308,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces el rey David se volvió hacia la asamblea en pleno y dijo: «Mi hijo Salomón, a quien Dios ha escogido para que sea el próximo rey de Israel, es todavía joven y sin experiencia, mientras que el trabajo que deberá afrontar es enorme, ya que el templo que va a construir no es precisamente una construcción más: ¡Es el templo destinado para el Señor !"
+          "text": "Entonces el rey David se volvió hacia la asamblea en pleno y dijo: «Mi hijo Salomón, a quien Dios ha escogido para que sea el próximo rey de Israel, es todavía joven y sin experiencia, mientras que el trabajo que deberá afrontar es enorme, ya que el templo que va a construir no es precisamente una construcción más: ¡Es el templo destinado para el Señor !",
+          "headings": [
+            "Ofrendas para el templo"
+          ]
         },
         {
           "number": 2,
@@ -3261,14 +3339,14 @@
         },
         {
           "number": 9,
-          "text": "Todos estaban conmovidos y felices por esta oportunidad de servir, y al rey David lo invadió una grande alegría.",
-          "headings": [
-            "Oración de David"
-          ]
+          "text": "Todos estaban conmovidos y felices por esta oportunidad de servir, y al rey David lo invadió una grande alegría."
         },
         {
           "number": 10,
-          "text": "Mientras permanecía todavía en presencia de toda la asamblea, David dirigió así sus alabanzas al Señor : «¡ Señor , Dios de nuestro padre Israel, alabamos tu nombre ahora y para siempre!"
+          "text": "Mientras permanecía todavía en presencia de toda la asamblea, David dirigió así sus alabanzas al Señor : «¡ Señor , Dios de nuestro padre Israel, alabamos tu nombre ahora y para siempre!",
+          "headings": [
+            "Oración de David"
+          ]
         },
         {
           "number": 11,
@@ -3308,14 +3386,14 @@
         },
         {
           "number": 20,
-          "text": "Entonces David se dirigió a todo el pueblo y le dijo: «¡Alaben al Señor su Dios!». Ellos lo hicieron así, inclinándose a tierra delante del Señor y del rey.",
-          "headings": [
-            "Coronación de Salomón"
-          ]
+          "text": "Entonces David se dirigió a todo el pueblo y le dijo: «¡Alaben al Señor su Dios!». Ellos lo hicieron así, inclinándose a tierra delante del Señor y del rey."
         },
         {
           "number": 21,
-          "text": "Al día siguiente, le ofrecieron al Señor , por todo el pueblo de Israel: mil novillos, mil carneros y mil corderos para que fueran sacrificados y quemados en su honor. Junto con los animales, entregaron las respectivas ofrendas de vino."
+          "text": "Al día siguiente, le ofrecieron al Señor , por todo el pueblo de Israel: mil novillos, mil carneros y mil corderos para que fueran sacrificados y quemados en su honor. Junto con los animales, entregaron las respectivas ofrendas de vino.",
+          "headings": [
+            "Coronación de Salomón"
+          ]
         },
         {
           "number": 22,
@@ -3331,16 +3409,16 @@
         },
         {
           "number": 25,
-          "text": "Y el Señor le dio gran popularidad en todo el pueblo de Israel, y amasó aun mayores riquezas y conquistó más honores que su padre.",
-          "headings": [
-            "Muerte de David"
-          ]
+          "text": "Y el Señor le dio gran popularidad en todo el pueblo de Israel, y amasó aun mayores riquezas y conquistó más honores que su padre."
         },
         {
           "number": 26,
           "text": "Así David fue rey de la tierra de Israel por cuarenta años, siete de los cuales reinó en Hebrón y treinta y tres en Jerusalén.",
           "verseDisplay": "26-27",
-          "endNumber": 27
+          "endNumber": 27,
+          "headings": [
+            "Muerte de David"
+          ]
         },
         {
           "number": 28,

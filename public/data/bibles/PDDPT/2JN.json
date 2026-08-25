@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El anciano a la señora escogida y a sus hijos, a quienes yo amo en verdad, y no solo yo, sino también todos los que conocen la Verdad,"
+          "text": "El anciano a la señora escogida y a sus hijos, a quienes yo amo en verdad, y no solo yo, sino también todos los que conocen la Verdad,",
+          "headings": [
+            "Saludo"
+          ]
         },
         {
           "number": 2,
@@ -17,14 +20,14 @@
         },
         {
           "number": 3,
-          "text": "Gracia, misericordia y paz de Dios Padre y de Jesucristo, su Hijo, estén con ustedes en verdad y amor.",
-          "headings": [
-            "Permanencia en la doctrina de Cristo"
-          ]
+          "text": "Gracia, misericordia y paz de Dios Padre y de Jesucristo, su Hijo, estén con ustedes en verdad y amor."
         },
         {
           "number": 4,
-          "text": "En gran manera me regocijé porque hallé algunos de tus hijos que viven en verdad, como recibimos Mandamiento del Padre."
+          "text": "En gran manera me regocijé porque hallé algunos de tus hijos que viven en verdad, como recibimos Mandamiento del Padre.",
+          "headings": [
+            "Permanencia en la doctrina de Cristo"
+          ]
         },
         {
           "number": 5,
@@ -52,14 +55,14 @@
         },
         {
           "number": 11,
-          "text": "Porque el que le dice bienvenido participa en sus malas obras.",
-          "headings": [
-            "Epílogo"
-          ]
+          "text": "Porque el que le dice bienvenido participa en sus malas obras."
         },
         {
           "number": 12,
-          "text": "Aunque tengo muchas cosas que escribirles, no quise hacerlo por medio de papel y tinta, sino espero estar con ustedes y hablar cara a cara, para que nuestro gozo sea completado."
+          "text": "Aunque tengo muchas cosas que escribirles, no quise hacerlo por medio de papel y tinta, sino espero estar con ustedes y hablar cara a cara, para que nuestro gozo sea completado.",
+          "headings": [
+            "Epílogo"
+          ]
         },
         {
           "number": 13,

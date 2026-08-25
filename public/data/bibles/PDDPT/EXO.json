@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estos son los nombres de los hijos de Israel que entraron con Jacob en Egipto, cada uno con su familia:"
+          "text": "Estos son los nombres de los hijos de Israel que entraron con Jacob en Egipto, cada uno con su familia:",
+          "headings": [
+            "Esclavitud y genocidio"
+          ]
         },
         {
           "number": 2,
@@ -102,7 +105,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un varón del linaje de Leví tomó como esposa a una hija de Leví."
+          "text": "Un varón del linaje de Leví tomó como esposa a una hija de Leví.",
+          "headings": [
+            "Moisés"
+          ]
         },
         {
           "number": 2,
@@ -138,14 +144,14 @@
         },
         {
           "number": 10,
-          "text": "El niño creció. Ella lo llevó a la hija de Faraón y fue hijo de ésta. Lo llamó Moisés: Porque lo saqué del agua.",
-          "headings": [
-            "Huida a Madián"
-          ]
+          "text": "El niño creció. Ella lo llevó a la hija de Faraón y fue hijo de ésta. Lo llamó Moisés: Porque lo saqué del agua."
         },
         {
           "number": 11,
-          "text": "Sucedió en aquellos días cuando Moisés creció que salió a ver a sus hermanos y observó sus duros trabajos. Vio a un egipcio que azotaba a uno de sus hermanos hebreos."
+          "text": "Sucedió en aquellos días cuando Moisés creció que salió a ver a sus hermanos y observó sus duros trabajos. Vio a un egipcio que azotaba a uno de sus hermanos hebreos.",
+          "headings": [
+            "Huida a Madián"
+          ]
         },
         {
           "number": 12,
@@ -210,7 +216,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Moisés apacentaba el rebaño de su suegro Jetro, sacerdote de Madián, y condujo el rebaño al extremo del desierto. Llegó a Horeb, la Montaña de ʼElohim ."
+          "text": "Moisés apacentaba el rebaño de su suegro Jetro, sacerdote de Madián, y condujo el rebaño al extremo del desierto. Llegó a Horeb, la Montaña de ʼElohim .",
+          "headings": [
+            "Llamamiento y comisión a Moisés"
+          ]
         },
         {
           "number": 2,
@@ -303,7 +312,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Moisés preguntó: ¿Y qué haré si no me creen ni escuchan lo que digo? Porque ellos pueden decir: Yavé no se te apareció."
+          "text": "Entonces Moisés preguntó: ¿Y qué haré si no me creen ni escuchan lo que digo? Porque ellos pueden decir: Yavé no se te apareció.",
+          "headings": [
+            "Misión de Moisés"
+          ]
         },
         {
           "number": 2,
@@ -367,14 +379,14 @@
         },
         {
           "number": 17,
-          "text": "Tomarás en tu mano esta vara con la cual harás las señales.",
-          "headings": [
-            "El regreso a Egipto"
-          ]
+          "text": "Tomarás en tu mano esta vara con la cual harás las señales."
         },
         {
           "number": 18,
-          "text": "Entonces Moisés salió y regresó a su suegro Jetro y le dijo: Te ruego que me dejes salir y regresar a mis hermanos que están en Egipto, y ver si aún viven. Jetro contestó a Moisés: Vé en paz."
+          "text": "Entonces Moisés salió y regresó a su suegro Jetro y le dijo: Te ruego que me dejes salir y regresar a mis hermanos que están en Egipto, y ver si aún viven. Jetro contestó a Moisés: Vé en paz.",
+          "headings": [
+            "El regreso a Egipto"
+          ]
         },
         {
           "number": 19,
@@ -435,7 +447,11 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después Moisés y Aarón fueron a Faraón y le dijeron: Yavé el ʼElohim de Israel dice: Deja ir a mi pueblo para que me celebre una fiesta en el desierto."
+          "text": "Después Moisés y Aarón fueron a Faraón y le dijeron: Yavé el ʼElohim de Israel dice: Deja ir a mi pueblo para que me celebre una fiesta en el desierto.",
+          "headings": [
+            "Ante Faraón",
+            "La primera solicitud"
+          ]
         },
         {
           "number": 2,
@@ -539,7 +555,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé dijo a Moisés: Ahora verás lo que Yo haré a Faraón, porque por mano fuerte los dejará ir, y por mano fuerte los expulsará de su tierra."
+          "text": "Yavé dijo a Moisés: Ahora verás lo que Yo haré a Faraón, porque por mano fuerte los dejará ir, y por mano fuerte los expulsará de su tierra.",
+          "headings": [
+            "La respuesta divina"
+          ]
         },
         {
           "number": 2,
@@ -587,14 +606,14 @@
         },
         {
           "number": 13,
-          "text": "Entonces Yavé habló a Moisés y a Aarón y les dio instrucciones para los hijos de Israel y para Faraón, rey de Egipto, a fin de sacar a los hijos de Israel de la tierra de Egipto.",
-          "headings": [
-            "Las familias de Rubén, Simeón y Leví"
-          ]
+          "text": "Entonces Yavé habló a Moisés y a Aarón y les dio instrucciones para los hijos de Israel y para Faraón, rey de Egipto, a fin de sacar a los hijos de Israel de la tierra de Egipto."
         },
         {
           "number": 14,
-          "text": "Estos son los jefes de las familias paternas: Los hijos de Rubén, el primogénito de Israel: Hanoc, Falú, Hezrón y Carmi. Estas son las familias de Rubén."
+          "text": "Estos son los jefes de las familias paternas: Los hijos de Rubén, el primogénito de Israel: Hanoc, Falú, Hezrón y Carmi. Estas son las familias de Rubén.",
+          "headings": [
+            "Las familias de Rubén, Simeón y Leví"
+          ]
         },
         {
           "number": 15,
@@ -667,7 +686,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Yavé dijo a Moisés: Mira, te designé como ʼelohim ante Faraón, y tu hermano Aarón será tu profeta."
+          "text": "Entonces Yavé dijo a Moisés: Mira, te designé como ʼelohim ante Faraón, y tu hermano Aarón será tu profeta.",
+          "headings": [
+            "Confirmación del llamamiento"
+          ]
         },
         {
           "number": 2,
@@ -715,14 +737,14 @@
         },
         {
           "number": 13,
-          "text": "Y tal como Yavé dijo, el corazón de Faraón se endureció y no los escuchó.",
-          "headings": [
-            "Comienzo de plagas"
-          ]
+          "text": "Y tal como Yavé dijo, el corazón de Faraón se endureció y no los escuchó."
         },
         {
           "number": 14,
-          "text": "Entonces Yavé dijo a Moisés: El corazón de Faraón se endureció y no quiere dejar que el pueblo se vaya."
+          "text": "Entonces Yavé dijo a Moisés: El corazón de Faraón se endureció y no quiere dejar que el pueblo se vaya.",
+          "headings": [
+            "Comienzo de plagas"
+          ]
         },
         {
           "number": 15,
@@ -775,7 +797,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Yavé dijo a Moisés: Entra a Faraón y dile: Yavé dice Deja salir a mi pueblo para que me sirva."
+          "text": "Entonces Yavé dijo a Moisés: Entra a Faraón y dile: Yavé dice Deja salir a mi pueblo para que me sirva.",
+          "headings": [
+            "Segunda, tercera y cuarta plagas"
+          ]
         },
         {
           "number": 2,
@@ -908,7 +933,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Yavé dijo a Moisés: Vé a Faraón y dile: Yavé el ʼElohim de los hebreos dice: Deja ir a mi pueblo para que me sirva,"
+          "text": "Entonces Yavé dijo a Moisés: Vé a Faraón y dile: Yavé el ʼElohim de los hebreos dice: Deja ir a mi pueblo para que me sirva,",
+          "headings": [
+            "Quinta, sexta y séptima plagas"
+          ]
         },
         {
           "number": 2,
@@ -1053,7 +1081,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé dijo a Moisés: Vé a Faraón, pues Yo endurecí su corazón y el corazón de sus esclavos, para mostrar entre ellos estas señales mías,"
+          "text": "Yavé dijo a Moisés: Vé a Faraón, pues Yo endurecí su corazón y el corazón de sus esclavos, para mostrar entre ellos estas señales mías,",
+          "headings": [
+            "Octava y novena plagas"
+          ]
         },
         {
           "number": 2,
@@ -1174,7 +1205,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Yavé habló a Moisés: Traeré una plaga más sobre Faraón y sobre Egipto. Después de ésta, los dejará ir de aquí. Y cuando los deje ir, ciertamente los echará de aquí por completo."
+          "text": "Entonces Yavé habló a Moisés: Traeré una plaga más sobre Faraón y sobre Egipto. Después de ésta, los dejará ir de aquí. Y cuando los deje ir, ciertamente los echará de aquí por completo.",
+          "headings": [
+            "Anuncio de la última plaga"
+          ]
         },
         {
           "number": 2,
@@ -1219,7 +1253,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés y a Aarón en la tierra de Egipto:"
+          "text": "Yavé habló a Moisés y a Aarón en la tierra de Egipto:",
+          "headings": [
+            "La Pascua"
+          ]
         },
         {
           "number": 2,
@@ -1334,14 +1371,14 @@
         },
         {
           "number": 28,
-          "text": "Entonces los hijos de Israel hicieron tal como Yavé ordenó a Moisés y a Aarón. Así lo hicieron.",
-          "headings": [
-            "Muerte de los primogénitos"
-          ]
+          "text": "Entonces los hijos de Israel hicieron tal como Yavé ordenó a Moisés y a Aarón. Así lo hicieron."
         },
         {
           "number": 29,
-          "text": "Aconteció que a la medianoche Yavé mató a todo primogénito en la tierra de Egipto, tanto el primogénito de Faraón que se sentaba en su trono, como el primogénito del cautivo que estaba en la cárcel y todo primogénito del ganado."
+          "text": "Aconteció que a la medianoche Yavé mató a todo primogénito en la tierra de Egipto, tanto el primogénito de Faraón que se sentaba en su trono, como el primogénito del cautivo que estaba en la cárcel y todo primogénito del ganado.",
+          "headings": [
+            "Muerte de los primogénitos"
+          ]
         },
         {
           "number": 30,
@@ -1369,14 +1406,14 @@
         },
         {
           "number": 36,
-          "text": "Yavé dio gracia al pueblo ante los egipcios, quienes les dieron lo que pidieron. Así despojaron a los egipcios.",
-          "headings": [
-            "El Éxodo"
-          ]
+          "text": "Yavé dio gracia al pueblo ante los egipcios, quienes les dieron lo que pidieron. Así despojaron a los egipcios."
         },
         {
           "number": 37,
-          "text": "Los hijos de Israel salieron de Rameses a Sucot, unos 600.000 hombres de a pie, sin contar los niños."
+          "text": "Los hijos de Israel salieron de Rameses a Sucot, unos 600.000 hombres de a pie, sin contar los niños.",
+          "headings": [
+            "El Éxodo"
+          ]
         },
         {
           "number": 38,
@@ -1441,7 +1478,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "Los primogénitos"
+          ]
         },
         {
           "number": 2,
@@ -1501,14 +1541,14 @@
         },
         {
           "number": 16,
-          "text": "Te servirá como una señal sobre tu mano y como frontales entre tus ojos, porque Yavé nos sacó de Egipto con mano fuerte.",
-          "headings": [
-            "El Éxodo"
-          ]
+          "text": "Te servirá como una señal sobre tu mano y como frontales entre tus ojos, porque Yavé nos sacó de Egipto con mano fuerte."
         },
         {
           "number": 17,
-          "text": "Sucedió que cuando Faraón dejó salir al pueblo, ʼElohim no los condujo por el camino de la tierra de los filisteos, aunque estaba cerca, porque ʼElohim dijo: No sea que el pueblo cambie de mente cuando vea guerra y regrese a Egipto."
+          "text": "Sucedió que cuando Faraón dejó salir al pueblo, ʼElohim no los condujo por el camino de la tierra de los filisteos, aunque estaba cerca, porque ʼElohim dijo: No sea que el pueblo cambie de mente cuando vea guerra y regrese a Egipto.",
+          "headings": [
+            "El Éxodo"
+          ]
         },
         {
           "number": 18,
@@ -1537,7 +1577,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "El mar Rojo"
+          ]
         },
         {
           "number": 2,
@@ -1666,7 +1709,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Moisés y los hijos de Israel cantaron un cántico a Yavé : ¡Cantaré a Yavé Porque ciertamente triunfó! ¡Al caballo y su jinete echó al mar!"
+          "text": "Entonces Moisés y los hijos de Israel cantaron un cántico a Yavé : ¡Cantaré a Yavé Porque ciertamente triunfó! ¡Al caballo y su jinete echó al mar!",
+          "headings": [
+            "Cántico de Moisés"
+          ]
         },
         {
           "number": 2,
@@ -1746,14 +1792,14 @@
         },
         {
           "number": 21,
-          "text": "Miriam las dirigía: Canten a Yavé Porque Él es altamente exaltado. Al caballo y su jinete echó en el mar.",
-          "headings": [
-            "Rumbo a Mara"
-          ]
+          "text": "Miriam las dirigía: Canten a Yavé Porque Él es altamente exaltado. Al caballo y su jinete echó en el mar."
         },
         {
           "number": 22,
-          "text": "Entonces Moisés condujo a Israel del mar Rojo, y salieron hacia el desierto de Shur. Caminaron tres días en el desierto y no hallaron agua."
+          "text": "Entonces Moisés condujo a Israel del mar Rojo, y salieron hacia el desierto de Shur. Caminaron tres días en el desierto y no hallaron agua.",
+          "headings": [
+            "Rumbo a Mara"
+          ]
         },
         {
           "number": 23,
@@ -1782,7 +1828,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Salieron de Elim. Toda la congregación de los hijos de Israel salió de Elim y llegó al desierto de Sin, que está entre Elim y Sinaí, a los 15 días del segundo mes después de la salida de la tierra de Egipto."
+          "text": "Salieron de Elim. Toda la congregación de los hijos de Israel salió de Elim y llegó al desierto de Sin, que está entre Elim y Sinaí, a los 15 días del segundo mes después de la salida de la tierra de Egipto.",
+          "headings": [
+            "Maná y codornices"
+          ]
         },
         {
           "number": 2,
@@ -1873,14 +1922,14 @@
         },
         {
           "number": 22,
-          "text": "Sucedió que el sexto día recogieron el doble de alimento, 4,4 litros para cada uno. Todos los principales de la congregación acudieron a Moisés, y le informaron.",
-          "headings": [
-            "El sábado"
-          ]
+          "text": "Sucedió que el sexto día recogieron el doble de alimento, 4,4 litros para cada uno. Todos los principales de la congregación acudieron a Moisés, y le informaron."
         },
         {
           "number": 23,
-          "text": "Él les dijo: Esto es lo que Yavé dijo: Mañana es sábado santo para Yavé . Lo que van a hornear, hornéenlo. Lo que van a cocinar, cocínenlo, y todo lo que sobre, deposítenlo para conservarlo hasta mañana."
+          "text": "Él les dijo: Esto es lo que Yavé dijo: Mañana es sábado santo para Yavé . Lo que van a hornear, hornéenlo. Lo que van a cocinar, cocínenlo, y todo lo que sobre, deposítenlo para conservarlo hasta mañana.",
+          "headings": [
+            "El sábado"
+          ]
         },
         {
           "number": 24,
@@ -1948,7 +1997,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Toda la congregación de los hijos de Israel salió del desierto de Sin por jornadas, conforme al Mandamiento de Yavé . Acamparon en Refidim, y no había agua para que el pueblo bebiera."
+          "text": "Toda la congregación de los hijos de Israel salió del desierto de Sin por jornadas, conforme al Mandamiento de Yavé . Acamparon en Refidim, y no había agua para que el pueblo bebiera.",
+          "headings": [
+            "La Peña de Horeb"
+          ]
         },
         {
           "number": 2,
@@ -2017,7 +2069,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Jetro, sacerdote de Madián, suegro de Moisés, oyó todo lo que ʼElohim hizo por Moisés y por su pueblo Israel, y cómo Yavé sacó a Israel de Egipto."
+          "text": "Jetro, sacerdote de Madián, suegro de Moisés, oyó todo lo que ʼElohim hizo por Moisés y por su pueblo Israel, y cómo Yavé sacó a Israel de Egipto.",
+          "headings": [
+            "Visita de Jetro"
+          ]
         },
         {
           "number": 2,
@@ -2041,14 +2096,14 @@
         },
         {
           "number": 7,
-          "text": "Entonces Moisés salió a recibir a su suegro, se inclinó y lo besó. Se preguntaron el uno al otro por su salud y entraron en la tienda.",
-          "headings": [
-            "Victoria sobre Amalec"
-          ]
+          "text": "Entonces Moisés salió a recibir a su suegro, se inclinó y lo besó. Se preguntaron el uno al otro por su salud y entraron en la tienda."
         },
         {
           "number": 8,
-          "text": "Entonces Moisés relató a su suegro todo lo que Yavé hizo a Faraón y a los egipcios por amor a Israel y todas las adversidades que tuvieron en el camino, y cómo Yavé los libró."
+          "text": "Entonces Moisés relató a su suegro todo lo que Yavé hizo a Faraón y a los egipcios por amor a Israel y todas las adversidades que tuvieron en el camino, y cómo Yavé los libró.",
+          "headings": [
+            "Victoria sobre Amalec"
+          ]
         },
         {
           "number": 9,
@@ -2133,7 +2188,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Al tercer mes después de la salida de los hijos de Israel de la tierra de Egipto, ese mismo día llegaron al desierto de Sinaí."
+          "text": "Al tercer mes después de la salida de los hijos de Israel de la tierra de Egipto, ese mismo día llegaron al desierto de Sinaí.",
+          "headings": [
+            "Israel en Sinaí"
+          ]
         },
         {
           "number": 2,
@@ -2238,7 +2296,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "ʼElohim habló todas estas Palabras:"
+          "text": "ʼElohim habló todas estas Palabras:",
+          "headings": [
+            "El Decálogo"
+          ]
         },
         {
           "number": 2,
@@ -2302,14 +2363,14 @@
         },
         {
           "number": 17,
-          "text": "No codiciarás la casa de tu prójimo, ni la esposa de tu prójimo, ni su esclavo, ni su esclava, ni su buey, ni su asno, ni alguna cosa de tu prójimo.",
-          "headings": [
-            "Reacción del pueblo"
-          ]
+          "text": "No codiciarás la casa de tu prójimo, ni la esposa de tu prójimo, ni su esclavo, ni su esclava, ni su buey, ni su asno, ni alguna cosa de tu prójimo."
         },
         {
           "number": 18,
-          "text": "Todo el pueblo percibía los truenos, los relámpagos, el sonido de la corneta y la Montaña que humeaba. Cuando el pueblo percibió esto , se estremecieron y se mantuvieron lejos."
+          "text": "Todo el pueblo percibía los truenos, los relámpagos, el sonido de la corneta y la Montaña que humeaba. Cuando el pueblo percibió esto , se estremecieron y se mantuvieron lejos.",
+          "headings": [
+            "Reacción del pueblo"
+          ]
         },
         {
           "number": 19,
@@ -2321,14 +2382,14 @@
         },
         {
           "number": 21,
-          "text": "Y el pueblo se mantuvo en pie a distancia mientras Moisés subía a la densa nube donde estaba ʼElohim .",
-          "headings": [
-            "Leyes con respecto al altar"
-          ]
+          "text": "Y el pueblo se mantuvo en pie a distancia mientras Moisés subía a la densa nube donde estaba ʼElohim ."
         },
         {
           "number": 22,
-          "text": "Yavé dijo a Moisés: Así dirás a los hijos de Israel: Ustedes vieron que les hablé desde el cielo."
+          "text": "Yavé dijo a Moisés: Así dirás a los hijos de Israel: Ustedes vieron que les hablé desde el cielo.",
+          "headings": [
+            "Leyes con respecto al altar"
+          ]
         },
         {
           "number": 23,
@@ -2353,7 +2414,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Estas son las Ordenanzas que les promulgarás:"
+          "text": "Estas son las Ordenanzas que les promulgarás:",
+          "headings": [
+            "Código del Pacto"
+          ]
         },
         {
           "number": 2,
@@ -2502,7 +2566,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Cuando un hombre robe un buey o un cordero, y lo degüelle o lo venda, por aquel buey pagará cinco bueyes, y por aquel cordero pagará cuatro corderos."
+          "text": "Cuando un hombre robe un buey o un cordero, y lo degüelle o lo venda, por aquel buey pagará cinco bueyes, y por aquel cordero pagará cuatro corderos.",
+          "headings": [
+            "Sobre el robo y otros delitos"
+          ]
         },
         {
           "number": 2,
@@ -2631,7 +2698,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "No admitirás falso rumor, ni concertarás con el perverso para ser testigo falso."
+          "text": "No admitirás falso rumor, ni concertarás con el perverso para ser testigo falso.",
+          "headings": [
+            "Otras Leyes"
+          ]
         },
         {
           "number": 2,
@@ -2679,14 +2749,14 @@
         },
         {
           "number": 13,
-          "text": "Guardarán todo lo que les he dicho. No invoquen los nombres de otros ʼelohim , ni se oigan de sus labios.",
-          "headings": [
-            "Fiestas solemnes"
-          ]
+          "text": "Guardarán todo lo que les he dicho. No invoquen los nombres de otros ʼelohim , ni se oigan de sus labios."
         },
         {
           "number": 14,
-          "text": "Tres veces por año me celebrarán una fiesta."
+          "text": "Tres veces por año me celebrarán una fiesta.",
+          "headings": [
+            "Fiestas solemnes"
+          ]
         },
         {
           "number": 15,
@@ -2771,7 +2841,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después Dios dijo a Moisés: Sube a Yavé con Aarón, Nadab, Abiú y 70 ancianos de Israel. Se postrarán a distancia."
+          "text": "Después Dios dijo a Moisés: Sube a Yavé con Aarón, Nadab, Abiú y 70 ancianos de Israel. Se postrarán a distancia.",
+          "headings": [
+            "La sangre del Pacto"
+          ]
         },
         {
           "number": 2,
@@ -2848,7 +2921,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "El Arca, la mesa de los panes, el candelabro"
+          ]
         },
         {
           "number": 2,
@@ -2880,14 +2956,14 @@
         },
         {
           "number": 9,
-          "text": "Harán el diseño del Tabernáculo y de todos sus utensilios conforme a todo lo que Yo te mostraré.",
-          "headings": [
-            "Mobiliario del Tabernáculo"
-          ]
+          "text": "Harán el diseño del Tabernáculo y de todos sus utensilios conforme a todo lo que Yo te mostraré."
         },
         {
           "number": 10,
-          "text": "Harán un arca de madera de acacia: su longitud será de 112,5 centímetros, su anchura de 67,5 centímetros y su altura de 67,5 centímetros."
+          "text": "Harán un arca de madera de acacia: su longitud será de 112,5 centímetros, su anchura de 67,5 centímetros y su altura de 67,5 centímetros.",
+          "headings": [
+            "Mobiliario del Tabernáculo"
+          ]
         },
         {
           "number": 11,
@@ -3023,7 +3099,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Además harás el Tabernáculo con diez cortinas de lino fino torcido y tela azul, púrpura y carmesí. Las harás con querubines, obra de hábil diseñador."
+          "text": "Además harás el Tabernáculo con diez cortinas de lino fino torcido y tela azul, púrpura y carmesí. Las harás con querubines, obra de hábil diseñador.",
+          "headings": [
+            "El Tabernáculo"
+          ]
         },
         {
           "number": 2,
@@ -3176,7 +3255,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El altar lo harás cuadrado, de madera de acacia de 2,25 metros de largo y de ancho, y de 1,35 metros de alto."
+          "text": "El altar lo harás cuadrado, de madera de acacia de 2,25 metros de largo y de ancho, y de 1,35 metros de alto.",
+          "headings": [
+            "El altar y el patio"
+          ]
         },
         {
           "number": 2,
@@ -3265,7 +3347,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "De entre los hijos de Israel ordenarás que tu hermano Aarón y sus hijos se presenten ante ti, para que me ministren como sacerdotes Aarón y sus hijos Nadab, Abiú, Eleazar e Itamar."
+          "text": "De entre los hijos de Israel ordenarás que tu hermano Aarón y sus hijos se presenten ante ti, para que me ministren como sacerdotes Aarón y sus hijos Nadab, Abiú, Eleazar e Itamar.",
+          "headings": [
+            "Las ropas sacerdotales"
+          ]
         },
         {
           "number": 2,
@@ -3449,7 +3534,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Esto es lo que les harás para consagrarlos a fin de que sean mis sacerdotes: Toma un becerro de la manada de ganado vacuno, dos carneros sin defecto,"
+          "text": "Esto es lo que les harás para consagrarlos a fin de que sean mis sacerdotes: Toma un becerro de la manada de ganado vacuno, dos carneros sin defecto,",
+          "headings": [
+            "Consagración de Aarón y sus hijos"
+          ]
         },
         {
           "number": 2,
@@ -3638,7 +3726,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Además harás un altar para quemar incienso. Lo harás de madera de acacia."
+          "text": "Además harás un altar para quemar incienso. Lo harás de madera de acacia.",
+          "headings": [
+            "Prescripciones para el servicio"
+          ]
         },
         {
           "number": 2,
@@ -3725,14 +3816,14 @@
         },
         {
           "number": 21,
-          "text": "Se lavarán, pues, las manos y los pies para que no mueran. Él y sus descendientes lo tendrán como estatuto perpetuo en sus generaciones.",
-          "headings": [
-            "El aceite de la unción y el incienso"
-          ]
+          "text": "Se lavarán, pues, las manos y los pies para que no mueran. Él y sus descendientes lo tendrán como estatuto perpetuo en sus generaciones."
         },
         {
           "number": 22,
-          "text": "Además Yavé habló a Moisés:"
+          "text": "Además Yavé habló a Moisés:",
+          "headings": [
+            "El aceite de la unción y el incienso"
+          ]
         },
         {
           "number": 23,
@@ -3805,7 +3896,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés:"
+          "text": "Yavé habló a Moisés:",
+          "headings": [
+            "Los artífices del Santuario"
+          ]
         },
         {
           "number": 2,
@@ -3882,7 +3976,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero cuando el pueblo vio que Moisés tardaba en bajar de la Montaña, se reunió alrededor de Aarón y le dijeron: ¡Levántate, haznos ʼelohim que vayan delante de nosotros! Porque este Moisés, el varón que nos sacó de la tierra de Egipto, no sabemos qué le sucedió."
+          "text": "Pero cuando el pueblo vio que Moisés tardaba en bajar de la Montaña, se reunió alrededor de Aarón y le dijeron: ¡Levántate, haznos ʼelohim que vayan delante de nosotros! Porque este Moisés, el varón que nos sacó de la tierra de Egipto, no sabemos qué le sucedió.",
+          "headings": [
+            "El becerro de oro"
+          ]
         },
         {
           "number": 2,
@@ -4027,7 +4124,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yavé habló a Moisés: Sal. Sube de aquí, tú y el pueblo que sacaste de la tierra de Egipto para llevarlo a la tierra de la cual juré a Abraham, Isaac y Jacob: La daré a tus descendientes."
+          "text": "Yavé habló a Moisés: Sal. Sube de aquí, tú y el pueblo que sacaste de la tierra de Egipto para llevarlo a la tierra de la cual juré a Abraham, Isaac y Jacob: La daré a tus descendientes.",
+          "headings": [
+            "Yavé ʼElohim promete su presencia"
+          ]
         },
         {
           "number": 2,
@@ -4124,7 +4224,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "También Yavé dijo a Moisés: Lábrate dos tablas de piedra como las primeras, y escribiré sobre las tablas las Palabras que estaban sobre las primeras tablas que quebraste."
+          "text": "También Yavé dijo a Moisés: Lábrate dos tablas de piedra como las primeras, y escribiré sobre las tablas las Palabras que estaban sobre las primeras tablas que quebraste.",
+          "headings": [
+            "El Decálogo ritual"
+          ]
         },
         {
           "number": 2,
@@ -4269,7 +4372,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Moisés convocó a toda la congregación de los hijos de Israel y les dijo: Estas son las cosas que Yavé ordenó para que se hagan:"
+          "text": "Moisés convocó a toda la congregación de los hijos de Israel y les dijo: Estas son las cosas que Yavé ordenó para que se hagan:",
+          "headings": [
+            "Ofrenda para el Tabernáculo"
+          ]
         },
         {
           "number": 2,
@@ -4414,7 +4520,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Bezaleel, Oholiab y todo artesano hábil, a quienes Yavé dotó de capacidad y entendimiento para hacer toda obra para el servicio del Santuario, hicieron según todo lo que Yavé ordenó."
+          "text": "Bezaleel, Oholiab y todo artesano hábil, a quienes Yavé dotó de capacidad y entendimiento para hacer toda obra para el servicio del Santuario, hicieron según todo lo que Yavé ordenó.",
+          "headings": [
+            "Construcción del Tabernáculo"
+          ]
         },
         {
           "number": 2,
@@ -4571,7 +4680,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Bezaleel hizo también el Arca de madera de acacia de 1,12 metros de largo, 67,5 centímetros de ancho, y 67,5 centímetros de alto."
+          "text": "Bezaleel hizo también el Arca de madera de acacia de 1,12 metros de largo, 67,5 centímetros de ancho, y 67,5 centímetros de alto.",
+          "headings": [
+            "Mobiliario del Tabernáculo"
+          ]
         },
         {
           "number": 2,
@@ -4692,7 +4804,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hizo el altar del holocausto cuadrado con madera de acacia, de 2,25 metros de largo y de ancho y 1,35 metros de alto."
+          "text": "Hizo el altar del holocausto cuadrado con madera de acacia, de 2,25 metros de largo y de ancho y 1,35 metros de alto.",
+          "headings": [
+            "El altar del holocausto"
+          ]
         },
         {
           "number": 2,
@@ -4835,7 +4950,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Con hilo de azul , púrpura y carmesí, hicieron las ropas de tejido para ministrar en el Santuario e hicieron las ropas sagradas para Aarón, como Yavé ordenó a Moisés."
+          "text": "Con hilo de azul , púrpura y carmesí, hicieron las ropas de tejido para ministrar en el Santuario e hicieron las ropas sagradas para Aarón, como Yavé ordenó a Moisés.",
+          "headings": [
+            "Las ropas sacerdotales"
+          ]
         },
         {
           "number": 2,
@@ -5012,7 +5130,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces Yavé habló a Moisés:"
+          "text": "Entonces Yavé habló a Moisés:",
+          "headings": [
+            "Establecimiento del Tabernáculo"
+          ]
         },
         {
           "number": 2,

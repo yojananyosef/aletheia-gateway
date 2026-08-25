@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Elcaná era un hombre de la tribu de Efraín que vivía en Ramatayin de Zofim, en la región montañosa de Efraín. Su padre se llamó Jeroán; su abuelo, Eliú; su bisabuelo, Tohu, y su tatarabuelo, Zuf."
+          "text": "Elcaná era un hombre de la tribu de Efraín que vivía en Ramatayin de Zofim, en la región montañosa de Efraín. Su padre se llamó Jeroán; su abuelo, Eliú; su bisabuelo, Tohu, y su tatarabuelo, Zuf.",
+          "headings": [
+            "Nacimiento de Samuel"
+          ]
         },
         {
           "number": 2,
@@ -88,14 +91,14 @@
         },
         {
           "number": 20,
-          "text": "Pasado el tiempo, ella tuvo un hijo. Y le puso Samuel (Pedido a Dios) porque, como ella dijo: «Se lo pedí al Señor ».",
-          "headings": [
-            "Ana dedica a Samuel"
-          ]
+          "text": "Pasado el tiempo, ella tuvo un hijo. Y le puso Samuel (Pedido a Dios) porque, como ella dijo: «Se lo pedí al Señor »."
         },
         {
           "number": 21,
-          "text": "Al año siguiente, Elcaná y Penina y sus hijos fueron a ofrecer el sacrificio anual al santuario,"
+          "text": "Al año siguiente, Elcaná y Penina y sus hijos fueron a ofrecer el sacrificio anual al santuario,",
+          "headings": [
+            "Ana dedica a Samuel"
+          ]
         },
         {
           "number": 22,
@@ -132,7 +135,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Esta fue la oración de Ana: «¡Cuánto me ha bendecido! Ahora tengo respuesta para mis enemigos, porque el Señor ha resuelto mi problema. ¡Cuánto se goza mi corazón!"
+          "text": "Esta fue la oración de Ana: «¡Cuánto me ha bendecido! Ahora tengo respuesta para mis enemigos, porque el Señor ha resuelto mi problema. ¡Cuánto se goza mi corazón!",
+          "headings": [
+            "Oración de Ana"
+          ]
         },
         {
           "number": 2,
@@ -172,14 +178,14 @@
         },
         {
           "number": 11,
-          "text": "Elcaná y su familia regresaron a Ramá sin Samuel; el niño quedó al servicio del Señor , como ayudante de Elí el sacerdote.",
-          "headings": [
-            "Perversidad de los hijos de Elí"
-          ]
+          "text": "Elcaná y su familia regresaron a Ramá sin Samuel; el niño quedó al servicio del Señor , como ayudante de Elí el sacerdote."
         },
         {
           "number": 12,
-          "text": "Los hijos de Elí eran hombres impíos que desconocían al Señor y las obligaciones del sacerdocio."
+          "text": "Los hijos de Elí eran hombres impíos que desconocían al Señor y las obligaciones del sacerdocio.",
+          "headings": [
+            "Perversidad de los hijos de Elí"
+          ]
         },
         {
           "number": 13,
@@ -233,14 +239,14 @@
         },
         {
           "number": 26,
-          "text": "El pequeño Samuel, en cambio, iba creciendo en estatura y en gracia ante todos y también ante el Señor .",
-          "headings": [
-            "Profecía contra la familia de Elí"
-          ]
+          "text": "El pequeño Samuel, en cambio, iba creciendo en estatura y en gracia ante todos y también ante el Señor ."
         },
         {
           "number": 27,
-          "text": "Un día un profeta vino ante Elí y le dio este mensaje del Señor : «¿No mostré yo mi poder a tus antepasados levitas cuando el pueblo de Israel era esclavo en Egipto?"
+          "text": "Un día un profeta vino ante Elí y le dio este mensaje del Señor : «¿No mostré yo mi poder a tus antepasados levitas cuando el pueblo de Israel era esclavo en Egipto?",
+          "headings": [
+            "Profecía contra la familia de Elí"
+          ]
         },
         {
           "number": 28,
@@ -285,7 +291,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Mientras tanto, el pequeño Samuel estaba al servicio del Señor como ayudante de Elí. En aquellos días eran muy raros los mensajes del Señor ;"
+          "text": "Mientras tanto, el pequeño Samuel estaba al servicio del Señor como ayudante de Elí. En aquellos días eran muy raros los mensajes del Señor ;",
+          "headings": [
+            "El Señor llama a Samuel"
+          ]
         },
         {
           "number": 2,
@@ -374,7 +383,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por aquel tiempo Israel estaba en guerra con los filisteos. Los israelitas estaban acampados cerca de Ebenezer y los filisteos en Afec."
+          "text": "Por aquel tiempo Israel estaba en guerra con los filisteos. Los israelitas estaban acampados cerca de Ebenezer y los filisteos en Afec.",
+          "headings": [
+            "Los filisteos capturan el cofre"
+          ]
         },
         {
           "number": 2,
@@ -414,14 +426,14 @@
         },
         {
           "number": 11,
-          "text": "Y el cofre de Dios fue capturado y Ofni y Finés murieron.",
-          "headings": [
-            "Muerte de Elí"
-          ]
+          "text": "Y el cofre de Dios fue capturado y Ofni y Finés murieron."
         },
         {
           "number": 12,
           "text": "Un hombre de la tribu de Benjamín corrió desde el campo de batalla y llegó a Siló el mismo día con sus ropas rasgadas y con polvo en la cabeza.",
+          "headings": [
+            "Muerte de Elí"
+          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -473,7 +485,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los filisteos tomaron el cofre de Dios que habían capturado en el campo de batalla de Ebenezer"
+          "text": "Los filisteos tomaron el cofre de Dios que habían capturado en el campo de batalla de Ebenezer",
+          "headings": [
+            "El cofre en Asdod y Ecrón"
+          ]
         },
         {
           "number": 2,
@@ -526,7 +541,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "El cofre estuvo en el país de los filisteos durante siete meses en total."
+          "text": "El cofre estuvo en el país de los filisteos durante siete meses en total.",
+          "headings": [
+            "Los filisteos devuelven el cofre a Israel"
+          ]
         },
         {
           "number": 2,
@@ -613,14 +631,14 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces fueron los hombres de Quiriat Yearín y se llevaron el cofre a la casa de Abinadab, situada en la colina. A Eleazar su hijo lo santificaron para que estuviera a cargo de ella.",
-          "headings": [
-            "Samuel derrota a los filisteos en Mizpa"
-          ]
+          "text": "Entonces fueron los hombres de Quiriat Yearín y se llevaron el cofre a la casa de Abinadab, situada en la colina. A Eleazar su hijo lo santificaron para que estuviera a cargo de ella."
         },
         {
           "number": 2,
-          "text": "El cofre permaneció allí durante veinte años; Israel tuvo tristeza porque el Señor aparentemente los había abandonado."
+          "text": "El cofre permaneció allí durante veinte años; Israel tuvo tristeza porque el Señor aparentemente los había abandonado.",
+          "headings": [
+            "Samuel derrota a los filisteos en Mizpa"
+          ]
         },
         {
           "number": 3,
@@ -689,7 +707,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En su vejez Samuel se retiró y nombró jueces de Israel a sus hijos."
+          "text": "En su vejez Samuel se retiró y nombró jueces de Israel a sus hijos.",
+          "headings": [
+            "Los israelitas piden un rey"
+          ]
         },
         {
           "number": 2,
@@ -782,7 +803,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Quis era un hombre rico e influyente de la tribu de Benjamín. Era hijo de Abiel, nieto de Zeror, bisnieto de Becorat y tataranieto de Afía."
+          "text": "Quis era un hombre rico e influyente de la tribu de Benjamín. Era hijo de Abiel, nieto de Zeror, bisnieto de Becorat y tataranieto de Afía.",
+          "headings": [
+            "Samuel unge a Saúl"
+          ]
         },
         {
           "number": 2,
@@ -917,14 +941,14 @@
         },
         {
           "number": 8,
-          "text": "»Ve a Gilgal y espérame allí siete días, porque yo descenderé a presentar holocaustos y ofrendas de paz. Yo te daré nuevas instrucciones cuando llegue.",
-          "headings": [
-            "Saúl es proclamado rey"
-          ]
+          "text": "»Ve a Gilgal y espérame allí siete días, porque yo descenderé a presentar holocaustos y ofrendas de paz. Yo te daré nuevas instrucciones cuando llegue."
         },
         {
           "number": 9,
-          "text": "Cuando Saúl se despidió y emprendió el camino, Dios le cambió la vida, y todas las profecías de Samuel se cumplieron aquel día."
+          "text": "Cuando Saúl se despidió y emprendió el camino, Dios le cambió la vida, y todas las profecías de Samuel se cumplieron aquel día.",
+          "headings": [
+            "Saúl es proclamado rey"
+          ]
         },
         {
           "number": 10,
@@ -1005,7 +1029,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Poco después Najás condujo el ejército de los amonitas contra la ciudad israelita de Jabés de Galaad. Pero los habitantes de Jabés le suplicaron la paz. ―Pon las condiciones y te serviremos —le propusieron."
+          "text": "Poco después Najás condujo el ejército de los amonitas contra la ciudad israelita de Jabés de Galaad. Pero los habitantes de Jabés le suplicaron la paz. ―Pon las condiciones y te serviremos —le propusieron.",
+          "headings": [
+            "Saúl libera la ciudad de Jabés"
+          ]
         },
         {
           "number": 2,
@@ -1045,14 +1072,14 @@
         },
         {
           "number": 11,
-          "text": "Al día siguiente, muy temprano, Saúl llegó. Tras dividir al ejército en tres columnas, lanzó un ataque sorpresivo sobre los amonitas y durante toda la mañana estuvo diezmando al enemigo. La persecución fue tan tenaz, que no quedaron juntos ni siquiera dos.",
-          "headings": [
-            "Saúl es confirmado como rey"
-          ]
+          "text": "Al día siguiente, muy temprano, Saúl llegó. Tras dividir al ejército en tres columnas, lanzó un ataque sorpresivo sobre los amonitas y durante toda la mañana estuvo diezmando al enemigo. La persecución fue tan tenaz, que no quedaron juntos ni siquiera dos."
         },
         {
           "number": 12,
-          "text": "El pueblo le dijo a Samuel: ―¿Dónde están los que decían que Saúl no podría ser nuestro rey? Tráiganlos y los mataremos."
+          "text": "El pueblo le dijo a Samuel: ―¿Dónde están los que decían que Saúl no podría ser nuestro rey? Tráiganlos y los mataremos.",
+          "headings": [
+            "Saúl es confirmado como rey"
+          ]
         },
         {
           "number": 13,
@@ -1073,7 +1100,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Samuel habló al pueblo: ―Bien, ya los he complacido: Les he dado un rey,"
+          "text": "Samuel habló al pueblo: ―Bien, ya los he complacido: Les he dado un rey,",
+          "headings": [
+            "Discurso de despedida de Samuel"
+          ]
         },
         {
           "number": 2,
@@ -1178,7 +1208,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Saúl había reinado ya un año. En el segundo año de su reinado"
+          "text": "Saúl había reinado ya un año. En el segundo año de su reinado",
+          "headings": [
+            "Samuel reprende a Saúl"
+          ]
         },
         {
           "number": 2,
@@ -1234,14 +1267,14 @@
         },
         {
           "number": 15,
-          "text": "Sin más, Samuel se fue de Gilgal a Guibeá de Benjamín. Cuando Saúl contó los soldados que aún estaban con él, encontró que eran sólo seiscientos.",
-          "headings": [
-            "Jonatán ataca a los filisteos"
-          ]
+          "text": "Sin más, Samuel se fue de Gilgal a Guibeá de Benjamín. Cuando Saúl contó los soldados que aún estaban con él, encontró que eran sólo seiscientos."
         },
         {
           "number": 16,
-          "text": "Saúl y Jonatán, y estos seiscientos hombres, pusieron su campamento en Guibeá de Benjamín, pero los filisteos se quedaron en Micmás."
+          "text": "Saúl y Jonatán, y estos seiscientos hombres, pusieron su campamento en Guibeá de Benjamín, pero los filisteos se quedaron en Micmás.",
+          "headings": [
+            "Jonatán ataca a los filisteos"
+          ]
         },
         {
           "number": 17,
@@ -1330,14 +1363,14 @@
         },
         {
           "number": 14,
-          "text": "Murieron en total veinte hombres en ese primer ataque, y sus cuerpos quedaron esparcidos en un espacio como de la mitad de un surco.",
-          "headings": [
-            "Israel derrota a los filisteos"
-          ]
+          "text": "Murieron en total veinte hombres en ese primer ataque, y sus cuerpos quedaron esparcidos en un espacio como de la mitad de un surco."
         },
         {
           "number": 15,
-          "text": "Repentinamente cundió el pánico en todo el campamento filisteo, tanto los que estaban acampados como los que estaban en el campo abierto. Para colmo, hubo un gran terremoto que aumentó el terror."
+          "text": "Repentinamente cundió el pánico en todo el campamento filisteo, tanto los que estaban acampados como los que estaban en el campo abierto. Para colmo, hubo un gran terremoto que aumentó el terror.",
+          "headings": [
+            "Israel derrota a los filisteos"
+          ]
         },
         {
           "number": 16,
@@ -1369,14 +1402,14 @@
         },
         {
           "number": 23,
-          "text": "De esta manera el Señor salvó a Israel aquel día y la batalla continuó hasta más allá de Bet Avén.",
-          "headings": [
-            "El juramento de Saúl"
-          ]
+          "text": "De esta manera el Señor salvó a Israel aquel día y la batalla continuó hasta más allá de Bet Avén."
         },
         {
           "number": 24,
-          "text": "Aquel día Saúl había declarado: «Caiga una maldición sobre cualquiera que coma algo antes de la tarde, antes que yo haya completado la venganza sobre mis enemigos»."
+          "text": "Aquel día Saúl había declarado: «Caiga una maldición sobre cualquiera que coma algo antes de la tarde, antes que yo haya completado la venganza sobre mis enemigos».",
+          "headings": [
+            "El juramento de Saúl"
+          ]
         },
         {
           "number": 25,
@@ -1472,14 +1505,14 @@
         },
         {
           "number": 48,
-          "text": "Hizo grandes cosas. Venció a los amalecitas, y salvó a Israel de todos los que habían sido sus opresores.",
-          "headings": [
-            "La familia de Saúl"
-          ]
+          "text": "Hizo grandes cosas. Venció a los amalecitas, y salvó a Israel de todos los que habían sido sus opresores."
         },
         {
           "number": 49,
-          "text": "Saúl tuvo tres hijos, Jonatán, Isví y Malquisúa; y dos hijas, Merab, la mayor, y Mical."
+          "text": "Saúl tuvo tres hijos, Jonatán, Isví y Malquisúa; y dos hijas, Merab, la mayor, y Mical.",
+          "headings": [
+            "La familia de Saúl"
+          ]
         },
         {
           "number": 50,
@@ -1498,7 +1531,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día Samuel le dijo a Saúl: «Te coroné rey de Israel porque el Señor me lo ordenó. Escucha lo que él quiere ahora."
+          "text": "Un día Samuel le dijo a Saúl: «Te coroné rey de Israel porque el Señor me lo ordenó. Escucha lo que él quiere ahora.",
+          "headings": [
+            "El Señor rechaza a Saúl"
+          ]
         },
         {
           "number": 2,
@@ -1643,7 +1679,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Finalmente el Señor le dijo a Samuel: ―Basta ya de llorar a Saúl, porque lo he rechazado como rey de Israel. Toma un cuerno de aceite de oliva, ve a Belén y busca a un hombre llamado Isaí, porque a uno de sus hijos he escogido para que sea el nuevo rey."
+          "text": "Finalmente el Señor le dijo a Samuel: ―Basta ya de llorar a Saúl, porque lo he rechazado como rey de Israel. Toma un cuerno de aceite de oliva, ve a Belén y busca a un hombre llamado Isaí, porque a uno de sus hijos he escogido para que sea el nuevo rey.",
+          "headings": [
+            "Samuel unge a David"
+          ]
         },
         {
           "number": 2,
@@ -1691,14 +1730,14 @@
         },
         {
           "number": 13,
-          "text": "Samuel tomó el aceite de oliva que había traído y lo derramó sobre la cabeza de David delante de sus hermanos. El Espíritu del Señor entonces descendió sobre él y le dio gran poder desde aquel día en adelante. Y Samuel regresó a Ramá.",
-          "headings": [
-            "David al servicio de Saúl"
-          ]
+          "text": "Samuel tomó el aceite de oliva que había traído y lo derramó sobre la cabeza de David delante de sus hermanos. El Espíritu del Señor entonces descendió sobre él y le dio gran poder desde aquel día en adelante. Y Samuel regresó a Ramá."
         },
         {
           "number": 14,
-          "text": "El Espíritu del Señor se había apartado de Saúl, y en cambio, le había enviado un espíritu que lo atormentaba."
+          "text": "El Espíritu del Señor se había apartado de Saúl, y en cambio, le había enviado un espíritu que lo atormentaba.",
+          "headings": [
+            "David al servicio de Saúl"
+          ]
         },
         {
           "number": 15,
@@ -1741,7 +1780,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los filisteos juntaron sus ejércitos para la batalla y acamparon entre Soco de Judá y Azeca, en Efesdamín."
+          "text": "Los filisteos juntaron sus ejércitos para la batalla y acamparon entre Soco de Judá y Azeca, en Efesdamín.",
+          "headings": [
+            "David y Goliat"
+          ]
         },
         {
           "number": 2,
@@ -1962,7 +2004,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después que el rey Saúl terminó de conversar con David,"
+          "text": "Después que el rey Saúl terminó de conversar con David,",
+          "headings": [
+            "Envidia de Saúl"
+          ]
         },
         {
           "number": 2,
@@ -2085,7 +2130,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Saúl sugirió a sus servidores y a Jonatán su hijo que asesinaran a David. Pero Jonatán, movido por la estrecha amistad que lo ligaba con David,"
+          "text": "Saúl sugirió a sus servidores y a Jonatán su hijo que asesinaran a David. Pero Jonatán, movido por la estrecha amistad que lo ligaba con David,",
+          "headings": [
+            "Saúl intenta matar a David"
+          ]
         },
         {
           "number": 2,
@@ -2186,7 +2234,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David entonces huyó de Nayot de Ramá y se unió con Jonatán. ―¿Qué he hecho? —exclamó—. ¿Por qué está tu padre tan decidido a matarme?"
+          "text": "David entonces huyó de Nayot de Ramá y se unió con Jonatán. ―¿Qué he hecho? —exclamó—. ¿Por qué está tu padre tan decidido a matarme?",
+          "headings": [
+            "David y Jonatán"
+          ]
         },
         {
           "number": 2,
@@ -2357,7 +2408,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David se dirigió a la ciudad de Nob para ver a Ajimélec el sacerdote. Ajimélec tembló cuando lo vio. ¿Por qué vienes solo? —le preguntó—. ¿Por qué nadie te acompaña?"
+          "text": "David se dirigió a la ciudad de Nob para ver a Ajimélec el sacerdote. Ajimélec tembló cuando lo vio. ¿Por qué vienes solo? —le preguntó—. ¿Por qué nadie te acompaña?",
+          "headings": [
+            "David en Nob"
+          ]
         },
         {
           "number": 2,
@@ -2389,14 +2443,14 @@
         },
         {
           "number": 9,
-          "text": "―No —contestó el sacerdote—, sólo tengo la espada de Goliat, el filisteo que mataste en el valle de Elá. Está envuelta en un manto en el cuarto de la ropa. Tómala si quieres, porque no tengo otra cosa. ―¡No hay otra igual! —exclamó David—. ¡Dámela!",
-          "headings": [
-            "David en Gat"
-          ]
+          "text": "―No —contestó el sacerdote—, sólo tengo la espada de Goliat, el filisteo que mataste en el valle de Elá. Está envuelta en un manto en el cuarto de la ropa. Tómala si quieres, porque no tengo otra cosa. ―¡No hay otra igual! —exclamó David—. ¡Dámela!"
         },
         {
           "number": 10,
-          "text": "Sin pérdida de tiempo, reanudó la marcha huyendo de Saúl y llegó ante el rey Aquis de Gat."
+          "text": "Sin pérdida de tiempo, reanudó la marcha huyendo de Saúl y llegó ante el rey Aquis de Gat.",
+          "headings": [
+            "David en Gat"
+          ]
         },
         {
           "number": 11,
@@ -2425,7 +2479,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "David salió de Gat y se refugió en la cueva de Adulam, donde de inmediato se le unieron sus hermanos y otros parientes."
+          "text": "David salió de Gat y se refugió en la cueva de Adulam, donde de inmediato se le unieron sus hermanos y otros parientes.",
+          "headings": [
+            "David huye a Adulán y a Mizpa"
+          ]
         },
         {
           "number": 2,
@@ -2441,14 +2498,14 @@
         },
         {
           "number": 5,
-          "text": "Un día el profeta Gad le dijo a David que dejara la cueva y regresara a la tierra de Judá. Y David se fue al bosque de Jaret.",
-          "headings": [
-            "Saúl elimina a los sacerdotes de Nob"
-          ]
+          "text": "Un día el profeta Gad le dijo a David que dejara la cueva y regresara a la tierra de Judá. Y David se fue al bosque de Jaret."
         },
         {
           "number": 6,
-          "text": "La noticia de su llegada a Judá llegó pronto a oídos de Saúl. Él estaba en Guibeá en ese momento, sentado bajo una encina, jugando con su lanza mientras estaba rodeado por sus oficiales."
+          "text": "La noticia de su llegada a Judá llegó pronto a oídos de Saúl. Él estaba en Guibeá en ese momento, sentado bajo una encina, jugando con su lanza mientras estaba rodeado por sus oficiales.",
+          "headings": [
+            "Saúl elimina a los sacerdotes de Nob"
+          ]
         },
         {
           "number": 7,
@@ -2525,7 +2582,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Un día avisaron a David que los filisteos estaban atacando a Queilá y saqueando los campos:"
+          "text": "Un día avisaron a David que los filisteos estaban atacando a Queilá y saqueando los campos:",
+          "headings": [
+            "David libera la ciudad de Queilá"
+          ]
         },
         {
           "number": 2,
@@ -2545,14 +2605,14 @@
         },
         {
           "number": 6,
-          "text": "Abiatar el sacerdote fue a Queilá con David, y llevó el efod consigo, a fin de consultar al Señor por David.",
-          "headings": [
-            "Saúl persigue a David"
-          ]
+          "text": "Abiatar el sacerdote fue a Queilá con David, y llevó el efod consigo, a fin de consultar al Señor por David."
         },
         {
           "number": 7,
-          "text": "Saúl pronto supo que David estaba en Queilá. «Bien —exclamó—. Ahora lo tenemos. Dios lo ha entregado en mis manos, pues se ha atrapado a sí mismo en una ciudad amurallada»."
+          "text": "Saúl pronto supo que David estaba en Queilá. «Bien —exclamó—. Ahora lo tenemos. Dios lo ha entregado en mis manos, pues se ha atrapado a sí mismo en una ciudad amurallada».",
+          "headings": [
+            "Saúl persigue a David"
+          ]
         },
         {
           "number": 8,
@@ -2647,7 +2707,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Después que Saúl regresó de su batalla con los filisteos, y como le dieran aviso de que David se había ido al desierto de Engadi,"
+          "text": "Después que Saúl regresó de su batalla con los filisteos, y como le dieran aviso de que David se había ido al desierto de Engadi,",
+          "headings": [
+            "David le perdona la vida a Saúl"
+          ]
         },
         {
           "number": 2,
@@ -2738,7 +2801,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Poco después murió Samuel. Todo Israel se reunió para su funeral y lo sepultaron en la propiedad de su familia en Ramá. Mientras tanto, David, descendió al desierto de Parán."
+          "text": "Poco después murió Samuel. Todo Israel se reunió para su funeral y lo sepultaron en la propiedad de su familia en Ramá. Mientras tanto, David, descendió al desierto de Parán.",
+          "headings": [
+            "David, Nabal y Abigaíl"
+          ]
         },
         {
           "number": 2,
@@ -2917,7 +2983,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los hombres de Zif volvieron ante Saúl en Guibeá y le informaron que David estaba escondido en la colina de Jaquilá al este del desierto."
+          "text": "Los hombres de Zif volvieron ante Saúl en Guibeá y le informaron que David estaba escondido en la colina de Jaquilá al este del desierto.",
+          "headings": [
+            "David le perdona la vida a Saúl"
+          ]
         },
         {
           "number": 2,
@@ -3016,7 +3085,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pero David se dijo: «Algún día Saúl me va a encontrar y me dará muerte, por lo tanto me iré a territorio de los filisteos hasta que Saúl deje de buscarme. Sólo así volveré a tener seguridad»."
+          "text": "Pero David se dijo: «Algún día Saúl me va a encontrar y me dará muerte, por lo tanto me iré a territorio de los filisteos hasta que Saúl deje de buscarme. Sólo así volveré a tener seguridad».",
+          "headings": [
+            "David entre los filisteos"
+          ]
         },
         {
           "number": 2,
@@ -3067,7 +3139,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "En aquellos días los filisteos reunieron sus ejércitos para guerrear contra Israel. ―Tú y tus hombres tienen que ayudarnos en la guerra —dijo a David el rey Aquis."
+          "text": "En aquellos días los filisteos reunieron sus ejércitos para guerrear contra Israel. ―Tú y tus hombres tienen que ayudarnos en la guerra —dijo a David el rey Aquis.",
+          "headings": [
+            "Saúl y la adivina de Endor"
+          ]
         },
         {
           "number": 2,
@@ -3179,7 +3254,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Los filisteos se reunieron en Afec, y los israelitas acamparon junto a la fuente de Jezrel."
+          "text": "Los filisteos se reunieron en Afec, y los israelitas acamparon junto a la fuente de Jezrel.",
+          "headings": [
+            "Los filisteos desconfían de David"
+          ]
         },
         {
           "number": 2,
@@ -3228,7 +3306,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Tres días más tarde, cuando David y sus hombres regresaron a Siclag, encontraron que los amalecitas habían invadido el sur, atacado la ciudad y la habían quemado completamente."
+          "text": "Tres días más tarde, cuando David y sus hombres regresaron a Siclag, encontraron que los amalecitas habían invadido el sur, atacado la ciudad y la habían quemado completamente.",
+          "headings": [
+            "David derrota a los amalecitas"
+          ]
         },
         {
           "number": 2,
@@ -3339,7 +3420,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Mientras tanto, los filisteos habían comenzado la batalla contra Israel, y los israelitas huyeron de ellos dejando muchos muertos sobre el monte Guilboa."
+          "text": "Mientras tanto, los filisteos habían comenzado la batalla contra Israel, y los israelitas huyeron de ellos dejando muchos muertos sobre el monte Guilboa.",
+          "headings": [
+            "Muerte de Saúl"
+          ]
         },
         {
           "number": 2,

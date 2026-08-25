@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pablo, un esclavo de Cristo Jesús, llamado apóstol apartado para las Buenas Noticias de Dios,"
+          "text": "Pablo, un esclavo de Cristo Jesús, llamado apóstol apartado para las Buenas Noticias de Dios,",
+          "headings": [
+            "Saludo"
+          ]
         },
         {
           "number": 2,
@@ -33,14 +36,14 @@
         },
         {
           "number": 7,
-          "text": "Me dirijo a todos los amados de Dios que están en Roma, llamados santos: Gracia a ustedes y paz de Dios nuestro Padre y del Señor Jesucristo.",
-          "headings": [
-            "Anhelo de Pablo"
-          ]
+          "text": "Me dirijo a todos los amados de Dios que están en Roma, llamados santos: Gracia a ustedes y paz de Dios nuestro Padre y del Señor Jesucristo."
         },
         {
           "number": 8,
-          "text": "Primero, doy gracias a mi Dios por medio de Jesucristo por todos ustedes, por cuanto en todo el mundo se habla bien de su fe."
+          "text": "Primero, doy gracias a mi Dios por medio de Jesucristo por todos ustedes, por cuanto en todo el mundo se habla bien de su fe.",
+          "headings": [
+            "Anhelo de Pablo"
+          ]
         },
         {
           "number": 9,
@@ -75,25 +78,25 @@
         },
         {
           "number": 15,
-          "text": "Así que estoy dispuesto a proclamar las Buenas Noticias también a ustedes en Roma.",
+          "text": "Así que estoy dispuesto a proclamar las Buenas Noticias también a ustedes en Roma."
+        },
+        {
+          "number": 16,
+          "text": "Porque no me avergüenzo de las Buenas Noticias, puesto que son poder de Dios para salvación a todo el que cree, primero al judío y luego al griego.",
           "headings": [
             "Las Buenas Noticias como poder de Dios"
           ]
         },
         {
-          "number": 16,
-          "text": "Porque no me avergüenzo de las Buenas Noticias, puesto que son poder de Dios para salvación a todo el que cree, primero al judío y luego al griego."
-        },
-        {
           "number": 17,
-          "text": "Pues en él se revela la justicia de Dios por fe y para fe, como está escrito: El justo vivirá por la fe .",
-          "headings": [
-            "Depravación de los humanos"
-          ]
+          "text": "Pues en él se revela la justicia de Dios por fe y para fe, como está escrito: El justo vivirá por la fe ."
         },
         {
           "number": 18,
-          "text": "La ira de Dios se revela desde el cielo contra toda impiedad e injusticia de los seres humanos que suprimen la verdad con injusticia."
+          "text": "La ira de Dios se revela desde el cielo contra toda impiedad e injusticia de los seres humanos que suprimen la verdad con injusticia.",
+          "headings": [
+            "Depravación de los humanos"
+          ]
         },
         {
           "number": 19,
@@ -158,7 +161,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por esta razón eres inexcusable, tú que juzgas, pues cuando juzgas a otro te condenas a ti mismo, porque lo mismo haces tú que juzgas."
+          "text": "Por esta razón eres inexcusable, tú que juzgas, pues cuando juzgas a otro te condenas a ti mismo, porque lo mismo haces tú que juzgas.",
+          "headings": [
+            "El juicio justo de Dios"
+          ]
         },
         {
           "number": 2,
@@ -198,14 +204,14 @@
         },
         {
           "number": 11,
-          "text": "pues ante Dios no hay acepción de personas.",
-          "headings": [
-            "Oidores y hacedores"
-          ]
+          "text": "pues ante Dios no hay acepción de personas."
         },
         {
           "number": 12,
-          "text": "Porque todos los que sin la Ley pecaron, sin la Ley también perecerán. Y todos los que bajo la Ley pecaron, por medio de la Ley serán juzgados."
+          "text": "Porque todos los que sin la Ley pecaron, sin la Ley también perecerán. Y todos los que bajo la Ley pecaron, por medio de la Ley serán juzgados.",
+          "headings": [
+            "Oidores y hacedores"
+          ]
         },
         {
           "number": 13,
@@ -221,14 +227,14 @@
         },
         {
           "number": 16,
-          "text": "Así sucederá el día cuando Dios juzgue los secretos de los hombres por medio de Cristo Jesús, según las Buenas Noticias que predico.",
-          "headings": [
-            "Transgresores de la Ley mosaica"
-          ]
+          "text": "Así sucederá el día cuando Dios juzgue los secretos de los hombres por medio de Cristo Jesús, según las Buenas Noticias que predico."
         },
         {
           "number": 17,
-          "text": "Pero si tú te llamas judío, te apoyas en la Ley y te enalteces en Dios,"
+          "text": "Pero si tú te llamas judío, te apoyas en la Ley y te enalteces en Dios,",
+          "headings": [
+            "Transgresores de la Ley mosaica"
+          ]
         },
         {
           "number": 18,
@@ -313,14 +319,14 @@
         },
         {
           "number": 8,
-          "text": "¿Y por qué no decir: Hagamos lo malo para que venga lo bueno? De esto se nos calumnia, y algunos afirman que nosotros decimos eso . La condenación de ellos es justa.",
-          "headings": [
-            "Delito y condenación"
-          ]
+          "text": "¿Y por qué no decir: Hagamos lo malo para que venga lo bueno? De esto se nos calumnia, y algunos afirman que nosotros decimos eso . La condenación de ellos es justa."
         },
         {
           "number": 9,
-          "text": "Entonces ¿qué diremos? ¿Somos superiores? ¡Claro que no! Porque ya denunciamos que todos, judíos y griegos, estamos bajo el dominio del pecado."
+          "text": "Entonces ¿qué diremos? ¿Somos superiores? ¡Claro que no! Porque ya denunciamos que todos, judíos y griegos, estamos bajo el dominio del pecado.",
+          "headings": [
+            "Delito y condenación"
+          ]
         },
         {
           "number": 10,
@@ -365,9 +371,6 @@
         {
           "number": 20,
           "text": "Porque nadie será declarado justo delante de Él por las obras de la Ley, pues por medio de la Ley reconocemos el pecado.",
-          "headings": [
-            "La justicia de Dios"
-          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -378,7 +381,10 @@
         },
         {
           "number": 21,
-          "text": "Pero ahora, aparte de la Ley, se manifestó la justicia de Dios, atestiguada por la Ley y los profetas,"
+          "text": "Pero ahora, aparte de la Ley, se manifestó la justicia de Dios, atestiguada por la Ley y los profetas,",
+          "headings": [
+            "La justicia de Dios"
+          ]
         },
         {
           "number": 22,
@@ -420,14 +426,14 @@
         },
         {
           "number": 28,
-          "text": "Concluimos, pues, que el hombre es declarado justo por la fe, sin las obras de la Ley.",
-          "headings": [
-            "El Dios de judíos y gentiles"
-          ]
+          "text": "Concluimos, pues, que el hombre es declarado justo por la fe, sin las obras de la Ley."
         },
         {
           "number": 29,
-          "text": "¿Es Dios solo de los judíos? ¿No es también de los gentiles? ¡Sí, también de los gentiles!"
+          "text": "¿Es Dios solo de los judíos? ¿No es también de los gentiles? ¡Sí, también de los gentiles!",
+          "headings": [
+            "El Dios de judíos y gentiles"
+          ]
         },
         {
           "number": 30,
@@ -444,7 +450,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces, ¿qué diremos que obtuvo Abraham, nuestro antepasado según la naturaleza humana?"
+          "text": "Entonces, ¿qué diremos que obtuvo Abraham, nuestro antepasado según la naturaleza humana?",
+          "headings": [
+            "Ejemplo de fe"
+          ]
         },
         {
           "number": 2,
@@ -472,14 +481,14 @@
         },
         {
           "number": 8,
-          "text": "Inmensamente feliz el varón de quien el Señor de ningún modo toma en cuenta el pecado.",
-          "headings": [
-            "La inmensa felicidad"
-          ]
+          "text": "Inmensamente feliz el varón de quien el Señor de ningún modo toma en cuenta el pecado."
         },
         {
           "number": 9,
-          "text": "¿Esta inmensa felicidad es para los circuncidados o también para los no circuncidados? Porque decimos: A Abraham se le contó la fe como justicia."
+          "text": "¿Esta inmensa felicidad es para los circuncidados o también para los no circuncidados? Porque decimos: A Abraham se le contó la fe como justicia.",
+          "headings": [
+            "La inmensa felicidad"
+          ]
         },
         {
           "number": 10,
@@ -491,14 +500,14 @@
         },
         {
           "number": 12,
-          "text": "Es padre de los circuncidados, y no solo de los circuncidados, sino también de los que siguen las pisadas de la fe cuando nuestro antepasado Abraham no estaba circuncidado.",
-          "headings": [
-            "Anticipación de la fe"
-          ]
+          "text": "Es padre de los circuncidados, y no solo de los circuncidados, sino también de los que siguen las pisadas de la fe cuando nuestro antepasado Abraham no estaba circuncidado."
         },
         {
           "number": 13,
-          "text": "Pues la promesa dada a Abraham y a su descendencia de que él sería heredero del mundo, no se dio por medio de la Ley, sino por medio de la justicia de la fe."
+          "text": "Pues la promesa dada a Abraham y a su descendencia de que él sería heredero del mundo, no se dio por medio de la Ley, sino por medio de la justicia de la fe.",
+          "headings": [
+            "Anticipación de la fe"
+          ]
         },
         {
           "number": 14,
@@ -555,7 +564,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por tanto, como somos declarados justos por la fe, tenemos paz con Dios por medio de nuestro Señor Jesucristo,"
+          "text": "Por tanto, como somos declarados justos por la fe, tenemos paz con Dios por medio de nuestro Señor Jesucristo,",
+          "headings": [
+            "La justificación del creyente"
+          ]
         },
         {
           "number": 2,
@@ -596,9 +608,6 @@
         {
           "number": 11,
           "text": "No solo esto , sino también celebramos a Dios a causa de nuestro Señor Jesucristo, por medio de Quien recibimos la reconciliación.",
-          "headings": [
-            "Superabundancia de la gracia"
-          ],
           "footnotes": [
             {
               "id": "FN1",
@@ -609,7 +618,10 @@
         },
         {
           "number": 12,
-          "text": "Por esto, como el pecado entró en el mundo por medio de un hombre, y la muerte por medio del pecado, así también la muerte pasó a todos los hombres, porque todos pecaron."
+          "text": "Por esto, como el pecado entró en el mundo por medio de un hombre, y la muerte por medio del pecado, así también la muerte pasó a todos los hombres, porque todos pecaron.",
+          "headings": [
+            "Superabundancia de la gracia"
+          ]
         },
         {
           "number": 13,
@@ -654,7 +666,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Entonces ¿qué diremos? ¿Permanezcamos en el pecado para que abunde la gracia?"
+          "text": "Entonces ¿qué diremos? ¿Permanezcamos en el pecado para que abunde la gracia?",
+          "headings": [
+            "Muerte y resurrección con Cristo"
+          ]
         },
         {
           "number": 2,
@@ -706,14 +721,14 @@
         },
         {
           "number": 14,
-          "text": "Porque el pecado no tendrá dominio sobre ustedes, pues no están bajo la Ley, sino bajo la gracia.",
-          "headings": [
-            "De quién somos esclavos"
-          ]
+          "text": "Porque el pecado no tendrá dominio sobre ustedes, pues no están bajo la Ley, sino bajo la gracia."
         },
         {
           "number": 15,
-          "text": "¿Entonces, qué diremos? ¿Pecaremos porque no estamos bajo la Ley, sino bajo la gracia? ¡Claro que no!"
+          "text": "¿Entonces, qué diremos? ¿Pecaremos porque no estamos bajo la Ley, sino bajo la gracia? ¡Claro que no!",
+          "headings": [
+            "De quién somos esclavos"
+          ]
         },
         {
           "number": 16,
@@ -761,7 +776,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Hablo a los que conocen la Ley. ¿No saben, hermanos, que la Ley domina al hombre mientras vive?"
+          "text": "Hablo a los que conocen la Ley. ¿No saben, hermanos, que la Ley domina al hombre mientras vive?",
+          "headings": [
+            "Nuestra liberación de la Ley"
+          ]
         },
         {
           "number": 2,
@@ -781,14 +799,14 @@
         },
         {
           "number": 6,
-          "text": "Pero ahora, después de morir a aquello en lo cual estábamos esclavizados, fuimos libertados de la Ley para que sirvamos en la vida nueva, la del espíritu, no al antiguo régimen de la letra.",
-          "headings": [
-            "Función de la Ley"
-          ]
+          "text": "Pero ahora, después de morir a aquello en lo cual estábamos esclavizados, fuimos libertados de la Ley para que sirvamos en la vida nueva, la del espíritu, no al antiguo régimen de la letra."
         },
         {
           "number": 7,
-          "text": "Entonces ¿qué diremos? ¿La Ley es pecado? ¡Claro que no! No conocí el pecado sino por medio de la Ley, porque ciertamente no conocería la codicia si la Ley no dijera: No codiciarás."
+          "text": "Entonces ¿qué diremos? ¿La Ley es pecado? ¡Claro que no! No conocí el pecado sino por medio de la Ley, porque ciertamente no conocería la codicia si la Ley no dijera: No codiciarás.",
+          "headings": [
+            "Función de la Ley"
+          ]
         },
         {
           "number": 8,
@@ -876,7 +894,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ahora, pues, ningún juicio hay para los que están en Cristo Jesús,"
+          "text": "Ahora, pues, ningún juicio hay para los que están en Cristo Jesús,",
+          "headings": [
+            "Los verdaderos hijos de Dios"
+          ]
         },
         {
           "number": 2,
@@ -961,14 +982,14 @@
         },
         {
           "number": 17,
-          "text": "Si hijos, también herederos: herederos de Dios y coherederos con Cristo, si sufrimos con Él, para que también seamos glorificados con Él.",
-          "headings": [
-            "La gloria que se manifestará"
-          ]
+          "text": "Si hijos, también herederos: herederos de Dios y coherederos con Cristo, si sufrimos con Él, para que también seamos glorificados con Él."
         },
         {
           "number": 18,
-          "text": "Considero que los sufrimientos actuales no merecen compararse con la gloria que se nos manifestará."
+          "text": "Considero que los sufrimientos actuales no merecen compararse con la gloria que se nos manifestará.",
+          "headings": [
+            "La gloria que se manifestará"
+          ]
         },
         {
           "number": 19,
@@ -1004,14 +1025,14 @@
         },
         {
           "number": 27,
-          "text": "El que escudriña los corazones sabe cuál es la aspiración del Espíritu, porque intercede por los santos según Dios.",
-          "headings": [
-            "Un plan perfecto de salvación"
-          ]
+          "text": "El que escudriña los corazones sabe cuál es la aspiración del Espíritu, porque intercede por los santos según Dios."
         },
         {
           "number": 28,
-          "text": "Sabemos que a los que aman a Dios, todas las cosas ayudan para lo bueno, a los que son llamados según su propósito."
+          "text": "Sabemos que a los que aman a Dios, todas las cosas ayudan para lo bueno, a los que son llamados según su propósito.",
+          "headings": [
+            "Un plan perfecto de salvación"
+          ]
         },
         {
           "number": 29,
@@ -1019,14 +1040,14 @@
         },
         {
           "number": 30,
-          "text": "A los que predestinó también llamó. A los que llamó también declaró justos. Y a los que declaró justos también glorificó.",
-          "headings": [
-            "Victoria completa"
-          ]
+          "text": "A los que predestinó también llamó. A los que llamó también declaró justos. Y a los que declaró justos también glorificó."
         },
         {
           "number": 31,
-          "text": "¿Qué diremos con respecto a esto? Si Dios está a favor de nosotros, ¿quién contra nosotros?"
+          "text": "¿Qué diremos con respecto a esto? Si Dios está a favor de nosotros, ¿quién contra nosotros?",
+          "headings": [
+            "Victoria completa"
+          ]
         },
         {
           "number": 32,
@@ -1067,7 +1088,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "No miento. Mi conciencia en el Espíritu Santo me confirma la verdad en Cristo:"
+          "text": "No miento. Mi conciencia en el Espíritu Santo me confirma la verdad en Cristo:",
+          "headings": [
+            "Lo relacionado con Israel"
+          ]
         },
         {
           "number": 2,
@@ -1083,14 +1107,14 @@
         },
         {
           "number": 5,
-          "text": "de quienes son los patriarcas, y de los cuales, según el cuerpo, es Cristo, Quien es Dios sobre todas las cosas, bendito por los siglos. Amén.",
-          "headings": [
-            "Fidelidad de Dios hacia los patriarcas"
-          ]
+          "text": "de quienes son los patriarcas, y de los cuales, según el cuerpo, es Cristo, Quien es Dios sobre todas las cosas, bendito por los siglos. Amén."
         },
         {
           "number": 6,
-          "text": "No digo que la Palabra de Dios falló, porque no todos los descendientes de Israel son israelitas,"
+          "text": "No digo que la Palabra de Dios falló, porque no todos los descendientes de Israel son israelitas,",
+          "headings": [
+            "Fidelidad de Dios hacia los patriarcas"
+          ]
         },
         {
           "number": 7,
@@ -1118,14 +1142,14 @@
         },
         {
           "number": 13,
-          "text": "Como está escrito: A Jacob amé y a Esaú aborrecí.",
-          "headings": [
-            "La soberanía de Dios"
-          ]
+          "text": "Como está escrito: A Jacob amé y a Esaú aborrecí."
         },
         {
           "number": 14,
-          "text": "¿Entonces qué diremos? ¿Dios es injusto? ¡Claro que no!"
+          "text": "¿Entonces qué diremos? ¿Dios es injusto? ¡Claro que no!",
+          "headings": [
+            "La soberanía de Dios"
+          ]
         },
         {
           "number": 15,
@@ -1185,14 +1209,14 @@
         },
         {
           "number": 29,
-          "text": "Como predijo Isaías: Si el Señor de las huestes no nos hubiera dejado descendencia, seríamos semejantes a Sodoma y Gomorra.",
-          "headings": [
-            "Dos clases de justicia"
-          ]
+          "text": "Como predijo Isaías: Si el Señor de las huestes no nos hubiera dejado descendencia, seríamos semejantes a Sodoma y Gomorra."
         },
         {
           "number": 30,
-          "text": "Entonces ¿qué diremos? ¿Que los gentiles, quienes no perseguían la justicia, lograron la que es por la fe?"
+          "text": "Entonces ¿qué diremos? ¿Que los gentiles, quienes no perseguían la justicia, lograron la que es por la fe?",
+          "headings": [
+            "Dos clases de justicia"
+          ]
         },
         {
           "number": 31,
@@ -1261,14 +1285,14 @@
         },
         {
           "number": 13,
-          "text": "Todo el que invoque el Nombre del Señor será salvo.",
-          "headings": [
-            "Un pueblo que no es pueblo"
-          ]
+          "text": "Todo el que invoque el Nombre del Señor será salvo."
         },
         {
           "number": 14,
-          "text": "¿Cómo, pues, invocarán a Aquél en Quien no creyeron? ¿Cómo creerán en Aquel de Quien no oyeron? ¿Cómo oirán si no hay quien les predique?"
+          "text": "¿Cómo, pues, invocarán a Aquél en Quien no creyeron? ¿Cómo creerán en Aquel de Quien no oyeron? ¿Cómo oirán si no hay quien les predique?",
+          "headings": [
+            "Un pueblo que no es pueblo"
+          ]
         },
         {
           "number": 15,
@@ -1305,7 +1329,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Pregunto: ¿Dios desechó a su pueblo? ¡Claro que no! También yo soy israelita, de la descendencia de Abraham, de la tribu de Benjamín."
+          "text": "Pregunto: ¿Dios desechó a su pueblo? ¡Claro que no! También yo soy israelita, de la descendencia de Abraham, de la tribu de Benjamín.",
+          "headings": [
+            "Un remanente"
+          ]
         },
         {
           "number": 2,
@@ -1341,14 +1368,14 @@
         },
         {
           "number": 10,
-          "text": "Que se oscurezcan sus ojos para que no vean, Y doble la espalda de ellos para siempre.",
-          "headings": [
-            "La riqueza de los gentiles"
-          ]
+          "text": "Que se oscurezcan sus ojos para que no vean, Y doble la espalda de ellos para siempre."
         },
         {
           "number": 11,
-          "text": "Pregunto: ¿Tropezaron para que cayeran? ¡Claro que no! Pero con su transgresión vino la salvación a los gentiles para provocarlos a celos."
+          "text": "Pregunto: ¿Tropezaron para que cayeran? ¡Claro que no! Pero con su transgresión vino la salvación a los gentiles para provocarlos a celos.",
+          "headings": [
+            "La riqueza de los gentiles"
+          ]
         },
         {
           "number": 12,
@@ -1439,14 +1466,14 @@
         },
         {
           "number": 32,
-          "text": "Porque Dios encerró a todos en desobediencia para tener misericordia de todos.",
-          "headings": [
-            "La sabiduría de Dios"
-          ]
+          "text": "Porque Dios encerró a todos en desobediencia para tener misericordia de todos."
         },
         {
           "number": 33,
-          "text": "¡Oh profundidad de la riqueza, de la sabiduría y del conocimiento de Dios! ¡Cuán inalcanzables son sus juicios e inescrutables sus caminos!"
+          "text": "¡Oh profundidad de la riqueza, de la sabiduría y del conocimiento de Dios! ¡Cuán inalcanzables son sus juicios e inescrutables sus caminos!",
+          "headings": [
+            "La sabiduría de Dios"
+          ]
         },
         {
           "number": 34,
@@ -1467,18 +1494,21 @@
       "verses": [
         {
           "number": 1,
-          "text": "Por tanto, hermanos, los exhorto por las misericordias de Dios a que presenten sus cuerpos como sacrificio vivo, santo, agradable a Dios, lo cual es su adoración racional."
-        },
-        {
-          "number": 2,
-          "text": "No sean moldeados por este mundo, sino sean transformados por la renovación de la mente, para que comprueben la voluntad de Dios, la cual es buena, aceptable y perfecta.",
+          "text": "Por tanto, hermanos, los exhorto por las misericordias de Dios a que presenten sus cuerpos como sacrificio vivo, santo, agradable a Dios, lo cual es su adoración racional.",
           "headings": [
-            "Dones del Espíritu"
+            "Renovación de la mente"
           ]
         },
         {
+          "number": 2,
+          "text": "No sean moldeados por este mundo, sino sean transformados por la renovación de la mente, para que comprueben la voluntad de Dios, la cual es buena, aceptable y perfecta."
+        },
+        {
           "number": 3,
-          "text": "Por la gracia que se me dio, digo a cada uno de ustedes que no tenga más alto concepto de él mismo que el que debe tener, sino que piense con buen juicio, según la medida de fe que Dios asignó a cada uno."
+          "text": "Por la gracia que se me dio, digo a cada uno de ustedes que no tenga más alto concepto de él mismo que el que debe tener, sino que piense con buen juicio, según la medida de fe que Dios asignó a cada uno.",
+          "headings": [
+            "Dones del Espíritu"
+          ]
         },
         {
           "number": 4,
@@ -1498,14 +1528,14 @@
         },
         {
           "number": 8,
-          "text": "el que exhorta, en la exhortación; el que da, con liberalidad; el que dirige, con diligencia; el que practica misericordia, con alegría.",
-          "headings": [
-            "Distintivos del cristiano"
-          ]
+          "text": "el que exhorta, en la exhortación; el que da, con liberalidad; el que dirige, con diligencia; el que practica misericordia, con alegría."
         },
         {
           "number": 9,
-          "text": "El amor sea sin hipocresía, aborrezcan lo malo, apéguense a lo bueno."
+          "text": "El amor sea sin hipocresía, aborrezcan lo malo, apéguense a lo bueno.",
+          "headings": [
+            "Distintivos del cristiano"
+          ]
         },
         {
           "number": 10,
@@ -1562,7 +1592,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Sométase toda persona a las autoridades que gobiernan, porque no hay autoridad sino de Dios. Las que existen son establecidas por Dios."
+          "text": "Sométase toda persona a las autoridades que gobiernan, porque no hay autoridad sino de Dios. Las que existen son establecidas por Dios.",
+          "headings": [
+            "El cristiano frente al gobierno"
+          ]
         },
         {
           "number": 2,
@@ -1630,7 +1663,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Reciban al débil en la fe, pero no para enjuiciar sus opiniones."
+          "text": "Reciban al débil en la fe, pero no para enjuiciar sus opiniones.",
+          "headings": [
+            "El cuidado para los débiles"
+          ]
         },
         {
           "number": 2,
@@ -1747,14 +1783,14 @@
         },
         {
           "number": 6,
-          "text": "para que unánimes a una voz glorifiquen al Dios y Padre de nuestro Señor Jesucristo.",
-          "headings": [
-            "Cristo y los gentiles"
-          ]
+          "text": "para que unánimes a una voz glorifiquen al Dios y Padre de nuestro Señor Jesucristo."
         },
         {
           "number": 7,
-          "text": "Por tanto acéptense unos a otros, como también Cristo nos aceptó para la gloria de Dios."
+          "text": "Por tanto acéptense unos a otros, como también Cristo nos aceptó para la gloria de Dios.",
+          "headings": [
+            "Cristo y los gentiles"
+          ]
         },
         {
           "number": 8,
@@ -1814,14 +1850,14 @@
         },
         {
           "number": 22,
-          "text": "Por lo cual también no pude ir a visitarlos muchas veces.",
-          "headings": [
-            "Proyecto para Roma y España"
-          ]
+          "text": "Por lo cual también no pude ir a visitarlos muchas veces."
         },
         {
           "number": 23,
-          "text": "Pero ahora, como no queda otro lugar para mí en estas regiones, y desde hace muchos años anhelo visitarlos,"
+          "text": "Pero ahora, como no queda otro lugar para mí en estas regiones, y desde hace muchos años anhelo visitarlos,",
+          "headings": [
+            "Proyecto para Roma y España"
+          ]
         },
         {
           "number": 24,
@@ -1870,7 +1906,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Ahora les recomiendo a nuestra hermana Febe, diaconisa de la iglesia de Cencrea,"
+          "text": "Ahora les recomiendo a nuestra hermana Febe, diaconisa de la iglesia de Cencrea,",
+          "headings": [
+            "Saludos y despedida"
+          ]
         },
         {
           "number": 2,
@@ -1930,14 +1969,14 @@
         },
         {
           "number": 16,
-          "text": "Salúdense los unos a los otros con un beso santo. Saludan todas las iglesias de Cristo.",
-          "headings": [
-            "Instrucciones finales"
-          ]
+          "text": "Salúdense los unos a los otros con un beso santo. Saludan todas las iglesias de Cristo."
         },
         {
           "number": 17,
-          "text": "Les ruego, hermanos, que pongan atención a los que causan disensiones y tropiezos contra la doctrina que ustedes aprendieron. Apártense de ellos."
+          "text": "Les ruego, hermanos, que pongan atención a los que causan disensiones y tropiezos contra la doctrina que ustedes aprendieron. Apártense de ellos.",
+          "headings": [
+            "Instrucciones finales"
+          ]
         },
         {
           "number": 18,
@@ -1949,14 +1988,14 @@
         },
         {
           "number": 20,
-          "text": "El Dios de paz aplastará pronto a Satanás debajo de los pies de ustedes. La gracia de nuestro Señor Jesús sea con ustedes.",
-          "headings": [
-            "Posdata"
-          ]
+          "text": "El Dios de paz aplastará pronto a Satanás debajo de los pies de ustedes. La gracia de nuestro Señor Jesús sea con ustedes."
         },
         {
           "number": 21,
-          "text": "Timoteo, mi colaborador, Lucio, Jasón y Sosípater, mis parientes, los saludan."
+          "text": "Timoteo, mi colaborador, Lucio, Jasón y Sosípater, mis parientes, los saludan.",
+          "headings": [
+            "Posdata"
+          ]
         },
         {
           "number": 22,
@@ -1968,14 +2007,14 @@
         },
         {
           "number": 24,
-          "text": "]]",
-          "headings": [
-            "Doxología"
-          ]
+          "text": "]]"
         },
         {
           "number": 25,
-          "text": "Al que puede establecerlos según las Buenas Noticias y la proclamación de Jesucristo, según la revelación del misterio guardado en secreto desde tiempos eternos,"
+          "text": "Al que puede establecerlos según las Buenas Noticias y la proclamación de Jesucristo, según la revelación del misterio guardado en secreto desde tiempos eternos,",
+          "headings": [
+            "Doxología"
+          ]
         },
         {
           "number": 26,

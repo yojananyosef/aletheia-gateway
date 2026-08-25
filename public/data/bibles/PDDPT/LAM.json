@@ -9,7 +9,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Cómo quedó asolada la ciudad populosa! La grande entre las naciones es como una viuda. La señora de las provincias es tributaria."
+          "text": "¡Cómo quedó asolada la ciudad populosa! La grande entre las naciones es como una viuda. La señora de las provincias es tributaria.",
+          "headings": [
+            "Angustias de Sion"
+          ]
         },
         {
           "number": 2,
@@ -102,7 +105,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Cómo cubrió de nubes ʼAdonay en su ira a la hija de Sion! Lanzó del cielo a la tierra el esplendor de Israel. El día de su ira no se acordó del estrado de sus pies."
+          "text": "¡Cómo cubrió de nubes ʼAdonay en su ira a la hija de Sion! Lanzó del cielo a la tierra el esplendor de Israel. El día de su ira no se acordó del estrado de sus pies.",
+          "headings": [
+            "Juicio de Yavé contra Sion"
+          ]
         },
         {
           "number": 2,
@@ -195,7 +201,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Yo soy el hombre que fue afligido Con la vara de su furor."
+          "text": "Yo soy el hombre que fue afligido Con la vara de su furor.",
+          "headings": [
+            "Lamento del afligido"
+          ]
         },
         {
           "number": 2,
@@ -464,7 +473,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "¡Cómo se ennegreció el oro! ¡Cómo se alteró el oro puro! ¡En la esquina de toda calle Están tiradas las piedras del Santuario!"
+          "text": "¡Cómo se ennegreció el oro! ¡Cómo se alteró el oro puro! ¡En la esquina de toda calle Están tiradas las piedras del Santuario!",
+          "headings": [
+            "Sufrimientos a causa del sitio"
+          ]
         },
         {
           "number": 2,
@@ -557,7 +569,10 @@
       "verses": [
         {
           "number": 1,
-          "text": "Acuérdate, oh Yavé , de lo que nos sucedió. Ve y mira nuestro oprobio."
+          "text": "Acuérdate, oh Yavé , de lo que nos sucedió. Ve y mira nuestro oprobio.",
+          "headings": [
+            "Plegaria de Jeremías por su pueblo"
+          ]
         },
         {
           "number": 2,
