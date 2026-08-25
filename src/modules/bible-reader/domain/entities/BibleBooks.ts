@@ -45,6 +45,7 @@ export const BIBLE_BOOKS_OT: BibleBookInfo[] = [
   { code: 'HAB', name: 'Habacuc', testament: 'AT', chaptersCount: 3, category: 'Profetas Menores', aliases: ['hab', 'habacuc', 'hb'] },
   { code: 'ZEP', name: 'Sofonías', testament: 'AT', chaptersCount: 3, category: 'Profetas Menores', aliases: ['zep', 'sofonias', 'sof'] },
   { code: 'HAG', name: 'Hageo', testament: 'AT', chaptersCount: 2, category: 'Profetas Menores', aliases: ['hag', 'hageo', 'hag'] },
+  { code: 'ZEC', name: 'Zacarías', testament: 'AT', chaptersCount: 14, category: 'Profetas Menores', aliases: ['zec', 'zacarias', 'zac'] },
   { code: 'MAL', name: 'Malaquías', testament: 'AT', chaptersCount: 4, category: 'Profetas Menores', aliases: ['mal', 'malaquias', 'mal'] },
   // Deuterocanónicos (presentes en traducciones como SpaPlatense)
   { code: 'TOB', name: 'Tobías', testament: 'AT', chaptersCount: 14, category: 'Deuterocanónicos', aliases: ['tob', 'tobias', 'tobit', 'tb'] },

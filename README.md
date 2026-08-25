@@ -148,6 +148,15 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.6.2] - 2026-08-25
+#### Añadido: Reina Valera Gómez & Corrección de Zacarías
+- 📖 **Integración de Reina Valera Gómez (2010)** (`SpaRVG` / `RVG`):
+  - Ingesta y conversión completa de los 66 libros canónicos (1,189 capítulos, 31,102 versículos) desde el módulo Sword LZSS (`modules/texts/ztext/sparvg/`) a JSON optimizado en `public/data/bibles/SpaRVG/`.
+  - Implementación de descompresor ultra-rápido de LZSS en `scripts/convert-sparvg.py` con caché de buffers en memoria.
+  - Registro de metadatos y disponibilidad inmediata en los selectores paralelos del lector.
+- 🐛 **Corrección del Libro de Zacarías (`ZEC`)**:
+  - Restaurada la entrada del libro de **Zacarías** (`code: 'ZEC'`, 14 capítulos, categoría *Profetas Menores*) en `BibleBooks.ts`, resolviendo su visibilidad en el modal de selección de libros bíblicos y en las búsquedas.
+
 ### [0.6.1] - 2026-08-23
 #### Corregido & Mejorado: Soporte Completo de Versículos Agrupados y Rangos Bíblicos
 - 📖 **Corrección en Parser y Generación de Versiones JSON**:

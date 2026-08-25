@@ -6,7 +6,8 @@ export type TranslationId =
   | 'ONBV'
   | 'BLL'
   | 'BLM'
-  | 'SpaPlatense';
+  | 'SpaPlatense'
+  | 'SpaRVG';
 
 export interface TranslationInfo {
   id: TranslationId;
@@ -90,6 +91,15 @@ export const AVAILABLE_TRANSLATIONS: Record<TranslationId, TranslationInfo> = {
     description: 'Traducción comentada de Mons. Juan Straubinger con abundantes notas exegéticas.',
     copyright: 'Dominio Público',
     hasDeuterocanonical: true,
+  },
+  SpaRVG: {
+    id: 'SpaRVG',
+    name: 'Reina Valera Gómez (2010)',
+    shortName: 'RVG',
+    language: 'es',
+    description: 'Revisión hispana fiel al Texto Recibido por el Dr. Humberto Gómez Caballero.',
+    copyright: 'Creative Commons Atribución-NoComercial-SinDerivadas (CC BY-NC-ND 4.0)',
+    hasDeuterocanonical: false,
   },
 };
 
