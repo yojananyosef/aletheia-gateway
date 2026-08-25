@@ -148,6 +148,14 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.6.3] - 2026-08-25
+#### Corregido & Mejorado: Extracción y Asociación Precisa de Encabezados de Sección
+- 🏷️ **Asociación de Títulos de Sección en `convert-bibles.ts`**:
+  - Corrección del extractor de marcado HTML para capturar adecuadamente los encabezados de inicio de capítulo y asociar los encabezados intermedios al versículo de apertura de sección.
+  - **PDDPT**: Regenerados todos sus libros activando más de 1,110 títulos de sección temáticos.
+  - **BLL, BLM, VBL y ONBV**: Preservación y sincronización de títulos de sección y encabezados canónicos en los Salmos.
+  - **manifest.json**: Sincronización completa y persistencia de las 9 versiones bíblicas soportadas.
+
 ### [0.6.2] - 2026-08-25
 #### Añadido: Reina Valera Gómez & Corrección de Zacarías
 - 📖 **Integración de Reina Valera Gómez (2010)** (`SpaRVG` / `RVG`):
