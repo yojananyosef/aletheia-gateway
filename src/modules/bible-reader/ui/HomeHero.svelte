@@ -59,7 +59,8 @@
       onclick={onOpenBookModal}
     >
       <BookOpen size={16} />
-      <span>Lista de libros bíblicos</span>
+      <span class="hidden sm:inline">Lista de libros bíblicos</span>
+      <span class="sm:hidden">Libros bíblicos</span>
       <ChevronDown size={14} />
     </button>
 

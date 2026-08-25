@@ -33,6 +33,7 @@
 
   let selectedBook = $state<string>(currentBook || 'Génesis');
   let filterText = $state<string>('');
+  let mobileTab = $state<'ot' | 'nt' | 'chapters'>('ot');
 
   // Update selected book when modal opens, currentBook changes, or canon changes
   $effect(() => {
@@ -69,6 +70,7 @@
 
   function handleSelectBook(book: BibleBookInfo) {
     selectedBook = book.name;
+    mobileTab = 'chapters';
   }
 
   function handleSelectChapter(chapterNum: number) {
@@ -94,13 +96,13 @@
       <!-- Modal Header -->
       <div class="book-modal-header">
         <div class="flex items-center gap-2">
-          <BookOpen size={20} class="text-black" />
-          <h2 id="book-modal-title" class="font-display font-extrabold text-lg uppercase tracking-tight">
-            Lista de Libros Bíblicos
+          <BookOpen size={20} class="text-black shrink-0" />
+          <h2 id="book-modal-title" class="font-display font-extrabold text-base sm:text-lg uppercase tracking-tight truncate">
+            Lista de Libros
           </h2>
         </div>
 
-        <div class="flex items-center gap-3">
+        <div class="flex items-center gap-2 sm:gap-3">
           <div class="book-search-input">
             <Search size={14} class="text-black shrink-0" />
             <input
@@ -134,10 +136,43 @@
         </div>
       </div>
 
+      <!-- Mobile/Tablet Segmented Tabs (Visible <= 960px) -->
+      <div class="book-modal-mobile-tabs" role="tablist">
+        <button
+          type="button"
+          role="tab"
+          aria-selected={mobileTab === 'ot'}
+          class="mobile-tab-btn {mobileTab === 'ot' ? 'is-active' : ''}"
+          onclick={() => (mobileTab = 'ot')}
+        >
+          <span>Antiguo T.</span>
+          <span class="mobile-tab-badge">{filteredOT.length}</span>
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={mobileTab === 'nt'}
+          class="mobile-tab-btn {mobileTab === 'nt' ? 'is-active' : ''}"
+          onclick={() => (mobileTab = 'nt')}
+        >
+          <span>Nuevo T.</span>
+          <span class="mobile-tab-badge">{filteredNT.length}</span>
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={mobileTab === 'chapters'}
+          class="mobile-tab-btn {mobileTab === 'chapters' ? 'is-active' : ''}"
+          onclick={() => (mobileTab = 'chapters')}
+        >
+          <span class="truncate">Capítulos ({bookInfo.name})</span>
+        </button>
+      </div>
+
       <!-- 3 Columns Content: OT | NT | Chapters -->
-      <div class="book-modal-grid">
+      <div class="book-modal-grid active-tab-{mobileTab}">
         <!-- Columna 1: Antiguo Testamento -->
-        <div class="book-column">
+        <div class="book-column col-ot">
           <div class="column-title">
             <span>Antiguo Testamento</span>
             <span class="count-badge">{filteredOT.length}</span>
@@ -150,16 +185,14 @@
                 onclick={() => handleSelectBook(book)}
               >
                 <span>{book.name}</span>
-                {#if selectedBook === book.name}
-                  <ChevronRight size={15} class="shrink-0 text-black" />
-                {/if}
+                <ChevronRight size={15} class="shrink-0 text-black opacity-60" />
               </button>
             {/each}
           </div>
         </div>
 
         <!-- Columna 2: Nuevo Testamento -->
-        <div class="book-column">
+        <div class="book-column col-nt">
           <div class="column-title">
             <span>Nuevo Testamento</span>
             <span class="count-badge">{filteredNT.length}</span>
@@ -172,23 +205,30 @@
                 onclick={() => handleSelectBook(book)}
               >
                 <span>{book.name}</span>
-                {#if selectedBook === book.name}
-                  <ChevronRight size={15} class="shrink-0 text-black" />
-                {/if}
+                <ChevronRight size={15} class="shrink-0 text-black opacity-60" />
               </button>
             {/each}
           </div>
         </div>
 
         <!-- Columna 3: Capítulos del Libro Seleccionado -->
-        <div class="chapters-column">
+        <div class="chapters-column col-chapters">
           <div class="column-title">
             <span class="truncate">{bookInfo.name}</span>
             <span class="count-badge">{bookInfo.chaptersCount} cap.</span>
           </div>
 
           <div class="chapters-scroll">
-            <span class="chapters-hint">Selecciona un capítulo:</span>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="chapters-hint">Selecciona un capítulo:</span>
+              <button
+                type="button"
+                class="mobile-back-to-books-btn"
+                onclick={() => (mobileTab = 'ot')}
+              >
+                ← Cambiar libro
+              </button>
+            </div>
             <div class="chapters-grid">
               {#each chaptersList as chapterNum}
                 <button

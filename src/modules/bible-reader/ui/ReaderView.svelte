@@ -208,7 +208,8 @@
             onclick={() => (isBookModalOpen = true)}
           >
             <BookOpen size={16} />
-            <span>Lista de libros bíblicos</span>
+            <span class="hidden sm:inline">Lista de libros bíblicos</span>
+            <span class="sm:hidden">Libros</span>
             <ChevronDown size={14} />
           </button>
 
@@ -220,7 +221,8 @@
             onclick={onAddParallelColumn}
           >
             <CopyPlus size={16} />
-            <span>Agregar paralelo</span>
+            <span class="hidden sm:inline">Agregar paralelo</span>
+            <span class="sm:hidden">+ Paralelo</span>
             <span class="parallel-count-badge">({selectedTranslations.length}/5)</span>
           </button>
         </div>

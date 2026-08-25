@@ -2001,6 +2001,68 @@ mark.bible-highlight-green {
   box-shadow: 0 0 0 #000;
 }
 
+.book-modal-mobile-tabs {
+  display: none;
+  border-bottom: 2px solid var(--border-color);
+  background-color: var(--bg-canvas);
+  flex-shrink: 0;
+}
+
+.mobile-tab-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 42px;
+  padding: 8px 10px;
+  border: 0;
+  border-right: 1px solid var(--border-color);
+  background-color: transparent;
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background-color 0.08s ease;
+}
+
+.mobile-tab-btn:last-child {
+  border-right: 0;
+}
+
+.mobile-tab-btn.is-active {
+  background-color: var(--accent-interest);
+  color: var(--text-main);
+  box-shadow: inset 0 -3px 0 var(--border-color);
+}
+
+.mobile-tab-badge {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  padding: 0 4px;
+}
+
+.mobile-back-to-books-btn {
+  display: none;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--text-main);
+  background-color: var(--accent-attention);
+  border: 1px solid var(--border-color);
+  padding: 3px 8px;
+  cursor: pointer;
+}
+
+.mobile-back-to-books-btn:hover {
+  background-color: var(--accent-interest);
+}
+
 /* ==========================================================================
    RESPONSIVIDAD Y MEDIA QUERIES
    ========================================================================== */
@@ -2017,7 +2079,7 @@ mark.bible-highlight-green {
     gap: 16px;
   }
   .hero-orbit {
-    margin-top: 0;
+    display: none;
   }
   .reader-card-wrapper .floating-nav-btn,
   .reader-card .floating-nav-btn {
@@ -2026,14 +2088,46 @@ mark.bible-highlight-green {
   .toolbar-chapter-nav {
     display: flex !important;
   }
-  .book-modal-grid {
-    grid-template-columns: 1fr;
-    height: 440px;
-    overflow-y: auto;
+  .book-modal-dialog {
+    width: min(96vw, 700px);
+    max-height: 88vh;
   }
-  .book-column {
+  .book-modal-mobile-tabs {
+    display: flex;
+  }
+  .mobile-back-to-books-btn {
+    display: inline-flex;
+  }
+  .book-modal-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 480px;
+    overflow: hidden;
+  }
+  .book-modal-grid .book-column,
+  .book-modal-grid .chapters-column {
+    display: none;
+    flex: 1;
+    height: 100%;
     border-right: 0;
-    border-bottom: var(--border-main);
+    border-bottom: 0;
+  }
+  .book-modal-grid.active-tab-ot .col-ot {
+    display: flex;
+  }
+  .book-modal-grid.active-tab-nt .col-nt {
+    display: flex;
+  }
+  .book-modal-grid.active-tab-chapters .col-chapters {
+    display: flex;
+  }
+  .chapters-grid {
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr)) !important;
+    gap: 8px !important;
+  }
+  .chapter-grid-btn {
+    min-height: 44px !important;
+    font-size: 1rem !important;
   }
 }
 
@@ -2130,6 +2224,21 @@ mark.bible-highlight-green {
   }
 }
 
+/* --- REGLAS DE TABLET (641px - 1024px) --- */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .passage-list-parallel {
+    display: grid !important;
+    grid-template-columns: repeat(var(--version-count, 1), minmax(280px, 1fr)) !important;
+    overflow-x: auto !important;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  .passage-list-parallel .translation-block {
+    scroll-snap-align: start;
+    min-width: 280px !important;
+  }
+}
+
 @media (max-width: 640px) {
   /* Apilamiento vertical adaptativo para móviles (evita compresión de 5 columnas) */
   .passage-list-parallel {
@@ -2163,7 +2272,63 @@ mark.bible-highlight-green {
     flex: 1 1 auto;
     justify-content: center;
     font-size: 0.75rem;
-    padding: 4px 8px;
+    padding: 6px 10px;
+    min-height: 40px;
+  }
+
+  .toolbar-nav-btn {
+    min-width: 40px;
+    height: 40px;
+  }
+
+  .saved-verses-dialog,
+  .personal-note-dialog {
+    width: min(96vw, 100%) !important;
+    max-height: 90vh !important;
+  }
+
+  .saved-verse-card {
+    padding: 12px !important;
+  }
+
+  .saved-verses-header {
+    padding: 10px 14px !important;
+  }
+
+  .personal-note-header {
+    padding: 10px 14px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-form button {
+    padding: 0 14px !important;
+    font-size: 0.8125rem !important;
+  }
+
+  .search-input-wrapper {
+    padding: 0 4px 0 8px !important;
+  }
+
+  .search-input-wrapper input {
+    font-size: 0.875rem !important;
+  }
+
+  .daily-verse-card {
+    padding: 18px 14px !important;
+  }
+
+  .daily-verse-actions {
+    width: 100%;
+  }
+
+  .daily-verse-action-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .app-topbar {
+    padding: 0 12px !important;
   }
 }
 
