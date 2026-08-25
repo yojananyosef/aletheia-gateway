@@ -1470,32 +1470,44 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   background-color: var(--accent-interest);
 }
 
-/* Botón "Leer el capítulo completo" estilo BibleGateway */
+/* Botón "Leer el capítulo completo" estilo Neobrutalista */
 .read-full-chapter-box {
-  margin-top: 8px;
+  margin-top: 14px;
   margin-bottom: 12px;
 }
 
+.read-full-chapter-btn,
 .read-full-chapter-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+  min-height: 34px;
+  padding: 5px 12px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
   font-family: var(--font-body);
   font-size: 0.8125rem;
-  font-weight: 700;
-  color: var(--text-main);
-  background: transparent;
-  border: none;
-  padding: 4px 0;
+  font-weight: 800;
+  box-shadow: 2px 2px 0 var(--border-color);
   cursor: pointer;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  transition: all 0.08s ease;
+  text-decoration: none;
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out, background-color 0.08s ease-in-out;
 }
 
+.read-full-chapter-btn:hover,
 .read-full-chapter-link:hover {
-  color: var(--accent-interest);
-  transform: translateX(2px);
+  background-color: var(--accent-attention);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--border-color);
+  color: var(--text-main);
+}
+
+.read-full-chapter-btn:active,
+.read-full-chapter-link:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 #000;
 }
 
 /* Sección de Notas al Pie al final de la columna */
@@ -1512,7 +1524,7 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--text-muted);
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .column-footnotes-list {
@@ -1521,58 +1533,82 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
 }
 
 .column-footnote-row {
   display: flex;
-  align-items: baseline;
-  gap: 6px;
+  align-items: center;
+  gap: 8px;
   font-family: var(--font-body);
-  font-size: 0.75rem;
+  font-size: 0.78125rem;
   line-height: 1.45;
-  color: var(--text-muted);
+  color: var(--text-main);
   background-color: var(--bg-canvas);
-  border-left: 3px solid var(--accent-interest);
-  padding: 4px 8px;
+  border: 1px solid rgba(26, 26, 24, 0.15);
+  border-left: 3.5px solid var(--accent-interest);
+  padding: 6px 10px;
   scroll-margin-top: 80px;
 }
 
 .column-footnote-row .fn-marker {
   font-weight: 900;
   color: var(--text-main);
+  font-size: 0.875rem;
   flex-shrink: 0;
 }
 
+.column-footnote-row .fn-ref-badge,
 .column-footnote-row .fn-ref {
-  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--accent-interest);
   color: var(--text-main);
+  border: 1.5px solid var(--border-color);
+  padding: 1px 6px;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  box-shadow: 1px 1px 0 var(--border-color);
   flex-shrink: 0;
+  line-height: 1.2;
 }
 
 .column-footnote-row .fn-text {
   flex: 1;
+  color: var(--text-main);
+  font-weight: 500;
 }
 
 .column-footnote-row .fn-backlink-btn {
   display: inline-flex;
   align-items: center;
-  gap: 3px;
-  background: transparent;
-  border: 1px solid rgba(26, 26, 24, 0.2);
-  color: var(--text-muted);
-  font-size: 0.6875rem;
-  font-weight: 700;
-  padding: 2px 6px;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  background-color: var(--bg-surface);
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  color: var(--text-main);
+  box-shadow: 1.5px 1.5px 0 var(--border-color);
   cursor: pointer;
   flex-shrink: 0;
-  transition: all 0.08s ease;
+  padding: 0;
+  margin-left: auto;
+  transition: transform 0.08s ease, box-shadow 0.08s ease, background-color 0.08s ease;
 }
 
 .column-footnote-row .fn-backlink-btn:hover {
   background-color: var(--accent-attention);
+  transform: translate(-1px, -1px);
+  box-shadow: 2.5px 2.5px 0 var(--border-color);
   color: var(--text-main);
-  border-color: var(--border-color);
+}
+
+.column-footnote-row .fn-backlink-btn:active {
+  transform: translate(1.5px, 1.5px);
+  box-shadow: 0 0 0 #000;
 }
 
 /* Animación de destello al trasladarse a la nota o versículo */

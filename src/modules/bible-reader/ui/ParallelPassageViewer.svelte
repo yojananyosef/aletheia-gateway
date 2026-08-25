@@ -1,11 +1,12 @@
 <script lang="ts">
-  import { X, ArrowRight, ArrowUp, FileText } from 'lucide-svelte';
+  import { X, ArrowRight, ArrowUp, FileText, BookOpen } from 'lucide-svelte';
   import type { PassageVersionResult, SectionFootnote } from '../domain/entities/Chapter';
   import type { TranslationId } from '../domain/entities/Translation';
   import type { FontSizeOption } from './FontSizeSelector.svelte';
   import type { BibleHighlight } from '../domain/entities/BibleHighlight';
   import type { PersonalNote } from '../../notes/domain/Note';
   import type { Verse } from '../domain/entities/Verse';
+  import { findBookInfo } from '../domain/entities/BibleBooks';
   import ColumnVersionDropdown from './ColumnVersionDropdown.svelte';
 
   interface Props {
@@ -314,16 +315,17 @@
               {/each}
             </div>
 
-            <!-- "Read Full Chapter" link -->
+            <!-- "Read Full Chapter" Neobrutalist Button -->
             {#if section.isPartial}
               <div class="read-full-chapter-box">
                 <button
                   type="button"
-                  class="read-full-chapter-link"
+                  class="read-full-chapter-btn"
                   data-tooltip="Leer el capítulo completo ({section.fullChapterRef})"
                   onclick={() => onSelectPassage(section.fullChapterRef)}
                 >
-                  <span>Leer el capítulo completo</span>
+                  <BookOpen size={14} />
+                  <span>Leer capítulo completo</span>
                   <ArrowRight size={13} />
                 </button>
               </div>
@@ -339,18 +341,19 @@
           <ul class="column-footnotes-list">
             {#each columnFootnotes as fn}
               {@const verseTargetId = `verse-${passage.translationId}-${fn.book}-${fn.chapter}-${fn.verseNum}`}
+              {@const bookCode = findBookInfo(fn.book)?.code || fn.book}
               <li id={fn.anchorId} class="column-footnote-row">
                 <span class="fn-marker">{fn.caller}</span>
-                <span class="fn-ref">{fn.book} {fn.chapter}:{fn.verseNum}</span>
+                <span class="fn-ref-badge">{bookCode} {fn.chapter}:{fn.verseNum}</span>
                 <span class="fn-text">{fn.text}</span>
                 <button
                   type="button"
                   class="fn-backlink-btn"
+                  aria-label="Volver al versículo {fn.verseNum}"
                   data-tooltip="Volver al versículo {fn.verseNum}"
                   onclick={(e) => handleScrollToVerse(e, verseTargetId)}
                 >
-                  <ArrowUp size={11} />
-                  <span>Volver</span>
+                  <ArrowUp size={13} strokeWidth={2.5} />
                 </button>
               </li>
             {/each}

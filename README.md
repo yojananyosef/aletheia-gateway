@@ -148,6 +148,15 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.6.4] - 2026-08-25
+#### Mejorado: Estilo Neobrutalista en Lector de Capítulos y Sección de Notas al Pie
+- 🔘 **Botón Neobrutalista "Leer Capítulo Completo"**:
+  - Sustituido el enlace simple subrayado por un botón neobrutalista con borde marcado de 2px, sombra dura (`2px 2px 0 #000`), iconos `BookOpen` y `ArrowRight`, y respuesta de interacción física al hover/active.
+- 🏷️ **Badge Abreviado en Notas al Pie (`GEN 1:1`)**:
+  - En lugar de repetir el nombre completo del libro en texto plano, las notas ahora utilizan un badge monoespaciado (`[GEN 1:1]`, `[JHN 3:16]`) idéntico a las etiquetas de versión.
+- ⬆️ **Botón "Volver" Neobrutalista de Solo Flecha**:
+  - Rediseñado el botón de retorno de las notas a un botón cuadrado con icono `ArrowUp` de 2.5px de grosor, borde y sombra neobrutalista.
+
 ### [0.6.3] - 2026-08-25
 #### Corregido & Mejorado: Extracción y Asociación Precisa de Encabezados de Sección
 - 🏷️ **Asociación de Títulos de Sección en `convert-bibles.ts`**:
