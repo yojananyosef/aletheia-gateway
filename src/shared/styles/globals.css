@@ -144,6 +144,10 @@ button {
   user-select: none;
 }
 
+button svg, a svg {
+  pointer-events: none;
+}
+
 a {
   color: var(--text-main);
   font-weight: 700;
@@ -1364,16 +1368,18 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
 .column-close-btn {
   display: grid;
   place-items: center;
-  width: 20px;
-  height: 20px;
-  border: 1px solid var(--border-color);
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  border: 1.5px solid var(--border-color);
   border-radius: 0;
   background-color: var(--bg-surface);
   color: var(--text-main);
-  box-shadow: 1px 1px 0 var(--border-color);
+  box-shadow: 1.5px 1.5px 0 var(--border-color);
   cursor: pointer;
   flex-shrink: 0;
-  transition: all 0.08s ease;
+  transition: transform 0.08s ease, background 0.08s ease, box-shadow 0.08s ease;
   padding: 0;
 }
 
@@ -1381,11 +1387,12 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   background-color: var(--accent-error);
   color: #fff;
   transform: translate(-1px, -1px);
+  box-shadow: 2px 2px 0 var(--border-color);
 }
 
 .column-close-btn:active {
-  transform: translate(2px, 2px);
-  box-shadow: 0 0 0 #000;
+  transform: translate(1px, 1px);
+  box-shadow: 0 0 0 var(--border-color);
 }
 
 .verses-content {

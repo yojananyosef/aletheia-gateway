@@ -9,36 +9,41 @@
   let tooltipEl = $state<HTMLDivElement | null>(null);
 
   function updatePosition(el: HTMLElement) {
-    if (!el) return;
+    if (!el || !document.body.contains(el)) {
+      visible = false;
+      currentTarget = null;
+      return;
+    }
     const rect = el.getBoundingClientRect();
+    if (rect.width === 0 && rect.height === 0) return;
+
     const prefersBottom = el.getAttribute('data-tooltip-pos') === 'bottom';
 
-    // Measure rendered dimensions of the tooltip
-    const tipWidth = tooltipEl ? tooltipEl.offsetWidth : 160;
+    // Measure rendered dimensions of the tooltip or approximate
+    const tipWidth = tooltipEl ? tooltipEl.offsetWidth : 140;
     const tipHeight = tooltipEl ? tooltipEl.offsetHeight : 28;
 
     // Center horizontally over target element
     const targetCenterX = rect.left + rect.width / 2;
     const rawX = targetCenterX - tipWidth / 2;
 
-    // Clamp horizontally so it NEVER overflows the left (min 10px) or right (max window.innerWidth - tipWidth - 10px)
-    const maxX = Math.max(10, window.innerWidth - tipWidth - 10);
-    tooltipX = Math.max(10, Math.min(maxX, rawX));
+    // Clamp horizontally so it NEVER overflows viewport
+    const maxX = Math.max(8, window.innerWidth - tipWidth - 8);
+    tooltipX = Math.max(8, Math.min(maxX, rawX));
 
     // Vertical placement
-    const canFitTop = rect.top >= tipHeight + 12;
+    const canFitTop = rect.top >= tipHeight + 10;
     const useBottom = prefersBottom || !canFitTop;
 
     if (useBottom) {
-      const bottomY = rect.bottom + 8;
-      // If bottom also overflows screen, clamp to bottom margin
-      if (bottomY + tipHeight > window.innerHeight - 10 && canFitTop) {
-        tooltipY = Math.max(8, rect.top - tipHeight - 8);
+      const bottomY = rect.bottom + 6;
+      if (bottomY + tipHeight > window.innerHeight - 8 && canFitTop) {
+        tooltipY = Math.max(6, rect.top - tipHeight - 6);
       } else {
-        tooltipY = Math.min(window.innerHeight - tipHeight - 8, bottomY);
+        tooltipY = Math.min(window.innerHeight - tipHeight - 6, bottomY);
       }
     } else {
-      tooltipY = Math.max(8, rect.top - tipHeight - 8);
+      tooltipY = Math.max(6, rect.top - tipHeight - 6);
     }
   }
 
@@ -52,9 +57,15 @@
       return;
     }
 
+    // If pointer is moving between child elements of the same active target, do nothing
+    if (target === currentTarget && visible) {
+      return;
+    }
+
     const text = target.getAttribute('data-tooltip')?.trim();
     if (!text) {
       visible = false;
+      currentTarget = null;
       return;
     }
 
@@ -65,23 +76,36 @@
 
     content = text;
     currentTarget = target;
+    // Calculate initial position before mount to avoid 0,0 frame flash
+    updatePosition(target);
     visible = true;
 
     // Wait for Svelte DOM render, then measure and position accurately
     await tick();
-    requestAnimationFrame(() => {
-      if (currentTarget) {
-        updatePosition(currentTarget);
-      }
-    });
+    if (currentTarget === target) {
+      updatePosition(target);
+    }
   }
 
   function handlePointerOut(e: Event) {
-    const target = (e.target as HTMLElement)?.closest?.('[data-tooltip]') as HTMLElement | null;
-    if (target && target === currentTarget) {
-      visible = false;
-      currentTarget = null;
+    if (!currentTarget) return;
+
+    const pe = e as PointerEvent;
+    const related = pe.relatedTarget as Node | null;
+
+    // If the pointer is still inside the current target element or moving to a child element, DO NOT hide!
+    if (related && currentTarget.contains(related)) {
+      return;
     }
+
+    visible = false;
+    currentTarget = null;
+  }
+
+  function handlePointerDown() {
+    // Dismiss tooltip immediately when the user clicks or presses down on any button or element
+    visible = false;
+    currentTarget = null;
   }
 
   function handleScrollOrResize() {
@@ -93,8 +117,9 @@
   onMount(() => {
     document.addEventListener('pointerover', handlePointerOver, { passive: true });
     document.addEventListener('pointerout', handlePointerOut, { passive: true });
+    document.addEventListener('pointerdown', handlePointerDown, { passive: true });
     document.addEventListener('focusin', handlePointerOver, { passive: true });
-    document.addEventListener('focusout', handlePointerOut, { passive: true });
+    document.addEventListener('focusout', handlePointerDown, { passive: true });
     window.addEventListener('scroll', handleScrollOrResize, { passive: true });
     window.addEventListener('resize', handleScrollOrResize, { passive: true });
   });
@@ -103,8 +128,9 @@
     if (typeof document !== 'undefined') {
       document.removeEventListener('pointerover', handlePointerOver);
       document.removeEventListener('pointerout', handlePointerOut);
+      document.removeEventListener('pointerdown', handlePointerDown);
       document.removeEventListener('focusin', handlePointerOver);
-      document.removeEventListener('focusout', handlePointerOut);
+      document.removeEventListener('focusout', handlePointerDown);
       window.removeEventListener('scroll', handleScrollOrResize);
       window.removeEventListener('resize', handleScrollOrResize);
     }

@@ -68,7 +68,7 @@
         <span class="version-menu-count">({allTranslations.length})</span>
       </div>
       <div class="version-options-list">
-        {#each allTranslations as t}
+        {#each allTranslations as t (t.id)}
           <button
             type="button"
             role="option"
