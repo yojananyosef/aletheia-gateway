@@ -230,7 +230,7 @@
         </div>
 
         <div class="toolbar-right-group">
-          <!-- Compact Mobile/Tablet Chapter Navigation Controls -->
+          <!-- Chapter Navigation Controls in Toolbar (Universal for Desktop & Mobile) -->
           <div class="toolbar-chapter-nav">
             <button
               type="button"
@@ -240,6 +240,7 @@
               onclick={onPrevChapter}
             >
               <ChevronLeft size={16} />
+              <span class="hidden sm:inline font-mono text-xs font-bold ml-1">Ant.</span>
             </button>
             <button
               type="button"
@@ -248,6 +249,7 @@
               aria-label="Siguiente capítulo"
               onclick={onNextChapter}
             >
+              <span class="hidden sm:inline font-mono text-xs font-bold mr-1">Sig.</span>
               <ChevronRight size={16} />
             </button>
           </div>
@@ -270,6 +272,33 @@
         {onSelectPassage}
         onOpenNoteModal={handleOpenNoteModal}
       />
+
+      <!-- Reader Bottom Chapter Navigation Bar -->
+      <footer class="reader-bottom-nav">
+        <button
+          type="button"
+          class="reader-bottom-nav-btn"
+          data-tooltip="Capítulo anterior ({currentBook} {Math.max(1, currentChapter - 1)})"
+          onclick={onPrevChapter}
+        >
+          <ChevronLeft size={18} />
+          <span>Capítulo anterior</span>
+        </button>
+
+        <span class="reader-bottom-nav-current">
+          {currentBook} {currentChapter}
+        </span>
+
+        <button
+          type="button"
+          class="reader-bottom-nav-btn"
+          data-tooltip="Siguiente capítulo ({currentBook} {currentChapter + 1})"
+          onclick={onNextChapter}
+        >
+          <span>Siguiente capítulo</span>
+          <ChevronRight size={18} />
+        </button>
+      </footer>
     </section>
   </div>
 
