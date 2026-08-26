@@ -40,6 +40,16 @@
       translations: allTranslations.filter((t) => t.language === 'en' || t.language === 'enm'),
     },
     {
+      key: 'pt',
+      label: 'Português',
+      translations: allTranslations.filter((t) => t.language === 'pt'),
+    },
+    {
+      key: 'la',
+      label: 'Latina (Vulgata)',
+      translations: allTranslations.filter((t) => t.language === 'la'),
+    },
+    {
       key: 'grc',
       label: 'Griego (LXX / NT Koiné)',
       translations: allTranslations.filter((t) => t.language === 'grc'),

@@ -208,6 +208,32 @@
     "chaptersCount": 1345
   },
   {
+    "id": "PorAlmeida1911",
+    "name": "João Ferreira de Almeida (1911)",
+    "shortName": "ALMEIDA",
+    "description": "Tradução histórica clássica de referência em língua portuguesa.",
+    "language": "pt",
+    "languageName": "Português",
+    "flag": "",
+    "direction": "ltr",
+    "copyright": "Dominio Público",
+    "booksCount": 66,
+    "chaptersCount": 1189
+  },
+  {
+    "id": "Vulgate",
+    "name": "Biblia Sacra Vulgata Latina",
+    "shortName": "VULGATA",
+    "description": "Traducción monumental en latín eclesiástico de San Jerónimo con libros deuterocanónicos.",
+    "language": "la",
+    "languageName": "Latina (Vulgata)",
+    "flag": "",
+    "direction": "ltr",
+    "copyright": "Dominio Público",
+    "booksCount": 78,
+    "chaptersCount": 1362
+  },
+  {
     "id": "GerBoLut",
     "name": "Luther Bibel 1545 (Rechtschreibung)",
     "shortName": "LUT",

@@ -17,6 +17,10 @@ export type TranslationId =
   | 'Noyes'
   | 'Tyndale'
   | 'Wycliffe'
+  // Portugués (1)
+  | 'PorAlmeida1911'
+  // Latín (1)
+  | 'Vulgate'
   // Alemán (1)
   | 'GerBoLut'
   // Griego Antiguo y Koiné (2)
@@ -214,6 +218,32 @@ export const AVAILABLE_TRANSLATIONS: Record<TranslationId, TranslationInfo> = {
     languageName: 'Middle English',
     direction: 'ltr',
     description: 'Primera traducción monumental de la Vulgata al inglés medieval.',
+    copyright: 'Dominio Público',
+    hasDeuterocanonical: true,
+  },
+
+  // === PORTUGUÉS ===
+  PorAlmeida1911: {
+    id: 'PorAlmeida1911',
+    name: 'João Ferreira de Almeida (1911)',
+    shortName: 'ALMEIDA',
+    language: 'pt',
+    languageName: 'Português',
+    direction: 'ltr',
+    description: 'Tradução histórica clássica de referência em língua portuguesa.',
+    copyright: 'Dominio Público',
+    hasDeuterocanonical: false,
+  },
+
+  // === LATÍN ===
+  Vulgate: {
+    id: 'Vulgate',
+    name: 'Biblia Sacra Vulgata Latina',
+    shortName: 'VULGATA',
+    language: 'la',
+    languageName: 'Latina (Vulgata)',
+    direction: 'ltr',
+    description: 'Traducción monumental en latín eclesiástico de San Jerónimo con libros deuterocanónicos.',
     copyright: 'Dominio Público',
     hasDeuterocanonical: true,
   },

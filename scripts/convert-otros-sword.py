@@ -257,6 +257,26 @@ MODULES_CONFIG = [
         "copyright": "Dominio Público / Académico",
         "dir": "WLC",
         "modKey": "WLC"
+    },
+    {
+        "id": "PorAlmeida1911",
+        "name": "João Ferreira de Almeida (1911)",
+        "shortName": "ALMEIDA",
+        "language": "pt",
+        "description": "Tradução histórica clássica de referência em língua portuguesa.",
+        "copyright": "Dominio Público",
+        "dir": "PorAlmeida1911",
+        "modKey": "PorAlmeida1911"
+    },
+    {
+        "id": "Vulgate",
+        "name": "Biblia Sacra Vulgata Latina",
+        "shortName": "VULGATA",
+        "language": "la",
+        "description": "Traducción monumental en latín eclesiástico de San Jerónimo con libros deuterocanónicos.",
+        "copyright": "Dominio Público",
+        "dir": "Vulgate",
+        "modKey": "Vulgate"
     }
 ]
 

@@ -149,6 +149,16 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.9.0] - 2026-08-26
+#### Añadido: Ingesta de João Ferreira de Almeida (Portugués) y Vulgata Latina (San Jerónimo)
+- 🇵🇹 **João Ferreira de Almeida (1911)** (`PorAlmeida1911` / `ALMEIDA`):
+  - Ingesta y conversión completa de los 66 libros canónicos (1,189 capítulos, 31,101 versículos) desde el módulo Sword.
+- 🏛️ **Biblia Sacra Vulgata Latina** (`Vulgate` / `VULGATA`):
+  - Ingesta completa de los 78 libros de la tradición latina eclesiástica (1,362 capítulos, 37,248 versículos) incluyendo la totalidad de libros deuterocanónicos.
+- 🗂️ **Ampliación del Catálogo a 22 Versiones**:
+  - Incorporación de las secciones *Português* y *Latina (Vulgata)* en el selector de traducción `ColumnVersionDropdown.svelte`.
+  - Depuración completa de etiquetas de banderas para garantizar visualización tipográfica óptima en Windows y entornos de escritorio.
+
 ### [0.8.0] - 2026-08-26
 #### Añadido: Integración de 11 Versiones Multilingües (Inglés, Griego, Hebreo y Alemán)
 - 🌍 **Ingesta Completa de 11 Versiones Académicas e Históricas Sword**:

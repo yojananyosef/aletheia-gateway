@@ -1,0 +1,73 @@
+{
+  "versionId": "Vulgate",
+  "bookCode": "MAN",
+  "bookName": "Oración de Manasés",
+  "testament": "AT",
+  "chapters": {
+    "1": {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Domine Deus omnipotens patrum nostrorum, Abraham, Isaac et Iacob et semini eorum iusto,"
+        },
+        {
+          "number": 2,
+          "text": "qui fecisti caelum et terram cum omni ornatu eorum,"
+        },
+        {
+          "number": 3,
+          "text": "qui signasti mare verbo praecepti tui, qui conclusisti abyssum et signasti terribili et laudabili nomini tuo,"
+        },
+        {
+          "number": 4,
+          "text": "quod omnes pavent et tremunt a vultu virtutis tuae."
+        },
+        {
+          "number": 5,
+          "text": "et insustentabilis ira super peccatores comminationis tuae,"
+        },
+        {
+          "number": 6,
+          "text": "inmensa vero et investigabilis misericordia promissionis tuae,"
+        },
+        {
+          "number": 7,
+          "text": "quoniam tu es Dominus altissimus super omnem terram, longanimis et multum misericors et paenitens super malitias hominum. tu autem Domine, secundum bonitatem tuam promisisti paenitentiam remissionis peccatorum,"
+        },
+        {
+          "number": 8,
+          "text": "et tu Deus iustorum, non posuisti paenitentiam iustis Abraham, Isaac et Iacob, his qui tibi non peccaverunt."
+        },
+        {
+          "number": 9,
+          "text": "quoniam peccavi super numerum harenae maris, multiplicatae sunt iniquitates meae."
+        },
+        {
+          "number": 10,
+          "text": "incurvatus sum multo vinculo ferri et non est respiratio mihi, quia excitavi iracundiam tuam et malum coram te feci, statuens abominationes et multiplicans offensiones."
+        },
+        {
+          "number": 11,
+          "text": "et nunc flecto genua cordis mei, precans ad te bonitatem, Domine."
+        },
+        {
+          "number": 12,
+          "text": "peccavi Domine, peccavi et iniquitatem meam agnosco."
+        },
+        {
+          "number": 13,
+          "text": "peto rogans te Domine remitte mihi, remitte mihi, ne simul perdas me cum iniquitatibus meis neque in aeternum reserves mala mihi,"
+        },
+        {
+          "number": 14,
+          "text": "quia indignum salvabis me secundum magnam misericordiam tuam."
+        },
+        {
+          "number": 15,
+          "text": "et laudabo te semper omnibus diebus vitae meae quoniam te laudat omnis virtus caelorum et tibi est gloria in saecula saeculorum, amen."
+        }
+      ]
+    }
+  }
+}
