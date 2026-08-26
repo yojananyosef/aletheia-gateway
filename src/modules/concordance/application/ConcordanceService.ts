@@ -1,4 +1,4 @@
-﻿import type { TranslationId } from '../../bible-reader/domain/entities/Translation';
+import type { TranslationId } from '../../bible-reader/domain/entities/Translation';
 import {
   parseConcordanceQuery,
   type ParsedConcordanceQuery,
@@ -21,6 +21,10 @@ type RawVerseTuple = [
   'AT' | 'NT', // 6: testament
   string  // 7: category
 ];
+
+function escapeRegex(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
 
 export class ConcordanceService {
   private static cache = new Map<TranslationId, RawVerseTuple[]>();
@@ -81,6 +85,17 @@ export class ConcordanceService {
       };
     }
 
+    // Pre-compile word-boundary regular expressions for instant execution
+    const requiredMatchers = parsed.requiredWords.map(
+      (w) => new RegExp(`(^|\\s)${escapeRegex(w)}(?:es|s)?(\\s|$)`, 'i')
+    );
+    const exactMatchers = parsed.exactPhrases.map(
+      (p) => new RegExp(`(^|\\s)${escapeRegex(p)}(\\s|$)`, 'i')
+    );
+    const excludedMatchers = parsed.excludedWords.map(
+      (w) => new RegExp(`(^|\\s)${escapeRegex(w)}(?:es|s)?(\\s|$)`, 'i')
+    );
+
     const allMatches: ConcordanceVerseMatch[] = [];
     const facets: ConcordanceFacets = {
       total: 0,
@@ -93,11 +108,37 @@ export class ConcordanceService {
       const v = verses[i];
       const normText = v[5];
 
-      if (!this.matchesCriteria(normText, parsed)) {
-        continue;
+      // 1. Excluded words check (NOT)
+      let excluded = false;
+      for (let j = 0; j < excludedMatchers.length; j++) {
+        if (excludedMatchers[j].test(normText)) {
+          excluded = true;
+          break;
+        }
       }
+      if (excluded) continue;
 
-      // Found a match
+      // 2. Exact phrases check
+      let exactFailed = false;
+      for (let j = 0; j < exactMatchers.length; j++) {
+        if (!exactMatchers[j].test(normText)) {
+          exactFailed = true;
+          break;
+        }
+      }
+      if (exactFailed) continue;
+
+      // 3. Required words check (AND) with word boundaries
+      let requiredFailed = false;
+      for (let j = 0; j < requiredMatchers.length; j++) {
+        if (!requiredMatchers[j].test(normText)) {
+          requiredFailed = true;
+          break;
+        }
+      }
+      if (requiredFailed) continue;
+
+      // Found a valid match
       facets.total++;
       const testament = v[6];
       if (testament === 'AT') facets.otCount++;

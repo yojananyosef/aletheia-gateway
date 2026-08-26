@@ -172,8 +172,7 @@
     const tokens = [...parsed.exactPhrases, ...parsed.requiredWords];
     if (tokens.length === 0) return escapeHtml(rawText);
 
-    // Create a regex that matches any of the tokens (case & accent insensitive)
-    // Build normalized matching positions
+    // Find matching intervals on normalized text using word boundaries
     const normText = rawText
       .toLowerCase()
       .normalize('NFD')
@@ -181,12 +180,25 @@
 
     const intervals: Array<{ start: number; end: number }> = [];
 
-    for (const token of tokens) {
-      if (!token) continue;
-      let pos = 0;
-      while ((pos = normText.indexOf(token, pos)) !== -1) {
-        intervals.push({ start: pos, end: pos + token.length });
-        pos += token.length;
+    function escapeRegex(s: string): string {
+      return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    for (const phrase of parsed.exactPhrases) {
+      if (!phrase) continue;
+      const regex = new RegExp(`\\b${escapeRegex(phrase)}\\b`, 'gi');
+      let m: RegExpExecArray | null;
+      while ((m = regex.exec(normText)) !== null) {
+        intervals.push({ start: m.index, end: m.index + m[0].length });
+      }
+    }
+
+    for (const word of parsed.requiredWords) {
+      if (!word) continue;
+      const regex = new RegExp(`\\b${escapeRegex(word)}(?:es|s)?\\b`, 'gi');
+      let m: RegExpExecArray | null;
+      while ((m = regex.exec(normText)) !== null) {
+        intervals.push({ start: m.index, end: m.index + m[0].length });
       }
     }
 
