@@ -35,7 +35,7 @@
   let homeQuery = $state('');
   let readerQuery = $state('Génesis 1:1');
   let activeQuery = $state('Génesis 1:1');
-  let concordanceQuery = $state('amor fe');
+  let concordanceQuery = $state('');
   let selectedTranslations = $state<TranslationId[]>(['RV1909']);
   let isBookmarked = $state(false);
   let bookmarkCount = $state(0);

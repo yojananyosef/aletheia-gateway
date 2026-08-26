@@ -1,4 +1,4 @@
-﻿<script lang="ts">
+<script lang="ts">
   import { onMount, untrack } from 'svelte';
   import {
     Search,
@@ -16,6 +16,7 @@
     AVAILABLE_TRANSLATIONS,
     type TranslationId,
   } from '../../bible-reader/domain/entities/Translation';
+  import ColumnVersionDropdown from '../../bible-reader/ui/ColumnVersionDropdown.svelte';
   import { ConcordanceService } from '../application/ConcordanceService';
   import {
     POPULAR_BIBLICAL_TOPICS,
@@ -34,7 +35,7 @@
   }
 
   let {
-    initialQuery = 'amor fe',
+    initialQuery = '',
     initialTranslation = 'RV1909',
     onSelectPassage,
   }: Props = $props();
@@ -250,20 +251,12 @@
         </h1>
       </div>
 
-      <!-- Version Selector Pill -->
-      <div class="flex items-center gap-2">
-        <label for="concordance-version-select" class="text-xs font-mono font-bold text-[var(--text-muted)] uppercase hidden sm:inline">
-          Versión:
-        </label>
-        <select
-          id="concordance-version-select"
-          class="concordance-version-select"
-          bind:value={activeTranslation}
-        >
-          {#each allTranslations as t}
-            <option value={t.id}>{t.shortName} - {t.name}</option>
-          {/each}
-        </select>
+      <!-- Custom Neobrutalist Version Selector Dropdown -->
+      <div class="concordance-version-dropdown-wrapper">
+        <ColumnVersionDropdown
+          currentId={activeTranslation}
+          onSelect={(newId) => (activeTranslation = newId)}
+        />
       </div>
     </div>
 

@@ -2393,19 +2393,9 @@ mark.bible-highlight-green {
   box-shadow: 2px 2px 0 var(--border-color);
 }
 
-.concordance-version-select {
-  height: 34px;
-  padding: 0 10px;
-  border: 2px solid var(--border-color);
-  border-radius: 0;
-  background-color: #fff;
-  color: var(--text-main);
-  font-family: var(--font-mono);
-  font-size: 0.8125rem;
-  font-weight: 700;
-  box-shadow: 2px 2px 0 var(--border-color);
-  cursor: pointer;
-  outline: none;
+.concordance-version-dropdown-wrapper {
+  width: clamp(180px, 25vw, 280px);
+  position: relative;
 }
 
 .concordance-search-form {
