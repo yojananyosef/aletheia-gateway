@@ -25,7 +25,6 @@
   interface LanguageGroup {
     key: string;
     label: string;
-    flag: string;
     translations: TranslationInfo[];
   }
 
@@ -33,31 +32,26 @@
     {
       key: 'es',
       label: 'Español',
-      flag: '🇪🇸',
       translations: allTranslations.filter((t) => t.language === 'es'),
     },
     {
       key: 'en',
       label: 'English / Early English',
-      flag: '🇬🇧',
       translations: allTranslations.filter((t) => t.language === 'en' || t.language === 'enm'),
     },
     {
       key: 'grc',
       label: 'Griego (LXX / NT Koiné)',
-      flag: '🇬🇷',
       translations: allTranslations.filter((t) => t.language === 'grc'),
     },
     {
       key: 'hbo',
       label: 'Hebreo Bíblico (WLC)',
-      flag: '🇮🇱',
       translations: allTranslations.filter((t) => t.language === 'hbo'),
     },
     {
       key: 'de',
       label: 'Deutsch',
-      flag: '🇩🇪',
       translations: allTranslations.filter((t) => t.language === 'de'),
     },
   ];
@@ -93,7 +87,7 @@
     data-tooltip="Cambiar versión para esta columna ({currentTranslation.name})"
     onclick={() => (isOpen = !isOpen)}
   >
-    <span class="version-tag">{currentTranslation.flag || ''} {currentTranslation.shortName}</span>
+    <span class="version-tag">{currentTranslation.shortName}</span>
     <span class="version-name">{currentTranslation.name}</span>
     <ChevronDown size={14} class="version-chevron shrink-0 transition-transform {isOpen ? 'rotate-180' : ''}" />
   </button>
@@ -112,7 +106,7 @@
         {#each languageGroups as group}
           {#if group.translations.length > 0}
             <div class="version-group-header">
-              <span>{group.flag} {group.label}</span>
+              <span>{group.label}</span>
               <span class="version-group-count">{group.translations.length}</span>
             </div>
             {#each group.translations as t (t.id)}

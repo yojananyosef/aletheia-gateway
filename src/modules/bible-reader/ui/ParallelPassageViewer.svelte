@@ -211,10 +211,9 @@
     <article
       class="translation-block {isRtl ? 'is-rtl' : ''}"
       data-lang={langCode}
-      dir={isRtl ? 'rtl' : 'ltr'}
     >
-      <!-- Column Header: Passage Reference + Close X on top, Full-Width Version Selector below -->
-      <div class="column-top-header">
+      <!-- Column Header: Passage Reference + Close X on top, Full-Width Version Selector below (Always LTR) -->
+      <div class="column-top-header" dir="ltr">
         <div class="column-title-row">
           <span class="column-ref-label truncate">{passage.reference}</span>
 
@@ -240,7 +239,7 @@
       </div>
 
       <!-- Vertically Stacked Passage Sections -->
-      <div class="verses-content">
+      <div class="verses-content" dir={isRtl ? 'rtl' : 'ltr'}>
         {#each sections as section, secIndex}
           <div class="passage-section-card {secIndex > 0 ? 'mt-6 pt-5 border-t-2 border-dashed border-[#1a1a18]/20' : ''}">
             
