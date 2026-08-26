@@ -2,7 +2,7 @@
   import { PanelLeft, PanelLeftClose, Menu, X, Sparkles } from 'lucide-svelte';
 
   interface Props {
-    view: 'home' | 'reader';
+    view: 'home' | 'reader' | 'concordance';
     isCollapsed: boolean;
     menuOpen: boolean;
     isCalmMode: boolean;
@@ -46,7 +46,9 @@
   </button>
 
   <div class="topbar-rule"></div>
-  <span class="topbar-title">{view === 'home' ? 'Inicio' : 'Lectura bíblica'}</span>
+  <span class="topbar-title">
+    {view === 'home' ? 'Inicio' : view === 'concordance' ? 'Concordancia' : 'Lectura bíblica'}
+  </span>
 
   <div class="topbar-actions">
     <button

@@ -66,6 +66,34 @@ export class PassageReference {
     };
   }
 
+  public static isReference(input: string): boolean {
+    const clean = input.trim().replace(/\s+/g, ' ');
+    if (!clean) return false;
+
+    const rawParts = clean.split(';').map((p) => p.trim()).filter((p) => p.length > 0);
+    if (rawParts.length === 0) return false;
+
+    for (const part of rawParts) {
+      // Pattern A: Book + Chapter (:Verses)
+      const bookWithChapterRegex = /^((?:[1-3]\s*)?[A-Za-zÁÉÍÓÚáéíóúÑñ]+(?:\s+[A-Za-zÁÉÍÓÚáéíóúÑñ]+)*)\s+(\d+)(?::\s*([\d\s,-]+))?$/i;
+      const matchA = part.match(bookWithChapterRegex);
+      if (matchA) {
+        const bookCandidate = matchA[1].trim();
+        const bookInfo = findBookInfo(bookCandidate);
+        if (bookInfo) return true;
+      }
+
+      // Pattern B: Chapter only / chapter:verse (numbers)
+      const chapterOnlyRegex = /^(\d+)(?::\s*([\d\s,-]+))?$/;
+      if (chapterOnlyRegex.test(part)) return true;
+
+      // Pattern C: Exact or alias book name only
+      if (findBookInfo(part)) return true;
+    }
+
+    return false;
+  }
+
   public static parseMulti(input: string): ParsedPassageSegment[] {
     const raw = input.trim();
     if (!raw) {

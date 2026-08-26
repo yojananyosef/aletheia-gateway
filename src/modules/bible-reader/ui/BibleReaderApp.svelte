@@ -6,6 +6,7 @@
   import ReaderView from './ReaderView.svelte';
   import BookChapterSelectorModal from './BookChapterSelectorModal.svelte';
   import SavedVersesModal from '../../bookmarks/ui/SavedVersesModal.svelte';
+  import ConcordanceView from '../../concordance/ui/ConcordanceView.svelte';
 
   import {
     AVAILABLE_TRANSLATIONS,
@@ -30,10 +31,11 @@
   const compareTranslationsUseCase = new CompareTranslationsUseCase(bibleRepository);
 
   // Svelte 5 Runes state
-  let view = $state<'home' | 'reader'>('home');
+  let view = $state<'home' | 'reader' | 'concordance'>('home');
   let homeQuery = $state('');
   let readerQuery = $state('Génesis 1:1');
   let activeQuery = $state('Génesis 1:1');
+  let concordanceQuery = $state('amor fe');
   let selectedTranslations = $state<TranslationId[]>(['RV1909']);
   let isBookmarked = $state(false);
   let bookmarkCount = $state(0);
@@ -129,20 +131,34 @@
 
   function handleHomeSearch(event?: Event) {
     if (event) event.preventDefault();
-    const targetQuery = homeQuery.trim() || activeQuery || 'Génesis 1:1';
-    activeQuery = targetQuery;
-    readerQuery = targetQuery;
-    homeQuery = ''; // Keep home search bar clean for subsequent searches
-    saveActivePassage(targetQuery);
-    view = 'reader';
+    const targetQuery = homeQuery.trim();
+    if (!targetQuery) return;
+
+    homeQuery = ''; // Keep home search bar clean
+
+    if (PassageReference.isReference(targetQuery)) {
+      activeQuery = targetQuery;
+      readerQuery = targetQuery;
+      saveActivePassage(targetQuery);
+      view = 'reader';
+    } else {
+      concordanceQuery = targetQuery;
+      view = 'concordance';
+    }
   }
 
   function handleReaderSearch(event?: Event) {
     if (event) event.preventDefault();
-    const targetQuery = readerQuery.trim() || activeQuery || 'Génesis 1:1';
-    activeQuery = targetQuery;
-    readerQuery = targetQuery;
-    saveActivePassage(targetQuery);
+    const targetQuery = readerQuery.trim();
+    if (!targetQuery) return;
+
+    if (PassageReference.isReference(targetQuery)) {
+      activeQuery = targetQuery;
+      saveActivePassage(targetQuery);
+    } else {
+      concordanceQuery = targetQuery;
+      view = 'concordance';
+    }
   }
 
   function handleGoToReader(nextQuery = 'Génesis 1:1') {
@@ -154,7 +170,7 @@
     isSavedVersesModalOpen = false;
   }
 
-  function handleNavigate(nextView: 'home' | 'reader') {
+  function handleNavigate(nextView: 'home' | 'reader' | 'concordance') {
     view = nextView;
     if (nextView === 'reader') {
       readerQuery = activeQuery;
@@ -191,55 +207,44 @@
   }
 
   function handlePrevChapter() {
-    const ref = new PassageReference(activeQuery);
-    const primary = ref.primarySegment;
-    const books = getAllBooks(supportsDeuterocanonical(selectedTranslations));
-    const bookInfo = findBookInfo(primary.bookCode) || findBookInfo(primary.book) || books[0];
+    const p = passages[0];
+    if (!p) return;
+    const all = getAllBooks();
+    const curIdx = all.findIndex((b) => b.name === p.book || b.code === p.book);
+    if (curIdx === -1) return;
 
-    if (primary.chapter > 1) {
-      handleGoToReader(`${bookInfo.name} ${primary.chapter - 1}`);
-    } else {
-      const idx = books.findIndex((b) => b.code === bookInfo.code);
-      if (idx > 0) {
-        const prevBook = books[idx - 1];
-        handleGoToReader(`${prevBook.name} ${prevBook.chaptersCount}`);
-      }
+    if (p.chapter > 1) {
+      handleGoToReader(`${p.book} ${p.chapter - 1}`);
+    } else if (curIdx > 0) {
+      const prevBook = all[curIdx - 1];
+      handleGoToReader(`${prevBook.name} ${prevBook.chaptersCount}`);
     }
   }
 
   function handleNextChapter() {
-    const ref = new PassageReference(activeQuery);
-    const primary = ref.primarySegment;
-    const books = getAllBooks(supportsDeuterocanonical(selectedTranslations));
-    const bookInfo = findBookInfo(primary.bookCode) || findBookInfo(primary.book) || books[0];
+    const p = passages[0];
+    if (!p) return;
+    const all = getAllBooks();
+    const curIdx = all.findIndex((b) => b.name === p.book || b.code === p.book);
+    if (curIdx === -1) return;
 
-    if (primary.chapter < bookInfo.chaptersCount) {
-      handleGoToReader(`${bookInfo.name} ${primary.chapter + 1}`);
-    } else {
-      const idx = books.findIndex((b) => b.code === bookInfo.code);
-      if (idx < books.length - 1) {
-        const nextBook = books[idx + 1];
-        handleGoToReader(`${nextBook.name} 1`);
-      }
+    const curBookInfo = all[curIdx];
+    if (p.chapter < curBookInfo.chaptersCount) {
+      handleGoToReader(`${p.book} ${p.chapter + 1}`);
+    } else if (curIdx < all.length - 1) {
+      const nextBook = all[curIdx + 1];
+      handleGoToReader(`${nextBook.name} 1`);
     }
   }
 
   async function handleToggleBookmark() {
-    if (isBookmarked) {
-      await bookmarkRepository.remove(activeQuery);
-      isBookmarked = false;
-    } else {
-      const first = passages[0];
-      await bookmarkRepository.save({
-        reference: activeQuery,
-        book: first?.book || 'Génesis',
-        chapter: first?.chapter || 1,
-        translationId: selectedTranslations[0] || 'RV1909',
-        previewText: first?.verses[0]?.text || '',
-      });
-      isBookmarked = true;
+    try {
+      const nowBookmarked = await bookmarkRepository.toggle(activeQuery, passages[0]?.book || 'Génesis');
+      isBookmarked = nowBookmarked;
+      await updateBookmarkCount();
+    } catch {
+      // Ignore
     }
-    await updateBookmarkCount();
   }
 </script>
 
@@ -275,6 +280,12 @@
         onSelectPassage={handleGoToReader}
       />
     </div>
+  {:else if view === 'concordance'}
+    <ConcordanceView
+      initialQuery={concordanceQuery}
+      initialTranslation={selectedTranslations[0] || 'RV1909'}
+      onSelectPassage={handleGoToReader}
+    />
   {:else}
     <ReaderView
       query={readerQuery}

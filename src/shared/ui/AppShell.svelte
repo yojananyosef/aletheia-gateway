@@ -6,9 +6,9 @@
   import NeoTooltip from './NeoTooltip.svelte';
 
   interface Props {
-    activeView: 'home' | 'reader';
+    activeView: 'home' | 'reader' | 'concordance';
     bookmarkCount?: number;
-    onNavigate: (view: 'home' | 'reader') => void;
+    onNavigate: (view: 'home' | 'reader' | 'concordance') => void;
     onOpenBookmarks?: () => void;
     children?: Snippet;
   }

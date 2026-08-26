@@ -2,6 +2,7 @@
   import {
     Home,
     BookOpen,
+    Search,
     Bookmark,
     ListChecks,
     Heart,
@@ -11,8 +12,8 @@
   } from 'lucide-svelte';
 
   interface Props {
-    activeView: 'home' | 'reader';
-    onNavigate: (view: 'home' | 'reader') => void;
+    activeView: 'home' | 'reader' | 'concordance';
+    onNavigate: (view: 'home' | 'reader' | 'concordance') => void;
     isOpen: boolean;
     isCollapsed: boolean;
     bookmarkCount?: number;
@@ -34,6 +35,7 @@
   const mainItems = [
     { title: 'Inicio', icon: Home, view: 'home' as const },
     { title: 'Leer la Biblia', icon: BookOpen, view: 'reader' as const },
+    { title: 'Concordancia', icon: Search, view: 'concordance' as const },
   ];
 
   const exploreItems = [
@@ -43,7 +45,7 @@
     { title: 'Recursos', icon: Library },
   ];
 
-  function handleSelect(view: 'home' | 'reader') {
+  function handleSelect(view: 'home' | 'reader' | 'concordance') {
     onNavigate(view);
     onClose();
   }

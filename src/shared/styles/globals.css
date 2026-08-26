@@ -2344,6 +2344,393 @@ mark.bible-highlight-green {
 }
 
 /* ==========================================================================
+   CONCORDANCIA BÍBLICA Y BÚSQUEDA TEMÁTICA NEOBRUTALISTA
+   ========================================================================== */
+
+.concordance-view {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 0;
+  margin-inline: auto;
+  padding: 24px 0 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-sizing: border-box;
+}
+
+.neo-main-inset.is-sidebar-collapsed .concordance-view {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.concordance-header-card {
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-canvas);
+  box-shadow: var(--shadow-md);
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.concordance-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.concordance-badge-icon {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  background-color: var(--accent-attention);
+  border: 2px solid var(--border-color);
+  box-shadow: 2px 2px 0 var(--border-color);
+}
+
+.concordance-version-select {
+  height: 34px;
+  padding: 0 10px;
+  border: 2px solid var(--border-color);
+  border-radius: 0;
+  background-color: #fff;
+  color: var(--text-main);
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  box-shadow: 2px 2px 0 var(--border-color);
+  cursor: pointer;
+  outline: none;
+}
+
+.concordance-search-form {
+  width: 100%;
+}
+
+.popular-topics-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-top: 4px;
+}
+
+.topics-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.topics-chips-scroll {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.topic-chip-btn {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border: 1.5px solid var(--border-color);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  cursor: pointer;
+  box-shadow: 1.5px 1.5px 0 var(--border-color);
+  transition: all 0.08s ease;
+}
+
+.topic-chip-btn:hover {
+  background-color: var(--accent-attention);
+  transform: translate(-1px, -1px);
+  box-shadow: 2px 2px 0 var(--border-color);
+}
+
+.topic-chip-btn.is-active {
+  background-color: var(--accent-attention);
+  font-weight: 900;
+  box-shadow: 2px 2px 0 var(--border-color);
+}
+
+.concordance-toolbar-card {
+  border: var(--border-main);
+  background-color: var(--bg-surface);
+  padding: 14px 18px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.concordance-facets-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.filter-chip-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border: 1.5px solid var(--border-color);
+  background-color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--text-main);
+  cursor: pointer;
+  box-shadow: 1.5px 1.5px 0 var(--border-color);
+  transition: all 0.08s ease;
+}
+
+.filter-chip-btn:hover {
+  background-color: var(--accent-interest);
+  transform: translate(-1px, -1px);
+}
+
+.filter-chip-btn.is-selected {
+  background-color: var(--accent-interest);
+  font-weight: 900;
+  box-shadow: 2px 2px 0 var(--border-color);
+}
+
+.facet-count-badge {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  background-color: var(--bg-canvas);
+  border: 1px solid var(--border-color);
+  padding: 0 5px;
+  font-weight: 800;
+}
+
+.concordance-stats-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-top: 1px dashed var(--border-color);
+  padding-top: 10px;
+  font-size: 0.8125rem;
+}
+
+.sort-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 800;
+  border: 1.5px solid var(--border-color);
+  background-color: #fff;
+  color: var(--text-main);
+  padding: 4px 10px;
+  cursor: pointer;
+  box-shadow: 1.5px 1.5px 0 var(--border-color);
+  transition: all 0.08s ease;
+}
+
+.sort-toggle-btn:hover {
+  background-color: var(--accent-attention);
+  transform: translate(-1px, -1px);
+}
+
+.concordance-results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.concordance-verse-card {
+  border: var(--border-main);
+  background-color: var(--bg-surface);
+  padding: 16px 20px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+
+.concordance-verse-card:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: var(--shadow-md);
+}
+
+.concordance-verse-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.verse-ref-badge {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 900;
+  color: var(--text-main);
+  background-color: var(--accent-attention);
+  border: 1.5px solid var(--border-color);
+  padding: 2px 8px;
+  box-shadow: 1.5px 1.5px 0 var(--border-color);
+}
+
+.verse-category-tag {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  background-color: var(--bg-canvas);
+  border: 1px solid var(--border-color);
+  padding: 1px 6px;
+}
+
+.verse-testament-tag {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 800;
+  color: var(--text-main);
+  background-color: var(--accent-interest);
+  border: 1px solid var(--border-color);
+  padding: 1px 5px;
+}
+
+.concordance-verse-body {
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--text-main);
+}
+
+.concordance-highlight {
+  background-color: #ffeaa7;
+  color: #1a1a18;
+  font-weight: 800;
+  padding: 0 3px;
+  border-bottom: 2px solid var(--border-color);
+  border-radius: 0;
+}
+
+.concordance-verse-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 6px;
+  border-top: 1px dashed rgba(26, 26, 24, 0.15);
+}
+
+.concordance-open-reader-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 800;
+  background-color: var(--bg-canvas);
+  border: 1.5px solid var(--border-color);
+  padding: 5px 10px;
+  color: var(--text-main);
+  cursor: pointer;
+  box-shadow: 1.5px 1.5px 0 var(--border-color);
+  transition: all 0.08s ease;
+}
+
+.concordance-open-reader-btn:hover {
+  background-color: var(--accent-attention);
+  transform: translate(-1px, -1px);
+  box-shadow: 2.5px 2.5px 0 var(--border-color);
+}
+
+.concordance-pagination-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.pagination-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 800;
+  background-color: var(--bg-surface);
+  border: var(--border-main);
+  padding: 8px 14px;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: all 0.08s ease;
+}
+
+.pagination-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+.pagination-btn:not(:disabled):hover {
+  background-color: var(--accent-attention);
+  transform: translate(-1px, -1px);
+  box-shadow: var(--shadow-md);
+}
+
+.concordance-welcome-card,
+.concordance-empty-card,
+.concordance-loading-card {
+  border: var(--border-main);
+  background-color: var(--bg-surface);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+
+.concordance-tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.tip-card {
+  border: 1.5px solid var(--border-color);
+  background-color: #fff;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  box-shadow: 1.5px 1.5px 0 var(--border-color);
+}
+
+.tip-badge {
+  align-self: flex-start;
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  font-weight: 900;
+  background-color: var(--accent-attention);
+  border: 1px solid var(--border-color);
+  padding: 1px 5px;
+  text-transform: uppercase;
+}
+
+/* ==========================================================================
    SEGURIDAD VESTIBULAR (PREFERS-REDUCED-MOTION)
    ========================================================================== */
 
