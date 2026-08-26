@@ -149,6 +149,21 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.8.0] - 2026-08-26
+#### Añadido: Integración de 11 Versiones Multilingües (Inglés, Griego, Hebreo y Alemán)
+- 🌍 **Ingesta Completa de 11 Versiones Académicas e Históricas Sword**:
+  - 🇬🇧 **Inglés (7 versiones)**: `KJV` (King James Version 1769), `ASV` (American Standard Version 1901), `Darby` (Darby Bible 1890), `Rotherham` (The Emphasised Bible 1902), `Noyes` (Noyes Translation 1869), `Tyndale` (William Tyndale 1530/1534) y `Wycliffe` (John Wycliffe c. 1395).
+  - 🇩🇪 **Alemán (1 versión)**: `GerBoLut` (Luther Bibel 1545 con ortografía moderna).
+  - 🇬🇷 **Griego (2 versiones)**: `LXX` (Septuaginta AT + deuterocanónicos) y `WHNU` (Nuevo Testamento en Griego Koiné Westcott-Hort / NA27).
+  - 🇮🇱 **Hebreo Bíblico (1 versión)**: `WLC` (Westminster Leningrad Codex con texto masorético completo, puntuación vocálica *niqqud* y cantilación).
+- 📜 **Soporte de Dirección RTL y Tipografía Especializada**:
+  - Renderizado nativo de derecha a izquierda (`dir="rtl"`) para `WLC` (Hebreo Bíblico) con tipografía optimizada para acentos masoréticos.
+  - Soporte tipográfico politónico para Griego Antiguo y Koiné en `LXX` y `WHNU`.
+- 🗂️ **Selector de Versiones Organizado por Idioma**:
+  - Rediseño de `ColumnVersionDropdown.svelte` con agrupación por idiomas (Español, Inglés, Griego, Hebreo, Alemán), banderas y conteos dinámicos.
+- ⚡ **Script de Ingesta Automatizado**:
+  - `scripts/convert-otros-sword.py` con descompresor ultra-rápido y caché en memoria (más de 280,000 versículos convertidos a JSON).
+
 ### [0.7.0] - 2026-08-26
 #### Añadido: Motor de Concordancia Bíblica y Búsqueda Temática Híbrida Multi-Traducción
 - 🔍 **Motor de Concordancia Bíblica de Alto Rendimiento**:

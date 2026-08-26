@@ -1,0 +1,4498 @@
+{
+  "versionId": "Noyes",
+  "bookCode": "JOB",
+  "bookName": "Job",
+  "testament": "AT",
+  "chapters": {
+    "1": {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": 1,
+          "text": "In the land of Uz lived a man whose name was Job. He was an upright and good man, fearing God and departing from evil."
+        },
+        {
+          "number": 2,
+          "text": "He had seven sons and three daughters."
+        },
+        {
+          "number": 3,
+          "text": "His substance was seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred she-asses, and a great number of servants; so that he was the greatest of all the inhabitants of the East."
+        },
+        {
+          "number": 4,
+          "text": "Now it was the custom of his sons to make a feast in their houses, each on his day, and to send and invite their three sisters to eat and to drink with them."
+        },
+        {
+          "number": 5,
+          "text": "And when the days of their feasting had gone round, Job used to send for them and sanctify them, and to rise up early in the morning and offer burnt-offerings according to the number of them all; for Job said, It may be that my sons have sinned, and have renounced God in their hearts. Thus did Job continually."
+        },
+        {
+          "number": 6,
+          "text": "Now on a certain day the sons of God came to present themselves before Jehovah, and Satan also came among them."
+        },
+        {
+          "number": 7,
+          "text": "And Jehovah said to Satan, Whence comest thou? Then Satan answered Jehovah, and said, From wandering over the earth, and walking up and down in it."
+        },
+        {
+          "number": 8,
+          "text": "And Jehovah said to Satan, Hast thou observed my servant Job, that there is none like him in the earth, an upright and good man, fearing God and departing from evil?"
+        },
+        {
+          "number": 9,
+          "text": "Then Satan answered Jehovah, Is it for nought that Job feareth God?"
+        },
+        {
+          "number": 10,
+          "text": "Hast thou not placed a hedge around him, and around his house, and around all his possessions? Thou hast prospered the work of his hands, and his herds are greatly increased in the land."
+        },
+        {
+          "number": 11,
+          "text": "But only put forth thy hand, and touch whatever he possesseth, and to thy face will he renounce thee."
+        },
+        {
+          "number": 12,
+          "text": "And Jehovah said to Satan, Behold, all that he hath is in thy power; but upon him lay not thy hand. So Satan went forth from the presence of Jehovah."
+        },
+        {
+          "number": 13,
+          "text": "Now on a certain day the sons and daughters of Job were eating and drinking wine in their eldest brother’s house,"
+        },
+        {
+          "number": 14,
+          "text": "when a messenger came to Job, and said, The oxen were ploughing, and the asses feeding beside them,"
+        },
+        {
+          "number": 15,
+          "text": "and the Sabaeans fell upon them, and took them away; the servants also they slew with the edge of the sword; and I only am escaped alone to tell thee."
+        },
+        {
+          "number": 16,
+          "text": "While he was yet speaking, there came also another, and said, The fire of God hath fallen from heaven, and hath burned up the sheep and the servants, and consumed them; and I only am escaped alone to tell thee."
+        },
+        {
+          "number": 17,
+          "text": "While he was yet speaking, there came also another, and said, The Chaldaeans made out three bands, and fell upon the camels, and carried them away; the servants also they slew with the edge of the sword; and I only am escaped alone to tell thee."
+        },
+        {
+          "number": 18,
+          "text": "While he was yet speaking, there came also another, and said, Thy sons and thy daughters were eating and drinking wine in their eldest brother’s house;"
+        },
+        {
+          "number": 19,
+          "text": "and, lo! there came a great wind from the desert, and smote the four corners of the house, and it fell upon the young men, and they are dead; and I only am escaped alone to tell thee."
+        },
+        {
+          "number": 20,
+          "text": "Then Job arose, and rent his mantle, and shaved his head, and fell down upon the ground, and worshipped;"
+        },
+        {
+          "number": 21,
+          "text": "and said, Naked came I forth from my mother’s womb, and naked shall I return thither. Jehovah gave, and Jehovah hath taken away; blessed be the name of Jehovah!"
+        },
+        {
+          "number": 22,
+          "text": "In all this Job sinned not, nor uttered vain words against God."
+        }
+      ]
+    },
+    "2": {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Again there was a day when the sons of God came to present themselves before Jehovah; and Satan came also among them to present himself before Jehovah."
+        },
+        {
+          "number": 2,
+          "text": "And Jehovah said to Satan, Whence comest thou? And Satan answered Jehovah, and said, From wandering over the earth, and walking up and down in it."
+        },
+        {
+          "number": 3,
+          "text": "Then said Jehovah to Satan, Hast thou observed my servant Job, that there is none like him upon the earth, an upright and good man, fearing God and departing from evil? And still he holdeth fast his integrity, although thou didst excite me against him to destroy him without a cause."
+        },
+        {
+          "number": 4,
+          "text": "And Satan answered Jehovah, and said, Skin for skin, yea, all that a man hath will he give for his life."
+        },
+        {
+          "number": 5,
+          "text": "But put forth now thy hand, and touch his bone and his flesh, and to thy face will he renounce thee."
+        },
+        {
+          "number": 6,
+          "text": "And Jehovah said to Satan, Behold, he is in thy hand; but spare his life."
+        },
+        {
+          "number": 7,
+          "text": "Then Satan went forth from the presence of Jehovah, and smote Job with sore boils from the sole of his foot to his crown."
+        },
+        {
+          "number": 8,
+          "text": "And he took a potsherd to scrape himself withal, and sat down among the ashes."
+        },
+        {
+          "number": 9,
+          "text": "Then said his wife to him, Dost thou still retain thine integrity? Renounce God, and die."
+        },
+        {
+          "number": 10,
+          "text": "But he said to her, Thou talkest like one of the foolish women. What! shall we receive good at the hand of God, and shall we not receive evil? In all this, Job sinned not with his lips."
+        },
+        {
+          "number": 11,
+          "text": "Now three friends of Job heard of all this evil that had come upon him, and came each one from his home; Eliphaz the Temanite, and Bildad the Shuhite, and Zophar the Naamathite; for they had agreed to come to mourn with him, and to comfort him."
+        },
+        {
+          "number": 12,
+          "text": "And they lifted up their eyes at a distance, and knew him not; then they raised their voices and wept, and rent each one his mantle, and sprinkled dust upon their heads toward heaven."
+        },
+        {
+          "number": 13,
+          "text": "And they sat down with him upon the ground seven days and seven nights, and none spake a word to him; for they saw that his grief was very great."
+        }
+      ]
+    },
+    "3": {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": 1,
+          "text": "At length Job opened his mouth, and cursed the day of his birth."
+        },
+        {
+          "number": 2,
+          "text": "And Job spake and said:"
+        },
+        {
+          "number": 3,
+          "text": "Perish the day in which I was born, and the night which said, \"A man-child is conceived!\""
+        },
+        {
+          "number": 4,
+          "text": "Let that day be darkness; Let not God seek it from above; Yea, let not the light shine upon it!"
+        },
+        {
+          "number": 5,
+          "text": "Let darkness and the shadow of death redeem it; Let a cloud dwell upon it; Let whatever darkeneth the day terrify it!"
+        },
+        {
+          "number": 6,
+          "text": "As for that night, let darkness seize upon it; Let it not rejoice among the days of the year; Let it not come into the number of the months!"
+        },
+        {
+          "number": 7,
+          "text": "O let that night be unfruitful! Let there be in it no voice of joy;"
+        },
+        {
+          "number": 8,
+          "text": "Let them that curse the day curse it, Who are skilful to stir up the leviathan!"
+        },
+        {
+          "number": 9,
+          "text": "Let the stars of its twilight be darkened; Let it long for light, and have none; Neither let it see the eyelashes of the morning!"
+        },
+        {
+          "number": 10,
+          "text": "Because it shut not up the doors of my mother’s womb, And hid not trouble from mine eyes."
+        },
+        {
+          "number": 11,
+          "text": "Why died I not at my birth? Why did I not expire when I came forth from the womb?"
+        },
+        {
+          "number": 12,
+          "text": "Why did the knees receive me, And why the breasts, that I might suck?"
+        },
+        {
+          "number": 13,
+          "text": "For now should I lie down and be quiet; I should sleep; then should I be at rest,"
+        },
+        {
+          "number": 14,
+          "text": "With kings and counsellors of the earth, Who built up for themselves—ruins!"
+        },
+        {
+          "number": 15,
+          "text": "Or with princes that had gold, And filled their houses with silver;"
+        },
+        {
+          "number": 16,
+          "text": "Or, as a hidden untimely birth, I had perished; As infants which never saw the light."
+        },
+        {
+          "number": 17,
+          "text": "There the wicked cease from troubling; There the weary are at rest."
+        },
+        {
+          "number": 18,
+          "text": "There the prisoners rest together; They hear not the voice of the oppressor."
+        },
+        {
+          "number": 19,
+          "text": "The small and the great are there, And the servant is free from his master."
+        },
+        {
+          "number": 20,
+          "text": "Why giveth He light to him that is in misery, And life to the bitter in soul,"
+        },
+        {
+          "number": 21,
+          "text": "Who long for death, and it cometh not, And dig for it more than for hid treasures;"
+        },
+        {
+          "number": 22,
+          "text": "Who rejoice exceedingly, Yea, exult, when they can find a grave?"
+        },
+        {
+          "number": 23,
+          "text": "Why is light given to a man from whom the way is hid, And whom God hath hedged in?"
+        },
+        {
+          "number": 24,
+          "text": "For my sighing cometh before I eat, And my groans are poured out like water."
+        },
+        {
+          "number": 25,
+          "text": "For that which I dread overtaketh me; That at which I shudder cometh upon me."
+        },
+        {
+          "number": 26,
+          "text": "I have no peace, nor quiet, nor respite: Misery cometh upon me continually."
+        }
+      ]
+    },
+    "4": {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then spake Eliphaz the Temanite, and said:"
+        },
+        {
+          "number": 2,
+          "text": "If one attempt a word with thee, wilt thou be offended? But who can refrain from speaking?"
+        },
+        {
+          "number": 3,
+          "text": "Behold, thou hast admonished many; Thou hast strengthened feeble hands;"
+        },
+        {
+          "number": 4,
+          "text": "Thy words have upheld him that was falling, And thou hast given strength to feeble knees."
+        },
+        {
+          "number": 5,
+          "text": "But now it is come upon thee, and thou faintest; It toucheth thee, and thou art confounded!"
+        },
+        {
+          "number": 6,
+          "text": "Is not thy fear of God thy hope, And the uprightness of thy ways thy confidence?"
+        },
+        {
+          "number": 7,
+          "text": "Remember, I pray thee, who ever perished being innocent? Or where have the righteous been cut off?"
+        },
+        {
+          "number": 8,
+          "text": "According to what I have seen, they who plough iniquity, And sow mischief, reap the same."
+        },
+        {
+          "number": 9,
+          "text": "By the blast of God they perish, And by the breath of his nostrils they are consumed."
+        },
+        {
+          "number": 10,
+          "text": "The roaring of the lion, and the voice of the fierce lion, And the teeth of the young lions are broken."
+        },
+        {
+          "number": 11,
+          "text": "The fierce lion perisheth for lack of prey, And the whelps of the lioness are scattered abroad."
+        },
+        {
+          "number": 12,
+          "text": "A word was once secretly brought to me, And mine ear caught a whisper thereof."
+        },
+        {
+          "number": 13,
+          "text": "Amid thoughts from visions of the night, When deep sleep falleth upon men,"
+        },
+        {
+          "number": 14,
+          "text": "A fear and a horror came upon me, Which made all my bones to shake."
+        },
+        {
+          "number": 15,
+          "text": "Then a spirit passed before my face, The hair of my flesh rose on end;"
+        },
+        {
+          "number": 16,
+          "text": "It stood still, but its form I could not discern; An image was before mine eyes; There was silence, and I heard a voice:"
+        },
+        {
+          "number": 17,
+          "text": "\"Shall mortal man be more just than God? Shall man be more pure than his Maker?"
+        },
+        {
+          "number": 18,
+          "text": "Behold, he putteth no trust in his ministering spirits, And his angels he chargeth with frailty."
+        },
+        {
+          "number": 19,
+          "text": "What then are they who dwell in houses of clay, Whose foundation is in the dust, Who crumble to pieces, as if moth-eaten!"
+        },
+        {
+          "number": 20,
+          "text": "Between morning and evening are they destroyed; They perish for ever, and none regardeth it."
+        },
+        {
+          "number": 21,
+          "text": "The excellency that is in them is torn away; They die before they have become wise.\""
+        }
+      ]
+    },
+    "5": {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Call now, see if any will answer thee! And to which of the holy ones wilt thou look?"
+        },
+        {
+          "number": 2,
+          "text": "Verily grief destroyeth the fool, And wrath consumeth the weak man."
+        },
+        {
+          "number": 3,
+          "text": "I have seen an impious man taking root, But soon I cursed his habitation."
+        },
+        {
+          "number": 4,
+          "text": "His children are far from safety; They are oppressed at the gate, and there is none to deliver them."
+        },
+        {
+          "number": 5,
+          "text": "His harvest the hungry devour, Carrying it even through the thorns; And a snare gapeth after his substance."
+        },
+        {
+          "number": 6,
+          "text": "For affliction cometh not from the dust, Nor doth trouble spring up from the ground;"
+        },
+        {
+          "number": 7,
+          "text": "Behold, man is born to trouble, As the sparks fly upward."
+        },
+        {
+          "number": 8,
+          "text": "I would look to God, And to God would I commit my cause,"
+        },
+        {
+          "number": 9,
+          "text": "Who doeth great things and unsearchable; Yea, marvellous things without number;"
+        },
+        {
+          "number": 10,
+          "text": "Who giveth rain upon the earth, And sendeth water upon the fields;"
+        },
+        {
+          "number": 11,
+          "text": "Who placeth the lowly in high places, And restoreth the afflicted to prosperity;"
+        },
+        {
+          "number": 12,
+          "text": "Who disappointeth the devices of the crafty, So that their hands cannot perform their enterprises;"
+        },
+        {
+          "number": 13,
+          "text": "Who taketh the wise in their own craftiness, And bringeth to nought the counsel of the artful."
+        },
+        {
+          "number": 14,
+          "text": "They meet with darkness in the daytime; They grope at noon as if it were night."
+        },
+        {
+          "number": 15,
+          "text": "So he saveth the persecuted from their mouth; The oppressed from the hand of the mighty."
+        },
+        {
+          "number": 16,
+          "text": "So the poor hath hope, And iniquity stoppeth her mouth."
+        },
+        {
+          "number": 17,
+          "text": "Behold, happy is the man whom God correcteth; Therefore despise not thou the chastening of the Almighty."
+        },
+        {
+          "number": 18,
+          "text": "For he bruiseth, and bindeth up; He woundeth, and his hands make whole."
+        },
+        {
+          "number": 19,
+          "text": "In six troubles will he deliver thee; Yea, in seven shall no evil touch thee."
+        },
+        {
+          "number": 20,
+          "text": "In famine he will redeem thee from death, And in war from the power of the sword."
+        },
+        {
+          "number": 21,
+          "text": "Thou shalt be safe from the scourge of the tongue, And shalt not be afraid of destruction, when it cometh."
+        },
+        {
+          "number": 22,
+          "text": "At destruction and famine thou shalt laugh, And of the wild beasts of the land shalt thou not be afraid."
+        },
+        {
+          "number": 23,
+          "text": "For thou shalt be in league with the stones of the field; Yea, the beasts of the forest shall be at peace with thee."
+        },
+        {
+          "number": 24,
+          "text": "Thou shalt find that thy tent is in peace; Thou shalt visit thy dwelling, and not be disappointed."
+        },
+        {
+          "number": 25,
+          "text": "Thou shalt see thy descendants numerous, And thine offspring as the grass of the earth."
+        },
+        {
+          "number": 26,
+          "text": "Thou shalt come to thy grave in full age, As a shock of corn gathered in its season."
+        },
+        {
+          "number": 27,
+          "text": "Lo! this we have searched out; so it is: Hear it, and lay it up in thy mind!"
+        }
+      ]
+    },
+    "6": {
+      "chapter": 6,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then Job answered and said:"
+        },
+        {
+          "number": 2,
+          "text": "O that my grief were weighed thoroughly! That my calamities were put together in the balance!"
+        },
+        {
+          "number": 3,
+          "text": "Surely they would be heavier than the sand of the sea; On this account were my words rash."
+        },
+        {
+          "number": 4,
+          "text": "For the arrows of the Almighty have pierced me; Their poison drinketh up my spirit; The terrors of God set themselves in array against me."
+        },
+        {
+          "number": 5,
+          "text": "Doth the wild ass bray in the midst of grass? Or loweth the ox over his fodder?"
+        },
+        {
+          "number": 6,
+          "text": "Can that which is unsavory be eaten without salt? Is there any taste in the white of an egg?"
+        },
+        {
+          "number": 7,
+          "text": "That which my soul abhorreth to touch Hath become my loathsome food."
+        },
+        {
+          "number": 8,
+          "text": "O that I might have my request, And that God would grant me that which I long for!"
+        },
+        {
+          "number": 9,
+          "text": "That it would please God to destroy me; That he would let loose his hand, and make an end of me!"
+        },
+        {
+          "number": 10,
+          "text": "Yet it should still be my consolation, Yea, in unsparing anguish I would exult, That I have not denied the commands of the Holy One."
+        },
+        {
+          "number": 11,
+          "text": "What is my strength, that I should hope? And what mine end, that I should be patient?"
+        },
+        {
+          "number": 12,
+          "text": "Is my strength the strength of stones? Or is my flesh brass?"
+        },
+        {
+          "number": 13,
+          "text": "Alas, there is no help within me! Deliverance is driven from me!"
+        },
+        {
+          "number": 14,
+          "text": "To the afflicted, kindness should be shown by a friend; Else he casteth off the fear of the Almighty."
+        },
+        {
+          "number": 15,
+          "text": "But my brethren are faithless like a brook; Like streams of the valley that pass away;"
+        },
+        {
+          "number": 16,
+          "text": "Which are turbid by reason of the ice, And the snow, which hideth itself in them."
+        },
+        {
+          "number": 17,
+          "text": "As soon as they flow forth, they vanish; When the heat cometh, they are dried up from their place."
+        },
+        {
+          "number": 18,
+          "text": "The caravans turn aside to them on their way; They go up into the desert, and perish."
+        },
+        {
+          "number": 19,
+          "text": "The caravans of Tema look for them; The companies of Sheba expect to see them;"
+        },
+        {
+          "number": 20,
+          "text": "They are ashamed that they have relied on them; They come to their place, and are confounded."
+        },
+        {
+          "number": 21,
+          "text": "So ye also are nothing; Ye see a terror, and shrink back."
+        },
+        {
+          "number": 22,
+          "text": "Have I said, Bring me gifts? Or, Give a present for me out of your substance?"
+        },
+        {
+          "number": 23,
+          "text": "Or, Deliver me from the enemy’s hand? Or, Rescue me from the hand of the violent?"
+        },
+        {
+          "number": 24,
+          "text": "Convince me, and I will hold my peace; Cause me to understand wherein I have erred."
+        },
+        {
+          "number": 25,
+          "text": "How powerful are the words of truth! But what do your reproaches prove?"
+        },
+        {
+          "number": 26,
+          "text": "Do ye mean to censure words? The words of a man in despair are but wind."
+        },
+        {
+          "number": 27,
+          "text": "Truly ye spread a net for the fatherless; Ye dig a pit for your friend."
+        },
+        {
+          "number": 28,
+          "text": "Look now upon me, I pray you; For to your very face can I speak falsehood?"
+        },
+        {
+          "number": 29,
+          "text": "Return, I pray, and let there be no unfairness; Yea, return; —still is my cause righteous."
+        },
+        {
+          "number": 30,
+          "text": "Is there iniquity on my tongue? Cannot my taste discern what is sinful?"
+        }
+      ]
+    },
+    "7": {
+      "chapter": 7,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Is there not a war-service for man on the earth? Are not his days as the days of a hireling?"
+        },
+        {
+          "number": 2,
+          "text": "As a servant panteth for the shade, And as a hireling looketh for his wages,"
+        },
+        {
+          "number": 3,
+          "text": "So am I made to possess months of affliction, And wearisome nights are appointed for me."
+        },
+        {
+          "number": 4,
+          "text": "If I lie down, I say, When shall I arise, and the night be gone? And I am full of restlessness until the dawning of the day."
+        },
+        {
+          "number": 5,
+          "text": "My flesh is clothed with worms, and clods of dust; My skin is broken and become loathsome."
+        },
+        {
+          "number": 6,
+          "text": "My days are swifter than a weaver’s shuttle; They pass away without hope."
+        },
+        {
+          "number": 7,
+          "text": "O remember that my life is a breath; That mine eye shall no more see good!"
+        },
+        {
+          "number": 8,
+          "text": "The eye of him that hath seen me shall see me no more; Thine eyes shall look for me, but I shall not be."
+        },
+        {
+          "number": 9,
+          "text": "As the cloud dissolveth and wasteth away, So he that goeth down to the grave shall arise no more;"
+        },
+        {
+          "number": 10,
+          "text": "No more shall he return to his house, And his dwelling-place shall know him no more."
+        },
+        {
+          "number": 11,
+          "text": "Therefore I will not restrain my mouth; I will speak in the anguish of my spirit; I will complain in the bitterness of my soul."
+        },
+        {
+          "number": 12,
+          "text": "Am I a sea, or a sea-monster, That thou settest a watch over me?"
+        },
+        {
+          "number": 13,
+          "text": "When I say, My bed shall relieve me, My couch shall ease my complaint,"
+        },
+        {
+          "number": 14,
+          "text": "Then thou scarest me with dreams, And terrifiest me with visions;"
+        },
+        {
+          "number": 15,
+          "text": "So that my soul chooseth strangling, Yea, death, rather than these my bones."
+        },
+        {
+          "number": 16,
+          "text": "I am wasting away; I shall not live alway: Let me alone, for my days are a vapor!"
+        },
+        {
+          "number": 17,
+          "text": "What is man, that thou shouldst make great account him, And fix thy mind upon him?—"
+        },
+        {
+          "number": 18,
+          "text": "That thou shouldst visit him every morning, And prove him every moment?"
+        },
+        {
+          "number": 19,
+          "text": "How long ere thou wilt look away from me, And let me alone, till I have time to breathe?"
+        },
+        {
+          "number": 20,
+          "text": "If I have sinned, what have I done to thee, O thou watcher of men! Why hast thou set me up as thy mark, So that I have become a burden to myself?"
+        },
+        {
+          "number": 21,
+          "text": "And why dost thou not pardon my transgression, And take away mine iniquity? For soon shall I sleep in the dust; And, though thou seek me diligently, I shall not be."
+        }
+      ]
+    },
+    "8": {
+      "chapter": 8,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then answered Bildad the Shuhite, and said:"
+        },
+        {
+          "number": 2,
+          "text": "How long wilt thou speak such things? How long shall the words of thy mouth be like a strong wind?"
+        },
+        {
+          "number": 3,
+          "text": "Will God pervert judgment? Or will the Almighty pervert justice?"
+        },
+        {
+          "number": 4,
+          "text": "As thy children sinned against him, He hath given them up to their transgression."
+        },
+        {
+          "number": 5,
+          "text": "But if thou wilt seek early to God, And make thy supplication to the Almighty,—"
+        },
+        {
+          "number": 6,
+          "text": "If thou wilt be pure and upright, Surely he will yet arise for thee, And prosper thy righteous habitation;"
+        },
+        {
+          "number": 7,
+          "text": "So that thy beginning shall be small, And thy latter end very great."
+        },
+        {
+          "number": 8,
+          "text": "For inquire, I pray thee, of the former age, And mark what hath been searched out by their fathers;"
+        },
+        {
+          "number": 9,
+          "text": "(For we are of yesterday and know nothing, Since our days upon the earth are but a shadow;)"
+        },
+        {
+          "number": 10,
+          "text": "Will not they instruct thee, and tell thee, And utter words from their understanding?"
+        },
+        {
+          "number": 11,
+          "text": "\"Can the paper-reed grow up without mire? Can the bulrush grow without water?"
+        },
+        {
+          "number": 12,
+          "text": "While it is yet in its greenness, and is not cut down, It withereth before any other herb."
+        },
+        {
+          "number": 13,
+          "text": "Such is the fate of all who forget God; So perisheth the hope of the ungodly."
+        },
+        {
+          "number": 14,
+          "text": "His confidence shall come to nought, And his trust shall prove a spider’s web."
+        },
+        {
+          "number": 15,
+          "text": "He shall lean upon his house, and it shall not stand; He shall lay fast hold on it, but it shall not endure."
+        },
+        {
+          "number": 16,
+          "text": "He is in full green before the sun, And his branches shoot forth over his garden;"
+        },
+        {
+          "number": 17,
+          "text": "His roots are entwined about the heap, And he seeth the place of stones;"
+        },
+        {
+          "number": 18,
+          "text": "When he shall be destroyed from his place, It shall deny him, saying, ‘I never saw thee.’"
+        },
+        {
+          "number": 19,
+          "text": "Lo! such is the joy of his course! And others shall spring up from his place\""
+        },
+        {
+          "number": 20,
+          "text": "Behold, God will not cast away an upright man; Nor will he help the evil-doers."
+        },
+        {
+          "number": 21,
+          "text": "While he filleth thy mouth with laughter, And thy lips with gladness,"
+        },
+        {
+          "number": 22,
+          "text": "They that hate thee shall be clothed with shame, And the dwelling-place of the wicked shall come to nought."
+        }
+      ]
+    },
+    "9": {
+      "chapter": 9,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then Job answered and said:"
+        },
+        {
+          "number": 2,
+          "text": "Of a truth, I know that it is so: For how can man be just before God?"
+        },
+        {
+          "number": 3,
+          "text": "If he choose to contend with him, He cannot answer him to one charge of a thousand."
+        },
+        {
+          "number": 4,
+          "text": "He is excellent in wisdom, mighty in strength: Who hath hardened himself against him, and prospered?"
+        },
+        {
+          "number": 5,
+          "text": "He removeth the mountains, and they know it not; He overturneth them in his anger."
+        },
+        {
+          "number": 6,
+          "text": "He shaketh the earth out of her place, And the pillars thereof tremble."
+        },
+        {
+          "number": 7,
+          "text": "He commandeth the sun, and it riseth not, And he sealeth up the stars."
+        },
+        {
+          "number": 8,
+          "text": "He alone spreadeth out the heavens, And walketh upon the high waves of the sea."
+        },
+        {
+          "number": 9,
+          "text": "He made the Bear, Orion, and the Pleiades, And the secret chambers of the South."
+        },
+        {
+          "number": 10,
+          "text": "He doeth great things past finding out, Yea, wonderful things without number."
+        },
+        {
+          "number": 11,
+          "text": "Lo! he goeth by me, but I see him not; He passeth along, but I do not perceive him."
+        },
+        {
+          "number": 12,
+          "text": "Lo! he seizeth, and who can hinder him? Who will say to him, What doest thou?"
+        },
+        {
+          "number": 13,
+          "text": "God will not turn away his anger; The proud helpers are brought low before him."
+        },
+        {
+          "number": 14,
+          "text": "How much less shall I answer him, And choose out words to contend with him?"
+        },
+        {
+          "number": 15,
+          "text": "Though I were innocent, I would not answer him; I would cast myself on the mercy of my judge."
+        },
+        {
+          "number": 16,
+          "text": "Should I call, and he make answer to me, I could not believe that he listened to my voice,—"
+        },
+        {
+          "number": 17,
+          "text": "He who falleth upon me with a tempest, And multiplieth my wounds without cause!"
+        },
+        {
+          "number": 18,
+          "text": "Who will not suffer me to take my breath, But filleth me with bitterness!"
+        },
+        {
+          "number": 19,
+          "text": "If I look to strength, \"Lo! here am I!\" [saith he,] If to justice, \"Who shall summon me to trial?\""
+        },
+        {
+          "number": 20,
+          "text": "Though I were upright, yet must my own mouth condemn me; Though I were innocent, He would prove me perverse."
+        },
+        {
+          "number": 21,
+          "text": "Though I were innocent, I would not care for myself; I would despise my life."
+        },
+        {
+          "number": 22,
+          "text": "It is all one; therefore I will affirm, He destroyeth the righteous and the wicked alike."
+        },
+        {
+          "number": 23,
+          "text": "When the scourge bringeth sudden destruction, He laugheth at the sufferings of the innocent."
+        },
+        {
+          "number": 24,
+          "text": "The earth is given into the hands of the wicked; He covereth the face of the judges thereof; If it be not He, who is it?"
+        },
+        {
+          "number": 25,
+          "text": "My days have been swifter than a courier; They have fled away; they have seen no good."
+        },
+        {
+          "number": 26,
+          "text": "They have gone by like the reed-skiffs; Like the eagle, darting upon his prey."
+        },
+        {
+          "number": 27,
+          "text": "If I say, I will forget my lamentation, I will change my countenance, and take courage,"
+        },
+        {
+          "number": 28,
+          "text": "Still am I in dread of the multitude of my sorrows; For I know that thou wilt not hold me innocent."
+        },
+        {
+          "number": 29,
+          "text": "I shall be found guilty; Why then should I labor in vain?"
+        },
+        {
+          "number": 30,
+          "text": "If I wash myself in snow, And cleanse my hands with lye,"
+        },
+        {
+          "number": 31,
+          "text": "Still wilt thou plunge me into the pit, So that my own clothes will abhor me."
+        },
+        {
+          "number": 32,
+          "text": "For He is not a man, as I am, that I may contend with him, And that we may go together into judgment;"
+        },
+        {
+          "number": 33,
+          "text": "There is no umpire between us, Who may lay his hand upon us both."
+        },
+        {
+          "number": 34,
+          "text": "Let him take from me his rod, And not dismay me with his terrors,"
+        },
+        {
+          "number": 35,
+          "text": "Then I will speak, and not be afraid of him: For I am not so at heart."
+        }
+      ]
+    },
+    "10": {
+      "chapter": 10,
+      "verses": [
+        {
+          "number": 1,
+          "text": "I am weary of my life; I will let loose within me my complaint; I will speak in the bitterness of my soul."
+        },
+        {
+          "number": 2,
+          "text": "I will say unto God, Do not condemn me! Show me wherefore thou contendest with me!"
+        },
+        {
+          "number": 3,
+          "text": "Is it a pleasure to thee to oppress, And to despise the work of thy hands, And to shine upon the plans of the wicked?"
+        },
+        {
+          "number": 4,
+          "text": "Hast thou eyes of flesh, Or seest thou as man seeth?"
+        },
+        {
+          "number": 5,
+          "text": "Are thy days as the days of a man, Are thy years as the days of a mortal,"
+        },
+        {
+          "number": 6,
+          "text": "That thou seekest after my iniquity, And searchest after my sin,"
+        },
+        {
+          "number": 7,
+          "text": "Though thou knowest that I am not guilty, And that none can deliver from thy hand?"
+        },
+        {
+          "number": 8,
+          "text": "Have thy hands completely fashioned and made me In every part, that thou mightst destroy me?"
+        },
+        {
+          "number": 9,
+          "text": "O remember that thou hast moulded me as clay! And wilt thou bring me again to dust?"
+        },
+        {
+          "number": 10,
+          "text": "Thou didst pour me out as milk, And curdle me as cheese;"
+        },
+        {
+          "number": 11,
+          "text": "With skin and flesh didst thou clothe me, And strengthen me with bones and sinews;"
+        },
+        {
+          "number": 12,
+          "text": "Thou didst grant me life and favor, And thy protection preserved my breath:"
+        },
+        {
+          "number": 13,
+          "text": "Yet these things thou didst lay up in thy heart! I know that this was in thy mind."
+        },
+        {
+          "number": 14,
+          "text": "If I sin, then thou markest me, And wilt not acquit me of mine iniquity."
+        },
+        {
+          "number": 15,
+          "text": "If I am wicked,—then woe unto me! Yet if righteous, I dare not lift up my head; I am full of confusion, beholding my affliction."
+        },
+        {
+          "number": 16,
+          "text": "If I lift it up, like a lion thou huntest me, And again showest thyself terrible unto me."
+        },
+        {
+          "number": 17,
+          "text": "Thou renewest thy witnesses against me, And increasest thine anger toward me; New hosts continually rise up against me."
+        },
+        {
+          "number": 18,
+          "text": "Why then didst thou bring me forth from the womb? I should have perished, and no eye had seen me;"
+        },
+        {
+          "number": 19,
+          "text": "I should be as though I had not been; I should have been borne from the womb to the grave."
+        },
+        {
+          "number": 20,
+          "text": "Are not my days few? O spare then, And let me alone, that I may be at ease a little while,"
+        },
+        {
+          "number": 21,
+          "text": "Before I go— whence I shall not return—To the land of darkness and death-shade,"
+        },
+        {
+          "number": 22,
+          "text": "The land of darkness like the blackness of death-shade, Where is no order, and where the light is as darkness."
+        }
+      ]
+    },
+    "11": {
+      "chapter": 11,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then answered Zophar the Naamathite, and said:"
+        },
+        {
+          "number": 2,
+          "text": "Shall not the multitude of words receive an answer? Shall the man of words be justified?"
+        },
+        {
+          "number": 3,
+          "text": "Shall thy boastings make men hold their peace? Shalt thou mock, and none put thee to shame?"
+        },
+        {
+          "number": 4,
+          "text": "Thou sayest, My speech is pure; I am clean in thine eyes, [O God!]"
+        },
+        {
+          "number": 5,
+          "text": "But O that God would speak, And open his lips against thee;"
+        },
+        {
+          "number": 6,
+          "text": "That he would show thee the secrets of his wisdom,—His wisdom, which is unsearchable! Then shouldst thou know that God forgiveth thee many of thine iniquities."
+        },
+        {
+          "number": 7,
+          "text": "Canst thou search out the deep things of God? Canst thou find out the Almighty to perfection?"
+        },
+        {
+          "number": 8,
+          "text": "‘Tis high as heaven, what canst thou do? Deeper than hell, what canst thou know?"
+        },
+        {
+          "number": 9,
+          "text": "The measure thereof is longer than the earth, And broader than the sea."
+        },
+        {
+          "number": 10,
+          "text": "If he apprehend, and bind, and bring to trial, Who shall oppose him?"
+        },
+        {
+          "number": 11,
+          "text": "For he knoweth the unrighteous; He seeth iniquity, when they do not observe it."
+        },
+        {
+          "number": 12,
+          "text": "But vain man is without understanding; Yea, man is born a wild ass’s colt."
+        },
+        {
+          "number": 13,
+          "text": "If thou direct thy heart, And stretch out thy hands, toward him;"
+        },
+        {
+          "number": 14,
+          "text": "If thou put away iniquity from thy hand, And let not wickedness dwell in thy habitation,—"
+        },
+        {
+          "number": 15,
+          "text": "Then shalt thou lift up thy face without spot; Yea, thou shalt be steadfast, and have no fear."
+        },
+        {
+          "number": 16,
+          "text": "For thou shalt forget thy misery, Or remember it as waters that have passed away."
+        },
+        {
+          "number": 17,
+          "text": "Thy life shall be brighter than the noon-day; Now thou art in darkness, thou shalt then be as morning."
+        },
+        {
+          "number": 18,
+          "text": "Thou shalt be secure, because there is hope; Now thou art disappointed, thou shalt then rest in safety."
+        },
+        {
+          "number": 19,
+          "text": "Thou shalt lie down, and none shall make thee afraid; And many shall make suit unto thee."
+        },
+        {
+          "number": 20,
+          "text": "But the eyes of the wicked shall be wearied out; They shall find no refuge; Their hope is—the breathing forth of life."
+        }
+      ]
+    },
+    "12": {
+      "chapter": 12,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then Job answered and said:"
+        },
+        {
+          "number": 2,
+          "text": "No doubt ye are the whole people! And wisdom will die with you!"
+        },
+        {
+          "number": 3,
+          "text": "But I have understanding as well as you; I am not inferior to you: Yea, who knoweth not such things as these?"
+        },
+        {
+          "number": 4,
+          "text": "I am become a laughing-stock to my friend,—I who call upon God, that he would answer me! The innocent and upright man is held in derision."
+        },
+        {
+          "number": 5,
+          "text": "To calamity belongeth contempt in the mind of one at ease; It is ready for them that slip with the feet."
+        },
+        {
+          "number": 6,
+          "text": "The tents of robbers are in prosperity, And they who provoke God are secure, Who carry their God in their hand."
+        },
+        {
+          "number": 7,
+          "text": "For ask now the beasts, and they will teach thee; Or the fowls of the air, and they will tell thee;"
+        },
+        {
+          "number": 8,
+          "text": "Or speak to the earth, and it will instruct thee; And the fishes of the sea will declare unto thee."
+        },
+        {
+          "number": 9,
+          "text": "Who among all these doth not know That the hand of Jehovah doeth these things?"
+        },
+        {
+          "number": 10,
+          "text": "In whose hand is the soul of every living thing, And the breath of all mankind."
+        },
+        {
+          "number": 11,
+          "text": "Doth not the ear prove words, As the mouth tasteth meat?"
+        },
+        {
+          "number": 12,
+          "text": "With the aged is wisdom, And with length of days is understanding."
+        },
+        {
+          "number": 13,
+          "text": "With Him are wisdom and strength; With Him counsel and understanding."
+        },
+        {
+          "number": 14,
+          "text": "Lo! he pulleth down, and it shall not be rebuilt; He bindeth a man, and he shall not be set loose."
+        },
+        {
+          "number": 15,
+          "text": "Lo! he withholdeth the waters, and they are dried up; He sendeth them forth, and they lay waste the earth."
+        },
+        {
+          "number": 16,
+          "text": "With him are strength and wisdom; The deceived and the deceiver are his."
+        },
+        {
+          "number": 17,
+          "text": "He leadeth counsellors away captive, And judges he maketh fools."
+        },
+        {
+          "number": 18,
+          "text": "He looseth the authority of kings, And bindeth their loins with a cord."
+        },
+        {
+          "number": 19,
+          "text": "He leadeth priests away captive, And overthroweth the mighty."
+        },
+        {
+          "number": 20,
+          "text": "He removeth speech from the trusty, And taketh away judgment from the elders."
+        },
+        {
+          "number": 21,
+          "text": "He poureth contempt upon princes, And looseth the girdle of the mighty."
+        },
+        {
+          "number": 22,
+          "text": "He revealeth deep things out of darkness, And bringeth the shadow of death to light."
+        },
+        {
+          "number": 23,
+          "text": "He exalteth nations, and destroyeth them; He enlargeth nations, and leadeth them captive."
+        },
+        {
+          "number": 24,
+          "text": "He taketh away the understanding of the great men of the land, And causeth them to wander in a wilderness, where is no path;"
+        },
+        {
+          "number": 25,
+          "text": "They grope in the dark without light; He maketh them stagger like a drunken man."
+        }
+      ]
+    },
+    "13": {
+      "chapter": 13,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Lo! all this mine eye hath seen; Mine ear hath heard and understood it."
+        },
+        {
+          "number": 2,
+          "text": "What ye know, I know also; I am not inferior to you."
+        },
+        {
+          "number": 3,
+          "text": "But O that I might speak with the Almighty! O that I might reason with God!"
+        },
+        {
+          "number": 4,
+          "text": "For ye are forgers of lies; Physicians of no value, all of you!"
+        },
+        {
+          "number": 5,
+          "text": "O that ye would altogether hold your peace! This, truly, would be wisdom in you."
+        },
+        {
+          "number": 6,
+          "text": "Hear, I pray you, my arguments; Attend to the pleadings of my lips!"
+        },
+        {
+          "number": 7,
+          "text": "Will ye speak falsehood for God? Will ye utter deceit for him?"
+        },
+        {
+          "number": 8,
+          "text": "Will ye be partial to his person? Will ye contend earnestly for God?"
+        },
+        {
+          "number": 9,
+          "text": "Will it be well for you, if he search you thoroughly? Can ye deceive him, as one may deceive a man?"
+        },
+        {
+          "number": 10,
+          "text": "Surely he will rebuke you, If ye secretly have respect to persons."
+        },
+        {
+          "number": 11,
+          "text": "Doth not his majesty make you afraid, And his dread fall upon you?"
+        },
+        {
+          "number": 12,
+          "text": "Your maxims are words of dust; Your fortresses are fortresses of clay."
+        },
+        {
+          "number": 13,
+          "text": "Hold your peace, and let me speak: And then come upon me what will!"
+        },
+        {
+          "number": 14,
+          "text": "Why do I take my flesh in my teeth, And put my life in my hand?"
+        },
+        {
+          "number": 15,
+          "text": "Lo! he slayeth me, and I have no hope! Yet will I justify my ways before him."
+        },
+        {
+          "number": 16,
+          "text": "This also shall be my deliverance; For no unrighteous man will come before him."
+        },
+        {
+          "number": 17,
+          "text": "Hear attentively my words, And give ear to my declaration!"
+        },
+        {
+          "number": 18,
+          "text": "Behold, I have now set in order my cause; I know that I am innocent."
+        },
+        {
+          "number": 19,
+          "text": "Who is he that can contend with me? For then would I hold my peace, and die!"
+        },
+        {
+          "number": 20,
+          "text": "Only do not unto me two things, Then will I not hide myself from thy presence;"
+        },
+        {
+          "number": 21,
+          "text": "Let not thy hand be heavy upon me, And let not thy terrors make me afraid:"
+        },
+        {
+          "number": 22,
+          "text": "Then call upon me, and I will answer; Or I will speak, and answer thou me."
+        },
+        {
+          "number": 23,
+          "text": "How many are my iniquities and sins? Make me to know my faults and transgressions."
+        },
+        {
+          "number": 24,
+          "text": "Wherefore dost thou hide thy face, And account me as thine enemy?"
+        },
+        {
+          "number": 25,
+          "text": "Wilt thou put in fear the driven leaf? Wilt thou pursue the dry stubble?"
+        },
+        {
+          "number": 26,
+          "text": "For thou writest bitter things against me, And makest me inherit the sins of my youth."
+        },
+        {
+          "number": 27,
+          "text": "Yea, thou puttest my feet in the stocks, And waterest all my paths; Thou hemmest in the soles of my feet."
+        },
+        {
+          "number": 28,
+          "text": "And I, like an abandoned thing, shall waste away; Like a garment which is moth-eaten."
+        }
+      ]
+    },
+    "14": {
+      "chapter": 14,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Man, that is born of woman, Is of few days, and full of trouble."
+        },
+        {
+          "number": 2,
+          "text": "He cometh forth as a flower, and is cut down; He fleeth also as a shadow, and continueth not."
+        },
+        {
+          "number": 3,
+          "text": "And dost thou fix thine eyes upon such a one? And dost thou bring me into judgment with thee?"
+        },
+        {
+          "number": 4,
+          "text": "Who can produce a clean thing from an unclean? Not one."
+        },
+        {
+          "number": 5,
+          "text": "Seeing that his days are determined, And the number of his months, with thee, And that thou hast appointed him bounds which he cannot pass,"
+        },
+        {
+          "number": 6,
+          "text": "O turn thine eyes from him, and let him rest, That he may enjoy, as a hireling, his day!"
+        },
+        {
+          "number": 7,
+          "text": "For there is hope for a tree, If it be cut down, that it will sprout again, And that its tender branches will not fail;"
+        },
+        {
+          "number": 8,
+          "text": "Though its root may have grown old in the earth, And though its trunk be dead upon the ground,"
+        },
+        {
+          "number": 9,
+          "text": "Through the scent of water it will bud, And put forth boughs, like a young plant."
+        },
+        {
+          "number": 10,
+          "text": "But man dieth, and he is gone! Man expireth, and where is he?"
+        },
+        {
+          "number": 11,
+          "text": "The waters fail from the lake; And the stream wasteth and drieth up;"
+        },
+        {
+          "number": 12,
+          "text": "So man lieth down, and riseth not; Till the heavens be no more, he shall not awake, Nor be roused from his sleep."
+        },
+        {
+          "number": 13,
+          "text": "O that thou wouldst hide me in the under-world! That thou wouldst conceal me till thy wrath be past! That thou wouldst appoint me a time, and then remember me!"
+        },
+        {
+          "number": 14,
+          "text": "If a man die, can he live again? All the days of my war-service would I wait, Till my change should come."
+        },
+        {
+          "number": 15,
+          "text": "Thou wilt call, and I will answer thee; Thou wilt have compassion upon the work of thy hands!"
+        },
+        {
+          "number": 16,
+          "text": "But now thou numberest my steps; Thou watchest over my sins."
+        },
+        {
+          "number": 17,
+          "text": "My transgression is sealed up in a bag; Yea, thou addest unto my iniquity."
+        },
+        {
+          "number": 18,
+          "text": "As the mountain falling cometh to nought, And the rock is removed from its place;"
+        },
+        {
+          "number": 19,
+          "text": "As the waters wear away the stones, And the floods wash away the dust of the earth, So thou destroyest the hope of man."
+        },
+        {
+          "number": 20,
+          "text": "Thou prevailest against him continually, and he perisheth; Thou changest his countenance, and sendest him away."
+        },
+        {
+          "number": 21,
+          "text": "His sons come to honor, but he knoweth it not; Or they are brought low, but he perceiveth it not."
+        },
+        {
+          "number": 22,
+          "text": "But his flesh shall have pain for itself alone; For itself alone shall his soul mourn."
+        }
+      ]
+    },
+    "15": {
+      "chapter": 15,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then answered Eliphaz the Temanite, and said:"
+        },
+        {
+          "number": 2,
+          "text": "Should a wise man answer with arguments of wind, Or fill his bosom with the east wind?"
+        },
+        {
+          "number": 3,
+          "text": "Should he argue with speech that helpeth him not, And with words which do not profit him?"
+        },
+        {
+          "number": 4,
+          "text": "Behold, thou makest the fear of God a vain thing, And discouragest prayer before him."
+        },
+        {
+          "number": 5,
+          "text": "Yea, thy own mouth proclaimeth thy iniquity, Though thou choosest the tongue of the crafty."
+        },
+        {
+          "number": 6,
+          "text": "Thy own mouth condemneth thee, and not I; Thy own lips testify against thee."
+        },
+        {
+          "number": 7,
+          "text": "Art thou the first man that was born? Wast thou formed before the hills?"
+        },
+        {
+          "number": 8,
+          "text": "Hast thou listened in the council of God, And drawn all wisdom to thyself?"
+        },
+        {
+          "number": 9,
+          "text": "What dost thou know, that we know not also? What dost thou understand, that is a secret to us?"
+        },
+        {
+          "number": 10,
+          "text": "With us are the aged and hoary-headed; Much older than thy father."
+        },
+        {
+          "number": 11,
+          "text": "Dost thou despise the consolations of God, And words so full of kindness to thee?"
+        },
+        {
+          "number": 12,
+          "text": "Why hath thy passion taken possession of thee? And why this winking of thine eyes?"
+        },
+        {
+          "number": 13,
+          "text": "For against God hast thou turned thy spirit, And uttered such words from thy mouth."
+        },
+        {
+          "number": 14,
+          "text": "What is man, that he should be pure, And he that is born of woman, that he should be innocent?"
+        },
+        {
+          "number": 15,
+          "text": "Behold, He putteth no trust in his ministering spirits, And the heavens are not pure in his sight;"
+        },
+        {
+          "number": 16,
+          "text": "Much less, abominable and polluted man, Who drinketh iniquity as water."
+        },
+        {
+          "number": 17,
+          "text": "Hear me, and I will show thee, And that which I have seen will I declare;"
+        },
+        {
+          "number": 18,
+          "text": "Which the wise men have told, And not kept concealed, as received from their fathers;"
+        },
+        {
+          "number": 19,
+          "text": "To whom alone the land was given, And among whom not a stranger wandered."
+        },
+        {
+          "number": 20,
+          "text": "\"All his days the wicked man is in pain; Yea, all the years, that are laid up for the oppressor."
+        },
+        {
+          "number": 21,
+          "text": "A fearful sound is in his ears; In peace the destroyer cometh upon him."
+        },
+        {
+          "number": 22,
+          "text": "He hath no hope that he shall escape from darkness; He is set apart for the sword."
+        },
+        {
+          "number": 23,
+          "text": "He wandereth about, seeking bread; He knoweth that a day of darkness is at hand."
+        },
+        {
+          "number": 24,
+          "text": "Distress and anguish fill him with dread; They prevail against him like a king ready for the battle."
+        },
+        {
+          "number": 25,
+          "text": "Because he stretched forth his hand against God, And bade defiance to the Almighty,"
+        },
+        {
+          "number": 26,
+          "text": "And ran against him with outstretched neck, With the thick bosses of his bucklers;"
+        },
+        {
+          "number": 27,
+          "text": "Because he covered his face with fatness, And gathered fat upon his loins,"
+        },
+        {
+          "number": 28,
+          "text": "And dwelt in desolated cities, In houses which no man inhabiteth, That are ready to become heaps."
+        },
+        {
+          "number": 29,
+          "text": "He shall not be rich; his substance shall not endure, And his possessions shall not be extended upon the earth."
+        },
+        {
+          "number": 30,
+          "text": "He shall not escape from darkness, And the flame shall dry up his branches; Yea, by the breath of His mouth shall he be taken away."
+        },
+        {
+          "number": 31,
+          "text": "\"Let not man trust in vanity! he will be deceived; For vanity shall be his recompense."
+        },
+        {
+          "number": 32,
+          "text": "He shall come to his end before his time, And his branch shall not be green."
+        },
+        {
+          "number": 33,
+          "text": "He shall shake off his unripe fruit like the vine, And shed his blossoms like the olive-tree."
+        },
+        {
+          "number": 34,
+          "text": "The house of the unrighteous shall be famished, And fire shall consume the tents of bribery."
+        },
+        {
+          "number": 35,
+          "text": "They conceive mischief, and bring forth misery, And their breast deviseth deceit.\""
+        }
+      ]
+    },
+    "16": {
+      "chapter": 16,
+      "verses": [
+        {
+          "number": 1,
+          "text": "But Job answered and said:"
+        },
+        {
+          "number": 2,
+          "text": "Of such things as these I have heard enough! Miserable comforters are ye all!"
+        },
+        {
+          "number": 3,
+          "text": "Will there ever be an end to words of wind? What stirreth thee up, that thou answerest?"
+        },
+        {
+          "number": 4,
+          "text": "I also might speak like you, If ye were now in my place; I might string together words against you, And shake my head at you."
+        },
+        {
+          "number": 5,
+          "text": "I would strengthen you with my mouth, And the consolation of my lips should sustain you."
+        },
+        {
+          "number": 6,
+          "text": "If I speak, my grief is not assuaged; And if I forbear, it doth not leave me."
+        },
+        {
+          "number": 7,
+          "text": "For now He hath quite exhausted me; Thou hast desolated all my house!"
+        },
+        {
+          "number": 8,
+          "text": "Thou hast seized hold of me, and this is a witness against me; My leanness riseth up and testifieth against me to my face."
+        },
+        {
+          "number": 9,
+          "text": "His anger teareth my flesh, and pursueth me; He gnasheth upon me with his teeth; My adversary sharpeneth his eyes upon me."
+        },
+        {
+          "number": 10,
+          "text": "They gape for me with their mouths; In scorn they smite me on the cheek; With one consent they assemble against me."
+        },
+        {
+          "number": 11,
+          "text": "God hath given me a prey to the unrighteous, And delivered me into the hands of the wicked."
+        },
+        {
+          "number": 12,
+          "text": "I was at ease, but he hath crushed me; He hath seized me by the neck, and dashed me in pieces; He hath set me up for his mark."
+        },
+        {
+          "number": 13,
+          "text": "His archers encompass me around; He pierceth my reins, and doth not spare; He poureth out my gall upon the ground."
+        },
+        {
+          "number": 14,
+          "text": "He breaketh me with breach upon breach; He rusheth upon me like a warrior."
+        },
+        {
+          "number": 15,
+          "text": "I have sewed sackcloth upon my skin, And thrust my horn into the dust."
+        },
+        {
+          "number": 16,
+          "text": "My face is red with weeping, And upon my eyelids is deathlike darkness."
+        },
+        {
+          "number": 17,
+          "text": "Yet is there no injustice in my bands. And my prayer hath been pure."
+        },
+        {
+          "number": 18,
+          "text": "O earth! cover not thou my blood, And let there be no hiding-place for my cry!"
+        },
+        {
+          "number": 19,
+          "text": "Yet even now, behold, my witness is in heaven, And he who knoweth me is on high."
+        },
+        {
+          "number": 20,
+          "text": "My friends have me in derision, But my eye poureth out tears unto God."
+        },
+        {
+          "number": 21,
+          "text": "O that one might contend for a man with God, As a man contendeth with his neighbor!"
+        },
+        {
+          "number": 22,
+          "text": "For when a few years shall have passed, I shall go the way whence I shall not return."
+        }
+      ]
+    },
+    "17": {
+      "chapter": 17,
+      "verses": [
+        {
+          "number": 1,
+          "text": "My breath is exhausted; My days are at an end; The grave is ready for me."
+        },
+        {
+          "number": 2,
+          "text": "Are not revilers before me? And doth not my eye dwell upon their provocations?"
+        },
+        {
+          "number": 3,
+          "text": "Give a pledge, I pray thee; be thou a surety for me with thee; Who is he that will strike hands with me?"
+        },
+        {
+          "number": 4,
+          "text": "Behold, thou hast blinded their understanding; Therefore thou wilt not suffer them to prevail."
+        },
+        {
+          "number": 5,
+          "text": "He who delivereth up his friends as a prey,—The eyes of his children shall fail."
+        },
+        {
+          "number": 6,
+          "text": "He made me the by-word of the people; Yea, I have become their abhorrence."
+        },
+        {
+          "number": 7,
+          "text": "My eye therefore is dim with sorrow, And all my limbs are as a shadow."
+        },
+        {
+          "number": 8,
+          "text": "Upright men will be astonished at this, And the innocent will rouse themselves against the wicked."
+        },
+        {
+          "number": 9,
+          "text": "The righteous will also hold on his way, And he that hath clean hands will gather strength."
+        },
+        {
+          "number": 10,
+          "text": "But as for you all, return, I pray! I find not yet among you one wise man."
+        },
+        {
+          "number": 11,
+          "text": "My days are at an end; My plans are broken off; Even the treasures of my heart."
+        },
+        {
+          "number": 12,
+          "text": "Night hath become day to me; The light bordereth on darkness."
+        },
+        {
+          "number": 13,
+          "text": "Yea, I look to the grave as my home; I have made my bed in darkness."
+        },
+        {
+          "number": 14,
+          "text": "I say to the pit, Thou art my father! And to the worm, My mother! and, My sister!"
+        },
+        {
+          "number": 15,
+          "text": "Where then is my hope? Yea, my hope, who shall see it?"
+        },
+        {
+          "number": 16,
+          "text": "It must go down to the bars of the under-world, As soon as there is rest for me in the dust."
+        }
+      ]
+    },
+    "18": {
+      "chapter": 18,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Bildad the Shuhite answered and said:"
+        },
+        {
+          "number": 2,
+          "text": "How long ere ye make an end of words? Understand, and then we will speak!"
+        },
+        {
+          "number": 3,
+          "text": "Why are we accounted as brutes, And reputed vile in your sight?"
+        },
+        {
+          "number": 4,
+          "text": "Thou that tearest thyself in thine anger! Must the earth be deserted for thee, And the rock removed from its place?"
+        },
+        {
+          "number": 5,
+          "text": "Behold, the light of the wicked shall be put out, And the flame of his fire shall not shine."
+        },
+        {
+          "number": 6,
+          "text": "Light shall become darkness in his tent, And his lamp over him shall go out."
+        },
+        {
+          "number": 7,
+          "text": "His strong steps shall be straitened, And his own plans shall cast him down."
+        },
+        {
+          "number": 8,
+          "text": "He is brought into the net by his own feet, And he walketh upon snares."
+        },
+        {
+          "number": 9,
+          "text": "The trap layeth hold of him by the heel, And the snare holdeth him fast."
+        },
+        {
+          "number": 10,
+          "text": "A net is secretly laid for him on the ground, And a trap for him in the pathway."
+        },
+        {
+          "number": 11,
+          "text": "Terrors affright him on every side, And harass him at his heels."
+        },
+        {
+          "number": 12,
+          "text": "His strength is wasted by hunger, And destruction is ready at his side."
+        },
+        {
+          "number": 13,
+          "text": "His limbs are consumed, Yea, his limbs are devoured by the first-born of death."
+        },
+        {
+          "number": 14,
+          "text": "He is torn from his tent, which was his confidence, And is borne away to the king of terrors."
+        },
+        {
+          "number": 15,
+          "text": "They who are none of his shall dwell in his tent; Brimstone shall be scattered upon his habitation."
+        },
+        {
+          "number": 16,
+          "text": "His roots below shall be dried up, And his branches above shall be withered."
+        },
+        {
+          "number": 17,
+          "text": "His memory perisheth from the earth, And no name hath he in the land."
+        },
+        {
+          "number": 18,
+          "text": "He shall be thrust from light into darkness, And driven out of the world."
+        },
+        {
+          "number": 19,
+          "text": "He hath no son, nor kinsman among his people, Nor any survivor in his dwelling-place."
+        },
+        {
+          "number": 20,
+          "text": "They that come after him shall be amazed at his fate, As they that were before them were struck with horror."
+        },
+        {
+          "number": 21,
+          "text": "Yea, such is the dwelling of the unrighteous man; Such is the place of him who knoweth not God!"
+        }
+      ]
+    },
+    "19": {
+      "chapter": 19,
+      "verses": [
+        {
+          "number": 1,
+          "text": "But Job answered and said:"
+        },
+        {
+          "number": 2,
+          "text": "How long will ye vex my soul, And break me in pieces with words?"
+        },
+        {
+          "number": 3,
+          "text": "These ten times have ye reviled me; Without shame do ye stun me!"
+        },
+        {
+          "number": 4,
+          "text": "And be it, indeed, that I have erred, My error abideth with myself."
+        },
+        {
+          "number": 5,
+          "text": "Since, indeed, ye magnify yourselves against me, And plead against me my reproach,"
+        },
+        {
+          "number": 6,
+          "text": "Know then that it is God who hath brought me low; He hath encompassed me with his net."
+        },
+        {
+          "number": 7,
+          "text": "Behold, I complain of wrong, but receive no answer; I cry aloud, but obtain no justice."
+        },
+        {
+          "number": 8,
+          "text": "He hath fenced up my way, so that I cannot pass, And hath set darkness in my paths."
+        },
+        {
+          "number": 9,
+          "text": "He hath stripped me of my glory, And taken the crown from my head."
+        },
+        {
+          "number": 10,
+          "text": "He hath destroyed me on every side, and I am gone! He hath torn up my hope like a tree."
+        },
+        {
+          "number": 11,
+          "text": "He kindleth his anger against me, And counteth me as his enemy."
+        },
+        {
+          "number": 12,
+          "text": "His troops advance together against me; They throw up for themselves a way to me, And encamp around my dwelling."
+        },
+        {
+          "number": 13,
+          "text": "My brethren he hath put far from me, And my acquaintance are wholly estranged from me."
+        },
+        {
+          "number": 14,
+          "text": "My kinsfolk have forsaken me, And my bosom friends have forgotten me."
+        },
+        {
+          "number": 15,
+          "text": "The foreigners of my house, yea, my own maid-servants, regard me as a stranger; I am an alien in their eyes."
+        },
+        {
+          "number": 16,
+          "text": "I call my servant, and he maketh no answer; With my own mouth do I entreat him."
+        },
+        {
+          "number": 17,
+          "text": "My breath is become strange to my wife, And my prayers also to my own mother’s sons."
+        },
+        {
+          "number": 18,
+          "text": "Even young children despise me; When I rise up, they speak against me."
+        },
+        {
+          "number": 19,
+          "text": "All my bosom friends abhor me, And they whom I loved are turned against me."
+        },
+        {
+          "number": 20,
+          "text": "My bones cleave to my flesh and my skin, And I have scarcely escaped with the skin of my teeth."
+        },
+        {
+          "number": 21,
+          "text": "Have pity upon me, O ye my friends! have pity upon me; For the hand of God hath smitten me!"
+        },
+        {
+          "number": 22,
+          "text": "Why do ye persecute me like God, And are not satisfied with my flesh?"
+        },
+        {
+          "number": 23,
+          "text": "O that my words were now written! O that they were marked down in a scroll!"
+        },
+        {
+          "number": 24,
+          "text": "That with an iron pen, and with lead, They were engraven upon the rock for ever!"
+        },
+        {
+          "number": 25,
+          "text": "Yet I know that my Vindicator liveth, And will hereafter stand up on the earth;"
+        },
+        {
+          "number": 26,
+          "text": "And though with my skin this body be wasted away, Yet without my flesh shall I see God."
+        },
+        {
+          "number": 27,
+          "text": "Yea, I shall see him my friend; My eyes shall behold him, and not another: For this, my soul panteth within me."
+        },
+        {
+          "number": 28,
+          "text": "Since ye say, \"How may we persecute him, And find grounds of accusation against him?\""
+        },
+        {
+          "number": 29,
+          "text": "Be ye afraid of the sword! For malice is a crime for the sword; That ye may know that judgment cometh."
+        }
+      ]
+    },
+    "20": {
+      "chapter": 20,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then answered Zophar the Naamathite, and said:"
+        },
+        {
+          "number": 2,
+          "text": "For this do my thoughts lead me to reply, And for this is my ardor within me."
+        },
+        {
+          "number": 3,
+          "text": "I have heard my shameful rebuke; And the spirit, from my understanding, answereth for me."
+        },
+        {
+          "number": 4,
+          "text": "Knowest thou not, that from the days of old, From the time when man was placed upon the earth,"
+        },
+        {
+          "number": 5,
+          "text": "The triumphing of the wicked hath been short, And the joy of the impious but for a moment?"
+        },
+        {
+          "number": 6,
+          "text": "Though his greatness mount up to the heavens, And his head reach to the clouds,"
+        },
+        {
+          "number": 7,
+          "text": "Yet shall he perish for ever, and be mingled with dust; They who saw him shall say, Where is he?"
+        },
+        {
+          "number": 8,
+          "text": "He shall flee away like a dream, and shall not be found; Yea, he shall disappear like a vision of the nigh."
+        },
+        {
+          "number": 9,
+          "text": "The eye also which saw him shall see him no more, And his dwelling-place shall never more behold him."
+        },
+        {
+          "number": 10,
+          "text": "His sons shall seek the favor of the poor, And their hands shall give back his wealth."
+        },
+        {
+          "number": 11,
+          "text": "His bones are full of his youth, But they shall lie down with him in the dust."
+        },
+        {
+          "number": 12,
+          "text": "Though wickedness be sweet in his mouth, Though he hide it under his tongue,"
+        },
+        {
+          "number": 13,
+          "text": "Though he cherish it, and will not part with it, And keep it fast in his mouth,"
+        },
+        {
+          "number": 14,
+          "text": "Yet his meat shall be changed within him, And become to him the poison of asps."
+        },
+        {
+          "number": 15,
+          "text": "He hath glutted himself with riches, And he shall throw them up again; Yea, God shall cast them out of his body."
+        },
+        {
+          "number": 16,
+          "text": "He shall suck the poison of asps; The tongue of the viper shall destroy him."
+        },
+        {
+          "number": 17,
+          "text": "He shall never see the flowing streams, And the rivers of honey and milk."
+        },
+        {
+          "number": 18,
+          "text": "The fruits of his toil he shall give back, and shall not enjoy them: It is substance to be restored, and he shall not rejoice therein."
+        },
+        {
+          "number": 19,
+          "text": "Because he hath oppressed and abandoned the poor, And seized upon the house which he did not build;"
+        },
+        {
+          "number": 20,
+          "text": "Because he knew no rest in his bosom, He shall not save that in which he delighteth."
+        },
+        {
+          "number": 21,
+          "text": "Because nothing escaped his greediness, His prosperity shall not endure."
+        },
+        {
+          "number": 22,
+          "text": "In the fulness of his abundance he shall be brought low; Every hand of the wretched shall come upon him."
+        },
+        {
+          "number": 23,
+          "text": "He shall, indeed, have wherewith to fill himself: God shall send upon him the fury of his anger, And rain it down upon him for his food."
+        },
+        {
+          "number": 24,
+          "text": "If he fleeth from the iron weapon, The bow of brass shall pierce him through."
+        },
+        {
+          "number": 25,
+          "text": "He draweth the arrow, and it cometh forth from his body; Yea, the glittering steel cometh out of his gall. Terrors are upon him;"
+        },
+        {
+          "number": 26,
+          "text": "Calamity of every kind is treasured up for him. A fire not blown shall consume him; It shall consume whatever is left in his tent."
+        },
+        {
+          "number": 27,
+          "text": "The heavens shall reveal his iniquity, And the earth shall rise up against him."
+        },
+        {
+          "number": 28,
+          "text": "The substance of his house shall disappear; It shall flow away in the day of His wrath."
+        },
+        {
+          "number": 29,
+          "text": "Such is the portion of the wicked man from God, And the inheritance appointed for him by the Almighty."
+        }
+      ]
+    },
+    "21": {
+      "chapter": 21,
+      "verses": [
+        {
+          "number": 1,
+          "text": "But Job answered and said:"
+        },
+        {
+          "number": 2,
+          "text": "Hear attentively my words, And let this be your consolation."
+        },
+        {
+          "number": 3,
+          "text": "Bear with me, that I may speak; And after I have spoken, mock on!"
+        },
+        {
+          "number": 4,
+          "text": "Is my complaint concerning man? Why then should I not be angry?"
+        },
+        {
+          "number": 5,
+          "text": "Look upon me, and be astonished, And lay your hand upon your mouth!"
+        },
+        {
+          "number": 6,
+          "text": "When I think of it, I am confounded; Trembling taketh hold of my flesh."
+        },
+        {
+          "number": 7,
+          "text": "Why is it that the wicked live, Grow old, yea, become mighty in substance?"
+        },
+        {
+          "number": 8,
+          "text": "Their children are established in their sight with them, And their offspring before their eyes."
+        },
+        {
+          "number": 9,
+          "text": "Their houses are in peace, without fear, And the rod of God cometh not upon them."
+        },
+        {
+          "number": 10,
+          "text": "Their bull gendereth, and faileth not; Their cow calveth, and casteth not her calf."
+        },
+        {
+          "number": 11,
+          "text": "They send forth their little ones like a flock, And their children dance."
+        },
+        {
+          "number": 12,
+          "text": "They sing to the timbrel and harp, And rejoice at the sound of the pipe."
+        },
+        {
+          "number": 13,
+          "text": "They spend their days in prosperity, And in a moment go down to the under-world."
+        },
+        {
+          "number": 14,
+          "text": "And yet they say unto God, \"Depart from us! We desire not the knowledge of thy ways!"
+        },
+        {
+          "number": 15,
+          "text": "Who is the Almighty, that we should serve him? And what will it profit us, if we pray to him?\""
+        },
+        {
+          "number": 16,
+          "text": "[Ye say,] \"Lo! their prosperity is not secure in their hands! Far from me be the conduct of the wicked!\""
+        },
+        {
+          "number": 17,
+          "text": "How often is it, that the lamp of the wicked is put out? And that destruction cometh upon them, And that He dispenseth to them tribulations in his anger?"
+        },
+        {
+          "number": 18,
+          "text": "How often are they as stubble before the wind, Or as chaff, which the whirlwind carrieth away?"
+        },
+        {
+          "number": 19,
+          "text": "\"But\" [say ye] \"God layeth up his iniquity for his children.\" Let him requite the offender, and let him feel it!"
+        },
+        {
+          "number": 20,
+          "text": "Let his own eyes see his destruction, And let him drink of the wrath of the Almighty!"
+        },
+        {
+          "number": 21,
+          "text": "For what concern hath he for his household after him, When the number of his own months is completed?"
+        },
+        {
+          "number": 22,
+          "text": "Who then shall impart knowledge to God,—To him that judgeth the highest?"
+        },
+        {
+          "number": 23,
+          "text": "One dieth in the fulness of his prosperity, Being wholly at ease and quiet;"
+        },
+        {
+          "number": 24,
+          "text": "His sides are full of fat, And his bones moist with marrow."
+        },
+        {
+          "number": 25,
+          "text": "Another dieth in bitterness of soul, And hath not tasted pleasure."
+        },
+        {
+          "number": 26,
+          "text": "Alike they lie down in the dust, And the worms cover them."
+        },
+        {
+          "number": 27,
+          "text": "Behold, I know your thoughts, And the devices by which ye wrong me."
+        },
+        {
+          "number": 28,
+          "text": "For ye say, \"Where is the house of the oppressor, And where the dwelling-places of the wicked?\""
+        },
+        {
+          "number": 29,
+          "text": "Have ye never inquired of travellers, And do ye not know their tokens,"
+        },
+        {
+          "number": 30,
+          "text": "That the wicked is spared in the day of destruction, And that he is borne to his grave in the day of wrath?"
+        },
+        {
+          "number": 31,
+          "text": "Who will charge him with his conduct to his face, And who will requite him for the evil he hath done?"
+        },
+        {
+          "number": 32,
+          "text": "Even this man is borne with honor to the grave; Yea, he watcheth over his tomb."
+        },
+        {
+          "number": 33,
+          "text": "Sweet to him are the sods of the valley: And all men move after him, As multitudes without number before him."
+        },
+        {
+          "number": 34,
+          "text": "Why then do ye offer your vain consolations? Your answers continue false."
+        }
+      ]
+    },
+    "22": {
+      "chapter": 22,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then Eliphaz the Temanite answered and said:"
+        },
+        {
+          "number": 2,
+          "text": "Can a man, then, profit God? Behold, the wise man profiteth himself."
+        },
+        {
+          "number": 3,
+          "text": "Is it a pleasure to the Almighty, that thou art righteous; Or a gain to him, that thou walkest uprightly?"
+        },
+        {
+          "number": 4,
+          "text": "Will he contend with thee because he feareth thee? Will he enter with thee into judgment?"
+        },
+        {
+          "number": 5,
+          "text": "Hath not thy wickedness been great? Have not thine iniquities been numberless?"
+        },
+        {
+          "number": 6,
+          "text": "For thou hast taken a pledge from thy brother unjustly, And stripped the poor of their clothing."
+        },
+        {
+          "number": 7,
+          "text": "Thou hast given the weary no water to drink, And withholden bread from the hungry."
+        },
+        {
+          "number": 8,
+          "text": "But the man of power, his was the land, And the honorable man dwelt in it."
+        },
+        {
+          "number": 9,
+          "text": "Thou hast sent widows away empty, And broken the arms of the fatherless."
+        },
+        {
+          "number": 10,
+          "text": "Therefore snares are round about thee, And sudden fear confoundeth thee;"
+        },
+        {
+          "number": 11,
+          "text": "Or darkness, through which thou canst not see, And floods of water cover thee."
+        },
+        {
+          "number": 12,
+          "text": "Is not God in the height of heaven? And behold the stars, how high they are!"
+        },
+        {
+          "number": 13,
+          "text": "Hence thou sayest, \"What doth God know? Can he govern behind the thick darkness?"
+        },
+        {
+          "number": 14,
+          "text": "Dark clouds are a veil to him, and he cannot see; And he walketh upon the arch of heaven.\""
+        },
+        {
+          "number": 15,
+          "text": "Wilt thou take the old way Which wicked men have trodden,"
+        },
+        {
+          "number": 16,
+          "text": "Who were cut down before their time, And whose foundations were swept away by a flood?"
+        },
+        {
+          "number": 17,
+          "text": "Who said unto God, \"Depart from us!\" And, \"What can the Almighty do to us?\""
+        },
+        {
+          "number": 18,
+          "text": "And yet he filled their houses with good things!—Far from me be the counsel of the wicked!"
+        },
+        {
+          "number": 19,
+          "text": "The righteous see their fate, and rejoice; And the innocent hold them in derision."
+        },
+        {
+          "number": 20,
+          "text": "\"Truly our adversary is destroyed, And fire hath consumed his abundance!\""
+        },
+        {
+          "number": 21,
+          "text": "Acquaint now thyself with him, and be at peace: Thus shall prosperity return to thee."
+        },
+        {
+          "number": 22,
+          "text": "Receive, I pray thee, instruction from his mouth, And lay up his words in thy heart."
+        },
+        {
+          "number": 23,
+          "text": "If thou return to the Almighty, thou shalt be built up; If thou put away iniquity from thy tent."
+        },
+        {
+          "number": 24,
+          "text": "Cast to the dust thy gold, And the gold of Ophir to the stones of the brook:"
+        },
+        {
+          "number": 25,
+          "text": "Then shall the Almighty be thy gold, Yea, treasures of silver unto thee;"
+        },
+        {
+          "number": 26,
+          "text": "For then shalt thou have delight in the Almighty, And shalt lift up thy face unto God."
+        },
+        {
+          "number": 27,
+          "text": "Thou shalt pray to him, and he shall hear thee, And thou shalt perform thy vows."
+        },
+        {
+          "number": 28,
+          "text": "The purpose which thou formest shall prosper with thee, And light shall shine upon thy ways."
+        },
+        {
+          "number": 29,
+          "text": "When men are cast down, thou shalt say, \"There lifting up!\" And the humble person he will save."
+        },
+        {
+          "number": 30,
+          "text": "He will deliver even him that is not innocent. The purity of thy hands shall save him."
+        }
+      ]
+    },
+    "23": {
+      "chapter": 23,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then Job answered and said:"
+        },
+        {
+          "number": 2,
+          "text": "Still is my complaint bitter; But my wound is deeper than my groaning."
+        },
+        {
+          "number": 3,
+          "text": "O that I knew where I might find him! That I might go before his throne!"
+        },
+        {
+          "number": 4,
+          "text": "I would order my cause before him, And fill my mouth with arguments;"
+        },
+        {
+          "number": 5,
+          "text": "I should know what he would answer me, And understand what he would say to me."
+        },
+        {
+          "number": 6,
+          "text": "Would he contend with me with his mighty power? No! he would have regard to me."
+        },
+        {
+          "number": 7,
+          "text": "Then would an upright man contend with him, And I should be fully acquitted by my judge."
+        },
+        {
+          "number": 8,
+          "text": "But, behold, I go eastward, and he is not there; And westward, but I cannot perceive him;"
+        },
+        {
+          "number": 9,
+          "text": "To the north, where he worketh, but I cannot behold him; He hideth himself on the south, and I cannot see him."
+        },
+        {
+          "number": 10,
+          "text": "But he knoweth the way which is in my heart; When he trieth me, I shall come forth as gold."
+        },
+        {
+          "number": 11,
+          "text": "My feet have trodden in his steps; His way I have kept, and have not turned aside from it."
+        },
+        {
+          "number": 12,
+          "text": "I have not neglected the precepts of his lips; Above my own law have I esteemed the words of his mouth."
+        },
+        {
+          "number": 13,
+          "text": "But he is of one mind, and who can turn him? And what he desireth, that he doeth."
+        },
+        {
+          "number": 14,
+          "text": "He performeth that which is appointed for me; And many such things are in his mind!"
+        },
+        {
+          "number": 15,
+          "text": "Therefore I am in terror on account of him; When I consider, I am afraid of him."
+        },
+        {
+          "number": 16,
+          "text": "For God maketh my heart faint; Yea, the Almighty terrifieth me;"
+        },
+        {
+          "number": 17,
+          "text": "Because I was not taken away before darkness came, And he hath not hidden darkness from mine eyes."
+        }
+      ]
+    },
+    "24": {
+      "chapter": 24,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Why are not times treasured up by the Almighty? And why do not they who know him see his days?"
+        },
+        {
+          "number": 2,
+          "text": "They remove landmarks; They take away flocks by violence, and pasture them."
+        },
+        {
+          "number": 3,
+          "text": "They drive away the ass of the fatherless, And take the widow’s ox for a pledge."
+        },
+        {
+          "number": 4,
+          "text": "They push the needy from the way; All the poor of the land are forced to hide themselves."
+        },
+        {
+          "number": 5,
+          "text": "Behold, like wild asses of the desert, they go forth to their work; They search for prey; The wilderness supplieth them food for their children."
+        },
+        {
+          "number": 6,
+          "text": "In the fields they reap the harvest, And gather the vintage of the oppressor."
+        },
+        {
+          "number": 7,
+          "text": "They lodge naked, without clothing, And without covering from the cold."
+        },
+        {
+          "number": 8,
+          "text": "They are drenched with the mountain showers, And embrace the rock for want of shelter."
+        },
+        {
+          "number": 9,
+          "text": "The fatherless are torn from the breast, And the garment of the needy is taken for a pledge."
+        },
+        {
+          "number": 10,
+          "text": "They go naked, without clothing, And carry the sheaf hungry."
+        },
+        {
+          "number": 11,
+          "text": "They make oil within their walls, And tread the wine-vat, yet suffer thirst."
+        },
+        {
+          "number": 12,
+          "text": "From anguish the dying groan, And the wounded cry aloud; And God regardeth not their prayer!"
+        },
+        {
+          "number": 13,
+          "text": "Others hate the light; They know not its ways, And abide not in its paths."
+        },
+        {
+          "number": 14,
+          "text": "With the light ariseth the murderer; He killeth the poor and needy; In the night he is as a thief."
+        },
+        {
+          "number": 15,
+          "text": "The eye of the adulterer watcheth for the twilight; He saith, \"No eye will see me,\" And putteth a mask upon his face."
+        },
+        {
+          "number": 16,
+          "text": "In the dark they break into houses; In the daytime they shut themselves up; They are strangers to the light."
+        },
+        {
+          "number": 17,
+          "text": "The morning is to them the very shadow of death; They are familiar with the terrors of the shadow of death."
+        },
+        {
+          "number": 18,
+          "text": "Light are they on the face of the waters; They have an accursed portion in the earth; They come not near the vineyards."
+        },
+        {
+          "number": 19,
+          "text": "As drought and heat consume the snow waters, So doth the grave the wicked."
+        },
+        {
+          "number": 20,
+          "text": "His own mother forgetteth him; The worm feedeth sweetly on him; He is no more remembered, And iniquity is broken like a tree."
+        },
+        {
+          "number": 21,
+          "text": "He oppresseth the barren, that hath not borne, And doeth not good to the widow."
+        },
+        {
+          "number": 22,
+          "text": "He taketh away the mighty by his power; He riseth up, and no one is sure of life."
+        },
+        {
+          "number": 23,
+          "text": "God giveth them security, so that they are confident; His eyes are upon their ways."
+        },
+        {
+          "number": 24,
+          "text": "They are exalted; —in a little while they are gone! They are brought low, and die, like all others; And like the topmost ears of corn are they cut off."
+        },
+        {
+          "number": 25,
+          "text": "If it be not so, who will confute me, And show my discourse to be worthless?"
+        }
+      ]
+    },
+    "25": {
+      "chapter": 25,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then answered Bildad the Shuhite, and said:"
+        },
+        {
+          "number": 2,
+          "text": "Dominion and fear are with Him; He maintaineth peace in his high places."
+        },
+        {
+          "number": 3,
+          "text": "Is there any numbering of his hosts? And upon whom doth not his light arise?"
+        },
+        {
+          "number": 4,
+          "text": "How then can man be righteous before? Or how can he be pure that is born of woman?"
+        },
+        {
+          "number": 5,
+          "text": "Behold, even the moon, it shineth not; And the stars are not pure in his sight,"
+        },
+        {
+          "number": 6,
+          "text": "How much less, man, a worm; And the son of man, a reptile!"
+        }
+      ]
+    },
+    "26": {
+      "chapter": 26,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then Job answered and said:"
+        },
+        {
+          "number": 2,
+          "text": "How hast thou helped the weak, And strengthened the feeble arm!"
+        },
+        {
+          "number": 3,
+          "text": "How hast thou counselled the ignorant, And revealed wisdom in fulness!"
+        },
+        {
+          "number": 4,
+          "text": "For whom hast thou uttered these words? And whose spirit spake through thee?"
+        },
+        {
+          "number": 5,
+          "text": "Before Him the shades tremble Beneath the waters and their inhabitants."
+        },
+        {
+          "number": 6,
+          "text": "The under-world is naked before him, And destruction is without covering."
+        },
+        {
+          "number": 7,
+          "text": "He stretcheth out the north over empty space, And hangeth the earth upon nothing."
+        },
+        {
+          "number": 8,
+          "text": "He bindeth up the waters in his thick clouds, And the cloud is not rent under them."
+        },
+        {
+          "number": 9,
+          "text": "He covereth the face of his throne, And spreadeth his clouds upon it."
+        },
+        {
+          "number": 10,
+          "text": "He hath drawn a circular bound upon the waters, To the confines of light and darkness."
+        },
+        {
+          "number": 11,
+          "text": "The pillars of heaven tremble And are confounded at his rebuke."
+        },
+        {
+          "number": 12,
+          "text": "By his power he stilleth the sea, Yea, by his wisdom he smiteth its pride."
+        },
+        {
+          "number": 13,
+          "text": "By his spirit he hath garnished the heavens; His hand hath formed the fleeing Serpent."
+        },
+        {
+          "number": 14,
+          "text": "Lo! these are but the borders of his works; How faint the whisper we have heard of him! But the thunder of his power who can understand?"
+        }
+      ]
+    },
+    "27": {
+      "chapter": 27,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Moreover Job continued his discourse, and said:"
+        },
+        {
+          "number": 2,
+          "text": "As God liveth, who hath rejected my cause, And the Almighty, who hath afflicted my soul;"
+        },
+        {
+          "number": 3,
+          "text": "As long as my breath is in me, And the spirit of God is in my nostrils,"
+        },
+        {
+          "number": 4,
+          "text": "Never shall my lips speak falsehood, Nor my tongue utter deceit."
+        },
+        {
+          "number": 5,
+          "text": "God forbid that I should acknowledge you to be just: To my last breath will I assert my integrity."
+        },
+        {
+          "number": 6,
+          "text": "I will hold fast my innocence, and not let it go; My heart reproacheth me for no part of my life."
+        },
+        {
+          "number": 7,
+          "text": "May mine enemy be as the wicked, And he that riseth up against me as the unrighteous!"
+        },
+        {
+          "number": 8,
+          "text": "For what is the hope of the wicked, when God cutteth off his web, And taketh away his life?"
+        },
+        {
+          "number": 9,
+          "text": "Will he listen to his cry, When trouble cometh upon him?"
+        },
+        {
+          "number": 10,
+          "text": "Can he delight himself in the Almighty, And call at all times upon God?"
+        },
+        {
+          "number": 11,
+          "text": "I will teach you concerning the hand of God; That which is with the Almighty I will not conceal."
+        },
+        {
+          "number": 12,
+          "text": "Behold, ye yourselves have all seen it; Why then do ye cherish such vain thoughts?"
+        },
+        {
+          "number": 13,
+          "text": "This is the portion of the wicked man from God,—The inheritance which oppressors receive from the Almighty."
+        },
+        {
+          "number": 14,
+          "text": "If his children be multiplied, it is for the sword; And his offspring shall not be satisfied with bread."
+        },
+        {
+          "number": 15,
+          "text": "Those of them that escape shall be buried by Death, And their widows shall not bewail them."
+        },
+        {
+          "number": 16,
+          "text": "Though he heap up silver as dust, And procure raiment as clay,—"
+        },
+        {
+          "number": 17,
+          "text": "He may procure, but the righteous shall wear it, And the innocent shall share the silver."
+        },
+        {
+          "number": 18,
+          "text": "He buildeth his house like the moth, Or like the shed which the watchman maketh."
+        },
+        {
+          "number": 19,
+          "text": "The rich man lieth down, and is not buried; In the twinkling of an eye he is no more."
+        },
+        {
+          "number": 20,
+          "text": "Terrors pursue him like a flood; A tempest stealeth him away in the night."
+        },
+        {
+          "number": 21,
+          "text": "The east wind carrieth him away, and he perisheth; Yea, it sweepeth him away from his place."
+        },
+        {
+          "number": 22,
+          "text": "God sendeth his arrows at him, and doth not spare; He would fain escape from His hand."
+        },
+        {
+          "number": 23,
+          "text": "Men clap their hands at him, And hiss him away from his place."
+        }
+      ]
+    },
+    "28": {
+      "chapter": 28,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Truly there is a vein for silver, And a place for gold, which men refine."
+        },
+        {
+          "number": 2,
+          "text": "Iron is obtained from earth, And stone is melted into copper."
+        },
+        {
+          "number": 3,
+          "text": "Man putteth an end to darkness; He searcheth to the lowest depths For the stone of darkness and the shadow of death."
+        },
+        {
+          "number": 4,
+          "text": "From the place where they dwell they open a shaft; Forgotten by the feet, They hang down, they swing away from men."
+        },
+        {
+          "number": 5,
+          "text": "The earth, out of which cometh bread, Is torn up underneath, as it were by fire."
+        },
+        {
+          "number": 6,
+          "text": "Her stones are the place of sapphires, And she hath clods of gold for man."
+        },
+        {
+          "number": 7,
+          "text": "The path thereto no bird knoweth, And the vulture’s eye hath not seen it;"
+        },
+        {
+          "number": 8,
+          "text": "The fierce wild beast hath not trodden it; The lion hath not passed over it."
+        },
+        {
+          "number": 9,
+          "text": "Man layeth his hand upon the rock; He upturneth mountains from their roots;"
+        },
+        {
+          "number": 10,
+          "text": "He cleaveth out streams in the rocks, And his eye seeth every precious thing;"
+        },
+        {
+          "number": 11,
+          "text": "He bindeth up the streams, that they trickle not, And bringeth hidden things to light."
+        },
+        {
+          "number": 12,
+          "text": "But where shall wisdom be found? And where is the place of understanding?"
+        },
+        {
+          "number": 13,
+          "text": "Man knoweth not the price thereof, Nor can it be found in the land of the living."
+        },
+        {
+          "number": 14,
+          "text": "The deep saith, It is not in me; And the sea saith, It is not with me."
+        },
+        {
+          "number": 15,
+          "text": "It cannot be gotten for gold, Nor shall silver be weighed out as the price thereof."
+        },
+        {
+          "number": 16,
+          "text": "It cannot be bought with the gold of Ophir, With the precious onyx or the sapphire."
+        },
+        {
+          "number": 17,
+          "text": "Gold and crystal are not to be compared with it; Nor can it be purchased with jewels of fine gold."
+        },
+        {
+          "number": 18,
+          "text": "No mention shall be made of coral or of crystal; For wisdom is more precious than pearls."
+        },
+        {
+          "number": 19,
+          "text": "The topaz of Ethiopia cannot equal it, Nor can it be purchased with pure gold."
+        },
+        {
+          "number": 20,
+          "text": "Whence then cometh wisdom? And where is the place of understanding?"
+        },
+        {
+          "number": 21,
+          "text": "Since it is hidden from the eyes of all living, And kept close from the fowls of the air."
+        },
+        {
+          "number": 22,
+          "text": "Destruction and Death say, We have heard a rumor of it with our ears."
+        },
+        {
+          "number": 23,
+          "text": "God knoweth the way to it; He knoweth its dwelling-place."
+        },
+        {
+          "number": 24,
+          "text": "For he seeth to the ends of the earth, And surveyeth all things under the whole heaven."
+        },
+        {
+          "number": 25,
+          "text": "When he gave the winds their weight, And meted out the waters by measure;"
+        },
+        {
+          "number": 26,
+          "text": "When he prescribed a law to the rain, And a path to the thunder-flash,—"
+        },
+        {
+          "number": 27,
+          "text": "Then did he see it, and make it known; He established it, and searched it out."
+        },
+        {
+          "number": 28,
+          "text": "But he said unto man, Behold, the fear of the Lord, that is wisdom, And to depart from evil is understanding."
+        }
+      ]
+    },
+    "29": {
+      "chapter": 29,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Moreover Job continued his discourse, and said:"
+        },
+        {
+          "number": 2,
+          "text": "O that I were as in months past, In the days when God was my guardian;"
+        },
+        {
+          "number": 3,
+          "text": "When his lamp shined over my head, And when by his light I walked through darkness!"
+        },
+        {
+          "number": 4,
+          "text": "As I was in the autumn of my days, When the friendship of God was over my tent;"
+        },
+        {
+          "number": 5,
+          "text": "When the Almighty was yet with me, And my children were around me;"
+        },
+        {
+          "number": 6,
+          "text": "When I bathed my steps in milk, And the rock poured me out rivers of oil!"
+        },
+        {
+          "number": 7,
+          "text": "When I went forth to the gate by the city, And took my seat in the market-place,"
+        },
+        {
+          "number": 8,
+          "text": "The young men saw me and hid themselves, And the aged arose and stood."
+        },
+        {
+          "number": 9,
+          "text": "The princes refrained from speaking, And laid their hand upon their mouth."
+        },
+        {
+          "number": 10,
+          "text": "The nobles held their peace, And their tongue cleaved to the roof of their mouth."
+        },
+        {
+          "number": 11,
+          "text": "When the ear heard me, then it blessed me; And when the eye saw me, it gave witness to me."
+        },
+        {
+          "number": 12,
+          "text": "For I delivered the poor, when they cried; And the fatherless, who had none to help him."
+        },
+        {
+          "number": 13,
+          "text": "The blessing of him that was ready to perish came upon me, And I caused the heart of the widow to sing for joy."
+        },
+        {
+          "number": 14,
+          "text": "I clothed myself with righteousness, and it clothed itself with me; And justice was my robe and diadem."
+        },
+        {
+          "number": 15,
+          "text": "I was eyes to the blind, And feet was I to the lame;"
+        },
+        {
+          "number": 16,
+          "text": "I was a father to the poor, And the cause of him I knew not I searched out;"
+        },
+        {
+          "number": 17,
+          "text": "And I broke the teeth of the wicked, And plucked the spoil from his jaws."
+        },
+        {
+          "number": 18,
+          "text": "Then said I, \"I shall die in my nest; I shall multiply my days as the sand."
+        },
+        {
+          "number": 19,
+          "text": "My root is spread abroad to the waters, And the dew abideth on my branches."
+        },
+        {
+          "number": 20,
+          "text": "My glory is fresh with me, And my bow gathereth strength in my hand.\""
+        },
+        {
+          "number": 21,
+          "text": "To me men gave ear, and waited, And kept silence for my counsel."
+        },
+        {
+          "number": 22,
+          "text": "To my words they made no reply, When my speech dropped down upon them."
+        },
+        {
+          "number": 23,
+          "text": "Yea, they waited for me as for the rain; They opened their mouths wide as for the latter rain."
+        },
+        {
+          "number": 24,
+          "text": "If I smiled upon them, they believed it not; Nor did they cause the light of my countenance to fall."
+        },
+        {
+          "number": 25,
+          "text": "When I came among them, I sat as chief; I dwelt as a king in the midst of an army, As a comforter among mourners."
+        }
+      ]
+    },
+    "30": {
+      "chapter": 30,
+      "verses": [
+        {
+          "number": 1,
+          "text": "But now they that are younger than I hold me in derision, Whose fathers I would have disdained to set with the dogs of my flock."
+        },
+        {
+          "number": 2,
+          "text": "Of what use to me would be even the strength of their hands, To whom old age is lost?"
+        },
+        {
+          "number": 3,
+          "text": "By want and hunger they are famished; They gnaw the dry desert, The darkness of desolate wastes."
+        },
+        {
+          "number": 4,
+          "text": "They gather purslain among the bushes, And the root of the broom is their bread."
+        },
+        {
+          "number": 5,
+          "text": "They are driven from the society of men; There is a cry after them as after a thief."
+        },
+        {
+          "number": 6,
+          "text": "They dwell in gloomy valleys, In caves of the earth and in rocks."
+        },
+        {
+          "number": 7,
+          "text": "They bray among the bushes; Under the brambles are they stretched out."
+        },
+        {
+          "number": 8,
+          "text": "An impious and low-born race, They are beaten out of the land."
+        },
+        {
+          "number": 9,
+          "text": "And now I am become their song; Yea, I am their by-word!"
+        },
+        {
+          "number": 10,
+          "text": "They abhor me, they stand aloof from me; They forbear not to spit before my face."
+        },
+        {
+          "number": 11,
+          "text": "Yea, they let loose the reins, and humble me; They cast off the bridle before me."
+        },
+        {
+          "number": 12,
+          "text": "On my right hand riseth up the brood; They thrust away my feet; They cast up against me their destructive ways."
+        },
+        {
+          "number": 13,
+          "text": "They break up my path; They hasten my fall,—They who have no helper!"
+        },
+        {
+          "number": 14,
+          "text": "They come upon me as through a wide breach; Through the ruins they rush in upon me."
+        },
+        {
+          "number": 15,
+          "text": "Terrors are turned against me; They pursue my prosperity like the wind, And my welfare passeth away like a cloud."
+        },
+        {
+          "number": 16,
+          "text": "And now my soul poureth itself out upon me; Days of affliction have taken hold of me."
+        },
+        {
+          "number": 17,
+          "text": "By night my bones are pierced; they are torn from me, And my gnawers take no rest."
+        },
+        {
+          "number": 18,
+          "text": "Through the violence of my disease is my garment changed; It bindeth me about like the collar of my tunic."
+        },
+        {
+          "number": 19,
+          "text": "He hath cast me into the mire, And I am become like dust and ashes."
+        },
+        {
+          "number": 20,
+          "text": "I call upon Thee, but thou dost not hear me; I stand up before thee, but thou regardest me not."
+        },
+        {
+          "number": 21,
+          "text": "Thou art become cruel to me; With thy strong hand dost thou lie in wait for me."
+        },
+        {
+          "number": 22,
+          "text": "Thou liftest me up, and causest me to ride upon the wind; Thou meltest me away in the storm."
+        },
+        {
+          "number": 23,
+          "text": "I know that thou wilt bring me to death, To the place of assembly for all the living."
+        },
+        {
+          "number": 24,
+          "text": "When He stretcheth out his hand, prayer availeth nothing; When He bringeth destruction, vain is the cry for help."
+        },
+        {
+          "number": 25,
+          "text": "Did not I weep for him that was in trouble? Was not my soul grieved for the poor?"
+        },
+        {
+          "number": 26,
+          "text": "But when I looked for good, then evil came; When I looked for light, then came darkness."
+        },
+        {
+          "number": 27,
+          "text": "My bowels boil, and have no rest; Days of anguish have come upon me."
+        },
+        {
+          "number": 28,
+          "text": "I am black, but not by the sun; I stand up, and utter my cries in the congregation."
+        },
+        {
+          "number": 29,
+          "text": "I am become a brother to jackals, And a companion to ostriches."
+        },
+        {
+          "number": 30,
+          "text": "My skin is black, and falleth from me, And my bones burn with heat."
+        },
+        {
+          "number": 31,
+          "text": "My harp also is turned to mourning, And my pipe to notes of grief."
+        }
+      ]
+    },
+    "31": {
+      "chapter": 31,
+      "verses": [
+        {
+          "number": 1,
+          "text": "I made a covenant with mine eyes; How then could I gaze upon a maid?"
+        },
+        {
+          "number": 2,
+          "text": "For what is the portion appointed by God from above, And the inheritance allotted by the Almighty from on high?"
+        },
+        {
+          "number": 3,
+          "text": "Is not destruction for the wicked, And ruin for the workers of iniquity?"
+        },
+        {
+          "number": 4,
+          "text": "Doth He not see my ways, And number all my steps?"
+        },
+        {
+          "number": 5,
+          "text": "If I have walked with falsehood, And if my foot hath hasted to deceit,"
+        },
+        {
+          "number": 6,
+          "text": "Let him weigh me in an even balance; Yea, let God know my integrity!"
+        },
+        {
+          "number": 7,
+          "text": "If my steps have turned aside from the way, And my heart gone after mine eyes, Or if any stain hath cleaved to my hand,"
+        },
+        {
+          "number": 8,
+          "text": "Then I may sow, and another eat; And what I plant, may it be rooted up!"
+        },
+        {
+          "number": 9,
+          "text": "If my heart hath been enticed by a woman, Or if I have watched at my neighbor’s door,"
+        },
+        {
+          "number": 10,
+          "text": "Then let my wife grind for another, And let other men lie with her!"
+        },
+        {
+          "number": 11,
+          "text": "For this were a heinous crime, Even a transgression to be punished by the judges;"
+        },
+        {
+          "number": 12,
+          "text": "Yea, it were a fire that would consume to destruction, And root out all my increase."
+        },
+        {
+          "number": 13,
+          "text": "If I have refused justice to my man-servant or maid-servant, When they had a controversy with me,"
+        },
+        {
+          "number": 14,
+          "text": "Then what shall I do when God riseth up? And when he visiteth, what shall I answer him?"
+        },
+        {
+          "number": 15,
+          "text": "Did not He that made me in the womb make him? Did not one fashion us in the womb?"
+        },
+        {
+          "number": 16,
+          "text": "If I have refused the poor their desire, And caused the eyes of the widow to fail;"
+        },
+        {
+          "number": 17,
+          "text": "If I have eaten my morsel alone, And the fatherless hath not partaken of it;"
+        },
+        {
+          "number": 18,
+          "text": "(Nay, from my youth he grew up with me as with a father, And I have helped the widow from my mother’s womb;)"
+        },
+        {
+          "number": 19,
+          "text": "If I have seen any one perishing for want of clothing, Or any poor man without covering;"
+        },
+        {
+          "number": 20,
+          "text": "If his loins have not blessed me, And he hath not been warmed with the fleece of my sheep;"
+        },
+        {
+          "number": 21,
+          "text": "If I have shaken my hand against the fatherless, Because I saw my help in the gate,—"
+        },
+        {
+          "number": 22,
+          "text": "Then may my shoulder fill from its blade, And my fore-arm be broken from its bone!"
+        },
+        {
+          "number": 23,
+          "text": "For destruction from God was a terror to me, And before his majesty I could do nothing."
+        },
+        {
+          "number": 24,
+          "text": "If I have made gold my trust, Or said to the fine gold, Thou art my confidence;"
+        },
+        {
+          "number": 25,
+          "text": "If I have rejoiced, because my wealth was great, And my hand had found abundance;"
+        },
+        {
+          "number": 26,
+          "text": "If I have beheld the sun in his splendor, Or the moon advancing in brightness,"
+        },
+        {
+          "number": 27,
+          "text": "And my heart hath been secretly enticed, And my mouth hath kissed my hand,"
+        },
+        {
+          "number": 28,
+          "text": "This also were a crime to be punished by the judge; For I should have denied the God who is above."
+        },
+        {
+          "number": 29,
+          "text": "If I have rejoiced at the destruction of him that hated me, And exulted when evil came upon him;"
+        },
+        {
+          "number": 30,
+          "text": "(Nay, I have not suffered my mouth to sin, By asking with curses his life;)"
+        },
+        {
+          "number": 31,
+          "text": "If the men of my tent have not exclaimed, \"Who is there that hath not been satisfied with his meat?\""
+        },
+        {
+          "number": 32,
+          "text": "The stranger did not lodge in the street; I opened my doors to the traveller."
+        },
+        {
+          "number": 33,
+          "text": "Have I, after the manner of men, hidden my transgression, Concealing my iniquity in my bosom,"
+        },
+        {
+          "number": 34,
+          "text": "Then let me be confounded before the great multitude! Let the contempt of families cover me with shame! Yea, let me keep silence! let me never appear abroad!"
+        },
+        {
+          "number": 35,
+          "text": "O that there were one who would hear me! Behold my signature! let the Almighty answer me. And let mine adversary write down his charge!"
+        },
+        {
+          "number": 36,
+          "text": "Truly I would wear it upon my shoulder; I would bind it upon me as a crown."
+        },
+        {
+          "number": 37,
+          "text": "I would disclose to him all my steps; I would approach him like a prince."
+        },
+        {
+          "number": 38,
+          "text": "If my land cry out against me, And its furrows bewail together;"
+        },
+        {
+          "number": 39,
+          "text": "If I have eaten of its fruits without payment, And wrung out the life of its owners,"
+        },
+        {
+          "number": 40,
+          "text": "Let thorns grow up instead of wheat, And noxious weeds instead of barley. The words of Job are ended."
+        }
+      ]
+    },
+    "32": {
+      "chapter": 32,
+      "verses": [
+        {
+          "number": 1,
+          "text": "So these three men ceased to answer Job, because he was righteous in his own eyes."
+        },
+        {
+          "number": 2,
+          "text": "Then was kindled the wrath of Elihu, the son of Barachel, the Buzite, of the family of Ram; against Job was his wrath kindled, because he accounted himself righteous rather than God."
+        },
+        {
+          "number": 3,
+          "text": "Against his three friends also was his wrath kindled, because they had not found an answer, and yet had condemned Job."
+        },
+        {
+          "number": 4,
+          "text": "Now Elihu had delayed to reply to Job, because they were older than himself."
+        },
+        {
+          "number": 5,
+          "text": "But when Elihu saw that there was no answer in the mouth of these three men, his wrath was kindled."
+        },
+        {
+          "number": 6,
+          "text": "Then spake Elihu, the son of Barachel, the Buzite, and said: I am young, and ye are very old; Therefore I was afraid, And durst not make known to you my opinion."
+        },
+        {
+          "number": 7,
+          "text": "I said, \"Days should speak, And the multitude of years should teach wisdom.\""
+        },
+        {
+          "number": 8,
+          "text": "But it is the spirit in man, Even the inspiration of the Almighty, that giveth him understanding."
+        },
+        {
+          "number": 9,
+          "text": "Great men are not always wise, Nor do the aged always understand what is right."
+        },
+        {
+          "number": 10,
+          "text": "Therefore, I pray, listen to me: I also will declare my opinion."
+        },
+        {
+          "number": 11,
+          "text": "Behold, I have waited for your words, I have listened to your arguments, Whilst ye searched out what to say;"
+        },
+        {
+          "number": 12,
+          "text": "Yea, I have attended to you; And behold, none of you hath refuted Job, Nor answered his words."
+        },
+        {
+          "number": 13,
+          "text": "Say not, then, \"We have found out wisdom; God must conquer him, not man.\""
+        },
+        {
+          "number": 14,
+          "text": "He hath not directed his discourse against me, And with speeches like yours will I not answer him."
+        },
+        {
+          "number": 15,
+          "text": "They were confounded! they answered no more! They could say nothing!"
+        },
+        {
+          "number": 16,
+          "text": "I waited, but they spake not; They stood still; they answered no more!"
+        },
+        {
+          "number": 17,
+          "text": "Therefore will I answer, on my part; I also will show my opinion."
+        },
+        {
+          "number": 18,
+          "text": "For I am full of matter; The spirit within me constraineth me."
+        },
+        {
+          "number": 19,
+          "text": "Behold, my bosom is as wine that hath no vent; Like bottles of new wine, which are bursting."
+        },
+        {
+          "number": 20,
+          "text": "I will speak, that I may be relieved; I will open my lips and answer."
+        },
+        {
+          "number": 21,
+          "text": "I will not be partial to any man’s person, Nor will I flatter any man."
+        },
+        {
+          "number": 22,
+          "text": "For I know not how to flatter; Soon would my Maker take me away."
+        }
+      ]
+    },
+    "33": {
+      "chapter": 33,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Hear, therefore, my discourse, I pray thee, O Job! And attend unto all my words!"
+        },
+        {
+          "number": 2,
+          "text": "Behold, I am opening my mouth; My tongue is now speaking in my palate."
+        },
+        {
+          "number": 3,
+          "text": "My words shall be in the uprightness of my heart; My lips shall utter knowledge purely."
+        },
+        {
+          "number": 4,
+          "text": "The spirit of God made me, And the breath of the Almighty gave me life."
+        },
+        {
+          "number": 5,
+          "text": "If thou art able, answer me; Set thyself in array against me; stand up!"
+        },
+        {
+          "number": 6,
+          "text": "Behold, I, like thee, am a creature of God; I also was formed of clay."
+        },
+        {
+          "number": 7,
+          "text": "Behold, my terror cannot dismay thee, Nor can my greatness be heavy upon thee."
+        },
+        {
+          "number": 8,
+          "text": "Surely thou hast said in my hearing, I have heard the sound of thy words:"
+        },
+        {
+          "number": 9,
+          "text": "\"I am pure, and without transgression; I am clean, and there is no iniquity in me."
+        },
+        {
+          "number": 10,
+          "text": "Behold, He seeketh causes of hostility against me; He regardeth me as his enemy."
+        },
+        {
+          "number": 11,
+          "text": "He putteth my feet in the stocks; He watcheth all my paths.\""
+        },
+        {
+          "number": 12,
+          "text": "Behold, in this thou art not right; I will answer thee; For God is greater than man."
+        },
+        {
+          "number": 13,
+          "text": "Why dost thou contend with Him? For he giveth no account of any of his doings."
+        },
+        {
+          "number": 14,
+          "text": "For God speaketh once, Yea, twice, when man regardeth it not."
+        },
+        {
+          "number": 15,
+          "text": "In a dream, in a vision of the night, When deep sleep falleth upon men, In slumber upon the bed;"
+        },
+        {
+          "number": 16,
+          "text": "Then openeth he the ears of men, And sealeth up for them admonition;"
+        },
+        {
+          "number": 17,
+          "text": "That he may turn man from his purpose, And hide pride from man."
+        },
+        {
+          "number": 18,
+          "text": "Thus he saveth him from the pit, Yea, his life from perishing by the sword."
+        },
+        {
+          "number": 19,
+          "text": "He is chastened also with pain upon his bed, And with a continual agitation of his bones,"
+        },
+        {
+          "number": 20,
+          "text": "So that his mouth abhorreth bread, And his taste the choicest food;"
+        },
+        {
+          "number": 21,
+          "text": "His flesh is consumed, that it cannot be seen, And his bones, that were invisible, are naked;"
+        },
+        {
+          "number": 22,
+          "text": "Yea, his soul draweth near to the pit, And his life to the destroyers."
+        },
+        {
+          "number": 23,
+          "text": "But if there be with him a messenger, An interpreter, one of a thousand, Who may show unto man his duty,"
+        },
+        {
+          "number": 24,
+          "text": "Then will God be gracious to him, and say, \"Save him from going down to the pit: I have found a ransom.\""
+        },
+        {
+          "number": 25,
+          "text": "His flesh shall became fresher than a child’s; He shall return to the days of his youth."
+        },
+        {
+          "number": 26,
+          "text": "He shall pray to God, and he will be favorable to him, And permit him to see his face with joy, And restore unto man his righteousness."
+        },
+        {
+          "number": 27,
+          "text": "He shall sing among men, and say, \"I sinned; I acted perversely; Yet hath he not requited me for it:"
+        },
+        {
+          "number": 28,
+          "text": "He hath delivered me from going down to the pit, And my life beholdeth the light.\""
+        },
+        {
+          "number": 29,
+          "text": "Lo! all these things doeth God Time after time with man,"
+        },
+        {
+          "number": 30,
+          "text": "That he may bring him back from the pit, That he may enjoy the light of the living."
+        },
+        {
+          "number": 31,
+          "text": "Mark well, O Job! hearken to me! Keep silence, and I will speak."
+        },
+        {
+          "number": 32,
+          "text": "Yet if thou hast any thing to say, answer me! Speak! for I desire to pronounce thee innocent."
+        },
+        {
+          "number": 33,
+          "text": "But if not, do thou listen to me! Keep silence, and I will teach thee wisdom!"
+        }
+      ]
+    },
+    "34": {
+      "chapter": 34,
+      "verses": [
+        {
+          "number": 1,
+          "text": "And Elihu proceeded, and said:"
+        },
+        {
+          "number": 2,
+          "text": "Hear my words, ye wise men! Give ear to me, ye that have knowledge!"
+        },
+        {
+          "number": 3,
+          "text": "For the ear trieth words, As the mouth tasteth meat."
+        },
+        {
+          "number": 4,
+          "text": "Let us examine for ourselves what is right; Let us know among ourselves what is true."
+        },
+        {
+          "number": 5,
+          "text": "Job hath said, \"I am righteous, And God refuseth me justice."
+        },
+        {
+          "number": 6,
+          "text": "Though I am innocent, I am made a liar; My wound is incurable, though I am free from transgression.\""
+        },
+        {
+          "number": 7,
+          "text": "Where is the man like Job, Who drinketh impiety like water;"
+        },
+        {
+          "number": 8,
+          "text": "Who goeth in company with evil-doers, And walketh with wicked men?"
+        },
+        {
+          "number": 9,
+          "text": "For he hath said, \"A man hath no advantage, When he delighteth himself in God.\""
+        },
+        {
+          "number": 10,
+          "text": "Wherefore hearken to me, ye men of understanding! Far be iniquity from God; Yea, far be injustice from the Almighty!"
+        },
+        {
+          "number": 11,
+          "text": "For what a man hath done he will requite him, And render to every one according to his deeds."
+        },
+        {
+          "number": 12,
+          "text": "Surely God will not do iniquity, Nor will the Almighty pervert justice."
+        },
+        {
+          "number": 13,
+          "text": "Who hath given him the charge of the earth? Or who hath created the whole world?"
+        },
+        {
+          "number": 14,
+          "text": "Should he set his heart against man, Should he take back his spirit and his breath,"
+        },
+        {
+          "number": 15,
+          "text": "Then would all flesh expire together; Yea, man would return to the dust."
+        },
+        {
+          "number": 16,
+          "text": "If thou hast understanding, hear this! Give ear to the voice of my words!"
+        },
+        {
+          "number": 17,
+          "text": "Shall he, that hateth justice, govern? Wilt thou then condemn the just and mighty One?"
+        },
+        {
+          "number": 18,
+          "text": "Is it fit to say to a king, Thou art wicked; Or to princes, Ye are unrighteous?"
+        },
+        {
+          "number": 19,
+          "text": "How much less to him that is not partial to princes, Nor regardeth the rich more than the poor? For they are all the work of his hands."
+        },
+        {
+          "number": 20,
+          "text": "In a moment they die; yea, at midnight Do the people stagger and pass away, And the mighty are destroyed without hand."
+        },
+        {
+          "number": 21,
+          "text": "For his eyes are upon the ways of man; He seeth all his steps."
+        },
+        {
+          "number": 22,
+          "text": "There is no darkness, nor shadow of death, Where evil-doers may hide themselves."
+        },
+        {
+          "number": 23,
+          "text": "He needeth not attend long to a man, That he may go into judgment before God;"
+        },
+        {
+          "number": 24,
+          "text": "He dasheth in pieces the mighty without inquiry, And setteth up others in their stead."
+        },
+        {
+          "number": 25,
+          "text": "Therefore he knoweth their works, And in a night he overthroweth them, so that they are destroyed."
+        },
+        {
+          "number": 26,
+          "text": "On account of their wickedness he smiteth them, In the presence of many beholders;"
+        },
+        {
+          "number": 27,
+          "text": "Because they turned away from him, And had no regard to his ways,"
+        },
+        {
+          "number": 28,
+          "text": "And caused the cry of the poor to come before him; For he heareth the cry of the oppressed."
+        },
+        {
+          "number": 29,
+          "text": "When he giveth rest, who can cause trouble? And when he hideth his face, Who can behold him?"
+        },
+        {
+          "number": 30,
+          "text": "So is it with nations and individuals alike! That the wicked may no more rule, And may not be snares to the people."
+        },
+        {
+          "number": 31,
+          "text": "Surely thou shouldst say unto God, \"I have received chastisement; I will no more offend;"
+        },
+        {
+          "number": 32,
+          "text": "What I see not, teach thou me! If I have done iniquity, I will do it no more.\""
+        },
+        {
+          "number": 33,
+          "text": "Shall he recompense according to thy mind, Because thou refusest, or because thou choosest, and not he? Speak, if thou hast knowledge!"
+        },
+        {
+          "number": 34,
+          "text": "Men of understanding, Wise men, who hear me, will say,"
+        },
+        {
+          "number": 35,
+          "text": "\"Job hath spoken without knowledge, And his words are without wisdom.\""
+        },
+        {
+          "number": 36,
+          "text": "I desire that Job may be tried to the last, For answering like wicked men."
+        },
+        {
+          "number": 37,
+          "text": "For he addeth impiety to his sin; He clappeth his hands among us, And multiplieth words against God."
+        }
+      ]
+    },
+    "35": {
+      "chapter": 35,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Moreover Elihu proceeded, and said:"
+        },
+        {
+          "number": 2,
+          "text": "Dost thou then think this to be right? Thou hast said, \"I am more righteous than God.\""
+        },
+        {
+          "number": 3,
+          "text": "For thou askest, \"What advantage have I? What have I gained, more than if I had sinned?\""
+        },
+        {
+          "number": 4,
+          "text": "I will answer thee, And thy companions with thee."
+        },
+        {
+          "number": 5,
+          "text": "Look up to the heavens, and see! And behold the clouds, which are high above thee!"
+        },
+        {
+          "number": 6,
+          "text": "If thou sinnest, what doest thou against Him? If thy transgressions be multiplied, what doest thou to him?"
+        },
+        {
+          "number": 7,
+          "text": "If thou art righteous, what dost thou give him? Or what receiveth he at thy hand?"
+        },
+        {
+          "number": 8,
+          "text": "Thy wickedness injureth only a man like thyself, And thy righteousness profiteth only a son of man."
+        },
+        {
+          "number": 9,
+          "text": "The oppressed cry out on account of the multitude of wrongs; They cry aloud on account of the arm of the mighty."
+        },
+        {
+          "number": 10,
+          "text": "But none saith, \"Where is God, my Maker, Who giveth songs in the night;"
+        },
+        {
+          "number": 11,
+          "text": "Who teacheth us more than the beasts of the earth, And maketh us wiser than the birds of heaven?\""
+        },
+        {
+          "number": 12,
+          "text": "There they cry aloud on account of the pride of the wicked; But he giveth no answer."
+        },
+        {
+          "number": 13,
+          "text": "For God will not hear the vain supplication, Nor will the Almighty regard it;"
+        },
+        {
+          "number": 14,
+          "text": "Much less when thou sayest thou canst not see him: Justice is with him,—only wait thou for him!"
+        },
+        {
+          "number": 15,
+          "text": "But now, because he hath not visited in his anger, Nor taken strict note of transgression,"
+        },
+        {
+          "number": 16,
+          "text": "Therefore hath Job opened his mouth rashly, And multiplied words without knowledge."
+        }
+      ]
+    },
+    "36": {
+      "chapter": 36,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Elihu also proceeded, and said:"
+        },
+        {
+          "number": 2,
+          "text": "Bear with me a little while, that I may show thee! For I have yet words in behalf of God."
+        },
+        {
+          "number": 3,
+          "text": "I will bring my knowledge from afar, And assert the justice of my Maker."
+        },
+        {
+          "number": 4,
+          "text": "Truly my words shall not be false: A man of sound knowledge is before thee."
+        },
+        {
+          "number": 5,
+          "text": "Behold, God is great, but despiseth not any; Great is he in strength of understanding."
+        },
+        {
+          "number": 6,
+          "text": "He suffereth not the wicked to prosper, But rendereth justice to the oppressed."
+        },
+        {
+          "number": 7,
+          "text": "He withdraweth not his eyes from the righteous; But establisheth them for ever with kings on the throne, That they may be exalted."
+        },
+        {
+          "number": 8,
+          "text": "And if they be bound in fetters, And holden in the cords of affliction,"
+        },
+        {
+          "number": 9,
+          "text": "Then showeth he them their deeds, And how they have set him at defiance by their transgressions;"
+        },
+        {
+          "number": 10,
+          "text": "He also openeth their ears to admonition, And commandeth them to return from iniquity."
+        },
+        {
+          "number": 11,
+          "text": "If they obey and serve him, They spend their days in prosperity, And their years in pleasures."
+        },
+        {
+          "number": 12,
+          "text": "But if they obey not, they perish by the sword; They die in their own folly."
+        },
+        {
+          "number": 13,
+          "text": "The corrupt in heart treasure up wrath; They cry not to God, when he bindeth them."
+        },
+        {
+          "number": 14,
+          "text": "They die in their youth; They close their lives with the unclean."
+        },
+        {
+          "number": 15,
+          "text": "But he delivereth the poor in their distress; He openeth their ears in affliction."
+        },
+        {
+          "number": 16,
+          "text": "He will bring thee also from the jaws of distress To a broad place, where is no straitness; And the provision of thy table shall be full of fatness."
+        },
+        {
+          "number": 17,
+          "text": "But if thou art full of the judgment of the wicked, Judgment and justice shall take hold of thee."
+        },
+        {
+          "number": 18,
+          "text": "For if wrath be with him, beware lest he take thee away by his stroke, So that a great ransom shall not save thee!"
+        },
+        {
+          "number": 19,
+          "text": "Will he esteem thy riches? No! neither thy gold, nor all the abundance of thy wealth."
+        },
+        {
+          "number": 20,
+          "text": "Long not thou for that night To which nations are taken away from their place."
+        },
+        {
+          "number": 21,
+          "text": "Take heed, turn not thine eyes to iniquity! For this hast thou chosen rather than affliction."
+        },
+        {
+          "number": 22,
+          "text": "Behold, God is exalted in his power: Who is a teacher like him?"
+        },
+        {
+          "number": 23,
+          "text": "Who hath prescribed to him his way? Or who can say to him, \"Thou hast done wrong\"?"
+        },
+        {
+          "number": 24,
+          "text": "Forget not to magnify his work, Which men celebrate with songs."
+        },
+        {
+          "number": 25,
+          "text": "All mankind gaze upon it; Mortals behold it from afar."
+        },
+        {
+          "number": 26,
+          "text": "Behold, God is great; we cannot know him, Nor search out the number of his years."
+        },
+        {
+          "number": 27,
+          "text": "Lo! he draweth up the drops of water, Which distil rain from his vapor;"
+        },
+        {
+          "number": 28,
+          "text": "The clouds pour it down, And drop it upon man in abundance."
+        },
+        {
+          "number": 29,
+          "text": "Who can understand the spreading of his clouds, And the rattling of his pavilion?"
+        },
+        {
+          "number": 30,
+          "text": "Behold, he spreadeth around himself his light, And he clotheth himself with the depths of the sea."
+        },
+        {
+          "number": 31,
+          "text": "By these he punisheth nations, And by these he giveth food in abundance."
+        },
+        {
+          "number": 32,
+          "text": "His hands he covereth with lightning; He giveth it commandment against an enemy."
+        },
+        {
+          "number": 33,
+          "text": "His thunder maketh him known; Yea, to the herds, as he ascendeth on high."
+        }
+      ]
+    },
+    "37": {
+      "chapter": 37,
+      "verses": [
+        {
+          "number": 1,
+          "text": "At this my heart trembleth, And leapeth out of its place."
+        },
+        {
+          "number": 2,
+          "text": "Hear, O hear, the thunder of his voice, And the noise which goeth forth from his mouth!"
+        },
+        {
+          "number": 3,
+          "text": "He directeth it under the whole heaven, And his lightning to the ends of the earth."
+        },
+        {
+          "number": 4,
+          "text": "After it the thunder roareth; He thundereth with his voice of majesty, And restraineth it not, when his voice is heard."
+        },
+        {
+          "number": 5,
+          "text": "God thundereth with his voice marvellously; Great things doeth he, which we cannot comprehend."
+        },
+        {
+          "number": 6,
+          "text": "For he saith to the snow, \"Be thou on the earth!\" To the shower also, even the showers of his might."
+        },
+        {
+          "number": 7,
+          "text": "He sealeth up the hand of every man, That all men whom he hath made may acknowledge him."
+        },
+        {
+          "number": 8,
+          "text": "Then the beasts go into dens, And abide in their caverns."
+        },
+        {
+          "number": 9,
+          "text": "Out of the south cometh the whirlwind, And cold out of the north."
+        },
+        {
+          "number": 10,
+          "text": "By the breath of God ice is formed, And the broad waters become narrow,"
+        },
+        {
+          "number": 11,
+          "text": "Yea, with moisture he burdeneth the clouds; He spreadeth abroad his lightning-clouds."
+        },
+        {
+          "number": 12,
+          "text": "They move about by his direction, To execute all his commands throughout the world;"
+        },
+        {
+          "number": 13,
+          "text": "Whether he cause them to come for punishment, Or for the land, or for mercy."
+        },
+        {
+          "number": 14,
+          "text": "Give ear to this, O Job! Stand still, and consider the wondrous works of God!"
+        },
+        {
+          "number": 15,
+          "text": "Dost thou know when God gave commandment to them, And caused the lightning of his cloud to flash?"
+        },
+        {
+          "number": 16,
+          "text": "Dost thou understand the balancing of the clouds, The wondrous works of Him that is perfect in knowledge?"
+        },
+        {
+          "number": 17,
+          "text": "How thy garments become warm, When he maketh the earth still by the south wind?"
+        },
+        {
+          "number": 18,
+          "text": "Canst thou like him spread out the sky, Which is firm like a molten mirror?"
+        },
+        {
+          "number": 19,
+          "text": "Teach us what we shall say to him! For we cannot set in order our words by reason of darkness."
+        },
+        {
+          "number": 20,
+          "text": "Shall it be told him that I would speak? Shall a man speak, that he may be consumed?"
+        },
+        {
+          "number": 21,
+          "text": "For now men do not look upon the light, When it is bright in the skies, When the wind hath passed over them, and made them clear."
+        },
+        {
+          "number": 22,
+          "text": "From the north cometh gold; But with God is terrible majesty!"
+        },
+        {
+          "number": 23,
+          "text": "The Almighty, we cannot find him out; Great is he in power and justice, Abundant in righteousness; he doth not oppress."
+        },
+        {
+          "number": 24,
+          "text": "Therefore let men fear him! Upon none of the wise in heart will he look."
+        }
+      ]
+    },
+    "38": {
+      "chapter": 38,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then spake Jehovah to Job out of the whirlwind, and said:"
+        },
+        {
+          "number": 2,
+          "text": "Who is this that darkeneth counsel by words without knowledge?"
+        },
+        {
+          "number": 3,
+          "text": "Gird up thy loins like a man! I will ask thee, and answer thou me!"
+        },
+        {
+          "number": 4,
+          "text": "Where wast thou when I laid the foundations of the earth? Declare, if thou hast understanding!"
+        },
+        {
+          "number": 5,
+          "text": "Who fixed its dimensions, that thou shouldst know it! Or who stretched out the line upon it?"
+        },
+        {
+          "number": 6,
+          "text": "Upon what were its foundations fixed? And who laid its corner-stone,"
+        },
+        {
+          "number": 7,
+          "text": "When the morning stars sang together, And all the sons of God shouted for joy?"
+        },
+        {
+          "number": 8,
+          "text": "And who shut up the sea with doors, When it burst forth as from the womb?"
+        },
+        {
+          "number": 9,
+          "text": "When I made the clouds its mantle, And thick darkness its swaddling-band;"
+        },
+        {
+          "number": 10,
+          "text": "When I appointed for it my bound, And fixed for it bars and doors;"
+        },
+        {
+          "number": 11,
+          "text": "And said, Thus far shalt thou come, and no farther, And here shall thy proud waves be stayed!"
+        },
+        {
+          "number": 12,
+          "text": "Hast thou, in thy life, given charge to the morning, Or caused the day-spring to know its place,"
+        },
+        {
+          "number": 13,
+          "text": "That it should lay hold of the ends of the earth, And shake the wicked out of it?"
+        },
+        {
+          "number": 14,
+          "text": "It is changed as clay by the seal; And all things stand forth as in rich apparel."
+        },
+        {
+          "number": 15,
+          "text": "But from the wicked their light is withheld, And the high-raised arm is broken."
+        },
+        {
+          "number": 16,
+          "text": "Hast thou visited the springs of the sea, And walked through the recesses of the deep?"
+        },
+        {
+          "number": 17,
+          "text": "Have the gates of death been disclosed to thee, And hast thou seen the gates of the shadow of death?"
+        },
+        {
+          "number": 18,
+          "text": "Hast thou surveyed the breadth of the earth? Declare, if thou knowest it all!"
+        },
+        {
+          "number": 19,
+          "text": "Where is the way to the abode of light? And darkness—where is its dwelling-place?"
+        },
+        {
+          "number": 20,
+          "text": "That thou shouldst lead it to its boundary, And that thou shouldst know the paths to its mansion!"
+        },
+        {
+          "number": 21,
+          "text": "Surely thou knowest; for thou wast then born! And the number of thy years is great!"
+        },
+        {
+          "number": 22,
+          "text": "Hast thou visited the storehouses of the snow, Or seen the treasuries of the hail,"
+        },
+        {
+          "number": 23,
+          "text": "Which I have reserved against the time of trouble,—Against the day of battle and war?"
+        },
+        {
+          "number": 24,
+          "text": "What is the way to where light is distributed, And the east wind spread abroad upon the earth?"
+        },
+        {
+          "number": 25,
+          "text": "Who hath prepared channels for the rain, And a path for the thunder-flash,"
+        },
+        {
+          "number": 26,
+          "text": "To give rain to the land without an inhabitant, To the wilderness wherein is no man;"
+        },
+        {
+          "number": 27,
+          "text": "To satisfy the desolate and waste ground, And cause the tender herb to spring forth?"
+        },
+        {
+          "number": 28,
+          "text": "Hath the rain a father? Or who hath begotten the drops of the dew?"
+        },
+        {
+          "number": 29,
+          "text": "Out of whose womb came the ice? And who hath gendered the hoar-frost of heaven?"
+        },
+        {
+          "number": 30,
+          "text": "The waters are hid as under stone, And the face of the deep becometh solid."
+        },
+        {
+          "number": 31,
+          "text": "Canst thou fasten the bands of the Pleiades, Or loosen the chains of Orion?"
+        },
+        {
+          "number": 32,
+          "text": "Canst thou lead forth the Signs in their season, Or guide the Bear with her sons?"
+        },
+        {
+          "number": 33,
+          "text": "Knowest thou the ordinances of the heavens? Hast thou appointed their dominion over the earth?"
+        },
+        {
+          "number": 34,
+          "text": "Canst thou lift up thy voice to the clouds, So that abundance of waters will cover thee?"
+        },
+        {
+          "number": 35,
+          "text": "Canst thou send forth lightnings, so that they will go, And say to thee, \"Here we are\"?"
+        },
+        {
+          "number": 36,
+          "text": "Who hath put understanding in the reins, And given intelligence to the mind?"
+        },
+        {
+          "number": 37,
+          "text": "Who numbereth the clouds in wisdom? And who poureth out the bottles of heaven,"
+        },
+        {
+          "number": 38,
+          "text": "When the dust floweth into a molten mass, And the clods cleave fast together?"
+        },
+        {
+          "number": 39,
+          "text": "Canst thou hunt prey for the lioness, Or satisfy the hunger of the young lions,"
+        },
+        {
+          "number": 40,
+          "text": "When they couch in their dens, And lie in wait in the thicket?"
+        },
+        {
+          "number": 41,
+          "text": "Who provideth for the raven his food, When his young ones cry unto God, While they wander about without food?"
+        }
+      ]
+    },
+    "39": {
+      "chapter": 39,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Knowest thou the time when the wild goats of the rock bring forth? Or canst thou observe when the hinds are in labor?"
+        },
+        {
+          "number": 2,
+          "text": "Canst thou number the months they fulfill, And know the season when they bring forth?"
+        },
+        {
+          "number": 3,
+          "text": "They bow themselves; they bring forth their young; They cast forth their pains."
+        },
+        {
+          "number": 4,
+          "text": "Their young ones are strong; they grow up in the fields; They go away, and return not to them."
+        },
+        {
+          "number": 5,
+          "text": "Who hath sent forth the wild ass free? Who hath loosed the bands of the wild ass,"
+        },
+        {
+          "number": 6,
+          "text": "To whom I have given the wilderness for his house, And the barren land for his dwelling-place?"
+        },
+        {
+          "number": 7,
+          "text": "He scorneth the tumult of the city, And heedeth not the shouting of the driver;"
+        },
+        {
+          "number": 8,
+          "text": "The range of the mountains is his pasture; He seeketh after every green thing,"
+        },
+        {
+          "number": 9,
+          "text": "Will the wild-ox consent to serve thee? Will he pass the night at thy crib?"
+        },
+        {
+          "number": 10,
+          "text": "Canst thou bind the wild-ox with the harness to the furrow? Or will he harrow the valleys after thee?"
+        },
+        {
+          "number": 11,
+          "text": "Wilt thou rely upon him because his strength is great, And commit to him thy labor?"
+        },
+        {
+          "number": 12,
+          "text": "Wilt thou trust him to bring home thy grain, And gather in thy harvest?"
+        },
+        {
+          "number": 13,
+          "text": "The wing of the ostrich moveth joyfully; But is it with loving pinion and feathers?"
+        },
+        {
+          "number": 14,
+          "text": "Nay, she layeth her eggs on the ground; She warmeth them in the dust,"
+        },
+        {
+          "number": 15,
+          "text": "And forgetteth that the foot may crush them, And that the wild beast may break them."
+        },
+        {
+          "number": 16,
+          "text": "She is cruel to her young, as if they were not hers; Her labor is in vain, yet she feareth not;"
+        },
+        {
+          "number": 17,
+          "text": "Because God hath denied her wisdom, And hath not given her understanding."
+        },
+        {
+          "number": 18,
+          "text": "Yet when she lasheth herself up on high, She laugheth at the horse and his rider."
+        },
+        {
+          "number": 19,
+          "text": "Hast thou given the horse strength? Hast thou clothed his neck with his trembling mane?"
+        },
+        {
+          "number": 20,
+          "text": "Hast thou taught him to bound like the locust? How majestic his snorting! how terrible!"
+        },
+        {
+          "number": 21,
+          "text": "He paweth in the valley; he exulteth in his strength, And rusheth into the midst of arms."
+        },
+        {
+          "number": 22,
+          "text": "He laugheth at fear; he trembleth not, And turneth not back from the sword."
+        },
+        {
+          "number": 23,
+          "text": "Against him rattle the quiver, The flaming spear, and the lance."
+        },
+        {
+          "number": 24,
+          "text": "With rage and fury he devoureth the ground; He will not believe that the trumpet soundeth."
+        },
+        {
+          "number": 25,
+          "text": "At every blast of the trumpet, he saith, Aha! And snuffeth the battle afar off,—The thunder of the captains, and the war-shout."
+        },
+        {
+          "number": 26,
+          "text": "Is it by thy wisdom that the hawk flieth, And spreadeth his wings toward the south?"
+        },
+        {
+          "number": 27,
+          "text": "Doth the eagle soar at thy command, And build his nest on high?"
+        },
+        {
+          "number": 28,
+          "text": "He dwelleth and lodgeth upon the rock, Upon the peak of the rock, and the stronghold."
+        },
+        {
+          "number": 29,
+          "text": "From thence he spieth out prey; His eyes discern it from afar."
+        },
+        {
+          "number": 30,
+          "text": "His young ones suck up blood; And where the slain are, there is he."
+        }
+      ]
+    },
+    "40": {
+      "chapter": 40,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Moreover Jehovah spake to Job, and said:"
+        },
+        {
+          "number": 2,
+          "text": "Will the censurer of the Almighty contend with him? Will the reprover of God answer?"
+        },
+        {
+          "number": 3,
+          "text": "Then Job answered Jehovah, and said:"
+        },
+        {
+          "number": 4,
+          "text": "Behold, I am vile! what can I answer thee? I will lay my hand upon my mouth."
+        },
+        {
+          "number": 5,
+          "text": "Once have I spoken, but I will not speak again; Yea, twice, but I will say no more."
+        },
+        {
+          "number": 6,
+          "text": "Then spake Jehovah to Job out of the whirlwind, and said:"
+        },
+        {
+          "number": 7,
+          "text": "Gird up now thy loins like a man! I will ask thee, and do thou instruct me!"
+        },
+        {
+          "number": 8,
+          "text": "Wilt thou even disannul my right? Wilt thou condemn me, that thou mayst be righteous?"
+        },
+        {
+          "number": 9,
+          "text": "Hast thou an arm like God’s? Or canst thou thunder with thy voice like him?"
+        },
+        {
+          "number": 10,
+          "text": "Deck thyself with grandeur and majesty, And array thyself in splendor and glory!"
+        },
+        {
+          "number": 11,
+          "text": "Send forth the fury of thy wrath! Look upon every proud one, and abase him!"
+        },
+        {
+          "number": 12,
+          "text": "Look upon every proud one, and bring him low; Yea, tread down the wicked in their place!"
+        },
+        {
+          "number": 13,
+          "text": "Hide them in the dust together; Shut up their faces in darkness!"
+        },
+        {
+          "number": 14,
+          "text": "Then, indeed, will I give thee the praise, That thine own right hand can save thee."
+        },
+        {
+          "number": 15,
+          "text": "Behold the river-horse, which I have made as well as thyself; He feedeth on grass like the ox."
+        },
+        {
+          "number": 16,
+          "text": "Behold, what strength is in his loins! And what force in the muscles of his belly!"
+        },
+        {
+          "number": 17,
+          "text": "He bendeth his tail, like the cedar, And the sinews of his thighs are twisted together."
+        },
+        {
+          "number": 18,
+          "text": "His bones are pipes of brass, And his limbs are bars of iron."
+        },
+        {
+          "number": 19,
+          "text": "He is chief among the works of God; He that made him gave him his sword."
+        },
+        {
+          "number": 20,
+          "text": "For the mountains supply him with food, Where all the beasts of the field play."
+        },
+        {
+          "number": 21,
+          "text": "He lieth down under the lote-plants, In the covert of reeds, and in the fens."
+        },
+        {
+          "number": 22,
+          "text": "The lote-plants cover him with their shadow, And the willows of the brook compass him about."
+        },
+        {
+          "number": 23,
+          "text": "Lo! the stream overfloweth, but he starteth not; He is unmoved though Jordan rush forth even to his mouth."
+        },
+        {
+          "number": 24,
+          "text": "Can one take him before his eyes, Or pierce his nose with hooks?"
+        }
+      ]
+    },
+    "41": {
+      "chapter": 41,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Canst thou draw forth the crocodile with a hook, Or press down his tongue with a cord?"
+        },
+        {
+          "number": 2,
+          "text": "Canst thou put a rope into his nose, Or pierce his cheek with a hook?"
+        },
+        {
+          "number": 3,
+          "text": "Will he make many entreaties to thee? Will he speak soft words to thee?"
+        },
+        {
+          "number": 4,
+          "text": "Will he make a covenant with thee? Canst thou take him for a servant for ever?"
+        },
+        {
+          "number": 5,
+          "text": "Canst thou play with him, as with a bird? Or canst thou bind him for thy maidens?"
+        },
+        {
+          "number": 6,
+          "text": "Do men in company lay snares for him? Do they divide him among the merchants?"
+        },
+        {
+          "number": 7,
+          "text": "Canst thou fill his skirt with barbed irons, Or his head with fish-spears?"
+        },
+        {
+          "number": 8,
+          "text": "Do but lay thy hand upon him,—Thou wilt no more think of battle!"
+        },
+        {
+          "number": 9,
+          "text": "Behold, his hope is vain! Is he not cast down at the very sight of him?"
+        },
+        {
+          "number": 10,
+          "text": "None is so fierce that he dare stir him up; Who then is he that can stand before me?"
+        },
+        {
+          "number": 11,
+          "text": "Who hath done me a favor, that I must repay him? Whatever is under the whole heaven is mine."
+        },
+        {
+          "number": 12,
+          "text": "I will not be silent concerning his limbs, And his strength, and the beauty of his armor."
+        },
+        {
+          "number": 13,
+          "text": "Who can uncover the surface of his garment? Who will approach his jaws?"
+        },
+        {
+          "number": 14,
+          "text": "Who will open the doors of his face? The rows of his teeth are terrible!"
+        },
+        {
+          "number": 15,
+          "text": "His glory is his strong shields, United with each other, as with a close seal."
+        },
+        {
+          "number": 16,
+          "text": "They are joined one to another, So that no air can come between them."
+        },
+        {
+          "number": 17,
+          "text": "They cleave fast to each other, They hold together, and cannot be separated."
+        },
+        {
+          "number": 18,
+          "text": "His sneezing sendeth forth light, And his eyes are like the eyelashes of the morning."
+        },
+        {
+          "number": 19,
+          "text": "Out of his mouth go flames, And sparks of fire leap forth."
+        },
+        {
+          "number": 20,
+          "text": "From his nostrils issueth smoke, as from a heated pot, or caldron."
+        },
+        {
+          "number": 21,
+          "text": "His breath kindleth coals, And flames issue from his mouth."
+        },
+        {
+          "number": 22,
+          "text": "In his neck dwelleth strength, And terror danceth before him."
+        },
+        {
+          "number": 23,
+          "text": "The flakes of his flesh cleave fast together; They are firm upon him, and cannot be moved."
+        },
+        {
+          "number": 24,
+          "text": "His heart is solid like a stone; Yea, solid like the nether millstone."
+        },
+        {
+          "number": 25,
+          "text": "When he riseth up, the mighty are afraid; Yea, they lose themselves for terror."
+        },
+        {
+          "number": 26,
+          "text": "The sword of him that assaileth him doth not stand, The spear, the dart, nor the habergeon."
+        },
+        {
+          "number": 27,
+          "text": "He regardeth iron as straw, And brass as rotten wood."
+        },
+        {
+          "number": 28,
+          "text": "The arrow cannot make him flee; Sling-stones to him become stubble;"
+        },
+        {
+          "number": 29,
+          "text": "Clubs are accounted by him as straw; He laugheth at the shaking of the spear."
+        },
+        {
+          "number": 30,
+          "text": "Under him are sharp potsherds; He spreadeth out a thrashing-sledge upon the mire."
+        },
+        {
+          "number": 31,
+          "text": "He maketh the deep to boil like a caldron; He maketh the sea like a pot of ointment."
+        },
+        {
+          "number": 32,
+          "text": "Behind him he leaveth a shining path; One would think the deep to be hoary."
+        },
+        {
+          "number": 33,
+          "text": "Upon the earth there is not his master; He is made without fear."
+        },
+        {
+          "number": 34,
+          "text": "He looketh down upon all that is high; He is king over all the sons of pride."
+        }
+      ]
+    },
+    "42": {
+      "chapter": 42,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then Job answered Jehovah, and said:"
+        },
+        {
+          "number": 2,
+          "text": "I know that thou canst do every thing, And that no purpose of thine can be hindered."
+        },
+        {
+          "number": 3,
+          "text": "Who is he that darkeneth counsel by words without knowledge? Thus have I uttered what I understood not; Things too wonderful for me, which I knew not:"
+        },
+        {
+          "number": 4,
+          "text": "Hear thou, then, I beseech thee, and I will speak! I will ask thee, and do thou instruct me!"
+        },
+        {
+          "number": 5,
+          "text": "I have heard of thee by the hearing of the ear; But now hath mine eye seen thee."
+        },
+        {
+          "number": 6,
+          "text": "Wherefore I abhor myself, And repent in dust and ashes."
+        },
+        {
+          "number": 7,
+          "text": "And when Jehovah had spoken these words unto Job, he said to Eliphaz the Temanite: \"My wrath is kindled against thee, and against thy two friends; for ye have not spoken concerning me that which is right, as hath my servant Job."
+        },
+        {
+          "number": 8,
+          "text": "Take ye, therefore, seven bullocks and seven rams, and go to my servant Job, and offer for yourselves a burnt-offering, and my servant Job shall pray for you; for to him alone will I have regard; that I deal not with you according to your folly. For ye have not spoken concerning me that which is right, as hath my servant Job.\""
+        },
+        {
+          "number": 9,
+          "text": "So Eliphaz the Temanite, and Bildad the Shuhite, and Zophar the Naamathite, went and did as Jehovah commanded them; and Jehovah had regard to Job."
+        },
+        {
+          "number": 10,
+          "text": "And Jehovah turned the captivity of Job, when he prayed for his friends, and Jehovah gave him twice as much as he had before."
+        },
+        {
+          "number": 11,
+          "text": "Then came to him all his brethren, and all his sisters, and all his former acquaintances, and ate bread with him in his house; and condoled with him, and comforted him over all the evil which Jehovah had brought upon him; and every one gave him a piece of money [a kesita], and every one a ring of gold."
+        },
+        {
+          "number": 12,
+          "text": "Thus Jehovah blessed the latter end of Job more than the beginning; for he had fourteen thousand sheep, six thousand camels, a thousand yoke of oxen, and a thousand she-asses."
+        },
+        {
+          "number": 13,
+          "text": "He had also seven sons, and three daughters."
+        },
+        {
+          "number": 14,
+          "text": "And he called the name of the first Jemima, of the second Kezia, and of the third Kerenhappuch."
+        },
+        {
+          "number": 15,
+          "text": "And in all the land were no women found so fair as the daughters of Job; and their father gave them an inheritance among their brethren."
+        },
+        {
+          "number": 16,
+          "text": "And Job lived after this a hundred and forty years, and saw his sons, and his sons’ sons, even four generations."
+        },
+        {
+          "number": 17,
+          "text": "Then Job died, being old and satisfied with days."
+        }
+      ]
+    }
+  }
+}

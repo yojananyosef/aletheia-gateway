@@ -1,0 +1,444 @@
+{
+  "versionId": "Rotherham",
+  "bookCode": "PHP",
+  "bookName": "Filipenses",
+  "testament": "NT",
+  "chapters": {
+    "1": {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Paul and Timothy, servants of Jesus Christ,—unto all the saints in Christ Jesus who are in Philippi, with overseers and ministers:—"
+        },
+        {
+          "number": 2,
+          "text": "Favour unto you, and peace, from God our Father and Lord Jesus Christ."
+        },
+        {
+          "number": 3,
+          "text": "I am giving thanks unto my God, on occasion of all my remembrance of you,"
+        },
+        {
+          "number": 4,
+          "text": "At all times, in every supplication of mine, in behalf of you all, with joy, my supplication, making,—"
+        },
+        {
+          "number": 5,
+          "text": "On account of your contribution unto the glad-message, from the first day until the present:"
+        },
+        {
+          "number": 6,
+          "text": "Being persuaded of this very thing—that, he who hath begun in you a good work, will perfect it, until the day of Jesus Christ;"
+        },
+        {
+          "number": 7,
+          "text": "According as it is right in me to have this regard in behalf of you all,—because ye have had me in your hearts, both in my bonds and in the defence and confirmation of the glad-message, all of you being, joint partakers of my favour."
+        },
+        {
+          "number": 8,
+          "text": "For God is, my witness, how I long for you all in the tender affections of Christ Jesus."
+        },
+        {
+          "number": 9,
+          "text": "And, this, I pray—that, your love, may be, yet more and more, pre-eminent in personal knowledge and all perception,"
+        },
+        {
+          "number": 10,
+          "text": "To the end ye may be putting to the test the things that differ, in order that ye may be incorrupt and may give no occasion of stumbling, unto the day of Christ,"
+        },
+        {
+          "number": 11,
+          "text": "Filled with that fruit of righteousness which is through Jesus Christ unto the glory and praise of God."
+        },
+        {
+          "number": 12,
+          "text": "Howbeit, I am minded, brethren, that ye should be, getting to know, that, the things which relate unto myself, rather, unto an advancement of the glad-message, have fallen out,"
+        },
+        {
+          "number": 13,
+          "text": "So that, my bonds, have become manifest in Christ, in the whole palace, and unto all the rest,—"
+        },
+        {
+          "number": 14,
+          "text": "And [so that], the most of the brethren in the Lord, assured by my bonds, are becoming more abundantly bold to be fearlessly speaking the word of God:—"
+        },
+        {
+          "number": 15,
+          "text": "Some, indeed, by reason of envy and strife—some, however, by reason of good will—are proclaiming, the Christ:"
+        },
+        {
+          "number": 16,
+          "text": "These, indeed, out of love, knowing that, for the defence of the glad-message, I am set;"
+        },
+        {
+          "number": 17,
+          "text": "But, those, out of faction, are declaring, the Christ, not purely—supposing to rouse up, tribulation, with my bonds."
+        },
+        {
+          "number": 18,
+          "text": "What then? That, in any way, whether in pretext, or in truth, Christ, is declared, and, in this, I rejoice—yea, and will rejoice!"
+        },
+        {
+          "number": 19,
+          "text": "For I know that, this, shall turn unto me for salvation—through your supplication, and the supply of the Spirit of Jesus Christ,—"
+        },
+        {
+          "number": 20,
+          "text": "According to my eager outlook and hope, that, in nothing, shall I be put to shame, but, with all freedom of speech, as always, now also, shall Christ be magnified in my body, whether through means of life, or of death."
+        },
+        {
+          "number": 21,
+          "text": "For, unto me—living, is Christ, and, dying, gain."
+        },
+        {
+          "number": 22,
+          "text": "But, if living in flesh, [is Christ], this, unto me, is a fruit of work,—and, what I shall choose, I make not known:"
+        },
+        {
+          "number": 23,
+          "text": "I am held in constraint, however, by reason of the two,—having, the coveting, to be released, and to be with, Christ, for it were far better!"
+        },
+        {
+          "number": 24,
+          "text": "But, to abide still in the flesh, is more needful for your sake;"
+        },
+        {
+          "number": 25,
+          "text": "And, of, this, being assured, know that I shall abide,—yea abide with you all, for your advancement, and the joy of your faith;"
+        },
+        {
+          "number": 26,
+          "text": "In order that, your matter of boasting, may be more abundant in Christ Jesus, regarding me, through my own presence again with you."
+        },
+        {
+          "number": 27,
+          "text": "Only, in a manner worthy of the glad-message of the Christ, be using your citizenship; in order that—whether coming and seeing you, or being absent, I may hear of the things which concern you—that ye are standing fast in one spirit, with one soul, joining for the combat along with the faith of the glad-message;"
+        },
+        {
+          "number": 28,
+          "text": "And not being affrighted in anything by the opposers,—the which, is, unto them, a token of destruction, although of your salvation, and this from God;"
+        },
+        {
+          "number": 29,
+          "text": "Because, unto you, hath it been given as a favour, in behalf of Christ, not only, on him, to believe, but also, in his behalf, to suffer:—"
+        },
+        {
+          "number": 30,
+          "text": "Having, the same contest, which ye have seen in me, and now hear to be in me."
+        }
+      ]
+    },
+    "2": {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": 1,
+          "text": "If there be, therefore, any encouragement in Christ, if any comfort of love, if any fellowship of spirit, if any tender affections and compassions,"
+        },
+        {
+          "number": 2,
+          "text": "Fill ye up my joy—that, the same thing, ye esteem, the same love, possessing, joined in soul, the one thing, esteeming,—"
+        },
+        {
+          "number": 3,
+          "text": "Nothing by way of faction, nothing by way of vain-glory,—but, in lowliness of mind, accounting, one another, superior to yourselves,—"
+        },
+        {
+          "number": 4,
+          "text": "Not, to your own things, severally looking, but, to the things of others, severally:—"
+        },
+        {
+          "number": 5,
+          "text": "The same thing, esteem, in yourselves, which also, in Christ Jesus, [ye esteem],—"
+        },
+        {
+          "number": 6,
+          "text": "Who, in form of God, subsisting, not, a thing to be seized, accounted the being equal with God,"
+        },
+        {
+          "number": 7,
+          "text": "But, himself, emptied, taking, a servant’s form, coming to be, in men’s likeness;"
+        },
+        {
+          "number": 8,
+          "text": "And, in fashion, being found, as a man, humbled himself, becoming obedient as far as death, yea, death upon a cross."
+        },
+        {
+          "number": 9,
+          "text": "Wherefore also, God, uplifted him far on high, and favoured him with the name which is above every name,—"
+        },
+        {
+          "number": 10,
+          "text": "In order that, in the name of Jesus, every knee might bow—of beings in heaven, and on earth, and underground,—"
+        },
+        {
+          "number": 11,
+          "text": "And, every tongue, might openly confess—that Jesus Christ is, Lord, unto the glory of God the Father."
+        },
+        {
+          "number": 12,
+          "text": "So, then, my beloved—even as ye have always obeyed, not [as] in my presence only, but, now, much more, in my absence, with fear and trembling, your own salvation, be working out;"
+        },
+        {
+          "number": 13,
+          "text": "For it is, God, who energiseth within you, both the desiring and the energising, in behalf of his good pleasure."
+        },
+        {
+          "number": 14,
+          "text": "All things, be doing, apart from murmurings and disputings;"
+        },
+        {
+          "number": 15,
+          "text": "In order that ye may become faultless and inviolate, children of God, blameless amidst a crooked and perverted generation, amongst whom ye appear as luminaries in the world,"
+        },
+        {
+          "number": 16,
+          "text": "A word of light, holding forth,—as a matter of boasting unto me, for the day of Christ,—that, not in vain, I ran, nor, in vain, I toiled:—"
+        },
+        {
+          "number": 17,
+          "text": "Nay! if I am even to be poured out as a drink-offering, upon the sacrifice and public ministry of your faith, I rejoice, yea rejoice together with you all,—"
+        },
+        {
+          "number": 18,
+          "text": "For the same cause, moreover, do, ye also, rejoice, yea rejoice together with me."
+        },
+        {
+          "number": 19,
+          "text": "I am hoping, however, in the Lord Jesus—Timothy, shortly, to send unto you, in order that, I also, may be of cheerful soul, when I have ascertained the things that concern you."
+        },
+        {
+          "number": 20,
+          "text": "For, no one, have I, of equal soul, who, genuinely, as to the things that concern you, will be anxious;"
+        },
+        {
+          "number": 21,
+          "text": "For, they all, their own things, do seek, not the things of Christ Jesus;"
+        },
+        {
+          "number": 22,
+          "text": "But, of the proof of him, be taking note,—that, as child, with father, with me, hath he done service for the glad-message;"
+        },
+        {
+          "number": 23,
+          "text": "Him, indeed, therefore, am I hoping to send—as soon as I can look off from the things that concern myself,—forthwith."
+        },
+        {
+          "number": 24,
+          "text": "I am assured, however, in the Lord,—that I, myself, shall shortly come."
+        },
+        {
+          "number": 25,
+          "text": "Needful, nevertheless have I accounted it—Epaphroditus, my brother and fellow worker and fellow soldier, but your apostle and public minister to my need, to send unto you;"
+        },
+        {
+          "number": 26,
+          "text": "Since he hath been longing to see, you all, and hath been in great distress, because ye had heard he was sick;—"
+        },
+        {
+          "number": 27,
+          "text": "And, in fact, he was sick, nigh unto death; but, God, had mercy on him,—and, not on him only, but, on me also, lest, sorrow upon sorrow, I should have."
+        },
+        {
+          "number": 28,
+          "text": "The more promptly, therefore, have I sent him, that, seeing him again, ye may rejoice, and, I, the less sorrowful, may be."
+        },
+        {
+          "number": 29,
+          "text": "Be giving him welcome, therefore, in the Lord, with all joy; and, such as he, in honour, be holding,—"
+        },
+        {
+          "number": 30,
+          "text": "Because, for the sake of the work of the Lord, unto death, he drew nigh, running hazard with his life, that he might fill up your lack of the public service, towards me."
+        }
+      ]
+    },
+    "3": {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": 1,
+          "text": "For the rest, my brethren—rejoice in the Lord. To be writing, the same things, unto you, to me, is not irksome, while, for you, is safe:—"
+        },
+        {
+          "number": 2,
+          "text": "Beware of the dogs, beware of mischievous workers, beware of the mutilation;"
+        },
+        {
+          "number": 3,
+          "text": "For, we, are the circumcision, who in the Spirit of God, are doing divine service, and are boasting in Christ Jesus, and, not in flesh, having confidence,—"
+        },
+        {
+          "number": 4,
+          "text": "Although, indeed, I, might have confidence even in flesh. If any other thinketh to have confidence in flesh, I, more:—"
+        },
+        {
+          "number": 5,
+          "text": "Circumcised, the eighth day, of the race of Israel, of the tribe of Benjamin, a Hebrew of Hebrews,—regarding law, a Pharisee,"
+        },
+        {
+          "number": 6,
+          "text": "Regarding zeal, persecuting the assembly, regarding the righteousness that is in law, having become blameless."
+        },
+        {
+          "number": 7,
+          "text": "But, whatever things, unto me, were gain, the same, have I accounted, for the Christ’s sake, loss;"
+        },
+        {
+          "number": 8,
+          "text": "Yea, doubtless! and I account all things to be, loss, because of the excellency of the knowledge of Christ Jesus my Lord, for the sake of whom, the loss, of all things, have I suffered, and do account them refuse, in order that, Christ, I may win,"
+        },
+        {
+          "number": 9,
+          "text": "And be found in him—not having a righteousness of my own, that which is by law, but that which is through faith in Christ, the righteousness which is, of God, upon my faith,—"
+        },
+        {
+          "number": 10,
+          "text": "To get to know him, and the power of his resurrection and fellowship of his sufferings, becoming conformed unto his death,—"
+        },
+        {
+          "number": 11,
+          "text": "If by any means I may advance to the earlier resurrection, which is from among the dead:"
+        },
+        {
+          "number": 12,
+          "text": "Not that I have, already, received, or have, already, reached perfection, but I am pressing on—if I may even lay hold of that for which I have also been laid hold of by Christ [Jesus]:—"
+        },
+        {
+          "number": 13,
+          "text": "Brethren! I, as to myself, reckon that I have, not yet, laid hold; one thing, however,—the things behind, forgetting, and, unto the things before, eagerly reaching out,"
+        },
+        {
+          "number": 14,
+          "text": "With the goal in view, I press on for the prize of the upward calling of God in Christ Jesus."
+        },
+        {
+          "number": 15,
+          "text": "As many, therefore, as are full-grown, let, this, be our resolve; and, if, somewhat differently, ye are resolved, this, also, shall, God, unto you reveal."
+        },
+        {
+          "number": 16,
+          "text": "Nevertheless, whereunto we have advanced, in the same rank, stepping along."
+        },
+        {
+          "number": 17,
+          "text": "Imitators together of me, become ye, brethren, and keep an eye on them who, thus, are walking,—even as ye have, us, for, an ensample."
+        },
+        {
+          "number": 18,
+          "text": "For, many, are walking—of whom I have often been telling you, and, now, even weeping, am telling,—the enemies of the cross of the Christ;"
+        },
+        {
+          "number": 19,
+          "text": "Whose, end, is destruction, whose, God, is the belly, and [whose], glory, is in their shame, who, upon the earthly things, are resolved."
+        },
+        {
+          "number": 20,
+          "text": "For, our citizenship, in the heavens, hath its rise; wherefore, a Saviour also, do we ardently await,—The Lord Jesus Christ,—"
+        },
+        {
+          "number": 21,
+          "text": "Who will transfigure our humbled body, into conformity with his glorified body, according to the energy wherewith he is able even to subdue, unto himself, all things."
+        }
+      ]
+    },
+    "4": {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": 1,
+          "text": "So then, my brethren, beloved and longed for, my joy and crown,—thus, stand fast in the Lord, beloved."
+        },
+        {
+          "number": 2,
+          "text": "Euodia, I exhort, and, Syntche, I exhort,—on the same thing, to be resolved in the Lord:—"
+        },
+        {
+          "number": 3,
+          "text": "Yea! I request thee also, true yokefellow, be thou helping together with these women,—who, indeed, in the joyful message, have maintained the combat with me, along with Clement also, and the rest of my fellow-workers, whose names, are in the book of life."
+        },
+        {
+          "number": 4,
+          "text": "Rejoice in the Lord always: again, I will say—rejoice!"
+        },
+        {
+          "number": 5,
+          "text": "Let, your considerateness, be known unto all men. The Lord, is near:—"
+        },
+        {
+          "number": 6,
+          "text": "For nothing, be anxious, but, in everything, by your prayer and supplication with thanksgiving, let, your petitions, be made known unto God;"
+        },
+        {
+          "number": 7,
+          "text": "And, the peace of God, which riseth above every mind, shall guard your hearts and your thoughts, in Christ Jesus."
+        },
+        {
+          "number": 8,
+          "text": "For the rest, brethren, whatsoever things are true, whatsoever things are dignified, whatsoever things are righteous, whatsoever things are chaste, whatsoever things are lovely, whatsoever things are of good report,—if there be any virtue, and if any praise, the same, be taking into account;"
+        },
+        {
+          "number": 9,
+          "text": "The things which ye have both learned, and accepted, and heard, and seen in me, the same, practise;—and, the God of peace, shall be with you."
+        },
+        {
+          "number": 10,
+          "text": "Howbeit I have been made to rejoice in the Lord greatly—that, now, at length, ye have flourished in your care for me,—although, indeed, ye were caring, but lacked opportunity."
+        },
+        {
+          "number": 11,
+          "text": "Not that, as to coming short, I am speaking, for, I, have learned, in whatsoever circumstances I am, to be, independent:"
+        },
+        {
+          "number": 12,
+          "text": "I know [what it is] even to be kept low, and I know [what it is] to have more than enough,—in every way, and in all things, have I been let into the secret—both to be well fed, and to be hungering, both to have more than enough, and to be coming short:"
+        },
+        {
+          "number": 13,
+          "text": "I have might, for all things, in him that empowereth me."
+        },
+        {
+          "number": 14,
+          "text": "Nevertheless, nobly, have ye done, in taking fellowship with me in my tribulation."
+        },
+        {
+          "number": 15,
+          "text": "Ye know, moreover, even ye, Philippians,—that, in the beginning of the glad-message, when I went forth from Macedonia, not, so much as one assembly, with me had fellowship—in the matter of giving and receiving—save, ye alone,—"
+        },
+        {
+          "number": 16,
+          "text": "That, even in Thessalonica, both once and again, unto my need, ye sent:—"
+        },
+        {
+          "number": 17,
+          "text": "Not that I seek after the gift, but I seek after the fruit that is to abound unto your account."
+        },
+        {
+          "number": 18,
+          "text": "But I have all things in full, and have more than enough, I am filled, having welcomed from Epaphroditus the things that came from you,—a fragrance of sweet smell, an acceptable sacrifice, well pleasing unto God."
+        },
+        {
+          "number": 19,
+          "text": "And, my God, will fill up your every need, according to his riches in glory in Christ Jesus."
+        },
+        {
+          "number": 20,
+          "text": "Now, unto our God and Father, be the glory—unto the ages of ages. Amen!"
+        },
+        {
+          "number": 21,
+          "text": "Salute ye every saint in Christ Jesus. The brethren who are with me, salute you."
+        },
+        {
+          "number": 22,
+          "text": "All the saints salute you, but especially they who are of Caesar’s household."
+        },
+        {
+          "number": 23,
+          "text": "The favour of our Lord Jesus Christ, be with your spirit."
+        }
+      ]
+    }
+  }
+}

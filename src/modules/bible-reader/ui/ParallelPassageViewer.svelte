@@ -1,7 +1,7 @@
 <script lang="ts">
   import { X, ArrowRight, ArrowUp, FileText, BookOpen } from 'lucide-svelte';
   import type { PassageVersionResult, SectionFootnote } from '../domain/entities/Chapter';
-  import type { TranslationId } from '../domain/entities/Translation';
+  import { AVAILABLE_TRANSLATIONS, type TranslationId } from '../domain/entities/Translation';
   import type { FontSizeOption } from './FontSizeSelector.svelte';
   import type { BibleHighlight } from '../domain/entities/BibleHighlight';
   import type { PersonalNote } from '../../notes/domain/Note';
@@ -204,8 +204,15 @@
       verses: passage.verses || [],
       footnotes: [],
     }]}
+    {@const translationMeta = AVAILABLE_TRANSLATIONS[passage.translationId]}
+    {@const isRtl = translationMeta?.direction === 'rtl'}
+    {@const langCode = translationMeta?.language || 'es'}
 
-    <article class="translation-block">
+    <article
+      class="translation-block {isRtl ? 'is-rtl' : ''}"
+      data-lang={langCode}
+      dir={isRtl ? 'rtl' : 'ltr'}
+    >
       <!-- Column Header: Passage Reference + Close X on top, Full-Width Version Selector below -->
       <div class="column-top-header">
         <div class="column-title-row">

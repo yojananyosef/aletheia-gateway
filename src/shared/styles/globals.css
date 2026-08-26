@@ -1265,10 +1265,34 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
 .version-options-list {
   display: flex;
   flex-direction: column;
-  max-height: 320px;
+  max-height: 380px;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--accent-attention) var(--bg-surface);
+}
+
+.version-group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 12px;
+  background-color: var(--bg-canvas);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  font-family: var(--font-mono);
+  font-size: 0.65625rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.version-group-count {
+  font-size: 0.625rem;
+  opacity: 0.8;
 }
 
 .version-options-list::-webkit-scrollbar {
@@ -1457,6 +1481,30 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   text-decoration: none !important;
   line-height: 1;
   vertical-align: baseline;
+}
+
+/* === SOPORTE MULTILINGÜE: HEBREO BÍBLICO (RTL) Y GRIEGO === */
+.translation-block.is-rtl .passage-text {
+  direction: rtl;
+  text-align: right;
+  font-family: "SBL Hebrew", "Ezra SIL", "Taamey Frank CLM", "Frank Ruehl CLM", "David CLM", "Times New Roman", serif;
+  font-size: 1.28em !important;
+  line-height: 2.1;
+  word-spacing: 0.12em;
+}
+
+.translation-block.is-rtl .passage-text .verse-num {
+  margin-right: 0;
+  margin-left: 8px;
+  direction: ltr;
+  display: inline-block;
+  font-size: 0.7em;
+}
+
+.translation-block[data-lang="grc"] .passage-text {
+  font-family: "SBL Greek", "Gentium Plus", "Cardo", "Galatia SIL", "Palatino Linotype", "Times New Roman", serif;
+  font-size: 1.1em !important;
+  line-height: 1.75;
 }
 
 /* Encabezados de sección dentro del texto bíblico */

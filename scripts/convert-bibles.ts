@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { AVAILABLE_TRANSLATIONS } from '../src/modules/bible-reader/domain/entities/Translation';
 
 const sourceBaseDir = 'C:/Users/J/Desktop/Versiones';
 const outputBaseDir = path.resolve('public/data/bibles');
@@ -488,31 +489,35 @@ async function runConversion() {
     console.log(`✅ [${config.id}] Convertidos con éxito: ${totalBooksInVersion} libros, ${totalChaptersInVersion} capítulos.`);
   }
 
-  // Include Sword versions (SpaPlatense and SpaRVG) in manifest
-  if (fs.existsSync(path.join(outputBaseDir, 'SpaPlatense'))) {
-    manifestList.push({
-      id: 'SpaPlatense',
-      name: 'Biblia Platense (Straubinger)',
-      shortName: 'PLATENSE',
-      description: 'Traducción comentada de Mons. Juan Straubinger con abundantes notas exegéticas.',
-      language: 'es',
-      copyright: 'Dominio Público',
-      booksCount: 73,
-      chaptersCount: 1334,
-    });
-  }
-
-  if (fs.existsSync(path.join(outputBaseDir, 'SpaRVG'))) {
-    manifestList.push({
-      id: 'SpaRVG',
-      name: 'Reina Valera Gómez (2010)',
-      shortName: 'RVG',
-      description: 'Revisión hispana fiel al Texto Recibido por el Dr. Humberto Gómez Caballero.',
-      language: 'es',
-      copyright: 'Creative Commons Atribución-NoComercial-SinDerivadas (CC BY-NC-ND 4.0)',
-      booksCount: 66,
-      chaptersCount: 1189,
-    });
+  // Include all versions from AVAILABLE_TRANSLATIONS dynamically
+  const processedIds = new Set(manifestList.map((m) => m.id));
+  for (const [id, info] of Object.entries(AVAILABLE_TRANSLATIONS)) {
+    if (!processedIds.has(id)) {
+      const versionDir = path.join(outputBaseDir, id);
+      if (fs.existsSync(versionDir)) {
+        const files = fs.readdirSync(versionDir).filter((f) => f.endsWith('.json'));
+        let chCount = 0;
+        for (const file of files) {
+          try {
+            const parsed = JSON.parse(fs.readFileSync(path.join(versionDir, file), 'utf-8'));
+            if (parsed.chapters) chCount += Object.keys(parsed.chapters).length;
+          } catch {}
+        }
+        manifestList.push({
+          id: info.id,
+          name: info.name,
+          shortName: info.shortName,
+          description: info.description || '',
+          language: info.language,
+          languageName: info.languageName || info.language,
+          flag: info.flag || '',
+          direction: info.direction || 'ltr',
+          copyright: info.copyright || 'Dominio Público',
+          booksCount: files.length,
+          chaptersCount: chCount,
+        });
+      }
+    }
   }
 
   // Write manifest.json

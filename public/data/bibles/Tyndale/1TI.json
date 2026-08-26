@@ -1,0 +1,490 @@
+{
+  "versionId": "Tyndale",
+  "bookCode": "1TI",
+  "bookName": "1 Timoteo",
+  "testament": "NT",
+  "chapters": {
+    "1": {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Paul an Apostle of Iesus Christ by the comaundement of God oure savioure and Lorde Iesus Christ which is oure hope."
+        },
+        {
+          "number": 2,
+          "text": "Vnto Timothe his naturall sonne in the fayth.Grace mercy and peace from God oure father and Lorde Iesus Christ oure Lorde."
+        },
+        {
+          "number": 3,
+          "text": "As I besought the to abyde styll in Ephesus when I departed into Macedonia even so do that thou comaunde some that they teache no nother wise:"
+        },
+        {
+          "number": 4,
+          "text": "nether geve hede to fables and genealogies which are endlesse and brede doutes more then godly edyfyinge which is by fayth:"
+        },
+        {
+          "number": 5,
+          "text": "for ye ende of the comaundemet is love that cometh of a pure herte and of a good conscience and of fayth vnfayned:"
+        },
+        {
+          "number": 6,
+          "text": "fro the which thinges some have erred and have turned vnto vayne iangelinge"
+        },
+        {
+          "number": 7,
+          "text": "because they wolde be doctours the scripture and yet vnderstonde not what they speake nether wherof they affirme."
+        },
+        {
+          "number": 8,
+          "text": "We knowe yt the lawe is good yf a man vse it lawfully"
+        },
+        {
+          "number": 9,
+          "text": "vnderstondinge this how yt the lawe is not geven vnto a righteous man bu vnto the vnrighteous and disobediet to the vngodly and to synners to vnholy and vnclean to murtherers of fathers and murtherers of mothers to manslears"
+        },
+        {
+          "number": 10,
+          "text": "and whormongers: to them that defile them selves with mankynde: to menstealers: to lyars and to periured and so forth yf ther be eny other thinge that is cotrary to holsome doctrine"
+        },
+        {
+          "number": 11,
+          "text": "accordinge to the gospell of the glory of the blessed God which gospell is committed vnto me."
+        },
+        {
+          "number": 12,
+          "text": "And I thanke Christ Iesus oure Lorde which hath made me stronge: for he counted me true and put me in office"
+        },
+        {
+          "number": 13,
+          "text": "when before I was a blasphemar and a persecuter and a tyraut. But I obtayned mercy because I dyd it ignorautly thorow vnbelefe."
+        },
+        {
+          "number": 14,
+          "text": "Neverthelater the grace of oure Lorde was more aboundaunt with fayth and love which is in Christ Iesu."
+        },
+        {
+          "number": 15,
+          "text": "This is a true sayinge and by all meanes worthy to be receaved that Christ Iesus came into the world to save synners of whom I am chefe."
+        },
+        {
+          "number": 16,
+          "text": "Notwithstondinge for this cause was mercy geve vnto me that Iesus Christ shuld fyrst shewe on me all longe pacience vnto the ensample of them which shall in tyme to come beleve on him vnto eternall lyfe."
+        },
+        {
+          "number": 17,
+          "text": "So then vnto god kynge everlastinge immortall invisible and wyse only be honoure and prayse for ever and ever Amen."
+        },
+        {
+          "number": 18,
+          "text": "This commaundement commit I vnto the sonne Timotheus accordynge to the prophisies which in tyme past were prophisied of the yt thou in them shuldest fyght a good fyght"
+        },
+        {
+          "number": 19,
+          "text": "havinge fayth and good consciece which some have put awaye fro them and as cocerninge fayth have made shipwracke."
+        },
+        {
+          "number": 20,
+          "text": "Of whose nombre is Himeneus and Alexander which I have delivered vnto Satan yt they myght be taught not to blaspheme"
+        }
+      ]
+    },
+    "2": {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": 1,
+          "text": "I exhorte therfore that above all thynges prayers supplicacions intercessions and gevynge of thankes behad for all men:"
+        },
+        {
+          "number": 2,
+          "text": "for kynges and for all that are in auctorite that we maye live a quyet and a peasable life in all godlines and honestie."
+        },
+        {
+          "number": 3,
+          "text": "For that is good and accepted in the sight of god oure savioure"
+        },
+        {
+          "number": 4,
+          "text": "which will have all men saved and to come vnto the knowledge of ye trueth."
+        },
+        {
+          "number": 5,
+          "text": "For ther is one god and one (mediator) bitwene god and man which is ye man Christ Iesus"
+        },
+        {
+          "number": 6,
+          "text": "which gave him silfe a raunsome for all men that it shuld be testified at his tyme"
+        },
+        {
+          "number": 7,
+          "text": "wherevnto I am ordayned a preacher and an apostle: I tell the trueth in Christ and lye not beynge the teacher of the gentyls in fayth and veritie."
+        },
+        {
+          "number": 8,
+          "text": "I wyll therfore that the men praye every where liftynge vp pure hondes without wrath or dowtinge."
+        },
+        {
+          "number": 9,
+          "text": "Lykwyse also the wemen that they araye them selves in comlye aparell with shamfastnes and discrete behaveour not with broyded heare other golde or pearles or costly araye:"
+        },
+        {
+          "number": 10,
+          "text": "but with suche as becometh wemen that professe the worshippynge of God thorow good workes."
+        },
+        {
+          "number": 11,
+          "text": "Let the woman learne in silence with all subieccion."
+        },
+        {
+          "number": 12,
+          "text": "I suffre not a woman to teache nether to have auctoricie over a man: but forto be in silence."
+        },
+        {
+          "number": 13,
+          "text": "For Adam was fyrst formed and then Eve."
+        },
+        {
+          "number": 14,
+          "text": "Also Adam was not deceaved but the woman was deceaved and was in transgression."
+        },
+        {
+          "number": 15,
+          "text": "Notwithstondynge thorow bearinge of chyldre they shalbe saved so they continue in fayth love and holynes with discrecion."
+        }
+      ]
+    },
+    "3": {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": 1,
+          "text": "This is a true sayinge. Yf a ma covet ye office of a bysshope he desyreth a good worke."
+        },
+        {
+          "number": 2,
+          "text": "Ye and a bisshope must be fautlesse the husband of one wyfe sober discrete honestly aparelled harberous apt to teache"
+        },
+        {
+          "number": 3,
+          "text": "not dronke no fighter not geve to filthy lucre: but gentle abhorrynge fightynge abhorrynge coveteousnes"
+        },
+        {
+          "number": 4,
+          "text": "and one that rueleth his awne housse honestly havynge chyldren vnder obedience with all honeste."
+        },
+        {
+          "number": 5,
+          "text": "For yf a man cannot rule his owne housse how shall he care for the congregacion of God."
+        },
+        {
+          "number": 6,
+          "text": "He maye not be a yonge skoler lest he swell and faule into the iudgement of the evyll"
+        },
+        {
+          "number": 7,
+          "text": "speaker. He must also be well reported of amonge them which are with out forth lest he fall into rebuke and snare of the evyll speaker."
+        },
+        {
+          "number": 8,
+          "text": "Lykwyse must the deacons be honest not double tonged not geve vnto moche drynkinge nether vnto filthy lucre:"
+        },
+        {
+          "number": 9,
+          "text": "but havynge the mistery of the fayth in pure consciece."
+        },
+        {
+          "number": 10,
+          "text": "And let them fyrst be proved and then let them minister yf they be founde fautlesse."
+        },
+        {
+          "number": 11,
+          "text": "Even so must their wynes be honest not evyll speakers: but sober and faythfull in all thinges."
+        },
+        {
+          "number": 12,
+          "text": "Let the deacons be the husbandes of one wyfe and suche as rule their chyldren well and their awne housholdes."
+        },
+        {
+          "number": 13,
+          "text": "For they that minister well get them selves good degre and greate libertie in the fayth which is in Christ Iesu."
+        },
+        {
+          "number": 14,
+          "text": "These thinges write I vnto the trustinge to come shortly vnto the:"
+        },
+        {
+          "number": 15,
+          "text": "but and yf I tarie longe yt then thou mayst yet have knowledge how thou oughtest to behave thy silfe in the housse of God which is the congregacion of the livinge God the pillar and grounde of trueth."
+        },
+        {
+          "number": 16,
+          "text": "And with out naye great is that mistery of godlines: God was shewed in the flesshe was iustified in the sprete was sene of angels was preached vnto the gentyls was beleved on in erth and receaved vp in glory."
+        }
+      ]
+    },
+    "4": {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": 1,
+          "text": "The sprete speaketh evydently that in the latter tymes some shall departe from the fayth and shall geve hede vnto spretes of erroure and dyvelysshe doctrine of them"
+        },
+        {
+          "number": 2,
+          "text": "which speake falce thorow ypocrisye and have their consciences marked with an hote yron"
+        },
+        {
+          "number": 3,
+          "text": "forbyddinge to mary and commaundinge to abstayne from meates which God hath created to be receaved with gevynge thankes of them which beleve and knowe ye trueth."
+        },
+        {
+          "number": 4,
+          "text": "For all the creatures of God are good and nothynge to be refused yf it be receaved with thankes gevynge."
+        },
+        {
+          "number": 5,
+          "text": "For it is sanctyfyed by the worde of God and prayer."
+        },
+        {
+          "number": 6,
+          "text": "Yf thou shalt put the brethren in remembraunce of these thynges thou shalt be a good minister of Iesu Christ which hast bene norisshed vp in the wordes of the fayth and good doctryne which doctryne thou hast continually followed."
+        },
+        {
+          "number": 7,
+          "text": "But cast awaye vngostly and olde wyves fables.Exercyse thy silfe vnto godlines."
+        },
+        {
+          "number": 8,
+          "text": "For bodely exercise proffiteth lyttll: But godlines is good vnto all thynges as a thynge which hath promyses of the lyfe that is now and of the lyfe to come."
+        },
+        {
+          "number": 9,
+          "text": "This is a sure sayinge and of all parties worthy to be receaved."
+        },
+        {
+          "number": 10,
+          "text": "For therfore we laboure and suffre rebuke because we beleve in the livynge god which is the savioure of all men: but specially of those that beleve."
+        },
+        {
+          "number": 11,
+          "text": "Suche thynges commaunde and teache."
+        },
+        {
+          "number": 12,
+          "text": "Let no man despyse thy youth: but be vnto them that beleve an insample in worde in conversacion in love in sprete in fayth and in purenes."
+        },
+        {
+          "number": 13,
+          "text": "Till I come geve attendaunce to redynge to exhortacion and to doctryne."
+        },
+        {
+          "number": 14,
+          "text": "Despyse not the gyfte that is in ye which was geven the thorow prophesye and with layinge on of ye hondes of an elder."
+        },
+        {
+          "number": 15,
+          "text": "These thynges exercyse and geve thy silfe vnto them that it maye be sene how thou profetest in all thinges."
+        },
+        {
+          "number": 16,
+          "text": "Take hede vnto thy silfe and vnto learnynge and continue therin. For if thou shalt so do thou shalt save thy silfe and them that heare the."
+        }
+      ]
+    },
+    "5": {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Rebuke not an elder: but exhorte him as a father and the yonger me as brethren"
+        },
+        {
+          "number": 2,
+          "text": "the elder wemen as mothers ye yonger as sisters with all purenes."
+        },
+        {
+          "number": 3,
+          "text": "Honoure widdowes which are true wyddowes."
+        },
+        {
+          "number": 4,
+          "text": "Yf eny wyddowe have chyldren or neves let them learne fyrst to rule their awne houses godly and to recompence their elders. For that is good and acceptable before God."
+        },
+        {
+          "number": 5,
+          "text": "She that is a very wyddowe and frendlesse putteth her trust in god and continueth in supplicacion and prayer nyght and daye."
+        },
+        {
+          "number": 6,
+          "text": "But she that liveth in pleasure is deed even yet alive."
+        },
+        {
+          "number": 7,
+          "text": "And these thynges commaunde that they maye be without faut"
+        },
+        {
+          "number": 8,
+          "text": "Yf ther be eny that provideth not for his awne and namly for them of his housholde the same denyeth the fayth and is worsse then an infydell."
+        },
+        {
+          "number": 9,
+          "text": "Let no wyddowe be chosen vnder threscore yere olde and soche a one as was the wyfe of one man"
+        },
+        {
+          "number": 10,
+          "text": "and well reported of in good workes: yf she have noresshed children yf she have bene liberall to straugers yf she have wesshed the saynctes fete yf she have ministred vnto them which were in adversite yf she were continually geve vnto all maner good workes."
+        },
+        {
+          "number": 11,
+          "text": "The yonger widdowes refuse. For when they have begone to wexe wantone to the dishonoure of Christ then will they mary"
+        },
+        {
+          "number": 12,
+          "text": "havynge damnacio because they have broke their fyrst fayth."
+        },
+        {
+          "number": 13,
+          "text": "And also they learne to goo from housse to housse ydle ye not ydle only but also tryflynge and busybodyes speakynge thynges which are not comly."
+        },
+        {
+          "number": 14,
+          "text": "I will therfore that ye yonger weme mary and beare childre and gyde the housse and geve none occasio to ye adversary to speake evill"
+        },
+        {
+          "number": 15,
+          "text": "For many of them are all redy turned bake and are gone after Satan."
+        },
+        {
+          "number": 16,
+          "text": "And yf eny man or woman that beleveth have widdowes let the minister vnto them and let not the congregacion be charged: that yt maye have sufficient for them that are widdowes in dede."
+        },
+        {
+          "number": 17,
+          "text": "The elders yt rule wel are worthy of double honoure most specially they which laboure in ye worde and in teachinge."
+        },
+        {
+          "number": 18,
+          "text": "For the scripture sayth: Thou shalt not mousell the mouth of the oxe that treadeth out the corne. And the labourer is worthy of his rewarde."
+        },
+        {
+          "number": 19,
+          "text": "Agaynst an elder receave none accusacion: but vnder two or thre witnesses."
+        },
+        {
+          "number": 20,
+          "text": "Them that synne rebuke openly that other maye feare."
+        },
+        {
+          "number": 21,
+          "text": "I testifie before god and the lorde Iesus Christ and the electe angels that thou observe these thynges with out hasty iudgement and do nothynge parcially."
+        },
+        {
+          "number": 22,
+          "text": "Laye hondes sodely on no man nether be partaker of other mes synnes: kepe thy silfe pure."
+        },
+        {
+          "number": 23,
+          "text": "Drynke no lenger water but vse a lytell wyne for thy stommakes sake and thyne often diseases."
+        },
+        {
+          "number": 24,
+          "text": "Some mennes synnes are open before honde and goo before vnto iudgement: some mennes synnes folowe after."
+        },
+        {
+          "number": 25,
+          "text": "Lykwyse also good workes are manyfest before honde and they that are other wyse canot be hid."
+        }
+      ]
+    },
+    "6": {
+      "chapter": 6,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Let as many servauntes as are vnder ye yoke counte their masters worthy of all honour that the name of god and his doctryne be not evyll spoken of."
+        },
+        {
+          "number": 2,
+          "text": "Se that they which have belevynge masters despyse them not because they are brethren: but so moche the rather do service for as moche as they are belevynge and beloved and partakers of the benefite."
+        },
+        {
+          "number": 3,
+          "text": "These thynges teache and exhorte. Yf eny man teache other wise and is not contet with ye wholsome wordes of oure lorde Iesu christ and with the doctryne of godlines"
+        },
+        {
+          "number": 4,
+          "text": "he is pufte vp and knoweth nothynge: but wasteth his braynes aboute questions and stryfe of wordes wherof sprynge envie stryfe raylinges evyll surmysinges"
+        },
+        {
+          "number": 5,
+          "text": "and vayne disputacions of men with corrupte myndes and destitute of the trueth which thynke that lucre is godlines. From soche seperate thy silfe."
+        },
+        {
+          "number": 6,
+          "text": "Godlines is great ryches yf a man be content with that he hath."
+        },
+        {
+          "number": 7,
+          "text": "For we brought nothynge into the worlde and it is a playne case that we can cary nothynge out."
+        },
+        {
+          "number": 8,
+          "text": "When we have fode and rayment let vs therwith be contet."
+        },
+        {
+          "number": 9,
+          "text": "They that wilbe ryche faule into temptacio and snares and into many folysshe and noysome lustes which droune me in perdicion and destruccion."
+        },
+        {
+          "number": 10,
+          "text": "For coveteousnes is the rote of all evyll which whill some lusted after they erred fro the fayth and tanglyd them selves with many sorowes."
+        },
+        {
+          "number": 11,
+          "text": "But thou which arte the man of god flye soche thynges Folowe rightewesnes godlines love pacience and meknes."
+        },
+        {
+          "number": 12,
+          "text": "Fyght ye good fyght of fayth. Laye honde on eternall lyfe where vnto thou arte called and hast professed a good profession before many witnesses."
+        },
+        {
+          "number": 13,
+          "text": "I geve the charge in the sight of God which quickneth all thinges and before Iesu Christ which vnder Pocius Pilate witnessed a good witnessinge"
+        },
+        {
+          "number": 14,
+          "text": "yt thou kepe the comaundemet and be with out spotte and vnrebukeable vntyll the apperynge of oure lorde Iesus Christ"
+        },
+        {
+          "number": 15,
+          "text": "which aperynge (when the tyme ys come) he shall shewe that is blessed and myghty only kynge of kynges and lorde of lordes"
+        },
+        {
+          "number": 16,
+          "text": "which only hath immortalite and dwelleth in light that no man can attayne whom never man sawe nether can se: vnto whom be honoure and rule everlastynge. Amen."
+        },
+        {
+          "number": 17,
+          "text": "Charge them that are ryche in this worlde that they be not excedynge wyse and that they trust not in the vncertayne ryches but in the livynge god which geveth vs aboundantly all thynges to enioye them"
+        },
+        {
+          "number": 18,
+          "text": "and that they do good and be ryche in good workes and redy to geve and to distribute"
+        },
+        {
+          "number": 19,
+          "text": "layinge vp in store for them selves a good foundacio agaynst the tyme to come yt they maye obteyne eternall lyfe"
+        },
+        {
+          "number": 20,
+          "text": "O Timothe save that which is geve ye to kepe and avoyde vngostly vanities of voyces and opposicios of sciece falsly so called"
+        },
+        {
+          "number": 21,
+          "text": "which sciece whyll some professed they have erred as concernynge the fayth. Grace be with the Amen."
+        }
+      ]
+    }
+  }
+}

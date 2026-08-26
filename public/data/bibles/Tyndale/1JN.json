@@ -1,0 +1,453 @@
+{
+  "versionId": "Tyndale",
+  "bookCode": "1JN",
+  "bookName": "1 Juan",
+  "testament": "NT",
+  "chapters": {
+    "1": {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": 1,
+          "text": "That which was fro the begynninge concerninge which we have hearde which we have sene with oure eyes which we have loked vpon and oure hondes have hadled of the worde of life."
+        },
+        {
+          "number": 2,
+          "text": "For the lyfe appered and we have sene and beare witnes and shewe vnto you that eternall lyfe which was with the father and appered vnto vs."
+        },
+        {
+          "number": 3,
+          "text": "That which we have sene and herde declare we vnto you that ye maye have felloushippe with vs and that oure fellishippe maye be with the father and his sonne Iesus Christ."
+        },
+        {
+          "number": 4,
+          "text": "And this write we vnto you that oure ioye maye be full."
+        },
+        {
+          "number": 5,
+          "text": "And this is the tydynges which we have hearde of him and declare vnto you that god is lyght and in him is no darknes at all"
+        },
+        {
+          "number": 6,
+          "text": "yf we saye that we have fellishippe with him and yet walke in darknes we lye and do not the truth:"
+        },
+        {
+          "number": 7,
+          "text": "but and yf we walke in (lyght) even as he is in lyght then have we fellishippe with him and the bloud of Iesus Christ his sonne clenseth vs from all synne."
+        },
+        {
+          "number": 8,
+          "text": "Yf we saye that we have no synne we deceave oure selves and trueth is not in vs."
+        },
+        {
+          "number": 9,
+          "text": "Yf we knowledge oure synnes he is faythfull and iust to forgeve vs oure synnes and to clense vs from all vnrightewesnes."
+        },
+        {
+          "number": 10,
+          "text": "Yf we saye we have not sinned we make him a lyar and his worde is not in vs."
+        }
+      ]
+    },
+    "2": {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": 1,
+          "text": "My lytell children these thynges write I vnto you that ye synne not: yf eny man synne yet we have an advocate with ye father Iesus Christ which is righteous:"
+        },
+        {
+          "number": 2,
+          "text": "and he it is that obteyneth grace for oure synnes: not for oure synnes only: but also for the synnes of all the worlde."
+        },
+        {
+          "number": 3,
+          "text": "And herby we are sure that we knowe him yf we kepe his comaundementes."
+        },
+        {
+          "number": 4,
+          "text": "He that sayth I knowe him and kepeth not his commaundementes is a lyar and the veritie is not in him."
+        },
+        {
+          "number": 5,
+          "text": "Whosoever kepeth his (worde) in him is the love of god parfect in dede. And therby knowe we that we are in him."
+        },
+        {
+          "number": 6,
+          "text": "He that sayth he bydeth in him ought to walke even as he walked."
+        },
+        {
+          "number": 7,
+          "text": "Brethren I write no newe comaundement vnto you: but that olde comaundemet which ye hearde from the begynnynge."
+        },
+        {
+          "number": 8,
+          "text": "The olde comaundement is the worde which ye hearde from the begynnynge. Agayne a newe comaundement I write vnto you a thynge that is true in him and also in you: for the darknes is past and the true lyght now shyneth."
+        },
+        {
+          "number": 9,
+          "text": "He that sayth how that he is in the light and yet hateth his brother is in darknes even vntyll this tyme."
+        },
+        {
+          "number": 10,
+          "text": "He that loveth his brother abydeth in the light and ther is none occasion of evyll in him."
+        },
+        {
+          "number": 11,
+          "text": "He that hateth his brother is in darknes and walketh in darknes: and cannot tell whither he goeth because that darknes hath blynded his eyes."
+        },
+        {
+          "number": 12,
+          "text": "Babes I write vnto you how that youre synnes are forgeven you for his names sake."
+        },
+        {
+          "number": 13,
+          "text": "I wryte vnto you fathers how that ye have knowen him that was from the begynnynge. I wryte vnto you yonge men how that ye have overcome the wicked. I wryte vnto you lytell children how that ye have knowne the father."
+        },
+        {
+          "number": 14,
+          "text": "I wryte vnto you fathers how that ye have knowe him that was fro the begynnynge. I wryte vnto you youge men how that ye are stronge: and the worde of God abydeth in you and ye have overcome that wicked."
+        },
+        {
+          "number": 15,
+          "text": "Se that ye love not the worlde nether the thynges that are in the worlde. Yf eny man love the worlde the love of the father is not in him."
+        },
+        {
+          "number": 16,
+          "text": "For all that is in ye worlde (as the lust of the flesshe the lust of the eyes and ye pryde of gooddes) is not of the father: but of ye worlde"
+        },
+        {
+          "number": 17,
+          "text": "And the worlde vannyssheth awaye and the lust therof: but he that fulfilleth the will of god abydeth ever."
+        },
+        {
+          "number": 18,
+          "text": "Lytell children it is the last tyme and as ye have herde how that Antichrist shall come: even now are there many Antichristes come allredy. Wherby we knowe that it is the last tyme."
+        },
+        {
+          "number": 19,
+          "text": "They went oute from vs but they were not of vs. For yf they had bene of vs they wolde no dout have continued with vs. But that fortuned that yt myght appere that they were not of vs."
+        },
+        {
+          "number": 20,
+          "text": "And ye have an oyntment of ye holy gost and ye knowe all thynges."
+        },
+        {
+          "number": 21,
+          "text": "I wrote not vnto you as though ye knewe not the trueth: but as though ye knewe it and knowe also that no lye commeth of trueth."
+        },
+        {
+          "number": 22,
+          "text": "Who is a lyar: but he that denyeth that Iesus is Christ? The same is the Antichrist that denyeth the father and the sonne."
+        },
+        {
+          "number": 23,
+          "text": "Whosoever denyeth the sonne the same hath not the father."
+        },
+        {
+          "number": 24,
+          "text": "Let therfore abyde in you that same which ye hearde from the begynnynge. Yf that which ye hearde from ye begynnynge shall remayne in you ye also shall continewe in the sonne and in the father"
+        },
+        {
+          "number": 25,
+          "text": "And this is the promes yt he hath promysed vs even eternall lyfe."
+        },
+        {
+          "number": 26,
+          "text": "This have I writte vnto you concernynge the yt disceave you."
+        },
+        {
+          "number": 27,
+          "text": "And ye anoyntynge which ye have receaved of him dwelleth in you. And ye nede not that eny man teache you: but as ye annoyntynge teaheth you all thynges and is true and is no lye: and as it taught you even so byde therin."
+        },
+        {
+          "number": 28,
+          "text": "And nowe babes abyde in him that when he shall appere we maye be bolde and not be made a shamed of him at his commynge."
+        },
+        {
+          "number": 29,
+          "text": "Yf ye knowe that he is righteous knowe also that he which foloweth rightewesnes is borne of him."
+        }
+      ]
+    },
+    "3": {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Beholde what love the father hath shewed on vs that we shuld be called the sonnes of god. For this cause the worlde knoweth you not because it knoweth not him."
+        },
+        {
+          "number": 2,
+          "text": "Derely beloved now are we ye sonnes of God and yet it dothe not appere what we shal be. But we knowe that when it shall appere we shal be lyke him. For we shall se him as he is."
+        },
+        {
+          "number": 3,
+          "text": "And every man that hath thys hope in him pourgeth him silfe even as he ys pure."
+        },
+        {
+          "number": 4,
+          "text": "Whosover committeth synne committeth vnrighteousnes also for synne is vnrighteousnes."
+        },
+        {
+          "number": 5,
+          "text": "And ye knowe that he appered to take awaye oure synnes and in him is no synne."
+        },
+        {
+          "number": 6,
+          "text": "As many as byde in him synne not: whosoever synneth hath not sene him nether hath knowen him."
+        },
+        {
+          "number": 7,
+          "text": "Babes let no man deceave you He that doeth righteousnes is righteous even as he is righteous."
+        },
+        {
+          "number": 8,
+          "text": "He that comitteth synne is of the devill: for the devyll synneth sence the begynnynge. For this purpose appered the sonne of god to lowse the workes of the devill."
+        },
+        {
+          "number": 9,
+          "text": "Whosoever is borne of god sinneth not: for his seed remayneth in him and he cannot sinne because he is borne of god."
+        },
+        {
+          "number": 10,
+          "text": "In this are the children of god knowen and the children of the devyll. Whosoever doeth not rightewesnes is not of God nether he that loveth not his brother."
+        },
+        {
+          "number": 11,
+          "text": "For this is the tydinges that ye hearde fro the begynninge that we shuld love one another:"
+        },
+        {
+          "number": 12,
+          "text": "not as Cayn which was of the wicked and slewe his brother. And wherfore slewe he him? Because his awne workes were evyll and his brothers good."
+        },
+        {
+          "number": 13,
+          "text": "Marvayle not my brethren though the worlde hate you."
+        },
+        {
+          "number": 14,
+          "text": "We knowe that we are translated from deeth vnto lyfe be cause we love the brethren. He that loveth not his brother abydeth in deeth."
+        },
+        {
+          "number": 15,
+          "text": "Whosoever hateth his brother is a man slear. And ye knowe that no man slear hath eternall lyfe abydinge in him."
+        },
+        {
+          "number": 16,
+          "text": "Herby perceave we love: that he gave his lyfe for vs: and therfore ought we also to geve oure lyves for the brethre."
+        },
+        {
+          "number": 17,
+          "text": "Whosoever hath this worldes good and seith his brother have neade: and shutteth vp his copassion from him: how dwelleth the love of God in him?"
+        },
+        {
+          "number": 18,
+          "text": "My babes let vs not love in worde nether in tonge: but with dede and in veritie:"
+        },
+        {
+          "number": 19,
+          "text": "for therby we knowe that we are of the veritie and can before him quiet oure hertes."
+        },
+        {
+          "number": 20,
+          "text": "But yf oure hertes condempne vs God is gretter then oure hertes and knoweth all thinges."
+        },
+        {
+          "number": 21,
+          "text": "Beloved yf oure hertes condempne vs not then have we trust to god warde:"
+        },
+        {
+          "number": 22,
+          "text": "and what soever we axe we shall receave of him: be cause we kepe his commaundementes and do those thinges which are pleasinge in his sight."
+        },
+        {
+          "number": 23,
+          "text": "And this is his comaundemet that we beleve on ye name of his sonne Iesus Christ and love one another as he gave comaundemet."
+        },
+        {
+          "number": 24,
+          "text": "And he yt kepeth his comaundemetes dwelleth in him and he in him: and therby we knowe that ther abydeth in vs of the sprete which he gave vs."
+        }
+      ]
+    },
+    "4": {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Ye beloved beleve not every sprete: but prove the spretes whether they are of God or no: for many falce Prophetes are gone out into the worlde."
+        },
+        {
+          "number": 2,
+          "text": "Herby shall ye knowe the sprete of God. Every sprete that confesseth that Iesus Christ is come in the flesshe is of God."
+        },
+        {
+          "number": 3,
+          "text": "And every sprete which cofesseth not yt Iesus Christ is come in the flesshe is not of God. And this is that sprete of Antichrist of whom ye have hearde howe that he shuld come: and even now alredy is he in the worlde."
+        },
+        {
+          "number": 4,
+          "text": "Lytell chyldre ye are of God and have overcome them: for greater is he yt is in you then he that is in the worlde."
+        },
+        {
+          "number": 5,
+          "text": "They are of the worlde and therfore speake they of the worlde and the worlde heareth them."
+        },
+        {
+          "number": 6,
+          "text": "We are of God. He yt knoweth God heareth vs: he that is not of God heareth vs not. Herby knowe we ye sprete of veritie and the sprete of erroure."
+        },
+        {
+          "number": 7,
+          "text": "Beloved let vs love one another: for love cometh of God. And every one that loveth is borne of God and knoweth God."
+        },
+        {
+          "number": 8,
+          "text": "He that loveth not knoweth not God: for God is love."
+        },
+        {
+          "number": 9,
+          "text": "In this appered ye love of god to vs ward because that god sent his only begotten sonne into the worlde that we myght live thorow him."
+        },
+        {
+          "number": 10,
+          "text": "Herin is love not that we loved god but that he loved vs and sent his sonne to make agrement for oure sinnes."
+        },
+        {
+          "number": 11,
+          "text": "Beloved yf god so loved vs we ought also to love one another."
+        },
+        {
+          "number": 12,
+          "text": "No man hath sene god at enytyme. Yf we love one another god dwelleth in vs and his love is parfect in vs."
+        },
+        {
+          "number": 13,
+          "text": "Herby know we that we dwell in him and he in vs: because he hath geven vs of his sprete."
+        },
+        {
+          "number": 14,
+          "text": "And we have sene and do testifie that the father sent the sonne which is the saveour of the worlde."
+        },
+        {
+          "number": 15,
+          "text": "Whosoever confesseth that Iesus is the sonne of god in him dwelleth god and he in god."
+        },
+        {
+          "number": 16,
+          "text": "And we have knowen and beleved the love that god hath to vs. God is love and he that dwelleth in love dwelleth in god and god in him."
+        },
+        {
+          "number": 17,
+          "text": "Herin is the love perfect in vs that we shuld have trust in the daye of iudgement: For as he is even so are we in this worlde."
+        },
+        {
+          "number": 18,
+          "text": "Ther is no feare in love but parfect love casteth out all feare for feare hath paynfulnes. He yt feareth is not parfect in love."
+        },
+        {
+          "number": 19,
+          "text": "We love him for he loved vs fyrst."
+        },
+        {
+          "number": 20,
+          "text": "Yf a man saye I love god and yet hate his brother he is a lyar. For how can he yt loveth not his brother whom he hath sene love god whom he hath not sene?"
+        },
+        {
+          "number": 21,
+          "text": "And this commaundemet have we of him: that he which loveth God shuld love his brother also."
+        }
+      ]
+    },
+    "5": {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Whosoever beleveh that Iesus is Christ is borne of god. And every one yt loveth him which begat loveth him also which was begotte of him."
+        },
+        {
+          "number": 2,
+          "text": "In this we knowe yt we love the children of god whe we love god and kepe his comaudementes."
+        },
+        {
+          "number": 3,
+          "text": "This is ye love of god yt we kepe his comaundemetes and his comaundementes are not greveous"
+        },
+        {
+          "number": 4,
+          "text": "For all that is borne of god over commeth the worlde. And this is the victory that overcometh the worlde even oure fayth."
+        },
+        {
+          "number": 5,
+          "text": "Who is it that overcommeth the worlde: but he which beleveth that Iesus is ye sonne of god?"
+        },
+        {
+          "number": 6,
+          "text": "This Iesus Christ is he that ca by water and bloud not by water only: but by water and bloud. And it is the sprete that beareth witnes because the sprete ys trueth."
+        },
+        {
+          "number": 7,
+          "text": "(For ther are thre which beare recorde in heuen the father the worde and the wholy goost. And these thre are one)"
+        },
+        {
+          "number": 8,
+          "text": "For there are thre which beare recorde (in erth:) the sprete and water and bloud: and these thre are one."
+        },
+        {
+          "number": 9,
+          "text": "Yf we receave the witnes of men the witnes of god is greater. For this is the witnes of god which he testifyed of his sonne."
+        },
+        {
+          "number": 10,
+          "text": "He that beleveth on the sonne of god hath the witnes in him silfe. He that beleveth not God hath made him a lyar be cause he beleved not the recorde that god gave of his sonne."
+        },
+        {
+          "number": 11,
+          "text": "And this ys that recorde how that god hath geven vnto vs eternall lyfe and this lyfe is in his sonne."
+        },
+        {
+          "number": 12,
+          "text": "He that hath the sonne hath lyfe: and he that hath not the sonne of god hath not lyfe."
+        },
+        {
+          "number": 13,
+          "text": "These thynges have I written vnto you that beleve on the name of the sonne of God that ye maye knowe howe that ye have eternall lyfe and that ye maye beleve on the name of the sonne of god."
+        },
+        {
+          "number": 14,
+          "text": "And this is the trust that we have in him: that yf we axe eny thinge accordynge to his will he heareth vs."
+        },
+        {
+          "number": 15,
+          "text": "And yf we knowe that he heare vs what soever we axe we knowe that we shall have the peticions that we desyre of him."
+        },
+        {
+          "number": 16,
+          "text": "Yf eny man se his brother synne a synne that is not vnto deeth let him axe and he shall geve him lyfe for them that synne not vnto deeth. Ther is a synne vnto deeth for which saye I not that a man shuld praye."
+        },
+        {
+          "number": 17,
+          "text": "All vnrightewesnes is synne and ther is synne not vnto deeth."
+        },
+        {
+          "number": 18,
+          "text": "We knowe that whosoever is borne of god synneth not: but he that is begotten of god kepeth him silfe and that wicked toucheth him not."
+        },
+        {
+          "number": 19,
+          "text": "We knowe that we are of god and that the worlde is altogedder set on wickednes."
+        },
+        {
+          "number": 20,
+          "text": "We knowe that the sonne of God is come and hath geven vs a mynde to knowe him which is true: and we are in him that is true through his sonne Iesu Christ. This same is very god and eternall lyfe."
+        },
+        {
+          "number": 21,
+          "text": "Babes kepe youre selves from ymages. Amen."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "versionId": "Tyndale",
+  "bookCode": "GAL",
+  "bookName": "Gálatas",
+  "testament": "NT",
+  "chapters": {
+    "1": {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Paul an Apostle not of men nether by man but by Iesus Christ and by God the father which raysed him from deeth:"
+        },
+        {
+          "number": 2,
+          "text": "and all the brethren which are with me. Vnto the congregacios of Galacia."
+        },
+        {
+          "number": 3,
+          "text": "Grace be with you and peace from God the father and from oure Lorde Iesus Christ"
+        },
+        {
+          "number": 4,
+          "text": "which gave him selfe for oure synnes to deliver vs from this present evyll worlde thorow the will of God oure father"
+        },
+        {
+          "number": 5,
+          "text": "to whom be prayse for ever and ever. Amen."
+        },
+        {
+          "number": 6,
+          "text": "I marvayle that ye are so sone turned fro him that called you in the grace of Christ vnto another gospell:"
+        },
+        {
+          "number": 7,
+          "text": "which is nothinge els but that ther be some which trouble you and intende to pervert to gospell of Christ."
+        },
+        {
+          "number": 8,
+          "text": "Neverthelesse though we oure selves or an angell fro heve preache eny other gospell vnto you the that which we have preached vnto you holde him as a cursed."
+        },
+        {
+          "number": 9,
+          "text": "As I sayde before so saye I now agayne yf eny man preache eny other thinge vnto you then that ye have receaved holde him accursed."
+        },
+        {
+          "number": 10,
+          "text": "Preache I mannes doctrine or Godes? Ether go I about to please men? If I stodyed to please men I were not the servaunt of Christ."
+        },
+        {
+          "number": 11,
+          "text": "I certifie you brethren that the gospell which was preached of me was not after the maner of men"
+        },
+        {
+          "number": 12,
+          "text": "nether receaved I it of ma nether was I taught it: but receaved it by the revelacion of Iesus Christ."
+        },
+        {
+          "number": 13,
+          "text": "For ye have hearde of my conversacion in tyme past in the Iewes wayes how that beyonde measure I persecuted the congregacion of God and spoyled it:"
+        },
+        {
+          "number": 14,
+          "text": "and prevayled in the Iewes laye above many of my companions which were of myne awne nacio and was a moche more fervet mayntener of the tradicions of the elders."
+        },
+        {
+          "number": 15,
+          "text": "But whe it pleased God which separated me from my mothers wombe and called me by his grace"
+        },
+        {
+          "number": 16,
+          "text": "forto declare his sonne by me that I shuld preache him amonge the hethen: immediatly I comened not of the matter with flesshe and bloud"
+        },
+        {
+          "number": 17,
+          "text": "nether returned to Ierusalem to them which were Apostles before me: but wet my wayes into Arabia and came agayne vnto Damasco."
+        },
+        {
+          "number": 18,
+          "text": "Then after thre yeare I returned to Ierusalem to se Peter and abode with him .xv. dayes"
+        },
+        {
+          "number": 19,
+          "text": "no nother of the Apostles sawe I save Iames the Lordes brother."
+        },
+        {
+          "number": 20,
+          "text": "The thinges which I write beholde God knoweth I lye not."
+        },
+        {
+          "number": 21,
+          "text": "After that I went into the costes of Siria and Cilicia:"
+        },
+        {
+          "number": 22,
+          "text": "and was vnknowen as touchinge my person vnto ye cogregacios of Iewrye which were in Christ."
+        },
+        {
+          "number": 23,
+          "text": "But they hearde only that he which persecuted vs in tyme past now preacheth the fayth which before he destroyed."
+        },
+        {
+          "number": 24,
+          "text": "And they glorified God on my behalffe."
+        }
+      ]
+    },
+    "2": {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then .xiiii. yeares after that I wet vp agayne to Ierusalem with Barnabas and toke with me Titus also."
+        },
+        {
+          "number": 2,
+          "text": "Ye and I went vp by revelacion and comened with them of the Gospell which I preache amonge the gentyls: but apart with them which were couted chefe lest it shuld have bene thought yt I shuld runne or had runne in vayne."
+        },
+        {
+          "number": 3,
+          "text": "Also Titus which was with me though he were a Greke yet was not compelled to be circumcised"
+        },
+        {
+          "number": 4,
+          "text": "and that because of incomers beynge falce brethren which came in amoge other to spye out oure libertie which we have in Christ Iesus that they might bringe vs into bondage."
+        },
+        {
+          "number": 5,
+          "text": "To whom we gave no roume no not for the space of an houre as cocerninge to be brought into subieccio: and that because that the trueth of the gospell myght continue with you."
+        },
+        {
+          "number": 6,
+          "text": "Of the which seme to be great (what they were in tyme passed it maketh no matter to me: God loketh on no mans person) neverthelesse they which seme great added nothynge to me."
+        },
+        {
+          "number": 7,
+          "text": "But contrary wyse when they sawe that the gospell over the vncircumcision was comitted vnto me as the gospell over ye circucision was vnto Peter:"
+        },
+        {
+          "number": 8,
+          "text": "for he yt was myghty in Peter in the Apostleshippe over the circumcision the same was myghty in me amoge the gentyls:"
+        },
+        {
+          "number": 9,
+          "text": "and therfore when they perceaved the grace that was geve vnto me then Iames Cephas and Iohn which semed to be pilers gave to me and Barnabas the ryght hondes and agreed with vs that we shuld preache amonge the Hethen and they amonge the Iewes:"
+        },
+        {
+          "number": 10,
+          "text": "warnynge only that we shulde remember the poore. Which thinge also I was diligent to do."
+        },
+        {
+          "number": 11,
+          "text": "And when Peter was come to Antioche I withstode him in the face for he was worthy to be blamed."
+        },
+        {
+          "number": 12,
+          "text": "For yerr that certayne came fro Iames he ate with the gentyls. But when they were come he withdrue and separated him selfe fearinge them which were of ye circumcision."
+        },
+        {
+          "number": 13,
+          "text": "And ye other Iewes dissembled lyke wyse in so moche that Barnabas was brought into their simulacio also."
+        },
+        {
+          "number": 14,
+          "text": "But when I sawe that they went not the ryght waye after the trueth of the gospell I sayde vnto Peter before all men yf thou beynge a Iewe livest after the maner of the gentyls and not as do the Iewes: why causest thou the getyls to live as do the Iewes?"
+        },
+        {
+          "number": 15,
+          "text": "We which are Iewes by nature and not synners of the getyls"
+        },
+        {
+          "number": 16,
+          "text": "knowe that a man is not iustified by ye dedes of the lowe: but by the fayth of Iesus Christ. And therfore we have beleved on Iesus Christ yt we myght be iustified by ye fayth of Christ and uot by the dedes of the lawe: because that by ye dedes of ye lawe no flesshe shalbe iustified."
+        },
+        {
+          "number": 17,
+          "text": "Yf then whill we seke to be made rightewes by Christ we oure selves are founde synners is not then Christ ye minister of synne? God forbyd."
+        },
+        {
+          "number": 18,
+          "text": "For yf I bylde agayne yt which I destroyed. then make I my selfe a treaspaser."
+        },
+        {
+          "number": 19,
+          "text": "But I thorow ye lawe ame deed to ye lawe: that I myght live vnto God."
+        },
+        {
+          "number": 20,
+          "text": "I am crucified with Christ. I live verely: yet now not I but Christ liveth in me. For ye lyfe which I now live in ye flesshe I live by the fayth of ye sonne of God which loved me and gave him selne for me."
+        },
+        {
+          "number": 21,
+          "text": "I despyse not the grace of God. For if rightewesnes come of the lawe then Christ dyed in vayne."
+        }
+      ]
+    },
+    "3": {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": 1,
+          "text": "O folisshe Galathyas: who hath bewitched you that ye shuld not beleve the trueth? To whom Iesus Christ was described before the eyes and amoge you crucified."
+        },
+        {
+          "number": 2,
+          "text": "This only wolde I learne of you: receaved ye the sprete by the dedes of ye lawe or els by preachinge of ye faith?"
+        },
+        {
+          "number": 3,
+          "text": "Are ye so vnwyse that after ye have begonne in the sprete ye wolde nowe ende in the flesshe?"
+        },
+        {
+          "number": 4,
+          "text": "So many thinges there ye have suffred in vayne if yt be vayne."
+        },
+        {
+          "number": 5,
+          "text": "Which ministered to you the sprete and worketh myracles amonge you doth he it thorow the dedes of the lawe or by preachinge of the fayth?"
+        },
+        {
+          "number": 6,
+          "text": "Even as Abraham beleved God and it was asscribed to him for rightewesnes."
+        },
+        {
+          "number": 7,
+          "text": "Vnderstonde therfore yt they which are of fayth the same are the chyldren of Abraham."
+        },
+        {
+          "number": 8,
+          "text": "For the seripture sawe afore honde yt God wolde iustifie the hethen thorow fayth and therfore shewed before honde glad tydinges vnto Abraham: In the shall all nacions be blessed."
+        },
+        {
+          "number": 9,
+          "text": "So then they which be of fayth are blessed with faythfull Abraham."
+        },
+        {
+          "number": 10,
+          "text": "For as many as are vnder the dedes of the lawe are vnder malediccio. For it is written: cursed is every man yt cotinueth not in all thinges which are writte in ye boke of ye lawe to fulfill the."
+        },
+        {
+          "number": 11,
+          "text": "That no ma is iustified by ye lawe in ye sight of God is evidet. For the iuste shall live by fayth."
+        },
+        {
+          "number": 12,
+          "text": "The lawe is not of fayth: but the man that fulfilleth the thinges contayned in the lawe (shall live in the.)"
+        },
+        {
+          "number": 13,
+          "text": "But Christ hath delivered vs fro the curse of the lawe and was made a cursed for vs. For it is writte: cursed is every one that hangeth on tree"
+        },
+        {
+          "number": 14,
+          "text": "that the blessynge of Abraham might come on the getyls thorow Iesus Christ and that we might receave the promes of the sprete thorow fayth."
+        },
+        {
+          "number": 15,
+          "text": "Brethren I will speake after the maner of men. Though it be but a mans testament yet no ma despiseth it or addeth eny thinge therto when it is once alowed."
+        },
+        {
+          "number": 16,
+          "text": "To Abraham and his seed were the promises made. He sayth not in the seedes as in many: but in thy sede as in one which is Christ."
+        },
+        {
+          "number": 17,
+          "text": "This I saye that the lawe which beganne afterwarde beyonde .iiii.C and .xxx. yeares doth not disanull the testament that was confermed afore of God vnto Christ ward to make the promes of none effect."
+        },
+        {
+          "number": 18,
+          "text": "For yf the inheritaunce come of the lawe it cometh not of promes. But God gave it vnto Abraham by promes."
+        },
+        {
+          "number": 19,
+          "text": "Wherfore then serveth ye lawe? The lawe was added because of transgression (tyll the seed cam to which ye promes was made) and it was ordeyned by angels in ye honde of a mediator."
+        },
+        {
+          "number": 20,
+          "text": "A mediator is not a mediator of one. But God is one."
+        },
+        {
+          "number": 21,
+          "text": "Ys the lawe then agaynst ye promes of God? God forbid. How be it yf ther had bene a lawe geve which coulde have geven lyfe: then no doute rightewesnes shuld have come by ye lawe."
+        },
+        {
+          "number": 22,
+          "text": "But ye scripture concluded all thinges vnder synne yt the promes by the fayth of Iesus Christ shuld be geve vnto them yt beleve."
+        },
+        {
+          "number": 23,
+          "text": "Before yt fayth cam we were kept and shut vp vnder the lawe vnto the fayth which shuld afterwarde be declared."
+        },
+        {
+          "number": 24,
+          "text": "Wherfore the lawe was oure scolemaster vnto the tyme of Christ yt we might be made rightewes by fayth."
+        },
+        {
+          "number": 25,
+          "text": "But after yt fayth is come now are we no lenger vnder a scolemaster."
+        },
+        {
+          "number": 26,
+          "text": "For ye are all the sonnes of God by ye fayth which is in Christ Iesus."
+        },
+        {
+          "number": 27,
+          "text": "For all ye that are baptised have put on Christ."
+        },
+        {
+          "number": 28,
+          "text": "Now is ther no Iewe nether getyle: ther is nether bonde ner fre: ther is nether man ner woman: but ye are all one thinge in Christ Iesu."
+        },
+        {
+          "number": 29,
+          "text": "Yf ye be Christes then are ye Abrahams seed and heyres by promes."
+        }
+      ]
+    },
+    "4": {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": 1,
+          "text": "And I saye that the heyre as longe as he is a chylde differth not from a servaunt though he be Lorde of all"
+        },
+        {
+          "number": 2,
+          "text": "but is vnder tuters and governers vntill the tyme appoynted of the father."
+        },
+        {
+          "number": 3,
+          "text": "Even so we as longe as we were chyldren were in bondage vnder the ordinaunces of the worlde."
+        },
+        {
+          "number": 4,
+          "text": "But when the tyme was full come God sent his sonne borne of a woman and made bonde vnto ye lawe"
+        },
+        {
+          "number": 5,
+          "text": "to redeme the which were vnder the lawe: yt we thorow eleccion myght receave the inheritauce yt belongeth vnto the naturall sonnes."
+        },
+        {
+          "number": 6,
+          "text": "Be cause ye are sonnes God hath sent the sprete of his sonne in to oure hertes which cryeth Abba father."
+        },
+        {
+          "number": 7,
+          "text": "Wherfore now thou art not a servaunt but a sonne. Yf thou be ye sonne thou arte also the heyre of God thorow Christ."
+        },
+        {
+          "number": 8,
+          "text": "Notwithstondinge whe ye knewe not God ye dyd service vnto them which by nature were no goddes."
+        },
+        {
+          "number": 9,
+          "text": "But now seinge ye knowe god (yee rather are knowe of God) how is it that ye tourne agayne vnto the weake and bedgarly cerimonies whervnto agayne ye desyre afresshe to be in bondage?"
+        },
+        {
+          "number": 10,
+          "text": "Ye observe dayes and monethes and tymes and yeares."
+        },
+        {
+          "number": 11,
+          "text": "I am in feare of you lest I have bestowed on you laboure in vayne."
+        },
+        {
+          "number": 12,
+          "text": "Brethern I besech you be ye as I am: for I am as ye are. Ye have not hurte me at all."
+        },
+        {
+          "number": 13,
+          "text": "Ye knowe how thorow infirmite of the flesshe I preached the gospell vnto you at the fyrst."
+        },
+        {
+          "number": 14,
+          "text": "And my temptacion which I suffered by reason of my flesshe ye despysed not nether abhorred: but receaved me as an angell of god: ye as Christ Iesus."
+        },
+        {
+          "number": 15,
+          "text": "How happy were ye then? for I beare you recorde that yf it had bene possible ye wolde have plucked out youre awne eyes and have geven them to me."
+        },
+        {
+          "number": 16,
+          "text": "Am I therfore become youre enemie because I tell you the truth?"
+        },
+        {
+          "number": 17,
+          "text": "They are gelous over you amysse. Ye they intede to exclude you that ye shuld be feruet to them warde."
+        },
+        {
+          "number": 18,
+          "text": "It is good alwayes to be fervent so it be in a good thinge and not only whe I am present with you."
+        },
+        {
+          "number": 19,
+          "text": "My littel children (of whom I travayle in birth againe vntill Christ be fassioned in you)"
+        },
+        {
+          "number": 20,
+          "text": "I wolde I were with you now and coulde chaunge my voyce: for I stonde in a doute of you"
+        },
+        {
+          "number": 21,
+          "text": "Tell me ye that desyre to be vnder the lawe have ye not hearde of the lawe?"
+        },
+        {
+          "number": 22,
+          "text": "For it is written that Abraham had two sonnes ye one by a bonde mayde the other by a fre woman."
+        },
+        {
+          "number": 23,
+          "text": "Yee and he which was of the bonde woman was borne after the flesshe: but he which was of the fre woman was borne by promes."
+        },
+        {
+          "number": 24,
+          "text": "Which thinges betoken mystery. For these wemen are two testamentes the one fro the mounte Sina which gendreth vnto bondage which is Agar."
+        },
+        {
+          "number": 25,
+          "text": "For mounte Sina is called Agar in Arabia and bordreth vpo the citie which is now Ierusalem and is in bondage with her chyldren."
+        },
+        {
+          "number": 26,
+          "text": "But Ierusalem which is above is fre: which is the mother of vs all."
+        },
+        {
+          "number": 27,
+          "text": "For it is written: reioyce thou bare that bearest no chyldre: breake forthe and crye thou that travelest not. For the desolate hath many moo chyldren then she which hath an husband."
+        },
+        {
+          "number": 28,
+          "text": "Brethre we are after the maner of Isaac chyldren of promes."
+        },
+        {
+          "number": 29,
+          "text": "But as then he yt was borne carnally persecuted him that was borne spiritually. Even so is it now."
+        },
+        {
+          "number": 30,
+          "text": "Neverthelesse what sayth the scripture: put awaye the bonde woman and her sonne. For the sonne of the bonde woma shall not be heyre with the sonne of ye fre woman."
+        },
+        {
+          "number": 31,
+          "text": "So then brethren we are not chyldre of the bonde woman: but of the fre woman."
+        }
+      ]
+    },
+    "5": {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Stond fast therfore in ye libertie wher with Christ hath made vs fre and wrappe not youre selves agayne in ye yoke of bondage."
+        },
+        {
+          "number": 2,
+          "text": "Beholde I Paul saye vnto you that yf ye be circumcised Christ shall proffit you nothinge at all."
+        },
+        {
+          "number": 3,
+          "text": "I testifie agayne to every man which is circumcised that he is bounde to kepe the whole lawe."
+        },
+        {
+          "number": 4,
+          "text": "Ye are gone quyte fro Christ as many as are iustified by the lawe and are fallen from grace."
+        },
+        {
+          "number": 5,
+          "text": "We loke for and hope in the sprite to be iustified thorow fayth."
+        },
+        {
+          "number": 6,
+          "text": "For in Iesu Christ nether is circumcision enythinge worth nether yet vncircocision but faith which by love is mighty in operacion."
+        },
+        {
+          "number": 7,
+          "text": "Ye did runne well: who was a let vnto you that ye shuld not obey the trueth?"
+        },
+        {
+          "number": 8,
+          "text": "Eve that counsell that is not of him that called you."
+        },
+        {
+          "number": 9,
+          "text": "A lytell leven doth leven the whole lompe of dowe."
+        },
+        {
+          "number": 10,
+          "text": "I have trust towarde you in the Lorde yt ye wyll be none other wyse mynded. He that troubleth you shall beare his iudgemet what soever he be."
+        },
+        {
+          "number": 11,
+          "text": "Brethren yf I yet preache circucision: why do I then yet suffre persecucion? For then had the offence which the crosse geveth ceased."
+        },
+        {
+          "number": 12,
+          "text": "I wolde to God they were separated from you which trouble you."
+        },
+        {
+          "number": 13,
+          "text": "Brethre ye were called in to (libertie) only let not youre libertie be an occasion vnto the flesshe but in love serve one another."
+        },
+        {
+          "number": 14,
+          "text": "For all ye lawe is fulfilled in one worde which is this: thou shalt love thyne neghbour as thy selfe."
+        },
+        {
+          "number": 15,
+          "text": "Yf ye byte and devoure one another: take hede lest ye be consumed one of another."
+        },
+        {
+          "number": 16,
+          "text": "I saye walke in the sprete and fulfill not ye lustes of ye flesshe."
+        },
+        {
+          "number": 17,
+          "text": "For ye flesshe lusteth contrary to ye sprete and ye sprete cotrary to ye flesshe. Tese are cotrary one to the other so yt ye canot do that which ye wolde."
+        },
+        {
+          "number": 18,
+          "text": "But and yf ye be ledde of the sprete then are ye not vnder the lawe."
+        },
+        {
+          "number": 19,
+          "text": "The dedes of the flesshe are manyfest whiche are these advoutrie fornicacio vnclenes wantannes"
+        },
+        {
+          "number": 20,
+          "text": "ydolatrye witchecraft hatred variaunce zele wrath stryfe sedicion sectes envyinge murther dronkenes glottony and soche lyke: of the which I tell you before as I have tolde you in tyme past that they which comit soche thinges shall not inherite ye kyngdome of God."
+        },
+        {
+          "number": 22,
+          "text": "But ye frute of sprete is loue ioye peace longesufferinge getlenes goodnes faythfulnes"
+        },
+        {
+          "number": 23,
+          "text": "meknes temperancye. Agaynst suche ther is no lawe."
+        },
+        {
+          "number": 24,
+          "text": "They ye are Christis have crucified the flesshe with the appetites and lustes"
+        },
+        {
+          "number": 25,
+          "text": "Yf we lyve in the sprete let vs walke in the sprete."
+        },
+        {
+          "number": 26,
+          "text": "Let vs not be vayne glorious provokinge one another and envyinge one another."
+        }
+      ]
+    },
+    "6": {
+      "chapter": 6,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Brethren yf eny ma be fallen by chauce into eny faute: ye which are spirituall helpe to amende him in the sprete of meknes: consyderynge thy silfe lest thou also be tempted."
+        },
+        {
+          "number": 2,
+          "text": "Beare ye one anothers burthe and so fulfill the lawe of Christ."
+        },
+        {
+          "number": 3,
+          "text": "If eny ma seme to him silfe that he is somwhat whe in dede he is nothynge the same deceaveth hym silfe in his ymaginacion."
+        },
+        {
+          "number": 4,
+          "text": "Let every man prove his awne worke and then shall he have reioysinge in his awne silfe and not in another"
+        },
+        {
+          "number": 5,
+          "text": "For every man shall beare his awne burthen."
+        },
+        {
+          "number": 6,
+          "text": "Let him that is taught in ye worde minister vnto him yt teacheth him in all good thinges."
+        },
+        {
+          "number": 7,
+          "text": "Be not deceaved God is not mocked. For what soever a man soweth yt shall he reepe."
+        },
+        {
+          "number": 8,
+          "text": "He that soweth in his flesshe shall of ye flesshe reepe corrupcio. But he yt soweth in ye sprete shall of the sprete reepe lyfe everlastinge."
+        },
+        {
+          "number": 9,
+          "text": "Let vs not be wery of well doynge. For when the tyme is come we shall repe with out werines."
+        },
+        {
+          "number": 10,
+          "text": "Whill we have therfore tyme let vs do good vnto all men and specially vnto them which are of the housholde of fayth."
+        },
+        {
+          "number": 11,
+          "text": "Beholde how large a letter I have written vnto you with myne awne honde."
+        },
+        {
+          "number": 12,
+          "text": "As many as desyre with vtwarde apperauce to please carnally they constrayne you to be circumcised only be cause they wolde not suffre persecucion with the crosse of Christ."
+        },
+        {
+          "number": 13,
+          "text": "For they them selves which are circumcised kepe not the lawe: but desyre to have you circumcised that they myght reioyce in youre flesshe."
+        },
+        {
+          "number": 14,
+          "text": "God forbyd that I shuld reioyce but in the crosse of oure Lorde Iesu Christ wherby the worlde is crucified as touchinge me and I as concerninge the worlde."
+        },
+        {
+          "number": 15,
+          "text": "For in Christ Iesu nether circucision avayleth eny thinge at all nor vncircumcisio: but a new creature."
+        },
+        {
+          "number": 16,
+          "text": "And as many as walke accordinge to this rule peace be on them and mercy and vpon Israel that pertayneth to God."
+        },
+        {
+          "number": 17,
+          "text": "From hence forth let no man put me to busynes. For I beare in my bodye ye markes of the Lorde Iesu."
+        },
+        {
+          "number": 18,
+          "text": "Brethren the grace of oure Lorde Iesu Christe be with youre sprete. Amen."
+        }
+      ]
+    }
+  }
+}

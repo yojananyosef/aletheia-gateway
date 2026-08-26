@@ -1,0 +1,1820 @@
+{
+  "versionId": "Noyes",
+  "bookCode": "ROM",
+  "bookName": "Romanos",
+  "testament": "NT",
+  "chapters": {
+    "1": {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Paul, a servant of Christ Jesus, a called apostle, set apart to preach the gospel of God,"
+        },
+        {
+          "number": 2,
+          "text": "which he had promised before by his prophets in the Holy Scriptures,"
+        },
+        {
+          "number": 3,
+          "text": "the gospel concerning his Son, who was born of the seed of David as to the flesh,"
+        },
+        {
+          "number": 4,
+          "text": "and shown with power to be the Son of God as to his spirit of holiness, by the resurrection of the dead, Jesus Christ our Lord;"
+        },
+        {
+          "number": 5,
+          "text": "through whom we received grace and the office of an apostle in behalf of his name, in order to produce obedience to the faith among all nations;"
+        },
+        {
+          "number": 6,
+          "text": "among whom are ye also, the called of Jesus Christ;"
+        },
+        {
+          "number": 7,
+          "text": "to all the beloved of God at Rome, called, holy: Grace be to you, and peace, from God our Father, and the Lord Jesus Christ."
+        },
+        {
+          "number": 8,
+          "text": "In the first place, I thank my God through Jesus Christ for all of you, that your faith is spoken of throughout the whole world."
+        },
+        {
+          "number": 9,
+          "text": "For God is my witness, whom I serve with my spirit in the gospel of his Son, how constantly I make mention of you, always in my prayers"
+        },
+        {
+          "number": 10,
+          "text": "supplicating that, if it be possible, I may at last through the will of God be favored with an opportunity of coming to you."
+        },
+        {
+          "number": 11,
+          "text": "For I long to see you, that I may impart to you some spiritual gift, which may be for your confirmation;"
+        },
+        {
+          "number": 12,
+          "text": "that is, that I may be edified among you, and you also, through each other’s faith, both yours and mine."
+        },
+        {
+          "number": 13,
+          "text": "But I would not have you ignorant, brethren, that I often purposed to come to you, though I have been hindered hitherto, that I might have some fruit of my labors among you also, as among the other gentiles."
+        },
+        {
+          "number": 14,
+          "text": "I am debtor both to Greeks and barbarians, both to the wise and the unwise."
+        },
+        {
+          "number": 15,
+          "text": "So, according to my ability, I am ready to preach the gospel to you also in Rome."
+        },
+        {
+          "number": 16,
+          "text": "For I am not ashamed of the gospel; for to every believer, to the Jew first and also to the Greek, it is the power of God unto salvation."
+        },
+        {
+          "number": 17,
+          "text": "For therein is revealed the righteousness which is of God from faith to faith; as it is written, \"But the righteous shall live by faith.\""
+        },
+        {
+          "number": 18,
+          "text": "For the wrath of God is revealed from heaven against all impiety and unrighteousness of men, who keep down the truth in unrighteousness."
+        },
+        {
+          "number": 19,
+          "text": "Because that which may be known of God is manifest within them; for God made it manifest to them."
+        },
+        {
+          "number": 20,
+          "text": "For, ever since the creation of the world, his invisible attributes, even his eternal power and divinity, being perceived from his works, are clearly seen, so that they might be without excuse."
+        },
+        {
+          "number": 21,
+          "text": "Because though they knew God, they did not glorify him as God, nor were they thankful to him; but became perverse in their reasonings, and their senseless minds were darkened;"
+        },
+        {
+          "number": 22,
+          "text": "professing to be wise, they became fools,"
+        },
+        {
+          "number": 23,
+          "text": "and for the glory of the incorruptible God they substituted images of corruptible man, and of birds and four-footed beasts and creeping things."
+        },
+        {
+          "number": 24,
+          "text": "Wherefore God also gave them over in the lusts of their hearts to impurity, to debase their bodies with one another;"
+        },
+        {
+          "number": 25,
+          "text": "because they changed the true God for false gods, and adored and worshipped created things rather than the Creator, who is blessed for ever. Amen."
+        },
+        {
+          "number": 26,
+          "text": "For this cause God gave them up to vile passions. For even their women indulged in unnatural lust,"
+        },
+        {
+          "number": 27,
+          "text": "and in like manner the men also, neglecting the natural use of the female, burned with lust for one another, men with men practising that which is shameful, and receiving in themselves the due recompense of their error."
+        },
+        {
+          "number": 28,
+          "text": "And as they did not choose to retain God in their knowledge, God gave them up to a reprobate mind, to do things which are shameful;"
+        },
+        {
+          "number": 29,
+          "text": "being filled with all unrighteousness, malice, covetousness, wickedness; full of envy, murder, strife, deceit, malignity; backbiters,"
+        },
+        {
+          "number": 30,
+          "text": "slanderers, hated of God, insolent, proud, boasters, inventors of mischief, disobedient to parents,"
+        },
+        {
+          "number": 31,
+          "text": "senseless, faithless, without natural affection, without pity;"
+        },
+        {
+          "number": 32,
+          "text": "who, although knowing the ordinance of God, that they who practise such things deserve death, not only do them themselves, but approve of those who do them."
+        }
+      ]
+    },
+    "2": {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Wherefore thou art without excuse, O man that judgest, whoever thou art. For wherein thou judgest another, thou condemnest thyself; for thou that judgest doest the same things."
+        },
+        {
+          "number": 2,
+          "text": "But we know that the judgment of God is according to truth against those who practise such things."
+        },
+        {
+          "number": 3,
+          "text": "And dost thou suppose, O man, who art judging those who do such things, and art thyself doing the same, that thou wilt escape the judgment of God?"
+        },
+        {
+          "number": 4,
+          "text": "Or dost thou despise the riches of his goodness and forbearance and longsuffering, not knowing that the goodness of God is leading thee to repentance?"
+        },
+        {
+          "number": 5,
+          "text": "But according to thy hardness and impenitent heart, thou art treasuring up for thyself wrath against the day of wrath and of the manifestation of the righteous judgment of God,"
+        },
+        {
+          "number": 6,
+          "text": "who will render to every one according to his works;"
+        },
+        {
+          "number": 7,
+          "text": "everlasting life to those who by patient continuance in well-doing seek for glory, and honor, and incorruption;"
+        },
+        {
+          "number": 8,
+          "text": "but to those who are contentious, and disobedient to the truth; but obey unrighteousness, there will be wrath and indignation."
+        },
+        {
+          "number": 9,
+          "text": "Tribulation and distress will be upon every soul of man whose works are evil, of the Jew first, and also of the Greek;"
+        },
+        {
+          "number": 10,
+          "text": "but glory, honor, and peace, to every one whoso works are good, to the Jew first, and also to the Greek."
+        },
+        {
+          "number": 11,
+          "text": "For there is no respect of persons with God."
+        },
+        {
+          "number": 12,
+          "text": "For as many as have sinned without a law, will also perish without a law; and as many as have sinned under a law, will be judged by a law,"
+        },
+        {
+          "number": 13,
+          "text": "for it is not the hearers of a law who are righteous before God, but the doers of a law will be accounted righteous; —"
+        },
+        {
+          "number": 14,
+          "text": "for when the gentiles, who have no law, do by nature what is required by the Law, these, having no law, are a law to themselves;"
+        },
+        {
+          "number": 15,
+          "text": "since they show that what the Law requireth is written in their hearts, their conscience bearing witness, and their thoughts in turn accusing or defending them; —"
+        },
+        {
+          "number": 16,
+          "text": "in the day when God shall judge the secrets of men by Jesus Christ, according to the gospel which I have preached."
+        },
+        {
+          "number": 17,
+          "text": "But if thou art called a Jew, and restest on the Law, and makest thy boast of God,"
+        },
+        {
+          "number": 18,
+          "text": "and knowest his will, and approvest the things that are more excellent, being instructed out of the Law;"
+        },
+        {
+          "number": 19,
+          "text": "and art confident that thou thyself art a guide of the blind, a light to those who are in darkness,"
+        },
+        {
+          "number": 20,
+          "text": "an instructor of those who lack wisdom, a teacher of babes, having the form of knowledge and of the truth in the Law,—"
+        },
+        {
+          "number": 21,
+          "text": "dost thou then who teachest another, not teach thyself? Thou who proclaimest that others should not steal, dost thou steal?"
+        },
+        {
+          "number": 22,
+          "text": "Dost thou who forbiddest to commit adultery, thyself commit adultery? Thou that abhorrest idols, dost thou rob temples?"
+        },
+        {
+          "number": 23,
+          "text": "Dost thou who boastest of the Law, dishonor God by breaking the Law?"
+        },
+        {
+          "number": 24,
+          "text": "For, as it is written, \"the name of God is on your account blasphemed among the gentiles.\""
+        },
+        {
+          "number": 25,
+          "text": "For circumcision is indeed a benefit to thee, if thou keep the Law; but if thou art a breaker of the Law, thy circumcision hath become uncircumcision."
+        },
+        {
+          "number": 26,
+          "text": "If then he who is uncircumcised keep the precepts of the Law, shall not he though uncircumcised be regarded as circumcised?"
+        },
+        {
+          "number": 27,
+          "text": "Yea, those who are by nature uncircumcised, if they perform the law, will judge thee, who having a written Law and circumcision, art a breaker of the Law."
+        },
+        {
+          "number": 28,
+          "text": "For he is not a Jew, who is one outwardly, nor is that circumcision, which is outward, in the flesh;"
+        },
+        {
+          "number": 29,
+          "text": "but he is a Jew who is one inwardly; and circumcision is of the heart, spiritual, not literal, whose praise is not of men, but of God."
+        }
+      ]
+    },
+    "3": {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": 1,
+          "text": "What then is the advantage of the Jew? or what the benefit of circumcision?"
+        },
+        {
+          "number": 2,
+          "text": "Great, every way. In the first place, because they were entrusted with the oracles of God."
+        },
+        {
+          "number": 3,
+          "text": "For what? If some were unfaithful, shall their unfaithfulness make God unfaithful?"
+        },
+        {
+          "number": 4,
+          "text": "Far be it! yea, let God be true, and every man a liar; as it is written, \"That thou mayst be justified in thy words, and mayst overcome when thou art arraigned.\""
+        },
+        {
+          "number": 5,
+          "text": "But if our unrighteousness serve to display the righteousness of God, what shall we say? Is God unrighteous who inflicteth punishment? (I am speaking as men do.)"
+        },
+        {
+          "number": 6,
+          "text": "Far be it! For then how shall God judge the world?"
+        },
+        {
+          "number": 7,
+          "text": "For if, through my being false, the truth of God hath been more abundantly manifested to his glory, why am I still judged as a sinner?"
+        },
+        {
+          "number": 8,
+          "text": "And why do you not say, as some slanderously charge us with saying, Let us do evil, that good may come? The condemnation of such men is just."
+        },
+        {
+          "number": 9,
+          "text": "What then? Are we better than others? By no means! For we have already brought a charge both against Jews and Greeks, that they are all under sin."
+        },
+        {
+          "number": 10,
+          "text": "As it is written: \"There is none righteous, no, not one;"
+        },
+        {
+          "number": 11,
+          "text": "there is none that hath understanding, there is none that diligently seeketh God;"
+        },
+        {
+          "number": 12,
+          "text": "they have all turned aside from the right way, they have become worthless together; there is none that doeth good, not even one."
+        },
+        {
+          "number": 13,
+          "text": "Their throat is an open sepulchre; with their tongues they have practised deceit. The poison of asps is under their lips."
+        },
+        {
+          "number": 14,
+          "text": "Their mouth is full of cursing and bitterness."
+        },
+        {
+          "number": 15,
+          "text": "Swift are their feet to shed blood;"
+        },
+        {
+          "number": 16,
+          "text": "destruction and misery are in their ways;"
+        },
+        {
+          "number": 17,
+          "text": "and the way of peace they know not."
+        },
+        {
+          "number": 18,
+          "text": "There is no fear of God before their eyes.\""
+        },
+        {
+          "number": 19,
+          "text": "Now we know that whatever the Law saith, it saith to those who are under the Law; that every mouth may be stopped, and all the world become subject to condemnation before God."
+        },
+        {
+          "number": 20,
+          "text": "Because by works of the Law no flesh shall be accepted as righteous: for by the Law is the knowledge of sin."
+        },
+        {
+          "number": 21,
+          "text": "But now, apart from the Law, the righteousness which is of God, to which the Law and the Prophets bear testimony,"
+        },
+        {
+          "number": 22,
+          "text": "even the righteousness which is of God through faith in Jesus Christ, hath been made manifest to all and for all believers. For there is no distinction."
+        },
+        {
+          "number": 23,
+          "text": "For all have sinned, and fail of obtaining the glory which cometh from God;"
+        },
+        {
+          "number": 24,
+          "text": "being accepted as righteous freely, by his grace, through the redemption that is in Christ Jesus,"
+        },
+        {
+          "number": 25,
+          "text": "whom, in his blood, through faith, God hath set forth as a propitiatory sacrifice, in order to manifest his righteousness, on account of his passing by, in his forbearance, the sins committed in former times;"
+        },
+        {
+          "number": 26,
+          "text": "in order to manifest his righteousness at the present time, so that he may be righteous, and accept as righteous him who hath faith."
+        },
+        {
+          "number": 27,
+          "text": "Where then is the boasting? It is excluded. By what law? of works? Nay; but by the law of faith."
+        },
+        {
+          "number": 28,
+          "text": "We conclude therefore, that a man is accepted as righteous through faith, without the works of the Law."
+        },
+        {
+          "number": 29,
+          "text": "Or is God [the God] of Jews alone? Is he not also the God of gentiles? Yea, of gentiles also."
+        },
+        {
+          "number": 30,
+          "text": "Seeing there is but one God, who will accept the circumcised as righteous by faith, and the uncircumcised through faith."
+        },
+        {
+          "number": 31,
+          "text": "Do we then make void the Law through faith? Far be it! On the contrary, we establish the Law."
+        }
+      ]
+    },
+    "4": {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": 1,
+          "text": "What advantage then shall we say that Abraham our father had as to the flesh?"
+        },
+        {
+          "number": 2,
+          "text": "For if Abraham was accepted as righteous through works, he hath ground of boasting. But he hath no ground of boasting before God."
+        },
+        {
+          "number": 3,
+          "text": "For what saith the scripture? \"Abraham had faith in God, and it was accounted unto him as righteousness.\""
+        },
+        {
+          "number": 4,
+          "text": "Now to him that performeth works, the reward is not accounted a matter of grace, but of debt;"
+        },
+        {
+          "number": 5,
+          "text": "but to him who without performing works hath faith in him who accepteth as righteous one that hath been ungodly, his faith is accounted as righteousness;"
+        },
+        {
+          "number": 6,
+          "text": "as David also speaketh of the blessedness of the man whom God accepteth as righteous without works:"
+        },
+        {
+          "number": 7,
+          "text": "\"Blessed are they whose iniquities are forgiven, and whose sins are covered."
+        },
+        {
+          "number": 8,
+          "text": "Blessed is the man whom the Lord shall not charge with sin.\""
+        },
+        {
+          "number": 9,
+          "text": "Doth this blessedness belong to the circumcised alone, or to the uncircumcised also? For we are saying that Abraham’s faith was accounted as righteousness."
+        },
+        {
+          "number": 10,
+          "text": "How then was it so accounted? After his circumcision, or while he was uncircumcised? Not after he was circumcised, but while he was uncircumcised."
+        },
+        {
+          "number": 11,
+          "text": "And he received the outward sign of circumcision as a seal of the righteousness of the faith which he had while he was uncircumcised; that he might be the father of all the uncircumcised who have faith, so that righteousness might be put to their account also;"
+        },
+        {
+          "number": 12,
+          "text": "and that he might be the father of the circumcised, who are not circumcised merely, but who tread in the steps of that faith which our father Abraham had while yet uncircumcised."
+        },
+        {
+          "number": 13,
+          "text": "For not through the Law was the promise made to Abraham or his offspring that he should be the heir of the world, but through the righteousness of faith."
+        },
+        {
+          "number": 14,
+          "text": "For if they that are of the Law are heirs, then faith becometh a vain thing, and the promise is made of no effect."
+        },
+        {
+          "number": 15,
+          "text": "For the Law is the cause of wrath; for where there is no law there is no transgression."
+        },
+        {
+          "number": 16,
+          "text": "Therefore the inheritance was made to depend on faith, that it might be a matter of grace; that the promise might be sure to all the offspring, not to that only which is under the Law, but to that also which hath the faith of Abraham, who is the father of us all"
+        },
+        {
+          "number": 17,
+          "text": "(as it is written, \"I have made thee a father of many nations\") in the sight of that God whom he believed, who giveth life to the dead, and calleth the things that are not, as though they were."
+        },
+        {
+          "number": 18,
+          "text": "For he had confident hope in that which was past hope, that he should become a father of many nations, according to that which was spoken, \"Thus shall thy offspring be;\""
+        },
+        {
+          "number": 19,
+          "text": "and not being weak in faith, he regarded not his own body which had become dead, he being about a hundred years old, nor the deadness of Sarah’s womb;"
+        },
+        {
+          "number": 20,
+          "text": "nor did he waver in respect to the promise of God through unbelief, but was strong in faith, giving glory to God;"
+        },
+        {
+          "number": 21,
+          "text": "being fully convinced, that what he hath promised, he is able also to perform."
+        },
+        {
+          "number": 22,
+          "text": "And therefore it was accounted to him for righteousness."
+        },
+        {
+          "number": 23,
+          "text": "And that it was so accounted was not written for his sake alone,"
+        },
+        {
+          "number": 24,
+          "text": "but for our sakes also, to whom it will be so accounted through our faith in him who raised up Jesus our Lord from the dead,"
+        },
+        {
+          "number": 25,
+          "text": "who was delivered up on account of our trespasses, and raised from the dead that we might be accepted as righteous."
+        }
+      ]
+    },
+    "5": {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Therefore being accepted as righteous through faith, we have peace with God through our Lord Jesus Christ;"
+        },
+        {
+          "number": 2,
+          "text": "through whom also we have had admission into this grace in which we stand, and rejoice in the hope of the glory which God will confer."
+        },
+        {
+          "number": 3,
+          "text": "And not only so, but we rejoice in afflictions also, knowing that affliction produceth endurance,"
+        },
+        {
+          "number": 4,
+          "text": "and endurance proof [of faith], and proof [of faith giveth] hope;"
+        },
+        {
+          "number": 5,
+          "text": "and hope will not disappoint us; because the love of God hath been shed abroad in our hearts by the Holy Spirit which hath been given to us."
+        },
+        {
+          "number": 6,
+          "text": "For while we were yet without strength, in due season Christ died for the ungodly."
+        },
+        {
+          "number": 7,
+          "text": "Now hardly for a righteous man will one die; perhaps, however, for a benefactor one might even dare to die."
+        },
+        {
+          "number": 8,
+          "text": "But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us."
+        },
+        {
+          "number": 9,
+          "text": "Much more then, being now accepted as righteous through his blood, we shall be saved through him from the [coming] wrath."
+        },
+        {
+          "number": 10,
+          "text": "For if while enemies we were reconciled to God through the death of his Son, much more having been reconciled shall we be saved by his life;"
+        },
+        {
+          "number": 11,
+          "text": "and not this only, but also having joy in God through our Lord Jesus Christ, through whom we have now received the reconciliation."
+        },
+        {
+          "number": 12,
+          "text": "So then as through one man sin entered into the world, and through sin death, and thus [death] came through unto all men, because all sinned—"
+        },
+        {
+          "number": 13,
+          "text": "(for all the time before the Law sin was in the world; but sin is not set to one’s account when there is no law."
+        },
+        {
+          "number": 14,
+          "text": "Yet death reigned from Adam to Moses, even over those who had not sinned in the manner in which Adam transgressed; who is a type of him who was to come.—"
+        },
+        {
+          "number": 15,
+          "text": "But the free gift was not as the transgression. For if through the offence of the one the many died, much more hath the grace of God, and the gift which is by the grace of the one man Jesus Christ, abounded to the many."
+        },
+        {
+          "number": 16,
+          "text": "And the free gift is not like what happened through one man who sinned. For sentence of condemnation followed one offence; but the free gift is a justification after many offences."
+        },
+        {
+          "number": 17,
+          "text": "For if by one trespass death reigned through the one man, much more will they who receive the abundance of grace and of the gift of righteousness reign in life through the one man Jesus Christ.)—"
+        },
+        {
+          "number": 18,
+          "text": "As then through one trespass all men have come under condemnation, so through one act of righteousness all obtain the gift of righteousness unto life."
+        },
+        {
+          "number": 19,
+          "text": "For as through the disobedience of the one man the many were made sinners, so through the obedience of the one man will the many be made righteous."
+        },
+        {
+          "number": 20,
+          "text": "Moreover the law came in in addition, that the trespass might abound; but where sin abounded, grace abounded much more;"
+        },
+        {
+          "number": 21,
+          "text": "that as sin reigned in death, so grace might reign through righteousness to everlasting life, through Jesus Christ our Lord."
+        }
+      ]
+    },
+    "6": {
+      "chapter": 6,
+      "verses": [
+        {
+          "number": 1,
+          "text": "What shall we say then? Let us continue in sin, that grace may abound still more?"
+        },
+        {
+          "number": 2,
+          "text": "God forbid! How shall we, who died to sin, live any longer in it?"
+        },
+        {
+          "number": 3,
+          "text": "Are ye ignorant, that all of us who were baptized into Jesus Christ, were baptized into his death?"
+        },
+        {
+          "number": 4,
+          "text": "We then by this baptism into his death were buried with him; that as Christ was raised from the dead by the glorious power of the Father, so we also might walk in newness of life."
+        },
+        {
+          "number": 5,
+          "text": "For if we have been made completely like him in his death, we shall be made like him in his resurrection also;"
+        },
+        {
+          "number": 6,
+          "text": "knowing this, that our old man was crucified with him, that the body of sin might be destroyed, that we might no longer be in slavery to sin;"
+        },
+        {
+          "number": 7,
+          "text": "for he that hath died hath been set free from sin."
+        },
+        {
+          "number": 8,
+          "text": "And if we died with Christ, we believe that we shall also live with him;"
+        },
+        {
+          "number": 9,
+          "text": "since we know that Christ, having been raised from the dead, dieth no more; death hath dominion over him no longer."
+        },
+        {
+          "number": 10,
+          "text": "For in that he died, he died to sin once for all; but in that he liveth, he liveth to God."
+        },
+        {
+          "number": 11,
+          "text": "Thus do ye too consider yourselves as dead to sin, but alive to God, through Jesus Christ."
+        },
+        {
+          "number": 12,
+          "text": "Let not then sin reign in your mortal body, bringing you into subjection to its lusts,"
+        },
+        {
+          "number": 13,
+          "text": "nor yield up your members to sin as instruments of unrighteousness; but yield up yourselves to God, as being alive from the dead, and your members to God as instruments of righteousness."
+        },
+        {
+          "number": 14,
+          "text": "For sin shall not hold dominion over you; for ye are not under the Law, but under grace."
+        },
+        {
+          "number": 15,
+          "text": "What then? Are we to sin, because we are not under the Law, but under grace? God forbid!"
+        },
+        {
+          "number": 16,
+          "text": "Know ye not, that whomever ye choose to obey as a master, his bondmen ye are, whether of sin whose fruit is death, or of obedience whose fruit is righteousness?"
+        },
+        {
+          "number": 17,
+          "text": "But thanks be to God that, though ye were the bondmen of sin, ye became obedient from the heart to that form of teaching which was delivered to you;"
+        },
+        {
+          "number": 18,
+          "text": "and being made free from sin, ye became the bondmen of righteousness."
+        },
+        {
+          "number": 19,
+          "text": "I speak in a way common among men on account of the weakness of your flesh. For as ye once yielded your members as slaves to impurity and to iniquity, in order to commit iniquity, so now yield your members as bondmen to righteousness in order to become holy."
+        },
+        {
+          "number": 20,
+          "text": "For when ye were the slaves of sin, ye were not the bondmen of righteousness."
+        },
+        {
+          "number": 21,
+          "text": "What fruit then had ye at that time from those things of which ye are now ashamed? For the end of those things is death."
+        },
+        {
+          "number": 22,
+          "text": "But now having been delivered from the slavery of sin, and having become the bondservants of God, ye have holiness as the fruit, and everlasting life as the end."
+        },
+        {
+          "number": 23,
+          "text": "For the wages of sin is death; but the free gift of God is everlasting life, through Christ Jesus our Lord."
+        }
+      ]
+    },
+    "7": {
+      "chapter": 7,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Know ye not, brethren, (for I am speaking to those who are acquainted with the Law,) that the Law hath dominion over a man only as long as he liveth?"
+        },
+        {
+          "number": 2,
+          "text": "For the married woman is bound by law to her husband while he liveth; but if the husband die, she is released from the law which bound her to him."
+        },
+        {
+          "number": 3,
+          "text": "So then, if while her husband is living she connect herself with another man, she will be called an adulteress; but if her husband die, she is no longer bound by that law, so that she will not be an adulteress, though she connect herself with another man."
+        },
+        {
+          "number": 4,
+          "text": "So then, my brethren, ye also were slain to the Law through the body of Christ, that ye might be connected with another, even with him who was raised from the dead, that we might bear fruit to God."
+        },
+        {
+          "number": 5,
+          "text": "For when we were in the flesh, the affections of sins, which were through the Law, were working in our members to bear fruit unto death."
+        },
+        {
+          "number": 6,
+          "text": "But now we are delivered from the Law, having died to that by which we were bound, that we might serve in the new life of the Spirit, and not in the old way of the letter."
+        },
+        {
+          "number": 7,
+          "text": "What then shall we say? Is the Law sin? God forbid! But I should not have known sin, except by the Law; for I should not have known sinful desire, unless the Law had said, \"Thou shalt not covet.\""
+        },
+        {
+          "number": 8,
+          "text": "But sin, seizing the opportunity, wrought in me by means of the commandment all manner of sinful desire; for without the Law sin is dead."
+        },
+        {
+          "number": 9,
+          "text": "And I, apart from the Law, was once alive; but when the commandment came, sin came to life again, and I died;"
+        },
+        {
+          "number": 10,
+          "text": "and the very commandment whose design was life, I found to issue in death."
+        },
+        {
+          "number": 11,
+          "text": "For sin, seizing the opportunity, deceived me through the commandment, and through it slew me."
+        },
+        {
+          "number": 12,
+          "text": "So that the Law is holy, and the commandment holy, and right, and good."
+        },
+        {
+          "number": 13,
+          "text": "Did then that which is good become death to me? Far be it! but sin; that it might become manifest as sin, causing death to me by means of that which is good; that sin by means of the commandment might become exceedingly sinful."
+        },
+        {
+          "number": 14,
+          "text": "For we know that the Law is spiritual; but I am unspiritual, a slave sold to sin."
+        },
+        {
+          "number": 15,
+          "text": "For I know not what I do. For I do not what I would, but I do what I hate."
+        },
+        {
+          "number": 16,
+          "text": "But if I do what I would not, I assent to the Law that it is good."
+        },
+        {
+          "number": 17,
+          "text": "Now, however, it is no longer I that do it, but sin that dwelleth in me."
+        },
+        {
+          "number": 18,
+          "text": "For I know that there dwelleth not in me, that is, in my flesh, any good thing; for to desire is present with me, but not to perform that which is good."
+        },
+        {
+          "number": 19,
+          "text": "For the good that I would, I do not; but the evil which I would not, that I do."
+        },
+        {
+          "number": 20,
+          "text": "But if I do what I would not, it is no more I that do it, but sin that dwelleth in me."
+        },
+        {
+          "number": 21,
+          "text": "I find then that there is a law to me, that when I would do good, evil is present with me."
+        },
+        {
+          "number": 22,
+          "text": "For I delight in the Law of God, as to the inward man;"
+        },
+        {
+          "number": 23,
+          "text": "but I perceive another law in my members warring against the law of my mind, and bringing me into captivity to the law of sin which is in my members."
+        },
+        {
+          "number": 24,
+          "text": "Wretched man that I am! Who will deliver me from the body of this death?"
+        },
+        {
+          "number": 25,
+          "text": "Thanks be to God, [who hath delivered me] through Jesus Christ our Lord. So then, I, the same person, with the mind serve the law of God, but with the flesh the law of sin."
+        }
+      ]
+    },
+    "8": {
+      "chapter": 8,
+      "verses": [
+        {
+          "number": 1,
+          "text": "There is then now no condemnation for those who are in Christ Jesus."
+        },
+        {
+          "number": 2,
+          "text": "For the law of the Spirit of life set me free in Christ Jesus from the law of sin and death."
+        },
+        {
+          "number": 3,
+          "text": "For what the Law could not do, in that it was weak through the flesh, God hath done, who on account of sin sent his own Son in the likeness of sinful flesh, and passed sentence of condemnation on sin in the flesh;"
+        },
+        {
+          "number": 4,
+          "text": "so that what is required by the Law might be accomplished in us, who walk not according to the flesh, but according to the Spirit."
+        },
+        {
+          "number": 5,
+          "text": "For they who are according to the flesh have their mind on the things of the flesh; but they who are according to the Spirit, on the things of the Spirit."
+        },
+        {
+          "number": 6,
+          "text": "For the mind of the flesh is death; but the mind of the Spirit life and peace."
+        },
+        {
+          "number": 7,
+          "text": "Because the mind of the flesh is enmity against God; for it doth not submit itself to the Law of God, neither indeed can it."
+        },
+        {
+          "number": 8,
+          "text": "And they who are in the flesh cannot please God."
+        },
+        {
+          "number": 9,
+          "text": "But ye are not in the flesh, but in the Spirit, if indeed the Spirit of God dwelleth in you. But if any one hath to not the Spirit of Christ, he is none of his."
+        },
+        {
+          "number": 10,
+          "text": "And if Christ is in you, the body indeed is dead because of sin; but the Spirit is life because of righteousness."
+        },
+        {
+          "number": 11,
+          "text": "But if the Spirit of him who raised up Jesus from the dead dwelleth in you, he who raised up Christ from the dead will also give life to your mortal bodies, because of his Spirit that dwelleth in you."
+        },
+        {
+          "number": 12,
+          "text": "So then, brethren, we are debtors not to the flesh, to live according to the flesh."
+        },
+        {
+          "number": 13,
+          "text": "For if ye live according to the flesh, ye are sure to die; but if by the Spirit ye make an end of the deeds of the body, ye will live."
+        },
+        {
+          "number": 14,
+          "text": "For as many as are led by the Spirit of God, they are sons of God."
+        },
+        {
+          "number": 15,
+          "text": "For ye did not receive the spirit of bondage so as to be again in fear; but ye received the spirit of adopted children, whereby we cry, Abba, Father!"
+        },
+        {
+          "number": 16,
+          "text": "The Spirit itself beareth witness with our spirit, that we are children of God;"
+        },
+        {
+          "number": 17,
+          "text": "and if children, then heirs; heirs of God, and fellow-heirs with Christ; if indeed we are suffering with him, that we may also be glorified with him."
+        },
+        {
+          "number": 18,
+          "text": "For I esteem the sufferings of the present time as of no account, when compared with the glory which is about to be revealed to us."
+        },
+        {
+          "number": 19,
+          "text": "For the earnest expectation of the creation is waiting for the manifestation of the sons of God."
+        },
+        {
+          "number": 20,
+          "text": "For the creation was brought into subjection to vanity not of its own will, but by reason of him who put it into subjection,"
+        },
+        {
+          "number": 21,
+          "text": "in hope that even the creation itself will be set free from the bondage of corruption and brought into the freedom of the glory of the children of God."
+        },
+        {
+          "number": 22,
+          "text": "For we know that the whole creation is together groaning and suffering the pains of labor, up to this time;"
+        },
+        {
+          "number": 23,
+          "text": "and not only so, but even we ourselves also, though having the first-fruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption as sons, for the redemption of our body."
+        },
+        {
+          "number": 24,
+          "text": "For we were saved only in hope. But hope which is seen is not hope; how can a man hope for that which he seeth?"
+        },
+        {
+          "number": 25,
+          "text": "But if we hope for that which we do not see, then do we with patience wait for it."
+        },
+        {
+          "number": 26,
+          "text": "In like manner the Spirit also helpeth our weakness; for we know not what to pray for as we ought, but the Spirit itself intercedeth with groans which cannot be expressed in words."
+        },
+        {
+          "number": 27,
+          "text": "But he that searcheth the hearts knoweth the mind of the Spirit, because it intercedeth for the holy according to the will of God."
+        },
+        {
+          "number": 28,
+          "text": "We know moreover that all things work together for good to those who love God, to those who are called according to his purpose."
+        },
+        {
+          "number": 29,
+          "text": "For he determined beforehand that those whom he foreknew should be conformed to the image of his Son, in order that he might be the first-born among many brethren."
+        },
+        {
+          "number": 30,
+          "text": "And those whom he before appointed, he also called; and those whom he called, he also accepted as righteous; and those whom he accepted as righteous, he also glorified."
+        },
+        {
+          "number": 31,
+          "text": "What shall we then say to these things? If God is for us, who can be against us?"
+        },
+        {
+          "number": 32,
+          "text": "He who spared not his own Son, but delivered him up for us all, how shall he not also with him freely give us all things?"
+        },
+        {
+          "number": 33,
+          "text": "Who shall bring any charge against the chosen of God? God is he who accepteth them as righteous."
+        },
+        {
+          "number": 34,
+          "text": "Who is he that condemneth? Christ is he that died, yea rather, who rose again, who is also at the right hand of God, who also maketh intercession for us."
+        },
+        {
+          "number": 35,
+          "text": "Who shall separate us from the love of Christ for us? Shall affliction or distress or persecution or famine or nakedness or peril or sword?"
+        },
+        {
+          "number": 36,
+          "text": "As it is written, \"For thy sake we are killed all the day long; we were accounted as sheep for slaughter.\""
+        },
+        {
+          "number": 37,
+          "text": "Nay, in all these things we are more than conquerors, through him that loved us."
+        },
+        {
+          "number": 38,
+          "text": "For I am persuaded, that neither death nor life, nor angels, nor principalities, nor things present nor things to come, nor powers,"
+        },
+        {
+          "number": 39,
+          "text": "nor height nor depth, nor any other created thing will be able to separate us from the love of God for us, which is in Christ Jesus our Lord."
+        }
+      ]
+    },
+    "9": {
+      "chapter": 9,
+      "verses": [
+        {
+          "number": 1,
+          "text": "I speak truth in Christ, I do not lie, my conscience bearing witness with me in the Holy Spirit, that"
+        },
+        {
+          "number": 2,
+          "text": "I have great grief and unceasing anguish in my heart."
+        },
+        {
+          "number": 3,
+          "text": "For I could wish to be myself accursed and cast out from Christ in behalf of my brethren, my kinsmen as to the flesh;"
+        },
+        {
+          "number": 4,
+          "text": "who are Israelites; whom God adopted as sons, whose was the glory, and the covenants, and the giving of the Law, and the service of the sanctuary, and the promises;"
+        },
+        {
+          "number": 5,
+          "text": "whose are the fathers, and from whom, as to the flesh, was the Christ. He who is over all, God, be blessed for ever! Amen."
+        },
+        {
+          "number": 6,
+          "text": "Not as though the word of God hath failed; for not all they that are of Israel are Israel;"
+        },
+        {
+          "number": 7,
+          "text": "nor because they are descendants of Abraham are they all children; but, \"Thy offspring shall be reckoned from Isaac.\""
+        },
+        {
+          "number": 8,
+          "text": "That is, not the children by natural descent are children of God, but the children to whom the promise is made are accounted as the offspring."
+        },
+        {
+          "number": 9,
+          "text": "For the word of promise is this: \"At this time I will come, and Sarah shall have a son.\""
+        },
+        {
+          "number": 10,
+          "text": "And not only so, but also when Rebecca had conceived by one man, our father Isaac,"
+        },
+        {
+          "number": 11,
+          "text": "before the children were born, or had done any thing good or evil, to the end that God’s purpose according to election might stand, not depending on works, but on the will of him that calleth,"
+        },
+        {
+          "number": 12,
+          "text": "it was said to her, \"The elder shall serve the younger:\""
+        },
+        {
+          "number": 13,
+          "text": "as it is written, \"Jacob I loved, but Esau I hated.\""
+        },
+        {
+          "number": 14,
+          "text": "What then shall we say? Is there injustice with God? Far be it!"
+        },
+        {
+          "number": 15,
+          "text": "For he saith to Moses, \"On whom I have mercy, on him will I have mercy; and on whom I have compassion, on him will I have compassion.\""
+        },
+        {
+          "number": 16,
+          "text": "So then it dependeth not on him that willeth, nor on him that runneth, but on God who showeth mercy."
+        },
+        {
+          "number": 17,
+          "text": "For the Scripture saith to Pharaoh, \"For this very purpose did I raise thee up, that I might show forth my power in thee, and that my name might be made known in all the earth.\""
+        },
+        {
+          "number": 18,
+          "text": "So then he hath mercy on whom he will, and hardeneth whom he will."
+        },
+        {
+          "number": 19,
+          "text": "Hence thou wilt say to me, Why then doth he still find fault? for who resisteth his will?"
+        },
+        {
+          "number": 20,
+          "text": "Nay but, O man, who art thou that makest answer to God? Shall the thing that is wrought say to the workman, Why hast thou made me thus?"
+        },
+        {
+          "number": 21,
+          "text": "Hath not the potter a right out of the same lump of clay to make one vessel for an honorable use, and another for a dishonorable?"
+        },
+        {
+          "number": 22,
+          "text": "What if God endured with much patience vessels of wrath fitted for destruction, purposing to manifest his wrath and to make known his power;"
+        },
+        {
+          "number": 23,
+          "text": "purposing also to make known the riches of his glory upon vessels of mercy, which he had before prepared for glory,"
+        },
+        {
+          "number": 24,
+          "text": "whom he also called, even us, not only from among the Jews, but also from among the gentiles?"
+        },
+        {
+          "number": 25,
+          "text": "as he also saith in Hosea, \"I will call that my people, which was not my people; and her beloved, that was not beloved."
+        },
+        {
+          "number": 26,
+          "text": "And it shall be, that in the place where it was said to them, Ye are not my people, there shall they be called sons of the living God.\""
+        },
+        {
+          "number": 27,
+          "text": "But Isaiah crieth out concerning Israel, \"Though the number of the sons of Israel be as the sand of the sea, only the remnant will be saved."
+        },
+        {
+          "number": 28,
+          "text": "For he is accomplishing his word and speedily fulfilling it in righteousness; for a speedily fulfilled word will the Lord execute upon the earth.\""
+        },
+        {
+          "number": 29,
+          "text": "And as Isaiah hath said before, \"Unless the Lord of hosts had left us a seed, we should have become as Sodom, and been made like Gomorrah.\""
+        },
+        {
+          "number": 30,
+          "text": "What then shall we say? That the gentiles, who did not strive after righteousness, obtained righteousness, but a righteousness which is of faith;"
+        },
+        {
+          "number": 31,
+          "text": "while Israel, which strove after a law of righteousness, did not attain to a law of righteousness."
+        },
+        {
+          "number": 32,
+          "text": "Why? Because they did not strive for it by faith, but as being by works. For they stumbled against the stone of stumbling;"
+        },
+        {
+          "number": 33,
+          "text": "as it is written, \"Behold, I lay in Zion a stone of stumbling and rock of offence; and he that believeth in him shall not be put to shame.\""
+        }
+      ]
+    },
+    "10": {
+      "chapter": 10,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Brethren, the desire of my heart and my prayer to God for them is, that they may be saved."
+        },
+        {
+          "number": 2,
+          "text": "For I bear them witness that they have a zeal for God, but not according to knowledge."
+        },
+        {
+          "number": 3,
+          "text": "For being ignorant of the righteousness which is of God, and endeavoring to establish a righteousness of their own, they have not submitted themselves to the righteousness which is of God."
+        },
+        {
+          "number": 4,
+          "text": "For Christ is the end of the Law, so that every one that believeth may obtain righteousness."
+        },
+        {
+          "number": 5,
+          "text": "For Moses describeth the righteousness which is of the Law: \"The man that hath done these things shall live by them.\""
+        },
+        {
+          "number": 6,
+          "text": "But the righteousness which is of faith speaketh thus: Say not in thy heart, \"Who shall ascend into heaven?\" that is, to bring Christ down."
+        },
+        {
+          "number": 7,
+          "text": "Or, \"Who shall descend into the abyss?\" that is, to bring up Christ from the dead."
+        },
+        {
+          "number": 8,
+          "text": "But what saith it? \"The word is nigh thee, in thy mouth, and in thy heart;\" that is, the word concerning faith, which we preach;"
+        },
+        {
+          "number": 9,
+          "text": "for if thou shalt acknowledge with thy mouth Jesus as Lord, and shalt believe in thy heart that God raised him from the dead, thou shalt be saved."
+        },
+        {
+          "number": 10,
+          "text": "For with the heart man believeth so as to obtain righteousness, and with the mouth professeth so as to obtain salvation."
+        },
+        {
+          "number": 11,
+          "text": "For the Scripture saith, \"Whoever believeth in him shall not be put to shame.\""
+        },
+        {
+          "number": 12,
+          "text": "For there is no difference between Jew and Greek; for one and the same is Lord over all, rich to all that call upon him."
+        },
+        {
+          "number": 13,
+          "text": "For \"every one who calleth upon the name of the Lord shall be saved.\""
+        },
+        {
+          "number": 14,
+          "text": "How then shall they call on him, in whom they have not believed? and how shall they believe in him, of whom they have not heard? and how shall they hear without a preacher?"
+        },
+        {
+          "number": 15,
+          "text": "and how shall men preach, unless they are sent forth? as it is written, \"How beautiful are the feet of those who bring glad tidings of peace, who bring glad tidings of good things!\""
+        },
+        {
+          "number": 16,
+          "text": "But they did not all hearken to the glad tidings. For Isaiah saith, \"Lord, who hath believed what he hath heard from us?\""
+        },
+        {
+          "number": 17,
+          "text": "Faith then cometh by hearing, and hearing by the word of God."
+        },
+        {
+          "number": 18,
+          "text": "But I say, Did they not hear? Yes truly, \"Their voice went forth into all the earth, and their words to the ends of the world.\""
+        },
+        {
+          "number": 19,
+          "text": "But I say, Hath not Israel had knowledge? First, Moses saith, \"I will move you to jealousy by that which is no nation, I will excite you to indignation by a foolish people.\""
+        },
+        {
+          "number": 20,
+          "text": "But Isaiah is very bold, and saith, \"I was found by those who sought me not, I became known to those who inquired not for me.\""
+        },
+        {
+          "number": 21,
+          "text": "But concerning Israel he saith, \"All the day long I have stretched out my hands to a disobedient and rebellious people.\""
+        }
+      ]
+    },
+    "11": {
+      "chapter": 11,
+      "verses": [
+        {
+          "number": 1,
+          "text": "I say then, Hath God cast off his people? Far be it I For I myself am an Israelite, of the seed of Abraham, of the tribe of Benjamin."
+        },
+        {
+          "number": 2,
+          "text": "God hath not cast off his people, which he foreknew. Do ye not know what the Scripture saith in the passage concerning Elijah? how he pleadeth to God against Israel:"
+        },
+        {
+          "number": 3,
+          "text": "\"Lord, they have killed thy prophets, they have dug down thine altars; and I am left alone, and they are seeking my life.\""
+        },
+        {
+          "number": 4,
+          "text": "But what saith the answer of God to him? \"I have reserved to myself seven thousand men, who have not bowed the knee to Baal.\""
+        },
+        {
+          "number": 5,
+          "text": "In the same way then at this present time also there is a remnant, according to the election of grace."
+        },
+        {
+          "number": 6,
+          "text": "And if it is by grace, it is no longer on account of works; otherwise grace ceaseth to be grace; but if it is of works, there is then no grace; otherwise work ceaseth to be work. How is it then?"
+        },
+        {
+          "number": 7,
+          "text": "What Israel seeketh after, that Israel did not obtain; but the elect obtained it, and the rest were hardened;"
+        },
+        {
+          "number": 8,
+          "text": "as it is written: \"God gave them a spirit of slumber, eyes that were not to see, and ears that were not to hear, unto this day.\""
+        },
+        {
+          "number": 9,
+          "text": "And David saith, \"Let their table become a snare, and a trap, and a stumbling-block, and a recompense to them;"
+        },
+        {
+          "number": 10,
+          "text": "let their eyes be darkened, that they may not see; and bow down their back alway.\""
+        },
+        {
+          "number": 11,
+          "text": "I say then, Did they stumble in order to fall? God forbid! But by their offence salvation is come to the gentiles to excite them to emulation."
+        },
+        {
+          "number": 12,
+          "text": "But if their offence is the riches of the world, and their loss the riches of the gentiles, how much more will their fullness be?"
+        },
+        {
+          "number": 13,
+          "text": "For I am speaking to you gentiles; inasmuch as I am the apostle of the gentiles, I magnify my office,"
+        },
+        {
+          "number": 14,
+          "text": "that I may, if possible, excite to emulation those who are my flesh, and may save some of them."
+        },
+        {
+          "number": 15,
+          "text": "For if the rejection of them is the reconciliation of the world, what will the reception of them be, but life from the dead?"
+        },
+        {
+          "number": 16,
+          "text": "And if the first portion of the dough is holy, so also will be the lump; and if the root is holy, so will be the branches."
+        },
+        {
+          "number": 17,
+          "text": "And if some of the branches have been broken off, and thou, a wild olive, hast been grafted in among them, and become a partaker with them of the root and fatness of the olive-tree,"
+        },
+        {
+          "number": 18,
+          "text": "boast not over the branches; for if thou boast, thou dost not bear the root, but the root thee."
+        },
+        {
+          "number": 19,
+          "text": "Thou wilt say then, The branches were broken off, that I might be grafted in."
+        },
+        {
+          "number": 20,
+          "text": "Be it so. It was for their unbelief that they were broken off, and thou standest through thy faith; be not high-minded, but fear."
+        },
+        {
+          "number": 21,
+          "text": "For if God spared the natural branches, take care lest he spare not thee."
+        },
+        {
+          "number": 22,
+          "text": "Behold then the goodness and the severity of God; toward those who fell, severity; but toward thee God’s goodness, if thou continue in his goodness; otherwise thou also wilt be cut off."
+        },
+        {
+          "number": 23,
+          "text": "And they also, if they do not continue in their unbelief, will be grafted in; for God is able to graft them in again."
+        },
+        {
+          "number": 24,
+          "text": "For if thou hast been cut off from an olive-tree wild by nature, and hast against thy nature been ingrafted into a good olive-tree, how much more shall these, the natural branches, be ingrafted into their own olive-stock?"
+        },
+        {
+          "number": 25,
+          "text": "For I would not have you ignorant, brethren, of this mystery, lest ye should be wise in your own conceits, that blindness hath to some extent come upon Israel, until the fullness of the gentiles shall have come in."
+        },
+        {
+          "number": 26,
+          "text": "And thus will all Israel be saved; as it is written, \"There shall come out of Zion the Deliverer; he shall turn away ungodliness from Jacob."
+        },
+        {
+          "number": 27,
+          "text": "And this will be my covenant with them, when I shall have taken away their sins.\""
+        },
+        {
+          "number": 28,
+          "text": "In regard to the gospel, they are enemies for your sakes; but in regard to God’s choice, they are beloved for the fathers’ sake."
+        },
+        {
+          "number": 29,
+          "text": "For in respect to his gifts and his calling, there is no change of purpose with God."
+        },
+        {
+          "number": 30,
+          "text": "For as ye in times past were disobedient to God, but have now obtained mercy through their disobedience,"
+        },
+        {
+          "number": 31,
+          "text": "so they too have now become disobedient, that they also may obtain mercy through the mercy shown to you."
+        },
+        {
+          "number": 32,
+          "text": "For God delivered up all to disobedience, that he might have mercy upon all."
+        },
+        {
+          "number": 33,
+          "text": "O the depth of the riches, and of the wisdom, and of the knowledge of God! How unsearchable are his purposes, and his ways past finding out!"
+        },
+        {
+          "number": 34,
+          "text": "For \"who hath known the mind of the Lord? or who hath been made his counselor?\""
+        },
+        {
+          "number": 35,
+          "text": "or \"who first gave to him, and shall receive a return?\""
+        },
+        {
+          "number": 36,
+          "text": "For from him, and through him, and to him are all things. To him be the glory for ever! Amen."
+        }
+      ]
+    },
+    "12": {
+      "chapter": 12,
+      "verses": [
+        {
+          "number": 1,
+          "text": "I beseech you therefore, brethren, by the mercies of God, to present your bodies a living sacrifice, holy, well-pleasing to God, which is your spiritual worship;"
+        },
+        {
+          "number": 2,
+          "text": "and be not conformed to the fashion of this world, but be transformed by the renewal of your mind, that ye may learn by experience what is the will of God, what is good, and well-pleasing, and perfect."
+        },
+        {
+          "number": 3,
+          "text": "For through the grace given to me I warn every one among you, not to think of himself more highly than he ought to think, but to think soberly, according to the measure of faith which God hath imparted to each."
+        },
+        {
+          "number": 4,
+          "text": "For as in one body we have many members, and the members have not all the same office,"
+        },
+        {
+          "number": 5,
+          "text": "so we, though many, form one body in Christ, and each of us is a member of it in common with the rest."
+        },
+        {
+          "number": 6,
+          "text": "Having then gifts which dither according to the grace which hath been bestowed upon us, if we have prophecy, let us prophesy according to the proportion of our faith;"
+        },
+        {
+          "number": 7,
+          "text": "or if service, let us attend to the service; he that teacheth, let him attend to teaching;"
+        },
+        {
+          "number": 8,
+          "text": "or he that exhorteth, to exhortation; he that giveth, let him do it with liberality; he that presideth over others, with diligence; he that doeth deeds of mercy, with cheerfulness."
+        },
+        {
+          "number": 9,
+          "text": "Let your love be unfeigned. Abhor that which is evil, cleave to that which is good."
+        },
+        {
+          "number": 10,
+          "text": "In brotherly love, be affectionate to one another; in honor, give each other the preference."
+        },
+        {
+          "number": 11,
+          "text": "Be not backward in zeal; be fervent in spirit; serving the Lord."
+        },
+        {
+          "number": 12,
+          "text": "Rejoice in hope; be patient in affliction; persevere in prayer."
+        },
+        {
+          "number": 13,
+          "text": "Relieve the wants of the holy; be given to hospitality."
+        },
+        {
+          "number": 14,
+          "text": "Bless those who persecute you; bless, and curse not."
+        },
+        {
+          "number": 15,
+          "text": "Rejoice with those who rejoice; weep with those who weep."
+        },
+        {
+          "number": 16,
+          "text": "Be of one mind among yourselves. Set not your minds on high things, but content yourselves with what is humble. Be not wise in your own conceits."
+        },
+        {
+          "number": 17,
+          "text": "Render to no one evil for evil; have regard to what is honorable in the sight of all men."
+        },
+        {
+          "number": 18,
+          "text": "If it be possible, as far as dependeth on you, be at peace with all men."
+        },
+        {
+          "number": 19,
+          "text": "Dearly beloved, avenge not yourselves, but rather make room for wrath; for it is written, \"Vengeance is mine; I will repay, saith the Lord.\""
+        },
+        {
+          "number": 20,
+          "text": "Therefore, \"if thy enemy hunger, feed him; if he thirst, give him drink. For in so doing thou wilt heap coals of fire on his head.\""
+        },
+        {
+          "number": 21,
+          "text": "Be not overcome by evil, but overcome evil with good."
+        }
+      ]
+    },
+    "13": {
+      "chapter": 13,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Let every one submit to the authorities that are over him; for there is no authority which is not from God: and the authorities which exist have been ordained by God."
+        },
+        {
+          "number": 2,
+          "text": "He therefore that setteth himself against the authority resisteth what God hath ordained; and they a who resist will bring upon themselves judgment."
+        },
+        {
+          "number": 3,
+          "text": "For rulers are not a terror to good works, but to the evil. Wouldst thou then not be afraid of the government? Do that which is good, and thou wilt have praise from it;"
+        },
+        {
+          "number": 4,
+          "text": "for the ruler is God’s servant to thee for good. But if thou doest evil, be afraid; for he beareth not the sword in vain; for he is God’s servant, an avenger to inflict wrath upon him that doeth evil."
+        },
+        {
+          "number": 5,
+          "text": "It is necessary therefore to submit, not only because of the wrath, but also for your conscience’ sake."
+        },
+        {
+          "number": 6,
+          "text": "For the same reason pay tribute also; for they are ministers of God, attending continually to this very business."
+        },
+        {
+          "number": 7,
+          "text": "Render to all what is due to them; tribute, to whom tribute is due; custom, to whom custom; fear, to whom fear; honor, to whom honor."
+        },
+        {
+          "number": 8,
+          "text": "Owe no one anything but brotherly love; for he that loveth others hath fulfilled the Law."
+        },
+        {
+          "number": 9,
+          "text": "For these, \"Thou shalt not commit adultery, Thou shalt not kill, Thou shalt not steal, Thou shalt not covet,\" and every other commandment, are summed up in this precept, \"Thou shalt love thy neighbor as thyself.\""
+        },
+        {
+          "number": 10,
+          "text": "Love worketh no ill to one’s neighbor; therefore love is the fulfilling of the Law."
+        },
+        {
+          "number": 11,
+          "text": "And this, since we know the time, that it is already high time for us to awake out of sleep; for now is our salvation nearer than when we became believers."
+        },
+        {
+          "number": 12,
+          "text": "The night is far spent, the day is at hand; let us then throw off the works of darkness, and put on the armor of light."
+        },
+        {
+          "number": 13,
+          "text": "Let us walk becomingly, as in the day; not in reveling and drunkenness, not in lewdness and wantonness, not in strife and envy;"
+        },
+        {
+          "number": 14,
+          "text": "but clothe yourselves with the Lord Jesus Christ, and think not about satisfying the lusts of the flesh."
+        }
+      ]
+    },
+    "14": {
+      "chapter": 14,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Him that is weak in his faith receive with kindness, and not to pass judgment on his thoughts."
+        },
+        {
+          "number": 2,
+          "text": "One man hath faith to eat every kind of food; another, who is weak, eateth herbs only."
+        },
+        {
+          "number": 3,
+          "text": "Let not him who eateth, despise him that eateth not; and let not him who eateth not, judge him that eateth; for God hath received him."
+        },
+        {
+          "number": 4,
+          "text": "Who art thou that judgest the servant of another? To his own lord he standeth or falleth; and he shall be made to stand; for the Lord is able to make him stand."
+        },
+        {
+          "number": 5,
+          "text": "One man esteemeth one day above another; another esteemeth every day alike: let each one be fully persuaded in his own mind. He that regardeth the day, regardeth it to the Lord;"
+        },
+        {
+          "number": 6,
+          "text": "and he that regardeth not the day, to the Lord he doth not regard it. And he that eateth, eateth to the Lord, for he giveth thanks to God; and he that doth not eat, to the Lord he doth not eat, and giveth thanks to God."
+        },
+        {
+          "number": 7,
+          "text": "For none of us liveth to himself, and no one dieth to himself."
+        },
+        {
+          "number": 8,
+          "text": "For if we live, we live to the Lord; and if we die, we die to the Lord. Whether then we live or die, we are the Lord’s."
+        },
+        {
+          "number": 9,
+          "text": "For to this end Christ died and lived again, that he might be Lord both of the dead and the living."
+        },
+        {
+          "number": 10,
+          "text": "But thou, why dost thou judge thy brother? And thou, too, why dost thou despise thy brother? For we shall all stand before the judgment-seat of God."
+        },
+        {
+          "number": 11,
+          "text": "For it is written, \"As I live, saith the Lord, to me every knee shall bow, and every tongue shall give praise to God.\""
+        },
+        {
+          "number": 12,
+          "text": "So then every one of us will give account of himself to God."
+        },
+        {
+          "number": 13,
+          "text": "Let us then no longer judge one another; but let this rather be your judgment, not to put a stumbling-block, or an occasion to fall, in a brother’s way."
+        },
+        {
+          "number": 14,
+          "text": "I know, and am persuaded in the Lord Jesus, that nothing is unclean in itself; but to him that accounteth anything to be unclean, to him it is unclean."
+        },
+        {
+          "number": 15,
+          "text": "For if on account of food thy brother is made to mourn, thou art no longer walking according to love. Do not with thy food destroy him for whom Christ died."
+        },
+        {
+          "number": 16,
+          "text": "Let not then the blessing which ye enjoy be evil spoken of."
+        },
+        {
+          "number": 17,
+          "text": "For the kingdom of God is not food and drink, but righteousness, and peace, and joy in the Holy Spirit;"
+        },
+        {
+          "number": 18,
+          "text": "for he who in this matter serveth Christ is well-pleasing to God, and approved by men."
+        },
+        {
+          "number": 19,
+          "text": "Let us then strive to promote peace, and the edification of each other."
+        },
+        {
+          "number": 20,
+          "text": "Do not for the sake of food undo the work of God. All things indeed are clean; but that which is pure is evil for that man who eateth so as to be an occasion of sin."
+        },
+        {
+          "number": 21,
+          "text": "It is good neither to eat flesh, nor to drink wine, nor to do anything whereby thy brother stumbleth, or is put in danger of falling, or is made weak."
+        },
+        {
+          "number": 22,
+          "text": "Thou hast faith; have it to thyself before God. Happy is he who doth not condemn himself in that which he alloweth."
+        },
+        {
+          "number": 23,
+          "text": "But he that doubteth is condemned if he eat, because he doeth it not from faith; but every thing which is not from faith is sin."
+        }
+      ]
+    },
+    "15": {
+      "chapter": 15,
+      "verses": [
+        {
+          "number": 1,
+          "text": "We then who are strong ought to hear the infirmities of the weak, and not to please ourselves."
+        },
+        {
+          "number": 2,
+          "text": "Let each one of us please his neighbor, to promote what is good, for edification."
+        },
+        {
+          "number": 3,
+          "text": "For Christ did not seek his own pleasure, but, as it is written, \"The reproaches of those who reproached thee fell on me.\""
+        },
+        {
+          "number": 4,
+          "text": "For whatever things were written aforetime, were written for our instruction; that we through the patience and the consolation of the Scriptures might have hope."
+        },
+        {
+          "number": 5,
+          "text": "And may the God of patience and consolation grant that ye may be of the same mind one with another, according to Christ Jesus;"
+        },
+        {
+          "number": 6,
+          "text": "that with one accord ye may with one mouth glorify God, the Father of our Lord Jesus Christ."
+        },
+        {
+          "number": 7,
+          "text": "Wherefore receive ye one another, as Christ received you to the glory of God."
+        },
+        {
+          "number": 8,
+          "text": "For I say that Christ became a minister to the circumcised for the sake of God’s truth, in order to make sure the promises given to the fathers;"
+        },
+        {
+          "number": 9,
+          "text": "and that the gentiles glorified God for his mercy, as it is written, \"For this cause I will give praise to thee among the gentiles, and sing to thy name.\""
+        },
+        {
+          "number": 10,
+          "text": "And again he saith: \"Rejoice, ye gentiles, with his people.\""
+        },
+        {
+          "number": 11,
+          "text": "And again: \"Praise the Lord, all ye gentiles, and let every people praise him.\""
+        },
+        {
+          "number": 12,
+          "text": "And again Isaiah saith: \"There shall be the shoot from Jesse, and he that riseth up to rule the gentiles; in him shall the gentiles hope.\""
+        },
+        {
+          "number": 13,
+          "text": "And may the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Spirit."
+        },
+        {
+          "number": 14,
+          "text": "But I myself am persuaded of you, my brethren, that ye are even of yourselves full of goodness, filled with all knowledge, able also to admonish one another."
+        },
+        {
+          "number": 15,
+          "text": "But I have written to you, brethren, in a manner somewhat bold on some subjects, as putting you in mind, on account of the grace given me by God"
+        },
+        {
+          "number": 16,
+          "text": "that I should be a minister of Christ Jesus to the gentiles, performing the office of a priest in respect to the gospel of God, that the oblation of the gentiles may be acceptable, being sanctified by the Holy Spirit."
+        },
+        {
+          "number": 17,
+          "text": "I have then ground for glorying in Christ Jesus in regard to the things pertaining m God."
+        },
+        {
+          "number": 18,
+          "text": "For I will not be bold to say anything hut of what Christ hath actually wrought by me to bring the gentiles to obedience by word and deed,"
+        },
+        {
+          "number": 19,
+          "text": "by the power of signs and wonders, by the power of the Spirit; so that from Jerusalem, and in the country around even to Illyricum, I have fully made known the gospel of Christ;"
+        },
+        {
+          "number": 20,
+          "text": "but always earnestly desirous to preach it in this manner,—not where Christ had been named, that I might not build on another’s foundation,"
+        },
+        {
+          "number": 21,
+          "text": "but, as it is written: \"They, to whom no tidings concerning him came, shall see; and they that have not heard shall understand.\""
+        },
+        {
+          "number": 22,
+          "text": "For which cause also, for the most part, I have been hindered from coming to you."
+        },
+        {
+          "number": 23,
+          "text": "But now having no more opportunity in these regions, and having had for many years a great desire to come to you,"
+        },
+        {
+          "number": 24,
+          "text": "when I go to Spain, I will come to you; for I hope to see you on my way, and to be helped forward thither by you, after I have in some degree satisfied myself with your company."
+        },
+        {
+          "number": 25,
+          "text": "But now I am going to Jerusalem on a service of relief to the saints."
+        },
+        {
+          "number": 26,
+          "text": "For Macedonia and Achaia have thought it good to make a contribution for the poor among the saints in Jerusalem."
+        },
+        {
+          "number": 27,
+          "text": "They have thought it good, and they owed it to them. For if the gentiles have shared in their spiritual things, they ought in return to minister to them in temporal things."
+        },
+        {
+          "number": 28,
+          "text": "When therefore I have completed this business, and secured to them this fruit, I shall set out to pass through you to Spain."
+        },
+        {
+          "number": 29,
+          "text": "And I know that when I come to you, I shall come in the fullness of the blessing of Christ."
+        },
+        {
+          "number": 30,
+          "text": "But I beseech you, by our Lord Jesus Christ, and by the love produced by the Spirit, that ye strive together with me in prayers to God for me;"
+        },
+        {
+          "number": 31,
+          "text": "that I may be delivered from the unbelievers in Judaea, and that my service for Jerusalem may prove acceptable to the saints;"
+        },
+        {
+          "number": 32,
+          "text": "so that, through the will of God, I may come to you in joy, and may with you be refreshed."
+        },
+        {
+          "number": 33,
+          "text": "And may the God of peace be with you all. Amen."
+        }
+      ]
+    },
+    "16": {
+      "chapter": 16,
+      "verses": [
+        {
+          "number": 1,
+          "text": "I commend to you Phoebe our sister, who is a deaconess of the church at Cenchreae;"
+        },
+        {
+          "number": 2,
+          "text": "that ye may receive her in the Lord in a manner worthy of the holy, and assist her in whatever business she may need your aid; for she hath been a helper of many, and of myself also."
+        },
+        {
+          "number": 3,
+          "text": "Salute Prisca and Aquila, my fellow-laborers in Christ Jesus;"
+        },
+        {
+          "number": 4,
+          "text": "who for my life laid down their own necks; to whom not I alone give thanks, but also all the churches of the gentiles;"
+        },
+        {
+          "number": 5,
+          "text": "salute also the church that is in their house. Salute Epaenetus, my beloved, who is the first fruit gathered from Asia for Christ."
+        },
+        {
+          "number": 6,
+          "text": "Salute Mary, who labored much for us."
+        },
+        {
+          "number": 7,
+          "text": "Salute Andronicus and Junias, my kinsmen, and my fellow-prisoners, who are of note among the apostles, who also were in Christ before me."
+        },
+        {
+          "number": 8,
+          "text": "Salute Amplias, my beloved in the Lord."
+        },
+        {
+          "number": 9,
+          "text": "Salute Urbanus, our fellow-laborer in Christ, and Stachys, my beloved."
+        },
+        {
+          "number": 10,
+          "text": "Salute Apelles, the approved in Christ. Salute those who belong to the family of Aristobulus."
+        },
+        {
+          "number": 11,
+          "text": "Salute Herodion, my kinsman. Salute those of the family of Narcissus, who are in the Lord."
+        },
+        {
+          "number": 12,
+          "text": "Salute Tryphaena and Tryphosa, who labor in the Lord. Salute Persis, the beloved, who labored much in the Lord."
+        },
+        {
+          "number": 13,
+          "text": "Salute Rufus, the chosen in the Lord, and his mother, who is mine also."
+        },
+        {
+          "number": 14,
+          "text": "Salute Asyncritus, Phlegon, Hermes, Patrobas, Hermas, and the brethren that are with them."
+        },
+        {
+          "number": 15,
+          "text": "Salute Philologus and Julia, Nereus and his sister, and Olympas, and all the saints who are with them."
+        },
+        {
+          "number": 16,
+          "text": "Salute each other with a holy kiss. All the churches of Christ salute you."
+        },
+        {
+          "number": 17,
+          "text": "But I exhort your brethren, to mark those who are causing divisions and offences, contrary to the doctrine which ye learned; and avoid them."
+        },
+        {
+          "number": 18,
+          "text": "For such men are not servants of our Lord Christ, but of their own appetites; and by good words and fair speeches they deceive the hearts of the simple."
+        },
+        {
+          "number": 19,
+          "text": "For your obedience hath become known to all. Over you, then, I rejoice; but I would have you wise as to that which is good, and simple as to that which is evil."
+        },
+        {
+          "number": 20,
+          "text": "And the God of peace will soon beat down Satan under your feet. The grace of our Lord Jesus Christ be with you."
+        },
+        {
+          "number": 21,
+          "text": "Timothy, my fellow-laborer, salutes you, and Lucius and Jason and Sosipater my kinsmen."
+        },
+        {
+          "number": 22,
+          "text": "I Tertius, who wrote this letter, salute you in the Lord."
+        },
+        {
+          "number": 23,
+          "text": "Gaius my host, and the host of the whole church, saluteth you. Erastus the treasurer of the city saluteth you, and Quartus, the brother."
+        },
+        {
+          "number": 24,
+          "text": "The grace of our Lord Jesus Christ be with you all. Amen."
+        },
+        {
+          "number": 25,
+          "text": "Now to him who is able to establish you according to my gospel and the preaching of Jesus Christ, according to the revelation of the mystery which for eternal ages was unrevealed,"
+        },
+        {
+          "number": 26,
+          "text": "but is now made manifest, and through the writings of the prophets, by the command of the everlasting God, is made known to all the nations to bring them to obedience to the faith,—"
+        },
+        {
+          "number": 27,
+          "text": "to God, the only wise, through Jesus Christ, to whom be the glory for ever! Amen."
+        }
+      ]
+    }
+  }
+}

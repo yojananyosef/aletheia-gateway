@@ -1,0 +1,634 @@
+{
+  "versionId": "Noyes",
+  "bookCode": "GAL",
+  "bookName": "Gálatas",
+  "testament": "NT",
+  "chapters": {
+    "1": {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Paul, an apostle, not from men, nor through man, but through Jesus Christ, and God the Father, who raised him from the dead,—"
+        },
+        {
+          "number": 2,
+          "text": "and all the brethren that are with me, to the churches of Galatia:"
+        },
+        {
+          "number": 3,
+          "text": "Grace be to you and peace from God the Father, and from our Lord Jesus Christ,"
+        },
+        {
+          "number": 4,
+          "text": "who gave himself for our sins, that he might deliver us from the present evil world, according to the will of God our Father;"
+        },
+        {
+          "number": 5,
+          "text": "to whom be the glory for ever and ever! Amen."
+        },
+        {
+          "number": 6,
+          "text": "I marvel that ye are so soon turning from him that called you in the grace of Christ, to a different gospel;"
+        },
+        {
+          "number": 7,
+          "text": "which is not another; only there are certain persons who are troubling you, and seeking to change entirely the gospel of Christ."
+        },
+        {
+          "number": 8,
+          "text": "But even if we or an angel from heaven should preach a gospel to you contrary to that which we preached to you, let him be accursed!"
+        },
+        {
+          "number": 9,
+          "text": "As we have said before, so I now say again, If any one preach a gospel to you contrary to that which ye received, let him be accursed!"
+        },
+        {
+          "number": 10,
+          "text": "For do I now seek the favor of men, or of God? Or am I endeavoring to please men? If I were still pleasing men, I should not be the servant of Christ."
+        },
+        {
+          "number": 11,
+          "text": "But I assure you, brethren, that the gospel which was preached by me is not after man;"
+        },
+        {
+          "number": 12,
+          "text": "for I did not receive it from man nor was I taught it by any man, but it was revealed to me by Jesus Christ."
+        },
+        {
+          "number": 13,
+          "text": "For ye have heard of my conduct formerly in Judaism; that beyond measure I persecuted the church of God, and was destroying it,"
+        },
+        {
+          "number": 14,
+          "text": "and made progress in Judaism beyond many of the same age with me in my nation, being more exceedingly zealous for the traditions of my fathers."
+        },
+        {
+          "number": 15,
+          "text": "But when it pleased him who set me apart from my very birth, and called me through his grace,"
+        },
+        {
+          "number": 16,
+          "text": "to reveal his Son within me, that I might publish the glad tidings of him among the gentiles, immediately I conferred not with flesh and blood,"
+        },
+        {
+          "number": 17,
+          "text": "neither did I go up to Jerusalem to those who were apostles before me, but I went away into Arabia, and returned again to Damascus."
+        },
+        {
+          "number": 18,
+          "text": "Then, after three years, I went up to Jerusalem to become acquainted with Cephas, and stayed with him fifteen days;"
+        },
+        {
+          "number": 19,
+          "text": "but no other of the apostles did I see, save James the brother of the Lord."
+        },
+        {
+          "number": 20,
+          "text": "Now as to what I am writing to you, behold, before God, I do not lie."
+        },
+        {
+          "number": 21,
+          "text": "Afterwards I came into the regions of Syria and Cilicia;"
+        },
+        {
+          "number": 22,
+          "text": "and I was unknown by face to the churches of Judaea which were in Christ;"
+        },
+        {
+          "number": 23,
+          "text": "but they were only hearing that \"He who was once our persecutor is now preaching the faith which he was once destroying\";"
+        },
+        {
+          "number": 24,
+          "text": "and they glorified God in me."
+        }
+      ]
+    },
+    "2": {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then, fourteen years after, I went up again to Jerusalem with Barnabas, and took Titus also with me."
+        },
+        {
+          "number": 2,
+          "text": "And I went up by revelation, and communicated to them that gospel which I preach among the gentiles; but privately to those who were of reputation, lest by any means I should run, or had run, in vain."
+        },
+        {
+          "number": 3,
+          "text": "But not even Titus, who was with me, though he was a Greek, was compelled to be circumcised;"
+        },
+        {
+          "number": 4,
+          "text": "and that because of the false brethren stealthily brought in, who crept in to spy out our liberty which we have in Christ Jesus, that they might bring into bondage;"
+        },
+        {
+          "number": 5,
+          "text": "to whom not even for an hour did we yield by the required subjection, that the truth of the gospel might still remain with you."
+        },
+        {
+          "number": 6,
+          "text": "But from those who were reputed to be somewhat—whatever they were, it matters not to me, (God accepteth no man’s person,) for to me those in reputation communicated nothing new."
+        },
+        {
+          "number": 7,
+          "text": "But on the contrary, when they saw that I was intrusted with the gospel to the uncircumcised, as Peter was with that to the circumcised,"
+        },
+        {
+          "number": 8,
+          "text": "(for he who wrought for Peter in behalf of the apostleship to the circumcised, wrought also for me in behalf of the gentiles,)"
+        },
+        {
+          "number": 9,
+          "text": "and when they knew the grace that was given to me, James and Cephas and John, who were reputed to be pillars, gave to me and Barnabas the right hand of fellowship, that we should go to the gentiles, and they to the circumcised;"
+        },
+        {
+          "number": 10,
+          "text": "only they wished us to remember the poor; which very thing I also was earnest to do."
+        },
+        {
+          "number": 11,
+          "text": "But when Cephas came to Antioch, I withstood him to the face; for he was condemned."
+        },
+        {
+          "number": 12,
+          "text": "For before certain persons came from James, he used to eat with the gentiles; but when they came, he withdrew, and separated himself, fearing those who were of the circumcision."
+        },
+        {
+          "number": 13,
+          "text": "And the other Jews also dissembled with him; so that even Barnabas was carried away with their dissimulation."
+        },
+        {
+          "number": 14,
+          "text": "But when I saw that they were not walking uprightly according to the truth of the gospel, I said to Cephas in the presence of all, If thou, being a Jew, livest after the manner of gentiles, and not that of the Jews, how is it that thou compellest the gentiles to keep the customs of the Jews?"
+        },
+        {
+          "number": 15,
+          "text": "We are Jews by nature, and not sinners of the gentiles;"
+        },
+        {
+          "number": 16,
+          "text": "but knowing that a man is not accepted as righteous by the works of the Law, but by faith in Christ Jesus, we also have believed in Christ Jesus, that we might be accepted as righteous by faith in Christ, and not by the works of the Law; for by the works of the Law shall no flesh be accepted as righteous."
+        },
+        {
+          "number": 17,
+          "text": "But while seeking to be accepted as righteous in Christ, we ourselves also are found sinners, is Christ therefore a minister of sin? Far be it!"
+        },
+        {
+          "number": 18,
+          "text": "For if I again build up what I pulled down, I make myself a transgressor."
+        },
+        {
+          "number": 19,
+          "text": "For I through the Law died to the Law, that I might live to God."
+        },
+        {
+          "number": 20,
+          "text": "I have been crucified with Christ, and no longer do I live, but Christ liveth in me; and the life which I now live in the flesh I live in faith in the Son of God, who loved me, and gave himself for me."
+        },
+        {
+          "number": 21,
+          "text": "I do not set aside the grace of God; for if righteousness come through the Law, then did Christ die for nought."
+        }
+      ]
+    },
+    "3": {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": 1,
+          "text": "O foolish Galatians, who bewitched you? before whose eyes Jesus Christ was plainly set forth among you crucified."
+        },
+        {
+          "number": 2,
+          "text": "This only I desire to learn from you: Was it from the works of the Law that ye received the Spirit, or by the preaching of faith?"
+        },
+        {
+          "number": 3,
+          "text": "Are ye so foolish? Having begun with the Spirit, do ye now end with the flesh?"
+        },
+        {
+          "number": 4,
+          "text": "Have ye suffered so much in vain? if indeed it be really in vain."
+        },
+        {
+          "number": 5,
+          "text": "Doth he then who is supplying to you the Spirit, and working miracles among you, do it by the works of the Law, or by the preaching of faith?"
+        },
+        {
+          "number": 6,
+          "text": "Even as Abraham \"believed God, and it was accounted to him as righteousness.\""
+        },
+        {
+          "number": 7,
+          "text": "Know then that they who have faith, these are the sons of Abraham."
+        },
+        {
+          "number": 8,
+          "text": "Moreover the Scripture, foreseeing that God was to accept the gentiles as righteous by faith, proclaimed beforehand the glad tidings to Abraham, saying, \"In thee shall all nations be blessed.\""
+        },
+        {
+          "number": 9,
+          "text": "So then they who have faith are blessed with believing Abraham."
+        },
+        {
+          "number": 10,
+          "text": "For as many as rely on the works of the Law are under a curse; for it is written, \"Cursed is every one that continueth not in all things which are written in the book of the Law, to do them.\""
+        },
+        {
+          "number": 11,
+          "text": "But further, that through the observance of the Law no one is accepted as righteous with God is evident; for \"the righteous shall live by faith.\""
+        },
+        {
+          "number": 12,
+          "text": "And the Law hath nothing to do with faith; but [its language is], \"He that hath done them shall live in them.\""
+        },
+        {
+          "number": 13,
+          "text": "Christ redeemed us from the curse of the Law, having become a curse for us; for it is written, \"Cursed is every one that is hanged on a beam of wood,\"—"
+        },
+        {
+          "number": 14,
+          "text": "to the end that in Christ Jesus the blessing promised to Abraham might come to the gentiles, that we through faith might receive the Spirit which was promised."
+        },
+        {
+          "number": 15,
+          "text": "Brethren, I speak according to what is practised among men; no one sets aside even a human covenant, or makes additions to it, after it has been ratified."
+        },
+        {
+          "number": 16,
+          "text": "But the promises were made to Abraham and \"to his offspring.\" He doth not say, \"and to offsprings,\" as speaking of many, but, as speaking of one, \"and to thy offspring,\" which is Christ."
+        },
+        {
+          "number": 17,
+          "text": "And what I mean is this; that a covenant that was before ratified by God, the Law, which came four hundred and thirty years after, cannot annul, so as to make void the promise;"
+        },
+        {
+          "number": 18,
+          "text": "for if the inheritance cometh from the Law, it ceaseth to be the consequence of the promise; but to Abraham God gave it by promise."
+        },
+        {
+          "number": 19,
+          "text": "To what end then was the Law? It was added because of transgressions, till the offspring should come to whom the promise belongeth, having been ordained through angels by the hand of a mediator."
+        },
+        {
+          "number": 20,
+          "text": "Now no mediator is a mediator of one; but God is one."
+        },
+        {
+          "number": 21,
+          "text": "Is then the Law against the promises of God? Far be it! For if a law had been given which was able to give life, righteousness would indeed have been by the Law;"
+        },
+        {
+          "number": 22,
+          "text": "but the Scripture shut up all under sin, that the blessing promised through faith in Jesus Christ might be given to those who believe."
+        },
+        {
+          "number": 23,
+          "text": "But before faith came, we were kept in ward under the Law, shut up unto the faith which was to be revealed."
+        },
+        {
+          "number": 24,
+          "text": "So then the Law hath been our schoolmaster, to lead us to Christ, that we might be accepted as righteous through faith;"
+        },
+        {
+          "number": 25,
+          "text": "but faith having come, we are no longer under a schoolmaster."
+        },
+        {
+          "number": 26,
+          "text": "For ye are all sons of God through faith in Christ Jesus;"
+        },
+        {
+          "number": 27,
+          "text": "for as many of you as were baptized into Christ, did put on Christ."
+        },
+        {
+          "number": 28,
+          "text": "There is neither Jew nor Greek, there is neither bond nor free, there is no male and female; for ye are all one in Christ Jesus;"
+        },
+        {
+          "number": 29,
+          "text": "and if ye belong to Christ, then are ye Abraham’s offspring, heirs according to the promise."
+        }
+      ]
+    },
+    "4": {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Now I say, that the heir, as long as he is a child, differeth in no respect from a bond-servant, though he is lord of all;"
+        },
+        {
+          "number": 2,
+          "text": "but is under guardians and stewards, until the time appointed by the father."
+        },
+        {
+          "number": 3,
+          "text": "So also we, when we were children, were in bondage under the rudiments of the world;"
+        },
+        {
+          "number": 4,
+          "text": "but when the fullness of the time came, God sent forth his Son, born of a woman, born under the Law,"
+        },
+        {
+          "number": 5,
+          "text": "to redeem those under the Law, that we might be adopted as sons."
+        },
+        {
+          "number": 6,
+          "text": "And to show that ye are sons, God sent forth the Spirit of his Son into our hearts, crying, Abba, Father!"
+        },
+        {
+          "number": 7,
+          "text": "So then thou art no longer a bond-servant, but a son; and if a son, then an heir through God."
+        },
+        {
+          "number": 8,
+          "text": "But at that time, indeed, when ye knew not God, ye were in slavery to those who in their nature are not gods;"
+        },
+        {
+          "number": 9,
+          "text": "but now, after having known God, or rather having been known by God, how is it that ye are turning back to the weak and beggarly rudiments to which ye wish to be again in bondage?"
+        },
+        {
+          "number": 10,
+          "text": "Do ye observe days, and months, and times, and years?"
+        },
+        {
+          "number": 11,
+          "text": "I fear for you, lest I may have bestowed upon you labor in vain."
+        },
+        {
+          "number": 12,
+          "text": "Brethren, I beseech you, become as I am, for I also have become as ye are; ye injured me in nothing."
+        },
+        {
+          "number": 13,
+          "text": "Nay, ye know that it was on account of an infirmity of the flesh that I preached the gospel to you the former time,"
+        },
+        {
+          "number": 14,
+          "text": "and my trial which was in my flesh ye did not despise nor spurn; but received me as an angel of God, yea, as Christ Jesus."
+        },
+        {
+          "number": 15,
+          "text": "How great then was your boasting of happiness! for I bear you witness, that if possible, ye would have plucked out your eyes, and have given them to me."
+        },
+        {
+          "number": 16,
+          "text": "So then, have I become your enemy because I tell you the truth?"
+        },
+        {
+          "number": 17,
+          "text": "They show a zeal for you, but not in honesty; yea, they wish to exclude you, that ye may be zealous for them."
+        },
+        {
+          "number": 18,
+          "text": "But it is good to be an object of zeal in what is good always, and not only when I am present with you."
+        },
+        {
+          "number": 19,
+          "text": "My children, with whom I am again in travail until Christ be formed in you,—"
+        },
+        {
+          "number": 20,
+          "text": "I could wish indeed to be present with you now, and to change my tone, for I am in perplexity about you."
+        },
+        {
+          "number": 21,
+          "text": "Tell me, ye that desire to be under the Law, do ye not hear the Law?"
+        },
+        {
+          "number": 22,
+          "text": "For it is written, that Abraham had two sons; the one by the bondwoman, the other by the freewoman."
+        },
+        {
+          "number": 23,
+          "text": "But the one by the bondwoman was born after the flesh; while the one by the freewoman was through the promise."
+        },
+        {
+          "number": 24,
+          "text": "Which things are written allegorically; for these women are two covenants; the one from Mount Sinai, who beareth children into bondage, which is Hagar;"
+        },
+        {
+          "number": 25,
+          "text": "for the word Hagar is Mount Sinai in Arabia; and she corresponds to the Jerusalem now existing, for she is in bondage with her children;"
+        },
+        {
+          "number": 26,
+          "text": "but the Jerusalem that is above is free, and she is our mother."
+        },
+        {
+          "number": 27,
+          "text": "For it is written: \"Rejoice, thou barren that bearest not; break forth and cry, thou that travailest not; for many are the children of the desolate one, rather than of her who hath the husband.\""
+        },
+        {
+          "number": 28,
+          "text": "But ye, brethren, as Isaac was, are children of a promise."
+        },
+        {
+          "number": 29,
+          "text": "But as at that time he that was born after the flesh persecuted him that was born through the Spirit, so it is now."
+        },
+        {
+          "number": 30,
+          "text": "But what saith the scripture? \"Cast out the bondwoman and her son; for the son of the bondwoman shall not be heir with the son of the freewoman.\""
+        },
+        {
+          "number": 31,
+          "text": "So then, brethren, we are not children of a bondwoman, but of the freewoman."
+        }
+      ]
+    },
+    "5": {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Stand firm in the liberty with which Christ made us free, and be not again bound fast to the yoke of bondage."
+        },
+        {
+          "number": 2,
+          "text": "Behold, I Paul say to you, that if ye are circumcised, Christ will profit you nothing;"
+        },
+        {
+          "number": 3,
+          "text": "yea, I testify again to every one who becometh circumcised, that he is bound to keep the whole Law."
+        },
+        {
+          "number": 4,
+          "text": "Ye are entirely separated from Christ, who seek to obtain righteousness through the Law; ye have fallen away from grace."
+        },
+        {
+          "number": 5,
+          "text": "For we through the Spirit by faith steadfastly wait for the hope of righteousness."
+        },
+        {
+          "number": 6,
+          "text": "For in Christ Jesus neither circumcision availeth anything, nor uncircumcision; but faith working by love."
+        },
+        {
+          "number": 7,
+          "text": "Ye were running well; who hindered you, that ye should not obey the truth?"
+        },
+        {
+          "number": 8,
+          "text": "This persuasion came not from him that called you."
+        },
+        {
+          "number": 9,
+          "text": "A little leaven leaveneth the whole lump."
+        },
+        {
+          "number": 10,
+          "text": "I indeed have confidence in regard to you in the Lord, that ye will be no otherwise minded; but he that troubleth you shall bear his judgment, whoever he may be."
+        },
+        {
+          "number": 11,
+          "text": "But as for me, brethren, if I still preach circumcision, why do I still suffer persecution? Then hath the cross ceased to be a stumbling-block."
+        },
+        {
+          "number": 12,
+          "text": "Would that they who unsettle you would quite cut themselves off!"
+        },
+        {
+          "number": 13,
+          "text": "For ye, brethren, were called to liberty; only use not your liberty for an occasion to the flesh, but by your love serve one another."
+        },
+        {
+          "number": 14,
+          "text": "For the whole Law is fulfilled in one commandment, even in this \"Thou shalt love thy neighbor as thyself.\""
+        },
+        {
+          "number": 15,
+          "text": "But if ye bite and devour one another, beware lest ye be consumed by one another."
+        },
+        {
+          "number": 16,
+          "text": "But I say, Walk by the Spirit, and ye will not fulfill the desires of the flesh."
+        },
+        {
+          "number": 17,
+          "text": "For the flesh hath desires against the Spirit, and the Spirit against the flesh; and these oppose one another, that ye may not do the things that ye would."
+        },
+        {
+          "number": 18,
+          "text": "But if ye are led by the Spirit, ye are not under the Law."
+        },
+        {
+          "number": 19,
+          "text": "Now the works of the flesh are manifest; such as fornication, uncleanness, wantonness,"
+        },
+        {
+          "number": 20,
+          "text": "idolatry, sorcery, hatreds, strife, rivalry, outbursts of wrath, cabals, divisions, factions,"
+        },
+        {
+          "number": 21,
+          "text": "envyings, drunkenness, revelings, and things like these; of which I tell you beforehand, as I also told you in time past, that they who practise such things shall not inherit the kingdom of God."
+        },
+        {
+          "number": 22,
+          "text": "But the fruit of the Spirit is love, joy, peace, long-suffering, kindness, goodness, faithfulness,"
+        },
+        {
+          "number": 23,
+          "text": "meekness, temperance; against such things as these there is no law."
+        },
+        {
+          "number": 24,
+          "text": "And they who belong to Christ Jesus crucified the flesh with the passions and lusts."
+        },
+        {
+          "number": 25,
+          "text": "If we live by the Spirit, let us also walk by the Spirit."
+        },
+        {
+          "number": 26,
+          "text": "Let us not become vain-glorious, provoking one another, envying one another."
+        }
+      ]
+    },
+    "6": {
+      "chapter": 6,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Brethren, even if a man be detected in a fault, do ye who are spiritual restore such a one in the spirit of meekness; considering thyself, lest thou also be tempted."
+        },
+        {
+          "number": 2,
+          "text": "Bear ye one another’s burdens, and thus fulfill the law of Christ."
+        },
+        {
+          "number": 3,
+          "text": "For if a man thinketh himself to be something, when he is nothing, he deceiveth himself."
+        },
+        {
+          "number": 4,
+          "text": "But let each one prove his own work, and then will he have his ground for boasting in himself alone, and not in comparison with another;"
+        },
+        {
+          "number": 5,
+          "text": "for every one must bear his own load."
+        },
+        {
+          "number": 6,
+          "text": "Let him that is taught in the word share with the teacher in all good things."
+        },
+        {
+          "number": 7,
+          "text": "Be not deceived; God is not mocked; for whatever a man soweth, that shall he also reap;"
+        },
+        {
+          "number": 8,
+          "text": "for he that soweth to his flesh, shall of the flesh reap corruption; but he that soweth to the Spirit, shall of the Spirit reap life everlasting."
+        },
+        {
+          "number": 9,
+          "text": "And let us not be faint-hearted in well-doing; for in due season we shall reap, if we faint not."
+        },
+        {
+          "number": 10,
+          "text": "So then, as we have opportunity, let us do good to all, especially to those who are of the household of faith."
+        },
+        {
+          "number": 11,
+          "text": "See in what large letters I have written to you with my own hand."
+        },
+        {
+          "number": 12,
+          "text": "As many as desire to make a fair show in the flesh, these are constraining you to be circumcised, only that they may not suffer persecution for the cross of Christ."
+        },
+        {
+          "number": 13,
+          "text": "For not even do they who become circumcised themselves keep the Law; but they desire to have you circumcised, that they may glory in your flesh."
+        },
+        {
+          "number": 14,
+          "text": "But God forbid that I should glory, save in the cross of our Lord Jesus Christ; through whom the world is crucified to me, and I to the world."
+        },
+        {
+          "number": 15,
+          "text": "For neither is circumcision anything, nor uncircumcision, but a new creation."
+        },
+        {
+          "number": 16,
+          "text": "And as many as walk by this rule, peace be upon them, and mercy, and upon the Israel of God."
+        },
+        {
+          "number": 17,
+          "text": "Henceforth let no one trouble me; for I bear the marks of Jesus on my body."
+        },
+        {
+          "number": 18,
+          "text": "The grace of our Lord Jesus Christ be with your spirit, brethren. Amen."
+        }
+      ]
+    }
+  }
+}
