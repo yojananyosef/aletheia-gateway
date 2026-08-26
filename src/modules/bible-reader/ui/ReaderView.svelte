@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
+  import { onMount, untrack } from 'svelte';
   import {
     Search,
     ChevronLeft,
@@ -102,7 +102,9 @@
     const b = currentBook;
     const c = currentChapter;
     if (b && c) {
-      loadHighlightsAndNotes();
+      untrack(() => {
+        loadHighlightsAndNotes();
+      });
     }
   });
 

@@ -482,6 +482,8 @@ a:hover {
   overflow-y: auto;
   overflow-x: hidden;
   background-color: var(--bg-canvas);
+  padding: 0 16px;
+  box-sizing: border-box;
   scrollbar-width: thin;
   scrollbar-color: var(--accent-attention) var(--bg-canvas);
 }
@@ -514,17 +516,20 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
 
 /* --- VISTAS Y CONTENEDORES DINÁMICOS UNIFICADOS --- */
 .home-view, .reader-view {
-  width: min(100% - 100px, 1200px);
+  width: 100%;
+  max-width: 1200px;
   min-width: 0;
   margin-inline: auto;
   padding: 24px 0 60px;
-  transition: width 0.15s ease, max-width 0.15s ease;
+  transition: max-width 0.15s ease;
+  box-sizing: border-box;
 }
 
 /* Expansión dinámica del contenedor cuando el sidebar está colapsado */
 .neo-main-inset.is-sidebar-collapsed .home-view,
 .neo-main-inset.is-sidebar-collapsed .reader-view {
-  width: min(100% - 100px, 1440px);
+  width: 100%;
+  max-width: 1440px;
 }
 
 /* --- INICIO ESTILO BIBLEGATEWAY: BUSCADOR & SUB-TOOLBAR --- */
@@ -2190,15 +2195,15 @@ mark.bible-highlight-green {
     z-index: 45;
   }
 
-  .home-view {
-    width: min(100% - 24px, 620px);
-    padding: 16px 0 40px;
+  .modern-main {
+    padding: 0 12px !important;
   }
 
-  .reader-view {
-    width: calc(100% - 12px) !important;
+  .home-view, .reader-view {
+    width: 100% !important;
     max-width: 100% !important;
-    padding: 10px 0 40px !important;
+    padding: 14px 0 40px !important;
+    margin-inline: auto;
   }
 
   .home-hero h1 {
@@ -2234,22 +2239,11 @@ mark.bible-highlight-green {
   }
 }
 
-/* --- REGLAS DE TABLET (641px - 1024px) --- */
-@media (min-width: 641px) and (max-width: 1024px) {
-  .passage-list-parallel {
-    display: grid !important;
-    grid-template-columns: repeat(var(--version-count, 1), minmax(280px, 1fr)) !important;
-    overflow-x: auto !important;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-  }
-  .passage-list-parallel .translation-block {
-    scroll-snap-align: start;
-    min-width: 280px !important;
-  }
-}
-
 @media (max-width: 640px) {
+  .modern-main {
+    padding: 0 10px !important;
+  }
+
   /* Apilamiento vertical adaptativo para móviles (evita compresión de 5 columnas) */
   .passage-list-parallel {
     display: flex !important;

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { untrack } from 'svelte';
   import { Sparkles, ArrowRight, BookOpen, Calendar } from 'lucide-svelte';
   import type { FontSizeOption } from './FontSizeSelector.svelte';
   import type { TranslationId } from '../domain/entities/Translation';
@@ -64,7 +65,9 @@
 
   $effect(() => {
     const currentTranslation = selectedTranslation;
-    loadTodayVerse(currentTranslation);
+    untrack(() => {
+      loadTodayVerse(currentTranslation);
+    });
   });
 </script>
 

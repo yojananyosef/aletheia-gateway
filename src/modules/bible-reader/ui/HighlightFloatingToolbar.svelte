@@ -63,31 +63,39 @@
     }
   }
 
+  let selectionTimer: ReturnType<typeof setTimeout> | null = null;
+
   function handleSelection() {
-    const selection = window.getSelection();
-    if (!selection || selection.isCollapsed || !selection.toString().trim()) {
-      if (!activeHighlightId) {
-        isVisible = false;
+    if (selectionTimer) clearTimeout(selectionTimer);
+    selectionTimer = setTimeout(() => {
+      const selection = window.getSelection();
+      if (!selection || selection.isCollapsed || !selection.toString().trim()) {
+        if (!activeHighlightId && isVisible) {
+          isVisible = false;
+        }
+        return;
       }
-      return;
-    }
 
-    const text = selection.toString().trim();
-    if (text.length < 2) {
-      if (!activeHighlightId) isVisible = false;
-      return;
-    }
+      const text = selection.toString().trim();
+      if (text.length < 2) {
+        if (!activeHighlightId && isVisible) isVisible = false;
+        return;
+      }
 
-    selectedText = text;
-    activeHighlightId = null;
-    extractContextFromNode(selection.anchorNode);
+      selectedText = text;
+      activeHighlightId = null;
+      extractContextFromNode(selection.anchorNode);
 
-    const range = selection.getRangeAt(0);
-    const rect = range.getBoundingClientRect();
-
-    toolbarX = Math.max(10, Math.min(window.innerWidth - 200, rect.left + rect.width / 2));
-    toolbarY = Math.max(10, rect.top - 12 + window.scrollY);
-    isVisible = true;
+      try {
+        const range = selection.getRangeAt(0);
+        const rect = range.getBoundingClientRect();
+        toolbarX = Math.max(10, Math.min(window.innerWidth - 200, rect.left + rect.width / 2));
+        toolbarY = Math.max(10, rect.top - 12 + window.scrollY);
+        isVisible = true;
+      } catch {
+        // Ignore range errors during dom mutations
+      }
+    }, 40);
   }
 
   function handleDocumentClick(event: MouseEvent) {
@@ -110,8 +118,10 @@
     }
 
     if (!target.closest('.highlight-floating-toolbar') && !window.getSelection()?.toString().trim()) {
-      isVisible = false;
-      activeHighlightId = null;
+      if (isVisible || activeHighlightId) {
+        isVisible = false;
+        activeHighlightId = null;
+      }
     }
   }
 

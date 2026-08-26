@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
+  import { onMount, untrack } from 'svelte';
   import AppShell from '../../../shared/ui/AppShell.svelte';
   import HomeHero from './HomeHero.svelte';
   import DailyVerseCard from './DailyVerseCard.svelte';
@@ -71,7 +71,9 @@
     const currentQuery = activeQuery;
     const currentVersions = [...selectedTranslations];
     if (currentQuery && currentVersions.length > 0) {
-      loadPassageData();
+      untrack(() => {
+        loadPassageData();
+      });
     }
   });
 
