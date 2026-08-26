@@ -2244,14 +2244,21 @@ mark.bible-highlight-green {
     padding: 0 10px !important;
   }
 
-  /* Apilamiento vertical adaptativo para móviles (evita compresión de 5 columnas) */
-  .passage-list-parallel {
+  /* Opción 2 Inteligente: 1 o 2 versiones lado a lado en columnas */
+  .passage-list-parallel.has-few-versions {
+    display: grid !important;
+    grid-template-columns: repeat(var(--version-count, 1), minmax(0, 1fr)) !important;
+    width: 100% !important;
+  }
+
+  /* 3, 4 o 5 versiones: Apilamiento vertical adaptativo */
+  .passage-list-parallel.has-many-versions {
     display: flex !important;
     flex-direction: column !important;
     width: 100% !important;
   }
 
-  .passage-list-parallel .translation-block {
+  .passage-list-parallel.has-many-versions .translation-block {
     width: 100% !important;
     min-width: 100% !important;
     border-right: 0 !important;
@@ -2259,11 +2266,11 @@ mark.bible-highlight-green {
     padding: 18px 14px !important;
   }
 
-  .passage-list-parallel .translation-block:first-child {
+  .passage-list-parallel.has-many-versions .translation-block:first-child {
     padding-left: 14px !important;
   }
 
-  .passage-list-parallel .translation-block:last-child {
+  .passage-list-parallel.has-many-versions .translation-block:last-child {
     border-bottom: 0 !important;
   }
 

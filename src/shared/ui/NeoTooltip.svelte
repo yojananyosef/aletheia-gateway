@@ -47,12 +47,14 @@
     }
   }
 
-  async function handlePointerOver(e: Event) {
+  function handlePointerOver(e: Event) {
     const target = (e.target as HTMLElement)?.closest?.('[data-tooltip]') as HTMLElement | null;
     if (!target) {
       if (visible && currentTarget && !currentTarget.contains(e.target as Node)) {
-        visible = false;
-        currentTarget = null;
+        queueMicrotask(() => {
+          visible = false;
+          currentTarget = null;
+        });
       }
       return;
     }
@@ -64,8 +66,10 @@
 
     const text = target.getAttribute('data-tooltip')?.trim();
     if (!text) {
-      visible = false;
-      currentTarget = null;
+      queueMicrotask(() => {
+        visible = false;
+        currentTarget = null;
+      });
       return;
     }
 
@@ -74,17 +78,19 @@
       target.removeAttribute('title');
     }
 
-    content = text;
-    currentTarget = target;
-    // Calculate initial position before mount to avoid 0,0 frame flash
-    updatePosition(target);
-    visible = true;
-
-    // Wait for Svelte DOM render, then measure and position accurately
-    await tick();
-    if (currentTarget === target) {
+    queueMicrotask(async () => {
+      content = text;
+      currentTarget = target;
+      // Calculate initial position before mount to avoid 0,0 frame flash
       updatePosition(target);
-    }
+      visible = true;
+
+      // Wait for Svelte DOM render, then measure and position accurately
+      await tick();
+      if (currentTarget === target) {
+        updatePosition(target);
+      }
+    });
   }
 
   function handlePointerOut(e: Event) {
@@ -98,14 +104,20 @@
       return;
     }
 
-    visible = false;
-    currentTarget = null;
+    queueMicrotask(() => {
+      visible = false;
+      currentTarget = null;
+    });
   }
 
   function handlePointerDown() {
-    // Dismiss tooltip immediately when the user clicks or presses down on any button or element
-    visible = false;
-    currentTarget = null;
+    // Dismiss tooltip safely when the user clicks or presses down
+    if (visible || currentTarget) {
+      queueMicrotask(() => {
+        visible = false;
+        currentTarget = null;
+      });
+    }
   }
 
   function handleScrollOrResize() {

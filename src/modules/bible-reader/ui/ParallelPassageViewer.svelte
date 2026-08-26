@@ -189,7 +189,7 @@
 </script>
 
 <div
-  class="passage-list-parallel {fontSizeClasses[fontSize] || 'text-size-medium'}"
+  class="passage-list-parallel {fontSizeClasses[fontSize] || 'text-size-medium'} {passages.length >= 3 ? 'has-many-versions' : 'has-few-versions'}"
   style="--version-count: {passages.length || 1};"
 >
   {#each passages as passage, index (passage.translationId || index)}
