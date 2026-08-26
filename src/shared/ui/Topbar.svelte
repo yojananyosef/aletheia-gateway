@@ -29,11 +29,20 @@
     data-tooltip-pos="bottom"
     onclick={onToggleSidebar}
   >
-    {#if menuOpen}
-      <X size={18} />
-    {:else}
-      <Menu size={18} />
-    {/if}
+    <span class="trigger-icon-desktop">
+      {#if isCollapsed}
+        <PanelLeft size={19} />
+      {:else}
+        <PanelLeftClose size={19} />
+      {/if}
+    </span>
+    <span class="trigger-icon-mobile">
+      {#if menuOpen}
+        <X size={19} />
+      {:else}
+        <Menu size={19} />
+      {/if}
+    </span>
   </button>
 
   <div class="topbar-rule"></div>
