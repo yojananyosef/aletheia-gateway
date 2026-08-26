@@ -2,7 +2,7 @@
   import { PanelLeft, PanelLeftClose, Menu, X, Sparkles } from 'lucide-svelte';
 
   interface Props {
-    view: 'home' | 'reader' | 'concordance';
+    view: 'home' | 'reader' | 'concordance' | 'devotionals';
     isCollapsed: boolean;
     menuOpen: boolean;
     isCalmMode: boolean;
@@ -47,7 +47,7 @@
 
   <div class="topbar-rule"></div>
   <span class="topbar-title">
-    {view === 'home' ? 'Inicio' : view === 'concordance' ? 'Concordancia' : 'Lectura bíblica'}
+    {view === 'home' ? 'Inicio' : view === 'concordance' ? 'Concordancia' : view === 'devotionals' ? 'Devocional Diario' : 'Lectura bíblica'}
   </span>
 
   <div class="topbar-actions">

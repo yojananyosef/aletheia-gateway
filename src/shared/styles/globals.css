@@ -547,6 +547,19 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   padding: 24px 44px 60px;
 }
 
+/* --- TARJETAS COMPARTIDAS DE LOS MÓDULOS --- */
+/*
+ * Las vistas de Fase 1 usan `neo-card` como contrato visual común. Mantener
+ * esta base aquí evita que cada módulo tenga que volver a declarar el marco,
+ * fondo y sombra del sistema neobrutalista.
+ */
+.neo-card {
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  box-shadow: var(--shadow-md);
+}
+
 /* --- INICIO ESTILO BIBLEGATEWAY: BUSCADOR & SUB-TOOLBAR --- */
 .home-top-search-section {
   display: flex;
@@ -999,6 +1012,11 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
 .toolbar-action-btn:hover:not(:disabled) {
   background-color: #fff;
   transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--border-color);
+}
+
+.toolbar-action-btn.is-active {
+  background-color: var(--accent-interest);
   box-shadow: 3px 3px 0 var(--border-color);
 }
 
@@ -2303,6 +2321,36 @@ mark.bible-highlight-green {
 @media (max-width: 640px) {
   .modern-main {
     padding: 0 10px !important;
+  }
+
+  .devotional-view-container {
+    padding: 14px 0 40px !important;
+    gap: 16px;
+  }
+
+  .devotional-header-card {
+    padding: 14px !important;
+  }
+
+  .dev-article-card {
+    padding: 16px !important;
+  }
+
+  .dev-period-tabs {
+    flex-direction: column;
+  }
+
+  .dev-tab-btn {
+    width: 100%;
+  }
+
+  .settings-modal {
+    width: min(96vw, 600px) !important;
+    max-height: 90vh !important;
+  }
+
+  .settings-body {
+    min-height: 0;
   }
 
   /* Opción 2 Inteligente: 1 o 2 versiones lado a lado en columnas */

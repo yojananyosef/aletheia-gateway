@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { X, ArrowRight, ArrowUp, FileText, BookOpen } from 'lucide-svelte';
+  import { X, ArrowRight, ArrowUp, FileText, BookOpen, Link2 } from 'lucide-svelte';
   import type { PassageVersionResult, SectionFootnote } from '../domain/entities/Chapter';
   import { AVAILABLE_TRANSLATIONS, type TranslationId } from '../domain/entities/Translation';
   import type { FontSizeOption } from './FontSizeSelector.svelte';
@@ -17,6 +17,14 @@
     onChangeColumnTranslation: (index: number, newTranslationId: TranslationId) => void;
     onRemoveColumn: (index: number) => void;
     onSelectPassage: (ref: string) => void;
+    showVerseCrossReferences?: boolean;
+    onOpenCrossReferences?: (context: {
+      reference: string;
+      book: string;
+      chapter: number;
+      verseNumber?: number;
+      scope?: 'verse' | 'chapter';
+    }) => void;
     onOpenNoteModal?: (context: {
       reference: string;
       book: string;
@@ -37,6 +45,8 @@
     onChangeColumnTranslation,
     onRemoveColumn,
     onSelectPassage,
+    showVerseCrossReferences = false,
+    onOpenCrossReferences,
     onOpenNoteModal,
   }: Props = $props();
 
@@ -317,6 +327,25 @@
                       <FileText size={12} />
                     </button>
                   {/if}
+
+                  <!-- Optional TSK indicator button on each verse -->
+                  {#if showVerseCrossReferences}
+                    <button
+                      type="button"
+                      class="verse-tsk-indicator-btn"
+                      data-tooltip="Referencias cruzadas (TSK) para {section.book} {section.chapter}:{verseDisplayLabel}"
+                      aria-label="Ver referencias cruzadas TSK"
+                      onclick={() => onOpenCrossReferences?.({
+                        reference: `${section.book} ${section.chapter}:${verseDisplayLabel}`,
+                        book: section.book,
+                        chapter: section.chapter,
+                        verseNumber: verse.number,
+                        scope: 'verse',
+                      })}
+                    >
+                      <Link2 size={11} />
+                    </button>
+                  {/if}
                 </p>
               {/each}
             </div>
@@ -398,6 +427,31 @@
     transform: scale(1.15);
     background-color: var(--accent-desire);
     color: #fff;
+    box-shadow: 2px 2px 0 var(--border-color);
+  }
+
+  .verse-tsk-indicator-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    vertical-align: middle;
+    background-color: var(--bg-surface);
+    color: var(--text-main);
+    border: 1.5px solid var(--border-color);
+    border-radius: 0;
+    box-shadow: 1.5px 1.5px 0 var(--border-color);
+    cursor: pointer;
+    transition: transform 0.08s ease, box-shadow 0.08s ease, background-color 0.08s ease;
+    opacity: 0.8;
+  }
+
+  .verse-tsk-indicator-btn:hover {
+    opacity: 1;
+    transform: scale(1.15);
+    background-color: var(--accent-interest);
     box-shadow: 2px 2px 0 var(--border-color);
   }
 </style>

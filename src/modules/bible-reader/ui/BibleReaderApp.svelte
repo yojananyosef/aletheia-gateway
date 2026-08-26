@@ -7,15 +7,15 @@
   import BookChapterSelectorModal from './BookChapterSelectorModal.svelte';
   import SavedVersesModal from '../../bookmarks/ui/SavedVersesModal.svelte';
   import ConcordanceView from '../../concordance/ui/ConcordanceView.svelte';
+  import DevotionalView from '../../devotionals/ui/DevotionalView.svelte';
+  import SettingsModal from '../../settings/ui/SettingsModal.svelte';
 
   import {
     AVAILABLE_TRANSLATIONS,
-    supportsDeuterocanonical,
     type TranslationId,
   } from '../domain/entities/Translation';
   import type { PassageVersionResult } from '../domain/entities/Chapter';
-  import { PassageReference } from '../domain/value-objects/PassageReference';
-  import { findBookInfo, getAllBooks } from '../domain/entities/BibleBooks';
+  import { getAllBooks } from '../domain/entities/BibleBooks';
   import { JsonBibleRepository } from '../infrastructure/JsonBibleRepository';
   import { CompareTranslationsUseCase } from '../application/CompareTranslationsUseCase';
   import { LocalStorageBookmarkRepository } from '../../bookmarks/infrastructure/LocalStorageBookmarkRepository';
@@ -31,7 +31,7 @@
   const compareTranslationsUseCase = new CompareTranslationsUseCase(bibleRepository);
 
   // Svelte 5 Runes state
-  let view = $state<'home' | 'reader' | 'concordance'>('home');
+  let view = $state<'home' | 'reader' | 'concordance' | 'devotionals'>('home');
   let homeQuery = $state('');
   let readerQuery = $state('Génesis 1:1');
   let activeQuery = $state('Génesis 1:1');
@@ -43,6 +43,7 @@
   let fontSize = $state<FontSizeOption>('medium');
   let isBookModalOpen = $state(false);
   let isSavedVersesModalOpen = $state(false);
+  let isSettingsModalOpen = $state(false);
 
   async function updateBookmarkCount() {
     try {
@@ -131,34 +132,20 @@
 
   function handleHomeSearch(event?: Event) {
     if (event) event.preventDefault();
-    const targetQuery = homeQuery.trim();
-    if (!targetQuery) return;
-
-    homeQuery = ''; // Keep home search bar clean
-
-    if (PassageReference.isReference(targetQuery)) {
-      activeQuery = targetQuery;
-      readerQuery = targetQuery;
-      saveActivePassage(targetQuery);
-      view = 'reader';
-    } else {
-      concordanceQuery = targetQuery;
-      view = 'concordance';
-    }
+    const targetQuery = homeQuery.trim() || activeQuery || 'Génesis 1:1';
+    activeQuery = targetQuery;
+    readerQuery = targetQuery;
+    homeQuery = ''; // Keep home search bar clean for subsequent searches
+    saveActivePassage(targetQuery);
+    view = 'reader';
   }
 
   function handleReaderSearch(event?: Event) {
     if (event) event.preventDefault();
-    const targetQuery = readerQuery.trim();
-    if (!targetQuery) return;
-
-    if (PassageReference.isReference(targetQuery)) {
-      activeQuery = targetQuery;
-      saveActivePassage(targetQuery);
-    } else {
-      concordanceQuery = targetQuery;
-      view = 'concordance';
-    }
+    const targetQuery = readerQuery.trim() || activeQuery || 'Génesis 1:1';
+    activeQuery = targetQuery;
+    readerQuery = targetQuery;
+    saveActivePassage(targetQuery);
   }
 
   function handleGoToReader(nextQuery = 'Génesis 1:1') {
@@ -253,6 +240,7 @@
   {bookmarkCount}
   onNavigate={handleNavigate}
   onOpenBookmarks={() => (isSavedVersesModalOpen = true)}
+  onOpenSettings={() => (isSettingsModalOpen = true)}
 >
   {#if view === 'home'}
     <div class="home-view">
@@ -286,6 +274,10 @@
       initialTranslation={selectedTranslations[0] || 'RV1909'}
       onSelectPassage={handleGoToReader}
     />
+  {:else if view === 'devotionals'}
+    <DevotionalView
+      onSelectPassage={handleGoToReader}
+    />
   {:else}
     <ReaderView
       query={readerQuery}
@@ -314,5 +306,15 @@
     onClose={() => (isSavedVersesModalOpen = false)}
     onSelectPassage={handleGoToReader}
     onBookmarksChange={updateBookmarkCount}
+  />
+
+  <!-- Settings Modal accessible globally -->
+  <SettingsModal
+    isOpen={isSettingsModalOpen}
+    onClose={() => (isSettingsModalOpen = false)}
+    onDataRestored={() => {
+      updateBookmarkCount();
+      loadPassageData();
+    }}
   />
 </AppShell>

@@ -7,18 +7,24 @@
     BookOpen,
     CopyPlus,
     ChevronDown,
+    Link2,
+    Eye,
+    EyeOff,
   } from 'lucide-svelte';
   import type { TranslationId } from '../domain/entities/Translation';
   import type { PassageVersionResult } from '../domain/entities/Chapter';
   import type { BibleHighlight } from '../domain/entities/BibleHighlight';
   import type { PersonalNote } from '../../notes/domain/Note';
+  import type { CrossReferenceClause } from '../../cross-references/domain/CrossReference';
   import { LocalStorageHighlightRepository } from '../infrastructure/LocalStorageHighlightRepository';
   import { LocalStorageNoteRepository } from '../../notes/infrastructure/LocalStorageNoteRepository';
+  import { JsonCrossReferenceRepository } from '../../cross-references/infrastructure/JsonCrossReferenceRepository';
   import ParallelPassageViewer from './ParallelPassageViewer.svelte';
   import BookChapterSelectorModal from './BookChapterSelectorModal.svelte';
   import FontSizeSelector, { type FontSizeOption } from './FontSizeSelector.svelte';
   import HighlightFloatingToolbar from './HighlightFloatingToolbar.svelte';
   import PersonalNoteModal from '../../notes/ui/PersonalNoteModal.svelte';
+  import CrossReferencesDrawer from '../../cross-references/ui/CrossReferencesDrawer.svelte';
 
   interface Props {
     query: string;
@@ -61,6 +67,7 @@
 
   const highlightRepo = new LocalStorageHighlightRepository();
   const noteRepo = new LocalStorageNoteRepository();
+  const crossRefRepo = new JsonCrossReferenceRepository();
 
   let isBookModalOpen = $state(false);
   let highlights = $state<BibleHighlight[]>([]);
@@ -76,6 +83,55 @@
   let noteModalSelectedText = $state('');
   let noteModalExistingId = $state<string | undefined>(undefined);
   let noteModalExistingContent = $state('');
+
+  // TSK Cross References state
+  let isTskDrawerOpen = $state(false);
+  let tskScope = $state<'verse' | 'chapter'>('chapter');
+  let showVerseCrossReferences = $state(false);
+  let tskReference = $state('Génesis 1');
+  let tskBook = $state('Génesis');
+  let tskChapter = $state(1);
+  let tskVerseNumber = $state<number | undefined>(undefined);
+  let tskClauses = $state<CrossReferenceClause[]>([]);
+  let tskChapterReferences = $state<Record<number, CrossReferenceClause[]>>({});
+
+  async function handleOpenCrossReferences(context: {
+    reference: string;
+    book: string;
+    chapter: number;
+    verseNumber?: number;
+    scope?: 'verse' | 'chapter';
+  }) {
+    const scope = context.scope || (context.verseNumber ? 'verse' : 'chapter');
+
+    tskScope = scope;
+    tskReference = context.reference;
+    tskBook = context.book;
+    tskChapter = context.chapter;
+    tskVerseNumber = scope === 'verse' ? context.verseNumber || 1 : undefined;
+    isTskDrawerOpen = true;
+    tskClauses = [];
+    tskChapterReferences = {};
+
+    try {
+      if (scope === 'chapter') {
+        tskChapterReferences = await crossRefRepo.getByChapter(
+          context.book,
+          context.chapter
+        );
+      } else {
+        tskClauses = await crossRefRepo.getByVerse(
+          context.book,
+          context.chapter,
+          context.verseNumber || 1
+        );
+      }
+    } catch (err) {
+      console.error('Error fetching cross references:', err);
+      tskClauses = [];
+      tskChapterReferences = {};
+    }
+  }
 
   let firstPassage = $derived(passages[0]);
   let currentBook = $derived(firstPassage ? firstPassage.book : 'Génesis');
@@ -227,6 +283,39 @@
             <span class="sm:hidden">+ Paralelo</span>
             <span class="parallel-count-badge">({selectedTranslations.length}/5)</span>
           </button>
+
+          <button
+            type="button"
+            class="toolbar-action-btn"
+            data-tooltip="Ver todas las referencias TSK de {currentBook} {currentChapter}"
+            aria-label="Ver todas las referencias TSK de {currentBook} {currentChapter}"
+            onclick={() => handleOpenCrossReferences({
+              reference: `${currentBook} ${currentChapter}`,
+              book: currentBook,
+              chapter: currentChapter,
+              scope: 'chapter',
+            })}
+          >
+            <Link2 size={16} />
+            <span class="hidden md:inline">TSK del capítulo</span>
+          </button>
+
+          <button
+            type="button"
+            class="toolbar-action-btn tsk-visibility-toggle {showVerseCrossReferences ? 'is-active' : ''}"
+            data-tooltip={showVerseCrossReferences ? 'Ocultar accesos TSK junto a los versículos' : 'Mostrar accesos TSK junto a los versículos'}
+            aria-label={showVerseCrossReferences ? 'Ocultar accesos TSK junto a los versículos' : 'Mostrar accesos TSK junto a los versículos'}
+            aria-pressed={showVerseCrossReferences}
+            onclick={() => (showVerseCrossReferences = !showVerseCrossReferences)}
+          >
+            {#if showVerseCrossReferences}
+              <EyeOff size={16} />
+              <span class="hidden md:inline">Ocultar referencias</span>
+            {:else}
+              <Eye size={16} />
+              <span class="hidden md:inline">Mostrar referencias</span>
+            {/if}
+          </button>
         </div>
 
         <div class="toolbar-right-group">
@@ -268,6 +357,8 @@
         {onChangeColumnTranslation}
         {onRemoveColumn}
         {onSelectPassage}
+        {showVerseCrossReferences}
+        onOpenCrossReferences={handleOpenCrossReferences}
         onOpenNoteModal={handleOpenNoteModal}
       />
     </section>
@@ -308,5 +399,19 @@
     onDeleted={() => {
       loadHighlightsAndNotes();
     }}
+  />
+
+  <!-- TSK Cross References Side Drawer -->
+  <CrossReferencesDrawer
+    isOpen={isTskDrawerOpen}
+    reference={tskReference}
+    book={tskBook}
+    chapter={tskChapter}
+    verseNumber={tskVerseNumber}
+    clauses={tskClauses}
+    scope={tskScope}
+    chapterReferences={tskChapterReferences}
+    onClose={() => (isTskDrawerOpen = false)}
+    {onSelectPassage}
   />
 </div>

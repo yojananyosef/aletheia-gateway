@@ -12,14 +12,15 @@
   } from 'lucide-svelte';
 
   interface Props {
-    activeView: 'home' | 'reader' | 'concordance';
-    onNavigate: (view: 'home' | 'reader' | 'concordance') => void;
+    activeView: 'home' | 'reader' | 'concordance' | 'devotionals';
+    onNavigate: (view: 'home' | 'reader' | 'concordance' | 'devotionals') => void;
     isOpen: boolean;
     isCollapsed: boolean;
     bookmarkCount?: number;
     onClose: () => void;
     onToggleCollapse?: () => void;
     onOpenBookmarks?: () => void;
+    onOpenSettings?: () => void;
   }
 
   let {
@@ -30,28 +31,34 @@
     bookmarkCount = 0,
     onClose,
     onOpenBookmarks,
+    onOpenSettings,
   }: Props = $props();
 
   const mainItems = [
     { title: 'Inicio', icon: Home, view: 'home' as const },
     { title: 'Leer la Biblia', icon: BookOpen, view: 'reader' as const },
     { title: 'Concordancia', icon: Search, view: 'concordance' as const },
+    { title: 'Devocionales', icon: Heart, view: 'devotionals' as const },
   ];
 
   const exploreItems = [
     { title: 'Planes de lectura', icon: ListChecks },
-    { title: 'Devocionales', icon: Heart },
     { title: 'Audio Biblia', icon: Headphones },
     { title: 'Recursos', icon: Library },
   ];
 
-  function handleSelect(view: 'home' | 'reader' | 'concordance') {
+  function handleSelect(view: 'home' | 'reader' | 'concordance' | 'devotionals') {
     onNavigate(view);
     onClose();
   }
 
   function handleOpenSaved() {
     onOpenBookmarks?.();
+    onClose();
+  }
+
+  function handleOpenSettings() {
+    onOpenSettings?.();
     onClose();
   }
 </script>
@@ -138,14 +145,13 @@
   <div class="neo-sidebar-footer">
     <button
       type="button"
-      class="neo-nav-button is-disabled {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
-      data-tooltip="Configuración (Próximamente)"
-      disabled
+      class="neo-nav-button {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
+      data-tooltip="Configuración"
+      onclick={handleOpenSettings}
     >
       <Settings2 size={20} class="shrink-0" />
       {#if !isCollapsed || isOpen}
         <span class="truncate flex-1 text-left">Configuración</span>
-        <span class="sidebar-pending-badge">Pronto</span>
       {/if}
     </button>
   </div>

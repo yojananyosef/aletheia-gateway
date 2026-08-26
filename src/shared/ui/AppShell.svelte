@@ -6,10 +6,11 @@
   import NeoTooltip from './NeoTooltip.svelte';
 
   interface Props {
-    activeView: 'home' | 'reader' | 'concordance';
+    activeView: 'home' | 'reader' | 'concordance' | 'devotionals';
     bookmarkCount?: number;
-    onNavigate: (view: 'home' | 'reader' | 'concordance') => void;
+    onNavigate: (view: 'home' | 'reader' | 'concordance' | 'devotionals') => void;
     onOpenBookmarks?: () => void;
+    onOpenSettings?: () => void;
     children?: Snippet;
   }
 
@@ -18,6 +19,7 @@
     bookmarkCount = 0,
     onNavigate,
     onOpenBookmarks,
+    onOpenSettings,
     children,
   }: Props = $props();
 
@@ -88,6 +90,7 @@
     onClose={handleCloseMobile}
     onToggleCollapse={handleToggleSidebar}
     {onOpenBookmarks}
+    {onOpenSettings}
   />
 
   <!-- Main Inset Container with Topbar and Scrollable Main View -->
