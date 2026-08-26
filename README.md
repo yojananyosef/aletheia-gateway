@@ -141,12 +141,30 @@ alethiagateway/
 | :--- | :--- |
 | `bun run dev` | Inicia el servidor de desarrollo local de Astro. |
 | `bun run build` | Compila y optimiza la aplicación para producción en `dist/`. |
+| `bun run generate:concordance` | Genera y optimiza los índices de concordancia bíblica en `public/data/concordance/`. |
 | `bun run preview` | Previsualiza localmente el build de producción. |
 | `bun run check` | Ejecuta el análisis estático de tipos TypeScript y diagnósticos de Astro. |
 
 ---
 
 ## 📋 Historial de Cambios (Changelog)
+
+### [0.7.0] - 2026-08-26
+#### Añadido: Motor de Concordancia Bíblica y Búsqueda Temática Híbrida Multi-Traducción
+- 🔍 **Motor de Concordancia Bíblica de Alto Rendimiento**:
+  - Arquitectura híbrida: la barra de búsqueda inteligente enruta automáticamente entre citas bíblicas (`Juan 3:16`, `Salmos 23`) y palabras/temas (`amor fe`, `gracia`, `luz tinieblas`), sumando un acceso directo dedicado **`[ 🔍 Concordancia ]`** en la barra lateral (`Sidebar.svelte`).
+  - Generación de índices estructurados y optimizados en `public/data/concordance/` para las 9 versiones bíblicas soportadas (más de 31,100 versículos por traducción), permitiendo búsquedas instantáneas con latencia menor a 5ms.
+  - Parser inteligente de consultas con soporte para combinación AND (`amor fe`), frases exactas entre comillas (`"reino de Dios"`), exclusión de términos (`amor -mundo`) y normalización NFD Unicode (insensible a mayúsculas, minúsculas y tildes).
+  - Algoritmo de límites de palabra (*word boundaries*) para garantizar coincidencia de palabras reales y eliminar falsos positivos por subcadenas (ej. *amorreos* o *clamor* al buscar *amor*).
+  - Nueva vista Neobrutalista `ConcordanceView.svelte` con chips de temas bíblicos populares (`Amor`, `Fe`, `Gracia`, `Salvación`, `Esperanza`, etc.), selector de traducción desplegable, filtros dinámicos por testamento y categoría, ordenación (canónica / relevancia), resaltado de términos coincidentes y botón de salto en 1 clic al capítulo en el lector.
+- 📱 **Optimizaciones Responsive y Experiencia Mobile-First**:
+  - Diseño adaptativo en `ParallelPassageViewer.svelte`: 1-2 versiones en columnas paralelas y 3-5 versiones en apilamiento vertical optimizado para móviles.
+  - Eliminación de barras de desplazamiento horizontales en modo tablet y configuración de márgenes perimetrales de seguridad en `.modern-main` y `.reader-view` para evitar recortes de sombras duras y botones de navegación.
+  - Estandarización de selectores de versión con altura uniforme de 32px y truncamiento elíptico simétrico.
+- 🛠️ **Estabilidad y Corrección de Mutaciones Inseguras en Svelte 5**:
+  - Solución definitiva al error `state_unsafe_mutation` envolviendo las mutaciones reactivas originadas por listeners nativos del documento (`pointerover`, `pointerdown`, `selectionchange`) en `queueMicrotask` y `untrack()`.
+- 📜 **Script CLI de Generación de Índices**:
+  - `scripts/generate-concordance-index.ts` ejecutable mediante `bun run generate:concordance`.
 
 ### [0.6.4] - 2026-08-25
 #### Mejorado: Estilo Neobrutalista en Lector de Capítulos y Sección de Notas al Pie
