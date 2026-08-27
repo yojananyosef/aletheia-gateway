@@ -149,6 +149,13 @@ alethiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.10.0] - 2026-08-26
+#### Añadido: Biblioteca de Comentarios Bíblicos de la Fase 2
+- 📚 **Ingesta de 10 módulos Sword de comentarios**: Calvino, Catena Aurea, Adam Clarke, Biblia de Ginebra, John Lightfoot, Martín Lutero, Robertson's Word Pictures, aparato SBLGNT, pasajes espurios y John Wesley.
+- 🧩 **Conversión optimizada a JSON** mediante `scripts/convert-commentaries.py`, con un índice global y archivos separados por fuente/libro para cargar únicamente el material consultado.
+- 🗂️ **Panel de comentarios en el lector** con selector de fuente, filtro por capítulo, navegación directa al versículo y metadatos de licencia/origen.
+- ⚡ **Carga bajo demanda**: el lector consulta el índice y descarga solo el libro de la fuente seleccionada, evitando cargar los catálogos completos en cada sesión.
+
 ### [0.9.0] - 2026-08-26
 #### Añadido: Ingesta de João Ferreira de Almeida (Portugués) y Vulgata Latina (San Jerónimo)
 - 🇵🇹 **João Ferreira de Almeida (1911)** (`PorAlmeida1911` / `ALMEIDA`):

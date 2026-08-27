@@ -1,12 +1,13 @@
 {
   "name": "alethiagateway",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
+    "convert:commentaries": "python scripts/convert-commentaries.py",
     "generate:concordance": "bun run scripts/generate-concordance-index.ts",
     "preview": "astro preview",
     "check": "astro check"

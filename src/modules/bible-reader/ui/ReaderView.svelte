@@ -8,6 +8,7 @@
     CopyPlus,
     ChevronDown,
     Link2,
+    FileText,
     Eye,
     EyeOff,
   } from 'lucide-svelte';
@@ -16,6 +17,7 @@
   import type { BibleHighlight } from '../domain/entities/BibleHighlight';
   import type { PersonalNote } from '../../notes/domain/Note';
   import type { CrossReferenceClause } from '../../cross-references/domain/CrossReference';
+  import type { CommentarySource } from '../../commentaries/domain/Commentary';
   import { LocalStorageHighlightRepository } from '../infrastructure/LocalStorageHighlightRepository';
   import { LocalStorageNoteRepository } from '../../notes/infrastructure/LocalStorageNoteRepository';
   import { JsonCrossReferenceRepository } from '../../cross-references/infrastructure/JsonCrossReferenceRepository';
@@ -25,6 +27,8 @@
   import HighlightFloatingToolbar from './HighlightFloatingToolbar.svelte';
   import PersonalNoteModal from '../../notes/ui/PersonalNoteModal.svelte';
   import CrossReferencesDrawer from '../../cross-references/ui/CrossReferencesDrawer.svelte';
+  import CommentaryDrawer from '../../commentaries/ui/CommentaryDrawer.svelte';
+  import { JsonCommentaryRepository } from '../../commentaries/infrastructure/JsonCommentaryRepository';
 
   interface Props {
     query: string;
@@ -68,6 +72,7 @@
   const highlightRepo = new LocalStorageHighlightRepository();
   const noteRepo = new LocalStorageNoteRepository();
   const crossRefRepo = new JsonCrossReferenceRepository();
+  const commentaryRepo = new JsonCommentaryRepository();
 
   let isBookModalOpen = $state(false);
   let highlights = $state<BibleHighlight[]>([]);
@@ -94,6 +99,14 @@
   let tskVerseNumber = $state<number | undefined>(undefined);
   let tskClauses = $state<CrossReferenceClause[]>([]);
   let tskChapterReferences = $state<Record<number, CrossReferenceClause[]>>({});
+
+  // Biblical commentaries state
+  let isCommentaryDrawerOpen = $state(false);
+  let commentarySources = $state<CommentarySource[]>([]);
+  let commentarySourceId = $state('');
+  let commentaryEntries = $state<Record<number, string>>({});
+  let isCommentaryLoading = $state(false);
+  let commentaryRequestId = 0;
 
   async function handleOpenCrossReferences(context: {
     reference: string;
@@ -133,6 +146,49 @@
     }
   }
 
+  async function loadCommentarySources() {
+    if (commentarySources.length > 0) return;
+
+    commentarySources = await commentaryRepo.getSources();
+    if (!commentarySourceId && commentarySources.length > 0) {
+      commentarySourceId = commentarySources[0].id;
+    }
+  }
+
+  async function loadCommentaryChapter(sourceId = commentarySourceId) {
+    if (!sourceId || !currentBook || !currentChapter) {
+      commentaryEntries = {};
+      return;
+    }
+
+    const requestId = ++commentaryRequestId;
+    isCommentaryLoading = true;
+    try {
+      const entries = await commentaryRepo.getByChapter(
+        sourceId,
+        currentBook,
+        currentChapter
+      );
+      if (requestId === commentaryRequestId) commentaryEntries = entries;
+    } catch (err) {
+      console.error('Error fetching biblical commentaries:', err);
+      if (requestId === commentaryRequestId) commentaryEntries = {};
+    } finally {
+      if (requestId === commentaryRequestId) isCommentaryLoading = false;
+    }
+  }
+
+  async function handleOpenCommentaries() {
+    isCommentaryDrawerOpen = true;
+    await loadCommentarySources();
+    await loadCommentaryChapter();
+  }
+
+  async function handleCommentarySourceChange(sourceId: string) {
+    commentarySourceId = sourceId;
+    await loadCommentaryChapter(sourceId);
+  }
+
   let firstPassage = $derived(passages[0]);
   let currentBook = $derived(firstPassage ? firstPassage.book : 'Génesis');
   let currentChapter = $derived(firstPassage ? firstPassage.chapter : 1);
@@ -160,6 +216,18 @@
     if (b && c) {
       untrack(() => {
         loadHighlightsAndNotes();
+      });
+    }
+  });
+
+  $effect(() => {
+    const isOpen = isCommentaryDrawerOpen;
+    const book = currentBook;
+    const chapter = currentChapter;
+    const sourceId = commentarySourceId;
+    if (isOpen && book && chapter && sourceId) {
+      untrack(() => {
+        loadCommentaryChapter(sourceId);
       });
     }
   });
@@ -316,6 +384,17 @@
               <span class="hidden md:inline">Mostrar referencias</span>
             {/if}
           </button>
+
+          <button
+            type="button"
+            class="toolbar-action-btn"
+            data-tooltip="Leer comentarios bíblicos de {currentBook} {currentChapter}"
+            aria-label="Abrir comentarios bíblicos de {currentBook} {currentChapter}"
+            onclick={handleOpenCommentaries}
+          >
+            <FileText size={16} />
+            <span class="hidden md:inline">Comentarios</span>
+          </button>
         </div>
 
         <div class="toolbar-right-group">
@@ -412,6 +491,20 @@
     scope={tskScope}
     chapterReferences={tskChapterReferences}
     onClose={() => (isTskDrawerOpen = false)}
+    {onSelectPassage}
+  />
+
+  <CommentaryDrawer
+    isOpen={isCommentaryDrawerOpen}
+    reference={`${currentBook} ${currentChapter}`}
+    book={currentBook}
+    chapter={currentChapter}
+    sources={commentarySources}
+    selectedSourceId={commentarySourceId}
+    entries={commentaryEntries}
+    isLoading={isCommentaryLoading}
+    onSourceChange={handleCommentarySourceChange}
+    onClose={() => (isCommentaryDrawerOpen = false)}
     {onSelectPassage}
   />
 </div>
