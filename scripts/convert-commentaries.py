@@ -312,6 +312,62 @@ def clean_commentary(raw_text: str) -> str:
     return plain
 
 
+def organize_commentary_entries(
+    raw_chapters: dict[str, dict[str, str]],
+) -> tuple[list[str], dict[str, dict[str, Any]]]:
+    """Conserva el alcance real de cada bloque del módulo Sword.
+
+    Algunos módulos devuelven un bloque de libro o capítulo al consultar
+    cualquiera de sus versículos. Si se guarda directamente bajo cada número
+    de versículo, la interfaz termina mostrando el mismo texto repetido. Los
+    textos repetidos dentro de un capítulo se convierten en un solo comentario
+    de capítulo; los que se repiten en varios capítulos y también varias veces
+    dentro de alguno de ellos se conservan una sola vez como comentario del
+    libro. Solo los textos que aparecen una vez permanecen ligados a un verso.
+    """
+    locations: dict[str, dict[str, list[str]]] = {}
+    for chapter, verses in raw_chapters.items():
+        for verse, text in verses.items():
+            locations.setdefault(text, {}).setdefault(chapter, []).append(verse)
+
+    book_comments: list[str] = []
+    book_comment_texts: set[str] = set()
+    for text, chapter_locations in locations.items():
+        repeated_in_a_chapter = any(
+            len(verses) > 1 for verses in chapter_locations.values()
+        )
+        if len(chapter_locations) > 1 and repeated_in_a_chapter:
+            book_comments.append(text)
+            book_comment_texts.add(text)
+
+    chapter_data: dict[str, dict[str, Any]] = {}
+    for chapter, verses in raw_chapters.items():
+        counts: dict[str, int] = {}
+        for text in verses.values():
+            counts[text] = counts.get(text, 0) + 1
+
+        chapter_comments: list[str] = []
+        seen_chapter_comments: set[str] = set()
+        verse_comments: dict[str, str] = {}
+        for verse, text in verses.items():
+            if text in book_comment_texts:
+                continue
+            if counts[text] > 1:
+                if text not in seen_chapter_comments:
+                    chapter_comments.append(text)
+                    seen_chapter_comments.add(text)
+            else:
+                verse_comments[verse] = text
+
+        if chapter_comments or verse_comments:
+            chapter_data[chapter] = {
+                "chapterComments": chapter_comments,
+                "verseComments": verse_comments,
+            }
+
+    return book_comments, chapter_data
+
+
 def create_module(module_config: dict[str, Any]):
     module_dir = SOURCE_ROOT / module_config["folder"] / "modules" / "comments"
     if module_config["kind"] == "rawcom":
@@ -350,7 +406,7 @@ def convert_module(module_id: str, config: dict[str, Any]) -> dict[str, Any]:
                 continue
 
             book_code, book_name = book_info
-            chapter_data: dict[str, dict[str, str]] = {}
+            raw_chapter_data: dict[str, dict[str, str]] = {}
             for chapter_number, verse_count in enumerate(book.chapter_lengths, start=1):
                 verse_data: dict[str, str] = {}
                 for verse_number in range(1, verse_count + 1):
@@ -368,15 +424,22 @@ def convert_module(module_id: str, config: dict[str, Any]) -> dict[str, Any]:
                     cleaned = clean_commentary(raw)
                     if cleaned:
                         verse_data[str(verse_number)] = cleaned
-                        total_entries += 1
 
                 if verse_data:
-                    chapter_data[str(chapter_number)] = verse_data
+                    raw_chapter_data[str(chapter_number)] = verse_data
 
-            if chapter_data:
+            book_comments, chapter_data = organize_commentary_entries(raw_chapter_data)
+            total_entries += len(book_comments)
+            total_entries += sum(
+                len(data["chapterComments"]) + len(data["verseComments"])
+                for data in chapter_data.values()
+            )
+
+            if book_comments or chapter_data:
                 books[book_code] = {
                     "bookCode": book_code,
                     "bookName": book_name,
+                    "bookComments": book_comments,
                     "chapters": chapter_data,
                 }
                 print(f"  ✓ {book_name}: {len(chapter_data)} capítulos")
@@ -460,7 +523,7 @@ def main() -> None:
 
     if not args.only:
         index = {
-            "version": 1,
+            "version": 2,
             "sources": [
                 {
                     "id": catalog["id"],

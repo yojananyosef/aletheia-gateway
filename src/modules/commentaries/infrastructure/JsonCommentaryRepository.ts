@@ -1,6 +1,7 @@
 import type { ICommentaryRepository } from '../domain/ICommentaryRepository';
 import type {
   CommentaryBookData,
+  CommentaryEntry,
   CommentaryIndex,
   CommentarySource,
 } from '../domain/Commentary';
@@ -76,22 +77,44 @@ export class JsonCommentaryRepository implements ICommentaryRepository {
     verse: number
   ): Promise<string | null> {
     const data = await this.loadBookData(sourceId, bookCodeOrName);
-    return data?.chapters?.[String(chapter)]?.[String(verse)] || null;
+    const chapterData = data?.chapters?.[String(chapter)];
+    return (
+      chapterData?.verseComments?.[String(verse)] ||
+      chapterData?.chapterComments?.[0] ||
+      data?.bookComments?.[0] ||
+      null
+    );
   }
 
   public async getByChapter(
     sourceId: string,
     bookCodeOrName: string,
     chapter: number
-  ): Promise<Record<number, string>> {
+  ): Promise<CommentaryEntry[]> {
     const data = await this.loadBookData(sourceId, bookCodeOrName);
     const chapterData = data?.chapters?.[String(chapter)];
-    if (!chapterData) return {};
+    if (!data || !chapterData) {
+      return data?.bookComments?.map((text) => ({ text, scope: 'book' })) || [];
+    }
 
-    return Object.fromEntries(
-      Object.entries(chapterData)
-        .map(([verse, text]) => [Number(verse), text] as const)
-        .filter(([verse, text]) => Number.isInteger(verse) && Boolean(text))
+    const bookEntries: CommentaryEntry[] = (data.bookComments || []).map((text) => ({
+      text,
+      scope: 'book',
+    }));
+    const chapterEntries: CommentaryEntry[] = (chapterData.chapterComments || []).map(
+      (text) => ({ text, scope: 'chapter' })
     );
+    const verseEntries: CommentaryEntry[] = Object.entries(
+      chapterData.verseComments || {}
+    )
+      .map(([verse, text]) => ({
+        text,
+        scope: 'verse' as const,
+        verse: Number(verse),
+      }))
+      .filter(({ text, verse }) => Boolean(text) && Number.isInteger(verse))
+      .sort((a, b) => (a.verse || 0) - (b.verse || 0));
+
+    return [...bookEntries, ...chapterEntries, ...verseEntries];
   }
 }

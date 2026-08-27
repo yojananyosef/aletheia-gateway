@@ -17,7 +17,10 @@
   import type { BibleHighlight } from '../domain/entities/BibleHighlight';
   import type { PersonalNote } from '../../notes/domain/Note';
   import type { CrossReferenceClause } from '../../cross-references/domain/CrossReference';
-  import type { CommentarySource } from '../../commentaries/domain/Commentary';
+  import type {
+    CommentaryEntry,
+    CommentarySource,
+  } from '../../commentaries/domain/Commentary';
   import { LocalStorageHighlightRepository } from '../infrastructure/LocalStorageHighlightRepository';
   import { LocalStorageNoteRepository } from '../../notes/infrastructure/LocalStorageNoteRepository';
   import { JsonCrossReferenceRepository } from '../../cross-references/infrastructure/JsonCrossReferenceRepository';
@@ -104,7 +107,7 @@
   let isCommentaryDrawerOpen = $state(false);
   let commentarySources = $state<CommentarySource[]>([]);
   let commentarySourceId = $state('');
-  let commentaryEntries = $state<Record<number, string>>({});
+  let commentaryEntries = $state<CommentaryEntry[]>([]);
   let isCommentaryLoading = $state(false);
   let commentaryRequestId = 0;
 

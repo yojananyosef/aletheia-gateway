@@ -1,4 +1,4 @@
-import type { CommentarySource } from './Commentary';
+import type { CommentaryEntry, CommentarySource } from './Commentary';
 
 export interface ICommentaryRepository {
   getSources(): Promise<CommentarySource[]>;
@@ -14,5 +14,5 @@ export interface ICommentaryRepository {
     sourceId: string,
     bookCodeOrName: string,
     chapter: number
-  ): Promise<Record<number, string>>;
+  ): Promise<CommentaryEntry[]>;
 }

@@ -9,7 +9,7 @@
     Search,
     X,
   } from 'lucide-svelte';
-  import type { CommentarySource } from '../domain/Commentary';
+  import type { CommentaryEntry, CommentarySource } from '../domain/Commentary';
 
   interface Props {
     isOpen: boolean;
@@ -18,7 +18,7 @@
     chapter: number;
     sources: CommentarySource[];
     selectedSourceId: string;
-    entries: Record<number, string>;
+    entries: CommentaryEntry[];
     isLoading: boolean;
     onSourceChange: (sourceId: string) => void;
     onClose: () => void;
@@ -32,7 +32,7 @@
     chapter = 1,
     sources = [],
     selectedSourceId = '',
-    entries = {},
+    entries = [],
     isLoading = false,
     onSourceChange,
     onClose,
@@ -46,13 +46,7 @@
     sources.find((source) => source.id === selectedSourceId) || sources[0]
   );
   let displayEntries = $derived(
-    Object.entries(entries)
-      .map(([verse, text]) => ({ verse: Number(verse), text }))
-      .filter(
-        ({ verse, text }) =>
-          Number.isInteger(verse) && Boolean(text) && !isUnavailableCommentary(text)
-      )
-      .sort((a, b) => a.verse - b.verse)
+    entries.filter(({ text }) => Boolean(text) && !isUnavailableCommentary(text))
   );
   let filteredEntries = $derived.by(() => {
     const term = filterTerm.trim().toLowerCase();
@@ -255,17 +249,27 @@
           {#each filteredEntries as entry}
             <article class="commentary-entry-card">
               <div class="commentary-entry-header">
-                <span class="commentary-verse-badge">v. {entry.verse}</span>
-                <button
-                  type="button"
-                  class="commentary-open-btn"
-                  onclick={() => handlePassageClick(entry.verse)}
-                  data-tooltip="Abrir versículo en el lector"
-                >
-                  <BookOpen size={13} />
-                  <span>Leer versículo</span>
-                  <ExternalLink size={12} />
-                </button>
+                <span class="commentary-scope-badge scope-{entry.scope}">
+                  {#if entry.scope === 'verse'}
+                    v. {entry.verse}
+                  {:else if entry.scope === 'chapter'}
+                    Capítulo
+                  {:else}
+                    Libro
+                  {/if}
+                </span>
+                {#if entry.scope === 'verse' && entry.verse !== undefined}
+                  <button
+                    type="button"
+                    class="commentary-open-btn"
+                    onclick={() => handlePassageClick(entry.verse!)}
+                    data-tooltip="Abrir versículo en el lector"
+                  >
+                    <BookOpen size={13} />
+                    <span>Leer versículo</span>
+                    <ExternalLink size={12} />
+                  </button>
+                {/if}
               </div>
               <div class="commentary-entry-text">{entry.text}</div>
             </article>
@@ -649,7 +653,7 @@
     border-bottom: 1px dashed var(--border-color);
   }
 
-  .commentary-verse-badge {
+  .commentary-scope-badge {
     padding: 2px 7px;
     color: var(--text-main);
     background: var(--accent-attention);
@@ -658,6 +662,10 @@
     font-family: var(--font-mono);
     font-size: 0.75rem;
     font-weight: 900;
+  }
+
+  .commentary-scope-badge.scope-book {
+    background: var(--accent-interest);
   }
 
   .commentary-open-btn {
