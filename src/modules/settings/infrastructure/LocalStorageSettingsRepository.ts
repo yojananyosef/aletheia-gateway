@@ -69,7 +69,21 @@ export class LocalStorageSettingsRepository {
     return JSON.stringify(payload, null, 2);
   }
 
-  public async importBackup(jsonString: string): Promise<ImportResult> {
+  private mergeArraysById<T extends { id?: string }>(existing: T[], incoming: T[]): T[] {
+    const map = new Map<string, T>();
+    for (const item of existing) {
+      const key = item.id ? String(item.id) : JSON.stringify(item);
+      map.set(key, item);
+    }
+    for (const item of incoming) {
+      const key = item.id ? String(item.id) : JSON.stringify(item);
+      if (!map.has(key)) map.set(key, item);
+    }
+    return Array.from(map.values());
+  }
+
+  public async importBackup(jsonString: string, options?: { merge?: boolean }): Promise<ImportResult> {
+    const shouldMerge = options?.merge === true;
     if (typeof localStorage === 'undefined') {
       return {
         success: false,
@@ -94,32 +108,66 @@ export class LocalStorageSettingsRepository {
 
       const { bookmarks = [], notes = [], highlights = [], lastPassage, selectedTranslations, settings } = parsed.data;
 
-      // Merge or overwrite with validation
-      if (Array.isArray(bookmarks)) {
-        localStorage.setItem(STORAGE_BOOKMARKS, JSON.stringify(bookmarks));
-      }
-      if (Array.isArray(notes)) {
-        localStorage.setItem(STORAGE_NOTES, JSON.stringify(notes));
-      }
-      if (Array.isArray(highlights)) {
-        localStorage.setItem(STORAGE_HIGHLIGHTS, JSON.stringify(highlights));
-      }
-      if (lastPassage && typeof lastPassage === 'string') {
-        localStorage.setItem(STORAGE_LAST_PASSAGE, lastPassage);
-      }
-      if (Array.isArray(selectedTranslations)) {
-        localStorage.setItem(STORAGE_TRANSLATIONS, JSON.stringify(selectedTranslations));
-      }
-      if (settings) {
-        this.saveSettings(settings);
+      let finalBookmarks = bookmarks;
+      let finalNotes = notes;
+      let finalHighlights = highlights;
+
+      if (shouldMerge) {
+        // Fusionar: conservar existentes + añadir únicos del backup
+        if (Array.isArray(bookmarks)) {
+          const existing = JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS) || '[]');
+          finalBookmarks = this.mergeArraysById(existing, bookmarks);
+          localStorage.setItem(STORAGE_BOOKMARKS, JSON.stringify(finalBookmarks));
+        }
+        if (Array.isArray(notes)) {
+          const existing = JSON.parse(localStorage.getItem(STORAGE_NOTES) || '[]');
+          finalNotes = this.mergeArraysById(existing, notes);
+          localStorage.setItem(STORAGE_NOTES, JSON.stringify(finalNotes));
+        }
+        if (Array.isArray(highlights)) {
+          const existing = JSON.parse(localStorage.getItem(STORAGE_HIGHLIGHTS) || '[]');
+          finalHighlights = this.mergeArraysById(existing, highlights);
+          localStorage.setItem(STORAGE_HIGHLIGHTS, JSON.stringify(finalHighlights));
+        }
+        // En modo fusión, no sobrescribimos lastPassage; para traducciones hacemos unión
+        if (Array.isArray(selectedTranslations)) {
+          const existingTrans = JSON.parse(localStorage.getItem(STORAGE_TRANSLATIONS) || '[]');
+          const mergedTrans = Array.from(new Set([...existingTrans, ...selectedTranslations]));
+          localStorage.setItem(STORAGE_TRANSLATIONS, JSON.stringify(mergedTrans));
+        }
+        if (settings) {
+          // Merge shallow: existentes + importados (importados prevalecen)
+          const existingSettings = this.getSettings();
+          this.saveSettings({ ...existingSettings, ...settings });
+        }
+      } else {
+        // Sobrescribir: reemplazo total (comportamiento original)
+        if (Array.isArray(bookmarks)) {
+          localStorage.setItem(STORAGE_BOOKMARKS, JSON.stringify(bookmarks));
+        }
+        if (Array.isArray(notes)) {
+          localStorage.setItem(STORAGE_NOTES, JSON.stringify(notes));
+        }
+        if (Array.isArray(highlights)) {
+          localStorage.setItem(STORAGE_HIGHLIGHTS, JSON.stringify(highlights));
+        }
+        if (lastPassage && typeof lastPassage === 'string') {
+          localStorage.setItem(STORAGE_LAST_PASSAGE, lastPassage);
+        }
+        if (Array.isArray(selectedTranslations)) {
+          localStorage.setItem(STORAGE_TRANSLATIONS, JSON.stringify(selectedTranslations));
+        }
+        if (settings) {
+          this.saveSettings(settings);
+        }
       }
 
       return {
         success: true,
-        message: 'Respaldo restaurado exitosamente',
-        bookmarksCount: Array.isArray(bookmarks) ? bookmarks.length : 0,
-        notesCount: Array.isArray(notes) ? notes.length : 0,
-        highlightsCount: Array.isArray(highlights) ? highlights.length : 0,
+        message: shouldMerge ? 'Respaldo fusionado exitosamente' : 'Respaldo restaurado exitosamente',
+        bookmarksCount: Array.isArray(finalBookmarks) ? finalBookmarks.length : 0,
+        notesCount: Array.isArray(finalNotes) ? finalNotes.length : 0,
+        highlightsCount: Array.isArray(finalHighlights) ? finalHighlights.length : 0,
       };
     } catch (err) {
       console.error('Error importing backup:', err);

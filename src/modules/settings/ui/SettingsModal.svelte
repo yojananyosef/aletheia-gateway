@@ -31,26 +31,59 @@
   let settings = $state<UserSettings>(repo.getSettings());
   let feedbackMessage = $state<{ type: 'success' | 'error'; text: string } | null>(null);
   let showResetConfirm = $state(false);
+  let shouldMerge = $state(true);
 
   let fileInputRef: HTMLInputElement | undefined = $state();
 
+  const FONT_BODY_MAP: Record<AppFontFamily, string> = {
+    inter: "'Inter', 'DM Sans', system-ui, sans-serif",
+    lexend: "'Lexend', 'Verdana', sans-serif",
+    mono: "'JetBrains Mono', ui-monospace, monospace",
+    syne: "'Syne', 'Archivo Black', sans-serif",
+  };
+
+  function applyThemeClass(mode: ThemeMode) {
+    if (typeof document === 'undefined') return;
+    document.body.classList.remove('mode-calm', 'mode-high-contrast');
+    if (mode === 'calm') {
+      document.body.classList.add('mode-calm');
+      localStorage.setItem('alethia_calm_mode', 'true');
+    } else if (mode === 'high-contrast') {
+      document.body.classList.add('mode-high-contrast');
+      localStorage.setItem('alethia_calm_mode', 'false');
+    } else {
+      localStorage.setItem('alethia_calm_mode', 'false');
+    }
+  }
+
+  function applyFontClass(font: AppFontFamily) {
+    if (typeof document === 'undefined') return;
+    document.body.classList.remove('font-inter', 'font-lexend', 'font-mono', 'font-syne');
+    document.body.classList.add(`font-${font}`);
+    document.documentElement.style.setProperty('--font-body', FONT_BODY_MAP[font]);
+  }
+
+  function applyAppearanceFromSettings(s: UserSettings) {
+    applyThemeClass(s.theme);
+    applyFontClass(s.fontFamily);
+  }
+
   onMount(() => {
     settings = repo.getSettings();
+    applyAppearanceFromSettings(settings);
   });
 
   function handleThemeChange(mode: ThemeMode) {
     settings.theme = mode;
-    repo.saveSettings({ theme: mode });
+    const calmFlag = mode === 'calm';
+    repo.saveSettings({ theme: mode, calmMode: calmFlag });
+    applyThemeClass(mode);
+  }
 
-    if (typeof document !== 'undefined') {
-      if (mode === 'calm') {
-        document.body.classList.add('mode-calm');
-        localStorage.setItem('alethia_calm_mode', 'true');
-      } else {
-        document.body.classList.remove('mode-calm');
-        localStorage.setItem('alethia_calm_mode', 'false');
-      }
-    }
+  function handleFontChange(font: AppFontFamily) {
+    settings.fontFamily = font;
+    repo.saveSettings({ fontFamily: font });
+    applyFontClass(font);
   }
 
   async function handleExport() {
@@ -88,11 +121,13 @@
       const content = e.target?.result as string;
       if (!content) return;
 
-      const result = await repo.importBackup(content);
+      const result = await repo.importBackup(content, { merge: shouldMerge });
       if (result.success) {
+        settings = repo.getSettings();
+        applyAppearanceFromSettings(settings);
         feedbackMessage = {
           type: 'success',
-          text: `Restaurado con éxito: ${result.bookmarksCount} marcadores, ${result.notesCount} notas y ${result.highlightsCount} resaltados.`,
+          text: `${shouldMerge ? 'Fusionado' : 'Restaurado'} con éxito: ${result.bookmarksCount} marcadores, ${result.notesCount} notas y ${result.highlightsCount} resaltados. ${shouldMerge ? '(Se conservaron tus datos actuales + se añadieron los del backup)' : '(Se reemplazaron tus datos por los del backup)'}`,
         };
         onDataRestored?.();
       } else {
@@ -109,6 +144,8 @@
 
   function handleReset() {
     repo.resetAllData();
+    settings = repo.getSettings();
+    applyAppearanceFromSettings(settings);
     showResetConfirm = false;
     feedbackMessage = {
       type: 'success',
@@ -222,6 +259,60 @@
               <span class="theme-name font-bold">Modo Calma</span>
               <span class="theme-sub">Marfil suave anti-fatiga visual y dislexia</span>
             </button>
+
+            <button
+              type="button"
+              class="theme-card {settings.theme === 'high-contrast' ? 'is-selected' : ''}"
+              onclick={() => handleThemeChange('high-contrast')}
+            >
+              <div class="theme-preview high-contrast">
+                <span class="theme-badge-demo">Aa</span>
+              </div>
+              <span class="theme-name font-bold">Alto Contraste</span>
+              <span class="theme-sub">21:1 máximo contraste para baja visión</span>
+            </button>
+          </div>
+
+          <h3 class="section-title" style="margin-top: 20px;">Tipografía del Sistema</h3>
+          <p class="section-desc">Elige la fuente base para lectura continua. Se aplica instantáneamente y se guarda en tu respaldo.</p>
+
+          <div class="font-options-grid">
+            <button
+              type="button"
+              class="font-card {settings.fontFamily === 'inter' ? 'is-selected' : ''}"
+              onclick={() => handleFontChange('inter')}
+            >
+              <span class="font-preview" style="font-family: 'Inter', sans-serif;">Inter Aa</span>
+              <span class="theme-name font-bold">Inter</span>
+              <span class="theme-sub">Sans moderna, lectura neutra (por defecto)</span>
+            </button>
+            <button
+              type="button"
+              class="font-card {settings.fontFamily === 'lexend' ? 'is-selected' : ''}"
+              onclick={() => handleFontChange('lexend')}
+            >
+              <span class="font-preview" style="font-family: 'Lexend', sans-serif;">Lexend Aa</span>
+              <span class="theme-name font-bold">Lexend</span>
+              <span class="theme-sub">Anti-dislexia, espaciado generoso</span>
+            </button>
+            <button
+              type="button"
+              class="font-card {settings.fontFamily === 'mono' ? 'is-selected' : ''}"
+              onclick={() => handleFontChange('mono')}
+            >
+              <span class="font-preview" style="font-family: 'JetBrains Mono', monospace;">Mono Aa</span>
+              <span class="theme-name font-bold">JetBrains Mono</span>
+              <span class="theme-sub">Monoespaciada, foco técnico</span>
+            </button>
+            <button
+              type="button"
+              class="font-card {settings.fontFamily === 'syne' ? 'is-selected' : ''}"
+              onclick={() => handleFontChange('syne')}
+            >
+              <span class="font-preview" style="font-family: 'Syne', sans-serif;">Syne Aa</span>
+              <span class="theme-name font-bold">Syne</span>
+              <span class="theme-sub">Display contundente, titulares</span>
+            </button>
           </div>
         </div>
       {:else if activeTab === 'backup'}
@@ -257,8 +348,36 @@
                 <Upload size={20} class="text-[var(--accent-interest)]" />
                 <h4 class="font-bold text-sm">Restaurar Respaldo</h4>
               </div>
-              <p class="text-xs text-[var(--text-muted)] mb-4">
+              <p class="text-xs text-[var(--text-muted)] mb-3">
                 Carga un archivo de respaldo previo para restaurar tus notas y marcadores.
+              </p>
+              <!-- Modo de importación: Fusionar vs Sobrescribir -->
+              <div class="import-mode-toggle">
+                <button
+                  type="button"
+                  class="import-mode-btn {shouldMerge ? 'is-active' : ''}"
+                  onclick={() => (shouldMerge = true)}
+                  data-tooltip="Fusionar: conserva tus datos actuales y añade solo los nuevos del backup (sin duplicados por ID)"
+                >
+                  <span class="mode-dot {shouldMerge ? 'on' : ''}"></span>
+                  <span>Fusionar</span>
+                </button>
+                <button
+                  type="button"
+                  class="import-mode-btn { !shouldMerge ? 'is-active danger' : ''}"
+                  onclick={() => (shouldMerge = false)}
+                  data-tooltip="Sobrescribir: borra tus datos actuales y los reemplaza por los del backup"
+                >
+                  <span class="mode-dot {!shouldMerge ? 'on danger' : ''}"></span>
+                  <span>Sobrescribir</span>
+                </button>
+              </div>
+              <p class="text-xs font-medium mb-3" style="color: {shouldMerge ? 'var(--text-muted)' : 'var(--accent-desire)'}">
+                {#if shouldMerge}
+                  ↻ Se conservarán tus datos + se añadirán los del backup (recomendado)
+                {:else}
+                  ⚠ Se borrarán tus datos actuales y se reemplazarán
+                {/if}
               </p>
               <input
                 type="file"
@@ -564,6 +683,57 @@
     background-color: #f7f4ed;
   }
 
+  .theme-preview.high-contrast {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+  }
+
+  .theme-preview.high-contrast .theme-badge-demo {
+    color: #fff;
+  }
+
+  .font-options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+  }
+
+  .font-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    background-color: var(--bg-canvas);
+    border: 2px solid var(--border-color);
+    box-shadow: 2px 2px 0 var(--border-color);
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.1s ease;
+  }
+
+  .font-card:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 3px 3px 0 var(--border-color);
+  }
+
+  .font-card.is-selected {
+    border-color: var(--border-color);
+    background-color: var(--bg-surface);
+    box-shadow: 4px 4px 0 var(--accent-interest);
+  }
+
+  .font-preview {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 800;
+    border: 1.5px solid var(--border-color);
+    background: var(--bg-surface);
+    padding: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
   .theme-badge-demo {
     font-family: var(--font-display);
     font-weight: 800;
@@ -595,6 +765,59 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .import-mode-toggle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+
+  .import-mode-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 6px 8px;
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 800;
+    background-color: var(--bg-surface);
+    border: 1.5px solid var(--border-color);
+    box-shadow: 1.5px 1.5px 0 var(--border-color);
+    cursor: pointer;
+    transition: all 0.1s ease;
+  }
+
+  .import-mode-btn.is-active {
+    background-color: var(--accent-interest);
+    box-shadow: 2px 2px 0 var(--border-color);
+    transform: translate(-1px, -1px);
+  }
+
+  .import-mode-btn.is-active.danger {
+    background-color: #fee2e2;
+    border-color: var(--accent-desire);
+    color: var(--accent-desire);
+  }
+
+  .mode-dot {
+    width: 10px;
+    height: 10px;
+    border: 1.5px solid var(--border-color);
+    background: var(--bg-surface);
+    flex-shrink: 0;
+  }
+
+  .mode-dot.on {
+    background: var(--accent-success);
+    border-color: var(--border-color);
+    box-shadow: inset 0 0 0 2px var(--bg-surface);
+  }
+
+  .mode-dot.on.danger {
+    background: var(--accent-desire);
   }
 
   .danger-zone-card {

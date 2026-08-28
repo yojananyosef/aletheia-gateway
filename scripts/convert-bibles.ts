@@ -109,6 +109,9 @@ export interface VersionManifest {
   shortName: string;
   description: string;
   language: string;
+  languageName?: string;
+  flag?: string;
+  direction?: string;
   copyright: string;
   booksCount: number;
   chaptersCount: number;

@@ -35,6 +35,7 @@ export interface TranslationInfo {
   shortName: string;
   language: string;
   languageName?: string;
+  flag?: string;
   direction?: 'ltr' | 'rtl';
   description?: string;
   copyright?: string;

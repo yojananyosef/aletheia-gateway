@@ -157,7 +157,7 @@
     isSavedVersesModalOpen = false;
   }
 
-  function handleNavigate(nextView: 'home' | 'reader' | 'concordance') {
+  function handleNavigate(nextView: 'home' | 'reader' | 'concordance' | 'devotionals') {
     view = nextView;
     if (nextView === 'reader') {
       readerQuery = activeQuery;

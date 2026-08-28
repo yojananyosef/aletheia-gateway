@@ -96,6 +96,42 @@ body.mode-calm {
   --max-width-text: 58ch;
 }
 
+/* --- MODO ALTO CONTRASTE (WCAG AAA 21:1 - baja visión) --- */
+body.mode-high-contrast {
+  --bg-canvas: #ffffff;
+  --bg-surface: #ffffff;
+  --text-main: #000000;
+  --text-muted: #000000;
+  --border-color: #000000;
+
+  --accent-attention: #FFFF00; /* Amarillo puro alto contraste */
+  --accent-desire: #FF0000;
+  --accent-interest: #00FFFF;
+  --accent-success: #00FF00;
+  --accent-error: #FF0000;
+
+  --line-height-body: 1.7;
+  --letter-spacing-body: 0.015em;
+  --word-spacing-body: 0.1em;
+}
+
+/* --- TIPOGRAFÍAS SELECCIONABLES (Settings → Apariencia) --- */
+body.font-inter {
+  --font-body: 'Inter', 'DM Sans', system-ui, sans-serif;
+}
+body.font-lexend {
+  --font-body: 'Lexend', 'Verdana', sans-serif;
+  --line-height-body: 1.85;
+  --letter-spacing-body: 0.02em;
+  --word-spacing-body: 0.12em;
+}
+body.font-mono {
+  --font-body: 'JetBrains Mono', ui-monospace, monospace;
+}
+body.font-syne {
+  --font-body: 'Syne', 'Archivo Black', sans-serif;
+}
+
 /* Sombreado de selección de texto con el color del tema activo */
 ::selection {
   background-color: var(--accent-attention);

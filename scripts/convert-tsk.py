@@ -172,7 +172,9 @@ def parse_tsk_entry(raw_text: str, default_book: str):
 
     for line in lines:
         if line.startswith('<scripRef passage='):
-            # Outline/heading summary in chapter opening, skip
+            # Outline/heading summary in chapter opening, skip — filtra índices de capítulo
+            # (ej. "Gen 1,2,3") que inflarían el conteo a ~500k pero no son referencias
+            # cruzadas reales. Con este filtro quedan ~306k citas reales (30.8k versículos).
             continue
 
         scrip_matches = re.findall(r'<scripRef.*?>(.*?)</scripRef>', line, re.DOTALL)

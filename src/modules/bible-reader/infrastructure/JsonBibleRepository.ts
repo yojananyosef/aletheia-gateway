@@ -84,7 +84,27 @@ export class JsonBibleRepository implements IBibleRepository {
           return false;
         });
         if (filteredVerses.length === 0) {
-          filteredVerses = chapterData.verses;
+          // Si se pidió verso específico y no existe (ej. Platense 2Co 13:14 → solo 13 versos),
+          // no devolver capítulo completo; dejar vacío para que DailyVerseCard haga fallback a VBL/BES
+          if (!segment.isPartial) {
+            filteredVerses = chapterData.verses;
+          }
+        }
+
+        // Versificación RV1909/Platense: 18 versículos vacíos o faltantes (ej. 2Co 13:14). Si el único verso pedido
+        // está vacío, buscar hacia atrás el último verso no vacío del mismo capítulo para no mostrar ""
+        const allEmpty = filteredVerses.length > 0 && filteredVerses.every((v) => !v.text || !v.text.trim());
+        if (allEmpty && filteredVerses.length === 1) {
+          const requestedNum = segment.verseNumbers![0];
+          // buscar hacia atrás en el capítulo
+          for (let n = requestedNum - 1; n >= 1; n--) {
+            const candidate = chapterData.verses.find((cv) => cv.number === n || (n >= cv.number && n <= (cv.endNumber || cv.number)));
+            if (candidate && candidate.text && candidate.text.trim()) {
+              filteredVerses = [candidate];
+              break;
+            }
+          }
+          // si aún vacío, dejar que DailyVerseCard haga fallback a otra traducción
         }
       }
 
