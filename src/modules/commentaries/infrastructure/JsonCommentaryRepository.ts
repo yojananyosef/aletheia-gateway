@@ -6,6 +6,7 @@ import type {
   CommentarySource,
 } from '../domain/Commentary';
 import { findBookInfo } from '../../bible-reader/domain/entities/BibleBooks';
+import { cacheBust } from '../../../shared/utils/cacheBust';
 
 export class JsonCommentaryRepository implements ICommentaryRepository {
   private static indexPromise: Promise<CommentarySource[]> | null = null;
@@ -16,7 +17,7 @@ export class JsonCommentaryRepository implements ICommentaryRepository {
       return JsonCommentaryRepository.indexPromise;
     }
 
-    JsonCommentaryRepository.indexPromise = fetch('/data/commentaries/index.json')
+    JsonCommentaryRepository.indexPromise = fetch(cacheBust('/data/commentaries/index.json'))
       .then(async (response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const index = (await response.json()) as CommentaryIndex;
@@ -54,7 +55,7 @@ export class JsonCommentaryRepository implements ICommentaryRepository {
     }
 
     try {
-      const url = `/data/commentaries/${encodeURIComponent(sourceId)}/${encodeURIComponent(bookCode)}.json`;
+      const url = cacheBust(`/data/commentaries/${encodeURIComponent(sourceId)}/${encodeURIComponent(bookCode)}.json`);
       const response = await fetch(url);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const data = (await response.json()) as CommentaryBookData;

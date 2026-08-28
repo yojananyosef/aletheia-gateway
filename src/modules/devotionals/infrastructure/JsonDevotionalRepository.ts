@@ -1,5 +1,6 @@
 import type { IDevotionalRepository } from '../domain/IDevotionalRepository';
 import type { DailyDevotional, DevotionalCatalog } from '../domain/Devotional';
+import { cacheBust } from '../../../shared/utils/cacheBust';
 
 export class JsonDevotionalRepository implements IDevotionalRepository {
   private static catalogCache: DevotionalCatalog | null = null;
@@ -10,7 +11,7 @@ export class JsonDevotionalRepository implements IDevotionalRepository {
     }
 
     try {
-      const res = await fetch('/data/devotionals/sme-spurgeon.json');
+      const res = await fetch(cacheBust('/data/devotionals/sme-spurgeon.json'));
       if (!res.ok) return null;
       const data: DevotionalCatalog = await res.json();
       JsonDevotionalRepository.catalogCache = data;

@@ -1,6 +1,7 @@
 import type { ICrossReferenceRepository } from '../domain/ICrossReferenceRepository';
 import type { CrossReferenceClause, BookCrossReferencesData } from '../domain/CrossReference';
 import { findBookInfo } from '../../bible-reader/domain/entities/BibleBooks';
+import { cacheBust } from '../../../shared/utils/cacheBust';
 
 export class JsonCrossReferenceRepository implements ICrossReferenceRepository {
   private static cache: Map<string, BookCrossReferencesData | null> = new Map();
@@ -12,7 +13,7 @@ export class JsonCrossReferenceRepository implements ICrossReferenceRepository {
     }
 
     try {
-      const url = `/data/cross-references/TSK/${cacheKey}.json`;
+      const url = cacheBust(`/data/cross-references/TSK/${cacheKey}.json`);
       const res = await fetch(url);
       if (!res.ok) {
         JsonCrossReferenceRepository.cache.set(cacheKey, null);

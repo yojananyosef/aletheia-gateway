@@ -1,4 +1,5 @@
 import type { TranslationId } from '../../bible-reader/domain/entities/Translation';
+import { cacheBust } from '../../../shared/utils/cacheBust';
 import {
   parseConcordanceQuery,
   type ParsedConcordanceQuery,
@@ -35,7 +36,7 @@ export class ConcordanceService {
     }
 
     try {
-      const res = await fetch(`/data/concordance/${translationId}.json`);
+      const res = await fetch(cacheBust(`/data/concordance/${translationId}.json`));
       if (!res.ok) {
         throw new Error(`Failed to load concordance index for ${translationId}`);
       }

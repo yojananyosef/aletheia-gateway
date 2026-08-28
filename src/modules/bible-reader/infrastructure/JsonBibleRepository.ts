@@ -4,6 +4,7 @@ import type { PassageVersionResult, PassageSection, SectionFootnote } from '../d
 import type { Verse } from '../domain/entities/Verse';
 import { PassageReference } from '../domain/value-objects/PassageReference';
 import { findBookInfo, ALL_BIBLE_BOOKS } from '../domain/entities/BibleBooks';
+import { cacheBust } from '../../../shared/utils/cacheBust';
 
 interface BookJsonData {
   versionId: string;
@@ -225,7 +226,7 @@ export class JsonBibleRepository implements IBibleRepository {
 
     try {
       if (typeof fetch !== 'undefined') {
-        const res = await fetch(`/data/bibles/${translationId}/${bookCode}.json`);
+        const res = await fetch(cacheBust(`/data/bibles/${translationId}/${bookCode}.json`));
         if (res.ok) {
           const data = (await res.json()) as BookJsonData;
           JsonBibleRepository.cache.set(cacheKey, data);
