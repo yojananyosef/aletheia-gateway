@@ -202,7 +202,7 @@
   class="passage-list-parallel {fontSizeClasses[fontSize] || 'text-size-medium'} {passages.length >= 3 ? 'has-many-versions' : 'has-few-versions'}"
   style="--version-count: {passages.length || 1};"
 >
-  {#each passages as passage, index (passage.translationId || index)}
+  {#each passages as passage, index (index)}
     {@const columnFootnotes = getColumnFootnotes(passage)}
     {@const sections = passage.sections && passage.sections.length > 0 ? passage.sections : [{
       reference: passage.reference,

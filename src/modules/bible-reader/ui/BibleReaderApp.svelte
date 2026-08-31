@@ -93,9 +93,28 @@
       }
       const savedTranslations = localStorage.getItem(STORAGE_KEY_TRANSLATIONS);
       if (savedTranslations) {
-        const parsed = JSON.parse(savedTranslations);
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          selectedTranslations = parsed;
+        try {
+          const parsed = JSON.parse(savedTranslations);
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            // Migration: deduplicate corrupted state that caused each_key_duplicate
+            // (e.g. ["RV1909","RV1909"] persisted before duplicate guard)
+            const validIds = new Set(Object.keys(AVAILABLE_TRANSLATIONS) as TranslationId[]);
+            const deduped: TranslationId[] = [];
+            for (const id of parsed) {
+              if (validIds.has(id) && !deduped.includes(id)) deduped.push(id);
+            }
+            if (deduped.length > 0) {
+              if (deduped.length !== parsed.length) {
+                selectedTranslations = deduped.slice(0, 5);
+                saveTranslations(selectedTranslations);
+                console.warn('Deduplicated corrupted selectedTranslations', { before: parsed, after: selectedTranslations });
+              } else {
+                selectedTranslations = deduped.slice(0, 5);
+              }
+            }
+          }
+        } catch {
+          // corrupt JSON – keep default
         }
       }
     } catch {
@@ -168,18 +187,23 @@
     }
   }
 
-  // Add next available translation to parallel columns (up to 5)
+  // Add next available translation to parallel columns (up to 5) – never duplicates
   function handleAddParallelColumn() {
     if (selectedTranslations.length >= 5) return;
     const allKeys = Object.keys(AVAILABLE_TRANSLATIONS) as TranslationId[];
     const unused = allKeys.find((id) => !selectedTranslations.includes(id));
-    const nextToAdd = unused || 'BES';
-    selectedTranslations = [...selectedTranslations, nextToAdd];
+    if (!unused) return; // all translations already visible – avoid duplicating 'BES'
+    selectedTranslations = [...selectedTranslations, unused];
     saveTranslations(selectedTranslations);
   }
 
-  // Change translation of a specific parallel column
+  // Change translation of a specific parallel column – reject duplicates
   function handleChangeColumnTranslation(index: number, newTranslationId: TranslationId) {
+    if (selectedTranslations[index] === newTranslationId) return;
+    if (selectedTranslations.includes(newTranslationId)) {
+      console.warn(`Translation ${newTranslationId} already visible in another column`);
+      return;
+    }
     const nextList = [...selectedTranslations];
     nextList[index] = newTranslationId;
     selectedTranslations = nextList;
