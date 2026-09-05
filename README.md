@@ -164,6 +164,7 @@ aletheiagateway/
 | `bun run preview`                 | Previsualiza localmente el build de producción.                                                 |
 | `bun run check`                   | Ejecuta el análisis estático de tipos TypeScript y diagnósticos de Astro.                       |
 | `bun run test`                    | Ejecuta la suite de tests unitarios (Vitest).                                                   |
+| `bun run test:e2e`                | Ejecuta el smoke e2e (Playwright, build + servidor estático).                                   |
 | `bun run format` / `format:check` | Formatea / verifica formato con Prettier.                                                       |
 
 > **Gestor de paquetes:** Bun (`packageManager: bun`, `bun.lock`). No hay soporte pnpm.
