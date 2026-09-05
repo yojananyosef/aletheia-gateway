@@ -4,6 +4,7 @@
   import Sidebar from './Sidebar.svelte';
   import Topbar from './Topbar.svelte';
   import NeoTooltip from './NeoTooltip.svelte';
+  import { readStorageWithLegacy } from '../utils/storage';
 
   interface Props {
     activeView: 'home' | 'reader' | 'concordance' | 'devotionals';
@@ -52,15 +53,16 @@
 
   onMount(() => {
     try {
-      // Prefer UserSettings (Fase 1) with fallback to legacy alethia_calm_mode
-      const raw = localStorage.getItem('alethia_user_settings');
+      // Prefer UserSettings (Fase 1) with fallback to legacy aletheia_calm_mode
+      // (y a las claves pre-v0.11 "alethia_*", migradas con fallback)
+      const raw = readStorageWithLegacy('aletheia_user_settings', 'alethia_user_settings');
       if (raw) {
         const s = JSON.parse(raw);
         if (s.theme) {
           applyThemeClass(s.theme);
           isCalmMode = s.theme === 'calm';
         } else {
-          const savedCalm = localStorage.getItem('alethia_calm_mode');
+          const savedCalm = readStorageWithLegacy('aletheia_calm_mode', 'alethia_calm_mode');
           if (savedCalm === 'true') {
             isCalmMode = true;
             applyThemeClass('calm');
@@ -68,7 +70,7 @@
         }
         if (s.fontFamily) applyFontClass(s.fontFamily);
       } else {
-        const savedCalm = localStorage.getItem('alethia_calm_mode');
+        const savedCalm = readStorageWithLegacy('aletheia_calm_mode', 'alethia_calm_mode');
         if (savedCalm === 'true') {
           isCalmMode = true;
           document.body.classList.add('mode-calm');
@@ -87,16 +89,16 @@
       applyThemeClass(isCalmMode ? 'calm' : 'standard');
     }
     try {
-      localStorage.setItem('alethia_calm_mode', String(isCalmMode));
+      localStorage.setItem('aletheia_calm_mode', String(isCalmMode));
       // keep UserSettings in sync
-      const raw = localStorage.getItem('alethia_user_settings');
+      const raw = localStorage.getItem('aletheia_user_settings');
       if (raw) {
         const s = JSON.parse(raw);
         s.theme = isCalmMode ? 'calm' : 'standard';
         s.calmMode = isCalmMode;
-        localStorage.setItem('alethia_user_settings', JSON.stringify(s));
+        localStorage.setItem('aletheia_user_settings', JSON.stringify(s));
       } else {
-        localStorage.setItem('alethia_user_settings', JSON.stringify({
+        localStorage.setItem('aletheia_user_settings', JSON.stringify({
           theme: isCalmMode ? 'calm' : 'standard',
           fontFamily: 'inter',
           defaultTranslation: 'RV1909',

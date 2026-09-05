@@ -461,7 +461,7 @@ def convert_module(module_id: str, config: dict[str, Any]) -> dict[str, Any]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Convierte comentarios Sword a JSON para AlethiaGateway")
+    parser = argparse.ArgumentParser(description="Convierte comentarios Sword a JSON para AletheiaGateway")
     parser.add_argument(
         "--only",
         nargs="+",

@@ -19,11 +19,16 @@
   import { JsonBibleRepository } from '../infrastructure/JsonBibleRepository';
   import { CompareTranslationsUseCase } from '../application/CompareTranslationsUseCase';
   import { LocalStorageBookmarkRepository } from '../../bookmarks/infrastructure/LocalStorageBookmarkRepository';
+  import { readStorageWithLegacy } from '../../../shared/utils/storage';
   import type { FontSizeOption } from './FontSizeSelector.svelte';
 
-  const STORAGE_KEY_PASSAGE = 'alethia_last_passage';
-  const STORAGE_KEY_FONT_SIZE = 'alethia_font_size';
-  const STORAGE_KEY_TRANSLATIONS = 'alethia_selected_translations';
+  const STORAGE_KEY_PASSAGE = 'aletheia_last_passage';
+  const STORAGE_KEY_FONT_SIZE = 'aletheia_font_size';
+  const STORAGE_KEY_TRANSLATIONS = 'aletheia_selected_translations';
+  // Claves pre-v0.11 ("Alethia"): lectura con fallback y migración perezosa.
+  const LEGACY_KEY_PASSAGE = 'alethia_last_passage';
+  const LEGACY_KEY_FONT_SIZE = 'alethia_font_size';
+  const LEGACY_KEY_TRANSLATIONS = 'alethia_selected_translations';
 
   // Dependency Inversion / IoC instances
   const bibleRepository = new JsonBibleRepository();
@@ -82,16 +87,16 @@
 
   onMount(() => {
     try {
-      const savedPassage = localStorage.getItem(STORAGE_KEY_PASSAGE);
+      const savedPassage = readStorageWithLegacy(STORAGE_KEY_PASSAGE, LEGACY_KEY_PASSAGE);
       if (savedPassage && savedPassage.trim()) {
         activeQuery = savedPassage.trim();
         readerQuery = savedPassage.trim();
       }
-      const savedFontSize = localStorage.getItem(STORAGE_KEY_FONT_SIZE) as FontSizeOption;
+      const savedFontSize = readStorageWithLegacy(STORAGE_KEY_FONT_SIZE, LEGACY_KEY_FONT_SIZE) as FontSizeOption;
       if (savedFontSize) {
         fontSize = savedFontSize;
       }
-      const savedTranslations = localStorage.getItem(STORAGE_KEY_TRANSLATIONS);
+      const savedTranslations = readStorageWithLegacy(STORAGE_KEY_TRANSLATIONS, LEGACY_KEY_TRANSLATIONS);
       if (savedTranslations) {
         try {
           const parsed = JSON.parse(savedTranslations);

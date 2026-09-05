@@ -1,6 +1,6 @@
 {
-  "name": "alethiagateway",
-  "version": "0.10.1",
+  "name": "aletheiagateway",
+  "version": "0.11.0",
   "private": true,
   "type": "module",
   "packageManager": "bun@1.1.0",

@@ -1,6 +1,6 @@
 """
 Convertidor ultra-rápido de Reina Valera Gómez (SpaRVG) desde formato Sword zText (LZSS/OSIS)
-a la estructura JSON de AlethiaGateway en public/data/bibles/SpaRVG/
+a la estructura JSON de AletheiaGateway en public/data/bibles/SpaRVG/
 """
 
 import os
@@ -225,7 +225,7 @@ def parse_osis_verse(raw_xml_str, fn_counter):
 
 def convert_sparvg():
     source_dir = r"C:\Users\J\Desktop\Versiones\SpaRVG"
-    out_dir = r"C:\Users\J\Desktop\alethia-gateway\public\data\bibles\SpaRVG"
+    out_dir = r"C:\Users\J\Desktop\aletheia-gateway\public\data\bibles\SpaRVG"
     os.makedirs(out_dir, exist_ok=True)
     
     print(f"📖 Cargando módulo Sword Reina Valera Gómez desde {source_dir}...")

@@ -1,12 +1,15 @@
 import type { PersonalNote, IPersonalNoteRepository } from '../domain/Note';
+import { readStorageWithLegacy } from '../../../shared/utils/storage';
 
 export class LocalStorageNoteRepository implements IPersonalNoteRepository {
-  private readonly storageKey = 'alethia_personal_notes_v1';
+  private readonly storageKey = 'aletheia_personal_notes_v1';
+  // Clave pre-v0.11 ("Alethia"): se lee una vez y se migra a la nueva.
+  private readonly legacyStorageKey = 'alethia_personal_notes_v1';
 
   public async getAll(): Promise<PersonalNote[]> {
     if (typeof window === 'undefined') return [];
     try {
-      const data = localStorage.getItem(this.storageKey);
+      const data = readStorageWithLegacy(this.storageKey, this.legacyStorageKey);
       if (!data) return [];
       const parsed = JSON.parse(data);
       return Array.isArray(parsed) ? parsed : [];
@@ -18,9 +21,7 @@ export class LocalStorageNoteRepository implements IPersonalNoteRepository {
   public async getByChapter(book: string, chapter: number): Promise<PersonalNote[]> {
     const all = await this.getAll();
     const normalizedBook = book.toLowerCase().trim();
-    return all.filter(
-      (n) => n.book.toLowerCase().trim() === normalizedBook && n.chapter === chapter
-    );
+    return all.filter((n) => n.book.toLowerCase().trim() === normalizedBook && n.chapter === chapter);
   }
 
   public async getByReference(reference: string): Promise<PersonalNote[]> {
@@ -30,7 +31,7 @@ export class LocalStorageNoteRepository implements IPersonalNoteRepository {
   }
 
   public async save(
-    note: Omit<PersonalNote, 'id' | 'createdAt' | 'updatedAt'> & { id?: string }
+    note: Omit<PersonalNote, 'id' | 'createdAt' | 'updatedAt'> & { id?: string },
   ): Promise<PersonalNote> {
     const all = await this.getAll();
     const now = new Date().toISOString();

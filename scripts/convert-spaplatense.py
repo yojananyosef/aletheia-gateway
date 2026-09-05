@@ -1,6 +1,6 @@
 """
 Convertidor de Biblia Platense (Straubinger) desde formato Sword zText (OSIS)
-a la estructura JSON de AlethiaGateway en public/data/bibles/SpaPlatense/
+a la estructura JSON de AletheiaGateway en public/data/bibles/SpaPlatense/
 """
 
 import os
@@ -146,7 +146,7 @@ def parse_osis_verse(raw_xml_str, fn_counter):
 
 def convert_spaplatense():
     source_dir = r"C:\Users\J\Desktop\Versiones\SpaPlatense"
-    out_dir = r"C:\Users\J\Desktop\alethia-gateway\public\data\bibles\SpaPlatense"
+    out_dir = r"C:\Users\J\Desktop\aletheia-gateway\public\data\bibles\SpaPlatense"
     os.makedirs(out_dir, exist_ok=True)
     
     print(f"📖 Cargando módulo Sword desde {source_dir}...")

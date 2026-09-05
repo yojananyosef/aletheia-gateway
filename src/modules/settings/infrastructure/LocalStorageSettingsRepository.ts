@@ -1,12 +1,28 @@
 import type { UserSettings, BackupPayload, ImportResult } from '../domain/UserSettings';
+import { readStorageWithLegacy, removeStorageWithLegacy } from '../../../shared/utils/storage';
 
-const STORAGE_SETTINGS = 'alethia_user_settings';
-const STORAGE_BOOKMARKS = 'alethia_bookmarks_v1';
-const STORAGE_NOTES = 'alethia_notes_v1';
-const STORAGE_HIGHLIGHTS = 'alethia_bible_highlights_v1';
-const STORAGE_LAST_PASSAGE = 'alethia_last_passage';
-const STORAGE_TRANSLATIONS = 'alethia_selected_translations';
-const STORAGE_CALM_MODE = 'alethia_calm_mode';
+const STORAGE_SETTINGS = 'aletheia_user_settings';
+const STORAGE_BOOKMARKS = 'aletheia_bookmarks_v1';
+const STORAGE_NOTES = 'aletheia_notes_v1';
+const STORAGE_HIGHLIGHTS = 'aletheia_bible_highlights_v1';
+const STORAGE_LAST_PASSAGE = 'aletheia_last_passage';
+const STORAGE_TRANSLATIONS = 'aletheia_selected_translations';
+const STORAGE_CALM_MODE = 'aletheia_calm_mode';
+
+// Claves pre-v0.11 ("Alethia"): lectura con fallback y migración perezosa.
+const LEGACY_KEYS: Record<string, string> = {
+  [STORAGE_SETTINGS]: 'alethia_user_settings',
+  [STORAGE_BOOKMARKS]: 'alethia_bookmarks_v1',
+  [STORAGE_NOTES]: 'alethia_notes_v1',
+  [STORAGE_HIGHLIGHTS]: 'alethia_bible_highlights_v1',
+  [STORAGE_LAST_PASSAGE]: 'alethia_last_passage',
+  [STORAGE_TRANSLATIONS]: 'alethia_selected_translations',
+  [STORAGE_CALM_MODE]: 'alethia_calm_mode',
+};
+
+function getStoredItem(key: string): string | null {
+  return readStorageWithLegacy(key, LEGACY_KEYS[key] ?? key);
+}
 
 const DEFAULT_SETTINGS: UserSettings = {
   theme: 'standard',
@@ -19,7 +35,7 @@ export class LocalStorageSettingsRepository {
   public getSettings(): UserSettings {
     if (typeof localStorage === 'undefined') return DEFAULT_SETTINGS;
     try {
-      const raw = localStorage.getItem(STORAGE_SETTINGS);
+      const raw = getStoredItem(STORAGE_SETTINGS);
       if (!raw) return DEFAULT_SETTINGS;
       return { ...DEFAULT_SETTINGS, ...JSON.parse(raw) };
     } catch {
@@ -45,15 +61,15 @@ export class LocalStorageSettingsRepository {
       throw new Error('Almacenamiento local no disponible');
     }
 
-    const bookmarks = JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS) || '[]');
-    const notes = JSON.parse(localStorage.getItem(STORAGE_NOTES) || '[]');
-    const highlights = JSON.parse(localStorage.getItem(STORAGE_HIGHLIGHTS) || '[]');
-    const lastPassage = localStorage.getItem(STORAGE_LAST_PASSAGE) || 'Génesis 1:1';
-    const selectedTranslations = JSON.parse(localStorage.getItem(STORAGE_TRANSLATIONS) || '["RV1909"]');
+    const bookmarks = JSON.parse(getStoredItem(STORAGE_BOOKMARKS) || '[]');
+    const notes = JSON.parse(getStoredItem(STORAGE_NOTES) || '[]');
+    const highlights = JSON.parse(getStoredItem(STORAGE_HIGHLIGHTS) || '[]');
+    const lastPassage = getStoredItem(STORAGE_LAST_PASSAGE) || 'Génesis 1:1';
+    const selectedTranslations = JSON.parse(getStoredItem(STORAGE_TRANSLATIONS) || '["RV1909"]');
     const settings = this.getSettings();
 
     const payload: BackupPayload = {
-      app: 'AlethiaGateway',
+      app: 'AletheiaGateway',
       version: '1.0.0',
       exportedAt: new Date().toISOString(),
       data: {
@@ -115,23 +131,23 @@ export class LocalStorageSettingsRepository {
       if (shouldMerge) {
         // Fusionar: conservar existentes + añadir únicos del backup
         if (Array.isArray(bookmarks)) {
-          const existing = JSON.parse(localStorage.getItem(STORAGE_BOOKMARKS) || '[]');
+          const existing = JSON.parse(getStoredItem(STORAGE_BOOKMARKS) || '[]');
           finalBookmarks = this.mergeArraysById(existing, bookmarks);
           localStorage.setItem(STORAGE_BOOKMARKS, JSON.stringify(finalBookmarks));
         }
         if (Array.isArray(notes)) {
-          const existing = JSON.parse(localStorage.getItem(STORAGE_NOTES) || '[]');
+          const existing = JSON.parse(getStoredItem(STORAGE_NOTES) || '[]');
           finalNotes = this.mergeArraysById(existing, notes);
           localStorage.setItem(STORAGE_NOTES, JSON.stringify(finalNotes));
         }
         if (Array.isArray(highlights)) {
-          const existing = JSON.parse(localStorage.getItem(STORAGE_HIGHLIGHTS) || '[]');
+          const existing = JSON.parse(getStoredItem(STORAGE_HIGHLIGHTS) || '[]');
           finalHighlights = this.mergeArraysById(existing, highlights);
           localStorage.setItem(STORAGE_HIGHLIGHTS, JSON.stringify(finalHighlights));
         }
         // En modo fusión, no sobrescribimos lastPassage; para traducciones hacemos unión
         if (Array.isArray(selectedTranslations)) {
-          const existingTrans = JSON.parse(localStorage.getItem(STORAGE_TRANSLATIONS) || '[]');
+          const existingTrans = JSON.parse(getStoredItem(STORAGE_TRANSLATIONS) || '[]');
           const mergedTrans = Array.from(new Set([...existingTrans, ...selectedTranslations]));
           localStorage.setItem(STORAGE_TRANSLATIONS, JSON.stringify(mergedTrans));
         }
@@ -184,13 +200,17 @@ export class LocalStorageSettingsRepository {
   public resetAllData(): void {
     if (typeof localStorage === 'undefined') return;
     try {
-      localStorage.removeItem(STORAGE_BOOKMARKS);
-      localStorage.removeItem(STORAGE_NOTES);
-      localStorage.removeItem(STORAGE_HIGHLIGHTS);
-      localStorage.removeItem(STORAGE_LAST_PASSAGE);
-      localStorage.removeItem(STORAGE_TRANSLATIONS);
-      localStorage.removeItem(STORAGE_SETTINGS);
-      localStorage.removeItem(STORAGE_CALM_MODE);
+      for (const key of [
+        STORAGE_BOOKMARKS,
+        STORAGE_NOTES,
+        STORAGE_HIGHLIGHTS,
+        STORAGE_LAST_PASSAGE,
+        STORAGE_TRANSLATIONS,
+        STORAGE_SETTINGS,
+        STORAGE_CALM_MODE,
+      ]) {
+        removeStorageWithLegacy(key, LEGACY_KEYS[key] ?? key);
+      }
     } catch (err) {
       console.error('Error resetting data:', err);
     }

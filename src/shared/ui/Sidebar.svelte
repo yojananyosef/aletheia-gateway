@@ -68,14 +68,14 @@
     <button
       type="button"
       class="neo-brand-btn {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
-      data-tooltip="AlethiaGateway - Inicio"
+      data-tooltip="AletheiaGateway - Inicio"
       data-tooltip-pos={isCollapsed && !isOpen ? 'bottom' : 'top'}
       onclick={() => handleSelect('home')}
     >
       <span class="neo-brand-badge">A</span>
       {#if !isCollapsed || isOpen}
         <div class="flex flex-col text-left leading-tight overflow-hidden">
-          <span class="font-bold text-sm truncate">Alethia<span class="text-[var(--neo-blue)]">Gateway</span></span>
+          <span class="font-bold text-sm truncate">Aletheia<span class="text-[var(--neo-blue)]">Gateway</span></span>
           <span class="text-xs text-black font-semibold truncate">La verdad en la Palabra</span>
         </div>
       {/if}

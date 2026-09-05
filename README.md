@@ -1,7 +1,7 @@
-# AlethiaGateway 📖⚡
+# AletheiaGateway 📖⚡
 
 > _«Conoceréis la verdad, y la verdad os hará libres.»_  
-> **AlethiaGateway** es una plataforma web moderna, ultrarrápida y accesible para la lectura, búsqueda y estudio comparativo de la Biblia en español.
+> **AletheiaGateway** (del griego _ἀλήθεια_, "verdad") es una plataforma web moderna, ultrarrápida y accesible para la lectura, búsqueda y estudio comparativo de la Biblia en español.
 
 ---
 
@@ -80,7 +80,7 @@ graph TD
 ## 📁 Estructura del Proyecto
 
 ```text
-alethiagateway/
+aletheiagateway/
 ├── public/
 │   ├── favicon.svg                # Monograma vectorial Neobrutalista
 │   ├── favicon.ico                # Favicon binario ICO estándar
@@ -128,8 +128,8 @@ alethiagateway/
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/alethiagateway.git
-   cd alethiagateway
+   git clone https://github.com/tu-usuario/aletheiagateway.git
+   cd aletheiagateway
    ```
 
 2. Instalar dependencias:
@@ -178,6 +178,14 @@ alethiagateway/
 ---
 
 ## 📋 Historial de Cambios (Changelog)
+
+### [0.11.0] - 2026-09-05
+
+#### Corregido: nombre del proyecto Alethia → Aletheia
+
+- 🔤 **Ortografía correcta del griego _ἀλήθεια_** en UI, títulos, metadatos SEO, docs, `package.json` y scripts.
+- 🔑 **Migración sin pérdida de datos**: las claves `alethia_*` de `localStorage` se leen con fallback y se promueven a `aletheia_*` (`shared/utils/storage.ts`).
+- ⚠️ **Pendiente manual**: renombrar la carpeta local a `aletheia-gateway` (el remoto GitHub ya usa ese nombre).
 
 ### [0.10.1] - 2026-09-05
 
@@ -297,7 +305,7 @@ alethiagateway/
 #### Añadido: Resaltados Persistentes, Notas Personales y Tooltips Neobrutalistas
 
 - 🖍️ **Persistencia de Resaltados Bíblicos**:
-  - Implementación de `LocalStorageHighlightRepository` (`alethia_bible_highlights_v1`) y entidad `BibleHighlight` con soporte para 4 colores accesibles (`Amarillo`, `Coral`, `Azul`, `Verde`).
+  - Implementación de `LocalStorageHighlightRepository` (`aletheia_bible_highlights_v1`) y entidad `BibleHighlight` con soporte para 4 colores accesibles (`Amarillo`, `Coral`, `Azul`, `Verde`).
   - Renderizado reactivo y sanitizado de marcas `<mark class="bible-highlight">` en el lector paralelo persistente entre recargas y navegación.
   - Interacción táctil para modificar color o borrar resaltados directamente al hacer clic en ellos o con la herramienta de borrado.
 - 💾 **Guardado Directo desde el Toolbar Flotante**:
@@ -337,8 +345,8 @@ alethiagateway/
 - 📏 **Estandarización de Altura en Buscador**:
   - Unificación visual entre la barra de búsqueda de la pantalla de Inicio y la del Lector bíblico (`54px` de alto, `44px` de wrapper y `38px` de input).
 - 💾 **Persistencia del Estado de Lectura**:
-  - Almacenamiento en `localStorage` (`alethia_last_passage`) del último pasaje o versículo visitado al navegar o buscar, permitiendo reanudar la lectura directamente al reingresar a «Leer la Biblia» o recargar la página.
-  - Persistencia de las traducciones seleccionadas en paralelo (`alethia_selected_translations`).
+  - Almacenamiento en `localStorage` (`aletheia_last_passage`) del último pasaje o versículo visitado al navegar o buscar, permitiendo reanudar la lectura directamente al reingresar a «Leer la Biblia» o recargar la página.
+  - Persistencia de las traducciones seleccionadas en paralelo (`aletheia_selected_translations`).
 - 🧼 **Buscador de Inicio Independiente y Limpio**:
   - Desacoplamiento del estado de búsqueda de Inicio respecto al pasaje activo del lector, manteniendo el buscador de Inicio limpio para nuevas búsquedas.
 - 🔤 **Cierre Inteligente en Selector de Tipografía**:
@@ -469,7 +477,7 @@ alethiagateway/
 - 🎨 Sistema de diseño **Neobrutalista** con soporte fluido de viewport en pantalla completa.
 - 📱 Componente unificado `AppShell.svelte` con Sidebar colapsable (`260px` ↔ `72px`) y modo cajón móvil.
 - 🔖 Sistema de persistencia de marcadores con `LocalStorageBookmarkRepository`.
-- 🖼️ Iconografía y favicon oficial (`favicon.svg` y `favicon.ico`) con monograma AlethiaGateway.
+- 🖼️ Iconografía y favicon oficial (`favicon.svg` y `favicon.ico`) con monograma AletheiaGateway.
 
 ---
 

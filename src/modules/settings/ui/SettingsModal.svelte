@@ -47,12 +47,12 @@
     document.body.classList.remove('mode-calm', 'mode-high-contrast');
     if (mode === 'calm') {
       document.body.classList.add('mode-calm');
-      localStorage.setItem('alethia_calm_mode', 'true');
+      localStorage.setItem('aletheia_calm_mode', 'true');
     } else if (mode === 'high-contrast') {
       document.body.classList.add('mode-high-contrast');
-      localStorage.setItem('alethia_calm_mode', 'false');
+      localStorage.setItem('aletheia_calm_mode', 'false');
     } else {
-      localStorage.setItem('alethia_calm_mode', 'false');
+      localStorage.setItem('aletheia_calm_mode', 'false');
     }
   }
 
@@ -94,7 +94,7 @@
       const now = new Date().toISOString().split('T')[0];
       const link = document.createElement('a');
       link.href = url;
-      link.download = `alethia-backup-${now}.json`;
+      link.download = `aletheia-backup-${now}.json`;
       link.click();
       URL.revokeObjectURL(url);
 
@@ -442,7 +442,7 @@
             <div class="flex items-center gap-3 mb-3">
               <span class="about-logo">A</span>
               <div>
-                <h3 class="text-lg font-bold">Alethia<span class="text-[var(--accent-interest)]">Gateway</span></h3>
+                <h3 class="text-lg font-bold">Aletheia<span class="text-[var(--accent-interest)]">Gateway</span></h3>
                 <span class="text-xs font-mono font-bold">Versión 1.0.0 (Fase 1)</span>
               </div>
             </div>

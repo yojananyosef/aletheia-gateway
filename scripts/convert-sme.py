@@ -92,7 +92,7 @@ def parse_section(section_soup, time_type="morning"):
 
 def convert_sme():
     base = r"C:\Users\J\Desktop\Versiones\otros\otros\SME\modules\lexdict\zld\devotionals\sme\sme"
-    out_file = r"C:\Users\J\Desktop\alethia-gateway\public\data\devotionals\sme-spurgeon.json"
+    out_file = r"C:\Users\J\Desktop\aletheia-gateway\public\data\devotionals\sme-spurgeon.json"
     os.makedirs(os.path.dirname(out_file), exist_ok=True)
 
     print("========================================================")

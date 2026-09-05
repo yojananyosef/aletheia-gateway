@@ -1,15 +1,15 @@
-import type {
-  BibleHighlight,
-  IBibleHighlightRepository,
-} from '../domain/entities/BibleHighlight';
+import type { BibleHighlight, IBibleHighlightRepository } from '../domain/entities/BibleHighlight';
+import { readStorageWithLegacy } from '../../../shared/utils/storage';
 
 export class LocalStorageHighlightRepository implements IBibleHighlightRepository {
-  private readonly storageKey = 'alethia_bible_highlights_v1';
+  private readonly storageKey = 'aletheia_bible_highlights_v1';
+  // Clave pre-v0.11 ("Alethia"): se lee una vez y se migra a la nueva.
+  private readonly legacyStorageKey = 'alethia_bible_highlights_v1';
 
   public async getAll(): Promise<BibleHighlight[]> {
     if (typeof window === 'undefined') return [];
     try {
-      const data = localStorage.getItem(this.storageKey);
+      const data = readStorageWithLegacy(this.storageKey, this.legacyStorageKey);
       if (!data) return [];
       const parsed = JSON.parse(data);
       return Array.isArray(parsed) ? parsed : [];
@@ -21,14 +21,10 @@ export class LocalStorageHighlightRepository implements IBibleHighlightRepositor
   public async getByChapter(book: string, chapter: number): Promise<BibleHighlight[]> {
     const all = await this.getAll();
     const normalizedBook = book.toLowerCase().trim();
-    return all.filter(
-      (h) => h.book.toLowerCase().trim() === normalizedBook && h.chapter === chapter
-    );
+    return all.filter((h) => h.book.toLowerCase().trim() === normalizedBook && h.chapter === chapter);
   }
 
-  public async save(
-    highlight: Omit<BibleHighlight, 'id' | 'createdAt'>
-  ): Promise<BibleHighlight> {
+  public async save(highlight: Omit<BibleHighlight, 'id' | 'createdAt'>): Promise<BibleHighlight> {
     const all = await this.getAll();
     const cleanText = highlight.text.trim();
     if (!cleanText) {
@@ -41,7 +37,7 @@ export class LocalStorageHighlightRepository implements IBibleHighlightRepositor
         h.book.toLowerCase().trim() === highlight.book.toLowerCase().trim() &&
         h.chapter === highlight.chapter &&
         h.verseNumber === highlight.verseNumber &&
-        h.text.trim() === cleanText
+        h.text.trim() === cleanText,
     );
 
     const newHighlight: BibleHighlight = {
@@ -50,7 +46,9 @@ export class LocalStorageHighlightRepository implements IBibleHighlightRepositor
       id:
         existingIndex >= 0
           ? all[existingIndex].id
-          : (crypto.randomUUID ? crypto.randomUUID() : `hl_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`),
+          : crypto.randomUUID
+            ? crypto.randomUUID()
+            : `hl_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`,
       createdAt: existingIndex >= 0 ? all[existingIndex].createdAt : new Date().toISOString(),
     };
 

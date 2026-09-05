@@ -220,7 +220,7 @@ def parse_tsk_entry(raw_text: str, default_book: str):
 
 def convert_tsk():
     mod_dir = r"C:\Users\J\Desktop\Versiones\otros\otros\TSK\modules\comments\zcom\tsk"
-    out_dir = r"C:\Users\J\Desktop\alethia-gateway\public\data\cross-references\TSK"
+    out_dir = r"C:\Users\J\Desktop\aletheia-gateway\public\data\cross-references\TSK"
     os.makedirs(out_dir, exist_ok=True)
 
     print("========================================================")

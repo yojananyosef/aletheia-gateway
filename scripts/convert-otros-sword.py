@@ -1,6 +1,6 @@
 """
 Convertidor integral de los 11 módulos Sword multilingües (Inglés, Griego, Hebreo y Alemán)
-desde C:/Users/J/Desktop/Versiones/otros a la estructura JSON de AlethiaGateway.
+desde C:/Users/J/Desktop/Versiones/otros a la estructura JSON de AletheiaGateway.
 """
 
 import os
@@ -337,7 +337,7 @@ def parse_osis_verse(raw_xml_str, fn_counter):
 
 def convert_all_other_modules():
     base_src_dir = r"C:\Users\J\Desktop\Versiones\otros"
-    out_base_dir = r"C:\Users\J\Desktop\alethia-gateway\public\data\bibles"
+    out_base_dir = r"C:\Users\J\Desktop\aletheia-gateway\public\data\bibles"
     
     conversion_summary = []
 
