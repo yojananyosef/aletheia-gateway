@@ -11,7 +11,7 @@ for (const [id, info] of Object.entries(AVAILABLE_TRANSLATIONS)) {
   let chaptersCount = 0;
 
   if (fs.existsSync(versionDir)) {
-    const files = fs.readdirSync(versionDir).filter((f) => f.endsWith('.json'));
+    const files = fs.readdirSync(versionDir).filter((f: string) => f.endsWith('.json'));
     booksCount = files.length;
     for (const file of files) {
       try {

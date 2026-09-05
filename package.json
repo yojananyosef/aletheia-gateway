@@ -1,16 +1,28 @@
 {
   "name": "alethiagateway",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "private": true,
   "type": "module",
+  "packageManager": "bun@1.1.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
+    "convert:bibles": "bun run scripts/convert-bibles.ts",
     "convert:commentaries": "python scripts/convert-commentaries.py",
+    "convert:sword-otros": "python scripts/convert-otros-sword.py",
+    "convert:platense": "python scripts/convert-spaplatense.py",
+    "convert:rvg": "python scripts/convert-sparvg.py",
+    "convert:tsk": "python scripts/convert-tsk.py",
+    "convert:sme": "python scripts/convert-sme.py",
     "generate:concordance": "bun run scripts/generate-concordance-index.ts",
+    "generate:manifest": "bun run scripts/generate-manifest.ts",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
@@ -23,7 +35,10 @@
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
+    "@types/node": "^26.4.1",
     "astro": "7.2.4",
-    "typescript": "^5.9.3"
+    "prettier": "^3.9.6",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.0"
   }
 }

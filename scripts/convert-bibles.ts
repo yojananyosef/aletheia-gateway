@@ -256,7 +256,11 @@ function parseChapterHtml(html: string, fallbackChapterNum: number) {
       const textMatch = fnBody.match(/<span class=["']ft["']>([\s\S]*?)<\/span>/i);
       const caller = callerMatch ? callerMatch[1].trim() : '*';
       let text = textMatch ? textMatch[1] : fnBody;
-      text = text.replace(/<[^>]+>/g, '').replace(/&#160;/g, ' ').replace(/\s+/g, ' ').trim();
+      text = text
+        .replace(/<[^>]+>/g, '')
+        .replace(/&#160;/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
       footnotesMap.set(fnId, { caller, text });
     }
   }
@@ -311,7 +315,11 @@ function parseChapterHtml(html: string, fallbackChapterNum: number) {
     const preHeadingRegex = /<div class=["'](?:s|ms|r|d)\d?["'][^>]*>([\s\S]*?)<\/div>/gi;
     let phMatch;
     while ((phMatch = preHeadingRegex.exec(preVerseChunk)) !== null) {
-      const hText = phMatch[1].replace(/<[^>]+>/g, '').replace(/&#160;/g, ' ').replace(/&nbsp;/g, ' ').trim();
+      const hText = phMatch[1]
+        .replace(/<[^>]+>/g, '')
+        .replace(/&#160;/g, ' ')
+        .replace(/&nbsp;/g, ' ')
+        .trim();
       if (hText && !hText.startsWith('Capítulo') && !hText.startsWith('Capitulo')) {
         pendingHeadings.push(hText);
       }
@@ -332,7 +340,11 @@ function parseChapterHtml(html: string, fallbackChapterNum: number) {
     const headingRegex = /<div class=["'](?:s|ms|r|d)\d?["'][^>]*>([\s\S]*?)<\/div>/gi;
     let hMatch;
     while ((hMatch = headingRegex.exec(verseChunk)) !== null) {
-      const headingText = hMatch[1].replace(/<[^>]+>/g, '').replace(/&#160;/g, ' ').replace(/&nbsp;/g, ' ').trim();
+      const headingText = hMatch[1]
+        .replace(/<[^>]+>/g, '')
+        .replace(/&#160;/g, ' ')
+        .replace(/&nbsp;/g, ' ')
+        .trim();
       if (headingText && !headingText.startsWith('Capítulo') && !headingText.startsWith('Capitulo')) {
         pendingHeadings.push(headingText);
       }
@@ -418,7 +430,7 @@ async function runConversion() {
     fs.mkdirSync(versionOutDir, { recursive: true });
 
     const allFiles = fs.readdirSync(versionDir);
-    
+
     // Group files by book code (e.g. "GEN", "PSA", "1CO")
     const bookFilesMap = new Map<string, Array<{ fileName: string; chapterNum: number }>>();
 
@@ -489,7 +501,9 @@ async function runConversion() {
       chaptersCount: totalChaptersInVersion,
     });
 
-    console.log(`✅ [${config.id}] Convertidos con éxito: ${totalBooksInVersion} libros, ${totalChaptersInVersion} capítulos.`);
+    console.log(
+      `✅ [${config.id}] Convertidos con éxito: ${totalBooksInVersion} libros, ${totalChaptersInVersion} capítulos.`,
+    );
   }
 
   // Include all versions from AVAILABLE_TRANSLATIONS dynamically
@@ -498,7 +512,7 @@ async function runConversion() {
     if (!processedIds.has(id)) {
       const versionDir = path.join(outputBaseDir, id);
       if (fs.existsSync(versionDir)) {
-        const files = fs.readdirSync(versionDir).filter((f) => f.endsWith('.json'));
+        const files = fs.readdirSync(versionDir).filter((f: string) => f.endsWith('.json'));
         let chCount = 0;
         for (const file of files) {
           try {
