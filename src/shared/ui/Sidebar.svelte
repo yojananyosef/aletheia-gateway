@@ -1,6 +1,6 @@
 <script lang="ts">
   import {
-    Home,
+    House,
     BookOpen,
     Search,
     Bookmark,
@@ -35,7 +35,7 @@
   }: Props = $props();
 
   const mainItems = [
-    { title: 'Inicio', icon: Home, view: 'home' as const },
+    { title: 'Inicio', icon: House, view: 'home' as const },
     { title: 'Leer la Biblia', icon: BookOpen, view: 'reader' as const },
     { title: 'Concordancia', icon: Search, view: 'concordance' as const },
     { title: 'Devocionales', icon: Heart, view: 'devotionals' as const },

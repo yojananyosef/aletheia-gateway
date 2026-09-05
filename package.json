@@ -1,6 +1,6 @@
 {
   "name": "aletheiagateway",
-  "version": "0.11.2",
+  "version": "0.11.3",
   "private": true,
   "type": "module",
   "packageManager": "bun@1.1.0",
@@ -21,6 +21,8 @@
     "check": "astro check",
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "preview:e2e": "bun e2e/server.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
@@ -35,8 +37,10 @@
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
+    "@playwright/test": "^1.63.0",
     "@types/node": "^26.4.1",
     "astro": "7.2.4",
+    "bun-types": "^1.4.2",
     "prettier": "^3.9.6",
     "typescript": "^5.9.3",
     "vitest": "^5.0.0"

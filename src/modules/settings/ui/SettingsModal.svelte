@@ -7,7 +7,7 @@
     Upload,
     Trash2,
     Check,
-    AlertTriangle,
+    TriangleAlert,
     Eye,
     HardDrive,
     Info,
@@ -194,7 +194,7 @@
         {#if feedbackMessage.type === 'success'}
           <Check size={18} class="shrink-0 text-[var(--accent-success)]" />
         {:else}
-          <AlertTriangle size={18} class="shrink-0 text-[var(--accent-desire)]" />
+          <TriangleAlert size={18} class="shrink-0 text-[var(--accent-desire)]" />
         {/if}
         <span class="font-bold text-sm">{feedbackMessage.text}</span>
       </div>

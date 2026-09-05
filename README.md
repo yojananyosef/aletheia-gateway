@@ -179,6 +179,14 @@ aletheiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.11.3] - 2026-09-05
+
+#### Corregido (crítico): la isla Svelte nunca hidrataba en producción ni en dev
+
+- 🐛 **Instalación mezclada bun+pnpm** (`node_modules/.pnpm` con svelte 5.57.0 conviviendo con 5.56.10): el compilador emitía `$.only_child` que el runtime servido no tenía → `Failed to hydrate` y app muerta (visible pero sin interactividad). Reinstalación limpia solo con Bun.
+- 🐛 **Iconos inexistentes en lucide-svelte 0.475**: `Home` → `House`, `AlertTriangle` → `TriangleAlert` (eran `undefined` y rompían el render).
+- ✅ Verificado con Playwright: hidratación OK, smoke 3/3.
+
 ### [0.11.2] - 2026-09-05
 
 #### Corregido: backup/restore usaba claves que ningún repo escribía
