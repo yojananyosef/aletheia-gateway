@@ -1,15 +1,18 @@
 import type { PersonalNote, IPersonalNoteRepository } from '../domain/Note';
 import { readStorageWithLegacy } from '../../../shared/utils/storage';
 
+/** Clave canónica: la usa el backup/reset de settings (no duplicar el literal). */
+export const PERSONAL_NOTES_STORAGE_KEY = 'aletheia_personal_notes_v1';
+/** Claves huérfanas: rename pre-v0.11 + backup pre-v0.11.2 que nunca leyó esta clave. */
+export const PERSONAL_NOTES_LEGACY_KEYS = ['alethia_personal_notes_v1', 'alethia_notes_v1', 'aletheia_notes_v1'];
+
 export class LocalStorageNoteRepository implements IPersonalNoteRepository {
-  private readonly storageKey = 'aletheia_personal_notes_v1';
-  // Clave pre-v0.11 ("Alethia"): se lee una vez y se migra a la nueva.
-  private readonly legacyStorageKey = 'alethia_personal_notes_v1';
+  private readonly storageKey = PERSONAL_NOTES_STORAGE_KEY;
 
   public async getAll(): Promise<PersonalNote[]> {
     if (typeof window === 'undefined') return [];
     try {
-      const data = readStorageWithLegacy(this.storageKey, this.legacyStorageKey);
+      const data = readStorageWithLegacy(this.storageKey, PERSONAL_NOTES_LEGACY_KEYS);
       if (!data) return [];
       const parsed = JSON.parse(data);
       return Array.isArray(parsed) ? parsed : [];

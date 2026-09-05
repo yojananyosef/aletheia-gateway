@@ -1,23 +1,35 @@
 import type { UserSettings, BackupPayload, ImportResult } from '../domain/UserSettings';
 import { readStorageWithLegacy, removeStorageWithLegacy } from '../../../shared/utils/storage';
+import {
+  BOOKMARKS_STORAGE_KEY,
+  BOOKMARKS_LEGACY_KEYS,
+} from '../../bookmarks/infrastructure/LocalStorageBookmarkRepository';
+import {
+  PERSONAL_NOTES_STORAGE_KEY,
+  PERSONAL_NOTES_LEGACY_KEYS,
+} from '../../notes/infrastructure/LocalStorageNoteRepository';
+import {
+  HIGHLIGHTS_STORAGE_KEY,
+  HIGHLIGHTS_LEGACY_KEYS,
+} from '../../bible-reader/infrastructure/LocalStorageHighlightRepository';
 
 const STORAGE_SETTINGS = 'aletheia_user_settings';
-const STORAGE_BOOKMARKS = 'aletheia_bookmarks_v1';
-const STORAGE_NOTES = 'aletheia_notes_v1';
-const STORAGE_HIGHLIGHTS = 'aletheia_bible_highlights_v1';
+const STORAGE_BOOKMARKS = BOOKMARKS_STORAGE_KEY;
+const STORAGE_NOTES = PERSONAL_NOTES_STORAGE_KEY;
+const STORAGE_HIGHLIGHTS = HIGHLIGHTS_STORAGE_KEY;
 const STORAGE_LAST_PASSAGE = 'aletheia_last_passage';
 const STORAGE_TRANSLATIONS = 'aletheia_selected_translations';
 const STORAGE_CALM_MODE = 'aletheia_calm_mode';
 
-// Claves pre-v0.11 ("Alethia"): lectura con fallback y migración perezosa.
-const LEGACY_KEYS: Record<string, string> = {
-  [STORAGE_SETTINGS]: 'alethia_user_settings',
-  [STORAGE_BOOKMARKS]: 'alethia_bookmarks_v1',
-  [STORAGE_NOTES]: 'alethia_notes_v1',
-  [STORAGE_HIGHLIGHTS]: 'alethia_bible_highlights_v1',
-  [STORAGE_LAST_PASSAGE]: 'alethia_last_passage',
-  [STORAGE_TRANSLATIONS]: 'alethia_selected_translations',
-  [STORAGE_CALM_MODE]: 'alethia_calm_mode',
+// Claves legacy por clave canónica (rename pre-v0.11 + backup pre-v0.11.2).
+const LEGACY_KEYS: Record<string, string[]> = {
+  [STORAGE_SETTINGS]: ['alethia_user_settings'],
+  [STORAGE_BOOKMARKS]: BOOKMARKS_LEGACY_KEYS,
+  [STORAGE_NOTES]: PERSONAL_NOTES_LEGACY_KEYS,
+  [STORAGE_HIGHLIGHTS]: HIGHLIGHTS_LEGACY_KEYS,
+  [STORAGE_LAST_PASSAGE]: ['alethia_last_passage'],
+  [STORAGE_TRANSLATIONS]: ['alethia_selected_translations'],
+  [STORAGE_CALM_MODE]: ['alethia_calm_mode'],
 };
 
 function getStoredItem(key: string): string | null {

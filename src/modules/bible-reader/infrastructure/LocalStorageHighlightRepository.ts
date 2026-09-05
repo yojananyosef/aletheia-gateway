@@ -1,15 +1,18 @@
 import type { BibleHighlight, IBibleHighlightRepository } from '../domain/entities/BibleHighlight';
 import { readStorageWithLegacy } from '../../../shared/utils/storage';
 
+/** Clave canónica: la usa el backup/reset de settings (no duplicar el literal). */
+export const HIGHLIGHTS_STORAGE_KEY = 'aletheia_bible_highlights_v1';
+/** Clave pre-v0.11 ("Alethia"). */
+export const HIGHLIGHTS_LEGACY_KEYS = ['alethia_bible_highlights_v1'];
+
 export class LocalStorageHighlightRepository implements IBibleHighlightRepository {
-  private readonly storageKey = 'aletheia_bible_highlights_v1';
-  // Clave pre-v0.11 ("Alethia"): se lee una vez y se migra a la nueva.
-  private readonly legacyStorageKey = 'alethia_bible_highlights_v1';
+  private readonly storageKey = HIGHLIGHTS_STORAGE_KEY;
 
   public async getAll(): Promise<BibleHighlight[]> {
     if (typeof window === 'undefined') return [];
     try {
-      const data = readStorageWithLegacy(this.storageKey, this.legacyStorageKey);
+      const data = readStorageWithLegacy(this.storageKey, HIGHLIGHTS_LEGACY_KEYS);
       if (!data) return [];
       const parsed = JSON.parse(data);
       return Array.isArray(parsed) ? parsed : [];

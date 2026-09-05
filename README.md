@@ -179,6 +179,14 @@ aletheiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.11.2] - 2026-09-05
+
+#### Corregido: backup/restore usaba claves que ningún repo escribía
+
+- 🐛 **Export/import/reset ahora usan las claves canónicas** (`bible_reading_bookmarks_v1`, `aletheia_personal_notes_v1`, `aletheia_bible_highlights_v1`) importadas de cada repo en vez de literales duplicados (`alethia_bookmarks_v1`, `alethia_notes_v1`): antes el backup salía vacío y el reset no borraba nada.
+- 🔑 **Rescate de huérfanos**: fallback multi-clave que promueve datos de backups antiguos a la clave canónica.
+- ✅ 9 tests nuevos (helper + repositorio con `localStorage` en memoria), suite 26/26.
+
 ### [0.11.1] - 2026-09-05
 
 #### Mejorado: disección de monolitos (punto 1)

@@ -1,7 +1,12 @@
 import type { Bookmark, IBookmarkRepository } from '../domain/Bookmark';
 
+/** Clave canónica: la usa el backup/reset de settings (no duplicar el literal). */
+export const BOOKMARKS_STORAGE_KEY = 'bible_reading_bookmarks_v1';
+/** Claves huérfanas: el backup pre-v0.11.2 leía/escribía estas sin que ningún repo las usara. */
+export const BOOKMARKS_LEGACY_KEYS = ['alethia_bookmarks_v1', 'aletheia_bookmarks_v1'];
+
 export class LocalStorageBookmarkRepository implements IBookmarkRepository {
-  private readonly storageKey = 'bible_reading_bookmarks_v1';
+  private readonly storageKey = BOOKMARKS_STORAGE_KEY;
 
   public async getAll(): Promise<Bookmark[]> {
     if (typeof window === 'undefined') return [];
