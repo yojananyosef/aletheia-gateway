@@ -5,11 +5,11 @@
   --color-surface: #ffffff;
   --color-ink: #1a1a18;
   --color-ink-muted: #575752;
-  --color-neo-yellow: #FFD23F;
-  --color-neo-coral: #FF6B6B;
-  --color-neo-blue: #74B9FF;
-  --color-neo-green: #2ECC71;
-  --color-neo-red: #DC2626;
+  --color-neo-yellow: #ffd23f;
+  --color-neo-coral: #ff6b6b;
+  --color-neo-blue: #74b9ff;
+  --color-neo-green: #2ecc71;
+  --color-neo-red: #dc2626;
 
   --font-display: 'Syne', 'Archivo Black', -apple-system, sans-serif;
   --font-sans: 'Inter', 'DM Sans', system-ui, sans-serif;
@@ -26,6 +26,7 @@
 @import './parallel.css'; /* Selector por columna + comparador paralelo */
 @import './highlight.css'; /* Resaltados + floating toolbar */
 @import './book-modal.css'; /* Modal de libros bíblicos */
+@import './settings.css'; /* Modal de configuración + pestañas */
 @import './responsive.css'; /* Media queries (deben ir tras las bases) */
 @import './concordance.css'; /* Vista de concordancia */
 @import './motion.css'; /* prefers-reduced-motion (siempre último) */

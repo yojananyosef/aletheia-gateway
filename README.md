@@ -180,6 +180,14 @@ aletheiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.11.4] - 2026-09-05
+
+#### Mejorado: split del template del modal en 3 pestañas (punto 1 completado)
+
+- 🧩 **`SettingsModal` (916 lín) → 4 componentes**: shell (235) + `SettingsAppearanceTab` (97) + `SettingsBackupTab` (148) + `SettingsAboutTab` (33), con props tipadas y callbacks.
+- 🎨 **Estilos a `shared/styles/settings.css` global**: el pipeline de build perdía las reglas de los `<style>` con scope de las pestañas Backup/Acerca de (verificado por diff del CSS; los tabs llegaban sin diseño a producción). Alineado con la convención del repo (todo el resto ya es CSS global por dominio).
+- ✅ Red de seguridad: e2e ampliado con aserciones de estilos computados (borde 2px, sombra, peso de título). 26 unit + 4 e2e en verde.
+
 ### [0.11.3] - 2026-09-05
 
 #### Corregido (crítico): la isla Svelte nunca hidrataba en producción ni en dev

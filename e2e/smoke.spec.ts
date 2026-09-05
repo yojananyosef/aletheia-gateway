@@ -28,3 +28,21 @@ test('modal de configuración: las 3 pestañas renderizan', async ({ page }) => 
   await page.getByRole('button', { name: 'Apariencia' }).click();
   await expect(page.getByText('Tema Visual')).toBeVisible();
 });
+
+test('estilos con scope: botones y títulos conservan diseño tras el split', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Configuración' }).click();
+
+  const titleWeight = await page
+    .getByText('Tema Visual')
+    .evaluate((el) => getComputedStyle(el).fontWeight);
+  expect.soft(titleWeight === '800' || titleWeight === '700').toBeTruthy();
+
+  await page.getByRole('button', { name: 'Copias de Seguridad' }).click();
+  const exportBtn = page.getByRole('button', { name: /Descargar Backup/ });
+  await expect(exportBtn).toBeVisible();
+  const border = await exportBtn.evaluate((el) => getComputedStyle(el).borderTopWidth);
+  const shadow = await exportBtn.evaluate((el) => getComputedStyle(el).boxShadow);
+  expect(border).toBe('2px');
+  expect(shadow).not.toBe('none');
+});
