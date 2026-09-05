@@ -172,13 +172,21 @@ aletheiagateway/
 > **Problemas conocidos:**
 >
 > - Concordancias solo en español (9/22 versiones); EN/PT/LA/DE/EL/HE pendientes de generar.
-> - Referencias TSK: falta `ZEC.json` (65/66 libros) — pendiente regenerar con `bun run convert:tsk`.
+> - Referencias TSK completas (66/66 libros desde v0.11.5).
 > - Devocional `sme-spurgeon` en inglés; pendiente fuente en español o etiqueta de idioma en UI.
 > - `public/data/` pesa ~315MB y se copia a `dist/`; para producción valorar hosting externo (R2/S3) en lugar de `public/`.
 
 ---
 
 ## 📋 Historial de Cambios (Changelog)
+
+### [0.11.5] - 2026-09-05
+
+#### Corregido: TSK Zacarías ausente (65/66 → 66/66)
+
+- 🐛 **`convert-tsk.py` omitía Zacarías en silencio**: el `BOOK_MAP` usaba `"Zec"` pero el módulo oficial CrossWire declara `"Zech"` como nombre OSIS. Añadido el alias (línea documentada en el script).
+- 📖 **`ZEC.json` regenerado desde la fuente oficial** (dominio público): 14 capítulos, 582 versículos con referencias, 3.384 citas cruzadas. Los otros 65 archivos salieron byte-idénticos (pipeline determinista verificado por diff).
+- Sin cambios de código: el repositorio carga por `bookCode` dinámico.
 
 ### [0.11.4] - 2026-09-05
 

@@ -90,6 +90,10 @@ BOOK_MAP = {
     "Rev": {"code": "REV", "name": "Apocalipsis", "testament": "NT"},
 }
 
+# El módulo oficial CrossWire usa "Zech" (no "Zec") como nombre OSIS;
+# sin este alias Zacarías se omitía en silencio (65/66 libros).
+BOOK_MAP["Zech"] = BOOK_MAP["Zec"]
+
 BOOK_ABBR_MAP = {
     'Ge': 'Génesis', 'Gen': 'Génesis', 'Genesis': 'Génesis',
     'Ex': 'Éxodo', 'Exo': 'Éxodo', 'Exod': 'Éxodo',
