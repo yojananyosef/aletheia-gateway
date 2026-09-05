@@ -1,0 +1,306 @@
+/* ==========================================================================
+   LAYOUT SHELL UNIFICADO
+   ========================================================================== */
+
+.app-layout-shell {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: var(--bg-canvas);
+  overflow: hidden;
+}
+
+/* --- SIDEBAR LATERAL --- */
+.neo-sidebar {
+  width: 260px;
+  flex-shrink: 0;
+  height: 100vh;
+  border-right: var(--border-main);
+  background-color: var(--accent-attention);
+  display: flex;
+  flex-direction: column;
+  transition: width 0.15s cubic-bezier(0.4, 0, 0.2, 1), transform 0.15s ease;
+  z-index: 40;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.neo-sidebar.is-collapsed {
+  width: 72px !important;
+}
+
+.neo-sidebar-header {
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 0 12px;
+  border-bottom: var(--border-main);
+  background-color: var(--accent-attention);
+  flex-shrink: 0;
+}
+
+.neo-brand-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 44px;
+  padding: 6px 10px;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out;
+}
+
+.neo-brand-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-md);
+}
+
+.neo-brand-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: var(--shadow-active);
+}
+
+.neo-brand-badge {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--accent-interest);
+  color: var(--text-main);
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.neo-sidebar-content {
+  flex: 1;
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.neo-sidebar-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.neo-sidebar-label {
+  color: var(--text-main);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0 8px 4px;
+}
+
+.neo-nav-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 10px;
+  border: 2px solid transparent;
+  border-radius: var(--radius-strict);
+  background: transparent;
+  color: var(--text-main);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  text-align: left;
+  transition: all 0.08s ease-in-out;
+}
+
+.neo-nav-button:hover,
+.neo-nav-button.is-active {
+  border-color: var(--border-color);
+  background-color: var(--accent-interest);
+  color: var(--text-main);
+  box-shadow: var(--shadow-sm);
+}
+
+.neo-nav-button:active {
+  transform: translate(3px, 3px);
+  box-shadow: var(--shadow-active);
+}
+
+.neo-nav-button.is-disabled {
+  opacity: 0.62;
+  cursor: not-allowed !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.sidebar-pending-badge {
+  font-family: var(--font-mono);
+  font-size: 0.59375rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  background-color: var(--bg-canvas);
+  border: 1px solid var(--border-color);
+  padding: 1px 5px;
+  flex-shrink: 0;
+}
+
+.neo-sidebar-footer {
+  border-top: var(--border-main);
+  background-color: var(--accent-attention);
+  padding: 12px 10px;
+  flex-shrink: 0;
+}
+
+/* Sidebar Colapsado */
+.neo-sidebar.is-collapsed .neo-sidebar-header {
+  padding: 0 8px;
+  justify-content: center;
+}
+
+.neo-sidebar.is-collapsed .neo-brand-btn {
+  justify-content: center;
+  padding: 4px;
+  width: 44px;
+  height: 44px;
+  gap: 0;
+}
+
+.neo-sidebar.is-collapsed .neo-sidebar-content {
+  padding: 16px 8px;
+  align-items: center;
+}
+
+.neo-sidebar.is-collapsed .neo-sidebar-section {
+  align-items: center;
+  width: 100%;
+}
+
+.neo-sidebar.is-collapsed .neo-nav-button {
+  justify-content: center;
+  padding: 8px 0;
+  width: 44px;
+  height: 44px;
+  margin: 0 auto;
+  gap: 0;
+}
+
+.neo-sidebar.is-collapsed .neo-sidebar-footer {
+  padding: 12px 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.neo-sidebar.is-collapsed .neo-sidebar-footer .neo-nav-button {
+  width: 44px;
+  height: 44px;
+  margin: 0 auto;
+  padding: 8px 0;
+  justify-content: center;
+  gap: 0;
+}
+
+/* --- INSET MAIN Y TOPBAR --- */
+.neo-main-inset {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--bg-canvas);
+  overflow: hidden;
+}
+
+.app-topbar {
+  flex-shrink: 0;
+  height: 68px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 0 24px;
+  border-bottom: var(--border-main);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  z-index: 30;
+}
+
+.topbar-btn {
+  display: grid;
+  place-items: center;
+  min-width: 44px;
+  min-height: 44px;
+  width: 44px;
+  height: 44px;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--accent-interest);
+  color: var(--text-main);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out, background 0.08s ease-in-out;
+}
+
+.topbar-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-md);
+  background-color: var(--accent-attention);
+}
+
+.topbar-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: var(--shadow-active);
+}
+
+.topbar-btn.calm-active-btn {
+  background-color: var(--accent-success);
+  color: var(--text-main);
+  border-color: var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.trigger-icon-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trigger-icon-mobile {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbar-rule {
+  width: 3px;
+  height: 24px;
+  background-color: var(--border-color);
+}
+
+.topbar-title {
+  color: var(--text-main);
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+

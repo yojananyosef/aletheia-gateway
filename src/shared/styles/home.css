@@ -1,0 +1,434 @@
+/* ==========================================================================
+   SCROLLBAR TEMÁTICO PERSONALIZADO (BAJO EL TOPBAR)
+   ========================================================================== */
+
+.modern-main {
+  flex: 1;
+  min-width: 0;
+  height: calc(100vh - 68px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: var(--bg-canvas);
+  padding: 0 16px;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-attention) var(--bg-canvas);
+}
+
+.modern-main::-webkit-scrollbar {
+  width: 12px;
+}
+
+.modern-main::-webkit-scrollbar-track {
+  background: var(--bg-canvas);
+  border-left: 2px solid var(--border-color);
+}
+
+.modern-main::-webkit-scrollbar-thumb {
+  background-color: var(--accent-attention);
+  border: 2px solid var(--border-color);
+}
+
+.modern-main::-webkit-scrollbar-thumb:hover {
+  background-color: var(--accent-desire);
+}
+
+body.mode-calm .modern-main {
+  scrollbar-color: var(--accent-interest) var(--bg-canvas);
+}
+
+body.mode-calm .modern-main::-webkit-scrollbar-thumb {
+  background-color: var(--accent-interest);
+}
+
+/* --- VISTAS Y CONTENEDORES DINÁMICOS UNIFICADOS --- */
+.home-view {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 0;
+  margin-inline: auto;
+  padding: 24px 0 60px;
+  transition: max-width 0.15s ease;
+  box-sizing: border-box;
+}
+
+.reader-view {
+  width: 100%;
+  max-width: 1240px;
+  min-width: 0;
+  margin-inline: auto;
+  padding: 24px 44px 60px;
+  transition: max-width 0.15s ease;
+  box-sizing: border-box;
+}
+
+/* Expansión dinámica del contenedor cuando el sidebar está colapsado */
+.neo-main-inset.is-sidebar-collapsed .home-view {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.neo-main-inset.is-sidebar-collapsed .reader-view {
+  width: 100%;
+  max-width: 1440px;
+  padding: 24px 44px 60px;
+}
+
+/* --- TARJETAS COMPARTIDAS DE LOS MÓDULOS --- */
+/*
+ * Las vistas de Fase 1 usan `neo-card` como contrato visual común. Mantener
+ * esta base aquí evita que cada módulo tenga que volver a declarar el marco,
+ * fondo y sombra del sistema neobrutalista.
+ */
+.neo-card {
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  box-shadow: var(--shadow-md);
+}
+
+/* --- INICIO ESTILO BIBLEGATEWAY: BUSCADOR & SUB-TOOLBAR --- */
+.home-top-search-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.home-search-bar {
+  max-width: 100% !important;
+  width: 100% !important;
+  min-height: 54px;
+}
+
+.home-sub-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.home-sub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 38px;
+  padding: 5px 14px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 800;
+  box-shadow: 2px 2px 0 var(--border-color);
+  cursor: pointer;
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out, background 0.08s ease-in-out;
+}
+
+.home-sub-btn:hover {
+  background-color: var(--accent-interest);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--border-color);
+}
+
+.home-sub-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 #000;
+}
+
+/* --- VERSÍCULO DEL DÍA (TARJETA ÚNICA NEOBRUTALISTA) --- */
+.daily-verse-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.daily-verse-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 8px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.daily-verse-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.daily-verse-date-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  background-color: var(--bg-canvas);
+  border: 1px solid var(--border-color);
+  padding: 2px 8px;
+}
+
+.daily-verse-loading {
+  font-style: italic;
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+
+.daily-verse-card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 28px 30px;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  box-shadow: var(--shadow-md);
+  text-align: left;
+  transition: all 0.08s ease;
+}
+
+.daily-verse-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.daily-verse-ref {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  font-weight: 900;
+  color: var(--text-main);
+}
+
+.daily-verse-version {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.daily-verse-quote {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  line-height: 1.65;
+  color: var(--text-main);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border-left: 4px solid var(--accent-attention);
+  padding-left: 18px;
+}
+
+/* Escalado tipográfico reactivo para el versículo del día */
+.daily-verse-card.text-size-x-small .daily-verse-quote { font-size: 0.95rem !important; line-height: 1.5; }
+.daily-verse-card.text-size-small .daily-verse-quote   { font-size: 1.0625rem !important; line-height: 1.55; }
+.daily-verse-card.text-size-medium .daily-verse-quote  { font-size: 1.25rem !important; line-height: 1.65; }
+.daily-verse-card.text-size-large .daily-verse-quote   { font-size: 1.45rem !important; line-height: 1.75; }
+.daily-verse-card.text-size-x-large .daily-verse-quote { font-size: 1.75rem !important; line-height: 1.85; }
+
+.daily-verse-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.daily-verse-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 6px 18px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--accent-attention);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 800;
+  box-shadow: 2px 2px 0 var(--border-color);
+  cursor: pointer;
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out, background 0.08s ease-in-out;
+}
+
+.daily-verse-action-btn:hover {
+  background-color: var(--accent-interest);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--border-color);
+}
+
+.daily-verse-action-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 #000;
+}
+
+/* --- FORMULARIOS DE BÚSQUEDA NEOBRUTALISTAS --- */
+.search-form {
+  display: flex;
+  align-items: center;
+  max-width: 850px;
+  width: 100%;
+  min-height: 54px;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  box-shadow: var(--shadow-md);
+  padding: 4px;
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out;
+}
+
+.search-form:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: var(--shadow-lg);
+}
+
+.search-input-wrapper {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 6px 0 12px;
+  height: 44px;
+  background-color: transparent;
+}
+
+.search-input-wrapper .search-icon {
+  flex-shrink: 0;
+  color: var(--text-main);
+}
+
+/* Borde negro exclusivo en el input al enfocar */
+.search-input-wrapper input {
+  min-width: 0;
+  flex: 1;
+  height: 38px;
+  border: 2px solid transparent !important;
+  border-radius: var(--radius-strict);
+  background-color: transparent;
+  color: var(--text-main);
+  padding: 0 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: border-color 0.08s ease-in-out, background-color 0.08s ease-in-out;
+}
+
+.search-input-wrapper input:focus {
+  border: 2px solid var(--border-color) !important;
+  background-color: var(--bg-surface);
+}
+
+.search-form button {
+  align-self: stretch;
+  min-height: 44px;
+  min-width: 44px;
+  border: 0;
+  border-left: var(--border-main);
+  background-color: var(--accent-attention);
+  color: var(--text-main);
+  padding: 0 24px;
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: background 0.08s ease-in-out;
+  flex-shrink: 0;
+  margin: -4px -4px -4px 0;
+}
+
+.search-form button:hover {
+  background-color: var(--accent-desire);
+}
+
+/* Fila de búsqueda superior en el lector (Ancha y dominante como BibleGateway) */
+.reader-search-bar-row {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.reader-search-wide {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.feature-cream {
+  background-color: var(--accent-attention);
+  color: var(--text-main);
+}
+
+.feature-soft {
+  background-color: var(--accent-success);
+  color: var(--text-main);
+}
+
+.feature-card .card-icon {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+}
+
+.feature-card span:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.feature-card small {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.feature-card strong {
+  color: inherit;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.feature-card em {
+  color: var(--text-main);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.4;
+  max-width: 45ch;
+}
+
+.feature-card > svg {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+

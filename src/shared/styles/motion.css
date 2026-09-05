@@ -1,0 +1,27 @@
+/* ==========================================================================
+   SEGURIDAD VESTIBULAR (PREFERS-REDUCED-MOTION)
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
+
+  .feature-card:hover,
+  .feature-card:active,
+  .topbar-btn:hover,
+  .topbar-btn:active,
+  .neo-brand-btn:hover,
+  .neo-brand-btn:active,
+  .neo-nav-button:active,
+  .pill:active,
+  .reader-card .floating-nav-btn:hover,
+  .reader-card .floating-nav-btn:active,
+  .toolbar-action-btn:hover,
+  .toolbar-action-btn:active {
+    transform: none !important;
+    box-shadow: var(--shadow-sm) !important;
+  }
+}

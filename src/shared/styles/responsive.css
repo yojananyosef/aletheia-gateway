@@ -1,0 +1,295 @@
+/* ==========================================================================
+   RESPONSIVIDAD Y MEDIA QUERIES
+   ========================================================================== */
+
+@media (max-width: 960px) {
+  .home-cards {
+    grid-template-columns: 1fr;
+  }
+  .feature-card {
+    min-height: auto;
+  }
+  .hero-header-row {
+    flex-direction: column-reverse;
+    gap: 16px;
+  }
+  .hero-orbit {
+    display: none;
+  }
+  .reader-card-wrapper .floating-nav-btn,
+  .reader-card .floating-nav-btn {
+    display: none !important;
+  }
+  .toolbar-chapter-nav {
+    display: flex !important;
+  }
+  .book-modal-dialog {
+    width: min(96vw, 700px);
+    max-height: 88vh;
+  }
+  .book-modal-mobile-tabs {
+    display: flex;
+  }
+  .mobile-back-to-books-btn {
+    display: inline-flex;
+  }
+  .book-modal-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 480px;
+    overflow: hidden;
+  }
+  .book-modal-grid .book-column,
+  .book-modal-grid .chapters-column {
+    display: none;
+    flex: 1;
+    height: 100%;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  .book-modal-grid.active-tab-ot .col-ot {
+    display: flex;
+  }
+  .book-modal-grid.active-tab-nt .col-nt {
+    display: flex;
+  }
+  .book-modal-grid.active-tab-chapters .col-chapters {
+    display: flex;
+  }
+  .chapters-grid {
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr)) !important;
+    gap: 8px !important;
+  }
+  .chapter-grid-btn {
+    min-height: 44px !important;
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --border-main: var(--border-width-mobile) solid var(--border-color);
+  }
+
+  .trigger-icon-desktop {
+    display: none;
+  }
+
+  .trigger-icon-mobile {
+    display: flex;
+  }
+
+  .neo-sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 290px !important;
+    max-width: 85vw !important;
+    transform: translateX(-100%);
+    box-shadow: 8px 0 0 var(--border-color);
+    z-index: 50;
+  }
+
+  .neo-sidebar.is-open {
+    transform: translateX(0);
+  }
+
+  .neo-sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+    width: 100%;
+  }
+
+  .neo-sidebar-header .neo-brand-btn {
+    width: 100%;
+  }
+
+  .neo-sidebar-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(26, 26, 24, 0.6);
+    backdrop-filter: blur(2px);
+    z-index: 45;
+  }
+
+  .modern-main {
+    padding: 0 12px !important;
+  }
+
+  .home-view, .reader-view {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 14px 0 40px !important;
+    margin-inline: auto;
+  }
+
+  .home-hero h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-orbit {
+    display: none;
+  }
+
+  .home-cards {
+    gap: 16px;
+  }
+
+  .feature-card {
+    box-shadow: var(--shadow-sm);
+  }
+
+  .reader-card {
+    box-shadow: var(--shadow-sm);
+  }
+
+  .reader-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 10px 12px;
+  }
+
+  .toolbar-left-group, .toolbar-right-group {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 640px) {
+  .modern-main {
+    padding: 0 10px !important;
+  }
+
+  .devotional-view-container {
+    padding: 14px 0 40px !important;
+    gap: 16px;
+  }
+
+  .devotional-header-card {
+    padding: 14px !important;
+  }
+
+  .dev-article-card {
+    padding: 16px !important;
+  }
+
+  .dev-period-tabs {
+    flex-direction: column;
+  }
+
+  .dev-tab-btn {
+    width: 100%;
+  }
+
+  .settings-modal {
+    width: min(96vw, 600px) !important;
+    max-height: 90vh !important;
+  }
+
+  .settings-body {
+    min-height: 0;
+  }
+
+  /* Opción 2 Inteligente: 1 o 2 versiones lado a lado en columnas */
+  .passage-list-parallel.has-few-versions {
+    display: grid !important;
+    grid-template-columns: repeat(var(--version-count, 1), minmax(0, 1fr)) !important;
+    width: 100% !important;
+  }
+
+  /* 3, 4 o 5 versiones: Apilamiento vertical adaptativo */
+  .passage-list-parallel.has-many-versions {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .passage-list-parallel.has-many-versions .translation-block {
+    width: 100% !important;
+    min-width: 100% !important;
+    border-right: 0 !important;
+    border-bottom: 2px solid var(--border-color) !important;
+    padding: 18px 14px !important;
+  }
+
+  .passage-list-parallel.has-many-versions .translation-block:first-child {
+    padding-left: 14px !important;
+  }
+
+  .passage-list-parallel.has-many-versions .translation-block:last-child {
+    border-bottom: 0 !important;
+  }
+
+  .toolbar-left-group, .toolbar-right-group {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .toolbar-action-btn {
+    flex: 1 1 auto;
+    justify-content: center;
+    font-size: 0.75rem;
+    padding: 6px 10px;
+    min-height: 40px;
+  }
+
+  .toolbar-nav-btn {
+    min-width: 40px;
+    height: 40px;
+  }
+
+  .saved-verses-dialog,
+  .personal-note-dialog {
+    width: min(96vw, 100%) !important;
+    max-height: 90vh !important;
+  }
+
+  .saved-verse-card {
+    padding: 12px !important;
+  }
+
+  .saved-verses-header {
+    padding: 10px 14px !important;
+  }
+
+  .personal-note-header {
+    padding: 10px 14px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-form button {
+    padding: 0 14px !important;
+    font-size: 0.8125rem !important;
+  }
+
+  .search-input-wrapper {
+    padding: 0 4px 0 8px !important;
+  }
+
+  .search-input-wrapper input {
+    font-size: 0.875rem !important;
+  }
+
+  .daily-verse-card {
+    padding: 18px 14px !important;
+  }
+
+  .daily-verse-actions {
+    width: 100%;
+  }
+
+  .daily-verse-action-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .app-topbar {
+    padding: 0 12px !important;
+  }
+}
+

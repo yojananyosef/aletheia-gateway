@@ -5,6 +5,7 @@
   import Topbar from './Topbar.svelte';
   import NeoTooltip from './NeoTooltip.svelte';
   import { readStorageWithLegacy } from '../utils/storage';
+  import { applyFontClass, applyThemeClass } from '../utils/appearance';
 
   interface Props {
     activeView: 'home' | 'reader' | 'concordance' | 'devotionals';
@@ -27,29 +28,6 @@
   let isCollapsed = $state(false);
   let mobileOpen = $state(false);
   let isCalmMode = $state(false);
-
-  const FONT_BODY_MAP: Record<string, string> = {
-    inter: "'Inter', 'DM Sans', system-ui, sans-serif",
-    lexend: "'Lexend', 'Verdana', sans-serif",
-    mono: "'JetBrains Mono', ui-monospace, monospace",
-    syne: "'Syne', 'Archivo Black', sans-serif",
-  };
-
-  function applyThemeClass(mode: string) {
-    if (typeof document === 'undefined') return;
-    document.body.classList.remove('mode-calm', 'mode-high-contrast');
-    if (mode === 'calm') document.body.classList.add('mode-calm');
-    else if (mode === 'high-contrast') document.body.classList.add('mode-high-contrast');
-  }
-
-  function applyFontClass(font: string) {
-    if (typeof document === 'undefined') return;
-    document.body.classList.remove('font-inter', 'font-lexend', 'font-mono', 'font-syne');
-    document.body.classList.add(`font-${font}`);
-    if (FONT_BODY_MAP[font]) {
-      document.documentElement.style.setProperty('--font-body', FONT_BODY_MAP[font]);
-    }
-  }
 
   onMount(() => {
     try {

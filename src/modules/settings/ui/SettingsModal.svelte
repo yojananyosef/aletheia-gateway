@@ -15,6 +15,8 @@
     FileText,
   } from 'lucide-svelte';
   import { LocalStorageSettingsRepository } from '../infrastructure/LocalStorageSettingsRepository';
+  import { buildBackupFilename, downloadJsonFile, readFileAsText } from '../application/BackupFileService';
+  import { applyFontClass, applyThemeClass, persistCalmMode } from '../../../shared/utils/appearance';
   import type { ThemeMode, AppFontFamily, UserSettings } from '../domain/UserSettings';
 
   interface Props {
@@ -35,36 +37,9 @@
 
   let fileInputRef: HTMLInputElement | undefined = $state();
 
-  const FONT_BODY_MAP: Record<AppFontFamily, string> = {
-    inter: "'Inter', 'DM Sans', system-ui, sans-serif",
-    lexend: "'Lexend', 'Verdana', sans-serif",
-    mono: "'JetBrains Mono', ui-monospace, monospace",
-    syne: "'Syne', 'Archivo Black', sans-serif",
-  };
-
-  function applyThemeClass(mode: ThemeMode) {
-    if (typeof document === 'undefined') return;
-    document.body.classList.remove('mode-calm', 'mode-high-contrast');
-    if (mode === 'calm') {
-      document.body.classList.add('mode-calm');
-      localStorage.setItem('aletheia_calm_mode', 'true');
-    } else if (mode === 'high-contrast') {
-      document.body.classList.add('mode-high-contrast');
-      localStorage.setItem('aletheia_calm_mode', 'false');
-    } else {
-      localStorage.setItem('aletheia_calm_mode', 'false');
-    }
-  }
-
-  function applyFontClass(font: AppFontFamily) {
-    if (typeof document === 'undefined') return;
-    document.body.classList.remove('font-inter', 'font-lexend', 'font-mono', 'font-syne');
-    document.body.classList.add(`font-${font}`);
-    document.documentElement.style.setProperty('--font-body', FONT_BODY_MAP[font]);
-  }
-
   function applyAppearanceFromSettings(s: UserSettings) {
     applyThemeClass(s.theme);
+    persistCalmMode(s.theme === 'calm');
     applyFontClass(s.fontFamily);
   }
 
@@ -78,6 +53,7 @@
     const calmFlag = mode === 'calm';
     repo.saveSettings({ theme: mode, calmMode: calmFlag });
     applyThemeClass(mode);
+    persistCalmMode(calmFlag);
   }
 
   function handleFontChange(font: AppFontFamily) {
@@ -89,14 +65,7 @@
   async function handleExport() {
     try {
       const jsonStr = await repo.exportBackup();
-      const blob = new Blob([jsonStr], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const now = new Date().toISOString().split('T')[0];
-      const link = document.createElement('a');
-      link.href = url;
-      link.download = `aletheia-backup-${now}.json`;
-      link.click();
-      URL.revokeObjectURL(url);
+      downloadJsonFile(buildBackupFilename(), jsonStr);
 
       feedbackMessage = {
         type: 'success',
@@ -111,14 +80,13 @@
     }
   }
 
-  function handleFileSelect(event: Event) {
+  async function handleFileSelect(event: Event) {
     const target = event.target as HTMLInputElement;
     const file = target.files?.[0];
     if (!file) return;
 
-    const reader = new FileReader();
-    reader.onload = async (e) => {
-      const content = e.target?.result as string;
+    try {
+      const content = await readFileAsText(file);
       if (!content) return;
 
       const result = await repo.importBackup(content, { merge: shouldMerge });
@@ -136,10 +104,14 @@
           text: result.message || 'Error al restaurar archivo.',
         };
       }
-      setTimeout(() => (feedbackMessage = null), 5000);
-      if (target) target.value = '';
-    };
-    reader.readAsText(file);
+    } catch {
+      feedbackMessage = {
+        type: 'error',
+        text: 'No se pudo leer el archivo seleccionado.',
+      };
+    }
+    setTimeout(() => (feedbackMessage = null), 5000);
+    if (target) target.value = '';
   }
 
   function handleReset() {

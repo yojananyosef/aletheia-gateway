@@ -1,0 +1,133 @@
+/* ==========================================================================
+   RESALTADO DE TEXTO BÍBLICO Y FLOATING TOOLBAR
+   ========================================================================== */
+
+mark.bible-highlight {
+  padding: 1px 3px;
+  border-radius: 0;
+  color: #1a1a18;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(26, 26, 24, 0.4);
+  cursor: pointer;
+  transition: opacity 0.08s ease;
+}
+
+mark.bible-highlight:hover {
+  filter: brightness(0.95);
+}
+
+mark.bible-highlight-yellow {
+  background-color: #FFD23F;
+}
+
+mark.bible-highlight-coral {
+  background-color: #FF6B6B;
+}
+
+mark.bible-highlight-blue {
+  background-color: #74B9FF;
+}
+
+mark.bible-highlight-green {
+  background-color: #2ECC71;
+}
+
+.highlight-floating-toolbar {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  z-index: 95;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  box-shadow: var(--shadow-md);
+  animation: popIn 0.1s ease-out;
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -90%) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -100%) scale(1);
+  }
+}
+
+.highlight-colors-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.highlight-dot-btn {
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--border-color);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+
+.highlight-dot-btn:hover {
+  transform: scale(1.25);
+  box-shadow: 2px 2px 0 var(--border-color);
+}
+
+.toolbar-divider {
+  width: 2px;
+  height: 20px;
+  background-color: var(--border-color);
+  margin: 0 2px;
+}
+
+.highlight-actions-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.highlight-action-btn {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: all 0.08s ease;
+}
+
+.highlight-action-btn:hover {
+  background-color: var(--accent-interest);
+  border-color: var(--border-color);
+  box-shadow: 2px 2px 0 var(--border-color);
+}
+
+.eraser-btn:hover {
+  background-color: var(--accent-error) !important;
+  color: #fff !important;
+}
+
+.toolbar-toast {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--text-main);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 800;
+  padding: 3px 8px;
+  white-space: nowrap;
+  border: 1px solid var(--border-color);
+  box-shadow: 2px 2px 0 var(--border-color);
+}
+

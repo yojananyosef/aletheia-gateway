@@ -1,0 +1,259 @@
+/* ==========================================================================
+   VISTA DE LECTURA (READER VIEW)
+   ========================================================================== */
+
+/* --- ENVOLTORIO DE TARJETA CON NAVEGACIÓN FLOTANTE LATERAL --- */
+.reader-card-wrapper {
+  position: relative;
+  width: 100%
+}
+
+/* --- BOTONES FLOTANTES LATERALES FIJADOS AL VIEWPORT MEDIANTE POSITION STICKY --- */
+.reader-card-wrapper .floating-nav-btn {
+  position: sticky;
+  top: calc(50vh - 32px);
+  width: 36px;
+  height: 64px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  box-shadow: 3px 3px 0 var(--border-color);
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  margin-bottom: -64px;
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out, background 0.08s ease-in-out;
+}
+
+.reader-card-wrapper .floating-prev-btn {
+  float: left;
+  margin-left: -40px;
+}
+
+.reader-card-wrapper .floating-next-btn {
+  float: right;
+  margin-right: -40px;
+}
+
+.reader-card-wrapper .floating-nav-btn:hover {
+  background-color: var(--accent-attention);
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 var(--border-color);
+}
+
+.reader-card-wrapper .floating-nav-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 #000;
+}
+
+/* --- TARJETA DEL LECTOR BÍBLICO (ALTURA DINÁMICA ADAPTADA AL CONTENIDO) --- */
+.reader-card {
+  overflow: visible;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  box-shadow: var(--shadow-md);
+  width: 100%;
+  margin-bottom: 20px;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* --- TOOLBAR INSPIRADA EN BIBLEGATEWAY --- */
+.reader-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  border-bottom: var(--border-main);
+  background-color: var(--accent-attention);
+  width: 100%;
+  gap: 12px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.toolbar-left-group, .toolbar-right-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.toolbar-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 38px;
+  padding: 5px 12px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 800;
+  box-shadow: 2px 2px 0 var(--border-color);
+  cursor: pointer;
+  transition: transform 0.08s ease, background 0.08s ease, box-shadow 0.08s ease;
+}
+
+.toolbar-action-btn:hover:not(:disabled) {
+  background-color: #fff;
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--border-color);
+}
+
+.toolbar-action-btn.is-active {
+  background-color: var(--accent-interest);
+  box-shadow: 3px 3px 0 var(--border-color);
+}
+
+.toolbar-action-btn:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 #000;
+}
+
+.toolbar-action-btn:disabled, .toolbar-action-btn.is-disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.parallel-count-badge {
+  font-size: 0.75rem;
+  font-weight: 900;
+  background-color: var(--accent-attention);
+  border: 1px solid var(--border-color);
+  padding: 1px 5px;
+}
+
+/* --- NAVEGACIÓN COMPACTA DE CAPÍTULO EN TOOLBAR (TABLET / MÓVIL) --- */
+.toolbar-chapter-nav {
+  display: none;
+  align-items: center;
+  gap: 6px;
+}
+
+.toolbar-nav-btn {
+  display: grid;
+  place-items: center;
+  min-width: 36px;
+  height: 38px;
+  padding: 0 8px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  box-shadow: 2px 2px 0 var(--border-color);
+  cursor: pointer;
+  transition: transform 0.08s ease, background 0.08s ease, box-shadow 0.08s ease;
+}
+
+.toolbar-nav-btn:hover {
+  background-color: var(--accent-interest);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--border-color);
+}
+
+.toolbar-nav-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 #000;
+}
+
+/* --- SELECTOR DE TAMAÑO DE FUENTE --- */
+.font-size-dropdown-container {
+  position: relative;
+}
+
+.font-size-trigger-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 38px;
+  padding: 5px 12px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 800;
+  box-shadow: 2px 2px 0 var(--border-color);
+  cursor: pointer;
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out;
+}
+
+.font-size-trigger-btn:hover,
+.font-size-trigger-btn.is-active {
+  background-color: var(--accent-interest);
+  box-shadow: 3px 3px 0 var(--border-color);
+}
+
+.font-size-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 220px;
+  width: max-content;
+  border: var(--border-main);
+  border-radius: var(--radius-strict);
+  background-color: var(--bg-surface);
+  box-shadow: var(--shadow-lg);
+  z-index: 70;
+  padding: 6px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.font-size-menu .menu-label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 6px 14px;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 4px;
+}
+
+.font-size-options-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.font-size-option-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 14px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: background 0.08s ease;
+  width: 100%;
+}
+
+.font-size-option-btn .sample-tag {
+  background-color: var(--bg-canvas);
+  border: 1px solid var(--border-color);
+  padding: 1px 6px;
+  color: var(--text-muted);
+  font-size: 0.6875rem;
+  font-weight: 700;
+}
+
+.font-size-option-btn:hover,
+.font-size-option-btn.is-selected {
+  background-color: var(--accent-interest);
+}
+

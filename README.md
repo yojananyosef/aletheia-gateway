@@ -179,6 +179,15 @@ aletheiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.11.1] - 2026-09-05
+
+#### Mejorado: disección de monolitos (punto 1)
+
+- 🎨 **`globals.css` (2.894 lín) → 10 parciales por dominio** (`tokens, shell, home, reader, parallel, highlight, book-modal, responsive, concordance, motion`) con `globals.css` como entry de 31 líneas. Verificado byte-idéntico y mismo orden de cascada.
+- 🧩 **`SettingsModal` adelgazado**: lógica de archivos de respaldo extraída a `settings/application/BackupFileService.ts` (nueva capa de aplicación); `FONT_BODY_MAP` + `applyTheme/FontClass` deduplicados a `shared/utils/appearance.ts` (también usados por `AppShell`).
+- ✅ 2 tests nuevos (`appearance`), suite 17/17 en verde, `check` 0 errores, `build` OK.
+- ⏸️ Plantilla del modal (3 pestañas, estilos compartidos) sin partir: pendiente de e2e para hacerlo sin riesgo.
+
 ### [0.11.0] - 2026-09-05
 
 #### Corregido: nombre del proyecto Alethia → Aletheia
