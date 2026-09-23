@@ -311,6 +311,7 @@
     width: 60px;
     height: 60px;
     background-color: var(--accent-attention);
+    color: var(--on-accent-attention);
     border: 2px solid var(--border-color);
     box-shadow: 2px 2px 0 var(--border-color);
   }

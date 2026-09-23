@@ -133,7 +133,7 @@
     background: var(--accent-attention);
     border: 2px solid var(--border-color);
     box-shadow: 2px 2px 0 var(--border-color);
-    color: var(--text-main);
+    color: var(--on-accent-attention);
   }
   .streak-title {
     min-width: 0;
@@ -233,7 +233,7 @@
     border: 2px solid var(--border-color);
     border-radius: var(--radius-strict);
     background-color: var(--accent-attention);
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     font-family: var(--font-body);
     font-size: 0.875rem;
     font-weight: 800;
@@ -243,6 +243,7 @@
   }
   .streak-cta:hover {
     background-color: var(--accent-interest);
+    color: var(--on-accent-interest);
     transform: translate(-1px, -1px);
     box-shadow: 3px 3px 0 var(--border-color);
   }

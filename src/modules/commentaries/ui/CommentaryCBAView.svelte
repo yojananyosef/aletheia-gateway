@@ -197,6 +197,7 @@
     align-items: center;
     gap: 10px;
     min-width: 0;
+    color: var(--on-accent-attention);
   }
 
   .cba-full-badge {

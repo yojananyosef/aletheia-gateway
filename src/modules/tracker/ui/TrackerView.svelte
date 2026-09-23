@@ -163,6 +163,7 @@
     background: var(--accent-attention);
     border: 2px solid var(--border-color);
     box-shadow: 2px 2px 0 var(--border-color);
+    color: var(--on-accent-attention);
   }
   .tracker-title {
     font-size: 1.25rem;
@@ -276,6 +277,7 @@
   }
   .tracker-ch.is-done {
     background: var(--accent-success);
+    color: var(--on-accent-success);
   }
   .tracker-read-btn {
     display: inline-flex;
@@ -284,6 +286,7 @@
     margin: 0 14px 14px;
     border: 2px solid var(--border-color);
     background: var(--accent-attention);
+    color: var(--on-accent-attention);
     font-weight: 800;
     font-size: 0.8125rem;
     padding: 6px 10px;

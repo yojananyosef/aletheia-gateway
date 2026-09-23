@@ -325,14 +325,15 @@
     font-family: var(--font-display);
     font-size: 1rem;
     font-weight: 800;
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     line-height: 1.2;
   }
 
   .tsk-subtitle {
     font-size: 0.6875rem;
     font-weight: 700;
-    color: var(--text-muted);
+    color: var(--on-accent-attention);
+    opacity: 0.85;
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }
@@ -422,7 +423,7 @@
     font-family: var(--font-mono);
     font-size: 0.6875rem;
     font-weight: 800;
-    color: var(--text-main);
+    color: var(--on-accent-interest);
     background-color: var(--accent-interest);
     border: 1px solid var(--border-color);
     padding: 1px 5px;
@@ -464,6 +465,7 @@
 
   .tsk-ref-chip:hover {
     background-color: var(--accent-interest);
+    color: var(--on-accent-interest);
     transform: translate(-1px, -1px);
     box-shadow: 2.5px 2.5px 0 var(--border-color);
   }
@@ -494,6 +496,7 @@
 
   .neo-btn-icon:hover {
     background-color: var(--accent-desire);
+    color: var(--on-accent-desire);
     transform: translate(-1px, -1px);
     box-shadow: 3px 3px 0 var(--border-color);
   }

@@ -201,6 +201,14 @@ aletheiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.17.4] - 2026-09-23
+
+#### Corregido: coherencia de tintas en oscuro/OLED y layout shift en HC/sepia
+
+- 🎨 **16 tintas corregidas**: botones y badges sobre fondo acento usaban `text-main` (claro en oscuro → ilegible sobre amarillo/cian/coral/verde) o heredaban tinta oscura sobre superficie oscura (X de ajustes, badges de comentarios). Ahora usan `on-accent-*` / `text-main` según fondo.
+- 📏 **Sin layout shift**: alto contraste y sepia unifican métrica con estándar (`1.6/0.01em/0.08em`); solo cambian color. Calma y fuentes opcionales conservan su ritmo (es su propósito).
+- ✅ `check` 0 errores, unit 121/121, contraste AAA.
+
 ### [0.17.3] - 2026-09-23
 
 #### Reorganizado: sidebar por intención

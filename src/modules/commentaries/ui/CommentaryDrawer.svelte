@@ -367,6 +367,7 @@
     place-items: center;
     flex-shrink: 0;
     background: var(--bg-surface);
+    color: var(--text-main);
     border: 2px solid var(--border-color);
     box-shadow: 2px 2px 0 var(--border-color);
   }

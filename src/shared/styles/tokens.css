@@ -204,9 +204,10 @@ body.mode-high-contrast {
   --alert-error-fg: #8a1f1f;
   --alert-error-border: #000000;
 
-  --line-height-body: 1.7;
-  --letter-spacing-body: 0.015em;
-  --word-spacing-body: 0.1em;
+  /* Misma metrica que standard: cambiar de tema no debe refluir el texto */
+  --line-height-body: 1.6;
+  --letter-spacing-body: 0.01em;
+  --word-spacing-body: 0.08em;
 }
 
 /* --- TIPOGRAFIAS SELECCIONABLES --- */
@@ -266,7 +267,7 @@ body.mode-sepia {
   --alert-error-fg: #8a1f1f;
   --alert-error-border: #433422;
   --red-letters: #8a1f1f;
-  --line-height-body: 1.8;
+  /* Sin override de ritmo: sepia es solo color, no debe causar layout shift */
 }
 
 /* --- MODO DARK (amarillo adaptativo: fondo amarillo + tinta OSCURA AAA) --- */
