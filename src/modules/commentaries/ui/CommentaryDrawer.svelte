@@ -20,9 +20,11 @@
     selectedSourceId: string;
     entries: CommentaryEntry[];
     isLoading: boolean;
+    targetVerse?: number | null;
     onSourceChange: (sourceId: string) => void;
     onClose: () => void;
     onSelectPassage: (ref: string) => void;
+    onFullReading?: (() => void) | null;
   }
 
   let {
@@ -34,9 +36,11 @@
     selectedSourceId = '',
     entries = [],
     isLoading = false,
+    targetVerse = null,
     onSourceChange,
     onClose,
     onSelectPassage,
+    onFullReading = null,
   }: Props = $props();
 
   let filterTerm = $state('');
@@ -58,6 +62,23 @@
     if (!isOpen) {
       filterTerm = '';
       isSourceMenuOpen = false;
+    }
+  });
+
+  function scrollToVerse(verse: number, retries = 5) {
+    const el = document.querySelector(`[data-commentary-verse="${verse}"]`);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else if (retries > 0) {
+      setTimeout(() => scrollToVerse(verse, retries - 1), 200);
+    }
+  }
+
+  $effect(() => {
+    if (isOpen && !isLoading && targetVerse !== null && filteredEntries.length > 0) {
+      const verse = targetVerse;
+      const timer = setTimeout(() => scrollToVerse(verse), 100);
+      return () => clearTimeout(timer);
     }
   });
 
@@ -247,7 +268,10 @@
       {:else}
         <div class="commentary-entry-list">
           {#each filteredEntries as entry}
-            <article class="commentary-entry-card">
+            <article
+              class="commentary-entry-card {targetVerse !== null && entry.scope === 'verse' && entry.verse === targetVerse ? 'is-targeted' : ''}"
+              data-commentary-verse={entry.scope === 'verse' ? entry.verse : undefined}
+            >
               <div class="commentary-entry-header">
                 <span class="commentary-scope-badge scope-{entry.scope}">
                   {#if entry.scope === 'verse'}
@@ -279,6 +303,12 @@
     </div>
 
     <div class="commentary-drawer-footer">
+      {#if onFullReading}
+        <button type="button" class="commentary-full-reading-btn" onclick={onFullReading}>
+          <BookOpen size={14} />
+          <span>Lectura completa del comentario</span>
+        </button>
+      {/if}
       <span>💡 Cambia la fuente para comparar perspectivas del mismo capítulo.</span>
     </div>
   </aside>
@@ -641,6 +671,12 @@
     background: var(--bg-canvas);
     border: 2px solid var(--border-color);
     box-shadow: 3px 3px 0 var(--border-color);
+    scroll-margin-top: 12px;
+  }
+
+  .commentary-entry-card.is-targeted {
+    background: var(--accent-attention);
+    box-shadow: 4px 4px 0 var(--border-color);
   }
 
   .commentary-entry-header {
@@ -737,6 +773,9 @@
   }
 
   .commentary-drawer-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     padding: 10px 16px;
     color: var(--text-muted);
     background: var(--bg-canvas);
@@ -744,6 +783,32 @@
     font-size: 0.6875rem;
     font-weight: 700;
     text-align: center;
+  }
+
+  .commentary-full-reading-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 9px 12px;
+    color: var(--text-main);
+    background: var(--accent-attention);
+    border: 2px solid var(--border-color);
+    box-shadow: 3px 3px 0 var(--border-color);
+    cursor: pointer;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 900;
+  }
+
+  .commentary-full-reading-btn:hover {
+    background: var(--accent-desire);
+    color: #fff;
+  }
+
+  .commentary-full-reading-btn:active {
+    transform: translate(3px, 3px);
+    box-shadow: 0 0 0 var(--border-color);
   }
 
   @media (max-width: 640px) {

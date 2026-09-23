@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { X, ArrowRight, ArrowUp, FileText, BookOpen, Link2 } from 'lucide-svelte';
+  import { X, ArrowRight, ArrowUp, FileText, BookOpen, BookOpenText, Link2 } from 'lucide-svelte';
   import type { PassageVersionResult, SectionFootnote } from '../domain/entities/Chapter';
   import { AVAILABLE_TRANSLATIONS, type TranslationId } from '../domain/entities/Translation';
   import type { FontSizeOption } from './FontSizeSelector.svelte';
@@ -18,6 +18,14 @@
     onRemoveColumn: (index: number) => void;
     onSelectPassage: (ref: string) => void;
     showVerseCrossReferences?: boolean;
+    commentaryVerseNumbers?: number[];
+    showVerseCommentaries?: boolean;
+    onOpenCommentary?: (context: {
+      reference: string;
+      book: string;
+      chapter: number;
+      verseNumber?: number;
+    }) => void;
     onOpenCrossReferences?: (context: {
       reference: string;
       book: string;
@@ -48,6 +56,9 @@
     showVerseCrossReferences = false,
     onOpenCrossReferences,
     onOpenNoteModal,
+    commentaryVerseNumbers = [],
+    showVerseCommentaries = true,
+    onOpenCommentary,
   }: Props = $props();
 
   const fontSizeClasses: Record<FontSizeOption, string> = {
@@ -90,6 +101,17 @@
       const matchVerse = n.verseNumber !== undefined && n.verseNumber >= startNum && n.verseNumber <= endNum;
       return matchBook && matchChapter && matchVerse;
     });
+  }
+
+  function hasCbaCommentary(verse: Verse): boolean {
+    if (!showVerseCommentaries || !onOpenCommentary || commentaryVerseNumbers.length === 0) {
+      return false;
+    }
+    const endNum = verse.endNumber || verse.number;
+    for (let n = verse.number; n <= endNum; n++) {
+      if (commentaryVerseNumbers.includes(n)) return true;
+    }
+    return false;
   }
 
   function renderVerseText(
@@ -328,6 +350,24 @@
                     </button>
                   {/if}
 
+                  <!-- CBA Commentary Badge on Verse if commentary exists -->
+                  {#if hasCbaCommentary(verse)}
+                    <button
+                      type="button"
+                      class="verse-cba-indicator-btn"
+                      data-tooltip="Comentario Bíblico Adventista para {section.book} {section.chapter}:{verseDisplayLabel}"
+                      aria-label="Ver Comentario Bíblico Adventista"
+                      onclick={() => onOpenCommentary?.({
+                        reference: `${section.book} ${section.chapter}:${verseDisplayLabel}`,
+                        book: section.book,
+                        chapter: section.chapter,
+                        verseNumber: verse.number,
+                      })}
+                    >
+                      <BookOpenText size={12} />
+                    </button>
+                  {/if}
+
                   <!-- Optional TSK indicator button on each verse -->
                   {#if showVerseCrossReferences}
                     <button
@@ -452,6 +492,30 @@
     opacity: 1;
     transform: scale(1.15);
     background-color: var(--accent-interest);
+    box-shadow: 2px 2px 0 var(--border-color);
+  }
+
+  .verse-cba-indicator-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    vertical-align: middle;
+    background-color: var(--accent-attention);
+    color: var(--text-main);
+    border: 1.5px solid var(--border-color);
+    border-radius: 0;
+    box-shadow: 1.5px 1.5px 0 var(--border-color);
+    cursor: pointer;
+    transition: transform 0.08s ease, box-shadow 0.08s ease, background-color 0.08s ease;
+  }
+
+  .verse-cba-indicator-btn:hover {
+    transform: scale(1.15);
+    background-color: var(--accent-desire);
+    color: #fff;
     box-shadow: 2px 2px 0 var(--border-color);
   }
 </style>

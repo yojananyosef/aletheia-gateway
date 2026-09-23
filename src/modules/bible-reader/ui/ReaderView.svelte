@@ -31,6 +31,7 @@
   import PersonalNoteModal from '../../notes/ui/PersonalNoteModal.svelte';
   import CrossReferencesDrawer from '../../cross-references/ui/CrossReferencesDrawer.svelte';
   import CommentaryDrawer from '../../commentaries/ui/CommentaryDrawer.svelte';
+  import CommentaryCBAView from '../../commentaries/ui/CommentaryCBAView.svelte';
   import { JsonCommentaryRepository } from '../../commentaries/infrastructure/JsonCommentaryRepository';
 
   interface Props {
@@ -110,6 +111,12 @@
   let commentaryEntries = $state<CommentaryEntry[]>([]);
   let isCommentaryLoading = $state(false);
   let commentaryRequestId = 0;
+  // CBA (Comentario Bíblico Adventista): default source + per-verse anchors
+  const CBA_SOURCE_ID = 'cba';
+  let cbaVerseNumbers = $state<number[]>([]);
+  let showVerseCommentaries = $state(true);
+  let commentaryTargetVerse = $state<number | null>(null);
+  let isCbaFullOpen = $state(false);
 
   async function handleOpenCrossReferences(context: {
     reference: string;
@@ -154,13 +161,27 @@
 
     commentarySources = await commentaryRepo.getSources();
     if (!commentarySourceId && commentarySources.length > 0) {
-      commentarySourceId = commentarySources[0].id;
+      commentarySourceId =
+        commentarySources.find((s) => s.id === CBA_SOURCE_ID)?.id || commentarySources[0].id;
+    }
+  }
+
+  async function loadCbaAvailability(book: string, chapter: number) {
+    try {
+      const entries = await commentaryRepo.getByChapter(CBA_SOURCE_ID, book, chapter);
+      cbaVerseNumbers = entries
+        .filter((e) => e.scope === 'verse' && Number.isInteger(e.verse))
+        .map((e) => e.verse as number)
+        .sort((a, b) => a - b);
+    } catch (err) {
+      console.warn('[CBA] Sin disponibilidad para', book, chapter, err);
+      cbaVerseNumbers = [];
     }
   }
 
   async function loadCommentaryChapter(sourceId = commentarySourceId) {
     if (!sourceId || !currentBook || !currentChapter) {
-      commentaryEntries = {};
+      commentaryEntries = [];
       return;
     }
 
@@ -175,21 +196,47 @@
       if (requestId === commentaryRequestId) commentaryEntries = entries;
     } catch (err) {
       console.error('Error fetching biblical commentaries:', err);
-      if (requestId === commentaryRequestId) commentaryEntries = {};
+      if (requestId === commentaryRequestId) commentaryEntries = [];
     } finally {
       if (requestId === commentaryRequestId) isCommentaryLoading = false;
     }
   }
 
   async function handleOpenCommentaries() {
+    commentaryTargetVerse = null;
     isCommentaryDrawerOpen = true;
     await loadCommentarySources();
     await loadCommentaryChapter();
   }
 
+  async function handleOpenCommentaryVerse(context: {
+    reference: string;
+    book: string;
+    chapter: number;
+    verseNumber?: number;
+  }) {
+    commentaryTargetVerse = context.verseNumber ?? null;
+    isCommentaryDrawerOpen = true;
+    await loadCommentarySources();
+    commentarySourceId = commentarySources.some((s) => s.id === CBA_SOURCE_ID)
+      ? CBA_SOURCE_ID
+      : commentarySourceId;
+    await loadCommentaryChapter(commentarySourceId);
+  }
+
   async function handleCommentarySourceChange(sourceId: string) {
     commentarySourceId = sourceId;
     await loadCommentaryChapter(sourceId);
+  }
+
+  async function handleOpenCbaFullReading() {
+    await loadCommentarySources();
+    if (commentarySources.some((s) => s.id === CBA_SOURCE_ID)) {
+      commentarySourceId = CBA_SOURCE_ID;
+      await loadCommentaryChapter(CBA_SOURCE_ID);
+    }
+    isCommentaryDrawerOpen = false;
+    isCbaFullOpen = true;
   }
 
   let firstPassage = $derived(passages[0]);
@@ -213,18 +260,19 @@
   }
 
   $effect(() => {
-    // Reload highlights and notes whenever book or chapter changes
+    // Reload highlights, notes and CBA availability whenever book or chapter changes
     const b = currentBook;
     const c = currentChapter;
     if (b && c) {
       untrack(() => {
         loadHighlightsAndNotes();
+        loadCbaAvailability(b, c);
       });
     }
   });
 
   $effect(() => {
-    const isOpen = isCommentaryDrawerOpen;
+    const isOpen = isCommentaryDrawerOpen || isCbaFullOpen;
     const book = currentBook;
     const chapter = currentChapter;
     const sourceId = commentarySourceId;
@@ -237,6 +285,7 @@
 
   onMount(() => {
     loadHighlightsAndNotes();
+    loadCbaAvailability(currentBook, currentChapter);
   });
 
   function handleSubmit(event: Event) {
@@ -398,6 +447,23 @@
             <FileText size={16} />
             <span class="hidden md:inline">Comentarios</span>
           </button>
+
+          <button
+            type="button"
+            class="toolbar-action-btn tsk-visibility-toggle {showVerseCommentaries ? 'is-active' : ''}"
+            data-tooltip={showVerseCommentaries ? 'Ocultar accesos CBA junto a los versículos' : 'Mostrar accesos CBA junto a los versículos'}
+            aria-label={showVerseCommentaries ? 'Ocultar accesos CBA junto a los versículos' : 'Mostrar accesos CBA junto a los versículos'}
+            aria-pressed={showVerseCommentaries}
+            onclick={() => (showVerseCommentaries = !showVerseCommentaries)}
+          >
+            {#if showVerseCommentaries}
+              <EyeOff size={16} />
+              <span class="hidden md:inline">Ocultar CBA</span>
+            {:else}
+              <Eye size={16} />
+              <span class="hidden md:inline">Mostrar CBA</span>
+            {/if}
+          </button>
         </div>
 
         <div class="toolbar-right-group">
@@ -440,6 +506,9 @@
         {onRemoveColumn}
         {onSelectPassage}
         {showVerseCrossReferences}
+        commentaryVerseNumbers={cbaVerseNumbers}
+        {showVerseCommentaries}
+        onOpenCommentary={handleOpenCommentaryVerse}
         onOpenCrossReferences={handleOpenCrossReferences}
         onOpenNoteModal={handleOpenNoteModal}
       />
@@ -506,8 +575,29 @@
     selectedSourceId={commentarySourceId}
     entries={commentaryEntries}
     isLoading={isCommentaryLoading}
+    targetVerse={commentaryTargetVerse}
     onSourceChange={handleCommentarySourceChange}
-    onClose={() => (isCommentaryDrawerOpen = false)}
+    onClose={() => {
+      isCommentaryDrawerOpen = false;
+      commentaryTargetVerse = null;
+    }}
+    onFullReading={handleOpenCbaFullReading}
     {onSelectPassage}
+  />
+
+  <CommentaryCBAView
+    isOpen={isCbaFullOpen}
+    book={currentBook}
+    chapter={currentChapter}
+    initialVerse={commentaryTargetVerse}
+    entries={commentarySourceId === CBA_SOURCE_ID ? commentaryEntries : []}
+    isLoading={isCommentaryLoading}
+    onClose={() => {
+      isCbaFullOpen = false;
+      commentaryTargetVerse = null;
+    }}
+    {onSelectPassage}
+    {onPrevChapter}
+    {onNextChapter}
   />
 </div>

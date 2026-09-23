@@ -96,7 +96,7 @@ aletheiagateway/
 │   │   │   ├── domain/            # Bookmark, IBookmarkRepository
 │   │   │   └── infrastructure/    # LocalStorageBookmarkRepository
 │   │   ├── concordance/           # Motor de concordancia y búsqueda temática
-│   │   ├── commentaries/          # Panel de comentarios (10 fuentes, carga bajo demanda)
+│   │   ├── commentaries/          # Panel de comentarios (CBA en español + 10 fuentes, carga bajo demanda)
 │   │   ├── cross-references/      # Referencias cruzadas TSK
 │   │   ├── devotionals/           # Devocionales diarios
 │   │   ├── notes/                 # Notas personales y resaltados
@@ -154,6 +154,7 @@ aletheiagateway/
 | `bun run build`                   | Compila y optimiza la aplicación para producción en `dist/`.                                    |
 | `bun run convert:bibles`          | Convierte biblias HTML/USFM a JSON (`scripts/convert-bibles.ts`).                               |
 | `bun run convert:commentaries`    | Convierte módulos Sword de comentarios a JSON (`scripts/convert-commentaries.py`).              |
+| `bun run convert:cba`             | Convierte el Comentario Bíblico Adventista desde NRVA-Reader a JSON (`scripts/convert-cba.py`). |
 | `bun run convert:sword-otros`     | Ingesta multilingüe EN/DE/EL/HE desde Sword (`scripts/convert-otros-sword.py`).                 |
 | `bun run convert:platense`        | Convierte Biblia Platense Sword zText a JSON (`scripts/convert-spaplatense.py`).                |
 | `bun run convert:rvg`             | Convierte Reina Valera Gómez Sword LZSS a JSON (`scripts/convert-sparvg.py`).                   |
@@ -173,12 +174,23 @@ aletheiagateway/
 >
 > - Concordancias solo en español (9/22 versiones); EN/PT/LA/DE/EL/HE pendientes de generar.
 > - Referencias TSK completas (66/66 libros desde v0.11.5).
+> - Comentario Bíblico Adventista (CBA) completo en español (66/66 libros, 24.794 versículos desde v0.12.0); resto de fuentes en inglés.
 > - Devocional `sme-spurgeon` en inglés; pendiente fuente en español o etiqueta de idioma en UI.
-> - `public/data/` pesa ~315MB y se copia a `dist/`; para producción valorar hosting externo (R2/S3) en lugar de `public/`.
+> - `public/data/` pesa ~336MB y se copia a `dist/`; para producción valorar hosting externo (R2/S3) en lugar de `public/`.
 
 ---
 
 ## 📋 Historial de Cambios (Changelog)
+
+### [0.12.0] - 2026-09-23
+
+#### Añadido: Comentario Bíblico Adventista (columna vertebral, en español)
+
+- 📚 **CBA completo portado desde NRVA-Reader**: `scripts/convert-cba.py` convierte los 66 libros (1.188 capítulos, 24.794 versículos únicos; 112 comentarios adicionales del mismo versículo fusionados en vez de perderse) a `public/data/commentaries/cba/` (+21MB). Mapeo explícito de códigos NRVA→gateway (`sol→SNG`, `jam→JAS`, `eze→EZK`, etc.).
+- ⭐ **Fuente por defecto**: el CBA abre primero en el selector (único completo en español; las 10 fuentes Sword siguen detrás).
+- 🔖 **Ancla visual por versículo**: badge amarillo `BookOpenText` junto a cada versículo con comentario (visible solo si existe, con toggle `Mostrar/Ocultar CBA` en la toolbar, igual que TSK). Click → drawer CBA con scroll al versículo y resaltado.
+- 📖 **Vista propia `CommentaryCBAView`**: lectura completa estilo NRVA (intro del libro en cap. 1, tarjetas por versículo con frase en itálica y chips `Cf.`) con piel neobrutalista Aletheia, navegación entre capítulos y botón `Leer versículo`.
+- ✅ 7 tests nuevos (parser `cbaText` + repositorio contra datos reales, incl. deuterocanónicos sin CBA → vacío) y 1 e2e (anclas → drawer → lectura completa). Suite 33/33 + e2e 5/5.
 
 ### [0.11.5] - 2026-09-05
 
