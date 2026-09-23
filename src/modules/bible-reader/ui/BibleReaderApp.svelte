@@ -301,18 +301,7 @@
         onSelectPassage={handleGoToReader}
       />
 
-      <div
-        class="home-progress-row"
-        role="link"
-        tabindex="0"
-        aria-label="Abrir Mi progreso de lectura"
-        title="Abrir Mi progreso de lectura"
-        onclick={() => handleNavigate('tracker')}
-        onkeydown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleNavigate('tracker'); } }}
-      >
-        <StreakWidget />
-        <span class="home-progress-hint">Pulsa para ver tu progreso completo →</span>
-      </div>
+      <StreakWidget onOpenTracker={() => handleNavigate('tracker')} />
 
       <!-- Book & Chapter Selector Modal accessible from Home -->
       <BookChapterSelectorModal
@@ -389,36 +378,4 @@
   />
 </AppShell>
 
-<style>
-  .home-progress-row {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    cursor: pointer;
-    border-radius: var(--radius-strict);
-  }
-  .home-progress-row:hover :global(.streak-widget),
-  .home-progress-row:focus-visible :global(.streak-widget) {
-    transform: translate(-1px, -1px);
-    box-shadow: var(--shadow-lg);
-  }
-  .home-progress-row :global(.streak-widget) {
-    transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out;
-  }
-  .home-progress-row:focus-visible {
-    outline: 3px solid var(--accent-interest);
-    outline-offset: 2px;
-  }
-  .home-progress-hint {
-    align-self: flex-end;
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--text-muted);
-  }
-  .home-progress-row:hover .home-progress-hint {
-    color: var(--text-main);
-  }
-</style>
+

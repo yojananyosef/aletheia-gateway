@@ -161,7 +161,12 @@ body.mode-oled {
 }
 
 /* --- LECTURA BIONICA (resalta inicio de palabra; el markup se emite siempre
-   y el body decide el efecto al instante, sin re-render) --- */
+   y el body decide el efecto al instante, sin re-render) ---
+   OJO: el reset base es obligatorio porque el UA pinta <b> en negrita
+   por defecto y el efecto se vería aun con la ayuda en Off. --- */
+.bionic-b {
+  font-weight: inherit;
+}
 body.bionic-leve .bionic-b,
 body.bionic-fuerte .bionic-b {
   font-weight: 800;
