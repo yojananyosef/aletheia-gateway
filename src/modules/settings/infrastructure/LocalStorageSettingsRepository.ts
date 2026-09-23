@@ -14,6 +14,7 @@ import {
 } from '../../bible-reader/infrastructure/LocalStorageHighlightRepository';
 import { TRACKER_STORAGE_KEY, TRACKER_LEGACY_KEYS } from '../../tracker/infrastructure/LocalStorageTrackerRepository';
 import { STREAK_STORAGE_KEY, STREAK_LEGACY_KEYS } from '../../tracker/infrastructure/LocalStorageStreakRepository';
+import { PLAN_PROGRESS_STORAGE_KEY } from '../../plans/infrastructure/LocalStoragePlanProgressRepository';
 import { calculateBestStreak, type StreakData } from '../../tracker/domain/streak';
 import type { ProgressMap } from '../../tracker/domain/progress';
 
@@ -26,6 +27,7 @@ const STORAGE_TRANSLATIONS = 'aletheia_selected_translations';
 const STORAGE_CALM_MODE = 'aletheia_calm_mode';
 const STORAGE_TRACKER = TRACKER_STORAGE_KEY;
 const STORAGE_STREAK = STREAK_STORAGE_KEY;
+const STORAGE_PLAN_PROGRESS = PLAN_PROGRESS_STORAGE_KEY;
 
 // Claves legacy por clave canónica (rename pre-v0.11 + backup pre-v0.11.2 + NRVA-Reader).
 const LEGACY_KEYS: Record<string, string[]> = {
@@ -38,6 +40,7 @@ const LEGACY_KEYS: Record<string, string[]> = {
   [STORAGE_CALM_MODE]: ['alethia_calm_mode'],
   [STORAGE_TRACKER]: TRACKER_LEGACY_KEYS,
   [STORAGE_STREAK]: STREAK_LEGACY_KEYS,
+  [STORAGE_PLAN_PROGRESS]: [],
 };
 
 function getStoredItem(key: string): string | null {
@@ -89,6 +92,7 @@ export class LocalStorageSettingsRepository {
     const settings = this.getSettings();
     const trackerProgress = JSON.parse(getStoredItem(STORAGE_TRACKER) || '{}');
     const streak = JSON.parse(getStoredItem(STORAGE_STREAK) || 'null');
+    const planProgress = JSON.parse(getStoredItem(STORAGE_PLAN_PROGRESS) || '{}');
 
     const payload: BackupPayload = {
       app: 'AletheiaGateway',
@@ -103,6 +107,7 @@ export class LocalStorageSettingsRepository {
         settings,
         trackerProgress,
         streak,
+        planProgress,
       },
     };
 
@@ -186,6 +191,7 @@ export class LocalStorageSettingsRepository {
         settings,
         trackerProgress,
         streak,
+        planProgress,
       } = parsed.data;
 
       let finalBookmarks = bookmarks;
@@ -229,6 +235,10 @@ export class LocalStorageSettingsRepository {
           const merged = this.mergeStreaks(existing, streak);
           if (merged) localStorage.setItem(STORAGE_STREAK, JSON.stringify(merged));
         }
+        if (planProgress && typeof planProgress === 'object') {
+          const existing = JSON.parse(getStoredItem(STORAGE_PLAN_PROGRESS) || '{}');
+          localStorage.setItem(STORAGE_PLAN_PROGRESS, JSON.stringify(this.mergeProgressMaps(existing, planProgress)));
+        }
       } else {
         // Sobrescribir: reemplazo total (comportamiento original)
         if (Array.isArray(bookmarks)) {
@@ -254,6 +264,9 @@ export class LocalStorageSettingsRepository {
         }
         if (streak && typeof streak === 'object') {
           localStorage.setItem(STORAGE_STREAK, JSON.stringify(streak));
+        }
+        if (planProgress && typeof planProgress === 'object') {
+          localStorage.setItem(STORAGE_PLAN_PROGRESS, JSON.stringify(planProgress));
         }
       }
 
@@ -289,6 +302,7 @@ export class LocalStorageSettingsRepository {
         STORAGE_CALM_MODE,
         STORAGE_TRACKER,
         STORAGE_STREAK,
+        STORAGE_PLAN_PROGRESS,
       ]) {
         removeStorageWithLegacy(key, LEGACY_KEYS[key] ?? key);
       }

@@ -4,6 +4,7 @@ export type BionicLevel = 'off' | 'leve' | 'fuerte';
 
 import type { ProgressMap } from '../../tracker/domain/progress';
 import type { StreakData } from '../../tracker/domain/streak';
+import type { PlanProgressMap } from '../../plans/domain/PlanProgress';
 
 export interface UserSettings {
   theme: ThemeMode;
@@ -28,6 +29,7 @@ export interface BackupPayload {
     settings?: Partial<UserSettings>;
     trackerProgress?: ProgressMap;
     streak?: StreakData;
+    planProgress?: PlanProgressMap;
   };
 }
 

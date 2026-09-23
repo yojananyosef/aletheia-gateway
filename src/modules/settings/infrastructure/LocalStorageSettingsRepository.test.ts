@@ -2,6 +2,7 @@ import { afterEach, describe, expect, it } from 'vitest';
 import { LocalStorageSettingsRepository } from './LocalStorageSettingsRepository';
 import { BOOKMARKS_STORAGE_KEY } from '../../bookmarks/infrastructure/LocalStorageBookmarkRepository';
 import { PERSONAL_NOTES_STORAGE_KEY } from '../../notes/infrastructure/LocalStorageNoteRepository';
+import { PLAN_PROGRESS_STORAGE_KEY } from '../../plans/infrastructure/LocalStoragePlanProgressRepository';
 import { installMemoryStorage, uninstallStorage } from '../../../test-utils';
 
 afterEach(() => {
@@ -57,5 +58,24 @@ describe('LocalStorageSettingsRepository backup keys', () => {
     });
     new LocalStorageSettingsRepository().resetAllData();
     expect(store.dump()).toEqual({});
+  });
+
+  it('export/import incluye el progreso de planes y reset lo borra', async () => {
+    const store = installMemoryStorage({
+      [PLAN_PROGRESS_STORAGE_KEY]: JSON.stringify({ daniel: [1, 2] }),
+    });
+    const repo = new LocalStorageSettingsRepository();
+    const payload = JSON.parse(await repo.exportBackup());
+    expect(payload.data.planProgress).toEqual({ daniel: [1, 2] });
+
+    const fresh = installMemoryStorage({});
+    const result = await new LocalStorageSettingsRepository().importBackup(
+      JSON.stringify({ data: { planProgress: { daniel: [1, 2, 3] } } }),
+    );
+    expect(result.success).toBe(true);
+    expect(JSON.parse(fresh.dump()[PLAN_PROGRESS_STORAGE_KEY])).toEqual({ daniel: [1, 2, 3] });
+
+    new LocalStorageSettingsRepository().resetAllData();
+    expect(fresh.dump()).toEqual({});
   });
 });

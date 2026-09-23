@@ -201,6 +201,15 @@ aletheiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.17.0] - 2026-09-23
+
+#### Añadido: progreso de planes de lectura
+
+- ✅ **Marcar día como completado** en el detalle del plan (botón con estado `Día completado`/`Marcar día como completado`, `aria-pressed` y tooltip), persistido en `localStorage` (`aletheia_plan_progress`).
+- 📊 **Progreso visible en cada card**: barra neobrutalista + `X de N días • Y%` (con badge `Completado` al 100%) y resumen en la cabecera del detalle.
+- 🧩 Nuevo dominio puro `PlanProgress` + `LocalStoragePlanProgressRepository` (patrón tracker, con `resetPlan`), cableado al backup/export/import/reset de ajustes.
+- ✅ 8 tests nuevos (dominio + repo + backup) y 1 e2e (Daniel día 1 → card `1 de 16 días`). Suite 121/121 + e2e 15/15.
+
 ### [0.16.7] - 2026-09-23
 
 #### Corregido: lector despejado e intro CBA única

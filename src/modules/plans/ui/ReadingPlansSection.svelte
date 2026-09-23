@@ -1,8 +1,23 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { ListChecks, ChevronLeft, ChevronRight, BookOpen, Library } from 'lucide-svelte';
+  import {
+    ListChecks,
+    ChevronLeft,
+    ChevronRight,
+    BookOpen,
+    Library,
+    CircleCheck,
+    Circle,
+  } from 'lucide-svelte';
   import type { EgwChapter, PlanDay, PlanIndexEntry } from '../domain/ReadingPlan';
   import { resolveEgwBookFile } from '../domain/ReadingPlan';
+  import {
+    completedPlanDays,
+    isPlanDayCompleted,
+    planProgress,
+    type PlanProgressMap,
+  } from '../domain/PlanProgress';
+  import { LocalStoragePlanProgressRepository } from '../infrastructure/LocalStoragePlanProgressRepository';
   import { JsonPlanRepository } from '../infrastructure/JsonPlanRepository';
 
   interface Props {
@@ -12,6 +27,7 @@
   let { onSelectPassage }: Props = $props();
 
   const repo = new JsonPlanRepository();
+  const progressRepo = new LocalStoragePlanProgressRepository();
 
   let index = $state<PlanIndexEntry[]>([]);
   let selectedId = $state<string | null>(null);
@@ -19,6 +35,8 @@
   let day = $state<PlanDay | null>(null);
   let isLoadingIndex = $state(true);
   let isLoadingDay = $state(false);
+  // Días completados por plan ({ [planId]: number[] }), espejo reactivo del repo.
+  let doneMap = $state<PlanProgressMap>({});
 
   // Capítulo EGW expandido (refs { label, chapterId } de annual-thematic).
   let egwOpenKey = $state<string | null>(null);
@@ -28,11 +46,32 @@
 
   onMount(async () => {
     try {
+      doneMap = progressRepo.getProgress();
+    } catch {
+      doneMap = {};
+    }
+    try {
       index = await repo.getIndex();
     } finally {
       isLoadingIndex = false;
     }
   });
+
+  function doneCount(entry: PlanIndexEntry): number {
+    return completedPlanDays(doneMap, entry.id);
+  }
+
+  function donePct(entry: PlanIndexEntry): number {
+    return planProgress(doneMap, entry.id, entry.durationDays);
+  }
+
+  function toggleDay(planId: string, d: number) {
+    try {
+      doneMap = progressRepo.toggleDay(planId, d);
+    } catch {
+      // Sin almacenamiento: no se persiste, pero no se rompe la vista.
+    }
+  }
 
   async function openPlan(id: string) {
     selectedId = id;
@@ -98,6 +137,9 @@
   }
 
   let selectedEntry = $derived(index.find((e) => e.id === selectedId) ?? null);
+  let dayDone = $derived(
+    selectedEntry ? isPlanDayCompleted(doneMap, selectedEntry.id, selectedDay) : false
+  );
 </script>
 
 <div class="plans-section">
@@ -109,10 +151,29 @@
     {:else}
       <div class="plans-grid">
         {#each index as entry}
+          {@const done = doneCount(entry)}
+          {@const pct = donePct(entry)}
           <button type="button" class="plan-card neo-card" onclick={() => openPlan(entry.id)}>
             <span class="plan-category">{entry.category} • {entry.durationDays} días</span>
             <span class="plan-title">{entry.title}</span>
             <span class="plan-desc">{entry.description}</span>
+            <span
+              class="plan-progress"
+              role="progressbar"
+              aria-valuemin={0}
+              aria-valuemax={100}
+              aria-valuenow={pct}
+              aria-label={`Progreso de ${entry.title}: ${done} de ${entry.durationDays} días`}
+            >
+              <span class="plan-progress-track"><span class="plan-progress-fill" style={`width: ${pct}%`}></span></span>
+              <span class="plan-progress-label">
+                {#if pct >= 100}
+                  <CircleCheck size={13} /> Completado
+                {:else}
+                  {done} de {entry.durationDays} días • {pct}%
+                {/if}
+              </span>
+            </span>
             <span class="plan-open"><ListChecks size={14} /> Abrir plan</span>
           </button>
         {/each}
@@ -124,7 +185,10 @@
         <ChevronLeft size={16} /> Todos los planes
       </button>
       <h2 class="plan-detail-title">{selectedEntry.title}</h2>
-      <p class="plan-desc">Día {selectedDay} de {selectedEntry.durationDays}</p>
+      <p class="plan-desc">
+        Día {selectedDay} de {selectedEntry.durationDays} •
+        {doneCount(selectedEntry)} completados ({donePct(selectedEntry)}%)
+      </p>
 
       <div class="plan-day-nav">
         <button type="button" class="neo-btn-nav" disabled={selectedDay <= 1} onclick={prevDay}>
@@ -137,6 +201,20 @@
           onclick={() => nextDay(selectedEntry!)}
         >
           Siguiente <ChevronRight size={16} />
+        </button>
+        <button
+          type="button"
+          class="plan-day-toggle {dayDone ? 'is-done' : ''}"
+          aria-pressed={dayDone}
+          data-tooltip={dayDone ? 'Marcar este día como pendiente' : 'Marcar este día como completado'}
+          aria-label={dayDone ? 'Marcar día como pendiente' : 'Marcar día como completado'}
+          onclick={() => toggleDay(selectedEntry!.id, selectedDay)}
+        >
+          {#if dayDone}
+            <CircleCheck size={16} /> <span>Día completado</span>
+          {:else}
+            <Circle size={16} /> <span>Marcar día como completado</span>
+          {/if}
         </button>
       </div>
 
@@ -248,6 +326,58 @@
     font-size: 0.8125rem;
     font-weight: 800;
     margin-top: 6px;
+  }
+  .plan-progress {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 8px;
+  }
+  .plan-progress-track {
+    display: block;
+    height: 12px;
+    background: var(--bg-surface);
+    border: 2px solid var(--border-color);
+    box-shadow: 2px 2px 0 var(--border-color);
+    overflow: hidden;
+  }
+  .plan-progress-fill {
+    display: block;
+    height: 100%;
+    background: var(--accent-success);
+    transition: width 0.15s ease;
+  }
+  .plan-progress-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-weight: 800;
+    color: var(--text-main);
+  }
+  .plan-day-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    font-size: 0.8125rem;
+    font-weight: 800;
+    color: var(--text-main);
+    background: var(--bg-surface);
+    border: 2px solid var(--border-color);
+    box-shadow: 2px 2px 0 var(--border-color);
+    cursor: pointer;
+  }
+  .plan-day-toggle:hover {
+    background: var(--accent-attention);
+  }
+  .plan-day-toggle:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0 0 0 var(--border-color);
+  }
+  .plan-day-toggle.is-done {
+    background: var(--accent-success);
   }
   .plans-loading {
     font-weight: 700;

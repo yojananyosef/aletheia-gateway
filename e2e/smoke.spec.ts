@@ -132,6 +132,24 @@ test('planes: vista propia separada de devocionales (sin crash annual-thematic)'
   await expect(page.getByRole('button', { name: 'Planes de lectura ES' })).toHaveCount(0);
 });
 
+test('planes: marcar día como completado y ver progreso en el card', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Planes de lectura', exact: true }).first().click();
+  await expect(page.getByRole('heading', { name: 'Planes de lectura' })).toBeVisible();
+
+  await page.getByRole('button', { name: /El Libro de Daniel/ }).click();
+  await expect(page.getByText('Día 1 de 16').first()).toBeVisible({ timeout: 20000 });
+
+  await page.getByRole('button', { name: 'Marcar día como completado' }).click();
+  await expect(page.getByRole('button', { name: 'Marcar día como pendiente' })).toBeVisible();
+  await expect(page.getByText('Día completado').first()).toBeVisible();
+  await expect(page.getByText('1 completados').first()).toBeVisible();
+
+  await page.getByRole('button', { name: 'Todos los planes' }).click();
+  const danielCard = page.getByRole('button', { name: /El Libro de Daniel/ });
+  await expect(danielCard.getByText('1 de 16 días').first()).toBeVisible();
+});
+
 test('interlineal: dropdowns del proyecto en libro/cap/vers', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('button', { name: 'Interlineal' }).first().click();
@@ -152,7 +170,10 @@ test('ayudas de lectura aplican al instante sin recargar', async ({ page }) => {
   expect(await bionic.evaluate((el) => getComputedStyle(el).fontWeight)).not.toBe('800');
 
   await page.getByRole('button', { name: 'Configuración' }).click();
-  await page.locator('.font-card', { hasText: 'Lectura biónica' }).getByRole('button', { name: 'Leve', exact: true }).click();
+  await page
+    .locator('.font-card', { hasText: 'Lectura biónica' })
+    .getByRole('button', { name: 'Leve', exact: true })
+    .click();
 
   // Al instante: negrita biónica con peso 800, sin recargar ni navegar
   await expect(bionic).toBeVisible();
@@ -163,7 +184,10 @@ test('ayudas de lectura aplican al instante sin recargar', async ({ page }) => {
   await expect(page.locator('.reading-ruler')).toBeVisible();
 
   // Al desactivar, el efecto cesa al instante
-  await page.locator('.font-card', { hasText: 'Lectura biónica' }).getByRole('button', { name: 'Off', exact: true }).click();
+  await page
+    .locator('.font-card', { hasText: 'Lectura biónica' })
+    .getByRole('button', { name: 'Off', exact: true })
+    .click();
   expect(await bionic.evaluate((el) => getComputedStyle(el).fontWeight)).not.toBe('800');
 });
 
