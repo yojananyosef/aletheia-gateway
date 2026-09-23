@@ -167,6 +167,28 @@ test('ayudas de lectura aplican al instante sin recargar', async ({ page }) => {
   expect(await bionic.evaluate((el) => getComputedStyle(el).fontWeight)).not.toBe('800');
 });
 
+test('helpers muestran estado activo inequívoco y TTS usa dropdowns del proyecto', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
+  await expect(page.getByText('Agregar paralelo').first()).toBeVisible();
+
+  await page.getByRole('button', { name: 'Configuración' }).click();
+  const bionicCard = page.locator('.font-card', { hasText: 'Lectura biónica' });
+  await bionicCard.getByRole('button', { name: 'Fuerte', exact: true }).click();
+  await expect(bionicCard.getByRole('button', { name: 'Fuerte', exact: true })).toHaveClass(/is-selected/);
+  await expect(page.locator('body.bionic-fuerte')).toHaveCount(1);
+  await bionicCard.getByRole('button', { name: 'Off', exact: true }).click();
+  await expect(bionicCard.getByRole('button', { name: 'Off', exact: true })).toHaveClass(/is-selected/);
+  await expect(page.locator('body.bionic-fuerte')).toHaveCount(0);
+  await page.getByRole('button', { name: 'Listo' }).click();
+
+  // Velocidad TTS con el dropdown neobrutalista (no <select> nativo)
+  await expect(page.locator('.tts-rate-dropdown select')).toHaveCount(0);
+  await page.getByRole('button', { name: 'Vel.' }).click();
+  await page.getByRole('option', { name: '1.5x' }).click();
+  await expect(page.getByRole('button', { name: 'Vel.' })).toContainText('1.5x');
+});
+
 test('palabras de Cristo tiñen dichos en Mateo', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();

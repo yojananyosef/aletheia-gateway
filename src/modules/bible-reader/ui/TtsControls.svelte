@@ -1,8 +1,14 @@
 <script lang="ts">
   import { Play, Pause, Square, Volume2 } from 'lucide-svelte';
+  import NeoDropdown from '../../../shared/ui/NeoDropdown.svelte';
   import { ttsStore } from '../application/tts.svelte';
 
   const RATES = [0.75, 1.0, 1.25, 1.5, 1.75];
+
+  let voiceOptions = $derived(
+    ttsStore.voices.map((v) => ({ value: v.id, label: `${v.label} (${v.locale})` })),
+  );
+  let rateOptions = $derived(RATES.map((r) => ({ value: r, label: `${r}x` })));
 </script>
 
 <div class="tts-controls" role="group" aria-label="Audio Biblia (texto a voz)">
@@ -55,30 +61,26 @@
   {/if}
 
   {#if ttsStore.voices.length > 0}
-    <select
-      class="tts-voice-select"
-      aria-label="Voz de lectura"
-      data-tooltip="Voz de lectura"
-      value={ttsStore.selectedVoice?.id ?? ''}
-      onchange={(e) => ttsStore.setVoice((e.target as HTMLSelectElement).value || null)}
-    >
-      {#each ttsStore.voices as voice}
-        <option value={voice.id}>{voice.label} ({voice.locale})</option>
-      {/each}
-    </select>
+    <div class="tts-dropdown tts-voice-dropdown">
+      <NeoDropdown
+        label="Voz"
+        selectedValue={ttsStore.selectedVoice?.id ?? ''}
+        options={voiceOptions}
+        menuLabel="Voces en español"
+        onSelect={(v) => ttsStore.setVoice(String(v) || null)}
+      />
+    </div>
   {/if}
 
-  <select
-    class="tts-rate-select"
-    aria-label="Velocidad de lectura"
-    data-tooltip="Velocidad de lectura"
-    value={String(ttsStore.rate)}
-    onchange={(e) => ttsStore.setRate(Number((e.target as HTMLSelectElement).value))}
-  >
-    {#each RATES as r}
-      <option value={String(r)}>{r}x</option>
-    {/each}
-  </select>
+  <div class="tts-dropdown tts-rate-dropdown">
+    <NeoDropdown
+      label="Vel."
+      selectedValue={ttsStore.rate}
+      options={rateOptions}
+      menuLabel="Velocidad de lectura"
+      onSelect={(v) => ttsStore.setRate(Number(v))}
+    />
+  </div>
 
   {#if ttsStore.isLoading}
     <span class="tts-loading" aria-live="polite">Cargando voz…</span>
@@ -92,18 +94,16 @@
     gap: 6px;
     flex-wrap: wrap;
   }
-  .tts-voice-select,
-  .tts-rate-select {
-    border: 2px solid var(--border-color);
-    background: var(--bg-surface);
-    color: var(--text-main);
-    font-size: 0.75rem;
-    font-weight: 700;
-    padding: 4px 6px;
-    max-width: 160px;
+  .tts-dropdown {
+    min-width: 0;
   }
-  .tts-rate-select {
-    max-width: 72px;
+  .tts-voice-dropdown {
+    width: 150px;
+    flex-shrink: 1;
+  }
+  .tts-rate-dropdown {
+    width: 96px;
+    flex-shrink: 0;
   }
   .tts-loading {
     font-size: 0.75rem;

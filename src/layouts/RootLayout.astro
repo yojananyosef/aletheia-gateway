@@ -41,8 +41,9 @@ const {
   <body class="antialiased">
     <slot />
     <script>
-      // Registro del Service Worker (shell offline). Solo en cliente con SW disponible.
-      if ('serviceWorker' in navigator) {
+      // Registro del Service Worker (shell offline). Solo en producción:
+      // en dev registrarlo cachea el shell y confunde los cambios en vivo.
+      if ('serviceWorker' in navigator && import.meta.env.PROD) {
         window.addEventListener('load', () => {
           navigator.serviceWorker.register('/sw.js').catch(() => {
             // Sin SW (navegador antiguo, contexto inseguro): la app sigue funcionando online.
