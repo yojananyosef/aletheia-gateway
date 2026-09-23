@@ -1,6 +1,8 @@
 <script lang="ts">
   import { onMount, untrack } from 'svelte';
   import { BookOpen, ChevronLeft, ChevronRight, Info } from 'lucide-svelte';
+  import NeoDropdown from '../../../shared/ui/NeoDropdown.svelte';
+  import { bionicHtml } from '../../../shared/utils/bionic';
   import type { InterlinearTestament, InterlinearVerse } from '../domain/InterlinearVerse';
   import { strongIdForWord, testamentLabel } from '../domain/InterlinearVerse';
   import { JsonInterlinearRepository } from '../infrastructure/JsonInterlinearRepository';
@@ -147,30 +149,30 @@
       <span>{bookName} {chapter}:{verse}</span>
     </div>
     <div class="interlinear-selectors">
-      <label>
-        Libro
-        <select value={bookName} onchange={(e) => selectBook((e.target as HTMLSelectElement).value)}>
-          {#each books as b (b.code)}
-            <option value={b.name}>{b.name}</option>
-          {/each}
-        </select>
-      </label>
-      <label>
-        Cap.
-        <select value={chapter} onchange={(e) => (chapter = Number((e.target as HTMLSelectElement).value), (verse = 1))}>
-          {#each chapterNumbers as c (c)}
-            <option value={c}>{c}</option>
-          {/each}
-        </select>
-      </label>
-      <label>
-        Vers.
-        <select value={verse} onchange={(e) => (verse = Number((e.target as HTMLSelectElement).value))}>
-          {#each verseNumbers as v (v)}
-            <option value={v}>{v}</option>
-          {/each}
-        </select>
-      </label>
+      <NeoDropdown
+        label="Libro"
+        selectedValue={bookName}
+        options={books.map((b) => ({ value: b.name, label: b.name }))}
+        menuLabel="Libros de la Biblia"
+        onSelect={(v) => selectBook(String(v))}
+      />
+      <NeoDropdown
+        label="Cap."
+        selectedValue={chapter}
+        options={chapterNumbers.map((c) => ({ value: c, label: String(c) }))}
+        menuLabel="Capítulos"
+        onSelect={(v) => {
+          chapter = Number(v);
+          verse = 1;
+        }}
+      />
+      <NeoDropdown
+        label="Vers."
+        selectedValue={verse}
+        options={verseNumbers.map((v) => ({ value: v, label: String(v) }))}
+        menuLabel="Versículos"
+        onSelect={(v) => (verse = Number(v))}
+      />
     </div>
   </div>
 
@@ -230,7 +232,7 @@
           >
             {word.text}
           </button>
-          <span class="interlinear-gloss" dir="ltr">{word.spanish}</span>
+          <span class="interlinear-gloss" dir="ltr">{@html bionicHtml(word.spanish ?? '')}</span>
           {#if word.parsing}
             <span class="interlinear-parsing {touchedParsing === idx ? 'is-pinned' : ''}">
               {word.parsing}
@@ -284,29 +286,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-  }
-
-  .interlinear-selectors label {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    font-family: var(--font-mono);
-    font-size: 0.625rem;
-    font-weight: 800;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-  }
-
-  .interlinear-selectors select {
-    padding: 7px 9px;
-    color: var(--text-main);
-    background: var(--bg-surface);
-    border: 2px solid var(--border-color);
-    box-shadow: 2px 2px 0 var(--border-color);
-    font-family: var(--font-body);
-    font-size: 0.8125rem;
-    font-weight: 700;
-    max-width: 150px;
   }
 
   .interlinear-pager {

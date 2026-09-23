@@ -9,6 +9,7 @@
   import { findBookInfo } from '../domain/entities/BibleBooks';
   import ColumnVersionDropdown from './ColumnVersionDropdown.svelte';
   import { resolveVerseHeadings } from '../domain/entities/SectionHeading';
+  import { bionicHtml } from '../../../shared/utils/bionic';
 
   interface Props {
     passages: PassageVersionResult[];
@@ -89,14 +90,6 @@
     if (document.body.classList.contains('bionic-fuerte')) return 'fuerte';
     if (document.body.classList.contains('bionic-leve')) return 'leve';
     return 'off';
-  }
-
-  function bionicHtml(plain: string): string {
-    return plain.split(/(\s+)/).map((part) => {
-      if (/^\s+$/.test(part) || part.length < 4) return escapeHtml(part);
-      const cut = Math.ceil(part.length / 2);
-      return `<b class="bionic-b">${escapeHtml(part.slice(0, cut))}</b>${escapeHtml(part.slice(cut))}`;
-    }).join('');
   }
 
   function getMatchingHighlights(book: string, chapter: number, verse: Verse, translationId: string): BibleHighlight[] {

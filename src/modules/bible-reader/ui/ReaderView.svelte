@@ -368,12 +368,6 @@
     loadHighlightsAndNotes();
     loadCbaAvailability(currentBook, currentChapter);
     loadOverlayHeadings(currentBook, currentChapter);
-    const onMouse = (e: MouseEvent) => {
-      const ruler = document.querySelector<HTMLElement>('.reading-ruler');
-      if (ruler) ruler.style.top = `${e.clientY - 16}px`;
-    };
-    window.addEventListener('mousemove', onMouse);
-    return () => window.removeEventListener('mousemove', onMouse);
   });
 
   function handleSubmit(event: Event) {
@@ -445,7 +439,6 @@
 </script>
 
 <div class="reader-view">
-  <div class="reading-ruler" aria-hidden="true"></div>
   <!-- Elongated Full-Width Search Bar with Enter key support -->
   <div class="reader-search-bar-row">
     <form class="search-form reader-search-wide" onsubmit={handleSubmit}>

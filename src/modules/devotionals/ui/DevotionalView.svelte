@@ -14,7 +14,6 @@
   } from 'lucide-svelte';
   import type { DailyDevotional, DevotionalReading } from '../domain/Devotional';
   import { JsonDevotionalRepository } from '../infrastructure/JsonDevotionalRepository';
-  import ReadingPlansSection from './ReadingPlansSection.svelte';
 
   interface Props {
     onSelectPassage: (ref: string) => void;
@@ -27,7 +26,6 @@
   let currentDate = $state(new Date());
   let devotional = $state<DailyDevotional | null>(null);
   let activePeriod = $state<'morning' | 'evening'>('morning');
-  let viewMode = $state<'devotional' | 'plans'>('devotional');
   let isLoading = $state(true);
   let hasCopied = $state(false);
 
@@ -163,34 +161,23 @@
     <div class="dev-period-tabs mt-4 pt-4 border-t-2 border-[var(--border-color)]">
       <button
         type="button"
-        class="dev-tab-btn {viewMode === 'devotional' && activePeriod === 'morning' ? 'is-active' : ''}"
-        onclick={() => { viewMode = 'devotional'; activePeriod = 'morning'; }}
+        class="dev-tab-btn {activePeriod === 'morning' ? 'is-active' : ''}"
+        onclick={() => (activePeriod = 'morning')}
       >
         <Sun size={18} />
         <span>Lectura Matutina (Mañana)</span>
       </button>
       <button
         type="button"
-        class="dev-tab-btn {viewMode === 'devotional' && activePeriod === 'evening' ? 'is-active' : ''}"
-        onclick={() => { viewMode = 'devotional'; activePeriod = 'evening'; }}
+        class="dev-tab-btn {activePeriod === 'evening' ? 'is-active' : ''}"
+        onclick={() => (activePeriod = 'evening')}
       >
         <Moon size={18} />
         <span>Lectura Vespertina (Noche)</span>
       </button>
-      <button
-        type="button"
-        class="dev-tab-btn {viewMode === 'plans' ? 'is-active' : ''}"
-        onclick={() => (viewMode = 'plans')}
-      >
-        <BookOpen size={18} />
-        <span>Planes de lectura ES</span>
-      </button>
     </div>
   </div>
 
-  {#if viewMode === 'plans'}
-    <ReadingPlansSection {onSelectPassage} />
-  {:else}
   <!-- Main Devotional Content Card -->
   {#if isLoading}
     <div class="dev-loading-card neo-card">
@@ -275,7 +262,6 @@
         {/if}
       </div>
     </article>
-  {/if}
   {/if}
 </div>
 
@@ -436,26 +422,6 @@
     margin-top: 32px;
     padding-top: 18px;
     border-top: 2px solid var(--border-color);
-  }
-
-  .neo-btn-nav {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 6px 12px;
-    font-family: var(--font-display);
-    font-size: 0.8125rem;
-    font-weight: 700;
-    background-color: var(--bg-surface);
-    border: 2px solid var(--border-color);
-    box-shadow: 2px 2px 0 var(--border-color);
-    cursor: pointer;
-  }
-
-  .neo-btn-nav:hover {
-    background-color: var(--accent-interest);
-    transform: translate(-1px, -1px);
-    box-shadow: 3px 3px 0 var(--border-color);
   }
 
   .neo-date-display {

@@ -13,6 +13,7 @@
   import SettingsModal from '../../settings/ui/SettingsModal.svelte';
   import TrackerView from '../../tracker/ui/TrackerView.svelte';
   import StreakWidget from '../../tracker/ui/StreakWidget.svelte';
+  import PlansView from '../../plans/ui/PlansView.svelte';
   import type { AppView } from '../../../shared/ui/AppView';
 
   import {
@@ -324,6 +325,10 @@
     />
   {:else if view === 'devotionals'}
     <DevotionalView
+      onSelectPassage={handleGoToReader}
+    />
+  {:else if view === 'plans'}
+    <PlansView
       onSelectPassage={handleGoToReader}
     />
   {:else if view === 'strong'}

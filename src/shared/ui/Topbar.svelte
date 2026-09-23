@@ -48,7 +48,7 @@
 
   <div class="topbar-rule"></div>
   <span class="topbar-title">
-    {view === 'home' ? 'Inicio' : view === 'concordance' ? 'Concordancia' : view === 'devotionals' ? 'Devocional Diario' : view === 'strong' ? 'Diccionario Strong' : view === 'interlinear' ? 'Interlineal' : view === 'tracker' ? 'Mi progreso' : 'Lectura bíblica'}
+    {view === 'home' ? 'Inicio' : view === 'concordance' ? 'Concordancia' : view === 'devotionals' ? 'Devocional Diario' : view === 'plans' ? 'Planes de lectura' : view === 'strong' ? 'Diccionario Strong' : view === 'interlinear' ? 'Interlineal' : view === 'tracker' ? 'Mi progreso' : 'Lectura bíblica'}
   </span>
 
   <div class="topbar-actions">

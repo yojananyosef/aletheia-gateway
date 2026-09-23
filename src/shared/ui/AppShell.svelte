@@ -31,7 +31,13 @@
   let isCalmMode = $state(false);
 
   onMount(() => {
-    try {
+    const onMouse = (e: MouseEvent) => {
+      if (typeof document === 'undefined') return;
+      if (!document.body.classList.contains('ruler-on')) return;
+      const ruler = document.querySelector<HTMLElement>('.reading-ruler');
+      if (ruler) ruler.style.top = `${e.clientY - 16}px`;
+    };
+    window.addEventListener('mousemove', onMouse);    try {
       // Prefer UserSettings (Fase 1) with fallback to legacy aletheia_calm_mode
       // (y a las claves pre-v0.11 "alethia_*", migradas con fallback)
       const raw = readStorageWithLegacy('aletheia_user_settings', 'alethia_user_settings');
@@ -106,6 +112,9 @@
 <div class="app-layout-shell">
   <!-- Global Neobrutalist Tooltip Component -->
   <NeoTooltip />
+
+  <!-- Regla de lectura global (visible con body.ruler-on, todas las vistas) -->
+  <div class="reading-ruler" aria-hidden="true"></div>
 
   <!-- Mobile backdrop overlay -->
   {#if mobileOpen}

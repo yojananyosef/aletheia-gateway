@@ -1,7 +1,8 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { ListChecks, ChevronLeft, BookOpen } from 'lucide-svelte';
-  import type { PlanDay, PlanIndexEntry } from '../domain/ReadingPlan';
+  import { ListChecks, ChevronLeft, ChevronRight, BookOpen, Library } from 'lucide-svelte';
+  import type { EgwChapter, PlanDay, PlanIndexEntry } from '../domain/ReadingPlan';
+  import { resolveEgwBookFile } from '../domain/ReadingPlan';
   import { JsonPlanRepository } from '../infrastructure/JsonPlanRepository';
 
   interface Props {
@@ -19,6 +20,12 @@
   let isLoadingIndex = $state(true);
   let isLoadingDay = $state(false);
 
+  // Capítulo EGW expandido (refs { label, chapterId } de annual-thematic).
+  let egwOpenKey = $state<string | null>(null);
+  let egwChapter = $state<EgwChapter | null>(null);
+  let egwLoading = $state(false);
+  let egwMissing = $state(false);
+
   onMount(async () => {
     try {
       index = await repo.getIndex();
@@ -30,16 +37,25 @@
   async function openPlan(id: string) {
     selectedId = id;
     selectedDay = 1;
+    resetEgw();
     await loadDay(id, 1);
   }
 
   async function loadDay(id: string, d: number) {
     isLoadingDay = true;
+    resetEgw();
     try {
       day = await repo.getDay(id, d);
     } finally {
       isLoadingDay = false;
     }
+  }
+
+  function resetEgw() {
+    egwOpenKey = null;
+    egwChapter = null;
+    egwLoading = false;
+    egwMissing = false;
   }
 
   function prevDay() {
@@ -52,6 +68,33 @@
     if (!selectedId || selectedDay >= entry.durationDays) return;
     selectedDay += 1;
     loadDay(selectedId, selectedDay);
+  }
+
+  async function toggleEgw(label: string, chapterId: number | undefined) {
+    const key = `${label}#${chapterId ?? ''}`;
+    if (egwOpenKey === key) {
+      resetEgw();
+      return;
+    }
+    resetEgw();
+    if (chapterId === undefined) return;
+    const bookFile = resolveEgwBookFile(label);
+    if (!bookFile) return;
+    egwOpenKey = key;
+    egwLoading = true;
+    try {
+      egwChapter = await repo.getEgwChapter(bookFile, chapterId);
+      egwMissing = egwChapter === null;
+    } finally {
+      egwLoading = false;
+    }
+  }
+
+  function paragraphs(text: string): string[] {
+    return text
+      .split('\n\n')
+      .map((p) => p.trim())
+      .filter((p) => p.length > 0);
   }
 
   let selectedEntry = $derived(index.find((e) => e.id === selectedId) ?? null);
@@ -83,7 +126,7 @@
       <h2 class="plan-detail-title">{selectedEntry.title}</h2>
       <p class="plan-desc">Día {selectedDay} de {selectedEntry.durationDays}</p>
 
-      <div class="flex items-center gap-2 plan-day-nav">
+      <div class="plan-day-nav">
         <button type="button" class="neo-btn-nav" disabled={selectedDay <= 1} onclick={prevDay}>
           <ChevronLeft size={16} /> Anterior
         </button>
@@ -93,16 +136,18 @@
           disabled={selectedDay >= selectedEntry.durationDays}
           onclick={() => nextDay(selectedEntry!)}
         >
-          Siguiente <ChevronLeft size={16} class="rotate-180" />
+          Siguiente <ChevronRight size={16} />
         </button>
       </div>
 
       {#if isLoadingDay}
         <p class="plans-loading">Cargando día {selectedDay}…</p>
-      {:else if !day}
+      {:else if !day || (!day.title && day.bible.length === 0 && day.egw.length === 0)}
         <p class="plans-loading">Este día aún no tiene contenido.</p>
       {:else}
-        <h3 class="plan-day-title">{day.title}</h3>
+        {#if day.title}
+          <h3 class="plan-day-title">{day.title}</h3>
+        {/if}
         {#if day.description}
           <p class="plan-desc">{day.description}</p>
         {/if}
@@ -119,16 +164,48 @@
         {#if day.egw.length > 0}
           <h4 class="plan-sub">Lectura complementaria</h4>
           {#each day.egw as block}
-            <details class="plan-egw">
-              <summary>{block.label}</summary>
-              <div class="plan-egw-body">
-                {#each block.content.split('\n\n') as paragraph}
-                  {#if paragraph.trim()}
-                    <p>{paragraph.trim()}</p>
+            {#if block.content}
+              <details class="plan-egw">
+                <summary>{block.label}</summary>
+                <div class="plan-egw-body">
+                  {#each paragraphs(block.content) as paragraph}
+                    <p>{paragraph}</p>
+                  {/each}
+                </div>
+              </details>
+            {:else if block.chapterId !== undefined && resolveEgwBookFile(block.label)}
+              {@const openKey = `${block.label}#${block.chapterId}`}
+              <details
+                class="plan-egw"
+                open={egwOpenKey === openKey}
+                ontoggle={(e) => {
+                  if ((e.target as HTMLDetailsElement).open) toggleEgw(block.label, block.chapterId);
+                  else if (egwOpenKey === openKey) resetEgw();
+                }}
+              >
+                <summary><Library size={14} /> {block.label}</summary>
+                <div class="plan-egw-body">
+                  {#if egwOpenKey === openKey && egwLoading}
+                    <p>Cargando capítulo…</p>
+                  {:else if egwOpenKey === openKey && egwMissing}
+                    <p>Capítulo no disponible sin conexión.</p>
+                  {:else if egwOpenKey === openKey && egwChapter}
+                    {#each egwChapter.sections as section}
+                      {#if section.title}
+                        <h5 class="plan-egw-sec">{section.title}</h5>
+                      {/if}
+                      {#each paragraphs(section.content ?? '') as paragraph}
+                        <p>{paragraph}</p>
+                      {/each}
+                    {/each}
+                  {:else}
+                    <p>Pulsa para leer el capítulo completo.</p>
                   {/if}
-                {/each}
-              </div>
-            </details>
+                </div>
+              </details>
+            {:else}
+              <p class="plan-egw-label">{block.label}</p>
+            {/if}
           {/each}
         {/if}
       {/if}
@@ -148,6 +225,7 @@
     gap: 6px;
     padding: 14px;
     text-align: left;
+    cursor: pointer;
   }
   .plan-category {
     font-size: 0.6875rem;
@@ -181,7 +259,11 @@
     margin: 12px 0 2px;
   }
   .plan-day-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     margin: 10px 0;
+    flex-wrap: wrap;
   }
   .plan-day-title {
     font-size: 1.0625rem;
@@ -209,6 +291,7 @@
     font-size: 0.8125rem;
     padding: 6px 10px;
     box-shadow: 2px 2px 0 var(--border-color);
+    cursor: pointer;
   }
   .plan-egw {
     border: 2px solid var(--border-color);
@@ -219,11 +302,23 @@
     cursor: pointer;
     font-weight: 800;
     padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
   }
   .plan-egw-body {
     padding: 0 12px 12px;
     font-size: 0.875rem;
     line-height: 1.7;
     max-width: 65ch;
+  }
+  .plan-egw-sec {
+    font-weight: 800;
+    margin: 10px 0 4px;
+  }
+  .plan-egw-label {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: var(--text-muted);
   }
 </style>

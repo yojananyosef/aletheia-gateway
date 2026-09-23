@@ -109,3 +109,34 @@ test('headings overlay: RV1909 muestra títulos sin chocar con nativos', async (
   await expect(overlay.first()).toBeVisible({ timeout: 20000 });
   await expect(overlay.first()).toContainText('La creación');
 });
+
+test('planes: vista propia separada de devocionales (sin crash annual-thematic)', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Planes de lectura', exact: true }).first().click();
+  await expect(page.getByRole('heading', { name: 'Planes de lectura' })).toBeVisible();
+
+  // Una sola marca activa en el sidebar (antes se iluminaban Devocionales + Planes)
+  await expect(page.locator('.neo-nav-button.is-active')).toHaveCount(1);
+
+  await page.getByRole('button', { name: /Plan Anual Temático/ }).click();
+  await expect(page.getByText('El Origen').first()).toBeVisible({ timeout: 20000 });
+  await expect(page.getByRole('button', { name: 'Génesis 1' })).toBeVisible();
+
+  // Ref EGW { label, chapterId } se resuelve contra el libro local (era el crash .split)
+  await page.getByText('Patriarcas y Profetas, Cap. 2').first().click();
+  const egwBody = page.locator('details.plan-egw[open] .plan-egw-body');
+  await expect(egwBody.getByText('Dios').first()).toBeVisible({ timeout: 20000 });
+
+  // Devocionales ya no mezcla planes
+  await page.getByRole('button', { name: 'Devocionales' }).first().click();
+  await expect(page.getByRole('button', { name: 'Planes de lectura ES' })).toHaveCount(0);
+});
+
+test('interlineal: dropdowns del proyecto en libro/cap/vers', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Interlineal' }).first().click();
+
+  await page.getByRole('button', { name: 'Cap.' }).click();
+  await page.getByRole('option', { name: '2' }).first().click();
+  await expect(page.getByText('Génesis 2:1').first()).toBeVisible({ timeout: 20000 });
+});

@@ -6,7 +6,6 @@
     Bookmark,
     ListChecks,
     Heart,
-    Headphones,
     Languages,
     ArrowLeftRight,
     Library,
@@ -43,16 +42,13 @@
     { title: 'Leer la Biblia', icon: BookOpen, view: 'reader' as const },
     { title: 'Concordancia', icon: Search, view: 'concordance' as const },
     { title: 'Devocionales', icon: Heart, view: 'devotionals' as const },
+    { title: 'Planes de lectura', icon: ListChecks, view: 'plans' as const },
     { title: 'Strong', icon: Languages, view: 'strong' as const },
     { title: 'Interlineal', icon: ArrowLeftRight, view: 'interlinear' as const },
     { title: 'Mi progreso', icon: Trophy, view: 'tracker' as const },
   ];
 
-  const exploreItems = [
-    { title: 'Planes de lectura', icon: ListChecks, view: 'devotionals' as const, ready: true },
-    { title: 'Audio Biblia', icon: Headphones, view: 'reader' as const, ready: true },
-    { title: 'Recursos', icon: Library, view: null, ready: false },
-  ];
+  const exploreItems = [{ title: 'Recursos', icon: Library, view: null, ready: false }];
 
   function handleSelect(view: AppView) {
     onNavigate(view);
