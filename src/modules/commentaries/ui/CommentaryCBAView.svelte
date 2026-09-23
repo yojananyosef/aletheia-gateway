@@ -239,8 +239,8 @@
   }
 
   .cba-full-close-btn:hover {
-    background: var(--accent-error);
-    color: white;
+    background: var(--accent-error-solid);
+    color: var(--on-accent-error-solid);
   }
 
   .cba-full-nav {
@@ -269,12 +269,13 @@
   }
 
   .cba-full-nav-btn:hover {
-    background: var(--accent-interest);
+    background: var(--accent-active);
+    color: var(--on-accent-active);
   }
 
   .cba-full-nav-btn:active {
     transform: translate(2px, 2px);
-    box-shadow: 0 0 0 var(--border-color);
+    box-shadow: var(--shadow-active);
   }
 
   .cba-full-nav-ref {
@@ -331,6 +332,7 @@
 
   .cba-full-verse-card.is-targeted {
     background: var(--accent-attention);
+    color: var(--on-accent-attention);
     box-shadow: 4px 4px 0 var(--border-color);
   }
 
@@ -346,7 +348,7 @@
 
   .cba-full-verse-badge {
     padding: 2px 8px;
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     background: var(--accent-attention);
     border: 1.5px solid var(--border-color);
     box-shadow: 1.5px 1.5px 0 var(--border-color);
@@ -375,7 +377,8 @@
   }
 
   .cba-full-read-btn:hover {
-    background: var(--accent-interest);
+    background: var(--accent-active);
+    color: var(--on-accent-active);
   }
 
   .cba-full-verse-text {

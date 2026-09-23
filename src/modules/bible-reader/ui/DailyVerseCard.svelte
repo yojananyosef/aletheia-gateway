@@ -145,7 +145,7 @@ import { PassageReference } from '../domain/value-objects/PassageReference';
 <section class="daily-verse-section">
   <div class="daily-verse-header">
     <div class="daily-verse-title">
-      <Sparkles size={16} class="text-[#1a1a18]" />
+      <Sparkles size={16} class="text-[var(--text-main)]" />
       <span>VERSÍCULO DEL DÍA</span>
     </div>
 

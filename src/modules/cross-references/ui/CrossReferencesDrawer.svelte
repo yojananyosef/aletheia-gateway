@@ -190,7 +190,7 @@
           {#if filterTerm}
             <button
               type="button"
-              class="text-xs font-bold px-1 text-[var(--text-muted)] hover:text-black"
+              class="text-xs font-bold px-1 text-[var(--text-muted)] hover:text-[var(--text-main)]"
               onclick={() => (filterTerm = '')}
             >
               ✕

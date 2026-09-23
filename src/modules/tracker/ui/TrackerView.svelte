@@ -205,7 +205,8 @@
     box-shadow: 2px 2px 0 var(--border-color);
   }
   .tracker-tab-btn.is-active {
-    background: var(--accent-interest);
+    background: var(--accent-active);
+    color: var(--on-accent-active);
   }
   .tracker-reset-btn {
     display: inline-flex;
@@ -214,8 +215,8 @@
     margin-left: auto;
   }
   .tracker-reset-btn.is-confirm {
-    background: var(--accent-error);
-    color: #fff;
+    background: var(--accent-error-solid);
+    color: var(--on-accent-error-solid);
   }
   .tracker-search {
     border: 2px solid var(--border-color);

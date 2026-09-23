@@ -18,6 +18,7 @@
   height: 100vh;
   border-right: var(--border-main);
   background-color: var(--accent-attention);
+  color: var(--on-accent-attention);
   display: flex;
   flex-direction: column;
   transition: width 0.15s cubic-bezier(0.4, 0, 0.2, 1), transform 0.15s ease;
@@ -39,6 +40,7 @@
   padding: 0 12px;
   border-bottom: var(--border-main);
   background-color: var(--accent-attention);
+  color: var(--on-accent-attention);
   flex-shrink: 0;
 }
 
@@ -75,8 +77,8 @@
   justify-content: center;
   border: 2px solid var(--border-color);
   border-radius: var(--radius-strict);
-  background-color: var(--accent-interest);
-  color: var(--text-main);
+  background-color: var(--accent-active);
+  color: var(--on-accent-active);
   font-family: var(--font-display);
   font-size: 18px;
   font-weight: 800;
@@ -97,13 +99,14 @@
 }
 
 .neo-sidebar-label {
-  color: var(--text-main);
+  color: var(--on-accent-attention);
   font-family: var(--font-mono);
   font-size: 0.75rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 0 8px 4px;
+  opacity: 0.85;
 }
 
 .neo-nav-button {
@@ -116,7 +119,7 @@
   border: 2px solid transparent;
   border-radius: var(--radius-strict);
   background: transparent;
-  color: var(--text-main);
+  color: var(--on-accent-attention);
   font-weight: 700;
   font-size: 0.9375rem;
   text-align: left;
@@ -126,8 +129,8 @@
 .neo-nav-button:hover,
 .neo-nav-button.is-active {
   border-color: var(--border-color);
-  background-color: var(--accent-interest);
-  color: var(--text-main);
+  background-color: var(--accent-active);
+  color: var(--on-accent-active);
   box-shadow: var(--shadow-sm);
 }
 
@@ -150,8 +153,8 @@
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--text-muted);
-  background-color: var(--bg-canvas);
+  color: var(--text-main);
+  background-color: var(--bg-surface);
   border: 1px solid var(--border-color);
   padding: 1px 5px;
   flex-shrink: 0;
@@ -160,8 +163,13 @@
 .neo-sidebar-footer {
   border-top: var(--border-main);
   background-color: var(--accent-attention);
+  color: var(--on-accent-attention);
   padding: 12px 10px;
   flex-shrink: 0;
+}
+
+.neo-sidebar-footer .neo-nav-button {
+  color: var(--on-accent-attention);
 }
 
 /* Sidebar Colapsado */
@@ -246,8 +254,8 @@
   height: 44px;
   border: var(--border-main);
   border-radius: var(--radius-strict);
-  background-color: var(--accent-interest);
-  color: var(--text-main);
+  background-color: var(--accent-active);
+  color: var(--on-accent-active);
   box-shadow: var(--shadow-sm);
   transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out, background 0.08s ease-in-out;
 }
@@ -256,6 +264,7 @@
   transform: translate(-2px, -2px);
   box-shadow: var(--shadow-md);
   background-color: var(--accent-attention);
+  color: var(--on-accent-attention);
 }
 
 .topbar-btn:active {
@@ -265,7 +274,7 @@
 
 .topbar-btn.calm-active-btn {
   background-color: var(--accent-success);
-  color: var(--text-main);
+  color: var(--on-accent-success);
   border-color: var(--border-color);
   box-shadow: var(--shadow-sm);
 }

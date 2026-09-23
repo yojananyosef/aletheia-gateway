@@ -174,7 +174,7 @@
 
   .neo-tooltip-content {
     background-color: var(--text-main, #1a1a18);
-    color: #ffffff;
+    color: var(--bg-surface, #ffffff);
     border: 2px solid var(--text-main, #1a1a18);
     border-radius: 0px;
     box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.45);

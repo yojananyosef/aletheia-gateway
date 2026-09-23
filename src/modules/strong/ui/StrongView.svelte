@@ -358,6 +358,7 @@
 
   .strong-tab.is-active {
     background: var(--accent-attention);
+    color: var(--on-accent-attention);
   }
 
   .strong-search-form {
@@ -396,7 +397,8 @@
 
   .strong-nav-btn:hover:not(:disabled),
   .strong-back-btn:hover {
-    background: var(--accent-interest);
+    background: var(--accent-active);
+    color: var(--on-accent-active);
   }
 
   .strong-nav-btn:disabled {
@@ -443,7 +445,8 @@
   }
 
   .strong-row-main:hover .strong-row-id {
-    background: var(--accent-interest);
+    background: var(--accent-active);
+    color: var(--on-accent-active);
   }
 
   .strong-row-id {
@@ -452,6 +455,7 @@
     padding: 3px 6px;
     text-align: center;
     background: var(--accent-attention);
+    color: var(--on-accent-attention);
     border: 1.5px solid var(--border-color);
     font-family: var(--font-mono);
     font-size: 0.75rem;
@@ -500,6 +504,7 @@
 
   .strong-row-audio:hover:not(:disabled) {
     background: var(--accent-attention);
+    color: var(--on-accent-attention);
   }
 
   .strong-row-audio:disabled {
@@ -531,6 +536,7 @@
   .strong-id-badge {
     padding: 3px 10px;
     background: var(--accent-attention);
+    color: var(--on-accent-attention);
     border: 2px solid var(--border-color);
     box-shadow: 2px 2px 0 var(--border-color);
     font-family: var(--font-mono);
@@ -558,7 +564,7 @@
     align-items: center;
     gap: 8px;
     padding: 9px 16px;
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     background: var(--accent-attention);
     border: 2px solid var(--border-color);
     box-shadow: 3px 3px 0 var(--border-color);
@@ -569,13 +575,13 @@
   }
 
   .strong-audio-btn:hover:not(:disabled) {
-    background: var(--accent-desire);
-    color: #fff;
+    background: var(--accent-error-solid);
+    color: var(--on-accent-error-solid);
   }
 
   .strong-audio-btn:active:not(:disabled) {
     transform: translate(3px, 3px);
-    box-shadow: 0 0 0 var(--border-color);
+    box-shadow: var(--shadow-active);
   }
 
   .strong-audio-btn:disabled {
@@ -638,7 +644,7 @@
   .strong-state button {
     margin-top: 4px;
     padding: 6px 12px;
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     background: var(--accent-attention);
     border: 1.5px solid var(--border-color);
     box-shadow: 1.5px 1.5px 0 var(--border-color);

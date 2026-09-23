@@ -5,7 +5,7 @@
   import Topbar from './Topbar.svelte';
   import NeoTooltip from './NeoTooltip.svelte';
   import { readStorageWithLegacy } from '../utils/storage';
-  import { applyFontClass, applyThemeClass, applyReadingClass } from '../utils/appearance';
+  import { applyFontClass, applyThemeClass, applyCalmOverlay, applyReadingClass } from '../utils/appearance';
   import type { AppView } from './AppView';
 
   interface Props {
@@ -29,6 +29,7 @@
   let isCollapsed = $state(false);
   let mobileOpen = $state(false);
   let isCalmMode = $state(false);
+  let baseTheme = $state('standard');
 
   onMount(() => {
     const onMouse = (e: MouseEvent) => {
@@ -39,27 +40,23 @@
     };
     window.addEventListener('mousemove', onMouse);    try {
       // Prefer UserSettings (Fase 1) with fallback to legacy aletheia_calm_mode
-      // (y a las claves pre-v0.11 "alethia_*", migradas con fallback)
+      // (y a las claves pre-v0.11 "alethia_*", migradas con fallback).
+      // Calma = overlay global `calm-on` combinado con el tema base.
       const raw = readStorageWithLegacy('aletheia_user_settings', 'alethia_user_settings');
       if (raw) {
         const s = JSON.parse(raw);
-        if (s.theme) {
-          applyThemeClass(s.theme);
-          isCalmMode = s.theme === 'calm';
-        } else {
-          const savedCalm = readStorageWithLegacy('aletheia_calm_mode', 'alethia_calm_mode');
-          if (savedCalm === 'true') {
-            isCalmMode = true;
-            applyThemeClass('calm');
-          }
-        }
+        const theme = s.theme === 'calm' ? 'standard' : (s.theme ?? 'standard');
+        const calm = s.theme === 'calm' || s.calmMode === true;
+        baseTheme = theme;
+        isCalmMode = calm;
+        applyThemeClass(theme, { calm });
         if (s.fontFamily) applyFontClass(s.fontFamily);
         applyReadingClass({ bionic: s.bionic, ruler: s.ruler, redLetters: s.redLetters });
       } else {
         const savedCalm = readStorageWithLegacy('aletheia_calm_mode', 'alethia_calm_mode');
         if (savedCalm === 'true') {
           isCalmMode = true;
-          document.body.classList.add('mode-calm');
+          applyThemeClass('standard', { calm: true });
         }
         // default font inter
         applyFontClass('inter');
@@ -72,20 +69,22 @@
   function handleToggleCalmMode() {
     isCalmMode = !isCalmMode;
     if (typeof document !== 'undefined') {
-      applyThemeClass(isCalmMode ? 'calm' : 'standard');
+      applyCalmOverlay(isCalmMode);
     }
     try {
       localStorage.setItem('aletheia_calm_mode', String(isCalmMode));
-      // keep UserSettings in sync
+      // keep UserSettings in sync (calma como overlay, sin destruir el tema base)
       const raw = localStorage.getItem('aletheia_user_settings');
       if (raw) {
         const s = JSON.parse(raw);
-        s.theme = isCalmMode ? 'calm' : 'standard';
+        const theme = (s.theme === 'calm' ? 'standard' : s.theme) ?? baseTheme;
+        baseTheme = theme;
+        s.theme = theme;
         s.calmMode = isCalmMode;
         localStorage.setItem('aletheia_user_settings', JSON.stringify(s));
       } else {
         localStorage.setItem('aletheia_user_settings', JSON.stringify({
-          theme: isCalmMode ? 'calm' : 'standard',
+          theme: baseTheme,
           fontFamily: 'inter',
           defaultTranslation: 'RV1909',
           calmMode: isCalmMode

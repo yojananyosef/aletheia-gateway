@@ -5,9 +5,10 @@
 mark.bible-highlight {
   padding: 1px 3px;
   border-radius: 0;
-  color: #1a1a18;
+  color: var(--on-highlight-yellow);
+  background-color: var(--highlight-yellow);
   font-weight: 600;
-  border-bottom: 2px solid rgba(26, 26, 24, 0.4);
+  border-bottom: 2px solid var(--border-color);
   cursor: pointer;
   transition: opacity 0.08s ease;
 }
@@ -17,19 +18,23 @@ mark.bible-highlight:hover {
 }
 
 mark.bible-highlight-yellow {
-  background-color: #FFD23F;
+  background-color: var(--highlight-yellow);
+  color: var(--on-highlight-yellow);
 }
 
 mark.bible-highlight-coral {
-  background-color: #FF6B6B;
+  background-color: var(--highlight-coral);
+  color: var(--on-highlight-coral);
 }
 
 mark.bible-highlight-blue {
-  background-color: #74B9FF;
+  background-color: var(--highlight-blue);
+  color: var(--on-highlight-blue);
 }
 
 mark.bible-highlight-green {
-  background-color: #2ECC71;
+  background-color: var(--highlight-green);
+  color: var(--on-highlight-green);
 }
 
 .highlight-floating-toolbar {
@@ -105,14 +110,15 @@ mark.bible-highlight-green {
 }
 
 .highlight-action-btn:hover {
-  background-color: var(--accent-interest);
+  background-color: var(--accent-active);
+  color: var(--on-accent-active);
   border-color: var(--border-color);
   box-shadow: 2px 2px 0 var(--border-color);
 }
 
 .eraser-btn:hover {
-  background-color: var(--accent-error) !important;
-  color: #fff !important;
+  background-color: var(--accent-error-solid) !important;
+  color: var(--on-accent-error-solid) !important;
 }
 
 .toolbar-toast {
@@ -121,7 +127,7 @@ mark.bible-highlight-green {
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--text-main);
-  color: #fff;
+  color: var(--bg-surface);
   font-family: var(--font-mono);
   font-size: 0.6875rem;
   font-weight: 800;

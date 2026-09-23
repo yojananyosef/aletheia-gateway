@@ -78,8 +78,8 @@
       <span class="neo-brand-badge">A</span>
       {#if !isCollapsed || isOpen}
         <div class="flex flex-col text-left leading-tight overflow-hidden">
-          <span class="font-bold text-sm truncate">Aletheia<span class="text-[var(--neo-blue)]">Gateway</span></span>
-          <span class="text-xs text-black font-semibold truncate">La verdad en la Palabra</span>
+          <span class="font-bold text-sm truncate">Aletheia<span class="text-[var(--accent-deep-navy)]">Gateway</span></span>
+          <span class="text-xs text-[var(--on-accent-attention)] font-semibold truncate">La verdad en la Palabra</span>
         </div>
       {/if}
     </button>
@@ -165,7 +165,7 @@
     font-size: 0.6875rem;
     font-weight: 800;
     color: var(--text-main);
-    background-color: var(--accent-attention);
+    background-color: var(--bg-surface);
     border: 1px solid var(--border-color);
     padding: 1px 6px;
     box-shadow: 1px 1px 0 var(--border-color);

@@ -1,46 +1,98 @@
 /* ==========================================================================
    DESIGN SYSTEM MAESTRO: NEOBRUTALISMO ACCESIBLE Y COMERCIAL (AIDA)
-   WCAG 2.2 AAA / Criterio 1.4.12 / Síndrome de Irlen / Ergonomía Neurocognitiva
+   WCAG 2.2 AAA: texto normal >= 7:1, UI no-textual >= 3:1
+   Ratios verificados con luminancia relativa (ver scripts/check-contrast.mjs).
+   Confort: sidebar amarillo + activo cyan + bordes 3px + hard-shadows.
+   El amarillo y el cyan CAMBIAN por tema (siempre con tinta oscura AAA).
+   Modo calma = overlay global `body.calm-on` (tenue + dislexia) combinable
+   con cualquier tema base. `body.mode-calm` se conserva como alias legacy.
    ========================================================================== */
 
 :root {
   color-scheme: light;
 
-  /* --- PALETA CROMÁTICA ESTÁNDAR ANTI-ESTRÉS VISUAL (16.5:1 AAA) --- */
-  --bg-canvas: #f5f5f0;
-  --bg-surface: #ffffff;
+  /* --- BASE CLARO ESTANDAR --- */
+  --bg-canvas: #f5f5f0; /* 15.94:1 con #1a1a18 AAA */
+  --bg-surface: #ffffff; /* 17.43:1 con #1a1a18 AAA */
   --text-main: #1a1a18;
-  --text-muted: #575752;
+  --text-muted: #4e4e49; /* 7.65:1 sobre canvas, 8.37:1 sobre surface AAA */
 
-  /* Acentos Funcionales AIDA */
-  --accent-attention: #ffd23f; /* Amarillo A */
-  --accent-desire: #ff6b6b; /* Rosa Coral D */
-  --accent-interest: #74b9ff; /* Azul Interés I */
-  --accent-success: #2ecc71; /* Verde Conversión */
-  --accent-error: #dc2626; /* Rojo Alerta */
+  /* Amarillo atencion: #1a1a18 sobre #ffd23f = 12.07:1 AAA */
+  --accent-attention: #ffd23f;
+  --on-accent-attention: #1a1a18;
+  /* Cyan activo (confort imagen referencia): #1a1a18 sobre #7de8f0 = 12.18:1 AAA */
+  --accent-active: #7de8f0;
+  --on-accent-active: #1a1a18;
+  /* Azul interes bg: #1a1a18 sobre #74b9ff = 8.40:1 AAA */
+  --accent-interest: #74b9ff;
+  --on-accent-interest: #1a1a18;
+  /* Azul como TEXTO sobre superficie clara: #0b4f8a sobre #fff = 8.40:1 AAA */
+  --accent-interest-ink: #0b4f8a;
+  /* Azul marino para texto sobre fondos amarillos/cyan: #062e5e sobre
+     #ffd23f = 9.32:1, sobre #7de8f0 = 9.40:1, sobre #e8c872 = 8.29:1 AAA */
+  --accent-deep-navy: #062e5e;
+  /* Coral: solo AAA con negro puro (#000 sobre #ff6b6b = 7.57:1) */
+  --accent-desire: #ff6b6b;
+  --on-accent-desire: #000000;
+  --accent-desire-ink: #8a1f1f; /* 9.14:1 sobre #fff AAA */
+  /* Verde bg: #1a1a18 sobre #2ecc71 = 8.29:1 AAA */
+  --accent-success: #2ecc71;
+  --on-accent-success: #1a1a18;
+  --accent-success-ink: #0a4d2e; /* 9.93:1 sobre #fff AAA */
+  /* Rojo #dc2626 NO alcanza AAA con ningun texto (max 4.83:1).
+     Solido AAA = #8a1f1f + #fff (9.14:1). Tinta AAA = #8a1f1f sobre claro. */
+  --accent-error-ink: #8a1f1f;
+  --accent-error-solid: #8a1f1f;
+  --on-accent-error-solid: #ffffff;
+  --accent-error-soft: #ffd9d4;
+  --on-accent-error-soft: #1a1a18; /* ~13:1 AAA */
+  --accent-error: var(--accent-error-ink);
 
-  /* Aliases */
+  /* Alertas AAA */
+  --alert-success-bg: #d9f0e1;
+  --alert-success-fg: #0a4d2e;
+  --alert-success-border: #0a4d2e;
+  --alert-error-bg: #ffe1de;
+  --alert-error-fg: #8a1f1f;
+  --alert-error-border: #8a1f1f;
+
+  /* Palabras de Cristo: #8a1f1f sobre #fff = 9.14:1 AAA */
+  --red-letters: #8a1f1f;
+
+  /* Highlights: fondo vivo + tinta oscura AAA */
+  --highlight-yellow: #ffd23f;
+  --on-highlight-yellow: #1a1a18;
+  --highlight-coral: #ff6b6b;
+  --on-highlight-coral: #000000;
+  --highlight-blue: #74b9ff;
+  --on-highlight-blue: #1a1a18;
+  --highlight-green: #2ecc71;
+  --on-highlight-green: #1a1a18;
+  --highlight-match: #ffeaa7;
+  --on-highlight-match: #1a1a18;
+
+  /* Aliases neobrutalistas (confort) */
   --neo-cream: var(--bg-canvas);
   --neo-yellow: var(--accent-attention);
   --neo-coral: var(--accent-desire);
   --neo-blue: var(--accent-interest);
   --neo-green: var(--accent-success);
-  --neo-red: var(--accent-desire);
+  --neo-red: var(--accent-error-ink);
 
-  /* --- GEOMETRÍA Y ESTRUCTURA --- */
+  /* --- GEOMETRIA Y ESTRUCTURA (confort, no cambia por tema) --- */
   --border-width-desktop: 3px;
   --border-width-mobile: 2px;
   --border-color: #1a1a18;
   --border-main: var(--border-width-desktop) solid var(--border-color);
   --radius-strict: 0px;
 
-  /* --- SISTEMA DE SOMBRAS DURAS (BLUR ESTRICTO = 0px) --- */
+  /* --- SOMBRAS DURAS (BLUR = 0px) --- */
   --shadow-sm: 3px 3px 0px 0px var(--border-color);
   --shadow-md: 5px 5px 0px 0px var(--border-color);
   --shadow-lg: 8px 8px 0px 0px var(--border-color);
   --shadow-active: 0px 0px 0px 0px var(--border-color);
 
-  /* --- TIPOGRAFÍA Y NEUROCOGNICIÓN --- */
+  /* --- TIPOGRAFIA --- */
   --font-display: 'Syne', 'Archivo Black', -apple-system, sans-serif;
   --font-body: 'Inter', 'DM Sans', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
@@ -51,24 +103,37 @@
   --word-spacing-body: 0.08em;
   --max-width-text: 65ch;
 
-  /* Foco de Accesibilidad */
-  --focus-outline: 3px solid var(--border-color);
-  --focus-offset: 4px;
+  /* Foco visible dual: anillo borde + halo cyan (visible sobre amarillo y oscuro) */
+  --focus-ring: var(--border-color);
+  --focus-halo: var(--accent-active);
+  --focus-outline: 3px solid var(--focus-ring);
+  --focus-offset: 2px;
 }
 
-/* --- MODO CALMA & DISLEXIA (TEMA ALTERNATIVO NEUROCOGNITIVO) --- */
+/* --- MODO CALMA LEGACY (alias: estandar suave). Muted corregido a AAA --- */
 body.mode-calm {
-  --bg-canvas: #f7f4ed; /* Marfil suave relajante */
+  --bg-canvas: #f7f4ed;
   --bg-surface: #ffffff;
-  --text-main: #222831; /* Tinta suave */
-  --text-muted: #606770;
+  --text-main: #222831; /* 12.42:1 sobre #ffeaa7 AAA */
+  --text-muted: #3f4750; /* 8.62:1 sobre canvas AAA (antes #606770 = 5.21 FAIL) */
   --border-color: #222831;
 
-  --accent-attention: #ffeaa7; /* Amarillo pastel */
-  --accent-desire: #fab1a0; /* Coral pastel */
-  --accent-interest: #81ecec; /* Turquesa suave */
-  --accent-success: #55efc4; /* Menta suave */
-  --accent-error: #ff7675;
+  --accent-attention: #ffeaa7;
+  --on-accent-attention: #222831;
+  --accent-active: #81ecec; /* #222831 sobre #81ecec = 10.69 AAA */
+  --on-accent-active: #222831;
+  --accent-desire: #fab1a0; /* 8.38 AAA con #222831 */
+  --on-accent-desire: #222831;
+  --accent-interest: #81ecec;
+  --on-accent-interest: #222831;
+  --accent-interest-ink: #0b4f8a;
+  --accent-success: #55efc4; /* 10.26 AAA */
+  --on-accent-success: #222831;
+  --accent-success-ink: #0a4d2e;
+  --accent-error-ink: #8a1f1f;
+  --accent-error-solid: #8a1f1f;
+  --on-accent-error-solid: #ffffff;
+  --red-letters: #8a1f1f;
 
   --font-body: 'Lexend', 'Verdana', sans-serif;
   --line-height-body: 1.85;
@@ -77,26 +142,74 @@ body.mode-calm {
   --max-width-text: 58ch;
 }
 
-/* --- MODO ALTO CONTRASTE (WCAG AAA 21:1 - baja visión) --- */
+/* --- MODO CALMA OVERLAY GLOBAL: tenue + dislexia sobre CUALQUIER tema ---
+   No redefine colores (conserva AAA del tema base). Solo tipografia,
+   ritmo y saturacion visual. Combinable: body.mode-dark.calm-on, etc. */
+body.calm-on {
+  --font-body: 'Lexend', 'Verdana', sans-serif;
+  --line-height-body: 1.85;
+  --letter-spacing-body: 0.02em;
+  --word-spacing-body: 0.12em;
+  --max-width-text: 58ch;
+}
+body.calm-on .neo-sidebar,
+body.calm-on .reader-toolbar,
+body.calm-on .settings-header,
+body.calm-on .book-modal-header,
+body.calm-on .search-form button,
+body.calm-on .daily-verse-action-btn {
+  filter: saturate(0.82);
+}
+body.calm-on .passage-text,
+body.calm-on .daily-verse-quote,
+body.calm-on .concordance-verse-body {
+  line-height: 1.85;
+  word-spacing: 0.12em;
+}
+
+/* --- MODO ALTO CONTRASTE (AAA estricto) --- */
 body.mode-high-contrast {
+  color-scheme: light;
   --bg-canvas: #ffffff;
   --bg-surface: #ffffff;
-  --text-main: #000000;
-  --text-muted: #000000;
+  --text-main: #000000; /* 21:1 AAA */
+  --text-muted: #1a1a18; /* 17.43:1 AAA */
   --border-color: #000000;
 
-  --accent-attention: #ffff00; /* Amarillo puro alto contraste */
-  --accent-desire: #ff0000;
+  --accent-attention: #ffff00; /* #000 sobre #ffff00 = 19.56 AAA */
+  --on-accent-attention: #000000;
+  --accent-active: #00ffff; /* #000 sobre #00ffff = 16.75 AAA */
+  --on-accent-active: #000000;
+  --accent-desire: #ff6b6b; /* #000 sobre coral = 7.57 AAA */
+  --on-accent-desire: #000000;
+  --accent-desire-ink: #8a1f1f;
   --accent-interest: #00ffff;
-  --accent-success: #00ff00;
-  --accent-error: #ff0000;
+  --on-accent-interest: #000000;
+  --accent-interest-ink: #004e89; /* 8.57:1 sobre #fff AAA */
+  --accent-success: #00ff00; /* 15.30:1 con #000 AAA */
+  --on-accent-success: #000000;
+  --accent-success-ink: #0a4d2e;
+  --accent-error-ink: #8a1f1f; /* 9.14 AAA, evita #ff0000 que no llega a AAA */
+  --accent-error-solid: #8a1f1f;
+  --on-accent-error-solid: #ffffff;
+  --accent-error-soft: #ffffff;
+  --on-accent-error-soft: #8a1f1f;
+  --accent-error: var(--accent-error-ink);
+  --red-letters: #8a1f1f;
+
+  --alert-success-bg: #ffffff;
+  --alert-success-fg: #0a4d2e;
+  --alert-success-border: #000000;
+  --alert-error-bg: #ffffff;
+  --alert-error-fg: #8a1f1f;
+  --alert-error-border: #000000;
 
   --line-height-body: 1.7;
   --letter-spacing-body: 0.015em;
   --word-spacing-body: 0.1em;
 }
 
-/* --- TIPOGRAFÍAS SELECCIONABLES (Settings → Apariencia) --- */
+/* --- TIPOGRAFIAS SELECCIONABLES --- */
 body.font-inter {
   --font-body: 'Inter', 'DM Sans', system-ui, sans-serif;
 }
@@ -119,51 +232,120 @@ body.font-opendyslexic {
   --word-spacing-body: 0.14em;
 }
 
-/* --- MODO SEPIA (lectura prolongada, baja fatiga) --- */
+/* --- MODO SEPIA (AAA verificado) --- */
 body.mode-sepia {
+  color-scheme: light;
   --bg-canvas: #f4ecd8;
   --bg-surface: #faf6ea;
-  --text-main: #433422;
-  --text-muted: #6b5d4f;
+  --text-main: #433422; /* 10.18:1 sobre canvas AAA */
+  --text-muted: #4a3f30; /* 8.72:1 sobre canvas AAA (antes #6b5d4f = 5.40 FAIL) */
   --border-color: #433422;
-  --accent-attention: #e8c872;
+  --accent-attention: #e8c872; /* #2e2114 sobre #e8c872 = 9.63 AAA */
+  --on-accent-attention: #2e2114;
+  --accent-active: #7de8f0; /* #433422 sobre cyan = 8.37 AAA */
+  --on-accent-active: #2e2114;
+  --accent-desire: #d96a5a;
+  --on-accent-desire: #000000;
+  --accent-desire-ink: #8a1f1f;
+  --accent-interest: #7fb8d9;
+  --on-accent-interest: #2e2114;
+  --accent-interest-ink: #084a80; /* ~8.4 AAA sobre superficie sepia */
+  --accent-success: #4fae7a;
+  --on-accent-success: #1a1a18;
+  --accent-success-ink: #0a4d2e;
+  --accent-error-ink: #8a1f1f;
+  --accent-error-solid: #8a1f1f;
+  --on-accent-error-solid: #ffffff;
+  --accent-error-soft: #f6ddd2;
+  --on-accent-error-soft: #2e2114;
+  --accent-error: var(--accent-error-ink);
+  --alert-success-bg: #e6f0e2;
+  --alert-success-fg: #0a4d2e;
+  --alert-success-border: #433422;
+  --alert-error-bg: #f6ddd2;
+  --alert-error-fg: #8a1f1f;
+  --alert-error-border: #433422;
+  --red-letters: #8a1f1f;
   --line-height-body: 1.8;
 }
 
-/* --- MODO DARK (neobrutalismo nocturno) --- */
+/* --- MODO DARK (amarillo adaptativo: fondo amarillo + tinta OSCURA AAA) --- */
 body.mode-dark {
   color-scheme: dark;
   --bg-canvas: #1a1a18;
   --bg-surface: #242422;
-  --text-main: #f5f5f0;
-  --text-muted: #b8b8b0;
+  --text-main: #f5f5f0; /* 15.94:1 AAA */
+  --text-muted: #c9c9c9; /* 10.53:1 sobre canvas, 9.39:1 sobre surface AAA */
   --border-color: #f5f5f0;
-  --accent-attention: #ffd23f;
+  --accent-attention: #ffd23f; /* tinta oscura forzada: 12.07 AAA */
+  --on-accent-attention: #1a1a18;
+  --accent-active: #7de8f0;
+  --on-accent-active: #1a1a18;
   --accent-desire: #ff6b6b;
+  --on-accent-desire: #000000; /* 7.57 AAA */
+  --accent-desire-ink: #ffb4ab; /* 9.16:1 sobre surface AAA */
   --accent-interest: #74b9ff;
+  --on-accent-interest: #1a1a18;
+  --accent-interest-ink: #a8d4ff; /* 10.02:1 sobre surface AAA */
   --accent-success: #2ecc71;
-  --accent-error: #ff7675;
+  --on-accent-success: #1a1a18;
+  --accent-success-ink: #86efac;
+  --accent-error-ink: #ffb4ab; /* 9.16 AAA sobre surface */
+  --accent-error-solid: #ffb4ab;
+  --on-accent-error-solid: #1a1a18; /* 10.27 AAA */
+  --accent-error-soft: #3a1f1f;
+  --on-accent-error-soft: #ffb4ab;
+  --accent-error: var(--accent-error-ink);
+  --alert-success-bg: #123324;
+  --alert-success-fg: #86efac;
+  --alert-success-border: #f5f5f0;
+  --alert-error-bg: #3a1f1f;
+  --alert-error-fg: #ffb4ab;
+  --alert-error-border: #f5f5f0;
+  --red-letters: #ffb4ab; /* 10.27:1 (antes #b91c1c = 2.69 FAIL) */
+  --highlight-match: #ffeaa7;
+  --on-highlight-match: #1a1a18;
 }
 
-/* --- MODO OLED (negro puro, ahorro batería) --- */
+/* --- MODO OLED (negro puro) --- */
 body.mode-oled {
   color-scheme: dark;
   --bg-canvas: #000000;
   --bg-surface: #0a0a0a;
-  --text-main: #ffffff;
-  --text-muted: #c9c9c9;
+  --text-main: #ffffff; /* 21:1 AAA */
+  --text-muted: #c9c9c9; /* 12.68:1 AAA */
   --border-color: #ffffff;
   --accent-attention: #ffd23f;
+  --on-accent-attention: #1a1a18;
+  --accent-active: #7de8f0;
+  --on-accent-active: #1a1a18;
   --accent-desire: #ff6b6b;
+  --on-accent-desire: #000000;
+  --accent-desire-ink: #ffb4ab; /* 12.37:1 sobre negro AAA */
   --accent-interest: #74b9ff;
+  --on-accent-interest: #1a1a18;
+  --accent-interest-ink: #a8d4ff; /* 13.53:1 AAA */
   --accent-success: #2ecc71;
-  --accent-error: #ff7675;
+  --on-accent-success: #1a1a18;
+  --accent-success-ink: #86efac;
+  --accent-error-ink: #ffb4ab;
+  --accent-error-solid: #ffb4ab;
+  --on-accent-error-solid: #000000; /* 12.37 AAA */
+  --accent-error-soft: #1f0f0f;
+  --on-accent-error-soft: #ffb4ab;
+  --accent-error: var(--accent-error-ink);
+  --alert-success-bg: #06130c;
+  --alert-success-fg: #86efac;
+  --alert-success-border: #ffffff;
+  --alert-error-bg: #1f0f0f;
+  --alert-error-fg: #ffb4ab;
+  --alert-error-border: #ffffff;
+  --red-letters: #ffb4ab;
+  --highlight-match: #ffeaa7;
+  --on-highlight-match: #1a1a18;
 }
 
-/* --- LECTURA BIONICA (resalta inicio de palabra; el markup se emite siempre
-   y el body decide el efecto al instante, sin re-render) ---
-   OJO: el reset base es obligatorio porque el UA pinta <b> en negrita
-   por defecto y el efecto se vería aun con la ayuda en Off. --- */
+/* --- LECTURA BIONICA --- */
 .bionic-b {
   font-weight: inherit;
 }
@@ -180,7 +362,7 @@ body.bionic-fuerte .interlinear-gloss .bionic-b {
   color: var(--text-main);
 }
 
-/* --- REGLA DE LECTURA (guía horizontal; sobre el modal para verse al activar) --- */
+/* --- REGLA DE LECTURA --- */
 body.ruler-on .reading-ruler {
   display: block;
 }
@@ -198,26 +380,23 @@ body.ruler-on .reading-ruler {
   z-index: 200;
 }
 
-/* --- PALABRAS DE CRISTO (overlay Mateo; el markup se emite siempre,
-   body.red-letters-on lo tiñe al instante). data-red-source: phrase
-   (recorte exacto) o verse (versículo completo, otra redacción) --- */
+/* --- PALABRAS DE CRISTO (theme-aware, antes #b91c1c fijo invisible en dark) --- */
 body.red-letters-on .words-of-christ {
-  color: #b91c1c;
+  color: var(--red-letters);
   font-weight: 600;
 }
 body.red-letters-on .words-of-christ .bionic-b {
   color: inherit;
 }
 
-/* Sombreado de selección de texto con el color del tema activo */
+/* --- SELECCION (tinta sobre acento, nunca text-main claro sobre amarillo) --- */
 ::selection {
   background-color: var(--accent-attention);
-  color: var(--text-main);
+  color: var(--on-accent-attention);
 }
-
 ::-moz-selection {
   background-color: var(--accent-attention);
-  color: var(--text-main);
+  color: var(--on-accent-attention);
 }
 
 /* Reset y Base */
@@ -278,14 +457,17 @@ a {
 
 a:hover {
   background-color: var(--accent-attention);
+  color: var(--on-accent-attention);
 }
 
+/* Foco dual AAA: visible sobre amarillo, blanco, negro y cyan */
 :focus-visible {
   outline: var(--focus-outline) !important;
   outline-offset: var(--focus-offset) !important;
+  box-shadow: 0 0 0 6px var(--focus-halo) !important;
 }
 
-/* --- BOTÓN NAV NEOBRUTALISTA COMPARTIDO (lector, devocionales, planes, tracker) --- */
+/* --- BOTON NAV NEOBRUTALISTA COMPARTIDO --- */
 .neo-btn-nav {
   display: inline-flex;
   align-items: center;
@@ -302,7 +484,8 @@ a:hover {
 }
 
 .neo-btn-nav:hover:not(:disabled) {
-  background-color: var(--accent-interest);
+  background-color: var(--accent-active);
+  color: var(--on-accent-active);
   transform: translate(-1px, -1px);
   box-shadow: 3px 3px 0 var(--border-color);
 }
@@ -313,7 +496,7 @@ a:hover {
   box-shadow: none;
 }
 
-/* --- SCROLLBARS ESTILO PROYECTO (base global: listas, dropdowns, modales) --- */
+/* --- SCROLLBARS (theme-aware) --- */
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--accent-attention) var(--bg-canvas);
@@ -334,5 +517,5 @@ a:hover {
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color: var(--accent-desire);
+  background-color: var(--accent-active);
 }

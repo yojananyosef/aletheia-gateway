@@ -67,7 +67,9 @@ def strip_accents(s: str) -> str:
 
 
 def norm_name(s: str) -> str:
-    return strip_accents(s).lower().replace(" ", "")
+    name = strip_accents(s).lower().replace(" ", "")
+    # El sitio usa ordinales ("1ra Samuel", "2da Reyes"): reducirlos a "1samuel".
+    return re.sub(r"^(\d)(ra|da|ro|do|er|re|to|mo|vo|no)", r"\1", name)
 
 
 # Nombre normalizado (gateway) -> código BOOK. Se completa con alias comunes.
@@ -246,7 +248,11 @@ def main() -> int:
         with open(progress_path, encoding="utf-8") as f:
             for line in f:
                 try:
-                    done.add(json.loads(line)["key"])
+                    rec = json.loads(line)
+                    # Solo lo efectivamente auditado cuenta como hecho: los
+                    # unmapped_book / fetch_error deben reintentarse.
+                    if rec.get("status") in ("ok", "diff", "missing_local"):
+                        done.add(rec["key"])
                 except (KeyError, json.JSONDecodeError):
                     continue
         print(f"Reanudando: {len(done)} versículos ya auditados.")

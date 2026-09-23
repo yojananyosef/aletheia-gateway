@@ -14,7 +14,7 @@
   import AboutTab from './SettingsAboutTab.svelte';
   import { LocalStorageSettingsRepository } from '../infrastructure/LocalStorageSettingsRepository';
   import { buildBackupFilename, downloadJsonFile, readFileAsText } from '../application/BackupFileService';
-  import { applyFontClass, applyThemeClass, applyReadingClass, persistCalmMode } from '../../../shared/utils/appearance';
+  import { applyFontClass, applyThemeClass, applyCalmOverlay, applyReadingClass, persistCalmMode } from '../../../shared/utils/appearance';
   import type { ThemeMode, AppFontFamily, BionicLevel, UserSettings } from '../domain/UserSettings';
 
   interface Props {
@@ -34,8 +34,10 @@
   let shouldMerge = $state(true);
 
   function applyAppearanceFromSettings(s: UserSettings) {
-    applyThemeClass(s.theme);
-    persistCalmMode(s.theme === 'calm');
+    const calm = s.theme === 'calm' || s.calmMode === true;
+    const base = (s.theme === 'calm' ? 'standard' : s.theme) ?? 'standard';
+    applyThemeClass(base, { calm });
+    persistCalmMode(calm);
     applyFontClass(s.fontFamily);
     applyReadingClass({ bionic: s.bionic, ruler: s.ruler, redLetters: s.redLetters });
   }
@@ -46,11 +48,20 @@
   });
 
   function handleThemeChange(mode: ThemeMode) {
-    settings.theme = mode;
-    const calmFlag = mode === 'calm';
-    repo.saveSettings({ theme: mode, calmMode: calmFlag });
-    applyThemeClass(mode);
-    persistCalmMode(calmFlag);
+    const base = mode === 'calm' ? 'standard' : mode;
+    const calm = mode === 'calm' ? true : (settings.calmMode ?? false);
+    settings.theme = base;
+    settings.calmMode = calm;
+    repo.saveSettings({ theme: base, calmMode: calm });
+    applyThemeClass(base, { calm });
+    persistCalmMode(calm);
+  }
+
+  function handleCalmChange(on: boolean) {
+    settings.calmMode = on;
+    repo.saveSettings({ calmMode: on });
+    applyCalmOverlay(on);
+    persistCalmMode(on);
   }
 
   function handleFontChange(font: AppFontFamily) {
@@ -207,9 +218,9 @@
     {#if feedbackMessage}
       <div class="settings-alert {feedbackMessage.type}">
         {#if feedbackMessage.type === 'success'}
-          <Check size={18} class="shrink-0 text-[var(--accent-success)]" />
+          <Check size={18} class="shrink-0 text-[var(--alert-success-fg)]" />
         {:else}
-          <TriangleAlert size={18} class="shrink-0 text-[var(--accent-desire)]" />
+          <TriangleAlert size={18} class="shrink-0 text-[var(--alert-error-fg)]" />
         {/if}
         <span class="font-bold text-sm">{feedbackMessage.text}</span>
       </div>
@@ -219,12 +230,14 @@
     <div class="settings-body">
       {#if activeTab === 'appearance'}
         <AppearanceTab
-          theme={settings.theme}
+          theme={settings.theme === 'calm' ? 'standard' : settings.theme}
+          calmMode={settings.theme === 'calm' || settings.calmMode === true}
           fontFamily={settings.fontFamily}
           bionic={settings.bionic}
           ruler={settings.ruler}
           redLetters={settings.redLetters}
           onThemeChange={handleThemeChange}
+          onCalmChange={handleCalmChange}
           onFontChange={handleFontChange}
           onBionicChange={handleBionicChange}
           onRulerChange={handleRulerChange}

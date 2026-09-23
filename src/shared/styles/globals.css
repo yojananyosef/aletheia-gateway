@@ -1,15 +1,15 @@
 @import 'tailwindcss';
 
 @theme inline {
-  --color-canvas: #f5f5f0;
-  --color-surface: #ffffff;
-  --color-ink: #1a1a18;
-  --color-ink-muted: #575752;
-  --color-neo-yellow: #ffd23f;
-  --color-neo-coral: #ff6b6b;
-  --color-neo-blue: #74b9ff;
-  --color-neo-green: #2ecc71;
-  --color-neo-red: #dc2626;
+  --color-canvas: var(--bg-canvas);
+  --color-surface: var(--bg-surface);
+  --color-ink: var(--text-main);
+  --color-ink-muted: var(--text-muted);
+  --color-neo-yellow: var(--accent-attention);
+  --color-neo-coral: var(--accent-desire);
+  --color-neo-blue: var(--accent-interest);
+  --color-neo-green: var(--accent-success);
+  --color-neo-red: var(--accent-error-ink);
 
   --font-display: 'Syne', 'Archivo Black', -apple-system, sans-serif;
   --font-sans: 'Inter', 'DM Sans', system-ui, sans-serif;

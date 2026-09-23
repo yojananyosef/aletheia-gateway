@@ -117,7 +117,7 @@
       <!-- Header -->
       <div class="saved-verses-header">
         <div class="flex items-center gap-2">
-          <Bookmark size={20} class="text-[#1a1a18]" />
+          <Bookmark size={20} class="text-[var(--on-accent-attention)]" />
           <h2 id="saved-verses-title" class="font-display font-extrabold text-lg uppercase tracking-tight">
             Versículos Guardados
           </h2>
@@ -127,7 +127,7 @@
         <div class="flex items-center gap-3">
           {#if bookmarks.length > 0}
             <div class="book-search-input">
-              <Search size={14} class="text-black shrink-0" />
+              <Search size={14} class="text-[var(--text-main)] shrink-0" />
               <input
                 type="text"
                 placeholder="Buscar en guardados..."
@@ -169,7 +169,7 @@
             <h3 class="font-display font-bold text-base mt-2">No tienes versículos guardados aún</h3>
             <p class="text-sm text-[var(--text-muted)] max-w-[420px] text-center mt-1">
               Cuando leas la Biblia, selecciona cualquier versículo o texto y pulsa el botón de marcador
-              <Bookmark size={14} class="inline align-baseline text-[#1a1a18]" /> para guardarlo aquí y revisarlo cuando quieras.
+              <Bookmark size={14} class="inline align-baseline text-[var(--accent-interest-ink)]" /> para guardarlo aquí y revisarlo cuando quieras.
             </p>
           </div>
         {:else if filteredList.length === 0}
@@ -197,7 +197,7 @@
                       onclick={() => handleCopy(b)}
                     >
                       {#if copiedId === b.id}
-                        <Check size={14} class="text-green-600" />
+                        <Check size={14} class="text-[var(--accent-success-ink)]" />
                       {:else}
                         <Copy size={14} />
                       {/if}
@@ -205,7 +205,7 @@
 
                     <button
                       type="button"
-                      class="saved-action-icon-btn text-[var(--accent-error)] hover:bg-[var(--accent-error)] hover:text-white"
+                      class="saved-action-icon-btn text-[var(--accent-error-ink)] hover:bg-[var(--accent-error-solid)] hover:text-[var(--on-accent-error-solid)]"
                       data-tooltip="Eliminar de guardados"
                       onclick={() => handleDelete(b.id)}
                     >
@@ -263,6 +263,7 @@
     padding: 12px 18px;
     border-bottom: var(--border-main);
     background-color: var(--accent-attention);
+    color: var(--on-accent-attention);
     flex-shrink: 0;
     flex-wrap: wrap;
   }
@@ -274,7 +275,8 @@
     min-width: 24px;
     height: 24px;
     padding: 0 6px;
-    background-color: #fff;
+    background-color: var(--bg-surface);
+    color: var(--text-main);
     border: 1.5px solid var(--border-color);
     font-family: var(--font-mono);
     font-size: 0.75rem;
@@ -355,6 +357,7 @@
     font-weight: 800;
     padding: 1px 6px;
     background-color: var(--accent-interest);
+    color: var(--on-accent-interest);
     border: 1px solid var(--border-color);
   }
 
@@ -377,6 +380,7 @@
 
   .saved-action-icon-btn:hover {
     background-color: var(--accent-attention);
+    color: var(--on-accent-attention);
     box-shadow: 1.5px 1.5px 0 var(--border-color);
   }
 
@@ -403,7 +407,7 @@
     padding: 5px 12px;
     border: 1.5px solid var(--border-color);
     background-color: var(--accent-attention);
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     font-family: var(--font-body);
     font-size: 0.8125rem;
     font-weight: 800;
@@ -413,13 +417,14 @@
   }
 
   .saved-read-btn:hover {
-    background-color: var(--accent-interest);
+    background-color: var(--accent-active);
+    color: var(--on-accent-active);
     transform: translate(-1px, -1px);
     box-shadow: 2px 2px 0 var(--border-color);
   }
 
   .saved-read-btn:active {
     transform: translate(1.5px, 1.5px);
-    box-shadow: 0 0 0 #000;
+    box-shadow: var(--shadow-active);
   }
 </style>

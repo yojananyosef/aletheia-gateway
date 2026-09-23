@@ -86,7 +86,7 @@
           >
             <span class="font-bold text-xs truncate flex-1">{o.label}</span>
             {#if o.value === selectedValue}
-              <Check size={15} class="shrink-0 text-black ml-2" />
+              <Check size={15} class="shrink-0 text-[var(--on-accent-active)] ml-2" />
             {/if}
           </button>
         {/each}

@@ -60,7 +60,13 @@ export class LocalStorageSettingsRepository {
     try {
       const raw = getStoredItem(STORAGE_SETTINGS);
       if (!raw) return DEFAULT_SETTINGS;
-      return { ...DEFAULT_SETTINGS, ...JSON.parse(raw) };
+      const merged = { ...DEFAULT_SETTINGS, ...JSON.parse(raw) };
+      // Migración legacy: theme 'calm' => standard + calmMode true (overlay global).
+      if ((merged as UserSettings).theme === 'calm') {
+        (merged as UserSettings).theme = 'standard';
+        (merged as UserSettings).calmMode = true;
+      }
+      return merged;
     } catch {
       return DEFAULT_SETTINGS;
     }

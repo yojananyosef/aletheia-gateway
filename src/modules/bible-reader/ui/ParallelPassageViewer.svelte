@@ -496,7 +496,7 @@
     margin-left: 6px;
     vertical-align: middle;
     background-color: var(--accent-attention);
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     border: 1.5px solid var(--border-color);
     border-radius: 0;
     box-shadow: 1.5px 1.5px 0 var(--border-color);
@@ -507,7 +507,7 @@
   .verse-note-indicator-btn:hover {
     transform: scale(1.15);
     background-color: var(--accent-desire);
-    color: #fff;
+    color: var(--on-accent-desire);
     box-shadow: 2px 2px 0 var(--border-color);
   }
 
@@ -532,7 +532,8 @@
   .verse-tsk-indicator-btn:hover {
     opacity: 1;
     transform: scale(1.15);
-    background-color: var(--accent-interest);
+    background-color: var(--accent-active);
+    color: var(--on-accent-active);
     box-shadow: 2px 2px 0 var(--border-color);
   }
 
@@ -545,7 +546,7 @@
     margin-left: 4px;
     vertical-align: middle;
     background-color: var(--accent-attention);
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     border: 1.5px solid var(--border-color);
     border-radius: 0;
     box-shadow: 1.5px 1.5px 0 var(--border-color);
@@ -556,7 +557,7 @@
   .verse-cba-indicator-btn:hover {
     transform: scale(1.15);
     background-color: var(--accent-desire);
-    color: #fff;
+    color: var(--on-accent-desire);
     box-shadow: 2px 2px 0 var(--border-color);
   }
 </style>

@@ -3,11 +3,13 @@
 
   interface Props {
     theme: ThemeMode;
+    calmMode?: boolean;
     fontFamily: AppFontFamily;
     bionic?: BionicLevel;
     ruler?: boolean;
     redLetters?: boolean;
     onThemeChange: (mode: ThemeMode) => void;
+    onCalmChange?: (on: boolean) => void;
     onFontChange: (font: AppFontFamily) => void;
     onBionicChange?: (level: BionicLevel) => void;
     onRulerChange?: (on: boolean) => void;
@@ -16,11 +18,13 @@
 
   let {
     theme,
+    calmMode = false,
     fontFamily,
     bionic = 'off',
     ruler = false,
     redLetters = false,
     onThemeChange,
+    onCalmChange,
     onFontChange,
     onBionicChange,
     onRulerChange,
@@ -42,19 +46,7 @@
         <span class="theme-badge-demo">Aa</span>
       </div>
       <span class="theme-name font-bold">Estándar Neobrutalista</span>
-      <span class="theme-sub">Alto contraste y acentos vivos</span>
-    </button>
-
-    <button
-      type="button"
-      class="theme-card {theme === 'calm' ? 'is-selected' : ''}"
-      onclick={() => onThemeChange('calm')}
-    >
-      <div class="theme-preview calm">
-        <span class="theme-badge-demo">Aa</span>
-      </div>
-      <span class="theme-name font-bold">Modo Calma</span>
-      <span class="theme-sub">Marfil suave anti-fatiga visual y dislexia</span>
+      <span class="theme-sub">Amarillo vivo + activo cyan, AAA</span>
     </button>
 
     <button
@@ -66,7 +58,7 @@
         <span class="theme-badge-demo">Aa</span>
       </div>
       <span class="theme-name font-bold">Alto Contraste</span>
-      <span class="theme-sub">21:1 máximo contraste para baja visión</span>
+      <span class="theme-sub">Blanco/negro + amarillo puro, AAA</span>
     </button>
 
     <button
@@ -90,7 +82,7 @@
         <span class="theme-badge-demo">Aa</span>
       </div>
       <span class="theme-name font-bold">Oscuro</span>
-      <span class="theme-sub">Neobrutalismo nocturno</span>
+      <span class="theme-sub">Amarillo con tinta oscura, AAA</span>
     </button>
 
     <button
@@ -104,6 +96,19 @@
       <span class="theme-name font-bold">OLED</span>
       <span class="theme-sub">Negro puro, ahorro de batería</span>
     </button>
+  </div>
+
+  <div class="font-card" style="margin-top: 12px;">
+    <span class="theme-name font-bold">Modo Calma (tenue global)</span>
+    <span class="theme-sub">Suaviza cualquier tema: tipografía Lexend, ritmo amplio y saturación tenue. Se combina con oscuro, OLED, sepia y alto contraste.</span>
+    <div class="reading-toggle-row">
+      <button
+        type="button"
+        class="neo-btn-mini {calmMode ? 'is-selected' : ''}"
+        aria-pressed={calmMode}
+        onclick={() => onCalmChange?.(!calmMode)}
+      >{calmMode ? 'Activado' : 'Activar'}</button>
+    </div>
   </div>
 
   <h3 class="section-title" style="margin-top: 20px;">Tipografía del Sistema</h3>
@@ -202,22 +207,11 @@
 </div>
 
 <style>
+  /* Previews de tema en settings.css global (única fuente). */
   .reading-toggle-row {
     display: flex;
     gap: 6px;
     margin-top: 8px;
     flex-wrap: wrap;
-  }
-  .theme-preview.sepia {
-    background: #f4ecd8;
-    color: #433422;
-  }
-  .theme-preview.dark {
-    background: #242422;
-    color: #f5f5f0;
-  }
-  .theme-preview.oled {
-    background: #000;
-    color: #fff;
   }
 </style>

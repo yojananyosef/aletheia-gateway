@@ -118,9 +118,9 @@
       <!-- Header -->
       <div class="personal-note-header">
         <div class="flex items-center gap-2">
-          <FileText size={20} class="text-[#1a1a18]" />
+          <FileText size={20} class="text-[var(--on-accent-attention)]" />
           <h2 id="note-modal-title" class="font-display font-extrabold text-base uppercase tracking-tight">
-            Nota Personal: <span class="text-[var(--accent-desire)]">{reference}</span>
+            Nota Personal: <span class="text-[var(--accent-desire-ink)]">{reference}</span>
           </h2>
         </div>
 
@@ -226,6 +226,7 @@
     padding: 12px 18px;
     border-bottom: var(--border-main);
     background-color: var(--accent-attention);
+    color: var(--on-accent-attention);
   }
 
   .personal-note-body {
@@ -327,7 +328,7 @@
     padding: 6px 18px;
     border: 2px solid var(--border-color);
     background-color: var(--accent-attention);
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     font-family: var(--font-body);
     font-size: 0.875rem;
     font-weight: 800;
@@ -337,14 +338,15 @@
   }
 
   .note-btn-primary:hover:not(:disabled) {
-    background-color: var(--accent-interest);
+    background-color: var(--accent-active);
+    color: var(--on-accent-active);
     transform: translate(-1px, -1px);
     box-shadow: 3px 3px 0 var(--border-color);
   }
 
   .note-btn-primary:active:not(:disabled) {
     transform: translate(2px, 2px);
-    box-shadow: 0 0 0 #000;
+    box-shadow: var(--shadow-active);
   }
 
   .note-btn-primary:disabled {
@@ -354,6 +356,7 @@
 
   .note-btn-primary.is-success {
     background-color: var(--accent-success);
+    color: var(--on-accent-success);
   }
 
   .note-btn-secondary {
@@ -381,20 +384,20 @@
     gap: 6px;
     min-height: 40px;
     padding: 6px 12px;
-    border: 2px solid var(--accent-error);
+    border: 2px solid var(--accent-error-ink);
     background-color: transparent;
-    color: var(--accent-error);
+    color: var(--accent-error-ink);
     font-family: var(--font-body);
     font-size: 0.8125rem;
     font-weight: 800;
-    box-shadow: 2px 2px 0 var(--accent-error);
+    box-shadow: 2px 2px 0 var(--accent-error-ink);
     cursor: pointer;
     transition: all 0.08s ease;
   }
 
   .note-btn-danger:hover {
-    background-color: var(--accent-error);
-    color: #fff;
+    background-color: var(--accent-error-solid);
+    color: var(--on-accent-error-solid);
     transform: translate(-1px, -1px);
     box-shadow: 3px 3px 0 var(--border-color);
   }

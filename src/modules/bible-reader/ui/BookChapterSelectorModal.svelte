@@ -96,7 +96,7 @@
       <!-- Modal Header -->
       <div class="book-modal-header">
         <div class="flex items-center gap-2">
-          <BookOpen size={20} class="text-black shrink-0" />
+          <BookOpen size={20} class="text-[var(--on-accent-attention)] shrink-0" />
           <h2 id="book-modal-title" class="font-display font-extrabold text-base sm:text-lg uppercase tracking-tight truncate">
             Lista de Libros
           </h2>
@@ -104,7 +104,7 @@
 
         <div class="flex items-center gap-2 sm:gap-3">
           <div class="book-search-input">
-            <Search size={14} class="text-black shrink-0" />
+            <Search size={14} class="text-[var(--text-main)] shrink-0" />
             <input
               type="text"
               placeholder="Filtrar libro..."
@@ -185,7 +185,7 @@
                 onclick={() => handleSelectBook(book)}
               >
                 <span>{book.name}</span>
-                <ChevronRight size={15} class="shrink-0 text-black opacity-60" />
+                <ChevronRight size={15} class="shrink-0 text-[var(--text-muted)]" />
               </button>
             {/each}
           </div>
@@ -205,7 +205,7 @@
                 onclick={() => handleSelectBook(book)}
               >
                 <span>{book.name}</span>
-                <ChevronRight size={15} class="shrink-0 text-black opacity-60" />
+                <ChevronRight size={15} class="shrink-0 text-[var(--text-muted)]" />
               </button>
             {/each}
           </div>

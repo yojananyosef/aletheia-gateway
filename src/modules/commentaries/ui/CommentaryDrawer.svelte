@@ -350,6 +350,7 @@
     gap: 12px;
     padding: 14px 16px;
     background: var(--accent-interest);
+    color: var(--on-accent-interest);
     border-bottom: 2px solid var(--border-color);
   }
 
@@ -382,8 +383,8 @@
   }
 
   .commentary-close-btn:hover {
-    background: var(--accent-error);
-    color: white;
+    background: var(--accent-error-solid);
+    color: var(--on-accent-error-solid);
   }
 
   .commentary-header-copy {
@@ -393,7 +394,7 @@
   .commentary-header-copy h2 {
     margin: 0;
     overflow: hidden;
-    color: var(--text-main);
+    color: inherit;
     font-family: var(--font-display);
     font-size: 1rem;
     font-weight: 900;
@@ -403,7 +404,8 @@
   }
 
   .commentary-header-copy span {
-    color: var(--text-muted);
+    color: inherit;
+    opacity: 0.85;
     font-size: 0.6875rem;
     font-weight: 800;
     letter-spacing: 0.04em;
@@ -450,7 +452,8 @@
 
   .commentary-source-trigger:hover,
   .commentary-source-dropdown.is-open .commentary-source-trigger {
-    background: var(--accent-interest);
+    background: var(--accent-active);
+    color: var(--on-accent-active);
     transform: translate(-1px, -1px);
     box-shadow: 3px 3px 0 var(--border-color);
   }
@@ -515,7 +518,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 8px 12px;
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     background: var(--accent-attention);
     border-bottom: 2px solid var(--border-color);
     font-family: var(--font-mono);
@@ -526,7 +529,8 @@
   }
 
   .commentary-source-menu-header span:last-child {
-    color: var(--text-muted);
+    color: inherit;
+    opacity: 0.85;
   }
 
   .commentary-source-options {
@@ -546,7 +550,7 @@
     color: var(--text-main);
     background: transparent;
     border: 0;
-    border-bottom: 1px solid rgba(26, 26, 24, 0.1);
+    border-bottom: 1px solid var(--border-color);
     cursor: pointer;
     text-align: left;
   }
@@ -557,10 +561,12 @@
 
   .commentary-source-option:hover {
     background: var(--accent-attention);
+    color: var(--on-accent-attention);
   }
 
   .commentary-source-option.is-selected {
-    background: var(--accent-interest);
+    background: var(--accent-active);
+    color: var(--on-accent-active);
     font-weight: 900;
   }
 
@@ -625,7 +631,7 @@
 
   .commentary-filter-form .commentary-filter-clear:hover {
     transform: none;
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     background: var(--accent-attention);
   }
 
@@ -676,6 +682,7 @@
 
   .commentary-entry-card.is-targeted {
     background: var(--accent-attention);
+    color: var(--on-accent-attention);
     box-shadow: 4px 4px 0 var(--border-color);
   }
 
@@ -691,7 +698,7 @@
 
   .commentary-scope-badge {
     padding: 2px 7px;
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     background: var(--accent-attention);
     border: 1.5px solid var(--border-color);
     box-shadow: 1.5px 1.5px 0 var(--border-color);
@@ -701,7 +708,8 @@
   }
 
   .commentary-scope-badge.scope-book {
-    background: var(--accent-interest);
+    background: var(--accent-active);
+    color: var(--on-accent-active);
   }
 
   .commentary-open-btn {
@@ -720,7 +728,8 @@
   }
 
   .commentary-open-btn:hover {
-    background: var(--accent-interest);
+    background: var(--accent-active);
+    color: var(--on-accent-active);
     transform: translate(-1px, -1px);
   }
 
@@ -758,7 +767,7 @@
   .commentary-state button {
     margin-top: 3px;
     padding: 5px 9px;
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     background: var(--accent-attention);
     border: 1.5px solid var(--border-color);
     box-shadow: 1.5px 1.5px 0 var(--border-color);
@@ -791,7 +800,7 @@
     justify-content: center;
     gap: 8px;
     padding: 9px 12px;
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     background: var(--accent-attention);
     border: 2px solid var(--border-color);
     box-shadow: 3px 3px 0 var(--border-color);
@@ -802,13 +811,13 @@
   }
 
   .commentary-full-reading-btn:hover {
-    background: var(--accent-desire);
-    color: #fff;
+    background: var(--accent-active);
+    color: var(--on-accent-active);
   }
 
   .commentary-full-reading-btn:active {
     transform: translate(3px, 3px);
-    box-shadow: 0 0 0 var(--border-color);
+    box-shadow: var(--shadow-active);
   }
 
   @media (max-width: 640px) {

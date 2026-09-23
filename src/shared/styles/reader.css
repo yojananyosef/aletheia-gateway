@@ -48,7 +48,7 @@
 
 .reader-card-wrapper .floating-nav-btn:active {
   transform: translate(2px, 2px);
-  box-shadow: 0 0 0 #000;
+  box-shadow: var(--shadow-active);
 }
 
 /* --- TARJETA DEL LECTOR BÍBLICO (ALTURA DINÁMICA ADAPTADA AL CONTENIDO) --- */
@@ -74,6 +74,7 @@
   padding: 10px 16px;
   border-bottom: var(--border-main);
   background-color: var(--accent-attention);
+  color: var(--on-accent-attention);
   width: 100%;
   gap: 12px;
   flex-wrap: wrap;
@@ -110,19 +111,21 @@
 }
 
 .toolbar-action-btn:hover:not(:disabled) {
-  background-color: #fff;
+  background-color: var(--bg-surface);
+  color: var(--text-main);
   transform: translate(-1px, -1px);
   box-shadow: 3px 3px 0 var(--border-color);
 }
 
 .toolbar-action-btn.is-active {
-  background-color: var(--accent-interest);
+  background-color: var(--accent-active);
+  color: var(--on-accent-active);
   box-shadow: 3px 3px 0 var(--border-color);
 }
 
 .toolbar-action-btn:active:not(:disabled) {
   transform: translate(2px, 2px);
-  box-shadow: 0 0 0 #000;
+  box-shadow: var(--shadow-active);
 }
 
 .toolbar-action-btn:disabled,
@@ -135,6 +138,7 @@
   font-size: 0.75rem;
   font-weight: 900;
   background-color: var(--accent-attention);
+  color: var(--on-accent-attention);
   border: 1px solid var(--border-color);
   padding: 1px 5px;
 }
@@ -165,14 +169,15 @@
 }
 
 .toolbar-nav-btn:hover {
-  background-color: var(--accent-interest);
+  background-color: var(--accent-active);
+  color: var(--on-accent-active);
   transform: translate(-1px, -1px);
   box-shadow: 3px 3px 0 var(--border-color);
 }
 
 .toolbar-nav-btn:active {
   transform: translate(2px, 2px);
-  box-shadow: 0 0 0 #000;
+  box-shadow: var(--shadow-active);
 }
 
 /* --- SELECTOR DE TAMAÑO DE FUENTE --- */
@@ -202,7 +207,8 @@
 
 .font-size-trigger-btn:hover,
 .font-size-trigger-btn.is-active {
-  background-color: var(--accent-interest);
+  background-color: var(--accent-active);
+  color: var(--on-accent-active);
   box-shadow: 3px 3px 0 var(--border-color);
 }
 
@@ -267,12 +273,14 @@
 
 .font-size-option-btn:hover,
 .font-size-option-btn.is-selected {
-  background-color: var(--accent-interest);
+  background-color: var(--accent-active);
+  color: var(--on-accent-active);
 }
 
 /* --- AUDIO BIBLIA TTS: resaltado del bloque en lectura --- */
 .speaking-highlight {
   background-color: var(--accent-attention) !important;
+  color: var(--on-accent-attention) !important;
   outline: 3px solid var(--border-color);
   outline-offset: 2px;
 }

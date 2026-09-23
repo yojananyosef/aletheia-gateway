@@ -312,12 +312,13 @@
   }
 
   .interlinear-nav-btn:hover {
-    background: var(--accent-interest);
+    background: var(--accent-active);
+    color: var(--on-accent-active);
   }
 
   .interlinear-nav-btn:active {
     transform: translate(2px, 2px);
-    box-shadow: 0 0 0 var(--border-color);
+    box-shadow: var(--shadow-active);
   }
 
   .interlinear-words {
@@ -354,7 +355,7 @@
   }
 
   .interlinear-strong:hover {
-    color: var(--text-main);
+    color: var(--on-accent-attention);
     background: var(--accent-attention);
     outline: 1.5px solid var(--border-color);
   }
@@ -373,6 +374,7 @@
 
   .interlinear-original:hover {
     background: var(--accent-attention);
+    color: var(--on-accent-attention);
     outline: 2px solid var(--border-color);
   }
 
@@ -390,7 +392,7 @@
     bottom: calc(100% - 6px);
     z-index: 5;
     padding: 3px 8px;
-    color: #fff;
+    color: var(--bg-surface);
     background: var(--text-main);
     border: 1.5px solid var(--border-color);
     box-shadow: 2px 2px 0 var(--border-color);

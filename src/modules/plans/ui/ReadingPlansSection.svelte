@@ -371,13 +371,15 @@
   }
   .plan-day-toggle:hover {
     background: var(--accent-attention);
+    color: var(--on-accent-attention);
   }
   .plan-day-toggle:active {
     transform: translate(2px, 2px);
-    box-shadow: 0 0 0 var(--border-color);
+    box-shadow: var(--shadow-active);
   }
   .plan-day-toggle.is-done {
     background: var(--accent-success);
+    color: var(--on-accent-success);
   }
   .plans-loading {
     font-weight: 700;
@@ -417,6 +419,7 @@
     gap: 6px;
     border: 2px solid var(--border-color);
     background: var(--accent-attention);
+    color: var(--on-accent-attention);
     font-weight: 800;
     font-size: 0.8125rem;
     padding: 6px 10px;

@@ -21,6 +21,7 @@
     "generate:manifest": "bun run scripts/generate-manifest.ts",
     "preview": "astro preview",
     "check": "astro check",
+    "check:contrast": "bun run scripts/check-contrast.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",

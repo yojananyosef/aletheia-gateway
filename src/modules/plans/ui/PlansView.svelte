@@ -43,6 +43,7 @@
     width: 44px;
     height: 44px;
     background: var(--accent-attention);
+    color: var(--on-accent-attention);
     border: 2px solid var(--border-color);
     box-shadow: 2px 2px 0 var(--border-color);
   }

@@ -48,6 +48,7 @@
   justify-content: space-between;
   padding: 14px 18px;
   background-color: var(--accent-attention);
+  color: var(--on-accent-attention);
   border-bottom: 2px solid var(--border-color);
 }
 
@@ -66,14 +67,15 @@
   font-family: var(--font-display);
   font-size: 1.125rem;
   font-weight: 800;
-  color: var(--text-main);
+  color: inherit;
   line-height: 1.1;
 }
 
 .settings-subtitle {
   font-size: 0.6875rem;
   font-weight: 700;
-  color: var(--text-muted);
+  color: inherit;
+  opacity: 0.8;
   text-transform: uppercase;
 }
 
@@ -113,7 +115,8 @@
 
 .settings-tab-btn.is-active {
   background-color: var(--bg-surface);
-  border-bottom: 3px solid var(--accent-desire);
+  color: var(--text-main);
+  border-bottom: 3px solid var(--accent-error-ink);
 }
 
 .settings-alert {
@@ -122,14 +125,19 @@
   gap: 10px;
   padding: 10px 16px;
   border-bottom: 2px solid var(--border-color);
+  font-weight: 700;
 }
 
 .settings-alert.success {
-  background-color: #e8f8f0;
+  background-color: var(--alert-success-bg);
+  color: var(--alert-success-fg);
+  border-bottom-color: var(--alert-success-border);
 }
 
 .settings-alert.error {
-  background-color: #fee2e2;
+  background-color: var(--alert-error-bg);
+  color: var(--alert-error-fg);
+  border-bottom-color: var(--alert-error-border);
 }
 
 .settings-body {
@@ -167,6 +175,7 @@
   font-size: 0.8125rem;
   font-weight: 800;
   background-color: var(--accent-attention);
+  color: var(--on-accent-attention);
   border: 2px solid var(--border-color);
   box-shadow: 2px 2px 0 var(--border-color);
   cursor: pointer;
@@ -175,6 +184,8 @@
 .neo-btn-primary:hover {
   transform: translate(-1px, -1px);
   box-shadow: 3px 3px 0 var(--border-color);
+  background-color: var(--accent-active);
+  color: var(--on-accent-active);
 }
 
 @media (max-width: 480px) {
@@ -213,7 +224,7 @@
 .theme-card.is-selected {
   border-color: var(--border-color);
   background-color: var(--bg-surface);
-  box-shadow: 4px 4px 0 var(--accent-attention);
+  box-shadow: 4px 4px 0 var(--accent-active);
 }
 
 .theme-preview {
@@ -224,24 +235,52 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
+  background-color: var(--bg-canvas);
+  color: var(--text-main);
 }
 
 .theme-preview.standard {
   background-color: #f5f5f0;
+  color: #1a1a18;
+  border-color: #1a1a18;
 }
 
 .theme-preview.calm {
   background-color: #f7f4ed;
+  color: #222831;
+  border-color: #222831;
 }
 
 .theme-preview.high-contrast {
-  background-color: #000;
-  color: #fff;
-  border-color: #000;
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #000000;
+  border-width: 3px;
 }
 
 .theme-preview.high-contrast .theme-badge-demo {
-  color: #fff;
+  color: #000000;
+  background-color: #ffff00;
+  padding: 0 6px;
+  border: 2px solid #000000;
+}
+
+.theme-preview.sepia {
+  background-color: #f4ecd8;
+  color: #433422;
+  border-color: #433422;
+}
+
+.theme-preview.dark {
+  background-color: #242422;
+  color: #f5f5f0;
+  border-color: #f5f5f0;
+}
+
+.theme-preview.oled {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .font-options-grid {
@@ -271,7 +310,7 @@
 .font-card.is-selected {
   border-color: var(--border-color);
   background-color: var(--bg-surface);
-  box-shadow: 4px 4px 0 var(--accent-interest);
+  box-shadow: 4px 4px 0 var(--accent-active);
 }
 
 /* Mini-botones de ayudas de lectura (biónica / regla / red letters).
@@ -298,7 +337,8 @@
 }
 
 .neo-btn-mini.is-selected {
-  background-color: var(--accent-attention);
+  background-color: var(--accent-active);
+  color: var(--on-accent-active);
   box-shadow: 3px 3px 0 var(--border-color);
   outline: 2px solid var(--border-color);
   outline-offset: -4px;
@@ -386,15 +426,16 @@
 }
 
 .import-mode-btn.is-active {
-  background-color: var(--accent-interest);
+  background-color: var(--accent-active);
+  color: var(--on-accent-active);
   box-shadow: 2px 2px 0 var(--border-color);
   transform: translate(-1px, -1px);
 }
 
 .import-mode-btn.is-active.danger {
-  background-color: #fee2e2;
-  border-color: var(--accent-desire);
-  color: var(--accent-desire);
+  background-color: var(--accent-error-solid);
+  border-color: var(--border-color);
+  color: var(--on-accent-error-solid);
 }
 
 .mode-dot {
@@ -412,12 +453,13 @@
 }
 
 .mode-dot.on.danger {
-  background: var(--accent-desire);
+  background: var(--accent-error-solid);
 }
 
 .danger-zone-card {
-  background-color: #fef2f2;
-  border: 2px dashed var(--accent-desire);
+  background-color: var(--alert-error-bg);
+  color: var(--alert-error-fg);
+  border: 2px dashed var(--alert-error-border);
   padding: 14px;
 }
 
@@ -448,15 +490,15 @@
   font-family: var(--font-display);
   font-size: 0.75rem;
   font-weight: 800;
-  background-color: #fee2e2;
-  color: var(--accent-desire);
-  border: 1.5px solid var(--accent-desire);
+  background-color: var(--accent-error-soft);
+  color: var(--on-accent-error-soft);
+  border: 1.5px solid var(--border-color);
   cursor: pointer;
 }
 
 .neo-btn-danger.confirm {
-  background-color: var(--accent-desire);
-  color: #fff;
+  background-color: var(--accent-error-solid);
+  color: var(--on-accent-error-solid);
 }
 
 /* --- Pestaña Acerca de --- */
@@ -474,6 +516,7 @@
   width: 36px;
   height: 36px;
   background-color: var(--accent-attention);
+  color: var(--on-accent-attention);
   border: 2px solid var(--border-color);
   font-family: var(--font-display);
   font-size: 1.25rem;

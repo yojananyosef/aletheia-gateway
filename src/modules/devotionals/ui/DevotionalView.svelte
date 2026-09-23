@@ -115,7 +115,7 @@
       <!-- Title and Subtitle -->
       <div class="flex items-center gap-3">
         <div class="dev-icon-badge">
-          <Heart size={24} class="text-[var(--accent-desire)] fill-[var(--accent-desire)]" />
+          <Heart size={24} class="text-[var(--accent-desire-ink)] fill-[var(--accent-desire-ink)]" />
         </div>
         <div>
           <h1 class="dev-main-title">Devocional Diario</h1>
@@ -242,7 +242,7 @@
           data-tooltip="Copiar devocional completo"
         >
           {#if hasCopied}
-            <Check size={16} class="text-[var(--accent-success)]" />
+            <Check size={16} class="text-[var(--accent-success-ink)]" />
             <span>¡Copiado!</span>
           {:else}
             <Copy size={16} />
@@ -341,13 +341,15 @@
   }
 
   .dev-tab-btn:hover {
-    background-color: var(--accent-interest);
+    background-color: var(--accent-active);
+    color: var(--on-accent-active);
     transform: translate(-1px, -1px);
     box-shadow: 3px 3px 0 var(--border-color);
   }
 
   .dev-tab-btn.is-active {
     background-color: var(--accent-attention);
+    color: var(--on-accent-attention);
     transform: translate(1px, 1px);
     box-shadow: 1px 1px 0 var(--border-color);
   }
@@ -374,6 +376,7 @@
     font-size: 0.8125rem;
     font-weight: 800;
     background-color: var(--accent-interest);
+    color: var(--on-accent-interest);
     border: 1.5px solid var(--border-color);
     padding: 3px 10px;
     box-shadow: 1.5px 1.5px 0 var(--border-color);
@@ -396,6 +399,7 @@
 
   .dev-read-bible-btn:hover {
     background-color: var(--accent-attention);
+    color: var(--on-accent-attention);
     transform: translate(-1px, -1px);
     box-shadow: 3px 3px 0 var(--border-color);
   }
@@ -433,6 +437,7 @@
     font-size: 0.8125rem;
     font-weight: 800;
     background-color: var(--accent-attention);
+    color: var(--on-accent-attention);
     border: 2px solid var(--border-color);
     box-shadow: 2px 2px 0 var(--border-color);
     cursor: pointer;
@@ -460,5 +465,6 @@
 
   .neo-action-btn.primary {
     background-color: var(--accent-attention);
+    color: var(--on-accent-attention);
   }
 </style>
