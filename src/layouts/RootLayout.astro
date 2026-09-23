@@ -19,7 +19,12 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="theme-color" content="#FFD23F" />
@@ -35,5 +40,15 @@ const {
   </head>
   <body class="antialiased">
     <slot />
+    <script>
+      // Registro del Service Worker (shell offline). Solo en cliente con SW disponible.
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {
+            // Sin SW (navegador antiguo, contexto inseguro): la app sigue funcionando online.
+          });
+        });
+      }
+    </script>
   </body>
 </html>

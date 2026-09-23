@@ -11,11 +11,13 @@
     ArrowLeftRight,
     Library,
     Settings2,
+    Trophy,
   } from 'lucide-svelte';
+  import type { AppView } from './AppView';
 
   interface Props {
-    activeView: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear';
-    onNavigate: (view: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear') => void;
+    activeView: AppView;
+    onNavigate: (view: AppView) => void;
     isOpen: boolean;
     isCollapsed: boolean;
     bookmarkCount?: number;
@@ -43,6 +45,7 @@
     { title: 'Devocionales', icon: Heart, view: 'devotionals' as const },
     { title: 'Strong', icon: Languages, view: 'strong' as const },
     { title: 'Interlineal', icon: ArrowLeftRight, view: 'interlinear' as const },
+    { title: 'Mi progreso', icon: Trophy, view: 'tracker' as const },
   ];
 
   const exploreItems = [
@@ -51,7 +54,7 @@
     { title: 'Recursos', icon: Library, view: null, ready: false },
   ];
 
-  function handleSelect(view: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear') {
+  function handleSelect(view: AppView) {
     onNavigate(view);
     onClose();
   }

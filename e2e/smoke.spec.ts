@@ -85,3 +85,27 @@ test('estilos con scope: botones y títulos conservan diseño tras el split', as
   expect(border).toBe('2px');
   expect(shadow).not.toBe('none');
 });
+
+test('tracker: vista de progreso con racha y capítulos', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Mi progreso' }).first().click();
+  await expect(page.getByText('Mi progreso de lectura')).toBeVisible();
+  await expect(page.getByText(/capítulos \(/)).toBeVisible();
+
+  // Marcar Génesis 1 como leído y verificar persistencia visual
+  const gen = page.locator('details.tracker-book', { hasText: 'Génesis' }).first();
+  await gen.locator('summary').click();
+  const ch1 = gen.getByRole('button', { name: 'Génesis 1 (pendiente)' });
+  await ch1.click();
+  await expect(gen.getByRole('button', { name: 'Génesis 1 (leído)' })).toBeVisible();
+});
+
+test('headings overlay: RV1909 muestra títulos sin chocar con nativos', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
+
+  // RV1909 Génesis 1 no trae headings nativos → overlay NRVA
+  const overlay = page.locator('.verse-section-heading[data-heading-source="overlay"]');
+  await expect(overlay.first()).toBeVisible({ timeout: 20000 });
+  await expect(overlay.first()).toContainText('La creación');
+});

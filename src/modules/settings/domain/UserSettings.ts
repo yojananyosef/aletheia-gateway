@@ -2,6 +2,9 @@ export type ThemeMode = 'standard' | 'calm' | 'high-contrast' | 'sepia' | 'oled'
 export type AppFontFamily = 'inter' | 'lexend' | 'mono' | 'syne' | 'opendyslexic';
 export type BionicLevel = 'off' | 'leve' | 'fuerte';
 
+import type { ProgressMap } from '../../tracker/domain/progress';
+import type { StreakData } from '../../tracker/domain/streak';
+
 export interface UserSettings {
   theme: ThemeMode;
   fontFamily: AppFontFamily;
@@ -23,6 +26,8 @@ export interface BackupPayload {
     lastPassage?: string;
     selectedTranslations?: string[];
     settings?: Partial<UserSettings>;
+    trackerProgress?: ProgressMap;
+    streak?: StreakData;
   };
 }
 

@@ -11,6 +11,9 @@
   import StrongView from '../../strong/ui/StrongView.svelte';
   import InterlinearView from '../../interlinear/ui/InterlinearView.svelte';
   import SettingsModal from '../../settings/ui/SettingsModal.svelte';
+  import TrackerView from '../../tracker/ui/TrackerView.svelte';
+  import StreakWidget from '../../tracker/ui/StreakWidget.svelte';
+  import type { AppView } from '../../../shared/ui/AppView';
 
   import {
     AVAILABLE_TRANSLATIONS,
@@ -38,7 +41,7 @@
   const compareTranslationsUseCase = new CompareTranslationsUseCase(bibleRepository);
 
   // Svelte 5 Runes state
-  let view = $state<'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear'>('home');
+  let view = $state<AppView>('home');
   let homeQuery = $state('');
   let readerQuery = $state('Génesis 1:1');
   let activeQuery = $state('Génesis 1:1');
@@ -190,7 +193,7 @@
     view = 'strong';
   }
 
-  function handleNavigate(nextView: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear') {
+  function handleNavigate(nextView: AppView) {
     view = nextView;
     if (nextView === 'reader') {
       readerQuery = activeQuery;
@@ -297,6 +300,13 @@
         onSelectPassage={handleGoToReader}
       />
 
+      <div class="home-progress-row">
+        <StreakWidget />
+        <button type="button" class="home-progress-btn" onclick={() => handleNavigate('tracker')}>
+          Ver mi progreso de lectura
+        </button>
+      </div>
+
       <!-- Book & Chapter Selector Modal accessible from Home -->
       <BookChapterSelectorModal
         isOpen={isBookModalOpen}
@@ -325,6 +335,8 @@
       onOpenStrong={handleOpenStrong}
       onSelectPassage={handleGoToReader}
     />
+  {:else if view === 'tracker'}
+    <TrackerView onSelectPassage={handleGoToReader} />
   {:else}
     <ReaderView
       query={readerQuery}
@@ -365,3 +377,19 @@
     }}
   />
 </AppShell>
+
+<style>
+  .home-progress-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .home-progress-btn {
+    border: var(--border-main);
+    background: var(--accent-attention);
+    box-shadow: var(--shadow-sm);
+    font-weight: 800;
+    font-size: 0.875rem;
+    padding: 10px 14px;
+  }
+</style>

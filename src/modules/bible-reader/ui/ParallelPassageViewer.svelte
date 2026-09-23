@@ -8,6 +8,7 @@
   import type { Verse } from '../domain/entities/Verse';
   import { findBookInfo } from '../domain/entities/BibleBooks';
   import ColumnVersionDropdown from './ColumnVersionDropdown.svelte';
+  import { resolveVerseHeadings } from '../domain/entities/SectionHeading';
 
   interface Props {
     passages: PassageVersionResult[];
@@ -20,6 +21,9 @@
     showVerseCrossReferences?: boolean;
     commentaryVerseNumbers?: number[];
     showVerseCommentaries?: boolean;
+    /** Overlay de títulos (versículo → textos) para el libro/capítulo en curso. */
+    overlayHeadings?: Record<number, string[]>;
+    overlayScope?: { book: string; chapter: number } | null;
     onOpenCommentary?: (context: {
       reference: string;
       book: string;
@@ -58,6 +62,8 @@
     onOpenNoteModal,
     commentaryVerseNumbers = [],
     showVerseCommentaries = true,
+    overlayHeadings = {},
+    overlayScope = null,
     onOpenCommentary,
   }: Props = $props();
 
@@ -310,10 +316,17 @@
                 {@const verseDomId = `verse-${passage.translationId}-${section.book}-${section.chapter}-${verse.number}`}
                 {@const verseHighlights = getMatchingHighlights(section.book, section.chapter, verse, passage.translationId)}
                 {@const verseNote = getVerseNote(section.book, section.chapter, verse)}
+                {@const inOverlayScope = overlayScope !== null && section.book === overlayScope.book && section.chapter === overlayScope.chapter}
+                {@const overlayTexts = inOverlayScope ? (overlayHeadings[verse.number] ?? []) : []}
+                {@const resolvedHeadings = resolveVerseHeadings(verse.headings, overlayTexts)}
 
-                {#if verse.headings && verse.headings.length > 0 && verse.headings[0] !== section.title}
-                  {#each verse.headings as heading}
-                    <h3 class="verse-section-heading">{heading}</h3>
+                {#if resolvedHeadings.texts.length > 0 && resolvedHeadings.texts[0] !== section.title}
+                  {#each resolvedHeadings.texts as heading}
+                    <h3
+                      class="verse-section-heading"
+                      data-heading-source={resolvedHeadings.source}
+                      data-tooltip={resolvedHeadings.source === 'overlay' ? 'Título de sección (edición de referencia)' : undefined}
+                    >{heading}</h3>
                   {/each}
                 {/if}
 

@@ -11,6 +11,8 @@
     FileText,
     Eye,
     EyeOff,
+    CircleCheck,
+    MonitorPlay,
   } from 'lucide-svelte';
   import type { TranslationId } from '../domain/entities/Translation';
   import type { PassageVersionResult } from '../domain/entities/Chapter';
@@ -35,6 +37,17 @@
   import TtsControls from './TtsControls.svelte';
   import { ttsStore } from '../application/tts.svelte';
   import { JsonCommentaryRepository } from '../../commentaries/infrastructure/JsonCommentaryRepository';
+  import { JsonHeadingsRepository } from '../infrastructure/JsonHeadingsRepository';
+  import { findBookInfo } from '../domain/entities/BibleBooks';
+  import { LocalStorageTrackerRepository } from '../../tracker/infrastructure/LocalStorageTrackerRepository';
+  import { LocalStorageStreakRepository } from '../../tracker/infrastructure/LocalStorageStreakRepository';
+  import { isChapterCompleted } from '../../tracker/domain/progress';
+  import {
+    buildVerseMessage,
+    clearProjection,
+    openProjectionWindow,
+    sendProjection,
+  } from '../../projection/application/projectionChannel';
 
   interface Props {
     query: string;
@@ -79,6 +92,29 @@
   const noteRepo = new LocalStorageNoteRepository();
   const crossRefRepo = new JsonCrossReferenceRepository();
   const commentaryRepo = new JsonCommentaryRepository();
+  const headingsRepo = new JsonHeadingsRepository();
+  const trackerRepo = new LocalStorageTrackerRepository();
+  const streakRepo = new LocalStorageStreakRepository();
+
+  // Overlay de títulos de sección (solo rellena donde la versión no trae los suyos)
+  let overlayHeadings = $state<Record<number, string[]>>({});
+  let overlayScope = $state<{ book: string; chapter: number } | null>(null);
+
+  async function loadOverlayHeadings(book: string, chapter: number) {
+    try {
+      const code = findBookInfo(book)?.code;
+      if (!code) {
+        overlayHeadings = {};
+        overlayScope = null;
+        return;
+      }
+      overlayHeadings = await headingsRepo.getByChapter(code, chapter);
+      overlayScope = { book, chapter };
+    } catch {
+      overlayHeadings = {};
+      overlayScope = null;
+    }
+  }
 
   let isBookModalOpen = $state(false);
   let highlights = $state<BibleHighlight[]>([]);
@@ -246,6 +282,47 @@
   let currentChapter = $derived(firstPassage ? firstPassage.chapter : 1);
   let canAddMore = $derived(selectedTranslations.length < 5);
 
+  // ¿Capítulo actual marcado como leído? (trackerTick fuerza relectura tras toggle)
+  let trackerTick = $state(0);
+  let chapterDone = $derived.by(() => {
+    trackerTick;
+    try {
+      return isChapterCompleted(trackerRepo.getProgress(), currentBook, currentChapter);
+    } catch {
+      return false;
+    }
+  });
+
+  function handleToggleChapterRead() {
+    trackerRepo.toggleChapter(currentBook, currentChapter);
+    streakRepo.recordToday();
+    trackerTick++;
+  }
+
+  // Proyección en segunda pantalla (BroadcastChannel + /projection)
+  let isProjecting = $state(false);
+
+  function handleProject() {
+    if (isProjecting) {
+      clearProjection();
+      isProjecting = false;
+      return;
+    }
+    const first = passages[0];
+    if (!first || !first.verses || first.verses.length === 0) return;
+    const reference = `${currentBook} ${currentChapter}`;
+    const message = buildVerseMessage(
+      { book: currentBook, chapter: currentChapter },
+      first.verses.map((v) => ({ number: v.number, text: v.text })),
+      reference,
+      first.translationId ?? selectedTranslations[0],
+    );
+    if (sendProjection(message)) {
+      isProjecting = true;
+      openProjectionWindow();
+    }
+  }
+
   async function loadHighlightsAndNotes() {
     try {
       const book = currentBook;
@@ -262,13 +339,15 @@
   }
 
   $effect(() => {
-    // Reload highlights, notes and CBA availability whenever book or chapter changes
+    // Reload highlights, notes, CBA availability and overlay headings
+    // whenever book or chapter changes
     const b = currentBook;
     const c = currentChapter;
     if (b && c) {
       untrack(() => {
         loadHighlightsAndNotes();
         loadCbaAvailability(b, c);
+        loadOverlayHeadings(b, c);
       });
     }
   });
@@ -288,6 +367,7 @@
   onMount(() => {
     loadHighlightsAndNotes();
     loadCbaAvailability(currentBook, currentChapter);
+    loadOverlayHeadings(currentBook, currentChapter);
     const onMouse = (e: MouseEvent) => {
       const ruler = document.querySelector<HTMLElement>('.reading-ruler');
       if (ruler) ruler.style.top = `${e.clientY - 16}px`;
@@ -301,18 +381,26 @@
     onSearch(event);
   }
 
-  function handlePrevChapter() {
+  function stopTransientModes() {
     ttsStore.stop();
+    if (isProjecting) {
+      clearProjection();
+      isProjecting = false;
+    }
+  }
+
+  function handlePrevChapter() {
+    stopTransientModes();
     onPrevChapter();
   }
 
   function handleNextChapter() {
-    ttsStore.stop();
+    stopTransientModes();
     onNextChapter();
   }
 
   function handleSelectPassage(ref: string) {
-    ttsStore.stop();
+    stopTransientModes();
     onSelectPassage(ref);
   }
 
@@ -490,6 +578,34 @@
           </button>
 
           <TtsControls />
+
+          <button
+            type="button"
+            class="toolbar-action-btn {chapterDone ? 'is-active' : ''}"
+            data-tooltip={chapterDone
+              ? `Marcar ${currentBook} ${currentChapter} como no leído`
+              : `Marcar ${currentBook} ${currentChapter} como leído`}
+            aria-label={chapterDone ? 'Marcar capítulo como no leído' : 'Marcar capítulo como leído'}
+            aria-pressed={chapterDone}
+            onclick={handleToggleChapterRead}
+          >
+            <CircleCheck size={16} />
+            <span class="hidden md:inline">{chapterDone ? 'Leído' : 'Marcar leído'}</span>
+          </button>
+
+          <button
+            type="button"
+            class="toolbar-action-btn {isProjecting ? 'is-active' : ''}"
+            data-tooltip={isProjecting
+              ? 'Detener proyección en segunda pantalla'
+              : `Proyectar ${currentBook} ${currentChapter} en segunda pantalla`}
+            aria-label={isProjecting ? 'Detener proyección' : 'Proyectar capítulo'}
+            aria-pressed={isProjecting}
+            onclick={handleProject}
+          >
+            <MonitorPlay size={16} />
+            <span class="hidden md:inline">{isProjecting ? 'Proyectando' : 'Proyectar'}</span>
+          </button>
         </div>
 
         <div class="toolbar-right-group">
@@ -534,6 +650,8 @@
         {showVerseCrossReferences}
         commentaryVerseNumbers={cbaVerseNumbers}
         {showVerseCommentaries}
+        {overlayHeadings}
+        {overlayScope}
         onOpenCommentary={handleOpenCommentaryVerse}
         onOpenCrossReferences={handleOpenCrossReferences}
         onOpenNoteModal={handleOpenNoteModal}

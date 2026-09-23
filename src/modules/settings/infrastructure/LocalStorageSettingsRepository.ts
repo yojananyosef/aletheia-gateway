@@ -12,6 +12,10 @@ import {
   HIGHLIGHTS_STORAGE_KEY,
   HIGHLIGHTS_LEGACY_KEYS,
 } from '../../bible-reader/infrastructure/LocalStorageHighlightRepository';
+import { TRACKER_STORAGE_KEY, TRACKER_LEGACY_KEYS } from '../../tracker/infrastructure/LocalStorageTrackerRepository';
+import { STREAK_STORAGE_KEY, STREAK_LEGACY_KEYS } from '../../tracker/infrastructure/LocalStorageStreakRepository';
+import { calculateBestStreak, type StreakData } from '../../tracker/domain/streak';
+import type { ProgressMap } from '../../tracker/domain/progress';
 
 const STORAGE_SETTINGS = 'aletheia_user_settings';
 const STORAGE_BOOKMARKS = BOOKMARKS_STORAGE_KEY;
@@ -20,8 +24,10 @@ const STORAGE_HIGHLIGHTS = HIGHLIGHTS_STORAGE_KEY;
 const STORAGE_LAST_PASSAGE = 'aletheia_last_passage';
 const STORAGE_TRANSLATIONS = 'aletheia_selected_translations';
 const STORAGE_CALM_MODE = 'aletheia_calm_mode';
+const STORAGE_TRACKER = TRACKER_STORAGE_KEY;
+const STORAGE_STREAK = STREAK_STORAGE_KEY;
 
-// Claves legacy por clave canónica (rename pre-v0.11 + backup pre-v0.11.2).
+// Claves legacy por clave canónica (rename pre-v0.11 + backup pre-v0.11.2 + NRVA-Reader).
 const LEGACY_KEYS: Record<string, string[]> = {
   [STORAGE_SETTINGS]: ['alethia_user_settings'],
   [STORAGE_BOOKMARKS]: BOOKMARKS_LEGACY_KEYS,
@@ -30,6 +36,8 @@ const LEGACY_KEYS: Record<string, string[]> = {
   [STORAGE_LAST_PASSAGE]: ['alethia_last_passage'],
   [STORAGE_TRANSLATIONS]: ['alethia_selected_translations'],
   [STORAGE_CALM_MODE]: ['alethia_calm_mode'],
+  [STORAGE_TRACKER]: TRACKER_LEGACY_KEYS,
+  [STORAGE_STREAK]: STREAK_LEGACY_KEYS,
 };
 
 function getStoredItem(key: string): string | null {
@@ -79,6 +87,8 @@ export class LocalStorageSettingsRepository {
     const lastPassage = getStoredItem(STORAGE_LAST_PASSAGE) || 'Génesis 1:1';
     const selectedTranslations = JSON.parse(getStoredItem(STORAGE_TRANSLATIONS) || '["RV1909"]');
     const settings = this.getSettings();
+    const trackerProgress = JSON.parse(getStoredItem(STORAGE_TRACKER) || '{}');
+    const streak = JSON.parse(getStoredItem(STORAGE_STREAK) || 'null');
 
     const payload: BackupPayload = {
       app: 'AletheiaGateway',
@@ -91,6 +101,8 @@ export class LocalStorageSettingsRepository {
         lastPassage,
         selectedTranslations,
         settings,
+        trackerProgress,
+        streak,
       },
     };
 
@@ -108,6 +120,37 @@ export class LocalStorageSettingsRepository {
       if (!map.has(key)) map.set(key, item);
     }
     return Array.from(map.values());
+  }
+
+  private mergeProgressMaps(a: ProgressMap, b: ProgressMap): ProgressMap {
+    const out: ProgressMap = { ...a };
+    for (const [code, chapters] of Object.entries(b)) {
+      if (!Array.isArray(chapters)) continue;
+      out[code] = [...new Set([...(out[code] ?? []), ...chapters])].sort((x, y) => x - y);
+    }
+    return out;
+  }
+
+  /** Fusión de rachas: une historiales y conserva el registro más reciente. */
+  private mergeStreaks(a: StreakData | null, b: StreakData | null): StreakData | null {
+    if (!a) return b;
+    if (!b) return a;
+    const history = [...new Set([...(a.visitHistory ?? []), ...(b.visitHistory ?? [])])].sort();
+    const capped = history.length > 60 ? history.slice(-60) : history;
+    const yearlyVisits: Record<string, number> = {};
+    for (const day of capped) {
+      const year = day.slice(0, 4);
+      yearlyVisits[year] = (yearlyVisits[year] || 0) + 1;
+    }
+    const winner = (b.lastVisit ?? '') >= (a.lastVisit ?? '') ? b : a;
+    const bestStreak = Math.max(a.bestStreak || 0, b.bestStreak || 0, calculateBestStreak(capped));
+    return {
+      currentStreak: winner.currentStreak || 0,
+      lastVisit: winner.lastVisit || '',
+      visitHistory: capped,
+      yearlyVisits,
+      bestStreak,
+    };
   }
 
   public async importBackup(jsonString: string, options?: { merge?: boolean }): Promise<ImportResult> {
@@ -134,7 +177,16 @@ export class LocalStorageSettingsRepository {
         };
       }
 
-      const { bookmarks = [], notes = [], highlights = [], lastPassage, selectedTranslations, settings } = parsed.data;
+      const {
+        bookmarks = [],
+        notes = [],
+        highlights = [],
+        lastPassage,
+        selectedTranslations,
+        settings,
+        trackerProgress,
+        streak,
+      } = parsed.data;
 
       let finalBookmarks = bookmarks;
       let finalNotes = notes;
@@ -168,6 +220,15 @@ export class LocalStorageSettingsRepository {
           const existingSettings = this.getSettings();
           this.saveSettings({ ...existingSettings, ...settings });
         }
+        if (trackerProgress && typeof trackerProgress === 'object') {
+          const existing = JSON.parse(getStoredItem(STORAGE_TRACKER) || '{}');
+          localStorage.setItem(STORAGE_TRACKER, JSON.stringify(this.mergeProgressMaps(existing, trackerProgress)));
+        }
+        if (streak && typeof streak === 'object') {
+          const existing = JSON.parse(getStoredItem(STORAGE_STREAK) || 'null');
+          const merged = this.mergeStreaks(existing, streak);
+          if (merged) localStorage.setItem(STORAGE_STREAK, JSON.stringify(merged));
+        }
       } else {
         // Sobrescribir: reemplazo total (comportamiento original)
         if (Array.isArray(bookmarks)) {
@@ -187,6 +248,12 @@ export class LocalStorageSettingsRepository {
         }
         if (settings) {
           this.saveSettings(settings);
+        }
+        if (trackerProgress && typeof trackerProgress === 'object') {
+          localStorage.setItem(STORAGE_TRACKER, JSON.stringify(trackerProgress));
+        }
+        if (streak && typeof streak === 'object') {
+          localStorage.setItem(STORAGE_STREAK, JSON.stringify(streak));
         }
       }
 
@@ -220,6 +287,8 @@ export class LocalStorageSettingsRepository {
         STORAGE_TRANSLATIONS,
         STORAGE_SETTINGS,
         STORAGE_CALM_MODE,
+        STORAGE_TRACKER,
+        STORAGE_STREAK,
       ]) {
         removeStorageWithLegacy(key, LEGACY_KEYS[key] ?? key);
       }

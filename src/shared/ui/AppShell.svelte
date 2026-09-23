@@ -6,11 +6,12 @@
   import NeoTooltip from './NeoTooltip.svelte';
   import { readStorageWithLegacy } from '../utils/storage';
   import { applyFontClass, applyThemeClass, applyReadingClass } from '../utils/appearance';
+  import type { AppView } from './AppView';
 
   interface Props {
-    activeView: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear';
+    activeView: AppView;
     bookmarkCount?: number;
-    onNavigate: (view: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear') => void;
+    onNavigate: (view: AppView) => void;
     onOpenBookmarks?: () => void;
     onOpenSettings?: () => void;
     children?: Snippet;
