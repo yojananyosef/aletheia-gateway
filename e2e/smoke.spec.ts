@@ -44,6 +44,19 @@ test('CBA: anclas por versículo, drawer y lectura completa', async ({ page }) =
   await expect(page.getByText('Versículo 1').first()).toBeVisible();
 });
 
+test('Strong: diccionario, búsqueda y detalle con audio', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Strong' }).first().click();
+  await expect(page.getByRole('heading', { name: 'Diccionario Strong' })).toBeVisible();
+
+  await page.getByLabel('Buscar en el diccionario Strong').fill('abuelo');
+  await expect(page.getByText('אָב').first()).toBeVisible({ timeout: 20000 });
+
+  await page.getByText('אָב').first().click();
+  await expect(page.getByText('Strong hebreo #1')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Escuchar pronunciación' })).toBeVisible();
+});
+
 test('estilos con scope: botones y títulos conservan diseño tras el split', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('button', { name: 'Configuración' }).click();

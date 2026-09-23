@@ -8,6 +8,7 @@
   import SavedVersesModal from '../../bookmarks/ui/SavedVersesModal.svelte';
   import ConcordanceView from '../../concordance/ui/ConcordanceView.svelte';
   import DevotionalView from '../../devotionals/ui/DevotionalView.svelte';
+  import StrongView from '../../strong/ui/StrongView.svelte';
   import SettingsModal from '../../settings/ui/SettingsModal.svelte';
 
   import {
@@ -36,7 +37,7 @@
   const compareTranslationsUseCase = new CompareTranslationsUseCase(bibleRepository);
 
   // Svelte 5 Runes state
-  let view = $state<'home' | 'reader' | 'concordance' | 'devotionals'>('home');
+  let view = $state<'home' | 'reader' | 'concordance' | 'devotionals' | 'strong'>('home');
   let homeQuery = $state('');
   let readerQuery = $state('Génesis 1:1');
   let activeQuery = $state('Génesis 1:1');
@@ -181,7 +182,7 @@
     isSavedVersesModalOpen = false;
   }
 
-  function handleNavigate(nextView: 'home' | 'reader' | 'concordance' | 'devotionals') {
+  function handleNavigate(nextView: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong') {
     view = nextView;
     if (nextView === 'reader') {
       readerQuery = activeQuery;
@@ -307,6 +308,8 @@
     <DevotionalView
       onSelectPassage={handleGoToReader}
     />
+  {:else if view === 'strong'}
+    <StrongView />
   {:else}
     <ReaderView
       query={readerQuery}

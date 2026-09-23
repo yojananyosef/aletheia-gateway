@@ -8,9 +8,9 @@
   import { applyFontClass, applyThemeClass } from '../utils/appearance';
 
   interface Props {
-    activeView: 'home' | 'reader' | 'concordance' | 'devotionals';
+    activeView: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong';
     bookmarkCount?: number;
-    onNavigate: (view: 'home' | 'reader' | 'concordance' | 'devotionals') => void;
+    onNavigate: (view: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong') => void;
     onOpenBookmarks?: () => void;
     onOpenSettings?: () => void;
     children?: Snippet;

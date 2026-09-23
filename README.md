@@ -100,7 +100,8 @@ aletheiagateway/
 │   │   ├── cross-references/      # Referencias cruzadas TSK
 │   │   ├── devotionals/           # Devocionales diarios
 │   │   ├── notes/                 # Notas personales y resaltados
-│   │   └── settings/              # Configuración, tipografía y respaldo
+│   │   ├── settings/              # Configuración, tipografía y respaldo
+│   │   └── strong/                # Diccionario Strong H/G con audio (domain, JsonStrongRepository, StrongView)
 │   ├── shared/
 │   │   ├── ui/                    # AppShell.svelte, Sidebar.svelte, Topbar.svelte
 │   │   ├── styles/                # globals.css (Tokens neobrutalistas)
@@ -175,12 +176,22 @@ aletheiagateway/
 > - Concordancias solo en español (9/22 versiones); EN/PT/LA/DE/EL/HE pendientes de generar.
 > - Referencias TSK completas (66/66 libros desde v0.11.5).
 > - Comentario Bíblico Adventista (CBA) completo en español (66/66 libros, 24.794 versículos desde v0.12.0); resto de fuentes en inglés.
+> - Diccionario Strong completo (8.680 hebreo + 5.624 griego desde v0.13.0) con audio de pronunciación salvo 112 entradas sin mp3 (11 H + 101 G).
 > - Devocional `sme-spurgeon` en inglés; pendiente fuente en español o etiqueta de idioma en UI.
-> - `public/data/` pesa ~336MB y se copia a `dist/`; para producción valorar hosting externo (R2/S3) en lugar de `public/`.
+> - `public/data/` + `public/audio/` pesan ~448MB y se copian a `dist/`; para producción valorar hosting externo (R2/S3) en lugar de `public/`.
 
 ---
 
 ## 📋 Historial de Cambios (Changelog)
+
+### [0.13.0] - 2026-09-23
+
+#### Añadido: Diccionario Strong hebreo/griego con audio (rescate NRVA)
+
+- 📖 **Módulo `strong` completo**: `StrongEntry` + `IStrongRepository` + `JsonStrongRepository` (carga diferida con caché, 8.680 H + 5.624 G) + `StrongView.svelte` (diccionario con pestañas, búsqueda insensible a tildes, salto directo por código `H25/G26`, paginación y detalle con pronunciación, derivación, definición y Def. en RV).
+- 🔊 **14.192 audios de pronunciación** (`public/audio/strong/{greek,hebrew}/*.mp3`, 108MB, copia byte-idéntica desde NRVA-Reader) con reproducción bajo demanda y estado `Sin audio` en las 112 entradas sin mp3.
+- 🧭 **Nueva vista `Strong`** en sidebar (icono `Languages`) y Topbar (`Diccionario Strong`), con palabra original `rtl` en hebreo y `ltr` en griego.
+- ✅ 12 tests nuevos (dominio + repositorio contra datos reales) y 1 e2e (diccionario → búsqueda → detalle). Suite 45/45 + e2e 6/6.
 
 ### [0.12.0] - 2026-09-23
 

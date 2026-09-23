@@ -7,13 +7,14 @@
     ListChecks,
     Heart,
     Headphones,
+    Languages,
     Library,
     Settings2,
   } from 'lucide-svelte';
 
   interface Props {
-    activeView: 'home' | 'reader' | 'concordance' | 'devotionals';
-    onNavigate: (view: 'home' | 'reader' | 'concordance' | 'devotionals') => void;
+    activeView: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong';
+    onNavigate: (view: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong') => void;
     isOpen: boolean;
     isCollapsed: boolean;
     bookmarkCount?: number;
@@ -39,6 +40,7 @@
     { title: 'Leer la Biblia', icon: BookOpen, view: 'reader' as const },
     { title: 'Concordancia', icon: Search, view: 'concordance' as const },
     { title: 'Devocionales', icon: Heart, view: 'devotionals' as const },
+    { title: 'Strong', icon: Languages, view: 'strong' as const },
   ];
 
   const exploreItems = [
@@ -47,7 +49,7 @@
     { title: 'Recursos', icon: Library },
   ];
 
-  function handleSelect(view: 'home' | 'reader' | 'concordance' | 'devotionals') {
+  function handleSelect(view: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong') {
     onNavigate(view);
     onClose();
   }
