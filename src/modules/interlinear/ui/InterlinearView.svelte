@@ -5,25 +5,28 @@
   import { bionicHtml } from '../../../shared/utils/bionic';
   import type { InterlinearTestament, InterlinearVerse } from '../domain/InterlinearVerse';
   import { strongIdForWord, testamentLabel } from '../domain/InterlinearVerse';
-  import { JsonInterlinearRepository } from '../infrastructure/JsonInterlinearRepository';
-  import { JsonBibleRepository } from '../../bible-reader/infrastructure/JsonBibleRepository';
-  import { getAllBooks } from '../../bible-reader/domain/entities/BibleBooks';
+import { JsonInterlinearRepository } from '../infrastructure/JsonInterlinearRepository';
+import { JsonBibleRepository } from '../../bible-reader/infrastructure/JsonBibleRepository';
+import { getAllBooks } from '../../bible-reader/domain/entities/BibleBooks';
+import { AVAILABLE_TRANSLATIONS, type TranslationId } from '../../bible-reader/domain/entities/Translation';
 
-  interface Props {
-    initialBook?: string;
-    initialChapter?: number;
-    initialVerse?: number;
-    onOpenStrong: (strongId: string) => void;
-    onSelectPassage: (ref: string) => void;
-  }
+interface Props {
+  initialBook?: string;
+  initialChapter?: number;
+  initialVerse?: number;
+  referenceTranslation?: TranslationId;
+  onOpenStrong: (strongId: string) => void;
+  onSelectPassage: (ref: string) => void;
+}
 
-  let {
-    initialBook = 'Génesis',
-    initialChapter = 1,
-    initialVerse = 1,
-    onOpenStrong,
-    onSelectPassage,
-  }: Props = $props();
+let {
+  initialBook = 'Génesis',
+  initialChapter = 1,
+  initialVerse = 1,
+  referenceTranslation = 'RV1909',
+  onOpenStrong,
+  onSelectPassage,
+}: Props = $props();
 
   const interlinearRepo = new JsonInterlinearRepository();
   const bibleRepo = new JsonBibleRepository();
@@ -44,10 +47,13 @@
 
   let currentVerse = $derived(chapterVerses.find((v) => v.verse === verse) || null);
   let isHebrew = $derived(testament === 'hebrew');
+  let referenceShortName = $derived(
+    AVAILABLE_TRANSLATIONS[referenceTranslation]?.shortName ?? referenceTranslation
+  );
 
   async function loadReferenceVerse(): Promise<string> {
     try {
-      const passage = await bibleRepo.getPassage(`${bookName} ${chapter}`, 'RV1909');
+      const passage = await bibleRepo.getPassage(`${bookName} ${chapter}`, referenceTranslation);
       const found = passage?.verses?.find(
         (item) =>
           item.number === verse ||
@@ -126,9 +132,10 @@
   });
 
   $effect(() => {
-    // Recarga el texto de referencia al cambiar de versículo dentro del capítulo
+    // Recarga el texto de referencia al cambiar de versículo o de traducción principal
     const v = verse;
-    if (v && chapterVerses.length > 0) {
+    const t = referenceTranslation;
+    if (v && t && chapterVerses.length > 0) {
       untrack(() => {
         loadReferenceVerse().then((text) => {
           referenceText = text;
@@ -244,7 +251,7 @@
 
     {#if referenceText}
       <div class="interlinear-reference">
-        <span class="interlinear-reference-label">RV1909 · {bookName} {chapter}:{verse}</span>
+        <span class="interlinear-reference-label">{referenceShortName} · {bookName} {chapter}:{verse}</span>
         <p>{referenceText}</p>
       </div>
     {/if}

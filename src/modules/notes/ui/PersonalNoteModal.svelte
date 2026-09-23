@@ -216,7 +216,20 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    animation: popIn 0.12s cubic-bezier(0.16, 1, 0.3, 1);
+    animation: note-dialog-in 0.12s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* Entrada propia del dialog (el keyframe global `popIn` es del tooltip
+     flotante y usa translate(-50%) que aquí provocaba un salto al abrir). */
+  @keyframes note-dialog-in {
+    from {
+      opacity: 0;
+      transform: scale(0.97);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
 
   .personal-note-header {

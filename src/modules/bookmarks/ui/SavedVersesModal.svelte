@@ -33,13 +33,17 @@
   let bookmarks = $state<BookmarkEntity[]>([]);
   let filterText = $state('');
   let copiedId = $state<string | null>(null);
+  let isLoading = $state(false);
 
   async function loadBookmarks() {
+    isLoading = true;
     try {
       bookmarks = await bookmarkRepo.getAll();
       onBookmarksChange?.();
     } catch (err) {
       console.error('Error loading bookmarks:', err);
+    } finally {
+      isLoading = false;
     }
   }
 
@@ -121,11 +125,11 @@
           <h2 id="saved-verses-title" class="font-display font-extrabold text-lg uppercase tracking-tight">
             Versículos Guardados
           </h2>
-          <span class="saved-count-badge">{bookmarks.length}</span>
+          <span class="saved-count-badge">{isLoading ? '…' : bookmarks.length}</span>
         </div>
 
         <div class="flex items-center gap-3">
-          {#if bookmarks.length > 0}
+          {#if !isLoading && bookmarks.length > 0}
             <div class="book-search-input">
               <Search size={14} class="text-[var(--text-main)] shrink-0" />
               <input
@@ -161,7 +165,14 @@
 
       <!-- Content -->
       <div class="saved-verses-body">
-        {#if bookmarks.length === 0}
+        {#if isLoading}
+          <!-- Esqueleto con huella estable: evita el salto vacío → lista -->
+          <div class="saved-skeleton" aria-hidden="true">
+            <div class="saved-skeleton-card"></div>
+            <div class="saved-skeleton-card"></div>
+            <div class="saved-skeleton-card"></div>
+          </div>
+        {:else if bookmarks.length === 0}
           <div class="saved-empty-state">
             <div class="empty-icon-box">
               <Bookmark size={32} />
@@ -252,7 +263,20 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    animation: popIn 0.12s cubic-bezier(0.16, 1, 0.3, 1);
+    animation: saved-dialog-in 0.12s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* Entrada propia del dialog (el keyframe global `popIn` es del tooltip
+     flotante y usa translate(-50%) que aquí provocaba un salto al abrir). */
+  @keyframes saved-dialog-in {
+    from {
+      opacity: 0;
+      transform: scale(0.97);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
 
   .saved-verses-header {
@@ -290,6 +314,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    min-height: 320px;
     scrollbar-width: thin;
     scrollbar-color: var(--accent-attention) var(--bg-canvas);
   }
@@ -303,6 +328,37 @@
     border: 2px dashed var(--border-color);
     background-color: var(--bg-surface);
     text-align: center;
+  }
+
+  .saved-skeleton {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .saved-skeleton-card {
+    height: 132px;
+    border: var(--border-main);
+    border-radius: var(--radius-strict);
+    background-color: var(--bg-surface);
+    box-shadow: var(--shadow-sm);
+    background-image: linear-gradient(
+      100deg,
+      transparent 30%,
+      color-mix(in srgb, var(--accent-attention) 22%, transparent) 50%,
+      transparent 70%
+    );
+    background-size: 200% 100%;
+    animation: saved-skeleton-shimmer 1.1s linear infinite;
+  }
+
+  @keyframes saved-skeleton-shimmer {
+    from {
+      background-position: 180% 0;
+    }
+    to {
+      background-position: -80% 0;
+    }
   }
 
   .empty-icon-box {

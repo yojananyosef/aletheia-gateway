@@ -201,6 +201,15 @@ aletheiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.17.5] - 2026-09-23
+
+#### Interlineal con principal, modal sin salto y hover neobrutalista en planes
+
+- 📖 **Interlineal sigue la traducción principal**: el versículo de referencia usaba `RV1909` fijo; ahora recibe `selectedTranslations[0]` igual que el versículo del día y recarga al cambiarla.
+- 📑 **Guardados sin layout shift**: el dialog animaba con el keyframe del tooltip (`translate(-50%)`, salto al abrir) y pasaba de vacío a lista al cargar. Ahora tiene keyframes propios, esqueleto de carga y `min-height` estable (mismo arreglo en notas personales).
+- 🃏 **Cards de planes con hover**: levantan con `shadow-lg` y "Abrir plan" se vuelve chip amarillo, igual que el resto de la app.
+- ✅ `check` 0 errores, unit 121/121, contraste AAA.
+
 ### [0.17.4] - 2026-09-23
 
 #### Corregido: coherencia de tintas en oscuro/OLED y layout shift en HC/sepia

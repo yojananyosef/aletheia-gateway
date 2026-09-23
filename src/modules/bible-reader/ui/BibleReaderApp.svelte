@@ -332,6 +332,7 @@
     {/key}
   {:else if view === 'interlinear'}
     <InterlinearView
+      referenceTranslation={selectedTranslations[0] || 'RV1909'}
       onOpenStrong={handleOpenStrong}
       onSelectPassage={handleGoToReader}
     />
