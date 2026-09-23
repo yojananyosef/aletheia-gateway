@@ -4,6 +4,7 @@
 
   let text = $state('');
   let reference = $state('');
+  let version = $state('');
   let animate = $state(false);
 
   function fontSizeFor(length: number): string {
@@ -25,10 +26,12 @@
         if (!data || data.type === 'clear') {
           text = '';
           reference = '';
+          version = '';
           return;
         }
         text = data.text ?? '';
         reference = data.reference ?? '';
+        version = data.version ?? '';
         animate = false;
         setTimeout(() => (animate = true), 50);
       };
@@ -53,7 +56,7 @@
     <div class="projection-body {animate ? 'is-visible' : ''}">
       <div class="projection-text" style="font-size: {fontSizeFor(plainLength)}">{@html text}</div>
       {#if reference}
-        <div class="projection-ref">{reference}</div>
+        <div class="projection-ref">{reference}{#if version} · {version}{/if}</div>
       {/if}
     </div>
   {/if}

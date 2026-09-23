@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onMount, untrack } from 'svelte';
+  import { onDestroy, onMount, untrack } from 'svelte';
   import {
     Search,
     ChevronLeft,
@@ -46,7 +46,7 @@
   import {
     buildVerseMessage,
     clearProjection,
-    openProjectionWindow,
+    projectPassage,
     sendProjection,
   } from '../../projection/application/projectionChannel';
 
@@ -313,26 +313,46 @@
   // Proyección en segunda pantalla (BroadcastChannel + /projection)
   let isProjecting = $state(false);
 
-  function handleProject() {
-    if (isProjecting) {
-      clearProjection();
-      isProjecting = false;
-      return;
-    }
+  function buildCurrentMessage() {
     const first = passages[0];
-    if (!first || !first.verses || first.verses.length === 0) return;
+    if (!first || !first.verses || first.verses.length === 0) return null;
     const reference = `${currentBook} ${currentChapter}`;
-    const message = buildVerseMessage(
+    return buildVerseMessage(
       { book: currentBook, chapter: currentChapter },
       first.verses.map((v) => ({ number: v.number, text: v.text })),
       reference,
       first.translationId ?? selectedTranslations[0],
     );
-    if (sendProjection(message)) {
+  }
+
+  function handleProject() {
+    if (isProjecting) {
+      clearProjection();
+      // Reintentar el borrado por si el visor cargaba tarde
+      setTimeout(() => clearProjection(), 300);
+      isProjecting = false;
+      return;
+    }
+    const message = buildCurrentMessage();
+    if (!message) return;
+    // Abrir visor PRIMERO y reintentar el envío (el receptor se suscribe al cargar)
+    if (projectPassage(message)) {
       isProjecting = true;
-      openProjectionWindow();
     }
   }
+
+  // Si se cambia de capítulo con la proyección activa, re-proyectar
+  // el nuevo capítulo en vez de apagar (como Proyektor: el visor sigue vivo).
+  $effect(() => {
+    const b = currentBook;
+    const c = currentChapter;
+    const verseCount = passages[0]?.verses?.length ?? 0;
+    if (!isProjecting || !b || !c || verseCount === 0) return;
+    untrack(() => {
+      const message = buildCurrentMessage();
+      if (message) sendProjection(message);
+    });
+  });
 
   async function loadHighlightsAndNotes() {
     try {
@@ -388,11 +408,18 @@
 
   function stopTransientModes() {
     ttsStore.stop();
-    if (isProjecting) {
-      clearProjection();
-      isProjecting = false;
-    }
+    // La proyección NO se apaga al cambiar de capítulo: el efecto
+    // de re-proyección la mantiene viva (modelo Proyektor).
   }
+
+  onDestroy(() => {
+    try {
+      ttsStore.stop();
+      if (isProjecting) clearProjection();
+    } catch {
+      // ignorar
+    }
+  });
 
   function handlePrevChapter() {
     stopTransientModes();

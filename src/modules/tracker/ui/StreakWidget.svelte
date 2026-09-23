@@ -17,6 +17,12 @@
 
   const DAY_LABELS = ['D', 'L', 'M', 'M', 'J', 'V', 'S'];
 
+  function daysInYear(year: number): number {
+    return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0 ? 366 : 365;
+  }
+
+  let yearTotal = $derived(daysInYear(new Date().getFullYear()));
+
   onMount(() => {
     progress = repo.recordToday();
   });
@@ -39,8 +45,12 @@
     {/each}
   </div>
   <div class="streak-meta">
-    <span class="streak-best"><Trophy size={13} /> récord {progress.bestStreak}</span>
-    <span class="streak-year">{progress.totalDaysThisYear} días este año</span>
+    <span class="streak-best" title="Tu mejor racha de días consecutivos">
+      <Trophy size={13} /> Récord: {progress.bestStreak} {progress.bestStreak === 1 ? 'día' : 'días'}
+    </span>
+    <span class="streak-year" title="Días distintos que abriste la lectura este año">
+      {progress.totalDaysThisYear} de {yearTotal} días este año
+    </span>
   </div>
 </div>
 

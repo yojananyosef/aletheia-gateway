@@ -50,6 +50,9 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   padding: 24px 0 60px;
   transition: max-width 0.15s ease;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .reader-view {
@@ -145,7 +148,7 @@ body.mode-calm .modern-main::-webkit-scrollbar-thumb {
   flex-direction: column;
   gap: 12px;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 .daily-verse-header {

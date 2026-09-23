@@ -81,23 +81,58 @@ export function clearProjection(): boolean {
 }
 
 export function openProjectionWindow(): boolean {
-  if (typeof window === 'undefined') return false;
+  return openProjectionWindowRef() !== null;
+}
+
+function openProjectionWindowRef(): Window | null {
+  if (typeof window === 'undefined') return null;
   try {
-    const width = 1024;
-    const height = 768;
-    const left = window.screen.width / 2 - width / 2;
-    const top = window.screen.height / 2 - height / 2;
+    const width = 1280;
+    const height = 720;
+    const left = window.screen.width - width;
+    const top = 0;
     const win = window.open(
       PROJECTION_URL,
       'BibleProjection',
       `width=${width},height=${height},left=${left},top=${top},menubar=no,toolbar=no,location=no,status=no,resizable=yes,scrollbars=yes,popup=yes`,
     );
     if (win) {
-      win.focus();
-      return true;
+      try {
+        win.focus();
+      } catch {
+        // ignorar (bloqueo de foco)
+      }
+      return win;
     }
-    return false;
+    return null;
   } catch {
-    return false;
+    return null;
   }
+}
+
+/**
+ * Abre (o enfoca) la ventana visora ANTES de enviar, y reintenta el envío
+ * porque el receptor se suscribe al `BroadcastChannel` al cargar.
+ * Sin esto el primer mensaje se pierde (ventana aún cargando) y parece
+ * que "el proyector no funciona". Modelo auditado: Proyektor/labiblia.in
+ * (`window.open(visor)` + `cambiartexto()` diferido + iframe de vista previa).
+ */
+export function projectPassage(message: ProjectionMessage, retries = [150, 500, 1200]): boolean {
+  if (typeof window === 'undefined') return false;
+  const win = openProjectionWindowRef();
+  // Enviar aunque el popup fuese bloqueado: si el usuario ya tiene
+  // /projection abierto a mano, el BroadcastChannel igual llega.
+  let sent = sendProjection(message);
+  for (const delay of retries) {
+    setTimeout(() => {
+      try {
+        sendProjection(message);
+      } catch {
+        // ignorar
+      }
+    }, delay);
+  }
+  // Si ni popup ni canal: fallo real (navegador sin BroadcastChannel).
+  if (!win && !sent) return false;
+  return true;
 }
