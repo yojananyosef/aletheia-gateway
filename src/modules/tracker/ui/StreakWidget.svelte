@@ -31,7 +31,7 @@
     bestStreak: 0,
   });
 
-  let showStats = $state(true);
+  let showStats = $state(false);
 
   const DAY_LABELS = ['D', 'L', 'M', 'M', 'J', 'V', 'S'];
 
@@ -63,7 +63,7 @@
       onclick={() => (showStats = !showStats)}
     >
       <BarChart3 size={14} />
-      <span>Ver estadísticas</span>
+      <span>{showStats ? 'Ocultar estadísticas' : 'Ver estadísticas'}</span>
       <ChevronDown size={14} class="streak-chevron {showStats ? 'is-open' : ''}" />
     </button>
   </div>
