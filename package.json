@@ -1,6 +1,6 @@
 {
   "name": "aletheiagateway",
-  "version": "0.17.1",
+  "version": "0.17.2",
   "private": true,
   "type": "module",
   "packageManager": "bun@1.1.0",
@@ -29,22 +29,20 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.10",
+    "@astrojs/check": "0.9.10",
     "@astrojs/svelte": "9.0.1",
-    "@tailwindcss/vite": "^4.3.3",
-    "clsx": "^2.1.1",
-    "lucide-svelte": "^0.475.0",
-    "svelte": "^5.57.1",
-    "tailwind-merge": "^3.7.0",
-    "tailwindcss": "^4.3.3"
+    "@tailwindcss/vite": "4.3.3",
+    "lucide-svelte": "0.475.0",
+    "svelte": "5.57.1",
+    "tailwindcss": "4.3.3"
   },
   "devDependencies": {
-    "@playwright/test": "^1.63.0",
-    "@types/node": "^26.6.2",
+    "@playwright/test": "1.63.0",
+    "@types/node": "26.6.2",
     "astro": "7.2.4",
-    "bun-types": "^1.4.2",
-    "prettier": "^3.9.9",
-    "typescript": "^5.9.3",
-    "vitest": "^5.0.1"
+    "bun-types": "1.4.2",
+    "prettier": "3.9.9",
+    "typescript": "5.9.3",
+    "vitest": "5.0.1"
   }
 }

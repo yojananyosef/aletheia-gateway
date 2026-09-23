@@ -5,23 +5,21 @@
     "": {
       "name": "bible-reading-interface",
       "dependencies": {
-        "@astrojs/check": "^0.9.10",
+        "@astrojs/check": "0.9.10",
         "@astrojs/svelte": "9.0.1",
-        "@tailwindcss/vite": "^4.3.3",
-        "clsx": "^2.1.1",
-        "lucide-svelte": "^0.475.0",
-        "svelte": "^5.57.1",
-        "tailwind-merge": "^3.7.0",
-        "tailwindcss": "^4.3.3",
+        "@tailwindcss/vite": "4.3.3",
+        "lucide-svelte": "0.475.0",
+        "svelte": "5.57.1",
+        "tailwindcss": "4.3.3",
       },
       "devDependencies": {
-        "@playwright/test": "^1.63.0",
-        "@types/node": "^26.6.2",
+        "@playwright/test": "1.63.0",
+        "@types/node": "26.6.2",
         "astro": "7.2.4",
-        "bun-types": "^1.4.2",
-        "prettier": "^3.9.9",
-        "typescript": "^5.9.3",
-        "vitest": "^5.0.1",
+        "bun-types": "1.4.2",
+        "prettier": "3.9.9",
+        "typescript": "5.9.3",
+        "vitest": "5.0.1",
       },
     },
   },
@@ -725,8 +723,6 @@
     "svelte2tsx": ["svelte2tsx@0.7.61", "", { "dependencies": { "dedent-js": "^1.0.1", "scule": "^1.3.0" }, "peerDependencies": { "svelte": "^3.55 || ^4.0.0-next.0 || ^4.0 || ^5.0.0-next.0", "typescript": "^4.9.4 || ^5.0.0 || ^6.0.0" } }, "sha512-EpQ/+UHITBULeUojx/LLD3uTYasZXcX1BrqlrzfLUnT9vdUhaOWK59a3ryWcFU8L0sY1SP+gRhJ2Beiis98+qw=="],
 
     "svgo": ["svgo@4.1.0", "", { "dependencies": { "commander": "^11.1.0", "css-select": "^6.0.0", "css-tree": "^3.0.1", "css-what": "^7.0.0", "csso": "^5.0.5", "picocolors": "^1.1.1", "sax": "1.6.1" }, "bin": { "svgo": "bin/svgo.js" } }, "sha512-bkxnTg1kSU0guhIBmibA6UUhrQmPVA1XsQLN+ylCd+UWzbnLkySOcXpyk1mrl05f+pcaCx2eHb+sp6BgMZWX+Q=="],
-
-    "tailwind-merge": ["tailwind-merge@3.7.0", "", {}, "sha512-XPPUyAc+cvspz3lHTcR/QgPfW2A0lv/xQNIjX3HGhLR+Nq2lHaLq5MtTesHn8GUr3W3DguT2KT5x3NVgRtYwmA=="],
 
     "tailwindcss": ["tailwindcss@4.3.3", "", {}, "sha512-gOhV3P7ufE62QDGg1zVaTgCR+EtPv92k2nIhVcVKcLmxT1sUBsQGhnZj175j+MqRt4zLF7ic+sCYjfhxMxj7YQ=="],
 

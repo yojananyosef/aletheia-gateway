@@ -70,7 +70,7 @@ graph TD
 
 - **Framework Web**: [Astro 7](https://astro.build/)
 - **Librería de UI / Reactividad**: [Svelte 5](https://svelte.dev/) con _Runes_ (`$state`, `$derived`, `$props`, `$effect`)
-- **Estilos y Utilidades**: [Tailwind CSS v4](https://tailwindcss.com/) (`@tailwindcss/vite`, `clsx`, `tailwind-merge`)
+- **Estilos y Utilidades**: [Tailwind CSS v4](https://tailwindcss.com/) (`@tailwindcss/vite`)
 - **Iconografía**: [Lucide Svelte](https://lucide.dev/)
 - **Lenguaje**: [TypeScript 5.9](https://www.typescriptlang.org/)
 - **Entorno / Gestor de Paquetes**: [Bun](https://bun.sh/)
@@ -200,6 +200,14 @@ aletheiagateway/
 ---
 
 ## 📋 Historial de Cambios (Changelog)
+
+### [0.17.2] - 2026-09-23
+
+#### Limpieza: dependencias auditadas y fijadas
+
+- 🧹 Eliminadas `clsx` + `tailwind-merge`: solo las usaba `src/shared/utils/cn.ts`, utilidad muerta sin ningún import en el proyecto (archivo también eliminado). Resto de dependencias verificadas en uso (`bun-types` cubre los `Bun.*` de `e2e/server.ts`).
+- 🔒 Versiones exactas sin carets en `package.json` (ej. `svelte: 5.57.1`): installs deterministas junto a `bun.lock`.
+- ✅ `check` 0 errores, unit 121/121, e2e 15/15.
 
 ### [0.17.1] - 2026-09-23
 
