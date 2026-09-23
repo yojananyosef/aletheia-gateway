@@ -201,6 +201,14 @@ aletheiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.17.3] - 2026-09-23
+
+#### Reorganizado: sidebar por intención
+
+- 🗂️ **Explorar** (ir a leer/estudiar): Inicio, Leer la Biblia, Concordancia, Strong, Interlineal.
+- 📚 **Tu biblioteca** (tu vida espiritual): Versículos guardados, Devocionales, Planes de lectura, Mi progreso. Sin cambios de rutas ni vistas, solo agrupación.
+- ✅ `check` 0 errores, unit 121/121, e2e 15/15.
+
 ### [0.17.2] - 2026-09-23
 
 #### Limpieza: dependencias auditadas y fijadas

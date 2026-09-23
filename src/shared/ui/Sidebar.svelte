@@ -40,10 +40,13 @@
     { title: 'Inicio', icon: House, view: 'home' as const },
     { title: 'Leer la Biblia', icon: BookOpen, view: 'reader' as const },
     { title: 'Concordancia', icon: Search, view: 'concordance' as const },
-    { title: 'Devocionales', icon: Heart, view: 'devotionals' as const },
-    { title: 'Planes de lectura', icon: ListChecks, view: 'plans' as const },
     { title: 'Strong', icon: Languages, view: 'strong' as const },
     { title: 'Interlineal', icon: ArrowLeftRight, view: 'interlinear' as const },
+  ];
+
+  const libraryItems = [
+    { title: 'Devocionales', icon: Heart, view: 'devotionals' as const },
+    { title: 'Planes de lectura', icon: ListChecks, view: 'plans' as const },
     { title: 'Mi progreso', icon: Trophy, view: 'tracker' as const },
   ];
 
@@ -123,6 +126,21 @@
           {/if}
         {/if}
       </button>
+
+      {#each libraryItems as item}
+        {@const Icon = item.icon}
+        <button
+          type="button"
+          class="neo-nav-button {activeView === item.view ? 'is-active' : ''} {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
+          data-tooltip={item.title}
+          onclick={() => handleSelect(item.view)}
+        >
+          <Icon size={20} class="shrink-0" />
+          {#if !isCollapsed || isOpen}
+            <span class="truncate">{item.title}</span>
+          {/if}
+        </button>
+      {/each}
     </div>
   </div>
 
