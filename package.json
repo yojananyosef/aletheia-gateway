@@ -1,6 +1,6 @@
 {
   "name": "aletheiagateway",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "private": true,
   "type": "module",
   "packageManager": "bun@1.1.0",
@@ -11,6 +11,7 @@
     "convert:bibles": "bun run scripts/convert-bibles.ts",
     "convert:commentaries": "python scripts/convert-commentaries.py",
     "convert:cba": "python scripts/convert-cba.py",
+    "convert:interlinear": "python scripts/convert-interlinear.py",
     "convert:sword-otros": "python scripts/convert-otros-sword.py",
     "convert:platense": "python scripts/convert-spaplatense.py",
     "convert:rvg": "python scripts/convert-sparvg.py",

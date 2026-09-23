@@ -8,13 +8,14 @@
     Heart,
     Headphones,
     Languages,
+    ArrowLeftRight,
     Library,
     Settings2,
   } from 'lucide-svelte';
 
   interface Props {
-    activeView: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong';
-    onNavigate: (view: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong') => void;
+    activeView: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear';
+    onNavigate: (view: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear') => void;
     isOpen: boolean;
     isCollapsed: boolean;
     bookmarkCount?: number;
@@ -41,6 +42,7 @@
     { title: 'Concordancia', icon: Search, view: 'concordance' as const },
     { title: 'Devocionales', icon: Heart, view: 'devotionals' as const },
     { title: 'Strong', icon: Languages, view: 'strong' as const },
+    { title: 'Interlineal', icon: ArrowLeftRight, view: 'interlinear' as const },
   ];
 
   const exploreItems = [
@@ -49,7 +51,7 @@
     { title: 'Recursos', icon: Library },
   ];
 
-  function handleSelect(view: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong') {
+  function handleSelect(view: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear') {
     onNavigate(view);
     onClose();
   }

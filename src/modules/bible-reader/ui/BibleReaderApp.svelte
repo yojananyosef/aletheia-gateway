@@ -9,6 +9,7 @@
   import ConcordanceView from '../../concordance/ui/ConcordanceView.svelte';
   import DevotionalView from '../../devotionals/ui/DevotionalView.svelte';
   import StrongView from '../../strong/ui/StrongView.svelte';
+  import InterlinearView from '../../interlinear/ui/InterlinearView.svelte';
   import SettingsModal from '../../settings/ui/SettingsModal.svelte';
 
   import {
@@ -37,7 +38,7 @@
   const compareTranslationsUseCase = new CompareTranslationsUseCase(bibleRepository);
 
   // Svelte 5 Runes state
-  let view = $state<'home' | 'reader' | 'concordance' | 'devotionals' | 'strong'>('home');
+  let view = $state<'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear'>('home');
   let homeQuery = $state('');
   let readerQuery = $state('Génesis 1:1');
   let activeQuery = $state('Génesis 1:1');
@@ -182,7 +183,14 @@
     isSavedVersesModalOpen = false;
   }
 
-  function handleNavigate(nextView: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong') {
+  let strongInitialId: string | null = $state(null);
+
+  function handleOpenStrong(strongId: string) {
+    strongInitialId = strongId;
+    view = 'strong';
+  }
+
+  function handleNavigate(nextView: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear') {
     view = nextView;
     if (nextView === 'reader') {
       readerQuery = activeQuery;
@@ -309,7 +317,14 @@
       onSelectPassage={handleGoToReader}
     />
   {:else if view === 'strong'}
-    <StrongView />
+    {#key strongInitialId}
+      <StrongView initialId={strongInitialId} />
+    {/key}
+  {:else if view === 'interlinear'}
+    <InterlinearView
+      onOpenStrong={handleOpenStrong}
+      onSelectPassage={handleGoToReader}
+    />
   {:else}
     <ReaderView
       query={readerQuery}

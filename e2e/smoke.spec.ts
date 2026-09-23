@@ -57,6 +57,19 @@ test('Strong: diccionario, búsqueda y detalle con audio', async ({ page }) => {
   await expect(page.getByRole('button', { name: 'Escuchar pronunciación' })).toBeVisible();
 });
 
+test('Interlineal: palabras hebreas y salto al Strong', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Interlineal' }).first().click();
+  await expect(page.getByRole('heading', { name: 'Interlineal Hebreo' })).toBeVisible();
+
+  const firstWord = page.locator('.interlinear-original').first();
+  await expect(firstWord).toBeVisible({ timeout: 20000 });
+  await expect(page.locator('.interlinear-words')).toContainText('principio');
+
+  await page.locator('.interlinear-strong', { hasText: '7225' }).click();
+  await expect(page.getByText('Strong hebreo #7225')).toBeVisible();
+});
+
 test('estilos con scope: botones y títulos conservan diseño tras el split', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('button', { name: 'Configuración' }).click();

@@ -102,6 +102,7 @@ aletheiagateway/
 │   │   ├── notes/                 # Notas personales y resaltados
 │   │   ├── settings/              # Configuración, tipografía y respaldo
 │   │   └── strong/                # Diccionario Strong H/G con audio (domain, JsonStrongRepository, StrongView)
+│   │   └── interlinear/           # Interlineal hebreo/griego palabra por palabra (domain, JsonInterlinearRepository, InterlinearView)
 │   ├── shared/
 │   │   ├── ui/                    # AppShell.svelte, Sidebar.svelte, Topbar.svelte
 │   │   ├── styles/                # globals.css (Tokens neobrutalistas)
@@ -178,11 +179,20 @@ aletheiagateway/
 > - Comentario Bíblico Adventista (CBA) completo en español (66/66 libros, 24.794 versículos desde v0.12.0); resto de fuentes en inglés.
 > - Diccionario Strong completo (8.680 hebreo + 5.624 griego desde v0.13.0) con audio de pronunciación salvo 112 entradas sin mp3 (11 H + 101 G).
 > - Devocional `sme-spurgeon` en inglés; pendiente fuente en español o etiqueta de idioma en UI.
-> - `public/data/` + `public/audio/` pesan ~448MB y se copian a `dist/`; para producción valorar hosting externo (R2/S3) en lugar de `public/`.
+> - `public/data/` + `public/audio/` pesan ~506MB y se copian a `dist/`; para producción valorar hosting externo (R2/S3) en lugar de `public/`.
 
 ---
 
 ## 📋 Historial de Cambios (Changelog)
+
+### [0.14.0] - 2026-09-23
+
+#### Añadido: Interlineal hebreo/griego enlazado al Strong (rescate NRVA)
+
+- 📜 **Módulo `interlinear` completo**: `InterlinearVerse` + `IInterlinearRepository` + `JsonInterlinearRepository` (carga por libro con caché) + `InterlinearView.svelte` (selectores libro/cap/vers, flujo `rtl` en hebreo, morfología con tooltip y fijado táctil, versículo de referencia RV1909 y botón `Leer en la Biblia`).
+- 🔗 **Círculo Strong cerrado**: cada palabra enlaza a su entrada `H/G` en el diccionario (las partículas gramaticales 9001+ sin entrada no generan ancla); el Strong se abre con `initialId` y remontaje por clave.
+- 📦 **66 libros copiados** (`scripts/convert-interlinear.py`, +58MB) con nombres gateway (`GEN.json`, `MAT.json`…).
+- ✅ 6 tests nuevos (dominio + repositorio contra datos reales) y 1 e2e (interlineal → Strong H7225). Suite 52/52 + e2e 7/7.
 
 ### [0.13.0] - 2026-09-23
 
