@@ -29,4 +29,5 @@
 @import './settings.css'; /* Modal de configuración + pestañas */
 @import './responsive.css'; /* Media queries (deben ir tras las bases) */
 @import './concordance.css'; /* Vista de concordancia */
+@import './lexicon.css'; /* Vistas Strong e interlineal */
 @import './motion.css'; /* prefers-reduced-motion (siempre último) */

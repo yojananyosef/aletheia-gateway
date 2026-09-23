@@ -1,0 +1,22 @@
+/* ==========================================================================
+   VISTAS LÉXICAS: DICCIONARIO STRONG E INTERLINEAL
+   Contenedores unificados con el resto de vistas (home/reader/concordance):
+   mismo ancho máximo, mismo aire superior/inferior y misma expansión al
+   colapsar el sidebar.
+   ========================================================================== */
+
+.strong-view,
+.interlinear-view {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 0;
+  margin-inline: auto;
+  padding: 24px 0 60px;
+  box-sizing: border-box;
+}
+
+.neo-main-inset.is-sidebar-collapsed .strong-view,
+.neo-main-inset.is-sidebar-collapsed .interlinear-view {
+  width: 100%;
+  max-width: 1440px;
+}

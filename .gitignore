@@ -23,6 +23,9 @@ test-results/
 playwright-report/
 blob-report/
 
+# Auditoría interlineal (progreso y reportes locales, no versionar)
+public/data/interlinear/_audit/
+
 # Legacy / Editor
 .next/
 .vercel/

@@ -254,8 +254,7 @@
 <style>
   .interlinear-view {
     width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
+    min-width: 0;
   }
 
   .interlinear-header {
