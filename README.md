@@ -201,6 +201,13 @@ aletheiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.17.1] - 2026-09-23
+
+#### Mantenimiento: dependencias al día
+
+- 📦 `bun update`: Svelte 5.56.10 → 5.57.1, tailwind-merge 3.6.0 → 3.7.0, @types/node 26.4.1 → 26.6.2, prettier 3.9.6 → 3.9.9, vitest 5.0.0 → 5.0.1 (+ transitivos: vite 8.3.0, zod 4.6.5, sharp 0.35.4).
+- ✅ Sin cambios de código: `check` 0 errores, unit 121/121, e2e 15/15 (hidratación OK con Svelte 5.57.1).
+
 ### [0.17.0] - 2026-09-23
 
 #### Añadido: progreso de planes de lectura
