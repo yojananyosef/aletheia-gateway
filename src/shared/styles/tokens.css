@@ -13,11 +13,11 @@
   --text-muted: #575752;
 
   /* Acentos Funcionales AIDA */
-  --accent-attention: #FFD23F; /* Amarillo A */
-  --accent-desire: #FF6B6B;    /* Rosa Coral D */
-  --accent-interest: #74B9FF;  /* Azul Interés I */
-  --accent-success: #2ECC71;   /* Verde Conversión */
-  --accent-error: #DC2626;     /* Rojo Alerta */
+  --accent-attention: #ffd23f; /* Amarillo A */
+  --accent-desire: #ff6b6b; /* Rosa Coral D */
+  --accent-interest: #74b9ff; /* Azul Interés I */
+  --accent-success: #2ecc71; /* Verde Conversión */
+  --accent-error: #dc2626; /* Rojo Alerta */
 
   /* Aliases */
   --neo-cream: var(--bg-canvas);
@@ -58,16 +58,16 @@
 
 /* --- MODO CALMA & DISLEXIA (TEMA ALTERNATIVO NEUROCOGNITIVO) --- */
 body.mode-calm {
-  --bg-canvas: #f7f4ed;        /* Marfil suave relajante */
+  --bg-canvas: #f7f4ed; /* Marfil suave relajante */
   --bg-surface: #ffffff;
-  --text-main: #222831;        /* Tinta suave */
+  --text-main: #222831; /* Tinta suave */
   --text-muted: #606770;
   --border-color: #222831;
 
   --accent-attention: #ffeaa7; /* Amarillo pastel */
-  --accent-desire: #fab1a0;    /* Coral pastel */
-  --accent-interest: #81ecec;  /* Turquesa suave */
-  --accent-success: #55efc4;   /* Menta suave */
+  --accent-desire: #fab1a0; /* Coral pastel */
+  --accent-interest: #81ecec; /* Turquesa suave */
+  --accent-success: #55efc4; /* Menta suave */
   --accent-error: #ff7675;
 
   --font-body: 'Lexend', 'Verdana', sans-serif;
@@ -85,11 +85,11 @@ body.mode-high-contrast {
   --text-muted: #000000;
   --border-color: #000000;
 
-  --accent-attention: #FFFF00; /* Amarillo puro alto contraste */
-  --accent-desire: #FF0000;
-  --accent-interest: #00FFFF;
-  --accent-success: #00FF00;
-  --accent-error: #FF0000;
+  --accent-attention: #ffff00; /* Amarillo puro alto contraste */
+  --accent-desire: #ff0000;
+  --accent-interest: #00ffff;
+  --accent-success: #00ff00;
+  --accent-error: #ff0000;
 
   --line-height-body: 1.7;
   --letter-spacing-body: 0.015em;
@@ -112,6 +112,88 @@ body.font-mono {
 body.font-syne {
   --font-body: 'Syne', 'Archivo Black', sans-serif;
 }
+body.font-opendyslexic {
+  --font-body: 'OpenDyslexic', 'Lexend', 'Verdana', sans-serif;
+  --line-height-body: 1.9;
+  --letter-spacing-body: 0.03em;
+  --word-spacing-body: 0.14em;
+}
+
+/* --- MODO SEPIA (lectura prolongada, baja fatiga) --- */
+body.mode-sepia {
+  --bg-canvas: #f4ecd8;
+  --bg-surface: #faf6ea;
+  --text-main: #433422;
+  --text-muted: #6b5d4f;
+  --border-color: #433422;
+  --accent-attention: #e8c872;
+  --line-height-body: 1.8;
+}
+
+/* --- MODO DARK (neobrutalismo nocturno) --- */
+body.mode-dark {
+  color-scheme: dark;
+  --bg-canvas: #1a1a18;
+  --bg-surface: #242422;
+  --text-main: #f5f5f0;
+  --text-muted: #b8b8b0;
+  --border-color: #f5f5f0;
+  --accent-attention: #ffd23f;
+  --accent-desire: #ff6b6b;
+  --accent-interest: #74b9ff;
+  --accent-success: #2ecc71;
+  --accent-error: #ff7675;
+}
+
+/* --- MODO OLED (negro puro, ahorro batería) --- */
+body.mode-oled {
+  color-scheme: dark;
+  --bg-canvas: #000000;
+  --bg-surface: #0a0a0a;
+  --text-main: #ffffff;
+  --text-muted: #c9c9c9;
+  --border-color: #ffffff;
+  --accent-attention: #ffd23f;
+  --accent-desire: #ff6b6b;
+  --accent-interest: #74b9ff;
+  --accent-success: #2ecc71;
+  --accent-error: #ff7675;
+}
+
+/* --- LECTURA BIONICA (resalta inicio de palabra) --- */
+body.bionic-leve .passage-text .bionic-b,
+body.bionic-fuerte .passage-text .bionic-b {
+  font-weight: 800;
+}
+body.bionic-fuerte .passage-text {
+  color: var(--text-muted);
+}
+body.bionic-fuerte .passage-text .bionic-b {
+  color: var(--text-main);
+}
+
+/* --- REGLA DE LECTURA (guía horizontal) --- */
+body.ruler-on .reading-ruler {
+  display: block;
+}
+.reading-ruler {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 2.2em;
+  background: color-mix(in srgb, var(--accent-attention) 28%, transparent);
+  border-top: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+  pointer-events: none;
+  z-index: 80;
+}
+
+/* --- PALABRAS DE CRISTO (red letters, stub visual; datos pendientes) --- */
+body.red-letters-on .words-of-christ {
+  color: #b91c1c;
+  font-weight: 600;
+}
 
 /* Sombreado de selección de texto con el color del tema activo */
 ::selection {
@@ -125,12 +207,15 @@ body.font-syne {
 }
 
 /* Reset y Base */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   border-color: var(--border-color);
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -147,12 +232,15 @@ html, body {
   overflow: hidden;
 }
 
-button, input, select {
+button,
+input,
+select {
   font: inherit;
   border-radius: var(--radius-strict);
 }
 
-button, a {
+button,
+a {
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -161,7 +249,8 @@ button {
   user-select: none;
 }
 
-button svg, a svg {
+button svg,
+a svg {
   pointer-events: none;
 }
 
@@ -181,4 +270,3 @@ a:hover {
   outline: var(--focus-outline) !important;
   outline-offset: var(--focus-offset) !important;
 }
-

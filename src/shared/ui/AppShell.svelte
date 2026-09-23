@@ -5,7 +5,7 @@
   import Topbar from './Topbar.svelte';
   import NeoTooltip from './NeoTooltip.svelte';
   import { readStorageWithLegacy } from '../utils/storage';
-  import { applyFontClass, applyThemeClass } from '../utils/appearance';
+  import { applyFontClass, applyThemeClass, applyReadingClass } from '../utils/appearance';
 
   interface Props {
     activeView: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear';
@@ -47,6 +47,7 @@
           }
         }
         if (s.fontFamily) applyFontClass(s.fontFamily);
+        applyReadingClass({ bionic: s.bionic, ruler: s.ruler, redLetters: s.redLetters });
       } else {
         const savedCalm = readStorageWithLegacy('aletheia_calm_mode', 'alethia_calm_mode');
         if (savedCalm === 'true') {

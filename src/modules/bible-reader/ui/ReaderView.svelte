@@ -32,6 +32,8 @@
   import CrossReferencesDrawer from '../../cross-references/ui/CrossReferencesDrawer.svelte';
   import CommentaryDrawer from '../../commentaries/ui/CommentaryDrawer.svelte';
   import CommentaryCBAView from '../../commentaries/ui/CommentaryCBAView.svelte';
+  import TtsControls from './TtsControls.svelte';
+  import { ttsStore } from '../application/tts.svelte';
   import { JsonCommentaryRepository } from '../../commentaries/infrastructure/JsonCommentaryRepository';
 
   interface Props {
@@ -286,11 +288,32 @@
   onMount(() => {
     loadHighlightsAndNotes();
     loadCbaAvailability(currentBook, currentChapter);
+    const onMouse = (e: MouseEvent) => {
+      const ruler = document.querySelector<HTMLElement>('.reading-ruler');
+      if (ruler) ruler.style.top = `${e.clientY - 16}px`;
+    };
+    window.addEventListener('mousemove', onMouse);
+    return () => window.removeEventListener('mousemove', onMouse);
   });
 
   function handleSubmit(event: Event) {
     event.preventDefault();
     onSearch(event);
+  }
+
+  function handlePrevChapter() {
+    ttsStore.stop();
+    onPrevChapter();
+  }
+
+  function handleNextChapter() {
+    ttsStore.stop();
+    onNextChapter();
+  }
+
+  function handleSelectPassage(ref: string) {
+    ttsStore.stop();
+    onSelectPassage(ref);
   }
 
   function handleKeyDown(event: KeyboardEvent) {
@@ -334,6 +357,7 @@
 </script>
 
 <div class="reader-view">
+  <div class="reading-ruler" aria-hidden="true"></div>
   <!-- Elongated Full-Width Search Bar with Enter key support -->
   <div class="reader-search-bar-row">
     <form class="search-form reader-search-wide" onsubmit={handleSubmit}>
@@ -360,7 +384,7 @@
       class="floating-nav-btn floating-prev-btn"
       data-tooltip="Capítulo anterior ({currentBook} {Math.max(1, currentChapter - 1)})"
       aria-label="Capítulo anterior"
-      onclick={onPrevChapter}
+      onclick={handlePrevChapter}
     >
       <ChevronLeft size={20} />
     </button>
@@ -370,7 +394,7 @@
       class="floating-nav-btn floating-next-btn"
       data-tooltip="Siguiente capítulo ({currentBook} {currentChapter + 1})"
       aria-label="Siguiente capítulo"
-      onclick={onNextChapter}
+      onclick={handleNextChapter}
     >
       <ChevronRight size={20} />
     </button>
@@ -464,6 +488,8 @@
               <span class="hidden md:inline">Mostrar CBA</span>
             {/if}
           </button>
+
+          <TtsControls />
         </div>
 
         <div class="toolbar-right-group">
@@ -474,7 +500,7 @@
               class="toolbar-nav-btn"
               data-tooltip="Capítulo anterior ({currentBook} {Math.max(1, currentChapter - 1)})"
               aria-label="Capítulo anterior"
-              onclick={onPrevChapter}
+              onclick={handlePrevChapter}
             >
               <ChevronLeft size={16} />
             </button>
@@ -483,7 +509,7 @@
               class="toolbar-nav-btn"
               data-tooltip="Siguiente capítulo ({currentBook} {currentChapter + 1})"
               aria-label="Siguiente capítulo"
-              onclick={onNextChapter}
+              onclick={handleNextChapter}
             >
               <ChevronRight size={16} />
             </button>
@@ -504,7 +530,7 @@
         {notes}
         {onChangeColumnTranslation}
         {onRemoveColumn}
-        {onSelectPassage}
+        onSelectPassage={handleSelectPassage}
         {showVerseCrossReferences}
         commentaryVerseNumbers={cbaVerseNumbers}
         {showVerseCommentaries}
@@ -521,7 +547,7 @@
     {currentBook}
     activeTranslations={selectedTranslations}
     onClose={() => (isBookModalOpen = false)}
-    {onSelectPassage}
+    onSelectPassage={handleSelectPassage}
   />
 
   <!-- Floating Text Selection & Highlighting Toolbar -->
@@ -563,7 +589,7 @@
     scope={tskScope}
     chapterReferences={tskChapterReferences}
     onClose={() => (isTskDrawerOpen = false)}
-    {onSelectPassage}
+    onSelectPassage={handleSelectPassage}
   />
 
   <CommentaryDrawer
@@ -582,7 +608,7 @@
       commentaryTargetVerse = null;
     }}
     onFullReading={handleOpenCbaFullReading}
-    {onSelectPassage}
+    onSelectPassage={handleSelectPassage}
   />
 
   <CommentaryCBAView
@@ -596,8 +622,8 @@
       isCbaFullOpen = false;
       commentaryTargetVerse = null;
     }}
-    {onSelectPassage}
-    {onPrevChapter}
-    {onNextChapter}
+    onSelectPassage={handleSelectPassage}
+    onPrevChapter={handlePrevChapter}
+    onNextChapter={handleNextChapter}
   />
 </div>

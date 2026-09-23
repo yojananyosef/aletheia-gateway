@@ -46,9 +46,9 @@
   ];
 
   const exploreItems = [
-    { title: 'Planes de lectura', icon: ListChecks },
-    { title: 'Audio Biblia', icon: Headphones },
-    { title: 'Recursos', icon: Library },
+    { title: 'Planes de lectura', icon: ListChecks, view: 'devotionals' as const, ready: true },
+    { title: 'Audio Biblia', icon: Headphones, view: 'reader' as const, ready: true },
+    { title: 'Recursos', icon: Library, view: null, ready: false },
   ];
 
   function handleSelect(view: 'home' | 'reader' | 'concordance' | 'devotionals' | 'strong' | 'interlinear') {
@@ -130,18 +130,32 @@
 
       {#each exploreItems as item}
         {@const Icon = item.icon}
-        <button
-          type="button"
-          class="neo-nav-button is-disabled {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
-          data-tooltip="{item.title} (Próximamente)"
-          disabled
-        >
-          <Icon size={20} class="shrink-0" />
-          {#if !isCollapsed || isOpen}
-            <span class="truncate flex-1 text-left">{item.title}</span>
-            <span class="sidebar-pending-badge">Pronto</span>
-          {/if}
-        </button>
+        {#if item.ready && item.view}
+          <button
+            type="button"
+            class="neo-nav-button {activeView === item.view ? 'is-active' : ''} {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
+            data-tooltip={item.title}
+            onclick={() => handleSelect(item.view!)}
+          >
+            <Icon size={20} class="shrink-0" />
+            {#if !isCollapsed || isOpen}
+              <span class="truncate flex-1 text-left">{item.title}</span>
+            {/if}
+          </button>
+        {:else}
+          <button
+            type="button"
+            class="neo-nav-button is-disabled {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
+            data-tooltip="{item.title} (Próximamente)"
+            disabled
+          >
+            <Icon size={20} class="shrink-0" />
+            {#if !isCollapsed || isOpen}
+              <span class="truncate flex-1 text-left">{item.title}</span>
+              <span class="sidebar-pending-badge">Pronto</span>
+            {/if}
+          </button>
+        {/if}
       {/each}
     </div>
   </div>

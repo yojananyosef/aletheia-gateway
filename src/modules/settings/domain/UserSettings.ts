@@ -1,11 +1,15 @@
-export type ThemeMode = 'standard' | 'calm' | 'high-contrast';
-export type AppFontFamily = 'inter' | 'lexend' | 'mono' | 'syne';
+export type ThemeMode = 'standard' | 'calm' | 'high-contrast' | 'sepia' | 'oled' | 'dark';
+export type AppFontFamily = 'inter' | 'lexend' | 'mono' | 'syne' | 'opendyslexic';
+export type BionicLevel = 'off' | 'leve' | 'fuerte';
 
 export interface UserSettings {
   theme: ThemeMode;
   fontFamily: AppFontFamily;
   defaultTranslation: string;
   calmMode: boolean;
+  bionic?: BionicLevel;
+  ruler?: boolean;
+  redLetters?: boolean;
 }
 
 export interface BackupPayload {

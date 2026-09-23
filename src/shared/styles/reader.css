@@ -5,7 +5,7 @@
 /* --- ENVOLTORIO DE TARJETA CON NAVEGACIÓN FLOTANTE LATERAL --- */
 .reader-card-wrapper {
   position: relative;
-  width: 100%
+  width: 100%;
 }
 
 /* --- BOTONES FLOTANTES LATERALES FIJADOS AL VIEWPORT MEDIANTE POSITION STICKY --- */
@@ -24,7 +24,10 @@
   place-items: center;
   cursor: pointer;
   margin-bottom: -64px;
-  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out, background 0.08s ease-in-out;
+  transition:
+    transform 0.08s ease-in-out,
+    box-shadow 0.08s ease-in-out,
+    background 0.08s ease-in-out;
 }
 
 .reader-card-wrapper .floating-prev-btn {
@@ -77,7 +80,8 @@
   flex-shrink: 0;
 }
 
-.toolbar-left-group, .toolbar-right-group {
+.toolbar-left-group,
+.toolbar-right-group {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -99,7 +103,10 @@
   font-weight: 800;
   box-shadow: 2px 2px 0 var(--border-color);
   cursor: pointer;
-  transition: transform 0.08s ease, background 0.08s ease, box-shadow 0.08s ease;
+  transition:
+    transform 0.08s ease,
+    background 0.08s ease,
+    box-shadow 0.08s ease;
 }
 
 .toolbar-action-btn:hover:not(:disabled) {
@@ -118,7 +125,8 @@
   box-shadow: 0 0 0 #000;
 }
 
-.toolbar-action-btn:disabled, .toolbar-action-btn.is-disabled {
+.toolbar-action-btn:disabled,
+.toolbar-action-btn.is-disabled {
   opacity: 0.55;
   cursor: not-allowed;
 }
@@ -150,7 +158,10 @@
   color: var(--text-main);
   box-shadow: 2px 2px 0 var(--border-color);
   cursor: pointer;
-  transition: transform 0.08s ease, background 0.08s ease, box-shadow 0.08s ease;
+  transition:
+    transform 0.08s ease,
+    background 0.08s ease,
+    box-shadow 0.08s ease;
 }
 
 .toolbar-nav-btn:hover {
@@ -184,7 +195,9 @@
   font-weight: 800;
   box-shadow: 2px 2px 0 var(--border-color);
   cursor: pointer;
-  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out;
+  transition:
+    transform 0.08s ease-in-out,
+    box-shadow 0.08s ease-in-out;
 }
 
 .font-size-trigger-btn:hover,
@@ -257,3 +270,9 @@
   background-color: var(--accent-interest);
 }
 
+/* --- AUDIO BIBLIA TTS: resaltado del bloque en lectura --- */
+.speaking-highlight {
+  background-color: var(--accent-attention) !important;
+  outline: 3px solid var(--border-color);
+  outline-offset: 2px;
+}

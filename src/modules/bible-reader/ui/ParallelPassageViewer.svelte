@@ -78,6 +78,21 @@
       .replace(/'/g, '&#039;');
   }
 
+  function getBionicLevel(): 'off' | 'leve' | 'fuerte' {
+    if (typeof document === 'undefined') return 'off';
+    if (document.body.classList.contains('bionic-fuerte')) return 'fuerte';
+    if (document.body.classList.contains('bionic-leve')) return 'leve';
+    return 'off';
+  }
+
+  function bionicHtml(plain: string): string {
+    return plain.split(/(\s+)/).map((part) => {
+      if (/^\s+$/.test(part) || part.length < 4) return escapeHtml(part);
+      const cut = Math.ceil(part.length / 2);
+      return `<b class="bionic-b">${escapeHtml(part.slice(0, cut))}</b>${escapeHtml(part.slice(cut))}`;
+    }).join('');
+  }
+
   function getMatchingHighlights(book: string, chapter: number, verse: Verse, translationId: string): BibleHighlight[] {
     const normBook = book.toLowerCase().trim();
     const startNum = verse.number;
@@ -119,6 +134,7 @@
     verseHighlights: BibleHighlight[]
   ): string {
     if (!verseHighlights || verseHighlights.length === 0) {
+      if (getBionicLevel() !== 'off') return bionicHtml(verseText);
       return escapeHtml(verseText);
     }
 

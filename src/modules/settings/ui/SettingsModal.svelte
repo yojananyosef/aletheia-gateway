@@ -14,8 +14,8 @@
   import AboutTab from './SettingsAboutTab.svelte';
   import { LocalStorageSettingsRepository } from '../infrastructure/LocalStorageSettingsRepository';
   import { buildBackupFilename, downloadJsonFile, readFileAsText } from '../application/BackupFileService';
-  import { applyFontClass, applyThemeClass, persistCalmMode } from '../../../shared/utils/appearance';
-  import type { ThemeMode, AppFontFamily, UserSettings } from '../domain/UserSettings';
+  import { applyFontClass, applyThemeClass, applyReadingClass, persistCalmMode } from '../../../shared/utils/appearance';
+  import type { ThemeMode, AppFontFamily, BionicLevel, UserSettings } from '../domain/UserSettings';
 
   interface Props {
     isOpen: boolean;
@@ -37,6 +37,7 @@
     applyThemeClass(s.theme);
     persistCalmMode(s.theme === 'calm');
     applyFontClass(s.fontFamily);
+    applyReadingClass({ bionic: s.bionic, ruler: s.ruler, redLetters: s.redLetters });
   }
 
   onMount(() => {
@@ -56,6 +57,24 @@
     settings.fontFamily = font;
     repo.saveSettings({ fontFamily: font });
     applyFontClass(font);
+  }
+
+  function handleBionicChange(level: BionicLevel) {
+    settings.bionic = level;
+    repo.saveSettings({ bionic: level });
+    applyReadingClass({ bionic: level, ruler: settings.ruler, redLetters: settings.redLetters });
+  }
+
+  function handleRulerChange(on: boolean) {
+    settings.ruler = on;
+    repo.saveSettings({ ruler: on });
+    applyReadingClass({ bionic: settings.bionic, ruler: on, redLetters: settings.redLetters });
+  }
+
+  function handleRedLettersChange(on: boolean) {
+    settings.redLetters = on;
+    repo.saveSettings({ redLetters: on });
+    applyReadingClass({ bionic: settings.bionic, ruler: settings.ruler, redLetters: on });
   }
 
   async function handleExport() {
@@ -202,8 +221,14 @@
         <AppearanceTab
           theme={settings.theme}
           fontFamily={settings.fontFamily}
+          bionic={settings.bionic}
+          ruler={settings.ruler}
+          redLetters={settings.redLetters}
           onThemeChange={handleThemeChange}
           onFontChange={handleFontChange}
+          onBionicChange={handleBionicChange}
+          onRulerChange={handleRulerChange}
+          onRedLettersChange={handleRedLettersChange}
         />
       {:else if activeTab === 'backup'}
         <BackupTab

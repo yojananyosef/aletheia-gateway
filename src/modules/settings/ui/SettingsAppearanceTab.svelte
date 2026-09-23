@@ -1,14 +1,31 @@
 <script lang="ts">
-  import type { ThemeMode, AppFontFamily } from '../domain/UserSettings';
+  import type { ThemeMode, AppFontFamily, BionicLevel } from '../domain/UserSettings';
 
   interface Props {
     theme: ThemeMode;
     fontFamily: AppFontFamily;
+    bionic?: BionicLevel;
+    ruler?: boolean;
+    redLetters?: boolean;
     onThemeChange: (mode: ThemeMode) => void;
     onFontChange: (font: AppFontFamily) => void;
+    onBionicChange?: (level: BionicLevel) => void;
+    onRulerChange?: (on: boolean) => void;
+    onRedLettersChange?: (on: boolean) => void;
   }
 
-  let { theme, fontFamily, onThemeChange, onFontChange }: Props = $props();
+  let {
+    theme,
+    fontFamily,
+    bionic = 'off',
+    ruler = false,
+    redLetters = false,
+    onThemeChange,
+    onFontChange,
+    onBionicChange,
+    onRulerChange,
+    onRedLettersChange,
+  }: Props = $props();
 </script>
 
 <div class="settings-section">
@@ -50,6 +67,42 @@
       </div>
       <span class="theme-name font-bold">Alto Contraste</span>
       <span class="theme-sub">21:1 máximo contraste para baja visión</span>
+    </button>
+
+    <button
+      type="button"
+      class="theme-card {theme === 'sepia' ? 'is-selected' : ''}"
+      onclick={() => onThemeChange('sepia')}
+    >
+      <div class="theme-preview sepia">
+        <span class="theme-badge-demo">Aa</span>
+      </div>
+      <span class="theme-name font-bold">Sepia</span>
+      <span class="theme-sub">Tono cálido para lectura prolongada</span>
+    </button>
+
+    <button
+      type="button"
+      class="theme-card {theme === 'dark' ? 'is-selected' : ''}"
+      onclick={() => onThemeChange('dark')}
+    >
+      <div class="theme-preview dark">
+        <span class="theme-badge-demo">Aa</span>
+      </div>
+      <span class="theme-name font-bold">Oscuro</span>
+      <span class="theme-sub">Neobrutalismo nocturno</span>
+    </button>
+
+    <button
+      type="button"
+      class="theme-card {theme === 'oled' ? 'is-selected' : ''}"
+      onclick={() => onThemeChange('oled')}
+    >
+      <div class="theme-preview oled">
+        <span class="theme-badge-demo">Aa</span>
+      </div>
+      <span class="theme-name font-bold">OLED</span>
+      <span class="theme-sub">Negro puro, ahorro de batería</span>
     </button>
   </div>
 
@@ -93,5 +146,78 @@
       <span class="theme-name font-bold">Syne</span>
       <span class="theme-sub">Display contundente, titulares</span>
     </button>
+    <button
+      type="button"
+      class="font-card {fontFamily === 'opendyslexic' ? 'is-selected' : ''}"
+      onclick={() => onFontChange('opendyslexic')}
+    >
+      <span class="font-preview" style="font-family: 'OpenDyslexic', 'Lexend', sans-serif;">OpenDyslexic Aa</span>
+      <span class="theme-name font-bold">OpenDyslexic</span>
+      <span class="theme-sub">Diseñada contra la dislexia (requiere la fuente instalada)</span>
+    </button>
+  </div>
+
+  <h3 class="section-title" style="margin-top: 20px;">Ayudas de lectura</h3>
+  <p class="section-desc">Biónica, regla guía y palabras de Cristo. Se guardan en tu respaldo.</p>
+
+  <div class="font-options-grid">
+    <div class="font-card">
+      <span class="theme-name font-bold">Lectura biónica</span>
+      <span class="theme-sub">Resalta el inicio de cada palabra</span>
+      <div class="reading-toggle-row">
+        {#each [['off', 'Off'], ['leve', 'Leve'], ['fuerte', 'Fuerte']] as [val, label]}
+          <button
+            type="button"
+            class="neo-btn-mini {(bionic ?? 'off') === val ? 'is-selected' : ''}"
+            onclick={() => onBionicChange?.(val as BionicLevel)}
+          >{label}</button>
+        {/each}
+      </div>
+    </div>
+    <div class="font-card">
+      <span class="theme-name font-bold">Regla de lectura</span>
+      <span class="theme-sub">Guía horizontal que sigue el cursor</span>
+      <div class="reading-toggle-row">
+        <button
+          type="button"
+          class="neo-btn-mini {ruler ? 'is-selected' : ''}"
+          aria-pressed={ruler}
+          onclick={() => onRulerChange?.(!ruler)}
+        >{ruler ? 'Activada' : 'Activar'}</button>
+      </div>
+    </div>
+    <div class="font-card">
+      <span class="theme-name font-bold">Palabras de Cristo</span>
+      <span class="theme-sub">Rojo sobre dichos de Jesús (datos en adaptación)</span>
+      <div class="reading-toggle-row">
+        <button
+          type="button"
+          class="neo-btn-mini {redLetters ? 'is-selected' : ''}"
+          aria-pressed={redLetters}
+          onclick={() => onRedLettersChange?.(!redLetters)}
+        >{redLetters ? 'Activadas' : 'Activar'}</button>
+      </div>
+    </div>
   </div>
 </div>
+
+<style>
+  .reading-toggle-row {
+    display: flex;
+    gap: 6px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+  }
+  .theme-preview.sepia {
+    background: #f4ecd8;
+    color: #433422;
+  }
+  .theme-preview.dark {
+    background: #242422;
+    color: #f5f5f0;
+  }
+  .theme-preview.oled {
+    background: #000;
+    color: #fff;
+  }
+</style>
