@@ -172,6 +172,22 @@ aletheiagateway/
 
 > **Gestor de paquetes:** Bun (`packageManager: bun`, `bun.lock`). No hay soporte pnpm.
 >
+> **Scripts de conversión portables:** todos los `convert-*.py` aceptan `--source` / `--out` (o env var) y la salida por defecto es relativa al repo (`public/data/...`). Sin flags mantienen la ruta histórica Windows para no romper el flujo actual:
+>
+> | Script(s)              | Env var                   |
+> | :--------------------- | :------------------------ |
+> | `convert:bibles`       | `BIBLE_SOURCE_DIR`        |
+> | `convert:commentaries` | `COMMENTARIES_SOURCE_DIR` |
+> | `convert:cba`          | `CBA_SOURCE_DIR`          |
+> | `convert:sword-otros`  | `SWORD_SOURCE_DIR`        |
+> | `convert:platense`     | `PLATENSE_SOURCE_DIR`     |
+> | `convert:rvg`          | `RVG_SOURCE_DIR`          |
+> | `convert:tsk`          | `TSK_SOURCE_DIR`          |
+> | `convert:sme`          | `SME_SOURCE_DIR`          |
+> | `convert:interlinear`  | `INTERLINEAR_SOURCE_DIR`  |
+>
+> Ejemplo: `SME_SOURCE_DIR=/mnt/datos/SME python scripts/convert-sme.py` (falla con mensaje claro si la fuente no existe).
+>
 > **Problemas conocidos:**
 >
 > - Concordancias solo en español (9/22 versiones); EN/PT/LA/DE/EL/HE pendientes de generar.
@@ -184,6 +200,72 @@ aletheiagateway/
 ---
 
 ## 📋 Historial de Cambios (Changelog)
+
+### [0.16.7] - 2026-09-23
+
+#### Corregido: lector despejado e intro CBA única
+
+- 🧹 **Botón `Marcar leído` fuera del lector** (`ReaderView.svelte`): el marcado del año bíblico queda exclusivo de `Mi progreso` (tracker). Se eliminan botón, estado `chapterDone` e imports del tracker en la vista de lectura.
+- 📖 **Intro CBA en UNA sola tarjeta y solo en el capítulo 1** (`JsonCommentaryRepository.getByChapter`): los párrafos de `bookComments` se combinan en una única entrada `scope:'book'` (separados por línea en blanco, el drawer ya los renderiza con `pre-line`) y no aparecen en los capítulos 2+. La lectura completa (`CommentaryCBAView`) parte esa entrada en sus `<p>` de `Introducción` como antes.
+- ✅ Test nuevo del comportamiento (GEN cap. 1 → 1 intro; GEN cap. 4 → 0 intros).
+
+### [0.16.6] - 2026-09-23
+
+#### Limpieza: sin vistas pendientes
+
+- 🧹 **Botón `Recursos [Pronto]` eliminado** del sidebar (`Sidebar.svelte`): era la única vista pendiente y se descartó por decisión de producto. La sección `Tu biblioteca` queda solo con `Versículos guardados` funcional.
+- 🔢 **Versión sincronizada** (`package.json` 0.16.3 → 0.16.6, el código ya iba en v0.16.5) y changelog puesto al día (0.15.0–0.16.5). `scripts/__pycache__/` eliminado e ignorado en `.gitignore`.
+
+### [0.16.5] - 2026-09-23
+
+#### Corregido: biónica y racha
+
+- 🧠 **Biónico `Off` real**: apaga el resaltado reseteando los `<b>` inyectados en vez de dejarlos congelados.
+- 🔥 **Racha estilo NRVA**: card con botón dentro y colapsado por defecto con toggle `Ver estadísticas`.
+
+### [0.16.4] - 2026-09-23
+
+#### Corregido: home, racha y proyector
+
+- 🏠 Home sin botón redundante, racha legible `N de 365/366` y gap en cards.
+- 📺 **Proyector abre-antes-de-enviar con reintentos** (`projectionChannel.ts` `[150,500,1200]ms`): abre la ventana 1280x720 primero y luego envía el pasaje para no perder el primer mensaje.
+
+### [0.16.3] - 2026-09-23
+
+#### Corregido: helpers visibles, TTS y SW
+
+- 🎛️ Estado `is-selected` visible en ayudas de lectura, TTS con dropdowns neobrutalistas (sin `<select>` nativo) y Service Worker registrado solo en producción.
+
+### [0.16.2] - 2026-09-23
+
+#### Añadido: ayudas instantáneas + Palabras de Cristo
+
+- ⚡ Ayudas de lectura (biónica, ruler) aplican al instante sin recargar.
+- 🔴 **Palabras de Cristo en rojo** (`WordsOfChrist` + `JsonRedLettersRepository` sobre `public/data/red-letters/`, verificado en Mateo 5) con e2e de color `rgb(185,28,28)`.
+
+### [0.16.1] - 2026-09-23
+
+#### Corregido: planes en vista propia
+
+- 📚 **Módulo `plans/` propio** (antes dentro de `devotionals/`): corrige el crash de `annual-thematic` (`{label,chapterId}` resuelto vía `getEgwChapter` contra los 5 libros EGW) y separa `Planes` de `Devocionales` en sidebar y vistas.
+- 🧩 Dropdown neobrutalista reutilizable (`NeoDropdown.svelte`) y utilidades de lectura biónica.
+
+### [0.16.0] - 2026-09-23
+
+#### Añadido: tracker + racha, proyección, PWA offline, headings
+
+- 🏆 **Módulo `tracker`**: progreso por capítulos (`ProgressMap`) + racha diaria (`streak.ts`) con `TrackerView` y `StreakWidget`.
+- 📺 **Proyección a segunda pantalla**: `BroadcastChannel 'bible-projection-channel'` + ruta `/projection` (`ProjectionReceiver`, fondo negro, `noindex`).
+- 📲 **PWA offline**: `manifest.webmanifest` + iconos + `sw.js` (solo prod) con caché `must-revalidate` en `/data/*`.
+- 🏷️ **Headings overlay RV1909** (`SectionHeading` + `JsonHeadingsRepository` sobre `public/data/headings/headers.json`, ej. `La creación` en Génesis 1).
+
+### [0.15.0] - 2026-09-23
+
+#### Añadido: Audio Biblia TTS + accesibilidad fina + planes ES
+
+- 🔊 **TTS Audio Biblia** (`TtsController` + `tts.svelte.ts` + `TtsControls.svelte` con selector de voces ES/EN/PT/LA/DE/EL/HE).
+- 📚 **15 planes en español** (`public/data/plans/`, incl. 5 libros EGW completos PP/PK/DA/AA/GC de referencia).
+- 🎨 Accesibilidad fina en `UserSettings` (temas, fuentes, niveles biónicos) con persistencia.
 
 ### [0.14.0] - 2026-09-23
 

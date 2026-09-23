@@ -1,13 +1,10 @@
 """
-Convierte los módulos Sword de comentarios ubicados en:
-C:/Users/J/Desktop/Versiones/otros/otros/comentaries
+Convierte los módulos Sword de comentarios a JSON del gateway.
+
+Origen por defecto: COMMENTARIES_SOURCE_DIR env var, --source CLI o ruta histórica Windows.
 
 Salida:
-public/data/commentaries/<id>.json
-
-Los módulos zCom se leen con ZTextModule y el módulo RawCom con
-RawTextModule. El texto se guarda por libro, capítulo y versículo, listo para
-ser consultado bajo demanda por la aplicación.
+public/data/commentaries/<id>/<BOOK>.json + index.json
 """
 
 from __future__ import annotations
@@ -15,6 +12,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import os
 import re
 import struct
 import sys
@@ -31,8 +29,15 @@ if hasattr(sys.stdout, "reconfigure"):
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-SOURCE_ROOT = Path(r"C:\Users\J\Desktop\Versiones\otros\otros\comentaries")
+DEFAULT_SOURCE_ROOT = Path(
+    os.environ.get(
+        "COMMENTARIES_SOURCE_DIR",
+        r"C:\Users\J\Desktop\Versiones\otros\otros\comentaries",
+    )
+)
 OUTPUT_ROOT = PROJECT_ROOT / "public" / "data" / "commentaries"
+# Raíz efectiva (la fija main() desde --source/COMMENTARIES_SOURCE_DIR).
+SOURCE_ROOT = DEFAULT_SOURCE_ROOT
 
 
 BOOKS = {
@@ -461,7 +466,13 @@ def convert_module(module_id: str, config: dict[str, Any]) -> dict[str, Any]:
 
 
 def main() -> None:
+    global SOURCE_ROOT
     parser = argparse.ArgumentParser(description="Convierte comentarios Sword a JSON para AletheiaGateway")
+    parser.add_argument(
+        "--source",
+        default=str(DEFAULT_SOURCE_ROOT),
+        help="Dir base de comentarios Sword (o COMMENTARIES_SOURCE_DIR)",
+    )
     parser.add_argument(
         "--only",
         nargs="+",
@@ -469,9 +480,13 @@ def main() -> None:
         help="Convierte solo los identificadores indicados",
     )
     args = parser.parse_args()
+    SOURCE_ROOT = Path(args.source)
 
     if not SOURCE_ROOT.exists():
-        raise SystemExit(f"No existe el directorio fuente: {SOURCE_ROOT}")
+        raise SystemExit(
+            f"No existe el directorio fuente: {SOURCE_ROOT}\n"
+            "Pasa --source <dir> o define COMMENTARIES_SOURCE_DIR."
+        )
 
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
     selected = args.only or list(MODULES)

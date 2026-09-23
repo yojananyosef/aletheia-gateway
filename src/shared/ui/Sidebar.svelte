@@ -8,7 +8,6 @@
     Heart,
     Languages,
     ArrowLeftRight,
-    Library,
     Settings2,
     Trophy,
   } from 'lucide-svelte';
@@ -47,8 +46,6 @@
     { title: 'Interlineal', icon: ArrowLeftRight, view: 'interlinear' as const },
     { title: 'Mi progreso', icon: Trophy, view: 'tracker' as const },
   ];
-
-  const exploreItems = [{ title: 'Recursos', icon: Library, view: null, ready: false }];
 
   function handleSelect(view: AppView) {
     onNavigate(view);
@@ -126,36 +123,6 @@
           {/if}
         {/if}
       </button>
-
-      {#each exploreItems as item}
-        {@const Icon = item.icon}
-        {#if item.ready && item.view}
-          <button
-            type="button"
-            class="neo-nav-button {activeView === item.view ? 'is-active' : ''} {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
-            data-tooltip={item.title}
-            onclick={() => handleSelect(item.view!)}
-          >
-            <Icon size={20} class="shrink-0" />
-            {#if !isCollapsed || isOpen}
-              <span class="truncate flex-1 text-left">{item.title}</span>
-            {/if}
-          </button>
-        {:else}
-          <button
-            type="button"
-            class="neo-nav-button is-disabled {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
-            data-tooltip="{item.title} (Próximamente)"
-            disabled
-          >
-            <Icon size={20} class="shrink-0" />
-            {#if !isCollapsed || isOpen}
-              <span class="truncate flex-1 text-left">{item.title}</span>
-              <span class="sidebar-pending-badge">Pronto</span>
-            {/if}
-          </button>
-        {/if}
-      {/each}
     </div>
   </div>
 

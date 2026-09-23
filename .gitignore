@@ -31,3 +31,8 @@ public/data/interlinear/_audit/
 .vercel/
 .idea/
 .vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.py[cod]

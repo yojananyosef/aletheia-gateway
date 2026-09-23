@@ -11,7 +11,6 @@
     FileText,
     Eye,
     EyeOff,
-    CircleCheck,
     MonitorPlay,
   } from 'lucide-svelte';
   import type { TranslationId } from '../domain/entities/Translation';
@@ -40,9 +39,6 @@
   import { JsonHeadingsRepository } from '../infrastructure/JsonHeadingsRepository';
   import { JsonRedLettersRepository } from '../infrastructure/JsonRedLettersRepository';
   import { findBookInfo } from '../domain/entities/BibleBooks';
-  import { LocalStorageTrackerRepository } from '../../tracker/infrastructure/LocalStorageTrackerRepository';
-  import { LocalStorageStreakRepository } from '../../tracker/infrastructure/LocalStorageStreakRepository';
-  import { isChapterCompleted } from '../../tracker/domain/progress';
   import {
     buildVerseMessage,
     clearProjection,
@@ -95,8 +91,6 @@
   const commentaryRepo = new JsonCommentaryRepository();
   const headingsRepo = new JsonHeadingsRepository();
   const redLettersRepo = new JsonRedLettersRepository();
-  const trackerRepo = new LocalStorageTrackerRepository();
-  const streakRepo = new LocalStorageStreakRepository();
 
   // Overlay de títulos de sección (solo rellena donde la versión no trae los suyos)
   // + frases de palabras de Cristo (cobertura: Mateo) para el mismo scope.
@@ -292,23 +286,6 @@
   let currentBook = $derived(firstPassage ? firstPassage.book : 'Génesis');
   let currentChapter = $derived(firstPassage ? firstPassage.chapter : 1);
   let canAddMore = $derived(selectedTranslations.length < 5);
-
-  // ¿Capítulo actual marcado como leído? (trackerTick fuerza relectura tras toggle)
-  let trackerTick = $state(0);
-  let chapterDone = $derived.by(() => {
-    trackerTick;
-    try {
-      return isChapterCompleted(trackerRepo.getProgress(), currentBook, currentChapter);
-    } catch {
-      return false;
-    }
-  });
-
-  function handleToggleChapterRead() {
-    trackerRepo.toggleChapter(currentBook, currentChapter);
-    streakRepo.recordToday();
-    trackerTick++;
-  }
 
   // Proyección en segunda pantalla (BroadcastChannel + /projection)
   let isProjecting = $state(false);
@@ -609,20 +586,6 @@
           </button>
 
           <TtsControls />
-
-          <button
-            type="button"
-            class="toolbar-action-btn {chapterDone ? 'is-active' : ''}"
-            data-tooltip={chapterDone
-              ? `Marcar ${currentBook} ${currentChapter} como no leído`
-              : `Marcar ${currentBook} ${currentChapter} como leído`}
-            aria-label={chapterDone ? 'Marcar capítulo como no leído' : 'Marcar capítulo como leído'}
-            aria-pressed={chapterDone}
-            onclick={handleToggleChapterRead}
-          >
-            <CircleCheck size={16} />
-            <span class="hidden md:inline">{chapterDone ? 'Leído' : 'Marcar leído'}</span>
-          </button>
 
           <button
             type="button"

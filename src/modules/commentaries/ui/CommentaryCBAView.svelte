@@ -111,7 +111,9 @@
           <div class="cba-full-intro">
             <h3>Introducción</h3>
             {#each bookEntries as intro}
-              <p>{intro.text}</p>
+              {#each intro.text.split(/\n\n+/) as paragraph}
+                <p>{paragraph}</p>
+              {/each}
             {/each}
           </div>
         {/if}

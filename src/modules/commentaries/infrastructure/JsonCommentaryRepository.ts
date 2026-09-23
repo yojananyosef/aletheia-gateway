@@ -1,10 +1,5 @@
 import type { ICommentaryRepository } from '../domain/ICommentaryRepository';
-import type {
-  CommentaryBookData,
-  CommentaryEntry,
-  CommentaryIndex,
-  CommentarySource,
-} from '../domain/Commentary';
+import type { CommentaryBookData, CommentaryEntry, CommentaryIndex, CommentarySource } from '../domain/Commentary';
 import { findBookInfo } from '../../bible-reader/domain/entities/BibleBooks';
 import { cacheBust } from '../../../shared/utils/cacheBust';
 
@@ -41,10 +36,7 @@ export class JsonCommentaryRepository implements ICommentaryRepository {
     return info ? info.code : bookCodeOrName.toUpperCase();
   }
 
-  private async loadBookData(
-    sourceId: string,
-    bookCodeOrName: string
-  ): Promise<CommentaryBookData | null> {
+  private async loadBookData(sourceId: string, bookCodeOrName: string): Promise<CommentaryBookData | null> {
     const source = (await this.loadIndex()).find((item) => item.id === sourceId);
     const bookCode = this.resolveBookCode(bookCodeOrName);
     if (!source || !source.bookCodes.includes(bookCode)) return null;
@@ -62,10 +54,7 @@ export class JsonCommentaryRepository implements ICommentaryRepository {
       JsonCommentaryRepository.bookCache.set(cacheKey, data);
       return data;
     } catch (error) {
-      console.warn(
-        `[JsonCommentaryRepository] Error cargando ${sourceId}/${bookCode}:`,
-        error
-      );
+      console.warn(`[JsonCommentaryRepository] Error cargando ${sourceId}/${bookCode}:`, error);
       JsonCommentaryRepository.bookCache.set(cacheKey, null);
       return null;
     }
@@ -75,7 +64,7 @@ export class JsonCommentaryRepository implements ICommentaryRepository {
     sourceId: string,
     bookCodeOrName: string,
     chapter: number,
-    verse: number
+    verse: number,
   ): Promise<string | null> {
     const data = await this.loadBookData(sourceId, bookCodeOrName);
     const chapterData = data?.chapters?.[String(chapter)];
@@ -87,27 +76,22 @@ export class JsonCommentaryRepository implements ICommentaryRepository {
     );
   }
 
-  public async getByChapter(
-    sourceId: string,
-    bookCodeOrName: string,
-    chapter: number
-  ): Promise<CommentaryEntry[]> {
+  public async getByChapter(sourceId: string, bookCodeOrName: string, chapter: number): Promise<CommentaryEntry[]> {
     const data = await this.loadBookData(sourceId, bookCodeOrName);
+    if (!data) return [];
     const chapterData = data?.chapters?.[String(chapter)];
-    if (!data || !chapterData) {
-      return data?.bookComments?.map((text) => ({ text, scope: 'book' })) || [];
-    }
 
-    const bookEntries: CommentaryEntry[] = (data.bookComments || []).map((text) => ({
+    // Introducción del libro: UNA sola entrada combinada y solo en el capítulo 1.
+    // (Antes: un card "Libro" por párrafo en TODOS los capítulos.)
+    const introParagraphs = (data.bookComments || []).filter((text) => Boolean(text));
+    const bookEntries: CommentaryEntry[] =
+      chapter === 1 && introParagraphs.length > 0 ? [{ text: introParagraphs.join('\n\n'), scope: 'book' }] : [];
+    if (!chapterData) return bookEntries;
+    const chapterEntries: CommentaryEntry[] = (chapterData.chapterComments || []).map((text) => ({
       text,
-      scope: 'book',
+      scope: 'chapter',
     }));
-    const chapterEntries: CommentaryEntry[] = (chapterData.chapterComments || []).map(
-      (text) => ({ text, scope: 'chapter' })
-    );
-    const verseEntries: CommentaryEntry[] = Object.entries(
-      chapterData.verseComments || {}
-    )
+    const verseEntries: CommentaryEntry[] = Object.entries(chapterData.verseComments || {})
       .map(([verse, text]) => ({
         text,
         scope: 'verse' as const,

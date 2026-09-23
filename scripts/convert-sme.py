@@ -1,9 +1,11 @@
 """
 Convertidor del devocional de C.H. Spurgeon (Morning and Evening) desde el módulo Sword SME
-ubicado en C:/Users/J/Desktop/Versiones/otros/otros/SME
-a public/data/devotionals/sme-spurgeon.json
+a public/data/devotionals/sme-spurgeon.json.
+
+Origen por defecto: SME_SOURCE_DIR env var, --source CLI o ruta histórica Windows.
 """
 
+import argparse
 import os
 import sys
 import json
@@ -11,10 +13,18 @@ import re
 import html
 import struct
 import zlib
+from pathlib import Path
 from bs4 import BeautifulSoup
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_SOURCE_BASE = Path(os.environ.get(
+    "SME_SOURCE_DIR",
+    r"C:\Users\J\Desktop\Versiones\otros\otros\SME\modules\lexdict\zld\devotionals\sme\sme",
+))
+DEFAULT_OUT_FILE = PROJECT_ROOT / "public" / "data" / "devotionals" / "sme-spurgeon.json"
 
 BOOK_REF_MAP = {
     "Gen": "Génesis", "Exod": "Éxodo", "Lev": "Levítico", "Num": "Números", "Deut": "Deuteronomio",
@@ -90,9 +100,14 @@ def parse_section(section_soup, time_type="morning"):
         "content": body
     }
 
-def convert_sme():
-    base = r"C:\Users\J\Desktop\Versiones\otros\otros\SME\modules\lexdict\zld\devotionals\sme\sme"
-    out_file = r"C:\Users\J\Desktop\aletheia-gateway\public\data\devotionals\sme-spurgeon.json"
+def convert_sme(base=None, out_file=None):
+    base = str(base or DEFAULT_SOURCE_BASE)
+    out_file = str(out_file or DEFAULT_OUT_FILE)
+    if not os.path.exists(base + ".zdx"):
+        raise SystemExit(
+            f"No existe el módulo SME: {base}.zdx\n"
+            "Pasa --source <base-sin-extensión> o define SME_SOURCE_DIR."
+        )
     os.makedirs(os.path.dirname(out_file), exist_ok=True)
 
     print("========================================================")
@@ -164,4 +179,8 @@ def convert_sme():
     print("========================================================")
 
 if __name__ == "__main__":
-    convert_sme()
+    parser = argparse.ArgumentParser(description="Convierte el devocional SME (Spurgeon) a JSON del gateway.")
+    parser.add_argument("--source", default=str(DEFAULT_SOURCE_BASE), help="Base del módulo SME sin extensión (o SME_SOURCE_DIR)")
+    parser.add_argument("--out", default=str(DEFAULT_OUT_FILE), help="Fichero JSON de salida")
+    args = parser.parse_args()
+    convert_sme(args.source, args.out)

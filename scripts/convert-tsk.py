@@ -1,20 +1,30 @@
 """
 Script para convertir el módulo Sword TSK (Treasury of Scripture Knowledge)
-ubicado en C:/Users/J/Desktop/Versiones/otros/otros/TSK
-a archivos JSON estructurados en public/data/cross-references/TSK/[BOOK].json
+a archivos JSON estructurados en public/data/cross-references/TSK/[BOOK].json.
+
+Origen por defecto: TSK_SOURCE_DIR env var, --source CLI o ruta histórica Windows.
 """
 
+import argparse
 import os
 import sys
 import json
 import re
 import html
+from pathlib import Path
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
 from bs4 import BeautifulSoup
 from pysword.bible import ZTextModule, BlockType, CompressType
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_SOURCE = Path(os.environ.get(
+    "TSK_SOURCE_DIR",
+    r"C:\Users\J\Desktop\Versiones\otros\otros\TSK\modules\comments\zcom\tsk",
+))
+DEFAULT_OUT = PROJECT_ROOT / "public" / "data" / "cross-references" / "TSK"
 
 BOOK_MAP = {
     # Pentateuco / Históricos
@@ -222,9 +232,14 @@ def parse_tsk_entry(raw_text: str, default_book: str):
 
     return entries
 
-def convert_tsk():
-    mod_dir = r"C:\Users\J\Desktop\Versiones\otros\otros\TSK\modules\comments\zcom\tsk"
-    out_dir = r"C:\Users\J\Desktop\aletheia-gateway\public\data\cross-references\TSK"
+def convert_tsk(mod_dir=None, out_dir=None):
+    mod_dir = str(mod_dir or DEFAULT_SOURCE)
+    out_dir = str(out_dir or DEFAULT_OUT)
+    if not os.path.isdir(mod_dir):
+        raise SystemExit(
+            f"No existe el directorio fuente TSK: {mod_dir}\n"
+            "Pasa --source <dir> o define TSK_SOURCE_DIR."
+        )
     os.makedirs(out_dir, exist_ok=True)
 
     print("========================================================")
@@ -303,4 +318,8 @@ def convert_tsk():
     print("========================================================")
 
 if __name__ == "__main__":
-    convert_tsk()
+    parser = argparse.ArgumentParser(description="Convierte el módulo Sword TSK a JSON del gateway.")
+    parser.add_argument("--source", default=str(DEFAULT_SOURCE), help="Dir del módulo TSK (o TSK_SOURCE_DIR)")
+    parser.add_argument("--out", default=str(DEFAULT_OUT), help="Dir de salida TSK")
+    args = parser.parse_args()
+    convert_tsk(args.source, args.out)

@@ -1,8 +1,11 @@
 """
 Convertidor integral de los 11 módulos Sword multilingües (Inglés, Griego, Hebreo y Alemán)
-desde C:/Users/J/Desktop/Versiones/otros a la estructura JSON de AletheiaGateway.
+a la estructura JSON de AletheiaGateway.
+
+Origen por defecto: SWORD_SOURCE_DIR env var, --source CLI o ruta histórica Windows.
 """
 
+import argparse
 import os
 import sys
 import json
@@ -10,6 +13,7 @@ import re
 import html
 import struct
 import zlib
+from pathlib import Path
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -17,6 +21,13 @@ if hasattr(sys.stdout, 'reconfigure'):
 from bs4 import BeautifulSoup
 from pysword.modules import SwordModules
 from pysword.bible import ZTextModule, CompressType
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_SOURCE_BASE = Path(os.environ.get(
+    "SWORD_SOURCE_DIR",
+    r"C:\Users\J\Desktop\Versiones\otros",
+))
+DEFAULT_OUT_BASE = PROJECT_ROOT / "public" / "data" / "bibles"
 
 # Fast Buffer Cache for pysword
 BUFFER_CACHE = {}
@@ -335,9 +346,14 @@ def parse_osis_verse(raw_xml_str, fn_counter):
 
     return headings, footnotes, clean_text
 
-def convert_all_other_modules():
-    base_src_dir = r"C:\Users\J\Desktop\Versiones\otros"
-    out_base_dir = r"C:\Users\J\Desktop\aletheia-gateway\public\data\bibles"
+def convert_all_other_modules(base_src_dir=None, out_base_dir=None):
+    base_src_dir = str(base_src_dir or DEFAULT_SOURCE_BASE)
+    out_base_dir = str(out_base_dir or DEFAULT_OUT_BASE)
+    if not os.path.isdir(base_src_dir):
+        raise SystemExit(
+            f"No existe el directorio fuente Sword: {base_src_dir}\n"
+            "Pasa --source <dir> o define SWORD_SOURCE_DIR."
+        )
     
     conversion_summary = []
 
@@ -454,4 +470,8 @@ def convert_all_other_modules():
         print(f"  • [{s['id']}] {s['name']} ({s['language']}): {s['booksCount']} libros, {s['chaptersCount']} caps.")
 
 if __name__ == "__main__":
-    convert_all_other_modules()
+    parser = argparse.ArgumentParser(description="Convierte módulos Sword multilingües a JSON del gateway.")
+    parser.add_argument("--source", default=str(DEFAULT_SOURCE_BASE), help="Dir base Sword (o SWORD_SOURCE_DIR)")
+    parser.add_argument("--out", default=str(DEFAULT_OUT_BASE), help="Dir base de salida bibles/")
+    args = parser.parse_args()
+    convert_all_other_modules(args.source, args.out)

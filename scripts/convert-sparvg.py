@@ -1,8 +1,11 @@
 """
 Convertidor ultra-rápido de Reina Valera Gómez (SpaRVG) desde formato Sword zText (LZSS/OSIS)
-a la estructura JSON de AletheiaGateway en public/data/bibles/SpaRVG/
+a la estructura JSON de AletheiaGateway en public/data/bibles/SpaRVG/.
+
+Origen por defecto: RVG_SOURCE_DIR env var, --source CLI o ruta histórica Windows.
 """
 
+import argparse
 import os
 import sys
 import json
@@ -10,6 +13,7 @@ import re
 import html
 import struct
 import zlib
+from pathlib import Path
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -17,6 +21,13 @@ if hasattr(sys.stdout, 'reconfigure'):
 from bs4 import BeautifulSoup
 from pysword.modules import SwordModules
 from pysword.bible import ZTextModule, CompressType
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_SOURCE = Path(os.environ.get(
+    "RVG_SOURCE_DIR",
+    r"C:\Users\J\Desktop\Versiones\SpaRVG",
+))
+DEFAULT_OUT = PROJECT_ROOT / "public" / "data" / "bibles" / "SpaRVG"
 
 # Fast Sword LZSS Decompressor (CrossWire algorithm)
 def decompress_sword_lzss(data):
@@ -223,9 +234,14 @@ def parse_osis_verse(raw_xml_str, fn_counter):
     
     return headings, footnotes, clean_text
 
-def convert_sparvg():
-    source_dir = r"C:\Users\J\Desktop\Versiones\SpaRVG"
-    out_dir = r"C:\Users\J\Desktop\aletheia-gateway\public\data\bibles\SpaRVG"
+def convert_sparvg(source_dir=None, out_dir=None):
+    source_dir = str(source_dir or DEFAULT_SOURCE)
+    out_dir = str(out_dir or DEFAULT_OUT)
+    if not os.path.isdir(source_dir):
+        raise SystemExit(
+            f"No existe el directorio fuente RVG: {source_dir}\n"
+            "Pasa --source <dir> o define RVG_SOURCE_DIR."
+        )
     os.makedirs(out_dir, exist_ok=True)
     
     print(f"📖 Cargando módulo Sword Reina Valera Gómez desde {source_dir}...")
@@ -316,4 +332,8 @@ def convert_sparvg():
     print(f"  - Destino: {out_dir}")
 
 if __name__ == "__main__":
-    convert_sparvg()
+    parser = argparse.ArgumentParser(description="Convierte Reina Valera Gómez Sword a JSON del gateway.")
+    parser.add_argument("--source", default=str(DEFAULT_SOURCE), help="Dir del módulo RVG (o RVG_SOURCE_DIR)")
+    parser.add_argument("--out", default=str(DEFAULT_OUT), help="Dir de salida SpaRVG/")
+    args = parser.parse_args()
+    convert_sparvg(args.source, args.out)

@@ -65,4 +65,18 @@ describe('JsonCommentaryRepository (CBA)', () => {
     const entries = await repo.getByChapter('cba', 'TOB', 1);
     expect(entries).toEqual([]);
   });
+
+  it('combina la introducción del libro en UNA sola entrada y solo en el capítulo 1', async () => {
+    const repo = new JsonCommentaryRepository();
+    const ch1 = await repo.getByChapter('cba', 'Génesis', 1);
+    const introsCh1 = ch1.filter((e) => e.scope === 'book');
+    expect(introsCh1).toHaveLength(1);
+    // Los párrafos originales se conservan separados por línea en blanco
+    expect(introsCh1[0].text).toContain('\n\n');
+    expect(introsCh1[0].text).toContain('INTRODUCCIÓN');
+
+    const ch4 = await repo.getByChapter('cba', 'Génesis', 4);
+    expect(ch4.filter((e) => e.scope === 'book')).toHaveLength(0);
+    expect(ch4.filter((e) => e.scope === 'verse').length).toBeGreaterThan(0);
+  });
 });

@@ -2,8 +2,16 @@ import fs from 'fs';
 import path from 'path';
 import { AVAILABLE_TRANSLATIONS } from '../src/modules/bible-reader/domain/entities/Translation';
 
-const sourceBaseDir = 'C:/Users/J/Desktop/Versiones';
+const sourceBaseDir =
+  process.env.BIBLE_SOURCE_DIR || 'C:/Users/J/Desktop/Versiones';
 const outputBaseDir = path.resolve('public/data/bibles');
+
+if (!fs.existsSync(sourceBaseDir)) {
+  console.warn(
+    `[convert-bibles] Origen no encontrado: ${sourceBaseDir}\n` +
+      'Define BIBLE_SOURCE_DIR con la carpeta de biblias HTML/USFM.',
+  );
+}
 
 // USFM Code to Spanish standard name and testament
 export const USFM_BOOK_MAP: Record<string, { name: string; testament: 'AT' | 'NT'; chapters: number }> = {

@@ -1,19 +1,30 @@
 """
 Convertidor de Biblia Platense (Straubinger) desde formato Sword zText (OSIS)
-a la estructura JSON de AletheiaGateway en public/data/bibles/SpaPlatense/
+a la estructura JSON de AletheiaGateway en public/data/bibles/SpaPlatense/.
+
+Origen por defecto: PLATENSE_SOURCE_DIR env var, --source CLI o ruta histórica Windows.
 """
 
+import argparse
 import os
 import sys
 import json
 import re
 import html
+from pathlib import Path
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
 from bs4 import BeautifulSoup
 from pysword.modules import SwordModules
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_SOURCE = Path(os.environ.get(
+    "PLATENSE_SOURCE_DIR",
+    r"C:\Users\J\Desktop\Versiones\SpaPlatense",
+))
+DEFAULT_OUT = PROJECT_ROOT / "public" / "data" / "bibles" / "SpaPlatense"
 
 # Map OSIS book codes in Sword to USFM 3-letter codes and Spanish names
 BOOK_MAP = {
@@ -144,9 +155,14 @@ def parse_osis_verse(raw_xml_str, fn_counter):
     
     return headings, footnotes, clean_text
 
-def convert_spaplatense():
-    source_dir = r"C:\Users\J\Desktop\Versiones\SpaPlatense"
-    out_dir = r"C:\Users\J\Desktop\aletheia-gateway\public\data\bibles\SpaPlatense"
+def convert_spaplatense(source_dir=None, out_dir=None):
+    source_dir = str(source_dir or DEFAULT_SOURCE)
+    out_dir = str(out_dir or DEFAULT_OUT)
+    if not os.path.isdir(source_dir):
+        raise SystemExit(
+            f"No existe el directorio fuente Platense: {source_dir}\n"
+            "Pasa --source <dir> o define PLATENSE_SOURCE_DIR."
+        )
     os.makedirs(out_dir, exist_ok=True)
     
     print(f"📖 Cargando módulo Sword desde {source_dir}...")
@@ -233,4 +249,8 @@ def convert_spaplatense():
     print(f"  - Destino: {out_dir}")
 
 if __name__ == "__main__":
-    convert_spaplatense()
+    parser = argparse.ArgumentParser(description="Convierte Biblia Platense Sword a JSON del gateway.")
+    parser.add_argument("--source", default=str(DEFAULT_SOURCE), help="Dir del módulo Platense (o PLATENSE_SOURCE_DIR)")
+    parser.add_argument("--out", default=str(DEFAULT_OUT), help="Dir de salida SpaPlatense/")
+    args = parser.parse_args()
+    convert_spaplatense(args.source, args.out)
