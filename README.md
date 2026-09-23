@@ -201,6 +201,15 @@ aletheiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.17.6] - 2026-09-23
+
+#### Marca legible en oscuro/OLED y medición real de alto contraste
+
+- 🏷️ **Lockup AletheiaGateway**: "Gateway" usaba azul marino sobre tarjeta clara y el tagline tinta de acento (ambos invisibles en oscuro/OLED). Ahora usan `accent-interest-ink` + `text-muted` (AAA en superficie en todos los temas).
+- 📏 **Alto contraste medido en Chromium**: 154/154 elementos con geometría y fuente idénticas al estándar (movidos=0). El cambio de tema solo altera colores; la sensación de "letra más grande" es perceptual (negro puro sobre blanco puro), no reflow.
+- 🧪 **e2e al día**: expectativa de palabras de Cristo actualizada al rojo AAA (`rgb(138,31,31)`).
+- ✅ `check` 0 errores, unit 121/121, contraste AAA.
+
 ### [0.17.5] - 2026-09-23
 
 #### Interlineal con principal, modal sin salto y hover neobrutalista en planes

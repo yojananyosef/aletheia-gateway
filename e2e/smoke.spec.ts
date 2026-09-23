@@ -227,5 +227,6 @@ test('palabras de Cristo tiñen dichos en Mateo', async ({ page }) => {
 
   const red = page.locator('.words-of-christ').first();
   await expect(red).toBeVisible({ timeout: 20000 });
-  expect(await red.evaluate((el) => getComputedStyle(el).color)).toBe('rgb(185, 28, 28)');
+  // Tinta AAA sobre superficie clara (#8a1f1f, antes #b91c1c que no llegaba a AAA)
+  expect(await red.evaluate((el) => getComputedStyle(el).color)).toBe('rgb(138, 31, 31)');
 });
