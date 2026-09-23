@@ -9,6 +9,7 @@
   import { findBookInfo } from '../domain/entities/BibleBooks';
   import ColumnVersionDropdown from './ColumnVersionDropdown.svelte';
   import { resolveVerseHeadings } from '../domain/entities/SectionHeading';
+  import { resolveRedSpans, type RedSpan } from '../domain/entities/WordsOfChrist';
   import { bionicHtml } from '../../../shared/utils/bionic';
 
   interface Props {
@@ -25,6 +26,8 @@
     /** Overlay de títulos (versículo → textos) para el libro/capítulo en curso. */
     overlayHeadings?: Record<number, string[]>;
     overlayScope?: { book: string; chapter: number } | null;
+    /** Frases de palabras de Cristo (versículo → frases) para el mismo scope. */
+    redPhrases?: Record<number, string[]>;
     onOpenCommentary?: (context: {
       reference: string;
       book: string;
@@ -65,6 +68,7 @@
     showVerseCommentaries = true,
     overlayHeadings = {},
     overlayScope = null,
+    redPhrases = {},
     onOpenCommentary,
   }: Props = $props();
 
@@ -83,13 +87,6 @@
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#039;');
-  }
-
-  function getBionicLevel(): 'off' | 'leve' | 'fuerte' {
-    if (typeof document === 'undefined') return 'off';
-    if (document.body.classList.contains('bionic-fuerte')) return 'fuerte';
-    if (document.body.classList.contains('bionic-leve')) return 'leve';
-    return 'off';
   }
 
   function getMatchingHighlights(book: string, chapter: number, verse: Verse, translationId: string): BibleHighlight[] {
@@ -130,17 +127,13 @@
 
   function renderVerseText(
     verseText: string,
-    verseHighlights: BibleHighlight[]
+    verseHighlights: BibleHighlight[],
+    redSpans: RedSpan[] = []
   ): string {
-    if (!verseHighlights || verseHighlights.length === 0) {
-      if (getBionicLevel() !== 'off') return bionicHtml(verseText);
-      return escapeHtml(verseText);
-    }
-
     type MatchSpan = { start: number; end: number; color: string; id: string; text: string };
     const matches: MatchSpan[] = [];
 
-    for (const h of verseHighlights) {
+    for (const h of verseHighlights || []) {
       if (!h.text) continue;
       const target = h.text.trim();
       if (!target) continue;
@@ -160,10 +153,6 @@
       }
     }
 
-    if (matches.length === 0) {
-      return escapeHtml(verseText);
-    }
-
     // Sort matches by start position
     matches.sort((a, b) => a.start - b.start);
 
@@ -177,17 +166,46 @@
       }
     }
 
-    let html = '';
-    let cursor = 0;
+    // Recorta spans rojos al texto y descarta vacíos
+    const reds = redSpans
+      .map((r) => ({
+        start: Math.max(0, r.start),
+        end: Math.min(verseText.length, r.end),
+        source: r.source,
+      }))
+      .filter((r) => r.end > r.start)
+      .sort((a, b) => a.start - b.start);
+
+    // Fronteras de todos los segmentos atómicos
+    const cuts = new Set<number>([0, verseText.length]);
     for (const m of nonOverlapping) {
-      if (m.start > cursor) {
-        html += escapeHtml(verseText.slice(cursor, m.start));
-      }
-      html += `<mark class="bible-highlight bible-highlight-${m.color}" data-highlight-id="${escapeHtml(m.id)}">${escapeHtml(m.text)}</mark>`;
-      cursor = m.end;
+      cuts.add(Math.max(0, m.start));
+      cuts.add(Math.min(verseText.length, m.end));
     }
-    if (cursor < verseText.length) {
-      html += escapeHtml(verseText.slice(cursor));
+    for (const r of reds) {
+      cuts.add(r.start);
+      cuts.add(r.end);
+    }
+    const points = [...cuts].sort((a, b) => a - b);
+
+    // El markup biónico se emite siempre: el CSS (body.bionic-*) decide el efecto
+    // al instante, sin necesidad de re-render. Igual con .words-of-christ.
+    let html = '';
+    for (let i = 0; i < points.length - 1; i++) {
+      const a = points[i];
+      const b = points[i + 1];
+      if (b <= a) continue;
+      const slice = verseText.slice(a, b);
+      const hl = nonOverlapping.find((m) => m.start <= a && m.end >= b);
+      const red = reds.find((r) => r.start <= a && r.end >= b);
+      let chunk = bionicHtml(slice);
+      if (red) {
+        chunk = `<span class="words-of-christ" data-red-source="${red.source}">${chunk}</span>`;
+      }
+      if (hl) {
+        chunk = `<mark class="bible-highlight bible-highlight-${hl.color}" data-highlight-id="${escapeHtml(hl.id)}">${chunk}</mark>`;
+      }
+      html += chunk;
     }
 
     return html;
@@ -312,6 +330,7 @@
                 {@const inOverlayScope = overlayScope !== null && section.book === overlayScope.book && section.chapter === overlayScope.chapter}
                 {@const overlayTexts = inOverlayScope ? (overlayHeadings[verse.number] ?? []) : []}
                 {@const resolvedHeadings = resolveVerseHeadings(verse.headings, overlayTexts)}
+                {@const redSpans = resolveRedSpans(verse.text, inOverlayScope ? (redPhrases[verse.number] ?? []) : [])}
 
                 {#if resolvedHeadings.texts.length > 0 && resolvedHeadings.texts[0] !== section.title}
                   {#each resolvedHeadings.texts as heading}
@@ -334,7 +353,7 @@
                 >
                   <span class="verse-num">{verseDisplayLabel}</span>
                   
-                  <span class="verse-text-content">{@html renderVerseText(verse.text, verseHighlights)}</span>
+                  <span class="verse-text-content">{@html renderVerseText(verse.text, verseHighlights, redSpans)}</span>
 
                   <!-- Footnote Link Superscript Anchor with smooth scroll -->
                   {#if verse.footnotes && verse.footnotes.length > 0}

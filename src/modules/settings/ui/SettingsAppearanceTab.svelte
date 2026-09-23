@@ -188,7 +188,7 @@
     </div>
     <div class="font-card">
       <span class="theme-name font-bold">Palabras de Cristo</span>
-      <span class="theme-sub">Rojo sobre dichos de Jesús (datos en adaptación)</span>
+      <span class="theme-sub">Rojo sobre dichos de Jesús (cobertura: Mateo)</span>
       <div class="reading-toggle-row">
         <button
           type="button"

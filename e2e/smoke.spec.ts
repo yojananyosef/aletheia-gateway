@@ -140,3 +140,46 @@ test('interlineal: dropdowns del proyecto en libro/cap/vers', async ({ page }) =
   await page.getByRole('option', { name: '2' }).first().click();
   await expect(page.getByText('Génesis 2:1').first()).toBeVisible({ timeout: 20000 });
 });
+
+test('ayudas de lectura aplican al instante sin recargar', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
+  await expect(page.getByText('Agregar paralelo').first()).toBeVisible();
+
+  // Sin biónica el markup existe pero sin efecto (peso normal)
+  const bionic = page.locator('.passage-text .bionic-b').first();
+  await expect(bionic).toBeVisible();
+  expect(await bionic.evaluate((el) => getComputedStyle(el).fontWeight)).not.toBe('800');
+
+  await page.getByRole('button', { name: 'Configuración' }).click();
+  await page.locator('.font-card', { hasText: 'Lectura biónica' }).getByRole('button', { name: 'Leve', exact: true }).click();
+
+  // Al instante: negrita biónica con peso 800, sin recargar ni navegar
+  await expect(bionic).toBeVisible();
+  expect(await bionic.evaluate((el) => getComputedStyle(el).fontWeight)).toBe('800');
+
+  // Regla visible incluso con el modal abierto (z-index sobre el dialog)
+  await page.locator('.font-card', { hasText: 'Regla de lectura' }).getByRole('button').click();
+  await expect(page.locator('.reading-ruler')).toBeVisible();
+
+  // Al desactivar, el efecto cesa al instante
+  await page.locator('.font-card', { hasText: 'Lectura biónica' }).getByRole('button', { name: 'Off', exact: true }).click();
+  expect(await bionic.evaluate((el) => getComputedStyle(el).fontWeight)).not.toBe('800');
+});
+
+test('palabras de Cristo tiñen dichos en Mateo', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
+
+  await page.getByPlaceholder(/Buscar pasaje/).fill('Mateo 5');
+  await page.getByRole('button', { name: 'Buscar' }).click();
+  await expect(page.getByText('Mateo 5').first()).toBeVisible({ timeout: 20000 });
+
+  await page.getByRole('button', { name: 'Configuración' }).click();
+  await page.locator('.font-card', { hasText: 'Palabras de Cristo' }).getByRole('button').click();
+  await page.getByRole('button', { name: 'Listo' }).click();
+
+  const red = page.locator('.words-of-christ').first();
+  await expect(red).toBeVisible({ timeout: 20000 });
+  expect(await red.evaluate((el) => getComputedStyle(el).color)).toBe('rgb(185, 28, 28)');
+});

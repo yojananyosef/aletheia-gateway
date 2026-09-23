@@ -160,19 +160,22 @@ body.mode-oled {
   --accent-error: #ff7675;
 }
 
-/* --- LECTURA BIONICA (resalta inicio de palabra) --- */
-body.bionic-leve .passage-text .bionic-b,
-body.bionic-fuerte .passage-text .bionic-b {
+/* --- LECTURA BIONICA (resalta inicio de palabra; el markup se emite siempre
+   y el body decide el efecto al instante, sin re-render) --- */
+body.bionic-leve .bionic-b,
+body.bionic-fuerte .bionic-b {
   font-weight: 800;
 }
-body.bionic-fuerte .passage-text {
+body.bionic-fuerte .passage-text,
+body.bionic-fuerte .interlinear-gloss {
   color: var(--text-muted);
 }
-body.bionic-fuerte .passage-text .bionic-b {
+body.bionic-fuerte .passage-text .bionic-b,
+body.bionic-fuerte .interlinear-gloss .bionic-b {
   color: var(--text-main);
 }
 
-/* --- REGLA DE LECTURA (guía horizontal) --- */
+/* --- REGLA DE LECTURA (guía horizontal; sobre el modal para verse al activar) --- */
 body.ruler-on .reading-ruler {
   display: block;
 }
@@ -181,18 +184,24 @@ body.ruler-on .reading-ruler {
   position: fixed;
   left: 0;
   right: 0;
+  top: 40%;
   height: 2.2em;
   background: color-mix(in srgb, var(--accent-attention) 28%, transparent);
   border-top: 2px solid var(--border-color);
   border-bottom: 2px solid var(--border-color);
   pointer-events: none;
-  z-index: 80;
+  z-index: 200;
 }
 
-/* --- PALABRAS DE CRISTO (red letters, stub visual; datos pendientes) --- */
+/* --- PALABRAS DE CRISTO (overlay Mateo; el markup se emite siempre,
+   body.red-letters-on lo tiñe al instante). data-red-source: phrase
+   (recorte exacto) o verse (versículo completo, otra redacción) --- */
 body.red-letters-on .words-of-christ {
   color: #b91c1c;
   font-weight: 600;
+}
+body.red-letters-on .words-of-christ .bionic-b {
+  color: inherit;
 }
 
 /* Sombreado de selección de texto con el color del tema activo */

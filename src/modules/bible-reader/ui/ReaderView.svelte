@@ -38,6 +38,7 @@
   import { ttsStore } from '../application/tts.svelte';
   import { JsonCommentaryRepository } from '../../commentaries/infrastructure/JsonCommentaryRepository';
   import { JsonHeadingsRepository } from '../infrastructure/JsonHeadingsRepository';
+  import { JsonRedLettersRepository } from '../infrastructure/JsonRedLettersRepository';
   import { findBookInfo } from '../domain/entities/BibleBooks';
   import { LocalStorageTrackerRepository } from '../../tracker/infrastructure/LocalStorageTrackerRepository';
   import { LocalStorageStreakRepository } from '../../tracker/infrastructure/LocalStorageStreakRepository';
@@ -93,26 +94,36 @@
   const crossRefRepo = new JsonCrossReferenceRepository();
   const commentaryRepo = new JsonCommentaryRepository();
   const headingsRepo = new JsonHeadingsRepository();
+  const redLettersRepo = new JsonRedLettersRepository();
   const trackerRepo = new LocalStorageTrackerRepository();
   const streakRepo = new LocalStorageStreakRepository();
 
   // Overlay de títulos de sección (solo rellena donde la versión no trae los suyos)
+  // + frases de palabras de Cristo (cobertura: Mateo) para el mismo scope.
   let overlayHeadings = $state<Record<number, string[]>>({});
   let overlayScope = $state<{ book: string; chapter: number } | null>(null);
+  let redPhrases = $state<Record<number, string[]>>({});
 
-  async function loadOverlayHeadings(book: string, chapter: number) {
+  async function loadOverlays(book: string, chapter: number) {
     try {
       const code = findBookInfo(book)?.code;
       if (!code) {
         overlayHeadings = {};
         overlayScope = null;
+        redPhrases = {};
         return;
       }
-      overlayHeadings = await headingsRepo.getByChapter(code, chapter);
+      const [headings, red] = await Promise.all([
+        headingsRepo.getByChapter(code, chapter),
+        redLettersRepo.getByChapter(code, chapter),
+      ]);
+      overlayHeadings = headings;
+      redPhrases = red;
       overlayScope = { book, chapter };
     } catch {
       overlayHeadings = {};
       overlayScope = null;
+      redPhrases = {};
     }
   }
 
@@ -347,7 +358,7 @@
       untrack(() => {
         loadHighlightsAndNotes();
         loadCbaAvailability(b, c);
-        loadOverlayHeadings(b, c);
+        loadOverlays(b, c);
       });
     }
   });
@@ -367,7 +378,7 @@
   onMount(() => {
     loadHighlightsAndNotes();
     loadCbaAvailability(currentBook, currentChapter);
-    loadOverlayHeadings(currentBook, currentChapter);
+    loadOverlays(currentBook, currentChapter);
   });
 
   function handleSubmit(event: Event) {
@@ -645,6 +656,7 @@
         {showVerseCommentaries}
         {overlayHeadings}
         {overlayScope}
+        {redPhrases}
         onOpenCommentary={handleOpenCommentaryVerse}
         onOpenCrossReferences={handleOpenCrossReferences}
         onOpenNoteModal={handleOpenNoteModal}
