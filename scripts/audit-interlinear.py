@@ -227,6 +227,9 @@ def main() -> int:
     parser.add_argument("--only-book", default=None, help="Solo un BOOK gateway (ej. GEN)")
     parser.add_argument("--resume", action="store_true")
     parser.add_argument("--progress", default=None)
+    parser.add_argument("--start-url", default=None,
+                        help="URL LogosKLogos desde donde continuar (ej. .../AT/Ex/34/4). "
+                             "Evita re-descargar lo ya auditado al reanudar.")
     args = parser.parse_args()
 
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
@@ -248,14 +251,26 @@ def main() -> int:
                     continue
         print(f"Reanudando: {len(done)} versículos ya auditados.")
 
-    out = open(progress_path, "a" if args.resume else "w", encoding="utf-8")
+    out = open(progress_path, "a" if args.resume else "w", encoding="utf-8", buffering=1)
 
     stats = {"ok": 0, "diff": 0, "missing_local": 0, "fetch_error": 0, "unmapped_book": 0}
     diff_count = 0
     checked = 0
 
+    # Inicio rápido: si se indica --start-url se continúa desde ahí en vez de
+    # recorrer desde Gn 1:1 / Mt 1:1 (el --resume antiguo re-descargaba todo
+    # lo ya auditado solo para saltarlo). Si el arranque es del AT, después
+    # se recorre el NT completo; si es del NT, el AT ya está completo.
+    starts = list(START_URLS)
+    if args.start_url:
+        if "/NT/" in args.start_url:
+            starts = [args.start_url]
+        else:
+            starts = [args.start_url, START_URLS[1]]
+        print(f"Inicio rápido desde: {args.start_url}")
+
     try:
-        for start in START_URLS:
+        for start in starts:
             url: str | None = start
             while url:
                 if args.max_verses and checked >= args.max_verses:
