@@ -175,6 +175,15 @@
   color: var(--on-accent-attention);
 }
 
+/* Acerca de: arriba de la línea, pegado abajo (no seguido a Mi progreso) */
+.neo-sidebar-bottom {
+  margin-top: auto;
+  padding-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
 /* Sidebar Colapsado */
 .neo-sidebar.is-collapsed .neo-sidebar-header {
   padding: 0 8px;
@@ -195,6 +204,11 @@
 }
 
 .neo-sidebar.is-collapsed .neo-sidebar-section {
+  align-items: center;
+  width: 100%;
+}
+
+.neo-sidebar.is-collapsed .neo-sidebar-bottom {
   align-items: center;
   width: 100%;
 }
