@@ -10,6 +10,8 @@ interface RawWord {
   parsing?: string;
   strong?: string | number;
   spanish?: string;
+  lemma?: string;
+  parsingCode?: string;
 }
 
 interface RawVerse {
@@ -50,6 +52,8 @@ export class JsonInterlinearRepository implements IInterlinearRepository {
             parsing: w.parsing || '',
             strong: String(w.strong ?? ''),
             spanish: w.spanish || '',
+            lemma: w.lemma || undefined,
+            parsingCode: w.parsingCode || undefined,
           })),
         }))
         .filter((v) => Number.isInteger(v.chapter) && Number.isInteger(v.verse));

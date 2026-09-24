@@ -4,15 +4,20 @@
   import type { StrongEntry, StrongTestament } from '../domain/StrongEntry';
   import { STRONG_RANGES, matchesStrongQuery, normalizeStrongId } from '../domain/StrongEntry';
   import { JsonStrongRepository } from '../infrastructure/JsonStrongRepository';
+  import { OccurrencesRepository, type StrongOccurrences } from '../infrastructure/OccurrencesRepository';
+  import { findBookInfo } from '../../bible-reader/domain/entities/BibleBooks';
 
   interface Props {
     initialId?: string | null;
+    onSelectPassage?: (ref: string) => void;
   }
 
-  let { initialId = null }: Props = $props();
+  let { initialId = null, onSelectPassage }: Props = $props();
 
   const strongRepo = new JsonStrongRepository();
+  const occurrencesRepo = new OccurrencesRepository();
   const ITEMS_PER_PAGE = 15;
+  const OCC_PREVIEW = 30;
 
   let allEntries = $state<StrongEntry[]>([]);
   let isLoading = $state(true);
@@ -23,6 +28,32 @@
   let selectedId = $state<string | null>(null);
   let audioMissingIds = $state<string[]>([]);
   let isPlayingId = $state<string | null>(null);
+  let occurrences = $state<StrongOccurrences | null>(null);
+  let occurrencesLoading = $state(false);
+  let occurrencesShown = $state(OCC_PREVIEW);
+
+  $effect(() => {
+    const id = selectedId;
+    occurrences = null;
+    occurrencesShown = OCC_PREVIEW;
+    if (!id) return;
+    occurrencesLoading = true;
+    occurrencesRepo.get(id).then((occ) => {
+      if (selectedId === id) occurrences = occ;
+    }).finally(() => {
+      if (selectedId === id) occurrencesLoading = false;
+    });
+  });
+
+  function occurrenceLabel(ref: string): string {
+    const [code, cv] = ref.split(' ');
+    const info = findBookInfo(code);
+    return info ? `${info.name} ${cv}` : ref;
+  }
+
+  function openOccurrence(ref: string) {
+    onSelectPassage?.(occurrenceLabel(ref));
+  }
 
   let testamentEntries = $derived(allEntries.filter((e) => e.testament === testament));
   let filteredEntries = $derived(
@@ -185,6 +216,37 @@
           <dd>{entry.rvDefinition || '—'}</dd>
         </div>
       </dl>
+
+      <div class="strong-occurrences">
+        <h3>
+          Aparece en
+          {#if occurrencesLoading}
+            … buscando
+          {:else if occurrences}
+            {occurrences.n.toLocaleString('es-CL')} {occurrences.n === 1 ? 'versículo' : 'versículos'}
+          {/if}
+        </h3>
+        {#if occurrences && occurrences.refs.length > 0}
+          <div class="strong-occ-list">
+            {#each occurrences.refs.slice(0, occurrencesShown) as ref}
+              <button type="button" class="strong-occ-ref" onclick={() => openOccurrence(ref)}>
+                {occurrenceLabel(ref)}
+              </button>
+            {/each}
+          </div>
+          {#if occurrences.refs.length > occurrencesShown}
+            <button
+              type="button"
+              class="strong-occ-more"
+              onclick={() => (occurrencesShown += OCC_PREVIEW)}
+            >
+              Ver más ({occurrences.refs.length - occurrencesShown} restantes)
+            </button>
+          {/if}
+        {:else if !occurrencesLoading}
+          <p class="strong-occ-empty">Sin ocurrencias registradas en el interlineal.</p>
+        {/if}
+      </div>
     </div>
   {:else}
     <div class="strong-dict-header">
@@ -615,6 +677,63 @@
     font-weight: 900;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+  }
+
+  .strong-occurrences {
+    margin: 16px 0 0;
+    padding: 12px 14px;
+    background: var(--bg-surface);
+    border: 2px solid var(--border-color);
+    box-shadow: 3px 3px 0 var(--border-color);
+  }
+
+  .strong-occurrences h3 {
+    margin: 0 0 10px;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .strong-occ-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .strong-occ-ref {
+    padding: 3px 8px;
+    color: var(--text-main);
+    background: var(--bg-canvas);
+    border: 1.5px solid var(--border-color);
+    cursor: pointer;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-weight: 800;
+  }
+
+  .strong-occ-ref:hover {
+    background: var(--accent-active);
+    color: var(--on-accent-active);
+  }
+
+  .strong-occ-more {
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: var(--text-main);
+    background: none;
+    border: 1.5px dashed var(--border-color);
+    cursor: pointer;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-weight: 800;
+  }
+
+  .strong-occ-empty {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.8125rem;
   }
 
   .strong-field dd {

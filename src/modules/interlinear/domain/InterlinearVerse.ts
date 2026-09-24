@@ -7,6 +7,10 @@ export interface InterlinearWord {
   /** Número Strong sin prefijo (ej. "7225"); "9001".."9006" son partículas gramaticales. */
   strong: string;
   spanish: string;
+  /** Lema en lengua original (griego: Tischendorf 8a ed.; hebreo: en curso). */
+  lemma?: string;
+  /** Código morfológico Robinson (ej. "N-NSF"); hebreo usa códigos propios. */
+  parsingCode?: string;
 }
 
 export interface InterlinearVerse {

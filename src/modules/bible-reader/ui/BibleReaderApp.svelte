@@ -14,6 +14,7 @@
   import TrackerView from '../../tracker/ui/TrackerView.svelte';
   import StreakWidget from '../../tracker/ui/StreakWidget.svelte';
   import PlansView from '../../plans/ui/PlansView.svelte';
+  import AboutView from '../../about/ui/AboutView.svelte';
   import type { AppView } from '../../../shared/ui/AppView';
 
   import {
@@ -328,7 +329,7 @@
     />
   {:else if view === 'strong'}
     {#key strongInitialId}
-      <StrongView initialId={strongInitialId} />
+      <StrongView initialId={strongInitialId} onSelectPassage={handleGoToReader} />
     {/key}
   {:else if view === 'interlinear'}
     <InterlinearView
@@ -338,6 +339,8 @@
     />
   {:else if view === 'tracker'}
     <TrackerView onSelectPassage={handleGoToReader} />
+  {:else if view === 'about'}
+    <AboutView />
   {:else}
     <ReaderView
       query={readerQuery}

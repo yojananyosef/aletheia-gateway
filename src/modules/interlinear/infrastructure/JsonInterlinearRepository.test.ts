@@ -55,4 +55,11 @@ describe('JsonInterlinearRepository (Interlineal)', () => {
     const repo = new JsonInterlinearRepository();
     expect(await repo.getChapter('TOB', 1)).toBeNull();
   });
+
+  it('pasa lemma y parsingCode del griego (Tischendorf)', async () => {
+    const repo = new JsonInterlinearRepository();
+    const data = await repo.getChapter('MAT', 1);
+    const v1 = data?.verses.find((v) => v.verse === 1);
+    expect(v1?.words[0]).toMatchObject({ lemma: 'βίβλος', parsingCode: 'N-NSF' });
+  });
 });

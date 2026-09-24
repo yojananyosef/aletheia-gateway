@@ -235,11 +235,18 @@ let {
             dir={isHebrew ? 'rtl' : 'ltr'}
             lang={isHebrew ? 'he' : 'el'}
             onclick={() => (touchedParsing = touchedParsing === idx ? null : idx)}
-            aria-label="{word.text}: {word.parsing}"
+            aria-label="{word.text}: {word.lemma ? word.lemma + ', ' : ''}{word.parsing}{word.parsingCode ? ` (${word.parsingCode})` : ''}"
           >
             {word.text}
           </button>
           <span class="interlinear-gloss" dir="ltr">{@html bionicHtml(word.spanish ?? '')}</span>
+          {#if word.lemma}
+            <span class="interlinear-lemma" dir={isHebrew ? 'rtl' : 'ltr'} lang={isHebrew ? 'he' : 'el'}>
+              {word.lemma}{word.parsingCode ? ` · ${word.parsingCode}` : ''}
+            </span>
+          {:else if word.parsingCode}
+            <span class="interlinear-lemma" dir="ltr">{word.parsingCode}</span>
+          {/if}
           {#if word.parsing}
             <span class="interlinear-parsing {touchedParsing === idx ? 'is-pinned' : ''}">
               {word.parsing}
@@ -392,6 +399,16 @@ let {
     line-height: 1.3;
     text-align: center;
     opacity: 0.75;
+  }
+
+  .interlinear-lemma {
+    max-width: 140px;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: center;
+    color: var(--text-muted);
   }
 
   .interlinear-parsing {

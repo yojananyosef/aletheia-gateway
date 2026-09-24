@@ -10,6 +10,7 @@
     ArrowLeftRight,
     Settings2,
     Trophy,
+    Info,
   } from 'lucide-svelte';
   import type { AppView } from './AppView';
 
@@ -145,6 +146,17 @@
   </div>
 
   <div class="neo-sidebar-footer">
+    <button
+      type="button"
+      class="neo-nav-button {activeView === 'about' ? 'is-active' : ''} {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
+      data-tooltip="Acerca de"
+      onclick={() => handleSelect('about')}
+    >
+      <Info size={20} class="shrink-0" />
+      {#if !isCollapsed || isOpen}
+        <span class="truncate flex-1 text-left">Acerca de</span>
+      {/if}
+    </button>
     <button
       type="button"
       class="neo-nav-button {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
