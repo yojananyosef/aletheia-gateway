@@ -232,6 +232,9 @@ def main() -> int:
     parser.add_argument("--start-url", default=None,
                         help="URL LogosKLogos desde donde continuar (ej. .../AT/Ex/34/4). "
                              "Evita re-descargar lo ya auditado al reanudar.")
+    parser.add_argument("--capture", default=None,
+                        help="Ruta JSONL donde guardar las palabras remotas "
+                             "(lemma/parsingCode/morfologia) de cada versiculo auditado.")
     args = parser.parse_args()
 
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
@@ -258,6 +261,9 @@ def main() -> int:
         print(f"Reanudando: {len(done)} versículos ya auditados.")
 
     out = open(progress_path, "a" if args.resume else "w", encoding="utf-8", buffering=1)
+    cap = None
+    if args.capture:
+        cap = open(args.capture, "a" if args.resume else "w", encoding="utf-8", buffering=1)
 
     stats = {"ok": 0, "diff": 0, "missing_local": 0, "fetch_error": 0, "unmapped_book": 0}
     diff_count = 0
@@ -321,6 +327,18 @@ def main() -> int:
                             b for b, (t, _f) in _book_testaments().items() if t == "hebrew"
                         } else "greek"
                         diffs = compare_words(local_words, words, testament)
+                        if cap is not None:
+                            cap.write(json.dumps({
+                                "key": key, "book": book_code,
+                                "words": [
+                                    {"manuscriptText": norm_text(rw.get("manuscriptText")),
+                                     "lemma": norm_text(rw.get("lemma")),
+                                     "gloss": norm_text(rw.get("gloss")),
+                                     "parsingCode": norm_text(rw.get("parsingCode")),
+                                     "morphology": norm_text(rw.get("morphology")),
+                                     "strongNumber": rw.get("strongNumber")}
+                                    for rw in words],
+                            }, ensure_ascii=False) + "\n")
                         if diffs:
                             stats["diff"] += 1
                             diff_count += 1
@@ -349,6 +367,8 @@ def main() -> int:
                 time.sleep(args.delay + random.uniform(0, args.jitter))
     finally:
         out.close()
+        if cap is not None:
+            cap.close()
 
     report = {
         "started_at": stamp,
