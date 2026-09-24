@@ -78,7 +78,7 @@
       <span class="neo-brand-badge">A</span>
       {#if !isCollapsed || isOpen}
         <div class="flex flex-col text-left leading-tight overflow-hidden">
-          <span class="font-bold text-sm truncate">Aletheia<span class="text-[var(--accent-interest-ink)]">Gateway</span></span>
+          <span class="font-bold text-sm truncate text-[var(--text-main)]">Aletheia<span class="text-[var(--accent-interest-ink)]">Gateway</span></span>
           <span class="text-xs text-[var(--text-muted)] font-semibold truncate">La verdad en la Palabra</span>
         </div>
       {/if}

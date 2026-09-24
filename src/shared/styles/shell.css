@@ -54,6 +54,9 @@
   border: var(--border-main);
   border-radius: var(--radius-strict);
   background-color: var(--bg-surface);
+  /* La marca vive sobre surface (oscura en dark/OLED): usa tinta de
+     superficie, no el on-accent del header amarillo (oscuro-sobre-oscuro ≈1:1). */
+  color: var(--text-main);
   box-shadow: var(--shadow-sm);
   transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out;
 }

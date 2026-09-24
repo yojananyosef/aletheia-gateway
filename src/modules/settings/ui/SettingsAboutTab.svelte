@@ -3,7 +3,7 @@
     <div class="flex items-center gap-3 mb-3">
       <span class="about-logo">A</span>
       <div>
-        <h3 class="text-lg font-bold">Aletheia<span class="text-[var(--accent-interest)]">Gateway</span></h3>
+        <h3 class="text-lg font-bold">Aletheia<span class="text-[var(--accent-interest-ink)]">Gateway</span></h3>
         <span class="text-xs font-mono font-bold">Versión 1.0.0 (Fase 1)</span>
       </div>
     </div>

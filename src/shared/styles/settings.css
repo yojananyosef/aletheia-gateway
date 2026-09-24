@@ -257,14 +257,14 @@
   background-color: #ffffff;
   color: #000000;
   border-color: #000000;
-  border-width: 3px;
+  /* Sin border-width propio: todos los previews comparten 1.5px para
+     no provocar layout-shift al seleccionar alto contraste. */
 }
 
 .theme-preview.high-contrast .theme-badge-demo {
   color: #000000;
   background-color: #ffff00;
-  padding: 0 6px;
-  border: 2px solid #000000;
+  border-color: #000000;
 }
 
 .theme-preview.sepia {
@@ -361,6 +361,11 @@
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 1.25rem;
+  /* Caja idéntica en todos los previews: el badge de alto contraste solo
+     cambia colores, nunca padding/borde, para evitar layout-shift. */
+  padding: 0 6px;
+  border: 2px solid transparent;
+  box-sizing: border-box;
 }
 
 .theme-name {
