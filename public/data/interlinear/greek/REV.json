@@ -42049,205 +42049,273 @@
         "greek": "Καὶ",
         "parsing": "Conjunción",
         "strong": "2532",
-        "spanish": "[Y"
+        "spanish": "[Y",
+        "lemma": "καί",
+        "parsingCode": "CONJ"
       },
       {
         "greek": "ἐστάθην",
         "parsing": "Verbo-Aoristo-Pasivo-Indicativo-1ª Persona-Singular",
         "strong": "2476",
-        "spanish": "fuí puesto de pie"
+        "spanish": "fuí puesto de pie",
+        "lemma": "ἵστημι",
+        "parsingCode": "V-API-1S"
       },
       {
         "greek": "ἐπὶ",
         "parsing": "Preposición",
         "strong": "1909",
-        "spanish": "sobre"
+        "spanish": "sobre",
+        "lemma": "ἐπί",
+        "parsingCode": "PREP"
       },
       {
         "greek": "τὴν",
         "parsing": "Artículo-Acusativo-Singular-Femenino",
         "strong": "3588",
-        "spanish": "la"
+        "spanish": "la",
+        "lemma": "ὁ",
+        "parsingCode": "T-ASF"
       },
       {
         "greek": "ἄμμον",
         "parsing": "Sustantivo-Acusativo-Singular-Femenino",
         "strong": "285",
-        "spanish": "arena"
+        "spanish": "arena",
+        "lemma": "ἄμμος",
+        "parsingCode": "N-ASF"
       },
       {
         "greek": "τῆς",
         "parsing": "Artículo-Genitivo-Singular-Femenino",
         "strong": "3588",
-        "spanish": "de el"
+        "spanish": "de el",
+        "lemma": "ὁ",
+        "parsingCode": "T-GSF"
       },
       {
         "greek": "θαλάσσης.",
         "parsing": "Sustantivo-Genitivo-Singular-Femenino",
         "strong": "2281",
-        "spanish": "mar]"
+        "spanish": "mar]",
+        "lemma": "θάλασσα",
+        "parsingCode": "N-GSF"
       },
       {
         "greek": "καὶ",
         "parsing": "Conjunción",
         "strong": "2532",
-        "spanish": "Y"
+        "spanish": "Y",
+        "lemma": "καί",
+        "parsingCode": "CONJ"
       },
       {
         "greek": "εἶδον",
         "parsing": "Verbo-2º Aoristo-Activo-Indicativo-1ª Persona-Singular",
         "strong": "3708",
-        "spanish": "ví"
+        "spanish": "ví",
+        "lemma": "ὁράω",
+        "parsingCode": "V-2AAI-1S"
       },
       {
         "greek": "ἐκ",
         "parsing": "Preposición",
         "strong": "1537",
-        "spanish": "procedente de"
+        "spanish": "procedente de",
+        "lemma": "ἐκ",
+        "parsingCode": "PREP"
       },
       {
         "greek": "τῆς",
         "parsing": "Artículo-Genitivo-Singular-Femenino",
         "strong": "3588",
-        "spanish": "el"
+        "spanish": "el",
+        "lemma": "ὁ",
+        "parsingCode": "T-GSF"
       },
       {
         "greek": "θαλάσσης",
         "parsing": "Sustantivo-Genitivo-Singular-Femenino",
         "strong": "2281",
-        "spanish": "mar"
+        "spanish": "mar",
+        "lemma": "θάλασσα",
+        "parsingCode": "N-GSF"
       },
       {
         "greek": "θηρίον",
         "parsing": "Sustantivo-Acusativo-Singular-Neutro",
         "strong": "2342",
-        "spanish": "bestia salvaje"
+        "spanish": "bestia salvaje",
+        "lemma": "θηρίον",
+        "parsingCode": "N-ASN"
       },
       {
         "greek": "ἀναβαῖνον,",
         "parsing": "Verbo-Presente-Activo-Participio-Acusativo-Singular-Neutro",
         "strong": "305",
-        "spanish": "ascendiendo"
+        "spanish": "ascendiendo",
+        "lemma": "ἀναβαίνω",
+        "parsingCode": "V-PAP-ASN"
       },
       {
         "greek": "ἔχον",
         "parsing": "Verbo-Presente-Activo-Participio-Acusativo-Singular-Neutro",
         "strong": "2192",
-        "spanish": "teniendo"
+        "spanish": "teniendo",
+        "lemma": "ἔχω",
+        "parsingCode": "V-PAP-ASN"
       },
       {
         "greek": "κέρατα",
         "parsing": "Sustantivo-Acusativo-Plural-Neutro",
         "strong": "2768",
-        "spanish": "cuernos"
+        "spanish": "cuernos",
+        "lemma": "κέρας",
+        "parsingCode": "N-APN"
       },
       {
         "greek": "δέκα",
         "parsing": "Adjetivo-Numeral-Indeclinable",
         "strong": "1176",
-        "spanish": "diez"
+        "spanish": "diez",
+        "lemma": "δέκα",
+        "parsingCode": "A-NUI"
       },
       {
         "greek": "καὶ",
         "parsing": "Conjunción",
         "strong": "2532",
-        "spanish": "y"
+        "spanish": "y",
+        "lemma": "καί",
+        "parsingCode": "CONJ"
       },
       {
         "greek": "κεφαλὰς",
         "parsing": "Sustantivo-Acusativo-Plural-Femenino",
         "strong": "2776",
-        "spanish": "cabezas"
+        "spanish": "cabezas",
+        "lemma": "κεφαλή",
+        "parsingCode": "N-APF"
       },
       {
         "greek": "ἑπτά,",
         "parsing": "Adjetivo-Numeral-Indeclinable",
         "strong": "2033",
-        "spanish": "siete"
+        "spanish": "siete",
+        "lemma": "ἑπτά",
+        "parsingCode": "A-NUI"
       },
       {
         "greek": "καὶ",
         "parsing": "Conjunción",
         "strong": "2532",
-        "spanish": "y"
+        "spanish": "y",
+        "lemma": "καί",
+        "parsingCode": "CONJ"
       },
       {
         "greek": "ἐπὶ",
         "parsing": "Preposición",
         "strong": "1909",
-        "spanish": "sobre"
+        "spanish": "sobre",
+        "lemma": "ἐπί",
+        "parsingCode": "PREP"
       },
       {
         "greek": "τῶν",
         "parsing": "Artículo-Genitivo-Plural-Neutro",
         "strong": "3588",
-        "spanish": "los"
+        "spanish": "los",
+        "lemma": "ὁ",
+        "parsingCode": "T-GPN"
       },
       {
         "greek": "κεράτων",
         "parsing": "Sustantivo-Genitivo-Plural-Neutro",
         "strong": "2768",
-        "spanish": "cuernos"
+        "spanish": "cuernos",
+        "lemma": "κέρας",
+        "parsingCode": "N-GPN"
       },
       {
         "greek": "αὐτοῦ",
         "parsing": "Pronombre Personal-Genitivo-Singular-Neutro",
         "strong": "846",
-        "spanish": "de él"
+        "spanish": "de él",
+        "lemma": "αὐτός",
+        "parsingCode": "P-GSN"
       },
       {
         "greek": "δέκα",
         "parsing": "Adjetivo-Numeral-Indeclinable",
         "strong": "1176",
-        "spanish": "diez"
+        "spanish": "diez",
+        "lemma": "δέκα",
+        "parsingCode": "A-NUI"
       },
       {
         "greek": "διαδήματα,",
         "parsing": "Sustantivo-Acusativo-Plural-Neutro",
         "strong": "1238",
-        "spanish": "diademas"
+        "spanish": "diademas",
+        "lemma": "διάδημα",
+        "parsingCode": "N-APN"
       },
       {
         "greek": "καὶ",
         "parsing": "Conjunción",
         "strong": "2532",
-        "spanish": "y"
+        "spanish": "y",
+        "lemma": "καί",
+        "parsingCode": "CONJ"
       },
       {
         "greek": "ἐπὶ",
         "parsing": "Preposición",
         "strong": "1909",
-        "spanish": "sobre"
+        "spanish": "sobre",
+        "lemma": "ἐπί",
+        "parsingCode": "PREP"
       },
       {
         "greek": "τὰς",
         "parsing": "Artículo-Acusativo-Plural-Femenino",
         "strong": "3588",
-        "spanish": "las"
+        "spanish": "las",
+        "lemma": "ὁ",
+        "parsingCode": "T-APF"
       },
       {
         "greek": "κεφαλὰς",
         "parsing": "Sustantivo-Acusativo-Plural-Femenino",
         "strong": "2776",
-        "spanish": "cabezas"
+        "spanish": "cabezas",
+        "lemma": "κεφαλή",
+        "parsingCode": "N-APF"
       },
       {
         "greek": "αὐτοῦ",
         "parsing": "Pronombre Personal-Genitivo-Singular-Neutro",
         "strong": "846",
-        "spanish": "de ella"
+        "spanish": "de ella",
+        "lemma": "αὐτός",
+        "parsingCode": "P-GSN"
       },
       {
         "greek": "ὀνόματα",
         "parsing": "Sustantivo-Acusativo-Plural-Neutro",
         "strong": "3686",
-        "spanish": "nombres"
+        "spanish": "nombres",
+        "lemma": "ὄνομα",
+        "parsingCode": "N-APN"
       },
       {
         "greek": "βλασφημίας.",
         "parsing": "Sustantivo-Genitivo-Singular-Femenino",
         "strong": "988",
-        "spanish": "de insulto injurioso"
+        "spanish": "de insulto injurioso",
+        "lemma": "βλασφημία",
+        "parsingCode": "N-GSF"
       }
     ]
   },
@@ -54337,7 +54405,7 @@
         "greek": "ψευδοπροφήτου",
         "parsing": "Sustantivo-Genitivo-Singular-Masculino",
         "strong": "5578",
-        "spanish": "falso vocero",
+        "spanish": "falso profeta",
         "lemma": "ψευδοπροφήτης",
         "parsingCode": "N-GSM"
       },
@@ -68421,7 +68489,7 @@
         "greek": "ψευδοπροφήτης",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "5578",
-        "spanish": "falso vocero",
+        "spanish": "falso profeta",
         "lemma": "ψευδοπροφήτης",
         "parsingCode": "N-NSM"
       },
@@ -71119,7 +71187,7 @@
         "greek": "ψευδοπροφήτης,",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "5578",
-        "spanish": "falso vocero",
+        "spanish": "falso profeta",
         "lemma": "ψευδοπροφήτης",
         "parsingCode": "N-NSM"
       },

@@ -8643,7 +8643,7 @@
         "greek": "ἐπροφήτευσεν",
         "parsing": "Verbo-Aoristo-Activo-Indicativo-3ª Persona-Singular",
         "strong": "4395",
-        "spanish": "habló como vocero",
+        "spanish": "habló como profeta",
         "lemma": "προφητεύω",
         "parsingCode": "V-AAI-3S"
       },
@@ -8933,7 +8933,7 @@
         "greek": "προφητῶν",
         "parsing": "Sustantivo-Genitivo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-GPM"
       },
@@ -9417,7 +9417,7 @@
         "greek": "προφήτης",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-NSM"
       },
@@ -17673,7 +17673,7 @@
         "greek": "προφήτου·",
         "parsing": "Sustantivo-Genitivo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-GSM"
       },
@@ -24219,7 +24219,7 @@
         "greek": "προφήτου",
         "parsing": "Sustantivo-Genitivo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-GSM"
       },
@@ -25277,7 +25277,7 @@
         "greek": "προφήτης",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-NSM"
       },
@@ -25823,7 +25823,7 @@
         "greek": "προφήτου,",
         "parsing": "Sustantivo-Genitivo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-GSM"
       },
@@ -38233,7 +38233,7 @@
         "greek": "προφήταις",
         "parsing": "Sustantivo-Dativo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-DPM"
       },
@@ -38595,7 +38595,7 @@
         "greek": "ψευδοπροφήταις",
         "parsing": "Sustantivo-Dativo-Plural-Masculino",
         "strong": "5578",
-        "spanish": "falsos voceros",
+        "spanish": "falsos profetas",
         "lemma": "ψευδοπροφήτης",
         "parsingCode": "N-DPM"
       },
@@ -44757,7 +44757,7 @@
         "greek": "προφήτης",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "Vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-NSM"
       },
@@ -46241,7 +46241,7 @@
         "greek": "προφήτην;",
         "parsing": "Sustantivo-Acusativo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "¿a vocero?",
+        "spanish": "¿profeta?",
         "lemma": "προφήτης",
         "parsingCode": "N-ASM"
       },
@@ -46289,7 +46289,7 @@
         "greek": "προφήτου.",
         "parsing": "Sustantivo-Genitivo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-GSM"
       }
@@ -46517,7 +46517,7 @@
         "greek": "προφήτης",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-NSM"
       },
@@ -48231,7 +48231,7 @@
         "greek": "προφήτης,",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-NSM"
       },
@@ -53649,7 +53649,7 @@
         "greek": "ἐπιστάτα",
         "parsing": "Sustantivo-Vocativo-Singular-Masculino",
         "strong": "1988",
-        "spanish": "Instructor",
+        "spanish": "maestro",
         "lemma": "ἐπιστάτης",
         "parsingCode": "N-VSM"
       },
@@ -53657,7 +53657,7 @@
         "greek": "ἐπιστάτα,",
         "parsing": "Sustantivo-Vocativo-Singular-Masculino",
         "strong": "1988",
-        "spanish": "Instructor",
+        "spanish": "maestro",
         "lemma": "ἐπιστάτης",
         "parsingCode": "N-VSM"
       },
@@ -59905,7 +59905,7 @@
         "greek": "προφήτης",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-NSM"
       },
@@ -61747,7 +61747,7 @@
         "greek": "προφήτης",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-NSM"
       },
@@ -72221,7 +72221,7 @@
         "greek": "προφῆται",
         "parsing": "Sustantivo-Nominativo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-NPM"
       },
@@ -82251,7 +82251,7 @@
         "greek": "προφητῶν,",
         "parsing": "Sustantivo-Genitivo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-GPM"
       },
@@ -82551,7 +82551,7 @@
         "greek": "προφήτας",
         "parsing": "Sustantivo-Acusativo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-APM"
       },
@@ -82677,7 +82677,7 @@
         "greek": "προφητῶν",
         "parsing": "Sustantivo-Genitivo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-GPM"
       },
@@ -96207,7 +96207,7 @@
         "greek": "προφήτας",
         "parsing": "Sustantivo-Acusativo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-APM"
       },
@@ -97051,7 +97051,7 @@
         "greek": "προφήτας",
         "parsing": "Sustantivo-Acusativo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-APM"
       },
@@ -109707,7 +109707,7 @@
         "greek": "προφῆται",
         "parsing": "Sustantivo-Nominativo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-NPM"
       },
@@ -111849,7 +111849,7 @@
         "greek": "προφήτας·",
         "parsing": "Sustantivo-Acusativo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-APM"
       },
@@ -112061,7 +112061,7 @@
         "greek": "προφητῶν",
         "parsing": "Sustantivo-Genitivo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-GPM"
       },
@@ -121293,7 +121293,7 @@
         "greek": "προφητῶν",
         "parsing": "Sustantivo-Genitivo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-GPM"
       },
@@ -129697,7 +129697,7 @@
         "greek": "προφήτην",
         "parsing": "Sustantivo-Acusativo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-ASM"
       },
@@ -158127,7 +158127,7 @@
         "greek": "προφήτης",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-NSM"
       },

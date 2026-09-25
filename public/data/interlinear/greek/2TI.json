@@ -7409,7 +7409,7 @@
         "greek": "πᾶσα",
         "parsing": "Adjetivo-Nominativo-Singular-Femenino",
         "strong": "3956",
-        "spanish": "Todo",
+        "spanish": "Toda",
         "lemma": "πᾶς",
         "parsingCode": "A-NSF"
       },
@@ -7417,7 +7417,7 @@
         "greek": "γραφὴ",
         "parsing": "Sustantivo-Nominativo-Singular-Femenino",
         "strong": "1124",
-        "spanish": "escrito",
+        "spanish": "escritura",
         "lemma": "γραφή",
         "parsingCode": "N-NSF"
       },
@@ -7425,7 +7425,7 @@
         "greek": "θεόπνευστος",
         "parsing": "Adjetivo-Nominativo-Singular-Femenino",
         "strong": "2315",
-        "spanish": "insuflado de Dios",
+        "spanish": "inspirada por Dios",
         "lemma": "θεόπνευστος",
         "parsingCode": "A-NSF"
       },
@@ -7529,7 +7529,7 @@
         "greek": "δικαιοσύνῃ,",
         "parsing": "Sustantivo-Dativo-Singular-Femenino",
         "strong": "1343",
-        "spanish": "rectitud",
+        "spanish": "justicia",
         "lemma": "δικαιοσύνη",
         "parsingCode": "N-DSF"
       }

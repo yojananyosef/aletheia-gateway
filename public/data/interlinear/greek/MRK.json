@@ -27113,7 +27113,7 @@
         "greek": "προφήτης",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-NSM"
       },
@@ -28643,7 +28643,7 @@
         "greek": "προφήτης",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "Vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-NSM"
       },
@@ -28675,7 +28675,7 @@
         "greek": "προφητῶν.",
         "parsing": "Sustantivo-Genitivo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-GPM"
       }
@@ -35397,7 +35397,7 @@
         "greek": "ἐπροφήτευσεν",
         "parsing": "Verbo-Aoristo-Activo-Indicativo-3ª Persona-Singular",
         "strong": "4395",
-        "spanish": "habló como vocero",
+        "spanish": "habló como profeta",
         "lemma": "προφητεύω",
         "parsingCode": "V-AAI-3S"
       },
@@ -38653,7 +38653,7 @@
         "greek": "ἐξεληλυθός.",
         "parsing": "Verbo-2º Perfecto-Activo-Participio-Acusativo-Singular-Neutro",
         "strong": "1831",
-        "spanish": "ha salido",
+        "spanish": "habiendo salido",
         "lemma": "ἐξέρχομαι",
         "parsingCode": "V-2RAP-ASN"
       }
@@ -42669,7 +42669,7 @@
         "greek": "τηλαυγῶς",
         "parsing": "Adverbio",
         "strong": "5081",
-        "spanish": "lejos radiantemente",
+        "spanish": "de lejos y claramente",
         "lemma": "τηλαυγῶς",
         "parsingCode": "ADV"
       },
@@ -43175,7 +43175,7 @@
         "greek": "προφητῶν.",
         "parsing": "Sustantivo-Genitivo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "voceros",
+        "spanish": "profetas",
         "lemma": "προφήτης",
         "parsingCode": "N-GPM"
       }
@@ -63967,7 +63967,7 @@
         "greek": "προφήτης",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-NSM"
       },
@@ -73809,7 +73809,7 @@
         "greek": "ψευδόχριστοι",
         "parsing": "Sustantivo-Nominativo-Plural-Masculino",
         "strong": "5580",
-        "spanish": "falsos ungidos",
+        "spanish": "falsos Cristos",
         "lemma": "ψευδόχριστος",
         "parsingCode": "N-NPM"
       },
@@ -73825,7 +73825,7 @@
         "greek": "ψευδοπροφῆται",
         "parsing": "Sustantivo-Nominativo-Plural-Masculino",
         "strong": "5578",
-        "spanish": "falsos voceros",
+        "spanish": "falsos profetas",
         "lemma": "ψευδοπροφήτης",
         "parsingCode": "N-NPM"
       },
@@ -76009,7 +76009,7 @@
         "greek": "δόλῳ",
         "parsing": "Sustantivo-Dativo-Singular-Masculino",
         "strong": "1388",
-        "spanish": "ardid astuto",
+        "spanish": "engaño",
         "lemma": "δόλος",
         "parsingCode": "N-DSM"
       },
@@ -78849,7 +78849,7 @@
         "greek": "καλὸν",
         "parsing": "Adjetivo-Nominativo-Singular-Neutro",
         "strong": "2570",
-        "spanish": "excelente",
+        "spanish": "bueno",
         "lemma": "καλός",
         "parsingCode": "A-NSN"
       },
@@ -84713,7 +84713,7 @@
         "greek": "προφήτευσον,",
         "parsing": "Verbo-Aoristo-Activo-Imperativo-2ª Persona-Singular",
         "strong": "4395",
-        "spanish": "Habla como vocero",
+        "spanish": "Habla como profeta",
         "lemma": "προφητεύω",
         "parsingCode": "V-AAM-2S"
       },
@@ -85557,7 +85557,7 @@
         "greek": "οἶδα",
         "parsing": "Verbo-Perfecto-Activo-Indicativo-1ª Persona-Singular",
         "strong": "1492",
-        "spanish": "he sabido",
+        "spanish": "he conocido",
         "lemma": "εἴδω",
         "parsingCode": "V-RAI-1S"
       },
@@ -89953,7 +89953,7 @@
         "greek": "φωνὴν",
         "parsing": "Sustantivo-Acusativo-Singular-Femenino",
         "strong": "5456",
-        "spanish": "sonido",
+        "spanish": "voz",
         "lemma": "φωνή",
         "parsingCode": "N-ASF"
       },
@@ -93925,7 +93925,7 @@
         "greek": "βεβαιοῦντος",
         "parsing": "Verbo-Presente-Activo-Participio-Genitivo-Singular-Masculino",
         "strong": "950",
-        "spanish": "estableciendo",
+        "spanish": "confirmando",
         "lemma": "βεβαιόω",
         "parsingCode": "V-PAP-GSM"
       },
@@ -93957,7 +93957,7 @@
         "greek": "σημείων.",
         "parsing": "Sustantivo-Genitivo-Plural-Neutro",
         "strong": "4592",
-        "spanish": "señales]]",
+        "spanish": "señales",
         "lemma": "σημεῖον",
         "parsingCode": "N-GPN"
       }

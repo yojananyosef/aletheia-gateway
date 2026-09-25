@@ -151,7 +151,7 @@
         "greek": "σωτῆρος",
         "parsing": "Sustantivo-Genitivo-Singular-Masculino",
         "strong": "4990",
-        "spanish": "de libertador",
+        "spanish": "de salvador",
         "lemma": "σωτήρ",
         "parsingCode": "N-GSM"
       },
@@ -1675,7 +1675,7 @@
         "greek": "σωτῆρος",
         "parsing": "Sustantivo-Genitivo-Singular-Masculino",
         "strong": "4990",
-        "spanish": "Libertador",
+        "spanish": "de salvador",
         "lemma": "σωτήρ",
         "parsingCode": "N-GSM"
       },
@@ -3237,7 +3237,7 @@
         "greek": "ψευδοπροφῆται",
         "parsing": "Sustantivo-Nominativo-Plural-Masculino",
         "strong": "5578",
-        "spanish": "falsos voceros",
+        "spanish": "falsos profetas",
         "lemma": "ψευδοπροφήτης",
         "parsingCode": "N-NPM"
       },
@@ -5399,7 +5399,7 @@
         "greek": "προφήτου",
         "parsing": "Sustantivo-Genitivo-Singular-Masculino",
         "strong": "4396",
-        "spanish": "vocero",
+        "spanish": "profeta",
         "lemma": "προφήτης",
         "parsingCode": "N-GSM"
       },

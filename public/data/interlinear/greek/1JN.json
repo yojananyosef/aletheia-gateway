@@ -4633,7 +4633,7 @@
         "greek": "ἀντίχριστος",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "500",
-        "spanish": "antiungido",
+        "spanish": "anticristo",
         "lemma": "ἀντίχριστος",
         "parsingCode": "N-NSM"
       },
@@ -4665,7 +4665,7 @@
         "greek": "ἀντίχριστοι",
         "parsing": "Sustantivo-Nominativo-Plural-Masculino",
         "strong": "500",
-        "spanish": "antiungidos",
+        "spanish": "anticristo",
         "lemma": "ἀντίχριστος",
         "parsingCode": "N-NPM"
       },
@@ -5353,7 +5353,7 @@
         "greek": "ἀντίχριστος,",
         "parsing": "Sustantivo-Nominativo-Singular-Masculino",
         "strong": "500",
-        "spanish": "antiungido",
+        "spanish": "anticristo",
         "lemma": "ἀντίχριστος",
         "parsingCode": "N-NSM"
       },
@@ -10625,7 +10625,7 @@
         "greek": "ψευδοπροφῆται",
         "parsing": "Sustantivo-Nominativo-Plural-Masculino",
         "strong": "5578",
-        "spanish": "falsos voceros",
+        "spanish": "falsos profetas",
         "lemma": "ψευδοπροφήτης",
         "parsingCode": "N-NPM"
       },
@@ -10981,7 +10981,7 @@
         "greek": "ἀντιχρίστου,",
         "parsing": "Sustantivo-Genitivo-Singular-Masculino",
         "strong": "500",
-        "spanish": "antiungido",
+        "spanish": "anticristo",
         "lemma": "ἀντίχριστος",
         "parsingCode": "N-GSM"
       },

@@ -36987,31 +36987,41 @@
         "greek": "ἀσπάσασθε",
         "parsing": "Verbo-Aoristo-Deponente Medio-Imperativo-2ª Persona-Plural",
         "strong": "782",
-        "spanish": "Saluden"
+        "spanish": "Saluden",
+        "lemma": "ἀσπάζομαι",
+        "parsingCode": "V-ADM-2P"
       },
       {
         "greek": "ἀλλήλους",
         "parsing": "Pronombre Recíproco-Acusativo-Plural-Masculino",
         "strong": "240",
-        "spanish": "unos a otros"
+        "spanish": "unos a otros",
+        "lemma": "ἀλλήλων",
+        "parsingCode": "C-APM"
       },
       {
         "greek": "ἐν",
         "parsing": "Preposición",
         "strong": "1722",
-        "spanish": "en"
+        "spanish": "en",
+        "lemma": "ἐν",
+        "parsingCode": "PREP"
       },
       {
         "greek": "ἁγίῳ",
         "parsing": "Adjetivo-Dativo-Singular-Neutro",
         "strong": "40",
-        "spanish": "santo"
+        "spanish": "santo",
+        "lemma": "ἅγιος",
+        "parsingCode": "A-DSN"
       },
       {
         "greek": "φιλήματι.",
         "parsing": "Sustantivo-Dativo-Singular-Neutro",
         "strong": "5370",
-        "spanish": "beso"
+        "spanish": "beso",
+        "lemma": "φίλημα",
+        "parsingCode": "N-DSN"
       }
     ]
   },
@@ -37023,31 +37033,41 @@
         "greek": "ἀσπάζονται",
         "parsing": "Verbo-Presente-Deponente Medio o Pasivo-Indicativo-3ª Persona-Plural",
         "strong": "782",
-        "spanish": "Están saludando"
+        "spanish": "Están saludando",
+        "lemma": "ἀσπάζομαι",
+        "parsingCode": "V-PNI-3P"
       },
       {
         "greek": "ὑμᾶς",
         "parsing": "Pronombre Personal-2ª Persona-Acusativo-Plural",
         "strong": "5210",
-        "spanish": "a ustedes"
+        "spanish": "a ustedes",
+        "lemma": "ὑμεῖς",
+        "parsingCode": "P-2AP"
       },
       {
         "greek": "οἱ",
         "parsing": "Artículo-Nominativo-Plural-Masculino",
         "strong": "3588",
-        "spanish": "los"
+        "spanish": "los",
+        "lemma": "ὁ",
+        "parsingCode": "T-NPM"
       },
       {
         "greek": "ἅγιοι",
         "parsing": "Adjetivo-Nominativo-Plural-Masculino",
         "strong": "40",
-        "spanish": "santos"
+        "spanish": "santos",
+        "lemma": "ἅγιος",
+        "parsingCode": "A-NPM"
       },
       {
         "greek": "πάντες.",
         "parsing": "Adjetivo-Nominativo-Plural-Masculino",
         "strong": "3956",
-        "spanish": "todos"
+        "spanish": "todos",
+        "lemma": "πᾶς",
+        "parsingCode": "A-NPM"
       }
     ]
   },
@@ -37059,121 +37079,161 @@
         "greek": "Ἡ",
         "parsing": "Artículo-Nominativo-Singular-Femenino",
         "strong": "3588",
-        "spanish": "La"
+        "spanish": "La",
+        "lemma": "ὁ",
+        "parsingCode": "T-NSF"
       },
       {
         "greek": "χάρις",
         "parsing": "Sustantivo-Nominativo-Singular-Femenino",
         "strong": "5485",
-        "spanish": "bondad inmerecida"
+        "spanish": "bondad inmerecida",
+        "lemma": "χάρις",
+        "parsingCode": "N-NSF"
       },
       {
         "greek": "τοῦ",
         "parsing": "Artículo-Genitivo-Singular-Masculino",
         "strong": "3588",
-        "spanish": "de el"
+        "spanish": "de el",
+        "lemma": "ὁ",
+        "parsingCode": "T-GSM"
       },
       {
         "greek": "κυρίου",
         "parsing": "Sustantivo-Genitivo-Singular-Masculino",
         "strong": "2962",
-        "spanish": "Señor"
+        "spanish": "Señor",
+        "lemma": "κύριος",
+        "parsingCode": "N-GSM"
       },
       {
         "greek": "Ἰησοῦ",
         "parsing": "Sustantivo-Genitivo-Singular-Masculino",
         "strong": "2424",
-        "spanish": "Jesús"
+        "spanish": "Jesús",
+        "lemma": "Ἰησοῦς",
+        "parsingCode": "N-GSM"
       },
       {
         "greek": "Χριστοῦ",
         "parsing": "Sustantivo-Genitivo-Singular-Masculino",
         "strong": "5547",
-        "spanish": "Cristo"
+        "spanish": "Cristo",
+        "lemma": "Χριστός",
+        "parsingCode": "N-GSM"
       },
       {
         "greek": "καὶ",
         "parsing": "Conjunción",
         "strong": "2532",
-        "spanish": "y"
+        "spanish": "y",
+        "lemma": "καί",
+        "parsingCode": "CONJ"
       },
       {
         "greek": "ἡ",
         "parsing": "Artículo-Nominativo-Singular-Femenino",
         "strong": "3588",
-        "spanish": "el"
+        "spanish": "el",
+        "lemma": "ὁ",
+        "parsingCode": "T-NSF"
       },
       {
         "greek": "ἀγάπη",
         "parsing": "Sustantivo-Nominativo-Singular-Femenino",
         "strong": "26",
-        "spanish": "amor"
+        "spanish": "amor",
+        "lemma": "ἀγάπη",
+        "parsingCode": "N-NSF"
       },
       {
         "greek": "τοῦ",
         "parsing": "Artículo-Genitivo-Singular-Masculino",
         "strong": "3588",
-        "spanish": "de el"
+        "spanish": "de el",
+        "lemma": "ὁ",
+        "parsingCode": "T-GSM"
       },
       {
         "greek": "θεοῦ",
         "parsing": "Sustantivo-Genitivo-Singular-Masculino",
         "strong": "2316",
-        "spanish": "Dios"
+        "spanish": "Dios",
+        "lemma": "θεός",
+        "parsingCode": "N-GSM"
       },
       {
         "greek": "καὶ",
         "parsing": "Conjunción",
         "strong": "2532",
-        "spanish": "y"
+        "spanish": "y",
+        "lemma": "καί",
+        "parsingCode": "CONJ"
       },
       {
         "greek": "ἡ",
         "parsing": "Artículo-Nominativo-Singular-Femenino",
         "strong": "3588",
-        "spanish": "la"
+        "spanish": "la",
+        "lemma": "ὁ",
+        "parsingCode": "T-NSF"
       },
       {
         "greek": "κοινωνία",
         "parsing": "Sustantivo-Nominativo-Singular-Femenino",
         "strong": "2842",
-        "spanish": "participación en común"
+        "spanish": "participación en común",
+        "lemma": "κοινωνία",
+        "parsingCode": "N-NSF"
       },
       {
         "greek": "τοῦ",
         "parsing": "Artículo-Genitivo-Singular-Neutro",
         "strong": "3588",
-        "spanish": "de el"
+        "spanish": "de el",
+        "lemma": "ὁ",
+        "parsingCode": "T-GSN"
       },
       {
         "greek": "ἁγίου",
         "parsing": "Adjetivo-Genitivo-Singular-Neutro",
         "strong": "40",
-        "spanish": "santo"
+        "spanish": "santo",
+        "lemma": "ἅγιος",
+        "parsingCode": "A-GSN"
       },
       {
         "greek": "πνεύματος",
         "parsing": "Sustantivo-Genitivo-Singular-Neutro",
         "strong": "4151",
-        "spanish": "espíritu"
+        "spanish": "espíritu",
+        "lemma": "πνεῦμα",
+        "parsingCode": "N-GSN"
       },
       {
         "greek": "μετὰ",
         "parsing": "Preposición",
         "strong": "3326",
-        "spanish": "con"
+        "spanish": "con",
+        "lemma": "μετά",
+        "parsingCode": "PREP"
       },
       {
         "greek": "πάντων",
         "parsing": "Adjetivo-Genitivo-Plural-Masculino",
         "strong": "3956",
-        "spanish": "todos"
+        "spanish": "todos",
+        "lemma": "πᾶς",
+        "parsingCode": "A-GPM"
       },
       {
         "greek": "ὑμῶν.",
         "parsing": "Pronombre Personal-2ª Persona-Genitivo-Plural",
         "strong": "5210",
-        "spanish": "ustedes"
+        "spanish": "ustedes",
+        "lemma": "ὑμεῖς",
+        "parsingCode": "P-2GP"
       }
     ]
   }
