@@ -5,11 +5,23 @@
   import { bionicHtml } from '../../../shared/utils/bionic';
   import type { InterlinearTestament, InterlinearVerse } from '../domain/InterlinearVerse';
   import { strongIdForWord, testamentLabel } from '../domain/InterlinearVerse';
-  import { describeParsingCode } from '../domain/Morphology';
+  import { describeWord } from '../domain/Morphology';
+  import {
+    hasNext,
+    hasPrevious,
+    interlinearBookOrder,
+    stepPosition,
+    type InterlinearBookOutline,
+  } from '../domain/navigation';
 import { JsonInterlinearRepository } from '../infrastructure/JsonInterlinearRepository';
+import { LocalStorageInterlinearPositionRepository } from '../infrastructure/LocalStorageInterlinearPositionRepository';
 import { JsonBibleRepository } from '../../bible-reader/infrastructure/JsonBibleRepository';
 import { getAllBooks } from '../../bible-reader/domain/entities/BibleBooks';
 import { AVAILABLE_TRANSLATIONS, type TranslationId } from '../../bible-reader/domain/entities/Translation';
+
+  const positionRepo = new LocalStorageInterlinearPositionRepository();
+  // Reabre el interlineal donde quedó, no siempre en Génesis 1:1.
+  const savedPosition = positionRepo.get();
 
 interface Props {
   initialBook?: string;
@@ -21,9 +33,9 @@ interface Props {
 }
 
 let {
-  initialBook = 'Génesis',
-  initialChapter = 1,
-  initialVerse = 1,
+  initialBook = savedPosition?.book ?? 'Génesis',
+  initialChapter = savedPosition?.chapter ?? 1,
+  initialVerse = savedPosition?.verse ?? 1,
   referenceTranslation = 'RV1909',
   onOpenStrong,
   onSelectPassage,
@@ -32,6 +44,7 @@ let {
   const interlinearRepo = new JsonInterlinearRepository();
   const bibleRepo = new JsonBibleRepository();
   const books = getAllBooks();
+  const bookOrder = interlinearBookOrder();
 
   let bookName = $state(initialBook);
   let chapter = $state(initialChapter);
@@ -44,6 +57,10 @@ let {
   let verseNumbers = $state<number[]>([]);
   let referenceText = $state('');
   let touchedParsing = $state<number | null>(null);
+  let touchedRoot = $state<number | null>(null);
+  let outline = $state<InterlinearBookOutline | null>(null);
+  let canGoPrevious = $state(true);
+  let canGoNext = $state(true);
   let requestId = 0;
 
   let currentVerse = $derived(chapterVerses.find((v) => v.verse === verse) || null);
@@ -51,6 +68,21 @@ let {
   let referenceShortName = $derived(
     AVAILABLE_TRANSLATIONS[referenceTranslation]?.shortName ?? referenceTranslation
   );
+
+  function resolveOutline(name: string): Promise<InterlinearBookOutline | null> {
+    return interlinearRepo.getBookOutline(name);
+  }
+
+  async function refreshNavEdges() {
+    if (!outline) return;
+    const current = { book: bookName, chapter, verse };
+    const [prev, next] = await Promise.all([
+      hasPrevious(current, verseNumbers, outline, resolveOutline, bookOrder),
+      hasNext(current, verseNumbers, outline, resolveOutline, bookOrder),
+    ]);
+    canGoPrevious = prev;
+    canGoNext = next;
+  }
 
   async function loadReferenceVerse(): Promise<string> {
     try {
@@ -72,16 +104,20 @@ let {
     loadError = false;
     touchedParsing = null;
     try {
-      const [interlinear] = await Promise.all([
+      const [interlinear, bookOutline] = await Promise.all([
         interlinearRepo.getChapter(bookName, chapter),
+        interlinearRepo.getBookOutline(bookName),
       ]);
       if (id !== requestId) return;
+      outline = bookOutline;
       if (!interlinear || interlinear.verses.length === 0) {
         loadError = true;
         chapterVerses = [];
         chapterNumbers = [];
         verseNumbers = [];
         referenceText = '';
+        canGoPrevious = false;
+        canGoNext = false;
         return;
       }
       testament = interlinear.testament;
@@ -90,6 +126,8 @@ let {
       verseNumbers = interlinear.versesOfChapter(chapter);
       if (!verseNumbers.includes(verse)) verse = verseNumbers[0] ?? 1;
       referenceText = await loadReferenceVerse();
+      if (id !== requestId) return;
+      await refreshNavEdges();
       if (id !== requestId) return;
     } catch {
       if (id !== requestId) return;
@@ -101,24 +139,55 @@ let {
     }
   }
 
+  /** Fija/desfija un dato de la palabra en pantallas táctiles (sin hover). */
+  function togglePin(current: number | null, kind: 'root' | 'parsing', idx: number) {
+    const next = current === idx ? null : idx;
+    if (kind === 'root') {
+      touchedRoot = next;
+      touchedParsing = null;
+    } else {
+      touchedParsing = next;
+      touchedRoot = null;
+    }
+  }
+
   function selectBook(name: string) {
     bookName = name;
     chapter = 1;
     verse = 1;
   }
 
-  function stepVerse(delta: -1 | 1) {
-    const idx = verseNumbers.indexOf(verse);
-    const next = verseNumbers[idx + delta];
-    if (next !== undefined) {
-      verse = next;
+  /**
+   * Avanza o retrocede un versículo; al terminar el capítulo salta al siguiente
+   * y, si el libro se acaba, continúa en el libro vecino. En el primer o último
+   * versículo de la Biblia el botón queda deshabilitado y no hace nada.
+   */
+  async function stepVerse(delta: -1 | 1) {
+    if (!outline || isLoading) return;
+    if (delta === 1 && !canGoNext) return;
+    if (delta === -1 && !canGoPrevious) return;
+    const target = await stepPosition(
+      { book: bookName, chapter, verse },
+      delta,
+      verseNumbers,
+      outline,
+      resolveOutline,
+      bookOrder,
+    );
+    if (!target) {
+      if (delta === 1) canGoNext = false;
+      else canGoPrevious = false;
       return;
     }
-    const chIdx = chapterNumbers.indexOf(chapter);
-    const nextChapter = chapterNumbers[chIdx + delta];
-    if (nextChapter !== undefined) {
-      chapter = nextChapter;
-      verse = 1;
+    const staysInChapter = target.book === bookName && target.chapter === chapter;
+    if (target.book !== bookName) bookName = target.book;
+    chapter = target.chapter;
+    verse = target.verse;
+    if (staysInChapter) {
+      // Mismo capítulo: sólo cambia el versículo, no hace falta recargar.
+      touchedParsing = null;
+      referenceText = await loadReferenceVerse();
+      await refreshNavEdges();
     }
   }
 
@@ -133,6 +202,18 @@ let {
   });
 
   $effect(() => {
+    // Al cambiar el versículo desde el desplegable (sin recargar el capítulo)
+    // hay que recalcular si hay verso/capítulo/libro siguiente.
+    const v = verse;
+    const o = outline;
+    if (v && o && verseNumbers.length > 0) {
+      untrack(() => {
+        refreshNavEdges();
+      });
+    }
+  });
+
+  $effect(() => {
     // Recarga el texto de referencia al cambiar de versículo o de traducción principal
     const v = verse;
     const t = referenceTranslation;
@@ -142,6 +223,16 @@ let {
           referenceText = text;
         });
       });
+    }
+  });
+
+  $effect(() => {
+    // Persiste el pasaje para la próxima visita.
+    const b = bookName;
+    const c = chapter;
+    const v = verse;
+    if (b && c && v && !isLoading) {
+      untrack(() => positionRepo.save({ book: b, chapter: c, verse: v }));
     }
   });
 
@@ -185,7 +276,13 @@ let {
   </div>
 
   <div class="interlinear-pager">
-    <button type="button" class="interlinear-nav-btn" onclick={() => stepVerse(-1)} data-tooltip="Versículo anterior">
+    <button
+      type="button"
+      class="interlinear-nav-btn"
+      disabled={!canGoPrevious}
+      onclick={() => stepVerse(-1)}
+      data-tooltip={canGoPrevious ? 'Versículo o capítulo anterior' : 'Primer versículo de la Biblia'}
+    >
       <ChevronLeft size={15} />
       <span>Anterior</span>
     </button>
@@ -198,7 +295,13 @@ let {
       <BookOpen size={14} />
       <span>Leer en la Biblia</span>
     </button>
-    <button type="button" class="interlinear-nav-btn" onclick={() => stepVerse(1)} data-tooltip="Versículo siguiente">
+    <button
+      type="button"
+      class="interlinear-nav-btn"
+      disabled={!canGoNext}
+      onclick={() => stepVerse(1)}
+      data-tooltip={canGoNext ? 'Siguiente versículo, capítulo o libro' : 'Último versículo de la Biblia'}
+    >
       <span>Siguiente</span>
       <ChevronRight size={15} />
     </button>
@@ -219,43 +322,54 @@ let {
     <div class="interlinear-words" dir={isHebrew ? 'rtl' : 'ltr'}>
       {#each currentVerse.words as word, idx (idx)}
         {@const strongId = strongIdForWord(word, testament)}
-        {@const codeDesc = describeParsingCode(word.parsingCode, testament)}
+        {@const codeDesc = describeWord(word, testament)}
         <div class="interlinear-word">
           {#if strongId}
             <button
               type="button"
               class="interlinear-strong"
               onclick={() => onOpenStrong(strongId!)}
-              data-tooltip="Abrir {strongId} en el diccionario Strong"
+              data-tooltip="Diccionario"
+              aria-label="Abrir {strongId} en el diccionario Strong"
             >
               {word.strong}
             </button>
+          {:else}
+            <!-- Partículas (9xxx) y afijos: se muestra su número como en la
+                 referencia, pero no hay entrada en el diccionario. -->
+            <span class="interlinear-strong is-particle" data-tooltip="Partícula gramatical">
+              {word.strong}
+            </span>
           {/if}
           <button
             type="button"
             class="interlinear-original"
             dir={isHebrew ? 'rtl' : 'ltr'}
             lang={isHebrew ? 'he' : 'el'}
-            onclick={() => (touchedParsing = touchedParsing === idx ? null : idx)}
-            aria-label="{word.text}: {word.lemma ? word.lemma + ', ' : ''}{word.parsing}{word.parsingCode ? ` (${word.parsingCode})` : ''}"
+            onclick={() => togglePin(touchedRoot, 'root', idx)}
+            aria-label="{word.text}: {word.lemma ? 'raíz ' + word.lemma + ', ' : ''}{word.parsing}{word.parsingCode ? ` (${word.parsingCode})` : ''}"
           >
             {word.text}
           </button>
-          <span class="interlinear-gloss" dir="ltr">{@html bionicHtml(word.spanish ?? '')}</span>
           {#if word.lemma}
-            <span class="interlinear-lemma" dir={isHebrew ? 'rtl' : 'ltr'} lang={isHebrew ? 'he' : 'el'}>
-              {word.lemma}{word.parsingCode ? ` · ${word.parsingCode}` : ''}
+            <span class="interlinear-root {touchedRoot === idx ? 'is-pinned' : ''}" aria-hidden="true">
+              {word.lemma}
             </span>
-          {:else if word.parsingCode}
-            <span class="interlinear-lemma" dir="ltr">{word.parsingCode}</span>
+          {/if}
+          <span class="interlinear-gloss" dir="ltr">{@html bionicHtml(word.spanish ?? '')}</span>
+          {#if word.parsingCode || word.parsing}
+            <button
+              type="button"
+              class="interlinear-lemma"
+              onclick={() => togglePin(touchedParsing, 'parsing', idx)}
+              aria-label="Análisis de {word.text}: {codeDesc || word.parsing}"
+            >
+              {word.parsingCode || word.parsing}
+            </button>
           {/if}
           {#if word.parsing || codeDesc}
             <span class="interlinear-parsing {touchedParsing === idx ? 'is-pinned' : ''}">
-              {#if codeDesc && codeDesc !== word.parsing.toLowerCase()}
-                {codeDesc}
-              {:else}
-                {word.parsing}
-              {/if}
+              {codeDesc || word.parsing}
             </span>
           {/if}
         </div>
@@ -269,7 +383,10 @@ let {
       </div>
     {/if}
 
-    <p class="interlinear-hint">Toca una palabra para fijar su morfología · toca el número Strong para abrir el diccionario</p>
+    <p class="interlinear-hint">
+      Pasa el cursor por la palabra para ver su raíz · por el código para el análisis · toca el número Strong
+      para abrir el diccionario
+    </p>
   {/if}
 </div>
 
@@ -331,14 +448,20 @@ let {
     font-weight: 800;
   }
 
-  .interlinear-nav-btn:hover {
+  .interlinear-nav-btn:hover:not(:disabled) {
     background: var(--accent-active);
     color: var(--on-accent-active);
   }
 
-  .interlinear-nav-btn:active {
+  .interlinear-nav-btn:active:not(:disabled) {
     transform: translate(2px, 2px);
     box-shadow: var(--shadow-active);
+  }
+
+  .interlinear-nav-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    box-shadow: none;
   }
 
   .interlinear-words {
@@ -365,13 +488,13 @@ let {
     position: absolute;
     top: 0;
     padding: 0 4px;
-    color: var(--text-muted);
+    color: var(--accent-interest-ink);
     background: none;
     border: 0;
     cursor: pointer;
     font-family: var(--font-mono);
     font-size: 0.6875rem;
-    font-weight: 800;
+    font-weight: 700;
   }
 
   .interlinear-strong:hover {
@@ -407,14 +530,55 @@ let {
     opacity: 0.75;
   }
 
+  /* La línea de código es un botón (para el táctil y el foco de teclado), pero
+     se ve igual que el texto de antes: mismo cursor, sin interrogación. */
   .interlinear-lemma {
     max-width: 140px;
+    padding: 0;
+    color: var(--text-muted);
+    background: none;
+    border: 0;
+    cursor: inherit;
     font-family: var(--font-mono);
     font-size: 0.6875rem;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 1.3;
     text-align: center;
+  }
+
+  /* Raíz (lema) de la palabra: sale al pasar por la palabra, igual que en la
+     referencia; el análisis sale al pasar por la línea de lema/código. */
+  .interlinear-root {
+    position: absolute;
+    bottom: calc(100% - 6px);
+    z-index: 5;
+    padding: 3px 8px;
+    color: var(--bg-surface);
+    background: var(--text-main);
+    border: 1.5px solid var(--border-color);
+    box-shadow: 2px 2px 0 var(--border-color);
+    font-family: 'Noto Sans Hebrew', 'Segoe UI', Georgia, serif;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(4px);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+
+  .interlinear-original:hover + .interlinear-root,
+  .interlinear-root.is-pinned {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Partículas: no hay entrada en el diccionario, así que el número se apaga
+     todavía más (y sin cambio de cursor). */
+  .interlinear-strong.is-particle {
     color: var(--text-muted);
+    font-weight: 500;
+    cursor: inherit;
   }
 
   .interlinear-parsing {
@@ -436,7 +600,8 @@ let {
     transition: opacity 0.15s ease, transform 0.15s ease;
   }
 
-  .interlinear-word:hover .interlinear-parsing,
+  .interlinear-lemma:hover ~ .interlinear-parsing,
+  .interlinear-lemma:focus-visible ~ .interlinear-parsing,
   .interlinear-parsing.is-pinned {
     opacity: 1;
     transform: translateY(0);

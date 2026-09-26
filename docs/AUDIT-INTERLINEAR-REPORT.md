@@ -1,7 +1,7 @@
 # Auditoría 1-a-1 del interlineal — reporte final
 
 **Fechas:** 23–26 sep 2026 · **Alcance:** 66 libros, 31.105 versículos, 557.676 palabras
-**Referencia:** LogosKLogos (logosklogos.com) · **Método:** `scripts/audit-interlinear.py`
+**Referencia:** interlineal público de contraste (BHS hebreo / Tischendorf griego) · **Método:** `scripts/audit-interlinear.py`
 (1 hilo, ~2,5 s/verso, backoff ante 429/5xx, progreso reanudable en JSONL)
 
 ## Resultado global
@@ -63,7 +63,7 @@ fidelidad.
 - Texto griego Tischendorf 8ª ed. (Yale / Robinson / Sandborg-Petersen): **dominio público**.
 - Texto hebreo WLC vía Open Scriptures: abierto.
 - Datos STEPBible (léxicos/códigos): **CC BY 4.0** (crédito en Acerca de).
-- Glosas y validación: LogosKLogos (referencia, no redistribución).
+- Glosas y validación: contraste automático contra un interlineal público; los datos que sirve la app son propios.
 
 ## Scripts
 

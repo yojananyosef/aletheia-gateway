@@ -43,11 +43,29 @@ const {
     <script>
       // Registro del Service Worker (shell offline). Solo en producción:
       // en dev registrarlo cachea el shell y confunde los cambios en vivo.
+      // El `?v=` con el id de build hace que cada despliegue instale un worker
+      // nuevo y purgue las cachés viejas (si no, los visitantes veían el HTML
+      // y los datos de versiones anteriores).
+      import { cacheBust } from '../shared/utils/cacheBust';
+
       if ('serviceWorker' in navigator && import.meta.env.PROD) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').catch(() => {
-            // Sin SW (navegador antiguo, contexto inseguro): la app sigue funcionando online.
-          });
+          navigator.serviceWorker
+            .register(cacheBust('/sw.js'), { updateViaCache: 'none' })
+            .then((registration) => {
+              registration.addEventListener('updatefound', () => {
+                const installing = registration.installing;
+                if (!installing) return;
+                installing.addEventListener('statechange', () => {
+                  if (installing.state === 'installed' && navigator.serviceWorker.controller) {
+                    installing.postMessage('SKIP_WAITING');
+                  }
+                });
+              });
+            })
+            .catch(() => {
+              // Sin SW (navegador antiguo, contexto inseguro): la app sigue funcionando online.
+            });
         });
       }
     </script>

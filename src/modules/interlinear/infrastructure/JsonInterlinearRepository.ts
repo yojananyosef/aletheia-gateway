@@ -1,5 +1,6 @@
 import type { IInterlinearRepository, InterlinearChapterData } from '../domain/IInterlinearRepository';
 import type { InterlinearTestament, InterlinearVerse, InterlinearWord } from '../domain/InterlinearVerse';
+import type { InterlinearBookOutline } from '../domain/navigation';
 import { findBookInfo } from '../../bible-reader/domain/entities/BibleBooks';
 import { cacheBust } from '../../../shared/utils/cacheBust';
 
@@ -81,6 +82,34 @@ export class JsonInterlinearRepository implements IInterlinearRepository {
       verses: chapterVerses,
       chapterNumbers,
       versesOfChapter: (ch: number) => loaded.verses.filter((v) => v.chapter === ch).map((v) => v.verse),
+    };
+  }
+
+  /**
+   * Capítulos con datos y primer/último versículo de cada uno. Permite navegar
+   * hasta el final de un libro (o al siguiente) sin adivinar el versículo destino.
+   */
+  public async getBookOutline(bookCodeOrName: string): Promise<InterlinearBookOutline | null> {
+    const info = findBookInfo(bookCodeOrName);
+    if (!info) return null;
+    const loaded = await this.loadBook(info.code);
+    if (!loaded || loaded.verses.length === 0) return null;
+
+    const byChapter = new Map<number, number[]>();
+    for (const v of loaded.verses) {
+      const list = byChapter.get(v.chapter);
+      if (list) list.push(v.verse);
+      else byChapter.set(v.chapter, [v.verse]);
+    }
+    const versesOf = (chapter: number) => (byChapter.get(chapter) ?? []).slice().sort((a, b) => a - b);
+
+    return {
+      chapters: [...byChapter.keys()].sort((a, b) => a - b),
+      firstVerse: (chapter) => versesOf(chapter)[0] ?? 1,
+      lastVerse: (chapter) => {
+        const list = versesOf(chapter);
+        return list[list.length - 1] ?? 1;
+      },
     };
   }
 }

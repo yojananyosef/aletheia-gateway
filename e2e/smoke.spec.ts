@@ -22,7 +22,7 @@ test('modal de configuración: las 3 pestañas renderizan', async ({ page }) => 
   await page.getByRole('button', { name: 'Copias de Seguridad' }).click();
   await expect(page.getByText('Centro de Respaldos')).toBeVisible();
 
-  await page.getByRole('button', { name: 'Acerca de' }).click();
+  await page.getByRole('dialog').getByRole('button', { name: 'Acerca de' }).click();
   await expect(page.getByText('22 Traducciones')).toBeVisible();
 
   await page.getByRole('button', { name: 'Apariencia' }).click();
@@ -68,6 +68,96 @@ test('Interlineal: palabras hebreas y salto al Strong', async ({ page }) => {
 
   await page.locator('.interlinear-strong', { hasText: '7225' }).click();
   await expect(page.getByText('Strong hebreo #7225')).toBeVisible();
+});
+
+test('Interlineal: cada dato tiene su propio hover y no se pisan', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Interlineal' }).first().click();
+
+  const word = page.locator('.interlinear-word').nth(6); // שָּׁמַיִם (H8064)
+  await expect(word).toBeVisible({ timeout: 20000 });
+  await expect(word.locator('.interlinear-strong')).toHaveText('8064');
+  await expect(word.locator('.interlinear-gloss')).toHaveText('cielos');
+
+  // 1) La palabra hebrea muestra su raíz.
+  const root = word.locator('.interlinear-root');
+  const parsing = word.locator('.interlinear-parsing');
+  const rootOpacity = () => root.evaluate((el) => getComputedStyle(el).opacity);
+  const parsingOpacity = () => parsing.evaluate((el) => getComputedStyle(el).opacity);
+  expect(await rootOpacity()).toBe('0');
+  await word.locator('.interlinear-original').hover();
+  await expect.poll(rootOpacity).toBe('1');
+  // La raíz es el lema que ya se muestra en la línea de abajo (se comparan con
+  // él para no depender de la codificación de los puntos hebreos).
+  const lemmaText = ((await word.locator('.interlinear-lemma').textContent()) ?? '').split(' · ')[0].trim();
+  await expect(root).toHaveText(lemmaText);
+  await expect.poll(parsingOpacity).toBe('0');
+
+  // 2) La línea de lema/código muestra el análisis morfológico.
+  await word.locator('.interlinear-lemma').hover();
+  await expect.poll(parsingOpacity).toBe('1');
+  await expect(parsing).toHaveText('sustantivo masculino plural absoluto');
+  await expect.poll(rootOpacity).toBe('0');
+
+  // 3) El número Strong abre el diccionario y no arrastra el análisis encima.
+  await word.locator('.interlinear-strong').hover();
+  await expect(page.locator('.neo-tooltip-bubble')).toHaveText('Diccionario');
+  await expect.poll(parsingOpacity).toBe('0');
+
+  // 4) Las partículas (9xxx) también muestran su número, aunque no tienen entrada.
+  const particles = page.locator('.interlinear-strong.is-particle');
+  expect(await particles.count()).toBeGreaterThan(0);
+  await expect(particles.first()).toHaveText('9001');
+});
+
+test('Interlineal: recuerda el pasaje donde se quedó', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Interlineal' }).first().click();
+  await expect(page.locator('.interlinear-original').first()).toBeVisible({ timeout: 20000 });
+
+  await page.getByRole('button', { name: 'Libro' }).click();
+  await page.getByRole('option', { name: 'Salmos', exact: true }).click();
+  await expect(page.locator('.interlinear-titles span')).toHaveText('Salmos 1:1', { timeout: 20000 });
+  await page.getByRole('button', { name: 'Cap.' }).click();
+  await page.getByRole('option', { name: '23', exact: true }).click();
+  await expect(page.locator('.interlinear-titles span')).toHaveText('Salmos 23:1', { timeout: 20000 });
+
+  // El guardado ocurre cuando termina de cargar el capítulo.
+  const saved = () => page.evaluate(() => localStorage.getItem('aletheia_interlinear_position'));
+  await expect.poll(saved).toContain('Salmos');
+
+  await page.reload();
+  await page.getByRole('button', { name: 'Interlineal' }).first().click();
+  await expect(page.locator('.interlinear-titles span')).toHaveText('Salmos 23:1', { timeout: 20000 });
+});
+
+test('Interlineal: Siguiente salta de capítulo y de libro', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Interlineal' }).first().click();
+  await expect(page.locator('.interlinear-original').first()).toBeVisible({ timeout: 20000 });
+
+  // En el primer versículo no hay anterior.
+  await expect(page.getByRole('button', { name: 'Anterior' })).toBeDisabled();
+
+  // Último versículo de un capítulo -> primer versículo del capítulo siguiente.
+  await page.getByRole('button', { name: 'Vers.' }).click();
+  await page.getByRole('option').last().click();
+  await expect(page.locator('.interlinear-titles span')).toHaveText('Génesis 1:31');
+  await page.getByRole('button', { name: 'Siguiente' }).click();
+  await expect(page.locator('.interlinear-titles span')).toHaveText('Génesis 2:1', { timeout: 20000 });
+
+  // Último capítulo de Génesis -> Éxodo 1:1, y se puede volver.
+  await page.getByRole('button', { name: 'Cap.' }).click();
+  await page.getByRole('option', { name: '50', exact: true }).click();
+  await expect(page.locator('.interlinear-titles span')).toHaveText('Génesis 50:1', { timeout: 20000 });
+  await page.getByRole('button', { name: 'Vers.' }).click();
+  await page.getByRole('option').last().click();
+  await expect(page.locator('.interlinear-titles span')).toHaveText('Génesis 50:26');
+
+  await page.getByRole('button', { name: 'Siguiente' }).click();
+  await expect(page.locator('.interlinear-titles span')).toHaveText('Éxodo 1:1', { timeout: 20000 });
+  await page.getByRole('button', { name: 'Anterior' }).click();
+  await expect(page.locator('.interlinear-titles span')).toHaveText('Génesis 50:26', { timeout: 20000 });
 });
 
 test('estilos con scope: botones y títulos conservan diseño tras el split', async ({ page }) => {

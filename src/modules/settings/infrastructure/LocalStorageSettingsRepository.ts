@@ -15,6 +15,7 @@ import {
 import { TRACKER_STORAGE_KEY, TRACKER_LEGACY_KEYS } from '../../tracker/infrastructure/LocalStorageTrackerRepository';
 import { STREAK_STORAGE_KEY, STREAK_LEGACY_KEYS } from '../../tracker/infrastructure/LocalStorageStreakRepository';
 import { PLAN_PROGRESS_STORAGE_KEY } from '../../plans/infrastructure/LocalStoragePlanProgressRepository';
+import { INTERLINEAR_POSITION_STORAGE_KEY } from '../../interlinear/infrastructure/LocalStorageInterlinearPositionRepository';
 import { calculateBestStreak, type StreakData } from '../../tracker/domain/streak';
 import type { ProgressMap } from '../../tracker/domain/progress';
 
@@ -28,6 +29,7 @@ const STORAGE_CALM_MODE = 'aletheia_calm_mode';
 const STORAGE_TRACKER = TRACKER_STORAGE_KEY;
 const STORAGE_STREAK = STREAK_STORAGE_KEY;
 const STORAGE_PLAN_PROGRESS = PLAN_PROGRESS_STORAGE_KEY;
+const STORAGE_INTERLINEAR_POSITION = INTERLINEAR_POSITION_STORAGE_KEY;
 
 // Claves legacy por clave canónica (rename pre-v0.11 + backup pre-v0.11.2 + NRVA-Reader).
 const LEGACY_KEYS: Record<string, string[]> = {
@@ -41,6 +43,7 @@ const LEGACY_KEYS: Record<string, string[]> = {
   [STORAGE_TRACKER]: TRACKER_LEGACY_KEYS,
   [STORAGE_STREAK]: STREAK_LEGACY_KEYS,
   [STORAGE_PLAN_PROGRESS]: [],
+  [STORAGE_INTERLINEAR_POSITION]: [],
 };
 
 function getStoredItem(key: string): string | null {
@@ -99,6 +102,10 @@ export class LocalStorageSettingsRepository {
     const trackerProgress = JSON.parse(getStoredItem(STORAGE_TRACKER) || '{}');
     const streak = JSON.parse(getStoredItem(STORAGE_STREAK) || 'null');
     const planProgress = JSON.parse(getStoredItem(STORAGE_PLAN_PROGRESS) || '{}');
+    const interlinearPositionRaw = getStoredItem(STORAGE_INTERLINEAR_POSITION);
+    const interlinearPosition = interlinearPositionRaw
+      ? (JSON.parse(interlinearPositionRaw) as BackupPayload['data']['interlinearPosition'])
+      : undefined;
 
     const payload: BackupPayload = {
       app: 'AletheiaGateway',
@@ -114,6 +121,7 @@ export class LocalStorageSettingsRepository {
         trackerProgress,
         streak,
         planProgress,
+        interlinearPosition,
       },
     };
 
@@ -198,6 +206,7 @@ export class LocalStorageSettingsRepository {
         trackerProgress,
         streak,
         planProgress,
+        interlinearPosition,
       } = parsed.data;
 
       let finalBookmarks = bookmarks;
@@ -274,6 +283,9 @@ export class LocalStorageSettingsRepository {
         if (planProgress && typeof planProgress === 'object') {
           localStorage.setItem(STORAGE_PLAN_PROGRESS, JSON.stringify(planProgress));
         }
+        if (interlinearPosition && typeof interlinearPosition === 'object') {
+          localStorage.setItem(STORAGE_INTERLINEAR_POSITION, JSON.stringify(interlinearPosition));
+        }
       }
 
       return {
@@ -309,6 +321,7 @@ export class LocalStorageSettingsRepository {
         STORAGE_TRACKER,
         STORAGE_STREAK,
         STORAGE_PLAN_PROGRESS,
+        STORAGE_INTERLINEAR_POSITION,
       ]) {
         removeStorageWithLegacy(key, LEGACY_KEYS[key] ?? key);
       }

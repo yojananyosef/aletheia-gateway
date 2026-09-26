@@ -1,4 +1,5 @@
 import type { InterlinearTestament, InterlinearVerse } from './InterlinearVerse';
+import type { InterlinearBookOutline } from './navigation';
 
 export interface InterlinearChapterData {
   testament: InterlinearTestament;
@@ -10,4 +11,5 @@ export interface InterlinearChapterData {
 
 export interface IInterlinearRepository {
   getChapter(bookCodeOrName: string, chapter: number): Promise<InterlinearChapterData | null>;
+  getBookOutline(bookCodeOrName: string): Promise<InterlinearBookOutline | null>;
 }

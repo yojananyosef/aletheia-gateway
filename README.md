@@ -201,6 +201,19 @@ aletheiagateway/
 
 ## 📋 Historial de Cambios (Changelog)
 
+### [0.17.8] - 2026-09-26
+
+#### Interlineal: un hover por dato, códigos sin verbosidad, posición recordada y caché al día
+
+- 🐜 **Cada dato con su propio hover, sin pisarse**: la palabra hebrea muestra su **raíz** (bubble sobre la palabra), el **código morfológico** muestra su análisis en español y el número Strong su aviso de diccionario. Antes el hover de la palabra y el del número se encimaban.
+- ✂️ **Interlineal menos verboso**: bajo la palabra queda sólo el código (`VERBO.QAL.PERF.P3.M.SG`, `SUBS.M.PL.A`, `PREP`…), sin el punto ni el hebreo repetido (el lema ya sale al pasar por la palabra) y sin cambiar de cursor.
+- 🔢 **Vuelven los números Strong de las partículas**: preposiciones, conjunciones y artículos (9001, 9005, 9006…) ya no desaparecen; se muestran siempre y, al no haber entrada en el diccionario, no son enlace.
+- 💾 **El interlineal recuerda dónde quedaste** (`aletheia_interlinear_position`, incluido en el backup/reset de Ajustes): al volver abre en el mismo pasaje en lugar de Génesis 1:1.
+- 🧭 **Siguiente/Anterior ya no se quedan quietos**: saltan de capítulo y, al terminar el libro, continúan en el libro vecino (`navigation.ts` + `JsonInterlinearRepository.getBookOutline()`). En el primer/último versículo de la Biblia el botón queda deshabilitado.
+- 🧹 **Caché que ya no sirve HTML viejo**: las navegaciones pasan a *network-first* (antes el precache de `/` las interceptaba en cache-first y un visitante recurrente veía el shell de un deploy anterior), el worker se registra con `?v=<BUILD_ID>` y sus cachés se nombran por build, purga las de deploys previos al activarse y precachea tolerante a fallos. Sin red, el shell cacheado sigue sirviendo la app.
+- 🔤 **Descripciones morfológicas corregidas**: `U`→"desconocido", `C` final→"constructivo", `ADJV`, `NMPR`, `PRDE`, `PRS`, `WAYQ`… y en griego se usa el análisis de la fuente (respeta concordancia y 2º aoristos/deponentes que Robinson no desglosa) en vez del código crudo.
+- 🧪 `check` 0 errores, unit 137/137, e2e 18/18 (hover por dato, partículas, posición recordada y salto entre libros) y contraste AAA. Sin cambios de maquetación ni layout shift (verificado: las posiciones de todas las palabras son idénticas antes y después de cada hover). De paso, el locator ambiguo "Acerca de" del test de configuración (preexistente) queda acotado al diálogo.
+
 ### [0.17.6] - 2026-09-23
 
 #### Marca legible en oscuro/OLED y medición real de alto contraste

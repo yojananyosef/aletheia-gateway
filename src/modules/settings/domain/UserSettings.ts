@@ -30,6 +30,7 @@ export interface BackupPayload {
     trackerProgress?: ProgressMap;
     streak?: StreakData;
     planProgress?: PlanProgressMap;
+    interlinearPosition?: { book: string; chapter: number; verse: number };
   };
 }
 
