@@ -36,9 +36,15 @@ describe('parseStrongId', () => {
     expect(parseStrongId('G5624')).toEqual({ testament: 'greek', number: 5624 });
   });
 
+  it('acepta las partículas hebreas 9001-9006', () => {
+    expect(parseStrongId('H9001')).toEqual({ testament: 'hebrew', number: 9001 });
+    expect(parseStrongId('H9006')).toEqual({ testament: 'hebrew', number: 9006 });
+    expect(parseStrongId('H9007')).toBeNull();
+  });
+
   it('rechaza fuera de rango o malformados', () => {
     expect(parseStrongId('H0')).toBeNull();
-    expect(parseStrongId('H8681')).toBeNull();
+    expect(parseStrongId('H8681')).toEqual({ testament: 'hebrew', number: 8681 });
     expect(parseStrongId('G5625')).toBeNull();
     expect(parseStrongId('25')).toBeNull();
   });

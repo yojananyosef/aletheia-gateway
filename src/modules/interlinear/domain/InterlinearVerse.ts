@@ -1,3 +1,5 @@
+import { STRONG_RANGES, type StrongTestament } from '../../strong/domain/StrongEntry';
+
 export type InterlinearTestament = 'hebrew' | 'greek';
 
 export interface InterlinearWord {
@@ -23,9 +25,8 @@ export interface InterlinearVerse {
 export function strongIdForWord(word: InterlinearWord, testament: InterlinearTestament): string | null {
   const num = parseInt(word.strong, 10);
   if (!Number.isInteger(num) || num < 1) return null;
-  // Los códigos 9001+ son partículas gramaticales de la fuente, sin entrada en el diccionario.
-  const max = testament === 'greek' ? 5624 : 8680;
-  if (num > max) return null;
+  // Fuera del rango del diccionario no hay ficha (p. ej. 9007+ en hebreo).
+  if (num > STRONG_RANGES[testament as StrongTestament].max) return null;
   return `${testament === 'greek' ? 'G' : 'H'}${num}`;
 }
 

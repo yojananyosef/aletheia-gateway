@@ -36,3 +36,5 @@ public/data/interlinear/_audit/
 __pycache__/
 *.pyc
 *.py[cod]
+.vercel
+.env*

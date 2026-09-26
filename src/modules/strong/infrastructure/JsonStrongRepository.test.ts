@@ -30,9 +30,17 @@ describe('JsonStrongRepository (Strong)', () => {
   it('carga hebreo y griego con ids canónicos', async () => {
     const repo = new JsonStrongRepository();
     const entries = await repo.getAll();
-    expect(entries.length).toBe(8680 + 5624);
+    expect(entries.length).toBe(8686 + 5624);
     expect(entries.some((e) => e.id === 'H1' && e.testament === 'hebrew')).toBe(true);
     expect(entries.some((e) => e.id === 'G5624' && e.testament === 'greek')).toBe(true);
+  });
+
+  it('incluye las partículas hebreas 9001-9006 con su definición', async () => {
+    const repo = new JsonStrongRepository();
+    const entry = await repo.getById('H9005');
+    expect(entry?.word).toBe('וְ');
+    expect(entry?.pronunciation).toBe('wə');
+    expect(entry?.definition).toContain('waw consecutivo');
   });
 
   it('resuelve H1 con palabra, pronunciación y audio', async () => {

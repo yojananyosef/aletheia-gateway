@@ -78119,6 +78119,60 @@
       "definition": "",
       "RVDefinition": "",
       "audio": "/audio/strong/hebrew/8680.mp3"
+    },
+    "9001": {
+      "strongNumber": "9001",
+      "originalWord": "בְּ",
+      "pronunciation": "bə",
+      "derivation": "partícula preposicional",
+      "definition": "preposición inseparable: se pega a la palabra y precede a la preposición",
+      "RVDefinition": "con, en, por, mediante, a causa de (bə+kol «con todo», bə+šālôm «en paz»)",
+      "audio": "/audio/strong/hebrew/9001.mp3"
+    },
+    "9002": {
+      "strongNumber": "9002",
+      "originalWord": "כְּ",
+      "pronunciation": "kə",
+      "derivation": "partícula preposicional",
+      "definition": "preposición inseparable: como, según, cuando, a la manera de",
+      "RVDefinition": "como, según, a la manera de, cuando (kə+tomér «como ayer»)",
+      "audio": "/audio/strong/hebrew/9002.mp3"
+    },
+    "9003": {
+      "strongNumber": "9003",
+      "originalWord": "לְ",
+      "pronunciation": "lə",
+      "derivation": "partícula preposicional",
+      "definition": "preposición inseparable: hebraísmo del lə + preposición",
+      "RVDefinition": "a, para, hacia, con, de (lə+mîn «de», lə+’el «a Dios»)",
+      "audio": "/audio/strong/hebrew/9003.mp3"
+    },
+    "9004": {
+      "strongNumber": "9004",
+      "originalWord": "הֲ",
+      "pronunciation": "hă",
+      "derivation": "partícula",
+      "definition": "partícula interrogativa: ¿acaso?, ¿será?",
+      "RVDefinition": "¿acaso? ¿será? (Job 13:19: הֲאִם)",
+      "audio": "/audio/strong/hebrew/9004.mp3"
+    },
+    "9005": {
+      "strongNumber": "9005",
+      "originalWord": "וְ",
+      "pronunciation": "wə",
+      "derivation": "de la conjunción ו (waw)",
+      "definition": "waw consecutivo: enlaza el verbo con el que le precede",
+      "RVDefinition": "y, pero, ahora, pues, sin embargo (wə + verbo en pretérito: wayyiqtol)",
+      "audio": "/audio/strong/hebrew/9005.mp3"
+    },
+    "9006": {
+      "strongNumber": "9006",
+      "originalWord": "הַ",
+      "pronunciation": "ha",
+      "derivation": "partícula de artículo",
+      "definition": "artículo determinado: se antepone a la substantiva",
+      "RVDefinition": "el, la, los, las; con ella seoven las substantivas (הַבָּרָא «la creación»)",
+      "audio": "/audio/strong/hebrew/9006.mp3"
     }
   },
   "greek": {

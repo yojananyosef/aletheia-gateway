@@ -193,7 +193,7 @@ aletheiagateway/
 > - Concordancias solo en español (9/22 versiones); EN/PT/LA/DE/EL/HE pendientes de generar.
 > - Referencias TSK completas (66/66 libros desde v0.11.5).
 > - Comentario Bíblico Adventista (CBA) completo en español (66/66 libros, 24.794 versículos desde v0.12.0); resto de fuentes en inglés.
-> - Diccionario Strong completo (8.680 hebreo + 5.624 griego desde v0.13.0) con audio de pronunciación salvo 112 entradas sin mp3 (11 H + 101 G).
+> - Diccionario Strong completo (8.686 hebreo = 8.680 palabras + 6 partículas 9001-9006 desde v0.17.8, y 5.624 griego desde v0.13.0) con audio de pronunciación salvo 118 entradas sin mp3 (las 6 partículas no tienen audio todavía + 11 H + 101 G).
 > - Devocional `sme-spurgeon` en inglés; pendiente fuente en español o etiqueta de idioma en UI.
 > - `public/data/` + `public/audio/` pesan ~506MB y se copian a `dist/`; para producción valorar hosting externo (R2/S3) en lugar de `public/`.
 
@@ -207,12 +207,12 @@ aletheiagateway/
 
 - 🐜 **Cada dato con su propio hover, sin pisarse**: la palabra hebrea muestra su **raíz** (bubble sobre la palabra), el **código morfológico** muestra su análisis en español y el número Strong su aviso de diccionario. Antes el hover de la palabra y el del número se encimaban.
 - ✂️ **Interlineal menos verboso**: bajo la palabra queda sólo el código (`VERBO.QAL.PERF.P3.M.SG`, `SUBS.M.PL.A`, `PREP`…), sin el punto ni el hebreo repetido (el lema ya sale al pasar por la palabra) y sin cambiar de cursor.
-- 🔢 **Vuelven los números Strong de las partículas**: preposiciones, conjunciones y artículos (9001, 9005, 9006…) ya no desaparecen; se muestran siempre y, al no haber entrada en el diccionario, no son enlace.
+- 🔢 **Las partículas hebreas (9001-9006) ya son clicables**: se añaden sus 6 fichas al diccionario Strong (bə, kə, lə, hă, wə, ha) y el rango hebreo pasa a H9006, así que preposiciones, conjunciones y artículos van a su diccionario como cualquier otra palabra. El índice de apariciones ya las tenía (H9001: 10.248 versículos).
 - 💾 **El interlineal recuerda dónde quedaste** (`aletheia_interlinear_position`, incluido en el backup/reset de Ajustes): al volver abre en el mismo pasaje en lugar de Génesis 1:1.
 - 🧭 **Siguiente/Anterior ya no se quedan quietos**: saltan de capítulo y, al terminar el libro, continúan en el libro vecino (`navigation.ts` + `JsonInterlinearRepository.getBookOutline()`). En el primer/último versículo de la Biblia el botón queda deshabilitado.
 - 🧹 **Caché que ya no sirve HTML viejo**: las navegaciones pasan a *network-first* (antes el precache de `/` las interceptaba en cache-first y un visitante recurrente veía el shell de un deploy anterior), el worker se registra con `?v=<BUILD_ID>` y sus cachés se nombran por build, purga las de deploys previos al activarse y precachea tolerante a fallos. Sin red, el shell cacheado sigue sirviendo la app.
 - 🔤 **Descripciones morfológicas corregidas**: `U`→"desconocido", `C` final→"constructivo", `ADJV`, `NMPR`, `PRDE`, `PRS`, `WAYQ`… y en griego se usa el análisis de la fuente (respeta concordancia y 2º aoristos/deponentes que Robinson no desglosa) en vez del código crudo.
-- 🧪 `check` 0 errores, unit 137/137, e2e 18/18 (hover por dato, partículas, posición recordada y salto entre libros) y contraste AAA. Sin cambios de maquetación ni layout shift (verificado: las posiciones de todas las palabras son idénticas antes y después de cada hover). De paso, el locator ambiguo "Acerca de" del test de configuración (preexistente) queda acotado al diálogo.
+- 🧪 `check` 0 errores, unit 140/140, e2e 18/18 (hover por dato, partícula clicable, posición recordada y salto entre libros) y contraste AAA. Sin cambios de maquetación ni layout shift (verificado: las posiciones de todas las palabras son idénticas antes y después de cada hover). De paso, el locator ambiguo "Acerca de" del test de configuración (preexistente) queda acotado al diálogo.
 
 ### [0.17.6] - 2026-09-23
 

@@ -1,7 +1,7 @@
 export type StrongTestament = 'hebrew' | 'greek';
 
 export interface StrongEntry {
-  /** Código canónico: H1..H8680 (hebreo) o G1..G5624 (griego). */
+  /** Código canónico: H1..H9006 (hebreo: 8680 palabras + 6 partículas) o G1..G5624 (griego). */
   id: string;
   number: number;
   testament: StrongTestament;
@@ -14,7 +14,7 @@ export interface StrongEntry {
 }
 
 export const STRONG_RANGES: Record<StrongTestament, { max: number; label: string }> = {
-  hebrew: { max: 8680, label: 'Hebreo' },
+  hebrew: { max: 9006, label: 'Hebreo' },
   greek: { max: 5624, label: 'Griego' },
 };
 

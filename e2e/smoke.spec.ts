@@ -87,10 +87,12 @@ test('Interlineal: cada dato tiene su propio hover y no se pisan', async ({ page
   expect(await rootOpacity()).toBe('0');
   await word.locator('.interlinear-original').hover();
   await expect.poll(rootOpacity).toBe('1');
-  // La raíz es el lema que ya se muestra en la línea de abajo (se comparan con
-  // él para no depender de la codificación de los puntos hebreos).
-  const lemmaText = ((await word.locator('.interlinear-lemma').textContent()) ?? '').split(' · ')[0].trim();
-  await expect(root).toHaveText(lemmaText);
+  // La raíz es la forma base (שָּׁמַיִם → שָׁמַיִם): se compara con la palabra
+  // en vez de escribir el hebreo literal, para no depender de los puntos.
+  const rootText = ((await root.textContent()) ?? '').trim();
+  const wordText = ((await word.locator('.interlinear-original').textContent()) ?? '').trim();
+  expect(rootText.length).toBeGreaterThan(0);
+  expect(rootText).not.toBe(wordText);
   await expect.poll(parsingOpacity).toBe('0');
 
   // 2) La línea de lema/código muestra el análisis morfológico.
@@ -104,10 +106,14 @@ test('Interlineal: cada dato tiene su propio hover y no se pisan', async ({ page
   await expect(page.locator('.neo-tooltip-bubble')).toHaveText('Diccionario');
   await expect.poll(parsingOpacity).toBe('0');
 
-  // 4) Las partículas (9xxx) también muestran su número, aunque no tienen entrada.
-  const particles = page.locator('.interlinear-strong.is-particle');
-  expect(await particles.count()).toBeGreaterThan(0);
-  await expect(particles.first()).toHaveText('9001');
+  // 4) Las partículas (9xxx) también son clicables: van a su ficha del diccionario.
+  const particle = page.locator('button.interlinear-strong', { hasText: '9001' }).first();
+  await particle.click();
+  await expect(page.getByText('Strong hebreo #9001')).toBeVisible();
+  await expect(page.getByText('preposición inseparable').first()).toBeVisible();
+  // y se puede volver al diccionario desde su ficha
+  await page.getByRole('button', { name: 'Diccionario' }).first().click();
+  await expect(page.getByRole('heading', { name: 'Diccionario Strong' })).toBeVisible();
 });
 
 test('Interlineal: recuerda el pasaje donde se quedó', async ({ page }) => {

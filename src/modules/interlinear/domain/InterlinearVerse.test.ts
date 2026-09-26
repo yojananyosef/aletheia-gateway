@@ -11,8 +11,14 @@ describe('strongIdForWord', () => {
     );
   });
 
-  it('devuelve null para partículas gramaticales 9001+ sin entrada', () => {
-    expect(strongIdForWord({ text: 'בְּ', parsing: 'prep', strong: '9001', spanish: 'En' }, 'hebrew')).toBeNull();
+  it('resuelve las partículas hebreas 9001-9006 (tienen ficha)', () => {
+    expect(strongIdForWord({ text: 'בְּ', parsing: 'prep', strong: '9001', spanish: 'En' }, 'hebrew')).toBe('H9001');
+    expect(strongIdForWord({ text: 'הַ', parsing: 'art', strong: '9006', spanish: 'el' }, 'hebrew')).toBe('H9006');
+  });
+
+  it('devuelve null fuera del rango del diccionario', () => {
+    expect(strongIdForWord({ text: 'x', parsing: '', strong: '9007', spanish: '' }, 'hebrew')).toBeNull();
+    expect(strongIdForWord({ text: 'x', parsing: '', strong: '5625', spanish: '' }, 'greek')).toBeNull();
   });
 
   it('devuelve null para strong vacíos o inválidos', () => {
