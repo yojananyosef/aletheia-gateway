@@ -35397,7 +35397,7 @@
         "greek": "ἐπροφήτευσεν",
         "parsing": "Verbo-Aoristo-Activo-Indicativo-3ª Persona-Singular",
         "strong": "4395",
-        "spanish": "habló como profeta",
+        "spanish": "habló como vocero",
         "lemma": "προφητεύω",
         "parsingCode": "V-AAI-3S"
       },
@@ -43175,7 +43175,7 @@
         "greek": "προφητῶν.",
         "parsing": "Sustantivo-Genitivo-Plural-Masculino",
         "strong": "4396",
-        "spanish": "profetas",
+        "spanish": "voceros",
         "lemma": "προφήτης",
         "parsingCode": "N-GPM"
       }
@@ -84713,7 +84713,7 @@
         "greek": "προφήτευσον,",
         "parsing": "Verbo-Aoristo-Activo-Imperativo-2ª Persona-Singular",
         "strong": "4395",
-        "spanish": "Habla como profeta",
+        "spanish": "Habla como vocero",
         "lemma": "προφητεύω",
         "parsingCode": "V-AAM-2S"
       },

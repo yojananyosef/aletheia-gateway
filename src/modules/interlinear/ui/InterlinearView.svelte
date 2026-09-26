@@ -5,6 +5,7 @@
   import { bionicHtml } from '../../../shared/utils/bionic';
   import type { InterlinearTestament, InterlinearVerse } from '../domain/InterlinearVerse';
   import { strongIdForWord, testamentLabel } from '../domain/InterlinearVerse';
+  import { describeParsingCode } from '../domain/Morphology';
 import { JsonInterlinearRepository } from '../infrastructure/JsonInterlinearRepository';
 import { JsonBibleRepository } from '../../bible-reader/infrastructure/JsonBibleRepository';
 import { getAllBooks } from '../../bible-reader/domain/entities/BibleBooks';
@@ -218,6 +219,7 @@ let {
     <div class="interlinear-words" dir={isHebrew ? 'rtl' : 'ltr'}>
       {#each currentVerse.words as word, idx (idx)}
         {@const strongId = strongIdForWord(word, testament)}
+        {@const codeDesc = describeParsingCode(word.parsingCode, testament)}
         <div class="interlinear-word">
           {#if strongId}
             <button
@@ -247,9 +249,13 @@ let {
           {:else if word.parsingCode}
             <span class="interlinear-lemma" dir="ltr">{word.parsingCode}</span>
           {/if}
-          {#if word.parsing}
+          {#if word.parsing || codeDesc}
             <span class="interlinear-parsing {touchedParsing === idx ? 'is-pinned' : ''}">
-              {word.parsing}
+              {#if codeDesc && codeDesc !== word.parsing.toLowerCase()}
+                {codeDesc}
+              {:else}
+                {word.parsing}
+              {/if}
             </span>
           {/if}
         </div>
