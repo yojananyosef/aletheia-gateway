@@ -65,6 +65,7 @@ fidelidad.
 - Datos STEPBible (léxicos/códigos): **CC BY 4.0** (crédito en Acerca de).
 - Glosas y validación: contraste automático contra un interlineal público; los datos que sirve la app son propios.
 - Partículas hebreas 9001-9006 (v0.17.9): palabra, pronunciación, derivación y glosa RV tomadas del léxico de partículas de STEPBible (BSD-3-Clause); la explicación morfológica del campo «Definición» es propia, porque el léxico no la trae.
+- Léxico STEPBible en Strong (v0.17.9): `stepGloss` + `stepDefinition` para 13.481/13.563 entradas (fuente STEPBible, BSD-3-Clause). No se copia el de las 6 partículas porque en la fuente viene corrido (9003 = «prefijo bet», 9005 = «prefijo lamed»), ni el de 107 entradas que la fuente no trae (H8675-H8680 y 101 griegas propias).
 
 ## Scripts
 

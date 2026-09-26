@@ -57,6 +57,21 @@ test('Strong: diccionario, búsqueda y detalle con audio', async ({ page }) => {
   await expect(page.getByRole('button', { name: 'Escuchar pronunciación' })).toBeVisible();
 });
 
+test('Strong: el léxico STEPBible aparece en la ficha y en la búsqueda', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Strong' }).first().click();
+  await page.getByLabel('Buscar en el diccionario Strong').fill('abuelo');
+  await page.locator('.strong-row-main').first().click();
+
+  await expect(page.getByText('Léxico STEPBible')).toBeVisible();
+  await expect(page.getByText('padre, antepasado, autor, hacedor', { exact: false })).toBeVisible();
+
+  // La búsqueda también encuentra por glosa del léxico.
+  await page.locator('.strong-back-btn').click();
+  await page.getByLabel('Buscar en el diccionario Strong').fill('ascender');
+  await expect(page.locator('.strong-row').first()).toBeVisible({ timeout: 20000 });
+});
+
 test('Interlineal: palabras hebreas y salto al Strong', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('button', { name: 'Interlineal' }).first().click();

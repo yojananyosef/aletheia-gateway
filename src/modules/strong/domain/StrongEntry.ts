@@ -10,6 +10,10 @@ export interface StrongEntry {
   derivation: string;
   definition: string;
   rvDefinition: string;
+  /** Glosa corta del léxico STEPBible (BSD-3-Clause), p. ej. "Dios". */
+  stepGloss: string;
+  /** Glosas alternativas del léxico STEPBible, p. ej. "dios, Dios". */
+  stepDefinition: string;
   audioPath: string;
 }
 
@@ -51,6 +55,8 @@ export function matchesStrongQuery(entry: StrongEntry, query: string): boolean {
     entry.word.toLowerCase().includes(term) ||
     normalizeText(entry.pronunciation).includes(normTerm) ||
     normalizeText(entry.definition).includes(normTerm) ||
-    normalizeText(entry.rvDefinition).includes(normTerm)
+    normalizeText(entry.rvDefinition).includes(normTerm) ||
+    normalizeText(entry.stepGloss).includes(normTerm) ||
+    normalizeText(entry.stepDefinition).includes(normTerm)
   );
 }

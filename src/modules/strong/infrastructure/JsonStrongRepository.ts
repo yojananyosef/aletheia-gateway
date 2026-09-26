@@ -9,6 +9,8 @@ interface RawStrongEntry {
   derivation?: string;
   definition?: string;
   RVDefinition?: string;
+  stepGloss?: string;
+  stepDefinition?: string;
   audio?: string;
 }
 
@@ -55,6 +57,8 @@ export class JsonStrongRepository implements IStrongRepository {
           derivation: raw.derivation || '',
           definition: raw.definition || '',
           rvDefinition: raw.RVDefinition || '',
+          stepGloss: raw.stepGloss || '',
+          stepDefinition: raw.stepDefinition || '',
           audioPath: `/audio/strong/${folder}/${number}.mp3`,
         } as StrongEntry;
       })

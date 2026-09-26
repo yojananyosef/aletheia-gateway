@@ -10,6 +10,8 @@ const ENTRY: StrongEntry = {
   derivation: 'palabra prim.',
   definition: 'padre en aplicación literal e inmediata',
   rvDefinition: 'abuelo, antepasado, padre',
+  stepGloss: 'padre',
+  stepDefinition: 'padre, antepasados, abuelo',
   audioPath: '/audio/strong/hebrew/1.mp3',
 };
 
@@ -56,6 +58,7 @@ describe('matchesStrongQuery', () => {
     expect(matchesStrongQuery(ENTRY, 'אָב')).toBe(true);
     expect(matchesStrongQuery(ENTRY, 'ab')).toBe(true);
     expect(matchesStrongQuery(ENTRY, 'antepasado')).toBe(true);
+    expect(matchesStrongQuery(ENTRY, 'abuelo')).toBe(true);
   });
 
   it('ignora tildes en la búsqueda', () => {

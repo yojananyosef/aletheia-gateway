@@ -215,6 +215,17 @@
           <dt>Def. en RV</dt>
           <dd>{entry.rvDefinition || '—'}</dd>
         </div>
+        {#if entry.stepGloss || entry.stepDefinition}
+          <div class="strong-field">
+            <dt>Léxico STEPBible</dt>
+            <dd>
+              {#if entry.stepGloss}<strong>{entry.stepGloss}</strong>{/if}
+              {#if entry.stepDefinition && entry.stepDefinition !== entry.stepGloss}
+                <span class="strong-step-alt">{entry.stepDefinition}</span>
+              {/if}
+            </dd>
+          </div>
+        {/if}
       </dl>
 
       <div class="strong-occurrences">
@@ -740,6 +751,12 @@
     margin: 0;
     font-size: 0.9375rem;
     line-height: 1.6;
+  }
+
+  .strong-step-alt {
+    display: block;
+    color: var(--text-muted);
+    font-size: 0.875rem;
   }
 
   .strong-state {

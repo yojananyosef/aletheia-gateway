@@ -43,13 +43,17 @@ describe('JsonStrongRepository (Strong)', () => {
     expect(entry?.derivation).toBe('conjunción');
     expect(entry?.definition).toContain('waw consecutivo');
     expect(entry?.rvDefinition).toBe('y, pero, o');
+    // El léxico STEP de las partículas viene corrido en la fuente: no se copia.
+    expect(entry?.stepGloss).toBe('');
   });
 
-  it('resuelve H1 con palabra, pronunciación y audio', async () => {
+  it('resuelve H1 con palabra, pronunciación, léxico STEP y audio', async () => {
     const repo = new JsonStrongRepository();
     const entry = await repo.getById('h1');
     expect(entry?.word).toBe('אָב');
     expect(entry?.pronunciation).toBe('ab');
+    expect(entry?.stepGloss).toBe('padre');
+    expect(entry?.stepDefinition).toContain('antepasado');
     expect(entry?.audioPath).toBe('/audio/strong/hebrew/1.mp3');
   });
 
