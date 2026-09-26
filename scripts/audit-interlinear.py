@@ -292,6 +292,8 @@ def main() -> int:
                 if not state:
                     stats["fetch_error"] += 1
                     out.write(json.dumps({"key": url, "status": "fetch_error"}) + "\n")
+                    print(f"CADENA INTERRUMPIDA en {url} (fetch_error). "
+                          f"Relanzar con --start-url {url}")
                     break
                 try:
                     iv = state["data"]["interlinearVerse"]
