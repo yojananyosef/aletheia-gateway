@@ -38,9 +38,11 @@ describe('JsonStrongRepository (Strong)', () => {
   it('incluye las partículas hebreas 9001-9006 con su definición', async () => {
     const repo = new JsonStrongRepository();
     const entry = await repo.getById('H9005');
-    expect(entry?.word).toBe('וְ');
-    expect(entry?.pronunciation).toBe('wə');
+    expect(entry?.word).toBe('ו');
+    expect(entry?.pronunciation).toBe('v');
+    expect(entry?.derivation).toBe('conjunción');
     expect(entry?.definition).toContain('waw consecutivo');
+    expect(entry?.rvDefinition).toBe('y, pero, o');
   });
 
   it('resuelve H1 con palabra, pronunciación y audio', async () => {

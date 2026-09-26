@@ -64,6 +64,7 @@ fidelidad.
 - Texto hebreo WLC vía Open Scriptures: abierto.
 - Datos STEPBible (léxicos/códigos): **CC BY 4.0** (crédito en Acerca de).
 - Glosas y validación: contraste automático contra un interlineal público; los datos que sirve la app son propios.
+- Partículas hebreas 9001-9006 (v0.17.9): palabra, pronunciación, derivación y glosa RV tomadas del léxico de partículas de STEPBible (BSD-3-Clause); la explicación morfológica del campo «Definición» es propia, porque el léxico no la trae.
 
 ## Scripts
 
