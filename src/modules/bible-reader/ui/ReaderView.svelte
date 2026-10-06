@@ -33,11 +33,14 @@
   import CrossReferencesDrawer from '../../cross-references/ui/CrossReferencesDrawer.svelte';
   import CommentaryDrawer from '../../commentaries/ui/CommentaryDrawer.svelte';
   import CommentaryCBAView from '../../commentaries/ui/CommentaryCBAView.svelte';
+  import StrongQuickDrawer from '../../strong/ui/StrongQuickDrawer.svelte';
   import TtsControls from './TtsControls.svelte';
   import { ttsStore } from '../application/tts.svelte';
   import { JsonCommentaryRepository } from '../../commentaries/infrastructure/JsonCommentaryRepository';
   import { JsonHeadingsRepository } from '../infrastructure/JsonHeadingsRepository';
   import { JsonRedLettersRepository } from '../infrastructure/JsonRedLettersRepository';
+  import { JsonInterlinearRepository } from '../../interlinear/infrastructure/JsonInterlinearRepository';
+  import { strongIdForWord } from '../../interlinear/domain/InterlinearVerse';
   import { findBookInfo } from '../domain/entities/BibleBooks';
   import {
     buildVerseMessage,
@@ -64,6 +67,7 @@
     onNextChapter: () => void;
     onToggleBookmark: () => void;
     onBookmarkChange?: () => void;
+    onOpenStrong?: (strongId: string) => void;
   }
 
   let {
@@ -83,6 +87,7 @@
     onNextChapter,
     onToggleBookmark,
     onBookmarkChange,
+    onOpenStrong,
   }: Props = $props();
 
   const highlightRepo = new LocalStorageHighlightRepository();
@@ -91,6 +96,7 @@
   const commentaryRepo = new JsonCommentaryRepository();
   const headingsRepo = new JsonHeadingsRepository();
   const redLettersRepo = new JsonRedLettersRepository();
+  const interlinearRepo = new JsonInterlinearRepository();
 
   // Overlay de títulos de sección (solo rellena donde la versión no trae los suyos)
   // + frases de palabras de Cristo (cobertura: Mateo) para el mismo scope.
@@ -160,6 +166,11 @@
   let showVerseCommentaries = $state(true);
   let commentaryTargetVerse = $state<number | null>(null);
   let isCbaFullOpen = $state(false);
+  let isStrongQuickOpen = $state(false);
+  let strongQuickId = $state<string | null>(null);
+  let strongQuickReference = $state('');
+  type WlcTerm = { token: string; strongId: string; lemma?: string };
+  let wlcInterlinearByVerse = $state<Record<number, WlcTerm[]>>({});
 
   async function handleOpenCrossReferences(context: {
     reference: string;
@@ -286,6 +297,53 @@
   let currentBook = $derived(firstPassage ? firstPassage.book : 'Génesis');
   let currentChapter = $derived(firstPassage ? firstPassage.chapter : 1);
   let canAddMore = $derived(selectedTranslations.length < 5);
+  let hasWlcColumn = $derived(passages.some((p) => p.translationId === 'WLC'));
+
+  async function loadWlcInterlinearMap(book: string, chapter: number) {
+    if (!hasWlcColumn) {
+      wlcInterlinearByVerse = {};
+      if (isStrongQuickOpen) {
+        isStrongQuickOpen = false;
+        strongQuickId = null;
+      }
+      return;
+    }
+    try {
+      const chapterData = await interlinearRepo.getChapter(book, chapter);
+      if (!chapterData || chapterData.testament !== 'hebrew') {
+        wlcInterlinearByVerse = {};
+        if (isStrongQuickOpen) {
+          isStrongQuickOpen = false;
+          strongQuickId = null;
+        }
+        return;
+      }
+      const mapped: Record<number, WlcTerm[]> = {};
+      for (const verseData of chapterData.verses) {
+        mapped[verseData.verse] = verseData.words
+          .map((word) => {
+            const strongId = strongIdForWord(word, 'hebrew');
+            if (!strongId) return null;
+            return {
+              token: word.text,
+              strongId,
+              lemma: word.lemma,
+            };
+          })
+          .filter((term): term is WlcTerm => term !== null);
+      }
+      wlcInterlinearByVerse = mapped;
+      if (isStrongQuickOpen && strongQuickId) {
+        const exists = Object.values(mapped).some((terms) => terms.some((term) => term.strongId === strongQuickId));
+        if (!exists) {
+          isStrongQuickOpen = false;
+          strongQuickId = null;
+        }
+      }
+    } catch {
+      wlcInterlinearByVerse = {};
+    }
+  }
 
   // Proyección en segunda pantalla (BroadcastChannel + /projection)
   let isProjecting = $state(false);
@@ -356,6 +414,7 @@
         loadHighlightsAndNotes();
         loadCbaAvailability(b, c);
         loadOverlays(b, c);
+        loadWlcInterlinearMap(b, c);
       });
     }
   });
@@ -376,7 +435,22 @@
     loadHighlightsAndNotes();
     loadCbaAvailability(currentBook, currentChapter);
     loadOverlays(currentBook, currentChapter);
+    loadWlcInterlinearMap(currentBook, currentChapter);
   });
+
+  function handleOpenStrongQuick(context: {
+    strongId: string;
+    reference: string;
+  }) {
+    strongQuickId = context.strongId;
+    strongQuickReference = context.reference;
+    isStrongQuickOpen = true;
+  }
+
+  function handleOpenFullStrong(strongId: string) {
+    onOpenStrong?.(strongId);
+    isStrongQuickOpen = false;
+  }
 
   function handleSubmit(event: Event) {
     event.preventDefault();
@@ -647,9 +721,11 @@
         {overlayHeadings}
         {overlayScope}
         {redPhrases}
+        {wlcInterlinearByVerse}
         onOpenCommentary={handleOpenCommentaryVerse}
         onOpenCrossReferences={handleOpenCrossReferences}
         onOpenNoteModal={handleOpenNoteModal}
+        onOpenStrongQuick={handleOpenStrongQuick}
       />
     </section>
   </div>
@@ -738,5 +814,16 @@
     onSelectPassage={handleSelectPassage}
     onPrevChapter={handlePrevChapter}
     onNextChapter={handleNextChapter}
+  />
+
+  <StrongQuickDrawer
+    isOpen={isStrongQuickOpen}
+    strongId={strongQuickId}
+    referenceLabel={strongQuickReference}
+    onClose={() => {
+      isStrongQuickOpen = false;
+      strongQuickId = null;
+    }}
+    onOpenDictionary={handleOpenFullStrong}
   />
 </div>
