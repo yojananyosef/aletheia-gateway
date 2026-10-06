@@ -360,6 +360,7 @@
       onNextChapter={handleNextChapter}
       onToggleBookmark={handleToggleBookmark}
       onBookmarkChange={updateBookmarkCount}
+      onOpenStrong={handleOpenStrong}
     />
   {/if}
 
@@ -381,5 +382,4 @@
     }}
   />
 </AppShell>
-
 

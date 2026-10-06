@@ -270,6 +270,24 @@ test('interlineal: dropdowns del proyecto en libro/cap/vers', async ({ page }) =
   await expect(page.getByText('Génesis 2:1').first()).toBeVisible({ timeout: 20000 });
 });
 
+test('lector WLC: doble click abre Strong rápido sin salir del lector', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
+  await expect(page.getByText('Agregar paralelo').first()).toBeVisible();
+
+  // Cambiar primera columna a WLC.
+  await page.locator('.custom-version-trigger').first().click();
+  await page.getByRole('option', { name: /Westminster Leningrad Codex/ }).first().click();
+
+  const wlcTerm = page.locator('.wlc-strong-term').first();
+  await expect(wlcTerm).toBeVisible({ timeout: 20000 });
+  await wlcTerm.dblclick();
+
+  await expect(page.getByRole('heading', { name: 'Strong rápido' })).toBeVisible();
+  await expect(page.getByText('Strong hebreo #')).toBeVisible();
+  await expect(page.locator('.reader-card')).toBeVisible();
+});
+
 test('ayudas de lectura aplican al instante sin recargar', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();

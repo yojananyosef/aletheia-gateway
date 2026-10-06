@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onDestroy, onMount } from 'svelte';
   import { X, ArrowRight, ArrowUp, FileText, BookOpen, BookOpenText, Link2 } from 'lucide-svelte';
   import type { PassageVersionResult, SectionFootnote } from '../domain/entities/Chapter';
   import { AVAILABLE_TRANSLATIONS, type TranslationId } from '../domain/entities/Translation';
@@ -51,6 +52,8 @@
       existingNoteId?: string;
       existingContent?: string;
     }) => void;
+    wlcInterlinearByVerse?: Record<number, { token: string; strongId: string; lemma?: string }[]>;
+    onOpenStrongQuick?: (context: { strongId: string; reference: string; lemma?: string }) => void;
   }
 
   let {
@@ -70,6 +73,8 @@
     overlayScope = null,
     redPhrases = {},
     onOpenCommentary,
+    wlcInterlinearByVerse = {},
+    onOpenStrongQuick,
   }: Props = $props();
 
   const fontSizeClasses: Record<FontSizeOption, string> = {
@@ -88,6 +93,116 @@
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#039;');
   }
+
+  function normalizeHebrewToken(value: string): string {
+    return value
+      .normalize('NFKD')
+      .replace(/[\u0591-\u05C7]/g, '')
+      .replace(/[\u200e\u200f]/g, '')
+      .replace(/[^א-ת]/g, '');
+  }
+
+  function renderWlcVerseText(
+    verseText: string,
+    verseNumber: number,
+    reference: string
+  ): string {
+    const terms = wlcInterlinearByVerse[verseNumber] ?? [];
+    if (terms.length === 0) return escapeHtml(verseText);
+
+    const normalizedTerms = terms
+      .map((term) => ({ ...term, normalized: normalizeHebrewToken(term.token) }))
+      .filter((term) => term.normalized.length > 0);
+    if (normalizedTerms.length === 0) return escapeHtml(verseText);
+
+    const parts = verseText.split(/(\s+|־|׃|[.,;:!?()[\]{}"“”'׳״])/g).filter(Boolean);
+    let termIndex = 0;
+    let html = '';
+
+    for (const part of parts) {
+      const normalizedPart = normalizeHebrewToken(part);
+      let matched: (typeof normalizedTerms)[number] | null = null;
+
+      if (normalizedPart) {
+        while (termIndex < normalizedTerms.length) {
+          const candidate = normalizedTerms[termIndex];
+          termIndex += 1;
+          if (candidate.normalized === normalizedPart) {
+            matched = candidate;
+            break;
+          }
+        }
+      }
+
+      if (matched?.strongId) {
+        html += `<span class="wlc-strong-term" role="button" tabindex="0" data-strong-id="${escapeHtml(matched.strongId)}" data-lemma="${escapeHtml(matched.lemma || '')}" data-reference="${escapeHtml(reference)}" aria-label="Abrir ${escapeHtml(matched.strongId)} en Strong">${escapeHtml(part)}</span>`;
+      } else {
+        html += escapeHtml(part);
+      }
+    }
+
+    return html;
+  }
+
+  let lastTouchStrong = '';
+  let lastTouchTime = 0;
+
+  function dispatchStrongFromElement(element: HTMLElement | null) {
+    if (!element) return;
+    const strongId = element.dataset.strongId;
+    const reference = element.dataset.reference;
+    if (!strongId || !reference) return;
+    onOpenStrongQuick?.({
+      strongId,
+      reference,
+      lemma: element.dataset.lemma || undefined,
+    });
+  }
+
+  function handleVerseDblClick(event: MouseEvent) {
+    const target = event.target as HTMLElement | null;
+    const term = target?.closest('.wlc-strong-term') as HTMLElement | null;
+    dispatchStrongFromElement(term);
+  }
+
+  function handleVerseTouchEnd(event: TouchEvent) {
+    const target = event.target as HTMLElement | null;
+    const term = target?.closest('.wlc-strong-term') as HTMLElement | null;
+    if (!term) return;
+    const strongId = term.dataset.strongId || '';
+    const now = Date.now();
+    if (strongId && strongId === lastTouchStrong && now - lastTouchTime < 360) {
+      event.preventDefault();
+      dispatchStrongFromElement(term);
+      lastTouchStrong = '';
+      lastTouchTime = 0;
+      return;
+    }
+    lastTouchStrong = strongId;
+    lastTouchTime = now;
+  }
+
+  function handleVerseKeyDown(event: KeyboardEvent) {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+    const target = event.target as HTMLElement | null;
+    const term = target?.closest('.wlc-strong-term') as HTMLElement | null;
+    if (!term) return;
+    event.preventDefault();
+    dispatchStrongFromElement(term);
+  }
+
+  function resetTouchState() {
+    lastTouchStrong = '';
+    lastTouchTime = 0;
+  }
+
+  onMount(() => {
+    document.addEventListener('touchcancel', resetTouchState, { passive: true });
+  });
+
+  onDestroy(() => {
+    document.removeEventListener('touchcancel', resetTouchState);
+  });
 
   function getMatchingHighlights(book: string, chapter: number, verse: Verse, translationId: string): BibleHighlight[] {
     const normBook = book.toLowerCase().trim();
@@ -350,10 +465,21 @@
                   data-verse={verse.number}
                   data-verse-display={verseDisplayLabel}
                   data-translation={passage.translationId}
+                  ondblclick={passage.translationId === 'WLC' ? handleVerseDblClick : undefined}
+                  ontouchend={passage.translationId === 'WLC' ? handleVerseTouchEnd : undefined}
+                  onkeydown={passage.translationId === 'WLC' ? handleVerseKeyDown : undefined}
                 >
                   <span class="verse-num">{verseDisplayLabel}</span>
                   
-                  <span class="verse-text-content">{@html renderVerseText(verse.text, verseHighlights, redSpans)}</span>
+                  <span class="verse-text-content">
+                    {@html passage.translationId === 'WLC'
+                      ? renderWlcVerseText(
+                          verse.text,
+                          verse.number,
+                          `${section.book} ${section.chapter}:${verseDisplayLabel}`
+                        )
+                      : renderVerseText(verse.text, verseHighlights, redSpans)}
+                  </span>
 
                   <!-- Footnote Link Superscript Anchor with smooth scroll -->
                   {#if verse.footnotes && verse.footnotes.length > 0}
@@ -487,6 +613,16 @@
 </div>
 
 <style>
+  .wlc-strong-term {
+    border-bottom: 1px dashed color-mix(in srgb, var(--accent-attention) 65%, transparent);
+    cursor: pointer;
+  }
+
+  .wlc-strong-term:focus-visible {
+    outline: 2px solid var(--accent-attention);
+    outline-offset: 2px;
+  }
+
   .verse-note-indicator-btn {
     display: inline-flex;
     align-items: center;
