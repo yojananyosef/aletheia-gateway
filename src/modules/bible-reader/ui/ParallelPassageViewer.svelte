@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onDestroy, onMount } from 'svelte';
   import { X, ArrowRight, ArrowUp, FileText, BookOpen, BookOpenText, Link2 } from 'lucide-svelte';
   import type { PassageVersionResult, SectionFootnote } from '../domain/entities/Chapter';
   import { AVAILABLE_TRANSLATIONS, type TranslationId } from '../domain/entities/Translation';
@@ -9,6 +10,10 @@
   import { findBookInfo } from '../domain/entities/BibleBooks';
   import ColumnVersionDropdown from './ColumnVersionDropdown.svelte';
   import { resolveVerseHeadings } from '../domain/entities/SectionHeading';
+  import {
+    alignStrongTokens,
+    type StrongToken,
+  } from '../../interlinear/domain/StrongTermAlignment';
   import { resolveRedSpans, type RedSpan } from '../domain/entities/WordsOfChrist';
   import { bionicHtml } from '../../../shared/utils/bionic';
 
@@ -51,6 +56,8 @@
       existingNoteId?: string;
       existingContent?: string;
     }) => void;
+    wlcInterlinearByVerse?: Record<number, StrongToken[]>;
+    onOpenStrongQuick?: (context: { strongId: string; reference: string; lemma?: string }) => void;
   }
 
   let {
@@ -70,6 +77,8 @@
     overlayScope = null,
     redPhrases = {},
     onOpenCommentary,
+    wlcInterlinearByVerse = {},
+    onOpenStrongQuick,
   }: Props = $props();
 
   const fontSizeClasses: Record<FontSizeOption, string> = {
@@ -88,6 +97,99 @@
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#039;');
   }
+
+  /**
+   * Envuelve los términos con ficha Strong del versículo WLC. El texto siempre se
+   * emite completo: si no hay alineación, sale como texto plano y sin interacción.
+   */
+  function renderWlcVerseText(
+    verseText: string,
+    verseNumber: number,
+    reference: string
+  ): string {
+    const terms = wlcInterlinearByVerse[verseNumber];
+    if (!verseText || !terms || terms.length === 0) return escapeHtml(verseText);
+
+    const spans = alignStrongTokens(verseText, terms);
+    if (spans.length === 0) return escapeHtml(verseText);
+
+    let html = '';
+    let cursor = 0;
+    for (const span of spans) {
+      if (span.start > cursor) html += escapeHtml(verseText.slice(cursor, span.start));
+      html +=
+        `<span class="wlc-strong-term" role="button" tabindex="0"` +
+        ` data-strong-id="${escapeHtml(span.strongId)}"` +
+        ` data-lemma="${escapeHtml(span.lemma ?? '')}"` +
+        ` data-reference="${escapeHtml(reference)}"` +
+        ` aria-label="Definición Strong ${escapeHtml(span.strongId)}">` +
+        `${escapeHtml(verseText.slice(span.start, span.end))}</span>`;
+      cursor = span.end;
+    }
+    if (cursor < verseText.length) html += escapeHtml(verseText.slice(cursor));
+
+    return html;
+  }
+
+  let lastTouchStrong = '';
+  let lastTouchTime = 0;
+
+  function dispatchStrongFromElement(element: HTMLElement | null) {
+    if (!element) return;
+    const strongId = element.dataset.strongId;
+    const reference = element.dataset.reference;
+    if (!strongId || !reference) return;
+    onOpenStrongQuick?.({
+      strongId,
+      reference,
+      lemma: element.dataset.lemma || undefined,
+    });
+  }
+
+  function handleVerseDblClick(event: MouseEvent) {
+    const target = event.target as HTMLElement | null;
+    const term = target?.closest('.wlc-strong-term') as HTMLElement | null;
+    dispatchStrongFromElement(term);
+  }
+
+  function handleVerseTouchEnd(event: TouchEvent) {
+    const target = event.target as HTMLElement | null;
+    const term = target?.closest('.wlc-strong-term') as HTMLElement | null;
+    if (!term) return;
+    const strongId = term.dataset.strongId || '';
+    const now = Date.now();
+    if (strongId && strongId === lastTouchStrong && now - lastTouchTime < 360) {
+      event.preventDefault();
+      dispatchStrongFromElement(term);
+      lastTouchStrong = '';
+      lastTouchTime = 0;
+      return;
+    }
+    lastTouchStrong = strongId;
+    lastTouchTime = now;
+  }
+
+  function handleVerseKeyDown(event: KeyboardEvent) {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+    const target = event.target as HTMLElement | null;
+    const term = target?.closest('.wlc-strong-term') as HTMLElement | null;
+    if (!term) return;
+    event.preventDefault();
+    dispatchStrongFromElement(term);
+  }
+
+  function resetTouchState() {
+    lastTouchStrong = '';
+    lastTouchTime = 0;
+  }
+
+  onMount(() => {
+    document.addEventListener('touchcancel', resetTouchState, { passive: true });
+  });
+
+  onDestroy(() => {
+    document.removeEventListener('touchcancel', resetTouchState);
+  });
 
   function getMatchingHighlights(book: string, chapter: number, verse: Verse, translationId: string): BibleHighlight[] {
     const normBook = book.toLowerCase().trim();
@@ -350,10 +452,21 @@
                   data-verse={verse.number}
                   data-verse-display={verseDisplayLabel}
                   data-translation={passage.translationId}
+                  ondblclick={passage.translationId === 'WLC' ? handleVerseDblClick : undefined}
+                  ontouchend={passage.translationId === 'WLC' ? handleVerseTouchEnd : undefined}
+                  onkeydown={passage.translationId === 'WLC' ? handleVerseKeyDown : undefined}
                 >
                   <span class="verse-num">{verseDisplayLabel}</span>
                   
-                  <span class="verse-text-content">{@html renderVerseText(verse.text, verseHighlights, redSpans)}</span>
+                  <span class="verse-text-content">
+                    {@html passage.translationId === 'WLC'
+                      ? renderWlcVerseText(
+                          verse.text,
+                          verse.number,
+                          `${section.book} ${section.chapter}:${verseDisplayLabel}`
+                        )
+                      : renderVerseText(verse.text, verseHighlights, redSpans)}
+                  </span>
 
                   <!-- Footnote Link Superscript Anchor with smooth scroll -->
                   {#if verse.footnotes && verse.footnotes.length > 0}
@@ -487,6 +600,16 @@
 </div>
 
 <style>
+  .wlc-strong-term {
+    border-bottom: 1px dashed color-mix(in srgb, var(--accent-attention) 65%, transparent);
+    cursor: pointer;
+  }
+
+  .wlc-strong-term:focus-visible {
+    outline: 2px solid var(--accent-attention);
+    outline-offset: 2px;
+  }
+
   .verse-note-indicator-btn {
     display: inline-flex;
     align-items: center;
