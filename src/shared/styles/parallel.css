@@ -207,13 +207,24 @@
    COMPARADOR EN PARALELO CON CABECERAS DINÁMICAS POR COLUMNA
    ========================================================================== */
 
+/* Las columnas se Lazarus solas, según el ancho real de la tarjeta y no según
+   cuántas versiones haya. Con `repeat(n, 1fr)` fijo, 3 versiones a 1024 px
+   quedaban en 3 columnas de 213 px y el texto se partía en 4 renglones; en móvil
+   2 versiones quedaban de 183 px.
+
+   `auto-fit` reparte en tantas columnas como quepan con un mínimo legible y
+   colapsa las sobrantes, así que 2 versiones ocupan todo el ancho en escritorio
+   y 3 pasan a una o dos columnas cuando ya no caben. El separador de 1 px es el
+   propio fondo del contenedor: los bordes quedan bien en cualquier combinación
+   de filas y columnas sin tener que contar cuántas hay. */
 .passage-list-parallel {
   display: grid;
-  grid-template-columns: repeat(var(--version-count, 1), minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 1px;
   align-items: stretch;
   width: 100%;
   flex: 1;
-  background-color: var(--bg-surface);
+  background-color: var(--border-color);
   overflow: visible;
 }
 
@@ -222,7 +233,7 @@
   margin: 0;
   padding: 12px clamp(3px, 1.2vw, 12px);
   border-bottom: 0;
-  border-right: 1px solid var(--border-color);
+  border-right: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

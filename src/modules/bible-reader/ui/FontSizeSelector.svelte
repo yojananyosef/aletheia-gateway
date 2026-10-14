@@ -54,11 +54,16 @@
     class="font-size-trigger-btn {isOpen ? 'is-active' : ''}"
     aria-expanded={isOpen}
     aria-haspopup="listbox"
-    data-tooltip="Ajustar tamaño de fuente del lector"
+    aria-label="Tamaño de fuente: {currentLabel}"
+    data-tooltip="Tamaño de fuente: {currentLabel}"
     onclick={() => (isOpen = !isOpen)}
   >
     <Type size={16} />
-    <span class="truncate">Tamaño: <strong>{currentLabel}</strong></span>
+    <!-- Sin el prefijo "Tamaño:" el control ocupa ~70 px menos, que era
+         justamente lo que faltaba para que el toolbar no abriera una tercera
+         fila en pantallas de 1280 px. El nombre completo va en el tooltip y
+         en el aria-label. -->
+    <span class="truncate"><strong>{currentLabel}</strong></span>
     <ChevronDown size={14} class="shrink-0 transition-transform {isOpen ? 'rotate-180' : ''}" />
   </button>
 

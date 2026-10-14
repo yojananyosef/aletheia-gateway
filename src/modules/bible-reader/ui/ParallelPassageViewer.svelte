@@ -152,9 +152,54 @@
     });
   }
 
-  function handleVerseDblClick(event: MouseEvent) {
+  /**
+ * El navegador selecciona la palabra con el doble click, y esa selección dispara
+ * la barra flotante de resaltado encima del panel Strong. Cancelar el
+ * comportamiento por defecto en `dblclick` llega tarde: la selección ya se
+ * había hecho en el `mousedown`. Se cancela ahí, detectando el segundo clic por
+ * proximity y tiempo. Un arrastre sigue funcionando normal, que es como se
+ * copia y se resalta hoy.
+ */
+const DOUBLE_CLICK_MS = 400;
+const DOUBLE_CLICK_PX = 6;
+let lastDownId = '';
+let lastDownAt = 0;
+let lastDownX = 0;
+let lastDownY = 0;
+
+function handleVerseMouseDown(event: MouseEvent) {
+  const term = (event.target as HTMLElement | null)?.closest('.strong-term') as HTMLElement | null;
+  if (!term) {
+    lastDownId = '';
+    return;
+  }
+
+  const id = term.dataset.strongId ?? '';
+  const now = Date.now();
+  const isDouble =
+    id !== '' &&
+    id === lastDownId &&
+    now - lastDownAt < DOUBLE_CLICK_MS &&
+    Math.abs(event.clientX - lastDownX) < DOUBLE_CLICK_PX &&
+    Math.abs(event.clientY - lastDownY) < DOUBLE_CLICK_PX;
+
+  lastDownId = id;
+  lastDownAt = now;
+  lastDownX = event.clientX;
+  lastDownY = event.clientY;
+
+  if (isDouble) {
+    event.preventDefault();
+    window.getSelection()?.removeAllRanges();
+  }
+}
+
+function handleVerseDblClick(event: MouseEvent) {
     const target = event.target as HTMLElement | null;
     const term = target?.closest('.strong-term') as HTMLElement | null;
+    if (!term) return;
+    event.preventDefault();
+    window.getSelection()?.removeAllRanges();
     dispatchStrongFromElement(term);
   }
 
@@ -362,8 +407,8 @@
 </script>
 
 <div
-  class="passage-list-parallel {fontSizeClasses[fontSize] || 'text-size-medium'} {passages.length >= 3 ? 'has-many-versions' : 'has-few-versions'}"
-  style="--version-count: {passages.length || 1};"
+  class="passage-list-parallel {fontSizeClasses[fontSize] || 'text-size-medium'}"
+  data-versions={passages.length || 1}
 >
   {#each passages as passage, index (index)}
     {@const columnFootnotes = getColumnFootnotes(passage)}
@@ -460,6 +505,7 @@
                   data-verse-display={verseDisplayLabel}
                   data-translation={passage.translationId}
                   ondblclick={strongInteractive ? handleVerseDblClick : undefined}
+                  onmousedown={strongInteractive ? handleVerseMouseDown : undefined}
                   ontouchend={strongInteractive ? handleVerseTouchEnd : undefined}
                   onkeydown={strongInteractive ? handleVerseKeyDown : undefined}
                 >
