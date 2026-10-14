@@ -147,6 +147,9 @@
   }
 }
 
+/* La retícula del toolbar para columnas estrechas vive en responsive.css: necesita
+   ganar en la cascada a las media queries de aquí, que se importan después. */
+
 .toolbar-action-btn {
   display: inline-flex;
   align-items: center;
@@ -243,7 +246,10 @@
 /* --- SELECTOR DE TAMAÑO DE FUENTE --- */
 .font-size-dropdown-container {
   position: relative;
-  z-index: 90;
+  /* Por encima del toolbar (80) para que su menú no quede recortado, pero por
+     debajo de la barra lateral móvil (115): con 90 el botón se veía por encima
+     del menú abierto. */
+  z-index: 85;
 }
 
 .font-size-trigger-btn {
