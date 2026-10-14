@@ -1,4 +1,4 @@
-import { expect, test, type Page } from '@playwright/test';
+﻿import { expect, test, type Page } from '@playwright/test';
 
 test('home carga con buscador y marca Aletheia', async ({ page }) => {
   await page.goto('/');
@@ -9,7 +9,7 @@ test('home carga con buscador y marca Aletheia', async ({ page }) => {
 test('navegación al lector paralelo', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
-  await expect(page.getByText('Agregar paralelo').first()).toBeVisible();
+  await expect(page.locator('.add-parallel-btn')).toBeVisible();
 });
 
 test('modal de configuración: las 3 pestañas renderizan', async ({ page }) => {
@@ -375,10 +375,91 @@ test('responsive: en móvil la barra lateral anuncia su estado real', async ({ p
   await expect(toggle).toHaveAttribute('aria-label', 'Abrir barra lateral');
 });
 
+test('responsive: la barra lateral entra entera sin barra de desplazamiento', async ({ page }) => {
+  // El contenido mide ~760 px con el espaciado por defecto, así que por debajo
+  // de esa altura "Configuración" quedaba fuera de vista con scroll.
+  for (const height of [800, 700, 640, 600]) {
+    await page.setViewportSize({ width: 1440, height });
+    await page.goto('/');
+    const box = await page
+      .locator('.neo-sidebar')
+      .evaluate((el) => ({ client: el.clientHeight, scroll: el.scrollHeight }));
+    expect(box.scroll, `la barra lateral desborda con ${height}px de alto`).toBeLessThanOrEqual(box.client);
+    // Y el último control debe quedar dentro de la ventana.
+    const last = await page.locator('.neo-sidebar-footer').boundingBox();
+    expect(last!.y + last!.height).toBeLessThanOrEqual(height + 1);
+  }
+});
+
+test('responsive: las columnas se reparten según el ancho, no según cuántas son', async ({ page }) => {
+  await openReader(page);
+  await goToPassage(page, 'Juan 1');
+  // Dos columnas: deben ocupar todo el ancho en escritorio, no encogerse a la mitad.
+  await page.locator('.add-parallel-btn:not([disabled])').first().click();
+  await expect(page.locator('.translation-block')).toHaveCount(2);
+
+  const anchoDeColumna = async () =>
+    Math.round((await page.locator('.translation-block').first().boundingBox())!.width);
+
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.waitForTimeout(500);
+  const ancha = await anchoDeColumna();
+  const card = Math.round((await page.locator('.reader-card').boundingBox())!.width);
+  expect(ancha).toBeGreaterThan(card * 0.45);
+
+  // En móvil pasan a una sola columna en vez de quedar estrujadas de a dos.
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.waitForTimeout(600);
+  const cajas = await page.locator('.translation-block').evaluateAll((els) =>
+    els.map((e) => {
+      const r = e.getBoundingClientRect();
+      return { x: Math.round(r.x), w: Math.round(r.width) };
+    }),
+  );
+  expect(cajas).toHaveLength(2);
+  expect(cajas[1].x).toBe(cajas[0].x); // apiladas, no en paralelo
+  expect(cajas[0].w).toBeGreaterThan(300);
+});
+
+test('lector: el doble click en un término no selecciona el texto', async ({ page }) => {
+  await openReader(page);
+  await setFirstColumnVersion(page, /Westminster Leningrad Codex/);
+
+  const term = page.locator('.strong-term').first();
+  await expect(term).toBeVisible({ timeout: 20000 });
+  await term.dblclick();
+
+  await expect(page.getByRole('heading', { name: 'Strong rápido' })).toBeVisible();
+  // La barra flotante de resaltado se dispara con selección de texto: si el
+  // doble click seleccionara, aparecería encima del panel.
+  await expect(page.locator('.highlight-floating-toolbar')).toHaveCount(0);
+  expect(await page.evaluate(() => window.getSelection()?.toString() ?? '')).toBe('');
+});
+
+test('lector: arrastrar sobre un término sigue seleccionando el texto', async ({ page }) => {
+  await openReader(page);
+  await setFirstColumnVersion(page, /Westminster Leningrad Codex/);
+
+  const term = page.locator('.strong-term').first();
+  await expect(term).toBeVisible({ timeout: 20000 });
+  const box = (await term.boundingBox())!;
+
+  // Arrastre real con el mouse: es la forma de copiar y de resaltar.
+  await page.mouse.move(box.x + 1, box.y + box.height / 2);
+  await page.mouse.down();
+  await page.mouse.move(box.x + box.width - 1, box.y + box.height / 2, { steps: 8 });
+  await page.mouse.up();
+
+  const selected = await page.evaluate(() => window.getSelection()?.toString() ?? '');
+  expect(selected.length).toBeGreaterThan(0);
+  // Y el doble click no se habrá abierto por el arrastre.
+  await expect(page.locator('.strong-quick-drawer')).toHaveCount(0);
+});
+
 test('ayudas de lectura aplican al instante sin recargar', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
-  await expect(page.getByText('Agregar paralelo').first()).toBeVisible();
+  await expect(page.locator('.add-parallel-btn')).toBeVisible();
 
   // Sin biónica el markup existe pero sin efecto (peso normal)
   const bionic = page.locator('.passage-text .bionic-b').first();
@@ -410,7 +491,7 @@ test('ayudas de lectura aplican al instante sin recargar', async ({ page }) => {
 test('helpers muestran estado activo inequívoco y TTS usa dropdowns del proyecto', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
-  await expect(page.getByText('Agregar paralelo').first()).toBeVisible();
+  await expect(page.locator('.add-parallel-btn')).toBeVisible();
 
   await page.getByRole('button', { name: 'Configuración' }).click();
   const bionicCard = page.locator('.font-card', { hasText: 'Lectura biónica' });

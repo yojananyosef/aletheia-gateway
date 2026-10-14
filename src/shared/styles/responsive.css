@@ -210,34 +210,15 @@
     min-height: 0;
   }
 
-  /* Opción 2 Inteligente: 1 o 2 versiones lado a lado en columnas */
-  .passage-list-parallel.has-few-versions {
-    display: grid !important;
-    grid-template-columns: repeat(var(--version-count, 1), minmax(0, 1fr)) !important;
+  /* El reparto en columnas ya lo resuelve `auto-fit` según el ancho real de la
+     tarjeta, así que aquí no hace falta forzar nada por número de versiones:
+     en móvil cae a una columna sola sin importar cuántas haya. */
+  .passage-list-parallel {
     width: 100% !important;
   }
 
-  /* 3, 4 o 5 versiones: Apilamiento vertical adaptativo */
-  .passage-list-parallel.has-many-versions {
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100% !important;
-  }
-
-  .passage-list-parallel.has-many-versions .translation-block {
-    width: 100% !important;
-    min-width: 100% !important;
-    border-right: 0 !important;
-    border-bottom: 2px solid var(--border-color) !important;
-    padding: 18px 14px !important;
-  }
-
-  .passage-list-parallel.has-many-versions .translation-block:first-child {
-    padding-left: 14px !important;
-  }
-
-  .passage-list-parallel.has-many-versions .translation-block:last-child {
-    border-bottom: 0 !important;
+  .passage-list-parallel .translation-block {
+    padding: 14px 10px !important;
   }
 
   .toolbar-left-group,

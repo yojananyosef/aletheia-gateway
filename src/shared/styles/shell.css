@@ -184,6 +184,67 @@
   gap: 6px;
 }
 
+/* --- BARRA LATERAL CONTENIDA EN EL ALTO DE LA VENTANA ---
+   El contenido mide ~760 px con el espaciado por defecto. En pantallas de menos
+   alto aparecía una barra de desplazamiento y "Configuración" quedaba fuera de
+   vista. Estos dos tramos comprimen el espaciado para que entre entero; el
+   contenido sigue resumiéndose si aun así no cabe, porque dejar de ser
+   alcanzable sería peor que un scroll. */
+@media (min-width: 769px) and (max-height: 860px) {
+  .neo-sidebar-content {
+    padding: 10px 8px;
+    gap: 12px;
+  }
+
+  .neo-sidebar-section,
+  .neo-sidebar-bottom {
+    gap: 4px;
+  }
+
+  .neo-nav-button {
+    min-height: 38px;
+    padding: 5px 10px;
+    font-size: 0.875rem;
+  }
+
+  .neo-sidebar-label {
+    font-size: 0.6875rem;
+    padding: 0 8px 2px;
+  }
+
+  .neo-sidebar-footer {
+    padding: 8px 8px;
+  }
+}
+
+@media (min-width: 769px) and (max-height: 700px) {
+  .neo-sidebar-header {
+    height: 56px;
+  }
+
+  .neo-sidebar-content {
+    padding: 8px 6px;
+    gap: 8px;
+  }
+
+  .neo-nav-button {
+    min-height: 32px;
+    padding: 3px 8px;
+    font-size: 0.8125rem;
+  }
+
+  .neo-brand-badge {
+    width: 26px;
+    height: 26px;
+    font-size: 15px;
+  }
+
+  .neo-brand-btn {
+    min-height: 34px;
+    padding: 4px 8px;
+  }
+}
+
 /* Sidebar Colapsado */
 .neo-sidebar.is-collapsed .neo-sidebar-header {
   padding: 0 8px;

@@ -717,14 +717,13 @@
               <ChevronRight size={16} />
             </button>
           </div>
-
-          <FontSizeSelector
-            currentSize={fontSize}
-            onSizeChange={onFontSizeChange}
-          />
         </div>
-      </div>
 
+        <!-- El selector de tamaño es hijo directo del toolbar: dentro del grupo
+             derecho terminaba en una tercera fila aunque sobraba espacio en la
+             segunda, dejando el "Tamaño" solo abajo del todo. -->
+        <FontSizeSelector currentSize={fontSize} onSizeChange={onFontSizeChange} />
+      </div>
       <!-- Parallel Passage Viewer (Dynamic Columns) -->
       <ParallelPassageViewer
         {passages}
