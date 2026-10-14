@@ -79,6 +79,26 @@
     display: flex;
   }
 
+  /* El título se partía en dos renglones dentro de una barra de altura fija. */
+  .app-topbar {
+    gap: 10px;
+  }
+
+  .app-topbar .topbar-title {
+    font-size: 0.8125rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+  }
+
+  /* Los dropdowns de TTS heredan `width: 100%` del selector de versión y quedaban
+     estirados al ancho disponible, dejando huecos dentro de la fila. */
+  .tts-controls .custom-version-dropdown,
+  .tts-controls .custom-version-trigger {
+    width: auto;
+  }
+
   .neo-sidebar {
     position: fixed;
     top: 0;
@@ -147,18 +167,11 @@
     box-shadow: var(--shadow-sm);
   }
 
+  /* El toolbar se queda en una sola fila flexible: al pasar a columna los
+     botones quedaban uno por renglón y empujaban el texto fuera de pantalla.
+     Las etiquetas las decide el container query de .reader-card. */
   .reader-toolbar {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 10px;
     padding: 10px 12px;
-  }
-
-  .toolbar-left-group,
-  .toolbar-right-group {
-    width: 100%;
-    justify-content: space-between;
   }
 }
 
@@ -233,8 +246,10 @@
     gap: 8px;
   }
 
+  /* `flex: 1 1 auto` estiraba el último botón de la fila a todo el ancho;
+     el alvo táctil de 40 px se mantiene sin ensanchar los controles. */
   .toolbar-action-btn {
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     justify-content: center;
     font-size: 0.75rem;
     padding: 6px 10px;

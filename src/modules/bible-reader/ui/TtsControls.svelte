@@ -1,4 +1,4 @@
-<script lang="ts">
+﻿<script lang="ts">
   import { Play, Pause, Square, Volume2 } from 'lucide-svelte';
   import NeoDropdown from '../../../shared/ui/NeoDropdown.svelte';
   import { ttsStore } from '../application/tts.svelte';
@@ -21,7 +21,7 @@
       onclick={() => ttsStore.play()}
     >
       <Volume2 size={16} />
-      <span class="hidden md:inline">Escuchar</span>
+      <span class="toolbar-label">Escuchar</span>
     </button>
   {:else if !ttsStore.isPaused}
     <button
@@ -33,7 +33,7 @@
       onclick={() => ttsStore.pause()}
     >
       <Pause size={16} />
-      <span class="hidden md:inline">Pausar</span>
+      <span class="toolbar-label">Pausar</span>
     </button>
   {:else}
     <button
@@ -44,7 +44,7 @@
       onclick={() => ttsStore.resume()}
     >
       <Play size={16} />
-      <span class="hidden md:inline">Seguir</span>
+      <span class="toolbar-label">Seguir</span>
     </button>
   {/if}
 

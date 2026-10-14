@@ -1,4 +1,4 @@
-<script lang="ts">
+﻿<script lang="ts">
   import { onDestroy, onMount, untrack } from 'svelte';
   import {
     Search,
@@ -40,8 +40,9 @@
   import { JsonHeadingsRepository } from '../infrastructure/JsonHeadingsRepository';
   import { JsonRedLettersRepository } from '../infrastructure/JsonRedLettersRepository';
   import { JsonInterlinearRepository } from '../../interlinear/infrastructure/JsonInterlinearRepository';
-  import { strongIdForWord } from '../../interlinear/domain/InterlinearVerse';
+  import { strongIdForWord, type InterlinearTestament } from '../../interlinear/domain/InterlinearVerse';
   import type { StrongToken } from '../../interlinear/domain/StrongTermAlignment';
+  import { strongTestamentFor } from '../../interlinear/domain/strongInteractiveTranslations';
   import { findBookInfo } from '../domain/entities/BibleBooks';
   import {
     buildVerseMessage,
@@ -170,8 +171,8 @@
   let isStrongQuickOpen = $state(false);
   let strongQuickId = $state<string | null>(null);
   let strongQuickReference = $state('');
-  let wlcInterlinearByVerse = $state<Record<number, StrongToken[]>>({});
-  let wlcLoadToken = 0;
+  let strongTokensByVerse = $state<Record<number, StrongToken[]>>({});
+  let strongLoadToken = 0;
 
   async function handleOpenCrossReferences(context: {
     reference: string;
@@ -298,7 +299,9 @@
   let currentBook = $derived(firstPassage ? firstPassage.book : 'Génesis');
   let currentChapter = $derived(firstPassage ? firstPassage.chapter : 1);
   let canAddMore = $derived(selectedTranslations.length < 5);
-  let hasWlcColumn = $derived(passages.some((p) => p.translationId === 'WLC'));
+  let strongTestament = $derived(
+    passages.map((p) => strongTestamentFor(p.translationId)).find((t) => t !== null) ?? null,
+  );
 
   function closeStrongQuick() {
     isStrongQuickOpen = false;
@@ -306,36 +309,41 @@
     strongQuickReference = '';
   }
 
-  function clearWlcInterlinearMap() {
-    wlcInterlinearByVerse = {};
+  function clearStrongInterlinearMap() {
+    strongTokensByVerse = {};
     if (isStrongQuickOpen) closeStrongQuick();
   }
 
-  async function loadWlcInterlinearMap(book: string, chapter: number, wlcVisible: boolean) {
-    const requestId = ++wlcLoadToken;
-    if (!wlcVisible) {
-      clearWlcInterlinearMap();
+  async function loadStrongInterlinearMap(
+    book: string,
+    chapter: number,
+    testament: InterlinearTestament | null,
+  ) {
+    const requestId = ++strongLoadToken;
+    if (!testament) {
+      clearStrongInterlinearMap();
       return;
     }
     try {
       const chapterData = await interlinearRepo.getChapter(book, chapter);
       // Descarta respuestas viejas: al cambiar de capítulo o de columna llegó otra.
-      if (requestId !== wlcLoadToken) return;
-      if (!chapterData || chapterData.testament !== 'hebrew') {
-        clearWlcInterlinearMap();
+      if (requestId !== strongLoadToken) return;
+      // Sin tokens de este testamento (p. ej. un libro deuterocanónico) no hay nada que marcar.
+      if (!chapterData || chapterData.testament !== testament) {
+        clearStrongInterlinearMap();
         return;
       }
       const mapped: Record<number, StrongToken[]> = {};
       for (const verseData of chapterData.verses) {
         mapped[verseData.verse] = verseData.words
           .map((word) => {
-            const strongId = strongIdForWord(word, 'hebrew');
+            const strongId = strongIdForWord(word, testament);
             if (!strongId) return null;
             return { token: word.text, strongId, lemma: word.lemma };
           })
           .filter((term): term is StrongToken => term !== null);
       }
-      wlcInterlinearByVerse = mapped;
+      strongTokensByVerse = mapped;
       // El término abierto puede no existir en el capítulo nuevo: se cierra el panel.
       if (isStrongQuickOpen && strongQuickId) {
         const exists = Object.values(mapped).some((terms) =>
@@ -344,7 +352,7 @@
         if (!exists) closeStrongQuick();
       }
     } catch {
-      if (requestId === wlcLoadToken) clearWlcInterlinearMap();
+      if (requestId === strongLoadToken) clearStrongInterlinearMap();
     }
   }
 
@@ -421,13 +429,14 @@
     }
   });
 
-  // Los términos Strong de WLC dependen del capítulo *y* de que haya una columna WLC:
-  // cambiar la versión de una columna tiene que recargar el mapa sin cambiar de capítulo.
+  // Los términos Strong dependen del capítulo *y* de que haya una columna con
+  // interlineal (WLC o WHNU): cambiar la versión de una columna tiene que recargar
+  // el mapa aunque no cambie el capítulo.
   $effect(() => {
     const b = currentBook;
     const c = currentChapter;
-    const wlcVisible = hasWlcColumn;
-    if (b && c) untrack(() => loadWlcInterlinearMap(b, c, wlcVisible));
+    const testament = strongTestament;
+    if (b && c) untrack(() => loadStrongInterlinearMap(b, c, testament));
   });
 
   $effect(() => {
@@ -590,8 +599,8 @@
             onclick={() => (isBookModalOpen = true)}
           >
             <BookOpen size={16} />
-            <span class="hidden sm:inline">Lista de libros bíblicos</span>
-            <span class="sm:hidden">Libros</span>
+            <span class="toolbar-label">Lista de libros bíblicos</span>
+            <span class="toolbar-label-short">Libros</span>
             <ChevronDown size={14} />
           </button>
 
@@ -603,8 +612,8 @@
             onclick={onAddParallelColumn}
           >
             <CopyPlus size={16} />
-            <span class="hidden sm:inline">Agregar paralelo</span>
-            <span class="sm:hidden">+ Paralelo</span>
+            <span class="toolbar-label">Agregar paralelo</span>
+            <span class="toolbar-label-short">+ Paralelo</span>
             <span class="parallel-count-badge">({selectedTranslations.length}/5)</span>
           </button>
 
@@ -621,7 +630,7 @@
             })}
           >
             <Link2 size={16} />
-            <span class="hidden md:inline">TSK del capítulo</span>
+            <span class="toolbar-label">TSK del capítulo</span>
           </button>
 
           <button
@@ -634,10 +643,10 @@
           >
             {#if showVerseCrossReferences}
               <EyeOff size={16} />
-              <span class="hidden md:inline">Ocultar referencias</span>
+              <span class="toolbar-label">Ocultar referencias</span>
             {:else}
               <Eye size={16} />
-              <span class="hidden md:inline">Mostrar referencias</span>
+              <span class="toolbar-label">Mostrar referencias</span>
             {/if}
           </button>
 
@@ -649,7 +658,7 @@
             onclick={handleOpenCommentaries}
           >
             <FileText size={16} />
-            <span class="hidden md:inline">Comentarios</span>
+            <span class="toolbar-label">Comentarios</span>
           </button>
 
           <button
@@ -662,10 +671,10 @@
           >
             {#if showVerseCommentaries}
               <EyeOff size={16} />
-              <span class="hidden md:inline">Ocultar CBA</span>
+              <span class="toolbar-label">Ocultar CBA</span>
             {:else}
               <Eye size={16} />
-              <span class="hidden md:inline">Mostrar CBA</span>
+              <span class="toolbar-label">Mostrar CBA</span>
             {/if}
           </button>
 
@@ -682,7 +691,7 @@
             onclick={handleProject}
           >
             <MonitorPlay size={16} />
-            <span class="hidden md:inline">{isProjecting ? 'Proyectando' : 'Proyectar'}</span>
+            <span class="toolbar-label">{isProjecting ? 'Proyectando' : 'Proyectar'}</span>
           </button>
         </div>
 
@@ -731,7 +740,7 @@
         {overlayHeadings}
         {overlayScope}
         {redPhrases}
-        {wlcInterlinearByVerse}
+        {strongTokensByVerse}
         onOpenCommentary={handleOpenCommentaryVerse}
         onOpenCrossReferences={handleOpenCrossReferences}
         onOpenNoteModal={handleOpenNoteModal}

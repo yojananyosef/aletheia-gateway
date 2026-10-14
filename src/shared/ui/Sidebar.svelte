@@ -67,7 +67,7 @@
   }
 </script>
 
-<aside class="neo-sidebar {isCollapsed && !isOpen ? 'is-collapsed' : ''} {isOpen ? 'is-open' : ''}">
+<aside id="app-sidebar" class="neo-sidebar {isCollapsed && !isOpen ? 'is-collapsed' : ''} {isOpen ? 'is-open' : ''}">
   <div class="neo-sidebar-header">
     <button
       type="button"

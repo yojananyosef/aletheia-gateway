@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
+  import { onMount, onDestroy } from 'svelte';
   import type { Snippet } from 'svelte';
   import Sidebar from './Sidebar.svelte';
   import Topbar from './Topbar.svelte';
@@ -28,10 +28,36 @@
 
   let isCollapsed = $state(false);
   let mobileOpen = $state(false);
+  let isMobile = $state(false);
   let isCalmMode = $state(false);
   let baseTheme = $state('standard');
 
+  /**
+   * El shell tiene dos estados de barra lateral: "encogida" en escritorio y
+   * "cajón abierto" en móvil. Se seguían separando con un `window.innerWidth`
+   * leído en cada clic, que se queda obsoleto al redimensionar la ventana.
+   * matchMedia mantiene el breakpoint al día y, al cruzarlo, deja el cajón
+   * cerrado para no dejarlo tapando el contenido sin que nadie lo haya abierto.
+   */
+  let mobileQuery: MediaQueryList | null = null;
+
+  function syncBreakpoint(matches: boolean) {
+    if (isMobile === matches) return;
+    isMobile = matches;
+    if (matches) mobileOpen = false;
+  }
+
+  function handleBreakpointChange(e: MediaQueryListEvent) {
+    syncBreakpoint(e.matches);
+  }
+
   onMount(() => {
+    if (typeof window !== 'undefined' && window.matchMedia) {
+      mobileQuery = window.matchMedia('(max-width: 768px)');
+      syncBreakpoint(mobileQuery.matches);
+      mobileQuery.addEventListener('change', handleBreakpointChange);
+    }
+
     const onMouse = (e: MouseEvent) => {
       if (typeof document === 'undefined') return;
       if (!document.body.classList.contains('ruler-on')) return;
@@ -96,7 +122,7 @@
   }
 
   function handleToggleSidebar() {
-    if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+    if (isMobile) {
       mobileOpen = !mobileOpen;
     } else {
       isCollapsed = !isCollapsed;
@@ -106,6 +132,10 @@
   function handleCloseMobile() {
     mobileOpen = false;
   }
+
+  onDestroy(() => {
+    mobileQuery?.removeEventListener('change', handleBreakpointChange);
+  });
 </script>
 
 <div class="app-layout-shell">
@@ -146,6 +176,7 @@
       view={activeView}
       {isCollapsed}
       menuOpen={mobileOpen}
+      {isMobile}
       {isCalmMode}
       onToggleSidebar={handleToggleSidebar}
       onToggleCalmMode={handleToggleCalmMode}

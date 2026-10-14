@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test, type Page } from '@playwright/test';
 
 test('home carga con buscador y marca Aletheia', async ({ page }) => {
   await page.goto('/');
@@ -270,24 +270,109 @@ test('interlineal: dropdowns del proyecto en libro/cap/vers', async ({ page }) =
   await expect(page.getByText('Génesis 2:1').first()).toBeVisible({ timeout: 20000 });
 });
 
-test('lector WLC: doble click abre Strong rápido sin salir del lector', async ({ page }) => {
-  await page.goto('/');
-  await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
-  await expect(page.getByText('Agregar paralelo').first()).toBeVisible();
-
-  // Cambiar la primera columna a WLC. El selector de versión de columna se acota a
-  // .translation-block porque la barra de lectura también usa .custom-version-trigger.
+/** Cambia la versión de la primera columna. El selector se acota a .translation-block
+ *  porque la barra de lectura (TTS) también usa .custom-version-trigger. */
+async function setFirstColumnVersion(page: Page, version: RegExp) {
   const firstColumn = page.locator('.translation-block').first();
   await firstColumn.locator('.custom-version-trigger').click();
-  await firstColumn.getByRole('option', { name: /Westminster Leningrad Codex/ }).click();
+  await firstColumn.getByRole('option', { name: version }).click();
+}
 
-  const wlcTerm = page.locator('.wlc-strong-term').first();
+async function openReader(page: Page) {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
+  // El texto "Agregar paralelo" se oculta en tarjetas estrechas (container query),
+  // así que la espera va contra la tarjeta del lector.
+  await expect(page.locator('.reader-card')).toBeVisible();
+}
+
+/** Lleva el lector a un pasaje concreto usando la barra de búsqueda. */
+async function goToPassage(page: Page, passage: string) {
+  const input = page.getByPlaceholder(/Buscar pasaje/);
+  await input.fill(passage);
+  await input.press('Enter');
+  await expect(page.locator('.column-ref-label').first()).toContainText(passage.split(':')[0]);
+}
+
+test('lector WLC: doble click abre Strong rápido sin salir del lector', async ({ page }) => {
+  await openReader(page);
+  await setFirstColumnVersion(page, /Westminster Leningrad Codex/);
+
+  const wlcTerm = page.locator('.strong-term').first();
   await expect(wlcTerm).toBeVisible({ timeout: 20000 });
   await wlcTerm.dblclick();
 
   await expect(page.getByRole('heading', { name: 'Strong rápido' })).toBeVisible();
   await expect(page.getByText('Strong hebreo #')).toBeVisible();
   await expect(page.locator('.reader-card')).toBeVisible();
+});
+
+test('lector WHNU: el Strong rápido funciona igual en griego', async ({ page }) => {
+  await openReader(page);
+  // WHNU es el Nuevo Testamento: el interlineal griego no cubre Génesis.
+  await goToPassage(page, 'Mateo 1:1');
+  await setFirstColumnVersion(page, /Westcott-Hort/);
+
+  const greekTerm = page.locator('.strong-term[data-strong-id^="G"]').first();
+  await expect(greekTerm).toBeVisible({ timeout: 20000 });
+  await greekTerm.dblclick();
+
+  await expect(page.getByRole('heading', { name: 'Strong rápido' })).toBeVisible();
+  await expect(page.getByText('Strong griego #')).toBeVisible();
+  await expect(page.locator('.reader-card')).toBeVisible();
+});
+
+test('lector: LXX no marca términos porque no hay interlineal de Septuaginta', async ({ page }) => {
+  await openReader(page);
+  await setFirstColumnVersion(page, /Septuaginta/);
+
+  const firstColumn = page.locator('.translation-block').first();
+  await expect(firstColumn).toBeVisible();
+  await expect(page.locator('.strong-term')).toHaveCount(0);
+});
+
+test('responsive: el toolbar no crece a una columna de botones', async ({ page }) => {
+  // A 900 px el toolbar era una grid de dos columnas y el grupo izquierdo se
+  // estrangulaba hasta quedar en 8 renglones de un botón (508 px de alto).
+  await page.setViewportSize({ width: 900, height: 900 });
+  await openReader(page);
+
+  const toolbar = page.locator('.reader-toolbar');
+  await expect(toolbar).toBeVisible();
+
+  const rows = await toolbar.evaluate((el) => {
+    const buttons = [...el.querySelectorAll('.toolbar-action-btn, .font-size-dropdown-container')];
+    return [...new Set(buttons.map((b) => Math.round(b.getBoundingClientRect().top)))].length;
+  });
+  expect(rows).toBeLessThanOrEqual(3);
+
+  const height = (await toolbar.boundingBox())!.height;
+  expect(height).toBeLessThan(220);
+
+  // Sin scroll horizontal y con el texto por debajo del toolbar.
+  const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth + 1);
+  expect(overflow).toBe(false);
+
+  const verse = page.locator('p.passage-text').first();
+  const verseTop = (await verse.boundingBox())!.y;
+  expect(verseTop).toBeGreaterThan(height);
+});
+
+test('responsive: en móvil la barra lateral anuncia su estado real', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/');
+
+  const toggle = page.locator('.sidebar-trigger-btn');
+  // Cerrada: el botón debe ofrecer abrirla, no "contraerla".
+  await expect(toggle).toHaveAttribute('aria-label', 'Abrir barra lateral');
+  await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+
+  await toggle.click();
+  await expect(toggle).toHaveAttribute('aria-label', 'Cerrar barra lateral');
+  await expect(page.locator('.neo-sidebar.is-open')).toBeVisible();
+
+  await page.locator('.neo-sidebar-backdrop').click({ position: { x: 360, y: 700 } });
+  await expect(toggle).toHaveAttribute('aria-label', 'Abrir barra lateral');
 });
 
 test('ayudas de lectura aplican al instante sin recargar', async ({ page }) => {
