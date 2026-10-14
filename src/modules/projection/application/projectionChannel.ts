@@ -12,7 +12,7 @@ export interface ProjectionPassage {
 }
 
 export interface ProjectionMessage {
-  type: 'verse' | 'clear';
+  type: 'verse' | 'clear' | 'ready';
   passage?: ProjectionPassage;
   /** HTML ya escapado (`<sup>n</sup> texto …`). */
   text?: string;
@@ -53,6 +53,25 @@ export function buildVerseMessage(
 
 let channel: BroadcastChannel | null = null;
 
+/**
+ * Último mensaje enviado, para poder reenviarlo cuando el receptor avise que ya
+ * está suscrito. Un `BroadcastChannel` no tiene acuse de recibo: lo que se envía
+ * antes de que el otro extremo se suscriba se descarta en silencio.
+ */
+let pending: ProjectionMessage | null = null;
+
+/**
+ * Reintentos con reloj todavía vivos. Sin esto, pulsar «Detener» no surte efecto:
+ * el temporizador de 2,5 s dispara después y vuelve a proyectar el pasaje que el
+ * usuario acababa de apagar.
+ */
+let reintentos: ReturnType<typeof setTimeout>[] = [];
+
+function cancelarReintentos() {
+  for (const id of reintentos) clearTimeout(id);
+  reintentos = [];
+}
+
 function getChannel(): BroadcastChannel | null {
   if (typeof window === 'undefined' || typeof BroadcastChannel === 'undefined') return null;
   if (!channel) {
@@ -61,6 +80,10 @@ function getChannel(): BroadcastChannel | null {
     } catch {
       return null;
     }
+    // El visor anuncia `ready` al suscribirse y cada anuncio reenvía lo pendiente.
+    channel.addEventListener('message', (event: MessageEvent<ProjectionMessage>) => {
+      if (event.data?.type === 'ready' && pending) sendProjection(pending);
+    });
   }
   return channel;
 }
@@ -68,6 +91,9 @@ function getChannel(): BroadcastChannel | null {
 export function sendProjection(message: ProjectionMessage): boolean {
   const ch = getChannel();
   if (!ch) return false;
+  // `ready` es del receptor: no debe quedar registrado como pendiente ni
+  // provocar un eco al recibirlo.
+  if (message.type !== 'ready') pending = message;
   try {
     ch.postMessage(message);
     return true;
@@ -77,7 +103,11 @@ export function sendProjection(message: ProjectionMessage): boolean {
 }
 
 export function clearProjection(): boolean {
-  return sendProjection({ type: 'clear' });
+  cancelarReintentos();
+  const ok = sendProjection({ type: 'clear' });
+  // Nada pendiente: si el visor vuelve a anunciarse no debe reenviar nada.
+  pending = null;
+  return ok;
 }
 
 export function openProjectionWindow(): boolean {
@@ -116,22 +146,30 @@ function openProjectionWindowRef(): Window | null {
  * Sin esto el primer mensaje se pierde (ventana aún cargando) y parece
  * que "el proyector no funciona". Modelo auditado: Proyektor/labiblia.in
  * (`window.open(visor)` + `cambiartexto()` diferido + iframe de vista previa).
+ *
+ * Los reintentos con reloj son sólo la red de seguridad: la vía fiable es el
+ * handshake `ready`, que no depende de cuánto tarde el visor. Con un arranque
+ * en frío de Vercel o una red móvil el visor puede tardar más de dos segundos en
+ * suscribirse, y para entonces cualquier temporizador fijo ya se agotó.
  */
-export function projectPassage(message: ProjectionMessage, retries = [150, 500, 1200]): boolean {
+export function projectPassage(message: ProjectionMessage, retries = [150, 500, 1200, 2500, 4000]): boolean {
   if (typeof window === 'undefined') return false;
+  cancelarReintentos();
   const win = openProjectionWindowRef();
   // Enviar aunque el popup fuese bloqueado: si el usuario ya tiene
   // /projection abierto a mano, el BroadcastChannel igual llega.
+  // `sendProjection` deja el mensaje como pendiente, así que cada `ready` del
+  // visor lo reenvía aunque haya llegado después del último temporizador.
   let sent = sendProjection(message);
-  for (const delay of retries) {
+  reintentos = retries.map((delay) =>
     setTimeout(() => {
       try {
         sendProjection(message);
       } catch {
         // ignorar
       }
-    }, delay);
-  }
+    }, delay),
+  );
   // Si ni popup ni canal: fallo real (navegador sin BroadcastChannel).
   if (!win && !sent) return false;
   return true;

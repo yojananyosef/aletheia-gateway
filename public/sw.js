@@ -62,11 +62,19 @@ function networkFirstShell(request) {
     .then((res) => {
       if (res && res.ok) {
         const copy = res.clone();
-        caches.open(SHELL_CACHE).then((cache) => cache.put('/', copy));
+        caches.open(SHELL_CACHE).then((cache) => cache.put(request, copy));
       }
       return res;
     })
-    .catch(() => caches.match('/').then((hit) => hit || Response.error()));
+    .catch(async () => {
+      // Fallback: primero lo que se pidió (`/projection` es una página propia y
+      // no puede servirse el shell), y sólo después el shell de la app.
+      const cachesFor = await caches.open(SHELL_CACHE);
+      const exacto = await cachesFor.match(request);
+      if (exacto) return exacto;
+      const shell = await caches.match('/');
+      return shell || Response.error();
+    });
 }
 
 self.addEventListener('fetch', (event) => {

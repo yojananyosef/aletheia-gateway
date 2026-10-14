@@ -19,6 +19,8 @@
   onMount(() => {
     document.documentElement.setAttribute('data-projection', 'active');
     let ch: BroadcastChannel | null = null;
+    /** Temporizadores de los anuncios `ready`, para poder cancelarlos al recibir. */
+    let anuncios: ReturnType<typeof setTimeout>[] = [];
     try {
       ch = new BroadcastChannel(PROJECTION_CHANNEL);
       ch.onmessage = (event: MessageEvent<ProjectionMessage>) => {
@@ -29,16 +31,40 @@
           version = '';
           return;
         }
+        if (data.type === 'ready') return;
+        // Llegó un pasaje: ya no hace falta seguir pidiendo que nos lo reenvíen.
+        for (const id of anuncios) clearTimeout(id);
+        anuncios = [];
         text = data.text ?? '';
         reference = data.reference ?? '';
         version = data.version ?? '';
         animate = false;
         setTimeout(() => (animate = true), 50);
       };
+
+      /**
+       * `BroadcastChannel` no tiene acuse de recibo: lo que el lector envía antes
+       * de que esta ventana se suscriba se descarta. Por eso el receptor
+       * anuncia `ready` y el lector reenvía lo pendiente. Se repite cada 500 ms
+       * durante unos 3 s para cubrir un arranque lento del visor, y se detiene en
+       * cuanto entra un pasaje.
+       */
+      for (let i = 0; i < 6; i += 1) {
+        anuncios.push(
+          setTimeout(() => {
+            try {
+              ch?.postMessage({ type: 'ready' } satisfies ProjectionMessage);
+            } catch {
+              // canal cerrado
+            }
+          }, i * 500),
+        );
+      }
     } catch {
       // BroadcastChannel no disponible
     }
     return () => {
+      for (const id of anuncios) clearTimeout(id);
       try {
         ch?.close();
       } catch {
