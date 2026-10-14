@@ -108,7 +108,11 @@
     max-width: 85vw !important;
     transform: translateX(-100%);
     box-shadow: 8px 0 0 var(--border-color);
-    z-index: 50;
+    /* Por encima de todo lo que vive en el área de lectura: el toolbar (80), el
+       selector de tamaño (85), la barra de resaltado (95) y los desplegables de
+       columna (100/110). Con 50 el toolbar amarillo se pintaba encima del menú
+       y tapaba Inicio, Concordancia, Strong e Interlineal. */
+    z-index: 115;
   }
 
   .neo-sidebar.is-open {
@@ -132,7 +136,7 @@
     inset: 0;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(2px);
-    z-index: 45;
+    z-index: 114;
   }
 
   .modern-main {
@@ -221,12 +225,6 @@
     padding: 14px 10px !important;
   }
 
-  .toolbar-left-group,
-  .toolbar-right-group {
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
   /* `flex: 1 1 auto` estiraba el último botón de la fila a todo el ancho;
      el alvo táctil de 40 px se mantiene sin ensanchar los controles. */
   .toolbar-action-btn {
@@ -290,5 +288,61 @@
 
   .app-topbar {
     padding: 0 12px !important;
+  }
+}
+
+/* ==========================================================================
+   TOOLBAR EN RETÍCULA CUANDO LA COLUMNA ES ESTRECHA
+   --------------------------------------------------------------------------
+   Con flexbox y anchos dispares el reparto dejaba filas dentadas con huecos
+   enormes entre controles (Voz ...... Vel.) y 212 px de toolbar antes del primer
+   versículo. La retícula los alinea en celdas iguales: 158 px en tres filas
+   limpias.
+
+   Va al final del archivo y por ancho de tarjeta, no de ventana, por dos
+   razones: con la barra lateral abierta (260 px) una ventana de 820 px deja
+   sólo 434 px de columna y necesita la retícula igual que un móvil; y para
+   ganar en la cascada a las media queries de arriba, que también Compiten por
+   `display` con `!important`.
+   ========================================================================== */
+@container readercard (max-width: 620px) {
+  .tts-controls,
+  .tts-dropdown,
+  .toolbar-left-group,
+  .toolbar-right-group,
+  .toolbar-chapter-nav {
+    display: contents !important;
+  }
+
+  .reader-toolbar {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 8px;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .reader-toolbar .toolbar-action-btn,
+  .reader-toolbar .font-size-dropdown-container,
+  .reader-toolbar .custom-version-dropdown,
+  .reader-toolbar .toolbar-nav-btn {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .reader-toolbar .custom-version-trigger {
+    width: 100%;
+  }
+
+  /* Los dos controles con rótulo (Libros, + Paralelo) ocupan media fila cada
+     uno; el resto, una celda. El tamaño de fuente necesita dos para su texto. */
+  .reader-toolbar .toolbar-action-btn:has(.toolbar-label-short) {
+    grid-column: span 3;
+  }
+
+  .reader-toolbar .font-size-dropdown-container {
+    grid-column: span 2;
   }
 }

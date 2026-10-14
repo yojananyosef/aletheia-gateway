@@ -286,6 +286,24 @@ async function openReader(page: Page) {
   await expect(page.locator('.reader-card')).toBeVisible();
 }
 
+/** Como openReader, pero abre primero el cajón lateral si la ventana es estrecha:
+ *  por debajo de 768 px la barra está fuera de pantalla y sus enlaces no se
+ *  pueden pulsar. Al terminar la deja cerrada. */
+async function openReaderFromSidebar(page: Page) {
+  await page.goto('/');
+  const offCanvas = await page.evaluate(
+    () => document.querySelector('.neo-sidebar')!.getBoundingClientRect().right <= 1,
+  );
+  if (offCanvas) {
+    await page.locator('.sidebar-trigger-btn').click();
+    await expect(page.locator('.neo-sidebar.is-open')).toBeVisible();
+  }
+  await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
+  await expect(page.locator('.reader-card')).toBeVisible();
+  // Navegar ya cierra el cajón; sólo se comprueba.
+  if (offCanvas) await expect(page.locator('.neo-sidebar.is-open')).toHaveCount(0);
+}
+
 /** Lleva el lector a un pasaje concreto usando la barra de búsqueda. */
 async function goToPassage(page: Page, passage: string) {
   const input = page.getByPlaceholder(/Buscar pasaje/);
@@ -373,6 +391,90 @@ test('responsive: en móvil la barra lateral anuncia su estado real', async ({ p
 
   await page.locator('.neo-sidebar-backdrop').click({ position: { x: 360, y: 700 } });
   await expect(toggle).toHaveAttribute('aria-label', 'Abrir barra lateral');
+});
+
+test('responsive: con el menú abierto nada del lector asoma por encima', async ({ page }) => {
+  // El toolbar (z 80) y el selector de tamaño (z 90) quedaban por encima de la
+  // barra lateral (z 50): el menú se pintaba debajo del toolbar amarillo y
+  // tapaba Inicio, Concordancia, Strong e Interlineal.
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/');
+  await page.locator('.sidebar-trigger-btn').click();
+  await expect(page.locator('.neo-sidebar.is-open')).toBeVisible();
+  await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
+  await expect(page.locator('.reader-card')).toBeVisible();
+  await page.locator('.sidebar-trigger-btn').click();
+  await expect(page.locator('.neo-sidebar.is-open')).toBeVisible();
+
+  // Un enlace del propio menú debe poder pulsarse: si el toolbar está por encima,
+  // el punto devuelve el botón del toolbar en vez del enlace. Se aparta el ratón
+  // porque NeoTooltip va a z-index 9999999 y se comería el punto.
+  await page.mouse.move(0, 0);
+  await page.waitForTimeout(400);
+  const encima = await page.evaluate(() => {
+    const link = [...document.querySelectorAll('.neo-sidebar .neo-nav-button')].find((b) =>
+      (b.textContent || '').includes('Concordancia'),
+    ) as HTMLElement | undefined;
+    if (!link) return 'sin-enlace';
+    const r = link.getBoundingClientRect();
+    const el = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2);
+    return el?.closest('.neo-nav-button') === link ? 'sidebar' : 'tapado';
+  });
+  expect(encima, 'el toolbar se pinta encima del menú lateral').toBe('sidebar');
+
+  // Ningún control del toolbar puede quedar por encima de la barra.
+  const intrusive = await page.evaluate(() => {
+    const sb = document.querySelector('.neo-sidebar')!.getBoundingClientRect();
+    return [...document.querySelectorAll('.reader-toolbar button, .reader-toolbar .custom-version-trigger')]
+      .filter((b) => {
+        const r = b.getBoundingClientRect();
+        if (r.width === 0) return false;
+        const dentro = r.left < sb.right && r.right > sb.left && r.top < sb.bottom && r.bottom > sb.top;
+        if (!dentro) return false;
+        // Visible por encima de la barra si el propio control recibe el clic.
+        return document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2) === b;
+      })
+      .map((b) => b.textContent?.trim().slice(0, 20) || b.className);
+  });
+  expect(intrusive, 'controles del toolbar por encima de la barra lateral').toEqual([]);
+});
+
+test('responsive: el toolbar móvil se alinea en retícula y no en filas dentadas', async ({ page }) => {
+  // 212 px de toolbar en cuatro filas con huecos (Voz ...... Vel.) antes.
+  for (const [w, h, maxHeight] of [
+    [390, 844, 170],
+    [640, 900, 170],
+    [820, 1180, 170],
+  ] as const) {
+    await page.setViewportSize({ width: w, height: h });
+    await openReaderFromSidebar(page);
+
+    const info = await page.locator('.reader-toolbar').evaluate((el) => {
+      const r = el.getBoundingClientRect();
+      const cells = [...el.querySelectorAll(':scope > *')]
+        .flatMap((c) =>
+          c.classList.contains('toolbar-left-group') ||
+          c.classList.contains('toolbar-right-group') ||
+          c.classList.contains('tts-controls') ||
+          c.classList.contains('toolbar-chapter-nav')
+            ? [...c.children]
+            : [c],
+        )
+        .filter((c) => c.getBoundingClientRect().width > 0);
+      const desborde = cells.filter((c) => {
+        const b = c.getBoundingClientRect();
+        return b.right > r.right - 1 || b.left < r.left + 1;
+      });
+      // Filas = bandas verticales. Dos controles de una misma fila pueden tener
+      // `top` distinto si son más bajos y van centrados, así que se agrupan.
+      const filas = [...new Set(cells.map((c) => Math.round((c.getBoundingClientRect().top - r.top) / 8)))];
+      return { alto: Math.round(r.height), filas: filas.length, desborde: desborde.length };
+    });
+
+    expect(info.alto, `toolbar demasiado alto a ${w}px`).toBeLessThanOrEqual(maxHeight);
+    expect(info.desborde, `controles desbordados a ${w}px`).toBe(0);
+    expect(info.filas, `demasiadas filas a ${w}px`).toBeLessThanOrEqual(3);
+  }
 });
 
 test('responsive: la barra lateral entra entera sin barra de desplazamiento', async ({ page }) => {
