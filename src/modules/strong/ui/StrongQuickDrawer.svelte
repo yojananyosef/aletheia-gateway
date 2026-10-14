@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onDestroy, onMount } from 'svelte';
+  import { onDestroy, onMount, tick, untrack } from 'svelte';
   import { BookOpen, Volume2, VolumeX, X } from 'lucide-svelte';
   import { JsonStrongRepository } from '../infrastructure/JsonStrongRepository';
   import { OccurrencesRepository, type StrongOccurrences } from '../infrastructure/OccurrencesRepository';
@@ -28,23 +28,11 @@
   let occurrences = $state<StrongOccurrences | null>(null);
   let isLoading = $state(false);
   let isPlaying = $state(false);
+  /** Se va llenando en runtime cuando un mp3 no existe (igual que en StrongView). */
+  let audioMissingIds = $state<string[]>([]);
 
-  const audioMissingIds = new Set([
-    'H9001', 'H9002', 'H9003', 'H9004', 'H9005', 'H9006',
-    'H3544', 'H3577', 'H5713', 'H7267', 'H7609', 'H8354',
-    'H8566', 'H8603', 'H8642', 'H8674', 'H8675',
-    'G136', 'G867', 'G1027', 'G1467', 'G1737', 'G2103', 'G2618',
-    'G2795', 'G3212', 'G3336', 'G3363', 'G3507', 'G4274', 'G4275',
-    'G4398', 'G4446', 'G4620', 'G4624', 'G4688', 'G5025', 'G5052',
-    'G5109', 'G5515', 'G5607',
-  ]);
-
-  function occurrenceLabel(ref: string): string {
-    const [code, cv] = ref.split(' ');
-    if (!cv) return ref;
-    const [chapter, verse] = cv.split(':');
-    return `${code} ${chapter}:${verse}`;
-  }
+  let closeButtonEl = $state<HTMLButtonElement | null>(null);
+  let previousFocus: HTMLElement | null = null;
 
   async function loadStrong(id: string) {
     isLoading = true;
@@ -57,26 +45,35 @@
         entry = nextEntry;
         occurrences = nextOccurrences;
       }
+    } catch {
+      if (strongId === id) {
+        entry = null;
+        occurrences = null;
+      }
     } finally {
       if (strongId === id) isLoading = false;
     }
   }
 
-  async function playAudio() {
-    if (!entry || audioMissingIds.has(entry.id) || isPlaying) return;
+  async function playAudio(current: StrongEntry) {
+    if (audioMissingIds.includes(current.id) || isPlaying) return;
     isPlaying = true;
     try {
-      const audio = new Audio(entry.audioPath);
+      const audio = new Audio(current.audioPath);
       await audio.play();
       audio.addEventListener('ended', () => (isPlaying = false), { once: true });
-      audio.addEventListener('error', () => (isPlaying = false), { once: true });
     } catch {
+      if (!audioMissingIds.includes(current.id)) {
+        audioMissingIds = [...audioMissingIds, current.id];
+      }
       isPlaying = false;
     }
   }
 
   function handleKey(event: KeyboardEvent) {
-    if (event.key === 'Escape' && isOpen) onClose();
+    if (!isOpen || event.key !== 'Escape') return;
+    event.stopPropagation();
+    onClose();
   }
 
   $effect(() => {
@@ -87,7 +84,23 @@
       entry = null;
       occurrences = null;
       isLoading = false;
+      isPlaying = false;
     }
+  });
+
+  // Al abrir, el foco entra al panel; al cerrar vuelve al término del texto hebreo
+  // para no perder el punto de lectura. Los refs van en untrack porque si no el
+  // efecto se dispararía dos veces (bind:this escribe después del primer render).
+  $effect(() => {
+    if (!isOpen) return;
+    untrack(() => {
+      previousFocus = (document.activeElement as HTMLElement) ?? null;
+    });
+    tick().then(() => untrack(() => closeButtonEl?.focus()));
+    return () => {
+      previousFocus?.focus?.();
+      previousFocus = null;
+    };
   });
 
   onMount(() => {
@@ -100,14 +113,32 @@
 </script>
 
 {#if isOpen}
-  <button type="button" class="strong-quick-backdrop" onclick={onClose} aria-label="Cerrar panel Strong"></button>
-  <aside class="strong-quick-drawer" aria-label="Strong quick view">
+  <button
+    type="button"
+    class="strong-quick-backdrop"
+    onclick={onClose}
+    aria-label="Cerrar panel Strong"
+    tabindex="-1"
+  ></button>
+  <aside
+    class="strong-quick-drawer neo-card"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Strong rápido"
+  >
     <div class="strong-quick-header">
-      <div>
+      <div class="strong-quick-heading">
         <h2>Strong rápido</h2>
-        {#if referenceLabel}<span>{referenceLabel}</span>{/if}
+        {#if referenceLabel}<span class="strong-quick-ref">{referenceLabel}</span>{/if}
       </div>
-      <button type="button" class="strong-quick-close" onclick={onClose} aria-label="Cerrar panel Strong">
+      <button
+        type="button"
+        class="neo-btn-icon"
+        onclick={onClose}
+        data-tooltip="Cerrar panel (Esc)"
+        aria-label="Cerrar panel Strong"
+        bind:this={closeButtonEl}
+      >
         <X size={18} />
       </button>
     </div>
@@ -116,23 +147,25 @@
       <p class="strong-quick-state">Cargando…</p>
     {:else if entry}
       {@const isHebrew = entry.testament === 'hebrew'}
+      {@const hasAudio = !audioMissingIds.includes(entry.id)}
       <div class="strong-quick-body">
-        <span class="strong-quick-id">Strong {isHebrew ? 'hebreo' : 'griego'} #{entry.number}</span>
-        <p class="strong-quick-word" dir={isHebrew ? 'rtl' : 'ltr'} lang={isHebrew ? 'he' : 'el'}>
+        <span class="strong-id-badge">Strong {isHebrew ? 'hebreo' : 'griego'} #{entry.number}</span>
+        <p class="strong-word" dir={isHebrew ? 'rtl' : 'ltr'} lang={isHebrew ? 'he' : 'el'}>
           {entry.word || '—'}
         </p>
-        <p class="strong-quick-pron">{entry.pronunciation || '—'}</p>
+        <p class="strong-pronunciation">{entry.pronunciation || '—'}</p>
         <button
           type="button"
-          class="strong-quick-audio"
-          disabled={audioMissingIds.has(entry.id)}
-          onclick={playAudio}
+          class="strong-audio-btn"
+          disabled={!hasAudio}
+          onclick={() => playAudio(entry)}
           aria-label="Escuchar pronunciación"
+          data-tooltip={hasAudio ? `Escuchar ${entry.id}` : 'Sin audio'}
         >
-          {#if audioMissingIds.has(entry.id)}
-            <VolumeX size={16} /><span>Sin audio</span>
-          {:else}
+          {#if hasAudio}
             <Volume2 size={16} /><span>{isPlaying ? 'Reproduciendo…' : 'Escuchar'}</span>
+          {:else}
+            <VolumeX size={16} /><span>Sin audio</span>
           {/if}
         </button>
 
@@ -152,15 +185,16 @@
           {/if}
         </dl>
 
-        <p class="strong-quick-occ">
+        <p class="strong-quick-occurrences">
           {#if occurrences}
-            {occurrences.n.toLocaleString('es-CL')} {occurrences.n === 1 ? 'versículo' : 'versículos'}
+            {occurrences.n.toLocaleString('es-CL')}
+            {occurrences.n === 1 ? 'versículo' : 'versículos'}
           {:else}
             Sin ocurrencias registradas.
           {/if}
         </p>
 
-        <button type="button" class="strong-quick-open" onclick={() => onOpenDictionary?.(entry.id)}>
+        <button type="button" class="strong-quick-open" onclick={() => onOpenDictionary?.(entry!.id)}>
           <BookOpen size={15} />
           <span>Abrir diccionario completo</span>
         </button>
@@ -172,26 +206,40 @@
 {/if}
 
 <style>
+  /* Mismo nivel que los demás paneles laterales del lector (120/130): por debajo
+     quedan la barra flotante de resaltado (95) y el menú de tamaños (90). */
   .strong-quick-backdrop {
     position: fixed;
     inset: 0;
-    z-index: 55;
-    background: rgba(0, 0, 0, 0.36);
+    z-index: 120;
+    background: rgba(0, 0, 0, 0.45);
     border: 0;
+    cursor: pointer;
   }
 
   .strong-quick-drawer {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 56;
-    width: min(420px, 92vw);
-    height: 100vh;
+    bottom: 0;
+    z-index: 130;
+    width: 100%;
+    max-width: 440px;
     padding: 14px;
     background: var(--bg-surface);
-    border-left: 3px solid var(--border-color);
-    box-shadow: -6px 0 0 var(--border-color);
+    border-left: var(--border-width-desktop) solid var(--border-color);
+    box-shadow: -6px 0 0 rgba(0, 0, 0, 0.15);
     overflow-y: auto;
+    animation: strong-quick-slide-in 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  @keyframes strong-quick-slide-in {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
   }
 
   .strong-quick-header {
@@ -202,43 +250,30 @@
     margin-bottom: 12px;
   }
 
-  .strong-quick-header h2 {
+  .strong-quick-heading {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .strong-quick-heading h2 {
     margin: 0;
     font-family: var(--font-display);
     font-size: 1.1rem;
     font-weight: 900;
   }
 
-  .strong-quick-header span {
+  .strong-quick-ref {
     font-family: var(--font-mono);
     font-size: 0.7rem;
     font-weight: 700;
     opacity: 0.8;
   }
 
-  .strong-quick-close {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 34px;
-    height: 34px;
-    border: 2px solid var(--border-color);
-    background: var(--bg-canvas);
-    box-shadow: 2px 2px 0 var(--border-color);
-    cursor: pointer;
-  }
-
   .strong-quick-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-  }
-
-  .strong-quick-id {
-    font-family: var(--font-mono);
-    font-size: 0.72rem;
-    font-weight: 900;
-    text-transform: uppercase;
   }
 
   .strong-quick-word {
@@ -248,7 +283,7 @@
     line-height: 1.2;
   }
 
-  .strong-quick-pron {
+  .strong-pronunciation {
     margin: 0;
     color: var(--text-muted);
     font-family: var(--font-mono);
@@ -256,7 +291,7 @@
     font-weight: 700;
   }
 
-  .strong-quick-audio,
+  .strong-audio-btn,
   .strong-quick-open {
     display: inline-flex;
     align-items: center;
@@ -273,7 +308,7 @@
     font-weight: 800;
   }
 
-  .strong-quick-audio:disabled {
+  .strong-audio-btn:disabled {
     opacity: 0.5;
     cursor: not-allowed;
   }
@@ -309,7 +344,7 @@
     font-size: 0.76rem;
   }
 
-  .strong-quick-occ,
+  .strong-quick-occurrences,
   .strong-quick-state {
     margin: 0;
     color: var(--text-muted);

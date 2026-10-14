@@ -275,9 +275,11 @@ test('lector WLC: doble click abre Strong rápido sin salir del lector', async (
   await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
   await expect(page.getByText('Agregar paralelo').first()).toBeVisible();
 
-  // Cambiar primera columna a WLC.
-  await page.locator('.custom-version-trigger').first().click();
-  await page.getByRole('option', { name: /Westminster Leningrad Codex/ }).first().click();
+  // Cambiar la primera columna a WLC. El selector de versión de columna se acota a
+  // .translation-block porque la barra de lectura también usa .custom-version-trigger.
+  const firstColumn = page.locator('.translation-block').first();
+  await firstColumn.locator('.custom-version-trigger').click();
+  await firstColumn.getByRole('option', { name: /Westminster Leningrad Codex/ }).click();
 
   const wlcTerm = page.locator('.wlc-strong-term').first();
   await expect(wlcTerm).toBeVisible({ timeout: 20000 });

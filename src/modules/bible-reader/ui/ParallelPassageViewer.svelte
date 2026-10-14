@@ -10,6 +10,10 @@
   import { findBookInfo } from '../domain/entities/BibleBooks';
   import ColumnVersionDropdown from './ColumnVersionDropdown.svelte';
   import { resolveVerseHeadings } from '../domain/entities/SectionHeading';
+  import {
+    alignStrongTokens,
+    type StrongToken,
+  } from '../../interlinear/domain/StrongTermAlignment';
   import { resolveRedSpans, type RedSpan } from '../domain/entities/WordsOfChrist';
   import { bionicHtml } from '../../../shared/utils/bionic';
 
@@ -52,7 +56,7 @@
       existingNoteId?: string;
       existingContent?: string;
     }) => void;
-    wlcInterlinearByVerse?: Record<number, { token: string; strongId: string; lemma?: string }[]>;
+    wlcInterlinearByVerse?: Record<number, StrongToken[]>;
     onOpenStrongQuick?: (context: { strongId: string; reference: string; lemma?: string }) => void;
   }
 
@@ -94,52 +98,35 @@
       .replace(/'/g, '&#039;');
   }
 
-  function normalizeHebrewToken(value: string): string {
-    return value
-      .normalize('NFKD')
-      .replace(/[\u0591-\u05C7]/g, '')
-      .replace(/[\u200e\u200f]/g, '')
-      .replace(/[^א-ת]/g, '');
-  }
-
+  /**
+   * Envuelve los términos con ficha Strong del versículo WLC. El texto siempre se
+   * emite completo: si no hay alineación, sale como texto plano y sin interacción.
+   */
   function renderWlcVerseText(
     verseText: string,
     verseNumber: number,
     reference: string
   ): string {
-    const terms = wlcInterlinearByVerse[verseNumber] ?? [];
-    if (terms.length === 0) return escapeHtml(verseText);
+    const terms = wlcInterlinearByVerse[verseNumber];
+    if (!verseText || !terms || terms.length === 0) return escapeHtml(verseText);
 
-    const normalizedTerms = terms
-      .map((term) => ({ ...term, normalized: normalizeHebrewToken(term.token) }))
-      .filter((term) => term.normalized.length > 0);
-    if (normalizedTerms.length === 0) return escapeHtml(verseText);
+    const spans = alignStrongTokens(verseText, terms);
+    if (spans.length === 0) return escapeHtml(verseText);
 
-    const parts = verseText.split(/(\s+|־|׃|[.,;:!?()[\]{}"“”'׳״])/g).filter(Boolean);
-    let termIndex = 0;
     let html = '';
-
-    for (const part of parts) {
-      const normalizedPart = normalizeHebrewToken(part);
-      let matched: (typeof normalizedTerms)[number] | null = null;
-
-      if (normalizedPart) {
-        while (termIndex < normalizedTerms.length) {
-          const candidate = normalizedTerms[termIndex];
-          termIndex += 1;
-          if (candidate.normalized === normalizedPart) {
-            matched = candidate;
-            break;
-          }
-        }
-      }
-
-      if (matched?.strongId) {
-        html += `<span class="wlc-strong-term" role="button" tabindex="0" data-strong-id="${escapeHtml(matched.strongId)}" data-lemma="${escapeHtml(matched.lemma || '')}" data-reference="${escapeHtml(reference)}" aria-label="Abrir ${escapeHtml(matched.strongId)} en Strong">${escapeHtml(part)}</span>`;
-      } else {
-        html += escapeHtml(part);
-      }
+    let cursor = 0;
+    for (const span of spans) {
+      if (span.start > cursor) html += escapeHtml(verseText.slice(cursor, span.start));
+      html +=
+        `<span class="wlc-strong-term" role="button" tabindex="0"` +
+        ` data-strong-id="${escapeHtml(span.strongId)}"` +
+        ` data-lemma="${escapeHtml(span.lemma ?? '')}"` +
+        ` data-reference="${escapeHtml(reference)}"` +
+        ` aria-label="Definición Strong ${escapeHtml(span.strongId)}">` +
+        `${escapeHtml(verseText.slice(span.start, span.end))}</span>`;
+      cursor = span.end;
     }
+    if (cursor < verseText.length) html += escapeHtml(verseText.slice(cursor));
 
     return html;
   }

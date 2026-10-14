@@ -41,6 +41,7 @@
   import { JsonRedLettersRepository } from '../infrastructure/JsonRedLettersRepository';
   import { JsonInterlinearRepository } from '../../interlinear/infrastructure/JsonInterlinearRepository';
   import { strongIdForWord } from '../../interlinear/domain/InterlinearVerse';
+  import type { StrongToken } from '../../interlinear/domain/StrongTermAlignment';
   import { findBookInfo } from '../domain/entities/BibleBooks';
   import {
     buildVerseMessage,
@@ -169,8 +170,8 @@
   let isStrongQuickOpen = $state(false);
   let strongQuickId = $state<string | null>(null);
   let strongQuickReference = $state('');
-  type WlcTerm = { token: string; strongId: string; lemma?: string };
-  let wlcInterlinearByVerse = $state<Record<number, WlcTerm[]>>({});
+  let wlcInterlinearByVerse = $state<Record<number, StrongToken[]>>({});
+  let wlcLoadToken = 0;
 
   async function handleOpenCrossReferences(context: {
     reference: string;
@@ -299,49 +300,51 @@
   let canAddMore = $derived(selectedTranslations.length < 5);
   let hasWlcColumn = $derived(passages.some((p) => p.translationId === 'WLC'));
 
-  async function loadWlcInterlinearMap(book: string, chapter: number) {
-    if (!hasWlcColumn) {
-      wlcInterlinearByVerse = {};
-      if (isStrongQuickOpen) {
-        isStrongQuickOpen = false;
-        strongQuickId = null;
-      }
+  function closeStrongQuick() {
+    isStrongQuickOpen = false;
+    strongQuickId = null;
+    strongQuickReference = '';
+  }
+
+  function clearWlcInterlinearMap() {
+    wlcInterlinearByVerse = {};
+    if (isStrongQuickOpen) closeStrongQuick();
+  }
+
+  async function loadWlcInterlinearMap(book: string, chapter: number, wlcVisible: boolean) {
+    const requestId = ++wlcLoadToken;
+    if (!wlcVisible) {
+      clearWlcInterlinearMap();
       return;
     }
     try {
       const chapterData = await interlinearRepo.getChapter(book, chapter);
+      // Descarta respuestas viejas: al cambiar de capítulo o de columna llegó otra.
+      if (requestId !== wlcLoadToken) return;
       if (!chapterData || chapterData.testament !== 'hebrew') {
-        wlcInterlinearByVerse = {};
-        if (isStrongQuickOpen) {
-          isStrongQuickOpen = false;
-          strongQuickId = null;
-        }
+        clearWlcInterlinearMap();
         return;
       }
-      const mapped: Record<number, WlcTerm[]> = {};
+      const mapped: Record<number, StrongToken[]> = {};
       for (const verseData of chapterData.verses) {
         mapped[verseData.verse] = verseData.words
           .map((word) => {
             const strongId = strongIdForWord(word, 'hebrew');
             if (!strongId) return null;
-            return {
-              token: word.text,
-              strongId,
-              lemma: word.lemma,
-            };
+            return { token: word.text, strongId, lemma: word.lemma };
           })
-          .filter((term): term is WlcTerm => term !== null);
+          .filter((term): term is StrongToken => term !== null);
       }
       wlcInterlinearByVerse = mapped;
+      // El término abierto puede no existir en el capítulo nuevo: se cierra el panel.
       if (isStrongQuickOpen && strongQuickId) {
-        const exists = Object.values(mapped).some((terms) => terms.some((term) => term.strongId === strongQuickId));
-        if (!exists) {
-          isStrongQuickOpen = false;
-          strongQuickId = null;
-        }
+        const exists = Object.values(mapped).some((terms) =>
+          terms.some((term) => term.strongId === strongQuickId),
+        );
+        if (!exists) closeStrongQuick();
       }
     } catch {
-      wlcInterlinearByVerse = {};
+      if (requestId === wlcLoadToken) clearWlcInterlinearMap();
     }
   }
 
@@ -414,9 +417,17 @@
         loadHighlightsAndNotes();
         loadCbaAvailability(b, c);
         loadOverlays(b, c);
-        loadWlcInterlinearMap(b, c);
       });
     }
+  });
+
+  // Los términos Strong de WLC dependen del capítulo *y* de que haya una columna WLC:
+  // cambiar la versión de una columna tiene que recargar el mapa sin cambiar de capítulo.
+  $effect(() => {
+    const b = currentBook;
+    const c = currentChapter;
+    const wlcVisible = hasWlcColumn;
+    if (b && c) untrack(() => loadWlcInterlinearMap(b, c, wlcVisible));
   });
 
   $effect(() => {
@@ -435,7 +446,6 @@
     loadHighlightsAndNotes();
     loadCbaAvailability(currentBook, currentChapter);
     loadOverlays(currentBook, currentChapter);
-    loadWlcInterlinearMap(currentBook, currentChapter);
   });
 
   function handleOpenStrongQuick(context: {
@@ -449,7 +459,7 @@
 
   function handleOpenFullStrong(strongId: string) {
     onOpenStrong?.(strongId);
-    isStrongQuickOpen = false;
+    closeStrongQuick();
   }
 
   function handleSubmit(event: Event) {
@@ -820,10 +830,7 @@
     isOpen={isStrongQuickOpen}
     strongId={strongQuickId}
     referenceLabel={strongQuickReference}
-    onClose={() => {
-      isStrongQuickOpen = false;
-      strongQuickId = null;
-    }}
+    onClose={closeStrongQuick}
     onOpenDictionary={handleOpenFullStrong}
   />
 </div>
