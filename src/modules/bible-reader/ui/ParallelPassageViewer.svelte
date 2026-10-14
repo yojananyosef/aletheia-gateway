@@ -1,4 +1,4 @@
-<script lang="ts">
+﻿<script lang="ts">
   import { onDestroy, onMount } from 'svelte';
   import { X, ArrowRight, ArrowUp, FileText, BookOpen, BookOpenText, Link2 } from 'lucide-svelte';
   import type { PassageVersionResult, SectionFootnote } from '../domain/entities/Chapter';
@@ -14,6 +14,10 @@
     alignStrongTokens,
     type StrongToken,
   } from '../../interlinear/domain/StrongTermAlignment';
+  import {
+  isStrongInteractive,
+  strongTestamentFor,
+} from '../../interlinear/domain/strongInteractiveTranslations';
   import { resolveRedSpans, type RedSpan } from '../domain/entities/WordsOfChrist';
   import { bionicHtml } from '../../../shared/utils/bionic';
 
@@ -56,7 +60,7 @@
       existingNoteId?: string;
       existingContent?: string;
     }) => void;
-    wlcInterlinearByVerse?: Record<number, StrongToken[]>;
+    strongTokensByVerse?: Record<number, StrongToken[]>;
     onOpenStrongQuick?: (context: { strongId: string; reference: string; lemma?: string }) => void;
   }
 
@@ -77,7 +81,7 @@
     overlayScope = null,
     redPhrases = {},
     onOpenCommentary,
-    wlcInterlinearByVerse = {},
+    strongTokensByVerse = {},
     onOpenStrongQuick,
   }: Props = $props();
 
@@ -99,18 +103,20 @@
   }
 
   /**
-   * Envuelve los términos con ficha Strong del versículo WLC. El texto siempre se
-   * emite completo: si no hay alineación, sale como texto plano y sin interacción.
+   * Envuelve los términos con ficha Strong del versículo (WLC, WHNU…). El texto
+   * siempre se emite completo: si no hay alineación, sale plano y sin interacción.
    */
-  function renderWlcVerseText(
+  function renderStrongVerseText(
     verseText: string,
     verseNumber: number,
-    reference: string
+    reference: string,
+    translationId: string
   ): string {
-    const terms = wlcInterlinearByVerse[verseNumber];
-    if (!verseText || !terms || terms.length === 0) return escapeHtml(verseText);
+    const testament = strongTestamentFor(translationId);
+    const terms = testament ? strongTokensByVerse[verseNumber] : undefined;
+    if (!testament || !verseText || !terms || terms.length === 0) return escapeHtml(verseText);
 
-    const spans = alignStrongTokens(verseText, terms);
+    const spans = alignStrongTokens(verseText, terms, testament);
     if (spans.length === 0) return escapeHtml(verseText);
 
     let html = '';
@@ -118,7 +124,7 @@
     for (const span of spans) {
       if (span.start > cursor) html += escapeHtml(verseText.slice(cursor, span.start));
       html +=
-        `<span class="wlc-strong-term" role="button" tabindex="0"` +
+        `<span class="strong-term" role="button" tabindex="0"` +
         ` data-strong-id="${escapeHtml(span.strongId)}"` +
         ` data-lemma="${escapeHtml(span.lemma ?? '')}"` +
         ` data-reference="${escapeHtml(reference)}"` +
@@ -148,13 +154,13 @@
 
   function handleVerseDblClick(event: MouseEvent) {
     const target = event.target as HTMLElement | null;
-    const term = target?.closest('.wlc-strong-term') as HTMLElement | null;
+    const term = target?.closest('.strong-term') as HTMLElement | null;
     dispatchStrongFromElement(term);
   }
 
   function handleVerseTouchEnd(event: TouchEvent) {
     const target = event.target as HTMLElement | null;
-    const term = target?.closest('.wlc-strong-term') as HTMLElement | null;
+    const term = target?.closest('.strong-term') as HTMLElement | null;
     if (!term) return;
     const strongId = term.dataset.strongId || '';
     const now = Date.now();
@@ -172,7 +178,7 @@
   function handleVerseKeyDown(event: KeyboardEvent) {
     if (event.key !== 'Enter' && event.key !== ' ') return;
     const target = event.target as HTMLElement | null;
-    const term = target?.closest('.wlc-strong-term') as HTMLElement | null;
+    const term = target?.closest('.strong-term') as HTMLElement | null;
     if (!term) return;
     event.preventDefault();
     dispatchStrongFromElement(term);
@@ -444,6 +450,7 @@
                   {/each}
                 {/if}
 
+                {@const strongInteractive = isStrongInteractive(passage.translationId)}
                 <p
                   id={verseDomId}
                   class="passage-text"
@@ -452,18 +459,19 @@
                   data-verse={verse.number}
                   data-verse-display={verseDisplayLabel}
                   data-translation={passage.translationId}
-                  ondblclick={passage.translationId === 'WLC' ? handleVerseDblClick : undefined}
-                  ontouchend={passage.translationId === 'WLC' ? handleVerseTouchEnd : undefined}
-                  onkeydown={passage.translationId === 'WLC' ? handleVerseKeyDown : undefined}
+                  ondblclick={strongInteractive ? handleVerseDblClick : undefined}
+                  ontouchend={strongInteractive ? handleVerseTouchEnd : undefined}
+                  onkeydown={strongInteractive ? handleVerseKeyDown : undefined}
                 >
                   <span class="verse-num">{verseDisplayLabel}</span>
-                  
+
                   <span class="verse-text-content">
-                    {@html passage.translationId === 'WLC'
-                      ? renderWlcVerseText(
+                    {@html strongInteractive
+                      ? renderStrongVerseText(
                           verse.text,
                           verse.number,
-                          `${section.book} ${section.chapter}:${verseDisplayLabel}`
+                          `${section.book} ${section.chapter}:${verseDisplayLabel}`,
+                          passage.translationId
                         )
                       : renderVerseText(verse.text, verseHighlights, redSpans)}
                   </span>
@@ -600,12 +608,12 @@
 </div>
 
 <style>
-  .wlc-strong-term {
+  .strong-term {
     border-bottom: 1px dashed color-mix(in srgb, var(--accent-attention) 65%, transparent);
     cursor: pointer;
   }
 
-  .wlc-strong-term:focus-visible {
+  .strong-term:focus-visible {
     outline: 2px solid var(--accent-attention);
     outline-offset: 2px;
   }

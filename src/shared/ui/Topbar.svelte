@@ -6,6 +6,8 @@
     view: AppView;
     isCollapsed: boolean;
     menuOpen: boolean;
+    /** Breakpoint móvil activo: decide qué etiqueta e icono describen el estado real. */
+    isMobile: boolean;
     isCalmMode: boolean;
     onToggleSidebar: () => void;
     onToggleCalmMode: () => void;
@@ -15,18 +17,35 @@
     view = 'home',
     isCollapsed = false,
     menuOpen = false,
+    isMobile = false,
     isCalmMode = false,
     onToggleSidebar,
     onToggleCalmMode,
   }: Props = $props();
+
+  // En móvil el control abre y cierra un cajón; en escritorio encoge la barra.
+  // Antes la etiqueta se sacaba siempre de `isCollapsed`, así que en móvil decía
+  // "Contraer barra lateral" con la barra escondida fuera de pantalla.
+  let sidebarVisible = $derived(isMobile ? menuOpen : !isCollapsed);
+  let sidebarToggleLabel = $derived(
+    isMobile
+      ? menuOpen
+        ? 'Cerrar barra lateral'
+        : 'Abrir barra lateral'
+      : isCollapsed
+        ? 'Expandir barra lateral'
+        : 'Contraer barra lateral',
+  );
 </script>
 
 <header class="app-topbar sticky top-0 z-30">
   <button
     type="button"
     class="topbar-btn sidebar-trigger-btn"
-    aria-label={isCollapsed ? 'Expandir barra lateral' : 'Contraer barra lateral'}
-    data-tooltip={isCollapsed ? 'Expandir barra lateral' : 'Contraer barra lateral'}
+    aria-label={sidebarToggleLabel}
+    aria-expanded={sidebarVisible}
+    aria-controls="app-sidebar"
+    data-tooltip={sidebarToggleLabel}
     data-tooltip-pos="bottom"
     onclick={onToggleSidebar}
   >

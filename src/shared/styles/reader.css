@@ -65,19 +65,24 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  /* Las etiquetas del toolbar dependen del ancho real de la tarjeta, no del
+     viewport: con la barra lateral abierta la columna queda bastante más
+     estrecha que la ventana. */
+  container-type: inline-size;
+  container-name: readercard;
 }
 
 /* --- TOOLBAR INSPIRADA EN BIBLEGATEWAY --- */
 .reader-toolbar {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: start;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   padding: 10px 16px;
   border-bottom: var(--border-main);
   background-color: var(--accent-attention);
   color: var(--on-accent-attention);
   width: 100%;
-  gap: 12px;
+  gap: 10px;
   flex-shrink: 0;
   position: relative;
   z-index: 80;
@@ -89,15 +94,51 @@
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
-}
-
-.toolbar-left-group {
   min-width: 0;
 }
 
+/* El grupo derecho no es una caja propia: sus controles (navegación de capítulo
+   y selector de tamaño) se flowean en la misma fila que el resto, en vez de
+   caer a una línea aparte que dejaba un hueco de 190 px. */
 .toolbar-right-group {
-  justify-self: end;
-  align-self: start;
+  display: contents;
+}
+
+/* Texto de los botones: versión larga con sitio de sobra, versión corta en
+   móvil y sólo icono en el ancho intermedio. Antes se decidía con las clases
+   sm:/md: de Tailwind, que miden el viewport y no la tarjeta: en 768 px se
+   mostraban las etiquetas largas a la vez que el toolbar pasaba a columna. */
+.toolbar-label {
+  display: none;
+}
+
+.toolbar-label-short {
+  display: inline;
+}
+
+@container readercard (min-width: 860px) {
+  .toolbar-label {
+    display: inline;
+  }
+
+  .toolbar-label-short {
+    display: none;
+  }
+
+  /* Con sitio de sobra, el selector de tamaño se alinea a la derecha.
+     El selector va por el grupo derecho, no con `>`: `display: contents`
+     cambia la caja pero no el árbol DOM, así que el combinador hijo no aplica. */
+  .toolbar-right-group .font-size-dropdown-container {
+    margin-left: auto;
+  }
+}
+
+/* Los dropdowns de TTS muestran "Voz / Helena (es-ES)": con la tarjeta estrecha
+   sobra el nombre, pero el tooltip del botón conserva el valor. */
+@container readercard (max-width: 859px) {
+  .tts-controls .version-name {
+    display: none;
+  }
 }
 
 .toolbar-action-btn {
@@ -115,6 +156,8 @@
   font-weight: 800;
   box-shadow: 2px 2px 0 var(--border-color);
   cursor: pointer;
+  /* Sin esto "Lista de libros bíblicos" se partía en tres renglones. */
+  white-space: nowrap;
   transition:
     transform 0.08s ease,
     background 0.08s ease,
