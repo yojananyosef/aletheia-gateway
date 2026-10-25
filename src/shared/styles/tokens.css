@@ -275,9 +275,9 @@ body.mode-dark {
   color-scheme: dark;
   --bg-canvas: #1a1a18;
   --bg-surface: #242422;
-  --text-main: #f5f5f0; /* 15.94:1 AAA */
+  --text-main: #e7e5e4; /* 11.69:1 sobre canvas AAA (suavizado de #f5f5f0 para reducir brillo en oscuro) */
   --text-muted: #c9c9c9; /* 10.53:1 sobre canvas, 9.39:1 sobre surface AAA */
-  --border-color: #f5f5f0;
+  --border-color: #c9c9c9; /* 10.53:1 sobre canvas AAA (era #f5f5f0, demasiado brillante en oscuro) */
   --accent-attention: #ffd23f; /* tinta oscura forzada: 12.07 AAA */
   --on-accent-attention: #1a1a18;
   --accent-active: #7de8f0;
@@ -313,9 +313,9 @@ body.mode-oled {
   color-scheme: dark;
   --bg-canvas: #000000;
   --bg-surface: #0a0a0a;
-  --text-main: #ffffff; /* 21:1 AAA */
+  --text-main: #e5e5e5; /* 17.66:1 sobre negro AAA (suavizado de #ffffff para reducir fatiga/halo en paneles OLED) */
   --text-muted: #c9c9c9; /* 12.68:1 AAA */
-  --border-color: #ffffff;
+  --border-color: #e5e5e5; /* 17.66:1 sobre negro AAA (era #ffffff, demasiado brillante en OLED) */
   --accent-attention: #ffd23f;
   --on-accent-attention: #1a1a18;
   --accent-active: #7de8f0;
