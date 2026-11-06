@@ -9,7 +9,7 @@ import { FetchCache, cachedFetchJson } from '../../../shared/utils/fetchCache';
  * Evita fetches duplicados al abrir el drawer de referencias y al navegar
  * entre versículos del mismo capítulo.
  */
-const crossRefBookCache = new FetchCache<BookCrossReferencesData | null>({ ttlMs: 0 });
+const crossRefBookCache = new FetchCache<BookCrossReferencesData>({ ttlMs: 0 });
 
 export class JsonCrossReferenceRepository implements ICrossReferenceRepository {
   private async loadBookData(bookCode: string): Promise<BookCrossReferencesData | null> {
@@ -17,13 +17,12 @@ export class JsonCrossReferenceRepository implements ICrossReferenceRepository {
       bookCode.toUpperCase(),
       async () => {
         const url = cacheBust(`/data/cross-references/TSK/${bookCode.toUpperCase()}.json`);
-        try {
-          return await cachedFetchJson<BookCrossReferencesData>(url);
-        } catch {
-          return null;
-        }
+        return cachedFetchJson<BookCrossReferencesData>(url);
       },
-    );
+    ).catch((error) => {
+      console.warn(`[JsonCrossReferenceRepository] Error loading TSK for book ${bookCode}:`, error);
+      return null;
+    });
   }
 
   private resolveBookCode(bookCodeOrName: string): string {

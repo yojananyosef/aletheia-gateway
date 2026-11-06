@@ -32,10 +32,10 @@ interface LoadedBook {
  * getBookOutline() se llaman en paralelo para el mismo libro, solo se hace un
  * fetch HTTP y ambos comparten la misma promise.
  */
-const interlinearBookCache = new FetchCache<LoadedBook | null>({ ttlMs: 0 });
+const interlinearBookCache = new FetchCache<LoadedBook>({ ttlMs: 0 });
 
 export class JsonInterlinearRepository implements IInterlinearRepository {
-  public async loadBook(bookCode: string): Promise<LoadedBook | null> {
+  private async loadBook(bookCode: string): Promise<LoadedBook | null> {
     const info = findBookInfo(bookCode);
     if (!info) return null;
     const code = info.code;
@@ -43,32 +43,31 @@ export class JsonInterlinearRepository implements IInterlinearRepository {
 
     return interlinearBookCache.get(
       code,
-      async (): Promise<LoadedBook | null> => {
-        try {
-          const url = cacheBust(`/data/interlinear/${testament}/${encodeURIComponent(code)}.json`);
-          const response = await fetch(url);
-          if (!response.ok) return null;
-          const raw = (await response.json()) as RawVerse[];
-          const verses: InterlinearVerse[] = (Array.isArray(raw) ? raw : [])
-            .map((entry) => ({
-              chapter: Number(entry.chapter),
-              verse: Number(entry.verse),
-              words: (entry.words || []).map((w): InterlinearWord => ({
-                text: w.hebrew || w.hebrew_aramaic || w.greek || '',
-                parsing: w.parsing || '',
-                strong: String(w.strong ?? ''),
-                spanish: w.spanish || '',
-                lemma: w.lemma || undefined,
-                parsingCode: w.parsingCode || undefined,
-              })),
-            }))
-            .filter((v) => Number.isInteger(v.chapter) && Number.isInteger(v.verse));
-          return { testament, verses };
-        } catch {
-          return null;
-        }
+      async (): Promise<LoadedBook> => {
+        const url = cacheBust(`/data/interlinear/${testament}/${encodeURIComponent(code)}.json`);
+        const response = await fetch(url);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const raw = (await response.json()) as RawVerse[];
+        const verses: InterlinearVerse[] = (Array.isArray(raw) ? raw : [])
+          .map((entry) => ({
+            chapter: Number(entry.chapter),
+            verse: Number(entry.verse),
+            words: (entry.words || []).map((w): InterlinearWord => ({
+              text: w.hebrew || w.hebrew_aramaic || w.greek || '',
+              parsing: w.parsing || '',
+              strong: String(w.strong ?? ''),
+              spanish: w.spanish || '',
+              lemma: w.lemma || undefined,
+              parsingCode: w.parsingCode || undefined,
+            })),
+          }))
+          .filter((v) => Number.isInteger(v.chapter) && Number.isInteger(v.verse));
+        return { testament, verses };
       },
-    );
+    ).catch((error) => {
+      console.warn(`[JsonInterlinearRepository] Error cargando ${testament}/${code}:`, error);
+      return null;
+    });
   }
 
   public async getChapter(bookCodeOrName: string, chapter: number): Promise<InterlinearChapterData | null> {

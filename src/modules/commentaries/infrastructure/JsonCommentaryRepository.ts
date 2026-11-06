@@ -10,11 +10,11 @@ import { FetchCache, cachedFetchJson } from '../../../shared/utils/fetchCache';
  * cierra varias veces, o cuando se navega entre capítulos.
  */
 const commentaryIndexCache = new FetchCache<CommentarySource[]>({ ttlMs: 0 });
-const commentaryBookCache = new FetchCache<CommentaryBookData | null>({ ttlMs: 0 });
+const commentaryBookCache = new FetchCache<CommentaryBookData>({ ttlMs: 0 });
 
 export class JsonCommentaryRepository implements ICommentaryRepository {
   private async loadIndex(): Promise<CommentarySource[]> {
-    return (await commentaryIndexCache.get(
+    return commentaryIndexCache.get(
       'commentary:index',
       async () => {
         const response = await fetch(cacheBust('/data/commentaries/index.json'));
@@ -22,7 +22,10 @@ export class JsonCommentaryRepository implements ICommentaryRepository {
         const index = (await response.json()) as CommentaryIndex;
         return Array.isArray(index.sources) ? index.sources : [];
       },
-    )) ?? [];
+    ).catch((error) => {
+      console.warn('[JsonCommentaryRepository] No se pudo cargar el índice:', error);
+      return [];
+    });
   }
 
   public async getSources(): Promise<CommentarySource[]> {
@@ -45,13 +48,12 @@ export class JsonCommentaryRepository implements ICommentaryRepository {
       cacheKey,
       async () => {
         const url = cacheBust(`/data/commentaries/${encodeURIComponent(sourceId)}/${encodeURIComponent(bookCode)}.json`);
-        try {
-          return await cachedFetchJson<CommentaryBookData>(url);
-        } catch {
-          return null;
-        }
+        return cachedFetchJson<CommentaryBookData>(url);
       },
-    );
+    ).catch((error) => {
+      console.warn(`[JsonCommentaryRepository] Error cargando ${sourceId}/${bookCode}:`, error);
+      return null;
+    });
   }
 
   public async getByVerse(

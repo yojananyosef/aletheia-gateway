@@ -87,19 +87,25 @@ let {
   }
 
   async function loadReferenceVerse(): Promise<string> {
-    const cacheKey = `${bookName}:${chapter}:${verse}:${referenceTranslation}`;
-    if (referenceVerseCache[cacheKey]) {
+    const currentBook = bookName;
+    const currentChapter = chapter;
+    const currentVerse = verse;
+    const translation = referenceTranslation;
+    const cacheKey = `${currentBook}:${currentChapter}:${currentVerse}:${translation}`;
+    if (cacheKey in referenceVerseCache) {
       return referenceVerseCache[cacheKey];
     }
     try {
-      const passage = await bibleRepo.getPassage(`${bookName} ${chapter}`, referenceTranslation);
+      const passage = await bibleRepo.getPassage(`${currentBook} ${currentChapter}`, translation);
       const found = passage?.verses?.find(
         (item) =>
-          item.number === verse ||
-          (item.endNumber && verse >= item.number && verse <= item.endNumber)
+          item.number === currentVerse ||
+          (item.endNumber && currentVerse >= item.number && currentVerse <= item.endNumber)
       );
       const text = found?.text || '';
-      referenceVerseCache[cacheKey] = text;
+      if (bookName === currentBook && chapter === currentChapter && referenceTranslation === translation) {
+        referenceVerseCache[cacheKey] = text;
+      }
       return text;
     } catch {
       return '';
@@ -133,8 +139,9 @@ let {
       chapterNumbers = interlinear.chapterNumbers;
       verseNumbers = interlinear.versesOfChapter(chapter);
       if (!verseNumbers.includes(verse)) verse = verseNumbers[0] ?? 1;
-      referenceText = await loadReferenceVerse();
+      const text = await loadReferenceVerse();
       if (id !== requestId) return;
+      referenceText = text;
       await refreshNavEdges();
       if (id !== requestId) return;
     } catch {
@@ -149,7 +156,7 @@ let {
         if (!loadError && chapterNumbers.length > 0) {
           const nextChapter = chapter + 1;
           if (chapterNumbers.includes(nextChapter)) {
-            void interlinearRepo.getChapter(bookName, nextChapter);
+            void interlinearRepo.getChapter(bookName, nextChapter).catch(() => {});
           }
         }
       }
@@ -203,7 +210,11 @@ let {
     if (staysInChapter) {
       // Mismo capítulo: sólo cambia el versículo, no hace falta recargar.
       touchedParsing = null;
-      referenceText = await loadReferenceVerse();
+      const position = { book: bookName, chapter, verse, translation: referenceTranslation };
+      const text = await loadReferenceVerse();
+      if (position.book === bookName && position.chapter === chapter && position.verse === verse && position.translation === referenceTranslation) {
+        referenceText = text;
+      }
       await refreshNavEdges();
     }
   }
@@ -236,8 +247,12 @@ let {
     const t = referenceTranslation;
     if (v && t && chapterVerses.length > 0) {
       untrack(() => {
+        const b = bookName;
+        const c = chapter;
         loadReferenceVerse().then((text) => {
-          referenceText = text;
+          if (b === bookName && c === chapter && v === verse && t === referenceTranslation) {
+            referenceText = text;
+          }
         });
       });
     }

@@ -41,11 +41,7 @@ export class FetchCache<T> {
    * Si ya hay una petición en vuelo para la misma clave, se devuelve la misma
    * promise en lugar de lanzar un segundo fetch.
    */
-  async get(
-    key: string,
-    fetcher: () => Promise<T>,
-    opts?: { background?: boolean },
-  ): Promise<T | null> {
+  async get(key: string, fetcher: () => Promise<T>): Promise<T> {
     // 1. Caché caliente
     const cached = this.dataCache.get(key);
     if (cached && !this.isExpired(cached)) {
@@ -59,25 +55,16 @@ export class FetchCache<T> {
     }
 
     // 3. Lanzar nueva petición
-    const promise = (async () => {
-      try {
-        const data = await fetcher();
+    const promise = Promise.resolve().then(fetcher).then((data) => {
+      if (this.inFlight.get(key) === promise) {
         this.dataCache.set(key, { data, timestamp: Date.now() });
-        return data;
-      } finally {
-        this.inFlight.delete(key);
       }
-    })();
+      return data;
+    }).finally(() => {
+      if (this.inFlight.get(key) === promise) this.inFlight.delete(key);
+    });
 
     this.inFlight.set(key, promise);
-
-    if (opts?.background) {
-      // Precarga silenciosa: no bloquear, errores se tragan
-      void promise.catch(() => {
-        // ignore
-      });
-    }
-
     return promise;
   }
 

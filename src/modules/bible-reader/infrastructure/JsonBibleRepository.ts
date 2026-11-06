@@ -228,12 +228,14 @@ export class JsonBibleRepository implements IBibleRepository {
   private async loadBookData(translationId: TranslationId, bookCode: string): Promise<BookJsonData | null> {
     const cacheKey = `${translationId}_${bookCode}`;
 
-    return bibleBookCache.get(
-      cacheKey,
-      async () => {
+    try {
+      return await bibleBookCache.get(cacheKey, async () => {
         const url = cacheBust(`/data/bibles/${translationId}/${bookCode}.json`);
         return cachedFetchJson<BookJsonData>(url);
-      },
-    );
+      });
+    } catch (err) {
+      console.error(`Error loading bible data for ${translationId}/${bookCode}:`, err);
+      return null;
+    }
   }
 }

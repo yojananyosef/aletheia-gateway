@@ -19,14 +19,17 @@ const occurrencesCache = new FetchCache<Record<string, StrongOccurrences>>({ ttl
 
 export class OccurrencesRepository {
   private async loadAll(): Promise<Record<string, StrongOccurrences>> {
-    return (await occurrencesCache.get(
+    return occurrencesCache.get(
       'strong:occurrences',
       async () => {
         const response = await fetch(cacheBust('/data/interlinear/strong-occurrences.json'));
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return (await response.json()) as Record<string, StrongOccurrences>;
       },
-    )) ?? {};
+    ).catch((error) => {
+      console.warn('[OccurrencesRepository] No se pudo cargar el índice:', error);
+      return {};
+    });
   }
 
   public async get(id: string): Promise<StrongOccurrences | null> {

@@ -29,7 +29,7 @@ const strongDataCache = new FetchCache<StrongEntry[]>({ ttlMs: 0 });
 
 export class JsonStrongRepository implements IStrongRepository {
   private async loadAll(): Promise<StrongEntry[]> {
-    return (await strongDataCache.get(
+    return strongDataCache.get(
       'strong:dictionary',
       async () => {
         const response = await fetch(cacheBust('/data/strong/strong-data.json'));
@@ -37,7 +37,10 @@ export class JsonStrongRepository implements IStrongRepository {
         const raw = (await response.json()) as RawStrongData;
         return [...this.mapTestament(raw.hebrew, 'hebrew'), ...this.mapTestament(raw.greek, 'greek')];
       },
-    )) ?? [];
+    ).catch((error) => {
+      console.warn('[JsonStrongRepository] No se pudo cargar el diccionario:', error);
+      return [];
+    });
   }
 
   private mapTestament(source: Record<string, RawStrongEntry> | undefined, testament: StrongTestament): StrongEntry[] {
