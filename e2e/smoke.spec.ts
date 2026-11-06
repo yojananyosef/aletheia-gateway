@@ -212,6 +212,10 @@ test('tracker: vista de progreso con racha y capítulos', async ({ page }) => {
 });
 
 test('headings overlay: RV1909 muestra títulos sin chocar con nativos', async ({ page }) => {
+  // Seleccionar RV1909 antes de que la app lea localStorage.
+  await page.addInitScript(() => {
+    localStorage.setItem('aletheia_selected_translations', JSON.stringify(['RV1909']));
+  });
   await page.goto('/');
   await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
 

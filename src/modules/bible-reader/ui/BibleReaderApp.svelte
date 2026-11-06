@@ -48,7 +48,7 @@
   let readerQuery = $state('Génesis 1:1');
   let activeQuery = $state('Génesis 1:1');
   let concordanceQuery = $state('');
-  let selectedTranslations = $state<TranslationId[]>(['RV1909']);
+  let selectedTranslations = $state<TranslationId[]>(['SpaPlatense']);
   let isBookmarked = $state(false);
   let bookmarkCount = $state(0);
   let passages = $state<PassageVersionResult[]>([]);
