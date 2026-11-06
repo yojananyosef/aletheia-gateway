@@ -321,7 +321,7 @@ let {
     <button
       type="button"
       class="interlinear-nav-btn"
-      disabled={!canGoPrevious}
+      disabled={isLoading || !canGoPrevious}
       onclick={() => stepVerse(-1)}
       data-tooltip={canGoPrevious ? 'Versículo o capítulo anterior' : 'Primer versículo de la Biblia'}
     >
@@ -340,7 +340,7 @@ let {
     <button
       type="button"
       class="interlinear-nav-btn"
-      disabled={!canGoNext}
+      disabled={isLoading || !canGoNext}
       onclick={() => stepVerse(1)}
       data-tooltip={canGoNext ? 'Siguiente versículo, capítulo o libro' : 'Último versículo de la Biblia'}
     >
