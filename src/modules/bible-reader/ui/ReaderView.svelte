@@ -76,7 +76,7 @@
     query = '',
     activeQuery = 'Génesis 1:1',
     passages = [],
-    selectedTranslations = ['RV1909'],
+    selectedTranslations = ['SpaPlatense'],
     fontSize = 'medium',
     onSearch,
     onQueryChange,

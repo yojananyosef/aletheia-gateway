@@ -36,7 +36,7 @@ let {
   initialBook = savedPosition?.book ?? 'Génesis',
   initialChapter = savedPosition?.chapter ?? 1,
   initialVerse = savedPosition?.verse ?? 1,
-  referenceTranslation = 'RV1909',
+  referenceTranslation = 'SpaPlatense',
   onOpenStrong,
   onSelectPassage,
 }: Props = $props();

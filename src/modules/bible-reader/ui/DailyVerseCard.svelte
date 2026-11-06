@@ -15,7 +15,7 @@ import { PassageReference } from '../domain/value-objects/PassageReference';
 
   let {
     fontSize = 'medium',
-    selectedTranslation = 'RV1909',
+    selectedTranslation = 'SpaPlatense',
     onSelectPassage,
   }: Props = $props();
 

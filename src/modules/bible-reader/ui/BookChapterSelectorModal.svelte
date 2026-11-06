@@ -23,7 +23,7 @@
   let {
     isOpen = false,
     currentBook = 'Génesis',
-    activeTranslations = ['RV1909'],
+    activeTranslations = ['SpaPlatense'],
     onClose,
     onSelectPassage,
   }: Props = $props();

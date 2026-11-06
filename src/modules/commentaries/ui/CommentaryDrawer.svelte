@@ -309,7 +309,7 @@
           <span>Lectura completa del comentario</span>
         </button>
       {/if}
-      <span>💡 Cambia la fuente para comparar perspectivas del mismo capítulo.</span>
+
     </div>
   </aside>
 {/if}

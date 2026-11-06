@@ -112,7 +112,7 @@
         localStorage.setItem('aletheia_user_settings', JSON.stringify({
           theme: baseTheme,
           fontFamily: 'inter',
-          defaultTranslation: 'RV1909',
+          defaultTranslation: 'SpaPlatense',
           calmMode: isCalmMode
         }));
       }

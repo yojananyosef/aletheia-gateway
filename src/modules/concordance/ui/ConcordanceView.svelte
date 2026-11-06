@@ -36,7 +36,7 @@
 
   let {
     initialQuery = '',
-    initialTranslation = 'RV1909',
+    initialTranslation = 'SpaPlatense',
     onSelectPassage,
   }: Props = $props();
 
