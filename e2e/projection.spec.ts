@@ -41,7 +41,7 @@ test.describe('proyección en segunda pantalla', () => {
       // Lo que salva el caso lento es el handshake `ready`: los reintentos con
       // reloj se agotaban a los ~1,2 s y el mensaje se perdía para siempre.
       await expect(popup.locator('.projection-text')).toBeVisible({ timeout: 20000 });
-      await expect(popup.locator('.projection-ref')).toContainText('RV');
+      await expect(popup.locator('.projection-ref')).toContainText('SpaPlatense');
     });
   }
 

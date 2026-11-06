@@ -212,11 +212,11 @@ test('tracker: vista de progreso con racha y capítulos', async ({ page }) => {
 });
 
 test('headings overlay: RV1909 muestra títulos sin chocar con nativos', async ({ page }) => {
+  await page.goto('/');
   // El default ahora es SpaPlatense; forzar RV1909 vía localStorage para esta prueba
   await page.evaluate(() => {
     localStorage.setItem('aletheia_selected_translations', JSON.stringify(['RV1909']));
   });
-  await page.goto('/');
   await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
 
   // RV1909 Génesis 1 no trae headings nativos → overlay NRVA
