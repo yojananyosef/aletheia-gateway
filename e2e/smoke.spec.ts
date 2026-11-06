@@ -215,6 +215,10 @@ test('headings overlay: RV1909 muestra títulos sin chocar con nativos', async (
   await page.goto('/');
   await page.getByRole('button', { name: 'Leer la Biblia' }).first().click();
 
+  // El default ahora es SpaPlatense; cambiar explícitamente a RV1909 para esta prueba
+  await page.locator('.custom-version-trigger').first().click();
+  await page.getByRole('option', { name: /Reina Valera 1909/ }).click();
+
   // RV1909 Génesis 1 no trae headings nativos → overlay NRVA
   const overlay = page.locator('.verse-section-heading[data-heading-source="overlay"]');
   await expect(overlay.first()).toBeVisible({ timeout: 20000 });
