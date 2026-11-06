@@ -212,7 +212,8 @@ test('tracker: vista de progreso con racha y capítulos', async ({ page }) => {
 });
 
 test('headings overlay: RV1909 muestra títulos sin chocar con nativos', async ({ page }) => {
-  // El default ahora es SpaPlatense; forzar RV1909 vía localStorage para esta prueba
+  // El default ahora es SpaPlatense; forzar RV1909 vía localStorage antes de navegar
+  await page.goto('about:blank');
   await page.evaluate(() => {
     localStorage.setItem('aletheia_selected_translations', JSON.stringify(['RV1909']));
   });
