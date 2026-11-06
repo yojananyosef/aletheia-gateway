@@ -52,6 +52,7 @@
   let isBookmarked = $state(false);
   let bookmarkCount = $state(0);
   let passages = $state<PassageVersionResult[]>([]);
+  let passageRequestId = 0;
   let fontSize = $state<FontSizeOption>('medium');
   let isBookModalOpen = $state(false);
   let isSavedVersesModalOpen = $state(false);
@@ -69,15 +70,19 @@
 
   // Load comparison data whenever activeQuery or selectedTranslations change
   async function loadPassageData() {
+    const requestId = ++passageRequestId;
+    const reference = activeQuery;
+    const translations = [...selectedTranslations];
     try {
       const results = await compareTranslationsUseCase.execute({
-        reference: activeQuery,
-        translations: selectedTranslations,
+        reference,
+        translations,
       });
+      if (requestId !== passageRequestId) return;
       passages = results;
       await updateBookmarkCount();
     } catch (err) {
-      console.error('Error loading passage data:', err);
+      if (requestId === passageRequestId) console.error('Error loading passage data:', err);
     }
   }
 
@@ -382,4 +387,3 @@
     }}
   />
 </AppShell>
-
