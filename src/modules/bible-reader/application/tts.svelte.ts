@@ -60,7 +60,7 @@ class TtsStore {
       this.controller.reloadVoices(this.controller.selectedVoice?.id ?? savedVoice);
       this.sync();
     };
-    if ('onvoiceschanged' in synth && synth.onvoiceschanged !== undefined) {
+    if (synth && 'onvoiceschanged' in synth && synth.onvoiceschanged !== undefined) {
       synth.onvoiceschanged = load;
     }
 
