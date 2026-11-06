@@ -429,6 +429,26 @@
     }
   });
 
+  // Precarga silenciosa del siguiente capítulo de la primera traducción
+  // para que navegar al capítulo siguiente se sienta instantáneo.
+  $effect(() => {
+    const first = passages[0];
+    if (!first || !first.verses || first.verses.length === 0) return;
+    const b = currentBook;
+    const c = currentChapter;
+    const t = first.translationId ?? selectedTranslations[0];
+    if (b && c && t) {
+      void (async () => {
+        const nextChapter = c + 1;
+        try {
+          await bibleRepo.getPassage(`${b} ${nextChapter}`, t);
+        } catch {
+          // ignore
+        }
+      })();
+    }
+  });
+
   // Los términos Strong dependen del capítulo *y* de que haya una columna con
   // interlineal (WLC o WHNU): cambiar la versión de una columna tiene que recargar
   // el mapa aunque no cambie el capítulo.

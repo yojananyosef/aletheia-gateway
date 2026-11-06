@@ -23,14 +23,8 @@ function mockFetch() {
   );
 }
 
-function resetRepoCache() {
-  const statics = JsonInterlinearRepository as unknown as { bookCache: Map<string, null> };
-  statics.bookCache = new Map();
-}
-
 describe('JsonInterlinearRepository (Interlineal)', () => {
   beforeEach(() => {
-    resetRepoCache();
     mockFetch();
   });
 
@@ -61,5 +55,37 @@ describe('JsonInterlinearRepository (Interlineal)', () => {
     const data = await repo.getChapter('MAT', 1);
     const v1 = data?.verses.find((v) => v.verse === 1);
     expect(v1?.words[0]).toMatchObject({ lemma: 'βίβλος', parsingCode: 'N-NSF' });
+  });
+
+  it('comparte una petición para capítulo y esquema del mismo libro', async () => {
+    const fetcher = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => [{ chapter: 1, verse: 1, words: [{ hebrew: 'test' }] }],
+    });
+    vi.stubGlobal('fetch', fetcher);
+    const repository = new JsonInterlinearRepository();
+    const [chapter, outline] = await Promise.all([
+      repository.getChapter('Éxodo', 1),
+      repository.getBookOutline('Éxodo'),
+    ]);
+    expect(fetcher).toHaveBeenCalledTimes(1);
+    expect(chapter?.verses[0].words[0].text).toBe('test');
+    expect(outline?.chapters).toEqual([1]);
+  });
+
+  it('reintenta la carga después de un fallo de red', async () => {
+    const fetcher = vi.fn()
+      .mockRejectedValueOnce(new Error('sin red'))
+      .mockResolvedValueOnce({ ok: true, json: async () => [{ chapter: 1, verse: 1, words: [] }] });
+    vi.stubGlobal('fetch', fetcher);
+    const warn = vi.spyOn(console, 'warn').mockImplementation(() => {});
+    try {
+      const repository = new JsonInterlinearRepository();
+      expect(await repository.getChapter('Levítico', 1)).toBeNull();
+      expect((await repository.getChapter('Levítico', 1))?.verses).toHaveLength(1);
+      expect(fetcher).toHaveBeenCalledTimes(2);
+    } finally {
+      warn.mockRestore();
+    }
   });
 });

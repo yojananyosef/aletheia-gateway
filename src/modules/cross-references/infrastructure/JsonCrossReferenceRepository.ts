@@ -2,31 +2,27 @@ import type { ICrossReferenceRepository } from '../domain/ICrossReferenceReposit
 import type { CrossReferenceClause, BookCrossReferencesData } from '../domain/CrossReference';
 import { findBookInfo } from '../../bible-reader/domain/entities/BibleBooks';
 import { cacheBust } from '../../../shared/utils/cacheBust';
+import { FetchCache, cachedFetchJson } from '../../../shared/utils/fetchCache';
+
+/**
+ * Caché transversal con deduplicación para los datos TSK de cada libro.
+ * Evita fetches duplicados al abrir el drawer de referencias y al navegar
+ * entre versículos del mismo capítulo.
+ */
+const crossRefBookCache = new FetchCache<BookCrossReferencesData>({ ttlMs: 0 });
 
 export class JsonCrossReferenceRepository implements ICrossReferenceRepository {
-  private static cache: Map<string, BookCrossReferencesData | null> = new Map();
-
   private async loadBookData(bookCode: string): Promise<BookCrossReferencesData | null> {
-    const cacheKey = bookCode.toUpperCase();
-    if (JsonCrossReferenceRepository.cache.has(cacheKey)) {
-      return JsonCrossReferenceRepository.cache.get(cacheKey) || null;
-    }
-
-    try {
-      const url = cacheBust(`/data/cross-references/TSK/${cacheKey}.json`);
-      const res = await fetch(url);
-      if (!res.ok) {
-        JsonCrossReferenceRepository.cache.set(cacheKey, null);
-        return null;
-      }
-      const data: BookCrossReferencesData = await res.json();
-      JsonCrossReferenceRepository.cache.set(cacheKey, data);
-      return data;
-    } catch (err) {
-      console.warn(`[JsonCrossReferenceRepository] Error loading TSK for book ${bookCode}:`, err);
-      JsonCrossReferenceRepository.cache.set(cacheKey, null);
+    return crossRefBookCache.get(
+      bookCode.toUpperCase(),
+      async () => {
+        const url = cacheBust(`/data/cross-references/TSK/${bookCode.toUpperCase()}.json`);
+        return cachedFetchJson<BookCrossReferencesData>(url);
+      },
+    ).catch((error) => {
+      console.warn(`[JsonCrossReferenceRepository] Error loading TSK for book ${bookCode}:`, error);
       return null;
-    }
+    });
   }
 
   private resolveBookCode(bookCodeOrName: string): string {

@@ -2,29 +2,30 @@ import type { ICommentaryRepository } from '../domain/ICommentaryRepository';
 import type { CommentaryBookData, CommentaryEntry, CommentaryIndex, CommentarySource } from '../domain/Commentary';
 import { findBookInfo } from '../../bible-reader/domain/entities/BibleBooks';
 import { cacheBust } from '../../../shared/utils/cacheBust';
+import { FetchCache, cachedFetchJson } from '../../../shared/utils/fetchCache';
+
+/**
+ * Caché transversal con deduplicación para el índice de fuentes y para cada
+ * libro de comentarios. Evita fetches duplicados cuando el drawer se abre y
+ * cierra varias veces, o cuando se navega entre capítulos.
+ */
+const commentaryIndexCache = new FetchCache<CommentarySource[]>({ ttlMs: 0 });
+const commentaryBookCache = new FetchCache<CommentaryBookData>({ ttlMs: 0 });
 
 export class JsonCommentaryRepository implements ICommentaryRepository {
-  private static indexPromise: Promise<CommentarySource[]> | null = null;
-  private static bookCache: Map<string, CommentaryBookData | null> = new Map();
-
   private async loadIndex(): Promise<CommentarySource[]> {
-    if (JsonCommentaryRepository.indexPromise) {
-      return JsonCommentaryRepository.indexPromise;
-    }
-
-    JsonCommentaryRepository.indexPromise = fetch(cacheBust('/data/commentaries/index.json'))
-      .then(async (response) => {
+    return commentaryIndexCache.get(
+      'commentary:index',
+      async () => {
+        const response = await fetch(cacheBust('/data/commentaries/index.json'));
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const index = (await response.json()) as CommentaryIndex;
         return Array.isArray(index.sources) ? index.sources : [];
-      })
-      .catch((error) => {
-        console.warn('[JsonCommentaryRepository] No se pudo cargar el índice:', error);
-        JsonCommentaryRepository.indexPromise = null;
-        return [];
-      });
-
-    return JsonCommentaryRepository.indexPromise;
+      },
+    ).catch((error) => {
+      console.warn('[JsonCommentaryRepository] No se pudo cargar el índice:', error);
+      return [];
+    });
   }
 
   public async getSources(): Promise<CommentarySource[]> {
@@ -42,22 +43,17 @@ export class JsonCommentaryRepository implements ICommentaryRepository {
     if (!source || !source.bookCodes.includes(bookCode)) return null;
 
     const cacheKey = `${sourceId}:${bookCode}`;
-    if (JsonCommentaryRepository.bookCache.has(cacheKey)) {
-      return JsonCommentaryRepository.bookCache.get(cacheKey) || null;
-    }
 
-    try {
-      const url = cacheBust(`/data/commentaries/${encodeURIComponent(sourceId)}/${encodeURIComponent(bookCode)}.json`);
-      const response = await fetch(url);
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const data = (await response.json()) as CommentaryBookData;
-      JsonCommentaryRepository.bookCache.set(cacheKey, data);
-      return data;
-    } catch (error) {
+    return commentaryBookCache.get(
+      cacheKey,
+      async () => {
+        const url = cacheBust(`/data/commentaries/${encodeURIComponent(sourceId)}/${encodeURIComponent(bookCode)}.json`);
+        return cachedFetchJson<CommentaryBookData>(url);
+      },
+    ).catch((error) => {
       console.warn(`[JsonCommentaryRepository] Error cargando ${sourceId}/${bookCode}:`, error);
-      JsonCommentaryRepository.bookCache.set(cacheKey, null);
       return null;
-    }
+    });
   }
 
   public async getByVerse(

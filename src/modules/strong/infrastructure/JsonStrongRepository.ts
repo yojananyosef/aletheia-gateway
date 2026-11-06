@@ -1,6 +1,7 @@
 import type { IStrongRepository } from '../domain/IStrongRepository';
 import type { StrongEntry, StrongTestament } from '../domain/StrongEntry';
 import { cacheBust } from '../../../shared/utils/cacheBust';
+import { FetchCache } from '../../../shared/utils/fetchCache';
 
 interface RawStrongEntry {
   strongNumber?: string;
@@ -14,30 +15,32 @@ interface RawStrongEntry {
   audio?: string;
 }
 
+interface RawStrongData {
+  hebrew?: Record<string, RawStrongEntry>;
+  greek?: Record<string, RawStrongEntry>;
+}
+
+/**
+ * Caché transversal con deduplicación para el diccionario Strong completo.
+ * Se carga una sola vez y se reutiliza en todas las peticiones (getAll,
+ * getById, navegación de entrada anterior/siguiente).
+ */
+const strongDataCache = new FetchCache<StrongEntry[]>({ ttlMs: 0 });
+
 export class JsonStrongRepository implements IStrongRepository {
-  private static dataPromise: Promise<StrongEntry[]> | null = null;
-
   private async loadAll(): Promise<StrongEntry[]> {
-    if (JsonStrongRepository.dataPromise) {
-      return JsonStrongRepository.dataPromise;
-    }
-
-    JsonStrongRepository.dataPromise = fetch(cacheBust('/data/strong/strong-data.json'))
-      .then(async (response) => {
+    return strongDataCache.get(
+      'strong:dictionary',
+      async () => {
+        const response = await fetch(cacheBust('/data/strong/strong-data.json'));
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const raw = (await response.json()) as {
-          hebrew?: Record<string, RawStrongEntry>;
-          greek?: Record<string, RawStrongEntry>;
-        };
+        const raw = (await response.json()) as RawStrongData;
         return [...this.mapTestament(raw.hebrew, 'hebrew'), ...this.mapTestament(raw.greek, 'greek')];
-      })
-      .catch((error) => {
-        console.warn('[JsonStrongRepository] No se pudo cargar el diccionario:', error);
-        JsonStrongRepository.dataPromise = null;
-        return [];
-      });
-
-    return JsonStrongRepository.dataPromise;
+      },
+    ).catch((error) => {
+      console.warn('[JsonStrongRepository] No se pudo cargar el diccionario:', error);
+      return [];
+    });
   }
 
   private mapTestament(source: Record<string, RawStrongEntry> | undefined, testament: StrongTestament): StrongEntry[] {
