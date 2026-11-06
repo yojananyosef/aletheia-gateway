@@ -5,6 +5,7 @@ import type { Verse } from '../domain/entities/Verse';
 import { PassageReference } from '../domain/value-objects/PassageReference';
 import { findBookInfo, ALL_BIBLE_BOOKS } from '../domain/entities/BibleBooks';
 import { cacheBust } from '../../../shared/utils/cacheBust';
+import { FetchCache, cachedFetchJson } from '../../../shared/utils/fetchCache';
 
 interface BookJsonData {
   versionId: string;
@@ -14,9 +15,15 @@ interface BookJsonData {
   chapters: Record<number, { chapter: number; verses: Verse[] }>;
 }
 
-export class JsonBibleRepository implements IBibleRepository {
-  private static cache: Map<string, BookJsonData> = new Map();
+/**
+ * Caché transversal con deduplicación (single-flight) para libros de la Biblia.
+ * Cuando se comparan varias traducciones en paralelo, cada una hace fetch de
+ * su propio libro; si varias peticiones piden el mismo libro+traducción al
+ * mismo tiempo, solo se hace un fetch.
+ */
+const bibleBookCache = new FetchCache<BookJsonData>({ ttlMs: 0 });
 
+export class JsonBibleRepository implements IBibleRepository {
   public getAvailableTranslations(): TranslationInfo[] {
     return Object.values(AVAILABLE_TRANSLATIONS);
   }
@@ -220,25 +227,13 @@ export class JsonBibleRepository implements IBibleRepository {
 
   private async loadBookData(translationId: TranslationId, bookCode: string): Promise<BookJsonData | null> {
     const cacheKey = `${translationId}_${bookCode}`;
-    if (JsonBibleRepository.cache.has(cacheKey)) {
-      return JsonBibleRepository.cache.get(cacheKey)!;
-    }
 
-    try {
-      if (typeof fetch !== 'undefined') {
-        const res = await fetch(cacheBust(`/data/bibles/${translationId}/${bookCode}.json`));
-        if (res.ok) {
-          const data = (await res.json()) as BookJsonData;
-          JsonBibleRepository.cache.set(cacheKey, data);
-          return data;
-        }
-        console.warn(`Could not fetch /data/bibles/${translationId}/${bookCode}.json: ${res.statusText}`);
-        return null;
-      }
-    } catch (err) {
-      console.error(`Error loading bible data for ${translationId}/${bookCode}:`, err);
-    }
-
-    return null;
+    return bibleBookCache.get(
+      cacheKey,
+      async () => {
+        const url = cacheBust(`/data/bibles/${translationId}/${bookCode}.json`);
+        return cachedFetchJson<BookJsonData>(url);
+      },
+    );
   }
 }

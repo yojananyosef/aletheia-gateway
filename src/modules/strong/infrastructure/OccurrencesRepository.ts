@@ -1,4 +1,5 @@
 import { cacheBust } from '../../../shared/utils/cacheBust';
+import { FetchCache } from '../../../shared/utils/fetchCache';
 
 export interface StrongOccurrences {
   /** Nº de versículos distintos donde aparece. */
@@ -10,25 +11,22 @@ export interface StrongOccurrences {
 /**
  * Índice Strong → versículos (public/data/interlinear/strong-occurrences.json,
  * claves "H123"/"G456"). Carga diferida y cacheada: el fichero pesa ~5 MB.
+ *
+ * Usa FetchCache para deduplicar: si varias entradas se abren casi al mismo
+ * tiempo, solo se hace un fetch del índice y se comparte entre todas.
  */
-export class OccurrencesRepository {
-  private static dataPromise: Promise<Record<string, StrongOccurrences>> | null = null;
+const occurrencesCache = new FetchCache<Record<string, StrongOccurrences>>({ ttlMs: 0 });
 
+export class OccurrencesRepository {
   private async loadAll(): Promise<Record<string, StrongOccurrences>> {
-    if (OccurrencesRepository.dataPromise) {
-      return OccurrencesRepository.dataPromise;
-    }
-    OccurrencesRepository.dataPromise = fetch(cacheBust('/data/interlinear/strong-occurrences.json'))
-      .then(async (response) => {
+    return (await occurrencesCache.get(
+      'strong:occurrences',
+      async () => {
+        const response = await fetch(cacheBust('/data/interlinear/strong-occurrences.json'));
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return (await response.json()) as Record<string, StrongOccurrences>;
-      })
-      .catch((error) => {
-        console.warn('[OccurrencesRepository] No se pudo cargar el índice:', error);
-        OccurrencesRepository.dataPromise = null;
-        return {};
-      });
-    return OccurrencesRepository.dataPromise;
+      },
+    )) ?? {};
   }
 
   public async get(id: string): Promise<StrongOccurrences | null> {

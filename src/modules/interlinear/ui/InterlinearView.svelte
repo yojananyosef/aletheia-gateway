@@ -62,6 +62,8 @@ let {
   let canGoPrevious = $state(true);
   let canGoNext = $state(true);
   let requestId = 0;
+  // Caché de texto de referencia por versículo (evita reprocesar capítulo entero)
+  let referenceVerseCache = $state<Record<string, string>>({});
 
   let currentVerse = $derived(chapterVerses.find((v) => v.verse === verse) || null);
   let isHebrew = $derived(testament === 'hebrew');
@@ -85,6 +87,10 @@ let {
   }
 
   async function loadReferenceVerse(): Promise<string> {
+    const cacheKey = `${bookName}:${chapter}:${verse}:${referenceTranslation}`;
+    if (referenceVerseCache[cacheKey]) {
+      return referenceVerseCache[cacheKey];
+    }
     try {
       const passage = await bibleRepo.getPassage(`${bookName} ${chapter}`, referenceTranslation);
       const found = passage?.verses?.find(
@@ -92,7 +98,9 @@ let {
           item.number === verse ||
           (item.endNumber && verse >= item.number && verse <= item.endNumber)
       );
-      return found?.text || '';
+      const text = found?.text || '';
+      referenceVerseCache[cacheKey] = text;
+      return text;
     } catch {
       return '';
     }
@@ -135,7 +143,16 @@ let {
       chapterVerses = [];
       referenceText = '';
     } finally {
-      if (id === requestId) isLoading = false;
+      if (id === requestId) {
+        isLoading = false;
+        // Precarga silenciosa del capítulo siguiente para navegación instantánea
+        if (!loadError && chapterNumbers.length > 0) {
+          const nextChapter = chapter + 1;
+          if (chapterNumbers.includes(nextChapter)) {
+            void interlinearRepo.getChapter(bookName, nextChapter);
+          }
+        }
+      }
     }
   }
 
@@ -233,6 +250,16 @@ let {
     const v = verse;
     if (b && c && v && !isLoading) {
       untrack(() => positionRepo.save({ book: b, chapter: c, verse: v }));
+    }
+  });
+
+  // Limpia el caché de texto de referencia al cambiar libro, capítulo o traducción
+  $effect(() => {
+    const b = bookName;
+    const c = chapter;
+    const t = referenceTranslation;
+    if (b && c && t) {
+      referenceVerseCache = {};
     }
   });
 
