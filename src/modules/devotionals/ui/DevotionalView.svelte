@@ -95,7 +95,7 @@
     const reading = activeReading;
     if (!reading) return;
 
-    const textToCopy = `${reading.title}\n${devotional?.displayDate || ''}\n\n«${reading.verseQuote}» (${reading.scriptureReference})\n\n${reading.content}\n\n— C.H. Spurgeon (AletheiaGateway)`;
+    const textToCopy = `${reading.title}\n${devotional?.displayDate || ''}\n\n«${reading.verseQuote}» (${reading.scriptureReference})\n\n${reading.content}\n\n— C.H. Spurgeon (Aletheia Gateway)`;
     try {
       await navigator.clipboard.writeText(textToCopy);
       hasCopied = true;

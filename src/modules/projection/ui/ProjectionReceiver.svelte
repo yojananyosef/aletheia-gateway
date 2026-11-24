@@ -77,7 +77,7 @@
 
 <div class="projection-screen">
   {#if !text}
-    <p class="projection-idle">AletheiaGateway — Proyección<br /><span>Abre un pasaje en el lector y pulsa «Proyectar».</span></p>
+    <p class="projection-idle">Aletheia Gateway — Proyección<br /><span>Abre un pasaje en el lector y pulsa «Proyectar».</span></p>
   {:else}
     <div class="projection-body {animate ? 'is-visible' : ''}">
       <div class="projection-text" style="font-size: {fontSizeFor(plainLength)}">{@html text}</div>
