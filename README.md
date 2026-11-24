@@ -80,7 +80,7 @@ graph TD
 ## 📁 Estructura del Proyecto
 
 ```text
-aletheiagateway/
+aletheia-gateway/
 ├── public/
 │   ├── favicon.svg                # Monograma vectorial Neobrutalista
 │   ├── favicon.ico                # Favicon binario ICO estándar
@@ -130,8 +130,8 @@ aletheiagateway/
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/aletheiagateway.git
-   cd aletheiagateway
+   git clone https://github.com/yojananyosef/aletheia-gateway.git
+   cd aletheia-gateway
    ```
 
 2. Instalar dependencias:
