@@ -2,7 +2,7 @@
 
 test('home carga con buscador y marca Aletheia', async ({ page }) => {
   await page.goto('/');
-  await expect(page).toHaveTitle(/AletheiaGateway/);
+  await expect(page).toHaveTitle(/Aletheia Gateway/);
   await expect(page.getByPlaceholder(/Ingrese pasaje/)).toBeVisible();
 });
 

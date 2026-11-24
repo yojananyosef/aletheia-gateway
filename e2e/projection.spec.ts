@@ -75,7 +75,7 @@ test.describe('proyección en segunda pantalla', () => {
     const respuesta = await page.request.get('/projection');
     expect(respuesta.ok()).toBe(true);
     const html = await respuesta.text();
-    expect(html).toContain('AletheiaGateway');
+    expect(html).toContain('Aletheia Gateway');
     // El shell de la SPA lleva la navegación lateral; el visor no.
     expect(html).not.toContain('neo-sidebar');
   });

@@ -15,14 +15,14 @@
   <div class="about-header">
     <div class="about-titles">
       <h2>Acerca de</h2>
-      <span>AletheiaGateway · La verdad en la Palabra</span>
+      <span>Aletheia Gateway · La verdad en la Palabra</span>
     </div>
   </div>
 
   <section class="about-card">
     <h3><BookOpen size={16} /> Qué es este proyecto</h3>
     <p>
-      AletheiaGateway es un lector y una herramienta de estudio bíblico: lectura en varias
+      Aletheia Gateway es un lector y una herramienta de estudio bíblico: lectura en varias
       versiones, interlineal hebreo/griego con morfología, diccionario Strong, concordancia,
       comentarios y planes de lectura. Los datos viven en el proyecto y se validan
       versículo por versículo contra fuentes de referencia.

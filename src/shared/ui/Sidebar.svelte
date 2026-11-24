@@ -72,7 +72,7 @@
     <button
       type="button"
       class="neo-brand-btn {isCollapsed && !isOpen ? 'is-collapsed-btn' : ''}"
-      data-tooltip="AletheiaGateway - Inicio"
+      data-tooltip="Aletheia Gateway - Inicio"
       data-tooltip-pos={isCollapsed && !isOpen ? 'bottom' : 'top'}
       onclick={() => handleSelect('home')}
     >
