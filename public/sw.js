@@ -1,5 +1,5 @@
 /**
- * Service Worker AletheiaGateway (shell offline).
+ * Service Worker Aletheia Gateway (shell offline).
  *
  * Estrategia:
  * - Navegaciones: SIEMPRE red primero (si no, un usuario que ya visitó la app

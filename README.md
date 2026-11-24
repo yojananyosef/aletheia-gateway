@@ -1,7 +1,7 @@
-# AletheiaGateway 📖⚡
+# Aletheia Gateway 📖⚡
 
 > _«Conoceréis la verdad, y la verdad os hará libres.»_  
-> **AletheiaGateway** (del griego _ἀλήθεια_, "verdad") es una plataforma web moderna, ultrarrápida y accesible para la lectura, búsqueda y estudio comparativo de la Biblia en español.
+> **Aletheia Gateway** (del griego _ἀλήθεια_, "verdad") es una plataforma web moderna, ultrarrápida y accesible para la lectura, búsqueda y estudio comparativo de la Biblia en español.
 
 ---
 
@@ -219,7 +219,7 @@ aletheiagateway/
 
 #### Marca legible en oscuro/OLED y medición real de alto contraste
 
-- 🏷️ **Lockup AletheiaGateway**: "Gateway" usaba azul marino sobre tarjeta clara y el tagline tinta de acento (ambos invisibles en oscuro/OLED). Ahora usan `accent-interest-ink` + `text-muted` (AAA en superficie en todos los temas).
+- 🏷️ **Lockup Aletheia Gateway**: "Gateway" usaba azul marino sobre tarjeta clara y el tagline tinta de acento (ambos invisibles en oscuro/OLED). Ahora usan `accent-interest-ink` + `text-muted` (AAA en superficie en todos los temas).
 - 📏 **Alto contraste medido en Chromium**: 154/154 elementos con geometría y fuente idénticas al estándar (movidos=0). El cambio de tema solo altera colores; la sensación de "letra más grande" es perceptual (negro puro sobre blanco puro), no reflow.
 - 🧪 **e2e al día**: expectativa de palabras de Cristo actualizada al rojo AAA (`rgb(138,31,31)`).
 - ✅ `check` 0 errores, unit 121/121, contraste AAA.
@@ -706,7 +706,7 @@ aletheiagateway/
 - 🎨 Sistema de diseño **Neobrutalista** con soporte fluido de viewport en pantalla completa.
 - 📱 Componente unificado `AppShell.svelte` con Sidebar colapsable (`260px` ↔ `72px`) y modo cajón móvil.
 - 🔖 Sistema de persistencia de marcadores con `LocalStorageBookmarkRepository`.
-- 🖼️ Iconografía y favicon oficial (`favicon.svg` y `favicon.ico`) con monograma AletheiaGateway.
+- 🖼️ Iconografía y favicon oficial (`favicon.svg` y `favicon.ico`) con monograma Aletheia Gateway.
 
 ---
 
