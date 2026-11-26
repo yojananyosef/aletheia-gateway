@@ -1,0 +1,1 @@
+function e(e){if(!e.startsWith(`/`))return e;let t=`/aletheia-gateway/`.replace(/\/$/,``);return e===`/`?t||`/`:`${t}${e}`}function t(t){let n=e(t);return`${n}${n.includes(`?`)?`&`:`?`}v=mwxpnnbd`}export{e as n,t};

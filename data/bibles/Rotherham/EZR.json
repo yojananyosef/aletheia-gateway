@@ -1,0 +1,1178 @@
+{
+  "versionId": "Rotherham",
+  "bookCode": "EZR",
+  "bookName": "Esdras",
+  "testament": "AT",
+  "chapters": {
+    "1": {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": 1,
+          "text": "In the first year of Cyrus, king of Persia, to fulfil the word of Yahweh from the mouth of Jeremiah, Yahweh aroused the spirit of Cyrus, king of Persia, and he made a proclamation throughout all his kingdom, moreover also in writing, saying:"
+        },
+        {
+          "number": 2,
+          "text": "Thus, saith Cyrus, king of Persia, All the kingdoms of the earth, hath Yahweh God of the heavens, given to me,—and, he himself, hath laid charge upon me, to build for him a house, in Jerusalem, which is in Judah."
+        },
+        {
+          "number": 3,
+          "text": "Who is there among you of all his people? His God be with him, and let him go up to Jerusalem, which is in Judah,—and build the house of Yahweh God of Israel, (he, is God!) which is in Jerusalem;"
+        },
+        {
+          "number": 4,
+          "text": "And, whosoever is left, of all the places where he doth sojourn, let the men of his place uphold him, with silver and with gold, and with goods and with beasts,—along with a voluntary offering for the house of God, which is in Jerusalem."
+        },
+        {
+          "number": 5,
+          "text": "Then arose the ancestral chiefs of Judah and Benjamin, and the priests, and the Levites,—even every one whose spirit God had aroused, to go up to build the house of Yahweh, which was in Jerusalem;"
+        },
+        {
+          "number": 6,
+          "text": "and, all they who were round about them, strengthened their hands, with utensils of silver, with gold with goods and with beasts, and with precious things,—besides any thing he had volunteered."
+        },
+        {
+          "number": 7,
+          "text": "And, King Cyrus, brought forth the utensils of the house of Yahweh,—which Nebuchadnezzar had brought forth from Jerusalem, and put in the house of his gods:—"
+        },
+        {
+          "number": 8,
+          "text": "yea Cyrus king of Persia brought them forth, by the hand of Mithredath the treasurer,—and numbered them unto Sheshbazzar, a leader of Judah."
+        },
+        {
+          "number": 9,
+          "text": "And, these, were the numbers of them,—basins of gold, thirty, basins of silver, a thousand, knives, twenty-nine;"
+        },
+        {
+          "number": 10,
+          "text": "bowls of gold, thirty, bowls of silver, of a secondary sort, four hundred and ten,—other utensils, a thousand."
+        },
+        {
+          "number": 11,
+          "text": "All the utensils, in gold and silver, were five thousand and four hundred,—the whole, did Sheshbazzar bring up with the upbringing of the exile, out of Babylon unto Jerusalem."
+        }
+      ]
+    },
+    "2": {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Now, these, are the sons of the province, who came up from among the captives of the exile, whom Nebuchadnezzar the king of Babylon exiled to Babylon,—who came back unto Jerusalem and Judah, every one unto his own city;"
+        },
+        {
+          "number": 2,
+          "text": "who came in with Zerubbabel, Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mispar, Bigvai Rehum, Baanah,—the number of the men of the people of Israel:—"
+        },
+        {
+          "number": 3,
+          "text": "The sons of Parosh, two thousand one hundred and seventy-two;"
+        },
+        {
+          "number": 4,
+          "text": "The sons of Shephatiah, three hundred and seventy-two;"
+        },
+        {
+          "number": 5,
+          "text": "The sons of Arah, seven hundred and seventy-five;"
+        },
+        {
+          "number": 6,
+          "text": "The sons of Pahath-moab, belonging to the sons of Jeshua, Joab, two thousand eight hundred and twelve;"
+        },
+        {
+          "number": 7,
+          "text": "The sons of Elam, a thousand two hundred and fifty-four;"
+        },
+        {
+          "number": 8,
+          "text": "The sons of Zattu, nine hundred and forty-five;"
+        },
+        {
+          "number": 9,
+          "text": "The sons of Zaccai, seven hundred and sixty;"
+        },
+        {
+          "number": 10,
+          "text": "The sons of Bani, six hundred and forty-two;"
+        },
+        {
+          "number": 11,
+          "text": "The sons of Bebai, six hundred and twenty-three;"
+        },
+        {
+          "number": 12,
+          "text": "The sons of Azgad, a thousand two hundred and twenty-two;"
+        },
+        {
+          "number": 13,
+          "text": "The sons of Adonikam, six hundred and sixty-six;"
+        },
+        {
+          "number": 14,
+          "text": "The sons of Bigvai, two thousand and fifty-six;"
+        },
+        {
+          "number": 15,
+          "text": "The sons of Adin, four hundred and fifty-four;"
+        },
+        {
+          "number": 16,
+          "text": "The sons of Ater pertaining to Hezekiah, ninety-eight;"
+        },
+        {
+          "number": 17,
+          "text": "The sons of Bezai, three hundred and twenty-three;"
+        },
+        {
+          "number": 18,
+          "text": "The sons of Jorah, a hundred and twelve;"
+        },
+        {
+          "number": 19,
+          "text": "The sons of Hashum, two hundred and twenty-three:"
+        },
+        {
+          "number": 20,
+          "text": "The sons of Gibbar, ninety-five;"
+        },
+        {
+          "number": 21,
+          "text": "The sons of Bethlehem, a hundred and twenty-three;"
+        },
+        {
+          "number": 22,
+          "text": "The men of Netophah, fifty-six;"
+        },
+        {
+          "number": 23,
+          "text": "The men of Anathoth, a hundred and twenty-eight;"
+        },
+        {
+          "number": 24,
+          "text": "The sons of Azmaveth, forty-two;"
+        },
+        {
+          "number": 25,
+          "text": "The sons of Kiriath-arim, Chephirah and Beeroth, seven hundred and forty-three;"
+        },
+        {
+          "number": 26,
+          "text": "The sons of Ramah and Geba, six hundred and twenty-one;"
+        },
+        {
+          "number": 27,
+          "text": "The men of Michmas, a hundred and twenty-two:"
+        },
+        {
+          "number": 28,
+          "text": "The men of Bethel and Ai, two hundred and twenty-three;"
+        },
+        {
+          "number": 29,
+          "text": "The sons of Nebo, fifty-two;"
+        },
+        {
+          "number": 30,
+          "text": "The sons of Magbish, a hundred and fifty-six;"
+        },
+        {
+          "number": 31,
+          "text": "The sons of the other Elam, a thousand two hundred and fifty-four;"
+        },
+        {
+          "number": 32,
+          "text": "The sons of Harim, three hundred and twenty;"
+        },
+        {
+          "number": 33,
+          "text": "The sons of Lod, Hadid and Ono, seven hundred and twenty-five;"
+        },
+        {
+          "number": 34,
+          "text": "The sons of Jericho, three hundred and forty-five;"
+        },
+        {
+          "number": 35,
+          "text": "The sons of Senaah, three thousand and six hundred and thirty!"
+        },
+        {
+          "number": 36,
+          "text": "The priests, The sons of Jedaiah of the house of Jeshua, nine hundred and seventy-three;"
+        },
+        {
+          "number": 37,
+          "text": "The sons of Immer, a thousand and fifty-two;"
+        },
+        {
+          "number": 38,
+          "text": "The sons of Pashhur, a thousand two hundred and forty-seven;"
+        },
+        {
+          "number": 39,
+          "text": "The sons of Harim, a thousand and seventeen,"
+        },
+        {
+          "number": 40,
+          "text": "The Levites, The sons of Jeshua, and Kadmiel of the sons of Hodaviah, seventy-four."
+        },
+        {
+          "number": 41,
+          "text": "The singers, The sons of Asaph, a hundred and twenty-eight."
+        },
+        {
+          "number": 42,
+          "text": "The sons of the door-keepers, The sons of Shallum, the sons of Ater, the sons of Talmon, the sons of Akkub, the sons of Hatita, the sons of Shobai,—in all, a hundred and thirty-nine."
+        },
+        {
+          "number": 43,
+          "text": "The Nethinim, The sons of Ziha, the sons of Hasupha, the sons of Tabbaoth;"
+        },
+        {
+          "number": 44,
+          "text": "the sons of Keros, the sons of Siaha, the sons of Padon;"
+        },
+        {
+          "number": 45,
+          "text": "the sons of Lebanah, the sons of Hagabah, the sons of Akkub;"
+        },
+        {
+          "number": 46,
+          "text": "the sons of Hagab, the sons of Shamlai, the sons of Hanan;"
+        },
+        {
+          "number": 47,
+          "text": "the sons of Giddel, the sons of Gahar, the sons of Reaiah;"
+        },
+        {
+          "number": 48,
+          "text": "the sons of Rezin, the sons of Nekoda, the sons of Gazzam;"
+        },
+        {
+          "number": 49,
+          "text": "the sons of Uzza, the sons of Paseah, the sons of Besai;"
+        },
+        {
+          "number": 50,
+          "text": "the sons of Asnah, the sons of Meunim, the sons of Nephisim;"
+        },
+        {
+          "number": 51,
+          "text": "the sons of Bakbuk, the sons of Hakupha, the sons of Harhur;"
+        },
+        {
+          "number": 52,
+          "text": "the sons of Bazluth, the sons of Mehida, the sons of Harsha;"
+        },
+        {
+          "number": 53,
+          "text": "the sons of Barkos, the sons of Sisera, the sons of Temah;"
+        },
+        {
+          "number": 54,
+          "text": "the sons of Neziah, the sons of Hatipha."
+        },
+        {
+          "number": 55,
+          "text": "The Sons of the Servants of Solomon. The sons of Sotai, the sons of Hasso-phereth, the sons of Peruda;"
+        },
+        {
+          "number": 56,
+          "text": "the sons of Jaalah, the sons of Darkon, the sons of Giddel;"
+        },
+        {
+          "number": 57,
+          "text": "the sons of Shephatiah, the sons of Hattil, the sons of Pochereth-hazzebaim, the sons of Ami."
+        },
+        {
+          "number": 58,
+          "text": "All the Nethinim, and the Sons of the Servants of Solomon, were three hundred and ninety-two."
+        },
+        {
+          "number": 59,
+          "text": "And, these, were they who came up from Tel-melah, Tel-harsha, Cherub, Addan, Immer; but they could not tell their ancestral house, nor their seed, whether, of Israel, they were:"
+        },
+        {
+          "number": 60,
+          "text": "the sons of Delaiah, the sons of Tobiah, the sons of Nekoda,—six hundred and fifty-two."
+        },
+        {
+          "number": 61,
+          "text": "And, of the sons of the priests, the sons of Habaiah, the sons of Hakkoz,—the sons of Barzillai, who took of the daughters of Barzillai the Gileadite to wife, and was called after their name."
+        },
+        {
+          "number": 62,
+          "text": "These, sought their writing wherein they were registered, but they were not found,—so they were desecrated out of the priesthood;"
+        },
+        {
+          "number": 63,
+          "text": "and the governor told them, that they must not eat of the most holy things,—until there should stand up a priest, with Lights and Perfections."
+        },
+        {
+          "number": 64,
+          "text": "All the gathered host together, was forty-two thousand three hundred and sixty;"
+        },
+        {
+          "number": 65,
+          "text": "besides, their men-servants and their maid-servants who were these, seven thousand three hundred and thirty-seven,—and there pertained to them, singing men and singing women, two hundred:"
+        },
+        {
+          "number": 66,
+          "text": "their horses, were seven hundred and thirty-six,—their mules, two hundred and forty-five;"
+        },
+        {
+          "number": 67,
+          "text": "their camels, four hundred and thirty-five,—asses, six thousand seven hundred and twenty."
+        },
+        {
+          "number": 68,
+          "text": "And, a portion of the ancestral chiefs, when they came to the house of Yahweh which was in Jerusalem, offered voluntarily for the house of God, to set it up on its basis."
+        },
+        {
+          "number": 69,
+          "text": "According to their ability, gave they unto the treasury of the work, of gold, sixty-one thousand drams, and, of silver, five thousand manehs,—and, tunics for priests, one hundred."
+        },
+        {
+          "number": 70,
+          "text": "So the priests and the Levites, and some of the people, and the singers and the doorkeepers and the Nethinim, took up their abode, in their cities,—and, all Israel, in their cities."
+        }
+      ]
+    },
+    "3": {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": 1,
+          "text": "But, when the seventh month was come, and the sons of Israel were in cities, then did the people gather themselves together as one man, unto Jerusalem."
+        },
+        {
+          "number": 2,
+          "text": "Then arose—Jeshua son of Jozadak and his brethren the priests, and Zerubbabel son of Shealtiel and his brethren, and built the altar of the God of Israel,—to offer thereon ascending-sacrifices, as it was written in the law of Moses, the man of God."
+        },
+        {
+          "number": 3,
+          "text": "So they settled the altar upon its stands, for, dread, was upon them, because of the peoples of the countries,—therefore caused they to go up thereon, ascending-sacrifices unto Yahweh, ascending-sacrifices for the morning and for the evening."
+        },
+        {
+          "number": 4,
+          "text": "And they kept the festival of booths, as it was written,—and the ascending-offering of each day upon its own day, by number, according to regulation, the matter of a day upon its day;"
+        },
+        {
+          "number": 5,
+          "text": "and, afterwards, the continual ascending-sacrifice, and, on the new moons, and on all the appointed seasons of Yahweh, the hallowed things,—also for every one that volunteered a voluntary offering unto Yahweh."
+        },
+        {
+          "number": 6,
+          "text": "From the first day of the seventh month, began they to offer up ascending-sacrifices unto Yahweh,—but, the temple of Yahweh, had not had its foundation laid."
+        },
+        {
+          "number": 7,
+          "text": "And they gave silver, unto the masons and carpenters,—and food and drink and oil, unto them of Zidon and unto them of Tyre, to bring in cedar-trees out of the Lebanon, unto the sea of Joppa, according to the grant of Cyrus king of Persia unto them."
+        },
+        {
+          "number": 8,
+          "text": "Now, in the second year of their coming in unto the house of God, to Jerusalem, in the second month, began Zerubbabel son of Shealtiel and Jeshua son of Jozadak and the rest of their brethren—the priests and the Levites, and all that were come out of the captivity to Jerusalem, and stationed the Levites, of twenty years old and upwards, to preside over the work of the house of Yahweh."
+        },
+        {
+          "number": 9,
+          "text": "So they took their station—even Jeshua, his sons and his brethren, Kadmiel and his sons, sons of Judah, as one man to preside over the doer of the work in the house of God, the sons of Henadad, their sons and their brethren, the Levites."
+        },
+        {
+          "number": 10,
+          "text": "And, when the builders laid the foundation of the temple of Yahweh, then the priests, enrobed, took their stand with trumpets, and the Levites the sons of Asaph with cymbals, to offer praise unto Yahweh, after the instructions of David king of Israel."
+        },
+        {
+          "number": 11,
+          "text": "And, when they made responses in offering praise and in giving thanks unto Yahweh—For he is good, for, age-abiding, is his lovingkindness, upon Israel, then, all the people, shouted with a great shout, in offering praise unto Yahweh, over the laying of the foundation of the house of Yahweh."
+        },
+        {
+          "number": 12,
+          "text": "But, many of the priests and the Levites and the ancestral chiefs, who were old men, that had seen the first house, when the foundation of this house was laid before their eyes, were weeping with a loud voice,—many, however, shouting and rejoicing, with voice raised on high;"
+        },
+        {
+          "number": 13,
+          "text": "so that the people could not distinguish the noise of the shout of joy, from the noise of the weeping of the people,—for, the people, did shout with a great shout, and, the noise, was heard afar off."
+        }
+      ]
+    },
+    "4": {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Now, when the adversaries of Judah and Benjamin heard—that, the Sons of the Exile, were building the temple, unto Yahweh, God of Israel,"
+        },
+        {
+          "number": 2,
+          "text": "then drew they near unto Zerubbabel, and unto the ancestral chiefs, and said unto them, Let us build with you, for, like you, we seek your God, and, unto him, have, we, been sacrificing since the days of Esar-haddon, king of Assyria, who brought us up hither."
+        },
+        {
+          "number": 3,
+          "text": "But Zerubbabel and Jeshua and the rest of the ancestral chiefs of Israel, said unto them, It pertaineth not to you and to us [in common], to build a house unto our God,—but, we ourselves together, will build unto Yahweh, God of Israel, even as King Cyrus, king of Persia, hath commanded us."
+        },
+        {
+          "number": 4,
+          "text": "Then came it to pass, that, the people of the land, were weakening the hands of the people of Judah,—and troubling them in building;"
+        },
+        {
+          "number": 5,
+          "text": "and hiring against them counselors, to overturn their purpose,—all the days of Cyrus, king of Persia, even until the reign of Darius, king of Persia."
+        },
+        {
+          "number": 6,
+          "text": "And, in the reign of Ahasuerus, in the beginning of his reign, wrote they an accusation, against the inhabitants of Judah and Jerusalem."
+        },
+        {
+          "number": 7,
+          "text": "And, in the days of Artaxerxes, wrote Bishlam, Mithredath, Tabeel, and the rest of his associates, unto Artaxerxes, king of Persia,—and, the writing of the letter, was written in Aramean, and was to be interpreted as Aramean."
+        },
+        {
+          "number": 8,
+          "text": "Rehum holder of judicial authority, and Shimshai the scribe, wrote a certain letter against Jerusalem,—to Artaxerxes the king, thus:"
+        },
+        {
+          "number": 9,
+          "text": "Then Rehum holder of judicial authority, and Shimshai the scribe, and the rest of their associates,—the Dinaites and the Apharsathchites, the Tarpelites, the Apharsites, the Archevites, the Babylonians, the Shushanchites, the Dehaites, the Elamites;"
+        },
+        {
+          "number": 10,
+          "text": "and the rest of the peoples, whom the great and noble Osnappar hath exiled, and set in the city of Samaria,—and the rest Beyond the River, and so forth:"
+        },
+        {
+          "number": 11,
+          "text": "This, is a copy of the letter which they sent unto him—unto Artaxerxes the king,—Thy servants, the men Beyond the River and so forth:"
+        },
+        {
+          "number": 12,
+          "text": "Be it known unto the king,—that, the Jews who came up from thee unto us, are come to Jerusalem,—the rebellious and wicked city, are they building, and, the walls, have they finished, and, the foundations, will they repair."
+        },
+        {
+          "number": 13,
+          "text": "Now be it known to the king, that, if this city, be built, and, the walls thereof, be finished, neither, tribute, excise, nor toll, will they render, and so, the revenue of the kings, shalt thou damage."
+        },
+        {
+          "number": 14,
+          "text": "Now, because the salt of the palace we have eaten, the impoverishment of the king, it is not meet for us to see,—therefore have we sent, and certified the king;"
+        },
+        {
+          "number": 15,
+          "text": "so that search may be made in the book of the records of thy fathers, so shalt thou find out in the book of records—and shalt ascertain, that, this city, is a rebellious city, and one that causeth damage unto kings and provinces, and that, rebellion, have they been wont to cause in the midst thereof since the days of age-past time,—for this cause, was this city laid waste."
+        },
+        {
+          "number": 16,
+          "text": "We do certify the king that, if, this city, be built, and, the walls thereof, finished, for that very reason, portion Beyond the River, shalt thou have none."
+        },
+        {
+          "number": 17,
+          "text": "The king sent, a message, unto Rehum holder of judicial authority, and Shimshai the scribe, and the rest of their associates, who were dwelling in Samaria, and the rest Beyond the River, Peace and so forth."
+        },
+        {
+          "number": 18,
+          "text": "The letter which ye sent unto us, was distinctly read before me;"
+        },
+        {
+          "number": 19,
+          "text": "And, from me, went forth an edict, and they have made search and found, that, this city, since the days of age-past time, against kings, hath lifted herself up,—and, sedition and rebellion, have been made therein;"
+        },
+        {
+          "number": 20,
+          "text": "and, mighty kings, have there been over Jerusalem, and bearing rule everywhere Beyond the River,—and, tribute, excise, and toll, have been given to them."
+        },
+        {
+          "number": 21,
+          "text": "Now, issue ye an edict, to forbid these men,—that, this city, be not built, until, from me, the edict be issued."
+        },
+        {
+          "number": 22,
+          "text": "Beware, then, of failure to do thus,—wherefore should the damage increase, to inflict loss on the kings?"
+        },
+        {
+          "number": 23,
+          "text": "Then, when, the copy of the letter of Artaxerxes the king, had been read before Rehum, and Shimshai the scribe, and their associates, they journeyed in haste to Jerusalem, unto the Jews, and forbade them, with arm and force."
+        },
+        {
+          "number": 24,
+          "text": "Then ceased the work of the house of God, which was in Jerusalem,—yea it did cease, until the second year of the reign of Darius king of Persia."
+        }
+      ]
+    },
+    "5": {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then were moved to prophesy, Haggai the prophet, and Zechariah son of Iddo, the prophets, unto the Jews who were in Judaea and in Jerusalem,—in the name of the God of Israel, unto them."
+        },
+        {
+          "number": 2,
+          "text": "Then arose—Zerubbabel son of Shealtiel, and Jeshua son of Jozadak, and began to build the house of God, which was in Jerusalem,—and, with them, were the prophets of God, strengthening them."
+        },
+        {
+          "number": 3,
+          "text": "At that time, came unto them Tattenai pasha Beyond the River, and Shethar-bozenai, and their associates,—and, thus, spake they unto them, Who hath issued unto you an edict, this house, to build, and, this wall, to complete?"
+        },
+        {
+          "number": 4,
+          "text": "Then, after this manner, spake we unto them,—What are the names of these men, who, this building, do rear?"
+        },
+        {
+          "number": 5,
+          "text": "Nevertheless, the eye of their God, was upon the elders of Judah, and they did not forbid them, until the matter, unto Darius, should come,—and, then, answer be returned by letter, concerning this."
+        },
+        {
+          "number": 6,
+          "text": "A copy of the letter which Tattenai pasha Beyond the River, and Shethar-bozenai, and his associates, the Apharsachites, who were Beyond the Rivet, sent unto Darius the king:"
+        },
+        {
+          "number": 7,
+          "text": "a message, sent they unto him,—and, thus, was it written therein, Unto Darius the king, all prosperity!"
+        },
+        {
+          "number": 8,
+          "text": "Be it known unto the king, that we journeyed into the province of Judah, unto the house of the Great God, and, the same, is being built with large stones, and, timber, is being laid in the walls,—and, this work, with speed, is being done, and is prospering in their hands."
+        },
+        {
+          "number": 9,
+          "text": "Then asked we of these elders, thus, we said to them,—Who hath issued to you an edict, this house, to build, and, this wall, to complete?"
+        },
+        {
+          "number": 10,
+          "text": "Yea, their names also, asked we of them, to certify thee,—that we might write the name, of the men who are at their head."
+        },
+        {
+          "number": 11,
+          "text": "And, thus, returned they, answer, to us saying,—We, are servants of the God of the heavens and the earth, and are building the house which was built these many years ago, which, a great king of Israel, built and completed."
+        },
+        {
+          "number": 12,
+          "text": "But, after that our fathers had provoked the God of the heavens to wrath, he delivered them into the hand of Nebuchadnezzar king of Babylon, the Chaldean,—and, this house, he destroyed, and, the people, he exiled to Babylon."
+        },
+        {
+          "number": 13,
+          "text": "Howbeit, in the first year of Cyrus king of Babylon, Cyrus the king, issued an edict, this house of God, to build."
+        },
+        {
+          "number": 14,
+          "text": "Moreover also, the utensils of the house of God, of gold and silver, which, Nebuchadnezzar, had brought forth out of the temple which was in Jerusalem, and had brought into the temple of Babylon, Cyrus the king, brought them forth, out of the temple of Babylon,—and they were delivered to one Sheshbazzar by name, whom he made, pasha;"
+        },
+        {
+          "number": 15,
+          "text": "and said to him—These utensils, take, go carry them into the temple that is in Jerusalem,—and let, the house of God, be built in its place."
+        },
+        {
+          "number": 16,
+          "text": "Then, this Sheshbazzar, came, he laid the foundations of the house of God, which was in Jerusalem,—and, since then, even until now, it hath been in building, and is not finished."
+        },
+        {
+          "number": 17,
+          "text": "Now, therefore, if, unto the king, it seem good, let search be made in the treasure-house of the king which is there, in Babylon, whether it be so, that, from Cyrus the king, issued an edict, to build this house of God, in Jerusalem,—and, the pleasure of the king concerning this, let him send unto us."
+        }
+      ]
+    },
+    "6": {
+      "chapter": 6,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Then, Darius the king, issued an edict,—and they made search in the house of the books, where the treasures were laid up in Babylon."
+        },
+        {
+          "number": 2,
+          "text": "And there was found in Achmetha, in the fortress which is in the province of Media, a roll,—and, thus, was it written therein, as a record:—"
+        },
+        {
+          "number": 3,
+          "text": "In the first year of Cyrus the king, Cyrus the king, issued an edict, as to the house of God in Jerusalem, Let the house be built, the place where they used to offer sacrifices, and let the foundations thereof be reared,—the height thereof, sixty cubits, the breadth thereof, sixty cubits;"
+        },
+        {
+          "number": 4,
+          "text": "layers of large stones, three, and one layer of new timber,—and, as for the expenses, out of the house of the king, let them be given."
+        },
+        {
+          "number": 5,
+          "text": "Moreover also, the utensils of the house of God, of gold and silver, which, Nebuchadnezzar, took forth out of the temple that was in Jerusalem, and brought unto Babylon, let them again be taken to the temple which is in Jerusalem every one to its place, and lay them up in the house of God."
+        },
+        {
+          "number": 6,
+          "text": "Now, therefore, Tattenai pasha Beyond the River, Shethar-bozenai, and their associates, the Apharsachites, who are Beyond the River,—be ye far from thence:"
+        },
+        {
+          "number": 7,
+          "text": "let alone the work of this house of God,—the pasha of Judah, and the elders of Judah, this house of God, shall build upon its place;"
+        },
+        {
+          "number": 8,
+          "text": "And, from me, is issued an edict, as to that which ye shall do, with these elders of Judah, for the building of this house of God,—That, of the resources of the king, even the tribute Beyond the River, forthwith, the expenses be given unto these men, for they must not be hindered."
+        },
+        {
+          "number": 9,
+          "text": "And, whatever may be the need—whether young bullocks or rams or lambs for ascending-sacrifices unto the God of the heavens, wheat, salt, wine or oil, according to the command of the priests who are in Jerusalem,—that it he given to them day by day, without fail;"
+        },
+        {
+          "number": 10,
+          "text": "that they may be offering sweet-smelling sacrifices unto the God of the heavens,—and be praying for the life of the king, and his sons."
+        },
+        {
+          "number": 11,
+          "text": "And, from me, is issued an edict, that, any man who shall alter this message, let timber be torn out of his house, and being lifted up let him be fastened thereunto,—and his house, a dunghill, be made for this;"
+        },
+        {
+          "number": 12,
+          "text": "and, the God who hath caused his Name to dwell there, destroy any king or people, who shall put forth their hand to alter to destroy this house of God, which is in Jerusalem. I, Darius, have issued an edict, forthwith, let it be done."
+        },
+        {
+          "number": 13,
+          "text": "Then, Tattenai the pasha Beyond the River, Shethar-bozenai, and their associates,—according as Darius the king had sent, so, forthwith, they did."
+        },
+        {
+          "number": 14,
+          "text": "And, the elders of the Jews, went on building and prospering, through the prophesying of Haggai the prophet, and Zechariah son of Iddo,—they both built and finished, owing to the edict of the God of Israel, and owing to the edict of Cyrus and Darius, and Artaxerxes king of Persia."
+        },
+        {
+          "number": 15,
+          "text": "And this house was finished, by the third day of the month Adar,—the which was the sixth year of the reign of Darius the king."
+        },
+        {
+          "number": 16,
+          "text": "Then did the sons of Israel, the priests and the Levites, and the rest of the Sons of the Exile, keep the dedication of this house of God, with joy;"
+        },
+        {
+          "number": 17,
+          "text": "and offered, for the dedication of this house of God, bullocks, one hundred, rams, two hundred, lambs, four hundred,—and, he-goats, as a sin-offering for all Israel, twelve, according to the number of the tribes of Israel."
+        },
+        {
+          "number": 18,
+          "text": "And they set up the priests in their divisions, and the Levites in their courses, over the service of God, which was in Jerusalem,—as it is written, in the Book of Moses."
+        },
+        {
+          "number": 19,
+          "text": "And the Sons of the Exile kept the passover,—on the fourteenth of the first month;"
+        },
+        {
+          "number": 20,
+          "text": "for the priests and the Levites, had purified themselves, as one man, all of them, were pure,—so they slaughtered the passover for all the Sons of the Exile, and for their brethren the priests, and for themselves."
+        },
+        {
+          "number": 21,
+          "text": "Therefore the sons of Israel who had returned from the Exile and all who had separated themselves from the impurity of the nations of the land unto them, did eat,—to seek Yahweh, God of Israel;"
+        },
+        {
+          "number": 22,
+          "text": "and kept the festival of unleavened cakes seven days, with joy,—for Yahweh had made them joyful, and had turned the heart of the king of Assyria towards them, to strengthen their hands, in the work of the house of God, the God of Israel."
+        }
+      ]
+    },
+    "7": {
+      "chapter": 7,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Now, after these things, in the reign of Artaxerxes king of Persia, Ezra,—son of Seraiah, son of Azariah, son of Hilkiah;"
+        },
+        {
+          "number": 2,
+          "text": "son of Shallum, son of Zadok, son of Ahitub;"
+        },
+        {
+          "number": 3,
+          "text": "son of Amariah, son of Azariah, son of Meraioth;"
+        },
+        {
+          "number": 4,
+          "text": "son of Zerahiah, son of Uzzi, son of Bukki;"
+        },
+        {
+          "number": 5,
+          "text": "son of Abishua, son of Phinehas, son of Eliazar, son of Aaron the first priest;—"
+        },
+        {
+          "number": 6,
+          "text": "this Ezra, came up out of Babylon, he, being a ready scribe in the law of Moses, which Yahweh God of Israel had given,—and the king gave him, according to the hand of Yahweh his God upon him, all his request."
+        },
+        {
+          "number": 7,
+          "text": "So then there came up some of the sons of Israel, and some of the priests and the Levites and the singers and the doorkeepers and the Nethinim, unto Jerusalem,—in the seventh year of Artaxerxes the king."
+        },
+        {
+          "number": 8,
+          "text": "And he entered Jerusalem, in the fifth month,—the same, was the seventh year of the king."
+        },
+        {
+          "number": 9,
+          "text": "For, on the first of the first month, was a beginning made of coming up from Babylon,—and, on the first of the fifth month, entered he into Jerusalem, according to the good hand of his God upon him."
+        },
+        {
+          "number": 10,
+          "text": "For, Ezra, had settled his heart, to study the law of Yahweh, and to do [it],—and to teach in Israel, statute and regulation."
+        },
+        {
+          "number": 11,
+          "text": "Now, this, is a copy of the letter which King Artaxerxes gave, to Ezra the priest the scribe,—the scribe of the words of the commandments of Yahweh, and of his statutes, for Israel:—"
+        },
+        {
+          "number": 12,
+          "text": "Artaxerxes, king of kings, Unto Ezra the priest, scribe of the law of the God of the heavens—To despatch and so forth."
+        },
+        {
+          "number": 13,
+          "text": "From me, is issued an edict, that, every one in my kingdom, of the people of Israel, and of their priests and the Levites, who is minded of his own freewill to go to Jerusalem, with thee, let him go."
+        },
+        {
+          "number": 14,
+          "text": "Forasmuch as, from before the king and his seven counselors, thou art sent, to enquire concerning Judah and as to Jerusalem,—by the law of thy God which is in thy hand;"
+        },
+        {
+          "number": 15,
+          "text": "and to carry the silver and gold which the king and his counselors have freely offered unto the God of Israel, who, in Jerusalem, hath his habitation;"
+        },
+        {
+          "number": 16,
+          "text": "and all the silver and the gold, which thou shalt find, in all the province of Babylon,—with the freewill offering of the people and of the priests offered willingly for the house of their God which is in Jerusalem,"
+        },
+        {
+          "number": 17,
+          "text": "therefore, with all diligence, shalt thou buy—with this silver—bullocks, rams, lambs, with their meal-offerings, and their drink-offerings,—and shalt offer them upon the altar of the house of your God which is in Jerusalem;"
+        },
+        {
+          "number": 18,
+          "text": "and, whatsoever, unto thee and unto thy brethren, shall seem good, with the rest of the silver and the gold, to do, according to the pleasure of your God, shall ye do."
+        },
+        {
+          "number": 19,
+          "text": "And, the utensils which are freely given to thee for the service of the house of thy God, put thou back, before the God of Jerusalem."
+        },
+        {
+          "number": 20,
+          "text": "And, the rest of the need of the house of thy God, which it shall fall to thee to give, thou shalt give, out of the treasure-house of the king."
+        },
+        {
+          "number": 21,
+          "text": "And, from me myself, Artaxerxes the king, issueth an edict, to all the treasurers who are Beyond the River,—that, whatsoever Ezra the priest the scribe of the law of the God of the heavens shall ask of you, with diligence, shall it be done:"
+        },
+        {
+          "number": 22,
+          "text": "unto a hundred talents of silver, and unto a hundred measures of wheat, and unto a hundred baths of wine, and unto a hundred baths of oil,—and salt without limit."
+        },
+        {
+          "number": 23,
+          "text": "Whatsoever is due to an edict of the God of the heavens, let it be done diligently, for the house of the God of the heavens,—for wherefore should there be wrath against the realm of the king and his sons?"
+        },
+        {
+          "number": 24,
+          "text": "And, you, we do certify, that, as touching any of the priests or the Levites, the singers, the doorkeepers, the Nethinim, or the servitors of this house of God, tribute, excise or toll, shall it not be competent to impose upon them."
+        },
+        {
+          "number": 25,
+          "text": "And, thou, Ezra, according to the wisdom of thy God that is in thy hand, appoint thou judges and magistrates, who shall administer justice to all the people that are Beyond the River, to all who know the law of thy God,—and, whoso knoweth not, ye shall teach."
+        },
+        {
+          "number": 26,
+          "text": "But, whosoever shall not do the law of thy God and the law of the king, speedily, let, penalty, be exacted from him,—whether to death, or to banishment, or to confiscation of goods, or to imprisonment."
+        },
+        {
+          "number": 27,
+          "text": "Blessed be Yahweh, God of our fathers,—who hath put the like of this into the heart of the king, to beautify the house of Yahweh, which is in Jerusalem;"
+        },
+        {
+          "number": 28,
+          "text": "and, unto me, hath extended lovingkindness, before the king and his counselors, yea all the valiant captains of the king,—I, therefore have emboldened myself, according to the hand of Yahweh my God upon me, and gathered out of Israel, chief men, to go up with me."
+        }
+      ]
+    },
+    "8": {
+      "chapter": 8,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Now, these, are their ancestral heads, and their genealogical register,—even of those who came up with me, in the reign of Artaxerxes the king, out of Babylon:—"
+        },
+        {
+          "number": 2,
+          "text": "Of the sons of Phinehas, Gershom, of the sons of Ithamar, Daniel,—of the sons of David, Hattush;"
+        },
+        {
+          "number": 3,
+          "text": "Of the sons of Shecaniah, of the sons of Parosh, Zechariah,—and, with him—by genealogical registry of males, a hundred and fifty:"
+        },
+        {
+          "number": 4,
+          "text": "Of the sons of Pahath-moab, Eliehoenai, son of Zerahiah,—and, with him, two hundred males;"
+        },
+        {
+          "number": 5,
+          "text": "Of the sons of Zattu, Shecaniah, the son of Jehaziel,—and, with him, three hundred males;"
+        },
+        {
+          "number": 6,
+          "text": "And, of the sons of Adin, Ebed, son of Jonathan,—and, with him, fifty males;"
+        },
+        {
+          "number": 7,
+          "text": "And, of the sons of Elam, Jeshaiah, son of Athaliah,—and, with him, seventy males;"
+        },
+        {
+          "number": 8,
+          "text": "And, of the sons of Shephatiah, Zebadiah, son of Michael,—and, with him, eighty males;"
+        },
+        {
+          "number": 9,
+          "text": "Of the sons of Joab, Obadiah, son of Jehiel, and, with him, two hundred and eighteen males;"
+        },
+        {
+          "number": 10,
+          "text": "And, of the sons of Bani, Shelomith, son of Josiphiah,—and, with him, a hundred and sixty males;"
+        },
+        {
+          "number": 11,
+          "text": "And, of the sons of Bebai, Zechariah, son of Bebai, and, with him, twenty-eight males;"
+        },
+        {
+          "number": 12,
+          "text": "And, of the sons of Azgad, Johanan, son of Hakkatan,—and, with him, a hundred and ten males;"
+        },
+        {
+          "number": 13,
+          "text": "And, of the later sons of Adonikam, these being their names, Eliphelet, Jeuel, and Shemaiah,—and, with them, sixty males;"
+        },
+        {
+          "number": 14,
+          "text": "And, of the sons of Bigvai, Uthai and Zabbud,—and, with him, seventy males."
+        },
+        {
+          "number": 15,
+          "text": "And I gathered them together, unto the river that cometh into Ahava, and we encamped there three days,—and I informed myself among the people and the priests, and, of the sons of Levi, found I none there."
+        },
+        {
+          "number": 16,
+          "text": "So I sent for Eliezer, for Ariel, for Shemaiah, and for Elnathan, and for Jarib, and for Elnathan, and for Nathan, and for Zechariah, and for Meshullam, chief men,—also for Joiarib and for Elnathan, teachers."
+        },
+        {
+          "number": 17,
+          "text": "And I sent them forth unto Iddo the chief, at the place Casiphia,—and I put into their mouth words, to speak unto Iddo and his brethren the Nethinim, at the place Casiphia, to bring unto us attendants for the house of our God."
+        },
+        {
+          "number": 18,
+          "text": "So they brought unto us, according to the good hand of our God upon us, a man of discretion, of the sons of Mahli, son of Levi, son of Israel,—and Sherebiah, and his sons and his brethren, eighteen;"
+        },
+        {
+          "number": 19,
+          "text": "and Hashabiah, and, with him, Jeshaiah, of the sons of Merari,—his brethren and their sons, twenty;"
+        },
+        {
+          "number": 20,
+          "text": "and, of the Nethinim whom David and the rulers had given for the service of the Levites, Nethinim, two hundred and twenty,—all of them, expressed by name."
+        },
+        {
+          "number": 21,
+          "text": "Then proclaimed I there a fast, by the river Ahava, that we might humble ourselves before our God,—to seek of him a smooth way, for us and for our little ones, and for all our substance."
+        },
+        {
+          "number": 22,
+          "text": "For I was ashamed to ask of the king, a band of soldiers and horsemen, to help us against the enemy in the way, because we had spoken unto the king, saying, The hand of our God, is upon all who seek him, for good, But, his power and his anger, are against all who forsake him."
+        },
+        {
+          "number": 23,
+          "text": "So we fasted and sought of our God, concerning this,—and he suffered himself to be entreated by us."
+        },
+        {
+          "number": 24,
+          "text": "Then I separated, from among the rulers of the priests, twelve,—even Sherebiah, Hashabiah, and, with them, from among their brethren, ten;"
+        },
+        {
+          "number": 25,
+          "text": "and weighed unto them, the silver and the gold, and the utensils,—the heave-offering for the house of our God, which the king and his counselors and his rulers and all Israel who were present, had offered:"
+        },
+        {
+          "number": 26,
+          "text": "I even weighed unto their hand, of silver, six hundred and fifty talents, and, of utensils of silver, a hundred talents,—of gold, a hundred talents;"
+        },
+        {
+          "number": 27,
+          "text": "and, bowls of gold, twenty, of a thousand drams,—and, utensils of fine bright bronze, two, precious as gold."
+        },
+        {
+          "number": 28,
+          "text": "Then said I unto them, Ye, are hallowed unto Yahweh, and, the utensils, are hallowed,—and, the silver and the gold, are a freewill offering, unto Yahweh, God of your fathers:"
+        },
+        {
+          "number": 29,
+          "text": "Watch and guard, until ye weigh [them] before the rulers of the priests and the Levites and the ancestral rulers of Israel, in Jerusalem,—in the chambers of the house of Yahweh."
+        },
+        {
+          "number": 30,
+          "text": "So the priests and the Levites accepted the weight of the silver and the gold, and the utensils,—to bring to Jerusalem, unto the house of our God."
+        },
+        {
+          "number": 31,
+          "text": "Then brake we up from the river of Ahava, on the twelfth of the first month, to journey unto Jerusalem,—and, the hand of our God, was upon us, and he delivered us from the grasp of the enemy and of the lier in wait, by the way."
+        },
+        {
+          "number": 32,
+          "text": "So we came to Jerusalem,—and we rested there, three days."
+        },
+        {
+          "number": 33,
+          "text": "And, on the fourth day, was weighed—the silver and the gold and the utensils, in the house of our God, unto the hand of Meremoth son of Uriah, the priest, and, with him, was Eleazar son of Phinehas,—and, with them, were Jozabad son of Jeshua and Noadiah son of Binnui, Levites:"
+        },
+        {
+          "number": 34,
+          "text": "by the number and by the weight of the whole,—and all the weight, was written down, at that time."
+        },
+        {
+          "number": 35,
+          "text": "They who came in out of the captivity, Sons of the Exile, offered as ascending-sacrifices unto the God of Israel—bullocks twelve for all Israel, rams ninety-six, young sheep seventy-seven, he-goats for bearing sin, twelve,—the whole, as an ascending-sacrifice unto Yahweh."
+        },
+        {
+          "number": 36,
+          "text": "Then delivered they the decrees of the king, unto the satraps of the king, and the pashas Beyond the River,—and they upheld the people and the house of God."
+        }
+      ]
+    },
+    "9": {
+      "chapter": 9,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Now, when these things were ended, the rulers drew near unto me, saying, The people of Israel and the priests and the Levites have not kept themselves separate from the peoples of the lands,—in view of their abominations-even of the Canaanites, the Hittites, the Perizzites, the Jebusites, the Ammonites, the Moabites, the Egyptians, and the Amorites;"
+        },
+        {
+          "number": 2,
+          "text": "for they have taken of their daughters, for themselves and for their sons, so that the holy seed have intermingled themselves among the peoples of the lands,—and, the hand of the rulers and the deputies, hath, in this unfaithfulness, been, foremost."
+        },
+        {
+          "number": 3,
+          "text": "When I heard this thing, I rent my garment, and my robe,—and tore out of the hair of my head and my beard, and sat stunned."
+        },
+        {
+          "number": 4,
+          "text": "Then, unto me, were gathered, all who trembled at the words of the God of Israel, concerning the unfaithfulness of them who had been exiled,—but, I, sat stunned, until the evening gift."
+        },
+        {
+          "number": 5,
+          "text": "And, at the evening gift, I arose from mine affliction, which had been accompanied by the rending of my garment and my robe,—and I bowed upon my knees, and spread forth my hands unto Yahweh my God;"
+        },
+        {
+          "number": 6,
+          "text": "and said, O my God, I turn pale and am ashamed, to lift up, O my God, my face unto thee,—for, our iniquities, have multiplied above the head, and our guilt hath magnified itself unto the heavens."
+        },
+        {
+          "number": 7,
+          "text": "Since the days of our fathers, we, have been in great guilt, until this day,—and, for our iniquities, have we been given up—we, our kings, our priests,—into the hand of the kings of the lands, by sword and by captivity and by spoiling and by a turning pale of face, as at this day."
+        },
+        {
+          "number": 8,
+          "text": "And, now, for a very little moment, hath come favour from Yahweh our God, in leaving to us a remnant to escape, and in giving to us a nail in his holy place,—that our God may enlighten our eyes, and give us a little reviving in our bondage."
+        },
+        {
+          "number": 9,
+          "text": "For, bondmen, we are, but, in our bondage, hath our God not forsaken us,—but extended unto us lovingkindness before the kings of Persia, to give us a reviving, to set up on high the house of our God, to raise up the desolations thereof, and to give us a wall in Judah and in Jerusalem."
+        },
+        {
+          "number": 10,
+          "text": "But, now, what can we say, O our God, after this? for we have forsaken thy commandments,"
+        },
+        {
+          "number": 11,
+          "text": "which thou didst command by the hand of thy servants the prophets, saying, As for the land which, ye, are entering to possess, an impure land, it is, with the impurity of the peoples of the lands,—with their abominations, which have filled it from one end to the other, with their uncleanness."
+        },
+        {
+          "number": 12,
+          "text": "Now, therefore, your daughters, do not ye give to their sons, and, their daughters, do not ye take for your sons, neither shall ye seek their prosperity nor their pleasure unto times age-abiding,—to the end ye may become strong, and may eat the good of the land, and may suffer your children to possess it, unto times age-abiding."
+        },
+        {
+          "number": 13,
+          "text": "And, after all that hath come upon us, for our wicked doings, and for our great guilt—For, thou, O our God, hast spared us, punishing us less than our iniquities deserved, and hast given us a deliverance such as this,"
+        },
+        {
+          "number": 14,
+          "text": "should we again break thy commandments and join ourselves by affinity of marriage with the peoples of these abominations,—wouldst thou not be angry with us, unto a full end, that there should be neither remainder nor deliverance?"
+        },
+        {
+          "number": 15,
+          "text": "O Yahweh, God of Israel, righteous thou art, for we have had left us a deliverance as at this day,—here we are, before thee, in our guilty deeds, for there is no standing before thee, because of this thing!"
+        }
+      ]
+    },
+    "10": {
+      "chapter": 10,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Now, when Ezra had prayed and when he had made confession, weeping and casting himself down, before the house of God, there gathered unto him out of Israel, an exceeding large convocation—men and women and children, for the people wept with a very bitter weeping."
+        },
+        {
+          "number": 2,
+          "text": "Then responded Shecaniah son of Jehiel of the sons of Elam, and said unto Ezra, We, have been faithful with our God, and have married foreign women from among the peoples of the land,—yet, now, there is hope for Israel concerning this thing."
+        },
+        {
+          "number": 3,
+          "text": "Now, therefore, let us solemnize a covenant unto our God—to put away all the women and such as have been born of them, in the counsel of my lord, and them who tremble at the commandment of our God,—and, according to the law, let it be done."
+        },
+        {
+          "number": 4,
+          "text": "Arise, for, upon thee, resteth the thing, but, we, are with thee,—be strong, and act."
+        },
+        {
+          "number": 5,
+          "text": "Then arose Ezra and made the rulers of the priests, the Levites, and all Israel, swear to do according to this word—and they sware."
+        },
+        {
+          "number": 6,
+          "text": "Then arose Ezra from before the house of God, and went into the chamber of Jehohanan son of Eliashib,—and, when he came thither, bread, did he not eat, and, water, did he not drink, for he was mourning over the unfaithfulness of them of the Exile."
+        },
+        {
+          "number": 7,
+          "text": "Then made they a proclamation throughout Judah and Jerusalem, unto all the Sons of the Exile, to gather themselves together unto Jerusalem;"
+        },
+        {
+          "number": 8,
+          "text": "and, whosoever should not come within three days, according to the counsel of the rulers and the elders, all his goods should be devoted,—and, himself, be separated from the convocation of them of the Exile."
+        },
+        {
+          "number": 9,
+          "text": "Then were gathered together all the men of Judah and Benjamin unto Jerusalem, within three days, the same, was the ninth month, on the twentieth of the month,—and all the people remained in the broadway of the house of God, trembling concerning the thing, and because of the heavy rains."
+        },
+        {
+          "number": 10,
+          "text": "Then arose Ezra the priest, and said unto them, Ye, have acted unfaithfully, and have married foreign women,—to add unto the guilt of Israel."
+        },
+        {
+          "number": 11,
+          "text": "Now, therefore, make confession unto Yahweh God of your fathers, and do his pleasure,—and separate yourselves from the peoples of the land, and from the foreign women."
+        },
+        {
+          "number": 12,
+          "text": "Then responded all the convocation and said, with a loud voice,—Thus, according to thy word concerning us, must it be done."
+        },
+        {
+          "number": 13,
+          "text": "Nevertheless, the people, are many, and, the season, is that of the heavy rains, and we are not able to stand outside,—and, the business, is not one for a single day, nor yet for two, for we have abundantly transgressed, in this thing."
+        },
+        {
+          "number": 14,
+          "text": "Let, we beseech thee, our rulers take up their station for all the convocation, and, all who, throughout our cities, have married foreign women, let them come in at times appointed, and, with them, the elders of every city, and the judges thereof, until the glow of the anger of our God be turned from us, concerning this matter."
+        },
+        {
+          "number": 15,
+          "text": "Only Jonathan son of Asahel and Jahzeiah son of Tikvah, made a stand against this,—and, Meshullam and Shabbethai the Levite, helped them."
+        },
+        {
+          "number": 16,
+          "text": "But the Sons of the Exile, did thus, and Ezra the priest separated to himself certain men—ancestral heads by their ancestral houses, and all of them by name,—and they took their seats on the first day of the tenth month to search into the matter;"
+        },
+        {
+          "number": 17,
+          "text": "and they made an end with all the men who had married foreign women,—by the first day of the first month."
+        },
+        {
+          "number": 18,
+          "text": "Now there were found, of the sons of the priests, who had married foreign women,—of the sons of Jeshua son of Jozadak, and his brethren, Maaseiah, and Eliezer, and Jarib, and Gedaliah;"
+        },
+        {
+          "number": 19,
+          "text": "and they gave their hand, that they would put away their wives,—and, being guilty, [they offered] a ram of the flock for their guilt."
+        },
+        {
+          "number": 20,
+          "text": "And, of the sons of Immer, Hanani, and Zebadiah."
+        },
+        {
+          "number": 21,
+          "text": "And, of the sons of Harim, Maaseiah and Elijah and Shemaiah, and Jehiel, and Uzziah."
+        },
+        {
+          "number": 22,
+          "text": "And, of the sons of Passhur, Elioenai, Maaseiah, Ishmael, Nethanel, Jozabad, and Elasar."
+        },
+        {
+          "number": 23,
+          "text": "And, of the Levites, Jozabad and Shimei, and Kelaiah, the same, is Kelita, Pethahiah, Judah, and Eliezer."
+        },
+        {
+          "number": 24,
+          "text": "And, of the singers, Eliashib. And, of the doorkeepers, Shallum and Telem and Uri."
+        },
+        {
+          "number": 25,
+          "text": "And, of Israel, of the sons of Parosh, Ramiah and Izziah and Malchijah and Mijamin and Eleazar, and Malchijah, and Benaiah."
+        },
+        {
+          "number": 26,
+          "text": "And, of the sons of Elam, Mattaniah, Zechariah, and Jehiel and Abdi, and Jeremoth, and Elijah."
+        },
+        {
+          "number": 27,
+          "text": "And, of the sons of Zattu, Elioenai, Eliashib, Mattaniah and Jeremoth, and Zabad, and Aziza."
+        },
+        {
+          "number": 28,
+          "text": "And, of the sons of Bebai, Jehohanan, Hananiah, Zabbai, Athlai."
+        },
+        {
+          "number": 29,
+          "text": "And, of the sons of Bani, Meshullam, Malluch, and Adaiah, Jashub, and Sheal, Jeremoth."
+        },
+        {
+          "number": 30,
+          "text": "And, of the sons of Pahath-moab, Adna and Chelal,—Benaiah, Maaseiah, Mattaniah, Bezalel, and Binnui, and Manasseh."
+        },
+        {
+          "number": 31,
+          "text": "And, [of] the sons of Harim, Eliezer, Isshijah, Malchijah, Shemaiah, Shimeon;"
+        },
+        {
+          "number": 32,
+          "text": "Benjamin, Malluch, Shemariah."
+        },
+        {
+          "number": 33,
+          "text": "Of the sons of Hashum, Mattenai, Mattattah, Zabad, Eliphelet,—Jeremai, Manasseh, Shimei."
+        },
+        {
+          "number": 34,
+          "text": "Of the sons of Bani, Maadai, Amram, and Uel;"
+        },
+        {
+          "number": 35,
+          "text": "Benaiah, Bedeiah, Cheluhu;"
+        },
+        {
+          "number": 36,
+          "text": "Vaniah, Meremoth, Eliashib;"
+        },
+        {
+          "number": 37,
+          "text": "Mettaniah, Mattenai, and Jaasu;"
+        },
+        {
+          "number": 38,
+          "text": "and Bani, and Binnui, Shimei;"
+        },
+        {
+          "number": 39,
+          "text": "and Shelemiah, and Nathan, and Adaiah;"
+        },
+        {
+          "number": 40,
+          "text": "Machnadebai, Shashai, Sharai;"
+        },
+        {
+          "number": 41,
+          "text": "Azarel, and Shelemiah, Shemariah;"
+        },
+        {
+          "number": 42,
+          "text": "Shallum, Amariah, Joseph."
+        },
+        {
+          "number": 43,
+          "text": "Of the sons of Nebo, Jeiel, Mattithiah, Zabad, Zebina,—Iddo, and Joel, Benaiah."
+        },
+        {
+          "number": 44,
+          "text": "All these, had taken foreign women,—and had begotten of them children."
+        }
+      ]
+    }
+  }
+}

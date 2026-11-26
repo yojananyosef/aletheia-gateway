@@ -1,0 +1,649 @@
+{
+  "versionId": "Wycliffe",
+  "bookCode": "LAM",
+  "bookName": "Lamentaciones",
+  "testament": "AT",
+  "chapters": {
+    "1": {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Aleph. Hou sittith aloone the citee ful of puple? the ladi of folkis is maad as a widewe; the prince of prouynces is maad vndir tribute."
+        },
+        {
+          "number": 2,
+          "text": "Beth. It wepynge wepte in the niyt, and the teeris therof ben in `the chekis therof; `noon is of alle the dereworthe therof, that coumfortith it; alle the frendis therof forsoken it, and ben maad enemyes to it."
+        },
+        {
+          "number": 3,
+          "text": "Gymel. Juda passide fro turment and multitude of seruage, it dwellide among hethene men, and foond no reste; alle the pursueris therof token it among angwischis."
+        },
+        {
+          "number": 4,
+          "text": "Deleth. The weies of Sion mourenen, for no men comen to the solempnytee; alle the yatis therof ben distried, the prestis therof weilen; the vergyns therof ben defoulid, and it is oppressid with bitternesse."
+        },
+        {
+          "number": 5,
+          "text": "He. The enemyes therof ben maad in the heed, and the enemyes therof ben maad riche, for the Lord spak on it. For the multitude of wickidnessis therof the litle children therof ben led in to caitiftee, bifore the face of the troblere."
+        },
+        {
+          "number": 6,
+          "text": "Vau. And al the fairnesse of the douyter of Syon yede out fro the douyter of Sion; the princes therof ben maad as rammes not fyndynge lesewis; and yeden forth withouten strengthe bifore the face of the suere."
+        },
+        {
+          "number": 7,
+          "text": "Zai. And Jerusalem bithouyte on the daies of hir affliccioun and of trespassyng, and on alle hir desirable thingis whiche it hadde fro elde daies; whanne the puple therof felle doun in the hond of enemyes, and noon helpere was; enemyes sien it, and scorneden the sabatis therof."
+        },
+        {
+          "number": 8,
+          "text": "Heth. Jerusalem synnede a synne, therfor it was maad vnstidfast; alle that glorifieden it forsoken it, for thei sien the schenschipe therof; forsothe it weilide, and was turned a bak."
+        },
+        {
+          "number": 9,
+          "text": "Theth. The filthis therof ben in the feet therof, and it hadde no mynde of hir ende; it was putte doun greetli, and hadde no coumfortour; Lord, se thou my turment, for the enemye is reisid."
+        },
+        {
+          "number": 10,
+          "text": "Joth. The enemye putte his hond to alle desirable thingis therof; for it siy hethene men entride in to thi seyntuarie, of which thou haddist comaundid, that thei schulden not entre in to thi chirche."
+        },
+        {
+          "number": 11,
+          "text": "Caph. Al the puple therof was weilinge and sekynge breed, thei yauen alle preciouse thingis for mete, to coumforte the soule; se thou, Lord, and biholde, for Y am maad vijl."
+        },
+        {
+          "number": 12,
+          "text": "Lameth. A! alle ye that passen bi the weie, perseyue, and se, if ony sorewe is as my sorewe; for he gaderide awei grapis fro me, as the Lord spak in the day of wraththe of his strong veniaunce."
+        },
+        {
+          "number": 13,
+          "text": "Men. Fro an hiy he sente fier in my boonys, and tauyte me; he spredde a brood a net to my feet, he turnede me a bak; he settide me desolat, meddlid togidere al dai with mourenyng."
+        },
+        {
+          "number": 14,
+          "text": "Nun. The yok of my wickidnessis wakide in the hond of hym, tho ben foldid togidere, and put on my necke; my vertu is maad feble; the Lord yaf me in the hond, fro which Y schal not mowe rise."
+        },
+        {
+          "number": 15,
+          "text": "Sameth. The Lord took awei alle my worschipful men fro the myddis of me; he clepide tyme ayens me, that he schulde al to-foule my chosun men; the Lord stampide a pressour to the virgyn, the douytir of Juda."
+        },
+        {
+          "number": 16,
+          "text": "Ayn. Therfor Y am wepynge, and myn iye is ledynge doun watir; for a coumfortour, conuertynge my soule, is maad fer fro me; my sones ben maad lost, for the enemye hadde the maistrie."
+        },
+        {
+          "number": 17,
+          "text": "Phe. Sion spredde a brood hise hondis, noon is that coumfortith it; the Lord sente ayenus Jacob enemyes therof, in the cumpas therof; Jerusalem is maad as defoulid with vncleene blood among hem."
+        },
+        {
+          "number": 18,
+          "text": "Sade. The Lord is iust, for Y terride his mouth to wrathfulnesse; alle puplis, Y biseche, here ye, and se my sorewe; my virgyns and my yonge men yeden forth in to caitiftee."
+        },
+        {
+          "number": 19,
+          "text": "Coth. I clepide my frendis, and thei disseyueden me; my prestis and myn elde men in the citee ben wastid; for thei souyten mete to hem silf, to coumforte hir lijf."
+        },
+        {
+          "number": 20,
+          "text": "Res. Se thou, Lord, for Y am troblid, my wombe is disturblid; myn herte is distried in my silf, for Y am ful of bittirnesse; swerd sleeth with outforth, and lijk deth is at hoome."
+        },
+        {
+          "number": 21,
+          "text": "Syn. Thei herden, that Y make ynward weilyng, and noon is that coumfortith me; alle myn enemyes herden myn yuel, thei ben glad, for thou hast do; thou hast brouyt a dai of coumfort, and thei schulen be maad lijk me."
+        },
+        {
+          "number": 22,
+          "text": "Tau. Al the yuel of hem entre byfore thee, and gadere thou grapis awei fro hem, as thou hast gaderid grapis awei fro me; for my wickidnessis, for my weilyngis ben manye, and myn herte is mornynge."
+        }
+      ]
+    },
+    "2": {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Aleph. Hou hath the Lord hilid the douyter of Sion with derknesse in his strong veniaunce? he hath caste doun fro heuene in to erthe the noble citee of Israel; and bithouyte not on the stool of hise feet, in the dai of his strong veniaunce."
+        },
+        {
+          "number": 2,
+          "text": "Beth. The Lord castide doun, and sparide not alle the faire thingis of Jacob; he distried in his strong veniaunce the strengthis of the virgyn of Juda, and castide doun in to erthe; he defoulide the rewme, and the princes therof."
+        },
+        {
+          "number": 3,
+          "text": "Gymel. He brak in the ire of his strong veniaunce al the horn of Israel; he turnede a bak his riyt hond fro the face of the enemy; and he kyndlide in Jacob, as fier of flawme deuowrynge in cumpas."
+        },
+        {
+          "number": 4,
+          "text": "Deleth. He as an enemye bente his bouwe, he as an aduersarie made stidfast his riyt hond; and he killide al thing that was fair in siyt in the tabernacle of the douytir of Sion; he schedde out his indignacioun as fier."
+        },
+        {
+          "number": 5,
+          "text": "He. The Lord is maad as an enemy; he castide doun Israel, he castide doun alle the wallis therof; he destriede the strengthis therof, and fillide in the douyter of Juda a man maad low, and a womman maad low."
+        },
+        {
+          "number": 6,
+          "text": "Vau. And he scateride his tent as a gardyn, he distried his tabernacle; the Lord yaf to foryetyng in Sion a feeste dai, and sabat; and the kyng and prest in to schenschipe, and in to the indignacioun of his strong veniaunce."
+        },
+        {
+          "number": 7,
+          "text": "Zai. The Lord puttide awei his auter, he curside his halewyng; he bitook in to the hondis of enemy the wallis of the touris therof; thei yauen vois in the hous of the Lord, as in a solempne dai."
+        },
+        {
+          "number": 8,
+          "text": "Heth. The Lord thouyte to distrie the wal of the douyter of Sion; he stretchide forth his coorde, and turnede not awei his hond fro perdicioun; the forwal, ether the outerward, mourenyde, and the wal was distried togidere."
+        },
+        {
+          "number": 9,
+          "text": "Teth. The yatis therof ben piyt in the erthe, he loste and al to-brak the barris therof; the kyng therof and the princes therof among hethene men; the lawe is not, and the profetis therof founden not of the Lord a visioun."
+        },
+        {
+          "number": 10,
+          "text": "Joth. Thei saten in erthe, the elde men of the douytir of Sion weren stille; thei bispreynten her heedis with aische, the eldere men of Juda ben girt with hairis; the virgyns of Juda castiden doun to erthe her heedis."
+        },
+        {
+          "number": 11,
+          "text": "Caph. Myn iyen failiden for teeris, myn entrails weren disturblid; my mawe was sched out in erthe on the sorewe of the douyter of my puple; whanne a litil child and soukynge failide in the stretis of the citee."
+        },
+        {
+          "number": 12,
+          "text": "Lameth. Thei seiden to her modris, Where is wheete, and wyn? whanne thei failiden as woundid men in the stretis of the citee; whanne thei senten out her soulis in the bosum of her modris."
+        },
+        {
+          "number": 13,
+          "text": "Men. To whom schal Y comparisoun thee? ether to whom schal Y licne thee, thou douyter of Jerusalem? to whom schal Y make thee euene, and schal Y coumforte thee, thou virgyn, the douyter of Sion? for whi thi sorewe is greet as the see; who schal do medicyn to thee?"
+        },
+        {
+          "number": 14,
+          "text": "Nun. Thi profetis sien to thee false thingis, and fonned; and openyden not thi wickidnesse, that thei schulden stire thee to penaunce; but thei sien to thee false takyngis, and castyngis out."
+        },
+        {
+          "number": 15,
+          "text": "Sameth. Alle men passynge on the weie flappiden with hondis on thee; thei hissiden, and mouyden her heed on the douyter of Jerusalem; and seiden, This is the citee of perfit fairnesse, the ioie of al erthe."
+        },
+        {
+          "number": 16,
+          "text": "Ayn. Alle thin enemyes openyden her mouth on thee; thei hissiden, and gnaistiden with her teeth, and seiden, We schulen deuoure; lo! this is the dai which we abididen, we founden, we sien."
+        },
+        {
+          "number": 17,
+          "text": "Phe. The Lord dide tho thingis whiche he thouyte, he fillide hise word which he hadde comaundid fro elde daies; he distriede, and sparide not; and made glad the enemy on thee, and enhaunside the horn of thin enemyes."
+        },
+        {
+          "number": 18,
+          "text": "Sade. The herte of hem criede to the Lord, on the wallis of the douyter of Syon; leede thou forth teeris as a stronde, bi dai and niyt; yyue thou not reste to thee, nether the appil of thin iye be stille."
+        },
+        {
+          "number": 19,
+          "text": "Coph. Rise thou togidere, herie thou in the nyyt, in the begynnyng of wakyngis; schede out thin herte as watir, bifore the siyt of the Lord; reise thin hondis to hym for the soulis of thi litle children, that failiden for hungur in the heed of alle meetyngis of weies."
+        },
+        {
+          "number": 20,
+          "text": "Res. Se thou, Lord, and byholde, whom thou hast maad so bare; therfor whether wymmen schulen ete her fruyt, litle children at the mesure of an hond? for a prest and profete is slayn in the seyntuarie of the Lord."
+        },
+        {
+          "number": 21,
+          "text": "Syn. A child and an elde man laien on the erthe withoutforth; my virgyns and my yonge men fellen doun bi swerd; thou hast slayn hem in the dai of thi strong veniaunce, thou smotist `and didist no merci."
+        },
+        {
+          "number": 22,
+          "text": "Thau. Thou clepidist, as to a solempne dai, hem that maden me aferd of cumpas; and noon was that ascapide in the dai of the strong veniaunce of the Lord, and was left; myn enemy wastide hem, whiche Y fedde, and nurschide up."
+        }
+      ]
+    },
+    "3": {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Aleph. I am a man seynge my pouert in the yerde of his indignacioun."
+        },
+        {
+          "number": 2,
+          "text": "Aleph. He droof me, and brouyte in to derknessis, and not in to liyt."
+        },
+        {
+          "number": 3,
+          "text": "Aleph. Oneli he turnede in to me, and turnede togidere his hond al dai."
+        },
+        {
+          "number": 4,
+          "text": "Beth. He made eld my skyn, and my fleisch; he al to-brak my boonys."
+        },
+        {
+          "number": 5,
+          "text": "Beth. He bildid in my cumpas, and he cumpasside me with galle and trauel."
+        },
+        {
+          "number": 6,
+          "text": "Beth. He settide me in derk places, as euerlastynge deed men."
+        },
+        {
+          "number": 7,
+          "text": "Gymel. He bildide aboute ayens me, that Y go not out; he aggregide my gyues."
+        },
+        {
+          "number": 8,
+          "text": "Gymel. But and whanne Y crie and preye, he hath excludid my preier."
+        },
+        {
+          "number": 9,
+          "text": "Gymel. He closide togidere my weies with square stoonus; he distriede my pathis."
+        },
+        {
+          "number": 10,
+          "text": "Deleth. He is maad a bere settinge aspies to me, a lioun in hid places."
+        },
+        {
+          "number": 11,
+          "text": "Deleth. He distriede my pathis, and brak me; he settide me desolat."
+        },
+        {
+          "number": 12,
+          "text": "Deleth. He bente his bowe, and settide me as a signe to an arowe."
+        },
+        {
+          "number": 13,
+          "text": "He. He sente in my reynes the douytris of his arowe caas."
+        },
+        {
+          "number": 14,
+          "text": "He. Y am maad in to scorn to al the puple, the song of hem al dai."
+        },
+        {
+          "number": 15,
+          "text": "He. He fillide me with bitternesses; he gretli fillide me with wermod."
+        },
+        {
+          "number": 16,
+          "text": "Vau. He brak at noumbre my teeth; he fedde me with aische."
+        },
+        {
+          "number": 17,
+          "text": "Vau. And my soule is putte awei; Y haue foryete goodis."
+        },
+        {
+          "number": 18,
+          "text": "Vau. And Y seide, Myn ende perischide, and myn hope fro the Lord."
+        },
+        {
+          "number": 19,
+          "text": "Zai. Haue thou mynde on my pouert and goyng ouer, and on wermod and galle."
+        },
+        {
+          "number": 20,
+          "text": "Zai. Bi mynde Y schal be myndeful; and my soule schal faile in me."
+        },
+        {
+          "number": 21,
+          "text": "Zai. Y bithenkynge these thingis in myn herte, schal hope in God."
+        },
+        {
+          "number": 22,
+          "text": "Heth. The mercies of the Lord ben manye, for we ben not wastid; for whi hise merciful doyngis failiden not."
+        },
+        {
+          "number": 23,
+          "text": "Heth. Y knew in the morewtid; thi feith is miche."
+        },
+        {
+          "number": 24,
+          "text": "Heth. My soule seide, The Lord is my part; therfor Y schal abide hym."
+        },
+        {
+          "number": 25,
+          "text": "Teth. The Lord is good to hem that hopen in to hym, to a soule sekynge hym."
+        },
+        {
+          "number": 26,
+          "text": "Teth. It is good to abide with stilnesse the helthe of God."
+        },
+        {
+          "number": 27,
+          "text": "Teth. It is good to a man, whanne he hath bore the yok fro his yongthe."
+        },
+        {
+          "number": 28,
+          "text": "Joth. He schal sitte aloone, and he schal be stille; for he reiside hym silf aboue hym silf."
+        },
+        {
+          "number": 29,
+          "text": "Joth. He schal sette his mouth in dust, if perauenture hope is."
+        },
+        {
+          "number": 30,
+          "text": "Joth. He schal yyue the cheke to a man that smytith hym; he schal be fillid with schenschipis."
+        },
+        {
+          "number": 31,
+          "text": "Caph. For the Lord schal not putte awei with outen ende."
+        },
+        {
+          "number": 32,
+          "text": "Caph. For if he castide awei, and he schal do merci bi the multitude of hise mercies."
+        },
+        {
+          "number": 33,
+          "text": "Caph. For he makide not low of his herte; and castide not awei the sones of men. Lameth."
+        },
+        {
+          "number": 34,
+          "text": "That he schulde al to-foule vndur hise feet alle the boundun men of erthe. Lameth."
+        },
+        {
+          "number": 35,
+          "text": "That he schulde bowe doun the dom of man, in the siyt of the cheer of the hiyeste."
+        },
+        {
+          "number": 36,
+          "text": "Lameth. That he schulde peruerte a man in his dom, the Lord knew not."
+        },
+        {
+          "number": 37,
+          "text": "Men. Who is this that seide, that a thing schulde be don, whanne the Lord comaundide not?"
+        },
+        {
+          "number": 38,
+          "text": "Men. Nether goodis nether yuels schulen go out of the mouth of the hiyeste."
+        },
+        {
+          "number": 39,
+          "text": "Men. What grutchide a man lyuynge, a man for hise synnes?"
+        },
+        {
+          "number": 40,
+          "text": "Nun. Serche we oure weies, and seke we, and turne we ayen to the Lord."
+        },
+        {
+          "number": 41,
+          "text": "Nun. Reise we oure hertis with hondis, to the Lord in to heuenes."
+        },
+        {
+          "number": 42,
+          "text": "Nun. We han do wickidli, and han terrid thee to wraththe; therfor thou art not able to be preied."
+        },
+        {
+          "number": 43,
+          "text": "Sameth. Thou hilidist in stronge veniaunce, and smitidist vs; thou killidist, and sparidist not."
+        },
+        {
+          "number": 44,
+          "text": "Sameth. Thou settidist a clowde to thee, that preier passe not."
+        },
+        {
+          "number": 45,
+          "text": "Sameth. Thou settidist me, drawing vp bi the roote, and castynge out, in the myddis of puplis."
+        },
+        {
+          "number": 46,
+          "text": "Ayn. Alle enemyes openyden her mouth on vs."
+        },
+        {
+          "number": 47,
+          "text": "Ayn. Inward drede and snare is maad to vs, profesie and defoulyng."
+        },
+        {
+          "number": 48,
+          "text": "Ayn. Myn iyen ledden doun departyngis of watris, for the defoulyng of the douyter of my puple."
+        },
+        {
+          "number": 49,
+          "text": "Phe. Myn iye was turmentid, and was not stille; for no reste was."
+        },
+        {
+          "number": 50,
+          "text": "Phe. Vntil the Lord bihelde, and siy fro heuenes."
+        },
+        {
+          "number": 51,
+          "text": "Phe. Myn iye robbide my soule in alle the douytris of my citee."
+        },
+        {
+          "number": 52,
+          "text": "Sade. Myn enemyes token me with out cause, bi huntyng as a brid."
+        },
+        {
+          "number": 53,
+          "text": "Sade. My lijf slood in to a lake; and thei puttiden a stoon on me."
+        },
+        {
+          "number": 54,
+          "text": "Sade. Watris flowiden ouer myn heed; Y seide, Y perischide."
+        },
+        {
+          "number": 55,
+          "text": "Coph. Lord, Y clepide to help thi name, fro the laste lake."
+        },
+        {
+          "number": 56,
+          "text": "Coph. Thou herdist my vois; turne thou not awei thin eere fro my sobbyng and cries."
+        },
+        {
+          "number": 57,
+          "text": "Coph. Thou neiyidist to me in the dai, wherynne Y clepide thee to help; thou seidist, Drede thou not."
+        },
+        {
+          "number": 58,
+          "text": "Res. Lord, ayenbiere of my lijf, thou demydist the cause of my soule."
+        },
+        {
+          "number": 59,
+          "text": "Res. Lord, thou siest the wickidnesse of hem ayens me; deme thou my doom."
+        },
+        {
+          "number": 60,
+          "text": "Res. Thou siest al the woodnesse, alle the thouytis of hem ayenus me."
+        },
+        {
+          "number": 61,
+          "text": "Syn. Lord, thou herdist the schenshipis of hem; alle the thouytis of hem ayens me."
+        },
+        {
+          "number": 62,
+          "text": "Syn. The lippis of men risynge ayens me, and the thouytis of hem ayens me al dai."
+        },
+        {
+          "number": 63,
+          "text": "Syn. Se thou the sittynge and risyng ayen of hem; Y am the salm of hem."
+        },
+        {
+          "number": 64,
+          "text": "Thau. Lord, thou schalt yelde while to hem, bi the werkis of her hondis."
+        },
+        {
+          "number": 65,
+          "text": "Tau. Thou schalt yyue to hem the scheeld of herte, thi trauel."
+        },
+        {
+          "number": 66,
+          "text": "Tau. Lord, thou schalt pursue hem in thi strong veniaunce, and thou schalt defoule hem vndur heuenes."
+        }
+      ]
+    },
+    "4": {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Aleph. How is gold maad derk, the beste colour is chaungid? the stonys of the seyntuarie ben scaterid in the heed of alle stretis."
+        },
+        {
+          "number": 2,
+          "text": "Beth. The noble sones of Sion, and clothid with the best gold, hou ben thei arettid in to erthene vessels, in to the werk of the hondis of a pottere?"
+        },
+        {
+          "number": 3,
+          "text": "Gimel. But also lamyes maden nakid her tetis, yauen mylk to her whelpis; the douyter of my puple is cruel, as an ostrig in desert."
+        },
+        {
+          "number": 4,
+          "text": "Deleth. The tonge of the soukynge childe cleued to his palat in thirst; litle children axiden breed, and noon was that brak to hem."
+        },
+        {
+          "number": 5,
+          "text": "He. Thei that eeten lustfuli, perischiden in weies; thei that weren nurschid in cradels, biclippiden toordis."
+        },
+        {
+          "number": 6,
+          "text": "Vau. And the wickidnesse of the douyter of my puple is maad more than the synne of men of Sodom, that was distried in a moment, and hondis token not therynne."
+        },
+        {
+          "number": 7,
+          "text": "Zai. Nazareis therof weren whitere than snow, schynyngere than mylk; rodier than elde yuer, fairere than safire."
+        },
+        {
+          "number": 8,
+          "text": "Heth. The face of hem was maad blackere than coolis, and thei weren not knowun in stretis; the skyn cleuyde to her boonys, it driede, and was maad as a tre."
+        },
+        {
+          "number": 9,
+          "text": "Teth. It was betere to men slayn with swerd, than to men slayn with hungur; for these men wexiden rotun, thei weren wastid of the bareynesse of erthe."
+        },
+        {
+          "number": 10,
+          "text": "Joth. The hondis of merciful wymmen sethiden her children; thei weren maad the metis of tho wymmen in the sorewe of the douyter of my puple."
+        },
+        {
+          "number": 11,
+          "text": "Caph. The Lord fillide his strong veniaunce, he schedde out the ire of his indignacioun; and the Lord kyndlide a fier in Sion, and it deuouride the foundementis therof."
+        },
+        {
+          "number": 12,
+          "text": "Lamet. The kyngis of erthe, and alle dwelleris of the world bileueden not, that an aduersarie and enemy schulde entre bi the yatis of Jerusalem."
+        },
+        {
+          "number": 13,
+          "text": "Men. For the synnes of the profetis therof, and for wickidnessis of preestis therof, that schedden out the blood of iust men in the myddis therof."
+        },
+        {
+          "number": 14,
+          "text": "Nun. Blynde men erryden in stretis, thei weren defoulid in blood; and whanne thei miyten not go, thei helden her hemmes."
+        },
+        {
+          "number": 15,
+          "text": "Samet. Thei crieden to hem, Departe awei, ye defoulide men, departe ye, go ye awei, nyle ye touche; forsothe thei chidden, and weren stirid; thei seiden among hethene men, God schal no more leie to, that he dwelle among hem."
+        },
+        {
+          "number": 16,
+          "text": "Ayn. The face of the Lord departide hem, he schal no more leie to, that he biholde hem; thei weren not aschamed of the faces of preestis, nether thei hadden merci on eld men."
+        },
+        {
+          "number": 17,
+          "text": "Phe. The while we stoden yit, oure iyen failiden to oure veyn help; whanne we bihelden ententif to a folc, that myyte not saue vs."
+        },
+        {
+          "number": 18,
+          "text": "Sade. Oure steppis weren slidir in the weie of oure stretis; oure ende neiyede, oure daies weren fillid, for oure ende cam."
+        },
+        {
+          "number": 19,
+          "text": "Coph. Oure pursueris weren swiftere than the eglis of heuene; thei pursueden vs on hillis, thei settiden buschementis to vs in desert."
+        },
+        {
+          "number": 20,
+          "text": "Res. The spirit of oure mouth, Crist the Lord, was takun in oure synnes; to whom we seiden, We schulen lyue in thi schadewe among hethene men."
+        },
+        {
+          "number": 21,
+          "text": "Syn. Thou douyter of Edom, make ioye, and be glad, that dwellist in the lond of Hus; the cuppe schal come also to thee, thou schalt be maad drunkun, and schalt be maad bare."
+        },
+        {
+          "number": 22,
+          "text": "Thau. Thou douyter of Sion, thi wickidnesse is fillid; he schal not adde more, that he make thee to passe ouer; thou douyter of Edom, he schal visite thi wickidnesse, he schal vnhile thi synnes."
+        }
+      ]
+    },
+    "5": {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": 1,
+          "text": "Lord, haue thou mynde what bifelle to vs; se thou, and biholde oure schenschipe."
+        },
+        {
+          "number": 2,
+          "text": "Oure eritage is turned to aliens, oure housis ben turned to straungers."
+        },
+        {
+          "number": 3,
+          "text": "We ben maad fadirles children with out fadir; oure modris ben as widewis."
+        },
+        {
+          "number": 4,
+          "text": "We drunken oure watir for monei, we bouyten oure trees for siluer."
+        },
+        {
+          "number": 5,
+          "text": "We weren dryuun bi oure heedis, and reste was not youun to feynt men."
+        },
+        {
+          "number": 6,
+          "text": "We yauen hond to Egipt, and to Assiriens, that we schulden be fillid with breed."
+        },
+        {
+          "number": 7,
+          "text": "Oure fadris synneden, and ben not, and we baren the wickidnessis of hem."
+        },
+        {
+          "number": 8,
+          "text": "Seruauntis weren lordis of vs, and noon was, that ayenbouyte fro the hond of hem."
+        },
+        {
+          "number": 9,
+          "text": "In oure lyues we brouyten breed to vs, fro the face of swerd in desert."
+        },
+        {
+          "number": 10,
+          "text": "Oure skynne is brent as a furneis, of the face of tempestis of hungur."
+        },
+        {
+          "number": 11,
+          "text": "Thei maden low wymmen in Sion, and virgyns in the citees of Juda."
+        },
+        {
+          "number": 12,
+          "text": "Princes weren hangid bi the hond; thei weren not aschamed of the faces of elde men."
+        },
+        {
+          "number": 13,
+          "text": "Thei mysusiden yonge wexynge men vnchastli, and children fellen doun in tree."
+        },
+        {
+          "number": 14,
+          "text": "Elde men failiden fro yatis; yonge men failiden of the queer of singeris."
+        },
+        {
+          "number": 15,
+          "text": "The ioie of oure herte failide; oure song is turned in to mourenyng."
+        },
+        {
+          "number": 16,
+          "text": "The coroun of oure heed fellen doun; wo to vs! for we synneden."
+        },
+        {
+          "number": 17,
+          "text": "Therfor oure herte is maad soreuful, therfor oure iyen ben maad derk."
+        },
+        {
+          "number": 18,
+          "text": "For the hil of Sion, for it perischide; foxis yeden in it."
+        },
+        {
+          "number": 19,
+          "text": "But thou, Lord, schal dwelle with outen ende; thi seete schal dwelle in generacioun and in to generacioun."
+        },
+        {
+          "number": 20,
+          "text": "Whi schalt thou foryete vs with outen ende, schalt thou forsake vs in to lengthe of daies?"
+        },
+        {
+          "number": 21,
+          "text": "Lord, conuerte thou vs to thee, and we schal be conuertid; make thou newe oure daies, as at the bigynnyng."
+        },
+        {
+          "number": 22,
+          "text": "But thou castynge awei hast cast awei vs; thou art wrooth ayens vs greetli."
+        }
+      ]
+    }
+  }
+}

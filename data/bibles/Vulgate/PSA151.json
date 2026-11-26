@@ -1,0 +1,41 @@
+{
+  "versionId": "Vulgate",
+  "bookCode": "PSA151",
+  "bookName": "Salmo 151",
+  "testament": "AT",
+  "chapters": {
+    "1": {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": 1,
+          "text": "hic psalmus proprie scriptus David et extra numerum cum pugnavit cum Goliad pusillus eram inter fratres meos et adulescentior in domo patris mei pascebam oves patris mei"
+        },
+        {
+          "number": 2,
+          "text": "manus meae fecerunt organum digiti mei aptaverunt psalterium"
+        },
+        {
+          "number": 3,
+          "text": "et quis adnuntiabit Domino meo ipse Dominus ipse omnium exaudiet"
+        },
+        {
+          "number": 4,
+          "text": "ipse misit angelum suum et tulit me de ovibus patris mei et unxit me in misericordia unctionis suae"
+        },
+        {
+          "number": 5,
+          "text": "fratres mei boni et magni et non fuit beneplacitum in eis Domino"
+        },
+        {
+          "number": 6,
+          "text": "exivi obviam alienigenae et maledixit mihi in simulacris suis"
+        },
+        {
+          "number": 7,
+          "text": "ego autem evaginato ab eo ipsius gladio amputavi caput eius et abstuli obprobrium de filiis Israhel"
+        }
+      ]
+    }
+  }
+}
