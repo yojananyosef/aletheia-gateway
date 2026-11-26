@@ -3,8 +3,10 @@
  * Canal `BroadcastChannel` + ventana `/projection`. Sin dependencias UI.
  */
 
+import { withBase } from '../../../shared/utils/cacheBust';
+
 export const PROJECTION_CHANNEL = 'bible-projection-channel';
-export const PROJECTION_URL = '/projection';
+export const PROJECTION_URL = withBase('/projection');
 
 export interface ProjectionPassage {
   book: string;
