@@ -8,7 +8,13 @@ import tailwindcss from '@tailwindcss/vite';
 const BUILD_ID =
   process.env.VERCEL_GIT_COMMIT_SHA?.slice(0, 12) ?? process.env.GITHUB_SHA?.slice(0, 12) ?? Date.now().toString(36);
 
+// GitHub Pages sirve los sitios de proyecto bajo /<repo>/. La base se puede
+// sobreescribir para un dominio propio (PAGES_BASE_PATH=/).
+const BASE = process.env.PAGES_BASE_PATH ?? '/';
+
 export default defineConfig({
+  site: process.env.PAGES_SITE_URL ?? 'https://yojananyosef.github.io',
+  base: BASE,
   integrations: [svelte()],
   vite: {
     define: {

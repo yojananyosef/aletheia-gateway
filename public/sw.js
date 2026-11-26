@@ -19,7 +19,11 @@ const SHELL_CACHE = `aletheia-shell-${VERSION}`;
 const DATA_CACHE = `aletheia-data-${VERSION}`;
 const KEEP = [SHELL_CACHE, DATA_CACHE];
 
-const PRECACHE = ['/', '/projection', '/manifest.webmanifest', '/favicon.svg', '/icon.svg'];
+// El worker vive en /<repo>/sw.js. El scope da la base real, así que las rutas
+// funcionan tanto en GitHub Pages (/aletheia-gateway/) como en un dominio raíz.
+const BASE = new URL(self.registration.scope).pathname.replace(/\/$/, '');
+const ROOT = `${BASE}/`;
+const PRECACHE = [ROOT, `${BASE}/projection`, `${BASE}/manifest.webmanifest`, `${BASE}/favicon.svg`, `${BASE}/icon.svg`];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -72,7 +76,7 @@ function networkFirstShell(request) {
       const cachesFor = await caches.open(SHELL_CACHE);
       const exacto = await cachesFor.match(request);
       if (exacto) return exacto;
-      const shell = await caches.match('/');
+      const shell = await caches.match(ROOT);
       return shell || Response.error();
     });
 }
@@ -95,7 +99,7 @@ self.addEventListener('fetch', (event) => {
   }
 
   // Datos JSON: cache-first (cada `?v=` distinto se cachea aparte).
-  if (url.pathname.startsWith('/data/')) {
+  if (url.pathname.startsWith(`${BASE}/data/`)) {
     event.respondWith(cacheFirst(request, DATA_CACHE));
     return;
   }

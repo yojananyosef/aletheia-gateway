@@ -1,6 +1,6 @@
 import type { IStrongRepository } from '../domain/IStrongRepository';
 import type { StrongEntry, StrongTestament } from '../domain/StrongEntry';
-import { cacheBust } from '../../../shared/utils/cacheBust';
+import { cacheBust, withBase } from '../../../shared/utils/cacheBust';
 import { FetchCache } from '../../../shared/utils/fetchCache';
 
 interface RawStrongEntry {
@@ -62,7 +62,7 @@ export class JsonStrongRepository implements IStrongRepository {
           rvDefinition: raw.RVDefinition || '',
           stepGloss: raw.stepGloss || '',
           stepDefinition: raw.stepDefinition || '',
-          audioPath: `/audio/strong/${folder}/${number}.mp3`,
+          audioPath: withBase(`/audio/strong/${folder}/${number}.mp3`),
         } as StrongEntry;
       })
       .filter((entry): entry is StrongEntry => entry !== null)
